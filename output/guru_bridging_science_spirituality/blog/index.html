@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>गुरू — विज्ञान आणि अध्यात्म यांना जोडणारा सेतू | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — गुरू — विज्ञान आणि अध्यात्म यांना जोडणारा सेतू">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>मराठी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="गुरू — विज्ञान आणि अध्यात्म यांना जोडणारा सेतू | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>गुरू — विज्ञान आणि अध्यात्म यांना जोडणारा सेतू</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ४ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../guru_bridging_science_spirituality_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=CT4y8LiHBU4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: आजचा प्रश्न विचारणारा माणूस</h2><p>आजचा माणूस प्रश्न विचारतो. त्याला केवळ श्रद्धा नको, त्याला कारण हवं, लॉजिक हवं. अशा माणसाला अध्यात्म दूर का वाटतं, आणि त्याला उत्तर कोण देऊ शकतो? या छोट्याशा प्रवचनात आचार्य उपेंद्र जी हाच प्रश्न मांडतात — आणि सांगतात की या युगात गुरूने विज्ञानाच्या भाषेत बोलणं का आवश्यक आहे.</p><h2 id="hi-s2">शरीर, मन, बुद्धी आणि आत्मा</h2><p>आचार्य जी सुरुवात करतात श्रीकृष्णाने सांगितलेल्या क्रमापासून:</p><blockquote><p>"तो सायन्सवादी असो — तो बुद्धिवादी असतो. बुद्धी ही मनापेक्षा श्रेष्ठ सांगितलेली आहे. शरीरापेक्षा मन श्रेष्ठ, कृष्ण म्हणतो, आणि या तिघांपेक्षा श्रेष्ठ आत्मा."</p></blockquote><p>हाच क्रम भगवद्गीतेत असा येतो:</p><blockquote class="verse"><p><strong>इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।</strong><br><strong>मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः॥</strong><br>इंद्रिये श्रेष्ठ म्हटली आहेत, इंद्रियांपेक्षा मन श्रेष्ठ, मनापेक्षा बुद्धी श्रेष्ठ, आणि जो बुद्धीच्याही पलीकडे आहे तो — आत्मा.<br>— श्रीमद्भगवद्गीता ३.४२</p></blockquote><p>या क्रमात विज्ञान मानणाऱ्या माणसाचं स्थान कुठे आहे, हे आचार्य जी स्पष्ट करतात:</p><blockquote><p>"बुद्धिजीवी आला, सायन्सवादी, विज्ञानवाला — कृष्ण सांगतो, हा खरा higher माणूस आहे. तो खरा higher आहे."</p></blockquote><p>म्हणजे प्रश्न विचारणारा, बुद्धीने तपासणारा माणूस चुकीचा नाही; उलट, <strong>बुद्धी ही मनापेक्षा उच्च पातळी आहे.</strong></p><h2 id="hi-s3">भावाचा माणूस आणि प्रश्नाचा माणूस</h2><p>आजच्या धार्मिक जीवनाकडे पाहताना आचार्य जी एक फरक दाखवतात:</p><blockquote><p>"आपल्याकडे आज मंदिरात तो भक्तीवाला माणूस जास्ती आहे — मनाने, तो भाव. ते सगळं ठीक आहे. पण तो उच्च लेव्हलला प्रश्न — जसे मला लहानपणी प्रश्न पडले होते — तसा प्रश्न पडणारा माणूस आहे."</p></blockquote><p>अशा प्रश्नांना उत्तर कोण देऊ शकतो? आचार्य जी स्पष्ट सांगतात:</p><blockquote><p>"उत्तर द्यायला त्या बुद्धीवाला किंवा बुद्धीच्या वरचा पाहिजे — realized master, त्याला म्हणतात साक्षात्कारी, आत्मावाला."</p></blockquote><p><em>साक्षात्कारी</em> म्हणजे ज्याने आत्म्याचा प्रत्यक्ष अनुभव घेतला आहे. केवळ भावनेवर उभा असलेला माणूस बुद्धीच्या प्रश्नांना पुरेसा पडत नाही:</p><blockquote><p>"तो भावनिक वाला माणूस त्याला उत्तर देऊ शकत नाही, म्हणून त्याला पटत नाही."</p></blockquote><h2 id="hi-s4">कलियुग: बुद्धीचं युग</h2><p>हा प्रश्न आज इतका महत्त्वाचा का झाला आहे? आचार्य जी युगाकडे लक्ष वेधतात:</p><blockquote><p>"आणि युग कुठलं चालू आहे? कलियुग. कलियुगमध्ये काय असणार? यंत्राचं युग असणार, बुद्धीचं युग असणार. त्यामुळे बुद्धीवाले लोक खूप झाले. ते चुकीचे नाहीयेत."</p></blockquote><p><strong>दोष प्रश्न विचारणाऱ्याचा नाही, उत्तर न देऊ शकणाऱ्यांचा आहे</strong> — हे आचार्य जी थेट मांडतात:</p><blockquote><p>"आपण त्याला उत्तर देऊ शकत नाही, हा प्रॉब्लेम आहे."</p></blockquote><p>आणि हे प्रश्न कोणते आहेत, तेही ते सांगतात:</p><ul><li>"आठ हात कसे? बारा हात कसे?"</li><li>"तो हत्तीची सोंड म्हणजे काय? हे काय, त्याचं लॉजिक?"</li><li>"ही पूजा केली तर त्याचं फळ येतं का?"</li></ul><h2 id="hi-s5">फलश्रुती का दिसत नाही?</h2><p><em>फलश्रुती</em> म्हणजे साधनेचं प्रत्यक्ष फळ. आचार्य जी प्रामाणिकपणे मान्य करतात की आज हेच दाखवता येत नाही:</p><blockquote><p>"आणि ती फलश्रुती मंत्रसाधनेची दाखवता येत नाहीये. प्रॉब्लेम तो आहे की नाही, सांगा? फलश्रुती दाखवता येत नाहीये."</p></blockquote><p>याचं कारण ते साधनेच्या पद्धतीत शोधतात:</p><blockquote><p>"तुमच्या मंत्रसिद्धी, तुमचे ते मंत्र जागृत नाही झाले. पद्धत आपली तरी चुकली — म्हणजे आत्मस्तरावर आपण गेलेलो नाहीये, खऱ्या गुरूकडे."</p></blockquote><blockquote><p>"नुसती भक्ती चालू आहे, आणि नुसतं कर्म शरीरबोधाला चालू आहे."</p></blockquote><p>म्हणजे भक्ती मनाच्या पातळीवर आणि कर्म शरीराच्या पातळीवर अडकून राहिलं आहे. <strong>आत्म्याच्या स्तरावर, खऱ्या गुरूपर्यंत पोहोचल्याशिवाय मंत्र जागृत होत नाहीत.</strong></p><h2 id="hi-s6">स्वामी चिन्मयानंदांची भविष्यवाणी</h2><p>ही परिस्थिती येणार आहे, हे आधीच सांगितलं गेलं होतं. आचार्य जी स्वामी चिन्मयानंदांचे शब्द आठवतात:</p><blockquote><p>"स्वामी चिन्मयानंद सांगायचे की एक टाईम येईल, जेव्हा बुद्धिवादी लोक खूप वाढतील, आणि तेव्हा फक्त भक्तीवाले उत्तर देऊ शकणार नाहीत. तेव्हा कुठेतरी गुरूला जागृत व्हायला लागेल, सायन्सच्या भाषेत त्याला उत्तर द्यायला लागेल."</p></blockquote><p><strong>या युगात गुरूची भूमिका आहे — विज्ञान आणि अध्यात्म यांच्यामधला सेतू होणं.</strong></p><h2 id="hi-s7">शास्त्रांचं Decoding</h2><p>हे स्मरण झाल्यावर आचार्य जींनी आपलं कार्य त्याच दिशेने वळवलं:</p><blockquote><p>"हे जेव्हा माझं स्मरण आलं, बरोबर — आम्ही सगळे लेक्चर्स, आपले सगळे शास्त्र, ही दुर्गा सप्तशती — ही decoding मध्ये केली. Decoding म्हणजे आजच्या माणसाला समजेल असं."</p></blockquote><p>Decoding म्हणजे कथेचा अर्थ बाहेरच्या घटनेत न शोधता, आपल्या आतल्या अनुभवात शोधणं. आचार्य जी याचं उदाहरण देतात:</p><blockquote><p>"'शिवजी ने पार्वती से कहा' — नाही; माझ्याच आत्म्याने माझ्या मन-बुद्धीला सांगितले."</p></blockquote><p>त्याच पद्धतीने देवतांचा अर्थही आतल्या शक्तींच्या रूपात उलगडतो:</p><blockquote><p>"गणपती — तू असं करत असेल, तर तुझ्यातली विवेकबुद्धी जागृत व्हायला पाहिजे. बरं, या भाषेत मग ग्रंथ करायला लागलो."</p></blockquote><p>अशा प्रकारे शिव-पार्वती हे आत्मा आणि मन-बुद्धी होतात, आणि गणपती म्हणजे <strong>आपल्यातली जागृत विवेकबुद्धी.</strong> हीच ती भाषा आहे जी आजच्या बुद्धिवादी माणसाला पटते.</p><h2 id="hi-s8">सारांश: मुख्य शिकवण</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>बुद्धी मनापेक्षा श्रेष्ठ आहे,</strong> आणि आत्मा या सर्वांपेक्षा श्रेष्ठ. प्रश्न विचारणारा, विज्ञान मानणारा माणूस चुकीचा नाही — तो "खरा higher माणूस" आहे.</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>केवळ भावनेवर आधारलेली भक्ती</strong> बुद्धीच्या प्रश्नांना उत्तर देऊ शकत नाही. त्यासाठी बुद्धीच्या पलीकडे गेलेला, साक्षात्कारी गुरू हवा.</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>कलियुग हे यंत्राचं आणि बुद्धीचं युग आहे.</strong> "आठ हात कसे, हत्तीची सोंड म्हणजे काय" — असे प्रश्न स्वाभाविक आहेत; उत्तर न देता येणं हाच खरा प्रॉब्लेम आहे.</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>फलश्रुती दिसत नाही, कारण पद्धत चुकली आहे.</strong> भक्ती मनाच्या आणि कर्म शरीराच्या पातळीवर थांबलं आहे; आत्मस्तरावर, खऱ्या गुरूकडे गेल्याशिवाय मंत्र जागृत होत नाहीत.</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>या युगात गुरूला सायन्सच्या भाषेत उत्तर द्यावं लागेल</strong> — ही स्वामी चिन्मयानंदांची भविष्यवाणी होती.</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>शास्त्रांचं decoding</strong> — कथा बाहेर नव्हे, आपल्या आत घडते: शिव आत्मा आहे, पार्वती मन-बुद्धी, आणि गणपती म्हणजे जागृत विवेकबुद्धी.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=CT4y8LiHBU4" target="_blank" rel="noopener"><img src="assets/CT4y8LiHBU4.jpg" alt="The Guru: Bridging Science and Spirituality | Acharya Upendra Ji | A Must-Watch Video" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Guru: Bridging Science and Spirituality | Acharya Upendra Ji | A Must-Watch Video<small>YouTube · 2:42</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: आजचा प्रश्न विचारणारा माणूस</a></li><li><a href="#hi-s2">शरीर, मन, बुद्धी आणि आत्मा</a></li><li><a href="#hi-s3">भावाचा माणूस आणि प्रश्नाचा माणूस</a></li><li><a href="#hi-s4">कलियुग: बुद्धीचं युग</a></li><li><a href="#hi-s5">फलश्रुती का दिसत नाही?</a></li><li><a href="#hi-s6">स्वामी चिन्मयानंदांची भविष्यवाणी</a></li><li><a href="#hi-s7">शास्त्रांचं Decoding</a></li><li><a href="#hi-s8">सारांश: मुख्य शिकवण</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Guru — A Bridge Between Science and Spirituality | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>The Guru — A Bridge Between Science and Spirituality</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../guru_bridging_science_spirituality_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">मराठीत वाचा</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=CT4y8LiHBU4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Today's Questioning Person</h2><p>Today's person asks questions. Faith alone is not enough; they want reasons, they want logic. Why does spirituality feel distant to such a person, and who can answer them? In this short discourse, Acharya Upendra Ji raises exactly this question — and explains why, in this age, it is essential for the Guru to speak in the language of science.</p><h2 id="en-s2">Body, Mind, Intellect and Soul</h2><p>Acharya Ji begins with the order that Shri Krishna describes:</p><blockquote><p>"Whether he is a science-minded person — he is a rationalist. The intellect is said to be superior to the mind. The mind is superior to the body, Krishna says, and superior to all three is the soul."</p></blockquote><p>The same order appears in the Bhagavad Gita:</p><blockquote class="verse"><p><strong>indriyāṇi parāṇy āhur indriyebhyaḥ paraṁ manaḥ</strong><br><strong>manasas tu parā buddhir yo buddheḥ paratas tu saḥ</strong><br>"The senses are said to be superior; superior to the senses is the mind; superior to the mind is the intellect; and that which is beyond even the intellect is He — the soul."<br>— Bhagavad Gita 3.42</p></blockquote><p>Acharya Ji makes clear where the person who believes in science stands in this order:</p><blockquote><p>"Here comes the intellectual, the science-minded one, the man of science — Krishna says, this is the truly higher person. He is truly higher."</p></blockquote><p>That is, the person who asks questions and tests things with the intellect is not wrong; on the contrary, <strong>the intellect is a higher level than the mind.</strong></p><h2 id="en-s3">The Person of Feeling and the Person of Questions</h2><p>Looking at today's religious life, Acharya Ji points out a difference:</p><blockquote><p>"Among us today, in the temple, it is mostly the devotional person — of the mind, of feeling. All that is fine. But there is the person with higher-level questions — the kind of questions I had as a child."</p></blockquote><p>Who can answer such questions? Acharya Ji says it plainly:</p><blockquote><p>"To answer, you need someone of the intellect, or someone beyond the intellect — a realized master, who is called <em>sakshatkari</em>, one of the soul."</p></blockquote><p><em>Sakshatkari</em> means one who has directly experienced the soul. A person who stands on feeling alone is not enough for the questions of the intellect:</p><blockquote><p>"That emotional person cannot answer him, and so it does not convince him."</p></blockquote><h2 id="en-s4">Kali Yuga: The Age of the Intellect</h2><p>Why has this question become so important today? Acharya Ji draws attention to the age we live in:</p><blockquote><p>"And which yuga is running? Kali Yuga. What will Kali Yuga be? It will be the age of machines, the age of the intellect. That is why there are so many people of the intellect. They are not wrong."</p></blockquote><p><strong>The fault lies not with the one who asks, but with those who cannot answer</strong> — Acharya Ji states this directly:</p><blockquote><p>"We cannot answer him — that is the problem."</p></blockquote><p>And he names the questions:</p><ul><li>"How eight arms? How twelve arms?"</li><li>"What is that elephant's trunk? What is its logic?"</li><li>"If I do this puja, does it bear fruit?"</li></ul><h2 id="en-s5">Why Is the Fruit Not Seen?</h2><p><em>Phalashruti</em> means the tangible fruit of a spiritual practice. Acharya Ji honestly admits that this is exactly what cannot be shown today:</p><blockquote><p>"And that phalashruti of mantra sadhana cannot be shown. Is that the problem or not, tell me? The phalashruti cannot be shown."</p></blockquote><p>He finds the cause in the method of practice:</p><blockquote><p>"Your mantra siddhi — those mantras of yours have not been awakened. Our method itself went wrong — that is, we have not gone to the level of the soul, to a true Guru."</p></blockquote><blockquote><p>"There is only devotion going on, and only karma going on at the level of body-consciousness."</p></blockquote><p>That is, devotion is stuck at the level of the mind, and action at the level of the body. <strong>Without reaching the level of the soul, a true Guru, mantras do not awaken.</strong></p><h2 id="en-s6">Swami Chinmayananda's Prediction</h2><p>That this situation would come had already been foretold. Acharya Ji recalls the words of Swami Chinmayananda:</p><blockquote><p>"Swami Chinmayananda used to say that a time will come when rationalists will greatly increase, and then the devotional ones alone will not be able to answer. Then, somewhere, the Guru will have to awaken, and will have to answer him in the language of science."</p></blockquote><p><strong>In this age, the Guru's role is to be the bridge between science and spirituality.</strong></p><h2 id="en-s7">Decoding the Scriptures</h2><p>When this came back to his memory, Acharya Ji turned his work in that very direction:</p><blockquote><p>"When this came to my memory — right — all our lectures, all our scriptures, this Durga Saptashati — we did them in decoding. Decoding means in a way that today's person will understand."</p></blockquote><p>Decoding means finding the meaning of a story not in an outer event, but in our own inner experience. Acharya Ji gives an example:</p><blockquote><p>"'Shiv ji said to Parvati' — no; my own soul told my mind and intellect."</p></blockquote><p>In the same way, the meaning of the deities unfolds as inner powers:</p><blockquote><p>"Ganapati — if you are doing this, then the discernment (vivek buddhi) within you must awaken. Well, then we began writing books in this language."</p></blockquote><p>In this way Shiva and Parvati become the soul and the mind-intellect, and Ganapati means <strong>the awakened discernment within us.</strong> This is the language that convinces today's rational person.</p><h2 id="en-s8">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>The intellect is superior to the mind,</strong> and the soul is superior to all. The person who questions and believes in science is not wrong — he is "the truly higher person."</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>Devotion based on feeling alone</strong> cannot answer the questions of the intellect. For that, one needs a realized Guru who has gone beyond the intellect.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>Kali Yuga is the age of machines and of the intellect.</strong> Questions like "how eight arms, what is the elephant's trunk" are natural; being unable to answer them is the real problem.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>The fruit is not seen because the method has gone wrong.</strong> Devotion has stopped at the level of the mind and action at the level of the body; without going to the level of the soul, to a true Guru, mantras do not awaken.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>In this age the Guru will have to answer in the language of science</strong> — this was Swami Chinmayananda's prediction.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>Decoding the scriptures</strong> — the story happens not outside but within us: Shiva is the soul, Parvati the mind-intellect, and Ganapati the awakened discernment.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=CT4y8LiHBU4" target="_blank" rel="noopener"><img src="assets/CT4y8LiHBU4.jpg" alt="The Guru: Bridging Science and Spirituality | Acharya Upendra Ji | A Must-Watch Video" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Guru: Bridging Science and Spirituality | Acharya Upendra Ji | A Must-Watch Video<small>YouTube · 2:42</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Today's Questioning Person</a></li><li><a href="#en-s2">Body, Mind, Intellect and Soul</a></li><li><a href="#en-s3">The Person of Feeling and the Person of Questions</a></li><li><a href="#en-s4">Kali Yuga: The Age of the Intellect</a></li><li><a href="#en-s5">Why Is the Fruit Not Seen?</a></li><li><a href="#en-s6">Swami Chinmayananda's Prediction</a></li><li><a href="#en-s7">Decoding the Scriptures</a></li><li><a href="#en-s8">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
