@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>हर मनुष्य स्वभाव से आध्यात्मिक है | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — हर मनुष्य स्वभाव से आध्यात्मिक है">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="हर मनुष्य स्वभाव से आध्यात्मिक है | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>हर मनुष्य स्वभाव से आध्यात्मिक है</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ८ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../every_human_inherently_spiritual_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=ov5VfQaTt80" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: दो दुनिया का भ्रम</h2><p>बहुत से लोग जीवन को दो हिस्सों में बाँटकर देखते हैं — एक ओर घर, नौकरी, व्यापार और रिश्तों की "सांसारिक" दुनिया, दूसरी ओर पूजा, ध्यान और मंदिर की "आध्यात्मिक" दुनिया। आचार्य उपेंद्र जी इस बँटवारे को ही भ्रम बताते हैं:</p><blockquote><p>"Spiritual and worldly — ऐसे दो अलग विश्व लगते हैं। ऐसे लोग आपको मिले कि नहीं, जिनको ये दो अलग-अलग विश्व लगते हैं?"</p></blockquote><p>और ऐसे लोगों के लिए उनका उत्तर स्पष्ट है:</p><blockquote><p>"उनको आपको बताना होगा कि <strong>there is no two world, there is only one world — that is a spiritual world</strong>, या आध्यात्मिक।"</p></blockquote><p>इस अध्याय में आचार्य जी दिखाते हैं कि हमारा हर कर्म — विवाह, व्यापार, पेशा — आध्यात्मिक ही है, और यह भी कि सबसे भटका हुआ व्यक्ति भी, बिना जाने, आत्मा को ही खोज रहा है।</p><h2 id="hi-s2">२०० टका जीवन: बँटवारा नहीं, overlap</h2><p>आचार्य जी का एक प्रसिद्ध सूत्र है — पूरा जीवन जीना, दोनों तरफ से पूरा:</p><blockquote><p>"जियो तो <strong>200 टका जीवन</strong> जियो — 100 टका आध्यात्मिक, 100 टका सांसारिक।"</p></blockquote><p>पर इस सूत्र को अक्सर गलत समझा जाता है, मानो दिन को दो बराबर हिस्सों में बाँटना हो:</p><blockquote><p>"तो लोगों को लगता है, मतलब 12 घंटा ऑफिस में, 12 घंटा मंदिर में। ऐसा नहीं है।"</p></blockquote><p>आचार्य जी स्पष्ट करते हैं कि दोनों सौ प्रतिशत एक साथ चलते हैं — <strong>एक के ऊपर एक</strong>:</p><blockquote><p>"वह 100 टका, 100 टका — वो एक के ऊपर एक <strong>overlap</strong> है।"</p></blockquote><p>अर्थात् संसार और अध्यात्म दो अलग समय-खंड नहीं हैं। जो काम हम संसार में करते हैं, उसी काम पर अध्यात्म की परत चढ़ी होती है।</p><h2 id="hi-s3">विवाह और व्यापार में ईश्वर-दर्शन</h2><p>इस overlap को आचार्य जी जीवन के दो उदाहरणों से समझाते हैं। पहला है विवाह:</p><blockquote><p>"तुमको शादी करनी है, तो संसार आपको अगर लगता है, तो 100 टका तुम्हारा आध्यात्मिक है — overlap। <strong>देवी आ गई है, शिव-पार्वती की जोड़ी है।</strong>"</p></blockquote><p>जीवनसाथी को देवी के रूप में और दाम्पत्य को शिव-पार्वती की जोड़ी के रूप में देखना — यही विवाह को आध्यात्मिक बना देता है:</p><blockquote><p>"तो मुझे जो-जो करना है, वह सब <strong>Lord in the form of</strong> — चौबीसों घंटे आध्यात्म उसके ऊपर होगा।"</p></blockquote><p>दूसरा उदाहरण है व्यापार:</p><blockquote><p>"Business करना है — <strong>customer is God</strong>, लक्ष्मी लेकर आ गया, वह विष्णु। हाँ, तो मुझे वह कैसा करना होगा? <strong>श्री विद्या applied।</strong>"</p></blockquote><p>ग्राहक साक्षात् विष्णु है, जो अपने साथ लक्ष्मी लेकर आया है। इस भाव से किया गया व्यापार ही <em>श्री विद्या</em> का व्यावहारिक प्रयोग है। (<em>श्री विद्या</em> — देवी ललिता त्रिपुरसुंदरी की उपासना की परंपरा, जिसे आचार्य जी समृद्धि और जीवन-व्यवहार से जोड़कर सिखाते हैं।)</p><p>निष्कर्ष यह है:</p><blockquote><p>"तो चौबीसों घंटे — समझ में आ रहा है कि नहीं? <strong>24 by 7 मेरा अध्यात्म ही होता है।</strong>"</p></blockquote><h2 id="hi-s4">कर्तव्य-कर्म ही धर्म है</h2><p>आचार्य जी इस बात को और गहराई में ले जाते हैं — हर कर्तव्य स्वयं धर्म है:</p><blockquote><p>"Actually, मैं कुछ ना कुछ कर्तव्य जब करता हूँ, तो <strong>कर्तव्य-कर्म का मतलब ही है धर्म।</strong>"</p></blockquote><blockquote><p>"तो जब मैं medical doctor हूँ और मैं किसी को treat कर रहा हूँ, तो मैं धर्म ही तो कर रहा हूँ। अगर लूटता हूँ, तो अधर्म कर रहा हूँ।"</p></blockquote><p>यानी धर्म और अधर्म का भेद पेशे से नहीं, आचरण से होता है। एक ही डॉक्टर इलाज करे तो धर्म, लूटे तो अधर्म। और यह सब होता रहता है, चाहे व्यक्ति को इसका भान हो या न हो:</p><blockquote><p>"<strong>He may be aware or unaware।</strong> समझ में आ रहा है कि नहीं?"</p></blockquote><h2 id="hi-s5">कामी व्यक्ति भी आत्मा को ही चाहता है</h2><p>यहाँ आचार्य जी एक चौंकाने वाली बात कहते हैं। जिसे हम सबसे अधिक भटका हुआ मानें — काम-वासना में डूबा व्यक्ति — वह भी अनजाने में आत्मा को ही खोज रहा है:</p><blockquote><p>"एक कामी व्यक्ति — अत्यंत कामी भी, काम-वासना-ग्रस्त — किसी स्त्री को चाहता है, तो <strong>he is not aware, वो भी उसी आत्म-तत्त्व को चाह रहा है।</strong> He doesn't like just that body।"</p></blockquote><p>चाहे वह स्त्री उसकी girlfriend हो, या वह कहीं और जाता हो — उसका आकर्षण शरीर के प्रति दिखता है, पर वास्तव में होता किसी और के प्रति है:</p><blockquote><p>"वो कामी भी <strong>अज्ञानवश आत्मा से प्रेम करता है, ना कि शरीर से।</strong> क्योंकि कल वो स्त्री चली गई, तो मृत देह से वो प्रेम कर पाएगा क्या? He is unaware।"</p></blockquote><blockquote><p>"उसको पता नहीं, मैं किसके ऊपर प्रेम कर रहा हूँ। वो शक्ति, जो इस स्त्री को नचा सकती है, नाच सकती है... <strong>वो शक्ति को ही actually चाहता है।</strong>"</p></blockquote><p><em>आत्म-तत्त्व</em> — अर्थात् वह चैतन्य सत्ता जो शरीर को जीवित, सुंदर और सक्रिय बनाए रखती है। आकर्षण उसी का है, शरीर तो केवल उसका वाहन है।</p><h2 id="hi-s6">सीधी परीक्षा: क्या मृत देह से प्रेम हो सकता है?</h2><p>इस सत्य को परखने के लिए आचार्य जी एक सीधी कसौटी देते हैं:</p><blockquote><p>"उसकी परीक्षा है, सीधा straightforward: <strong>अगर वह शक्ति चली गई, तो वह मृत शरीर से प्रेम करेगा क्या?</strong> इस सवाल का जवाब दो। नहीं कर पाएगा वह।"</p></blockquote><p>और यह बात केवल कामी व्यक्ति पर नहीं, सबसे निकट के रिश्ते पर भी लागू होती है:</p><blockquote><p>"पत्नी भी नहीं कर पाएगी पति से प्रेम। ऐसा <strong>शंकराचार्य जी बोलते हैं भज गोविन्दम् में।</strong>"</p></blockquote><p>आदि शंकराचार्य के <em>भज गोविन्दम्</em> का यह श्लोक इसी सत्य को कहता है:</p><blockquote class="verse"><p><strong>यावत्पवनो निवसति देहे तावत्पृच्छति कुशलं गेहे।</strong><br><strong>गतवति वायौ देहापाये भार्या बिभ्यति तस्मिन्काये॥</strong><br>अर्थात् जब तक देह में प्राण-वायु रहता है, तब तक घर के लोग कुशल-क्षेम पूछते हैं; प्राण निकल जाने पर, देह के नष्ट होने पर, पत्नी भी उसी शरीर से डरती है।<br>— भज गोविन्दम् ६</p></blockquote><h2 id="hi-s7">हाड़-मांस का दर्शन</h2><p>बात मन में गहरे उतरे, इसके लिए आचार्य जी एक कठोर पर प्रभावशाली चित्र खींचते हैं:</p><blockquote><p>"तो मैं हमेशा बोलते रहता हूँ: <strong>वो स्त्री का हाड़-मांस लाके रखा सामने, तो प्रेम करके दिखाओ।</strong> उसकी हड्डी आपके हाथ में दी — प्रेम करके दिखाओ।"</p></blockquote><blockquote><p>"उसका मल-मूत्र आपको डब्बे में भर के लाके दिया — चल, इससे प्रेम कर। उसका खून सात-आठ बोतल भर के दे दिया — चल, वही थी कि नहीं?"</p></blockquote><blockquote><p>"उसकी हड्डियाँ पूरी pin up करके, skeleton बना के पंखे के नीचे लटका के रखा, और हवा आके वो ऐसा लटकना भी चालू हो गया — imagine करो — <strong>and अभी प्रेम करो। कर पाएगा क्या?</strong>"</p></blockquote><p>यह चित्र जानबूझकर झकझोरने वाला है, ताकि सुनने वाला एक क्षण रुककर सोचे:</p><blockquote><p>"वो थोड़ा moment चाहिए, इसलिए मैंने उसको visualize कराया आपको।"</p></blockquote><p>हड्डी, मांस, रक्त — शरीर के ये सारे घटक सामने हों, तब भी प्रेम नहीं उमड़ता। इससे सिद्ध होता है कि प्रेम का विषय कभी शरीर था ही नहीं।</p><h2 id="hi-s8">प्रेम और द्वेष: अज्ञान का खेल</h2><p>तो फिर मनुष्य प्रेम किससे करता है? आचार्य जी शंकराचार्य जी के हवाले से उत्तर देते हैं:</p><blockquote><p>"वो प्रेम करता है — शंकराचार्य जी कहते हैं — <strong>जीवित को, वो शक्ति से, वो आत्मा से।</strong>"</p></blockquote><p>अज्ञान केवल इतना है कि वह इस प्रेम को अपनी इच्छा-पूर्ति से जोड़ देता है:</p><blockquote><p>"सिर्फ इतना ही है कि <strong>अज्ञानवश उसकी मर्जी के अनुसार हुआ, तो उसको प्रेम बोलता है; नहीं हुआ, तो वो द्वेष हुआ</strong> करके बोलता है। He doesn't understand।"</p></blockquote><p>जिसे हम प्रेम कहते हैं और जिसे द्वेष — दोनों उसी एक आत्मा के प्रति हमारी प्रतिक्रियाएँ हैं, जो इस पर निर्भर करती हैं कि हमारी इच्छा पूरी हुई या नहीं।</p><h2 id="hi-s9">सबसे निम्न व्यक्ति भी आध्यात्मिक है</h2><p>इस पूरे विचार का निष्कर्ष आचार्य जी इन शब्दों में देते हैं:</p><blockquote><p>"तो <strong>सबसे lowest व्यक्ति भी आत्मा, अंतरात्मा का ही सुनते रहता है।</strong>"</p></blockquote><blockquote><p>"उसको बोलते हैं — <strong>आध्यात्मिक जीवन का ही unknowingly आचरण करते रहता है।</strong> इतना समझ में आ रहा है कि नहीं आ रहा है?"</p></blockquote><p>कोई भी मनुष्य अध्यात्म से बाहर नहीं है। अंतर केवल जागरूकता का है — कोई जानते हुए आत्मा की ओर चलता है, कोई अनजाने में।</p><h2 id="hi-s10">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>दुनिया एक ही है।</strong> Spiritual और worldly दो अलग विश्व नहीं हैं — there is only one world, that is a spiritual world।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>200 टका जीवन का अर्थ overlap है।</strong> 100 टका आध्यात्मिक और 100 टका सांसारिक — 12 घंटे ऑफिस और 12 घंटे मंदिर नहीं, बल्कि हर कर्म पर अध्यात्म की परत।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>हर संबंध और हर व्यवहार में ईश्वर है।</strong> जीवनसाथी में शिव-पार्वती की जोड़ी, ग्राहक में लक्ष्मी लाने वाले विष्णु — यही श्री विद्या applied है।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>कर्तव्य-कर्म ही धर्म है।</strong> डॉक्टर का इलाज करना धर्म है, लूटना अधर्म — चाहे व्यक्ति aware हो या unaware।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>आकर्षण शरीर का नहीं, आत्मा का है।</strong> कामी व्यक्ति भी अज्ञानवश उसी शक्ति, उसी आत्म-तत्त्व को चाहता है; प्राण निकलते ही कोई मृत देह से प्रेम नहीं कर पाता।</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>प्रेम और द्वेष अज्ञान के दो नाम हैं।</strong> इच्छा पूरी हुई तो प्रेम, नहीं हुई तो द्वेष — पर लक्ष्य वही एक आत्मा है।</div></li></ol><ol class="takeaways"><li><span class="num">७</span><div><strong>हर मनुष्य स्वभाव से आध्यात्मिक है।</strong> सबसे lowest व्यक्ति भी अंतरात्मा का ही सुनता है और unknowingly आध्यात्मिक जीवन ही जी रहा है।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=ov5VfQaTt80" target="_blank" rel="noopener"><img src="assets/ov5VfQaTt80.jpg" alt="How Every Human Is Inherently Spiritual – A Rare Insight by Acharya Upendra Ji #SpiritualAwakening" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How Every Human Is Inherently Spiritual – A Rare Insight by Acharya Upendra Ji #SpiritualAwakening<small>YouTube · 4:31</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: दो दुनिया का भ्रम</a></li><li><a href="#hi-s2">२०० टका जीवन: बँटवारा नहीं, overlap</a></li><li><a href="#hi-s3">विवाह और व्यापार में ईश्वर-दर्शन</a></li><li><a href="#hi-s4">कर्तव्य-कर्म ही धर्म है</a></li><li><a href="#hi-s5">कामी व्यक्ति भी आत्मा को ही चाहता है</a></li><li><a href="#hi-s6">सीधी परीक्षा: क्या मृत देह से प्रेम हो सकता है?</a></li><li><a href="#hi-s7">हाड़-मांस का दर्शन</a></li><li><a href="#hi-s8">प्रेम और द्वेष: अज्ञान का खेल</a></li><li><a href="#hi-s9">सबसे निम्न व्यक्ति भी आध्यात्मिक है</a></li><li><a href="#hi-s10">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Every Human Being Is Inherently Spiritual | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Every Human Being Is Inherently Spiritual</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 8 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../every_human_inherently_spiritual_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=ov5VfQaTt80" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: The Illusion of Two Worlds</h2><p>Many people see life as split into two parts — on one side the "worldly" world of home, job, business and relationships, on the other the "spiritual" world of worship, meditation and temple. Acharya Upendra Ji calls this very division an illusion:</p><blockquote><p>"Spiritual and worldly — they seem like two separate worlds. Have you met such people or not, to whom these seem like two separate worlds?"</p></blockquote><p>And his answer for such people is clear:</p><blockquote><p>"You will have to tell them that <strong>there is no two world, there is only one world — that is a spiritual world</strong>, or <em>adhyatmik</em>."</p></blockquote><p>In this chapter Acharya Ji shows that every action of ours — marriage, business, profession — is in fact spiritual, and also that even the most misguided person is, without knowing it, seeking the Self alone.</p><h2 id="en-s2">A 200 Percent Life: Not a Division, an Overlap</h2><p>One of Acharya Ji's well-known maxims is to live life fully, completely on both sides:</p><blockquote><p>"If you live, live a <strong>200 percent life</strong> — 100 percent spiritual, 100 percent worldly."</p></blockquote><p>But this maxim is often misunderstood, as if the day were to be split into two equal halves:</p><blockquote><p>"So people think it means 12 hours in the office, 12 hours in the temple. It is not like that."</p></blockquote><p>Acharya Ji clarifies that both run at a full hundred percent together — <strong>one on top of the other</strong>:</p><blockquote><p>"That 100 percent and 100 percent — they are an <strong>overlap</strong>, one on top of the other."</p></blockquote><p>That is, the world and spirituality are not two separate blocks of time. Whatever work we do in the world carries a layer of spirituality over it.</p><h2 id="en-s3">Seeing God in Marriage and Business</h2><p>Acharya Ji explains this overlap through two examples from life. The first is marriage:</p><blockquote><p>"You want to get married — if that seems like the world to you, it is 100 percent spiritual for you — overlap. <strong>The Devi has come; it is the pair of Shiva and Parvati.</strong>"</p></blockquote><p>Seeing one's life partner as the Devi and married life as the pair of Shiva and Parvati — this is what makes marriage spiritual:</p><blockquote><p>"So whatever I have to do, all of it is <strong>Lord in the form of</strong> — spirituality will be over it all twenty-four hours."</p></blockquote><p>The second example is business:</p><blockquote><p>"You have to do business — <strong>customer is God</strong>; he has come bringing Lakshmi, he is Vishnu. Yes, so how will I have to do it? <strong>Shri Vidya applied.</strong>"</p></blockquote><p>The customer is Vishnu himself, who has come bringing Lakshmi with him. Business done in this spirit is itself the practical application of <em>Shri Vidya</em>. (<em>Shri Vidya</em> — the tradition of worship of Devi Lalita Tripurasundari, which Acharya Ji teaches in connection with prosperity and everyday life.)</p><p>The conclusion is:</p><blockquote><p>"So twenty-four hours — are you understanding or not? <strong>24 by 7 it is only my spirituality.</strong>"</p></blockquote><h2 id="en-s4">Dutiful Action Is Itself Dharma</h2><p>Acharya Ji takes this point deeper — every duty is itself dharma:</p><blockquote><p>"Actually, when I perform some duty or other, <strong>the very meaning of dutiful action is dharma.</strong>"</p></blockquote><blockquote><p>"So when I am a medical doctor and I am treating someone, I am doing dharma itself. If I loot, I am doing <em>adharma</em>."</p></blockquote><p>That is, the line between dharma and adharma is drawn not by the profession but by the conduct. The same doctor is doing dharma when he heals and adharma when he loots. And all this goes on whether or not the person realises it:</p><blockquote><p>"<strong>He may be aware or unaware.</strong> Are you understanding or not?"</p></blockquote><h2 id="en-s5">Even the Lustful Man Desires Only the Self</h2><p>Here Acharya Ji says something startling. Even the one we would consider most astray — a person drowned in lust — is unknowingly seeking the Self:</p><blockquote><p>"A lustful person — even an extremely lustful one, gripped by sexual desire — when he desires some woman, <strong>he is not aware, he too is desiring that same principle of the Self.</strong> He doesn't like just that body."</p></blockquote><p>Whether that woman is his girlfriend, or he goes somewhere else — his attraction appears to be towards the body, but in reality it is towards something else:</p><blockquote><p>"Even the lustful man, <strong>out of ignorance, loves the Self, not the body.</strong> Because if tomorrow that woman is gone, will he be able to love the dead body? He is unaware."</p></blockquote><blockquote><p>"He does not know whom he is loving. That power which can make this woman dance, which can dance... <strong>it is actually that power alone that he desires.</strong>"</p></blockquote><p><em>Atma-tattva</em>, the principle of the Self — that conscious presence which keeps the body alive, beautiful and active. The attraction is to that; the body is only its vehicle.</p><h2 id="en-s6">A Straight Test: Can One Love a Dead Body?</h2><p>To test this truth, Acharya Ji gives a direct touchstone:</p><blockquote><p>"His test is simple, straightforward: <strong>if that power has gone, will he love the dead body?</strong> Answer this question. He will not be able to."</p></blockquote><p>And this applies not only to the lustful man but to the closest relationship too:</p><blockquote><p>"Even the wife will not be able to love the husband. So says <strong>Shankaracharya Ji in Bhaja Govindam.</strong>"</p></blockquote><p>This verse of Adi Shankaracharya's <em>Bhaja Govindam</em> states this very truth:</p><blockquote class="verse"><p><strong>yāvat pavano nivasati dehe tāvat pṛcchati kuśalaṃ gehe |</strong><br><strong>gatavati vāyau dehāpāye bhāryā bibhyati tasmin kāye ||</strong><br>"As long as the life-breath dwells in the body, the people at home ask after one's welfare; once the breath has left and the body has fallen, even the wife fears that very body."<br>— Bhaja Govindam 6</p></blockquote><h2 id="en-s7">Contemplating Flesh and Bone</h2><p>So that the point sinks in deeply, Acharya Ji paints a harsh but powerful picture:</p><blockquote><p>"So I always keep saying: <strong>bring that woman's flesh and bone and place it in front of you, then show me your love.</strong> Her bone is given into your hand — show me your love."</p></blockquote><blockquote><p>"Her excreta is filled in a box and brought to you — go on, love this. Her blood is filled in seven or eight bottles and given to you — go on, was that her or not?"</p></blockquote><blockquote><p>"Her bones are all pinned up into a skeleton and hung under the ceiling fan, and as the air blows it starts swaying like this — imagine it — <strong>and now love her. Will he be able to?</strong>"</p></blockquote><p>The image is deliberately shocking, so that the listener pauses for a moment to reflect:</p><blockquote><p>"That moment is needed, which is why I made you visualise it."</p></blockquote><p>Bone, flesh, blood — even with all the components of the body before you, love does not arise. This proves that the object of love was never the body at all.</p><h2 id="en-s8">Love and Hatred: The Play of Ignorance</h2><p>Then whom does a person love? Acharya Ji answers, citing Shankaracharya Ji:</p><blockquote><p>"He loves — Shankaracharya Ji says — <strong>the living one, that power, that Self.</strong>"</p></blockquote><p>The ignorance lies only in this: he ties this love to the fulfilment of his own wishes:</p><blockquote><p>"It is only this much — <strong>out of ignorance, if things went according to his wish, he calls it love; if they did not, he calls it hatred.</strong> He doesn't understand."</p></blockquote><p>What we call love and what we call hatred — both are our reactions to that one Self, depending on whether our wish was fulfilled or not.</p><h2 id="en-s9">Even the Lowest Person Is Spiritual</h2><p>Acharya Ji gives the conclusion of this entire idea in these words:</p><blockquote><p>"So <strong>even the lowest person keeps listening only to the Self, the inner Self.</strong>"</p></blockquote><blockquote><p>"That is called — <strong>he keeps unknowingly living the spiritual life itself.</strong> Are you understanding this much or not?"</p></blockquote><p>No human being is outside spirituality. The only difference is awareness — one walks towards the Self knowingly, another unknowingly.</p><h2 id="en-s10">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>There is only one world.</strong> Spiritual and worldly are not two separate worlds — there is only one world, that is a spiritual world.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>A 200 percent life means overlap.</strong> 100 percent spiritual and 100 percent worldly — not 12 hours in the office and 12 in the temple, but a layer of spirituality over every action.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>God is in every relationship and every dealing.</strong> Shiva and Parvati in one's life partner, Vishnu bringing Lakshmi in the customer — this is Shri Vidya applied.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>Dutiful action is itself dharma.</strong> A doctor healing is dharma, looting is adharma — whether the person is aware or unaware.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>Attraction is to the Self, not the body.</strong> Even the lustful man, out of ignorance, desires that same power, that same principle of the Self; once the life-breath leaves, no one can love the dead body.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>Love and hatred are two names of ignorance.</strong> If the wish is fulfilled it is love, if not it is hatred — but the object is the same one Self.</div></li></ol><ol class="takeaways"><li><span class="num">7</span><div><strong>Every human being is inherently spiritual.</strong> Even the lowest person listens only to the inner Self and is unknowingly living the spiritual life itself.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=ov5VfQaTt80" target="_blank" rel="noopener"><img src="assets/ov5VfQaTt80.jpg" alt="How Every Human Is Inherently Spiritual – A Rare Insight by Acharya Upendra Ji #SpiritualAwakening" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How Every Human Is Inherently Spiritual – A Rare Insight by Acharya Upendra Ji #SpiritualAwakening<small>YouTube · 4:31</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: The Illusion of Two Worlds</a></li><li><a href="#en-s2">A 200 Percent Life: Not a Division, an Overlap</a></li><li><a href="#en-s3">Seeing God in Marriage and Business</a></li><li><a href="#en-s4">Dutiful Action Is Itself Dharma</a></li><li><a href="#en-s5">Even the Lustful Man Desires Only the Self</a></li><li><a href="#en-s6">A Straight Test: Can One Love a Dead Body?</a></li><li><a href="#en-s7">Contemplating Flesh and Bone</a></li><li><a href="#en-s8">Love and Hatred: The Play of Ignorance</a></li><li><a href="#en-s9">Even the Lowest Person Is Spiritual</a></li><li><a href="#en-s10">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
