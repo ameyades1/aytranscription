@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>सात चक्र, सात दुनिया — समर्थ गुरु और कुंडलिनी का जागरण | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — सात चक्र, सात दुनिया — समर्थ गुरु और कुंडलिनी का जागरण">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="सात चक्र, सात दुनिया — समर्थ गुरु और कुंडलिनी का जागरण | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>सात चक्र, सात दुनिया — समर्थ गुरु और कुंडलिनी का जागरण</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../competent_guru_activate_chakras_kundalini_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=qOlSD2XtlQ4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: एक चक्र, कई जन्म</h2><p>योग-परंपरा में मनुष्य की चेतना को सात <strong>चक्रों</strong> में देखा गया है — रीढ़ के मूल में स्थित <strong>मूलाधार</strong> से लेकर सिर के शिखर पर स्थित <strong>सहस्रार</strong> तक। इन चक्रों में से होकर ऊपर उठने वाली सुप्त शक्ति को <strong>कुंडलिनी</strong> कहते हैं। इस छोटे-से प्रवचन में आचार्य उपेंद्र जी पहले ही वाक्य में बता देते हैं कि यह यात्रा कितनी लंबी है:</p><blockquote><p>"एक-एक चक्र ऊपर होने के लिए कई जन्म लगते हैं।"</p></blockquote><p>और फिर उतने ही स्पष्ट शब्दों में बताते हैं कि समर्थ गुरु इस यात्रा में क्या कर सकता है:</p><blockquote><p>"जो गुरु है, वह एक साधना में एक साथ तीन-चार चक्र उठा सकता है। किसी-किसी का तो पूरा मूलाधार से सहस्रार तक — वाल्या का वाल्मीकि तक — हो सकता है।"</p></blockquote><p><strong>वाल्या</strong> वह डाकू था जो नारद मुनि की कृपा से महर्षि <strong>वाल्मीकि</strong> बना — यह उदाहरण बताता है कि सही गुरु के हाथ में परिवर्तन कितना पूर्ण हो सकता है। इस अध्याय में हम आचार्य जी के शब्दों में देखेंगे कि हर चक्र पर जीने वाला मनुष्य कैसा होता है, और गुरु की साधना इस क्रम को कैसे बदल देती है।</p><h2 id="hi-s2">१. नीचे के तीन चक्र: स्वार्थ से परिवार तक</h2><p>सबसे नीचे का चक्र <strong>मूलाधार</strong> है। जब यह बिगड़ा हुआ हो, तो मनुष्य का जीवन केवल अपने तक सिमट जाता है:</p><blockquote><p>"मूलाधार चक्र पर जीने वाला आदमी शायद सिर्फ स्वार्थ के लिए, स्वयं के लिए, और मरने-मारने के लिए तैयार — इस स्थिति में रह सकता है। अगर मूलाधार खराब है।"</p></blockquote><p>उसके ऊपर <strong>स्वाधिष्ठान</strong> चक्र पर दायरा थोड़ा बढ़ता है, पर परिवार तक ही:</p><blockquote><p>"स्वाधिष्ठान चक्र है, वो सिर्फ 'मैं और मेरा परिवार' — उसके लिए जीता होगा। ऐसे सारे लोग आपने देखे कि नहीं देखे? जो उतना ही जीवन जीते हैं।"</p></blockquote><p>तीसरा चक्र <strong>मणिपुर</strong> है। यहाँ मनुष्य दुनिया की ओर हाथ तो बढ़ाता है, पर हिसाब लगाकर:</p><blockquote><p>"मणिपुर चक्र तक के लोग जो हैं, वह शायद दुनिया की help तो करते हैं, लेकिन स्वयं का लाभ होता है, परिवार का लाभ होता है।"</p></blockquote><p>आचार्य जी इस स्तर की सेवा का असली स्वरूप भी खोलकर रखते हैं:</p><blockquote><p>"Name-fame के लिए ऐसे लोग होते हैं — social service के नाम पर, या कुछ उपाय के नाम से। तभी help करेंगे; 'खुद का लाभ दिखाओ, तो ही हम करेंगे।'"</p></blockquote><h2 id="hi-s3">२. हृदय चक्र: जब करुणा बिना बुद्धि के चलती है</h2><p>चौथा चक्र <strong>हृदय चक्र</strong> (अनाहत) है — करुणा और प्रेम का केंद्र। साधारणतः इसे बहुत ऊँची अवस्था माना जाता है, पर आचार्य जी एक चेतावनी देते हैं। जब केवल हृदय जागृत हो और विवेक साथ न हो, तो करुणा भी नुकसान कर सकती है:</p><blockquote><p>"फिर हृदय चक्र वाले लोग जो होते हैं, उसको idiotic compassion बोलते हैं। वो पूरा का पूरा महीने का पगार मंदिर को दे देते, और घर-परिवार को खाली पेट रख देते। That is also called idiotic compassion।"</p></blockquote><p>इसके लिए वे रामायण का प्रसंग देते हैं — सीता माता और <strong>लक्ष्मण रेखा</strong> का:</p><blockquote><p>"या सीता माता को जैसा लक्ष्मण रेखा दी थी, 'रावण को मत दो' बोला था — पहचान नहीं सकीं, उसके साथ जाना पड़ा। तो यह type का दान — वो हृदय चक्र तो जागृत है।"</p></blockquote><p>ऐसे लोग अपना जीवन दाँव पर लगाकर भी देते रहते हैं:</p><blockquote><p>"खुद का जीवन खराब हुआ तो भी चलेगा, लेकिन लोगों को मदद करते रहना। वो कभी बुद्धि लगाते ही नहीं।"</p></blockquote><p>और यहाँ आचार्य जी मूल कारण बताते हैं — गुरु की बात न मानना, और <strong>अपात्र</strong> (जो दान के योग्य नहीं) को भी देते रहना:</p><blockquote><p>"गुरु का मानते नहीं, अपनी मर्ज़ी से सेवा-दान करते रहो, करते रहो — अपात्र को भी करते रहेंगे। तो वो स्थिति आती है जब सिर्फ हृदय चक्र जागृत होता है।"</p></blockquote><p><strong>सीख स्पष्ट है:</strong> करुणा आवश्यक है, पर बिना विवेक और बिना गुरु-मार्गदर्शन के वह अधूरी है।</p><h2 id="hi-s4">३. ऊपर के तीन चक्र: नेतृत्व, शरणागति और विलय</h2><p>हृदय के ऊपर <strong>विशुद्धि</strong> चक्र है — कंठ का केंद्र। यहाँ मनुष्य में तेज और नेतृत्व आता है:</p><blockquote><p>"उसके ऊपर विशुद्धि चक्र वाले लोग — कुछ तेज वाले, leadership वाले लोग। They can lead, they can change the world।"</p></blockquote><p>पर इस स्तर पर भी "मैं" पूरी तरह नहीं मिटता:</p><blockquote><p>"जो दूसरों के लिए जीते, लेकिन अपना भी नाम होगा, ऐसे वाले होते हैं।"</p></blockquote><p>छठा चक्र <strong>आज्ञा</strong> है — भ्रूमध्य का केंद्र, जहाँ जीवन का केंद्र स्वयं से हटकर गुरु पर आ जाता है:</p><blockquote><p>"आज्ञा चक्र तक आ जाते, वो गुरु के लिए जीने वाले लोग होते हैं — पूर्ण शरणागत। सिर्फ गुरु, गुरु, गुरु। उनका life का aim होता है गुरु-कार्य, ध्येय।"</p></blockquote><p>और अंत में <strong>सहस्रार</strong> — जहाँ साधक और लक्ष्य में कोई भेद नहीं रहता:</p><blockquote><p>"और सहस्रार — मतलब स्वयं वो गुरु या परमेश्वर में लीन हो चुका होता है।"</p></blockquote><h2 id="hi-s5">४. सात level, सात दुनिया</h2><p>यह वर्णन केवल शास्त्र की बात नहीं; आचार्य जी श्रोताओं से कहते हैं कि इसे अपने आस-पास देखिए:</p><blockquote><p>"ऐसे अलग-अलग लोग आपने देखे कि नहीं? जो सात level के लोग हैं — सातों level के लोग — आपको बाहर सात दुनिया दिखती है कि नहीं?"</p></blockquote><p>और सबसे गंभीर बात यह है कि अधिकतर लोग एक ही स्तर पर अटके रहते हैं:</p><blockquote><p>"एक ही level पर अक्सर पूरा का पूरा जीवन निकाला हुआ उनका दिखता है कि नहीं? जो-जो वर्णन किया, पूरा जीवन वैसा ही — कई साल, कई जन्म।"</p></blockquote><h2 id="hi-s6">५. गुरु की साधना: जन्मों का fast forward</h2><p>यहीं से समझ आता है कि समर्थ गुरु की साधना का मूल्य क्या है। जो यात्रा स्वाभाविक रूप से कई जन्मों में होती, वह गुरु एक साधना में करा सकता है:</p><blockquote><p>"कभी-कभी तो साधना में गुरु क्या करता है, समझना। एक साधना में आपका चक्र, कुंडलिनी ऊपर उठाई जाती है, तो उतने जन्मों का बंधन तुम्हारा तोड़ते हुए, उतनी life आपकी fast forward कर देता है।"</p></blockquote><p>इसलिए आचार्य जी चेताते हैं:</p><blockquote><p>"तो साधना मतलब खेल मत समझना।"</p></blockquote><p><strong>शक्तिपात</strong> — गुरु द्वारा शिष्य में शक्ति का संचार — के बाद जब कुंडलिनी उठती है, तो व्यक्ति का पुराना रूप पीछे छूट जाता है:</p><blockquote><p>"शक्तिपात मतलब कुंडलिनी शक्ति जब rise होती है, तो क्या होता है, समझ में आ गया? फिर आप अचानक भूल जाते — पहले मैं कौन था और अभी मैं कौन हूँ।"</p></blockquote><blockquote><p>"तो अक्सर बहुत लोग भूल गए होते कि अपनी पहली दुनिया क्या थी, मैं किसके साथ रहता था — वो गलत लोगों के साथ रहता था।"</p></blockquote><h2 id="hi-s7">६. संगति का बदलना: आचार्य जी की guarantee</h2><p>चेतना का स्तर बदलता है, तो आस-पास की दुनिया भी बदलती है। आचार्य जी इसके तीन रूप बताते हैं, और इसे अपनी guarantee कहते हैं:</p><blockquote><p>"आप भी अनुभव करोगे कुछ दिनों के बाद: या तो बुरे लोग आपको अपने आप छोड़ देंगे, या तो आपको दूर जाने की इच्छा होगी, या तो वे आपके साथ जुड़ जाएँगे और वे अच्छे बन जाएँगे। यह मेरी guarantee है।"</p></blockquote><h2 id="hi-s8">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>एक-एक चक्र ऊपर उठने में कई जन्म लगते हैं;</strong> अधिकतर लोग पूरा जीवन — और कई जन्म — एक ही स्तर पर बिता देते हैं।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>हर चक्र एक अलग दुनिया है:</strong> मूलाधार पर स्वार्थ, स्वाधिष्ठान पर "मैं और मेरा परिवार", मणिपुर पर लाभ देखकर सेवा, हृदय पर बिना बुद्धि की करुणा, विशुद्धि पर नेतृत्व के साथ अपना नाम, आज्ञा पर गुरु के प्रति पूर्ण शरणागति, और सहस्रार पर गुरु या परमेश्वर में विलय।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>बिना विवेक की करुणा "idiotic compassion" है</strong> — परिवार को भूखा रखकर दान, या अपात्र को दान, हृदय के जागने का अधूरा रूप है। गुरु का मार्गदर्शन इसे संतुलित करता है।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>समर्थ गुरु एक साधना में तीन-चार चक्र उठा सकता है</strong> — कई जन्मों का बंधन तोड़कर जीवन को fast forward कर देता है। इसलिए साधना को खेल नहीं समझना चाहिए।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>शक्तिपात के बाद पुरानी पहचान और पुरानी संगति छूटने लगती है:</strong> बुरे लोग या तो स्वयं दूर हो जाते हैं, या आपको उनसे दूर जाने की इच्छा होती है, या वे आपके साथ जुड़कर अच्छे बन जाते हैं।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=qOlSD2XtlQ4" target="_blank" rel="noopener"><img src="assets/qOlSD2XtlQ4.jpg" alt="Only a Competent Guru Can Activate Your Chakras | Acharya Upendra Ji #7Chakras #Kundalini" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Only a Competent Guru Can Activate Your Chakras | Acharya Upendra Ji #7Chakras #Kundalini<small>YouTube · 3:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: एक चक्र, कई जन्म</a></li><li><a href="#hi-s2">१. नीचे के तीन चक्र: स्वार्थ से परिवार तक</a></li><li><a href="#hi-s3">२. हृदय चक्र: जब करुणा बिना बुद्धि के चलती है</a></li><li><a href="#hi-s4">३. ऊपर के तीन चक्र: नेतृत्व, शरणागति और विलय</a></li><li><a href="#hi-s5">४. सात level, सात दुनिया</a></li><li><a href="#hi-s6">५. गुरु की साधना: जन्मों का fast forward</a></li><li><a href="#hi-s7">६. संगति का बदलना: आचार्य जी की guarantee</a></li><li><a href="#hi-s8">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Seven Chakras, Seven Worlds — The Competent Guru and the Awakening of Kundalini | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Seven Chakras, Seven Worlds — The Competent Guru and the Awakening of Kundalini</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../competent_guru_activate_chakras_kundalini_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=qOlSD2XtlQ4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: One Chakra, Many Lifetimes</h2><p>The yogic tradition sees human consciousness through seven <strong>chakras</strong> — from <strong>Muladhara</strong> at the base of the spine to <strong>Sahasrara</strong> at the crown of the head. The dormant energy that rises through these chakras is called <strong>Kundalini</strong>. In this short discourse, Acharya Upendra Ji states in the very first sentence how long this journey is:</p><blockquote><p>"To rise even one chakra takes many lifetimes."</p></blockquote><p>And then, just as clearly, he says what a competent Guru can do on this journey:</p><blockquote><p>"One who is a Guru can raise three or four chakras at once in a single sadhana. For some, it can go all the way from Muladhara to Sahasrara — from Valya to Valmiki."</p></blockquote><p><strong>Valya</strong> was the robber who, by the grace of Narada Muni, became the sage <strong>Valmiki</strong> — the example shows how complete a transformation can be in the hands of the right Guru. In this chapter we will see, in Acharya Ji's words, what a person living at each chakra is like, and how the Guru's sadhana changes this sequence.</p><h2 id="en-s2">1. The Lower Three Chakras: From Self-Interest to Family</h2><p>The lowest chakra is <strong>Muladhara</strong>. When it is disturbed, a person's life shrinks to themselves alone:</p><blockquote><p>"A man living at the Muladhara chakra may remain in this state — only for selfishness, only for himself, and ready to kill or be killed. If the Muladhara is spoiled."</p></blockquote><p>Above it, at the <strong>Svadhishthana</strong> chakra, the circle widens a little, but only up to the family:</p><blockquote><p>"Svadhishthana chakra — he would live only for 'me and my family.' Have you seen all such people or not? Those who live only that much of a life."</p></blockquote><p>The third chakra is <strong>Manipura</strong>. Here a person does reach out to the world, but with calculation:</p><blockquote><p>"People up to the Manipura chakra perhaps do help the world, but there is benefit to themselves, benefit to their family."</p></blockquote><p>Acharya Ji also lays bare the real nature of service at this level:</p><blockquote><p>"Such people exist for name-fame — in the name of social service, or in the name of some remedy. Only then will they help: 'Show us our own benefit, only then will we do it.'"</p></blockquote><h2 id="en-s3">2. The Heart Chakra: When Compassion Runs Without Discernment</h2><p>The fourth chakra is the <strong>heart chakra</strong> (Anahata) — the centre of compassion and love. It is usually considered a very high state, but Acharya Ji gives a warning. When only the heart is awake and discernment is not with it, even compassion can do harm:</p><blockquote><p>"Then the heart chakra people — that is called idiotic compassion. They give their entire month's salary to the temple and leave their home and family on an empty stomach. That is also called idiotic compassion."</p></blockquote><p>For this he gives an episode from the Ramayana — Sita Mata and the <strong>Lakshman Rekha</strong>:</p><blockquote><p>"Or like the Lakshman Rekha that was given to Sita Mata — she had been told, 'Do not give to Ravana' — she could not recognise him, and had to go with him. So this type of giving — the heart chakra is awake, yes."</p></blockquote><p>Such people keep giving even at the cost of their own lives:</p><blockquote><p>"Even if their own life is ruined, that's fine, but keep helping people. They never apply their intellect at all."</p></blockquote><p>And here Acharya Ji names the root cause — not listening to the Guru, and continuing to give even to the <strong>apatra</strong> (one unworthy of receiving charity):</p><blockquote><p>"They don't follow the Guru; by their own will they keep doing seva and charity, keep doing it — they will keep giving even to the unworthy. Then that state comes when only the heart chakra is awake."</p></blockquote><p><strong>The lesson is clear:</strong> compassion is essential, but without discernment and without the Guru's guidance it is incomplete.</p><h2 id="en-s4">3. The Upper Three Chakras: Leadership, Surrender and Merging</h2><p>Above the heart is the <strong>Vishuddhi</strong> chakra — the centre of the throat. Here radiance and leadership come into a person:</p><blockquote><p>"Above that, the Vishuddhi chakra people — people with some radiance, with leadership. They can lead, they can change the world."</p></blockquote><p>But even at this level the "I" is not fully erased:</p><blockquote><p>"Those who live for others, but their own name will also be made — they are of that kind."</p></blockquote><p>The sixth chakra is <strong>Ajna</strong> — the centre between the eyebrows, where the centre of life moves away from oneself to the Guru:</p><blockquote><p>"Those who come up to the Ajna chakra are people who live for the Guru — completely surrendered. Only Guru, Guru, Guru. The aim of their life is the Guru's work, the goal."</p></blockquote><p>And finally <strong>Sahasrara</strong> — where no difference remains between the seeker and the goal:</p><blockquote><p>"And Sahasrara — meaning he himself has already merged into the Guru or the Supreme Lord."</p></blockquote><h2 id="en-s5">4. Seven Levels, Seven Worlds</h2><p>This description is not only a matter of scripture; Acharya Ji tells the listeners to see it around them:</p><blockquote><p>"Have you seen such different people or not? The people of seven levels — people of all seven levels — do you see seven worlds outside or not?"</p></blockquote><p>And the most serious point is that most people remain stuck at a single level:</p><blockquote><p>"And don't you see that often their entire life has passed at one level? Whatever I described, the whole life is just like that — many years, many lifetimes."</p></blockquote><h2 id="en-s6">5. The Guru's Sadhana: A Fast Forward Through Lifetimes</h2><p>From here one understands the value of a competent Guru's sadhana. The journey that would naturally take many lifetimes, the Guru can bring about in a single sadhana:</p><blockquote><p>"Understand what the Guru sometimes does in a sadhana. In one sadhana your chakra, your Kundalini, is raised — so, breaking your bondage of that many lifetimes, he fast forwards that many lives of yours."</p></blockquote><p>That is why Acharya Ji warns:</p><blockquote><p>"So don't take sadhana to be a game."</p></blockquote><p>After <strong>Shaktipat</strong> — the transmission of spiritual energy from Guru to disciple — when the Kundalini rises, the person's old self is left behind:</p><blockquote><p>"Shaktipat means — when the Kundalini Shakti rises, what happens, did you understand? Then you suddenly forget who I was before and who I am now."</p></blockquote><blockquote><p>"So often many people have forgotten what their earlier world was, whom I used to live with — that I used to live with the wrong people."</p></blockquote><h2 id="en-s7">6. Your Company Changes: Acharya Ji's Guarantee</h2><p>When the level of consciousness changes, the world around you changes too. Acharya Ji describes three forms this takes, and calls it his guarantee:</p><blockquote><p>"You too will experience it after a few days: either bad people will leave you on their own, or you will feel the desire to move away, or they will join you and become good. This is my guarantee."</p></blockquote><h2 id="en-s8">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Rising even one chakra takes many lifetimes;</strong> most people spend their whole life — and many lifetimes — at a single level.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>Each chakra is a different world:</strong> self-interest at Muladhara, "me and my family" at Svadhishthana, service for profit at Manipura, compassion without discernment at the heart, leadership along with one's own name at Vishuddhi, complete surrender to the Guru at Ajna, and merging into the Guru or the Supreme Lord at Sahasrara.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>Compassion without discernment is "idiotic compassion"</strong> — giving while leaving one's family hungry, or giving to the unworthy, is an incomplete form of the heart's awakening. The Guru's guidance brings it into balance.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>A competent Guru can raise three or four chakras in a single sadhana</strong> — breaking the bondage of many lifetimes and fast forwarding one's life. So sadhana must not be taken as a game.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>After Shaktipat, the old identity and the old company begin to fall away:</strong> bad people either move away on their own, or you feel the desire to move away from them, or they join you and become good.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=qOlSD2XtlQ4" target="_blank" rel="noopener"><img src="assets/qOlSD2XtlQ4.jpg" alt="Only a Competent Guru Can Activate Your Chakras | Acharya Upendra Ji #7Chakras #Kundalini" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Only a Competent Guru Can Activate Your Chakras | Acharya Upendra Ji #7Chakras #Kundalini<small>YouTube · 3:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: One Chakra, Many Lifetimes</a></li><li><a href="#en-s2">1. The Lower Three Chakras: From Self-Interest to Family</a></li><li><a href="#en-s3">2. The Heart Chakra: When Compassion Runs Without Discernment</a></li><li><a href="#en-s4">3. The Upper Three Chakras: Leadership, Surrender and Merging</a></li><li><a href="#en-s5">4. Seven Levels, Seven Worlds</a></li><li><a href="#en-s6">5. The Guru's Sadhana: A Fast Forward Through Lifetimes</a></li><li><a href="#en-s7">6. Your Company Changes: Acharya Ji's Guarantee</a></li><li><a href="#en-s8">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
