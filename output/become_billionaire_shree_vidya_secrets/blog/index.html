@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>श्री विद्या — भोग और मोक्ष देने वाली धन की विद्या | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — श्री विद्या — भोग और मोक्ष देने वाली धन की विद्या">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="श्री विद्या — भोग और मोक्ष देने वाली धन की विद्या | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>श्री विद्या — भोग और मोक्ष देने वाली धन की विद्या</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ९ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../become_billionaire_shree_vidya_secrets_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=GmsR2kEJyok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: एक दुर्लभ विद्या का शिविर</h2><p>यह अध्याय अंतरयोग श्री विद्या शिविर के अवसर पर दिए गए आचार्य उपेंद्र जी के वचनों पर आधारित है। इस शिविर में साधकों को श्री विद्या साधना की दीक्षा दी जा रही थी। आचार्य जी इसका उद्देश्य बताते हैं:</p><blockquote><p>"आज यहाँ अंतरयोग श्री विद्या शिविर का आयोजन किया जा रहा है, जिसमें हम अत्यंत दुर्लभ ऐसी श्री विद्या साधना की दीक्षा सब लोगों को दे रहे हैं, जिससे उनके अंदर धन कमाने की शक्ति अपने आप एक सिद्धि के रूप में आती है।"</p></blockquote><p>धन कमाने की शक्ति को <em>सिद्धि</em> कहना ही इस अध्याय का केंद्र है। धन को आध्यात्मिक जीवन से अलग या उसके विरुद्ध नहीं, बल्कि साधना से प्राप्त होने वाली एक शक्ति के रूप में देखा गया है।</p><h2 id="hi-s2">१. अमीरी और गरीबी की खाई</h2><p>आचार्य जी अपनी बात आज के समाज की एक सच्चाई से शुरू करते हैं:</p><blockquote><p>"हर एक के लिए यहाँ धन कमाना संभव नहीं होता। आज आप दुनिया में देखते हो, अपने देश भर में देखते हो, बहुत सारे लोग दिन भर मेहनत करते हैं, तब जाकर उनको थोड़ा सा पैसा मिलता है और उसी में वे गुज़ारा करते हैं।"</p></blockquote><blockquote><p>"एक वर्ग ऐसा है जहाँ लोग एकदम अरबपति, करोड़पति हैं, जिन्हें हम billionaires, trillionaires बोलते हैं, और एक तरफ़ ऐसे हैं जो गरीबी में हैं। तो अपने देश में मैंने देखा कि इसमें बहुत ही ऊँच-नीच है।"</p></blockquote><p>मेहनत सब करते हैं, पर फल सबको समान नहीं मिलता। आचार्य जी के अनुसार इसका एक कारण यह है कि धन की विद्या सबको सिखाई ही नहीं जाती।</p><h2 id="hi-s3">२. शिक्षा केवल नौकरी सिखाती है</h2><blockquote><p>"अपने स्कूलों में भी, अपनी जो शिक्षण पद्धति है, उसमें भी यह विद्या नहीं सिखाई जाती। तो जो बच्चे आज स्कूल से, कॉलेज से निकल रहे हैं, वे सर्वप्रथम यह देखते हैं कि मैं नौकरी कहाँ करूँ।"</p></blockquote><blockquote><p>"सबसे बढ़िया, सबसे best जो बच्चा है, वह भी सोचता है कि मैं विदेश में जाकर नौकरी कैसे कर लूँ। ... उसके मन में विचार सिर्फ़ नौकरी का आता है।"</p></blockquote><p>आचार्य जी की आकांक्षा इससे आगे की है:</p><blockquote><p>"तो हम चाहते हैं कि वह बड़ा उद्योजक बने, कुछ बड़ा करे। और कुछ धर्म भी करना है, तो उसके लिए धन की आवश्यकता होती है।"</p></blockquote><p><strong>उद्योजक</strong> (entrepreneur) बनना यहाँ केवल व्यक्तिगत सफलता नहीं है; धर्म के कार्यों के लिए भी धन चाहिए।</p><h2 id="hi-s4">३. धन में शर्माने वाली कोई बात नहीं</h2><p>धन की आवश्यकता को आचार्य जी आचार्य चाणक्य के सूत्र से सिद्ध करते हैं:</p><blockquote class="verse"><p><strong>सुखस्य मूलं धर्मः। धर्मस्य मूलम् अर्थः। अर्थस्य मूलं राज्यम्॥</strong><br>— चाणक्य सूत्र</p></blockquote><p>अर्थात् सुख का मूल धर्म है, धर्म का मूल अर्थ (धन) है, और अर्थ का मूल राज्य है।</p><blockquote><p>"तो राज्य एकदम संपन्न होना चाहिए। धन की आवश्यकता है, उसमें कोई शर्माने वाली बात नहीं है।"</p></blockquote><p>यही बात वे भगवान विष्णु और माता लक्ष्मी के उदाहरण से समझाते हैं:</p><blockquote><p>"विष्णु जी अगर पालनकर्ता हैं, तो पालन करने के लिए उनके साथ हमेशा लक्ष्मी होती हैं, उनकी जोड़ी होती है। तो लक्ष्मी की आवश्यकता है, उसमें बुरी बात नहीं है।"</p></blockquote><p><strong>जो पालन करता है, उसके साथ लक्ष्मी होती ही हैं।</strong> परिवार, समाज या राष्ट्र का पालन धन के बिना संभव नहीं।</p><h2 id="hi-s5">४. सोने की चिड़िया और "पैसा खराब" की सोच</h2><blockquote><p>"जब हम वैदिक काल में जाते हैं, तो भारत को सोने की चिड़िया बोला जाता था। हमारे पास द्वारकाधीश श्री कृष्ण थे, उनके पास धन की कमी नहीं थी। श्री राम थे, उनके पास धन की कमी नहीं थी।"</p></blockquote><p>फिर आचार्य जी उस सोच को चुनौती देते हैं जो हमें दी गई है:</p><blockquote><p>"हमें जो सोच दी गई है कि पैसा खराब, अमीर खराब, अमीरी खराब, इससे दिमाग खराब होता है, ऐसा कुछ नहीं होता है।"</p></blockquote><p>समस्या धन में नहीं है। असली विद्या यह जानना है कि धन के साथ क्या किया जाए:</p><blockquote><p>"उस पैसे का किस तरह से नियोजन करना है, किस तरह से उसको संभालना है, उसमें से कैसे धर्म करना है, कैसे दान करना है, यह आदमी अगर ठीक से सीख ले, वही वह विद्या है।"</p></blockquote><h2 id="hi-s6">५. श्री विद्या: भोग को योग बनाने वाली विद्या</h2><p>यहाँ आचार्य जी श्री विद्या का सबसे गहरा पक्ष बताते हैं। यह केवल धन कमाने की तकनीक नहीं है:</p><blockquote><p>"वह श्री विद्या सिर्फ़ धन कमाना नहीं है। उसको बोलते हैं भोग और मोक्ष, दोनों एक साथ देने वाली।"</p></blockquote><blockquote><p>"यह जो भोग है, उसको योग-सामग्री बनाते हुए मुक्ति की ओर ले जाने वाली विद्या है श्री विद्या।"</p></blockquote><p><strong>भोग</strong> का अर्थ है संसार के सुख और साधन; <strong>मोक्ष</strong> का अर्थ है बंधन से मुक्ति। सामान्यतः इन्हें एक-दूसरे का विरोधी माना जाता है। श्री विद्या में भोग ही <em>योग-सामग्री</em>, यानी साधना का साधन बन जाता है, और साधक संसार में रहते हुए ही मुक्ति की ओर बढ़ता है।</p><h2 id="hi-s7">६. यह विद्या भारत की है</h2><p>आचार्य जी कहते हैं कि यही विद्या आज विदेशों में भी उपयोग हो रही है:</p><blockquote><p>"आप यकीन नहीं करोगे कि विदेशों में भी आज यही विद्या वे इस्तेमाल कर रहे हैं। या तो उन्होंने भारत को ही लूटकर पहले पैसा लिया हुआ है, एक इस तरह से वे बड़े हुए हैं; and दूसरे, अपनी ही यह श्री विद्या लेकर वे वहाँ गए हैं।"</p></blockquote><blockquote><p>"And वहाँ आज जो आपको सारे बड़े-बड़े industrialists दिखते हैं, जितने भी बड़े-बड़े लोग हैं, इन्होंने यहीं से यह विद्या सीखी थी।"</p></blockquote><p>इस विद्या की परंपरा भी वे गिनाते हैं:</p><ul><li><strong>आदि शंकराचार्य</strong> — "उनके पास सौंदर्य लहरी और श्री विद्या थी।"</li><li><strong>अगस्त्य मुनि</strong></li><li><strong>दत्तात्रेय, मच्छिंद्रनाथ, गोरखनाथ</strong> की परंपरा — "इसमें भी यह श्री विद्या की परंपरा है।"</li><li><strong>आचार्य चाणक्य</strong> — "जिनका कौटिल्य अर्थशास्त्र विश्व भर में प्रसिद्ध है।"</li></ul><h2 id="hi-s8">७. श्री यंत्र और गुप्त साधना</h2><p>शिविर में ज्ञान के साथ साधना भी दी जा रही थी:</p><blockquote><p>"तो इन सारी चीज़ों का ज्ञान हम इस शिविर में सबको दे रहे हैं, और उसके साथ-साथ इसकी दुर्लभ साधनाएँ भी। जो श्री यंत्र होता है, माता लक्ष्मी की साधना के साथ-साथ उस श्री यंत्र की साधना होती है, और वह भी विशिष्ट पद्धति से।"</p></blockquote><blockquote><p>"एक विग्रह होता है, अलग से, special, उसके विज्ञान के अनुसार उसकी रचना भी होती है। यह अपनी बहुत पुरानी, प्राचीन साधना है, दुर्लभ साधना है, गुप्त साधना है।"</p></blockquote><p><strong>श्री यंत्र</strong> श्री विद्या का पवित्र यंत्र है, और <strong>विग्रह</strong> का अर्थ है उपासना के लिए बनाया गया दिव्य स्वरूप।</p><h2 id="hi-s9">८. तीन करोड़ लोगों तक श्री विद्या</h2><p>आचार्य जी का संकल्प एक शिविर तक सीमित नहीं है:</p><blockquote><p>"यह सिर्फ़ यहाँ आज के दिन के लिए नहीं किया जा रहा है। ... ऐसा आयोजन हम भारत भर के सभी शहरों में, गाँव-गाँव तक ले जाना चाहते हैं।"</p></blockquote><blockquote><p>"इस देश के कम से कम दो टका लोगों तक, दो टका मतलब अपने देश के कम से कम 2.8 से 3 करोड़ लोगों तक, यह श्री विद्या चली जाए।"</p></blockquote><p>इसका कारण वे देश की बढ़ती अर्थव्यवस्था में छिपी असमानता बताते हैं:</p><blockquote><p>"आज हम सुनते हैं कि भारत की अर्थव्यवस्था अच्छी होती जा रही है, बढ़ती जा रही है, 5 trillion की अपनी economy हो रही है। तो हमें बहुत गर्व महसूस होता है ... But यह करने में मुझे समझ में आ गया कि इसमें कुछ चंद लोग बहुत अमीर हो रहे हैं, and बाकी सारे लोग वैसे ही रह रहे हैं।"</p></blockquote><blockquote><p>"राष्ट्र बढ़ रहा है, अच्छी बात है, लेकिन कम से कम तीन-चार करोड़ लोग अगर स्वयं entrepreneurs बन सकें, उद्योजक बन सकें..."</p></blockquote><p>और यह विद्या आज कुछ ही परिवारों तक क्यों सीमित है:</p><blockquote><p>"आज जो बड़ा अमीर होता है, सिर्फ़ उसी के बेटे को यह विद्या सिखाई जाती है। अगर कोई politician होगा, तो सिर्फ़ उसके बेटे को वह politics सीखने को मिलती है। बाकी किसी को कॉलेज में, स्कूल में ऐसी विद्या नहीं दी जाती।"</p></blockquote><h2 id="hi-s10">९. धन, धर्म और राष्ट्र</h2><p>अंत में आचार्य जी शिक्षा मंत्री, finance minister और सभी संबंधित लोगों का आह्वान करते हैं:</p><blockquote><p>"ये सारी विद्याएँ हम इस देश को देना चाहते हैं, तो भारत अपनी आर्थिक महासत्ता भी जल्दी ही बन सकता है।"</p></blockquote><p>यह धन किस काम आएगा, इसकी एक शृंखला वे बताते हैं:</p><blockquote><p>"यह हमें धर्म करने के लिए सहायता करेगी, हमारे देश की रक्षा के लिए, अपनी armed forces के संरक्षण के लिए सहायता करेगी। क्योंकि देश बचेगा तो धर्म बचता है, धर्म बचा तो उसमें संस्कृति कुछ हो सकती है। तब उस धन का फ़ायदा भी होता है।"</p></blockquote><blockquote><p>"तो धन से बहुत कुछ लाभ भी होते हैं। अपना शरीर भी maintain करना हो, तो भी धन लगता है।"</p></blockquote><p><strong>धन से देश की रक्षा, देश से धर्म की रक्षा, और धर्म से संस्कृति की रक्षा।</strong> शरीर से लेकर राष्ट्र तक, हर स्तर पर धन की भूमिका है।</p><p>उनकी अंतिम इच्छा सबके लिए एक निमंत्रण है:</p><blockquote><p>"मैं अपने बहुत सारे corporates, उद्योजक, और अपने देश के जितने भी नागरिक हैं, उन सबको भी कहूँगा कि हमसे जुड़ें, संपर्क करें, इस कार्यक्रम में जुड़ जाएँ। यह मेरी इतनी इच्छा है।"</p></blockquote><h2 id="hi-s11">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>धन कमाने की शक्ति एक सिद्धि है</strong> — श्री विद्या साधना से यह शक्ति साधक के भीतर अपने आप आती है।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>धन में शर्म नहीं</strong> — "सुखस्य मूलं धर्मः, धर्मस्य मूलम् अर्थः"। पालनकर्ता विष्णु के साथ सदा लक्ष्मी हैं।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>"पैसा खराब" की सोच गलत है</strong> — श्री कृष्ण और श्री राम के पास धन की कमी नहीं थी। असली विद्या है धन का नियोजन, संभाल, धर्म और दान।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>श्री विद्या भोग और मोक्ष दोनों देती है</strong> — वह भोग को योग-सामग्री बनाकर मुक्ति की ओर ले जाती है।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>यह भारत की प्राचीन परंपरा है</strong> — आदि शंकराचार्य, अगस्त्य मुनि, दत्तात्रेय, नाथ परंपरा और आचार्य चाणक्य तक।</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>शिक्षा को नौकरी से आगे जाना होगा</strong> — बच्चे केवल नौकरी नहीं, उद्योजक बनने का सपना देखें।</div></li></ol><ol class="takeaways"><li><span class="num">७</span><div><strong>विद्या सबके लिए हो, कुछ परिवारों के लिए नहीं</strong> — लक्ष्य है देश के कम से कम दो प्रतिशत, यानी लगभग तीन करोड़ लोगों तक श्री विद्या पहुँचाना।</div></li></ol><ol class="takeaways"><li><span class="num">८</span><div><strong>धन राष्ट्र और धर्म की रक्षा करता है</strong> — देश बचेगा तो धर्म बचेगा, धर्म बचेगा तो संस्कृति बचेगी।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=GmsR2kEJyok" target="_blank" rel="noopener"><img src="assets/GmsR2kEJyok.jpg" alt="How to Become a Billionaire Using Ancient Indian Wisdom | Shree Vidya Secrets by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How to Become a Billionaire Using Ancient Indian Wisdom | Shree Vidya Secrets by Acharya Upendra Ji<small>YouTube · 6:41</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: एक दुर्लभ विद्या का शिविर</a></li><li><a href="#hi-s2">१. अमीरी और गरीबी की खाई</a></li><li><a href="#hi-s3">२. शिक्षा केवल नौकरी सिखाती है</a></li><li><a href="#hi-s4">३. धन में शर्माने वाली कोई बात नहीं</a></li><li><a href="#hi-s5">४. सोने की चिड़िया और "पैसा खराब" की सोच</a></li><li><a href="#hi-s6">५. श्री विद्या: भोग को योग बनाने वाली विद्या</a></li><li><a href="#hi-s7">६. यह विद्या भारत की है</a></li><li><a href="#hi-s8">७. श्री यंत्र और गुप्त साधना</a></li><li><a href="#hi-s9">८. तीन करोड़ लोगों तक श्री विद्या</a></li><li><a href="#hi-s10">९. धन, धर्म और राष्ट्र</a></li><li><a href="#hi-s11">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Shree Vidya — The Science of Wealth That Grants Both Enjoyment and Liberation | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Shree Vidya — The Science of Wealth That Grants Both Enjoyment and Liberation</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 8 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../become_billionaire_shree_vidya_secrets_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=GmsR2kEJyok" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: A Camp for a Rare Knowledge</h2><p>This chapter is based on the words of Acharya Upendra Ji, spoken on the occasion of the Antar Yog Shree Vidya camp. At this camp, seekers were being given initiation into the practice of Shree Vidya. Acharya Ji explains its purpose:</p><blockquote><p>"Today the Antar Yog Shree Vidya camp is being held here, in which we are giving everyone initiation into the extremely rare practice of Shree Vidya, through which the power to earn wealth arises within them on its own, as a <em>siddhi</em>."</p></blockquote><p>Calling the power to earn wealth a <em>siddhi</em>, a spiritual attainment, is the heart of this chapter. Wealth is seen not as separate from or opposed to spiritual life, but as a power that comes through spiritual practice.</p><h2 id="en-s2">1. The Gap Between Rich and Poor</h2><p>Acharya Ji begins with a reality of today's society:</p><blockquote><p>"Earning wealth is not possible for everyone here. Look at the world today, look across our own country: a great many people work hard all day, and only then do they get a little money, and they get by on that."</p></blockquote><blockquote><p>"There is one class where people are outright <em>arabpatis</em> and <em>crorepatis</em>, whom we call billionaires, trillionaires, and on the other side are those who live in poverty. So in our own country I have seen that there is a great deal of high and low in this."</p></blockquote><p>Everyone works hard, but not everyone receives the same fruit. According to Acharya Ji, one reason for this is that the knowledge of wealth is simply not taught to everyone.</p><h2 id="en-s3">2. Education Teaches Only Jobs</h2><blockquote><p>"In our schools too, in our system of education, this knowledge is not taught. So the children who come out of school and college today first of all look for where they should get a job."</p></blockquote><blockquote><p>"Even the finest child, the very best, thinks: how can I go abroad and get a job? ... The only thought that comes to his mind is of a job."</p></blockquote><p>Acharya Ji's aspiration goes further:</p><blockquote><p>"So we want him to become a great <em>udyojak</em>, to do something big. And if he also has to do some <em>dharma</em>, then for that wealth is needed."</p></blockquote><p>Becoming an <strong>udyojak</strong> (entrepreneur) here is not only personal success; wealth is needed for works of dharma as well.</p><h2 id="en-s4">3. There Is Nothing to Be Ashamed of in Wealth</h2><p>Acharya Ji establishes the need for wealth with a sutra of Acharya Chanakya:</p><blockquote class="verse"><p><strong>sukhasya mūlaṁ dharmaḥ, dharmasya mūlam arthaḥ, arthasya mūlaṁ rājyam.</strong><br>"The root of happiness is dharma; the root of dharma is artha (wealth); the root of artha is the state."<br>— Chanakya Sutra</p></blockquote><blockquote><p>"So the state must be thoroughly prosperous. Wealth is needed; there is nothing to be ashamed of in that."</p></blockquote><p>He explains the same point through the example of Lord Vishnu and Mother Lakshmi:</p><blockquote><p>"If Vishnu Ji is the sustainer, then in order to sustain, Lakshmi is always with him; they are a pair. So Lakshmi is needed; there is nothing bad in that."</p></blockquote><p><strong>Wherever there is one who sustains, Lakshmi is with him.</strong> Sustaining a family, a society or a nation is not possible without wealth.</p><h2 id="en-s5">4. The Golden Bird and the "Money Is Bad" Mindset</h2><blockquote><p>"When we go back to the Vedic age, India was called the golden bird. We had Dwarkadhish Shri Krishna; he had no lack of wealth. There was Shri Ram; he had no lack of wealth."</p></blockquote><p>Then Acharya Ji challenges the mindset we have been given:</p><blockquote><p>"The thinking we have been given, that money is bad, the rich are bad, riches are bad, that it corrupts the mind: nothing like that happens."</p></blockquote><p>The problem is not in wealth. The real knowledge is knowing what to do with it:</p><blockquote><p>"How that money is to be planned, how it is to be managed, how dharma is to be done from it, how charity is to be given: if a person learns this properly, that itself is that knowledge."</p></blockquote><h2 id="en-s6">5. Shree Vidya: The Knowledge That Turns Enjoyment into Yoga</h2><p>Here Acharya Ji describes the deepest aspect of Shree Vidya. It is not merely a technique for earning money:</p><blockquote><p>"That Shree Vidya is not only about earning wealth. It is said to grant <em>bhoga</em> and <em>moksha</em>, both together."</p></blockquote><blockquote><p>"Shree Vidya is the knowledge that takes this <em>bhoga</em> and, making it material for yoga, leads one towards liberation."</p></blockquote><p><strong>Bhoga</strong> means the enjoyments and means of the world; <strong>moksha</strong> means liberation from bondage. Usually these are considered opposites. In Shree Vidya, bhoga itself becomes <em>yoga-samagri</em>, material for spiritual practice, and the seeker moves towards liberation while living in the world.</p><h2 id="en-s7">6. This Knowledge Belongs to India</h2><p>Acharya Ji says that this same knowledge is being used abroad today:</p><blockquote><p>"You will not believe that abroad, too, they are using this very knowledge today. Either they first took money by plundering India itself, that is one way they grew big; and second, they went there taking our own Shree Vidya with them."</p></blockquote><blockquote><p>"And all the big industrialists you see there today, all the great people there, learned this knowledge from here itself."</p></blockquote><p>He also names the tradition of this knowledge:</p><ul><li><strong>Adi Shankaracharya</strong> — "He had the Saundarya Lahari and Shree Vidya."</li><li><strong>Agastya Muni</strong></li><li>The tradition of <strong>Dattatreya, Machhindranath, Gorakhnath</strong> — "In this too there is the tradition of Shree Vidya."</li><li><strong>Acharya Chanakya</strong> — "whose Kautilya Arthashastra is famous throughout the world."</li></ul><h2 id="en-s8">7. The Shree Yantra and the Secret Practice</h2><p>Along with knowledge, practice was also being given at the camp:</p><blockquote><p>"So we are giving everyone the knowledge of all these things in this camp, and along with it its rare practices too. There is the Shree Yantra: along with the practice of Mother Lakshmi, there is the practice of that Shree Yantra, and that too by a specific method."</p></blockquote><blockquote><p>"There is a <em>vigraha</em>, separately, special, and it is constructed according to its science. This is our very old, ancient practice, a rare practice, a secret practice."</p></blockquote><p>The <strong>Shree Yantra</strong> is the sacred yantra of Shree Vidya, and a <strong>vigraha</strong> is a divine form made for worship.</p><h2 id="en-s9">8. Shree Vidya for Three Crore People</h2><p>Acharya Ji's resolve is not limited to one camp:</p><blockquote><p>"This is not being done only here, only for today. ... We want to take such events to all the cities across India, right down to every village."</p></blockquote><blockquote><p>"May this Shree Vidya reach at least two percent of the people of this country; two percent means at least 2.8 to 3 crore people of our country."</p></blockquote><p>He gives the reason as the inequality hidden within the country's growing economy:</p><blockquote><p>"Today we hear that India's economy is getting better, it is growing, our economy is becoming a 5 trillion one. So we feel very proud ... But in doing this I came to understand that a handful of people are becoming very rich in it, and all the rest are staying just as they were."</p></blockquote><blockquote><p>"The nation is growing, that is a good thing, but if at least three or four crore people could themselves become entrepreneurs, become <em>udyojaks</em>..."</p></blockquote><p>And why this knowledge is confined to a few families today:</p><blockquote><p>"Today, whoever is very rich, only his son is taught this knowledge. If someone is a politician, only his son gets to learn that politics. No one else is given such knowledge in college or school."</p></blockquote><h2 id="en-s10">9. Wealth, Dharma and the Nation</h2><p>Finally, Acharya Ji calls upon the education minister, the finance minister and all those concerned:</p><blockquote><p>"We want to give all these forms of knowledge to this country; then India can soon become an economic superpower as well."</p></blockquote><p>He describes a chain of what this wealth will serve:</p><blockquote><p>"It will help us to do dharma, it will help in the defence of our country, in the protection of our armed forces. Because if the country survives, dharma survives; if dharma survives, then culture can flourish in it. Then that wealth also bears fruit."</p></blockquote><blockquote><p>"So there are many benefits from wealth too. Even to maintain one's own body, wealth is needed."</p></blockquote><p><strong>Wealth protects the country, the country protects dharma, and dharma protects culture.</strong> From the body to the nation, wealth has a role at every level.</p><p>His closing wish is an invitation to all:</p><blockquote><p>"I would also say to our many corporates, <em>udyojaks</em>, and all the citizens of our country: connect with us, contact us, join this programme. This is my wish."</p></blockquote><h2 id="en-s11">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>The power to earn wealth is a siddhi</strong> — through the practice of Shree Vidya this power arises within the seeker on its own.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>There is no shame in wealth</strong> — "sukhasya mūlaṁ dharmaḥ, dharmasya mūlam arthaḥ." Lakshmi is always with Vishnu, the sustainer.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>The "money is bad" mindset is wrong</strong> — Shri Krishna and Shri Ram had no lack of wealth. The real knowledge is the planning and management of wealth, dharma and charity.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>Shree Vidya grants both bhoga and moksha</strong> — it makes enjoyment material for yoga and leads towards liberation.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>This is India's ancient tradition</strong> — from Adi Shankaracharya, Agastya Muni, Dattatreya and the Nath tradition to Acharya Chanakya.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>Education must go beyond jobs</strong> — children should dream not only of a job but of becoming entrepreneurs.</div></li></ol><ol class="takeaways"><li><span class="num">7</span><div><strong>The knowledge should be for all, not for a few families</strong> — the goal is to bring Shree Vidya to at least two percent of the country, about three crore people.</div></li></ol><ol class="takeaways"><li><span class="num">8</span><div><strong>Wealth protects the nation and dharma</strong> — if the country survives, dharma survives; if dharma survives, culture survives.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=GmsR2kEJyok" target="_blank" rel="noopener"><img src="assets/GmsR2kEJyok.jpg" alt="How to Become a Billionaire Using Ancient Indian Wisdom | Shree Vidya Secrets by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How to Become a Billionaire Using Ancient Indian Wisdom | Shree Vidya Secrets by Acharya Upendra Ji<small>YouTube · 6:41</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: A Camp for a Rare Knowledge</a></li><li><a href="#en-s2">1. The Gap Between Rich and Poor</a></li><li><a href="#en-s3">2. Education Teaches Only Jobs</a></li><li><a href="#en-s4">3. There Is Nothing to Be Ashamed of in Wealth</a></li><li><a href="#en-s5">4. The Golden Bird and the "Money Is Bad" Mindset</a></li><li><a href="#en-s6">5. Shree Vidya: The Knowledge That Turns Enjoyment into Yoga</a></li><li><a href="#en-s7">6. This Knowledge Belongs to India</a></li><li><a href="#en-s8">7. The Shree Yantra and the Secret Practice</a></li><li><a href="#en-s9">8. Shree Vidya for Three Crore People</a></li><li><a href="#en-s10">9. Wealth, Dharma and the Nation</a></li><li><a href="#en-s11">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
