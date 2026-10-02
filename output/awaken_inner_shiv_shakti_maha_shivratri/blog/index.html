@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>शिवलिंग का रहस्य — भीतर के शिव और शक्ति का जागरण | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — शिवलिंग का रहस्य — भीतर के शिव और शक्ति का जागरण">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="शिवलिंग का रहस्य — भीतर के शिव और शक्ति का जागरण | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>शिवलिंग का रहस्य — भीतर के शिव और शक्ति का जागरण</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ११ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../awaken_inner_shiv_shakti_maha_shivratri_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=l5IMXQm6_Os" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: महाशिवरात्रि का प्रश्न</h2><p>महाशिवरात्रि पर करोड़ों लोग शिवलिंग पर अभिषेक करते हैं, बिल्व पत्र चढ़ाते हैं। पर हम जिसकी पूजा कर रहे हैं, उसका अर्थ क्या है? आचार्य उपेंद्र जी इस अध्याय में यही प्रश्न सामने रखते हैं:</p><blockquote><p>"शिवलिंग की आपने पूजा की, तो मतलब किसकी की? आज हम शिवलिंग के ऊपर अभिषेक कर रहे हैं। आप उसी के लिए आए हैं — महाशिवरात्रि। मैं किसी को भी पूछूँगा, शिवलिंग किसका प्रतीक होता है? कभी शिव पुराण या लिंग पुराण पढ़ा है किसी ने?"</p></blockquote><p>इस अध्याय में हम आचार्य जी के शब्दों में शिवलिंग, बिल्व पत्र, शिव परिवार और "शिव" शब्द के प्रतीकात्मक अर्थ को समझेंगे, और देखेंगे कि ये सब हमारे अपने भीतर की किन बातों की ओर संकेत करते हैं।</p><h2 id="hi-s2">१. निराकार को आकार कैसे आया?</h2><p>आचार्य जी बताते हैं कि दूसरे धर्मों के लोग अक्सर शिवलिंग-पूजा पर प्रश्न उठाते हैं:</p><blockquote><p>"बाकी धर्मों के लोग पूछते हैं, 'अरे, तुम क्या ऐसे शरीर के अवयवों की पूजा कर रहे हो?' ऐसा ही पूछते हैं, और ऐसे हँसते भी हैं।"</p></blockquote><p>उत्तर में कोई कहता है कि शिवलिंग निराकार का प्रतीक है। पर इससे एक और प्रश्न खड़ा हो जाता है:</p><blockquote><p>"प्रश्न है कि निराकार को आकार कैसे आ गया? कुछ आकार है ना उसको? निराकार को आकार कैसे आ गया? तो बोला, अपने शास्त्र ही अपने लोगों को पता नहीं, इसलिए ऐसा है।"</p></blockquote><p>आचार्य जी के अनुसार समस्या प्रश्न में नहीं, <strong>हमारे अपने शास्त्रों के अज्ञान</strong> में है।</p><h2 id="hi-s3">२. साकार शिव और लिंग शरीर</h2><p>आचार्य जी शिव के दो रूपों में भेद करते हैं:</p><blockquote><p>"एक होता है शिव का साकार रूप — जो जटाधारी, सब होते हैं ना, गंगा आती है — उसको बोलते हैं साकार। वह प्रतीक है अपने खुद के शरीर का ही। और यह जो शिवलिंग दिखता है, उसको लिंग शरीर बोलते हैं।"</p></blockquote><p>यानी जटा और गंगा वाला साकार रूप हमारे दिखने वाले शरीर का प्रतीक है, और शिवलिंग उस <strong>लिंग शरीर</strong> का, जो दिखता नहीं।</p><h2 id="hi-s4">३. मृत शरीर का प्रश्न: वह अदृश्य शक्ति कौन है?</h2><p>इस अदृश्य भाग को समझाने के लिए आचार्य जी एक सरल उदाहरण देते हैं। दो व्यक्ति हैं: एक अच्छा, एक बुरा।</p><blockquote><p>"पूरे जीवन भर आपने अच्छा काम किया, उसने बुरा काम किया। उसके बाद आप दोनों मर गए, चले गए। तो आपका शरीर भी यहाँ लेटा है, उसका भी शरीर लेटा है। मेरा प्रश्न है, क्या आपका शरीर अभी शुभ काम कर पाएगा? क्या उसका शरीर बुरा काम कर पाएगा? उसका जवाब है — नहीं।"</p></blockquote><p>तो शरीर स्वयं न शुभ करता है, न अशुभ। करवाने वाला कोई और है:</p><blockquote><p>"तो क्या ऐसी शक्ति थी जो दिख नहीं रही थी, जो मेरे द्वारा शुभ काम करा रही थी और उसके द्वारा कुछ अशुभ करा रही थी? कुछ तो एक अदृश्य चीज़ थी कि नहीं हमारे अंदर? ... नहीं तो मरने के बाद भी तो वही शरीर है — कान, नाक, हाथ, पैर, सब same था।"</p></blockquote><p>यहीं आचार्य जी शिवलिंग का अर्थ खोलते हैं:</p><blockquote><p>"कुछ तो था — जीवात्मा, वह जीव — वह दिखता नहीं है। जो दिख रहा था, वह साकार चीज़; और जो निराकार भाग है, हिस्सा है हमारे अंदर, उसकी जो प्रतीकात्मक चीज़ है, उसको शिवलिंग बोलते हैं।"</p></blockquote><p><strong>शिवलिंग हमारे भीतर के उस निराकार जीव का प्रतीक है, जिसके बिना शरीर कुछ नहीं कर सकता।</strong></p><h2 id="hi-s5">४. अलिंग: पुरुष और प्रकृति से परे</h2><p>शिवलिंग से भी आगे एक अवस्था है, जिसका कोई प्रतीक नहीं:</p><blockquote><p>"जब हम टोटल, पूरा निराकार — जो पुरुषोत्तम करके बोला है, पुरुष और प्रकृति से परे — उसका नाम अपने शास्त्रों में 'अलिंग' करके है। इसका कोई जन्म ही नहीं हुआ है — अजन्मा।"</p></blockquote><p><strong>अलिंग</strong> यानी जिसका कोई लिंग (चिह्न, प्रतीक) नहीं। आचार्य जी फिर दोहराते हैं:</p><blockquote><p>"शायद हमको हमारे शास्त्र ही ठीक से पता नहीं, इसलिए problem होता है। मेरे पास बाकी धर्मों के कई लोग आते हैं। उनको मैं एक-एक अपनी प्रतीकात्मक चीज़ सब समझाता हूँ।"</p></blockquote><h2 id="hi-s6">५. तीन बिल्व पत्र: तीन का अर्पण</h2><p>शिवलिंग पर तीन पत्तों वाला बिल्व पत्र चढ़ाया जाता है। आचार्य जी पूछते हैं, ये तीन क्या हैं?</p><blockquote><p>"तीन-तीन क्या किया तुमने? वो सत्व, रज, तम — ये तीन गुण जो हैं, इन तीनों गुणों से परे, गुणत्रयातीत।"</p></blockquote><p>तीनों गुणों के साथ तीनों शरीर भी:</p><blockquote><p>"तीनों शरीर मेरे — यह physical शरीर, जो स्थूल शरीर; सूक्ष्म शरीर — मेरा मन, मेरे प्राण, ऊर्जा वाला; और उसके बाद कारण शरीर — जो मेरा विज्ञानमय कोष और आनंदमय कोष — इनसे भी परे। ये तीनों के तीन मैंने अर्पण किए।"</p></blockquote><p>और तीनों काल भी:</p><blockquote><p>"तीन समय — वर्तमान, भूत, भविष्य — इन तीनों से परे, कालातीत होना। ... कालातीत होना मतलब समय का, घड़ी का कोई संबंध नहीं।"</p></blockquote><p>तो बिल्व पत्र का अर्पण तीन बातों का अर्पण है:</p><ul><li><strong>तीन गुण</strong> — सत्व, रज, तम → <em>गुणत्रयातीत</em> होना</li><li><strong>तीन शरीर</strong> — स्थूल, सूक्ष्म, कारण → तीनों से परे होना</li><li><strong>तीन काल</strong> — भूत, वर्तमान, भविष्य → <em>कालातीत</em> होना</li></ul><h2 id="hi-s7">६. कालातीत होना: छूटा विमान</h2><p>आचार्य जी गीता का संदर्भ देते हैं:</p><blockquote><p>"श्रीकृष्ण ने गीता में बोला है, समय में जो capture हो गए, अटक गए, उनका पुनर्जन्म होगा। जो समय से आगे निकल गए, मतलब उनको कोई समय की चिंता नहीं।"</p></blockquote><p>पर वे तुरंत स्पष्ट करते हैं कि कालातीत होने का अर्थ लापरवाह होना नहीं है:</p><blockquote><p>"इसका मतलब यह नहीं कि समय पर कार्यक्रम शुरू करो, ना करो। आपका हवाई जहाज़ पकड़ना time पे ही है। छूट गया तो tension नहीं आना चाहिए।"</p></blockquote><blockquote><p>"शायद वह विमान crash होने वाला होगा। या crash उस बेचारे का नहीं होने वाला होगा, तो आपको वहाँ जाकर कुछ तो तकलीफ़ होने वाली होगी। चलो, हो भी गया, तो कुछ lesson होगा। यह आपका aeroplane छूटा, तो airport बंद नहीं होता। यह जिसको समझ में आता है, वह धीरे-धीरे कालातीत हो जाता है।"</p></blockquote><p><strong>कर्म समय पर करो, पर परिणाम को लेकर समय की चिंता में मत अटको।</strong> यही कालातीत होने का अभ्यास है।</p><h2 id="hi-s8">७. त्रिपुटी से परे</h2><p>तीन का एक और रूप है, <strong>त्रिपुटी</strong> — कर्ता, कर्म और विषय का भेद:</p><blockquote><p>"भक्त, भगवान, भक्ति — ये तीन जब तक हमको लगते हैं — मैं भक्त, किसी का; मैं पूजा करने वाला, कर रहा हूँ; मैं भक्ति — तो ऐसा तीन जब लगता है, उसको त्रिपुटी बोलते हैं।"</p></blockquote><blockquote><p>"The seer, seen and seeing; knower, known and knowing; प्रेमी, प्रेमिका और प्रेम — यह जब तक तीन अलग लगते हैं, तब तक पुनर्जन्म होगा।"</p></blockquote><p>बिल्व पत्र के तीन पत्ते अर्पित करना इसी त्रिपुटी को अर्पित करना भी है। आचार्य जी कहते हैं:</p><blockquote><p>"अपने शास्त्र ही हमको पता नहीं कि करना क्या था। कर्मकांड तो बहुत कर लिया। अब ज्ञान पे आते हैं। ज्ञान के भी आगे, फलश्रुति पे।"</p></blockquote><h2 id="hi-s9">८. शिव और पार्वती: पुरुष और प्रकृति</h2><p>अब आचार्य जी शिव-पार्वती का अर्थ समझाते हैं। पार्वती पर्वत की पुत्री हैं, यानी <strong>जड़</strong> का प्रतीक:</p><blockquote><p>"पार्वती — पर्वत की पुत्री — जड़। जड़ पदार्थ, अपना जितना स्वभाव है — मन, बुद्धि, अहंकार — तो उसको प्रकृति बोलते हैं, मूल प्रकृति। शिव जी को बोलते हैं पुरुष।"</p></blockquote><p>"पुरुष" शब्द का अर्थ वे शरीर के रूपक से समझाते हैं:</p><blockquote><p>"यह अपना शरीर जो है, इसको एक गाँव बोला गया। इसको बोलते हैं पुर। ... यह पुर, जिसके नौ द्वार हैं — ये कान, नाक वगैरह सब कुछ। तो ऐसे पुर के अंदर सोने वाला या रहने वाला — 'पुरि शेते इति पुरुषः' — उसको बोलते हैं पुरुष।"</p></blockquote><p><em>पुरि शेते इति पुरुषः</em> — जो पुर (शरीर रूपी नगर) में शयन करता है, वह पुरुष है। और "प्रकृति" शब्द का अर्थ:</p><blockquote><p>"इसमें जो प्रथम कृति हो गई, उसको बोलते हैं प्रथम कृति, मतलब प्रकृति, मूल प्रकृति। वो पार्वती, वो हिमालय की पुत्री — जड़।"</p></blockquote><p>यानी <strong>शिव भीतर बसने वाली चेतना हैं, और पार्वती वह मूल प्रकृति, जिससे मन, बुद्धि और अहंकार बने हैं।</strong></p><h2 id="hi-s10">९. शिव परिवार: गणपति और कार्तिकेय</h2><p>शिव परिवार के बाकी सदस्य भी हमारे भीतर के प्रतीक हैं:</p><blockquote><p>"इसके बाद पहला कार्य जब मैंने किया, कुछ सोचने का — सोचने का काम गणपति का था। गणों का अधिपति मैं तब बनूँगा जब मेरे पास विवेक बुद्धि होगी।"</p></blockquote><blockquote><p>"ऐसे ही कार्तिकेय जो हैं — जो तुम्हारा शिव परिवार बोलते हैं — वह सेनापति है, मतलब मेरा शरीर, पाँच इंद्रियाँ सब और मन; उसको षडानन बोलते हैं।"</p></blockquote><ul><li><strong>गणपति</strong> — विवेक बुद्धि; इंद्रियों रूपी गणों का अधिपति</li><li><strong>कार्तिकेय (षडानन, छह मुख वाले)</strong> — सेनापति; पाँच इंद्रियाँ और मन</li></ul><h2 id="hi-s11">१०. शिव: पुरुष और प्रकृति का संगम</h2><p>इन सबको जोड़ते हुए आचार्य जी शिव और शिवलिंग का प्रतीकात्मक अर्थ बताते हैं:</p><blockquote><p>"भगवान शिव पुरुष और प्रकृति के संगम का प्रतीक हैं, जो अभी मैंने आपको बताया। इसलिए शिवलिंग में भी वह पुरुष और स्त्री का — लिंग और योनि का — प्रकृति-प्रतीकात्मक होता है।"</p></blockquote><p>तो जिस प्रश्न से अध्याय शुरू हुआ था, उसका उत्तर यहाँ है: शिवलिंग <strong>शरीर के अंग की पूजा नहीं</strong>, बल्कि पुरुष (चेतना) और प्रकृति (जड़) के मिलन का प्रतीक है, जो हम सबके भीतर है।</p><h2 id="hi-s12">११. "शि" और "व": भीतर का स्त्री और पुरुष तत्व</h2><p>"शिव" शब्द में ही शिव-शक्ति दोनों हैं:</p><blockquote><p>"शिव शब्द दो भागों से मिलकर बना है — 'शि' और 'व'। 'शि' आपके भीतर निहित स्त्री तत्व का संकेत देता है और आपके शरीर के बाएँ भाग का प्रतिनिधित्व करता है।"</p></blockquote><blockquote><p>"'व' आपके भीतर के पुरुष तत्व का संकेत देता है, आपके शरीर के दाएँ भाग का प्रतिनिधित्व करता है।"</p></blockquote><p>आचार्य जी इसे स्वयं अनुभव करने का एक सरल प्रयोग बताते हैं:</p><blockquote><p>"आप कभी करके देखना — 'शि' इतना ही बोलना, क्या होता है, देखो कहाँ पे उसका vibration आता है। सही जगह पे आना चाहिए। ... 'व' ऐसा बोल के देखना आप।"</p></blockquote><blockquote><p>"उसके बाद शिव, शिवा — शिवा मतलब पार्वती — और उसके अर्थ में मोक्ष, काफी सब उसमें आता है।"</p></blockquote><h2 id="hi-s13">१२. शिव के अनेक अर्थ: मंगल और स्वस्थ</h2><p>आचार्य जी कहते हैं कि शिव के पंद्रह अर्थ निकलते हैं, और उनमें से कुछ बताते हैं:</p><blockquote><p>"शिव के पंद्रह अर्थ निकलते हैं। एक — सर्वव्याप्त, आनंदमय अवस्था वाला।"</p></blockquote><blockquote><p>"शिव शब्द — auspicious, मतलब मंगलकारक; कल्याणप्रद, जो आपका कल्याण करता है।"</p></blockquote><blockquote><p>"Second meaning — in good health, मतलब स्वस्थ — स्व में स्थापित होना। उसको भी शिव बोले।"</p></blockquote><p><strong>स्वस्थ</strong> का अर्थ केवल रोग-मुक्त होना नहीं, बल्कि <em>स्व में स्थित</em> होना है। अपने स्वरूप में स्थित होना ही शिव होना है।</p><h2 id="hi-s14">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>शिवलिंग शरीर के अंग की पूजा नहीं है।</strong> यह हमारे भीतर के निराकार जीव, यानी लिंग शरीर का प्रतीक है; जटाधारी साकार शिव हमारे दिखने वाले शरीर के प्रतीक हैं।</div></li><li><span class="num">२</span><div><strong>मृत शरीर न शुभ कर सकता है, न अशुभ।</strong> जो अदृश्य शक्ति कर्म करवाती थी, वही जीवात्मा है, और शिवलिंग उसी का प्रतीक है।</div></li><li><span class="num">३</span><div><strong>पुरुषोत्तम "अलिंग" है</strong>, पुरुष और प्रकृति दोनों से परे, अजन्मा।</div></li><li><span class="num">४</span><div><strong>तीन बिल्व पत्र तीन का अर्पण हैं</strong>: तीन गुण (सत्व, रज, तम), तीन शरीर (स्थूल, सूक्ष्म, कारण) और तीन काल (भूत, वर्तमान, भविष्य)। लक्ष्य है गुणत्रयातीत और कालातीत होना।</div></li><li><span class="num">५</span><div><strong>कालातीत होने का अर्थ लापरवाही नहीं।</strong> विमान समय पर पकड़ो, पर छूट जाए तो tension नहीं; "airport बंद नहीं होता।"</div></li><li><span class="num">६</span><div><strong>त्रिपुटी से परे जाना</strong>: भक्त-भगवान-भक्ति, the seer-seen-seeing, प्रेमी-प्रेमिका-प्रेम जब तक अलग लगते हैं, तब तक पुनर्जन्म है।</div></li><li><span class="num">७</span><div><strong>शिव पुरुष हैं, पार्वती मूल प्रकृति।</strong> <em>पुरि शेते इति पुरुषः</em>: नौ द्वार वाले शरीर रूपी पुर में बसने वाला पुरुष है।</div></li><li><span class="num">८</span><div><strong>गणपति विवेक बुद्धि हैं, कार्तिकेय (षडानन) पाँच इंद्रियाँ और मन रूपी सेनापति।</strong></div></li><li><span class="num">९</span><div><strong>"शि" स्त्री तत्व (बायाँ भाग), "व" पुरुष तत्व (दायाँ भाग)।</strong> शिव में ही शिव-शक्ति दोनों हैं।</div></li><li><span class="num">१०</span><div><strong>शिव यानी मंगल, कल्याण और स्वस्थ</strong>, यानी स्व में स्थित होना।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=l5IMXQm6_Os" target="_blank" rel="noopener"><img src="assets/l5IMXQm6_Os.jpg" alt="Awaken Your Inner Shiv &amp; Shakti | Enlightening Discourse by Acharya Upendra Ji | Maha Shivratri 2025" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Awaken Your Inner Shiv &amp; Shakti | Enlightening Discourse by Acharya Upendra Ji | Maha Shivratri 2025<small>YouTube · 7:29</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: महाशिवरात्रि का प्रश्न</a></li><li><a href="#hi-s2">१. निराकार को आकार कैसे आया?</a></li><li><a href="#hi-s3">२. साकार शिव और लिंग शरीर</a></li><li><a href="#hi-s4">३. मृत शरीर का प्रश्न: वह अदृश्य शक्ति कौन है?</a></li><li><a href="#hi-s5">४. अलिंग: पुरुष और प्रकृति से परे</a></li><li><a href="#hi-s6">५. तीन बिल्व पत्र: तीन का अर्पण</a></li><li><a href="#hi-s7">६. कालातीत होना: छूटा विमान</a></li><li><a href="#hi-s8">७. त्रिपुटी से परे</a></li><li><a href="#hi-s9">८. शिव और पार्वती: पुरुष और प्रकृति</a></li><li><a href="#hi-s10">९. शिव परिवार: गणपति और कार्तिकेय</a></li><li><a href="#hi-s11">१०. शिव: पुरुष और प्रकृति का संगम</a></li><li><a href="#hi-s12">११. "शि" और "व": भीतर का स्त्री और पुरुष तत्व</a></li><li><a href="#hi-s13">१२. शिव के अनेक अर्थ: मंगल और स्वस्थ</a></li><li><a href="#hi-s14">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Secret of the Shivling — Awakening the Shiva and Shakti Within | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>The Secret of the Shivling — Awakening the Shiva and Shakti Within</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 11 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../awaken_inner_shiv_shakti_maha_shivratri_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=l5IMXQm6_Os" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: A Question for Maha Shivratri</h2><p>On Maha Shivratri, millions of people perform abhishek on the Shivling and offer bilva leaves. But what does the thing we worship actually mean? In this chapter, Acharya Upendra Ji puts exactly this question before us:</p><blockquote><p>"You worshipped the Shivling, so whom did you actually worship? Today we are performing abhishek on the Shivling. That is what you have come for — Maha Shivratri. I will ask anyone: what is the Shivling a symbol of? Has anyone ever read the Shiva Purana or the Linga Purana?"</p></blockquote><p>In this chapter we will understand, in Acharya Ji's own words, the symbolic meaning of the Shivling, the bilva leaf, the family of Shiva and the word "Shiva" itself, and see which things within ourselves they point to.</p><h2 id="en-s2">1. How Did the Formless Take a Form?</h2><p>Acharya Ji explains that people of other religions often question the worship of the Shivling:</p><blockquote><p>"People of other religions ask, 'Are you worshipping parts of the body like this?' That is exactly what they ask, and they laugh about it too."</p></blockquote><p>In reply, someone says the Shivling is a symbol of the formless (<em>nirakar</em>). But that raises another question:</p><blockquote><p>"The question is, how did the formless get a form? It does have some form, doesn't it? How did the formless get a form? So the answer is: our own people do not know their own scriptures, that is why this happens."</p></blockquote><p>According to Acharya Ji, the problem is not the question but <strong>our ignorance of our own scriptures</strong>.</p><h2 id="en-s3">2. The Embodied Shiva and the Linga Sharira</h2><p>Acharya Ji distinguishes between two forms of Shiva:</p><blockquote><p>"There is the embodied (<em>sakar</em>) form of Shiva — with matted locks and all, with the Ganga flowing — that is called <em>sakar</em>. It is a symbol of our own body. And this Shivling that you see is called the <em>linga sharira</em>."</p></blockquote><p>So the embodied form with matted locks and the Ganga symbolises our visible body, and the Shivling symbolises the <strong>linga sharira</strong>, which is not seen.</p><h2 id="en-s4">3. The Question of the Dead Body: Who Is That Invisible Power?</h2><p>To explain this invisible part, Acharya Ji gives a simple example. There are two people: one good, one bad.</p><blockquote><p>"All your life you did good work, and he did bad work. After that, both of you died and were gone. Your body is lying here, and his body is lying here too. My question is: can your body do auspicious work now? Can his body do bad work? The answer is — no."</p></blockquote><p>So the body by itself does neither good nor bad. Something else makes it act:</p><blockquote><p>"So was there a power that could not be seen, which was making good work happen through me and something inauspicious happen through him? There was some invisible thing inside us, wasn't there? ... Otherwise, even after death it is the same body — ears, nose, hands, feet, everything was the same."</p></blockquote><p>This is where Acharya Ji reveals the meaning of the Shivling:</p><blockquote><p>"Something was there — the <em>jivatma</em>, the <em>jiva</em> — it is not seen. What was visible was the embodied thing; and the formless part within us, its symbol is what we call the Shivling."</p></blockquote><p><strong>The Shivling is a symbol of the formless <em>jiva</em> within us, without which the body can do nothing.</strong></p><h2 id="en-s5">4. Aling: Beyond Purusha and Prakriti</h2><p>Beyond even the Shivling is a state that has no symbol at all:</p><blockquote><p>"And when we come to the total, complete formless — what is called Purushottam, beyond Purusha and Prakriti — its name in our scriptures is 'Aling'. It was never born at all — unborn (<em>ajanma</em>)."</p></blockquote><p><strong>Aling</strong> means that which has no <em>linga</em> (mark, symbol). Acharya Ji repeats:</p><blockquote><p>"Perhaps we do not know our own scriptures properly, and that is why the problem arises. Many people of other religions come to me. I explain each of our symbols to them, one by one."</p></blockquote><h2 id="en-s6">5. Three Bilva Leaves: The Offering of Three</h2><p>A three-leaved bilva is offered on the Shivling. Acharya Ji asks: what are these three?</p><blockquote><p>"What three did you offer? Sattva, rajas, tamas — these three gunas; going beyond all three gunas, <em>gunatrayatit</em>."</p></blockquote><p>Along with the three gunas, the three bodies as well:</p><blockquote><p>"My three bodies — this physical body, the gross body (<em>sthula sharira</em>); the subtle body (<em>sukshma sharira</em>) — my mind, my prana, the energy body; and after that the causal body (<em>karana sharira</em>) — my <em>vijnanamaya kosha</em> and <em>anandamaya kosha</em> — going beyond even these. I offered all three of these three."</p></blockquote><p>And the three times as well:</p><blockquote><p>"The three times — present, past, future — going beyond all three, becoming <em>kalatit</em>, beyond time. ... Being <em>kalatit</em> means having no relationship with time, with the clock."</p></blockquote><p>So offering the bilva leaf is an offering of three things:</p><ul><li><strong>The three gunas</strong> — sattva, rajas, tamas → becoming <em>gunatrayatit</em>, beyond the gunas</li><li><strong>The three bodies</strong> — gross, subtle, causal → going beyond all three</li><li><strong>The three times</strong> — past, present, future → becoming <em>kalatit</em>, beyond time</li></ul><h2 id="en-s7">6. Becoming Kalatit: The Missed Flight</h2><p>Acharya Ji refers to the Gita:</p><blockquote><p>"Shri Krishna has said in the Gita that those who are captured in time, stuck in it, will be reborn. Those who have gone beyond time have no worry about time."</p></blockquote><p>But he immediately makes clear that going beyond time does not mean being careless:</p><blockquote><p>"This does not mean whether you start the programme on time or not. Catching your aeroplane has to be on time. If you miss it, there should be no tension."</p></blockquote><blockquote><p>"Perhaps that plane was going to crash. Or perhaps it was not going to crash, poor thing, but you would have had some trouble after getting there. Fine, even if something happened, there would be some lesson. You missed this aeroplane, but the airport does not shut down. One who understands this slowly becomes <em>kalatit</em>."</p></blockquote><p><strong>Do your work on time, but do not get stuck worrying about time and results.</strong> That is the practice of going beyond time.</p><h2 id="en-s8">7. Beyond the Triputi</h2><p>Another form of three is the <strong>triputi</strong> — the division into doer, action and object:</p><blockquote><p>"Devotee, God, devotion — as long as we feel these three — I am a devotee, of someone; I am the one doing the worship; I am devotion — when we feel three like this, it is called the <em>triputi</em>."</p></blockquote><blockquote><p>"The seer, seen and seeing; knower, known and knowing; lover, beloved and love — as long as these feel like three separate things, there will be rebirth."</p></blockquote><p>Offering the three leaves of the bilva is also an offering of this triputi. Acharya Ji says:</p><blockquote><p>"We do not even know from our own scriptures what we were supposed to do. We have done plenty of ritual (<em>karmakand</em>). Now let us come to knowledge (<em>jnana</em>). And beyond knowledge, to its fruit (<em>phalashruti</em>)."</p></blockquote><h2 id="en-s9">8. Shiva and Parvati: Purusha and Prakriti</h2><p>Now Acharya Ji explains the meaning of Shiva and Parvati. Parvati is the daughter of the mountain, that is, a symbol of <strong>inert matter</strong> (<em>jada</em>):</p><blockquote><p>"Parvati — daughter of the mountain (<em>parvat</em>) — inert. Inert matter, all of our nature — mind, intellect, ego — that is called Prakriti, Mula Prakriti, primordial nature. Shiva Ji is called Purusha."</p></blockquote><p>He explains the word "Purusha" through the metaphor of the body:</p><blockquote><p>"This body of ours has been called a town. It is called a <em>pur</em>. ... This <em>pur</em>, which has nine gates — the ears, nose and so on. So the one who sleeps or dwells within such a <em>pur</em> — '<em>puri shete iti purushah</em>' — is called Purusha."</p></blockquote><p><em>Puri shete iti purushah</em> — the one who rests in the <em>pur</em> (the city of the body) is Purusha. And the meaning of the word "Prakriti":</p><blockquote><p>"The first creation that happened in this is called the first creation (<em>pratham kriti</em>), meaning Prakriti, Mula Prakriti. That is Parvati, that daughter of the Himalaya — inert."</p></blockquote><p>That is, <strong>Shiva is the consciousness dwelling within, and Parvati is the primordial nature from which mind, intellect and ego are made.</strong></p><h2 id="en-s10">9. The Family of Shiva: Ganapati and Kartikeya</h2><p>The other members of Shiva's family are also symbols of what is within us:</p><blockquote><p>"After that, when I did the first act, the act of thinking — the work of thinking was Ganapati's. I will become the lord of the <em>ganas</em> only when I have discerning intellect (<em>vivek buddhi</em>)."</p></blockquote><blockquote><p>"In the same way Kartikeya — of what you call the family of Shiva — is the commander, meaning my body, the five senses and the mind; that is why he is called <em>Shadanan</em>."</p></blockquote><ul><li><strong>Ganapati</strong> — discerning intellect; lord of the <em>ganas</em>, the senses</li><li><strong>Kartikeya (Shadanan, the six-faced)</strong> — the commander; the five senses and the mind</li></ul><h2 id="en-s11">10. Shiva: The Union of Purusha and Prakriti</h2><p>Bringing all of this together, Acharya Ji gives the symbolic meaning of Shiva and the Shivling:</p><blockquote><p>"Lord Shiva is the symbol of the union of Purusha and Prakriti, which I just explained to you. That is why in the Shivling too, it is a symbol of the male and the female — the <em>linga</em> and the <em>yoni</em> — of Prakriti."</p></blockquote><p>So here is the answer to the question this chapter began with: the Shivling is <strong>not the worship of a body part</strong> but a symbol of the union of Purusha (consciousness) and Prakriti (matter) that exists within all of us.</p><h2 id="en-s12">11. "Shi" and "Va": The Feminine and Masculine Within</h2><p>Both Shiva and Shakti are present in the word "Shiva" itself:</p><blockquote><p>"The word Shiva is made of two parts — 'Shi' and 'Va'. 'Shi' indicates the feminine principle within you and represents the left side of your body."</p></blockquote><blockquote><p>"'Va' indicates the masculine principle within you and represents the right side of your body."</p></blockquote><p>Acharya Ji offers a simple experiment to experience this yourself:</p><blockquote><p>"Try it sometime — just say 'Shi', see what happens, see where its vibration comes. It should come in the right place. ... Try saying 'Va' as well."</p></blockquote><blockquote><p>"After that, Shiva, Shivaa — Shivaa means Parvati — and in its meaning, moksha and a great deal more is included."</p></blockquote><h2 id="en-s13">12. The Many Meanings of Shiva: Auspicious and Healthy</h2><p>Acharya Ji says that fifteen meanings of Shiva can be drawn out, and describes a few of them:</p><blockquote><p>"Fifteen meanings of Shiva can be drawn out. One — all-pervading, the one in a state of bliss."</p></blockquote><blockquote><p>"The word Shiva — auspicious, meaning bringer of good fortune (<em>mangalkarak</em>); <em>kalyanprad</em>, the one who brings about your welfare."</p></blockquote><blockquote><p>"Second meaning — in good health, meaning <em>swasth</em> — being established in the Self (<em>swa</em>). That too is called Shiva."</p></blockquote><p><strong>Swasth</strong> does not merely mean free of disease, but <em>established in the Self</em>. To be established in one's true nature is to be Shiva.</p><h2 id="en-s14">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>The Shivling is not the worship of a body part.</strong> It is a symbol of the formless <em>jiva</em> within us, the <em>linga sharira</em>; the embodied Shiva with matted locks symbolises our visible body.</div></li><li><span class="num">2</span><div><strong>A dead body can do neither good nor bad.</strong> The invisible power that made it act is the <em>jivatma</em>, and the Shivling is its symbol.</div></li><li><span class="num">3</span><div><strong>Purushottam is "Aling"</strong>, beyond both Purusha and Prakriti, unborn.</div></li><li><span class="num">4</span><div><strong>Three bilva leaves are an offering of three</strong>: the three gunas (sattva, rajas, tamas), the three bodies (gross, subtle, causal) and the three times (past, present, future). The goal is to become <em>gunatrayatit</em> and <em>kalatit</em>.</div></li><li><span class="num">5</span><div><strong>Going beyond time does not mean carelessness.</strong> Catch your flight on time, but if you miss it, no tension; "the airport does not shut down."</div></li><li><span class="num">6</span><div><strong>Going beyond the triputi</strong>: as long as devotee-God-devotion, the seer-seen-seeing, lover-beloved-love feel separate, there is rebirth.</div></li><li><span class="num">7</span><div><strong>Shiva is Purusha, Parvati is Mula Prakriti.</strong> <em>Puri shete iti purushah</em>: the one dwelling in the nine-gated city of the body is Purusha.</div></li><li><span class="num">8</span><div><strong>Ganapati is discerning intellect; Kartikeya (Shadanan) is the commander, the five senses and the mind.</strong></div></li><li><span class="num">9</span><div><strong>"Shi" is the feminine principle (left side), "Va" the masculine principle (right side).</strong> Both Shiva and Shakti are within the word Shiva.</div></li><li><span class="num">10</span><div><strong>Shiva means auspicious, welfare and <em>swasth</strong></em>, that is, being established in the Self.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=l5IMXQm6_Os" target="_blank" rel="noopener"><img src="assets/l5IMXQm6_Os.jpg" alt="Awaken Your Inner Shiv &amp; Shakti | Enlightening Discourse by Acharya Upendra Ji | Maha Shivratri 2025" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Awaken Your Inner Shiv &amp; Shakti | Enlightening Discourse by Acharya Upendra Ji | Maha Shivratri 2025<small>YouTube · 7:29</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: A Question for Maha Shivratri</a></li><li><a href="#en-s2">1. How Did the Formless Take a Form?</a></li><li><a href="#en-s3">2. The Embodied Shiva and the Linga Sharira</a></li><li><a href="#en-s4">3. The Question of the Dead Body: Who Is That Invisible Power?</a></li><li><a href="#en-s5">4. Aling: Beyond Purusha and Prakriti</a></li><li><a href="#en-s6">5. Three Bilva Leaves: The Offering of Three</a></li><li><a href="#en-s7">6. Becoming Kalatit: The Missed Flight</a></li><li><a href="#en-s8">7. Beyond the Triputi</a></li><li><a href="#en-s9">8. Shiva and Parvati: Purusha and Prakriti</a></li><li><a href="#en-s10">9. The Family of Shiva: Ganapati and Kartikeya</a></li><li><a href="#en-s11">10. Shiva: The Union of Purusha and Prakriti</a></li><li><a href="#en-s12">11. "Shi" and "Va": The Feminine and Masculine Within</a></li><li><a href="#en-s13">12. The Many Meanings of Shiva: Auspicious and Healthy</a></li><li><a href="#en-s14">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
