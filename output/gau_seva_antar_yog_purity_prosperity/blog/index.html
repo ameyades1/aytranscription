@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>गौ सेवा — कृतज्ञता, शुद्धि और समृद्धि की साधना | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — गौ सेवा — कृतज्ञता, शुद्धि और समृद्धि की साधना">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="गौ सेवा — कृतज्ञता, शुद्धि और समृद्धि की साधना | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>गौ सेवा — कृतज्ञता, शुद्धि और समृद्धि की साधना</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../gau_seva_antar_yog_purity_prosperity_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=eYm2lJLozys" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: गौ माता का ऋण</h2><p>भारतीय जीवन में गाय केवल एक पशु नहीं, माता है। अंतर्योग फाउंडेशन द्वारा सद्गुरु आचार्य उपेंद्र जी के मार्गदर्शन में आयोजित गौ सेवा का यह प्रसंग इसी भाव से आरंभ होता है:</p><blockquote><p>"गौ माता, जिनके निःस्वार्थ योगदान से मानव जीवन धन्य हुआ है — उनका महत्व शास्त्रों ने और संत-महापुरुषों ने भी सर्वोपरि बताया है।"</p></blockquote><blockquote><p>"विशेषकर हमारे भारत में, जो सदियों से कृषि-प्रधान देश रहा है, वहाँ गाय को माता स्वरूप में पूजा जाता है।"</p></blockquote><p>इसलिए गौ सेवा कोई ऐच्छिक पुण्य-कार्य नहीं, बल्कि कर्तव्य है:</p><blockquote><p>"गौ माता हमारी संस्कृति की आधारशिला है और <strong>गौ सेवा हर भारतीय का मुख्य कर्तव्य है।</strong>"</p></blockquote><h2 id="hi-s2">गौ माता का अमूल्य योगदान</h2><p>गौ माता का योगदान हमारे भोजन, स्वास्थ्य और आजीविका — तीनों में फैला हुआ है:</p><blockquote><p>"दूध, दही, घी, गोमूत्र, औषधि से लेकर खेती, ऑर्गेनिक उत्पादन आदि स्वरूप में लाखों लोगों की आजीविका तक, उनका योगदान अमूल्य है।"</p></blockquote><p>जिससे इतना कुछ पाया है, उसके प्रति आभार व्यक्त करना स्वाभाविक है। गौ सेवा इसी आभार का माध्यम है:</p><blockquote><p>"अंतर्योग आपको गौ सेवा द्वारा गौ माता के प्रति अपनी <strong>कृतज्ञता और आभार</strong> व्यक्त करने का एक अमूल्य अवसर प्रदान करता है।"</p></blockquote><blockquote><p>"सद्गुरु आचार्य उपेंद्र जी के दिव्य मार्गदर्शन में अंतर्योग फाउंडेशन समय-समय पर गौ सेवा का आयोजन करता है, ताकि हम सब मिलकर इस दिव्य धरोहर का संवर्धन कर सकें।"</p></blockquote><h2 id="hi-s3">समृद्धि और सौभाग्य का स्रोत</h2><p>गौ माता को परंपरा से लक्ष्मी का, अर्थात् समृद्धि का, प्रतीक माना गया है:</p><blockquote><p>"गौ माता धन, समृद्धि और ऐश्वर्य का प्रतीक मानी जाती है। ऐसी मान्यता है कि गौ माता की सेवा से एक साथ <strong>तैंतीस कोटि देवी-देवताओं</strong> का आशीर्वाद और प्रचंड पुण्य प्राप्त होता है।"</p></blockquote><p>पर यह फल केवल क्रिया से नहीं, <em>भाव</em> से मिलता है:</p><blockquote><p>"<strong>सही भाव से</strong> गौ माता की सेवा करने से हम अपने आभामंडल में समृद्धि और सौभाग्य आकर्षित करते हैं।"</p></blockquote><p><em>आभामंडल</em> — अर्थात् व्यक्ति के चारों ओर का सूक्ष्म ऊर्जा-क्षेत्र (aura)। सेवा का शुद्ध भाव इसी क्षेत्र को पवित्र और समृद्ध करता है।</p><h2 id="hi-s4">शास्त्रोक्त विधि: यांत्रिकता नहीं, भाव</h2><p>सेवा कैसे की जाए — यह भी उतना ही महत्वपूर्ण है जितना सेवा करना:</p><blockquote><p>"आचार्य उपेंद्र जी गौ सेवा का उचित, शास्त्रोक्त तरीका सिखाते हैं, जिससे हम गौ माता की <strong>वात्सल्यपूर्ण ऊर्जा</strong> को अनुभव करके समृद्धि और सौभाग्य आकर्षित कर पाएँ, और हमें मन की शांति और आनंद मिले।"</p></blockquote><p>इस विधि का केंद्र है — गाय में परमात्मा को देखना:</p><blockquote><p>"आचार्य जी कहते हैं कि गौ सेवा <strong>यांत्रिकता से नहीं</strong>, अपितु गौओं में परमेश्वर का अंश देखकर, 'ॐ तत्सत्' इस भाव से होनी चाहिए।"</p></blockquote><p><em>ॐ तत्सत्</em> परब्रह्म का त्रिविध नाम है, जिसके स्मरण के साथ किया गया हर कर्म परमात्मा को अर्पित हो जाता है:</p><blockquote class="verse"><p><strong>ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः।</strong><br>अर्थात् ॐ, तत् और सत् — ये तीन ब्रह्म के नाम कहे गए हैं।<br>— श्रीमद्भगवद्गीता १७.२३</p></blockquote><blockquote><p>"इसी भावना के साथ सेवक दल हर सेवा <strong>प्रेमपूर्वक</strong> गौ माता को अर्पित करते हैं।"</p></blockquote><h2 id="hi-s5">सेवा का स्थान और वात्सल्य का अनुभव</h2><p>सेवा के लिए स्थान भी सोच-समझकर चुना जाता है:</p><blockquote><p>"अंतर्योग में गौ सेवा के लिए ऐसा स्थान चुना जाता है जहाँ वास्तविक रूप से गाय का माता के रूप में सम्मान होता है — एक ऐसा विशाल स्थल जहाँ सैकड़ों गौ माता और उनके नन्हे बछड़े रहते हों।"</p></blockquote><p>वहाँ प्रेम और स्नेह का आदान-प्रदान प्रत्यक्ष दिखाई देता है:</p><blockquote><p>"आचार्य जी और गुरु माँ जब प्रेम से गौ माता को सहलाकर उन्हें चारा खिलाते हैं, तो समस्त गौवंश मानो उनके दिव्यत्व को पहचानकर उनके सान्निध्य के लिए उत्सुक हो उठता है, और बछड़े बार-बार आगे आकर उनका स्नेह पाने को व्याकुल होते हैं।"</p></blockquote><p>यह अनुभव हर सहभागी के लिए खुला है:</p><blockquote><p>"गौ माता के इस स्नेह को अनुभव करने का सभी को अवसर मिलता है, और <strong>अपने हाथों से स्वयं गौ माता को खिलाने</strong> का अवसर भी प्राप्त होता है।"</p></blockquote><h2 id="hi-s6">गौशाला: सहस्र गुना फलदायी साधना-स्थल</h2><p>गौशाला केवल सेवा का नहीं, साधना का भी स्थान है:</p><blockquote><p>"आचार्य उपेंद्र जी तथा अंतर्योग के साथ की गई गौ सेवा की विशेषता होती है — गौशाला जैसे पवित्र स्थल में की गई विशेष साधना, जो <strong>सहस्र गुना फलदायी</strong> होती है, ऐसा हमारे शास्त्रों में कहा गया है।"</p></blockquote><p><em>सहस्र गुना</em> — अर्थात् हज़ार गुना। पवित्र स्थान में किया गया जप-ध्यान सामान्य स्थान की तुलना में कई गुना फल देता है।</p><h2 id="hi-s7">सेवा कभी पूरी नहीं होती</h2><p>गौशाला में सेवा के दौरान कहे गए शब्दों में एक विनम्र स्मरण मिलता है — कि गौ माता के प्रति हमारी सेवा कभी "पर्याप्त" नहीं हो सकती:</p><blockquote><p>"मत समझना कि हम कितना भी सेवा करें, वो कम है। करना पड़ता है — उनकी दवा करो, पानी करो, सब साफ़ करो। वो भी किया, तो भी कम है।"</p></blockquote><p>इसी भाव से उन लोगों का भी स्मरण किया जाता है जो दिन-प्रतिदिन यह सेवा निभाते हैं:</p><blockquote><p>"हम गौशाला के समर्पित कर्मचारियों के प्रति हृदय से आभार प्रकट करते हैं, जिनकी निष्ठा और सेवा से यह सनातन परंपरा आज भी जीवित है।"</p></blockquote><blockquote><p>"गौ सेवा हमारे जीवन और संस्कृति की जड़ है; यह मनुष्य का <strong>अवश्य कर्तव्य</strong> है।"</p></blockquote><h2 id="hi-s8">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>गौ माता हमारी संस्कृति की आधारशिला है</strong> और गौ सेवा हर भारतीय का मुख्य कर्तव्य है।</div></li><li><span class="num">२</span><div>दूध, घी, गोमूत्र, औषधि से लेकर खेती और आजीविका तक — गौ माता का योगदान अमूल्य है; गौ सेवा उसके प्रति <strong>कृतज्ञता</strong> का माध्यम है।</div></li><li><span class="num">३</span><div>सही भाव से की गई गौ सेवा <strong>आभामंडल में समृद्धि और सौभाग्य</strong> आकर्षित करती है और मन को शांति व आनंद देती है।</div></li><li><span class="num">४</span><div>गौ सेवा <strong>यांत्रिकता से नहीं</strong>, गौओं में परमेश्वर का अंश देखकर, "ॐ तत्सत्" के भाव से होनी चाहिए।</div></li><li><span class="num">५</span><div>गौशाला जैसे पवित्र स्थल में की गई साधना <strong>सहस्र गुना फलदायी</strong> होती है।</div></li><li><span class="num">६</span><div>हम कितनी भी सेवा करें, वह कम है — और जो प्रतिदिन यह सेवा निभाते हैं, उनके प्रति <strong>आभार</strong> भी सेवा का अंग है।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=eYm2lJLozys" target="_blank" rel="noopener"><img src="assets/eYm2lJLozys.jpg" alt="Unique Gau Seva at Antar Yog – Your Path to Purity, Prosperity and Liberation | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Unique Gau Seva at Antar Yog – Your Path to Purity, Prosperity and Liberation | Acharya Upendra Ji<small>YouTube · 4:34</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: गौ माता का ऋण</a></li><li><a href="#hi-s2">गौ माता का अमूल्य योगदान</a></li><li><a href="#hi-s3">समृद्धि और सौभाग्य का स्रोत</a></li><li><a href="#hi-s4">शास्त्रोक्त विधि: यांत्रिकता नहीं, भाव</a></li><li><a href="#hi-s5">सेवा का स्थान और वात्सल्य का अनुभव</a></li><li><a href="#hi-s6">गौशाला: सहस्र गुना फलदायी साधना-स्थल</a></li><li><a href="#hi-s7">सेवा कभी पूरी नहीं होती</a></li><li><a href="#hi-s8">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Gau Seva — A Practice of Gratitude, Purity and Prosperity | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Gau Seva — A Practice of Gratitude, Purity and Prosperity</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../gau_seva_antar_yog_purity_prosperity_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=eYm2lJLozys" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Our Debt to Mother Cow</h2><p>In Indian life the cow is not merely an animal; she is a mother. This account of the Gau Seva (service to cows) organised by the Antar Yog Foundation under the guidance of Sadguru Acharya Upendra Ji begins in exactly this spirit:</p><blockquote><p>"Gau Mata, whose selfless contribution has blessed human life — the scriptures and the saints and great souls have declared her importance to be supreme."</p></blockquote><blockquote><p>"Especially in our Bharat, which for centuries has been a land of agriculture, the cow is worshipped in the form of a mother."</p></blockquote><p>That is why Gau Seva is not an optional act of merit, but a duty:</p><blockquote><p>"Gau Mata is the foundation stone of our culture, and <strong>Gau Seva is the foremost duty of every Indian.</strong>"</p></blockquote><h2 id="en-s2">The Priceless Contribution of Mother Cow</h2><p>Mother Cow's contribution runs through our food, our health and our livelihood alike:</p><blockquote><p>"From milk, curd, ghee, cow urine and medicines to farming, organic production and the livelihood of lakhs of people, her contribution is priceless."</p></blockquote><p>When we have received so much from someone, it is only natural to express our thanks. Gau Seva is the means of that thanks:</p><blockquote><p>"Antar Yog offers you a priceless opportunity to express your <strong>gratitude and thankfulness</strong> to Gau Mata through Gau Seva."</p></blockquote><blockquote><p>"Under the divine guidance of Sadguru Acharya Upendra Ji, the Antar Yog Foundation organises Gau Seva from time to time, so that all of us together can nurture this divine heritage."</p></blockquote><h2 id="en-s3">A Source of Prosperity and Good Fortune</h2><p>By tradition, Mother Cow is regarded as a symbol of Lakshmi — that is, of prosperity:</p><blockquote><p>"Gau Mata is regarded as a symbol of wealth, prosperity and abundance. It is believed that serving Gau Mata brings, all at once, the blessings of the <strong>thirty-three crore gods and goddesses</strong> and immense merit."</p></blockquote><p>But this fruit comes not from the act alone, but from the <em>bhav</em>, the inner feeling:</p><blockquote><p>"By serving Gau Mata <strong>with the right feeling</strong>, we attract prosperity and good fortune into our aura."</p></blockquote><p><em>Abhamandal</em> — the subtle energy field around a person (the aura). The pure feeling of service purifies and enriches this very field.</p><h2 id="en-s4">The Scriptural Way: Feeling, Not Mechanical Routine</h2><p>How the service is done matters as much as doing it:</p><blockquote><p>"Acharya Upendra Ji teaches the proper, scripturally sanctioned way of Gau Seva, so that by experiencing Gau Mata's <strong>motherly, loving energy</strong> we are able to attract prosperity and good fortune, and find peace of mind and joy."</p></blockquote><p>At the heart of this method is seeing God in the cow:</p><blockquote><p>"Acharya Ji says that Gau Seva should be done <strong>not mechanically</strong>, but by seeing a part of the Supreme Lord in the cows, with the feeling of 'Om Tat Sat'."</p></blockquote><p><em>Om Tat Sat</em> is the threefold name of the Supreme Brahman; every action done while remembering it becomes an offering to God:</p><blockquote class="verse"><p><strong>oṃ tat sad iti nirdeśo brahmaṇas tri-vidhaḥ smṛtaḥ</strong><br>"Om, Tat and Sat — these are declared to be the threefold designation of Brahman."<br>— Bhagavad Gita 17.23</p></blockquote><blockquote><p>"With this very feeling, the team of sevaks offers every act of service to Gau Mata <strong>with love</strong>."</p></blockquote><h2 id="en-s5">The Place of Service and the Experience of Motherly Love</h2><p>The place for the service is also chosen with care:</p><blockquote><p>"In Antar Yog, a place is chosen for Gau Seva where the cow is truly honoured as a mother — a vast place where hundreds of Gau Matas and their little calves live."</p></blockquote><p>There, the exchange of love and affection can be seen directly:</p><blockquote><p>"When Acharya Ji and Guru Maa lovingly stroke Gau Mata and feed her fodder, the whole herd, as if recognising their divinity, becomes eager for their closeness, and the calves come forward again and again, longing to receive their affection."</p></blockquote><p>This experience is open to every participant:</p><blockquote><p>"Everyone gets the opportunity to experience this affection of Gau Mata, and also the opportunity to <strong>feed Gau Mata with their own hands</strong>."</p></blockquote><h2 id="en-s6">The Gaushala: A Place Where Sadhana Bears a Thousandfold Fruit</h2><p>The gaushala (cow shelter) is a place not only of service but also of spiritual practice:</p><blockquote><p>"The special quality of Gau Seva done with Acharya Upendra Ji and Antar Yog is this — special sadhana performed in a sacred place such as a gaushala, which bears <strong>a thousandfold fruit</strong>; so it is said in our scriptures."</p></blockquote><p><em>Sahasra guna</em> — a thousandfold. Japa and meditation done in a sacred place yield many times the fruit of the same practice done in an ordinary place.</p><h2 id="en-s7">Service Is Never Complete</h2><p>In words spoken at the gaushala during the service, there is a humble reminder that our service to Gau Mata can never be "enough":</p><blockquote><p>"Don't think that however much service we do, it is enough. It has to be done — give them medicine, give them water, clean everything. Even after doing that, it is still too little."</p></blockquote><p>In the same spirit, those who carry out this service day after day are also remembered:</p><blockquote><p>"We express heartfelt gratitude to the dedicated staff of the gaushala, through whose devotion and service this Sanatan tradition is still alive today."</p></blockquote><blockquote><p>"Gau Seva is the root of our life and culture; it is the <strong>essential duty</strong> of every human being."</p></blockquote><h2 id="en-s8">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Gau Mata is the foundation stone of our culture</strong>, and Gau Seva is the foremost duty of every Indian.</div></li><li><span class="num">2</span><div>From milk, ghee, cow urine and medicine to farming and livelihoods, Gau Mata's contribution is priceless; Gau Seva is the means of expressing our <strong>gratitude</strong> for it.</div></li><li><span class="num">3</span><div>Gau Seva done with the right feeling attracts <strong>prosperity and good fortune into our aura</strong> and gives the mind peace and joy.</div></li><li><span class="num">4</span><div>Gau Seva should be done <strong>not mechanically</strong>, but by seeing a part of the Supreme Lord in the cows, with the feeling of "Om Tat Sat".</div></li><li><span class="num">5</span><div>Sadhana performed in a sacred place like a gaushala bears <strong>a thousandfold fruit</strong>.</div></li><li><span class="num">6</span><div>However much we serve, it is too little — and gratitude toward those who carry out this service every day is also part of the seva.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=eYm2lJLozys" target="_blank" rel="noopener"><img src="assets/eYm2lJLozys.jpg" alt="Unique Gau Seva at Antar Yog – Your Path to Purity, Prosperity and Liberation | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Unique Gau Seva at Antar Yog – Your Path to Purity, Prosperity and Liberation | Acharya Upendra Ji<small>YouTube · 4:34</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Our Debt to Mother Cow</a></li><li><a href="#en-s2">The Priceless Contribution of Mother Cow</a></li><li><a href="#en-s3">A Source of Prosperity and Good Fortune</a></li><li><a href="#en-s4">The Scriptural Way: Feeling, Not Mechanical Routine</a></li><li><a href="#en-s5">The Place of Service and the Experience of Motherly Love</a></li><li><a href="#en-s6">The Gaushala: A Place Where Sadhana Bears a Thousandfold Fruit</a></li><li><a href="#en-s7">Service Is Never Complete</a></li><li><a href="#en-s8">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
