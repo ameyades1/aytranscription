@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>वेद और वेदांत — जानने की यात्रा और उसका अंत | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — वेद और वेदांत — जानने की यात्रा और उसका अंत">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="वेद और वेदांत — जानने की यात्रा और उसका अंत | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>वेद और वेदांत — जानने की यात्रा और उसका अंत</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · १० मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../difference_ved_vedant_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=2pqFFJAtSRY" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: वेद क्या है?</h2><p>सनातन धर्म का मूल ग्रंथ पूछा जाए, तो हम तुरंत कहते हैं — <strong>वेद</strong>। पर वेद वास्तव में है क्या? इस प्रवचन में आचार्य उपेंद्र जी इसी प्रश्न से शुरुआत करते हैं और एक प्रचलित धारणा को तोड़ते हैं:</p><blockquote><p>"वेद आपको क्या लगता है, कोई किताब है? Is it a book? कितने लोगों को लगता है कि वेद किताब है, कोई ग्रंथ है? अच्छा, ठीक है। चलो, वो भी मिथ्या बता देता हूँ।"</p></blockquote><p>उनका कहना है कि सनातनी होने के नाते इतना तो हमें पता होना ही चाहिए:</p><blockquote><p>"हम सनातनी ही बोलते हैं ना, हम सब हिंदू, तो कम से कम अपने ग्रंथ के बारे में तो पता होना चाहिए।"</p></blockquote><p>यह अध्याय इसी समझ का क्रम है — <strong>वेद क्या है, वह कैसे बढ़ता गया, वेदांत कहाँ आता है, और उपनिषद का अर्थ क्या है।</strong></p><h2 id="hi-s2">१. वेद संज्ञा नहीं, क्रिया है</h2><p>आचार्य जी एक सरल-सा व्याकरण का प्रश्न पूछते हैं — वेद नाम है या क्रिया?</p><blockquote><p>"वेद — ये एक नाम है कि क्रिया है? मतलब ये noun है कि verb है?"</p></blockquote><p>और उत्तर देते हैं:</p><blockquote><p>"तो वेद is not a noun, not a book। वो किताब नहीं है, वो क्रिया है। वो क्रिया, action — 'अहं वेद', मैंने जाना। जानने की प्रक्रिया is called वेद।"</p></blockquote><p>संस्कृत में <em>विद्</em> धातु का अर्थ है <strong>जानना</strong>; "अहं वेद" का अर्थ है "मैं जानता हूँ"। इसलिए वेद कोई वस्तु नहीं, <strong>जानने की प्रक्रिया</strong> है। और यह जानना किस बात का है?</p><blockquote><p>"वेद का मतलब जानना। क्या जानना? ये लोक और परलोक का ज्ञान। यहाँ का सारा जो ज्ञान है, वो मैं धीरे-धीरे जानता हूँ — करते-करते मृत्यु के बाद क्या होगा, आगे क्या होगा, क्या बनूँगा, कि मोक्ष होगा, अगला जन्म क्या होगा — यहाँ तक का सारा ज्ञान। आध्यात्मिक ज्ञान, इधर का world का ज्ञान — इसका क्या नाम है? वेद।"</p></blockquote><h2 id="hi-s3">२. अपौरुषेय और देववाणी</h2><p>वेदों को <strong>अपौरुषेय</strong> कहा जाता है — अर्थात् जिसे किसी एक पुरुष (व्यक्ति) ने नहीं रचा। साथ ही उन्हें <strong>देववाणी</strong> भी कहा गया है। आचार्य जी इन दोनों को "अहं ब्रह्मास्मि" (मैं ब्रह्म हूँ) से जोड़ते हैं:</p><blockquote><p>"इसे अपौरुषेय बोला है — किसी एक व्यक्ति ने लिखा नहीं है। And इसे देववाणी भी बोला है। तो हर एक व्यक्ति देव है कि नहीं? हर एक में ब्रह्म है कि नहीं? 'अहं ब्रह्मास्मि'।"</p></blockquote><p>यदि हर व्यक्ति में ब्रह्म है, तो हर व्यक्ति का जाना हुआ ज्ञान भी उसी देववाणी का अंश है। इसीलिए आचार्य जी वेद को एक असीम पात्र की तरह देखते हैं:</p><blockquote><p>"तो वेद को एक समझो — एक पूरा बड़ा box है। Suppose एक container, बर्तन बड़ा, जिसका size infinite।"</p></blockquote><h2 id="hi-s4">३. तीनों गुणों का ज्ञान वेद में</h2><p>इस असीम पात्र में क्या-क्या है? आचार्य जी श्रीमद्भगवद्गीता का एक श्लोक दिखाते हैं:</p><blockquote class="verse"><p><strong>त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन।</strong><br><strong>निर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान्॥</strong><br>अर्थात् वेद तीनों गुणों के विषयों का वर्णन करते हैं; हे अर्जुन, तुम तीनों गुणों से ऊपर उठो — द्वंद्वों से मुक्त, नित्य सत्व में स्थित, योग-क्षेम (प्राप्ति और रक्षा) की चिंता से रहित और आत्मनिष्ठ बनो।<br>— श्रीमद्भगवद्गीता २.४५</p></blockquote><p>तीन गुण हैं — <strong>सत्व</strong> (शुद्धता, ज्ञान), <strong>रज</strong> (इच्छा, क्रिया) और <strong>तम</strong> (जड़ता, अज्ञान)। आचार्य जी कहते हैं कि संसार में तीनों प्रकार के लोग हैं, और सब एक ही चीज़ खोज रहे हैं:</p><blockquote><p>"तीन type के लोग हैं विश्व में। तामसिक लोग भी कुछ बड़बड़ करते होंगे, उनके अंदर भी ब्रह्म है।"</p></blockquote><blockquote><p>"क्योंकि finally सब आनंद ढूँढ रहे हैं — everybody is seeking happiness।"</p></blockquote><p><strong>तामसिक आनंद के अध्याय भी</strong></p><p>इसलिए आनंद के हर रूप का वर्णन कहीं न कहीं वेद में मिलेगा — तामसिक रूप का भी:</p><blockquote><p>"किसी ने कहा — बहुत खाना खाओ, पेट भर के खाओ, pizza खाओ, सब कुछ — तो आनंद मिलता है। तो एक chapter वेद में वो भी आ जाएगा। कहीं तो कोई वेद में उसके बारे में भी होगा, उसके बारे में फलश्रुति सब होगा।"</p></blockquote><blockquote><p>"कोई लिखेगा, दारू पियो, इतना पीते रहो, फिर आनंद आता है। कहीं तो अथर्ववेद में आपको ये सब chapter मिल जाएँगे, फलश्रुति सब कुछ।"</p></blockquote><blockquote><p>"उसके बाद कोई बोलेगा — नहीं, एक नहीं, चार-पाँच स्त्रियाँ होनी चाहिए, affairs, कामवासना — उससे आनंद होगा। कहीं तो उसकी भी कामना वाले अध्याय वेदों में मिल जाएँगे। क्योंकि वो तामसिक लोगों को fulfil करने वाला है।"</p></blockquote><p><strong>फलश्रुति</strong> यानी किसी कर्म या पाठ से मिलने वाले फल का वर्णन। आचार्य जी का आशय यह है कि ब्रह्म ने ही तामसिक स्थिति वाले व्यक्ति के रूप में भी जो जाना, वह भी इस अपौरुषेय ज्ञान में समा जाता है।</p><p><strong>राजसिक और सात्विक दृष्टि भी</strong></p><p>पर उसी पात्र में दूसरी दृष्टियाँ भी जुड़ती हैं:</p><blockquote><p>"फिर राजसिक लोग भी यहाँ पर हैं, सात्विक लोग भी हैं ना। तो फिर कोई लिखेगा — doctor भी उसमें लिखेगा — 'हाँ, लेकिन इतना दारू पिया तो liver भी खराब होता है, ऐसा-ऐसा मत करो, so and so आहार चाहिए।' वो भी फिर वेदों में आएगा।"</p></blockquote><blockquote><p>"समझ में आया कि नहीं — how the वेद got developed? ऐसा करते-करते-करते सारा दुनिया भर का knowledge उसमें।"</p></blockquote><h2 id="hi-s5">४. वेद कभी समाप्त नहीं होता</h2><p>यदि वेद जानने की प्रक्रिया है, तो क्या वह कभी रुक सकती है? आचार्य जी कहते हैं — नहीं:</p><blockquote><p>"जो सारा ज्ञान collect हुआ, वो 'कालाय तस्मै नमः' है। तो वेद never ends। तो जानने की क्रिया आज भी खत्म हो गई क्या? तो आज computer से आप कुछ कर रहे हो, तो नया वो knowledge also is part of वेद, actually।"</p></blockquote><p>जिन ग्रंथों को हम वेद के नाम से पढ़ते हैं, वे इस अनंत ज्ञान का सार मात्र हैं:</p><blockquote><p>"लेकिन हम कुछ न कुछ समझने के लिए उसका सार एक किताब में पढ़ते हैं — यजुर्वेद, अथर्ववेद नाम है ना — तो उसका सिर्फ extract दिया है। Otherwise वेद कभी खत्म नहीं होता — it keeps on adding।"</p></blockquote><blockquote><p>"ऐसा आज नया invention कुछ आएगा, वो angle से भी कुछ लोगों को लाभ होता है। तो everything is part of the वेद।"</p></blockquote><h2 id="hi-s6">५. वेदांत: जहाँ जानना पूरा होता है</h2><p>यदि सब कुछ वेद है, तो फिर अंतिम बात कौन कहेगा? आचार्य जी ऋषि-मुनियों और अवतारों की ओर संकेत करते हैं:</p><blockquote><p>"तो फिर last को किसी ऋषि-मुनि ने भी तो लिखा होगा ना। कोई अवतार होंगे, उन्होंने भी कुछ लिखा होगा ना। तो वो final होगा कि नहीं? उनका statement is final।"</p></blockquote><p>और उनका अंतिम वचन क्या है?</p><blockquote><p>"तो उन्होंने जो लिखा होगा — 'ये सब ऊपर का सब छोड़ दो, ये सब मोह-माया है' — तो जो ऋषि-मुनि ने last को जो वाक्य लिखे होंगे, वहाँ पर वेद खत्म होता है। उसके ऊपर कोई teachings नहीं हैं।"</p></blockquote><p>यहीं से <strong>वेदांत</strong> शब्द का अर्थ खुलता है — <em>वेद + अंत</em>:</p><blockquote><p>"So that part is called as वेदांत — वेदों का अंत यहाँ पर हो जाता है। मतलब जानने की प्रक्रिया यहाँ खत्म हो गई। There is nothing more to understand beyond that।"</p></blockquote><p><strong>वह ग्रंथ जो कहता है, "मुझे मत पढ़ो"</strong></p><p>आचार्य जी एक चौंकाने वाली बात कहते हैं:</p><blockquote><p>"तो वेद is the only book which shouts and tells, 'Don't read me.' आप यकीन नहीं करोगे — 'Don't read me'।"</p></blockquote><p>इसका आधार वही गीता का वचन है — <strong>निस्त्रैगुण्यो भवार्जुन</strong>:</p><blockquote><p>"कृष्ण ने जो बोला है — 'निस्त्रैगुण्यो भवार्जुन' — वो सब पहले तीन गुण का छोड़, उसके आगे का, मतलब last part से पढ़ो। पढ़ना है तो क्या पढ़ना है? वेदांत।"</p></blockquote><h2 id="hi-s7">६. ज्ञानी को मोक्ष: हर मार्ग में ज्ञान</h2><p>आचार्य जी वेदांत को <strong>ज्ञान कांड</strong> कहते हैं, और शास्त्र के वचन "ज्ञानी को मोक्ष" का अर्थ स्पष्ट करते हैं:</p><blockquote><p>"वेदांत is called as ज्ञान कांड। 'ज्ञानी को मोक्ष' बोला है। ज्ञानी को मोक्ष मतलब क्या? School में जाकर पंडित जी बनना नहीं।"</p></blockquote><p>ज्ञान किसी एक मार्ग की बात नहीं है। चारों मार्गों — <strong>कर्म योग, भक्ति योग, ज्ञान योग, ध्यान योग</strong> — में ज्ञान ही आधार है:</p><ul><li><strong>कर्म योग:</strong></li></ul><blockquote><p>"तुझे कर्म करना है? Work is worship, चलेगा। पर ज्ञान-युक्त कर्म कर। जो कर रहा है, उसका result समझ के, क्यों कर रहा है, समझ के। Get the knowledge from गुरु।"</p></blockquote><ul><li><strong>भक्ति योग:</strong></li></ul><blockquote><p>"भक्ति करनी है? अंधश्रद्धा मत कर, ज्ञान-युक्त भक्ति कर। तू नारद भक्ति सूत्र वगैरह पहले ठीक से समझ ले। वो गोपियाँ कौन थीं, राधा कौन थीं — सब ये पहले जान ले। What is भक्ति — पहले समझ ले, फिर कर। अपनी मर्ज़ी से कुछ भी, तीनों गुणों के अनुसार, भक्ति भी मत कर।"</p></blockquote><ul><li><strong>ज्ञान योग:</strong></li></ul><blockquote><p>"ज्ञान ही प्राप्त करना है — ज्ञान योग — वो भी ज्ञानी की तरह ज्ञान प्राप्त कर।"</p></blockquote><ul><li><strong>ध्यान योग:</strong></li></ul><blockquote><p>"ध्यान लगाना है, तो photo निकालने के लिए हिमालय में जाके मत बैठो। ध्यान भी किसके ऊपर लगाना है, ये भी ज्ञान लेकर कर।"</p></blockquote><p>इसलिए "ज्ञानी" का अर्थ है <strong>तत्वज्ञानी</strong> — जो मूल तत्व को समझने का प्रयास करे:</p><blockquote><p>"तो इसलिए बोला है — ज्ञानी को मोक्ष। तत्वज्ञानी — first try to understand तत्वज्ञान।"</p></blockquote><h2 id="hi-s8">७. कर्मकांड, उपासना कांड, ज्ञान कांड</h2><p>आचार्य जी वेद के तीन भागों का क्रम बताते हैं:</p><blockquote><p>"तो वेदांत is nothing but the ज्ञान कांड। तो पहले बाकी सब क्या होगा? उपासना कांड, और उसके पहले होगा कर्मकांड। कर्मकांड में सिर्फ पूजा-पाठ, वो सब अपना यज्ञ वगैरह सब।"</p></blockquote><ul><li><strong>कर्मकांड</strong> — पूजा-पाठ, यज्ञ आदि अनुष्ठान</li><li><strong>उपासना कांड</strong> — आराधना और साधना</li><li><strong>ज्ञान कांड</strong> — वेदांत, अंतिम ज्ञान</li></ul><h2 id="hi-s9">८. उपनिषद: गुरु के समीप बैठना</h2><p>यही ज्ञान कांड <strong>उपनिषद</strong> कहलाता है। आचार्य जी इस शब्द को खोलते हैं:</p><blockquote><p>"तो ये ज्ञान कांड itself is converted into a word called उपनिषद। उप + नि + षद — sit close below the गुरु। ऐसी विद्या — गुरु के नज़दीक जाकर, उसके नीचे बैठते हुए।"</p></blockquote><p><em>उप</em> = समीप, <em>नि</em> = नीचे, <em>षद्</em> = बैठना। पर यह केवल शारीरिक निकटता नहीं है:</p><blockquote><p>"और क्या? सात्विक अवस्था में। इसका मतलब शरणागति से। नज़दीक मतलब दिल से उसकी बातें समझते हुए ऐसा सीखना।"</p></blockquote><p><strong>शरणागति</strong> — गुरु के प्रति पूर्ण समर्पण — ही वह अवस्था है जिसमें वेदांत का ज्ञान उतरता है।</p><h2 id="hi-s10">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>वेद किताब नहीं, क्रिया है</strong> — "अहं वेद", मैंने जाना। जानने की प्रक्रिया ही वेद है।</div></li><li><span class="num">२</span><div><strong>वेद लोक और परलोक दोनों का ज्ञान है</strong> — इस संसार से लेकर मृत्यु, पुनर्जन्म और मोक्ष तक।</div></li><li><span class="num">३</span><div><strong>वेद अपौरुषेय और देववाणी है</strong> — हर व्यक्ति में ब्रह्म है, इसलिए हर जाना हुआ ज्ञान उसी असीम पात्र का अंश है।</div></li><li><span class="num">४</span><div><strong>वेद में तीनों गुणों का ज्ञान है</strong> — तामसिक, राजसिक और सात्विक, क्योंकि <em>everybody is seeking happiness</em>।</div></li><li><span class="num">५</span><div><strong>वेद कभी समाप्त नहीं होता</strong> — <em>it keeps on adding</em>; हम जो ग्रंथ पढ़ते हैं, वे उसका सार मात्र हैं।</div></li><li><span class="num">६</span><div><strong>वेदांत यानी वेदों का अंत</strong> — ऋषि-मुनियों और अवतारों का अंतिम वचन, जिसके आगे जानने को कुछ नहीं। <em>निस्त्रैगुण्यो भवार्जुन</em> — पढ़ना है तो वेदांत पढ़ो।</div></li><li><span class="num">७</span><div><strong>ज्ञानी को मोक्ष</strong> — कर्म, भक्ति, ज्ञान और ध्यान, चारों मार्ग ज्ञान-युक्त होने चाहिए।</div></li><li><span class="num">८</span><div><strong>उपनिषद यानी गुरु के समीप बैठना</strong> — सात्विक अवस्था में, शरणागति से, दिल से समझते हुए सीखना।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=2pqFFJAtSRY" target="_blank" rel="noopener"><img src="assets/2pqFFJAtSRY.jpg" alt="What is the Difference Between Ved and Vedant? | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">What is the Difference Between Ved and Vedant? | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 7:58</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: वेद क्या है?</a></li><li><a href="#hi-s2">१. वेद संज्ञा नहीं, क्रिया है</a></li><li><a href="#hi-s3">२. अपौरुषेय और देववाणी</a></li><li><a href="#hi-s4">३. तीनों गुणों का ज्ञान वेद में</a></li><li><a href="#hi-s5">४. वेद कभी समाप्त नहीं होता</a></li><li><a href="#hi-s6">५. वेदांत: जहाँ जानना पूरा होता है</a></li><li><a href="#hi-s7">६. ज्ञानी को मोक्ष: हर मार्ग में ज्ञान</a></li><li><a href="#hi-s8">७. कर्मकांड, उपासना कांड, ज्ञान कांड</a></li><li><a href="#hi-s9">८. उपनिषद: गुरु के समीप बैठना</a></li><li><a href="#hi-s10">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Veda and Vedanta — The Journey of Knowing and Its End | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Veda and Vedanta — The Journey of Knowing and Its End</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 10 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../difference_ved_vedant_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=2pqFFJAtSRY" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: What Is the Veda?</h2><p>Ask which is the root scripture of Sanatan Dharma, and we at once say: <strong>the Veda</strong>. But what is the Veda, really? In this discourse Acharya Upendra Ji begins with exactly this question and breaks a common assumption:</p><blockquote><p>"What do you think the Veda is, some kind of book? Is it a book? How many of you think the Veda is a book, some scripture? Alright. Let me show you that this too is a misconception."</p></blockquote><p>As Sanatanis, he says, this much we should certainly know:</p><blockquote><p>"We call ourselves Sanatanis, all of us Hindus, so at the very least we should know about our own scripture."</p></blockquote><p>This chapter follows that understanding step by step: <strong>what the Veda is, how it kept growing, where Vedanta comes in, and what Upanishad means.</strong></p><h2 id="en-s2">1. The Veda Is Not a Noun but a Verb</h2><p>Acharya Ji asks a simple question of grammar: is Veda a name or an action?</p><blockquote><p>"Veda — is it a name or an action? That is, is it a noun or is it a verb?"</p></blockquote><p>And he answers:</p><blockquote><p>"So the Veda is not a noun, not a book. It is not a book, it is an action. That action — '<em>ahaṁ veda</em>', I have known. The process of knowing is called Veda."</p></blockquote><p>In Sanskrit the root <em>vid</em> means <strong>to know</strong>; "<em>ahaṁ veda</em>" means "I know." So the Veda is not an object but <strong>the process of knowing</strong>. And knowing what?</p><blockquote><p>"Veda means knowing. Knowing what? The knowledge of this world and the world beyond. All the knowledge of this place, which I come to know slowly, slowly — and going on, what will happen after death, what lies ahead, what I will become, whether there will be moksha, what the next birth will be — all knowledge up to that point. Spiritual knowledge, knowledge of this world here — what is it called? Veda."</p></blockquote><h2 id="en-s3">2. Apaurusheya and the Divine Word</h2><p>The Vedas are called <strong>apaurusheya</strong>, meaning not composed by any one person. They are also called <strong>devavani</strong>, the speech of the gods. Acharya Ji links both to "<em>ahaṁ brahmāsmi</em>" (I am Brahman):</p><blockquote><p>"It is called apaurusheya — no single person wrote it. And it is also called devavani. So is every person a deva or not? Is there Brahman in every one or not? '<em>Ahaṁ brahmāsmi</em>.'"</p></blockquote><p>If Brahman is in every person, then what every person comes to know is also part of that divine word. This is why Acharya Ji sees the Veda as a boundless vessel:</p><blockquote><p>"So think of the Veda as one whole big box. Suppose a container, a big vessel, whose size is infinite."</p></blockquote><h2 id="en-s4">3. Knowledge of All Three Gunas Is in the Veda</h2><p>What does this boundless vessel hold? Acharya Ji shows a verse from the Bhagavad Gita:</p><blockquote class="verse"><p><strong>traiguṇya-viṣayā vedā nistraiguṇyo bhavārjuna,</strong><br><strong>nirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān.</strong><br>"The Vedas deal with the subjects of the three gunas; O Arjuna, rise above the three gunas — free from the pairs of opposites, ever established in sattva, free from concern for acquiring and keeping (yoga-kshema), and established in the Self."<br>— Bhagavad Gita 2.45</p></blockquote><p>The three gunas are <strong>sattva</strong> (purity, knowledge), <strong>rajas</strong> (desire, activity) and <strong>tamas</strong> (inertia, ignorance). Acharya Ji says the world has all three kinds of people, and all of them are searching for the same thing:</p><blockquote><p>"There are three types of people in the world. Tamasic people too must be babbling something; Brahman is in them too."</p></blockquote><blockquote><p>"Because finally everyone is looking for bliss — everybody is seeking happiness."</p></blockquote><p><strong>Chapters on tamasic pleasure too</strong></p><p>So every form of pleasure will be described somewhere in the Veda, the tamasic form included:</p><blockquote><p>"Someone said — eat a lot, eat your fill, eat pizza, eat everything — and you get bliss. So a chapter on that too will come into the Veda. Somewhere in some Veda there will be something on that too, with its phalashruti and all."</p></blockquote><blockquote><p>"Someone will write: drink liquor, keep drinking this much, then bliss comes. Somewhere in the Atharvaveda you will find all such chapters, phalashruti and everything."</p></blockquote><blockquote><p>"After that someone will say — no, not one, there should be four or five women, affairs, lust — that will bring bliss. Somewhere in the Vedas you will find chapters of desire for that too. Because that is for fulfilling tamasic people."</p></blockquote><p><strong>Phalashruti</strong> is the description of the fruit gained from a certain act or recitation. Acharya Ji's point is that what Brahman itself came to know in the form of a person in a tamasic state also becomes part of this apaurusheya knowledge.</p><p><strong>Rajasic and sattvic views too</strong></p><p>But other views are added to the same vessel:</p><blockquote><p>"Then there are rajasic people here too, and sattvic people too, aren't there? So then someone will write — a doctor will also write in it — 'Yes, but if you drink this much liquor your liver gets damaged; don't do this and that; such and such diet is needed.' That too will then come into the Vedas."</p></blockquote><blockquote><p>"Did you understand or not — how the Veda got developed? Going on like this, all the knowledge of the whole world is in it."</p></blockquote><h2 id="en-s5">4. The Veda Never Ends</h2><p>If the Veda is the process of knowing, can it ever stop? Acharya Ji says no:</p><blockquote><p>"All the knowledge that was collected — that is '<em>kālāya tasmai namaḥ</em>'. So the Veda never ends. Has the act of knowing come to an end even today? Today you are doing something with a computer — that new knowledge also is part of the Veda, actually."</p></blockquote><p>The texts we read under the name of the Vedas are only an essence of this endless knowledge:</p><blockquote><p>"But to understand something, we read its essence in a book — there are names like Yajurveda, Atharvaveda — so only an extract of it has been given. Otherwise the Veda never ends — it keeps on adding."</p></blockquote><blockquote><p>"Like that, some new invention will come today, and from that angle too some people benefit. So everything is part of the Veda."</p></blockquote><h2 id="en-s6">5. Vedanta: Where Knowing Is Complete</h2><p>If everything is Veda, then who has the last word? Acharya Ji points to the rishis, munis and avatars:</p><blockquote><p>"So then, at the last, some rishi or muni must also have written, no? There would be some avatars, they too must have written something, no? So will that be final or not? Their statement is final."</p></blockquote><p>And what is their final word?</p><blockquote><p>"So what they would have written — 'Leave all this above, all this is moha-maya (attachment and illusion)' — so the sentences the rishis and munis wrote at the last, there the Veda ends. There are no teachings beyond that."</p></blockquote><p>This is where the meaning of the word <strong>Vedanta</strong> opens up: <em>Veda + anta</em> (end):</p><blockquote><p>"So that part is called as Vedanta — the end of the Vedas comes here. It means the process of knowing has ended here. There is nothing more to understand beyond that."</p></blockquote><p><strong>The book that says, "Don't read me"</strong></p><p>Acharya Ji says something startling:</p><blockquote><p>"So the Veda is the only book which shouts and tells, 'Don't read me.' You won't believe it — 'Don't read me.'"</p></blockquote><p>Its basis is that same word of the Gita — <strong><em>nistraiguṇyo bhavārjuna</strong></em>:</p><blockquote><p>"What Krishna said — '<em>nistraiguṇyo bhavārjuna</em>' — leave all that of the three gunas first, what is beyond it, that is, read from the last part. If you want to read, what should you read? Vedanta."</p></blockquote><h2 id="en-s7">6. Moksha for the Jnani: Knowledge in Every Path</h2><p>Acharya Ji calls Vedanta the <strong>jnana kanda</strong> (the section of knowledge), and explains the scriptural saying "moksha is for the jnani (the knower)":</p><blockquote><p>"Vedanta is called as the jnana kanda. It is said, 'Moksha for the jnani.' What does moksha for the jnani mean? Not going to school and becoming a pandit ji."</p></blockquote><p>Knowledge is not the matter of one path alone. In all four paths — <strong>karma yoga, bhakti yoga, jnana yoga, dhyana yoga</strong> — knowledge is the foundation:</p><ul><li><strong>Karma yoga:</strong></li></ul><blockquote><p>"You want to do karma? Work is worship — fine. But do karma joined with knowledge. Understand the result of what you are doing, understand why you are doing it. Get the knowledge from the Guru."</p></blockquote><ul><li><strong>Bhakti yoga:</strong></li></ul><blockquote><p>"You want to do bhakti? Don't have blind faith; do bhakti joined with knowledge. First understand the Narada Bhakti Sutras and so on properly. Who were the gopis, who was Radha — first know all this. What is bhakti — first understand it, then do it. Don't do just anything at your own whim, even bhakti, according to the three gunas."</p></blockquote><ul><li><strong>Jnana yoga:</strong></li></ul><blockquote><p>"If it is knowledge itself you want to gain — jnana yoga — gain that too the way a jnani does."</p></blockquote><ul><li><strong>Dhyana yoga:</strong></li></ul><blockquote><p>"If you want to meditate, don't go and sit in the Himalayas to get your photo taken. On what to meditate — take knowledge for that too, and then do it."</p></blockquote><p>So "jnani" means a <strong>tattva-jnani</strong>, one who seeks to understand the fundamental truth:</p><blockquote><p>"So that is why it is said — moksha for the jnani. Tattva-jnani — first try to understand tattva-jnana."</p></blockquote><h2 id="en-s8">7. Karma Kanda, Upasana Kanda, Jnana Kanda</h2><p>Acharya Ji gives the order of the three sections of the Veda:</p><blockquote><p>"So Vedanta is nothing but the jnana kanda. So what will all the rest be before it? The upasana kanda, and before that will be the karma kanda. In the karma kanda there is only puja-path, all that, our yajna and so on."</p></blockquote><ul><li><strong>Karma kanda</strong> — rituals such as puja-path and yajna</li><li><strong>Upasana kanda</strong> — worship and spiritual practice</li><li><strong>Jnana kanda</strong> — Vedanta, the final knowledge</li></ul><h2 id="en-s9">8. Upanishad: Sitting Close to the Guru</h2><p>This jnana kanda is what is called the <strong>Upanishad</strong>. Acharya Ji opens up the word:</p><blockquote><p>"So this jnana kanda itself is converted into a word called Upanishad. Upa + ni + shad — sit close below the Guru. Such a vidya (knowledge) — going near the Guru, sitting below him."</p></blockquote><p><em>Upa</em> = near, <em>ni</em> = below, <em>shad</em> = to sit. But this is not only physical closeness:</p><blockquote><p>"And what else? In a sattvic state. That means with sharanagati. Near means learning like this, understanding his words from the heart."</p></blockquote><p><strong>Sharanagati</strong>, complete surrender to the Guru, is the state in which the knowledge of Vedanta descends.</p><h2 id="en-s10">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>The Veda is not a book but an action</strong> — "<em>ahaṁ veda</em>", I have known. The process of knowing itself is the Veda.</div></li><li><span class="num">2</span><div><strong>The Veda is knowledge of this world and the world beyond</strong> — from this world up to death, rebirth and moksha.</div></li><li><span class="num">3</span><div><strong>The Veda is apaurusheya and the divine word</strong> — Brahman is in every person, so all that is known is part of that boundless vessel.</div></li><li><span class="num">4</span><div><strong>The Veda holds knowledge of all three gunas</strong> — tamasic, rajasic and sattvic, because <em>everybody is seeking happiness</em>.</div></li><li><span class="num">5</span><div><strong>The Veda never ends</strong> — <em>it keeps on adding</em>; the texts we read are only its essence.</div></li><li><span class="num">6</span><div><strong>Vedanta means the end of the Vedas</strong> — the final word of the rishis, munis and avatars, beyond which there is nothing to know. <em>Nistraiguṇyo bhavārjuna</em> — if you want to read, read Vedanta.</div></li><li><span class="num">7</span><div><strong>Moksha for the jnani</strong> — all four paths, karma, bhakti, jnana and dhyana, must be joined with knowledge.</div></li><li><span class="num">8</span><div><strong>Upanishad means sitting close to the Guru</strong> — learning in a sattvic state, with surrender, understanding from the heart.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=2pqFFJAtSRY" target="_blank" rel="noopener"><img src="assets/2pqFFJAtSRY.jpg" alt="What is the Difference Between Ved and Vedant? | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">What is the Difference Between Ved and Vedant? | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 7:58</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: What Is the Veda?</a></li><li><a href="#en-s2">1. The Veda Is Not a Noun but a Verb</a></li><li><a href="#en-s3">2. Apaurusheya and the Divine Word</a></li><li><a href="#en-s4">3. Knowledge of All Three Gunas Is in the Veda</a></li><li><a href="#en-s5">4. The Veda Never Ends</a></li><li><a href="#en-s6">5. Vedanta: Where Knowing Is Complete</a></li><li><a href="#en-s7">6. Moksha for the Jnani: Knowledge in Every Path</a></li><li><a href="#en-s8">7. Karma Kanda, Upasana Kanda, Jnana Kanda</a></li><li><a href="#en-s9">8. Upanishad: Sitting Close to the Guru</a></li><li><a href="#en-s10">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
