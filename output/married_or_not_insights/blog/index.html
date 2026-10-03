@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>पतिव्रता — दबना नहीं, तेजस्वी होना | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — पतिव्रता — दबना नहीं, तेजस्वी होना">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="पतिव्रता — दबना नहीं, तेजस्वी होना | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>पतिव्रता — दबना नहीं, तेजस्वी होना</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · १३ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../married_or_not_insights_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=2J9rmfsbeSQ" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: एक प्रश्न, जो बहुत स्त्रियाँ पूछती हैं</h2><p>यदि विवाह कठिन हो जाए, पति गलत मार्ग पर हो, ससुराल में इच्छाएँ दबानी पड़ें — तो स्त्री क्या करे? सहती रहे, या छोड़ दे? आचार्य उपेंद्र जी बताते हैं कि यह प्रश्न उनके पास बार-बार आता है — private chat में, साधना के समय। इस प्रवचन-अंश में वे इसका उत्तर <em>कर्मयोग</em> के दृष्टिकोण से और शास्त्र के आधार पर देते हैं।</p><p>उनका उत्तर एक बात से आरंभ होता है जो प्रचलित धारणा को उलट देती है: <strong>पतिव्रता वह नहीं जो चुपचाप दबती रहे; पतिव्रता वह है जिसके भीतर तेज है।</strong></p><p><em>पतिव्रता</em> — पति के प्रति निष्ठा का धर्म निभाने वाली स्त्री। <em>कर्मयोग</em> — कर्तव्य-कर्म को ऐसे करना कि वह बंधन न बने, मुक्ति की ओर ले जाए।</p><h2 id="hi-s2">पतिव्रता का असली अर्थ: तेज</h2><p>आचार्य जी पहले ही वाक्य में पतिव्रता की परिभाषा बदल देते हैं:</p><blockquote><p>"पतिव्रता स्त्री किसको बोला जाता है? उसके अंदर तेज होता है; वह देवी का स्वरूप बोला है। उसके संग में <strong>राक्षस भी गोविंद बन जाएगा</strong>, ऐसा बोला है।"</p></blockquote><blockquote><p>"मतलब वह definitely <strong>परमात्मा जैसा convert करने की ताकत उसमें है।</strong> वह खुद ही दब रही है, तो? खुद में देवी की शक्ति है!"</p></blockquote><p>इस शक्ति के लिए वे स्वामी विवेकानंद का सूत्र याद दिलाते हैं:</p><blockquote><p>"स्वामी विवेकानंद बोले, <strong>बल ही जीवन, दुर्बलता यानी मृत्यु।</strong> तो वाणी से भी उसको बोलना आना ही चाहिए।"</p></blockquote><p>इसका उदाहरण वे संत एकनाथ महाराज के जीवन से देते हैं:</p><blockquote><p>"एकनाथ महाराज की बेटी थी, और उसकी शादी भी कुछ गलत आदमी के साथ हुई थी। तो एकनाथ ने रोज गीता का एक-एक श्लोक उसको पढ़ाने को बोला था। वह करते-करते <strong>वह improve हो गया था।</strong>"</p></blockquote><p>परिवर्तन संभव है — पर उसके लिए स्त्री को अपनी शक्ति पहचाननी होगी:</p><blockquote><p>"जब, जहाँ पर divinely बनना होगा, फिर वह <strong>महिषासुर-मर्दिनी</strong> होना होगा। <strong>उसका अहंकार उतारने की capacity आप में होनी चाहिए।</strong>"</p></blockquote><p><em>महिषासुर-मर्दिनी</em> — देवी दुर्गा का वह रूप जिसने अहंकारी असुर महिषासुर का वध किया।</p><h2 id="hi-s3">"चार लोग क्या बोलेंगे" — दोष किसका?</h2><p>और यदि स्त्री में यह साहस नहीं है? आचार्य जी स्पष्ट शब्दों में कहते हैं कि तब समस्या केवल पति में नहीं रह जाती:</p><blockquote><p>"Actually आप ही के मन में ख्याल होगा कि 'इसको छोड़ देना चाहिए' — 'छोड़ नहीं सकते, चार लोग क्या बोलेंगे।' तो <strong>you are at fault, not he.</strong>"</p></blockquote><blockquote><p>"तो छोड़ने की भी हिम्मत नहीं — 'समाज क्या बोलेगा, मैं तो चुन्नू-मुन्नू के लिए रुकी हूँ, नहीं तो कब का छोड़ देती।' इसमें there is no happiness। <strong>यह पतिव्रता की life नहीं है।</strong> There is no energy at all."</p></blockquote><p>फिर वे स्त्रियों से सीधे पूछते हैं कि क्या उनका अंतर्मन इस उत्तर को सही मानता है — और हजार वर्षों की गुलामी से आई झिझक को पहचानते हैं:</p><blockquote><p>"भारतीय नारी आज बहुत — हजार साल से गुलाम हो के रहने की वजह से — she might feel, 'हाँ बोलूँ कि ना बोलूँ?'... <strong>And she has that power, वह बोल सकती है।</strong>"</p></blockquote><blockquote><p>"वह नहीं करती है, तो वह जो विवेकानंद बोलते हैं — फिर जो तुम बात कर रहे हो, ऐसे तुम नहीं हो; then you are not that; <strong>तब उसको पतिव्रता नहीं बोलते।</strong>"</p></blockquote><h2 id="hi-s4">पहले दो वर्ष: अपनी सच्ची छवि रखो</h2><p>यह साहस कब दिखाना है? आचार्य जी एक व्यावहारिक सलाह देते हैं — विवाह के आरंभिक वर्षों में:</p><blockquote><p>"आपको भी एक बार तो <strong>learn to say no with confidence।</strong> पहले दो साल में you have to create an image। तब हम झूठी image दिखाते हैं कि हम इतना करते हैं, उतना करते हैं; <strong>then that image carries for the rest of the life।</strong>"</p></blockquote><blockquote><p>"फिर वे बोलते हैं, 'अभी इसको क्या problem हुआ?' — तीसरे साल में ना आने के लिए, ना करने के लिए। तो पहले दो साल में ही बोलो ना। <strong>Keep your real image in front:</strong> 'मुझे अच्छा नहीं लगता है, मुझे अच्छा लगता है।'"</p></blockquote><p>पर "ना" कहने का अर्थ कठोरता नहीं है:</p><blockquote><p>"खराब tone में मत बोलो; <strong>वाणी is important।</strong> Then उसके बाद, <strong>अपनी इच्छा मार के कभी भी रहना नहीं होता है स्त्री को, in the marriage also।</strong>"</p></blockquote><h2 id="hi-s5">कर्तव्य और passion — दोनों साथ</h2><p>आचार्य जी विष्णु पुराण के गृहस्थ-धर्म का संदर्भ देते हुए कहते हैं कि स्त्री को अपनी इच्छाएँ व्यक्त करनी चाहिए:</p><blockquote><p>"बोलते हैं कि <strong>she has to express herself।</strong> उसको MBA course करना है, part-time course करना है, या और कुछ करना है, उसको hobby class को जाना है, तो अगर सासू माँ बोलती है, 'काम है, पढ़ाई — इतना तो समझती नहीं है क्या?' — <strong>she has to tell in good voice।</strong>"</p></blockquote><p>इसका कारण वे पुनर्जन्म के सिद्धांत से समझाते हैं — अधूरा कर्तव्य भी बंधन है, और दबाया हुआ passion भी:</p><blockquote><p>"क्योंकि वह भी कर्तव्य है, और अपनी hobby, अपना passion भी। <strong>अगर वह पूर्ण नहीं किया, तो भी पुनर्जन्म है; और यह कर्तव्य नहीं किया, तो भी पुनर्जन्म है।</strong>"</p></blockquote><p>तो समाधान दोनों को साथ निभाने में है:</p><blockquote><p>"She should tell: 'सासू माँ, यह सब मैं करूँगी। यह class से आने के बाद मैं पक्का करूँगी।' तो 'करूँगी' वाला वचन भी है उसमें, वह भी हुआ, और अपनी hobby भी कर ली। या तो reverse: 'यह खत्म करने के बाद एक-दो घंटा यहाँ पर जाने वाली हूँ।' <strong>And that much courage she should have.</strong>"</p></blockquote><h2 id="hi-s6">जब बात न बने: पति के साथ थोड़ी दूरी</h2><p>यदि इतने से भी बात न बने, तो आचार्य जी अगला कदम बताते हैं — पति से बात करना, और आवश्यकता हो तो कुछ समय अलग रहने की बात रखना:</p><blockquote><p>"नहीं है, तो <strong>उसको husband को बोलना आना चाहिए।</strong> शास्त्र ने बोला है — nuclear family, मतलब थोड़े time के लिए दूर; <strong>रिश्ता तोड़ के नहीं</strong>, उतने time के लिए दूर जाने की धमकी भी उसको देनी आनी चाहिए।"</p></blockquote><blockquote><p>"वह <strong>'मैं मायके चली जाऊँगी' वाला नहीं — पति को साथ लेकर जाऊँगी।</strong>"</p></blockquote><p>इसका मनोविज्ञान भी वे हल्के अंदाज़ में समझाते हैं:</p><blockquote><p>"क्योंकि उसका दिल अभी दोनों में अटका हुआ होगा: बहू पर चिल्लाना है, वह भी उसकी hobby है; and बेटे को अपने control में रखना है, वह भी है।"</p></blockquote><p>और याद दिलाते हैं कि यह सब निभाने के लिए भीतर की शक्ति चाहिए:</p><blockquote><p>"तो कर्मयोग के angle से इतना ही answer उसका दिया है। <strong>But उसके लिए तेज, उसकी साधना होनी चाहिए।</strong>"</p></blockquote><h2 id="hi-s7">अंतिम विकल्प: मुक्ति सर्वोपरि</h2><p>फिर आचार्य जी वह बात कहते हैं जो पूरे प्रश्न को जीवन के परम लक्ष्य से जोड़ देती है — मीराबाई का उदाहरण देकर:</p><blockquote><p>"A last option उन्होंने बोला है — जैसा मीराबाई को उनके गुरु ने बोला था कि <strong>मुक्ति का मार्ग is the final aim; husband is not the final aim।</strong> पतिव्रता धर्म एक अंश है उसके जीवन का।"</p></blockquote><blockquote><p>"बहुत कुछ अच्छा कर दिया, एक part हो गया, but मुक्ति में नहीं है। <strong>All karma should lead you to मुक्ति।</strong> अगर वह चाहिए, तो ही कर्मयोगी तुम हो सकते हो।"</p></blockquote><blockquote><p>"चाहे आपके रिश्तेदार हों या कोई भी हो, <strong>तुम्हारे मुक्ति-मार्ग में जो obstacle बन के आता है, उसको कोटि वैरी के समान समझो</strong> — crores of enemies। मुक्ति के मार्ग में जो भी आएगा — भले 'सत्संग में कल नहीं जाना' इतना बोलने वाला पति भी मिल गया — कोटि वैरी के समान।"</p></blockquote><p>"कोटि वैरी के समान" का यह भाव गोस्वामी तुलसीदास के उस प्रसिद्ध पद में मिलता है, जो परंपरा के अनुसार मीराबाई के प्रश्न के उत्तर में लिखा गया था:</p><blockquote class="verse"><p><strong>जाके प्रिय न राम-बैदेही।</strong><br><strong>तजिए ताहि कोटि बैरी सम, जद्यपि परम सनेही॥</strong><br>— गोस्वामी तुलसीदास, विनय पत्रिका</p></blockquote><p>पर आचार्य जी इस बात पर बल देते हैं कि यह अंतिम विकल्प है, पहला नहीं:</p><blockquote><p>"तो last step, last option बोला है: <strong>तेरी मुक्ति is first priority;</strong> यह छोड़ने की तेरे को फिर तैयारी चाहिए। That as a last option बोला है; <strong>प्रथम option नहीं हो सकता।</strong>"</p></blockquote><h2 id="hi-s8">अत्याचार: सहना नहीं है</h2><p>बीच के मार्ग में एक बात पर कोई समझौता नहीं — शारीरिक अत्याचार:</p><blockquote><p>"वे अत्याचार अगर होते हैं — गाँव में अभी भी चलता है, कभी शहर में भी होता होगा — 'चटका लगाओ, यह लगाओ, बहू को तकलीफ दो, torture करो' — तो वह बोला है कि <strong>अन्याय तो सहन नहीं करना है।</strong>"</p></blockquote><blockquote><p>"There she has to immediately answer herself, अगर limit में है। तो नहीं है, तो <strong>she has to call her parents</strong>, बोला है — and some action has to be taken, <strong>strict action।</strong>"</p></blockquote><h2 id="hi-s9">माँ की भूमिका: अदृश्य डोर</h2><p>अब आचार्य जी एक ऐसी बात कहते हैं जो बहुतों को अप्रत्याशित लगेगी:</p><blockquote><p>"मैं हमेशा बोलता हूँ कि <strong>most of the time उस स्त्री के घर में गड़बड़ करने के लिए जिम्मेदार उसकी खुद की माँ होती है।</strong>"</p></blockquote><p>इसका कारण वे माँ और संतान के सूक्ष्म संबंध में बताते हैं:</p><blockquote><p>"माँ और बेटी का connection strong होता है — बेटे के साथ भी तो बहुत strong होता है। <strong>उसके मन में जो ख्याल आएगा, वह automatic लड़की के ऊपर, लड़के के ऊपर तुरंत असर करता है।</strong> और जितनी चिंता में, tension में आप करोगे, उतना और fast होगा।"</p></blockquote><blockquote><p>"माँ का वह invisible, उसको <strong>silver cord connection</strong> बोलते हैं — जो physically नाल काट दिया तो भी, यह तो continuous होता है। इसलिए उसने जरा-सा भी prayer किया, तो <strong>it works faster for her own child।</strong>"</p></blockquote><h2 id="hi-s10">आधी कहानी, पूरी हानि</h2><p>तो बेटियों की भी ज़िम्मेदारी है:</p><blockquote><p>"तो <strong>ladies also should be responsible</strong> — कि माँ को हर चीज complain नहीं करते। पहले कैसा था? Letter जाता होगा। अभी मिनट-मिनट में SMS, WhatsApp होगा।"</p></blockquote><p>समस्या यह है कि माँ तक पूरी कहानी नहीं पहुँचती:</p><blockquote><p>"वह आज का event report करेगी, लेकिन <strong>आज के event के पहले पंद्रह दिन क्या हुआ है, वह इतिहास कभी भी लड़की बोलेगी नहीं।</strong> 'वह मुझे लाल color का पर्दा लाना था, उसने लाने को दिया नहीं, मेरे को काला लाने को बोला है — तामसिक लोग लगते हैं, मैं तो राजसिक हूँ।'"</p></blockquote><blockquote><p>"But <strong>mother can create image: 'इसका बिल्कुल खराब चल रहा है।'</strong> And then उसको suggestion बोले, 'तू भी ऐसा बोल दे, तू भी यह कर दे'... <strong>She can damage the entire relationship।</strong>"</p></blockquote><h2 id="hi-s11">"अब यह मेरा घर है"</h2><p>आचार्य जी पतिव्रता के इस लक्षण को कन्यादान की परंपरा से जोड़ते हैं:</p><blockquote><p>"Real पतिव्रता होती है, वह बोलती है कि <strong>'मेरा अब यह घर है; वहाँ से तो मुझे दान दिया है, कन्यादान हो चुका है।</strong> बार-बार मुझे वहाँ नहीं जाना होता है।'"</p></blockquote><blockquote><p>"उसका surname and middle name भी बदल चुका है; <strong>अभी यह उसका असली घर बोला है।</strong> तो वहाँ उसको बार-बार वह नहीं बोलना होता — 'इधर का क्या खराब है, क्या खराब है।'"</p></blockquote><p>आज की technology ने यह संतुलन बिगाड़ दिया है:</p><blockquote><p>"आजकल phone चालू हो गया, message चालू हो गया, photos के साथ, videos के साथ, video calling — अब problem होगी। <strong>This is again not a good sign of पतिव्रता, according to शास्त्र।</strong>"</p></blockquote><blockquote><p>"<strong>अगर बहुत ज्यादा घर पर phone जाता है आपका, तो आपके संसार में problem होगी, यह guaranteed है।</strong> And उसके लिए जिम्मेदार तुम्हारी माँ होगी, because it is her good heart — too much goodness से यह problem होगी। Fair side वह नहीं ले सकेगी। और... <strong>मोह की वजह से गलत guidance जाएगा।</strong>"</p></blockquote><h2 id="hi-s12">संपर्क की सही सीमा</h2><p>तो क्या माँ से संपर्क ही न रखें? ऐसा नहीं। आचार्य जी सीमा स्पष्ट करते हैं:</p><blockquote><p>"जब सच्ची problem होगी, तब जरूर contact करना है। <strong>If it goes beyond your control, तब करना होता है।</strong> बाकी time ठीक है — general function है, 'आ जाओ'... या कुछ good news बतानी है, वह बताना है। वैसा, उतना ही contact ideally होना चाहिए।"</p></blockquote><blockquote><p>"<strong>It is not every day, तीन-तीन बार phone;</strong> यह पतिव्रता का लक्षण नहीं बोला है।"</p></blockquote><p>वे जानते हैं कि यह बात सबको अच्छी नहीं लगेगी:</p><blockquote><p>"तो सच्चा बता रहा हूँ — ladies को वह योग्य नहीं लगेगा, <strong>but शास्त्र बताना मेरा काम है। Too much contact leads to problem in your married life।</strong>"</p></blockquote><p>विदेश में बसी बेटियों के लिए भी यही बात है:</p><blockquote><p>"चार-चार बार phone दिन में! अमेरिका में गए — भेजा किसने था? ... तुम खुद गए ना, शादी उधर हुई। <strong>अब अकेली पड़ गई, तो उधर के American लोगों से दोस्ती बनाओ।</strong> ... अमेरिका में गया, इसलिए भी <strong>उसको अपना खुद का जीवन जीने दो।</strong>"</p></blockquote><h2 id="hi-s13">यही बात बेटों की माँओं के लिए भी</h2><p>अंत में आचार्य जी स्पष्ट करते हैं कि यह केवल बेटियों की बात नहीं है:</p><blockquote><p>"लड़का गया अमेरिका, उसको माँ बार-बार phone करती है: 'तूने खाना खाया क्या? यह खाना क्या है?' अभी <strong>लड़की की बात कि लड़के की भी बात कर रहा हूँ।</strong> वह तंग आ के एक बार बोलेगा, 'नहीं, मैं अपना-अपना देख लूँगा।'"</p></blockquote><blockquote><p>"उसको भेजा है ना वहाँ पे, तो <strong>let him live independently</strong> थोड़े time के लिए। नहीं तो इधर ही रखना था घर पे, आपके बाजू में। तो <strong>mothers also have to take care; we have to be very careful।</strong>"</p></blockquote><h2 id="hi-s14">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>पतिव्रता का अर्थ तेज है, दबना नहीं।</strong> पतिव्रता स्त्री में देवी की शक्ति है — "राक्षस भी गोविंद बन जाएगा।" बल ही जीवन है, दुर्बलता मृत्यु।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>"चार लोग क्या बोलेंगे" के डर से दुख सहना पतिव्रता-धर्म नहीं।</strong> "You are at fault, not he" — ऐसे जीवन में न सुख है, न ऊर्जा।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>विवाह के पहले दो वर्षों में अपनी सच्ची छवि रखें।</strong> आत्मविश्वास से "ना" कहना सीखें — पर अच्छी वाणी में।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>कर्तव्य और passion दोनों निभाएँ।</strong> अपनी इच्छा मार के जीना स्त्री का धर्म नहीं; अधूरा कर्तव्य भी पुनर्जन्म का कारण है, और दबाया हुआ passion भी।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>ज़रूरत हो तो पति के साथ कुछ समय अलग रहने की बात रखें</strong> — रिश्ता तोड़कर नहीं, और "मायके चली जाऊँगी" वाला नहीं।</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>अत्याचार कभी सहन न करें।</strong> सीमा में हो तो स्वयं उत्तर दें, नहीं तो माता-पिता को बुलाएँ और सख़्त कदम उठाएँ।</div></li></ol><ol class="takeaways"><li><span class="num">७</span><div><strong>मुक्ति ही अंतिम लक्ष्य है; पति अंतिम लक्ष्य नहीं।</strong> मुक्ति-मार्ग की बाधा को कोटि वैरी के समान समझें — पर विवाह छोड़ना अंतिम विकल्प है, पहला नहीं।</div></li></ol><ol class="takeaways"><li><span class="num">८</span><div><strong>हर बात माँ से न कहें।</strong> माँ-संतान की अदृश्य डोर से माँ की चिंता तुरंत असर करती है; आधी कहानी सुनकर वह मोहवश पूरे रिश्ते को नुकसान पहुँचा सकती है।</div></li></ol><ol class="takeaways"><li><span class="num">९</span><div><strong>मायके से संपर्क सीमित और सार्थक रखें</strong> — सच्ची समस्या, पारिवारिक अवसर, अच्छी खबर। दिन में तीन-तीन बार phone पतिव्रता का लक्षण नहीं।</div></li></ol><ol class="takeaways"><li><span class="num">१०</span><div><strong>बेटों की माँओं पर भी यही लागू है</strong> — संतान को स्वतंत्र जीने दें।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=2J9rmfsbeSQ" target="_blank" rel="noopener"><img src="assets/2J9rmfsbeSQ.jpg" alt="Married or Not: Must-Watch Insights from Acharya Upendra Ji!" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Married or Not: Must-Watch Insights from Acharya Upendra Ji!<small>YouTube · 11:32</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: एक प्रश्न, जो बहुत स्त्रियाँ पूछती हैं</a></li><li><a href="#hi-s2">पतिव्रता का असली अर्थ: तेज</a></li><li><a href="#hi-s3">"चार लोग क्या बोलेंगे" — दोष किसका?</a></li><li><a href="#hi-s4">पहले दो वर्ष: अपनी सच्ची छवि रखो</a></li><li><a href="#hi-s5">कर्तव्य और passion — दोनों साथ</a></li><li><a href="#hi-s6">जब बात न बने: पति के साथ थोड़ी दूरी</a></li><li><a href="#hi-s7">अंतिम विकल्प: मुक्ति सर्वोपरि</a></li><li><a href="#hi-s8">अत्याचार: सहना नहीं है</a></li><li><a href="#hi-s9">माँ की भूमिका: अदृश्य डोर</a></li><li><a href="#hi-s10">आधी कहानी, पूरी हानि</a></li><li><a href="#hi-s11">"अब यह मेरा घर है"</a></li><li><a href="#hi-s12">संपर्क की सही सीमा</a></li><li><a href="#hi-s13">यही बात बेटों की माँओं के लिए भी</a></li><li><a href="#hi-s14">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Pativrata — Not Suppressed, but Radiant | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>The Pativrata — Not Suppressed, but Radiant</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 13 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../married_or_not_insights_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=2J9rmfsbeSQ" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: A Question Many Women Ask</h2><p>If a marriage becomes difficult, if the husband is on the wrong path, if a woman has to suppress her wishes in her in-laws' home — what should she do? Keep enduring, or leave? Acharya Upendra Ji says this question comes to him again and again — in private chat, during sadhana. In this excerpt from a discourse, he answers it from the standpoint of <em>karma yoga</em> and on the basis of the scriptures.</p><p>His answer begins with a point that overturns the common notion: <strong>a pativrata is not one who silently keeps being suppressed; a pativrata is one who has tej — inner radiance — within her.</strong></p><p><em>Pativrata</em> — a woman who upholds the dharma of devotion to her husband. <em>Karma yoga</em> — performing one's duties in such a way that they do not become bondage but lead towards liberation.</p><h2 id="en-s2">The True Meaning of Pativrata: Tej</h2><p>In his very first sentence, Acharya Ji changes the definition of a pativrata:</p><blockquote><p>"Who is called a pativrata woman? She has tej within her; she is said to be a form of the Devi. It is said that in her company <strong>even a rakshasa will become Govind.</strong>"</p></blockquote><blockquote><p>"Meaning, she definitely <strong>has the power to convert someone into something like the Divine.</strong> And she herself is being suppressed? She has the power of the Devi within her!"</p></blockquote><p>For this strength, he recalls Swami Vivekananda's maxim:</p><blockquote><p>"Swami Vivekananda said, <strong>strength is life, weakness means death.</strong> So she must also know how to speak up with her words."</p></blockquote><p>He gives an example from the life of Sant Eknath Maharaj:</p><blockquote><p>"Eknath Maharaj had a daughter, and she too was married to a somewhat wrong man. So Eknath told her to teach him one verse of the Gita every day. Doing this, <strong>he had improved.</strong>"</p></blockquote><p>Transformation is possible — but for that a woman must recognise her own power:</p><blockquote><p>"When, wherever she has to become divine, then she will have to be <strong>Mahishasura-mardini.</strong> <strong>You should have the capacity to bring down his ego.</strong>"</p></blockquote><p><em>Mahishasura-mardini</em> — the form of Goddess Durga who slew the arrogant demon Mahishasura.</p><h2 id="en-s3">"What Will People Say" — Whose Fault Is It?</h2><p>And if a woman does not have this courage? Acharya Ji says plainly that then the problem no longer lies only with the husband:</p><blockquote><p>"Actually, the thought will be in your own mind that 'I should leave him' — 'I can't leave, what will people say.' So <strong>you are at fault, not he.</strong>"</p></blockquote><blockquote><p>"So there is not even the courage to leave — 'What will society say, I am staying only for Chunnu and Munnu, otherwise I would have left long ago.' In this there is no happiness. <strong>This is not the life of a pativrata.</strong> There is no energy at all."</p></blockquote><p>Then he asks the women directly whether their inner self accepts this answer as right — and recognises the hesitation born of a thousand years of subjugation:</p><blockquote><p>"The Indian woman today, very much — because of living in subjugation for a thousand years — she might feel, 'Should I say yes or should I not?'... <strong>And she has that power, she can speak.</strong>"</p></blockquote><blockquote><p>"If she does not do it, then what Vivekananda says — then you are not what you are talking about; then you are not that; <strong>then she is not called a pativrata.</strong>"</p></blockquote><h2 id="en-s4">The First Two Years: Keep Your True Image</h2><p>When is this courage to be shown? Acharya Ji gives practical advice — in the early years of marriage:</p><blockquote><p>"You too must, at least once, <strong>learn to say no with confidence.</strong> In the first two years you have to create an image. Then we show a false image, that we do this much, that much; <strong>then that image carries for the rest of the life.</strong>"</p></blockquote><blockquote><p>"Then they say, 'Now what problem has she got?' — in the third year, for not coming, for not doing. So say it in the first two years itself. <strong>Keep your real image in front:</strong> 'I don't like this, I like this.'"</p></blockquote><p>But saying "no" does not mean harshness:</p><blockquote><p>"Don't speak in a bad tone; <strong>speech is important.</strong> Then after that, <strong>a woman never has to live by killing her own wishes, in the marriage also.</strong>"</p></blockquote><h2 id="en-s5">Duty and Passion — Both Together</h2><p>Referring to the householder's dharma in the Vishnu Purana, Acharya Ji says that a woman should express her wishes:</p><blockquote><p>"They say that <strong>she has to express herself.</strong> If she wants to do an MBA course, a part-time course, or something else, if she wants to go to a hobby class, and the mother-in-law says, 'There is work, studies — don't you understand this much?' — <strong>she has to tell in good voice.</strong>"</p></blockquote><p>He explains the reason through the principle of rebirth — an unfinished duty is bondage, and so is a suppressed passion:</p><blockquote><p>"Because that too is duty, and one's hobby, one's passion too. <strong>If that is not fulfilled, there is rebirth; and if this duty is not done, there is rebirth too.</strong>"</p></blockquote><p>So the solution lies in fulfilling both together:</p><blockquote><p>"She should tell: 'Mother-in-law, I will do all this. I will certainly do it after coming back from this class.' So the promise of 'I will do it' is in it, that got done, and she pursued her hobby too. Or the reverse: 'After finishing this, I am going to go here for an hour or two.' <strong>And that much courage she should have.</strong>"</p></blockquote><h2 id="en-s6">When That Doesn't Work: A Little Distance, With the Husband</h2><p>If even this does not work, Acharya Ji describes the next step — speaking to the husband, and if needed, raising the idea of living apart for some time:</p><blockquote><p>"If not, then <strong>she should know how to speak to her husband.</strong> The scriptures have said — nuclear family, meaning away for a little time; <strong>not by breaking the relationship</strong>, she should also know how to give the warning of going away for that much time."</p></blockquote><blockquote><p>"Not the <strong>'I will go to my mother's house' kind — I will take my husband along with me.</strong>"</p></blockquote><p>He explains the psychology of this in a light-hearted way:</p><blockquote><p>"Because her heart will be stuck in both: she wants to shout at the daughter-in-law, that is also her hobby; and she wants to keep her son in her control, that too."</p></blockquote><p>And he reminds us that all this requires inner strength:</p><blockquote><p>"So from the angle of karma yoga, this much is the answer given to it. <strong>But for that she must have tej, she must have her sadhana.</strong>"</p></blockquote><h2 id="en-s7">The Last Option: Liberation Above All</h2><p>Then Acharya Ji says something that connects the whole question to the ultimate goal of life — giving the example of Meerabai:</p><blockquote><p>"They have spoken of a last option — as Meerabai was told by her guru, that <strong>the path of liberation is the final aim; husband is not the final aim.</strong> The dharma of a pativrata is one part of her life."</p></blockquote><blockquote><p>"She has done a lot of good, one part is done, but it is not in liberation. <strong>All karma should lead you to mukti.</strong> Only if you want that can you be a karma yogi."</p></blockquote><blockquote><p>"Whether it is your relatives or anyone at all, <strong>whoever comes as an obstacle on your path of liberation, regard him as equal to a crore of enemies</strong> — crores of enemies. Whoever comes in the way of liberation — even if she has got a husband who says only this much, 'you are not going to satsang tomorrow' — equal to a crore of enemies."</p></blockquote><p>This idea of "equal to a crore of enemies" is found in the famous verse of Goswami Tulsidas which, according to tradition, was written in reply to Meerabai's question:</p><blockquote class="verse"><p><strong>jāke priya na rāma-baidehī|</strong><br><strong>tajie tāhi koṭi bairī sama, jadyapi parama sanehī||</strong><br>"One to whom Ram and Vaidehi (Sita) are not dear — abandon him as you would ten million enemies, even if he is most dear to you."<br>— Goswami Tulsidas, Vinay Patrika</p></blockquote><p>But Acharya Ji stresses that this is the last option, not the first:</p><blockquote><p>"So the last step, the last option has been told: <strong>your liberation is first priority;</strong> then you need to be prepared to leave this. That has been told as a last option; <strong>it cannot be the first option.</strong>"</p></blockquote><h2 id="en-s8">Atrocities: Not to Be Tolerated</h2><p>On the path in between, there is no compromise on one thing — physical atrocity:</p><blockquote><p>"If those atrocities happen — it still goes on in villages, perhaps sometimes in cities too — 'brand her, put this on her, give the daughter-in-law trouble, torture her' — then it has been said that <strong>injustice is not to be tolerated.</strong>"</p></blockquote><blockquote><p>"There she has to immediately answer herself, if it is within limits. If not, then <strong>she has to call her parents</strong>, it has been said — and some action has to be taken, <strong>strict action.</strong>"</p></blockquote><h2 id="en-s9">The Mother's Role: An Invisible Cord</h2><p>Now Acharya Ji says something many will find unexpected:</p><blockquote><p>"I always say that <strong>most of the time, the one responsible for creating trouble in that woman's home is her own mother.</strong>"</p></blockquote><p>He explains the reason in the subtle bond between mother and child:</p><blockquote><p>"The connection between mother and daughter is strong — with the son too it is very strong. <strong>Whatever thought comes into her mind, it automatically and immediately affects the girl, the boy.</strong> And the more you do it in worry, in tension, the faster it will be."</p></blockquote><blockquote><p>"That invisible bond of the mother, it is called the <strong>silver cord connection</strong> — even if the umbilical cord is physically cut, this remains continuous. That is why, if she prays even a little, <strong>it works faster for her own child.</strong>"</p></blockquote><h2 id="en-s10">Half the Story, Whole the Harm</h2><p>So daughters too have a responsibility:</p><blockquote><p>"So <strong>ladies also should be responsible</strong> — that one does not complain about everything to the mother. How was it earlier? A letter would go. Now, minute by minute, there will be SMS, WhatsApp."</p></blockquote><p>The problem is that the whole story never reaches the mother:</p><blockquote><p>"She will report today's event, but <strong>what happened in the fifteen days before today's event, that history the girl will never tell.</strong> 'I wanted to bring a red curtain, he didn't let me bring it, he told me to bring a black one — they seem like tamasic people, I am rajasic.'"</p></blockquote><blockquote><p>"But <strong>the mother can create an image: 'Things are going very badly for her.'</strong> And then she gives her suggestions, 'You also say this, you also do that'... <strong>She can damage the entire relationship.</strong>"</p></blockquote><h2 id="en-s11">"Now This Is My Home"</h2><p>Acharya Ji connects this mark of a pativrata to the tradition of kanyadaan:</p><blockquote><p>"A real pativrata says, <strong>'This is my home now; from there I have been given away, the kanyadaan has been done.</strong> I don't need to go there again and again.'"</p></blockquote><blockquote><p>"Her surname and middle name have also changed; <strong>now this is said to be her real home.</strong> So there she need not keep saying, 'What is wrong here, what is wrong.'"</p></blockquote><p>Today's technology has upset this balance:</p><blockquote><p>"Nowadays phones have started, messages have started, with photos, with videos, video calling — now there will be problems. <strong>This is again not a good sign of a pativrata, according to the scriptures.</strong>"</p></blockquote><blockquote><p>"<strong>If your phone goes to your parents' home too much, there will be problems in your married life; this is guaranteed.</strong> And the one responsible for it will be your mother, because it is her good heart — this problem will come from too much goodness. She will not be able to take the fair side. And... <strong>because of moha, wrong guidance will go.</strong>"</p></blockquote><h2 id="en-s12">The Right Limit of Contact</h2><p>So should one not keep in touch with the mother at all? Not so. Acharya Ji makes the limit clear:</p><blockquote><p>"When there is a real problem, then you must certainly contact her. <strong>If it goes beyond your control, then you have to do it.</strong> The rest of the time it is fine — there is a family function, 'come over'... or there is some good news to share, share that. Ideally there should be only that much contact."</p></blockquote><blockquote><p>"<strong>It is not every day, phoning three times a day;</strong> this has not been called the mark of a pativrata."</p></blockquote><p>He knows that not everyone will like this:</p><blockquote><p>"So I am telling you the truth — ladies will not find it fitting, <strong>but telling the scriptures is my job. Too much contact leads to problem in your married life.</strong>"</p></blockquote><p>The same applies to daughters settled abroad:</p><blockquote><p>"Four times a day on the phone! You went to America — who sent you? ... You went yourself, didn't you, the marriage was there. <strong>Now that you are alone, make friends with the American people there.</strong> ... Also because she went to America, <strong>let her live her own life.</strong>"</p></blockquote><h2 id="en-s13">The Same Applies to the Mothers of Sons</h2><p>Finally, Acharya Ji makes clear that this is not only about daughters:</p><blockquote><p>"The boy went to America, and his mother keeps phoning him: 'Did you eat? What is this food?' Now, <strong>am I talking about the girl, or about the boy too.</strong> Fed up, he will say once, 'No, I will look after myself.'"</p></blockquote><blockquote><p>"You sent him there, didn't you, so <strong>let him live independently</strong> for a little time. Otherwise you should have kept him here at home, next to you. So <strong>mothers also have to take care; we have to be very careful.</strong>"</p></blockquote><h2 id="en-s14">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Being a pativrata means tej, not being suppressed.</strong> A pativrata woman has the power of the Devi — "even a rakshasa will become Govind." Strength is life, weakness is death.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>Enduring misery out of fear of "what will people say" is not the dharma of a pativrata.</strong> "You are at fault, not he" — such a life has neither happiness nor energy.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>Keep your true image in the first two years of marriage.</strong> Learn to say "no" with confidence — but in a good voice.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>Fulfil both duty and passion.</strong> Living by killing her own wishes is not a woman's dharma; an unfinished duty causes rebirth, and so does a suppressed passion.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>If needed, raise the idea of living apart for a while with your husband</strong> — without breaking the relationship, and not the "I'll go to my mother's house" kind.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>Never tolerate atrocities.</strong> If it is within limits, answer yourself; if not, call your parents and take strict action.</div></li></ol><ol class="takeaways"><li><span class="num">7</span><div><strong>Liberation is the final aim; the husband is not the final aim.</strong> Regard an obstacle on the path of liberation as equal to a crore of enemies — but leaving the marriage is the last option, not the first.</div></li></ol><ol class="takeaways"><li><span class="num">8</span><div><strong>Don't tell your mother everything.</strong> Through the invisible cord between mother and child, a mother's worry has an immediate effect; hearing half the story, out of moha she can damage the whole relationship.</div></li></ol><ol class="takeaways"><li><span class="num">9</span><div><strong>Keep contact with your parents' home limited and meaningful</strong> — a real problem, a family occasion, good news. Phoning three times a day is not the mark of a pativrata.</div></li></ol><ol class="takeaways"><li><span class="num">10</span><div><strong>The same applies to the mothers of sons</strong> — let your children live independently.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=2J9rmfsbeSQ" target="_blank" rel="noopener"><img src="assets/2J9rmfsbeSQ.jpg" alt="Married or Not: Must-Watch Insights from Acharya Upendra Ji!" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Married or Not: Must-Watch Insights from Acharya Upendra Ji!<small>YouTube · 11:32</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: A Question Many Women Ask</a></li><li><a href="#en-s2">The True Meaning of Pativrata: Tej</a></li><li><a href="#en-s3">"What Will People Say" — Whose Fault Is It?</a></li><li><a href="#en-s4">The First Two Years: Keep Your True Image</a></li><li><a href="#en-s5">Duty and Passion — Both Together</a></li><li><a href="#en-s6">When That Doesn't Work: A Little Distance, With the Husband</a></li><li><a href="#en-s7">The Last Option: Liberation Above All</a></li><li><a href="#en-s8">Atrocities: Not to Be Tolerated</a></li><li><a href="#en-s9">The Mother's Role: An Invisible Cord</a></li><li><a href="#en-s10">Half the Story, Whole the Harm</a></li><li><a href="#en-s11">"Now This Is My Home"</a></li><li><a href="#en-s12">The Right Limit of Contact</a></li><li><a href="#en-s13">The Same Applies to the Mothers of Sons</a></li><li><a href="#en-s14">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
