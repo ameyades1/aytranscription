@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>आपके जीवन में देवताओं की शक्ति — सृष्टि, पालन और संहार | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — आपके जीवन में देवताओं की शक्ति — सृष्टि, पालन और संहार">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="आपके जीवन में देवताओं की शक्ति — सृष्टि, पालन और संहार | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>आपके जीवन में देवताओं की शक्ति — सृष्टि, पालन और संहार</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ८ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../power_of_deities_in_your_life_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=4ZGq4KwZdOg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: तीन देव, तीन देवियाँ</h2><p>हम सब ने बचपन से ब्रह्मा, विष्णु और महेश के बारे में सुना है। पर क्या ये केवल कथाओं के पात्र हैं, या हमारे रोज़ के जीवन में काम करने वाली शक्तियाँ? इस प्रबोधन में आचार्य उपेंद्र जी त्रिदेव और उनकी शक्तियों को जीवन के तीन मूल कार्यों — <strong>सृष्टि, पालन और संहार</strong> — से जोड़कर समझाते हैं:</p><blockquote><p>"तो तीन देव जो हैं, उनको हम बोलते हैं — ब्रह्मा, विष्णु, महेश। और उनके साथ तीन देवियाँ भी बोली जाती हैं।"</p></blockquote><blockquote><p>"ब्रह्मा के साथ हमेशा जुड़ी होती हैं सरस्वती, विष्णु के साथ लक्ष्मी, and महेश के साथ पार्वती या काली — महाकाल, महाकाली बोलते हैं।"</p></blockquote><h2 id="hi-s2">१. कथा से आगे: देवता का अर्थ</h2><p>आचार्य जी स्पष्ट करते हैं कि यह समझ कहानियों के स्तर से ऊपर की है:</p><blockquote><p>"अब हम बहुत ऊपर उठ चुके हैं। हम वो कथा-कथन नहीं करते; वो बारह साल के बच्चों तक होता है।"</p></blockquote><p>तो फिर "ये देवी हैं, ये देवता हैं" — इसका वास्तविक अर्थ क्या है? हर देवता एक <strong>गुण</strong> और एक <strong>कार्य</strong> का प्रतीक है। जब भी हम जीवन में कुछ करते हैं, उसी गुण की शक्ति हमारे भीतर काम करती है।</p><h2 id="hi-s3">२. ब्रह्मा: शुरुआत की रजस शक्ति</h2><p>पहला कार्य है — कुछ नया उत्पन्न करना:</p><blockquote><p>"मुझे कुछ create करना है, कुछ उत्पन्न करना है, कुछ निर्माण करना है, तो ब्रह्म-भाव लगेगा। ब्रह्मा का गुण कौन-सा है? ब्रह्मा का गुण रजोगुण बोला।"</p></blockquote><p><strong>रजोगुण</strong> यानी गति, क्रिया, सक्रियता का गुण। बिना कर्म के कुछ भी शुरू नहीं होता:</p><blockquote><p>"To start something, कुछ action लेना ही पड़ेगा। कुछ उत्पन्न करना है, कुछ शुरू करना है, कुछ business चालू करना है — कुछ भी करना है।"</p></blockquote><p>यहाँ तक कि हमारा अपना जन्म भी इसी शक्ति का परिणाम है:</p><blockquote><p>"आपको भी जन्म लेना है, तो किसी को पहल लेनी पड़ी थी। कुछ भी अगर करना होगा, तो starting में क्या लगेगा? रजस शक्ति — ब्रह्मा।"</p></blockquote><p><strong>हर नई शुरुआत — व्यापार हो, संबंध हो या जीवन — रजस शक्ति की पहल से ही होती है।</strong></p><h2 id="hi-s4">३. सरस्वती: सृष्टि के साथ ज्ञान</h2><p>पर केवल क्रिया पर्याप्त नहीं। इसीलिए ब्रह्मा के साथ सरस्वती हैं:</p><blockquote><p>"और उसके साथ ज्ञान भी होना चाहिए, इसलिए उसको क्या बोला है? सरस्वती। सरस्वती के साथ — विद्या, knowledge के साथ — creation करोगे, तो ज़्यादा अच्छा होगा।"</p></blockquote><p>आचार्य जी एक गहरी बात कहते हैं — बिना ज्ञान के कोई भी कर्म होता ही नहीं। जिसे हम "अज्ञान" कहते हैं, वह भी एक प्रकार का चुना हुआ ज्ञान है:</p><blockquote><p>"बिना knowledge का किया, ऐसा कुछ concept नहीं होता है। वो अज्ञान जैसा — it's the absence of something। तो वैसा, 'I chose to have that as my knowledge।'"</p></blockquote><p><strong>आग का उदाहरण</strong></p><blockquote><p>"आग में हाथ डाला, तो हाथ जलना ही है। 'मेरी इच्छा नहीं थी' — ऐसा बोल नहीं सकते आप। 'मैं आग के बारे में अज्ञानी रहूँगा' — यही तुम्हारा ज्ञान तुमने स्वीकार किया था।"</p></blockquote><blockquote><p>"'यह कुछ नहीं करेगा' सोचते हुए मैंने डाला, उसके बाद अंत जो फला, सो फला।"</p></blockquote><p>इसलिए अज्ञान भी उत्तरदायित्व से मुक्त नहीं करता:</p><blockquote><p>"तो वैसा ज्ञानयुक्त, जिसको हम अज्ञान बोलते — मतलब सरस्वती का अभाव — वही उतने लेवल का आपके पास है। चाहे अशुद्ध बोलो, चाहे कम बोलो, पर वो सरस्वती ही है।"</p></blockquote><h2 id="hi-s5">४. हर किसी की अपनी "सरस्वती"</h2><p>यह बात रोज़ के जीवन में कैसे दिखती है? आचार्य जी बताते हैं कि हर व्यक्ति अपने कर्म के लिए कोई न कोई तर्क रखता है:</p><blockquote><p>"चोर के पास भी एक कारण होता है कि मैं क्यों चोरी करूँ।"</p></blockquote><blockquote><p>"एक कामवासना वाला व्यभिचारी व्यक्ति भी कारण देता है कि 'अरे, वो विश्वामित्र थे, वो मेनका... बाकी सब अप्सराएँ हो गईं, तो हमको क्या?'"</p></blockquote><blockquote><p>"सिगरेट वाले के पास भी जवाब होता है कि 'स्वामी समर्थ थे, या बाकी सब, गजानन — वो भी तो चिलम लेते थे; हमने लिया, सिगरेट पी।' Everybody has got their positive explanation।"</p></blockquote><blockquote><p>"दारू पीने वाला भी बोलता है, 'Article है कि alcohol थोड़ा-सा दवाई के लिए अच्छा रहता है' — अपना benefit।"</p></blockquote><p>निष्कर्ष:</p><blockquote><p>"So everybody has got their own सरस्वती। वो कौन-से लेवल का है, कितना है? अज्ञानवश खुद का knowledge है, या किसी और का पुष्टिकरण, certified है?"</p></blockquote><p>और जैसा ज्ञान, वैसी ही सृष्टि:</p><blockquote><p>"कुछ तो वो create कर देगा। वो दारू पी-पी के खुद का लिवर खराब करेगा — कुछ तो करेगा। कौन-सा ज्ञान लिया — it is very important।"</p></blockquote><p><strong>प्रश्न यह नहीं कि आपके पास ज्ञान है या नहीं — प्रश्न यह है कि वह ज्ञान किस स्तर का है, और प्रमाणित है या केवल अपना बनाया हुआ बहाना।</strong></p><h2 id="hi-s6">५. लक्ष्मी से पहले सरस्वती</h2><p>ज्ञान का यह स्थान हमारी पूजा-परंपरा में भी दिखता है:</p><blockquote><p>"लक्ष्मी पूजन के दिन कितने जन को पता है कि सरस्वती का भी पूजन होता है? लक्ष्मी पूजन शुरू करने से पहले सरस्वती पूजन होता है। किसी भी शास्त्र में, साधारण पूजा की किताब भी देखो, उसमें भी होता है।"</p></blockquote><p>इसी कारण आचार्य जी प्रामाणिक स्रोत की ओर ले जाते हैं:</p><blockquote><p>"इसलिए हम आज देवी भागवत पुराण पढ़ेंगे — मतलब authentic source। आज ज़्यादा ज्ञान होगा, physical चीज़ तो बहुत कम होगी। सर्व कर्म ज्ञान में समाप्त होते हैं।"</p></blockquote><p>यह वाक्य श्रीमद्भगवद्गीता के इस श्लोक की याद दिलाता है:</p><blockquote class="verse"><p><strong>श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप।</strong><br><strong>सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते॥</strong><br>हे परन्तप, द्रव्य से होने वाले यज्ञ से ज्ञान-यज्ञ श्रेष्ठ है; हे पार्थ, सभी कर्म पूर्ण रूप से ज्ञान में ही समाप्त होते हैं।<br>— श्रीमद्भगवद्गीता ४.३३</p></blockquote><h2 id="hi-s7">६. विष्णु और लक्ष्मी: पालन की शक्ति</h2><p>जो उत्पन्न हुआ, उसे बनाए रखना दूसरा कार्य है:</p><blockquote><p>"दूसरा क्या होता है? पालन। कुछ उत्पन्न हुआ, तो उसको maintain करना है। Maintain करने के लिए लगता है सत्वगुण। और उसके साथ हमेशा क्या लगती है? लक्ष्मी।"</p></blockquote><p><strong>सत्वगुण</strong> यानी संतुलन, स्थिरता और शुद्धता का गुण। आचार्य जी शरीर का उदाहरण देते हैं:</p><blockquote><p>"शरीर उत्पन्न हुआ, तो शरीर को maintain करना पड़ेगा जीवन भर। तो maintain करने के लिए — खाने से लेकर, कपड़े से लेकर, उसकी exercise से लेकर — कुछ होगा ना maintenance, औषधि वगैरह। तो धन, पैसा — लक्ष्मी।"</p></blockquote><p><strong>सत्व और रजस का संयोग</strong></p><p>आचार्य जी बताते हैं कि सृष्टि और पालन, दोनों में सत्व और रजस साथ-साथ काम करते हैं:</p><blockquote><p>"लक्ष्मी का गुण कौन-सा? वो रजोगुण। And विष्णु का गुण कौन-सा बोला है? सत्वगुण। तो सत्वगुण और रजस की शक्ति दो बार आ गई।"</p></blockquote><blockquote><p>"Create करते टाइम भी सत्वगुण से कुछ, तो रजस शक्ति से उत्पन्न करना है; फिर सत्वगुण से, रजस शक्ति से उसको maintain करना होगा।"</p></blockquote><p><strong>बनाने में भी और बनाए रखने में भी — एक ओर स्थिर, शुद्ध सत्व; दूसरी ओर सक्रिय रजस। दोनों का संतुलन ही जीवन को चलाता है।</strong></p><h2 id="hi-s8">७. महाकाल और महाकाली: अंत और त्याग</h2><p>तीसरा कार्य अनिवार्य है — हर चीज़ का एक दिन अंत होता है:</p><blockquote><p>"And finally, कभी तो उसका अंत — त्याग तो करना होगा। या तो प्रकृति आपको त्याग कराएगी, छोड़ने को बोलेगी, मजबूर कर देगी।"</p></blockquote><blockquote><p>"One fine day, one clean sweep — either you have to leave the world, or the world will leave you।"</p></blockquote><p>यह अंत अनेक रूपों में आता है:</p><blockquote><p>"आपका पति चला जाएगा, या कोई relative होगा, business होगा। आप चले जाओगे, business वैसे ही रहेगा। या राजा होगा, तो राज्य — वो तो चला जाएगा; या तो उसका राज्य कोई जीत के ले जाएगा, या वो election हारता है। कुछ तो होता है।"</p></blockquote><blockquote><p>"One fine day, एक तो छोड़ने वाला है। उसकी तैयारी — उसके लिए तमस लगेगा।"</p></blockquote><p><strong>तमोगुण</strong> यहाँ विनाश और विराम की शक्ति है, और यह हमारी इच्छा से नहीं चलती:</p><blockquote><p>"तमस auto mode में होता है, क्योंकि मृत्यु बता के नहीं आती — जब तक वो समाधि में नहीं जा रहा।"</p></blockquote><blockquote><p>"तो काली, और दूसरा उसके साथ महादेव — महाकाल और महाकाली। That is तमस, तम-शक्ति — that destroys."</p></blockquote><p><strong>जो उत्पन्न हुआ, उसका अंत निश्चित है। बुद्धिमानी इसी में है कि हम छोड़ने की तैयारी रखें, न कि प्रकृति हमें मजबूर करे।</strong></p><h2 id="hi-s9">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>त्रिदेव और उनकी शक्तियाँ जीवन के तीन कार्य हैं</strong> — ब्रह्मा-सरस्वती (सृष्टि), विष्णु-लक्ष्मी (पालन), महाकाल-महाकाली (संहार)।</div></li><li><span class="num">२</span><div><strong>देवताओं को कथा से ऊपर समझो</strong> — हर देवता एक गुण और एक कार्य का प्रतीक है, जो हमारे भीतर काम करता है।</div></li><li><span class="num">३</span><div><strong>हर शुरुआत रजस शक्ति से होती है</strong> — कुछ भी उत्पन्न करने के लिए action लेना ही पड़ता है।</div></li><li><span class="num">४</span><div><strong>सृष्टि के साथ ज्ञान चाहिए</strong> — सरस्वती के बिना किया गया निर्माण अधूरा है; "अज्ञान" भी हमारा चुना हुआ ज्ञान है, और उसका फल हमें ही मिलता है।</div></li><li><span class="num">५</span><div><strong>हर किसी की अपनी "सरस्वती" है</strong> — इसलिए देखो कि तुम्हारा ज्ञान किस स्तर का है, और प्रमाणित है या केवल बहाना।</div></li><li><span class="num">६</span><div><strong>लक्ष्मी से पहले सरस्वती</strong> — पूजा में भी और जीवन में भी, धन से पहले ज्ञान आता है।</div></li><li><span class="num">७</span><div><strong>पालन के लिए सत्वगुण और लक्ष्मी चाहिए</strong> — शरीर से लेकर व्यापार तक, सब कुछ बनाए रखने में साधन लगते हैं।</div></li><li><span class="num">८</span><div><strong>अंत निश्चित है</strong> — either you leave the world, or the world leaves you; तमस की यह शक्ति बिना बताए आती है, इसलिए त्याग की तैयारी रखो।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=4ZGq4KwZdOg" target="_blank" rel="noopener"><img src="assets/4ZGq4KwZdOg.jpg" alt="Discover the Power of Deities in Your Life | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Discover the Power of Deities in Your Life | Acharya Upendra Ji<small>YouTube · 5:46</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: तीन देव, तीन देवियाँ</a></li><li><a href="#hi-s2">१. कथा से आगे: देवता का अर्थ</a></li><li><a href="#hi-s3">२. ब्रह्मा: शुरुआत की रजस शक्ति</a></li><li><a href="#hi-s4">३. सरस्वती: सृष्टि के साथ ज्ञान</a></li><li><a href="#hi-s5">४. हर किसी की अपनी "सरस्वती"</a></li><li><a href="#hi-s6">५. लक्ष्मी से पहले सरस्वती</a></li><li><a href="#hi-s7">६. विष्णु और लक्ष्मी: पालन की शक्ति</a></li><li><a href="#hi-s8">७. महाकाल और महाकाली: अंत और त्याग</a></li><li><a href="#hi-s9">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Power of the Deities in Your Life — Creation, Preservation and Dissolution | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>The Power of the Deities in Your Life — Creation, Preservation and Dissolution</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../power_of_deities_in_your_life_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=4ZGq4KwZdOg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Three Gods, Three Goddesses</h2><p>We have all heard of Brahma, Vishnu and Mahesh since childhood. But are they only characters in stories, or forces at work in our everyday lives? In this discourse, Acharya Upendra Ji explains the Trinity and their Shaktis by linking them to the three fundamental functions of life — <strong>creation, preservation and dissolution</strong>:</p><blockquote><p>"So the three gods — we call them Brahma, Vishnu, Mahesh. And along with them, three goddesses are also spoken of."</p></blockquote><blockquote><p>"Always associated with Brahma is Saraswati, with Vishnu, Lakshmi, and with Mahesh, Parvati or Kali — we say Mahakal and Mahakali."</p></blockquote><h2 id="en-s2">1. Beyond the Stories: What a Deity Means</h2><p>Acharya Ji makes it clear that this understanding goes beyond the level of stories:</p><blockquote><p>"Now we have risen far above. We don't do that storytelling; that is for children up to twelve years old."</p></blockquote><p>So what does "these are goddesses, these are gods" really mean? Each deity stands for a <strong>guna</strong> (quality) and a <strong>function</strong>. Whenever we do something in life, the power of that quality is at work within us.</p><h2 id="en-s3">2. Brahma: The Rajas Shakti of Beginnings</h2><p>The first function is to bring something new into being:</p><blockquote><p>"If I have to create something, bring something forth, build something, then the Brahma-bhava is needed. Which is Brahma's guna? Brahma's guna is said to be rajoguna."</p></blockquote><p><strong>Rajoguna</strong> is the quality of motion, action and activity. Nothing begins without action:</p><blockquote><p>"To start something, you have to take some action. You want to bring something forth, start something, launch some business — to do anything at all."</p></blockquote><p>Even our own birth is the result of this power:</p><blockquote><p>"For you, too, to be born, someone had to take the initiative. Whatever you want to do, what is needed at the start? Rajas Shakti — Brahma."</p></blockquote><p><strong>Every new beginning — a business, a relationship, or a life — comes from the initiative of Rajas Shakti.</strong></p><h2 id="en-s4">3. Saraswati: Knowledge Alongside Creation</h2><p>But action alone is not enough. That is why Saraswati is with Brahma:</p><blockquote><p>"And along with it there must also be knowledge, which is why what is it called? Saraswati. If you create with Saraswati — with vidya, with knowledge — it will turn out better."</p></blockquote><p>Acharya Ji makes a profound point — no action happens without knowledge at all. Even what we call "ignorance" is a kind of chosen knowledge:</p><blockquote><p>"Something done without knowledge — there is no such concept. That ignorance — it's the absence of something. So in that way, 'I chose to have that as my knowledge.'"</p></blockquote><p><strong>The Example of Fire</strong></p><blockquote><p>"If you put your hand in fire, the hand is bound to burn. You cannot say, 'It wasn't my wish.' 'I will stay ignorant about fire' — that is the knowledge you accepted."</p></blockquote><blockquote><p>"Thinking 'this won't do anything,' I put it in, and then whatever the outcome, so be it."</p></blockquote><p>So ignorance does not free us from responsibility:</p><blockquote><p>"That kind of knowledge, which we call ignorance — meaning the absence of Saraswati — that is the level you have. Call it impure, call it less, but it is still Saraswati."</p></blockquote><h2 id="en-s5">4. Everyone Has Their Own "Saraswati"</h2><p>How does this show up in everyday life? Acharya Ji explains that every person keeps some argument for their actions:</p><blockquote><p>"Even a thief has a reason for why he should steal."</p></blockquote><blockquote><p>"A lustful, adulterous person also gives a reason: 'Oh, there was Vishwamitra, and Menaka... all the others became apsaras, so what about us?'"</p></blockquote><blockquote><p>"The smoker, too, has an answer: 'There was Swami Samarth, or all the others, Gajanan — they too took the chillum; so we took it, smoked a cigarette.' Everybody has got their positive explanation."</p></blockquote><blockquote><p>"Even the drinker says, 'There's an article that a little alcohol is good as medicine' — their own benefit."</p></blockquote><p>The conclusion:</p><blockquote><p>"So everybody has got their own Saraswati. What level is it, how much is it? Is it your own knowledge out of ignorance, or someone else's confirmation — certified?"</p></blockquote><p>And as the knowledge, so the creation:</p><blockquote><p>"He will create something. He will ruin his own liver drinking and drinking — he will do something. Which knowledge you took — it is very important."</p></blockquote><p><strong>The question is not whether you have knowledge or not — it is what level that knowledge is, and whether it is verified or merely an excuse of your own making.</strong></p><h2 id="en-s6">5. Saraswati Before Lakshmi</h2><p>This place of knowledge shows up in our tradition of worship too:</p><blockquote><p>"On the day of Lakshmi Puja, how many people know that Saraswati is also worshipped? Before Lakshmi Puja begins, Saraswati Puja is done. In any scripture — look even at an ordinary puja book — it is there too."</p></blockquote><p>That is why Acharya Ji turns to an authentic source:</p><blockquote><p>"That is why today we will read the Devi Bhagavata Purana — meaning an authentic source. Today there will be more knowledge; physical things will be very few. All actions culminate in knowledge."</p></blockquote><p>This line recalls a verse of the Bhagavad Gita:</p><blockquote class="verse"><p><strong>śreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa</strong><br><strong>sarvaṁ karmākhilaṁ pārtha jñāne parisamāpyate</strong><br>"O scorcher of foes, the sacrifice of knowledge is superior to the sacrifice of material things; O Partha, all action, in its entirety, culminates in knowledge."<br>— Bhagavad Gita 4.33</p></blockquote><h2 id="en-s7">6. Vishnu and Lakshmi: The Power of Preservation</h2><p>The second function is to sustain what has come into being:</p><blockquote><p>"What is the second? Preservation. Something has been brought forth, so it has to be maintained. To maintain it you need sattvaguna. And what always comes along with it? Lakshmi."</p></blockquote><p><strong>Sattvaguna</strong> is the quality of balance, stability and purity. Acharya Ji gives the example of the body:</p><blockquote><p>"Once the body is born, the body has to be maintained throughout life. So to maintain it — from food, to clothes, to its exercise — there will be some maintenance, medicines and so on. So wealth, money — Lakshmi."</p></blockquote><p><strong>The Union of Sattva and Rajas</strong></p><p>Acharya Ji explains that in both creation and preservation, sattva and rajas work together:</p><blockquote><p>"Which is Lakshmi's guna? That is rajoguna. And which guna is Vishnu's said to be? Sattvaguna. So the power of sattvaguna and rajas came in twice."</p></blockquote><blockquote><p>"Even while creating, there is something from sattvaguna, and then it has to be brought forth with Rajas Shakti; then, with sattvaguna and with Rajas Shakti, it has to be maintained."</p></blockquote><p><strong>In making and in sustaining alike — on one side the steady, pure sattva; on the other the active rajas. The balance of the two is what keeps life running.</strong></p><h2 id="en-s8">7. Mahakal and Mahakali: Ending and Letting Go</h2><p>The third function is inevitable — everything comes to an end one day:</p><blockquote><p>"And finally, at some point there is its end — you will have to let go. Either nature will make you let go, tell you to leave, force you."</p></blockquote><blockquote><p>"One fine day, one clean sweep — either you have to leave the world, or the world will leave you."</p></blockquote><p>This ending comes in many forms:</p><blockquote><p>"Your husband will go, or there will be some relative, a business. You will go, and the business will stay as it is. Or if there is a king, the kingdom — that will go; either someone will conquer and take his kingdom, or he loses an election. Something or other happens."</p></blockquote><blockquote><p>"One fine day, one of the two is going to leave. Preparing for that — for that, tamas is needed."</p></blockquote><p><strong>Tamoguna</strong> here is the power of destruction and cessation, and it does not run by our wish:</p><blockquote><p>"Tamas runs in auto mode, because death does not come with notice — unless one is going into samadhi."</p></blockquote><blockquote><p>"So Kali, and along with her Mahadev — Mahakal and Mahakali. That is tamas, Tama-Shakti — that destroys."</p></blockquote><p><strong>Whatever has been born will surely end. Wisdom lies in being prepared to let go, rather than having nature force us.</strong></p><h2 id="en-s9">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>The Trinity and their Shaktis are the three functions of life</strong> — Brahma-Saraswati (creation), Vishnu-Lakshmi (preservation), Mahakal-Mahakali (dissolution).</div></li><li><span class="num">2</span><div><strong>Understand the deities beyond the stories</strong> — each deity stands for a quality and a function that works within us.</div></li><li><span class="num">3</span><div><strong>Every beginning comes from Rajas Shakti</strong> — to bring anything forth, you have to take action.</div></li><li><span class="num">4</span><div><strong>Creation needs knowledge</strong> — creation without Saraswati is incomplete; even "ignorance" is a knowledge we chose, and its fruit comes to us.</div></li><li><span class="num">5</span><div><strong>Everyone has their own "Saraswati"</strong> — so see what level your knowledge is, and whether it is verified or merely an excuse.</div></li><li><span class="num">6</span><div><strong>Saraswati before Lakshmi</strong> — in worship as in life, knowledge comes before wealth.</div></li><li><span class="num">7</span><div><strong>Preservation needs sattvaguna and Lakshmi</strong> — from the body to a business, sustaining anything needs resources.</div></li><li><span class="num">8</span><div><strong>The end is certain</strong> — either you leave the world, or the world leaves you; this power of tamas comes without notice, so stay prepared to let go.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=4ZGq4KwZdOg" target="_blank" rel="noopener"><img src="assets/4ZGq4KwZdOg.jpg" alt="Discover the Power of Deities in Your Life | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Discover the Power of Deities in Your Life | Acharya Upendra Ji<small>YouTube · 5:46</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Three Gods, Three Goddesses</a></li><li><a href="#en-s2">1. Beyond the Stories: What a Deity Means</a></li><li><a href="#en-s3">2. Brahma: The Rajas Shakti of Beginnings</a></li><li><a href="#en-s4">3. Saraswati: Knowledge Alongside Creation</a></li><li><a href="#en-s5">4. Everyone Has Their Own "Saraswati"</a></li><li><a href="#en-s6">5. Saraswati Before Lakshmi</a></li><li><a href="#en-s7">6. Vishnu and Lakshmi: The Power of Preservation</a></li><li><a href="#en-s8">7. Mahakal and Mahakali: Ending and Letting Go</a></li><li><a href="#en-s9">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
