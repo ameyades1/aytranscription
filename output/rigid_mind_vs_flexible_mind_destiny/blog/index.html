@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>कठोर मन, लचीली बुद्धि — भाग्य को फिर से लिखने की कला | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — कठोर मन, लचीली बुद्धि — भाग्य को फिर से लिखने की कला">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="कठोर मन, लचीली बुद्धि — भाग्य को फिर से लिखने की कला | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>कठोर मन, लचीली बुद्धि — भाग्य को फिर से लिखने की कला</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../rigid_mind_vs_flexible_mind_destiny_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=n_vbFgF9h4Q" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: "हम तो ऐसे ही हैं"</h2><p>कितनी बार हम कहते हैं — "मेरा स्वभाव ही ऐसा है", "हमारे घर में तो ऐसा ही चलता है"? इस छोटे-से प्रबोधन में आचार्य उपेंद्र जी दिखाते हैं कि यही वाक्य हमारे जीवन के विघ्नों की जड़ है। वे <strong>मेधा</strong> (शास्त्र से तपी, तेजस्वी बुद्धि) और <strong>दुर्मेधा</strong> (हठी, जड़ बुद्धि) का अंतर समझाते हैं, और बताते हैं कि जो जीवन में ऊपर उठना चाहता है, उसे <em>rigid</em> नहीं, <em>flexible</em> बुद्धि चाहिए।</p><h2 id="hi-s2">१. मेधा जानती है: भाग्य फिर से लिखा जा सकता है</h2><p>आचार्य जी के अनुसार मेधावान व्यक्ति वह है जिसके भीतर शास्त्र उतर चुके हैं:</p><blockquote><p>"मेधा वाला व्यक्ति सोचता है, क्योंकि सारे शास्त्र उसके अंदर बैठे हैं। सब शास्त्र का पालन हो चुका है, तेज आ चुका है।"</p></blockquote><p>और इसलिए वह भाग्य के बारे में एक मूल सत्य जानता है:</p><blockquote><p>"इसको मालूम है — destiny changeable. Destiny can be rewritten, उसको पता है। Destiny pre-written, but also can be rewritten — ये मेधा वाले को पता है।"</p></blockquote><p><strong>भाग्य पहले से लिखा है, पर उसे फिर से लिखा भी जा सकता है।</strong> यही मेधा की पहचान है।</p><h2 id="hi-s3">२. दुर्मेधा: "आज तक किसी का बदला नहीं"</h2><p>इसके ठीक उलट है दुर्मेधा — वह बुद्धि जो बदलने से इनकार करती है:</p><blockquote><p>"तो दुर्मेधा वाला क्या बोलेगा? 'हम तो ऐसे ही हैं। हमारा तो घर में ऐसा ही है। आज तक किसी का बदला नहीं। दूसरा आदर्श दिखाओ, तो शायद मैं बदलूँगी, तो बदलूँगा…'"</p></blockquote><p>आचार्य जी इसका परिणाम स्पष्ट बताते हैं:</p><blockquote><p>"ये दुर्मेधा लोग परमेश्वर से, गुरु से बहुत-बहुत दूर। गणपति इनके नज़दीक भी नहीं है। गणपति मतलब विवेक-बुद्धि, और वो स्थिर बुद्धि — ये दूर-दूर तक नहीं है।"</p></blockquote><p>गणपति विघ्नहर्ता हैं; जहाँ विवेक-बुद्धि नहीं, वहाँ विघ्न ही विघ्न हैं:</p><blockquote><p>"और तुम्हारे विघ्न इसी के वजह से आ रहे हैं, क्योंकि तुम rigid हो। क्योंकि बाकी सब जगह flexible होगा ही, बाकी सब अलग-अलग होंगे ही।"</p></blockquote><p><strong>संसार तो बदलता ही रहेगा, लोग अलग-अलग होंगे ही; जो अड़ा रहता है, वही टकराता है।</strong></p><h2 id="hi-s4">३. एक कमरा, दो दृष्टिकोण</h2><p>इस बात को आचार्य जी एक सरल दृश्य से समझाते हैं। दो व्यक्ति एक ही कमरे में हैं, अलग-अलग जगह से देख रहे हैं:</p><blockquote><p>"कुर्सी पर बैठा ये आदमी बोल रहा है इधर का: 'अरे देख, दीवार है; देख, दरवाज़ा है; देख, एक अलमारी है; हाँ, देख, पीछे कपड़े हैं…' वो बोलता है: 'नहीं, देख, खिड़की है; देख, बाहर पेड़ दिख रहा है; देख, वो पर्दा है…'"</p></blockquote><p>फिर प्रश्न: सही कौन है?</p><blockquote><p>"किसका right है और किसका गलत है? दोनों का अपना दृष्टिकोण सही है। क्योंकि इसको जो दिख रहा है वह सही है, और इसको जो दिख रहा है वह भी सही है।"</p></blockquote><p>समस्या दृष्टिकोण में नहीं, उसे जकड़ कर पकड़ने में है:</p><blockquote><p>"दोनों अपना दृष्टिकोण ऐसा ही पकड़ के रहे, rigid रहे — 'स्वभाव बदल नहीं सकता' करके इसने बोला, तो 'मैं मेरा ही मानूँगा, मेरा ही मानूँगी, मेरा ही करूँगी, मेरा ही करूँगा।' अब क्या होगा? इनमें झगड़ा होगा कि नहीं? They will never match in this world."</p></blockquote><p>और समाधान:</p><blockquote><p>"इसको इसका स्वभाव बदल के, कुछ टाइम के लिए इनको ऐसा (दूसरे की जगह) होना पड़ेगा कि नहीं? ऐसा जब होगा, तब इसको दिखेगा कि यह भी सही बोला था, यह भी सही बोला था।"</p></blockquote><p><strong>दूसरे की जगह खड़े हुए बिना उसका सत्य दिखाई नहीं देता।</strong></p><h2 id="hi-s5">४. "उसका जीवन जिया है क्या तुमने?"</h2><p>यही बात आचार्य जी रोज़ के जीवन पर उतारते हैं — घर में काम करने वाली बाई, या किसी गरीब व्यक्ति की कठिनाई पर:</p><blockquote><p>"तुम्हारी कामवाली बाई जब बोलती है, 'साहब, वो पति दारू पी के आता है, गड़बड़ करता है, लात मारता है…' — और तुम अपने तेवर में रहते: 'ऐसा कैसा? नहीं आ सकते? हम भी तो ऑफिस में जाते हैं।'"</p></blockquote><p>उनका प्रश्न सीधा है:</p><blockquote><p>"उसका जीवन जिया है क्या तुमने? तुम्हारा पति लात मारता है क्या तुमको? कितना अपमान, गाली होता है वो? उनके पास तुम्हारे इतना पैसा है क्या?"</p></blockquote><blockquote><p>"उसका जीवन कब देखोगे? इसी के वजह से उसका बुद्धि उसके angle से चलता है, तुम्हारा बुद्धि तुम्हारे angle से चलता है।"</p></blockquote><p>हर व्यक्ति अपनी परिस्थिति के <em>angle</em> से सोचता है। उसे "स्वभाव" कहकर खारिज कर देना आसान है; उसकी परिस्थिति को देखना ही flexible बुद्धि है।</p><h2 id="hi-s6">५. एक लक्ष्य, अनेक स्वभाव</h2><p>अब आचार्य जी इस शिक्षा का सबसे बड़ा सूत्र देते हैं — जो ऊँचा उठना चाहता है, जो दूसरों को <em>धारण</em> करना चाहता है, उसके लिए:</p><blockquote><p>"जिसको higher होना है, जिसको धर्ता होना है, जिसको धारण-कर्ता होना है, जिसको राजा, सम्राट, या जितना-जितना ऊपर का manager वगैरह post बनना है, उसको इतना flexible होना ही पड़ेगा। उसको सब स्वभाव बदलना होगा।"</p></blockquote><blockquote><p>"एक लक्ष्य से चल सकता है, एक स्वभाव से नहीं चल सकेगा।"</p></blockquote><p><strong>लक्ष्य अडिग रहे, स्वभाव लचीला।</strong> यही नेतृत्व का रहस्य है।</p><h2 id="hi-s7">६. See God in all, but treat on merit</h2><p>लचीलापन किस दिशा में? आचार्य जी स्पष्ट करते हैं कि उद्देश्य एक ही रहता है — परमेश्वर:</p><blockquote><p>"परमेश्वर का उद्देश्य चल सकता है। उसमें हर जगह भगवान देखूँगा, कुत्ते में भी देखूँगा, लेकिन कुत्ते को जैसा treat करना है (वैसा करूँगा)। Treat on merit. See God in all, but treat on merit."</p></blockquote><blockquote><p>"सर्वान् भगवत्-दर्शन, पर (एक-सा) वर्तन नहीं।"</p></blockquote><p>अर्थात् सब में भगवान का दर्शन करो, पर सबसे एक-सा व्यवहार (<em>वर्तन</em>) नहीं। वे इसे सबको भोजन कराने के उदाहरण से समझाते हैं:</p><blockquote><p>"गरीब में भी भगवान — शनिदेव। लेकिन उसका treatment अलग है। Treatment खराब नहीं होगा, अच्छा ही होगा, लेकिन उसका तरीका अलग है। उसको volunteers लगाने पड़ेंगे, क्योंकि शनि को मंगल control करता है — मंगल मतलब police, volunteer, वो सब। तब वो lower consciousness के लोग अच्छी तरह से खाना खाएँगे।"</p></blockquote><blockquote><p>"ऊपर के post का है, संत-साधु को लाया, तो उसको line लगा करके बोलने की आवश्यकता नहीं। मान-सम्मान अलग। उनको भी बढ़िया खाना, इसको भी बढ़िया खाना, कुत्ते को भी बढ़िया खाना। हर एक में भगवान, पर अपना-अपना treatment।"</p></blockquote><p>सबको <em>अच्छा</em> मिले — यह समान है; किस <em>तरीके</em> से मिले — यह व्यक्ति के अनुसार बदलता है।</p><blockquote><p>"ये स्वभाव मुझे बदली करना होगा कि नहीं? इतना सिर्फ बोध मुझे आना चाहिए।"</p></blockquote><h2 id="hi-s8">७. चाटुकार नहीं, गणपति बनो</h2><p>अंत में आचार्य जी एक चुटीली उपमा से बात को घर तक पहुँचाते हैं:</p><blockquote><p>"क्या मैं कुत्ता हूँ क्या, कि सबको same तरीके से करूँ — इसको भी चाटूँ, उसको भी चाटूँ? प्रेम करने का एक ही तरीका नहीं ना।"</p></blockquote><blockquote><p>"शायद उसीलिए 'चाटुकार' बोलते होंगे — वही एक टाइप का करते हैं सब; तो एक टाइप का सिर्फ उसको आता है। पर आपको अलग-अलग करने की बुद्धि होनी चाहिए — जहाँ जो करना है, वो।"</p></blockquote><p>और यहीं गणपति का अर्थ लौट आता है — <strong>गणपति</strong> यानी गणों (समूहों, लोगों) के अधिपति:</p><blockquote><p>"जिसको जितना गणपति बनना है, जितना गणों का अधिपति बनना है, जितना ऊपर का post होना है, तो ये flexible बुद्धि तुम्हारी करनी होगी।"</p></blockquote><h2 id="hi-s9">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>भाग्य बदला जा सकता है</strong> — "Destiny pre-written, but also can be rewritten"; यह मेधावान बुद्धि जानती है।</div></li><li><span class="num">२</span><div><strong>"हम तो ऐसे ही हैं" दुर्मेधा का लक्षण है</strong> — ऐसी बुद्धि परमेश्वर, गुरु और गणपति (विवेक-बुद्धि) से दूर रहती है।</div></li><li><span class="num">३</span><div><strong>विघ्न कठोरता से आते हैं</strong> — संसार और लोग अलग-अलग होंगे ही; जो rigid है, वही टकराता है।</div></li><li><span class="num">४</span><div><strong>हर दृष्टिकोण अपनी जगह सही है</strong> — दूसरे की जगह खड़े होकर ही उसका सत्य दिखता है।</div></li><li><span class="num">५</span><div><strong>दूसरे का जीवन देखो</strong> — हर व्यक्ति की बुद्धि उसकी परिस्थिति के angle से चलती है।</div></li><li><span class="num">६</span><div><strong>एक लक्ष्य, अनेक स्वभाव</strong> — जो ऊपर उठना और दूसरों को धारण करना चाहता है, उसे flexible होना ही पड़ेगा।</div></li><li><span class="num">७</span><div><strong>See God in all, but treat on merit</strong> — सब में भगवत्-दर्शन, पर व्यवहार हर एक के अनुसार; सबको अच्छा, पर अपना-अपना तरीका।</div></li><li><span class="num">८</span><div><strong>प्रेम का एक ही तरीका नहीं</strong> — एक-सा व्यवहार चाटुकारिता है; अलग-अलग करने की बुद्धि ही गणपति (गणों के अधिपति) का गुण है।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=n_vbFgF9h4Q" target="_blank" rel="noopener"><img src="assets/n_vbFgF9h4Q.jpg" alt="Rigid Mind vs Flexible Mind: The Hidden Shift That Can Rewrite Your Destiny | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Rigid Mind vs Flexible Mind: The Hidden Shift That Can Rewrite Your Destiny | Acharya Upendra Ji<small>YouTube · 6:22</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: "हम तो ऐसे ही हैं"</a></li><li><a href="#hi-s2">१. मेधा जानती है: भाग्य फिर से लिखा जा सकता है</a></li><li><a href="#hi-s3">२. दुर्मेधा: "आज तक किसी का बदला नहीं"</a></li><li><a href="#hi-s4">३. एक कमरा, दो दृष्टिकोण</a></li><li><a href="#hi-s5">४. "उसका जीवन जिया है क्या तुमने?"</a></li><li><a href="#hi-s6">५. एक लक्ष्य, अनेक स्वभाव</a></li><li><a href="#hi-s7">६. See God in all, but treat on merit</a></li><li><a href="#hi-s8">७. चाटुकार नहीं, गणपति बनो</a></li><li><a href="#hi-s9">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Rigid Mind, Flexible Intellect — The Art of Rewriting Destiny | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Rigid Mind, Flexible Intellect — The Art of Rewriting Destiny</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../rigid_mind_vs_flexible_mind_destiny_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=n_vbFgF9h4Q" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: "We Are Just Like This"</h2><p>How often do we say, "That's just my nature," or "That's how things are in our family"? In this short discourse, Acharya Upendra Ji shows that this very sentence is the root of the obstacles in our lives. He explains the difference between <strong>medha</strong> (an intellect refined and made radiant by the scriptures) and <strong>durmedha</strong> (a stubborn, inert intellect), and shows that whoever wishes to rise in life needs a <em>flexible</em> intellect, not a <em>rigid</em> one.</p><h2 id="en-s2">1. Medha Knows: Destiny Can Be Rewritten</h2><p>According to Acharya Ji, a person of <em>medha</em> is one into whom the scriptures have truly settled:</p><blockquote><p>"The person of medha thinks, because all the scriptures are seated within him. All the scriptures have been followed; the radiance has come."</p></blockquote><p>And so he knows a fundamental truth about destiny:</p><blockquote><p>"He knows — destiny changeable. Destiny can be rewritten, he knows that. Destiny pre-written, but also can be rewritten — the person of medha knows this."</p></blockquote><p><strong>Destiny is written in advance, but it can also be rewritten.</strong> That is the mark of <em>medha</em>.</p><h2 id="en-s3">2. Durmedha: "No One Has Ever Changed"</h2><p>Its exact opposite is <em>durmedha</em> — the intellect that refuses to change:</p><blockquote><p>"So what will the person of durmedha say? 'We are just like this. In our home it is just like this. Till today, nobody has changed. Show me another ideal, then perhaps I will change…'"</p></blockquote><p>Acharya Ji states the consequence plainly:</p><blockquote><p>"These people of durmedha are very, very far from Parameshwar, from the Guru. Ganapati is not even near them. Ganapati means the discerning intellect, the steady intellect — that is nowhere to be found in them."</p></blockquote><p>Ganapati is the remover of obstacles; where there is no discerning intellect, there are only obstacles:</p><blockquote><p>"And your obstacles are coming for this very reason — because you are rigid. Because everywhere else things will be flexible; everyone else will be different, of course."</p></blockquote><p><strong>The world will keep changing and people will always be different; the one who digs in their heels is the one who collides.</strong></p><h2 id="en-s4">3. One Room, Two Points of View</h2><p>Acharya Ji explains this with a simple scene. Two people are in the same room, looking from different places:</p><blockquote><p>"This man sitting on the chair says: 'Look, there's a wall; look, a door; look, a cupboard; yes, look, there are clothes behind…' The other says: 'No, look, there's a window; look, you can see a tree outside; look, there's that curtain…'"</p></blockquote><p>Then the question: who is right?</p><blockquote><p>"Who is right and who is wrong? Each one's point of view is right. Because what this one sees is right, and what that one sees is also right."</p></blockquote><p>The problem is not the viewpoint, but clinging to it:</p><blockquote><p>"Both held on to their own viewpoint like this, stayed rigid — saying 'my nature cannot change,' then 'I will accept only mine, I will do only mine.' Now what will happen? Will they fight or not? They will never match in this world."</p></blockquote><p>And the solution:</p><blockquote><p>"Won't each have to change his nature and, for some time, become like this (stand in the other's place)? When that happens, he will see that this one was also right, and that one was also right."</p></blockquote><p><strong>Without standing in the other's place, you cannot see their truth.</strong></p><h2 id="en-s5">4. "Have You Lived Their Life?"</h2><p>Acharya Ji brings the same point into daily life — to the hardships of a domestic helper or a poor person:</p><blockquote><p>"When your maid says, 'Sahab, my husband comes home drunk, creates trouble, kicks me…' — and you stay in your attitude: 'How can that be? You can't come? We also go to the office.'"</p></blockquote><p>His question is direct:</p><blockquote><p>"Have you lived her life? Does your husband kick you? How much insult and abuse that is! Do they have as much money as you?"</p></blockquote><blockquote><p>"When will you look at her life? That is why her intellect runs from her angle, and your intellect runs from your angle."</p></blockquote><p>Every person thinks from the <em>angle</em> of their own circumstances. It is easy to dismiss it as "their nature"; seeing their circumstances is what a flexible intellect does.</p><h2 id="en-s6">5. One Goal, Many Natures</h2><p>Now Acharya Ji gives the central principle of this teaching — for the one who wishes to rise, who wishes to <em>uphold</em> others:</p><blockquote><p>"Whoever wants to be higher, whoever wants to be a dharta, a sustainer who upholds others, whoever wants to become a king, an emperor, or any higher post like a manager — he will have to be this flexible. He will have to change his nature for everything."</p></blockquote><blockquote><p>"One can run with one goal; one cannot run with one nature."</p></blockquote><p><strong>Let the goal be unshakable and the nature flexible.</strong> That is the secret of leadership.</p><h2 id="en-s7">6. See God in All, but Treat on Merit</h2><p>Flexible in which direction? Acharya Ji makes it clear that the purpose remains one — Parameshwar:</p><blockquote><p>"Parameshwar's purpose can run through it. In it I will see God everywhere, I will see Him even in a dog, but I will treat the dog the way a dog is to be treated. Treat on merit. See God in all, but treat on merit."</p></blockquote><blockquote><p>"The vision of Bhagavan in all, but not the same conduct."</p></blockquote><p>That is: see God in everyone, but do not behave (<em>vartan</em>) the same way with everyone. He illustrates it with the example of feeding everyone:</p><blockquote><p>"In the poor too there is God — Shanidev. But his treatment is different. The treatment will not be bad, it will only be good, but its manner is different. Volunteers will have to be put in place, because Mangal controls Shani — Mangal means police, volunteers, all that. Then those people of lower consciousness will eat their food properly."</p></blockquote><blockquote><p>"If someone of a higher post, a saint or sadhu, is brought, there is no need to tell him to stand in line. The respect is different. He gets good food too, this one gets good food too, the dog gets good food too. God in each one, but each with his own treatment."</p></blockquote><p>That everyone receives something <em>good</em> is the same; <em>how</em> they receive it changes with the person.</p><blockquote><p>"Will I have to change this nature of mine or not? Just this much understanding should come to me."</p></blockquote><h2 id="en-s8">7. Be Ganapati, Not a Flatterer</h2><p>Finally, Acharya Ji drives the point home with a witty comparison:</p><blockquote><p>"Am I a dog, that I should treat everyone the same way — lick this one, lick that one too? There isn't just one way to love."</p></blockquote><blockquote><p>"Perhaps that's why they say <em>chatukar</em> (flatterer; literally, 'one who licks') — he does everything one single way; he only knows one way. But you should have the intelligence to act differently — whatever is needed, wherever it is needed."</p></blockquote><p>And here the meaning of Ganapati returns — <strong>Ganapati</strong>, the lord (<em>adhipati</em>) of the <em>ganas</em>, the groups of people:</p><blockquote><p>"However much you want to become Ganapati, however much you want to become the lord of the ganas, however high a post you want to hold — that much you will have to make your intellect flexible."</p></blockquote><h2 id="en-s9">Summary: Key Takeaways</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Destiny can be changed</strong> — "Destiny pre-written, but also can be rewritten"; the intellect of <em>medha</em> knows this.</div></li><li><span class="num">2</span><div><strong>"We are just like this" is the sign of durmedha</strong> — such an intellect stays far from Parameshwar, the Guru and Ganapati (the discerning intellect).</div></li><li><span class="num">3</span><div><strong>Obstacles come from rigidity</strong> — the world and people will always be different; the one who is rigid is the one who collides.</div></li><li><span class="num">4</span><div><strong>Every viewpoint is right from where it stands</strong> — only by standing in the other's place do you see their truth.</div></li><li><span class="num">5</span><div><strong>Look at the other's life</strong> — each person's intellect runs from the angle of their circumstances.</div></li><li><span class="num">6</span><div><strong>One goal, many natures</strong> — whoever wants to rise and uphold others must be flexible.</div></li><li><span class="num">7</span><div><strong>See God in all, but treat on merit</strong> — the vision of God in everyone, but conduct suited to each; good for all, but each in their own way.</div></li><li><span class="num">8</span><div><strong>There isn't just one way to love</strong> — treating everyone the same way is flattery; the intelligence to act differently is the quality of Ganapati, the lord of the <em>ganas</em>.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=n_vbFgF9h4Q" target="_blank" rel="noopener"><img src="assets/n_vbFgF9h4Q.jpg" alt="Rigid Mind vs Flexible Mind: The Hidden Shift That Can Rewrite Your Destiny | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Rigid Mind vs Flexible Mind: The Hidden Shift That Can Rewrite Your Destiny | Acharya Upendra Ji<small>YouTube · 6:22</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: "We Are Just Like This"</a></li><li><a href="#en-s2">1. Medha Knows: Destiny Can Be Rewritten</a></li><li><a href="#en-s3">2. Durmedha: "No One Has Ever Changed"</a></li><li><a href="#en-s4">3. One Room, Two Points of View</a></li><li><a href="#en-s5">4. "Have You Lived Their Life?"</a></li><li><a href="#en-s6">5. One Goal, Many Natures</a></li><li><a href="#en-s7">6. See God in All, but Treat on Merit</a></li><li><a href="#en-s8">7. Be Ganapati, Not a Flatterer</a></li><li><a href="#en-s9">Summary: Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
