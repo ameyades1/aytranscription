@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>जानता हूँ, पर करता नहीं — जब ज्ञान काम न आए | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — जानता हूँ, पर करता नहीं — जब ज्ञान काम न आए">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="जानता हूँ, पर करता नहीं — जब ज्ञान काम न आए | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>जानता हूँ, पर करता नहीं — जब ज्ञान काम न आए</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · १० मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../knowledge_work_for_you_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=Jjev58uqjlk" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: ज्ञान होने पर भी हम क्यों चूकते हैं?</h2><p>हम में से बहुत लोग जानते हैं कि क्या सही है और क्या गलत। हमने ग्रंथ पढ़े हैं, प्रवचन सुने हैं, गुरु के पास भी गए हैं। फिर भी जीवन में वही गलतियाँ दोहराते रहते हैं। ऐसा क्यों होता है? इस छोटे-से प्रवचन में आचार्य उपेंद्र जी श्रीमद्भगवद्गीता के तीसरे अध्याय के दो श्लोकों के सहारे इसी प्रश्न को खोलते हैं — और महाभारत के पात्रों में हमारे ही मन, बुद्धि और विकारों का चित्र दिखाते हैं।</p><h2 id="hi-s2">सभी प्राणी स्वभाव के परवश</h2><p>आचार्य जी श्लोक के पहले शब्द से ही शुरू करते हैं — "प्राणी" का अर्थ क्या है:</p><blockquote><p>"प्राणी मतलब समझना क्या? अरे, कुत्ता-बिल्ली के बारे में बात नहीं कर रहे। जिसके अंदर प्राण है, वह प्राणी है। तो हम भी प्राणी हैं। पशु नहीं लिखा है, प्राणी लिखा है।"</p></blockquote><blockquote class="verse"><p><strong>सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि।</strong><br><strong>प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति॥</strong><br>अर्थात् सभी प्राणी प्रकृति को प्राप्त होते हैं, अर्थात् अपने स्वभाव के परवश हुए कर्म करते हैं। ज्ञानवान् भी अपनी प्रकृति के अनुसार चेष्टा करता है; फिर इसमें किसी का हठ क्या करेगा?<br>— श्रीमद्भगवद्गीता ३.३३</p></blockquote><p>"स्वभाव" शब्द को आचार्य जी दो हिस्सों में तोड़कर समझाते हैं:</p><blockquote><p>"स्व मतलब मैं स्वयं, भाव मतलब आपके emotions। तो मन की कुछ बात हो रही है। अपने मन के वश होते हुए, अपने स्वभाव के परवश हुए कर्म करते हैं।"</p></blockquote><p>यह कोई अनोखी बात नहीं — हम रोज़ इसे देखते हैं:</p><blockquote><p>"बोलते हैं ना, पाँच उँगलियाँ same नहीं हैं। अलग-अलग तरीके से लोग बात करते हैं, अलग-अलग behave करते हैं, अलग-अलग गुणों से काम करते हैं। तो सब लोग अपने-अपने स्वभाव के परवश हुए कर्म करते हैं। इसमें तो कोई बड़ी बात नहीं है।"</p></blockquote><h2 id="hi-s3">ज्ञान पाप करने से नहीं रोकता</h2><p>श्लोक की असली चोट उसके दूसरे भाग में है — <em>ज्ञानवान् भी</em> अपनी प्रकृति के अनुसार ही चलता है। आचार्य जी स्पष्ट करते हैं कि यहाँ किस ज्ञान की बात है:</p><blockquote><p>"अब ये तत्त्वज्ञान नहीं हुआ है, वो तो अठारहवें अध्याय में होगा। ये अभी normal — किताबें पढ़ीं, बहुत किताबें पढ़ीं, शास्त्र पढ़े, मंत्र पढ़े, जितनी सब साधना करनी थी वो सब कर ली, ज्ञानी भी बन गया, पंडित जी बन गया।"</p></blockquote><p><em>तत्त्वज्ञान</em> — सत्य का अनुभवजन्य ज्ञान; केवल पढ़ा-सुना ज्ञान नहीं।</p><p>ऐसा व्यक्ति भी अपनी प्रकृति के अनुसार ही चेष्टा करता है:</p><blockquote><p>"He also works according to — जैसी original destiny थी, वैसी उसकी प्रकृति।"</p></blockquote><p>और इस पूरे श्लोक का सार आचार्य जी एक सीधे वाक्य में रख देते हैं:</p><blockquote><p>"उसको in simple words बोला है: <strong>ज्ञान पाप करने से नहीं रोकेगा। ज्ञान पाप करने से नहीं रोकता है।</strong>"</p></blockquote><h2 id="hi-s4">कृष्ण ने पहले दुर्योधन को समझाया था</h2><p>इस सत्य को आचार्य जी महाभारत की एक घटना से जोड़ते हैं:</p><blockquote><p>"तो दुर्योधन को कृष्ण ने पहले गीता बताई थी, मालूम है आपको? अर्जुन को बाद में बताई थी। पहले कृष्ण ने दुर्योधन को बताने का try किया था, धृतराष्ट्र को पहले बताने का try किया था, मालूम है? वो समझे नहीं।"</p></blockquote><p>इसके पीछे एक नियम है:</p><blockquote><p>"तो हमेशा नियम होता है — <strong>बुरे व्यक्ति को पहले ऐसा शास्त्र सिखाना चाहिए, ताकि वो बुराई पहले करेगा ही नहीं।</strong> अगर उसने वो किया ही नहीं, तो युद्ध होगा ही नहीं।"</p></blockquote><p>पर ऐसा हुआ नहीं:</p><blockquote><p>"लेकिन बुरा आदमी तो बुरा है, वो रुकेगा नहीं — और रुका नहीं।"</p></blockquote><p>इसलिए फिर शिक्षा अच्छे व्यक्ति के लिए आवश्यक हो जाती है। आचार्य जी बताते हैं कि गीता केवल सहन करना नहीं सिखाती:</p><blockquote><p>"इसलिए अच्छे आदमी को भी सीखना चाहिए कि मैं कभी उसका पलटवार करूँ। तो मुझे सिर्फ सहन करना पड़ेगा? तो सहन करना दूसरे अध्याय में बोला था। उसके बाद वो सिर्फ 'सहन करो' नहीं बोलता है — <strong>कुछ तो counter करना पड़ेगा।</strong>"</p></blockquote><h2 id="hi-s5">"ज्ञान मत दे": दुर्योधन की असली समस्या</h2><p>जब कृष्ण समझाने गए, तो उत्तर क्या मिला? आचार्य जी इसे आज की भाषा में रखते हैं:</p><blockquote><p>"उन्होंने इतना कहा था कि 'मुझे ज्ञान मत दे।' जैसे college के लड़के आजकल बोलते हैं ना — आप जब कुछ सिखाने जाते हो — 'ज्ञान मत दे, we have enough knowledge।'"</p></blockquote><blockquote><p>"खास करके शहरों में तो बच्चे इसी तरह बोलते हैं। I don't know, गाँव तक कभी वही भाषा होगी — 'ज्ञान मत दो मुझे, I know।'"</p></blockquote><p>और सच में, दुर्योधन के पास ज्ञान की कमी नहीं थी:</p><blockquote><p>"तो वैसे दुर्योधन के पास ज्ञान नहीं होगा क्या? वो तो गुरुकुल में गया था, same — अर्जुन के गुरुकुल में गया होगा, same।"</p></blockquote><p>उसकी समस्या कुछ और ही थी, और उसने स्वयं यह स्वीकार किया:</p><blockquote><p>"दुर्योधन ने बोला था, 'क्या सही है, क्या गलत है, मुझे भी समझता है। मेरा कुछ और problem है।' वो बोलता है, '<strong>धर्म तो मैं जानता हूँ, पर उसे करने की इच्छा नहीं होती। और अधर्म भी मैं जानता हूँ क्या है, पर उसे छोड़ नहीं सकता मैं।</strong> इसके लिए तेरे पास कुछ इलाज है तो बताओ।'"</p></blockquote><p>दुर्योधन का यही भाव परंपरा में एक प्रसिद्ध श्लोक के रूप में मिलता है:</p><blockquote class="verse"><p><strong>जानामि धर्मं न च मे प्रवृत्तिः।</strong><br><strong>जानाम्यधर्मं न च मे निवृत्तिः॥</strong><br>अर्थात् मैं धर्म को जानता हूँ, पर उसमें मेरी प्रवृत्ति नहीं है; मैं अधर्म को जानता हूँ, पर उससे मेरी निवृत्ति नहीं है।<br>— पाण्डव गीता (प्रपन्न गीता)</p></blockquote><p>और आचार्य जी इसे सीधे हम पर लौटा देते हैं:</p><blockquote><p>"तो इसका problem समझ में आ गया। <strong>यही problem हमारा है — हमारे अंदर भी एक दुर्योधन, धृतराष्ट्र छुपा हुआ है।</strong>"</p></blockquote><h2 id="hi-s6">हमारे भीतर का महाभारत</h2><p>यहाँ से आचार्य जी महाभारत के पात्रों को बाहर के व्यक्ति नहीं, भीतर की शक्तियों के प्रतीक के रूप में खोलते हैं।</p><p><strong>धृतराष्ट्र — अंधा मन</strong></p><blockquote><p>"तो धृतराष्ट्र is basically — वो अंधा है ना — तो अपने मन का प्रतीक है। It is our mind, अपना मन। Mind is actually blind, मतलब वो माया में अटकता है। अंधा है, ज्ञानी नहीं है।"</p></blockquote><p><strong>गांधारी — बुद्धि जिसने स्वयं आँखें बाँध लीं</strong></p><blockquote><p>"उसकी शादी किसके साथ हुई थी? गांधारी। गांधारी के पास तो आँखें थीं कि नहीं थीं? हाँ। वो बुद्धि का प्रतीक है।"</p></blockquote><p>बुद्धि का काम था मन को मार्ग दिखाना, पर उसने उलटा किया:</p><blockquote><p>"बुद्धि is supposed to be higher; उसे उसको रास्ता दिखाना चाहिए था। अंधे की पत्नी — पतिव्रता पत्नी अगर होती, तो पट्टी लगानी चाहिए थी कि उसे उल्टा guide करना चाहिए था पूरे जीवन भर?"</p></blockquote><blockquote><p>"तो <strong>अपनी बुद्धि becomes blind, वो भी अंधी हो जाती है जानबूझ के, जब आप पूरे मन के अधीन होके, स्वभाव के अधीन होके काम करते हैं।</strong>"</p></blockquote><p><strong>कौरव — सौ विकार</strong></p><p>अंधे मन और आँखें बाँध चुकी बुद्धि की संतान क्या होगी? आचार्य जी गणित से समझाते हैं:</p><blockquote><p>"और उसका परिणाम होगा कौरव, मतलब सौ। तो अपनी दस इंद्रियाँ — total पाँच कर्मेंद्रियाँ और पाँच ज्ञानेंद्रियाँ, पाँच-पाँच दस — हर एक के दस विकार बोलें, तो दस गुणा दस सौ। <strong>सौ विकार।</strong>"</p></blockquote><p><em>कर्मेंद्रियाँ</em> — कर्म करने वाली पाँच इंद्रियाँ (वाणी, हाथ, पैर, उपस्थ, गुदा); <em>ज्ञानेंद्रियाँ</em> — जानने वाली पाँच इंद्रियाँ (आँख, कान, नाक, जीभ, त्वचा)।</p><h2 id="hi-s7">दुर्योधन और दुःशासन: नाम में छिपा अर्थ</h2><p>कौरवों में सबसे प्रमुख दो नामों का अर्थ भी आचार्य जी खोलते हैं:</p><blockquote><p>"तो जैसे दुर्योधन — जो धन से दूर रहता है। धन से दूर मतलब पैसे वाला धन नहीं — दैवी संपत्ति। <strong>दया, क्षमा, प्रेम — that's called दैवी संपत्ति।</strong> उससे बहुत दूर रहने वाला व्यक्ति दुर्योधन।"</p></blockquote><blockquote><p>"दुःशासन — शासन जो ठीक से नहीं कर सकता।"</p></blockquote><p>और फिर निर्णायक बात:</p><blockquote><p>"ये are all not persons outside; <strong>वो qualities हैं, अपने अंदर एक-एक।</strong>"</p></blockquote><p>यही वह कारण है जिससे अधिकांश लोगों के जीवन में समस्याएँ आती हैं:</p><blockquote><p>"बहुत से लोगों के problem आने का यही कारण है: <strong>they know knowledge, लेकिन करने की इच्छा नहीं होती है।</strong> गुरु के पास जाकर भी, जो सही है वो करते नहीं।"</p></blockquote><h2 id="hi-s8">समाधान: राग और द्वेष के वश में न हों</h2><p>तो क्या उपाय है? आचार्य जी कहते हैं कि समाधान उसी श्लोक के ठीक आगे है:</p><blockquote><p>"तो इसका solution भगवद्गीता में आगे देख लेना — उसी श्लोक के आगे, verse 34 में बोलता है, जो दुर्योधन नहीं समझ सका, धृतराष्ट्र नहीं समझ सका मोह में, पर अर्जुन ने समझ लिया।"</p></blockquote><blockquote class="verse"><p><strong>इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ।</strong><br><strong>तयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ॥</strong><br>अर्थात् इंद्रिय-इंद्रिय के अर्थ में, अर्थात् प्रत्येक इंद्रिय के विषय में, राग और द्वेष छिपे हुए स्थित हैं। मनुष्य को उन दोनों के वश में नहीं होना चाहिए, क्योंकि वे दोनों ही इसके कल्याण-मार्ग में विघ्न करने वाले महान शत्रु हैं।<br>— श्रीमद्भगवद्गीता ३.३४</p></blockquote><p>"इंद्रिय के विषय" को आचार्य जी व्यावहारिक रूप देते हैं:</p><blockquote><p>"इंद्रिय मतलब अपना पूरा शरीर, sense organs। प्रत्येक इंद्रिय के विषय में मतलब whatever we interact with the world — जिसका connection अपना हो रहा है, जिसके साथ हो रहा है: वस्तु, व्यक्ति, स्थान — उसमें राग और द्वेष छिपे होते हैं।"</p></blockquote><p>और राग-द्वेष का अर्थ:</p><blockquote><p>"राग-द्वेष का मतलब <strong>likes-dislikes, पसंद-नापसंद।</strong> हर एक को — यह मुझे खाना पसंद है, तो यह नहीं पसंद है। इस type की शादी करनी है — तो यह स्त्री मुझे पसंद है, तो यह नहीं है।"</p></blockquote><blockquote><p>"तो likes and dislikes हर एक के अलग-अलग होंगे कि नहीं? हर एक व्यक्ति के likes and dislikes अलग होंगे।"</p></blockquote><p>गीता का निर्देश है कि इन दोनों के वश में न आएँ:</p><blockquote><p>"<strong>Just because you like something, इसलिए नहीं करना होता है; just तुमको नहीं पसंद, इसलिए नहीं करना — ऐसा नहीं है।</strong>"</p></blockquote><h2 id="hi-s9">श्रेय और प्रेय</h2><p>तो पसंद-नापसंद से नहीं, तो किस आधार पर कर्म करें? आचार्य जी उत्तर देते हैं:</p><blockquote><p>"तो करना क्या चाहिए फिर? पूरी आगे भगवद्गीता में क्या बोला होगा? <strong>जो गुरु बोलता है — what is right and what is wrong।</strong>"</p></blockquote><p>इसी को शास्त्र <em>श्रेय</em> और <em>प्रेय</em> कहते हैं:</p><blockquote><p>"श्रेय मतलब जो श्रेष्ठ कार्य है, जो गुरु ने बताया वह कार्य। प्रेय मतलब मुझे जो प्रिय लगता है।"</p></blockquote><blockquote><p>"तो 'मुझे लगता है' इसलिए करते नहीं बैठना है। <strong>शास्त्र ही मुझे प्रिय लगना चाहिए।</strong>"</p></blockquote><p>यही दुर्योधन की समस्या का इलाज है — जब श्रेय ही प्रेय बन जाए, तब जाना हुआ धर्म करने की इच्छा भी जाग जाती है।</p><h2 id="hi-s10">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>सभी प्राणी अपने स्वभाव के परवश</strong> होकर कर्म करते हैं — स्व (मैं) और भाव (emotions); अर्थात् मन के वश होकर।</div></li><li><span class="num">२</span><div>पढ़ा-सुना ज्ञान पर्याप्त नहीं — <strong>ज्ञान पाप करने से नहीं रोकता</strong>; ज्ञानवान् भी अपनी प्रकृति के अनुसार ही चलता है।</div></li><li><span class="num">३</span><div>कृष्ण ने पहले दुर्योधन और धृतराष्ट्र को समझाने का प्रयास किया था; बुरा व्यक्ति नहीं रुका, इसलिए अच्छे व्यक्ति को केवल सहना नहीं, <strong>counter करना भी सीखना</strong> पड़ता है।</div></li><li><span class="num">४</span><div>दुर्योधन की समस्या अज्ञान नहीं थी — <strong>"धर्म जानता हूँ पर करने की इच्छा नहीं, अधर्म जानता हूँ पर छोड़ नहीं सकता।"</strong> यही समस्या हमारी भी है।</div></li><li><span class="num">५</span><div><strong>धृतराष्ट्र अंधा मन है, गांधारी वह बुद्धि</strong> है जो मन के अधीन होकर जानबूझकर अंधी हो जाती है, और <strong>सौ कौरव</strong> दस इंद्रियों के सौ विकार हैं।</div></li><li><span class="num">६</span><div><strong>दुर्योधन</strong> वह है जो दया, क्षमा, प्रेम जैसी दैवी संपत्ति से दूर है; <strong>दुःशासन</strong> वह जो ठीक से शासन नहीं कर सकता — ये बाहर के व्यक्ति नहीं, <strong>भीतर के गुण</strong> हैं।</div></li><li><span class="num">७</span><div>हर इंद्रिय के विषय में <strong>राग-द्वेष (पसंद-नापसंद)</strong> छिपे हैं; वे कल्याण-मार्ग के महान शत्रु हैं, उनके वश में नहीं होना चाहिए।</div></li><li><span class="num">८</span><div>कर्म का आधार <strong>श्रेय</strong> (गुरु द्वारा बताया श्रेष्ठ कार्य) हो, <strong>प्रेय</strong> (जो मुझे प्रिय लगे) नहीं — <strong>शास्त्र ही मुझे प्रिय लगना चाहिए।</strong></div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=Jjev58uqjlk" target="_blank" rel="noopener"><img src="assets/Jjev58uqjlk.jpg" alt="Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You<small>YouTube · 7:21</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: ज्ञान होने पर भी हम क्यों चूकते हैं?</a></li><li><a href="#hi-s2">सभी प्राणी स्वभाव के परवश</a></li><li><a href="#hi-s3">ज्ञान पाप करने से नहीं रोकता</a></li><li><a href="#hi-s4">कृष्ण ने पहले दुर्योधन को समझाया था</a></li><li><a href="#hi-s5">"ज्ञान मत दे": दुर्योधन की असली समस्या</a></li><li><a href="#hi-s6">हमारे भीतर का महाभारत</a></li><li><a href="#hi-s7">दुर्योधन और दुःशासन: नाम में छिपा अर्थ</a></li><li><a href="#hi-s8">समाधान: राग और द्वेष के वश में न हों</a></li><li><a href="#hi-s9">श्रेय और प्रेय</a></li><li><a href="#hi-s10">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="I Know, Yet I Don&#x27;t Do — When Knowledge Doesn&#x27;t Work | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>I Know, Yet I Don&#x27;t Do — When Knowledge Doesn&#x27;t Work</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 10 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../knowledge_work_for_you_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=Jjev58uqjlk" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Why Do We Falter Even When We Know?</h2><p>Many of us know what is right and what is wrong. We have read scriptures, listened to discourses, even gone to a Guru. And yet we keep repeating the same mistakes in life. Why does this happen? In this short discourse, Acharya Upendra Ji opens up this very question with the help of two verses from the third chapter of the Shrimad Bhagavad Gita — and in the characters of the Mahabharata he shows us a picture of our own mind, intellect and inner distortions.</p><h2 id="en-s2">All Beings Are Driven by Their Nature</h2><p>Acharya Ji begins with the very first word of the verse — what does "prani" (living being) mean:</p><blockquote><p>"What should we understand by prani? Arre, we are not talking about dogs and cats. One who has prana within is a prani. So we too are prani. It doesn't say animal, it says living being."</p></blockquote><blockquote class="verse"><p><strong>sadṛśaṁ ceṣṭate svasyāḥ prakṛter jñānavān api</strong><br><strong>prakṛtiṁ yānti bhūtāni nigrahaḥ kiṁ kariṣyati</strong><br>"All beings follow their nature, that is, they act under the sway of their own disposition. Even the man of knowledge acts according to his own nature; what then can anyone's forcing do?"<br>— Bhagavad Gita 3.33</p></blockquote><p>Acharya Ji explains the word "svabhav" (nature) by breaking it into two parts:</p><blockquote><p>"<em>Sva</em> means I myself, <em>bhav</em> means your emotions. So it is something about the mind. Being under the sway of one's own mind, under the sway of one's own nature, one performs actions."</p></blockquote><p>This is nothing unusual — we see it every day:</p><blockquote><p>"We say, don't we, the five fingers are not the same. People talk in different ways, behave differently, work with different qualities. So everyone acts under the sway of their own nature. There is nothing big in this."</p></blockquote><h2 id="en-s3">Knowledge Does Not Stop One from Sinning</h2><p>The real sting of the verse lies in its second part — <em>even the man of knowledge</em> goes by his own nature. Acharya Ji clarifies what kind of knowledge is meant here:</p><blockquote><p>"Now this is not tattvagyan; that will come in the eighteenth chapter. This is just normal — read books, read many books, read scriptures, read mantras, did all the sadhana there was to do, even became a gyani, became Pandit Ji."</p></blockquote><p><em>Tattvagyan</em> — knowledge of the truth born of direct experience; not merely knowledge that has been read or heard.</p><p>Even such a person acts according to his own nature:</p><blockquote><p>"He also works according to — whatever his original destiny was, such is his nature."</p></blockquote><p>And Acharya Ji puts the essence of the whole verse in one direct sentence:</p><blockquote><p>"It is said to him in simple words: <strong>knowledge will not stop you from sinning. Knowledge does not stop one from sinning.</strong>"</p></blockquote><h2 id="en-s4">Krishna First Tried to Teach Duryodhan</h2><p>Acharya Ji connects this truth to an episode from the Mahabharata:</p><blockquote><p>"Krishna had first told the Gita to Duryodhan, do you know? He told it to Arjun later. First Krishna had tried to tell Duryodhan, had tried to tell Dhritarashtra first, do you know? They did not understand."</p></blockquote><p>There is a rule behind this:</p><blockquote><p>"There is always a rule — <strong>a bad person should be taught such a scripture first, so that he does not commit the evil in the first place.</strong> If he never did it, there would be no war at all."</p></blockquote><p>But that is not what happened:</p><blockquote><p>"But a bad man is bad, he will not stop — and he did not stop."</p></blockquote><p>So the teaching then becomes necessary for the good person. Acharya Ji explains that the Gita does not teach only endurance:</p><blockquote><p>"That is why the good man also has to learn that I may sometimes have to strike back at him. So will I only have to endure? Enduring was spoken of in the second chapter. After that it doesn't just say 'endure' — <strong>you have to counter something.</strong>"</p></blockquote><h2 id="en-s5">"Don't Give Me Gyan": Duryodhan's Real Problem</h2><p>When Krishna went to explain, what answer did he get? Acharya Ji puts it in today's language:</p><blockquote><p>"They said just this much: 'Don't give me gyan.' Just like college boys say these days — when you go to teach them something — 'Don't give gyan, we have enough knowledge.'"</p></blockquote><blockquote><p>"Especially in cities, children talk this way. I don't know, maybe the same language will reach the villages too — 'Don't give me gyan, I know.'"</p></blockquote><p>And truly, Duryodhan did not lack knowledge:</p><blockquote><p>"So didn't Duryodhan have knowledge? He went to the gurukul, the same — he must have gone to Arjun's gurukul, the same."</p></blockquote><p>His problem was something else entirely, and he admitted it himself:</p><blockquote><p>"Duryodhan had said, 'What is right and what is wrong, I understand that too. My problem is something else.' He says, '<strong>Dharma I do know, but I have no desire to do it. And adharma too I know, what it is, but I cannot give it up.</strong> If you have some cure for this, then tell me.'"</p></blockquote><p>This sentiment of Duryodhan is found in the tradition as a well-known verse:</p><blockquote class="verse"><p><strong>jānāmi dharmaṁ na ca me pravṛttiḥ</strong><br><strong>jānāmy adharmaṁ na ca me nivṛttiḥ</strong><br>"I know dharma, yet I have no inclination towards it; I know adharma, yet I cannot turn away from it."<br>— Pandava Gita (Prapanna Gita)</p></blockquote><p>And Acharya Ji turns this straight back on us:</p><blockquote><p>"So his problem is understood. <strong>This is our problem too — within us too a Duryodhan, a Dhritarashtra lies hidden.</strong>"</p></blockquote><h2 id="en-s6">The Mahabharata Within Us</h2><p>From here Acharya Ji opens up the characters of the Mahabharata not as people outside, but as symbols of forces within.</p><p><strong>Dhritarashtra — the Blind Mind</strong></p><blockquote><p>"So Dhritarashtra is basically — he is blind, isn't he — so he is the symbol of our mind. It is our mind. Mind is actually blind, meaning it gets stuck in maya. It is blind, it is not wise."</p></blockquote><p><strong>Gandhari — the Intellect That Blindfolded Itself</strong></p><blockquote><p>"Whom was he married to? Gandhari. Did Gandhari have eyes or not? Yes. She is the symbol of the intellect."</p></blockquote><p>The intellect's job was to show the mind the way, but it did the opposite:</p><blockquote><p>"The intellect is supposed to be higher; it should have shown him the way. The wife of a blind man — if she were a truly devoted wife, should she have tied on a blindfold, or should she rather have guided him her whole life?"</p></blockquote><blockquote><p>"So <strong>our intellect becomes blind, it too goes blind knowingly, when you act completely subservient to the mind, subservient to your nature.</strong>"</p></blockquote><p><strong>The Kauravas — a Hundred Distortions</strong></p><p>What will be the offspring of a blind mind and an intellect that has bound its own eyes? Acharya Ji explains with arithmetic:</p><blockquote><p>"And its result will be the Kauravas, meaning a hundred. So our ten senses — in total five karmendriyas and five gyanendriyas, five and five make ten — say ten distortions for each, so ten times ten is a hundred. <strong>A hundred distortions.</strong>"</p></blockquote><p><em>Karmendriyas</em> — the five organs of action (speech, hands, feet, organ of procreation, organ of excretion); <em>gyanendriyas</em> — the five organs of knowledge (eyes, ears, nose, tongue, skin).</p><h2 id="en-s7">Duryodhan and Dushasan: The Meaning Hidden in the Names</h2><p>Acharya Ji also opens up the meaning of the two most prominent names among the Kauravas:</p><blockquote><p>"So like Duryodhan — one who stays far from wealth. Far from wealth does not mean the wealth of money — divine wealth. <strong>Compassion, forgiveness, love — that's called daivi sampatti, divine wealth.</strong> The person who stays very far from it is Duryodhan."</p></blockquote><blockquote><p>"Dushasan — one who cannot govern properly."</p></blockquote><p>And then the decisive point:</p><blockquote><p>"These are all not persons outside; <strong>they are qualities, each one within us.</strong>"</p></blockquote><p>This is the very reason problems come into most people's lives:</p><blockquote><p>"This is the reason problems come to so many people: <strong>they know knowledge, but there is no desire to do it.</strong> Even after going to the Guru, they do not do what is right."</p></blockquote><h2 id="en-s8">The Solution: Do Not Come Under the Sway of Attraction and Aversion</h2><p>So what is the remedy? Acharya Ji says the solution lies right after the same verse:</p><blockquote><p>"So see the solution further on in the Bhagavad Gita — right after the same verse, verse 34 says what Duryodhan could not understand, what Dhritarashtra could not understand in his delusion, but Arjun understood."</p></blockquote><blockquote class="verse"><p><strong>indriyasyendriyasyārthe rāga-dveṣau vyavasthitau</strong><br><strong>tayor na vaśam āgacchet tau hy asya paripanthinau</strong><br>"In the objects of each and every sense, attraction and aversion lie hidden. One should not come under the sway of these two, for both of them are great enemies obstructing one's path to well-being."<br>— Bhagavad Gita 3.34</p></blockquote><p>Acharya Ji gives "the objects of the senses" a practical form:</p><blockquote><p>"Indriya means our whole body, the sense organs. In the objects of each sense means whatever we interact with the world — whatever we are connected with, whatever it is happening with: object, person, place — in it attraction and aversion lie hidden."</p></blockquote><p>And the meaning of raga and dvesha:</p><blockquote><p>"Raga-dvesha means <strong>likes and dislikes, what we like and what we don't.</strong> For everyone — I like this food, I don't like that. I want to marry this type — I like this woman, not that one."</p></blockquote><blockquote><p>"So won't everyone's likes and dislikes be different? Every person's likes and dislikes will be different."</p></blockquote><p>The Gita's instruction is not to come under the sway of these two:</p><blockquote><p>"<strong>Just because you like something, that is not why you do it; just because you don't like it, that is not why you don't do it — it's not like that.</strong>"</p></blockquote><h2 id="en-s9">Shreya and Preya</h2><p>So if not by likes and dislikes, then on what basis should we act? Acharya Ji answers:</p><blockquote><p>"So what should one do then? What would the whole of the rest of the Bhagavad Gita have said? <strong>What the Guru says — what is right and what is wrong.</strong>"</p></blockquote><p>This is what the scriptures call <em>shreya</em> and <em>preya</em>:</p><blockquote><p>"Shreya means the excellent action, the action the Guru has told. Preya means what feels dear to me."</p></blockquote><blockquote><p>"So I must not sit doing things just because 'I feel like it.' <strong>The scriptures themselves should become dear to me.</strong>"</p></blockquote><p>This is the cure for Duryodhan's problem — when shreya itself becomes preya, the desire to do the dharma we already know also awakens.</p><h2 id="en-s10">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>All beings act under the sway of their own nature</strong> — <em>sva</em> (I) and <em>bhav</em> (emotions); that is, under the sway of the mind.</div></li><li><span class="num">2</span><div>Knowledge that is read or heard is not enough — <strong>knowledge does not stop one from sinning</strong>; even the man of knowledge goes by his own nature.</div></li><li><span class="num">3</span><div>Krishna first tried to make Duryodhan and Dhritarashtra understand; the bad man did not stop, so the good man has to learn not only to endure but <strong>to counter as well</strong>.</div></li><li><span class="num">4</span><div>Duryodhan's problem was not ignorance — <strong>"I know dharma but have no desire to do it; I know adharma but cannot give it up."</strong> This is our problem too.</div></li><li><span class="num">5</span><div><strong>Dhritarashtra is the blind mind, Gandhari is the intellect</strong> that, subservient to the mind, knowingly goes blind, and the <strong>hundred Kauravas</strong> are the hundred distortions of the ten senses.</div></li><li><span class="num">6</span><div><strong>Duryodhan</strong> is one who is far from divine wealth such as compassion, forgiveness and love; <strong>Dushasan</strong> is one who cannot govern properly — these are not people outside but <strong>qualities within</strong>.</div></li><li><span class="num">7</span><div>In the object of every sense <strong>raga-dvesha (likes and dislikes)</strong> lie hidden; they are great enemies on the path to well-being, and one should not come under their sway.</div></li><li><span class="num">8</span><div>The basis of action should be <strong>shreya</strong> (the excellent action told by the Guru), not <strong>preya</strong> (what feels dear to me) — <strong>the scriptures themselves should become dear to me.</strong></div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=Jjev58uqjlk" target="_blank" rel="noopener"><img src="assets/Jjev58uqjlk.jpg" alt="Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You<small>YouTube · 7:21</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Why Do We Falter Even When We Know?</a></li><li><a href="#en-s2">All Beings Are Driven by Their Nature</a></li><li><a href="#en-s3">Knowledge Does Not Stop One from Sinning</a></li><li><a href="#en-s4">Krishna First Tried to Teach Duryodhan</a></li><li><a href="#en-s5">"Don't Give Me Gyan": Duryodhan's Real Problem</a></li><li><a href="#en-s6">The Mahabharata Within Us</a></li><li><a href="#en-s7">Duryodhan and Dushasan: The Meaning Hidden in the Names</a></li><li><a href="#en-s8">The Solution: Do Not Come Under the Sway of Attraction and Aversion</a></li><li><a href="#en-s9">Shreya and Preya</a></li><li><a href="#en-s10">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
