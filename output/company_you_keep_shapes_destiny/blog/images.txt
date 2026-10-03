@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | "It is the company you keep" | "It Is the Company You Keep" | A calm village gathering beside a busy, distracting city street
