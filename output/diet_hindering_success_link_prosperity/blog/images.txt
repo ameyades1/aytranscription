@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | धन और भोजन के अलग-अलग मेल | Different Combinations of Money and Food | A wholesome thali beside a hand signing a payment document

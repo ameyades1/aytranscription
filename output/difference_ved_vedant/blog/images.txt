@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | वेद यानी जानना, पर क्या जानना? | Veda Means Knowing, but Knowing What? | A person walking toward a vast horizon along a path of glowing script
