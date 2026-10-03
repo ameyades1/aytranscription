@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>रोगी से मुक्ति तक — शारीरिक और मानसिक शक्ति का आध्यात्मिक क्रम | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — रोगी से मुक्ति तक — शारीरिक और मानसिक शक्ति का आध्यात्मिक क्रम">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="रोगी से मुक्ति तक — शारीरिक और मानसिक शक्ति का आध्यात्मिक क्रम | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>रोगी से मुक्ति तक — शारीरिक और मानसिक शक्ति का आध्यात्मिक क्रम</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · १३ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../physical_mental_strength_spiritual_path_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=ryX-m980D3M" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: शरीर को नकार कर मोक्ष नहीं</h2><p>आध्यात्मिक मार्ग पर चलने वाले कई साधक मान लेते हैं कि शरीर की चिंता करना माया में उलझना है, और "मैं यह शरीर नहीं हूँ" कह देना ही मुक्ति का द्वार है। इस प्रवचन में आचार्य उपेंद्र जी इस धारणा को सीधे चुनौती देते हैं। वे एक स्पष्ट क्रम सामने रखते हैं — <strong>रोगी से निरोगी, निरोगी से भोगी, भोगी से सिद्धि, और सिद्धि से मुक्ति</strong> — और समझाते हैं कि इस यात्रा की पहली सीढ़ी स्वस्थ शरीर और स्वस्थ मन है।</p><h2 id="hi-s2">स्वस्थ शरीर में स्वस्थ मन</h2><p>आचार्य जी एक प्रसिद्ध कहावत से शुरुआत करते हैं:</p><blockquote><p>"Strong mind होगा तो किसमें जाएगा? In a strong body। बोलते हैं, 'a sound mind in a sound body।' तो शरीर ही ठीक नहीं है तो मन भी ठीक नहीं रह सकता।"</p></blockquote><p>और वे तुरंत जोड़ते हैं कि यह संबंध दोनों ओर से चलता है:</p><blockquote><p>"Reverse is also true — अगर मन मेरा ठीक नहीं है तो शरीर ठीक नहीं रहेगा।"</p></blockquote><p>फिर वे बताते हैं कि शरीर से भागना नहीं, बल्कि उसे पुष्ट करते हुए उससे ऊपर उठना है:</p><blockquote><p>"लेकिन मैंने जन्म लिया है शरीर करके। शास्त्र बोलता है, आत्मा से होते-होते मैं अभी शरीर तक आ गया हूँ। अब शरीर पुष्ट करते हुए मुझे इसी से बार-बार, धीरे-धीरे बाहर निकलना होगा। <strong>समाधि के समय रोगी अवस्था नहीं चलेगी।</strong>"</p></blockquote><p><em>समाधि</em> ध्यान की वह गहनतम अवस्था है जिसमें साधक का मन पूरी तरह स्थिर होकर अपने स्वरूप में लीन हो जाता है।</p><h2 id="hi-s3">चार सीढ़ियों का क्रम</h2><p>इस पूरे प्रवचन का सार एक ही वाक्य में है, जिसे आचार्य जी बार-बार दोहराते हैं:</p><blockquote><p>"<strong>रोगी से निरोगी, निरोगी से भोगी, भोगी से सिद्धि, सिद्धि से मुक्ति।</strong> पहले मुझे निरोगी होना होगा। रोगी अवस्था में किसी को मोक्ष नहीं मिलता।"</p></blockquote><p>वे यह भी स्पष्ट करते हैं कि सीधे छलाँग लगाने की सोच काम नहीं करती:</p><blockquote><p>"Directly अगर सोचते हो — तो पिछले जन्मों के अपने पापों से, अभी के अपने पापों से अगर रोगी हुए हो, तो मोक्ष नहीं होगा।"</p></blockquote><h2 id="hi-s4">पहली सीढ़ी: रोगी से निरोगी</h2><p><strong>"मैं यह शरीर नहीं हूँ" — पीड़ा में कहकर दिखाओ</strong></p><p>आचार्य जी उस धारणा पर प्रश्न उठाते हैं कि केवल एक विचार दोहराने से मोक्ष हो जाता है:</p><blockquote><p>"'मैं यह शरीर नहीं हूँ, यह शरीर मेरा है' — लोग सोचते हैं इस कल्पना से ही मोक्ष हो जाता है। लेकिन जिसको हर पीड़ा हो रही है — नाखून भी टूट गया होगा — तो दर्द जब होता है ना, तब बोल के दिखाना, 'मैं यह शरीर नहीं हूँ, यह शरीर मेरा है।'"</p></blockquote><p>और फिर वे बात को और गंभीर पीड़ा तक ले जाते हैं:</p><blockquote><p>"यह तो नाखून का बोला। Actually पेट में, lungs में, liver में कैंसर — हर दिन, हर क्षण पीड़ा हो रही है। हार्ट में आ गया, heart attack। अब बोल के दिखाओ, 'मैं यह शरीर नहीं हूँ।' तब तो you get associated with it। पहले सच्ची बताओ।"</p></blockquote><p>यहाँ उनका संकेत स्पष्ट है: जब शरीर पीड़ा में होता है, तब मन अपने-आप उसी से जुड़ जाता है, और शरीर से अलग होने का भाव केवल शब्द बनकर रह जाता है।</p><blockquote><p>"शास्त्र बोलता है, <strong>सर्वप्रथम मुझे निरोगी होना चाहिए</strong> — रोगी से निरोगी।"</p></blockquote><h2 id="hi-s5">दूसरी सीढ़ी: निरोगी से भोगी</h2><p><strong>रोगी व्यक्ति क्या भोग भोगेगा?</strong></p><p>आचार्य जी समझाते हैं कि सुख-सुविधाओं का भोग भी स्वास्थ्य पर ही टिका है:</p><blockquote><p>"निरोगी व्यक्ति ही अच्छा भोगी हो सकता है। बराबर है? अब रोगी व्यक्ति क्या भोग भोगेगा, सोच के देखो।"</p></blockquote><p>वे जीवन के कुछ परिचित दृश्य सामने रखते हैं:</p><blockquote><p>"श्री विद्या भी फलित कर दी, साधना कर दी — ठीक है, तो बड़े-बड़े घर, बंगले, सब आपने लिए, लेकिन आप घूम नहीं सकते, तो चलेगा? पूरा जीवन भर आपने कष्ट किया, कष्ट किया, ताकि बाद में आपको बहुत सारे व्यंजन खाने को मिलेंगे। अब आ गया डायबिटीज़। डॉक्टर बोलते हैं, मीठा नहीं खाने का।"</p></blockquote><blockquote><p>"मीठा नहीं खाने का करते-करते अभी आएगा — नमक नहीं खाने का, मतलब हार्ट का प्रॉब्लम आना चालू होगा। ऐसा ही कुछ प्रवास होता है कि नहीं?"</p></blockquote><p>और थोड़े हास्य के साथ:</p><blockquote><p>"आपने मेहनत करके इतना सोफ़ा बनाया, सब कुछ किया। अब डॉक्टर बोलते हैं — इसका अहंकार बहुत हो गया था — रीढ़ की हड्डी का प्रॉब्लम है, अब flat surface पर सोना है, सोफ़ा-वोफ़ा नहीं। <strong>तो स्वस्थ नहीं, तो भोग भी नहीं मिलता।</strong>"</p></blockquote><p><strong>मन का स्वास्थ्य भी उतना ही ज़रूरी</strong></p><p>भोग केवल शरीर के रोग से ही नहीं रुकता; मन की अशांति भी उसे छीन लेती है:</p><blockquote><p>"आप अगर घर पर बैठे हो, बहुत बड़ा बंगला लिया है, और चैन से आप उसमें बैठ नहीं सकते — मन की व्याधियाँ हैं, मनस्ताप है — तो क्या आपने उस बंगले का भी उपभोग सच्ची में लिया? नहीं।"</p></blockquote><blockquote><p>"तो कहने के लिए तो है सब कुछ, लेकिन वास्तव में जब तक तुम्हारा <strong>शरीर और मन स्वस्थ नहीं, तब तक उपभोग भी असली नहीं मिलेगा।</strong> उपभोग सामग्री सब है, but असली उपभोग नहीं है... असली उपभोग कुछ भी नहीं है, ज़ीरो है।"</p></blockquote><p><em>मनस्ताप</em> का अर्थ है मन की पीड़ा या मानसिक संताप।</p><h2 id="hi-s6">तीसरी सीढ़ी: भोगी से सिद्धि</h2><p><strong>भोग अंतिम लक्ष्य नहीं</strong></p><p>भोग तक पहुँचने के बाद आचार्य जी अगला प्रश्न उठाते हैं:</p><blockquote><p>"चलो, कोई भोगी तो बन गया। तो भोगी ही मेरा अंतिम जीवन हो सकता है क्या? सब जीवन के भोग तो भोग लिए। Now I need to not be a normal person। <strong>मेरा स्वरूप अनंत है, तो मेरे अंदर अनंत powers हैं।</strong> तो I should become that powerful man।"</p></blockquote><p><strong>पहले शुद्ध मन, फिर विशाल सोच</strong></p><p>पर यह शक्ति की चाह किस आधार पर खड़ी हो, यह भी वे बताते हैं:</p><blockquote><p>"पहला होता है <strong>शुद्ध भावना, निर्मल मन, निश्चल मन, विशाल मन।</strong> तो उसके बाद I should think of becoming big, great, महान।"</p></blockquote><blockquote><p>"हॉस्पिटल खोलना है तो एक छोटा-सा क्यों? Chain of hospitals खोलता हूँ। प्रवचन अगर मैं करता हूँ तो चार लोगों को क्यों? पूरे विश्व तक पहुँचे। यह अपना स्वभाव है। Try to become a powerful man।"</p></blockquote><p><strong>सिद्धियाँ क्या हैं?</strong></p><blockquote><p>"तो कुछ सिद्ध बन जाओ, सिद्धियाँ प्राप्त करो। सिद्धियाँ मतलब some powers। वो physical powers भी हो सकती हैं — शक्तिशाली, सशक्त बन जाना। And दूसरा क्या होता है? आध्यात्मिक शक्तिशाली बन जाना। <strong>अब सिद्धियों का misuse मत करना।</strong>"</p></blockquote><p>वे याद दिलाते हैं कि हमारी परंपरा में सिद्धियाँ कोई अनजानी चीज़ नहीं हैं:</p><blockquote><p>"'अष्ट सिद्धि नव निधि के दाता' आप हनुमान जी को भी बोलते हो कि नहीं? हर भगवान ने कुछ न कुछ चमत्कार किया — मतलब सिद्धियाँ उनके पास थीं कि नहीं थीं?"</p></blockquote><blockquote><p>"चाहे वाक् सिद्धि हो, संकल्प सिद्धि हो, अणिमा सिद्धि, लघिमा सिद्धि, गरिमा सिद्धि — बहुत सारी सिद्धियाँ होती हैं। कोई बड़ा होने की, छोटा होने की; परकाया प्रवेश वाली सिद्धियाँ — there are infinite... वो हवा में उड़ना, levitation उसको बोलते हैं। तो then you should try to be the powerful man या woman।"</p></blockquote><p>इन शब्दों का संक्षिप्त अर्थ:</p><ul><li><strong>वाक् सिद्धि</strong> — जो कहा जाए वह सत्य हो जाए</li><li><strong>संकल्प सिद्धि</strong> — संकल्प मात्र से कार्य सिद्ध होना</li><li><strong>अणिमा</strong> — अत्यंत सूक्ष्म हो जाना; <strong>लघिमा</strong> — अत्यंत हल्का हो जाना; <strong>गरिमा</strong> — अत्यंत भारी हो जाना</li><li><strong>परकाया प्रवेश</strong> — अपनी चेतना को दूसरे शरीर में प्रवेश कराना</li></ul><p><strong>शक्ति के बिना नेतृत्व नहीं — और यहाँ भी निरोगिता पहले</strong></p><p>सिद्धि तक पहुँचने के लिए भी पिछली सीढ़ी अनिवार्य है:</p><blockquote><p>"पर वो निरोगी होगा तो ही वो इतना शक्तिशाली भी बन पाएगा कि नहीं? आप सोचो, लीडर है लेकिन उसके पास कुछ ताकत नहीं, कुछ नहीं, आवाज़ नहीं, कमज़ोर, रोज़ दवा ले बैठा है — तो चलेगा क्या?"</p></blockquote><p><strong>आत्मरक्षा और प्रतिकार शक्ति</strong></p><p>आचार्य जी शक्ति को आत्मरक्षा की आवश्यकता से भी जोड़ते हैं:</p><blockquote><p>"आध्यात्मिक भी है तो सिर्फ प्रवचन क्यों? तो दूसरा आदमी उसका black magic कर देगा। वो protection चाहिए कि नहीं? तो he should have lots of siddhis।"</p></blockquote><blockquote><p>"अपने ऋषि-मुनि कैसे थे? <strong>शस्त्र नहीं था, लेकिन एक श्राप दे दिया — तो सामने आने को डरते थे ना।</strong> तो you should have your power, self-protection।"</p></blockquote><p>शक्ति का रूप कोई भी हो सकता है — शरीर, अध्यात्म या बुद्धि:</p><blockquote><p>"Strong होना पड़ेगा। Physically powerful बनो, या तो spiritually powerful बनो, या कुछ तो बुद्धि से बहुत powerful — ताकि दूसरा आपको आपके क्षेत्र में टक्कर न दे।"</p></blockquote><p>और इस शक्ति का उद्देश्य वे स्पष्ट कर देते हैं:</p><blockquote><p>"महाकाली की शक्ति आपके पास आ जाती है, भैरवी शक्ति — you should be able to terrorize others also। <strong>कभी terrorist बनने के लिए नहीं</strong> — दूसरा आपका गैर-फ़ायदा भी न ले कभी। तो प्रतिकार शक्ति तो चाहिए कि नहीं? तो 'सिद्ध पुरुष बन जाओ' करके बोलते हैं — become very powerful in your क्षेत्र।"</p></blockquote><h2 id="hi-s7">सिद्धियों का जाल</h2><p>सिद्धि मिलने के बाद एक बड़ा ख़तरा सामने आता है, जिससे आचार्य जी सावधान करते हैं:</p><blockquote><p>"अब सिद्धियाँ आने के बाद आप लोगों का काम करने लग सकते हो — and जिसमें healing सिद्धि वगैरह होती है — and लोग अपनी दुकान डालना चालू करते हैं। वहाँ से वापस एक बार वैश्य भाव करके लोगों के रोग उनके ऊपर आ जाते हैं, and अब यह भी एक रोगी होता है।"</p></blockquote><blockquote><p>"<strong>But this is not acceptable</strong>, क्योंकि उसने सिर्फ सिद्धियों का गलत इस्तेमाल कर दिया।"</p></blockquote><p>यहाँ <em>वैश्य भाव</em> का अर्थ है व्यापारी की वृत्ति — सिद्धि को लेन-देन और कमाई का साधन बना लेना।</p><h2 id="hi-s8">चौथी सीढ़ी: सिद्धि से मुक्ति</h2><p><strong>पहले मोक्ष, फिर सिद्धि का प्रयोग</strong></p><p>इसलिए आचार्य जी क्रम पर ज़ोर देते हैं:</p><blockquote><p>"<strong>सिद्धि से ऊपर मुक्ति होती है।</strong> तो मुक्त अवस्था में पहले जाना चाहिए — मोक्ष स्थिति पहले प्राप्त करने को बोला है। सिद्धियों का इस्तेमाल तुरंत नहीं चालू करना है, अन्यथा वो सिद्धियाँ आपका पतन करेंगी।"</p></blockquote><blockquote><p>"बोला है, <strong>सिद्धियाँ विष्ठा के समान हैं — त्यागने लायक।</strong> लेकिन वही आप जीवन्मुक्त जब बनते हो, तो इसका सही इस्तेमाल कर सकते हो।"</p></blockquote><p><em>जीवन्मुक्त</em> वह है जो शरीर में रहते हुए ही मुक्त हो चुका है।</p><p><strong>अवतारों और गुरुओं के चमत्कार</strong></p><blockquote><p>"श्रीकृष्ण ने कई बार इस्तेमाल कर दिया होगा; हाँ, श्रीराम ने इस्तेमाल कर दिया होगा। हर गुरु ने, हर अवतार ने — अपनी सिद्धियाँ हैं कि नहीं हैं, पहले बताओ? ज्ञानेश्वर माउली ने वो दीवार उड़ा के दिखाई थी कि नहीं?"</p></blockquote><blockquote><p>"तो सिद्धियों का इस्तेमाल हो सकता है। हर एक गुरु ने ये चमत्कार वगैरह सब कर दिया। <strong>तो मुक्त होने के बाद यह सब कर सकते हो।</strong> And exchange of energy will prevail।"</p></blockquote><h2 id="hi-s9">मुक्त गुरु का रोग: हलाहल विष</h2><p><strong>गुरु भी रोगी क्यों दिखते हैं?</strong></p><p>यहाँ आचार्य जी एक सूक्ष्म बात समझाते हैं — मुक्त होने के बाद भी रोग आ सकता है, पर उसका स्वरूप अलग होता है:</p><blockquote><p>"तो उस स्थिति में वापस एक बार वह रोगी हो सकता है, पर अब यह जो रोग आया, <strong>वह दूसरे का रोग होगा — उसका अपना रोग नहीं होगा।</strong>"</p></blockquote><blockquote><p>"इसीलिए आपको कैंसर के साथ जाने वाले रामकृष्ण परमहंस भी दिखते हैं, रमण महर्षि दिखते हैं; विवेकानंद जी डायबिटीज़ वाले दिखते हैं, या बाकी सारे गुरु तकलीफ़ वाले दिख जाते हैं। पर वो पहले मुक्त होने के बाद दूसरों का कर्म लेते हैं।"</p></blockquote><blockquote><p>"अब यह रोगी स्थिति से भी वे मोक्ष प्राप्त कर पाएँगे; आप नहीं कर पाओगे। इतना समझ में आ गया? उसका क्रम समझ में आ गया?"</p></blockquote><p><strong>जीवन्मुक्त गुरु ही शिव है</strong></p><blockquote><p>"मुक्त होने के बाद लोगों के कर्म अपने ऊपर लेना — हलाहल विष शुरू होगा। <strong>तभी आप शिवजी बन जाएँगे, क्योंकि जीवन्मुक्त गुरु ही शिव है, शिव ही गुरु है।</strong> अब उसको हलाहल विष लोगों का लेना ही होगा।"</p></blockquote><p><em>हलाहल</em> वह विष है जो समुद्र-मंथन में निकला था और जिसे भगवान शिव ने संसार की रक्षा के लिए स्वयं पी लिया था। आचार्य जी के अनुसार मुक्त गुरु भी इसी प्रकार लोगों के कर्मों का विष अपने ऊपर लेता है।</p><blockquote><p>"अब उसको रोग अगर आते हैं, तो निकाल पाए तो ठीक है; ज़्यादा अगर हो गए तो लेना पड़ेगा — कर्म के अनुसार, उसके प्रारब्ध के अनुसार।"</p></blockquote><p><strong>सामान्य व्यक्ति और सद्गुरु के रोग में अंतर</strong></p><p>अंत में आचार्य जी दोनों अवस्थाओं का अंतर एक जीवंत चित्र से समझाते हैं। सामान्य व्यक्ति:</p><blockquote><p>"पहला वाला छटपटाएगा, छटपटाएगा: 'मेरे को दवाई चाहिए, दवाई चाहिए! दुखता है, दुखता है, कुछ तो करो डॉक्टर साहब, करो!' यहाँ-वहाँ भागेगा — यह रिपोर्ट, वो रिपोर्ट।"</p></blockquote><p>और सद्गुरु:</p><blockquote><p>"वो सद्गुरु अगर होगा, तो ऐसा नहीं कि वो दवा नहीं ले पाएगा या नहीं करेगा, पर उसको पता है किसकी वजह से आया — <strong>consciously उसने हलाहल विष लिया हुआ है</strong> — तो उतना रोएगा नहीं। वो मिल गया तो ठीक है, नहीं मिला तो भी ठीक है। Understand करता है कि प्रारब्ध है, कुछ समय के लिए है।"</p></blockquote><blockquote><p>"इसलिए ये दो अवस्थाओं में फ़र्क समझ में आता है।"</p></blockquote><h2 id="hi-s10">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>स्वस्थ शरीर और स्वस्थ मन एक-दूसरे पर टिके हैं।</strong> "A sound mind in a sound body" — और इसका उल्टा भी उतना ही सत्य है।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>आध्यात्मिक यात्रा का क्रम है: रोगी से निरोगी, निरोगी से भोगी, भोगी से सिद्धि, सिद्धि से मुक्ति।</strong> किसी सीढ़ी को छोड़ कर सीधे मोक्ष तक नहीं पहुँचा जा सकता।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>रोगी अवस्था में मोक्ष नहीं मिलता।</strong> पीड़ा में मन शरीर से ही जुड़ जाता है; "मैं यह शरीर नहीं हूँ" केवल कल्पना बनकर रह जाता है।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>स्वास्थ्य के बिना भोग भी असली नहीं।</strong> बंगला, व्यंजन, सोफ़ा — सब होते हुए भी रोगी तन और अशांत मन उनका सच्चा उपभोग नहीं कर पाते।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>भोग अंतिम लक्ष्य नहीं।</strong> हमारा स्वरूप अनंत है; शुद्ध, निर्मल, निश्चल और विशाल मन के साथ शक्तिशाली बनना हमारा स्वभाव है।</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>शक्ति आत्मरक्षा और प्रतिकार के लिए है, दूसरों को डराने के लिए नहीं।</strong> शक्ति शारीरिक, आध्यात्मिक या बौद्धिक — किसी भी रूप में हो सकती है।</div></li></ol><ol class="takeaways"><li><span class="num">७</span><div><strong>सिद्धियों का दुरुपयोग पतन लाता है।</strong> उन्हें व्यापार बनाने से दूसरों के रोग अपने ऊपर आ जाते हैं; मुक्ति से पहले सिद्धियाँ त्यागने लायक हैं।</div></li></ol><ol class="takeaways"><li><span class="num">८</span><div><strong>मुक्त गुरु का रोग दूसरों के कर्मों का हलाहल है।</strong> जीवन्मुक्त गुरु ही शिव है — वह सचेत होकर लोगों का विष लेता है और प्रारब्ध को शांति से स्वीकार करता है।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=ryX-m980D3M" target="_blank" rel="noopener"><img src="assets/ryX-m980D3M.jpg" alt="Why Physical and Mental Strength Are Vital on the Spiritual Path | Acharya Upendra Ji #Healing" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Physical and Mental Strength Are Vital on the Spiritual Path | Acharya Upendra Ji #Healing<small>YouTube · 9:56</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: शरीर को नकार कर मोक्ष नहीं</a></li><li><a href="#hi-s2">स्वस्थ शरीर में स्वस्थ मन</a></li><li><a href="#hi-s3">चार सीढ़ियों का क्रम</a></li><li><a href="#hi-s4">पहली सीढ़ी: रोगी से निरोगी</a></li><li><a href="#hi-s5">दूसरी सीढ़ी: निरोगी से भोगी</a></li><li><a href="#hi-s6">तीसरी सीढ़ी: भोगी से सिद्धि</a></li><li><a href="#hi-s7">सिद्धियों का जाल</a></li><li><a href="#hi-s8">चौथी सीढ़ी: सिद्धि से मुक्ति</a></li><li><a href="#hi-s9">मुक्त गुरु का रोग: हलाहल विष</a></li><li><a href="#hi-s10">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="From Illness to Liberation — The Spiritual Ladder of Physical and Mental Strength | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>From Illness to Liberation — The Spiritual Ladder of Physical and Mental Strength</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 12 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../physical_mental_strength_spiritual_path_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=ryX-m980D3M" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: No Liberation by Denying the Body</h2><p>Many seekers on the spiritual path assume that caring for the body means getting entangled in maya, and that simply saying "I am not this body" is the doorway to liberation. In this discourse Acharya Upendra Ji challenges this belief directly. He lays out a clear sequence — <strong>from diseased to disease-free, from disease-free to enjoyer, from enjoyer to siddhi, and from siddhi to liberation</strong> — and explains that the first step of this journey is a healthy body and a healthy mind.</p><h2 id="en-s2">A Sound Mind in a Sound Body</h2><p>Acharya Ji begins with a well-known saying:</p><blockquote><p>"If there is a strong mind, where will it reside? In a strong body. They say, 'a sound mind in a sound body.' So if the body itself is not well, the mind cannot stay well either."</p></blockquote><p>And he immediately adds that this relationship runs both ways:</p><blockquote><p>"Reverse is also true — if my mind is not well, the body will not stay well."</p></blockquote><p>Then he explains that the body is not to be escaped, but strengthened and then risen above:</p><blockquote><p>"But I have taken birth as a body. The scripture says that coming down from the Self, I have now arrived at the body. Now, while nourishing the body, I will have to step out of it again and again, slowly. <strong>At the time of samadhi, a diseased state will not do.</strong>"</p></blockquote><p><em>Samadhi</em> is the deepest state of meditation, in which the seeker's mind becomes completely still and absorbed in its own true nature.</p><h2 id="en-s3">The Four Steps</h2><p>The essence of this whole discourse lies in a single sentence, which Acharya Ji repeats again and again:</p><blockquote><p>"<strong>From diseased to disease-free, from disease-free to enjoyer, from enjoyer to siddhi, from siddhi to liberation.</strong> First I have to become disease-free. No one attains moksha in a diseased state."</p></blockquote><p>He also makes clear that thinking of leaping straight to the end does not work:</p><blockquote><p>"If you think of going directly — if you have become ill from the sins of your past lives, or from your present sins, then moksha will not happen."</p></blockquote><h2 id="en-s4">The First Step: From Diseased to Disease-Free</h2><p><strong>"I Am Not This Body" — Say It in Pain</strong></p><p>Acharya Ji questions the belief that merely repeating a thought brings liberation:</p><blockquote><p>"'I am not this body, this body is mine' — people think that by this notion alone moksha happens. But someone in pain of every kind — even if just a nail has broken — when the pain comes, then say it and show me: 'I am not this body, this body is mine.'"</p></blockquote><p>And then he takes it to far more serious suffering:</p><blockquote><p>"And that was just about a nail. Actually, cancer in the stomach, in the lungs, in the liver — there is pain every day, every moment. It has reached the heart, a heart attack. Now say it and show me: 'I am not this body.' Then you get associated with it. First tell me honestly."</p></blockquote><p>His point here is clear: when the body is in pain, the mind attaches itself to it automatically, and the sense of being separate from the body remains mere words.</p><blockquote><p>"The scripture says, <strong>first of all I must become disease-free</strong> — from diseased to disease-free."</p></blockquote><h2 id="en-s5">The Second Step: From Disease-Free to Enjoyer</h2><p><strong>What Can a Sick Person Enjoy?</strong></p><p>Acharya Ji explains that even the enjoyment of comforts rests on health:</p><blockquote><p>"Only a disease-free person can be a good enjoyer. Right? Now think about it — what enjoyment will a sick person enjoy?"</p></blockquote><p>He places some familiar scenes of life before us:</p><blockquote><p>"You made Shri Vidya bear fruit, you did your sadhana — fine, so you acquired big houses, bungalows, everything, but you cannot move about — will that do? All your life you toiled and toiled, so that later you would get lots of delicacies to eat. Now diabetes has come. The doctors say: no eating sweets."</p></blockquote><blockquote><p>"And while it is 'no sweets, no sweets,' next will come — no salt, meaning heart problems will start. Isn't this how the journey goes?"</p></blockquote><p>And with a touch of humour:</p><blockquote><p>"You worked hard and made such a sofa, did everything. Now the doctors say — its ego had grown too big — there is a spine problem, now you must sleep on a flat surface, no sofa or anything. <strong>So if you are not healthy, you do not get enjoyment either.</strong>"</p></blockquote><p><strong>The Health of the Mind Matters Just as Much</strong></p><p>Enjoyment is not lost only to bodily illness; turmoil of the mind takes it away too:</p><blockquote><p>"If you are sitting at home, you have bought a very big bungalow, and you cannot sit in it in peace — there are ailments of the mind, there is anguish of the mind — then did you truly enjoy that bungalow? No."</p></blockquote><blockquote><p>"So everything is there just for the sake of saying so, but in reality, as long as your <strong>body and mind are not healthy, you will not get real enjoyment either.</strong> All the means of enjoyment are there, but there is no real enjoyment... Real enjoyment is nothing at all, zero."</p></blockquote><p><em>Manastaap</em> means suffering of the mind, or mental anguish.</p><h2 id="en-s6">The Third Step: From Enjoyer to Siddhi</h2><p><strong>Enjoyment Is Not the Final Goal</strong></p><p>Having reached enjoyment, Acharya Ji raises the next question:</p><blockquote><p>"All right, someone did become an enjoyer. So can enjoyment be the final purpose of my life? All of life's pleasures have been enjoyed. Now I need to not be a normal person. <strong>My true nature is infinite, so there are infinite powers within me.</strong> So I should become that powerful man."</p></blockquote><p><strong>First a Pure Mind, Then Vast Thinking</strong></p><p>But he also tells us on what foundation this desire for power should stand:</p><blockquote><p>"First comes <strong>pure feeling, a clear mind, a steady mind, a vast mind.</strong> After that I should think of becoming big, great, magnificent."</p></blockquote><blockquote><p>"If I have to open a hospital, why a small one? I open a chain of hospitals. If I give discourses, why to four people? Let it reach the whole world. This is our nature. Try to become a powerful man."</p></blockquote><p><strong>What Are Siddhis?</strong></p><blockquote><p>"So become something of a siddha; attain siddhis. Siddhis means some powers. They can be physical powers too — becoming strong and capable. And what is the other kind? Becoming spiritually powerful. <strong>Now, do not misuse the siddhis.</strong>"</p></blockquote><p>He reminds us that siddhis are nothing unfamiliar in our tradition:</p><blockquote><p>"Don't you also call Hanuman Ji 'the giver of the eight siddhis and nine treasures'? Every form of God performed some miracle or other — meaning, did they have siddhis or not?"</p></blockquote><blockquote><p>"Whether it is vak siddhi, sankalpa siddhi, anima siddhi, laghima siddhi, garima siddhi — there are a great many siddhis. Some for becoming large, for becoming small; siddhis of entering another's body — there are infinite... flying in the air, they call it levitation. So then you should try to be the powerful man or woman."</p></blockquote><p>A brief meaning of these terms:</p><ul><li><strong>Vak siddhi</strong> — whatever one says comes true</li><li><strong>Sankalpa siddhi</strong> — accomplishing a task by resolve alone</li><li><strong>Anima</strong> — becoming extremely minute; <strong>Laghima</strong> — becoming extremely light; <strong>Garima</strong> — becoming extremely heavy</li><li><strong>Parakaya pravesh</strong> — causing one's consciousness to enter another body</li></ul><p><strong>No Leadership Without Strength — and Here Too, Health Comes First</strong></p><p>Even to reach siddhi, the previous step is indispensable:</p><blockquote><p>"But only if he is disease-free will he be able to become that powerful, won't he? Just think — he is a leader, but he has no strength, nothing, no voice, weak, sitting there taking medicine every day — will that do?"</p></blockquote><p><strong>Self-Protection and the Power to Resist</strong></p><p>Acharya Ji also connects power with the need for self-protection:</p><blockquote><p>"If he is spiritual, why only discourses? Then another person will do black magic on him. Is that protection needed or not? So he should have lots of siddhis."</p></blockquote><blockquote><p>"What were our rishis and munis like? <strong>They had no weapons, but if they gave one curse — people were afraid to come before them.</strong> So you should have your power, self-protection."</p></blockquote><p>Power can take any form — of the body, of the spirit or of the intellect:</p><blockquote><p>"You will have to be strong. Become physically powerful, or become spiritually powerful, or at least become very powerful in intellect — so that no one can take you on in your field."</p></blockquote><p>And he makes the purpose of this power clear:</p><blockquote><p>"The power of Mahakali comes to you, Bhairavi shakti — you should be able to terrorize others also. <strong>Never in order to become a terrorist</strong> — but so that no one ever takes undue advantage of you either. So the power to resist is needed, isn't it? That is why they say 'become a siddha purusha' — become very powerful in your field."</p></blockquote><h2 id="en-s7">The Trap of Siddhis</h2><p>Once siddhi is attained, a great danger appears, and Acharya Ji warns us about it:</p><blockquote><p>"Now, after siddhis come, you may start doing people's work — and where there is healing siddhi and so on — and people start setting up their shop. From there, once again, through a merchant's attitude, people's diseases come onto them, and now this one too becomes diseased."</p></blockquote><blockquote><p>"<strong>But this is not acceptable</strong>, because he simply misused the siddhis."</p></blockquote><p>Here <em>vaishya bhaav</em> means a merchant's mentality — turning siddhi into a means of trade and earning.</p><h2 id="en-s8">The Fourth Step: From Siddhi to Liberation</h2><p><strong>First Moksha, Then the Use of Siddhis</strong></p><p>That is why Acharya Ji stresses the order:</p><blockquote><p>"<strong>Above siddhi is liberation.</strong> So one should first enter the liberated state — we are told to first attain the state of moksha. You are not to start using siddhis right away; otherwise those siddhis will cause your downfall."</p></blockquote><blockquote><p>"It is said that <strong>siddhis are like excrement — fit to be discarded.</strong> But when you become jivanmukta, you can use them rightly."</p></blockquote><p>A <em>jivanmukta</em> is one who has become liberated while still living in the body.</p><p><strong>The Miracles of Avatars and Gurus</strong></p><blockquote><p>"Shri Krishna must have used them many times; yes, Shri Ram must have used them. Every guru, every avatar — do they have their siddhis or not, tell me first? Didn't Dnyaneshwar Mauli make that wall fly?"</p></blockquote><blockquote><p>"So siddhis can be used. Every single guru performed these miracles and so on. <strong>So after becoming liberated you can do all this.</strong> And exchange of energy will prevail."</p></blockquote><h2 id="en-s9">The Illness of a Liberated Guru: The Halahala Poison</h2><p><strong>Why Do Gurus Also Appear Ill?</strong></p><p>Here Acharya Ji explains a subtle point — illness can come even after liberation, but its nature is different:</p><blockquote><p>"So in that state he may once again become ill, but now the illness that has come <strong>will be someone else's illness — not his own.</strong>"</p></blockquote><blockquote><p>"That is why you see Ramakrishna Paramahamsa, who left with cancer; you see Ramana Maharshi; you see Vivekananda Ji with diabetes, or all the other gurus appear with suffering. But having first become liberated, they take on the karma of others."</p></blockquote><blockquote><p>"Now even from this diseased state they will be able to attain moksha; you will not be able to. Have you understood this much? Have you understood its order?"</p></blockquote><p><strong>The Liberated Guru Is Shiva</strong></p><blockquote><p>"After becoming liberated, taking people's karma upon yourself — the halahala poison will begin. <strong>Only then will you become Shiva Ji, because the jivanmukta guru is Shiva, and Shiva is the guru.</strong> Now he will have to take on people's halahala poison."</p></blockquote><p><em>Halahala</em> is the poison that emerged during the churning of the ocean, which Lord Shiva drank himself to protect the world. According to Acharya Ji, the liberated guru likewise takes the poison of people's karma upon himself.</p><blockquote><p>"Now if illnesses come to him, if he can remove them, fine; if they become too many, he will have to take them — according to karma, according to his prarabdha."</p></blockquote><p><strong>The Difference Between an Ordinary Person's Illness and a Sadguru's</strong></p><p>Finally, Acharya Ji explains the difference between the two states with a vivid picture. The ordinary person:</p><blockquote><p>"The first one will writhe and writhe: 'I need medicine, I need medicine! It hurts, it hurts, do something, doctor sahab, do something!' He will run here and there — this report, that report."</p></blockquote><p>And the Sadguru:</p><blockquote><p>"If he is a Sadguru, it is not that he cannot take medicine or will not, but he knows because of whom it has come — <strong>consciously he has taken the halahala poison</strong> — so he will not cry as much. If it is found, fine; if not, that is fine too. He understands that it is prarabdha, that it is for some time."</p></blockquote><blockquote><p>"That is how the difference between these two states is understood."</p></blockquote><h2 id="en-s10">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>A healthy body and a healthy mind rest on each other.</strong> "A sound mind in a sound body" — and the reverse is just as true.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>The order of the spiritual journey is: from diseased to disease-free, from disease-free to enjoyer, from enjoyer to siddhi, from siddhi to liberation.</strong> One cannot reach moksha directly by skipping a step.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>Moksha is not attained in a diseased state.</strong> In pain the mind binds itself to the body; "I am not this body" remains a mere notion.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>Without health, even enjoyment is not real.</strong> Bungalow, delicacies, sofa — even with all of these, a sick body and a restless mind cannot truly enjoy them.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>Enjoyment is not the final goal.</strong> Our true nature is infinite; to become powerful, with a pure, clear, steady and vast mind, is our nature.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>Power is for self-protection and resistance, not for frightening others.</strong> Power can take any form — physical, spiritual or intellectual.</div></li></ol><ol class="takeaways"><li><span class="num">7</span><div><strong>Misusing siddhis brings downfall.</strong> Turning them into a business brings others' diseases upon oneself; before liberation, siddhis are fit to be discarded.</div></li></ol><ol class="takeaways"><li><span class="num">8</span><div><strong>The illness of a liberated guru is the halahala of others' karma.</strong> The jivanmukta guru is Shiva — he consciously takes on people's poison and peacefully accepts prarabdha.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=ryX-m980D3M" target="_blank" rel="noopener"><img src="assets/ryX-m980D3M.jpg" alt="Why Physical and Mental Strength Are Vital on the Spiritual Path | Acharya Upendra Ji #Healing" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Physical and Mental Strength Are Vital on the Spiritual Path | Acharya Upendra Ji #Healing<small>YouTube · 9:56</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: No Liberation by Denying the Body</a></li><li><a href="#en-s2">A Sound Mind in a Sound Body</a></li><li><a href="#en-s3">The Four Steps</a></li><li><a href="#en-s4">The First Step: From Diseased to Disease-Free</a></li><li><a href="#en-s5">The Second Step: From Disease-Free to Enjoyer</a></li><li><a href="#en-s6">The Third Step: From Enjoyer to Siddhi</a></li><li><a href="#en-s7">The Trap of Siddhis</a></li><li><a href="#en-s8">The Fourth Step: From Siddhi to Liberation</a></li><li><a href="#en-s9">The Illness of a Liberated Guru: The Halahala Poison</a></li><li><a href="#en-s10">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
