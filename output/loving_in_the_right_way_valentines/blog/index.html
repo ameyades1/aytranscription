@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>प्रेम को कृति में दिखाओ — सही ढंग से प्रेम करना | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — प्रेम को कृति में दिखाओ — सही ढंग से प्रेम करना">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="प्रेम को कृति में दिखाओ — सही ढंग से प्रेम करना | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>प्रेम को कृति में दिखाओ — सही ढंग से प्रेम करना</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../loving_in_the_right_way_valentines_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=jnlSGQ1NeuU" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: केवल शब्दों से आगे</h2><p>Valentine's Day आते ही "I love you" के messages और cards की बाढ़ आ जाती है। पर क्या प्रेम इतने में पूरा हो जाता है? इस छोटे-से प्रवचन-अंश में आचार्य उपेंद्र जी प्रेम का एक सीधा, व्यावहारिक सूत्र देते हैं: <strong>प्रेम को केवल मन और वाणी में नहीं, कृति — यानी कर्म — में दिखाना होता है।</strong></p><p><em>सरस्वती</em> — ज्ञान, विद्या और वाणी की देवी। यहाँ आचार्य जी "सरस्वती" शब्द का प्रयोग समझ, विचार और वाणी की शक्ति के अर्थ में करते हैं।</p><h2 id="hi-s2">प्रेम करने तक सरस्वती, उसके बाद नहीं</h2><p>प्रेम करने से पहले समझ और विवेक ज़रूरी हैं। पर प्रेम हो जाने के बाद भी अगर हर बात को तौलते-परखते रहें, तो वही बुद्धि पतन का कारण बन जाती है:</p><blockquote><p>"तो <strong>प्रेम करने तक सरस्वती की ज़रूरत है।</strong> प्रेम हो जाने के बाद अगर सरस्वती का इस्तेमाल लगता है, तो <strong>it will lead to downfall.</strong>"</p></blockquote><p>आचार्य जी यह स्पष्ट करते हैं कि इसका अर्थ ज्ञान को छोड़ देना नहीं है — समस्या उसके <em>अति</em> प्रयोग में है:</p><blockquote><p>"इसका मतलब यह नहीं है कि नया update लेना नहीं है, नया ज्ञान लेना नहीं है। <strong>उसका अति इस्तेमाल करोगे, वहाँ तो problem होगा।</strong>"</p></blockquote><blockquote><p>"एक बार सब कुछ समझ लो — प्रेम क्या होता है, किसके ऊपर प्रेम करना था — <strong>प्रेम हो गया।</strong>"</p></blockquote><h2 id="hi-s3">"मैं प्रेम करती हूँ, पर चाय नहीं बनाऊँगी"</h2><p>प्रेम हो जाने के बाद उसे निभाना पड़ता है। आचार्य जी पति-पत्नी के रोज़मर्रा के उदाहरण से समझाते हैं कि बिना सेवा के प्रेम का दावा खोखला है:</p><blockquote><p>"प्रेम में gift लाना होता है। अब gift कौन-सा लाना है, वो सब नई विद्या — सब ठीक है। <strong>लेकिन gift लाना होता है।</strong> ये सब तो चाहिए कि नहीं चाहिए?"</p></blockquote><blockquote><p>"'मैं तुझसे प्रेम करती हूँ, लेकिन चाय बना के नहीं दूँगी।' वो भी बोलता है कि 'मैं सब कुछ, लेकिन घर का सब काम नहीं करूँगा।' <strong>तो यह प्रेम है?</strong>"</p></blockquote><h2 id="hi-s4">वाणी नहीं, कृति</h2><p>यही इस प्रवचन का केंद्रीय सूत्र है। मन में प्रेम होना और शब्दों में उसे कहना — दोनों अधूरे हैं, जब तक वह कर्म में न उतरे:</p><blockquote><p>"<strong>Love has to be expressed — not only in heart, not only in words.</strong>"</p></blockquote><blockquote><p>"वो सरस्वती का काम है — 'I love you', ये-वो सब message, card लाना — that is वाणी वाला, सब हो गया। <strong>कृति में दिखाओ।</strong>"</p></blockquote><h2 id="hi-s5">श्रीकृष्ण का उदाहरण: अपनी सामर्थ्य के अनुसार देना</h2><p>प्रेम को कर्म में दिखाने का आदर्श आचार्य जी श्रीकृष्ण में दिखाते हैं:</p><blockquote><p>"श्रीकृष्ण ने राधा को कितनी तो भी चीज़ें gift दी थीं। <strong>उसको पूरा वन का वन बना के देता था।</strong> कितना भी उसके लिए बना के — भव्य, दिव्य gift देना।"</p></blockquote><blockquote><p>"'मेरा position द्वारकाधीश का है, तो <strong>मैं उसके अनुसार तेरे को gift देता हूँ।</strong>'"</p></blockquote><p>इसका अर्थ यह नहीं कि बड़े उपहार ही प्रेम हैं। सूत्र है — <em>अपनी सामर्थ्य के अनुसार</em> देना:</p><blockquote><p>"तो बोलते हैं, <strong>गरीब ने भी उसके अनुसार उतना तो देना चाहिए</strong> — कभी तो अंगूठी दे, कुछ दे। It should be expressed in that. वो सिर्फ वाणी में तो अच्छी है।"</p></blockquote><h2 id="hi-s6">केवल कंधा देना काफ़ी नहीं</h2><p>भावनात्मक सहारा देना अच्छा है, पर प्रेम वहीं समाप्त नहीं होता:</p><blockquote><p>"फिर आपका इतना ही offer नहीं करने का — कंधा। <strong>उसके साथ actually कुछ तो देना पड़ेगा</strong>, बीच-बीच में dress देना पड़ेगा।"</p></blockquote><p>और यह बात अपनी पत्नी पर भी उतनी ही लागू होती है। "वो तो अपनी है" — यह सोचकर लापरवाह हो जाना प्रेम नहीं है:</p><blockquote><p>"वो अपनी पत्नी हो तो भी — मतलब, दूसरे का देने की बात नहीं कर रहा। 'वो अपना-अपना लेके आएगी' — ऐसा नहीं।"</p></blockquote><blockquote><p>"'क्या, मेरी पत्नी है ना — पैसा दे दिया, तुम जाओ, लेके आओ' — <strong>वो नहीं। Sometimes you have to visit</strong> — मतलब, जो necessary है, जाना चाहिए।"</p></blockquote><p>केवल पैसा थमा देना प्रेम नहीं है; साथ जाना, समय देना — यही प्रेम की कृति है।</p><h2 id="hi-s7">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>प्रेम करने तक सरस्वती की ज़रूरत है</strong> — समझ और विवेक से तय करें कि प्रेम क्या है और किससे करना है।</div></li><li><span class="num">२</span><div>प्रेम हो जाने के बाद भी बुद्धि का <em>अति</em> प्रयोग <strong>downfall</strong> की ओर ले जाता है — पर नया ज्ञान लेना बंद नहीं करना है।</div></li><li><span class="num">३</span><div>सेवा के बिना प्रेम का दावा खोखला है — <strong>"मैं प्रेम करती हूँ, पर चाय नहीं बनाऊँगी" प्रेम नहीं है।</strong></div></li><li><span class="num">४</span><div><strong>Love has to be expressed — not only in heart, not only in words.</strong> Messages और cards वाणी का काम है; प्रेम को <strong>कृति में दिखाओ।</strong></div></li><li><span class="num">५</span><div>श्रीकृष्ण की तरह <strong>अपनी सामर्थ्य के अनुसार</strong> दें — द्वारकाधीश भव्य उपहार दे, तो गरीब भी कभी अंगूठी, कुछ तो दे।</div></li><li><span class="num">६</span><div>केवल कंधा (भावनात्मक सहारा) देना काफ़ी नहीं — <strong>बीच-बीच में कुछ देना भी पड़ेगा।</strong></div></li><li><span class="num">७</span><div>अपनी पत्नी को भी "अपनी है" मानकर अनदेखा न करें — <strong>पैसा थमा देना काफ़ी नहीं, sometimes you have to visit</strong> — साथ जाना, समय देना।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=jnlSGQ1NeuU" target="_blank" rel="noopener"><img src="assets/jnlSGQ1NeuU.jpg" alt="Are You Loving in the Right Way? | Valentine&#x27;s Day Special | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Are You Loving in the Right Way? | Valentine&#x27;s Day Special | Acharya Upendra Ji<small>YouTube · 2:29</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: केवल शब्दों से आगे</a></li><li><a href="#hi-s2">प्रेम करने तक सरस्वती, उसके बाद नहीं</a></li><li><a href="#hi-s3">"मैं प्रेम करती हूँ, पर चाय नहीं बनाऊँगी"</a></li><li><a href="#hi-s4">वाणी नहीं, कृति</a></li><li><a href="#hi-s5">श्रीकृष्ण का उदाहरण: अपनी सामर्थ्य के अनुसार देना</a></li><li><a href="#hi-s6">केवल कंधा देना काफ़ी नहीं</a></li><li><a href="#hi-s7">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Show Love in Action — Loving the Right Way | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Show Love in Action — Loving the Right Way</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 4 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../loving_in_the_right_way_valentines_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=jnlSGQ1NeuU" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Beyond Mere Words</h2><p>As Valentine's Day arrives, there is a flood of "I love you" messages and cards. But is love complete with that alone? In this short excerpt from a discourse, Acharya Upendra Ji gives a simple, practical principle of love: <strong>love has to be shown not only in the heart and in speech, but in kriti — that is, in action.</strong></p><p><em>Saraswati</em> — the goddess of knowledge, learning and speech. Here Acharya Ji uses the word "Saraswati" to mean the power of understanding, thought and speech.</p><h2 id="en-s2">Saraswati Until You Love, Not After</h2><p>Understanding and discernment are needed before one loves. But if, after love has happened, you keep weighing and testing everything, that same intellect becomes the cause of a fall:</p><blockquote><p>"So <strong>Saraswati is needed up to the point of loving.</strong> After love has happened, if Saraswati keeps being used, then <strong>it will lead to downfall.</strong>"</p></blockquote><p>Acharya Ji makes clear that this does not mean giving up knowledge — the problem lies in its <em>excessive</em> use:</p><blockquote><p>"This does not mean that you are not to take a new update, not to take new knowledge. <strong>If you overuse it, that is where the problem will arise.</strong>"</p></blockquote><blockquote><p>"Understand everything once — what love is, whom you were to love — <strong>and love has happened.</strong>"</p></blockquote><h2 id="en-s3">"I Love You, but I Won't Make Tea"</h2><p>Once love has happened, it has to be lived. Acharya Ji explains with an everyday example from husband and wife that a claim of love without service is hollow:</p><blockquote><p>"In love, you have to bring gifts. Now, which gift to bring — all that new learning — all that is fine. <strong>But you have to bring a gift.</strong> Is all this needed or not?"</p></blockquote><blockquote><p>"'I love you, but I won't make you tea.' He too says, 'I'll do everything, but I won't do all the housework.' <strong>So is this love?</strong>"</p></blockquote><h2 id="en-s4">Not Speech, but Action</h2><p>This is the central principle of the discourse. Having love in the heart and saying it in words — both are incomplete until it comes into action:</p><blockquote><p>"<strong>Love has to be expressed — not only in heart, not only in words.</strong>"</p></blockquote><blockquote><p>"That is Saraswati's work — 'I love you', bringing all these messages and cards — that is the speech part, that's done. <strong>Show it in action.</strong>"</p></blockquote><h2 id="en-s5">The Example of Shri Krishna: Giving According to Your Capacity</h2><p>Acharya Ji points to Shri Krishna as the ideal of showing love in action:</p><blockquote><p>"Shri Krishna gave Radha so many things as gifts. <strong>He would create an entire forest for her.</strong> However much he made for her — giving grand, divine gifts."</p></blockquote><blockquote><p>"'My position is that of Dwarkadhish, so <strong>I give you gifts according to that.</strong>'"</p></blockquote><p>This does not mean that only big gifts are love. The principle is to give <em>according to one's own capacity</em>:</p><blockquote><p>"So they say, <strong>even a poor man should give at least that much according to his means</strong> — sometimes a ring, something. It should be expressed in that. Only in speech it is nice."</p></blockquote><h2 id="en-s6">Offering Only a Shoulder Is Not Enough</h2><p>Giving emotional support is good, but love does not end there:</p><blockquote><p>"Then you are not to offer only this much — a shoulder. <strong>Along with it, you actually have to give something</strong>, now and then you will have to give a dress."</p></blockquote><p>And this applies just as much to one's own wife. Becoming careless with the thought "she is my own anyway" is not love:</p><blockquote><p>"Even if she is your own wife — I mean, I'm not talking about giving to someone else. 'She will go and get her own things' — not like that."</p></blockquote><blockquote><p>"'What, she's my wife, isn't she — I gave the money, you go, get it yourself' — <strong>not that. Sometimes you have to visit</strong> — I mean, wherever it is necessary, you should go."</p></blockquote><p>Merely handing over money is not love; going together, giving time — this is love in action.</p><h2 id="en-s7">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Saraswati is needed up to the point of loving</strong> — use understanding and discernment to decide what love is and whom to love.</div></li><li><span class="num">2</span><div>Even after love has happened, <em>excessive</em> use of the intellect leads to <strong>downfall</strong> — but you are not to stop taking new knowledge.</div></li><li><span class="num">3</span><div>A claim of love without service is hollow — <strong>"I love you, but I won't make tea" is not love.</strong></div></li><li><span class="num">4</span><div><strong>Love has to be expressed — not only in heart, not only in words.</strong> Messages and cards are the work of speech; <strong>show love in action.</strong></div></li><li><span class="num">5</span><div>Like Shri Krishna, give <strong>according to your capacity</strong> — if Dwarkadhish gives grand gifts, even a poor man should sometimes give a ring, something.</div></li><li><span class="num">6</span><div>Offering only a shoulder (emotional support) is not enough — <strong>now and then you also have to give something.</strong></div></li><li><span class="num">7</span><div>Do not neglect your own wife thinking "she is my own" — <strong>handing over money is not enough; sometimes you have to visit</strong> — go together, give time.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=jnlSGQ1NeuU" target="_blank" rel="noopener"><img src="assets/jnlSGQ1NeuU.jpg" alt="Are You Loving in the Right Way? | Valentine&#x27;s Day Special | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Are You Loving in the Right Way? | Valentine&#x27;s Day Special | Acharya Upendra Ji<small>YouTube · 2:29</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Beyond Mere Words</a></li><li><a href="#en-s2">Saraswati Until You Love, Not After</a></li><li><a href="#en-s3">"I Love You, but I Won't Make Tea"</a></li><li><a href="#en-s4">Not Speech, but Action</a></li><li><a href="#en-s5">The Example of Shri Krishna: Giving According to Your Capacity</a></li><li><a href="#en-s6">Offering Only a Shoulder Is Not Enough</a></li><li><a href="#en-s7">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
