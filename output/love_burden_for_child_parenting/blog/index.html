@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>प्रेम या बोझ? — राजसिक परवरिश का सच | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — प्रेम या बोझ? — राजसिक परवरिश का सच">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="प्रेम या बोझ? — राजसिक परवरिश का सच | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>प्रेम या बोझ? — राजसिक परवरिश का सच</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../love_burden_for_child_parenting_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=laHKtOVpJcc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: अपने भीतर झाँककर देखें</h2><p>हर माता-पिता अपने बच्चे से प्रेम करते हैं। पर क्या हमारा प्रेम कभी-कभी बच्चे के लिए बोझ बन जाता है? इस छोटे-से प्रवचन में आचार्य उपेंद्र जी <em>राजसिक</em> माताओं की परवरिश का चित्र खींचते हैं — वह परवरिश जो रजोगुण से, यानी इच्छा, महत्त्वाकांक्षा और दिखावे की वृत्ति से चलती है।</p><p><em>रजोगुण</em> — प्रकृति के तीन गुणों (सत्त्व, रज, तम) में से एक; यह कामना, बेचैनी और फल की लालसा से भरी हुई सक्रियता है।</p><p>शुरुआत में ही आचार्य जी स्पष्ट करते हैं कि यह बात किसी एक उम्र की माँ तक सीमित नहीं है, और सुनने वाले से एक आग्रह करते हैं:</p><blockquote><p>"वो तो माता, माता ही रहती है ना — तीस साल, चालीस साल — वो क्या बदलती नहीं है? तो राजसिक वृत्ति से वो कैसा पालन करती है? <strong>आप कहीं तो ऐसा नहीं हैं, वो सब check कर लेना।</strong>"</p></blockquote><p>और "माता" शब्द में पिता भी शामिल हैं:</p><blockquote><p>"माता मतलब उसमें पिता भी आ गया — वो concept समझ में आ गया।"</p></blockquote><h2 id="hi-s2">सिर के ऊपर बैठा दबाव</h2><p>राजसिक माता की पहली पहचान है — बच्चे पर निरंतर दबाव:</p><blockquote><p>"राजसिक माता क्या करेगी? <strong>बच्चों के ऊपर सारा pressure</strong> — ये सब time-table के ऊपर देखो, 'Work hard' वाली photo, inspiration — 'Work hard', जो कुछ भी होगा। उसमें school जाने का है, यह करने का है, वह करने का है।"</p></blockquote><blockquote><p>"Constantly उसके सिर के ऊपर बैठी रहेगी।"</p></blockquote><p>और इस सबके पीछे का असली लक्ष्य बच्चा नहीं, माँ का अपना अहंकार है:</p><blockquote><p>"And aim क्या होगा? <strong>'मेरा बेटा topper है, तो मैं हूँ।'</strong>"</p></blockquote><h2 id="hi-s3">ऊँची अपेक्षाएँ और फल की लालसा</h2><p>रजोगुण का स्वभाव है फल की चाह। आचार्य जी कहते हैं:</p><blockquote><p>"Their expectations are often high — बहुत ही। <strong>उसको कुछ फल चाहिए।</strong> And they may become upset if their children do not meet them."</p></blockquote><p>बच्चे की क्षमता क्या है, इसका विचार किए बिना बस बोझ बढ़ता जाता है:</p><blockquote><p>"बच्चे का उतना सामर्थ्य है, नहीं है, वो कुछ पता नहीं; तो भी classes लगाओ, double लगाओ, triple लगाओ।"</p></blockquote><p>और साथ में चलती है निरंतर तुलना:</p><blockquote><p>"Such mothers often compare their children to others. हमेशा — 'ये exam में गया, अगली बार देखेंगे।' 'इस function में कुछ बोला था, अगले function में हम अलग से कुछ करके दिखाएँगे।'"</p></blockquote><h2 id="hi-s4">अपने अधूरे सपने बच्चे पर थोपना</h2><p>राजसिक माता-पिता अक्सर अपने अधूरे सपने बच्चे के कंधों पर रख देते हैं:</p><blockquote><p>"वो उनका विचार अपने बच्चों के ऊपर थोपेंगे: <strong>'मैं नहीं कर पाया, बेटा, तुझे करना होगा यह सपना पूर्ण।'</strong>"</p></blockquote><blockquote><p>"'अरे, मेरा बचपन का वो सपना था, मेरा बेटा पूरा करेगा!' अभी बेटे के पीछे... <strong>बेटे का passion ही कुछ अलग होगा।</strong> तो ज़बरदस्ती का — अब उसको करना ही होगा।"</p></blockquote><h2 id="hi-s5">कसाई के पास ले जाया जाता बकरा</h2><p>ऐसे में बच्चा किस मन से वह काम करता है? आचार्य जी एक कठोर पर सटीक उपमा देते हैं:</p><blockquote><p>"अब वो बच्चा कितना interest के साथ करेगा? <strong>उसको उसका मरण दिखता है वहाँ पर।</strong>"</p></blockquote><blockquote><p>"कोई बकरा है, या कोई ऐसा प्राणी है, उसको रस्सी से खींच के ले जा रहे हैं... वो butcher बोल रहा है, 'अभी तेरे सिर के ऊपर से मैं थोड़ा चाकू चलाने वाला हूँ।' तो कितने उत्साह के साथ वो जाएगा? <strong>उतने उत्साह के साथ ही यह बच्चे भी सुनते हैं, क्योंकि वो छोटे हैं, कुछ कर नहीं पाते।</strong>"</p></blockquote><h2 id="hi-s6">पैसा और नाम — profession चुनने का एकमात्र कारण</h2><p>राजसिक परवरिश में करियर का चुनाव भी बच्चे की रुचि से नहीं, पैसे और प्रसिद्धि से होता है:</p><blockquote><p>"Such mothers may push their children towards material success or fame, which can lead to <strong>stress and anxiety in children.</strong>"</p></blockquote><blockquote><p>"'बेटा, तुझे पहला ही आना है', या 'तू engineer बन', इसके लिए कि 'यह so-and-so profession में सबसे ज़्यादा पैसा मिलता है।' इसलिए वह उसी profession में डालेंगे।"</p></blockquote><blockquote><p>"'यही तू कर — MBA कर, या यह कर।' <strong>वो passion है इसलिए नहीं;</strong> उसमें सबसे ज़्यादा पैसा आता है, या नाम-fame आता है, इसीलिए। बस यही कारण होगा उनका profession भी चुनने के लिए।"</p></blockquote><h2 id="hi-s7">दिखावे की परवरिश: social media और makeup</h2><p>आज के समय की एक नई प्रवृत्ति पर आचार्य जी विशेष ध्यान दिलाते हैं:</p><blockquote><p>"Rajasic mothers may encourage their children to <strong>look perfect on social media or in public</strong> — photo के लिए।"</p></blockquote><p>इसके विपरीत सात्त्विक माँ का दृष्टिकोण सहज है:</p><blockquote><p>"इसके उलटा वो सात्त्विक माँ होती है। वो बोलती है, 'Natural रहना। छोटा बच्चा है, कैसा भी रहेगा।' कैसा भी मतलब इतना कैसा भी नहीं — थोड़ा decent, presentable तक ठीक है। <strong>But वो बच्चा, बच्चा है — उसको बच्चे-सा रहने दो ना!</strong>"</p></blockquote><p>आचार्य जी ने यह बात अपने अनुभव से कही है:</p><blockquote><p>"मैंने कितनी तो भी माँओं को देखा है — दूर से, नज़दीक से, सब जगह का देखा है। पूरा बच्चे को makeup, जैसा film के hero-heroine करते हैं ना। 'वो photo में आने का है, social media में आने वाला है, वो function में जाने का है।' <strong>वो real heroine जितना नहीं करते ना, इतना makeup उनको कराते हैं।</strong>"</p></blockquote><p>पर वे संतुलन भी रखते हैं:</p><blockquote><p>"अरे, मैं ये नहीं बोल रहा हूँ कि उनको मत सजाओ।"</p></blockquote><h2 id="hi-s8">बचपन में फ़िल्मी संस्कार</h2><p>असली चिंता उन संस्कारों की है जो इतनी छोटी उम्र में बच्चों में भरे जा रहे हैं:</p><blockquote><p>"अभी से ही उनको filmy गाने के ऊपर नाच कराने के लिए बोलना — <strong>उनकी वो उम्र भी है क्या? उनको समझता भी है कि क्या शब्द हैं?</strong> वो love songs... वो गाने के ऊपर उनको आठ साल से, नौ साल से भी नाच करने को बोलेंगे।"</p></blockquote><p>इसका कारण माता-पिता के अपने जीवन में है:</p><blockquote><p>"क्योंकि उनके जीवन में वही सब भरा हुआ है — संसार, materialistic; <strong>परमेश्वर का कम है, इसी का ज़्यादा है।</strong> तो बच्चे के ऊपर बचपन से — serial सब देख-देख के — dialogue, dance, कपड़ा... यह सब राजसिक माताओं के घर पर होता होगा।"</p></blockquote><h2 id="hi-s9">रजोगुण का अंत: दुःख</h2><p>इस पूरी परवरिश का परिणाम क्या होता है? आचार्य जी चेतावनी देते हैं:</p><blockquote><p>"लेकिन यही बच्चे बाद में इन माँओं को या पिता को छोड़ के बाहर जाते हैं। फिर <strong>इन्हीं के अंदर वो प्रेम ढूँढते-ढूँढते</strong> या तो व्यभिचारी बनके, या गलत जगह पर शादी कर लेते हैं। ऐसा हमेशा होता है।"</p></blockquote><blockquote><p>"या तो rebel होके बस बाहर भाग जाते हैं। <strong>स्वतंत्र होने के लिए वे सिर्फ बड़ा होने के लिए रुकते हैं।</strong>"</p></blockquote><p>और अंत में माँ को भी वह नहीं मिलता जो वह चाहती थी:</p><blockquote><p>"तो <strong>रजोगुण का अंत — दुःख।</strong> तो इनके राज में भी last को क्या होगा? जो माँ को चाहिए था, वो उसको नहीं मिलता है अधिकतर। मिला तो भी वो गलत वाला हो जाता है।"</p></blockquote><p>यही बात श्रीमद्भगवद्गीता में तीनों गुणों के फल के रूप में कही गई है:</p><blockquote class="verse"><p><strong>कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम्।</strong><br><strong>रजसस्तु फलं दुःखमज्ञानं तमसः फलम्॥</strong><br>अर्थात् सात्त्विक कर्म का फल निर्मल कहा गया है, राजस कर्म का फल दुःख है, और तामस कर्म का फल अज्ञान है।<br>— श्रीमद्भगवद्गीता १४.१६</p></blockquote><h2 id="hi-s10">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>अपने आप को check करें</strong> — राजसिक वृत्ति किसी भी उम्र के माता-पिता में हो सकती है; "माता" में पिता भी शामिल हैं।</div></li><li><span class="num">२</span><div>राजसिक परवरिश का लक्ष्य बच्चा नहीं, अहंकार होता है — <strong>"मेरा बेटा topper है, तो मैं हूँ।"</strong></div></li><li><span class="num">३</span><div>ऊँची अपेक्षाएँ, क्षमता से अधिक classes और <strong>दूसरों से निरंतर तुलना</strong> बच्चे पर बोझ बन जाती हैं।</div></li><li><span class="num">४</span><div>अपने अधूरे सपने बच्चे पर न थोपें — <strong>बच्चे का passion कुछ अलग हो सकता है।</strong></div></li><li><span class="num">५</span><div>ज़बरदस्ती से कराया गया काम बच्चा वैसे ही करता है जैसे <strong>कसाई के पास ले जाया जाता बकरा</strong> — बिना किसी उत्साह के।</div></li><li><span class="num">६</span><div>Profession का चुनाव केवल पैसे और नाम-fame के लिए करवाना <strong>stress और anxiety</strong> को जन्म देता है।</div></li><li><span class="num">७</span><div><strong>बच्चे को बच्चा रहने दें</strong> — social media के लिए दिखावा और छोटी उम्र में filmy संस्कार उसके बचपन को छीन लेते हैं।</div></li><li><span class="num">८</span><div>जिस घर में <strong>परमेश्वर कम और संसार ज़्यादा</strong> है, वही बच्चों में उतरता है।</div></li><li><span class="num">९</span><div><strong>रजोगुण का अंत दुःख है</strong> — ऐसे बच्चे प्रेम की खोज में घर छोड़ देते हैं, और माँ को भी वह नहीं मिलता जो वह चाहती थी।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=laHKtOVpJcc" target="_blank" rel="noopener"><img src="assets/laHKtOVpJcc.jpg" alt="Is YOUR Love Becoming a Burden for Your Child? | Parenting Tips | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Is YOUR Love Becoming a Burden for Your Child? | Parenting Tips | Acharya Upendra Ji<small>YouTube · 5:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: अपने भीतर झाँककर देखें</a></li><li><a href="#hi-s2">सिर के ऊपर बैठा दबाव</a></li><li><a href="#hi-s3">ऊँची अपेक्षाएँ और फल की लालसा</a></li><li><a href="#hi-s4">अपने अधूरे सपने बच्चे पर थोपना</a></li><li><a href="#hi-s5">कसाई के पास ले जाया जाता बकरा</a></li><li><a href="#hi-s6">पैसा और नाम — profession चुनने का एकमात्र कारण</a></li><li><a href="#hi-s7">दिखावे की परवरिश: social media और makeup</a></li><li><a href="#hi-s8">बचपन में फ़िल्मी संस्कार</a></li><li><a href="#hi-s9">रजोगुण का अंत: दुःख</a></li><li><a href="#hi-s10">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Love or Burden? — The Truth About Rajasic Parenting | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>Love or Burden? — The Truth About Rajasic Parenting</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../love_burden_for_child_parenting_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=laHKtOVpJcc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Look Within Yourself</h2><p>Every parent loves their child. But does our love sometimes become a burden for the child? In this short discourse, Acharya Upendra Ji paints a picture of how <em>rajasic</em> mothers raise their children — an upbringing driven by rajoguna, that is, by desire, ambition and the urge to show off.</p><p><em>Rajoguna</em> — one of the three qualities (gunas) of nature (sattva, rajas, tamas); it is restless activity filled with desire and craving for results.</p><p>At the very start, Acharya Ji makes clear that this is not limited to mothers of any one age, and he makes a request of the listener:</p><blockquote><p>"A mother remains a mother, doesn't she — thirty years, forty years — does she change? So how does she raise her child with a rajasic tendency? <strong>Make sure you are not like this somewhere — check all of that.</strong>"</p></blockquote><p>And the word "mother" includes the father too:</p><blockquote><p>"Mother means the father is included in it — that concept is understood."</p></blockquote><h2 id="en-s2">Pressure Sitting on the Child's Head</h2><p>The first mark of a rajasic mother is constant pressure on the child:</p><blockquote><p>"What will a rajasic mother do? <strong>All the pressure on the children</strong> — look at all this on the time-table, the 'Work hard' photo, inspiration — 'Work hard', whatever it may be. In it there is going to school, doing this, doing that."</p></blockquote><blockquote><p>"Constantly she will sit on top of his head."</p></blockquote><p>And the real goal behind all this is not the child, but the mother's own ego:</p><blockquote><p>"And what will the aim be? <strong>'My son is the topper, so I am somebody.'</strong>"</p></blockquote><h2 id="en-s3">High Expectations and the Craving for Results</h2><p>The nature of rajoguna is the desire for results. Acharya Ji says:</p><blockquote><p>"Their expectations are often high — very much so. <strong>She wants some result.</strong> And they may become upset if their children do not meet them."</p></blockquote><p>Without considering what the child is capable of, the load just keeps growing:</p><blockquote><p>"Whether the child has that much capacity or not, nobody knows; still — put him in classes, put double, put triple."</p></blockquote><p>And alongside runs constant comparison:</p><blockquote><p>"Such mothers often compare their children to others. Always — 'This one went in the exam, we'll see next time.' 'Someone said something at this function; at the next function we will do something different and show them.'"</p></blockquote><h2 id="en-s4">Imposing Unfulfilled Dreams on the Child</h2><p>Rajasic parents often place their own unfulfilled dreams on the child's shoulders:</p><blockquote><p>"They will impose their ideas on their children: <strong>'I could not do it, son, you will have to fulfil this dream.'</strong>"</p></blockquote><blockquote><p>"'Oh, that was my childhood dream, my son will fulfil it!' Now after the son... <strong>the son's passion will be something else altogether.</strong> So by force — now he simply has to do it."</p></blockquote><h2 id="en-s5">The Goat Being Led to the Butcher</h2><p>In such a situation, with what heart does the child do that work? Acharya Ji gives a harsh but precise comparison:</p><blockquote><p>"Now with how much interest will that child do it? <strong>He sees his own death there.</strong>"</p></blockquote><blockquote><p>"There is a goat, or some such creature, being dragged along by a rope... and the butcher is saying, 'Now I am going to run a little knife over your head.' So with how much enthusiasm will it go? <strong>With just that much enthusiasm these children listen too, because they are small, they can't do anything.</strong>"</p></blockquote><h2 id="en-s6">Money and Name — the Only Reason to Choose a Profession</h2><p>In a rajasic upbringing, even the choice of career is made not from the child's interest but from money and fame:</p><blockquote><p>"Such mothers may push their children towards material success or fame, which can lead to <strong>stress and anxiety in children.</strong>"</p></blockquote><blockquote><p>"'Son, you must come first', or 'Become an engineer', because 'in such-and-such profession you get the most money.' That is why they will put him in that very profession."</p></blockquote><blockquote><p>"'Do this — do an MBA, or do this.' <strong>Not because it is his passion;</strong> because it brings the most money, or name and fame — that is why. That alone will be their reason for choosing a profession."</p></blockquote><h2 id="en-s7">An Upbringing of Show: Social Media and Makeup</h2><p>Acharya Ji draws special attention to a new trend of our times:</p><blockquote><p>"Rajasic mothers may encourage their children to <strong>look perfect on social media or in public</strong> — for the photo."</p></blockquote><p>In contrast, the sattvic mother's outlook is natural:</p><blockquote><p>"The opposite of this is the sattvic mother. She says, 'Stay natural. He's a small child, he'll be however he is.' However he is doesn't mean just anyhow — a little decent, presentable is fine. <strong>But that child is a child — let him be like a child!</strong>"</p></blockquote><p>Acharya Ji says this from his own experience:</p><blockquote><p>"I have seen so many mothers — from afar, up close, everywhere. Full makeup on the child, the way film heroes and heroines do. 'He has to be in the photo, he's going to be on social media, he has to go to that function.' <strong>Even real heroines don't wear that much makeup as they put on these children.</strong>"</p></blockquote><p>But he keeps a balance too:</p><blockquote><p>"Oh, I am not saying don't dress them up."</p></blockquote><h2 id="en-s8">Film Culture in Childhood</h2><p>The real concern is the impressions being filled into children at such a young age:</p><blockquote><p>"Telling them right from now to dance to film songs — <strong>is that even their age? Do they even understand what the words are?</strong> Those love songs... they will tell them to dance to those songs from the age of eight, even nine."</p></blockquote><p>The reason lies in the parents' own lives:</p><blockquote><p>"Because that is all their own life is filled with — the world, materialistic; <strong>there is less of God, and more of this.</strong> So on the child, from childhood — from watching serials over and over — dialogue, dance, clothes... all this must be happening in the homes of rajasic mothers."</p></blockquote><h2 id="en-s9">The End of Rajoguna: Sorrow</h2><p>What is the result of this entire upbringing? Acharya Ji warns:</p><blockquote><p>"But later these very children leave these mothers or fathers and go away. Then, <strong>searching for that love,</strong> they either become promiscuous, or marry in the wrong place. This always happens."</p></blockquote><blockquote><p>"Or they become rebels and just run away. <strong>They wait only to grow up, so that they can be free.</strong>"</p></blockquote><p>And in the end the mother too does not get what she wanted:</p><blockquote><p>"So <strong>the end of rajoguna — sorrow.</strong> So in their reign too, what happens at the last? What the mother wanted, she mostly doesn't get. Even if she gets it, it turns out to be the wrong thing."</p></blockquote><p>The same is stated in the Bhagavad Gita as the fruit of the three gunas:</p><blockquote class="verse"><p><strong>karmaṇaḥ sukṛtasyāhuḥ sāttvikaṁ nirmalaṁ phalam</strong><br><strong>rajasas tu phalaṁ duḥkham ajñānaṁ tamasaḥ phalam</strong><br>"The fruit of sattvic action is said to be pure; the fruit of rajasic action is sorrow, and the fruit of tamasic action is ignorance."<br>— Bhagavad Gita 14.16</p></blockquote><h2 id="en-s10">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>Check yourself</strong> — the rajasic tendency can be present in parents of any age; "mother" includes the father too.</div></li><li><span class="num">2</span><div>The goal of rajasic parenting is not the child but the ego — <strong>"My son is the topper, so I am somebody."</strong></div></li><li><span class="num">3</span><div>High expectations, classes beyond the child's capacity and <strong>constant comparison with others</strong> become a burden on the child.</div></li><li><span class="num">4</span><div>Do not impose your unfulfilled dreams on the child — <strong>the child's passion may be something else.</strong></div></li><li><span class="num">5</span><div>A child forced into work does it like <strong>a goat being led to the butcher</strong> — without any enthusiasm.</div></li><li><span class="num">6</span><div>Making a child choose a profession only for money and name and fame breeds <strong>stress and anxiety</strong>.</div></li><li><span class="num">7</span><div><strong>Let the child be a child</strong> — show for social media and film culture at a young age rob them of their childhood.</div></li><li><span class="num">8</span><div>In a home where there is <strong>less of God and more of the world</strong>, that is what passes into the children.</div></li><li><span class="num">9</span><div><strong>The end of rajoguna is sorrow</strong> — such children leave home in search of love, and the mother too does not get what she wanted.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=laHKtOVpJcc" target="_blank" rel="noopener"><img src="assets/laHKtOVpJcc.jpg" alt="Is YOUR Love Becoming a Burden for Your Child? | Parenting Tips | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Is YOUR Love Becoming a Burden for Your Child? | Parenting Tips | Acharya Upendra Ji<small>YouTube · 5:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Look Within Yourself</a></li><li><a href="#en-s2">Pressure Sitting on the Child's Head</a></li><li><a href="#en-s3">High Expectations and the Craving for Results</a></li><li><a href="#en-s4">Imposing Unfulfilled Dreams on the Child</a></li><li><a href="#en-s5">The Goat Being Led to the Butcher</a></li><li><a href="#en-s6">Money and Name — the Only Reason to Choose a Profession</a></li><li><a href="#en-s7">An Upbringing of Show: Social Media and Makeup</a></li><li><a href="#en-s8">Film Culture in Childhood</a></li><li><a href="#en-s9">The End of Rajoguna: Sorrow</a></li><li><a href="#en-s10">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
