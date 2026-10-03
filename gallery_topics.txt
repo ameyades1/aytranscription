@@ -1,0 +1,109 @@
+# Topics for the blog gallery (output/index.html). Rebuild it with:
+#   python3 tools/template/gallery_page.py
+#
+# "topic" lines define the filter chips, in this order:   topic <key> | <English> | <Hindi>
+# Other lines put a talk in a topic:                       <talk name> <key>
+# Talks not listed here go under "Other". Lines starting with # are ignored.
+
+topic guru     | Guru & Disciple        | गुरु और शिष्य
+topic mind     | Mind                   | मन
+topic food     | Food & Health          | आहार और स्वास्थ्य
+topic deities  | Deities & Worship      | देवी-देवता और उपासना
+topic mantra   | Mantra & Planets       | मंत्र और ग्रह
+topic love     | Love & Relationships   | प्रेम और संबंध
+topic karma    | Karma & Destiny        | कर्म और भाग्य
+topic success  | Success & Prosperity   | सफलता और समृद्धि
+topic dharma   | Dharma & Scriptures    | धर्म और शास्त्र
+topic society  | Women & Society        | नारी और समाज
+
+surrendering_to_guru                          guru
+power_of_surrendering_to_guru                 guru
+guru_and_disciple_highest_form_love           guru
+guru_bridging_science_spirituality            guru
+competent_guru_activate_chakras_kundalini     guru
+true_disciple_change_your_life                guru
+without_guru_scriptures_can_mislead           guru
+why_satsang_does_not_change_your_life         guru
+
+control_your_mind_before_it_controls_you      mind
+mind_or_body_more_powerful                    mind
+rigid_mind_vs_flexible_mind_destiny           mind
+secrets_mastering_your_mind_technique         mind
+stop_mind_controlling_unlock_true_focus       mind
+hidden_power_of_positivity                    mind
+joy_sorrow_transformation                     mind
+trapped_illusory_happiness                    mind
+
+diet_hindering_success_link_prosperity        food
+eat_shapes_how_you_think                      food
+eat_to_heal_not_to_harm_spiritual             food
+hardcore_non_vegetarian_awakening             food
+non_veg_food_remains_body_truths              food
+water_is_your_first_medicine                  food
+power_of_healing_antar_yog_science            food
+physical_mental_strength_spiritual_path       food
+
+awaken_divine_shakti_kali_lakshmi_saraswati   deities
+awaken_inner_shiv_shakti_maha_shivratri       deities
+durva_red_flowers_lord_ganesh_worship         deities
+goddess_lakshmi_lord_vishnu_stories           deities
+hidden_truth_rudra_rudraksha                  deities
+know_your_lord_before_worship                 deities
+know_your_god_transformative_path             deities
+power_of_deities_in_your_life                 deities
+radha_krishna_divine_secret                   deities
+truth_about_lord_ganesh                       deities
+three_types_obstacle_removers_harta           deities
+unlock_divine_energy_durga_saptashati_mantra  deities
+hidden_meaning_spiritual_symbols              deities
+
+chanting_om_final_breath_liberation           mantra
+spiritual_science_om_aum                      mantra
+sacred_guru_jupiter_chanting                  mantra
+saturn_mars_succeed_shani_mangal              mantra
+shukra_graha_chanting_wealth_relationships    mantra
+
+love_burden_for_child_parenting               love
+love_respect_friendship_connection            love
+loving_in_the_right_way_valentines            love
+marriage_giving_not_taking_relationships      love
+married_or_not_insights                       love
+stop_tolerating_toxic_love                    love
+too_bad_to_be_too_good_valentines             love
+true_meaning_of_love_valentines               love
+truly_desire_or_infatuation                   love
+twin_flames_soulmates_karmic_bonds            love
+why_blind_love_is_dangerous                   love
+company_you_keep_shapes_destiny               love
+
+burn_your_karma_before_it_burns_you           karma
+destiny_awaits_obstacle_in_way                karma
+two_causes_create_your_life                   karma
+stop_asking_god_fix_your_life                 karma
+overcome_struggles_of_life                    karma
+struggling_despite_trying_best                karma
+
+become_billionaire_shree_vidya_secrets        success
+do_this_one_thing_achieve_successful_life     success
+manifesting_goals_correctly                   success
+unlock_full_potential_in_life                 success
+gau_seva_antar_yog_purity_prosperity          success
+knowledge_work_for_you                        success
+struggling_laziness_lack_drive_spiritual      success
+sattva_rajas_tamas_balance_success_liberation success
+
+difference_ved_vedant                         dharma
+evolution_of_dharma_sanatan_dharma            dharma
+true_power_of_scriptures_decoded              dharma
+shreya_vs_preya_vedantic_wisdom               dharma
+satyug_rules_kaliyug_different_path           dharma
+every_human_inherently_spiritual              dharma
+know_your_first_duty_in_life                  dharma
+attain_divine_qualities_empower_spiritual     dharma
+
+divine_power_every_woman_holds                society
+future_lies_in_hands_message_to_women         society
+gyan_sarovar_mount_abu_women_address          society
+ideal_king_sanatan_rashtra_interview          society
+why_society_remains_divided_interview         society
+power_of_collectivity                         society
