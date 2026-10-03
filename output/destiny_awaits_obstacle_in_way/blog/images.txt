@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | खेत, नहर और एक पत्थर | A Field, a Canal and a Stone | A hand lifting a stone out of an irrigation channel so the water flows
