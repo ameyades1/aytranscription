@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>कोई भी स्थिति स्थायी नहीं — जीवन के संघर्षों से पार होने का गीता-मार्ग | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — कोई भी स्थिति स्थायी नहीं — जीवन के संघर्षों से पार होने का गीता-मार्ग">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="कोई भी स्थिति स्थायी नहीं — जीवन के संघर्षों से पार होने का गीता-मार्ग | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">अध्याय</div>
+  <h1>कोई भी स्थिति स्थायी नहीं — जीवन के संघर्षों से पार होने का गीता-मार्ग</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../overcome_struggles_of_life_chapter.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>PDF डाउनलोड करें</a><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=m2IU0GRbYW8" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">प्रस्तावना: स्थिति बदलती क्यों नहीं?</h2><p>हम सबके जीवन में कोई न कोई ऐसी कठिनाई आती है जो हमें स्थायी लगने लगती है — कोई बीमारी, कोई बिगड़ा हुआ रिश्ता, या पैसों की तंगी। इस छोटे-से प्रवचन में आचार्य उपेंद्र जी पूछते हैं कि जब श्रीकृष्ण स्वयं कहते हैं कि सुख-दुःख आते-जाते हैं, तो हम किसी एक स्थिति को जीवन भर क्यों ढोते रहते हैं? इसका उत्तर वे भगवद्गीता के दूसरे अध्याय के चौदहवें श्लोक से, और फिर पूरी गीता की यात्रा से देते हैं।</p><h2 id="hi-s2">तीन तरह के बंधन: रोग, रिश्ते और दरिद्रता</h2><p>आचार्य जी सबसे पहले उन स्थितियों को सामने रखते हैं जिनमें हम उलझ कर रह जाते हैं। पहली है बीमारी:</p><blockquote><p>"बड़े-बड़े डॉक्टर जिसको लाइलाज बीमारी बोलते हैं — 'there is no remedy' करके बोलते हैं — तो हम भी डर जाते हैं। फिर पूरा जन्म भर वह बीमारी लेकर बैठ जाते हैं।"</p></blockquote><p>दूसरी है रिश्तों की कड़वाहट:</p><blockquote><p>"या तो अपना कोई रिश्ता खराब हो जाता है, किसी से बराबर झगड़ा होता है, तो वैसा झगड़ा जन्मों-जन्मों तक लेकर जाते हैं।"</p></blockquote><p>और तीसरी है आर्थिक कठिनाई:</p><blockquote><p>"या अपनी आर्थिक स्थिति — पैसा, धन — किसी की दरिद्रता होगी, कम होगा, कि नौकरी नहीं है, ऐसा ही पूरा जीवन निकालते हैं। तो यह स्थिति बदलती क्यों नहीं?"</p></blockquote><p>इसी प्रश्न के उत्तर के लिए वे हमें गीता की ओर ले जाते हैं:</p><blockquote><p>"तो उसके लिए थोड़ा भगवद्गीता भी पढ़ना होगा। Chapter two, verse number 14 निकाल लेना।"</p></blockquote><h2 id="hi-s3">श्रीकृष्ण का पहला उपदेश</h2><p>आचार्य जी बताते हैं कि गीता में श्रीकृष्ण का पहला उपदेश इसी श्लोक में है:</p><blockquote class="verse"><p><strong>मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः।</strong><br><strong>आगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत॥</strong><br>— श्रीमद्भगवद्गीता २.१४</p></blockquote><p>वे पहले यह याद दिलाते हैं कि हम जिस स्थिति में हैं, उसके पीछे कोई कारण है:</p><blockquote><p>"तू जिस स्थिति में है, कुछ प्रारब्धवश आया होगा, कुछ वैसे कर्म होंगे, वैसे कुछ संस्कार होंगे।"</p></blockquote><p><em>प्रारब्ध</em> का अर्थ है पिछले कर्मों का वह फल जो इस जीवन में भोगने के लिए आया है।</p><p>फिर वे श्लोक का अर्थ खोलते हैं:</p><blockquote><p>"हे कुंतीपुत्र, सर्दी-गर्मी — मतलब शरीर के हिसाब से आने वाले pair of opposites, द्वंद्व — सर्दी-गर्मी, सुख-दुःख। सुख-दुःख, यह मानसिक स्थिति की बात की है। Opposites आते रहेंगे।"</p></blockquote><blockquote><p>"उसको बोलते हैं प्रतिकूल-अनुकूल परिस्थिति — unfavourable, favourable condition। Life में तो ऊपर-नीचे आते ही रहेंगे।"</p></blockquote><p><strong>जीवन में द्वंद्व — सर्दी-गर्मी, सुख-दुःख, अनुकूल-प्रतिकूल — आते ही रहेंगे; यह जीवन का स्वभाव है।</strong></p><h2 id="hi-s4">सुख-दुःख कहाँ से जन्म लेते हैं</h2><p>श्लोक का <em>मात्रास्पर्श</em> शब्द — इंद्रियों का विषयों से संपर्क — आचार्य जी रोज़मर्रा के उदाहरणों से समझाते हैं:</p><blockquote><p>"इनको देने वाले इंद्रिय — इंद्रिय मतलब अपने sense organs, आपके अंग — और विषयों के संयोग, तो उत्पत्ति-विनाशशील और अनित्य हैं।"</p></blockquote><blockquote><p>"मतलब अगर जीभ है, तो कुछ खाना — चाहे इडली-सांभर हो या बाकी कुछ भी हो। या कान है, तो सुनने के लिए बहुत सारा संगीत या कोई शब्द। या स्पर्श — शब्द, रूप, सब कुछ है।"</p></blockquote><blockquote><p>"तो यह सब जैसे contact में आ जाता है — रिश्ते आ जाते हैं, पंचमहाभूत आते हैं — उस संयोग से कुछ तो उत्पन्न होता है, उसकी उत्पत्ति होती है। किसकी? या तो सुख की या दुःख की।"</p></blockquote><p><em>पंचमहाभूत</em> — पृथ्वी, जल, अग्नि, वायु और आकाश — वे पाँच तत्त्व हैं जिनसे यह सारा भौतिक जगत बना है।</p><h2 id="hi-s5">अनित्य है, तो स्थायी कैसे?</h2><p>यहीं से आचार्य जी का मुख्य प्रश्न उठता है। जो संयोग से उत्पन्न हुआ है, वह कैसा है?</p><blockquote><p>"बोला है — विनाशशील और अनित्य है। आपका रोग परमानेंट कैसे हो जाता है? मेरा सवाल है, डॉक्टर कैसे बोल सकता है कि कैंसर permanent है?"</p></blockquote><blockquote><p>"Diabetes हो गया, तो अभी निकलेगा ही नहीं, अब यह जीवन भर लेना होगा — जबकि कृष्ण स्वयं बोलते हैं, यह अनित्य है। Nothing is permanent। बोला, the only thing that is constant is change। और change होना ही चाहिए।"</p></blockquote><p>यही बात वे दरिद्रता पर लागू करते हैं:</p><blockquote><p>"मेरी दरिद्रता कायम कैसे होती है? अनित्य — actually होना चाहिए, कुछ दिन के बाद जाना चाहिए।"</p></blockquote><p>और <em>विनाशशील</em> शब्द का एक सूक्ष्म अर्थ स्पष्ट करते हैं:</p><blockquote><p>"विनाशशील बोला, मतलब वह स्थिति उत्पन्न हुई है — उत्पत्ति तो हो गई — उसके बाद विनाश होना चाहिए। आपका विनाश नहीं, उस स्थिति का विनाश होना चाहिए।"</p></blockquote><p>लेकिन इसके साथ एक आवश्यक चेतावनी भी है:</p><blockquote><p>"मतलब दरिद्रता भी कुछ दिन के बाद जानी चाहिए। अपने आप नहीं जाएगी, कुछ करना होगा उसके लिए।"</p></blockquote><p><strong>जो उत्पन्न हुआ है उसका अंत निश्चित है — नष्ट आप नहीं होते, नष्ट वह स्थिति होती है। पर उसके लिए कुछ करना होगा।</strong></p><h2 id="hi-s6">"सहन कर" — पहला उपदेश, अंतिम नहीं</h2><p>श्लोक के अंत में श्रीकृष्ण कहते हैं — <em>तांस्तितिक्षस्व भारत</em>, उन्हें सहन कर। आचार्य जी इसे गीता के क्रम में रखकर देखते हैं:</p><blockquote><p>"तो पहला उपदेश क्या दिया है, सबसे प्रथम उपदेश? कि सहन कर। लेकिन यह अंतिम उपदेश है क्या?"</p></blockquote><blockquote><p>"पहले अध्याय में तो अर्जुन ही बात करता है, दूसरे अध्याय में दसवें श्लोक तक भी अर्जुन ही बात करता है। ग्यारहवें श्लोक से श्रीकृष्ण की वाणी शुरू होती है, और चौदहवें श्लोक में ही पहले बोला है।"</p></blockquote><p>वे मानते हैं कि हमारी पहली कठिनाई यही है:</p><blockquote><p>"तो आदमी ठीक से सहन भी नहीं कर सकता, यह problem है।"</p></blockquote><p>पर सहनशीलता अपने आप में मंज़िल नहीं है:</p><blockquote><p>"'यह तू सहन कर' — सहन करते-करते-करते आयुष्य निकाल, ऐसा नहीं बोला है। सहन करने के बाद तीसरा अध्याय, चौथा अध्याय, पाँचवाँ, छठा, सातवाँ करके अठारह अध्याय तक जाना है कि नहीं जाना है?"</p></blockquote><p><strong>सहन करना यात्रा की शुरुआत है, अंत नहीं। गीता हमें दूसरे अध्याय से अठारहवें अध्याय तक ले जाती है।</strong></p><h2 id="hi-s7">सहन करने के बाद: गीता की पूरी यात्रा</h2><p>आचार्य जी संक्षेप में बताते हैं कि सहनशीलता के बाद गीता आगे क्या सिखाती है।</p><p><strong>कर्मयोग (तीसरा अध्याय):</strong></p><blockquote><p>"तीसरे अध्याय में कर्मयोग के बारे में बात की है — तुम्हें कुछ नया कर्म करना होगा। सिर्फ कर्म नहीं, योग — कुछ जोड़ना होगा, बोला उसमें।"</p></blockquote><p><strong>यज्ञ (चौथा अध्याय):</strong></p><blockquote><p>"चौथे अध्याय में उन्होंने यज्ञ कैसे करते हैं, यह बताया — सिर्फ वह physical यज्ञ नहीं। यज्ञ मतलब क्या? 'यज्ञ' means, it comes from the word 'यज्'; यज् means to sacrifice, त्याग करना।"</p></blockquote><p><strong>भक्ति और ध्यान (पाँचवाँ और छठा अध्याय):</strong></p><blockquote><p>"फिर पाँचवें अध्याय में वे भक्ति के बारे में बात करेंगे। छठे अध्याय में साधना कैसे करनी है — मतलब ध्यान की अवस्था। मतलब कर्म, भक्ति, ज्ञान, ध्यान — चारों कुछ तो योग समझाते हैं।"</p></blockquote><p><strong>ब्रह्म का ज्ञान (सातवें से बारहवें अध्याय तक):</strong></p><blockquote><p>"सातवें अध्याय से लेकर बारहवें अध्याय तक 'मैं ही वह ब्रह्म कैसे हूँ', यह जानने की प्रक्रिया दी है। विराट रूप है न, ग्यारहवें अध्याय में वह सब वर्णन किया है।"</p></blockquote><p><strong>प्रक्रिया और तीन गुण (तेरहवें से अठारहवें अध्याय तक):</strong></p><blockquote><p>"तेरहवें अध्याय से अठारहवें अध्याय तक — उसकी प्रक्रिया क्या है, कैसे आते हैं, तीन गुण क्या हैं — यह process दी है।"</p></blockquote><p><em>तीन गुण</em> — सत्त्व, रजस् और तमस् — प्रकृति के वे तीन स्वभाव हैं जो हमारे विचार और कर्म को आकार देते हैं।</p><p>और अंत में आचार्य जी एक प्रश्न हमारे सामने छोड़ देते हैं:</p><blockquote><p>"तो यह process इतनी लंबी — आपको क्या लगता है, कृष्ण ने अर्जुन को बताई थी?"</p></blockquote><h2 id="hi-s8">सारांश: मुख्य शिक्षाएँ</h2><ol class="takeaways"><li><span class="num">१</span><div><strong>कोई भी कठिनाई स्थायी नहीं है।</strong> रोग, बिगड़े रिश्ते और दरिद्रता — इन्हें जीवन भर ढोने की आवश्यकता नहीं; श्रीकृष्ण कहते हैं कि ये <em>अनित्य</em> हैं।</div></li></ol><ol class="takeaways"><li><span class="num">२</span><div><strong>द्वंद्व जीवन का स्वभाव है।</strong> सर्दी-गर्मी, सुख-दुःख, अनुकूल-प्रतिकूल परिस्थितियाँ आती-जाती रहेंगी।</div></li></ol><ol class="takeaways"><li><span class="num">३</span><div><strong>सुख-दुःख संयोग से जन्म लेते हैं।</strong> इंद्रियों और विषयों के संपर्क से उत्पन्न होने वाली हर अनुभूति उत्पत्ति-विनाशशील है।</div></li></ol><ol class="takeaways"><li><span class="num">४</span><div><strong>नष्ट स्थिति होती है, आप नहीं।</strong> जो उत्पन्न हुआ है उसका विनाश होना ही है — पर वह अपने आप नहीं जाएगा, उसके लिए कुछ करना होगा।</div></li></ol><ol class="takeaways"><li><span class="num">५</span><div><strong>"सहन कर" पहला उपदेश है, अंतिम नहीं।</strong> सहन करते-करते जीवन बिताना गीता का संदेश नहीं है।</div></li></ol><ol class="takeaways"><li><span class="num">६</span><div><strong>सहनशीलता के बाद पूरी गीता की यात्रा है</strong> — कर्मयोग, यज्ञ (त्याग), भक्ति, ध्यान, ब्रह्म का ज्ञान और तीन गुणों की समझ। यही जीवन के संघर्षों से पार होने का मार्ग है।</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=m2IU0GRbYW8" target="_blank" rel="noopener"><img src="assets/m2IU0GRbYW8.jpg" alt="Overcome the Struggles of Life | Awakening Video by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Overcome the Struggles of Life | Awakening Video by Acharya Upendra Ji<small>YouTube · 5:35</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">प्रस्तावना: स्थिति बदलती क्यों नहीं?</a></li><li><a href="#hi-s2">तीन तरह के बंधन: रोग, रिश्ते और दरिद्रता</a></li><li><a href="#hi-s3">श्रीकृष्ण का पहला उपदेश</a></li><li><a href="#hi-s4">सुख-दुःख कहाँ से जन्म लेते हैं</a></li><li><a href="#hi-s5">अनित्य है, तो स्थायी कैसे?</a></li><li><a href="#hi-s6">"सहन कर" — पहला उपदेश, अंतिम नहीं</a></li><li><a href="#hi-s7">सहन करने के बाद: गीता की पूरी यात्रा</a></li><li><a href="#hi-s8">सारांश: मुख्य शिक्षाएँ</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="No Situation Is Permanent — The Gita&#x27;s Path Through Life&#x27;s Struggles | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Chapter</div>
+  <h1>No Situation Is Permanent — The Gita&#x27;s Path Through Life&#x27;s Struggles</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-solid" href="../overcome_struggles_of_life_chapter_en.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true" fill="#fff"><path fill-rule="evenodd" d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM4 18h16v2H4z"/></svg>Download PDF</a><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=m2IU0GRbYW8" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Introduction: Why Doesn't the Situation Change?</h2><p>Every one of us meets some hardship that begins to feel permanent — an illness, a broken relationship, or a shortage of money. In this short discourse, Acharya Upendra Ji asks: when Shri Krishna himself says that pleasure and pain come and go, why do we carry one situation for our whole life? He answers from the fourteenth verse of the second chapter of the Bhagavad Gita, and then from the journey of the whole Gita.</p><h2 id="en-s2">Three Kinds of Bondage: Illness, Relationships and Poverty</h2><p>Acharya Ji first sets out the situations in which we stay entangled. The first is illness:</p><blockquote><p>"What the big doctors call an incurable disease — they say 'there is no remedy' — then we get frightened too. And then we sit with that disease for our whole life."</p></blockquote><p>The second is bitterness in relationships:</p><blockquote><p>"Or some relationship of ours goes bad, we keep quarrelling with someone, and then we carry that quarrel on for lifetimes."</p></blockquote><p>And the third is financial hardship:</p><blockquote><p>"Or our financial condition — money, wealth — someone is in poverty, there is too little, there is no job, and they spend their whole life like that. So why doesn't this situation change?"</p></blockquote><p>To answer this question, he takes us to the Gita:</p><blockquote><p>"For that you will have to read a little of the Bhagavad Gita too. Open chapter two, verse number 14."</p></blockquote><h2 id="en-s3">Shri Krishna's First Teaching</h2><p>Acharya Ji explains that Shri Krishna's first teaching in the Gita is in this very verse:</p><blockquote class="verse"><p><strong>mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ</strong><br><strong>āgamāpāyino 'nityās tāṁs titikṣasva bhārata</strong><br>"O son of Kunti, the contacts of the senses with their objects give rise to cold and heat, pleasure and pain. They come and go and are impermanent; endure them, O Bharata."<br>— Bhagavad Gita 2.14</p></blockquote><p>He first reminds us that there is a cause behind the situation we are in:</p><blockquote><p>"Whatever situation you are in, it must have come partly through prarabdha; there must be some such karma, some such samskaras."</p></blockquote><p><em>Prarabdha</em> means the fruit of past actions that has come to be experienced in this life.</p><p>Then he opens up the meaning of the verse:</p><blockquote><p>"O son of Kunti, cold and heat — meaning the pair of opposites, the dvandva, that comes through the body — cold and heat, pleasure and pain. Pleasure and pain refer to the state of the mind. Opposites will keep coming."</p></blockquote><blockquote><p>"This is called adverse and favourable circumstances — unfavourable, favourable condition. In life, ups and downs will keep coming."</p></blockquote><p><strong>The pairs of opposites — cold and heat, pleasure and pain, favourable and adverse — will keep coming in life; this is the nature of life.</strong></p><h2 id="en-s4">Where Pleasure and Pain Are Born</h2><p>The word <em>mātrā-sparśa</em> in the verse — the contact of the senses with their objects — Acharya Ji explains through everyday examples:</p><blockquote><p>"What gives these are the indriyas — indriya means our sense organs, your organs — and their union with sense objects; these arise and perish, and are impermanent."</p></blockquote><blockquote><p>"That is, if there is the tongue, then some food — whether it is idli-sambar or anything else. Or if there is the ear, then a great deal of music to hear, or some word. Or touch — sound, form, everything is there."</p></blockquote><blockquote><p>"So when all this comes into contact — relationships come in, the five great elements come in — something is produced from that union; something arises. What? Either pleasure or pain."</p></blockquote><p>The <em>pañca-mahābhūta</em> — earth, water, fire, air and space — are the five elements of which the whole material world is made.</p><h2 id="en-s5">If It Is Impermanent, How Can It Be Permanent?</h2><p>This is where Acharya Ji's main question arises. What arises from such a union — what is it like?</p><blockquote><p>"It is said — it is perishable and impermanent. How does your illness become permanent? My question is, how can a doctor say that cancer is permanent?"</p></blockquote><blockquote><p>"You have got diabetes, so now it will never go, now you will have to take this for your whole life — whereas Krishna himself says it is impermanent. Nothing is permanent. He said, the only thing that is constant is change. And change must happen."</p></blockquote><p>He applies the same point to poverty:</p><blockquote><p>"How does my poverty become fixed? It is impermanent — it actually should go after some days."</p></blockquote><p>And he clarifies a subtle meaning of the word <em>perishable</em>:</p><blockquote><p>"He said perishable, meaning that situation has arisen — it has come into being — and after that it must perish. Not you; the situation must perish."</p></blockquote><p>But with this comes a necessary caution:</p><blockquote><p>"That means poverty, too, should go after some days. It will not go on its own; you will have to do something for it."</p></blockquote><p><strong>Whatever has arisen is certain to end — it is not you who perishes, it is the situation. But you will have to do something for it.</strong></p><h2 id="en-s6">"Endure" — The First Teaching, Not the Last</h2><p>At the end of the verse Shri Krishna says <em>tāṁs titikṣasva bhārata</em> — endure them. Acharya Ji looks at this within the order of the Gita:</p><blockquote><p>"So what was the first teaching given, the very first teaching? That you should endure. But is this the final teaching?"</p></blockquote><blockquote><p>"In the first chapter it is only Arjuna who speaks, and in the second chapter, up to the tenth verse too, it is only Arjuna who speaks. From the eleventh verse Shri Krishna's words begin, and in the fourteenth verse itself he says this first."</p></blockquote><p>He holds that this is our first difficulty:</p><blockquote><p>"And a person cannot even endure properly — that is the problem."</p></blockquote><p>But endurance is not the destination in itself:</p><blockquote><p>"'Endure this' — he did not say, keep enduring, enduring, enduring and spend your whole life that way. After enduring, you have to go through the third chapter, the fourth chapter, the fifth, sixth, seventh, all the way to the eighteenth chapter — do you have to go or not?"</p></blockquote><p><strong>Endurance is the beginning of the journey, not its end. The Gita takes us from the second chapter to the eighteenth.</strong></p><h2 id="en-s7">After Endurance: The Whole Journey of the Gita</h2><p>Acharya Ji briefly describes what the Gita teaches after endurance.</p><p><strong>Karma Yoga (Chapter Three):</strong></p><blockquote><p>"In the third chapter he speaks about karma yoga — you will have to do some new action. Not only action, but yoga — you will have to join something, he said there."</p></blockquote><p><strong>Yajna (Chapter Four):</strong></p><blockquote><p>"In the fourth chapter he explained how yajna is performed — not only that physical yajna. What does yajna mean? 'Yajna' means, it comes from the word 'yaj'; yaj means to sacrifice, to renounce."</p></blockquote><p><strong>Devotion and Meditation (Chapters Five and Six):</strong></p><blockquote><p>"Then in the fifth chapter he will speak about bhakti. In the sixth chapter, how sadhana is to be done — meaning the state of meditation. That is, karma, bhakti, jnana, dhyana — all four explain some form of yoga."</p></blockquote><p><strong>Knowledge of Brahman (Chapters Seven to Twelve):</strong></p><blockquote><p>"From the seventh chapter up to the twelfth chapter, the process of knowing 'how I myself am that Brahman' is given. There is the Virat Roop, isn't there — all of that is described in the eleventh chapter."</p></blockquote><p><strong>The Process and the Three Gunas (Chapters Thirteen to Eighteen):</strong></p><blockquote><p>"From the thirteenth chapter to the eighteenth — what its process is, how they arise, what the three gunas are — this process is given."</p></blockquote><p>The <em>three gunas</em> — sattva, rajas and tamas — are the three qualities of nature that shape our thoughts and actions.</p><p>And at the end, Acharya Ji leaves a question before us:</p><blockquote><p>"So such a long process — what do you think, did Krishna tell it to Arjuna?"</p></blockquote><h2 id="en-s8">Summary: Key Teachings</h2><ol class="takeaways"><li><span class="num">1</span><div><strong>No hardship is permanent.</strong> Illness, broken relationships and poverty need not be carried for a lifetime; Shri Krishna says they are <em>impermanent</em>.</div></li></ol><ol class="takeaways"><li><span class="num">2</span><div><strong>The pairs of opposites are the nature of life.</strong> Cold and heat, pleasure and pain, favourable and adverse circumstances will keep coming and going.</div></li></ol><ol class="takeaways"><li><span class="num">3</span><div><strong>Pleasure and pain are born of contact.</strong> Every experience that arises from the contact of the senses with their objects is subject to arising and perishing.</div></li></ol><ol class="takeaways"><li><span class="num">4</span><div><strong>It is the situation that perishes, not you.</strong> Whatever has arisen must end — but it will not go on its own; you will have to do something for it.</div></li></ol><ol class="takeaways"><li><span class="num">5</span><div><strong>"Endure" is the first teaching, not the last.</strong> Spending life merely enduring is not the message of the Gita.</div></li></ol><ol class="takeaways"><li><span class="num">6</span><div><strong>After endurance comes the whole journey of the Gita</strong> — karma yoga, yajna (sacrifice), bhakti, meditation, knowledge of Brahman and understanding of the three gunas. This is the way through life's struggles.</div></li></ol><section class="video"><a href="https://www.youtube.com/watch?v=m2IU0GRbYW8" target="_blank" rel="noopener"><img src="assets/m2IU0GRbYW8.jpg" alt="Overcome the Struggles of Life | Awakening Video by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Overcome the Struggles of Life | Awakening Video by Acharya Upendra Ji<small>YouTube · 5:35</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Introduction: Why Doesn't the Situation Change?</a></li><li><a href="#en-s2">Three Kinds of Bondage: Illness, Relationships and Poverty</a></li><li><a href="#en-s3">Shri Krishna's First Teaching</a></li><li><a href="#en-s4">Where Pleasure and Pain Are Born</a></li><li><a href="#en-s5">If It Is Impermanent, How Can It Be Permanent?</a></li><li><a href="#en-s6">"Endure" — The First Teaching, Not the Last</a></li><li><a href="#en-s7">After Endurance: The Whole Journey of the Gita</a></li><li><a href="#en-s8">Summary: Key Teachings</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
