@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>गुरु के सान्निध्य में हर क्षण नया जन्म | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — गुरु के सान्निध्य में हर क्षण नया जन्म">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="गुरु के सान्निध्य में हर क्षण नया जन्म | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>गुरु के सान्निध्य में हर क्षण नया जन्म</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ८ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=9_Olb-bBLgA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">छह महीने में एक नया व्यक्ति</h2><p>कल्पना कीजिए कि आप दिन के आठ से बारह घंटे गुरु के <strong>आभामंडल</strong> (aura) में बिताते हैं। वहां निरंतर कर्मों का आदान-प्रदान होता रहता है, और आपको पता भी नहीं चलता।</p><p>एक साधिका अपने अनुभव से कहती हैं कि यदि आप छह महीने ऐसे गुरु के सान्निध्य में रहें, तो छह महीने के अंत में आप पूरी तरह एक नए व्यक्ति होंगे। मानो नया जन्म हुआ हो। आपको याद भी नहीं आएगा कि आपका पहला जीवन कैसा था।</p><p>इस परिवर्तन के लिए गुरु एक साधन देते हैं: <strong>सेवा</strong> (selfless service)।</p><h2 id="hi-s2">सेवा की बारी क्यों बनी?</h2><p>शुरुआती शिविरों में आठ बजे शिविर शुरू होता था, और गुरुकुल की सफाई उससे पहले होनी थी। पंद्रह-बीस के समूह में वही चार-पांच लोग जल्दी आते, बाकी आराम से आठ बजे पहुंचते। सोच यह थी: पहले तो बस सफाई है, उसमें हमारा क्या काम?</p><p>गुरुजी ने देखा कि वही लोग बार-बार वही सेवा कर रहे हैं, खाना भी वही ला रहे हैं। तब <strong>सेवा की समय-सारिणी</strong> बनी। सफाई से लेकर हर कार्य, हर व्यक्ति को शिविर में कम से कम एक-दो बार करना है।</p><p>जैसे गुरु साधक को सिखाते हैं, वैसे कभी-कभी साधकों का व्यवहार भी गुरु को नए नियम बनाने की प्रेरणा देता है।</p><h2 id="hi-s3">"इसके लिए तो रसोइया रख सकते हैं"</h2><p>शिविर में सुबह आठ से रात आठ तक केवल एक बार भोजन होता था। वह कभी बाहर से नहीं मंगवाया जाता था। केवल <strong>सात्विक भोजन</strong>, गिने-चुने व्यंजन, और सबसे अच्छा फलाहार।</p><p>वक्ता बड़ी ईमानदारी से बताती हैं कि अपने पहले शिविर में उनके भीतर <strong>तमोगुण</strong> (जड़ता) और <strong>रजोगुण</strong> (बेचैनी) भरा था। सुबह उठकर बीस लोगों का खाना बनाकर सात बजे घर से निकलना कई लोगों के लिए सरल होगा, "लेकिन मैं उनमें से नहीं थी।" मन कहता था: इतनी शिक्षा है, इसके लिए तो कोई रसोइया रख सकते हैं।</p><p>पहले दस-पंद्रह दिन उत्साह रहा। फिर "थोड़ी चालाक बुद्धि" चलने लगी: यह काम छह महीने कैसे करेंगे?</p><h2 id="hi-s4">जब पूरा समूह "विकल्प" लेकर पहुंचा</h2><p>योजना बनी कि गुरुजी को अच्छे मन में देखकर बात की जाए। विकल्प तैयार थे:</p><ul><li>यहीं कोई सात्विक भोजन बनाने वाली रख लें, उसकी भी आमदनी होगी</li><li>या सब अपना-अपना टिफिन ले आएं</li></ul><p>पूरा समूह तुरंत सहमत था। आखिर घर से खाना बनाकर लाने से छुटकारा मिल रहा था! और सबने कहा, "बात करने के लिए तो आप हैं ही।"</p><p>गुरुजी शांति से सारी बात सुनते रहे। वे बहुत अच्छे श्रोता हैं, बीच में कभी नहीं रोकते। वक्ता आज उस दृश्य को याद करके कहती हैं: यहीं मैं गलत थी। और यह इसलिए बता रही हैं ताकि हम वही गलती न दोहराएं, क्योंकि जो दूसरों की गलतियों से सीखते हैं, वे अच्छे लोग होते हैं।</p><h2 id="hi-s5">परिवार की परिभाषा कितनी बड़ी है?</h2><p>सब सुनने के बाद गुरुजी ने कहा:</p><blockquote><p>"इतने साल अपना-अपना, मैं-मेरा करने में बीत गए। क्या मिला उससे? कभी तो परिवार का आकार बढ़ाओ।"</p></blockquote><p>घर पर बच्चे को सात बजे टिफिन चाहिए, तो हम उठते हैं, रोज नया व्यंजन बनाते हैं। फिर गुरुजी ने पूछा:</p><blockquote><p>"क्या ये पंद्रह लोग अभी परिवार नहीं हैं? क्या उनके लिए प्यार से बना नहीं सकते?"</p></blockquote><p>यही "बहुत बड़ी सीख" थी। सेवा का छोटा सा कार्य, जो गुरु सबमें बांटते हैं, यदि कोई उससे सच में सीख ले, तो पूरा जीवन बदल सकता है। क्योंकि उस कार्य के पीछे कोई बहुत बड़ा हाथ होता है।</p><p><em>आपके "परिवार" की सीमा कहां खत्म होती है? क्या कोई ऐसा है जिसके लिए आप प्रेम से कुछ कर सकते हैं, पर अभी तक "मेरा नहीं" कहकर टालते आए हैं?</em></p><h2 id="hi-s6">वाणी जो संस्कार बन जाती है</h2><p>उसके बाद <strong>एकत्व की भावना</strong> (oneness) से सुबह भोजन बनाना शुरू हुआ, और पूरा दृष्टिकोण बदल गया। परिवार की परिभाषा इतनी सीमित क्यों? वरना यहां दिव्यता सीखने का क्या लाभ? अचानक बिंदु जुड़ने लगे।</p><p>गुरु जो कहते हैं, वह केवल सुनी हुई बात नहीं रहती। वह हमारे <strong>संस्कार</strong> (गहरे मानसिक छाप, deep impressions) में उतर जाती है, स्थायी रूप से। अगली बार वैसी गलती का विचार भी आए, तो वह संस्कार सामने आ खड़ा होता है और गुरुजी का वाक्य मन में घंटी की तरह बजने लगता है।</p><h2 id="hi-s7">तमस से रजस, रजस से सत्त्व</h2><p>यह परिवर्तन एक सीढ़ी था। उस समय तमोगुण से रजोगुण तक पहुंचना हुआ, क्योंकि सुबह उठकर भोजन बनाने के लिए थोड़ा रजोगुण भी चाहिए! गीता में भगवान श्रीकृष्ण यही क्रम बताते हैं:</p><blockquote class="verse"><p><strong>रजस्तमश्चाभिभूय सत्त्वं भवति भारत।</strong><br>(श्रीमद्भगवद्गीता १४.१०)</p></blockquote><p>अर्थात्, रजोगुण और तमोगुण को दबाकर सत्त्वगुण बढ़ता है। पहले तमस को दबाकर रजस में आते हैं, फिर रजस को दबाकर सत्त्व बढ़ता है।</p><p>हर दिन कोई नई परीक्षा, किसी नई गलती का अहसास। "सचमुच गुरुजी हमें धोते थे।" और फिर यह गहरी बात:</p><blockquote><p>"जब ऐसा लगता है कि पूरा जीवन गलत है, तो वही दिन है जहां से आपके सही जीवन की शुरुआत होती है।"</p></blockquote><h2 id="hi-s8">"अपने उपाय के लिए मत भागना"</h2><p>एक यात्रा में सब अपने-अपने <strong>उपाय</strong> (remedies) करने गए थे। हर किसी में होड़ थी कि मेरा यह उपाय होना चाहिए। चार-चार बार रिकॉर्डिंग सुनी, कागज-कलम लेकर उपाय लिखकर ले गए।</p><p>पर गुरुजी की सीख एक ही थी: <strong>अपने उपाय के लिए मत भागना।</strong></p><p>करना केवल एक काम है: <strong>गुरु की पादुका</strong> (Guru's sandals) का अनुसरण। गुरु गीता में भी यही कहा गया है। पादुका का पूजन यानी गुरु जिस मार्ग पर चलते हैं, उसी पर चलना।</p><p>और गुरु का मार्ग क्या है? वे कभी "मैं-मेरा" नहीं करते। उनकी अपनी व्यक्तिगत प्राथमिकता हमेशा अंतिम होती है।</p><h2 id="hi-s9">शनि मंदिर, और गुरु का मौन बलिदान</h2><p>यात्रा की अंतिम से पहली संध्या, सब शनि मंदिर में थे। लगभग सभी को शनि का उपाय आया था। सबका कार्य पूरा होने पर गुरुजी के मुख से निकला: "सबके सारे उपाय हो चुके हैं, पूर्ण।" सब प्रसन्न थे, यात्रा सफल थी।</p><p>पर उसी क्षण गुरुजी ने सबका सामूहिक <strong>हलाहल</strong> (विष, यानी सामूहिक कर्मों का भार) अपने ऊपर ले लिया।</p><p>उस रात आधी रात तक सत्र चला। अगली सुबह गुरुजी बाहर नहीं आए। शाम को पता चला कि उन्हें ज्वर आया था। पर जब शाम को वे मिले, तो चेहरे पर ज्वर का नामो-निशान नहीं था। योग और तपस्या से उन्होंने वह सारा हलाहल एक ही दिन में पचा लिया।</p><p>न कोई शिकायत, न यह भाव कि "क्या आप इसके योग्य हैं? मैं आपका हलाहल क्यों लूं?" वही प्रसन्नता, वही मुस्कान, वही ऊर्जा। किसी को पता भी नहीं चला।</p><blockquote><p>"गुरु में मनुष्य बुद्धि हमें नहीं देखनी है।"</p></blockquote><p>हम कभी नहीं समझ पाएंगे कि गुरु भीतर से क्या अनुभव करते हैं, शिष्य के लिए, और शिष्य के गलत करने पर। यह हमारी कल्पना से परे है। इसलिए गुरु जो कहें, बस उतना करना है।</p><p><em>क्या आपने कभी अपने गुरु या मार्गदर्शक के किसी शब्द को अपनी मनुष्य-बुद्धि से तौला है, बिना यह जाने कि उसके पीछे क्या था?</em></p><h2 id="hi-s10">सात सौ किलो, और फिर भी "मैं खुश नहीं हूं"</h2><p>यात्रा में दान बांटा गया, सात सौ किलो। सब बहुत खुश थे। पर गुरुजी बिल्कुल प्रसन्न नहीं थे। उन्होंने याद दिलाया कि श्री विद्या वाला यह देश, जहां बच्चा-बच्चा श्री विद्या जानता था, सोने की चिड़िया था, और आज इतना दान करके भी लगता है कि हम समाज के लिए ०.०१ प्रतिशत भी नहीं कर रहे।</p><blockquote><p>"आपकी एक थैली लेने से उसका क्या हो जाएगा? अगले महीने का राशन उसको कैसे मिलेगा?"</p></blockquote><p>सेवा का अर्थ अपनी संतुष्टि नहीं, दूसरे की वास्तविक आवश्यकता है।</p><h2 id="hi-s11">पादुका-पूजन का सच्चा अर्थ</h2><p>जिस मार्ग से गुरु गए हैं, बस उसी पर चलना है। फिर हमारा कल्याण निश्चित है। अपनी सामर्थ्य के अनुसार थोड़ा-थोड़ा वैसा जीने का प्रयास ही सच्चा पादुका-पूजन है। वरना केवल चप्पल की पूजा करने से कुछ नहीं होगा।</p><h2 id="hi-s12">मुख्य बातें</h2><ul><li>गुरु के सान्निध्य में निरंतर कर्मों का आदान-प्रदान होता है; छह महीने में व्यक्ति नया जन्म जैसा अनुभव करता है।</li><li><strong>सेवा</strong> परिवर्तन का साधन है, और छोटे से छोटे सेवा-कार्य के पीछे बड़ा उद्देश्य होता है।</li><li>"मैं-मेरा" छोड़कर परिवार की परिभाषा बड़ी करना ही असली सीख है।</li><li>गुरु की वाणी <strong>संस्कार</strong> बनकर भीतर स्थायी हो जाती है।</li><li>साधना क्रमशः होती है: तमस से रजस, रजस से सत्त्व (गीता १४.१०)।</li><li>जिस दिन लगे कि पूरा जीवन गलत है, उसी दिन सही जीवन शुरू होता है।</li><li>अपने उपाय के पीछे मत भागो; गुरु की पादुका का अनुसरण करो।</li><li>गुरु शिष्यों का हलाहल चुपचाप अपने ऊपर लेते हैं; उनमें मनुष्य-बुद्धि न देखें।</li><li>सच्चा पादुका-पूजन गुरु के मार्ग पर चलना है, केवल चप्पल की पूजा नहीं।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=9_Olb-bBLgA" target="_blank" rel="noopener"><img src="assets/9_Olb-bBLgA.jpg" alt="जीवित सद्गुरु के साथ हर क्षण एक नया जन्म है | Every Moment With an Enlightened Master Is a New Birth" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">जीवित सद्गुरु के साथ हर क्षण एक नया जन्म है | Every Moment With an Enlightened Master Is a New Birth<small>YouTube · 14:40</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">छह महीने में एक नया व्यक्ति</a></li><li><a href="#hi-s2">सेवा की बारी क्यों बनी?</a></li><li><a href="#hi-s3">"इसके लिए तो रसोइया रख सकते हैं"</a></li><li><a href="#hi-s4">जब पूरा समूह "विकल्प" लेकर पहुंचा</a></li><li><a href="#hi-s5">परिवार की परिभाषा कितनी बड़ी है?</a></li><li><a href="#hi-s6">वाणी जो संस्कार बन जाती है</a></li><li><a href="#hi-s7">तमस से रजस, रजस से सत्त्व</a></li><li><a href="#hi-s8">"अपने उपाय के लिए मत भागना"</a></li><li><a href="#hi-s9">शनि मंदिर, और गुरु का मौन बलिदान</a></li><li><a href="#hi-s10">सात सौ किलो, और फिर भी "मैं खुश नहीं हूं"</a></li><li><a href="#hi-s11">पादुका-पूजन का सच्चा अर्थ</a></li><li><a href="#hi-s12">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="A New Birth Every Moment in the Presence of the Guru | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>A New Birth Every Moment in the Presence of the Guru</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=9_Olb-bBLgA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">A New Person in Six Months</h2><p>Imagine spending eight to twelve hours a day in the Guru's <strong>aura</strong>. Karmas are continuously being exchanged there, and you do not even notice it.</p><p>A sadhika says from her own experience that if you stay in the Guru's presence like this for six months, at the end of six months you will be a completely new person. As if you had been reborn. You will not even remember what your earlier life was like.</p><p>For this transformation, the Guru gives one means: <strong>seva</strong> (selfless service).</p><h2 id="en-s2">Why Was a Seva Rota Created?</h2><p>In the early shivirs, the session began at eight, and the gurukul had to be cleaned before that. In a group of fifteen or twenty, the same four or five people came early; the rest arrived comfortably at eight. The thinking was: at first there is only cleaning, what does that have to do with us?</p><p>Guruji saw that the same people were doing the same seva again and again, and also bringing the food. So a <strong>seva timetable</strong> was created. Every task, from cleaning onward, had to be done by every person at least once or twice during the shivir.</p><p>Just as the Guru teaches the sadhak, sometimes the sadhaks' behaviour also prompts the Guru to make new rules.</p><h2 id="en-s3">"Surely We Can Keep a Cook for This"</h2><p>At the shivir there was only one meal between eight in the morning and eight at night. It was never ordered from outside. Only <strong>sattvic food</strong>, a few chosen items, and best of all, fruit.</p><p>The speaker shares very honestly that in her first shivir she was full of <strong>tamoguna</strong> (inertia) and <strong>rajoguna</strong> (restlessness). Getting up in the morning, cooking for twenty people and leaving home by seven may be easy for many, "but I was not one of them." The mind said: so much education, surely we can keep a cook for this.</p><p>For the first ten or fifteen days there was enthusiasm. Then "a slightly manipulative intellect" started up: how will we do this for six months?</p><h2 id="en-s4">When the Whole Group Arrived With "Options"</h2><p>The plan was to catch Guruji in a good mood and talk to him. The options were ready:</p><ul><li>Keep a sattvic cook right here, and she will earn an income too</li><li>Or everyone brings their own tiffin</li></ul><p>The whole group agreed at once. After all, they were being spared cooking at home and bringing food! And everyone said, "You are there to do the talking."</p><p>Guruji listened calmly to it all. He is a very good listener and never stops you midway. Remembering that scene today, the speaker says: this is where I went wrong. And she shares it so that we do not repeat the same mistake, because those who learn from the mistakes of others are good people.</p><h2 id="en-s5">How Big Is the Definition of Family?</h2><p>After hearing everything, Guruji said:</p><blockquote><p>"So many years have gone by in 'my own, my own', in 'I and mine'. What did you get from it? Expand the size of your family for once."</p></blockquote><p>At home, the child needs a tiffin at seven, so we get up and cook a new dish every day. Then Guruji asked:</p><blockquote><p>"Are these fifteen people not family now? Can you not cook for them with love?"</p></blockquote><p>That was the "very big lesson". The small task of seva that the Guru shares among everyone: if someone truly learns from it, their whole life can change. Because behind that task there is a very great hand.</p><p><em>Where does the boundary of your "family" end? Is there someone you could do something for with love, but have kept putting off by saying "not mine"?</em></p><h2 id="en-s6">Words That Become Sanskara</h2><p>After that, cooking in the morning began with a <strong>feeling of oneness</strong>, and the whole approach changed. Why is the definition of family so limited? Otherwise what is the use of learning divinity here? Suddenly the dots began to connect.</p><p>What the Guru says does not remain merely something heard. It goes into our <strong>sanskaras</strong> (deep impressions), permanently. Next time, if even the thought of that mistake arises, that sanskara rises before you and Guruji's words ring in your mind like a bell.</p><h2 id="en-s7">From Tamas to Rajas, From Rajas to Sattva</h2><p>This transformation was a ladder. At that time it was a move from tamoguna to rajoguna, because getting up in the morning to cook needs a little rajoguna too! In the Gita, Lord Krishna describes exactly this sequence:</p><blockquote class="verse"><p><strong>rajas tamaś cābhibhūya sattvaṁ bhavati bhārata</strong><br>"Sattva grows by overpowering rajas and tamas."<br>(Bhagavad Gita 14.10)</p></blockquote><p>That is, sattvaguna grows by overpowering rajoguna and tamoguna. First we overpower tamas and come into rajas, then by overpowering rajas, sattva grows.</p><p>Every day a new test, the realisation of some new mistake. "Guruji literally washed us." And then this deep insight:</p><blockquote><p>"When you feel your whole life is wrong, that is the very day your right life begins."</p></blockquote><h2 id="en-s8">"Do Not Run After Your Own Remedy"</h2><p>On one yatra, everyone went to do their own <strong>upay</strong> (remedies). Everyone competed: this should be my remedy. They listened to the recording four times over and went with paper and pen, their remedies written out.</p><p>But Guruji's lesson was just one: <strong>do not run after your own remedy.</strong></p><p>There is only one thing to do: follow the <strong>Guru's paduka</strong> (the Guru's sandals). The Guru Gita says this too. Worshipping the paduka means walking the path the Guru walks.</p><p>And what is the Guru's path? He never does "I and mine". His own individual priority is always last.</p><h2 id="en-s9">The Shani Temple, and the Guru's Silent Sacrifice</h2><p>On the second-to-last evening of the yatra, everyone was at the Shani temple. Almost everyone had received a Shani remedy. When everyone's work was complete, the words came from Guruji's mouth: "Everyone's remedies are all done, complete." Everyone was happy; the yatra was a success.</p><p>But in that very moment Guruji took everyone's collective <strong>halahal</strong> (poison, meaning the burden of collective karma) upon himself.</p><p>That night the session went on until midnight. The next morning Guruji did not come out. In the evening they learned that he had had a fever. But when he met them in the evening, there was not a trace of fever on his face. Through yoga and tapasya he had digested all that halahal in a single day.</p><p>No complaint, no feeling of "Do you deserve this? Why should I take your halahal?" The same happiness, the same smile, the same energy. Nobody even knew.</p><blockquote><p>"We must not see a human intellect in the Guru."</p></blockquote><p>We will never understand what the Guru feels within, for the disciple, and when the disciple does wrong. It is beyond our imagination. So whatever the Guru says, we just do that much.</p><p><em>Have you ever weighed some word of your Guru or guide with your human intellect, without knowing what lay behind it?</em></p><h2 id="en-s10">Seven Hundred Kilos, and Still "I Am Not Happy"</h2><p>On the yatra, charity was distributed, seven hundred kilos. Everyone was very happy. But Guruji was not at all pleased. He reminded them that this land of Shri Vidya, where every child knew Shri Vidya, was the golden bird, and today even after giving this much it feels as if we are not doing even 0.01 percent for society.</p><blockquote><p>"What will happen to her by taking one bag from you? How will she get next month's ration?"</p></blockquote><p>Seva means not our own satisfaction, but the other person's real need.</p><h2 id="en-s11">The True Meaning of Paduka Worship</h2><p>The path the Guru has walked, we simply have to walk it. Then our welfare is certain. Trying to live that way little by little, as we are able, is the true worship of the paduka. Otherwise merely worshipping the sandals achieves nothing.</p><h2 id="en-s12">Key Takeaways</h2><ul><li>In the Guru's presence karmas are continuously exchanged; in six months a person experiences something like a new birth.</li><li><strong>Seva</strong> is the means of transformation, and even the smallest task of seva has a great purpose behind it.</li><li>The real lesson is to drop "I and mine" and widen the definition of family.</li><li>The Guru's words settle within permanently as <strong>sanskaras</strong>.</li><li>Sadhana moves step by step: from tamas to rajas, from rajas to sattva (Gita 14.10).</li><li>The day you feel your whole life is wrong is the day your right life begins.</li><li>Do not run after your own remedy; follow the Guru's paduka.</li><li>The Guru silently takes the disciples' halahal upon himself; do not see a human intellect in him.</li><li>True paduka worship is walking the Guru's path, not merely worshipping the sandals.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=9_Olb-bBLgA" target="_blank" rel="noopener"><img src="assets/9_Olb-bBLgA.jpg" alt="जीवित सद्गुरु के साथ हर क्षण एक नया जन्म है | Every Moment With an Enlightened Master Is a New Birth" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">जीवित सद्गुरु के साथ हर क्षण एक नया जन्म है | Every Moment With an Enlightened Master Is a New Birth<small>YouTube · 14:40</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">A New Person in Six Months</a></li><li><a href="#en-s2">Why Was a Seva Rota Created?</a></li><li><a href="#en-s3">"Surely We Can Keep a Cook for This"</a></li><li><a href="#en-s4">When the Whole Group Arrived With "Options"</a></li><li><a href="#en-s5">How Big Is the Definition of Family?</a></li><li><a href="#en-s6">Words That Become Sanskara</a></li><li><a href="#en-s7">From Tamas to Rajas, From Rajas to Sattva</a></li><li><a href="#en-s8">"Do Not Run After Your Own Remedy"</a></li><li><a href="#en-s9">The Shani Temple, and the Guru's Silent Sacrifice</a></li><li><a href="#en-s10">Seven Hundred Kilos, and Still "I Am Not Happy"</a></li><li><a href="#en-s11">The True Meaning of Paduka Worship</a></li><li><a href="#en-s12">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
