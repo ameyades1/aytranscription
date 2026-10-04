@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>हर शुभ आरंभ की रक्षक शक्ति | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — हर शुभ आरंभ की रक्षक शक्ति">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="हर शुभ आरंभ की रक्षक शक्ति | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">महाकाली पहले क्यों आती हैं</div>
+  <h1>हर शुभ आरंभ की रक्षक शक्ति</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ६ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=GNHT_imyrIg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>हम अक्सर महाकाली को केवल उग्र रूप में देखते हैं। पर क्या आपने कभी सोचा है कि दुर्गा सप्तशती का पहला खंड महाकाली का ही क्यों है?</p><p>इस प्रवचन में आचार्य उपेंद्र जी बहुत सरल, रोज़मर्रा के उदाहरणों से समझाते हैं कि महाकाली की वास्तविक भूमिका क्या है, और क्यों हर कार्य का आरंभ उन्हीं से होना चाहिए।</p><h2 id="hi-s1">त्रिगुणात्मक दुर्गा: तीन गुण, तीन शक्तियाँ</h2><p>दुर्गा देवी <strong>त्रिगुणात्मक</strong> हैं, अर्थात तीन गुणों से बनी हैं। ये तीन गुण हैं: सात्विक, राजसिक और तामसिक।</p><ul><li><strong>सात्विक:</strong> सरस्वती, जिनमें ज्ञान है</li><li><strong>राजसिक:</strong> महालक्ष्मी, जिनमें धन और ऐश्वर्य है</li><li><strong>तामसिक:</strong> महाकाली</li></ul><p>अब प्रश्न यह है कि महाकाली यदि लड़ेंगी, तो किसके लिए लड़ेंगी? उत्तर है: बाकी दोनों के लिए।</p><h2 id="hi-s2">रक्षा किसकी? ज्ञान और लक्ष्मी की</h2><p>धन ही तो लूटा जाता है। उसकी रक्षा के लिए ही इतने लोग लगाने पड़ते हैं। और विद्या की बौद्धिक संपदा (intellectual property) चोरी होती है। इसीलिए सारी सुरक्षा व्यवस्था चाहिए।</p><p>आचार्य जी पूछते हैं: कोई अहिंसक कार्य करना हो, धर्म प्रचार करना हो, तो सबसे पहले क्या चाहिए? उत्तर है, चौकीदार, सुरक्षा।</p><p><em>आप अपने जीवन में जो कुछ बना रहे हैं, क्या उसकी रक्षा की व्यवस्था भी आपने सोची है?</em></p><h2 id="hi-s3">पहले सीमा, फिर नींव</h2><p>कोई भवन बनाना हो, तो पहले भूखंड आता है। नींव का गड्ढा खोदने से पहले बाहर सीमा बनाई जाती है, और सीमा के बाहर चौकीदार बैठता है।</p><p>अगर भूखंड खुला छोड़ दो और एक सप्ताह बाद जाओ, तो वहाँ पहले ही झोपड़ी पड़ी मिलेगी। उसे हटाने के लिए फिर पुलिस बल लाना पड़ेगा। इससे अच्छा है कि पहले ही सुरक्षा लगा दो। इसी को महाकाली कहते हैं।</p><blockquote><p>"कुछ भी आरंभ करना हो, तो किससे शुरू करना होता है? महाकाली से।"</p></blockquote><p>इसीलिए दुर्गा सप्तशती के तीन खंडों में पहला खंड महाकाली का है।</p><h2 id="hi-s4">कलियुग में इंद्र की सौ आँखें</h2><p>आपने कंपनी शुरू की, कार्यालय बन गया। सबसे पहले क्या करते हैं? यहाँ कैमरा, वहाँ कैमरा। ताकि कोई गड़बड़ न करे और आप निश्चिंत होकर सो सकें। संसार में कहीं से भी मोबाइल पर सब दिखता है।</p><p>कहते हैं इंद्र की सौ आँखें हैं। आचार्य जी कहते हैं कि कलियुग में वे सौ आँखें <strong>कलिका यंत्र</strong> से होती हैं। ये आँखें, ये गुप्तचर, यही <strong>काली का पहला कार्य</strong> है। फिर नीचे चौकीदार। यह सब है <strong>बाह्य रक्षण</strong> (external protection)।</p><h2 id="hi-s5">आपके नाम और सृजन की रक्षा</h2><p>बाहरी सुरक्षा के बाद आते हैं प्रतिलिप्यधिकार (copyright) और पेटेंट। "अंतर" के नाम के आगे "R" क्यों लिखा है? ताकि कल कोई दूसरा वह नाम न ले ले। आप बड़ा काम करेंगे, तो कोई न कोई वह नाम लेने आएगा ही।</p><blockquote><p>"तुम मानो या न मानो, कोई न कोई आने का प्रयास करेगा ही।"</p></blockquote><h2 id="hi-s6">गुण-वृत्ति-विरोध: जब कोई टांग खींचे</h2><p>संसार तीन गुणों से बना है, और शास्त्रों में <strong>गुण-वृत्ति-विरोध</strong> बताया गया है, अर्थात गुणों के बीच स्वाभाविक टकराव। जितना आप ऊपर जाने का प्रयास करेंगे, कोई न कोई टांग खींचेगा।</p><p>जो यह नहीं मानते, शास्त्र उन्हें मूर्ख कहते हैं। उनकी सीता को रावण उठा ले जाएगा। यहाँ रावण हैं तामसिक लोग, और सीता हैं रजस शक्ति, लक्ष्मी।</p><p>और आपका सत्व, अर्थात आपका सृजन: कोई कविता, कोई गीत, कोई वैज्ञानिक सूत्र। किसी वैज्ञानिक पर बंदूक तान दो, और सूत्र एक मिनट में चला गया। इसलिए पेटेंट, प्रतिलिप्यधिकार, सब कुछ आरंभ करने से भी पहले होना चाहिए।</p><h2 id="hi-s7">प्रकृति विस्तार चाहती है</h2><p>प्रकृति कहती है कि हर चीज़ का विस्तार होना चाहिए। क्योंकि मनुष्य <strong>अनंत आनंद</strong> खोजता रहता है। पहले उसे पता नहीं होता कि अनंत आनंद भीतर है, वह उसे बाहर खोजता है।</p><p>आचार्य जी इस यात्रा को ऐसे बताते हैं: <strong>शुद्ध भावना, निर्मल मन, निश्चल मन, विशाल मन</strong>, और फिर समर्पण, "सब मिट", शिव जी के समय। पर उससे पहले, जब मन विशाल हो रहा है, तब हम सब विस्तार करना चाहते हैं।</p><p>तीन लोगों को सिखाया, तो सौ क्यों नहीं? सौ तो हज़ार क्यों नहीं? हज़ार तो दस हज़ार, फिर पूरा संसार क्यों नहीं? अस्पताल है तो उसकी शाखाएँ, पिज़्ज़ा है तो उसकी फ्रेंचाइज़ी। ऐसे ही मनुष्य बड़ा होता है।</p><p><em>क्या आपका विस्तार आपकी सुरक्षा से आगे तो नहीं भाग रहा?</em></p><h2 id="hi-s8">बड़े होते ही बुरी नज़र</h2><p>जैसे ही आप बड़े होने का सोचते हैं, प्रकृति कहती है कि आप पर काली नज़र, बुरी नज़र आएगी। क्योंकि सबसे यह देखा नहीं जाता। माया बड़ी दुस्तर है, इसे पार करना अत्यंत कठिन है।</p><p>भगवद्गीता में भगवान कहते हैं:</p><blockquote class="verse"><p><strong>यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा।</strong><br><strong>तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥</strong><br>(श्रीमद्भगवद्गीता १०.४१)</p></blockquote><p>जो-जो ऐश्वर्ययुक्त, कांतियुक्त और शक्तियुक्त है, उसे मेरे तेज के अंश की अभिव्यक्ति जानो।</p><p>ऐसी हर शक्तिशाली, धनवान, सुंदर या प्रसिद्ध चीज़ पर लोग वार करना चाहते हैं। किसी मिस वर्ल्ड या मिस यूनिवर्स पर तेज़ाब फेंकने, उसका चेहरा बिगाड़ने तक की प्रवृत्ति होती है। अच्छी चीज़ को खराब करने की प्रवृत्ति होती है।</p><blockquote><p>"जो सुंदर है, उसकी रक्षा करनी पड़ती है।"</p></blockquote><p><strong>सत्यम् शिवम् सुंदरम्।</strong> सुंदर को सुरक्षित रखना है।</p><h2 id="hi-s9">प्लेटफॉर्म स्वच्छ क्यों रहता है?</h2><p>नया प्लेटफॉर्म बनाया, और दूसरे दिन से ही पीक की पिचकारियाँ। विदेश के या हमारी मेट्रो के प्लेटफॉर्म स्वच्छ क्यों रहते हैं? क्योंकि वहाँ पुलिस खड़ी रहती है। जहाँ कोई देखने वाला नहीं, वहाँ लोग कैसा भी करेंगे। इसलिए सबसे पहले सुरक्षा व्यवस्था।</p><h2 id="hi-s10">होटल और मरा हुआ कॉकरोच</h2><p>आपने होटल खोला, दस शाखाएँ हो गईं। केवल विस्तार करेंगे, तो लोग क्या करेंगे? जो स्वयं ऊपर नहीं उठ सकते, वे गिराने आएंगे।</p><p>कोई जानबूझकर किसी शाखा में आएगा, जेब से मरा हुआ कॉकरोच निकालकर चाय में डाल देगा, और कैमरे से वीडियो बनाकर ले जाएगा। तब आप क्या करेंगे?</p><p>आपके पास भी ऊपर से कैमरा होना चाहिए, जो दिखाए कि उसने क्या किया। पूरी निगरानी। पहले यह भौतिक रूप से होता था, दस-दस बार जाँच होती थी। आज यह डिजिटल है। सिद्धांत वही है।</p><p><em>आपके ज्ञान, धन या सौंदर्य की रक्षा करने वाली "महाकाली" आपके जीवन में कहाँ है?</em></p><h2 id="hi-s11">मुख्य बातें</h2><ul><li>दुर्गा त्रिगुणात्मक हैं: सरस्वती (सात्विक, ज्ञान), महालक्ष्मी (राजसिक, धन), महाकाली (तामसिक, रक्षा)।</li><li>महाकाली बाकी दोनों, ज्ञान और लक्ष्मी, की रक्षा के लिए लड़ती हैं।</li><li>हर कार्य महाकाली से, अर्थात सुरक्षा से, आरंभ होना चाहिए। इसीलिए दुर्गा सप्तशती का पहला खंड महाकाली का है।</li><li>बाह्य रक्षण (कैमरे, चौकीदार) और नाम व सृजन की रक्षा (पेटेंट, प्रतिलिप्यधिकार) दोनों आवश्यक हैं।</li><li>गुण-वृत्ति-विरोध के कारण जो ऊपर उठता है, उसकी टांग खींची जाती है।</li><li>प्रकृति विस्तार चाहती है, पर विस्तार के साथ बुरी नज़र भी आती है। इसलिए विस्तार से पहले सुरक्षा।</li><li>सत्यम् शिवम् सुंदरम्: जो सुंदर है, उसकी रक्षा करनी पड़ती है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=GNHT_imyrIg" target="_blank" rel="noopener"><img src="assets/GNHT_imyrIg.jpg" alt="The Real Role of Maha Kali Revealed by Brahmarshi Acharya Upendra Ji (MUST WATCH)" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Real Role of Maha Kali Revealed by Brahmarshi Acharya Upendra Ji (MUST WATCH)<small>YouTube · 6:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">त्रिगुणात्मक दुर्गा: तीन गुण, तीन शक्तियाँ</a></li><li><a href="#hi-s2">रक्षा किसकी? ज्ञान और लक्ष्मी की</a></li><li><a href="#hi-s3">पहले सीमा, फिर नींव</a></li><li><a href="#hi-s4">कलियुग में इंद्र की सौ आँखें</a></li><li><a href="#hi-s5">आपके नाम और सृजन की रक्षा</a></li><li><a href="#hi-s6">गुण-वृत्ति-विरोध: जब कोई टांग खींचे</a></li><li><a href="#hi-s7">प्रकृति विस्तार चाहती है</a></li><li><a href="#hi-s8">बड़े होते ही बुरी नज़र</a></li><li><a href="#hi-s9">प्लेटफॉर्म स्वच्छ क्यों रहता है?</a></li><li><a href="#hi-s10">होटल और मरा हुआ कॉकरोच</a></li><li><a href="#hi-s11">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Guardian Power of Every Auspicious Beginning | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">Why Maha Kali Comes First</div>
+  <h1>The Guardian Power of Every Auspicious Beginning</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 6 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=GNHT_imyrIg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>We often see Maha Kali only in her fierce form. But have you ever wondered why the first part of the Durga Saptashati belongs to Maha Kali?</p><p>In this discourse, Acharya Upendra Ji uses simple, everyday examples to explain the real role of Maha Kali, and why every undertaking should begin with her.</p><h2 id="en-s1">Durga of the Three Gunas: Three Qualities, Three Powers</h2><p>Durga Devi is <strong>trigunatmak</strong>, that is, made of the three gunas. The three gunas are sattvic, rajasic and tamasic.</p><ul><li><strong>Sattvic:</strong> Saraswati, who holds knowledge</li><li><strong>Rajasic:</strong> Mahalakshmi, who holds wealth and prosperity</li><li><strong>Tamasic:</strong> Maha Kali</li></ul><p>Now the question is: if Maha Kali fights, for whom does she fight? The answer: for the other two.</p><h2 id="en-s2">Protecting Whom? Knowledge and Lakshmi</h2><p>It is wealth that gets looted. That is why so many people are needed to protect it. And the intellectual property of knowledge gets stolen. That is why all this security is needed.</p><p>Acharya Ji asks: if you want to do non-violent work, to spread dharma, what do you need first? The answer: a watchman, security.</p><p><em>Whatever you are building in your life, have you also thought about how to protect it?</em></p><h2 id="en-s3">First the Boundary, Then the Foundation</h2><p>If you want to build something, first comes the plot. Before digging the foundation, a boundary is put up outside, and a watchman sits outside the boundary.</p><p>If you leave the plot open and come back after a week, you will find a hut already standing there. To remove it you will have to bring in the police. Better to put security in place first. That is called Maha Kali.</p><blockquote><p>"Whenever you start anything, what do you start with? With Maha Kali."</p></blockquote><p>That is why, of the three parts of the Durga Saptashati, the first belongs to Maha Kali.</p><h2 id="en-s4">Indra's Hundred Eyes in Kali Yuga</h2><p>You started a company, the office is ready. What do you do first? A camera here, a camera there. So that no one makes trouble and you can sleep without worry. You can see everything on your mobile from anywhere in the world.</p><p>It is said that Indra has a hundred eyes. Acharya Ji says that in Kali Yuga those hundred eyes come from the <strong>Kalika yantra</strong>, the machine. These eyes, these spies, are <strong>Kali's first job</strong>. Then the watchman below. All this is <strong>external protection</strong> (bahya rakshan).</p><h2 id="en-s5">Protecting Your Name and Your Creation</h2><p>After external security come copyrights and patents. Why is there an "R" next to the name "Antar"? So that tomorrow no one else takes that name. If you do great work, someone will certainly come to take the name.</p><blockquote><p>"Whether you believe it or not, somebody will try to come."</p></blockquote><h2 id="en-s6">Guna-Vritti-Virodha: When Someone Pulls Your Leg</h2><p>The world is made of three gunas, and the scriptures describe <strong>guna-vritti-virodha</strong>, the natural conflict between the gunas. The higher you try to rise, the more someone will pull your leg.</p><p>Those who do not accept this, the scriptures call foolish. Ravana will carry off their Sita. Here Ravana is the tamasic people, and Sita is rajas shakti, Lakshmi.</p><p>And your sattva, that is, your creation: a poem, a song, a scientific formula. Point a gun at a scientist, and the formula is gone in a minute. So patents, copyrights, everything must be done before you even begin.</p><h2 id="en-s7">Nature Wants Expansion</h2><p>Nature says everything should expand, because man keeps searching for <strong>infinite bliss</strong>. At first he does not know that infinite bliss is within; he looks for it outside.</p><p>Acharya Ji describes this journey like this: <strong>pure feeling, a clear mind, a still mind, a vast mind</strong>, and then surrender, "everything dissolves", in Shiva's time. But before that, while the mind is growing vast, we all want to expand.</p><p>Taught three people, so why not a hundred? A hundred, then why not a thousand? A thousand, then ten thousand, then why not the whole world? A hospital has branches, pizza has franchises. That is how a person grows big.</p><p><em>Is your expansion running ahead of your protection?</em></p><h2 id="en-s8">The Evil Eye Comes as You Grow</h2><p>As soon as you think of growing big, nature says the dark eye, the evil eye, will fall on you, because not everyone can bear to see it. Maya is very hard to cross; getting across it is extremely difficult.</p><p>In the Bhagavad Gita, the Lord says:</p><blockquote class="verse"><p><strong>yad yad vibhūtimat sattvaṁ śrīmad ūrjitam eva vā</strong><br><strong>tat tad evāvagaccha tvaṁ mama tejo'ṁśa-sambhavam</strong><br>"Whatever is glorious, radiant and powerful, know it to be an expression of a fraction of My splendour."<br>(Bhagavad Gita 10.41)</p></blockquote><p>People want to strike at everything powerful, wealthy, beautiful or famous. With a Miss World or Miss Universe, there is even the urge to throw acid and ruin her face. There is a tendency to ruin what is good.</p><blockquote><p>"You need to protect what is beautiful."</p></blockquote><p><strong>Satyam Shivam Sundaram.</strong> What is beautiful must be kept safe.</p><h2 id="en-s9">Why Does a Platform Stay Clean?</h2><p>You build a new platform, and from the next day people spit paan on it. Why do platforms abroad or on our metro stay clean? Because police stand there. Where no one is watching, people will do anything. So security comes first.</p><h2 id="en-s10">The Hotel and the Dead Cockroach</h2><p>You opened a hotel, and it grew to ten branches. If you only expand, what will people do? Those who cannot rise themselves will come to pull you down.</p><p>Someone will deliberately walk into a branch, take a dead cockroach out of his pocket, drop it into the tea, and leave with a video on his camera. Then what will you do?</p><p>You also need a camera above, showing what he did. Complete tracking. Earlier this was physical, with checking ten times over. Today it is digital. The principle is the same.</p><p><em>Where is the "Maha Kali" in your life that protects your knowledge, wealth or beauty?</em></p><h2 id="en-s11">Key Takeaways</h2><ul><li>Durga is made of three gunas: Saraswati (sattvic, knowledge), Mahalakshmi (rajasic, wealth), Maha Kali (tamasic, protection).</li><li>Maha Kali fights to protect the other two, knowledge and Lakshmi.</li><li>Every undertaking should begin with Maha Kali, that is, with protection. That is why the first part of the Durga Saptashati is Maha Kali's.</li><li>Both external protection (cameras, watchmen) and protection of your name and creation (patents, copyrights) are needed.</li><li>Because of guna-vritti-virodha, whoever rises gets their leg pulled.</li><li>Nature wants expansion, but expansion brings the evil eye. So protection before expansion.</li><li>Satyam Shivam Sundaram: what is beautiful must be protected.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=GNHT_imyrIg" target="_blank" rel="noopener"><img src="assets/GNHT_imyrIg.jpg" alt="The Real Role of Maha Kali Revealed by Brahmarshi Acharya Upendra Ji (MUST WATCH)" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Real Role of Maha Kali Revealed by Brahmarshi Acharya Upendra Ji (MUST WATCH)<small>YouTube · 6:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Durga of the Three Gunas: Three Qualities, Three Powers</a></li><li><a href="#en-s2">Protecting Whom? Knowledge and Lakshmi</a></li><li><a href="#en-s3">First the Boundary, Then the Foundation</a></li><li><a href="#en-s4">Indra's Hundred Eyes in Kali Yuga</a></li><li><a href="#en-s5">Protecting Your Name and Your Creation</a></li><li><a href="#en-s6">Guna-Vritti-Virodha: When Someone Pulls Your Leg</a></li><li><a href="#en-s7">Nature Wants Expansion</a></li><li><a href="#en-s8">The Evil Eye Comes as You Grow</a></li><li><a href="#en-s9">Why Does a Platform Stay Clean?</a></li><li><a href="#en-s10">The Hotel and the Dead Cockroach</a></li><li><a href="#en-s11">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
