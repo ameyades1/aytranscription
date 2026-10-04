@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>आप कैसे शिष्य हैं? गुरु के पास जाने के तीन तरीके | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — आप कैसे शिष्य हैं? गुरु के पास जाने के तीन तरीके">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="आप कैसे शिष्य हैं? गुरु के पास जाने के तीन तरीके | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>आप कैसे शिष्य हैं? गुरु के पास जाने के तीन तरीके</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=V_Mxy5bZpOc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>जब जीवन में कष्ट आता है, तो हम में से अधिकतर लोग किसी गुरु, किसी ज्योतिषी या किसी मार्गदर्शक के पास जाते हैं। पर क्या आपने कभी सोचा है कि आप वहां जाकर <em>क्या मांगते हैं</em>?</p><p>गुरुदेव कहते हैं कि शिष्य तीन प्रकार के होते हैं: <strong>तामसिक, राजसिक और सात्विक</strong>। और कोई भी गुरु आपके एक वाक्य से पहचान लेता है कि आप कैसे शिष्य हैं।</p><h2 id="hi-s1">पहला शिष्य: "मेरे लिए कुछ तो कीजिए"</h2><p>तामसिक (inertia-driven) शिष्य गुरु के पास जाकर कहता है, "गुरुदेव, मेरे लिए कुछ तो कीजिए।" या फिर, "मैं क्या करूं?"</p><p>ऐसा व्यक्ति अभी भी शरीर पर और बाहरी कर्म पर अटका है। उसे विश्वास तभी होता है जब कुछ "किया" जाए। वह चाहता है कोई रामबाण इलाज, कोई उपाय, और वह भी तुरंत।</p><p>गुरुदेव कहते हैं कि हर गुरु भीतर से यह अनुभव करता है कि इसे लौटा दिया जाए, फिर भी बाहर से उत्तर तो देता ही है।</p><h2 id="hi-s2">दूसरा शिष्य: बस मन की शांति चाहिए</h2><p>राजसिक (restless, desire-driven) साधक को समस्या का समाधान नहीं चाहिए। जो होना है होने दो। उसे केवल अपने मन की शांति चाहिए।</p><p>वह पूछता है, "घर में झगड़ा है, क्या दूसरे कमरे में जाकर बैठूं? कोई मंत्र जाप करूं? कुछ करूं क्या?" वह बस इतना ही खोजता है।</p><p><em>रुककर स्वयं से पूछिए: पिछली बार जब मैं किसी मार्गदर्शक के पास गया, तो क्या मैं इन पहले दो में से एक था?</em></p><h2 id="hi-s3">तीसरा शिष्य: "मैं कहां गलत था?"</h2><p>सात्विक (pure, clarity-driven) शिष्य में ज्ञान का उदय होता है। सत्वगुण में चार स्थितियां आती हैं: <strong>ज्ञान, सुख, वैराग्य और चैतन्य</strong>।</p><p>ऐसा शिष्य गुरु के पास जाकर बस इतना कहता है:</p><blockquote><p>"गुरुदेव, तकलीफ तो आ रही है। तकलीफ आ रही है मतलब कुछ न कुछ तो मेरे पूर्व कर्म, उसके संस्कार, उसी का दोष होगा। मैं कहां गलत गया था, बताइए।"</p></blockquote><p>वह संसार को दोष नहीं देता। वह दूसरों की गलती नहीं गिनता। उसकी शुरुआत होती है <strong>स्वीकार्यता</strong> से: भूल मेरी है।</p><h2 id="hi-s4">दवा से नहीं, ज्ञान से मिटता है कर्म</h2><p>जैसे ही गुरु भूल बताते हैं, ज्ञान प्राप्त होता है, और तब कर्म <strong>स्थायी रूप से</strong> सुलझता है। अस्थायी दवा या अस्थायी उपचार से समस्या लौट आती है।</p><p>गुरुदेव डॉक्टर का उदाहरण देते हैं। हृदय का बायपास हो जाए या इंसुलिन चलता रहे, तो या तो दवा की मात्रा बढ़ती जाती है या फिर दौरा आ जाता है। रोग लौट आता है।</p><p>क्यों? क्योंकि डॉक्टर ने बाहर से कर्म काट दिया, पर भीतर से आप वही कर्म करते रहे। कोई सुधार नहीं हुआ, ज्ञान आया ही नहीं।</p><blockquote><p>"कितना भी कीमोथेरेपी करो, कैंसर बढ़ते रहेगा। तो उसको अगर रिलीज करना है, तो ज्ञान आना चाहिए।"</p></blockquote><h2 id="hi-s5">नचिकेता: बारह वर्ष का उत्तम शिष्य</h2><p>कठोपनिषद में नचिकेता की कथा आती है। मात्र बारह वर्ष का बालक, जिसे उसके पिता ने मृत्यु को दान कर दिया। एक अशुभ घटना।</p><p>फिर भी नचिकेता यमराज के पास जाकर यही सोचता है कि यदि मैं उत्तम शिष्य हूं, तो मेरे साथ गलत हो ही नहीं सकता। परिणाम भले गलत दिखे, उसमें भी कुछ अच्छा छिपा होगा।</p><blockquote class="verse"><p><strong>बहूनामेमि प्रथमो बहूनामेमि मध्यमः।</strong><br>(कठोपनिषद् १.१.५)</p></blockquote><p>अर्थात्, बहुतों में मैं प्रथम हूं, बहुतों में मध्यम। नचिकेता कहता है, कम से कम मध्यम शिष्य तो मैं हूं ही, इतना मुझे विश्वास है। और यदि यह विश्वास है, तो मेरे साथ बुरा नहीं हो सकता।</p><h2 id="hi-s6">जब शाप वरदान बन जाए</h2><p>अर्जुन को उर्वशी का शाप लगा था कि वे नपुंसक हो जाएंगे। पर अज्ञातवास के समय वही शाप वरदान बन गया, और वे बृहन्नला बनकर छिपे रह सके।</p><p>अच्छे, सात्विक व्यक्ति पर आया कष्ट भी सही समय पर वरदान में बदल जाता है।</p><h2 id="hi-s7">कर्मफल का अटल नियम</h2><p>कर्म है तो कर्मफल होगा। अशुभ कर्म का अशुभ फल, शुभ कर्म का शुभ फल, यह निश्चित है। अशुभ कर्म का शुभ फल या शुभ कर्म का अशुभ फल, ऐसा अन्याय परमात्मा नहीं करते।</p><blockquote class="verse"><p><strong>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।</strong><br>(श्रीमद्भगवद्गीता २.४७)</p></blockquote><p>कर्म करने में तुम्हारा अधिकार है, फल देना तुम्हारे वश में नहीं। तो उसकी चिंता क्यों? पहले कर्म तो सही करो।</p><h2 id="hi-s8">समस्या असल में कब लगती है?</h2><p>गुरुदेव एक सीधा-सा वास्तविकता परीक्षण (reality check) देते हैं। बुरा कर्म, बुरा फल: कोई समस्या नहीं लगती। अच्छा कर्म, अच्छा फल: तब भी नहीं।</p><blockquote><p>"प्रॉब्लम कब आती है, मालूम है? जब आपको लगता है आपने बहुत शुभ काम किया है और फल अशुभ आया।"</p></blockquote><p>तब हमें लगता है कि हमारे साथ अन्याय हुआ। पर यदि उत्तर मिल जाए कि कर्म ही गलत था, तो उसे सुधार लीजिए। वह चला जाएगा। यह बहुत सरल है।</p><p><em>क्या मेरे जीवन में कोई ऐसा "अन्याय" है, जिसके पीछे मैंने अपना कर्म कभी ईमानदारी से नहीं देखा?</em></p><h2 id="hi-s9">सात्विक प्रश्न का फल</h2><p>सात्विक शिष्य पूछता है, "इसका क्या अर्थ है? इसे समझने में मैं कहां गलत था? या मेरा कर्म ही गलत था?" वह उपाय नहीं, ज्ञान मांगता है।</p><p>इसी भाव से यमराज के पास गए नचिकेता को तीन वरदान मिले। उसका पितृ दोष दूर हुआ, उसे श्रीविद्या का ज्ञान मिला, जिससे शक्ति, धन और विवेक आते हैं, और मोक्ष का ज्ञान भी मिला।</p><h2 id="hi-s10">मुख्य बातें</h2><ul><li>तामसिक शिष्य कहता है "मेरे लिए कुछ करो" और तुरंत उपाय चाहता है।</li><li>राजसिक शिष्य समाधान नहीं, केवल अपने मन की शांति चाहता है।</li><li>सात्विक शिष्य पूछता है "मैं कहां गलत था?" और दोष संसार पर नहीं डालता।</li><li>बाहरी उपचार अस्थायी है; ज्ञान आए बिना कर्म लौटकर आता है।</li><li>शुभ कर्म का शुभ और अशुभ कर्म का अशुभ फल निश्चित है; अधिकार केवल कर्म पर है।</li><li>अच्छे व्यक्ति का शाप भी सही समय पर वरदान बन जाता है, जैसे अर्जुन का।</li><li>नचिकेता की तरह ज्ञान मांगने वाले को पितृ दोष से मुक्ति, श्रीविद्या और मोक्ष का ज्ञान मिलता है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=V_Mxy5bZpOc" target="_blank" rel="noopener"><img src="assets/V_Mxy5bZpOc.jpg" alt="Know What Kind of Student / Shishya You Are | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Know What Kind of Student / Shishya You Are | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 6:08</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">पहला शिष्य: "मेरे लिए कुछ तो कीजिए"</a></li><li><a href="#hi-s2">दूसरा शिष्य: बस मन की शांति चाहिए</a></li><li><a href="#hi-s3">तीसरा शिष्य: "मैं कहां गलत था?"</a></li><li><a href="#hi-s4">दवा से नहीं, ज्ञान से मिटता है कर्म</a></li><li><a href="#hi-s5">नचिकेता: बारह वर्ष का उत्तम शिष्य</a></li><li><a href="#hi-s6">जब शाप वरदान बन जाए</a></li><li><a href="#hi-s7">कर्मफल का अटल नियम</a></li><li><a href="#hi-s8">समस्या असल में कब लगती है?</a></li><li><a href="#hi-s9">सात्विक प्रश्न का फल</a></li><li><a href="#hi-s10">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="What Kind of Disciple Are You? Three Ways of Going to a Guru | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>What Kind of Disciple Are You? Three Ways of Going to a Guru</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=V_Mxy5bZpOc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>When suffering comes into life, most of us go to a guru, an astrologer or some guide. But have you ever thought about <em>what you actually ask for</em> when you get there?</p><p>Gurudev says that disciples are of three kinds: <strong>tamasic, rajasic and sattvic</strong>. And any guru can tell from a single sentence what kind of disciple you are.</p><h2 id="en-s1">The First Disciple: "Please Do Something for Me"</h2><p>The tamasic (inertia-driven) disciple goes to the guru and says, "Gurudev, please do something for me." Or, "What should I do?"</p><p>Such a person is still stuck on the body and on outer action. He believes only when something is "done". He wants a sure-shot remedy, a solution, and he wants it at once.</p><p>Gurudev says every guru feels within that this one should be sent away, yet outwardly still gives an answer.</p><h2 id="en-s2">The Second Disciple: Just Give Me Peace of Mind</h2><p>The rajasic (restless, desire-driven) seeker does not want a solution to the problem. Let happen whatever is to happen. He wants only his own peace of mind.</p><p>He asks, "There is a quarrel at home; should I go and sit in another room? Should I chant some mantra? Should I do something?" That is all he seeks.</p><p><em>Pause and ask yourself: the last time I went to a guide, was I one of these first two?</em></p><h2 id="en-s3">The Third Disciple: "Where Did I Go Wrong?"</h2><p>In the sattvic (pure, clarity-driven) disciple, knowledge dawns. Four states come in sattva guna: <strong>knowledge, joy, detachment and awareness</strong>.</p><p>Such a disciple goes to the guru and says only this:</p><blockquote><p>"Gurudev, suffering is coming. If suffering is coming, it means that it must be the fault of my past karma and its impressions. Please tell me where I went wrong."</p></blockquote><p>He does not blame the world. He does not count the faults of others. His starting point is <strong>acceptance</strong>: the mistake is mine.</p><h2 id="en-s4">Karma Is Erased by Knowledge, Not by Medicine</h2><p>As soon as the guru points out the mistake, knowledge is gained, and then the karma is resolved <strong>permanently</strong>. With a temporary medicine or a temporary healing, the problem comes back.</p><p>Gurudev gives the example of a doctor. After a heart bypass, or with insulin continuing, either the dose keeps increasing or an attack comes again. The illness relapses.</p><p>Why? Because the doctor cut the karma from the outside, but on the inside you kept doing the same karma. There was no improvement; knowledge never came.</p><blockquote><p>"However much chemotherapy you do, the cancer keeps growing. So if you want to release it, knowledge must come."</p></blockquote><h2 id="en-s5">Nachiketa: The Twelve-Year-Old Best Disciple</h2><p>The Katha Upanishad tells the story of Nachiketa. A boy of only twelve, whose father gave him away to Death. An inauspicious event.</p><p>Even so, Nachiketa goes to Yamaraj thinking only this: if I am a good disciple, nothing wrong can happen to me. Even if the result looks wrong, something good must be hidden in it.</p><blockquote class="verse"><p><strong>bahūnām emi prathamo bahūnām emi madhyamaḥ</strong><br>"Among many I go as the first; among many I go as the middle."<br>(Katha Upanishad 1.1.5)</p></blockquote><p>Nachiketa says that at least he is a middling disciple; of that much he is sure. And if he is sure of this, nothing bad can happen to him.</p><h2 id="en-s6">When a Curse Becomes a Boon</h2><p>Arjuna was cursed by Urvashi that he would become impotent. But during the year in disguise that same curse became a boon, and he could stay hidden as Brihannala.</p><p>Even the suffering that comes to a good, sattvic person turns into a boon at the right time.</p><h2 id="en-s7">The Unfailing Law of Karma</h2><p>Where there is karma, there will be its fruit. Inauspicious karma gives inauspicious fruit, auspicious karma gives auspicious fruit; this is certain. Inauspicious karma bearing auspicious fruit, or auspicious karma bearing inauspicious fruit: God does not commit such injustice.</p><blockquote class="verse"><p><strong>karmaṇy evādhikāras te mā phaleṣu kadācana</strong><br>"Your right is to action alone, never to its fruits."<br>(Bhagavad Gita 2.47)</p></blockquote><p>Your right is in doing the action; giving the fruit is not within your power. So why worry about it? First do your karma rightly.</p><h2 id="en-s8">When Does It Really Feel Like a Problem?</h2><p>Gurudev offers a simple reality check. Bad karma, bad fruit: it does not feel like a problem. Good karma, good fruit: not then either.</p><blockquote><p>"Do you know when the problem comes? When you feel you have done very auspicious work and the fruit was inauspicious."</p></blockquote><p>That is when we feel we have suffered an injustice. But if you get the answer that the karma itself was wrong, correct it. It will go. It is very easy.</p><p><em>Is there some "injustice" in my life behind which I have never honestly looked at my own karma?</em></p><h2 id="en-s9">The Fruit of the Sattvic Question</h2><p>The sattvic disciple asks, "What does this mean? Where did I go wrong in understanding it? Or was my karma itself wrong?" He asks not for a remedy but for knowledge.</p><p>Nachiketa, who went to Yamaraj in this spirit, received three boons. His pitru dosha (ancestral affliction) was removed, he received the knowledge of Shri Vidya, which brings power, wealth and wisdom, and he also received the knowledge of liberation.</p><h2 id="en-s10">Key Takeaways</h2><ul><li>The tamasic disciple says "do something for me" and wants an instant remedy.</li><li>The rajasic disciple wants not a solution but only his own peace of mind.</li><li>The sattvic disciple asks "where did I go wrong?" and does not blame the world.</li><li>Outer treatment is temporary; without knowledge, karma comes back.</li><li>Good karma surely brings good fruit and bad karma bad fruit; our right is only to the action.</li><li>Even a good person's curse becomes a boon at the right time, as with Arjuna.</li><li>One who seeks knowledge like Nachiketa gains freedom from pitru dosha, Shri Vidya and the knowledge of liberation.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=V_Mxy5bZpOc" target="_blank" rel="noopener"><img src="assets/V_Mxy5bZpOc.jpg" alt="Know What Kind of Student / Shishya You Are | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Know What Kind of Student / Shishya You Are | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 6:08</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">The First Disciple: "Please Do Something for Me"</a></li><li><a href="#en-s2">The Second Disciple: Just Give Me Peace of Mind</a></li><li><a href="#en-s3">The Third Disciple: "Where Did I Go Wrong?"</a></li><li><a href="#en-s4">Karma Is Erased by Knowledge, Not by Medicine</a></li><li><a href="#en-s5">Nachiketa: The Twelve-Year-Old Best Disciple</a></li><li><a href="#en-s6">When a Curse Becomes a Boon</a></li><li><a href="#en-s7">The Unfailing Law of Karma</a></li><li><a href="#en-s8">When Does It Really Feel Like a Problem?</a></li><li><a href="#en-s9">The Fruit of the Sattvic Question</a></li><li><a href="#en-s10">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
