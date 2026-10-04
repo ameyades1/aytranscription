@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=lzy0iom4NM0" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">क्या आपके जीवन का लक्ष्य सही है?</h2><p>हर दिन हम कितने कर्म करते हैं। पर क्या कभी रुककर पूछा है कि इस घटना ने मुझे क्या सिखाया?</p><p>आचार्य जी कहते हैं, हर कर्म में तीन प्रश्न होने चाहिए: यह घटना मुझे क्या सिखा रही है, यह क्या सिखाने वाली है, और आज मैंने क्या सीखा। जिसका ध्यान इन प्रश्नों पर नहीं है, उसे अंत में मिलता है केवल दुख।</p><p>यदि आपका लक्ष्य ही ज्ञान के अतिरिक्त कुछ और है, तो संघर्ष निश्चित है।</p><h2 id="hi-s2">दो ही रास्ते हैं: ज्ञान से कर्म, या कर्म से ज्ञान</h2><p>पूरा खेल इतना ही है। ज्ञान तो आना ही है। प्रश्न केवल यह है कि कैसे।</p><p>पहला रास्ता: <strong>ज्ञानयुक्त कर्म</strong>, यानी समझ के साथ किया गया कर्म। दूसरा रास्ता: कर्म करते-करते ज्ञान आना। पर तब वह <strong>कटु अनुभव</strong> लेकर आता है।</p><p>ज्ञान या तो बलपूर्वक आएगा, या आप उसे स्वेच्छा से अपनाएँगे। स्वेच्छा से अपनाया, तो जो सुख और आनंद आप गलत जगह ढूँढ रहे थे, वह भी मिल जाएगा। बलपूर्वक आया, तो साथ में दुख भी आएगा।</p><p>जो बात बीस वर्ष की आयु में सत्संग से सीखी जा सकती थी, उसके अभाव में साठ में समस्या आई। वह ज्ञान पहले आ जाता, तो साठ में भी सुख होता।</p><blockquote><p>"हर कर्म जो आप करते हैं, उसका परिणाम यह होना चाहिए कि आप उससे कुछ ज्ञान प्राप्त करें।"</p></blockquote><h2 id="hi-s3">कर्म से पहले चिंतन</h2><p>वह ज्ञान प्रकृति कभी न कभी दे ही देगी। तो क्यों न पहले ही <strong>चिंतन</strong> (गहन विचार, contemplation) कर लें? कर्म से पहले पूछें: मैं यह क्यों कर रहा हूँ?</p><p>इसके तीन उपाय हैं: या तो गुरु से जान लो, या कर्म से पहले स्वयं सोचो, या कम से कम कर्म के बाद यह विचार करो कि अगला कर्म करने से पहले क्या करना है।</p><h2 id="hi-s4">सुख नहीं, सर्वोच्च आध्यात्मिक ज्ञान</h2><p>आचार्य जी स्पष्ट कहते हैं: उच्च आध्यात्मिक ज्ञान ही जीवन का अंतिम लक्ष्य होना चाहिए, भोग और सुख नहीं।</p><p>सुख-दुख लक्ष्य हो ही नहीं सकते। सुख न वस्तु में है, न उपलब्धि में, न कर्म में। अनेक श्लोकों में यह परखा जा चुका है। लक्ष्य केवल एक हो: वह परम ज्ञान मुझे कैसे मिलेगा।</p><p><em>आज आप जो पाने के लिए इतनी मेहनत कर रहे हैं, क्या वह सुख है या समझ?</em></p><h2 id="hi-s5">जब समझ बहुत देर से आती है</h2><p>अधिकतर लोग यह नहीं करते। इसलिए उनके जीवन में सुख-दुख तो आते रहते हैं, पर सीख नहीं आती। फिर दुख आता है, और तब जाकर समझ आती है। प्रकृति ने अपना काम कर दिया। पर तब तक देर हो चुकी होती है।</p><p>आचार्य जी एक उदाहरण देते हैं। बाईस की आयु में जल्दबाजी में, पहली नज़र के प्रेम में विवाह हुआ। चालीस-पैंतालीस तक विवाह-विच्छेद का समय आ गया। अब भले समझ आ गई कि आदर्श और <strong>निःस्वार्थ प्रेम</strong> क्या होता है, पर क्या पच्चीस में लौट सकते हैं? जो ठप्पा लग गया, क्या वह मिटेगा? कुछ तो टूट चुका है।</p><p>इसका अर्थ यह नहीं कि आगे सकारात्मक जीवन संभव नहीं। सब संभव है। पर बेहतर यह था कि यह ज्ञान पच्चीस में आ जाता।</p><p>यही <strong>कर्मयोग</strong> है: कर्म करो, पर पहले ज्ञान लेकर। सुख-दुख केवल परिणाम हैं, लक्ष्य नहीं।</p><h2 id="hi-s6">अच्छा समय, बुरा समय: सीख कब मिलती है?</h2><p>अच्छे और बुरे, दोनों अनुभव सीख देते हैं। पर अधिक सीख कब मिलती है?</p><p>अच्छे समय में सोचने का समय ही नहीं होता, उल्टा अहंकार आ जाता है। बहुत कम लोग सोचते हैं, "मैंने दान दिया था, इसलिए यह अच्छा समय आया; अब मुझे और सेवा करनी है।" पर बुरे समय में सीख पक्की आती है।</p><h2 id="hi-s7">समय केवल समय है</h2><p>महर्षि मंकि की गीता (मंकि गीता) सिखाती है कि अच्छा या बुरा समय कुछ नहीं होता, केवल समय होता है। और वेदांत आगे बताता है कि समय भी नहीं, कुछ <strong>कालातीत</strong> (समय से परे) है।</p><p>अच्छा-बुरा समय इसलिए लगता है, क्योंकि हम <strong>मुक्ति</strong> (liberation) के प्रति सजग नहीं हैं।</p><p>हम अच्छा समय किसे कहते हैं? जब पैसा, संबंध, नाम और प्रसिद्धि हो, और केवल उपभोग की इच्छा हो। बुरा समय तब, जब पैसा, नौकरी, संबंध चले जाएँ।</p><p>पर मंकि गीता के अनुसार इनका उद्देश्य अलग है:</p><ul><li><strong>अच्छा समय:</strong> लोगों की सेवा का, कर्मयोग और भक्तियोग का समय</li><li><strong>बुरा समय:</strong> चिंतन का, ज्ञान और ध्यान का समय</li></ul><blockquote><p>"जिसको आप अच्छा समय कहते हो, वह कभी अच्छा समय था ही नहीं; वह दूसरों की सेवा करने का समय था।"</p></blockquote><p>शनि की <strong>साढ़ेसाती</strong> में लोग और ज़्यादा भागदौड़ करते हैं, दो नौकरियाँ और आज़माते हैं। जबकि शनि उन्हें जबरदस्ती बिठा रहा है, ताकि वे भीतर देखें। आध्यात्मिक दृष्टि से जो वह करवाना चाहता था, वही लोग नहीं करते।</p><p><em>क्या आपका कठिन समय आपको रुककर भीतर देखने के लिए कह रहा है?</em></p><h2 id="hi-s8">उच्च दशा में भी समस्याएँ क्यों?</h2><p>आचार्य जी अपना अनुभव साझा करते हैं। उनकी उच्च के गुरु (बृहस्पति) की दशा चल रही है, फिर भी अनेक समस्याएँ हैं। सांसारिक दृष्टि से वे आराम से बैठ सकते थे: पैसा है, सब कुछ है, कोई चिंता नहीं।</p><p>पर उन्होंने उत्तरदायित्व लिया है कि और लोगों को भी उस अवस्था तक ले जाएँ। सेवा के इस मार्ग पर दुख फिर आएगा, <strong>हलाहल विष</strong> पीना पड़ेगा। सेवा में भी संसार "दुःखालयम् अशाश्वतम्" (दुखों का घर, नश्वर) ही दिखता है। या तो संसार आपको बलपूर्वक यह दिखाता है, या आप सजग होकर इसे अपनाते हैं।</p><h2 id="hi-s9">निःस्वार्थ सेवा और योगक्षेम का वचन</h2><p>इस मार्ग पर चलते-चलते आनंद आता है, और फिर सारे फल मिलते हैं: धन, श्री, विद्या, नाम और प्रसिद्धि, अपने आप। मनुष्य जितना निःस्वार्थ होगा, उसका यश और वैभव उतना ही होगा।</p><blockquote class="verse"><p><strong>अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।</strong><br><strong>तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्॥</strong><br>(श्रीमद्भगवद्गीता ९.२२)</p></blockquote><p><strong>योगक्षेम</strong> का अर्थ है जो नहीं है उसे देना और जो है उसकी रक्षा करना। जो अनन्य भाव से, दूसरा कुछ न सोचते हुए, लोगों का चिंतन करता है, उसका सब कुछ भगवान स्वयं देखते हैं। जिस दिन यह समझ आएगा, उस दिन कर्मयोग की शुरुआत होगी।</p><h2 id="hi-s10">सीख से बनता है चरित्र और भाग्य</h2><p>अनुभव ज्ञान देते हैं, और उनमें भी अधिकतर बुरा अनुभव ही सिखाता है। इसलिए जो करना था, वह बुरा समय आने से पहले करना था।</p><p>ये सीखें आपके <strong>चरित्र</strong> और संसार की समझ को गढ़ती हैं, और चरित्र से ही <strong>भाग्य</strong> बनता है। पर सावधान: बुद्धि विकसित न हो, तो गलत सीख भी मिल सकती है। सही शास्त्र की गलत समझ हो सकती है, शनि के संदेश की भी गलत समझ हो सकती है। "सब में भगवान है, पर इसमें नहीं", ऐसी समझ भी आ सकती है।</p><p>फिर भी कुछ न कुछ सीख आती ही है: "मुझे दान देना चाहिए था", "कम खाना चाहिए", "तला हुआ और बाहर का खाना नहीं खाना चाहिए", "प्रेम करना चाहिए", "मैं बहुत अहंकारी था"।</p><h2 id="hi-s11">ज्ञान भीतर ही है</h2><p>ये सीखें कहाँ छुपी थीं? क्या किसी ने बाहर से भीतर डालीं? नहीं। <strong>वह ज्ञान हम सबके भीतर ही है।</strong></p><p>हम स्वयं <strong>आत्मा</strong> हैं। बीच में केवल परतें हैं: अहंकार की, अज्ञान की, मोह की। हर कर्म के साथ एक-एक परत हटती है।</p><p>यहीं असली अंतर है:</p><ul><li><strong>कर्मयोग:</strong> पहले ज्ञान से परत हटाकर कर्म करना</li><li><strong>सामान्य कर्म:</strong> अनुभव की चोट खाकर परत का हटना</li></ul><p>अनुभव की चोट से परत नहीं हटानी है। ज्ञान लेकर कर्म करना है।</p><p><em>आपके भीतर कौन सी परत है, जिसे आप आज ज्ञान से हटा सकते हैं, बजाय इसके कि जीवन उसे चोट से हटाए?</em></p><h2 id="hi-s12">मुख्य बातें</h2><ul><li>हर कर्म का उद्देश्य ज्ञान प्राप्त करना होना चाहिए, सुख नहीं</li><li>ज्ञान आना ही है: या तो ज्ञानयुक्त कर्म से, या कटु अनुभव से</li><li>कर्म से पहले चिंतन करें, या गुरु से जानें</li><li>जो सीख बीस में मिल सकती है, उसे साठ तक न टालें; बाद में अतीत लौटता नहीं</li><li>अच्छा समय सेवा के लिए है, बुरा समय चिंतन, ज्ञान और ध्यान के लिए</li><li>अच्छा-बुरा समय केवल धारणा है; मुक्ति के प्रति सजगता इसे मिटाती है</li><li>निःस्वार्थ सेवा करने वाले का योगक्षेम भगवान स्वयं वहन करते हैं (गीता ९.२२)</li><li>ज्ञान भीतर है; अहंकार, अज्ञान और मोह की परतें ज्ञान से हटाना ही कर्मयोग है</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=lzy0iom4NM0" target="_blank" rel="noopener"><img src="assets/lzy0iom4NM0.jpg" alt="Why Are You Still Struggling Despite Trying Your Best? | Awakening Session by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Are You Still Struggling Despite Trying Your Best? | Awakening Session by Acharya Upendra Ji<small>YouTube · 8:41</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">क्या आपके जीवन का लक्ष्य सही है?</a></li><li><a href="#hi-s2">दो ही रास्ते हैं: ज्ञान से कर्म, या कर्म से ज्ञान</a></li><li><a href="#hi-s3">कर्म से पहले चिंतन</a></li><li><a href="#hi-s4">सुख नहीं, सर्वोच्च आध्यात्मिक ज्ञान</a></li><li><a href="#hi-s5">जब समझ बहुत देर से आती है</a></li><li><a href="#hi-s6">अच्छा समय, बुरा समय: सीख कब मिलती है?</a></li><li><a href="#hi-s7">समय केवल समय है</a></li><li><a href="#hi-s8">उच्च दशा में भी समस्याएँ क्यों?</a></li><li><a href="#hi-s9">निःस्वार्थ सेवा और योगक्षेम का वचन</a></li><li><a href="#hi-s10">सीख से बनता है चरित्र और भाग्य</a></li><li><a href="#hi-s11">ज्ञान भीतर ही है</a></li><li><a href="#hi-s12">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Why Do We Struggle Despite Trying Our Best? The Secret of Action Guided by Knowledge | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>Why Do We Struggle Despite Trying Our Best? The Secret of Action Guided by Knowledge</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=lzy0iom4NM0" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Is the Aim of Your Life the Right One?</h2><p>Every day we perform so many actions. But have we ever paused to ask what this event taught me?</p><p>Acharya ji says that every action should carry three questions: what is this event teaching me, what is it about to teach me, and what did I learn today. One whose attention is not on these questions ends up with nothing but sorrow.</p><p>If your aim itself is anything apart from knowledge, struggle is certain.</p><h2 id="en-s2">There Are Only Two Paths: Action from Knowledge, or Knowledge from Action</h2><p>That is the whole game. Knowledge is going to come anyway. The only question is how.</p><p>The first path: <strong>action guided by knowledge</strong>, that is, action done with understanding. The second path: knowledge arriving through action itself. But then it comes with <strong>bitter experience</strong>.</p><p>Knowledge will either come by force, or you will embrace it willingly. Embrace it willingly, and the happiness and bliss you were seeking in the wrong place will also be found. If it comes by force, sorrow comes along with it.</p><p>What could have been learned through satsang at twenty, its absence brought the problem at sixty. Had that knowledge come earlier, there would have been happiness even at sixty.</p><blockquote><p>"Every action that you perform should result in you obtaining some knowledge from it."</p></blockquote><h2 id="en-s3">Contemplation Before Action</h2><p>Nature will give that knowledge sooner or later. So why not do <strong>chintan</strong> (deep reflection, contemplation) first? Before acting, ask: why am I doing this?</p><p>There are three ways: either learn it from the Guru, or reflect yourself before acting, or at the very least, after acting, consider what must be done before the next action.</p><h2 id="en-s4">Not Pleasure, but the Highest Spiritual Knowledge</h2><p>Acharya ji says clearly: high spiritual knowledge alone should be the ultimate aim of life, not pleasures and happiness.</p><p>Pleasure and pain can never be the aim. Happiness is not in objects, not in achievements, not in actions. This has been examined through many shlokas. Let there be only one aim: how will I attain that supreme knowledge.</p><p><em>What you are working so hard for today, is it pleasure or understanding?</em></p><h2 id="en-s5">When Understanding Comes Too Late</h2><p>Most people do not do this. So pleasures and pains keep coming into their lives, but lessons do not. Then sorrow comes, and only then does understanding arrive. Nature has done its work. But by then it is too late.</p><p>Acharya ji gives an example. At twenty-two, a marriage happened in haste, love at first sight. By forty or forty-five, the time of divorce had come. Now, even if one understands what ideal and <strong>selfless love</strong> is, can one return to twenty-five? Will the label that was attached be erased? Something is already damaged.</p><p>This does not mean a positive life is impossible afterwards. Everything is possible. But it would have been better if this knowledge had come at twenty-five.</p><p>This is <strong>Karma Yoga</strong>: act, but first take knowledge. Pleasure and pain are only outcomes, not the aim.</p><h2 id="en-s6">Good Times, Bad Times: When Do Lessons Come?</h2><p>Both good and bad experiences give lessons. But when do more lessons come?</p><p>In good times there is no time to think; ego comes in instead. Very few people think, "I gave charity, that is why this good time came; now I must serve more." But in bad times, the lesson surely comes.</p><h2 id="en-s7">Time Is Only Time</h2><p>The Manki Gita of Maharshi Manki teaches that there is no good or bad time; there is only time. And Vedanta goes further: not even time, there is something <strong>kalatita</strong> (beyond time).</p><p>Time feels good or bad because we are not aware of <strong>mukti</strong> (liberation).</p><p>What do we call good times? When there is money, relationships, name and fame, and only the desire to consume. Bad times are when money, job and relationships are gone.</p><p>But according to the Manki Gita, their purpose is different:</p><ul><li><strong>Good times:</strong> a time for serving people, for Karma Yoga and Bhakti Yoga</li><li><strong>Bad times:</strong> a time for contemplation, for knowledge and meditation</li></ul><blockquote><p>"What you call a good time was never a good time; that was a time for serving others."</p></blockquote><p>During Shani's <strong>Sade Sati</strong>, people rush around even more and try two more jobs. Whereas Shani is forcibly making them sit, so that they look within. What he wanted done from a spiritual standpoint is exactly what people do not do.</p><p><em>Is your difficult time asking you to pause and look within?</em></p><h2 id="en-s8">Why Problems Even in a High Dasha?</h2><p>Acharya ji shares his own experience. He is running the dasha of an exalted Guru (Jupiter), yet there are many problems. From a worldly standpoint, he could sit comfortably: there is money, everything, no worry.</p><p>But he has taken the responsibility to bring other people to that state too. On this path of service, sorrow will come again, and the <strong>halahala poison</strong> has to be drunk. Even in service, the world appears as "duḥkhālayam aśāśvatam" (an abode of sorrow, impermanent). Either the world shows you this by force, or you embrace it consciously.</p><h2 id="en-s9">Selfless Service and the Promise of Yogakshema</h2><p>Walking this path, bliss comes, and then all the rewards follow: wealth, Shri, Vidya, name and fame, on their own. The more selfless a person is, the greater their glory and prosperity.</p><blockquote class="verse"><p><strong>ananyāś cintayanto māṁ ye janāḥ paryupāsate</strong><br><strong>teṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmy aham</strong><br>"Those who, with undivided devotion, think of Me and worship Me, for those ever-steadfast ones, I carry what they lack and preserve what they have."<br>(Bhagavad Gita 9.22)</p></blockquote><p><strong>Yogakshema</strong> means providing what is lacking and protecting what one has. One who, with undivided feeling, thinking of nothing else, keeps others in their thoughts, has everything looked after by God Himself. The day this is understood, Karma Yoga begins.</p><h2 id="en-s10">Lessons Build Character and Destiny</h2><p>Experiences give knowledge, and mostly it is the bad experience that teaches. So what had to be done should have been done before the bad time came.</p><p>These lessons shape your <strong>character</strong> and your understanding of the world, and from character comes <strong>destiny</strong>. But beware: if the intellect is not developed, a wrong lesson can also be learned. There can be a wrong understanding of the right scripture, and a wrong understanding of Shani's message too. Even an understanding like "God is in everything, but not in this" can arise.</p><p>Still, some lesson or other always comes: "I should have given charity", "I should eat less", "I should not eat fried food or food from outside", "I should love", "I was very egoistic".</p><h2 id="en-s11">Knowledge Is Within</h2><p>Where were these lessons hidden? Did someone put them in from outside? No. <strong>That knowledge exists within all of us.</strong></p><p>We ourselves are the <strong>Atman</strong>. In between there are only layers: of ego, of ignorance, of attachment. With each action, one layer at a time is removed.</p><p>Here lies the real difference:</p><ul><li><strong>Karma Yoga:</strong> removing the layer through knowledge first, then acting</li><li><strong>Ordinary action:</strong> the layer being removed by the blow of experience</li></ul><p>The layer is not to be removed by the blow of experience. Action is to be done with knowledge.</p><p><em>Which layer within you could you remove with knowledge today, instead of letting life remove it with a blow?</em></p><h2 id="en-s12">Key Takeaways</h2><ul><li>The purpose of every action should be gaining knowledge, not pleasure</li><li>Knowledge will come anyway: either through action guided by knowledge, or through bitter experience</li><li>Contemplate before acting, or learn from the Guru</li><li>Do not postpone until sixty the lesson available at twenty; the past does not return later</li><li>Good times are for service; bad times are for contemplation, knowledge and meditation</li><li>Good and bad time is only a notion; awareness of liberation dissolves it</li><li>For one who serves selflessly, God Himself carries their yogakshema (Gita 9.22)</li><li>Knowledge is within; removing the layers of ego, ignorance and attachment through knowledge is Karma Yoga</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=lzy0iom4NM0" target="_blank" rel="noopener"><img src="assets/lzy0iom4NM0.jpg" alt="Why Are You Still Struggling Despite Trying Your Best? | Awakening Session by Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Are You Still Struggling Despite Trying Your Best? | Awakening Session by Acharya Upendra Ji<small>YouTube · 8:41</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Is the Aim of Your Life the Right One?</a></li><li><a href="#en-s2">There Are Only Two Paths: Action from Knowledge, or Knowledge from Action</a></li><li><a href="#en-s3">Contemplation Before Action</a></li><li><a href="#en-s4">Not Pleasure, but the Highest Spiritual Knowledge</a></li><li><a href="#en-s5">When Understanding Comes Too Late</a></li><li><a href="#en-s6">Good Times, Bad Times: When Do Lessons Come?</a></li><li><a href="#en-s7">Time Is Only Time</a></li><li><a href="#en-s8">Why Problems Even in a High Dasha?</a></li><li><a href="#en-s9">Selfless Service and the Promise of Yogakshema</a></li><li><a href="#en-s10">Lessons Build Character and Destiny</a></li><li><a href="#en-s11">Knowledge Is Within</a></li><li><a href="#en-s12">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
