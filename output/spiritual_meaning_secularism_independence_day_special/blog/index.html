@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>अपने धर्म की फलश्रुति दिखाओ | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — अपने धर्म की फलश्रुति दिखाओ">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="अपने धर्म की फलश्रुति दिखाओ | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">धर्मनिरपेक्षता का आध्यात्मिक अर्थ</div>
+  <h1>अपने धर्म की फलश्रुति दिखाओ</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ४ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=A8DTW5a8qvM" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>स्वतंत्रता के इस अवसर पर एक प्रश्न मन में आता है। यह भूमि हिंदुस्तान है, सनातन धर्म की भूमि। फिर भी हम कहते हैं, हम धर्मनिरपेक्ष (Secular) देश हैं।</p><p>तो क्या यह विरोधाभास है? या इसके पीछे कोई गहरा आध्यात्मिक अर्थ छिपा है? आइए, गुरु की दृष्टि से इसे समझते हैं।</p><h2 id="hi-s1">सेक्युलर होने का अर्थ क्या है?</h2><p>आम समझ के अनुसार, आप अपनी इच्छा से किसी भी आस्था का पालन करने के लिए स्वतंत्र हैं। यह केवल धर्म की बात नहीं है।</p><p>कोई कहता है, मैं ईश्वर को नहीं मानता। कोई कहता है, मैं ईश्वर को मानता हूं। कोई किसी विशेष देवता को मानता है। इस देश में यह सब आपका अधिकार है।</p><p>पर गुरु कहते हैं, यह मुद्दा समझना होगा, क्योंकि यह अध्यात्म से जुड़ा है। यहां किसी राजा का भाषण नहीं चल रहा, यहां गुरु बोल रहे हैं।</p><h2 id="hi-s2">एक सत्य, अनेक मार्ग</h2><p>धर्मनिरपेक्षता के पीछे का आध्यात्मिक विचार वेद की एक पंक्ति में छिपा है:</p><blockquote class="verse"><p><strong>एकं सद्विप्रा बहुधा वदन्ति।</strong><br>(ऋग्वेद १.१६४.४६)</p></blockquote><p>सत्य (Truth) एक ही है, परमेश्वर का सत्य। विद्वान उसे अलग-अलग ढंग से बताते हैं। यह ठीक है, जब तक वे सब उसी एक सत्य की बात कर रहे हों।</p><p>जो गलत सिखाता है, वह विद्वान है ही नहीं। पर यदि सारे धर्म और पंथ एक ही सत्य, जैसे प्रेम का संदेश, बता रहे हैं, तो तब तक सब ठीक है।</p><h2 id="hi-s3">असली प्रश्न: मैं अपना धर्म कैसे जीता हूं?</h2><p>गुरु का संदेश स्पष्ट है। बात यह नहीं कि देश सेक्युलर है या किसी एक धर्म का। बात यह है कि <strong>मैं अपनी संस्कृति और आस्था का पालन कितनी अच्छी तरह करता हूं।</strong></p><p>दूसरा अपना धर्म अपने ढंग से चलाएगा। उसे गाली देकर, उससे द्वेष करके कोई लाभ नहीं होता।</p><blockquote><p>"तुम्हारी आस्था की फलश्रुति अगर तुम दिखा सकते हो, तो तुमको कोई तोड़ नहीं सकता।"</p></blockquote><p><strong>फलश्रुति</strong> का अर्थ है किसी साधना का फल, उसका प्रत्यक्ष परिणाम (visible result)। अपनी साधना करो। जो दिखाई नहीं देता, उसे अपने जीवन से दिखाओ।</p><p><em>क्या मेरी आस्था मेरे आचरण में दिखाई देती है, या केवल मेरे शब्दों में?</em></p><h2 id="hi-s4">अतिथि देवो भव, पर विवेक के साथ</h2><p>भारत कभी किसी धर्म के विरुद्ध नहीं रहा। सनातन धर्म का अर्थ ही है, हम सबके लिए खुले हैं। हम कहते हैं:</p><blockquote class="verse"><p><strong>अतिथिदेवो भव।</strong><br>(तैत्तिरीय उपनिषद् १.११.२)</p></blockquote><p>अतिथि को देवता मानो। पर गुरु एक सीधा उदाहरण देते हैं।</p><p>अतिथि सीधा आपके शयनकक्ष में घुस गया। कल से वह तय करने लगा कि रसोई में क्या बनेगा। फिर उसने आपके धन पर अधिकार कर लिया। और अंत में कहा, अब तुम बाहर शरणार्थियों के क्षेत्र में रहो।</p><p>तो गलती किसकी है? आपकी। गुरु कहते हैं, हमने प्रायः यही किया है।</p><p>स्वागत का अर्थ यह नहीं कि किसी को भी, कहीं भी, कैसे भी रख लो। दूसरे धर्म या देश से आने वालों के लिए नियम आज के नहीं, बहुत पुराने हैं। इसीलिए गुरु चाणक्य (कौटिल्य) के अर्थशास्त्र और राजनीति की थोड़ी सीख भी देना चाहते हैं।</p><h2 id="hi-s5">द्वेष नहीं, दृढ़ता</h2><blockquote><p>"द्वेष करके, दूसरे का दोष दिखाकर कोई धर्म आज तक बड़ा नहीं हुआ।"</p></blockquote><p>मूल बात यह है कि मैं अपना धर्म कितना पक्का कर सकता हूं। अंतर योग का पूरा सार यही है।</p><h2 id="hi-s6">पहले यम की फलश्रुति दिखाओ</h2><p>पतंजलि ने योग के आठ अंग (अष्टांग योग) बताए हैं:</p><blockquote class="verse"><p><strong>यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि।</strong><br>(पतंजलि योगसूत्र २.२९)</p></blockquote><p>यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि। यह मुक्ति का मार्ग है। पर गुरु कहते हैं, केवल पहला अंग, यम, ही लो।</p><blockquote class="verse"><p><strong>अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः।</strong><br>(पतंजलि योगसूत्र २.३०)</p></blockquote><ul><li><strong>सत्य</strong> (Truthfulness)</li><li><strong>अहिंसा</strong> (Non-violence)</li><li><strong>अस्तेय</strong> (Non-stealing)</li><li><strong>ब्रह्मचर्य</strong> (Continence)</li><li><strong>अपरिग्रह</strong> (Non-possessiveness)</li></ul><p>केवल इन पांच की फलश्रुति करके दिखाओ। तब कहो, मैं हिंदू हूं। तब कहो, मैं योगी हूं। तब कहो, पतंजलि के सूत्रों पर हमारा विश्वास है।</p><p><em>यदि आज कोई मेरे जीवन को देखे, तो क्या उसमें इन पांच यमों में से एक भी दिखाई देगा?</em></p><h2 id="hi-s7">मुख्य बातें</h2><ul><li>सत्य एक है, विद्वान उसे अनेक प्रकार से कहते हैं (एकं सद्विप्रा बहुधा वदन्ति)।</li><li>देश सेक्युलर हो या नहीं, असली प्रश्न यह है कि मैं अपना धर्म कितनी अच्छी तरह जीता हूं।</li><li>दूसरों को गाली देने या उनसे द्वेष करने से कोई लाभ नहीं, कोई धर्म ऐसे बड़ा नहीं हुआ।</li><li>अतिथि देवो भव, पर विवेक के साथ; स्वागत का अर्थ अपना घर सौंप देना नहीं।</li><li>अपनी आस्था की फलश्रुति दिखाओ, तो कोई तुम्हें तोड़ नहीं सकता।</li><li>हिंदू या योगी कहलाने से पहले यम के पांच नियमों को जीवन में उतारो।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=A8DTW5a8qvM" target="_blank" rel="noopener"><img src="assets/A8DTW5a8qvM.jpg" alt="What Is the Spiritual Meaning of Secularism? Independence Day Special By Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">What Is the Spiritual Meaning of Secularism? Independence Day Special By Acharya Upendra Ji<small>YouTube · 3:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">सेक्युलर होने का अर्थ क्या है?</a></li><li><a href="#hi-s2">एक सत्य, अनेक मार्ग</a></li><li><a href="#hi-s3">असली प्रश्न: मैं अपना धर्म कैसे जीता हूं?</a></li><li><a href="#hi-s4">अतिथि देवो भव, पर विवेक के साथ</a></li><li><a href="#hi-s5">द्वेष नहीं, दृढ़ता</a></li><li><a href="#hi-s6">पहले यम की फलश्रुति दिखाओ</a></li><li><a href="#hi-s7">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Show the Fruit of Your Dharma | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">The Spiritual Meaning of Secularism</div>
+  <h1>Show the Fruit of Your Dharma</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 4 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=A8DTW5a8qvM" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>On this occasion of Independence, a question arises. This land is Hindustan, the land of Sanatan Dharma. Yet we say we are a secular country.</p><p>Is this a contradiction? Or is there a deeper spiritual meaning behind it? Let us understand it through the Guru's eyes.</p><h2 id="en-s1">What Does It Mean to Be Secular?</h2><p>In common understanding, you are free to practise any faith you wish. It is not only about dharma.</p><p>One says, I do not believe in God. Another says, I believe in God. Someone believes in a particular deity. In this country, all of this is your right.</p><p>But the Guru says this issue must be understood, because it is connected to spirituality. No king is giving a speech here; the Guru is speaking.</p><h2 id="en-s2">One Truth, Many Paths</h2><p>The spiritual idea behind secularism lies in a single line of the Veda:</p><blockquote class="verse"><p><strong>ekaṃ sad viprā bahudhā vadanti</strong><br>"Truth is one; the wise speak of it in many ways."<br>(Rig Veda 1.164.46)</p></blockquote><p>Truth is one, the truth of the Supreme Lord. The wise explain it in different ways. That is fine, as long as they are all speaking of that one truth.</p><p>One who teaches wrongly is no scholar at all. But if all religions and paths convey the same truth, such as a message of love, then all is well.</p><h2 id="en-s3">The Real Question: How Do I Live My Own Dharma?</h2><p>The Guru's message is clear. The point is not whether the country is secular or belongs to one religion. The point is <strong>how well I follow my own culture and faith.</strong></p><p>The other person will follow his religion in his own way. Abusing him or hating him brings no benefit.</p><blockquote><p>"If you can show the fruit of your faith, no one can break you."</p></blockquote><p><strong>Phalashruti</strong> means the fruit of a practice, its visible result. Do your sadhana. Show through your life what cannot otherwise be seen.</p><p><em>Is my faith visible in my conduct, or only in my words?</em></p><h2 id="en-s4">Atithi Devo Bhava, but with Discernment</h2><p>India was never against any religion. The very meaning of Sanatan Dharma is that we are open to all. We say:</p><blockquote class="verse"><p><strong>atithidevo bhava</strong><br>"Treat the guest as God."<br>(Taittiriya Upanishad 1.11.2)</p></blockquote><p>Regard the guest as a god. But the Guru gives a plain example.</p><p>The guest walked straight into your bedroom. From tomorrow he began deciding what is cooked in the kitchen. Then he took over your wealth. And finally he said, from now on you live outside in a refugee area.</p><p>So whose fault is it? Yours. The Guru says this is what we have usually done.</p><p>Welcoming does not mean keeping anyone, anywhere, in any manner. The rules for those who come from another religion or country are not new; they are very old. That is why the Guru also wishes to share a little of Chanakya's (Kautilya's) Arthashastra and statecraft.</p><h2 id="en-s5">Not Hatred, but Firmness</h2><blockquote><p>"No religion has ever grown great by hating others or by pointing out their faults."</p></blockquote><p>The essential point is how firm I can make my own dharma. That is the whole essence of Antar Yog.</p><h2 id="en-s6">First, Show the Fruit of the Yamas</h2><p>Patanjali described the eight limbs of yoga (Ashtanga Yoga):</p><blockquote class="verse"><p><strong>yama-niyama-āsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo 'ṣṭāv aṅgāni</strong><br>"Restraint, observance, posture, breath control, withdrawal of the senses, concentration, meditation and absorption are the eight limbs."<br>(Patanjali Yoga Sutra 2.29)</p></blockquote><p>Yama, niyama, asana, pranayama, pratyahara, dharana, dhyana and samadhi. This is the path to liberation. But the Guru says, take only the first limb, yama.</p><blockquote class="verse"><p><strong>ahiṃsā-satya-asteya-brahmacarya-aparigrahā yamāḥ</strong><br>"Non-violence, truthfulness, non-stealing, continence and non-possessiveness are the yamas."<br>(Patanjali Yoga Sutra 2.30)</p></blockquote><ul><li><strong>Satya</strong> (Truthfulness)</li><li><strong>Ahimsa</strong> (Non-violence)</li><li><strong>Asteya</strong> (Non-stealing)</li><li><strong>Brahmacharya</strong> (Continence)</li><li><strong>Aparigraha</strong> (Non-possessiveness)</li></ul><p>Just show the fruit of these five. Then say, I am a Hindu. Then say, I am a yogi. Then say, we believe in the Sutras of Patanjali.</p><p><em>If someone looked at my life today, would they see even one of these five yamas in it?</em></p><h2 id="en-s7">Key Takeaways</h2><ul><li>Truth is one; the wise speak of it in many ways (ekaṃ sad viprā bahudhā vadanti).</li><li>Whether or not the country is secular, the real question is how well I live my own dharma.</li><li>Abusing or hating others brings no benefit; no religion has grown great that way.</li><li>Atithi devo bhava, but with discernment; welcoming does not mean handing over your home.</li><li>Show the fruit of your faith, and no one can break you.</li><li>Before calling yourself a Hindu or a yogi, bring the five yamas into your life.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=A8DTW5a8qvM" target="_blank" rel="noopener"><img src="assets/A8DTW5a8qvM.jpg" alt="What Is the Spiritual Meaning of Secularism? Independence Day Special By Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">What Is the Spiritual Meaning of Secularism? Independence Day Special By Acharya Upendra Ji<small>YouTube · 3:54</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">What Does It Mean to Be Secular?</a></li><li><a href="#en-s2">One Truth, Many Paths</a></li><li><a href="#en-s3">The Real Question: How Do I Live My Own Dharma?</a></li><li><a href="#en-s4">Atithi Devo Bhava, but with Discernment</a></li><li><a href="#en-s5">Not Hatred, but Firmness</a></li><li><a href="#en-s6">First, Show the Fruit of the Yamas</a></li><li><a href="#en-s7">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
