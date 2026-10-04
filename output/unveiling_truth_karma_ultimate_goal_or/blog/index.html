@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>कर्म की लाठी कब छोड़नी है | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — कर्म की लाठी कब छोड़नी है">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="कर्म की लाठी कब छोड़नी है | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>कर्म की लाठी कब छोड़नी है</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ६ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=Hi2yo3WNWNg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">एक खेल जो पूरा जीवन समझा देता है</h2><p>क्या आपने कभी बाँस-कूद (पोल वॉल्ट) देखा है? खिलाड़ी एक लंबे बाँस के सहारे दौड़ता है, उसे ज़मीन पर टिकाता है और ऊपर लगी छड़ के पार छलाँग लगा देता है।</p><p>पर ध्यान दीजिए: पार जाते समय वह बाँस को साथ नहीं ले जाता। वह उसे तलवार की तरह पकड़े नहीं रहता। उसे बाँस छोड़ना ही पड़ता है, तभी वह उस पार पहुँचता है।</p><p>और फिर भी, उस बाँस के बिना वह वहाँ तक पहुँच ही नहीं सकता था।</p><h2 id="hi-s2">बाँस है कर्मयोग, शिखर है ज्ञानयोग</h2><p>यह बाँस <strong>कर्मयोग</strong> (निष्काम भाव से किया गया कर्म, Path of Action) है। और जहाँ पहुँचना है, वह <strong>ज्ञानयोग</strong> (आत्मज्ञान का मार्ग, Path of Knowledge) है, जहाँ <strong>ज्ञाननिष्ठा</strong> स्थिर होती है।</p><p>अंततः मृत्यु से पहले वहीं पहुँचना है। पर कर्म के बिना कोई वहाँ नहीं पहुँचता।</p><blockquote><p>"इसके बगैर वह उस end तक जा भी नहीं सकता।"</p></blockquote><p>यही कारण है कि कर्म छोड़कर सीधे हिमालय चले जाना, जैसा अर्जुन कहता है, संभव ही नहीं। भक्ति, ज्ञान, ध्यान, इन सबकी बात हुई, फिर भी उत्तर यही रहा: कर्म तो तुम्हें करना ही होगा। और उसके बाद बाँस छोड़ना होगा, यह भी आगे कहा गया।</p><p><em>क्या आप भी कभी सब कुछ छोड़कर भाग जाने की सोचते हैं, बिना वह कर्म पूरा किए जो आपको आगे ले जाने वाला है?</em></p><h2 id="hi-s3">क्या पूरा जीवन केवल काम में बीतेगा?</h2><p>उल्टी गलती भी उतनी ही बड़ी है। "मैं पूरा जीवन केवल कर्म ही करूँगा", यह भी नहीं चलेगा।</p><p>हाँ, जीवन के अधिकांश भाग में कर्म चलेगा। जैसे खिलाड़ी दूर से दौड़ता आता है और बाँस साथ चलता है। फिर बाँस टिकता है, उसी के सहारे वह ऊपर उठता है, और फिर उसे छोड़ देता है।</p><p>कर्मयोग का उद्देश्य है आपको <strong>एक कदम आगे</strong> ले जाना। अंत में पूरे संसार को छोड़ना होगा।</p><h2 id="hi-s4">अपने लिए एक सीमा तय करें</h2><p>मृत्यु कब आएगी, कोई नहीं जानता। कल किसने देखा है? इसलिए अपने लिए एक लक्ष्य तय कीजिए: कम से कम इतने वर्ष तक मैं काम करूँगा।</p><p>यह लक्ष्य पूरा होगा ही, ऐसा आवश्यक नहीं:</p><blockquote class="verse"><p><strong>कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।</strong><br>(श्रीमद्भगवद्गीता २.४७)</p></blockquote><p>अर्थात तुम्हारा अधिकार केवल कर्म पर है, फल पर कभी नहीं। पर कोई सीमा तो होनी चाहिए। "जीवन भर काम करूँगा", यह हो ही नहीं सकता।</p><h2 id="hi-s5">ज़ंजीर वाला प्रयोग: बुढ़ापे को आज महसूस कीजिए</h2><p>युवाओं में बहुत जोश होता है। उनके लिए आचार्य जी का एक अनोखा सुझाव है।</p><p>बाज़ार से एक छोटी सी ज़ंजीर खरीदिए, जैसी जेल में कैदियों के पैरों में होती है। उसे दोनों पैरों के बीच बाँधिए। आधा झुक जाइए, और गले से भी एक ज़ंजीर पैरों से बाँध दीजिए। अब चलकर देखिए।</p><p>बूढ़े मनुष्य की चाल ठीक ऐसी ही होती है। पैर बस थोड़ा सा आगे बढ़ता है, झुककर चलना पड़ता है। चाहकर भी कुछ नहीं कर सकते।</p><blockquote><p>"Feel that state first, फिर समझेगा कि मैं पूरा जीवन भर कर्म कर सकूँगा?"</p></blockquote><p>उस उम्र में आपके पास केवल दो ही चीज़ें होंगी: <strong>चिंतन</strong> या <strong>चिंता</strong>। और वह दिन आएगा ही। क्या किसी ने गारंटी दी है कि आप नहीं झुकेंगे?</p><p><em>आज आप जिस तरह जी रहे हैं, उस उम्र में आपके पास चिंतन होगा या चिंता?</em></p><h2 id="hi-s6">बुढ़ापे का गणित: आय कम, खर्च अधिक</h2><p>कर्मयोग की बात हो रही है, तो धन की बात भी आएगी। धन-अर्जन भी जीवन का एक लक्ष्य है।</p><p>आज आप सक्रिय रूप से काम कर रहे हैं, इसलिए धन है। कमाया और उड़ा दिया। पर बुढ़ापे में आय का स्रोत बंद हो जाएगा, या घटकर पेंशन रह जाएगी।</p><p>और खर्च बढ़ेगा। यदि जीवन कर्मयोग के बिना, क्रोध और भागदौड़ में बीता, तो परिणाम में बीमारियाँ आएँगी, और उनका खर्च भी।</p><p>ऊपर से, यदि अकेले अपने काम के जोश में रहे और प्रेम अधिक नहीं बाँटा, तो सहारा देने वाला भी कोई नहीं होगा। सेवक रखना पड़ेगा, और उसमें फिर धन जाएगा।</p><p>इसलिए यह योजना युवावस्था में ही बननी चाहिए कि मैं कब तक कर्म कर सकूँगा।</p><h2 id="hi-s7">कर्मयोगी कौन है?</h2><p>हम सब प्रार्थना करते हैं कि जीवन के अंत तक प्रसन्न और स्वस्थ रहें। पर बुढ़ापे में युवावस्था का सामर्थ्य लौट नहीं सकता।</p><p>एक दिन मुझे स्वयं निवृत्त होना चाहिए, ऐसा न हो कि सरकार या प्रकृति मुझे बाध्य करे।</p><blockquote><p>"उसके अनुसार काम करने वाले आदमी को कर्मयोगी बोलते हैं।"</p></blockquote><p>उसकी दृष्टि स्पष्ट होती है: दस वर्ष काम करना है, उसके बाद यह कार्य होगा। नाड़ी-ज्योतिष भले कहे कि अंत तक काम रहेगा, पर उसकी अपनी योजना होती है।</p><h2 id="hi-s8">गुरु माऊली और उत्तराधिकारी</h2><p>जो गुरु बन गया, <strong>गुरु माऊली</strong> (माँ समान गुरु) बन गया, उसके बहुत सारे बच्चे हो जाते हैं। माँ उन्हें छोड़कर यूँ ही नहीं जा सकती।</p><p>इसीलिए कहा गया कि आपका सपना तब पूरा होगा, जब आप अपने समान किसी को नियुक्त करेंगे। वरना गुरु अचानक चला जाए, तो शिष्य अनाथ जैसे हो जाते हैं।</p><h2 id="hi-s9">विवेकानंद का प्रश्न, रामकृष्ण का उत्तर</h2><p>आचार्य जी स्वयं छह वर्ष से पूछते रहे हैं: निवृत्ति कब? तब स्वामी विवेकानंद याद आए।</p><p>विवेकानंद ने भी अपने गुरु से कहा था, "अब तो सब ज्ञान मिल गया, अब मैं जाता हूँ।" श्री रामकृष्ण ने उत्तर दिया, "क्या तू इतना स्वार्थी बनेगा? तुझे ज्ञान हुआ है, तो लोगों को नहीं देगा?"</p><p>उसी क्षण वे समझ गए और सिखाने लगे। अंत में उन्हें इकतीस बीमारियाँ थीं, फिर भी उन्होंने संसार के लिए काम किया।</p><p>तो वैसा कर्म कीजिए। पर एक सीमा के बाद रुकना भी होगा।</p><h2 id="hi-s10">"चलता है" वाला नहीं चलता</h2><p>अमेरिका नौकरी के लिए गए? तो सोचना होगा कि भारत कब लौटना है, या वहीं स्थायी रहना है। बिना योजना के "चलता है तो चलता है", यह नहीं चलता।</p><p>कर्मयोगी के मन में एक <strong>निश्चित अंतिम बिंदु</strong> होता है। यह मृत्यु की इच्छा नहीं, यह एक <strong>संकल्प</strong> है, एक <strong>इच्छाशक्ति</strong>: यहाँ तक काम करूँगा, उसके बाद शांति से रहूँगा। और उसके लिए वैसा ज्ञान लेना है, वैसी क्रिया करनी है।</p><p><em>आपके कर्म का अंतिम बिंदु क्या है? क्या आपने उसे कभी तय किया है?</em></p><h2 id="hi-s11">मुख्य बातें</h2><ul><li>कर्मयोग बाँस-कूद के बाँस की तरह है: उसके बिना ज्ञानयोग तक पहुँचना असंभव, पर पहुँचने के लिए उसे छोड़ना भी अनिवार्य।</li><li>कर्म छोड़कर सीधे वैराग्य संभव नहीं, और जीवन भर केवल कर्म भी नहीं चलेगा।</li><li>अपने काम के लिए वर्षों की एक सीमा तय करें, फल की चिंता किए बिना।</li><li>बुढ़ापे को आज ही महसूस करें: उस उम्र में केवल चिंतन या चिंता होगी।</li><li>आय घटेगी और खर्च बढ़ेगा, इसलिए धन और प्रेम दोनों की तैयारी युवावस्था में करें।</li><li>गुरु का दायित्व है अपने समान उत्तराधिकारी तैयार करना।</li><li>कर्मयोगी का अंतिम बिंदु एक संकल्प है, जिसके लिए ज्ञान और क्रिया दोनों चाहिए।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=Hi2yo3WNWNg" target="_blank" rel="noopener"><img src="assets/Hi2yo3WNWNg.jpg" alt="Unveiling the Truth: Is Karma Yog the Ultimate Goal or Just the Beginning? | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Unveiling the Truth: Is Karma Yog the Ultimate Goal or Just the Beginning? | Acharya Upendra Ji<small>YouTube · 7:45</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">एक खेल जो पूरा जीवन समझा देता है</a></li><li><a href="#hi-s2">बाँस है कर्मयोग, शिखर है ज्ञानयोग</a></li><li><a href="#hi-s3">क्या पूरा जीवन केवल काम में बीतेगा?</a></li><li><a href="#hi-s4">अपने लिए एक सीमा तय करें</a></li><li><a href="#hi-s5">ज़ंजीर वाला प्रयोग: बुढ़ापे को आज महसूस कीजिए</a></li><li><a href="#hi-s6">बुढ़ापे का गणित: आय कम, खर्च अधिक</a></li><li><a href="#hi-s7">कर्मयोगी कौन है?</a></li><li><a href="#hi-s8">गुरु माऊली और उत्तराधिकारी</a></li><li><a href="#hi-s9">विवेकानंद का प्रश्न, रामकृष्ण का उत्तर</a></li><li><a href="#hi-s10">"चलता है" वाला नहीं चलता</a></li><li><a href="#hi-s11">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="When to Let Go of the Staff of Karma | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>When to Let Go of the Staff of Karma</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 6 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=Hi2yo3WNWNg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">A Game That Explains All of Life</h2><p>Have you ever watched a pole vault? The athlete runs with a long pole, plants it in the ground and leaps over the bar fixed high above.</p><p>But notice: while crossing, he does not take the pole along. He does not hold on to it like a sword. He has to let go of the pole, and only then does he reach the other side.</p><p>And yet, without that pole he could never have got there.</p><h2 id="en-s2">The Pole Is Karma Yoga, the Summit Is Jnana Yoga</h2><p>This pole is <strong>Karma Yoga</strong> (action performed without selfish motive, the Path of Action). And where you must reach is <strong>Jnana Yoga</strong> (the path of Self-knowledge, the Path of Knowledge), where <strong>jnana nishtha</strong> (steadfastness in knowledge) becomes firm.</p><p>Ultimately, that is where one must reach before death. But without action no one gets there.</p><blockquote><p>"Without it he cannot even reach that end."</p></blockquote><p>That is why leaving action and going straight to the Himalayas, as Arjuna proposes, is simply not possible. Devotion, knowledge and meditation were all spoken of, yet the answer remained: you will have to act. And that the pole must be dropped afterwards was also said later on.</p><p><em>Do you too sometimes think of leaving everything and running away, without completing the very action that is meant to carry you forward?</em></p><h2 id="en-s3">Will All of Life Be Spent Only in Work?</h2><p>The opposite mistake is just as big. "I will do only action my whole life" will not work either.</p><p>Yes, for the major part of life action will carry on. Just as the athlete runs in from far away and the pole travels with him. Then the pole plants, he rises on its support, and then he lets it go.</p><p>The purpose of Karma Yoga is to take you <strong>one step further</strong>. In the end, the whole world has to be dropped.</p><h2 id="en-s4">Set a Limit for Yourself</h2><p>No one knows when death will come. Who has seen tomorrow? So set a target for yourself: at least for these many years I will work.</p><p>It is not necessary that the target will be achieved:</p><blockquote class="verse"><p><strong>karmaṇy evādhikāras te mā phaleṣu kadācana</strong><br>"Your right is to action alone, never to its fruits."<br>(Bhagavad Gita 2.47)</p></blockquote><p>Your right is only to action, never to the fruit. But some limit there must be. "I will work my whole life" simply cannot happen.</p><h2 id="en-s5">The Chain Experiment: Feel Old Age Today</h2><p>Young people have great enthusiasm. For them, Acharya ji has an unusual suggestion.</p><p>Buy a small chain from the market, like the ones on prisoners' feet in jail. Tie it between your two feet. Bend halfway down, and tie another chain from your neck to your feet. Now try walking.</p><p>An old person's gait is exactly like this. The foot moves only a little forward; one has to walk stooped. Even if you want to, you cannot do anything.</p><blockquote><p>"Feel that state first, then you will understand: will I be able to act my whole life?"</p></blockquote><p>At that age you will have only two things: <strong>contemplation</strong> or <strong>worry</strong>. And that day will surely come. Has anyone guaranteed that you will not stoop?</p><p><em>The way you are living today, will you have contemplation at that age, or worry?</em></p><h2 id="en-s6">The Arithmetic of Old Age: Less Income, More Expense</h2><p>Since we are speaking of Karma Yoga, wealth will also come up. Earning wealth is also one aim of life.</p><p>Today you are working actively, so there is money. You earned it and blew it. But in old age the source of income will close, or shrink to a pension.</p><p>And expenses will rise. If life passed without Karma Yoga, in anger and rush, the result will be illnesses, and their costs too.</p><p>On top of that, if you stayed alone in the zeal of your own work and did not share much love, there will be no one to support you either. A servant will have to be kept, and more money goes into that.</p><p>That is why this plan should be made in youth itself: until when will I be able to work?</p><h2 id="en-s7">Who Is a Karma Yogi?</h2><p>We all pray to remain happy and healthy until the end of life. But in old age the strength of youth cannot return.</p><p>One day I should retire on my own, rather than the government or nature forcing me to.</p><blockquote><p>"The person who works accordingly is called a Karma Yogi."</p></blockquote><p>His vision is clear: ten years of work, and after that this work will happen. Nadi astrology may say there will be work till the end, but he has his own plan.</p><h2 id="en-s8">Guru Mauli and the Successor</h2><p>One who has become a guru, a <strong>Guru Mauli</strong> (a guru like a mother), comes to have many children. The mother cannot simply leave them and go.</p><p>That is why it was said that your dream will be fulfilled when you appoint someone equal to yourself. Otherwise, if the guru departs suddenly, the disciples become like orphans.</p><h2 id="en-s9">Vivekananda's Question, Ramakrishna's Answer</h2><p>Acharya ji himself has been asking for six years: when is retirement? Then Swami Vivekananda came to mind.</p><p>Vivekananda too had told his guru, "Now I have received all the knowledge, now I will go." Sri Ramakrishna replied, "Will you become so selfish? You have attained knowledge; will you not give it to people?"</p><p>In that moment he understood and began to teach. At the end he had thirty-one illnesses, yet he worked for the world.</p><p>So do such work. But after a limit, you must also stop.</p><h2 id="en-s10">"It'll Do" Doesn't Do</h2><p>Went to America for a job? Then you must think about when to return to India, or whether to stay there permanently. "If it goes, it goes," without any plan, does not work.</p><p>A Karma Yogi has a <strong>definite end point</strong> in mind. It is not a wish to die; it is a <strong>sankalpa</strong> (resolve), an <strong>iccha shakti</strong> (willpower): I will work up to here, and after that I will live in peace. And for that one must gain the right knowledge and perform the right action.</p><p><em>What is the end point of your work? Have you ever decided it?</em></p><h2 id="en-s11">Key Takeaways</h2><ul><li>Karma Yoga is like the vaulter's pole: without it reaching Jnana Yoga is impossible, yet to arrive you must let it go.</li><li>Renunciation without first acting is not possible, and only acting all your life will not work either.</li><li>Set a limit in years for your work, without anxiety over the fruit.</li><li>Feel old age today: at that age there will be only contemplation or worry.</li><li>Income will fall and expenses will rise, so prepare both wealth and love in youth.</li><li>A guru's duty is to prepare a successor equal to himself.</li><li>The Karma Yogi's end point is a resolve, which needs both knowledge and action.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=Hi2yo3WNWNg" target="_blank" rel="noopener"><img src="assets/Hi2yo3WNWNg.jpg" alt="Unveiling the Truth: Is Karma Yog the Ultimate Goal or Just the Beginning? | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Unveiling the Truth: Is Karma Yog the Ultimate Goal or Just the Beginning? | Acharya Upendra Ji<small>YouTube · 7:45</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">A Game That Explains All of Life</a></li><li><a href="#en-s2">The Pole Is Karma Yoga, the Summit Is Jnana Yoga</a></li><li><a href="#en-s3">Will All of Life Be Spent Only in Work?</a></li><li><a href="#en-s4">Set a Limit for Yourself</a></li><li><a href="#en-s5">The Chain Experiment: Feel Old Age Today</a></li><li><a href="#en-s6">The Arithmetic of Old Age: Less Income, More Expense</a></li><li><a href="#en-s7">Who Is a Karma Yogi?</a></li><li><a href="#en-s8">Guru Mauli and the Successor</a></li><li><a href="#en-s9">Vivekananda's Question, Ramakrishna's Answer</a></li><li><a href="#en-s10">"It'll Do" Doesn't Do</a></li><li><a href="#en-s11">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
