@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>जिस रूप में भजोगे उस रूप में भजूँगा | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — जिस रूप में भजोगे उस रूप में भजूँगा">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="जिस रूप में भजोगे उस रूप में भजूँगा | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>जिस रूप में भजोगे उस रूप में भजूँगा</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=yCkZTkwD1i4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>क्या आपने कभी गौर किया है कि जैसा हम देते हैं, वैसा ही लौटकर आता है? गीता में भगवान कहते हैं:</p><blockquote class="verse"><p><strong>ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्।</strong><br>(श्रीमद्भगवद्गीता ४.११)</p></blockquote><p>जो मुझे जिस भाव से भजता है, मैं भी उसे उसी प्रकार भजता हूँ। पर क्या इसका अर्थ केवल "जैसे को तैसा" है? इस प्रवचन में इसी प्रश्न की गहराई खुलती है।</p><h2 id="hi-s1">सामने वाला भी ब्रह्म है</h2><p>पूरे विश्व में <strong>ब्रह्म</strong> (सर्वव्यापी परम सत्ता, the Absolute) ही है, वह शिव ही है।</p><p>तो आपके सामने जो खड़ा है, यदि आप उसे गाली दे रहे हैं, तो वह गाली आपने ब्रह्म को दी। फिर वह आपकी आरती नहीं उतारेगा, वह भी आपको गाली ही देगा।</p><p>यह पहला और सीधा अर्थ है: घर में आप चिल्लाए, तो सामने वाला भी चिल्लाएगा।</p><h2 id="hi-s2">कहाँ चिल्लाना था, कहाँ चुप रहना था?</h2><p>असली प्रश्न यह है कि हमें <strong>बोध</strong> (inner understanding) है या नहीं: कहाँ चिल्लाना उचित था और कहाँ नहीं।</p><p>यदि सामने गुरु चिल्ला रहे हैं, तो उलटकर चिल्लाना नहीं, चुप रहना चाहिए था। राजा चिल्ला रहा है, तो किसी कारण से: तूने कर की चोरी की है, कर नहीं भरता। उसे चिल्लाने का अधिकार है।</p><p>पिताजी ने डाँटा, तो बेटे को अच्छा नहीं लगेगा, यह स्वाभाविक है। पर डाँटना उचित था या नहीं, यह बोध से तय होगा। वह बोध, वह <strong>विवेक बुद्धि</strong> (discernment), गणपति देते हैं।</p><p><em>पिछली बार जब किसी ने आपको डाँटा, क्या आपने रुककर सोचा कि उसके पीछे कारण क्या था?</em></p><h2 id="hi-s3">पहले क्षण में गुरु अच्छे नहीं लगते</h2><p>गुरु का कठोर स्वरूप पहले क्षण में अच्छा लगता ही नहीं, यह पक्का है।</p><p>अर्जुन को भी पहले कृष्ण अच्छे नहीं लगते; कितनी शर्तें रखते हैं: यह कर, वह कर। चंद्रगुप्त को भी आचार्य चाणक्य पहले अच्छे नहीं लगते।</p><p>बाद में समझ आता है। जब भीतर गणपति जागृत होते हैं, तब समझ आता है।</p><h2 id="hi-s4">क्या भगवान बदला लेते हैं?</h2><p>तो क्या भगवान का न्याय किसी साधारण व्यक्ति जैसा है, कि तूने मारा इसलिए मैंने मारा? क्या वह कोई गुंडा है? नहीं।</p><p>भगवान का बाहरी स्वरूप वैसा ही हो सकता है जैसा आपका व्यवहार है, पर उनका भाव सदैव परमेश्वर का ही रहता है: आपका <strong>उद्धार</strong> (उत्थान और मुक्ति, liberation)।</p><blockquote><p>"पर तू भाषण से नहीं समझता, तू लात खाकर ही समझता है, तो लात मारकर ही मैं तुझे सिखाऊँगा।"</p></blockquote><p>जो भाषा आपको समझ आती है, भगवान वही भाषा बोलते हैं। आप जिस स्वरूप से उन्हें नष्ट करने आए, वे उसी स्वरूप से कार्य करके आपका उद्धार करते हैं।</p><h2 id="hi-s5">दुर्गा देवी: शस्त्र हाथ में, करुणा हृदय में</h2><p>दुर्गा देवी युद्ध करती हैं, फिर शस्त्र फेंक देती हैं, फिर मुष्टि युद्ध होता है। देवता पूछते हैं: "आप संकल्प मात्र से उसे एक झटके में मार सकती हैं, तो इतना क्यों? उसे स्पर्श क्यों करने देती हैं? वह 'दुष्ट दुर्गे' कहकर आपका अपमान करता है, आप सुनती क्यों हैं?"</p><p>देवी का उत्तर सब बदल देता है:</p><blockquote><p>"क्योंकि मैं माँ हूँ। मैं उसे शत्रु देखती ही नहीं हूँ।"</p></blockquote><p>वे उसे एक, दो, तीन अवसर देती हैं कि वह सुधर जाए। "दुष्ट" शब्द पर उनका ध्यान ही नहीं जाता; वह "दुर्गे, दुर्गे, दुर्गे" बोलता है, तो उसका <strong>नाम-स्मरण</strong> हो रहा है।</p><p>स्पर्श इसलिए करने देती हैं कि उसकी <strong>स्पर्श दीक्षा</strong> (touch-initiation, जिसमें गुरु या देवी की ऊर्जा स्पर्श से प्रवाहित होती है) हो जाए। यह अंतिम अवसर है कि कम से कम वह मुक्त हो जाए। जितना वह देवी के चित्त में रहेगा, उसके सारे पाप धुल जाएँगे।</p><h2 id="hi-s6">आरती में छिपा हुआ रहस्य</h2><p>"दुर्गे दुर्घट भारी" की आरती हमने बार-बार की, गणपति उत्सव में भी। पर क्या यह भाव कभी पढ़ा?</p><p>मेरी दुर्गा ने शस्त्र धारण किए थे, लेकिन सामने वाले के उद्धार के लिए। यही है "जिस रूप में भजोगे, उस रूप में भजूँगा"। यह बदले का भाव नहीं, यह शत्रु भाव नहीं। दोनों में ज़मीन-आसमान का अंतर है।</p><p><em>जब आप किसी को कठोरता से जवाब देते हैं, तो भीतर भाव बदले का होता है या उसके भले का?</em></p><h2 id="hi-s7">माँ का भाव: फल के आग्रह का त्याग</h2><blockquote><p>"कर्म कर, फल का हठ छोड़ दे।"</p></blockquote><blockquote class="verse"><p><strong>मातृदेवो भव। पितृदेवो भव। आचार्यदेवो भव।</strong><br>(तैत्तिरीय उपनिषद् १.११.२)</p></blockquote><p>माता, पिता और आचार्य को देवता मानो। माँ अपनी सेवा का कितना बिल लगाती है, बताइए? माँ जो करती है, वही <strong>फल का त्याग</strong> है। यह स्थिति सर्वोच्च कही गई है।</p><h2 id="hi-s8">मुख्य सीख</h2><ul><li>पूरे विश्व में ब्रह्म है; सामने वाले को दिया गया व्यवहार ब्रह्म को दिया गया व्यवहार है, और वही लौटकर आता है।</li><li>कहाँ प्रतिक्रिया देनी है और कहाँ चुप रहना है, यह बोध और विवेक बुद्धि से तय होता है, जो गणपति देते हैं।</li><li>गुरु का कठोर रूप पहले अच्छा नहीं लगता, जैसे अर्जुन को कृष्ण और चंद्रगुप्त को चाणक्य; समझ बाद में आती है।</li><li>भगवान का न्याय बदले का नहीं; बाहरी रूप आपके जैसा हो सकता है, पर भाव सदा उद्धार का होता है।</li><li>दुर्गा देवी शत्रु को भी शत्रु नहीं देखतीं; माँ के रूप में अवसर, नाम-स्मरण और स्पर्श दीक्षा देकर उसे मुक्त करती हैं।</li><li>कर्म करो, फल का हठ छोड़ो; माँ की तरह बिना हिसाब के देना ही सर्वोच्च स्थिति है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=yCkZTkwD1i4" target="_blank" rel="noopener"><img src="assets/yCkZTkwD1i4.jpg" alt="Life Is a Boomerang: Do This Before You React | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Life Is a Boomerang: Do This Before You React | Acharya Upendra Ji<small>YouTube · 5:14</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">सामने वाला भी ब्रह्म है</a></li><li><a href="#hi-s2">कहाँ चिल्लाना था, कहाँ चुप रहना था?</a></li><li><a href="#hi-s3">पहले क्षण में गुरु अच्छे नहीं लगते</a></li><li><a href="#hi-s4">क्या भगवान बदला लेते हैं?</a></li><li><a href="#hi-s5">दुर्गा देवी: शस्त्र हाथ में, करुणा हृदय में</a></li><li><a href="#hi-s6">आरती में छिपा हुआ रहस्य</a></li><li><a href="#hi-s7">माँ का भाव: फल के आग्रह का त्याग</a></li><li><a href="#hi-s8">मुख्य सीख</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="In Whatever Form You Worship Me In That Form I Respond | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>In Whatever Form You Worship Me In That Form I Respond</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 4 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=yCkZTkwD1i4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>Have you ever noticed that what we give comes back to us in the same form? In the Gita, the Lord says:</p><blockquote class="verse"><p><strong>ye yathā māṃ prapadyante tāṃs tathaiva bhajāmy aham</strong><br>"As people approach Me, so do I respond to them."<br>(Bhagavad Gita 4.11)</p></blockquote><p>But does this simply mean "tit for tat"? This discourse opens up the depth of that question.</p><h2 id="en-s1">The Person Before You Is Also Brahman</h2><p>Throughout the universe there is only <strong>Brahman</strong> (the all-pervading Absolute); it is Shiva alone.</p><p>So if you abuse the person standing before you, you have abused Brahman. Then he will not perform your aarti; he too will abuse you in return.</p><p>This is the first, direct meaning: if you shout at home, the other person will shout too.</p><h2 id="en-s2">Where to Shout, and Where to Stay Silent?</h2><p>The real question is whether we have <strong>bodh</strong> (inner understanding): where was shouting right, and where was it not?</p><p>If the Guru is shouting before you, you should not shout back but stay silent. If the king is shouting, there is a reason: you have evaded taxes, you do not pay them. He has the right to shout.</p><p>If the father scolds, the son will not like it; that is natural. But whether the scolding was right is decided by understanding. That understanding, that <strong>vivek buddhi</strong> (discernment), is given by Ganapati.</p><p><em>The last time someone scolded you, did you pause to think about the reason behind it?</em></p><h2 id="en-s3">At First the Guru Does Not Feel Pleasant</h2><p>In the first moment, the Guru's stern form never feels pleasant; that is certain.</p><p>Even Arjuna at first does not like Krishna; He sets so many conditions: do this, do that. Even Chandragupta at first does not like Acharya Chanakya.</p><p>Later it is understood. When Ganapati awakens within, then it is understood.</p><h2 id="en-s4">Does God Take Revenge?</h2><p>So is God's justice like that of an ordinary person: you hit me, so I hit you? Is He some thug? No.</p><p>God's outer form may mirror your behaviour, but His feeling is always that of the Supreme Lord: your <strong>uddhar</strong> (upliftment and liberation).</p><blockquote><p>"But you do not understand through speeches; you understand only by being kicked, so by kicking I will teach you."</p></blockquote><p>God speaks the language you understand. The very form through which you came to destroy Him is the form through which He works for your upliftment.</p><h2 id="en-s5">Goddess Durga: Weapons in Hand, Compassion in Heart</h2><p>Durga fights, then throws away her weapons, then hand-to-hand combat takes place. The gods ask: "You could kill him in one stroke by mere resolve, so why all this? Why let him touch you? He insults you by calling you 'wicked Durge', why do you listen?"</p><p>The Goddess's answer changes everything:</p><blockquote><p>"Because I am a mother. I do not see him as an enemy at all."</p></blockquote><p>She gives him one, two, three chances to reform. Her attention does not go to the word "wicked" at all; he says "Durge, Durge, Durge", so he is doing <strong>naam-smaran</strong> (remembrance of the divine name).</p><p>She lets him touch her so that his <strong>sparsha diksha</strong> (initiation by touch, in which the energy of the Guru or Goddess flows through touch) may happen. It is a last chance, so that at least he may be liberated. The more he stays in the Goddess's mind, the more all his sins are washed away.</p><h2 id="en-s6">The Secret Hidden in the Aarti</h2><p>We sang the aarti "Durge Durghat Bhari" again and again, during the Ganapati festival too. But have we ever read this feeling in it?</p><p>My Durga held weapons, but for the upliftment of the one before her. This is "in whatever form you worship Me, in that form I respond". It is not a feeling of revenge, not enmity. There is a difference of earth and sky between the two.</p><p><em>When you answer someone harshly, is the feeling within one of revenge or of their good?</em></p><h2 id="en-s7">A Mother's Way: Letting Go of Insistence on Fruits</h2><blockquote><p>"Do your work; give up insisting on the fruit."</p></blockquote><blockquote class="verse"><p><strong>mātṛdevo bhava, pitṛdevo bhava, ācāryadevo bhava</strong><br>"Treat your mother as God, your father as God, your teacher as God."<br>(Taittiriya Upanishad 1.11.2)</p></blockquote><p>Tell me, how much of a bill does a mother charge for her service? What a mother does is itself the <strong>renunciation of the fruit</strong>. This state is called the highest.</p><h2 id="en-s8">Key Takeaways</h2><ul><li>Brahman is everywhere; how you treat the person before you is how you treat Brahman, and it comes back to you.</li><li>Where to react and where to stay silent is decided by understanding and discernment, which Ganapati gives.</li><li>The Guru's stern form is unpleasant at first, as Krishna was for Arjuna and Chanakya for Chandragupta; understanding comes later.</li><li>God's justice is not revenge; His outer form may mirror yours, but His feeling is always your upliftment.</li><li>Goddess Durga does not see even an enemy as an enemy; as a mother she frees him through chances, name-remembrance and initiation by touch.</li><li>Do your work and give up insisting on the fruit; giving without keeping accounts, like a mother, is the highest state.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=yCkZTkwD1i4" target="_blank" rel="noopener"><img src="assets/yCkZTkwD1i4.jpg" alt="Life Is a Boomerang: Do This Before You React | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Life Is a Boomerang: Do This Before You React | Acharya Upendra Ji<small>YouTube · 5:14</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">The Person Before You Is Also Brahman</a></li><li><a href="#en-s2">Where to Shout, and Where to Stay Silent?</a></li><li><a href="#en-s3">At First the Guru Does Not Feel Pleasant</a></li><li><a href="#en-s4">Does God Take Revenge?</a></li><li><a href="#en-s5">Goddess Durga: Weapons in Hand, Compassion in Heart</a></li><li><a href="#en-s6">The Secret Hidden in the Aarti</a></li><li><a href="#en-s7">A Mother's Way: Letting Go of Insistence on Fruits</a></li><li><a href="#en-s8">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
