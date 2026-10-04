@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>संसार की माया में हम खुद को कैसे भूल जाते हैं | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — संसार की माया में हम खुद को कैसे भूल जाते हैं">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="संसार की माया में हम खुद को कैसे भूल जाते हैं | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>संसार की माया में हम खुद को कैसे भूल जाते हैं</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=YEnlgHqzyxk" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">सब व्यस्त हैं, पर किस लिए?</h2><p>हम सब अपने-अपने कामों में उलझे हैं। दफ़्तर का काम, घर का काम, यह काम, वह काम। गृहिणी भी यही कहती है और दफ़्तर जाने वाला भी।</p><p>पर गुरुदेव एक सीधा-सा प्रश्न रखते हैं: क्या आप वास्तव में जानते हैं कि आपका <strong>कर्म</strong> (कर्तव्य, जीवन का वास्तविक कार्य) क्या है? और क्या आप सचमुच जानते हैं कि आप कौन हैं?</p><blockquote><p>"क्या आप वास्तव में जानते हो आपका कर्म क्या है? आप कौन हो? आप कहाँ से आए हो? कहाँ जाओगे?"</p></blockquote><h2 id="hi-s2">अध्यात्म का सरल अर्थ</h2><p><strong>अध्यात्म</strong> (Spirituality) का अर्थ है आत्मा का अध्ययन। अध्ययन किसका? आत्मा का।</p><p>जीवन का बीच वाला हिस्सा तो हमें दिखता है। पर हम कहाँ से आए और कहाँ जाना है, यह आरंभ और अंत हमें पता ही नहीं।</p><h2 id="hi-s3">जो हमने कभी नहीं देखा</h2><p>आपने दूसरों को जन्म लेते देखा है, पर अपना जन्म नहीं देखा। अपनी मृत्यु भी नहीं देखी। इस शरीर के साथ ये दोनों बातें आपकी आँखों से छिपी हैं।</p><p>दुनिया की जनसंख्या बढ़ रही है। जीव-जंतु, पशु-पक्षी, हर कोई जन्म ले रहा है। कोई राजा बनकर जन्मा, कोई कुत्ता-बिल्ली, कोई चोर, कोई राक्षस। क्यों?</p><p>और लोग जाते कहाँ हैं? कोई दुर्घटना में, कोई बम विस्फोट में, कोई बीमारी से, कोई स्वाभाविक मृत्यु से। हमारे दादाजी, परदादीजी, वे कहाँ गए?</p><p><em>एक दिन मैं भी जाऊँगा। तो मैं कहाँ जाऊँगा? और मैं आया कहाँ से था? क्या आपने कभी यह सोचा है?</em></p><h2 id="hi-s4">झगड़ों से पहले एक प्रश्न</h2><p>हम शिकायत करते रहते हैं: मेरी भाभी ऐसी, मेरा बेटा ऐसा, मेरी माँ ऐसी, मेरा पड़ोसी ऐसा, मेरा बॉस खराब।</p><p>पर क्या कभी सोचा कि ये लोग आपके जीवन में आए कहाँ से?</p><h2 id="hi-s5">कोऽहम्: बच्चा क्यों रोता है?</h2><p>आदि शंकराचार्य यही प्रश्न उठाते हैं। बच्चा रोता है तो माँ अपनी सामान्य <strong>वासना</strong> (इच्छा, संस्कार) से सोचती है: इसे भूख लगी होगी। उसकी सोच खाने-पीने से आगे जाती ही नहीं।</p><p>शंकराचार्य कहते हैं, बच्चा खाने-पीने के लिए नहीं रोता। जन्म के पहले कुछ दिनों में उसे बोध होता है: मेरा जन्म हुआ ही क्यों? वह "कोऽहम्, कोऽहम्" कहकर रोता है।</p><blockquote class="verse"><p><strong>कोऽहम्</strong></p></blockquote><p><strong>कोऽहम्</strong> का अर्थ है: मैं कौन हूँ? (Who am I?) और इसका उत्तर है:</p><blockquote class="verse"><p><strong>सोऽहम्</strong></p></blockquote><p><strong>सोऽहम्</strong> अर्थात् तू वही है, तू परमात्मा है (I am That)। ये दोनों प्रतीक हैं, जिन्हें आदि शंकराचार्य ने एक कवि के रूप में कहा। गुरुदेव बताते हैं कि ये दोनों बातें शिविर में सिखाई जाती हैं।</p><h2 id="hi-s6">ज्ञानेश्वर महाराज का बचपन</h2><p>संत ज्ञानेश्वर भी बचपन में रोते थे। उनके माता-पिता उन्हें कंधे पर लेकर भगवद्गीता के श्लोक अर्थ सहित सुनाते थे, और वे शांत होकर सो जाते थे।</p><p>गुरुदेव कहते हैं, आप भी आज़माकर देखिए। बच्चे को "ॐ" मंत्र, या ऐसा कुछ, अर्थ के साथ सुनाइए। वह शांत हो जाएगा। हाँ, कभी-कभी वह भूख से भी रोता होगा, इससे इनकार नहीं।</p><h2 id="hi-s7">खिलौना और माया</h2><p>पर हम क्या करते हैं? खिलौना पकड़ा देते हैं, "ले, कुकड़ू-कू" कहकर बहलाते हैं।</p><blockquote><p>"वो माया में खेलने के लिए सीख जाता है और भूल जाता है मैं किसके लिए आया था।"</p></blockquote><p>हम उसे इसी संसार में ले आते हैं, और फिर पूरा जीवन वह इसी <strong>माया</strong> (संसार का भ्रम) में अटका रह जाता है।</p><h2 id="hi-s8">यही विचार आपको क्यों आया?</h2><p>आप सोचते हैं, मुझे बड़ा व्यापार करना है, पर हो नहीं रहा। पहले यह सोचिए: व्यापार का ही विचार क्यों आया? गुरु बनने का क्यों नहीं? राजा बनने का क्यों नहीं?</p><p>किसी के मन में राजा बनने का विचार आया, किसी के मन में गुरु बनने का। किसी के मन में शराब पीने का विचार आया, आपके मन में नहीं आया।</p><p>कोई कहता है, नौकरी नहीं मिल रही, इंजीनियरिंग में अटक गया हूँ, एमबीए नहीं मिल रहा। पर यह विचार तुम्हें आया ही क्यों? सकारात्मक और नकारात्मक सोच की बात तो बाद में आती है।</p><p><em>आज आप जिस लक्ष्य के पीछे भाग रहे हैं, क्या आपने कभी पूछा कि वह विचार आपके भीतर आया कहाँ से?</em></p><h2 id="hi-s9">विचार का मूल</h2><p>हर किसी को पाठ्यक्रम की तरह एक-सा विचार क्यों नहीं आता? निश्चित ही इसका कोई मूल (origin) है। उसे जाने बिना प्रगति कैसे होगी?</p><h2 id="hi-s10">आँखों पर पट्टी और गाड़ी</h2><p>कल्पना कीजिए: रास्ता मालूम नहीं, नक्शा मालूम नहीं, आप कहाँ खड़े हैं यह भी नहीं पता। आँखों पर पट्टी बँधी है, गाड़ी चला रहे हैं, और गंतव्य पता नहीं।</p><p>ऐसी गाड़ी चलाने का क्या लाभ?</p><p>हमें पता होना चाहिए कि हम कहाँ से आए हैं। गलत दिशा में चले गए, तो मुड़कर वापस आना चाहिए। और लक्ष्य कहाँ है, यह भी मालूम होना चाहिए।</p><p><em>सच्चे मन से सोचकर बताइए: क्या यह मालूम होना चाहिए या नहीं?</em></p><h2 id="hi-s11">मुख्य बातें</h2><ul><li><strong>अध्यात्म</strong> का अर्थ है आत्मा का अध्ययन: मैं कौन हूँ, कहाँ से आया, कहाँ जाऊँगा।</li><li>हम अपने कामों में व्यस्त हैं, पर यह नहीं जानते कि हमारा वास्तविक कर्म क्या है।</li><li>शंकराचार्य के अनुसार नवजात शिशु "कोऽहम्" (मैं कौन हूँ) पूछता हुआ रोता है, और उत्तर है "सोऽहम्" (तू वही परमात्मा है)।</li><li>खिलौनों और बहलावे से बच्चा माया में खेलना सीखता है और अपने आने का उद्देश्य भूल जाता है।</li><li>हमारे मन में कोई विशेष विचार क्यों आता है, उसके मूल को जाने बिना सच्ची प्रगति नहीं होती।</li><li>बिना यह जाने कि हम कहाँ से आए और कहाँ जाना है, जीवन आँखों पर पट्टी बाँधकर गाड़ी चलाने जैसा है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=YEnlgHqzyxk" target="_blank" rel="noopener"><img src="assets/YEnlgHqzyxk.jpg" alt="How Worldly Maya Makes You Forget Your True Self | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How Worldly Maya Makes You Forget Your True Self | Acharya Upendra Ji<small>YouTube · 5:43</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">सब व्यस्त हैं, पर किस लिए?</a></li><li><a href="#hi-s2">अध्यात्म का सरल अर्थ</a></li><li><a href="#hi-s3">जो हमने कभी नहीं देखा</a></li><li><a href="#hi-s4">झगड़ों से पहले एक प्रश्न</a></li><li><a href="#hi-s5">कोऽहम्: बच्चा क्यों रोता है?</a></li><li><a href="#hi-s6">ज्ञानेश्वर महाराज का बचपन</a></li><li><a href="#hi-s7">खिलौना और माया</a></li><li><a href="#hi-s8">यही विचार आपको क्यों आया?</a></li><li><a href="#hi-s9">विचार का मूल</a></li><li><a href="#hi-s10">आँखों पर पट्टी और गाड़ी</a></li><li><a href="#hi-s11">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="How the Maya of the World Makes Us Forget Ourselves | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>How the Maya of the World Makes Us Forget Ourselves</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=YEnlgHqzyxk" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">Everyone Is Busy, But For What?</h2><p>We are all caught up in our work. Office work, housework, this job, that job. The housewife says it, and so does the one who goes to the office.</p><p>But Gurudev places a simple question before us: do you truly know what your <strong>karma</strong> (duty, your real work in life) is? And do you really know who you are?</p><blockquote><p>"Do you truly know what your karma is? Who are you? Where have you come from? Where will you go?"</p></blockquote><h2 id="en-s2">The Simple Meaning of Adhyatma</h2><p><strong>Adhyatma</strong> (spirituality) means the study of the Self. Study of what? Of the Atma.</p><p>The middle part of life we can see. But where we came from and where we have to go, the beginning and the end, we simply do not know.</p><h2 id="en-s3">What We Have Never Seen</h2><p>You have seen others being born, but not your own birth. Nor have you seen your own death. With this body, both remain hidden from your eyes.</p><p>The world's population is growing. Creatures, animals, birds: everyone is being born. Someone was born a king, someone a dog or cat, someone a thief, someone a demon. Why?</p><p>And where do people go? Some in an accident, some in a bomb blast, some from illness, some by natural death. Our grandfather, our great-grandmother: where did they go?</p><p><em>One day I too will go. So where will I go? And where did I come from? Have you ever thought about this?</em></p><h2 id="en-s4">A Question Before Our Quarrels</h2><p>We keep complaining: my sister-in-law is like this, my son like that, my mother like this, my neighbour like that, my boss is bad.</p><p>But have you ever wondered where these people came into your life from?</p><h2 id="en-s5">Ko'ham: Why Does a Child Cry?</h2><p>Adi Shankaracharya raises this very question. When a child cries, the mother thinks through her ordinary <strong>vasana</strong> (desire, impression): he must be hungry. Her thinking never goes beyond eating and drinking.</p><p>Shankaracharya says the child does not cry for food and drink. In the first few days after birth, it realises: why was I born at all? It cries saying "Ko'ham, ko'ham."</p><blockquote class="verse"><p><strong>Ko'ham</strong></p></blockquote><p><strong>Ko'ham</strong> means: who am I? And the answer is:</p><blockquote class="verse"><p><strong>So'ham</strong></p></blockquote><p><strong>So'ham</strong> means you are That, you are the Supreme (I am That). Both are symbols, spoken by Adi Shankaracharya as a poet. Gurudev says both of these are taught in the shivir.</p><h2 id="en-s6">The Childhood of Dnyaneshwar Maharaj</h2><p>Sant Dnyaneshwar also cried as a child. His parents would carry him on their shoulders and recite verses of the Bhagavad Gita with their meaning, and he would grow calm and fall asleep.</p><p>Gurudev says, try it yourself. Recite the mantra "Om", or something like it, to a child with its meaning. The child will become calm. Yes, sometimes it may cry from hunger too; that is not denied.</p><h2 id="en-s7">The Toy and Maya</h2><p>But what do we do? We hand it a toy and amuse it with "here, cock-a-doodle-doo."</p><blockquote><p>"It learns to play in maya and forgets what it came for."</p></blockquote><p>We bring it into this very world, and then it stays stuck its whole life in this <strong>maya</strong> (the illusion of the world).</p><h2 id="en-s8">Why Did This Very Thought Come to You?</h2><p>You think, I want to do a big business, but it isn't happening. First ask: why did the thought of business come at all? Why not of becoming a guru? Why not of becoming a king?</p><p>The thought of becoming a king came to someone, the thought of becoming a guru to someone else. The thought of drinking liquor came into someone's mind; it did not come into yours.</p><p>Someone says, I can't find a job, I am stuck in engineering, I'm not getting into an MBA. But why did this thought come to you at all? Positive and negative thinking come later.</p><p><em>The goal you are chasing today: have you ever asked where that thought within you came from?</em></p><h2 id="en-s9">The Origin of a Thought</h2><p>Why does everyone not get the same thought, like a syllabus? Surely it has some origin. Without knowing it, how will there be progress?</p><h2 id="en-s10">A Blindfold and a Car</h2><p>Imagine: you don't know the road, you don't know the map, you don't even know where you are standing. There is a blindfold over your eyes, you are driving, and you don't know the destination.</p><p>What is the use of driving such a vehicle?</p><p>We should know where we have come from. If we went the wrong way, we should turn and come back. And we should also know where the goal is.</p><p><em>Think truthfully and tell me: should this be known, or not?</em></p><h2 id="en-s11">Key Takeaways</h2><ul><li><strong>Adhyatma</strong> means the study of the Self: who am I, where did I come from, where will I go.</li><li>We are busy with our work, but do not know what our real karma is.</li><li>According to Shankaracharya, a newborn cries asking "Ko'ham" (who am I), and the answer is "So'ham" (you are That Supreme).</li><li>Through toys and distractions, the child learns to play in maya and forgets the purpose of its coming.</li><li>Without knowing the origin of why a particular thought arises in our mind, there is no real progress.</li><li>Without knowing where we came from and where we have to go, life is like driving a car blindfolded.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=YEnlgHqzyxk" target="_blank" rel="noopener"><img src="assets/YEnlgHqzyxk.jpg" alt="How Worldly Maya Makes You Forget Your True Self | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">How Worldly Maya Makes You Forget Your True Self | Acharya Upendra Ji<small>YouTube · 5:43</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Everyone Is Busy, But For What?</a></li><li><a href="#en-s2">The Simple Meaning of Adhyatma</a></li><li><a href="#en-s3">What We Have Never Seen</a></li><li><a href="#en-s4">A Question Before Our Quarrels</a></li><li><a href="#en-s5">Ko'ham: Why Does a Child Cry?</a></li><li><a href="#en-s6">The Childhood of Dnyaneshwar Maharaj</a></li><li><a href="#en-s7">The Toy and Maya</a></li><li><a href="#en-s8">Why Did This Very Thought Come to You?</a></li><li><a href="#en-s9">The Origin of a Thought</a></li><li><a href="#en-s10">A Blindfold and a Car</a></li><li><a href="#en-s11">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
