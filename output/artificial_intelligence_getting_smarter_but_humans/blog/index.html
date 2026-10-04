@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>फ़ोन स्मार्ट हो रहा है, क्या हम भी? | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — फ़ोन स्मार्ट हो रहा है, क्या हम भी?">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="फ़ोन स्मार्ट हो रहा है, क्या हम भी? | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>फ़ोन स्मार्ट हो रहा है, क्या हम भी?</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ८ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=YQsZMpnU5_k" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="hi-s1">कलियुग का एक पुराना संकेत</h2><p>शास्त्रों में कलियुग का वर्णन आता है कि धीरे-धीरे यह यंत्रों का युग बन जाएगा। युग के अंत तक मशीनों का ऐसा राज्य हो जाएगा कि मनुष्य भूल जाएगा कि उसने जन्म किसलिए लिया है।</p><p>आज हम उसी दिशा में आगे बढ़ रहे हैं। इसलिए यह बात आज कृत्रिम बुद्धि (Artificial Intelligence) के बारे में है, और उससे भी पहले अपनी <strong>विवेक बुद्धि</strong> के बारे में, जिसे यहाँ <strong>गणपति</strong> के रूप में समझा गया है।</p><p>आविष्कार में कोई दोष नहीं है। प्रश्न यह है कि विज्ञान किसके हाथ में है, और हम उसका उपयोग कैसे कर रहे हैं।</p><h2 id="hi-s2">यह सब एक छोटे से कैलकुलेटर से शुरू हुआ</h2><p>पहले मनुष्य अपना सारा काम स्वयं करता था। फिर कैलकुलेटर आया। गणित कठिन विषय है, कुछ ही प्रतिशत लोग उसमें निपुण होते हैं, और दुकान के रोज़ के हिसाब में इसकी ज़रूरत पड़ती है ताकि कोई ठग न सके। इसलिए हमने आपत्ति नहीं की।</p><p>फिर यह परीक्षाओं में आया, इंजीनियरिंग में आया। धीरे-धीरे अपनी बुद्धि का काम कम होने लगा, क्योंकि कोई और तो कर ही रहा है। आज लोग दो गुणा दो के लिए भी कैलकुलेटर उठाते हैं।</p><p>पहले हमें लंबे-लंबे फ़ोन नंबर याद रहते थे। आज की पीढ़ी को पता भी नहीं कि नंबर याद रखे जाते हैं।</p><blockquote><p>"फ़ोन स्मार्ट होता जा रहा है और हम dumb होते जा रहे हैं।"</p></blockquote><p>अपनी <strong>मूल बुद्धि</strong> (original intelligence) को खोते-खोते हमने बाहर की बुद्धि को बढ़ा दिया। फ़ोन तो सब जानता है; पर जिसके हाथ में वह है, वह क्या जानता है?</p><p>पहले कहा जाता था कि ऐसे तो ग्रंथ ही प्रबुद्ध हो जाएगा। ग्रंथ केवल पूजा के लिए नहीं है, वह आपके <strong>भीतर जाने</strong> के लिए है।</p><p><em>आपने आखिरी बार कब कोई बात, कोई हिसाब या कोई नंबर बिना फ़ोन के अपनी स्मृति से निकाला था?</em></p><h2 id="hi-s3">"भाषा तक तो यह नहीं पहुँचेगा"</h2><p>फिर कृत्रिम बुद्धि ने रचनात्मकता और ग्राफ़िक्स में प्रवेश किया। इंजीनियरिंग ड्रॉइंग, वास्तुकार, इंटीरियर डिज़ाइनर, सबके लिए CAD-CAM जैसे यंत्र आ गए। आदेश दिया और चित्र अपने आप बनने लगा। फिर भी कम से कम सॉफ़्टवेयर चलाना तो आना चाहिए था, और चित्रकार का अपना हुनर बचा हुआ था।</p><p>तब कहा गया कि यह सब विषय कर लेगा, पर भाषा पर कुछ नहीं कर पाएगा। निबंध लेखन, हिंदी-मराठी के प्रश्नपत्र, इनमें तो नहीं। पर <strong>मशीन लर्निंग</strong> के सहारे यह वहाँ तक भी पहुँच गया।</p><p>यह मानव की प्रगति है, इसमें संदेह नहीं। और यह प्रगति मनुष्य की बुद्धि से, किसी की सिद्धि से ही हुई है। यह अपने आप नहीं आया।</p><h2 id="hi-s4">जब विज्ञान सात्विक हाथों से निकल जाता है</h2><p>यहीं सावधान होने की बात है। यह एक बहुत खतरनाक स्थिति है, क्योंकि यह <strong>रजस और तमस</strong> के हाथ में चला गया है।</p><p>जब कोई चीज़ पहली बार बनती है, तो वह सात्विक व्यक्ति के हाथ में होती है। भारत में जब फ़िल्म उद्योग बना, तो पहली फ़िल्म "सत्य हरिश्चंद्र" थी, क्योंकि उस समय वह कुछ पवित्रता के साथ बनाई गई थी।</p><p>सृजन के मूल में यह भाव है:</p><blockquote class="verse"><p><strong>अहं ब्रह्मास्मि</strong><br>(बृहदारण्यक उपनिषद् १.४.१०)</p></blockquote><p>"मैं ब्रह्म हूँ।" जब <strong>ब्रह्म भाव</strong> होता है, और उसके साथ <strong>सरस्वती</strong>, अर्थात <strong>सत्वगुण</strong> (purity, clarity) आता है, तभी सच्चा आविष्कार होता है। सच्चा वैज्ञानिक जानता है कि उसके भीतर वह आध्यात्मिकता है।</p><p>पर केवल विज्ञान के अनुयायी, जिनका सत्वगुण से कोई लेना-देना नहीं, शास्त्रों के अनुसार <strong>शुक्राचार्य</strong>, अर्थात दैत्यों के गुरु, के विभाग में चले जाते हैं। मोबाइल फ़ोन के आविष्कारक में बहुत सी श्री विद्या, बहुत सा अध्यात्म रहा होगा; पर उसके अनुयायियों में वह समझ नहीं होती। उनके लिए यह विलासिता की वस्तु बन जाता है।</p><blockquote><p>"भाड़े की बुद्धि है, ऊपर से वो फ्री।"</p></blockquote><h2 id="hi-s5">भाड़े की बुद्धि और नौकरियाँ</h2><p>गूगल आया तो खोज दो मिनट का काम हो गया। फिर पत्र लेखन, जो कभी परीक्षा का हिस्सा था, खत्म। रिज़्यूमे भी अब यही बना देता है।</p><p>आपके पास जो ChatGPT जैसा साधन है, वह कृत्रिम बुद्धि का एक अत्यंत प्रारंभिक रूप है। इसके ऊपर के स्तर आगे चलकर बहुत सी नौकरियाँ समाप्त कर देंगे।</p><p>यह मेरा कथन नहीं है। इसके रचयिता, स्वयं वैज्ञानिक, कह रहे हैं कि दस वर्षों में यह मानवता को ही समाप्त कर सकता है।</p><h2 id="hi-s6">हर प्रश्न की एक कीमत है: आधा लीटर पानी</h2><p>हर यंत्र के पीछे एक <strong>डाटा सेंटर</strong> होता है। और क्योंकि यह मुफ़्त है, हम व्यर्थ के प्रश्न भी पूछते रहते हैं। किसी लड़की को कैसे आकर्षित करें, बस प्रश्न पर प्रश्न, समय बिताना, किसी भी भाषा में।</p><blockquote><p>"प्रत्येक प्रश्न जब आप पूछते हो, तो इस संसार का आधा लीटर पानी खत्म होता है।"</p></blockquote><p>हर query, जो आप लिखते हो, उसके पीछे डाटा सेंटर तुरंत गर्म होते हैं, और उन्हें ठंडा करने के लिए पानी लगता है। और वह <strong>पीने का पानी</strong> होता है, समुद्र का पानी काम नहीं आता। यह मेरा शोध नहीं है; आप स्वयं खोजकर देख लीजिए।</p><p>जब अमेरिका को यह समझ आया, तो विकास के नाम पर डाटा सेंटर भारत में स्थापित करने को दे दिए गए। और हम प्रसन्न हैं, जबकि हमारा पानी समाप्त होगा। अरबों लोग प्रश्न पूछ रहे हैं, और उतनी देर ये विशाल यंत्र गर्म होते रहते हैं।</p><p>अब वैज्ञानिक सोच रहे हैं कि डाटा सेंटर अंतरिक्ष में कैसे ले जाएँ, या समुद्र के नीचे खारे पानी में कैसे रखें। और पूरा इंटरनेट भी समुद्र के भीतर बिछे तारों से आता है। वायरलेस तो केवल आपके घर के भीतर है; बाकी हर कंप्यूटर तार से जुड़ा है। इतना खर्च हो रहा है।</p><p><em>जो प्रश्न आपने आज किसी AI से पूछे, उनमें से कितने सचमुच ज़रूरी थे?</em></p><h2 id="hi-s7">तो क्या AI पर प्रतिबंध लगा दें?</h2><p>नहीं। <strong>विवेक</strong> कहता है कि यह उसके पास होना चाहिए जिसे सच में इसकी आवश्यकता है, जिसकी <strong>पात्रता</strong> (eligibility, inner worthiness) है, जो सत्वगुणी है। यह हर किसी को मिल गया, तो आगे चलकर घातक होगा।</p><p>सोचिए: दस-चालीस आदमियों का काम यह अकेला कर रहा है, तो नौकरियाँ कहाँ बचेंगी? और जिन्हें नौकरी नहीं मिल रही, वे बैठे-बैठे यही पूछ रहे हैं कि अवसाद से कैसे निकलें, यह कैसे करें, वह कैसे करें। और सारा भार वापस AI पर ही आ रहा है।</p><p>एक सुझाव: थोड़ा सा शुल्क लगा दो, एक रुपया प्रति प्रश्न, फिर देखो क्या होता है। पात्रता का प्रमाण हो, उपयोग का उद्देश्य हो, आध्यात्मिक शोध के लिए या किसी विशेष कार्य के लिए, या स्नातक के बाद ही उपयोग की अनुमति हो। कुछ न कुछ नियम होना ही चाहिए। वरना आने वाले समय में बहुत समस्या होगी।</p><h2 id="hi-s8">मुफ़्त का असली दाम</h2><p>AI मोबाइल के ऐप्स में आ गया। दस मिनट में यह, इतने मिनट में वह। सब कुछ तुरंत।</p><p>पर इन ऐप्स का व्यवसाय क्या है? पुराने वीडियो गेम याद कीजिए: क्रिकेट का एक ओवर खेला, और विज्ञापन आ गया। खेल मुफ़्त था, कमाई विज्ञापन से थी। वैसे ही किराने के, खाने के, डिलीवरी के ऐप मुफ़्त हैं, पर हर जगह प्रायोजित विज्ञापन, ऑफ़र, और दिमाग को लगातार उकसाना। कानूनी रूप से गलत नहीं, पर यह पक्का एक <strong>मार्केटिंग मशीन</strong> बन चुका है।</p><p>परिणाम? मोहल्ले के किराने वाले का धंधा कब का खत्म हो गया। और दस मिनट की डिलीवरी के चक्कर में खरीदारी पर खरीदारी होती रहती है। जो पहले से ही <strong>राजसिक और तामसिक</strong> है, वह कंगाल हो जाएगा।</p><h2 id="hi-s9">अपने गणपति को जगाइए</h2><p>इसलिए <strong>गणपति का</strong>, अर्थात अपनी विवेक बुद्धि का, ठीक से उपयोग करना होगा। AI एक अत्यंत खतरनाक वस्तु है, और इसके वैज्ञानिक स्वयं दस वर्ष की बात कर रहे हैं।</p><p>कैसे? पहले संसाधन खत्म होंगे। पानी खत्म होगा। और <strong>पानी प्राण का प्रतीक</strong> है; पानी है, तो प्राण है।</p><h2 id="hi-s10">मुख्य बातें</h2><ul><li>कलियुग को यंत्रों का युग कहा गया है, जिसमें मनुष्य भूल जाएगा कि उसने जन्म किसलिए लिया।</li><li>कैलकुलेटर से AI तक, हर कदम पर हमने अपनी मूल बुद्धि का काम बाहर सौंप दिया: फ़ोन स्मार्ट हुआ, हम नहीं।</li><li>सच्चा आविष्कार ब्रह्म भाव और सत्वगुण से होता है; पर आज यह विज्ञान रजस-तमस के हाथों में है।</li><li>AI से जुड़ा हर प्रश्न लगभग आधा लीटर पीने का पानी खर्च करता है, इसलिए व्यर्थ प्रश्न पूछना संसाधनों की बर्बादी है।</li><li>समाधान प्रतिबंध नहीं, पात्रता है: यह उसके पास हो जिसे सच में ज़रूरत है और जो सत्वगुणी है।</li><li>मुफ़्त ऐप्स विज्ञापन और खरीदारी की मशीन हैं; विवेक के बिना ये हमें कंगाल बना सकते हैं।</li><li>गणपति, अर्थात अपनी विवेक बुद्धि, का ठीक से उपयोग करना ही इस युग में बचाव है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=YQsZMpnU5_k" target="_blank" rel="noopener"><img src="assets/YQsZMpnU5_k.jpg" alt="Artificial Intelligence Is Getting Smarter, But Are Humans Getting Dumber | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Artificial Intelligence Is Getting Smarter, But Are Humans Getting Dumber | Acharya Upendra Ji<small>YouTube · 9:59</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">कलियुग का एक पुराना संकेत</a></li><li><a href="#hi-s2">यह सब एक छोटे से कैलकुलेटर से शुरू हुआ</a></li><li><a href="#hi-s3">"भाषा तक तो यह नहीं पहुँचेगा"</a></li><li><a href="#hi-s4">जब विज्ञान सात्विक हाथों से निकल जाता है</a></li><li><a href="#hi-s5">भाड़े की बुद्धि और नौकरियाँ</a></li><li><a href="#hi-s6">हर प्रश्न की एक कीमत है: आधा लीटर पानी</a></li><li><a href="#hi-s7">तो क्या AI पर प्रतिबंध लगा दें?</a></li><li><a href="#hi-s8">मुफ़्त का असली दाम</a></li><li><a href="#hi-s9">अपने गणपति को जगाइए</a></li><li><a href="#hi-s10">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Phone Is Getting Smarter, Are We? | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>The Phone Is Getting Smarter, Are We?</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=YQsZMpnU5_k" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><h2 id="en-s1">An Old Sign of Kali Yuga</h2><p>The scriptures describe Kali Yuga as an age that will slowly become an age of machines. By the end of the age, machines will rule so completely that man will forget why he took birth.</p><p>Today we are moving in that very direction. So this talk is about artificial intelligence, and even before that, about our own <strong>discerning intellect</strong> (viveka buddhi), understood here as <strong>Ganapati</strong>.</p><p>There is nothing wrong with invention. The question is whose hands science is in, and how we are using it.</p><h2 id="en-s2">It All Began with a Small Calculator</h2><p>Earlier, man did all his work himself. Then the calculator came. Mathematics is a difficult subject, only a few percent of people master it, and the daily accounts of a shop need it so that no one can cheat. So we did not object.</p><p>Then it came into examinations, into engineering. Slowly the work of our own intellect began to shrink, because someone else is doing it anyway. Today people pick up a calculator even for two times two.</p><p>Earlier we remembered long phone numbers. Today's generation does not even know that numbers are meant to be remembered.</p><blockquote><p>"The phone is becoming smart and we are becoming dumb."</p></blockquote><p>While losing our <strong>original intelligence</strong>, we made the outer intelligence grow. The phone knows everything; but what does the one holding it know?</p><p>It used to be said that this way the book itself will become enlightened. A sacred book is not only for worship; it is for <strong>going within</strong>.</p><p><em>When did you last bring back a fact, a calculation or a number from your own memory, without the phone?</em></p><h2 id="en-s3">"It Will Never Reach Language"</h2><p>Then artificial intelligence entered creativity and graphics. Engineering drawing, architects, interior designers: machines like CAD-CAM came for all of them. A command is given and the drawing makes itself. Still, at least one had to know how to run the software, and the painter's own skill remained.</p><p>Then it was said that it will handle all subjects, but it will not be able to do anything with language. Essay writing, Hindi and Marathi question papers, surely not these. But with the help of <strong>machine learning</strong>, it reached there too.</p><p>This is human progress; there is no doubt. And this progress has come from the human intellect, from someone's siddhi (spiritual attainment). It did not come on its own.</p><h2 id="en-s4">When Science Slips Out of Sattvic Hands</h2><p>This is where we must be careful. It is a very dangerous situation, because it has gone into the hands of <strong>rajas and tamas</strong>.</p><p>When something is first created, it is in the hands of a sattvic person. When the film industry was created in India, the first film was "Satya Harishchandra", because at that time it was made with some purity.</p><p>At the root of creation is this feeling:</p><blockquote class="verse"><p><strong>ahaṃ brahmāsmi</strong><br>"I am Brahman."<br>(Brihadaranyaka Upanishad 1.4.10)</p></blockquote><p>When there is <strong>brahma bhava</strong> (the feeling of being Brahman), and along with it <strong>Saraswati</strong>, that is <strong>sattva guna</strong> (purity, clarity), only then does true invention happen. The true scientist knows that this spirituality is within him.</p><p>But the mere followers of science, who have nothing to do with sattva guna, go, according to the scriptures, into the department of <strong>Shukracharya</strong>, the guru of the daityas (demons). The inventor of the mobile phone must have had much Shri Vidya, much spirituality; but his followers lack that understanding. For them it becomes a luxury commodity.</p><blockquote><p>"It is hired intelligence, and on top of that it is free."</p></blockquote><h2 id="en-s5">Hired Intelligence and Jobs</h2><p>Google came, and searching became two minutes' work. Then letter writing, which was once part of examinations, was gone. Now it even makes the resume.</p><p>The ChatGPT-like tool you have is an extremely basic form of artificial intelligence. The levels above it will end many jobs in the future.</p><p>This is not my statement. Its creators, the scientists themselves, are saying that within ten years it can end humanity itself.</p><h2 id="en-s6">Every Question Has a Price: Half a Litre of Water</h2><p>Behind every machine is a <strong>data center</strong>. And because it is free, we keep asking even useless questions. How to attract a girl, question after question, passing time, in any language.</p><blockquote><p>"Every time you ask a question, half a litre of this world's water is used up."</p></blockquote><p>For every query you type, the data centers behind it heat up immediately, and water is needed to cool them. And that is <strong>drinking water</strong>; sea water does not work. This is not my research; search for it yourself and see.</p><p>When America understood this, in the name of development the data centers were given to be set up in India. And we are happy, while our water will run out. Billions of people are asking questions, and for that long these huge machines keep heating up.</p><p>Now scientists are thinking about how to take data centers into space, or keep them under the sea in salt water. And the entire internet also comes through cables laid inside the sea. Wireless is only inside your home; every other computer is connected by wire. That much is being spent.</p><p><em>Of the questions you asked an AI today, how many were truly necessary?</em></p><h2 id="en-s7">So Should We Ban AI?</h2><p>No. <strong>Discernment</strong> says it should be with the one who truly needs it, who has <strong>patrata</strong> (eligibility, inner worthiness), who is sattvic. If it reaches just anyone, it will prove fatal in the future.</p><p>Think: if it alone does the work of ten or forty men, where will jobs remain? And those who cannot find jobs sit asking how to come out of depression, how to do this, how to do that. And the whole load comes back onto AI.</p><p>A suggestion: put a small fee on it, one rupee per question, and then see what happens. There should be proof of eligibility, a purpose of use, for spiritual research or for some specific work, or permission to use it only after graduation. Some rule or other must be there. Otherwise there will be great trouble in the coming time.</p><h2 id="en-s8">The Real Price of "Free"</h2><p>AI came into mobile apps. This in ten minutes, that in so many minutes. Everything instant.</p><p>But what is the business of these apps? Remember the old video games: you played one over of cricket, and an advertisement came. The game was free; the earning came from ads. In the same way, grocery, food and delivery apps are free, but everywhere there are sponsored ads, offers, and constant provocation of the mind. Not illegal, but it has surely become a <strong>marketing machine</strong>.</p><p>The result? The neighbourhood grocer's business ended long ago. And for the sake of ten-minute delivery, shopping goes on upon shopping. The one who is already <strong>rajasic and tamasic</strong> will become a pauper.</p><h2 id="en-s9">Awaken Your Ganapati</h2><p>That is why <strong>Ganapati</strong>, our discerning intellect, must be used properly. AI is an extremely dangerous thing, and its own scientists are speaking of ten years.</p><p>How? First the resources will run out. Water will run out. And <strong>water is the symbol of prana</strong> (life force); where there is water, there is life.</p><h2 id="en-s10">Key Takeaways</h2><ul><li>Kali Yuga is called the age of machines, in which man will forget why he took birth.</li><li>From the calculator to AI, at every step we handed the work of our original intelligence to something outside: the phone became smart, we did not.</li><li>True invention comes from brahma bhava and sattva guna; but today this science is in the hands of rajas and tamas.</li><li>Every AI question uses about half a litre of drinking water, so asking useless questions wastes resources.</li><li>The solution is not a ban but eligibility: it should be with the one who truly needs it and is sattvic.</li><li>Free apps are machines for advertising and shopping; without discernment they can make us paupers.</li><li>Using Ganapati, our discerning intellect, properly is our protection in this age.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=YQsZMpnU5_k" target="_blank" rel="noopener"><img src="assets/YQsZMpnU5_k.jpg" alt="Artificial Intelligence Is Getting Smarter, But Are Humans Getting Dumber | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Artificial Intelligence Is Getting Smarter, But Are Humans Getting Dumber | Acharya Upendra Ji<small>YouTube · 9:59</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">An Old Sign of Kali Yuga</a></li><li><a href="#en-s2">It All Began with a Small Calculator</a></li><li><a href="#en-s3">"It Will Never Reach Language"</a></li><li><a href="#en-s4">When Science Slips Out of Sattvic Hands</a></li><li><a href="#en-s5">Hired Intelligence and Jobs</a></li><li><a href="#en-s6">Every Question Has a Price: Half a Litre of Water</a></li><li><a href="#en-s7">So Should We Ban AI?</a></li><li><a href="#en-s8">The Real Price of "Free"</a></li><li><a href="#en-s9">Awaken Your Ganapati</a></li><li><a href="#en-s10">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
