@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ७ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=JP46r1WEVAM" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>क्या आपने कभी सोचा है कि भगवान श्रीकृष्ण, जिन्हें तीनों लोकों में कुछ भी पाना शेष नहीं था, फिर भी निरंतर कर्म क्यों करते रहे? और राम व कृष्ण जैसे अवतार भी गुरुकुल क्यों गए?</p><p>भगवद्गीता के तीसरे अध्याय के कुछ श्लोकों पर यह प्रवचन एक सीधी बात कहता है: <strong>श्रेष्ठ पुरुष अपने लिए नहीं, संसार के लिए कर्म करते हैं।</strong></p><h2 id="hi-s1">समाज किसकी ओर देखता है?</h2><blockquote class="verse"><p><strong>यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः।</strong><br><strong>स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते॥</strong><br>(श्रीमद्भगवद्गीता ३.२१)</p></blockquote><p>श्रेष्ठ पुरुष जो-जो आचरण करते हैं, अन्य लोग भी वैसा ही करते हैं। वह जो प्रमाण बना देता है, पूरा समाज उसी के अनुसार चलने लगता है।</p><p>इसीलिए नेतृत्व (leadership) एक उत्तरदायित्व है। नेता एक उत्तरदायी व्यक्ति होता है। अगर वह सावधान होकर नहीं चलता, तो बड़ी हानि हो जाती है।</p><h2 id="hi-s2">जिसे कुछ पाना नहीं, वह भी चलता रहता है</h2><blockquote class="verse"><p><strong>न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन।</strong><br><strong>नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि॥</strong><br>(श्रीमद्भगवद्गीता ३.२२)</p></blockquote><p>श्रीकृष्ण कहते हैं कि तीनों लोकों में उनका कोई कर्तव्य नहीं, कोई वस्तु अप्राप्त नहीं, फिर भी वे कर्म में लगे रहते हैं।</p><p>गुरुजी यह बात अपने जीवन से जोड़ते हैं। इस समय उनकी कोई आय नहीं है। चाहें तो ऑनलाइन बहुत कुछ हो सकता है, कार्यक्रमों के निमंत्रण भी बहुत आते हैं। फिर भी उन्हें घूमना पड़ता है, क्योंकि आश्रम चाहिए, यह चाहिए, वह चाहिए।</p><blockquote><p>"मुझे एक आदर्श दिखाना होता है। यह दिखावे के लिए नहीं है; यही मेरे जीवन का ढंग है।"</p></blockquote><p>उन्हें पूजा की आवश्यकता नहीं। वे जानते हैं कि मूर्तिपूजन साधना की आरंभिक अवस्था है, फिर भी करते हैं। वरना लोग कहेंगे, "गुरुजी तो कुछ नहीं करते, हम क्यों करें?"</p><h2 id="hi-s3">राम और कृष्ण गुरुकुल क्यों गए?</h2><blockquote class="verse"><p><strong>यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।</strong><br><strong>मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः॥</strong><br>(श्रीमद्भगवद्गीता ३.२३)</p></blockquote><p>यदि भगवान सावधान होकर कर्म न करें, तो बड़ी हानि हो, क्योंकि मनुष्य उन्हीं के मार्ग पर चलते हैं।</p><p>कृष्ण अवतार थे, फिर भी सांदीपनि ऋषि के पास गए। राम अवतार थे, फिर भी वशिष्ठ के पास गए। अगर वे गुरुकुल न जाते, तो आज के बच्चे कहते, "हमें जाने की क्या ज़रूरत?"</p><p><em>आपके बच्चे, आपके साथी, आपके छोटे भाई-बहन आपसे क्या सीख रहे हैं? आपका आचरण उनके लिए कैसा प्रमाण बन रहा है?</em></p><h2 id="hi-s4">जब आदर्श टूटते हैं: वर्णसंकर</h2><blockquote class="verse"><p><strong>उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्।</strong><br><strong>सङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः॥</strong><br>(श्रीमद्भगवद्गीता ३.२४)</p></blockquote><p>यदि श्रेष्ठ पुरुष कर्म न करें, तो लोग नष्ट-भ्रष्ट हो जाएँ और <strong>वर्णसंकर</strong> (वर्णों का पतन, degradation of the varnas) फैल जाए।</p><p>गुरुजी इसे आज के उदाहरणों से समझाते हैं:</p><ul><li><strong>चिकित्सक</strong> का व्यवसाय सेवा का था। जब वह केवल पैसा कमाने लगता है, तो वह ब्राह्मण और वैश्य का मिश्रण बन जाता है।</li><li><strong>पैसा कमाने वाला शिक्षक</strong> भी ब्राह्मण और वैश्य का मिश्रण है।</li><li><strong>राजा</strong> में शूद्र वृत्ति आ जाए, तो क्षत्रिय और शूद्र के मिश्रण से भ्रष्ट राजनेता बनता है।</li></ul><p>यह सब तब होता है जब श्रेष्ठ जन अपना आदर्श कर्म छोड़ देते हैं।</p><h2 id="hi-s5">सासू माँ में दुर्गा दिखीं?</h2><blockquote class="verse"><p><strong>सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत।</strong><br><strong>कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसङ्ग्रहम्॥</strong><br>(श्रीमद्भगवद्गीता ३.२५)</p></blockquote><p>कर्म में आसक्त अज्ञानीजन जैसे कर्म करते हैं, आसक्तिरहित ज्ञानी भी <strong>लोकसंग्रह</strong> (लोगों को जोड़ना और दिशा देना) के लिए वैसे ही कर्म करे।</p><p>अज्ञानी कैसे कर्म करता है? "सासू माँ को देखना है, पत्नी को देखना है, ऑफिस को देखना है।" कर्म-कर्म चलता रहता है, पर किसी में भगवान नहीं दिखते। "सासू माँ की सेवा मैं जबरदस्ती कर रही हूँ", और उनमें दुर्गा देवी दिखी ही नहीं।</p><p>काम से तो आप बच नहीं सकते। पर किसके लिए कर रहे हैं, और आप कौन हैं, यह पता नहीं।</p><p>और जो ज्ञानी हो गया, वह अहंकार करे, तो वह और भी नीचे गिरता है। ज्ञानी भक्त को तो <strong>ज्ञानयुक्त कर्म</strong> करना था।</p><h2 id="hi-s6">"मत करो" नहीं, "ऐसे करो"</h2><p>ऐसे लोगों से तुरंत यह मत कहो, "काम छोड़ दो, सब मोह-माया है, चलो हिमालय।" सद्गुरु उन्हीं की तरह कर्म करके दिखाता है, पर नए ढंग से।</p><ul><li>तुम दान देते हो, तो गुरु को भी दान करके दिखाना होगा: <strong>महादान</strong>।</li><li>तुम व्यापार करते हो, तो गुरु को भी व्यापार करके दिखाना होगा, <strong>श्रीविद्या</strong> के ढंग से।</li></ul><p>लोगों को ऐसा नेता पसंद नहीं जो केवल "मत करो" कहता है। "यहाँ गाड़ी मत खड़ी करो" कहने वाले को यह भी बताना होगा कि कहाँ खड़ी करें। यही अच्छा पालन-पोषण (good parenting) है: यह नहीं, उसके बदले यह।</p><h2 id="hi-s7">विकल्प के बिना बदलाव नहीं</h2><p>हम रोज़ कहते हैं, भ्रष्ट लोगों को निकाल दो। पर जब तक अगली पीढ़ी तैयार नहीं, संसद खाली नहीं रहेगी। जब तक ऐसे सात्विक लोग नहीं आते जो कागज़ी काम भी कर सकें, थोड़ी दबंगई भी कर सकें, जिनमें थोड़ा रजोगुण भी हो, तब तक उन्हें बदला नहीं जा सकता।</p><blockquote><p>"यहाँ बैठ के प्रवचन देने वाला गुरु सद्गुरु नहीं है।"</p></blockquote><p>इसीलिए गुरुजी को राजनीति में प्रवेश करना, बाहर जाकर अध्ययन करना पड़ता है। बड़े से बड़े राजा को भी गुरु से मिलना पड़ा। शिवाजी महाराज को भी प्रेरित करना पड़ा था। गुरु यह न करें, तो देश नहीं बदलता।</p><p>तो वही कर्म करो जो लोग करते हैं, पर अकेले नहीं। लोगों को जोड़ते हुए सिखाओ: ऐसे नहीं, ऐसे; और ऐसा करने से क्या होता है।</p><h2 id="hi-s8">बुद्धि में भ्रम मत डालो</h2><blockquote class="verse"><p><strong>न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम्।</strong><br><strong>जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन्॥</strong><br>(श्रीमद्भगवद्गीता ३.२६)</p></blockquote><p>परमात्मा में स्थित ज्ञानी, कर्म में लगे लोगों की बुद्धि में भ्रम, अर्थात <strong>कर्मों में अश्रद्धा</strong>, उत्पन्न न करे। वह स्वयं शास्त्रविहित कर्म भली-भाँति करते हुए उनसे भी करवाए।</p><p>"बेटा, व्यापार छोड़ दे, सब मोह-माया है", ऐसा कहने वाले गुरु के पास मत जाना। "बेटा, यह श्रीविद्या है, इससे तू और धनवान हो सकता है", यह सही शिक्षा है।</p><p><strong>त्याग</strong> का अर्थ है देश की सेवा, और आसक्त न होना। केवल छोड़ देना सही मार्ग नहीं। पहले शक्ति तो विकसित करो।</p><p><em>क्या आप कुछ छोड़ना चाहते हैं क्योंकि वह कठिन है, या इसलिए कि आप सचमुच उससे ऊपर उठ चुके हैं?</em></p><h2 id="hi-s9">विवाह समस्या नहीं है</h2><p>"शादी मत करो, बहुत कष्ट है", यह मत सिखाना। श्रीराम, एकनाथ महाराज, तुकाराम महाराज, शिवजी, यहाँ तक कि बुद्ध, सबका विवाह हुआ।</p><blockquote><p>"विवाह समस्या नहीं है; विवाह को तुम कैसे निभाते हो, वह समस्या है।"</p></blockquote><p>सच्चा गुरु स्वयं शायद ब्रह्मचारी हो, पर आपको विवाह से नहीं रोकेगा। साईं बाबा का विवाह नहीं हुआ, पर क्या उन्होंने किसी ज़मींदार, राजा या रानी से कहा कि विवाह करके गलत किया?</p><p>"यह मत करो बेटा" कहने वाला किसी एक पंथ का गुरु हो सकता है, पर सद्गुरु नहीं, अवतार तो बिल्कुल नहीं। अगर किसी परंपरा की अगली पीढ़ी ऐसी शिक्षा दे रही है, तो बीच में कुछ गड़बड़ हुई है।</p><h2 id="hi-s10">शिक्षक व्यावहारिक हो</h2><p>सच्चा शिक्षक ट्यूशन कक्षा जैसा नहीं होता कि "यह रट लो, परीक्षा में यही आएगा।" वह स्वयं करके दिखाता है और आपसे भी करवाता है।</p><h2 id="hi-s11">मुख्य बातें</h2><ul><li>श्रेष्ठ पुरुष का आचरण ही समाज का प्रमाण बनता है, इसलिए नेतृत्व एक उत्तरदायित्व है।</li><li>जिसे कुछ पाना नहीं, वह भी आदर्श दिखाने के लिए कर्म करता है; राम और कृष्ण भी इसीलिए गुरुकुल गए।</li><li>आदर्श टूटने पर वर्णसंकर फैलता है: पैसे के पीछे भागता चिकित्सक या शिक्षक, भ्रष्ट राजनेता।</li><li>अज्ञानी कर्म करता है पर उसमें भगवान नहीं देखता; ज्ञानी को ज्ञानयुक्त कर्म करना है।</li><li>सद्गुरु "मत करो" नहीं कहता; वह विकल्प देता है और करके दिखाता है।</li><li>त्याग का अर्थ आसक्ति छोड़ना है, कर्म छोड़ना नहीं; विवाह और व्यापार समस्या नहीं, उन्हें निभाने का ढंग समस्या है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=JP46r1WEVAM" target="_blank" rel="noopener"><img src="assets/JP46r1WEVAM.jpg" alt="Why Legends Keep Working | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Legends Keep Working | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 10:19</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">समाज किसकी ओर देखता है?</a></li><li><a href="#hi-s2">जिसे कुछ पाना नहीं, वह भी चलता रहता है</a></li><li><a href="#hi-s3">राम और कृष्ण गुरुकुल क्यों गए?</a></li><li><a href="#hi-s4">जब आदर्श टूटते हैं: वर्णसंकर</a></li><li><a href="#hi-s5">सासू माँ में दुर्गा दिखीं?</a></li><li><a href="#hi-s6">"मत करो" नहीं, "ऐसे करो"</a></li><li><a href="#hi-s7">विकल्प के बिना बदलाव नहीं</a></li><li><a href="#hi-s8">बुद्धि में भ्रम मत डालो</a></li><li><a href="#hi-s9">विवाह समस्या नहीं है</a></li><li><a href="#hi-s10">शिक्षक व्यावहारिक हो</a></li><li><a href="#hi-s11">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Why Does One Who Needs Nothing Still Act | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>Why Does One Who Needs Nothing Still Act</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 7 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=JP46r1WEVAM" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>Have you ever wondered why Lord Shri Krishna, who had nothing left to attain in the three worlds, kept acting without pause? And why did avatars like Rama and Krishna go to the gurukul?</p><p>This discourse on a few verses from the third chapter of the Bhagavad Gita says something simple: <strong>the great act not for themselves, but for the world.</strong></p><h2 id="en-s1">Whom Does Society Look To?</h2><blockquote class="verse"><p><strong>yad yad ācarati śreṣṭhas tat tad evetaro janaḥ</strong><br><strong>sa yat pramāṇaṁ kurute lokas tad anuvartate</strong><br>"Whatever a great person does, others also do. Whatever standard he sets, the whole world follows."<br>(Bhagavad Gita 3.21)</p></blockquote><p>Whatever the great do, others do the same. Whatever standard such a person sets, the whole of society begins to follow it.</p><p>That is why leadership is a responsibility. A leader is a responsible person. If he does not walk with care, great harm follows.</p><h2 id="en-s2">One Who Needs Nothing Still Keeps Going</h2><blockquote class="verse"><p><strong>na me pārthāsti kartavyaṁ triṣu lokeṣu kiñcana</strong><br><strong>nānavāptam avāptavyaṁ varta eva ca karmaṇi</strong><br>"O Partha, there is no duty for Me in the three worlds, nor anything unattained to be attained; yet I remain engaged in action."<br>(Bhagavad Gita 3.22)</p></blockquote><p>Shri Krishna says that He has no duty in the three worlds and nothing unattained, and still He remains engaged in action.</p><p>Guruji connects this to his own life. At this time he has no income. If he wished, a great deal could happen online, and many invitations for programs come too. Still he has to travel, because an ashram is needed, this is needed, that is needed.</p><blockquote><p>"I have to show an ideal. This is not for show; it is my way of life."</p></blockquote><p>He does not need worship. He knows that idol worship is the beginning stage of sadhana, and still he does it. Otherwise people will say, "Guruji does nothing, why should we?"</p><h2 id="en-s3">Why Did Rama and Krishna Go to the Gurukul?</h2><blockquote class="verse"><p><strong>yadi hy ahaṁ na varteyaṁ jātu karmaṇy atandritaḥ</strong><br><strong>mama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ</strong><br>"If I ever failed to engage carefully in action, O Partha, people would follow My path in every way."<br>(Bhagavad Gita 3.23)</p></blockquote><p>If the Lord did not act with care, great harm would follow, because people walk on His path.</p><p>Krishna was an avatar, yet he went to the sage Sandipani. Rama was an avatar, yet he went to Vashishtha. Had they not gone to the gurukul, children today would say, "Why do we need to go?"</p><p><em>What are your children, your companions, your younger brothers and sisters learning from you? What kind of standard is your conduct setting for them?</em></p><h2 id="en-s4">When Ideals Break: Varna Sankar</h2><blockquote class="verse"><p><strong>utsīdeyur ime lokā na kuryāṁ karma ced aham</strong><br><strong>saṅkarasya ca kartā syām upahanyām imāḥ prajāḥ</strong><br>"If I did not act, these worlds would perish; I would be the cause of confusion and would destroy these people."<br>(Bhagavad Gita 3.24)</p></blockquote><p>If the great do not act, people are ruined and <strong>varna sankar</strong> (the degradation of the varnas) spreads.</p><p>Guruji explains this with examples from today:</p><ul><li>The <strong>doctor's</strong> profession was one of service. When he only chases money, he becomes a mixture of Brahmin and Vaishya.</li><li>The <strong>teacher who works for money</strong> is also a mixture of Brahmin and Vaishya.</li><li>When a <strong>king</strong> takes on a Shudra disposition, the mixture of Kshatriya and Shudra produces the corrupt politician.</li></ul><p>All this happens when the great abandon their exemplary action.</p><h2 id="en-s5">Did You See Durga in Your Mother-in-Law?</h2><blockquote class="verse"><p><strong>saktāḥ karmaṇy avidvāṁso yathā kurvanti bhārata</strong><br><strong>kuryād vidvāṁs tathāsaktaś cikīrṣur loka-saṅgraham</strong><br>"O Bharata, as the ignorant act with attachment to action, so should the wise act without attachment, wishing to hold the world together."<br>(Bhagavad Gita 3.25)</p></blockquote><p>As the ignorant act, attached to action, so should the wise, free of attachment, act in the same way for <strong>lokasangraha</strong> (bringing people together and giving them direction).</p><p>How do the ignorant act? "I have to look after my mother-in-law, look after my wife, look after the office." Action, action goes on, but they see God in no one. "I am serving my mother-in-law under compulsion," and they never saw Goddess Durga in her.</p><p>You cannot escape the work. But for whom you are doing it, and who you are, you do not know.</p><p>And if the one who has become wise grows proud, he falls even lower. The wise devotee was meant to perform <strong>action filled with knowledge</strong>.</p><h2 id="en-s6">Not "Don't", but "Do It This Way"</h2><p>Do not immediately tell such people, "Leave your work, it is all illusion, come to the Himalayas." The Sadguru shows by acting just as they do, but in a new way.</p><ul><li>You give charity, so the guru too must show by giving: <strong>mahadaan</strong>, the great giving.</li><li>You do business, so the guru too must show by doing business, in the way of <strong>Shri Vidya</strong>.</li></ul><p>People do not like a leader who only says "don't." The one who says "don't park here" must also say where to park. That is good parenting: not this, but this instead.</p><h2 id="en-s7">No Change Without an Alternative</h2><p>We say every day, throw out the corrupt. But until the next generation is ready, Parliament will not stay empty. Until sattvic people come who can do the paperwork, who can be a little tough, who have a little rajoguna, they cannot be replaced.</p><blockquote><p>"The guru who sits here giving discourses is not a Sadguru."</p></blockquote><p>That is why Guruji has to enter politics, go out and study. Even the greatest of kings had to meet a guru. Shivaji Maharaj too had to be inspired. If gurus do not do this, the country does not change.</p><p>So do the work that people do, but not alone. While bringing people together, teach them: not like this, like this; and what comes of doing it.</p><h2 id="en-s8">Do Not Unsettle the Mind</h2><blockquote class="verse"><p><strong>na buddhi-bhedaṁ janayed ajñānāṁ karma-saṅginām</strong><br><strong>joṣayet sarva-karmāṇi vidvān yuktaḥ samācaran</strong><br>"The wise should not unsettle the minds of the ignorant attached to action; performing all actions well, steadfast, he should engage them in action too."<br>(Bhagavad Gita 3.26)</p></blockquote><p>The wise one, established in the Supreme, should not create confusion, that is, <strong>lack of faith in action</strong>, in those engaged in action. Performing prescribed actions well himself, he should have them do the same.</p><p>"Son, give up your business, it is all illusion": do not go to a guru who says this. "Son, this is Shri Vidya, through it you can become even wealthier": that is the right teaching.</p><p><strong>Tyaga</strong> means serving the country, and not being attached. Merely giving things up is not the right way. First develop strength.</p><p><em>Do you want to give something up because it is hard, or because you have truly risen above it?</em></p><h2 id="en-s9">Marriage Is Not the Problem</h2><p>"Don't marry, it is too painful": do not teach this. Shri Rama, Eknath Maharaj, Tukaram Maharaj, Shiva, even the Buddha, all were married.</p><blockquote><p>"Marriage is not the problem; how you handle marriage is the problem."</p></blockquote><p>A true guru may himself be a brahmachari, but will not stop you from marrying. Sai Baba did not marry, but did he tell any landlord, king or queen that they did wrong by marrying?</p><p>The one who says "don't do this, son" may be the guru of one cult, but not a Sadguru, and certainly not an avatar. If the next generation of a tradition is giving such teaching, something went wrong in between.</p><h2 id="en-s10">The Teacher Must Be Practical</h2><p>A true teacher is not like a tuition class: "Memorize this, this is what will come in the exam." He shows by doing, and has you do it too.</p><h2 id="en-s11">Key Takeaways</h2><ul><li>The conduct of the great becomes society's standard, so leadership is a responsibility.</li><li>One who needs nothing still acts to show an ideal; that is why even Rama and Krishna went to the gurukul.</li><li>When ideals break, varna sankar spreads: the doctor or teacher chasing money, the corrupt politician.</li><li>The ignorant act but do not see God in their work; the wise must perform action filled with knowledge.</li><li>A Sadguru does not say "don't"; he gives an alternative and shows by doing.</li><li>Tyaga means giving up attachment, not action; marriage and business are not the problem, how you handle them is.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=JP46r1WEVAM" target="_blank" rel="noopener"><img src="assets/JP46r1WEVAM.jpg" alt="Why Legends Keep Working | Acharya Upendra Ji | Antar Yog Foundation" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">Why Legends Keep Working | Acharya Upendra Ji | Antar Yog Foundation<small>YouTube · 10:19</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Whom Does Society Look To?</a></li><li><a href="#en-s2">One Who Needs Nothing Still Keeps Going</a></li><li><a href="#en-s3">Why Did Rama and Krishna Go to the Gurukul?</a></li><li><a href="#en-s4">When Ideals Break: Varna Sankar</a></li><li><a href="#en-s5">Did You See Durga in Your Mother-in-Law?</a></li><li><a href="#en-s6">Not "Don't", but "Do It This Way"</a></li><li><a href="#en-s7">No Change Without an Alternative</a></li><li><a href="#en-s8">Do Not Unsettle the Mind</a></li><li><a href="#en-s9">Marriage Is Not the Problem</a></li><li><a href="#en-s10">The Teacher Must Be Practical</a></li><li><a href="#en-s11">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
