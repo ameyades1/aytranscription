@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>अरबपति बनने का भूला हुआ रहस्य | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — अरबपति बनने का भूला हुआ रहस्य">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="अरबपति बनने का भूला हुआ रहस्य | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">श्रीविद्या से समृद्धि तक</div>
+  <h1>अरबपति बनने का भूला हुआ रहस्य</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=3YzvjV9tkWg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>आज लोग दिन-रात खटते हैं, कड़ी मेहनत करते हैं, फिर भी महीना किसी तरह ही निकलता है। वहीं एक दूसरा वर्ग है, जो उन्हीं से काम करवाता है और अत्यंत धनवान हो जाता है।</p><p>यह अंतर इतना बड़ा क्यों है? इसी प्रश्न से अंतरयोग के इस भव्य श्रीविद्या शिविर की बात शुरू होती है।</p><h2 id="hi-s1">मेहनत बराबर, फल इतना अलग क्यों?</h2><p>अपने देश में देखें या पूरे विश्व में, एक वर्ग बहुत परिश्रम करता है और उसे थोड़ा वेतन मिलता है। दूसरा वर्ग उसी परिश्रम से अत्यंत समृद्ध हो जाता है।</p><p>वक्ता के अनुसार इसका कारण यह है कि एक वर्ग को <strong>श्रीविद्या</strong> ज्ञात है। श्रीविद्या (Shri Vidya) भारत की प्राचीन साधना-परंपरा है, जो देवी ललिता त्रिपुरसुंदरी की उपासना पर आधारित है। हमारी अधिकांश जनता से यह छिपाई गई, लुप्त हो गई, या गुप्त रखी गई।</p><p><em>क्या आपने कभी सोचा है कि आपकी मेहनत और आपकी समृद्धि के बीच कौन-सी कड़ी छूट रही है?</em></p><h2 id="hi-s2">एक दुर्लभ और दिव्य परंपरा</h2><p>यह विद्या कितनी शक्तिशाली है, इसे इसकी परंपरा से समझिए। शंकराचार्य जी की सौंदर्यलहरी, अगस्त्य मुनि की श्रीविद्या-परंपरा, दत्तात्रेय, मच्छिंद्रनाथ और गोरखनाथ, और कौटिल्य का अर्थशास्त्र; ये सब हमारे दुर्लभ साधन हैं।</p><p>वक्ता एक चौंकाने वाली बात कहते हैं। विदेशों में जो इतना धन दिखता है, वह दो ही प्रकार से आया है: या तो लूटकर, जो हम सब जानते हैं, या बुद्धि से। और वह बुद्धि भी भारत की श्रीविद्या ही थी।</p><h2 id="hi-s3">"अरबपति कैसे बनें": शिविर का संकल्प</h2><p>इस शिविर का उद्देश्य है श्रीविद्या की सबसे उन्नत और शक्तिशाली साधना को भारतीय युवाओं, उद्यमियों और व्यवसाय करने के इच्छुक हर व्यक्ति तक पहुँचाना। कार्यक्रम का नाम ही है: <strong>अरबपति कैसे बनें, एक अरब तक कैसे कमाएँ।</strong></p><p>देश के पाँच ट्रिलियन की अर्थव्यवस्था बनने पर वक्ता गर्व करते हैं। पर उनका प्रश्न है: यदि इस प्रक्रिया में कुछ गिने-चुने उद्यमी ही बड़े हों और आम मनुष्य वैसा ही रहे, तो पाँच, दस या बीस ट्रिलियन से राष्ट्र को अधिक लाभ नहीं।</p><p>उनका संकल्प है कि देश के कम से कम <strong>दो प्रतिशत</strong> लोग, यानी लगभग <strong>तीन करोड़</strong> लोग, श्रीविद्या वाले बड़े धनवान और उद्यमी बनें।</p><h2 id="hi-s4">श्रीयंत्र की गुप्त साधना</h2><p>शास्त्रों में एक विशेष रचना है, <strong>श्रीयंत्र</strong> (Shri Yantra), जो श्रीविद्या का पवित्र ज्यामितीय विग्रह है। उस पर <strong>कुंकुम अभिषेक</strong> करके उसकी विशेष साधना की जाती है।</p><p>यह गुप्त साधना है, और इस शिविर में इसे आज लोगों के सामने लोकार्पित किया जा रहा है।</p><h2 id="hi-s5">सोने की चिड़िया और "गरीब ब्राह्मण" का भ्रम</h2><p>वैदिक काल में भारत सोने की चिड़िया था। वक्ता कहते हैं कि आज वह वैसा नहीं रहा, और हमें ऐसा भारत नहीं चाहिए।</p><p>हम सदा "एक गरीब ब्राह्मण था" की कहानियाँ सुनते आए हैं। पर वक्ता इसे सीधे नकारते हैं:</p><blockquote><p>"गरीब ब्राह्मण नहीं होता। यदि वह वेद को ठीक से जानता है, तो उसे लक्ष्मी का वरदान ही है कि वह धनवान होना चाहिए।"</p></blockquote><h2 id="hi-s6">धर्म की जड़ में अर्थ है</h2><p>आचार्य चाणक्य का सूत्र इस बात की नींव है:</p><blockquote class="verse"><p><strong>सुखस्य मूलं धर्मः। धर्मस्य मूलम् अर्थः। अर्थस्य मूलं राज्यम्॥</strong><br>(चाणक्य सूत्र १-३)</p></blockquote><p>अर्थात सुख का मूल धर्म है, धर्म का मूल <strong>अर्थ</strong> (धन, resources) है, और अर्थ का मूल राज्य है।</p><p>धर्म करना हो, किसी का पालन करना हो, धन तो लगेगा ही। इस विषय को टालकर काम नहीं चल सकता।</p><h2 id="hi-s7">स्कूल में धन क्यों नहीं सिखाया जाता?</h2><p>विद्यालयों और महाविद्यालयों में धन के बारे में कहीं पढ़ाया जाता है क्या? प्रबंधन की पढ़ाई में दूसरों के धन का प्रबंधन सिखाया जाता है। पर स्वयं धनवान कैसे बनें, इसकी कोई कक्षा नहीं।</p><p>इसलिए वक्ता चाहते हैं कि यह विद्या पाठ्यक्रम के अनुसार विद्यालयों और महाविद्यालयों में पढ़ाई जाए, और शिक्षा मंत्री, वित्त मंत्री से लेकर प्रधानमंत्री तक सभी इस योजना को समझें। यह कार्य भारत के हर शहर, हर गाँव तक ले जाया जा रहा है।</p><p><em>आपकी शिक्षा ने आपको कमाना सिखाया, पर क्या धनवान बनना भी सिखाया?</em></p><h2 id="hi-s8">धन, शक्ति और राष्ट्र की रक्षा</h2><p>धन हो तो शक्ति निर्माण होती है: सशस्त्र सेनाएँ सशक्त रहती हैं, देश की रक्षा होती है।</p><blockquote><p>"तुम्हारा देश बचा, तो तुम्हारा धर्म टिकता है।"</p></blockquote><p>यदि भूमि ही चली गई, तो क्या बचेगा? रक्षा के लिए भी धन चाहिए। शरीर की देखभाल हो, व्यवसाय हो या कंपनी, हर काम में धन लगता है।</p><h2 id="hi-s9">धन बुरा नहीं: भोग और मोक्ष साथ-साथ</h2><p>हमें सिखाया गया कि धनवान बुरे हैं, पैसा बुरा है, पैसे से दिमाग खराब होता है। वक्ता कहते हैं, यह गलत है। अयोध्यापति श्रीराम और द्वारकाधीश श्रीकृष्ण को धन से क्या कष्ट हुआ?</p><p>श्रीविद्या केवल धन की विद्या नहीं है। यह सिखाती है कि धन को कैसे सँभालें, और <strong>भोग</strong> (सांसारिक सुख) और <strong>मोक्ष</strong> (मुक्ति) दोनों एक साथ कैसे पाएँ। साधक को <strong>शक्तिपात दीक्षा</strong> (गुरु द्वारा आध्यात्मिक ऊर्जा का संचार) से शक्ति दी जाती है।</p><h2 id="hi-s10">एक आवाहन</h2><p>अंत में वक्ता देश के सभी लोगों से आवाहन करते हैं कि अंतरयोग श्रीविद्या साधना, श्रीविद्या दीक्षा और श्रीविद्या शिविरों में अवश्य आएँ।</p><h2 id="hi-s11">मुख्य बातें</h2><ul><li>मेहनत और समृद्धि के बीच का अंतर, वक्ता के अनुसार, श्रीविद्या के ज्ञान का अंतर है।</li><li>श्रीविद्या की परंपरा शंकराचार्य, अगस्त्य मुनि, दत्तात्रेय, मच्छिंद्रनाथ, गोरखनाथ और कौटिल्य के अर्थशास्त्र से जुड़ी है।</li><li>शिविर का संकल्प: भारत के दो प्रतिशत, लगभग तीन करोड़ लोग, बड़े धनवान और उद्यमी बनें।</li><li>श्रीयंत्र पर कुंकुम अभिषेक की गुप्त साधना अब सबके लिए खोली जा रही है।</li><li>चाणक्य के अनुसार धर्म का मूल अर्थ है; धन के विषय को टाला नहीं जा सकता।</li><li>धन बुरा नहीं; श्रीविद्या भोग और मोक्ष दोनों को साथ साधती है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=3YzvjV9tkWg" target="_blank" rel="noopener"><img src="assets/3YzvjV9tkWg.jpg" alt="प्राचीन भारतीय ज्ञानाद्वारे अब्जाधीश बनण्याची रहस्ये | आचार्य उपेंद्र। अंतर योग फाउंडेशन" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">प्राचीन भारतीय ज्ञानाद्वारे अब्जाधीश बनण्याची रहस्ये | आचार्य उपेंद्र। अंतर योग फाउंडेशन<small>YouTube · 6:59</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">मेहनत बराबर, फल इतना अलग क्यों?</a></li><li><a href="#hi-s2">एक दुर्लभ और दिव्य परंपरा</a></li><li><a href="#hi-s3">"अरबपति कैसे बनें": शिविर का संकल्प</a></li><li><a href="#hi-s4">श्रीयंत्र की गुप्त साधना</a></li><li><a href="#hi-s5">सोने की चिड़िया और "गरीब ब्राह्मण" का भ्रम</a></li><li><a href="#hi-s6">धर्म की जड़ में अर्थ है</a></li><li><a href="#hi-s7">स्कूल में धन क्यों नहीं सिखाया जाता?</a></li><li><a href="#hi-s8">धन, शक्ति और राष्ट्र की रक्षा</a></li><li><a href="#hi-s9">धन बुरा नहीं: भोग और मोक्ष साथ-साथ</a></li><li><a href="#hi-s10">एक आवाहन</a></li><li><a href="#hi-s11">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="The Forgotten Secret of Becoming a Billionaire | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="label">From Shri Vidya to Prosperity</div>
+  <h1>The Forgotten Secret of Becoming a Billionaire</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=3YzvjV9tkWg" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>Today people toil day and night, work hard, and still the month somehow just about passes. Meanwhile there is another class that gets work done by those very people and becomes extremely wealthy.</p><p>Why is this gap so large? That question is where this grand Antar Yog Shri Vidya camp begins.</p><h2 id="en-s1">Equal Effort, Why Such Different Results?</h2><p>Whether we look at our own country or the whole world, one class works very hard and gets a small salary. The other class becomes extremely prosperous from that same labour.</p><p>According to the speaker, the reason is that one class knows <strong>Shri Vidya</strong>. Shri Vidya is an ancient sadhana tradition of Bharat, based on the worship of Devi Lalita Tripurasundari. From most of our people it was hidden, lost, or kept secret.</p><p><em>Have you ever wondered which link is missing between your hard work and your prosperity?</em></p><h2 id="en-s2">A Rare and Divine Lineage</h2><p>Understand how powerful this knowledge is through its lineage. Shankaracharya's Saundarya Lahari, the Shri Vidya lineage of Agastya Muni, Dattatreya, Machhindranath and Gorakhnath, and Kautilya's Arthashastra; all these are our rare means.</p><p>The speaker says something startling. The great wealth seen abroad has come in only two ways: either by plunder, which we all know, or by intellect. And that intellect too was the Shri Vidya of Bharat.</p><h2 id="en-s3">"How to Become a Billionaire": The Camp's Resolve</h2><p>The aim of this camp is to bring the most advanced and powerful practice of Shri Vidya to Indian youth, entrepreneurs and everyone who wishes to do business. The programme's very name is: <strong>how to become a billionaire, how to earn up to a billion.</strong></p><p>The speaker is proud that the country will become a five trillion economy. But his question is: if in this process only a few select entrepreneurs grow big and the common person stays the same, then five, ten or twenty trillion brings the nation little benefit.</p><p>His resolve is that at least <strong>two percent</strong> of the country's people, around <strong>three crore</strong> people, become great Shri Vidya wealthy people and entrepreneurs.</p><h2 id="en-s4">The Secret Sadhana of the Shri Yantra</h2><p>The scriptures describe a special structure, the <strong>Shri Yantra</strong>, the sacred geometric form of Shri Vidya. A <strong>kumkum abhisheka</strong> is performed on it and its special sadhana is undertaken.</p><p>It is a secret sadhana, and in this camp it is being offered openly to the people today.</p><h2 id="en-s5">The Golden Bird and the Myth of the "Poor Brahmin"</h2><p>In the Vedic age Bharat was the golden bird. The speaker says it is no longer so today, and we do not want Bharat to be like this.</p><p>We have always heard stories that begin "there was a poor Brahmin". But the speaker rejects this outright:</p><blockquote><p>"A Brahmin is not poor. If he truly knows the Veda, he has the very boon of Lakshmi that he must be wealthy."</p></blockquote><h2 id="en-s6">At the Root of Dharma Is Artha</h2><p>Acharya Chanakya's sutra is the foundation of this idea:</p><blockquote class="verse"><p><strong>sukhasya mūlaṃ dharmaḥ. dharmasya mūlam arthaḥ. arthasya mūlaṃ rājyam.</strong><br>"The root of happiness is dharma, the root of dharma is artha, and the root of artha is the state."<br>(Chanakya Sutra 1-3)</p></blockquote><p>That is, the root of happiness is dharma, the root of dharma is <strong>artha</strong> (wealth, resources), and the root of artha is the state.</p><p>To practise dharma, to sustain anyone, wealth will be needed. This subject cannot be avoided.</p><h2 id="en-s7">Why Isn't Wealth Taught in School?</h2><p>Is wealth taught anywhere in our schools and colleges? Management studies teach how to manage other people's wealth. But there is no class on how to become wealthy yourself.</p><p>So the speaker wants this knowledge taught in schools and colleges according to their curricula, and wants everyone from the education minister and finance minister up to the Prime Minister to understand this plan. The work is being taken to every city and every village of Bharat.</p><p><em>Your education taught you to earn, but did it teach you to become wealthy?</em></p><h2 id="en-s8">Wealth, Strength and the Protection of the Nation</h2><p>With wealth, strength is built: the armed forces stay strong and the country is protected.</p><blockquote><p>"If your country survives, your dharma endures."</p></blockquote><p>If the land itself is gone, what remains? Even protection needs wealth. Caring for the body, a business or a company: every task takes wealth.</p><h2 id="en-s9">Wealth Is Not Bad: Bhoga and Moksha Together</h2><p>We were taught that the rich are bad, money is bad, money spoils the mind. The speaker says this is wrong. What trouble did wealth cause Shri Rama, Lord of Ayodhya, or Shri Krishna, Lord of Dwarka?</p><p>Shri Vidya is not only a knowledge of wealth. It teaches how to handle wealth and how to attain both <strong>bhoga</strong> (worldly enjoyment) and <strong>moksha</strong> (liberation) together. The seeker is given power through <strong>shaktipat initiation</strong> (the transmission of spiritual energy by the guru).</p><h2 id="en-s10">An Appeal</h2><p>In closing, the speaker appeals to all the people of the country to come to the Antar Yog Shri Vidya sadhana, the Shri Vidya initiation and the Shri Vidya camps.</p><h2 id="en-s11">Key Takeaways</h2><ul><li>According to the speaker, the gap between hard work and prosperity is a gap in the knowledge of Shri Vidya.</li><li>The Shri Vidya lineage is linked to Shankaracharya, Agastya Muni, Dattatreya, Machhindranath, Gorakhnath and Kautilya's Arthashastra.</li><li>The camp's resolve: two percent of Bharat, around three crore people, should become great wealthy people and entrepreneurs.</li><li>The secret sadhana of kumkum abhisheka on the Shri Yantra is now being opened to all.</li><li>According to Chanakya, the root of dharma is artha; the subject of wealth cannot be avoided.</li><li>Wealth is not bad; Shri Vidya accomplishes both bhoga and moksha together.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=3YzvjV9tkWg" target="_blank" rel="noopener"><img src="assets/3YzvjV9tkWg.jpg" alt="प्राचीन भारतीय ज्ञानाद्वारे अब्जाधीश बनण्याची रहस्ये | आचार्य उपेंद्र। अंतर योग फाउंडेशन" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">प्राचीन भारतीय ज्ञानाद्वारे अब्जाधीश बनण्याची रहस्ये | आचार्य उपेंद्र। अंतर योग फाउंडेशन<small>YouTube · 6:59</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Equal Effort, Why Such Different Results?</a></li><li><a href="#en-s2">A Rare and Divine Lineage</a></li><li><a href="#en-s3">"How to Become a Billionaire": The Camp's Resolve</a></li><li><a href="#en-s4">The Secret Sadhana of the Shri Yantra</a></li><li><a href="#en-s5">The Golden Bird and the Myth of the "Poor Brahmin"</a></li><li><a href="#en-s6">At the Root of Dharma Is Artha</a></li><li><a href="#en-s7">Why Isn't Wealth Taught in School?</a></li><li><a href="#en-s8">Wealth, Strength and the Protection of the Nation</a></li><li><a href="#en-s9">Wealth Is Not Bad: Bhoga and Moksha Together</a></li><li><a href="#en-s10">An Appeal</a></li><li><a href="#en-s11">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
