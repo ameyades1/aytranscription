@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>बूढ़ा शरीर नहीं, बूढ़ा मन है असली बंधन | Antar Yog Foundation</title>
+<meta name="description" content="ब्रह्मर्षि आचार्य उपेंद्र जी — बूढ़ा शरीर नहीं, बूढ़ा मन है असली बंधन">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=block&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600" rel="stylesheet">
+<style>:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --muted: #6f6253;
+  --brown: #6b3d22;
+  --brown-deep: #2e2118;
+  --accent: #7a4a1c;
+  --gold: #c0975a;
+  --sun: #f2c230;
+  --rule: #e9dcc8;
+  --panel: #faf5ec;
+  --paper: #fffdf9;
+  --serif: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+  --sans: 'Noto Sans', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; }
+body { margin: 0; }
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { max-width: 72rem; margin: 0 auto; padding-inline: 1.25rem; }
+
+/* Header */
+.site-header { position: sticky; top: 0; z-index: 10; background: #fff; border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 1.5rem; min-height: 4.5rem; }
+.logo img { height: 2.6rem; width: auto; }
+.nav { display: flex; gap: 1.4rem; margin-left: auto; align-items: center; }
+.nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink-strong); }
+.nav a:hover, .nav a.active { color: var(--accent); }
+.nav a.active { box-shadow: inset 0 -2px 0 var(--gold); padding-bottom: .2rem; }
+.btn { display: inline-flex; align-items: center; gap: .45rem; padding: .6rem 1.1rem; border-radius: 999px; font-size: .9rem;
+       font-weight: 600; text-decoration: none; border: 1px solid var(--brown); transition: background .15s, color .15s; }
+.btn svg { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.btn { white-space: nowrap; }
+.btn-solid { background: var(--brown); color: #fff !important; }
+.btn-solid:hover { background: var(--accent); }
+.btn-ghost { color: var(--brown); background: #fff; }
+.btn-ghost:hover { background: var(--panel); }
+.menu-toggle, .menu-btn { display: none; }
+[hidden] { display: none !important; }
+.nav { order: 2; }
+.lang-switch { order: 3; display: flex; border: 1px solid var(--rule); border-radius: 999px; padding: .2rem; background: var(--panel); }
+.lang-switch a { text-decoration: none; font-size: .82rem; font-weight: 600; padding: .35rem .75rem; border-radius: 999px; color: var(--muted); }
+.lang-switch a.active { background: #fff; color: var(--brown); box-shadow: 0 1px 2px rgba(46,33,24,.15); }
+.menu-btn { order: 4; }
+
+/* Hero */
+.hero { background: radial-gradient(120% 140% at 50% -20%, #fbe39a 0%, #fdf0cc 35%, var(--paper) 75%); padding: 3.5rem 0 2.5rem;
+        border-bottom: 1px solid var(--rule); text-align: center; }
+.crumbs { font-size: .85rem; color: var(--muted); }
+.crumbs a { text-decoration: none; } .crumbs a:hover { color: var(--accent); }
+.hero .label { margin-top: 1.4rem; font-family: var(--serif); color: var(--accent); font-size: 1rem; }
+.hero h1 { font-family: var(--serif); font-size: clamp(2rem, 4.2vw, 3rem); line-height: 1.35; color: var(--ink-strong);
+           margin: .4rem auto .6rem; max-width: 46rem; }
+.hero .orn { color: var(--gold); }
+.byline { display: flex; align-items: center; justify-content: center; gap: .8rem; margin-top: 1.4rem; flex-wrap: wrap; }
+.byline img { width: 3rem; height: 3rem; border-radius: 50%; object-fit: cover; object-position: 50% 20%; border: 2px solid #fff;
+              box-shadow: 0 0 0 1px var(--gold); }
+.byline .who { text-align: left; font-size: .9rem; line-height: 1.4; }
+.byline .who strong { display: block; font-family: var(--serif); color: var(--ink-strong); font-size: 1rem; }
+.byline .who span { color: var(--muted); }
+.actions { display: flex; gap: .7rem; justify-content: center; flex-wrap: wrap; margin-top: 1.6rem; }
+
+/* Images */
+.hero-img img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin-top: 2rem;
+                box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
+.article .figure { margin: 2rem 0; }
+.article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+
+/* Layout */
+.layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }
+.aside { display: flex; flex-direction: column; gap: 1.5rem; }
+.sticky { position: sticky; top: 6rem; display: flex; flex-direction: column; gap: 1.5rem; }
+.card { background: #fff; border: 1px solid var(--rule); border-radius: 14px; padding: 1.25rem; }
+.card h3 { margin: 0 0 .8rem; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: none; }
+.toc li { border-left: 2px solid var(--rule); }
+.toc a { display: block; padding: .35rem 0 .35rem .8rem; text-decoration: none; font-family: var(--serif); font-size: .92rem;
+         color: var(--ink); line-height: 1.5; }
+.toc a:hover { color: var(--accent); }
+.toc li:hover { border-left-color: var(--gold); }
+.author img { border-radius: 10px; aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 15%; width: 100%; }
+.author strong { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink-strong); margin-top: .9rem; }
+.author p { font-family: var(--serif); font-size: .92rem; line-height: 1.75; color: var(--muted); margin: .4rem 0 .9rem; }
+.author a.more { font-size: .88rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+
+/* Article */
+.article { font-family: var(--serif); font-size: 1.3125rem; line-height: 1.85; color: var(--ink); }
+.article:lang(en) { font-size: 1.25rem; line-height: 1.6; }
+.article h2 { font-size: 1.65rem; line-height: 1.45; color: var(--accent); margin: 2.6rem 0 1rem; padding-bottom: .5rem;
+              border-bottom: 1px solid var(--rule); scroll-margin-top: 6rem; }
+.article h2:first-child { margin-top: 0; }
+.article h3 { font-size: 1.3rem; line-height: 1.5; color: var(--ink-strong); margin: 2rem 0 .7rem; }
+.article p { margin: 0 0 1.25em; }
+.article strong { font-weight: 600; color: var(--ink-strong); }
+.article em { font-style: normal; color: var(--accent); }
+.article blockquote { margin: 1.4rem 0; padding: .9rem 1.3rem; border-left: 3px solid var(--gold); background: var(--panel);
+                      border-radius: 0 10px 10px 0; }
+.article blockquote p { margin: 0 0 .4rem; } .article blockquote p:last-child { margin: 0; }
+.article blockquote.verse { text-align: center; border: none; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+                            border-radius: 0; background: linear-gradient(#fffaf0, #fbf4e6); padding: 1.4rem; font-size: 1.05em; }
+.article ul { padding-left: 1.3rem; } .article li { margin-bottom: .4rem; }
+.article ol.takeaways { list-style: none; padding: 1.5rem; margin: 1rem 0 0; background: var(--panel); border-radius: 14px;
+                        border: 1px solid var(--rule); }
+.article ol.takeaways li { display: flex; gap: .9rem; margin-bottom: .9rem; } .article ol.takeaways li:last-child { margin: 0; }
+.article ol.takeaways .num { flex: 0 0 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--brown); color: #fff;
+                             display: grid; place-items: center; font-size: .9rem; margin-top: .3rem; }
+
+/* Video */
+.video { margin-top: 3rem; }
+.video a { display: block; position: relative; border-radius: 14px; overflow: hidden; text-decoration: none; }
+.video img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.video a:hover img { transform: scale(1.02); }
+.video .play { position: absolute; inset: 0; display: grid; place-items: end; padding: 1rem; background: linear-gradient(transparent 40%, rgba(46,33,24,.75)); }
+.video .play span { width: 3.6rem; height: 3.6rem; border-radius: 50%; background: rgba(255,255,255,.95); display: grid; place-items: center; }
+.video .caption { position: absolute; left: 1.2rem; right: 6rem; bottom: 1rem; color: #fff; font-size: .95rem; font-weight: 600; }
+.video .caption small { display: block; font-weight: 400; opacity: .85; }
+
+/* CTA */
+.cta { background: var(--brown); color: #fff; padding: 3rem 0; text-align: center;
+       background-image: radial-gradient(60% 120% at 50% 0%, rgba(242,194,48,.25), transparent 70%); }
+.cta h2 { font-family: var(--serif); font-size: 1.7rem; margin: 0 0 .5rem; }
+.cta p { margin: 0 auto 1.5rem; opacity: .85; max-width: 34rem; line-height: 1.7; }
+.cta .btn-solid { background: var(--sun); color: var(--brown-deep) !important; border-color: var(--sun); }
+.cta .btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+.cta .btn-ghost:hover { background: rgba(255,255,255,.1); }
+
+/* Footer */
+.site-footer { background: var(--brown-deep); color: #d9cbb8; font-size: .9rem; }
+.site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.3fr; gap: 2.5rem; padding-block: 3.5rem 2.5rem; }
+.site-footer .brand img { background: #fff; border-radius: 10px; padding: .6rem .8rem; height: 3.6rem; width: auto; }
+.site-footer .brand p { font-family: var(--serif); line-height: 1.8; margin: 1rem 0 0; }
+.site-footer h4 { color: #fff; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: .55rem; }
+.site-footer a { text-decoration: none; color: #d9cbb8; } .site-footer a:hover { color: var(--sun); }
+.contact li { display: flex; gap: .6rem; line-height: 1.55; }
+.contact svg, .social svg { flex: 0 0 auto; width: 1.05rem; height: 1.05rem; margin-top: .15rem; fill: var(--gold); }
+.social { display: flex; gap: .6rem; margin-top: 1.2rem; }
+.social a { width: 2.3rem; height: 2.3rem; border-radius: 50%; border: 1px solid rgba(217,203,184,.35); display: grid; place-items: center; }
+.social a:hover { border-color: var(--sun); }
+.social svg { margin: 0; }
+.legal { border-top: 1px solid rgba(217,203,184,.18); padding-block: 1.2rem; display: flex; justify-content: space-between;
+         gap: 1rem; flex-wrap: wrap; font-size: .82rem; }
+.legal nav { display: flex; gap: 1.2rem; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; }
+  .aside { order: 2; } .sticky { position: static; }
+  .toc { display: none; }
+  .author { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: start; }
+  .author img { margin: 0; }
+  .author strong { margin-top: 0; }
+  .site-footer .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 820px) {
+  .lang-switch { margin-left: auto; }
+  .menu-btn { display: grid; place-items: center; margin-left: .6rem; width: 2.6rem; height: 2.6rem; border-radius: 8px;
+              border: 1px solid var(--rule); cursor: pointer; }
+  .menu-btn span, .menu-btn span::before, .menu-btn span::after { display: block; width: 1.1rem; height: 2px; background: var(--ink-strong);
+              position: relative; content: ''; }
+  .menu-btn span::before { position: absolute; top: -6px; } .menu-btn span::after { position: absolute; top: 6px; }
+  .nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #fff; flex-direction: column;
+         align-items: stretch; gap: 0; padding: .5rem 1.25rem 1rem; border-bottom: 1px solid var(--rule); }
+  .nav a { padding: .7rem 0; border-bottom: 1px solid var(--panel); }
+  .nav a.active { box-shadow: none; }
+  .nav .btn { margin-top: .8rem; justify-content: center; }
+  .menu-toggle:checked ~ .nav { display: flex; }
+}
+@media (max-width: 560px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .article { font-size: 1.1875rem; line-height: 1.8; }
+  .article:lang(en) { font-size: 1.125rem; line-height: 1.6; }
+  .article h2 { font-size: 1.4rem; }
+  .article blockquote { padding: .8rem 1rem; }
+  .article ol.takeaways { padding: 1.1rem; }
+  .site-footer .cols { grid-template-columns: 1fr; gap: 2rem; }
+  .author { grid-template-columns: 4.5rem 1fr; }
+}
+
+@media print {
+  .site-header, .aside, .actions, .cta, .video, .lang-switch { display: none; }
+  .layout { display: block; padding: 0; }
+  .hero { background: none; }
+}
+</style>
+</head><body>
+
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
+  <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
+  <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+</div></header>
+
+<div class="lang-block" data-lang="hi" data-title="बूढ़ा शरीर नहीं, बूढ़ा मन है असली बंधन | Antar Yog Foundation" lang="hi">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>बूढ़ा शरीर नहीं, बूढ़ा मन है असली बंधन</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+    <div class="who"><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><span>प्रवचन पर आधारित · ५ मिनट में पढ़ें</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#en" data-switch="en">Read in English</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=bZ7mcPw99Tc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>मूल प्रवचन देखें</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>हम रोज़ किसी न किसी की मृत्यु की ख़बर सुनते हैं। पर क्या कभी रुककर सोचा है कि यह ख़बर एक दिन हमारी भी होगी?</p><p>इस प्रवचन में श्रीमद्भगवद्गीता के एक गहन श्लोक और गौतम बुद्ध की प्रसिद्ध कथा के सहारे एक सीधा सा प्रश्न पूछा गया है: जरा (बुढ़ापा) और मरण से मुक्ति का सच्चा अर्थ क्या है?</p><h2 id="hi-s1">क्या मेरा भी वह दिन आएगा?</h2><p>व्हाट्सऐप पर संदेश आते रहते हैं: यह अभिनेता चल बसा, वह अभिनेता चल बसा, कहीं बम विस्फोट में सौ-सौ लोग मारे गए। हम सुनते हैं, आगे भेजते हैं, चर्चा करते हैं कि किसी ने आत्महत्या क्यों की, या वह हत्या थी।</p><p>रोज़ रात को हम समाचार भी देखते हैं। पर यह सब आगे भेजते समय एक प्रश्न शायद ही कभी मन में उठता है।</p><blockquote><p>"मेरा भी वह दिन कभी आएगा, यह कभी सोचा आपने? और उसके लिए मैंने क्या सावधानी बरती है?"</p></blockquote><p><em>जब आप अगली बार किसी की मृत्यु का समाचार पढ़ें, तो क्या वह आपको अपने जीवन के बारे में कुछ सोचने पर विवश करता है, या बस एक और ख़बर बनकर रह जाता है?</em></p><h2 id="hi-s2">क्या हमने सचमुच अपना कर्तव्य समझ लिया है?</h2><p>हम में से बहुत लोगों को लगता है कि हम अपना कर्तव्य ठीक से निभा रहे हैं। कि जीवन में क्या करना है, यह हमें पता है। कि <strong>अध्यात्म</strong> (spirituality), यानी "मैं कौन हूँ", यह भी हम समझ चुके हैं।</p><p>ऐसे लोगों के लिए श्रीकृष्ण गीता के सातवें अध्याय में एक कसौटी देते हैं:</p><blockquote class="verse"><p><strong>जरामरणमोक्षाय मामाश्रित्य यतन्ति ये।</strong><br><strong>ते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम्॥</strong><br>(श्रीमद्भगवद्गीता ७.२९)</p></blockquote><p>जो मेरी शरण में आकर <strong>जरा</strong> (बुढ़ापा) और <strong>मरण</strong> (मृत्यु) से छूटने के लिए <strong>यत्न</strong> (प्रयास) करते हैं, वही उस ब्रह्म को, संपूर्ण अध्यात्म को और संपूर्ण कर्म को जानते हैं।</p><p>यानी संपूर्ण कर्म, संपूर्ण अध्यात्म और परमात्मा का ज्ञान तब होता है, जब हम कम से कम थोड़ा सा प्रयास जरा और मरण से छूटने के लिए करते हैं।</p><h2 id="hi-s3">शरणागति: अहंकार का झुकना</h2><p>"मेरी शरण में आकर" का अर्थ है गुरु के पास जाकर, <strong>शरणागति</strong> (surrender) करके, उनसे समझना।</p><p>शरण जाना यानी किसी के सामने झुकना। और झुकना तभी संभव है जब अहंकार छूटे। अहंकार गया, तभी सच्ची शरणागति होगी।</p><p>और गुरु से समझना क्या है? जरा और मरण से छूटने का मार्ग। जिसने यह समझा, उसी ने कर्म, अध्यात्म और ब्रह्म को समझा।</p><h2 id="hi-s4">गौतम बुद्ध के तीन प्रश्न</h2><p>सिद्धार्थ के बचपन में एक ज्योतिषी ने उनके पिता से कहा था कि यह बालक या तो बहुत बड़ा गुरु बनेगा या बहुत बड़ा राजा। पिता चाहते थे कि वह राजा बने। इसलिए सोलह वर्ष तक उसे राजमहल के ठाट-बाट में, माया में ही रखा गया, ताकि वैराग्य जगाने वाला कुछ भी उसकी आँखों के सामने न आए।</p><p>एक दिन वे अपने सारथी के साथ बाहर निकले। सबसे पहले एक <strong>बूढ़ा आदमी</strong> दिखा, सफ़ेद बाल, हाथ में लाठी, शरीर पर झुर्रियाँ। "क्या मुझे भी ऐसा होगा?" "हाँ।" "फिर मुझे ऐसा नहीं चाहिए।"</p><p>फिर एक <strong>बीमार आदमी</strong> दिखा, जिसके शरीर की कार्य-प्रणाली ठीक नहीं चल रही थी। "क्या मेरे साथ भी ऐसा हो सकता है?" "हाँ, अवश्य।" "फिर मुझे ऐसा नहीं चाहिए।"</p><p>अंत में एक <strong>शव-यात्रा</strong> दिखी। "क्या मेरा भी ऐसा होगा?" "हाँ, एक न एक दिन।" "फिर मुझे ऐसा नहीं चाहिए।"</p><p>और उसी क्षण उन्होंने निश्चय कर लिया कि मुझे संत बनना है।</p><p>बुद्ध ने तीन दृश्य एक बार देखे और जाग गए। हम रोज़ ऐसी ख़बरें देखते हैं, फिर भी वह प्रश्न नहीं पूछते: "क्या मेरा भी ऐसा होगा?"</p><h2 id="hi-s5">जरा से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं</h2><p>यहाँ एक भ्रम दूर करना ज़रूरी है। जरा से छूटने का अर्थ यह नहीं कि बाल सफ़ेद नहीं होंगे या झुर्रियाँ नहीं आएँगी। इसका अर्थ सौंदर्य-चिकित्सक (cosmetic doctor) के पास जाना नहीं है।</p><p>असली बुढ़ापा तब है जब कोई कहता है, "अब क्या, हम तो बूढ़े हो गए, हम तो मरे जैसे ही हैं, एक पैर कब्र में है।" ऐसे लोगों से श्रीकृष्ण कहते हैं कि अब तुम कहीं भटक गए हो।</p><blockquote><p>"शरीर बूढ़ा हो सकता है, लेकिन अगर तुम्हारा मन बूढ़ा हो गया, तो अब वापस एक बार जन्म; एक नहीं, अनेक जन्म।"</p></blockquote><p>शारीरिक काम समाप्त हो सकते हैं, पर तुम्हारा कार्य समाप्त नहीं होता। जब मन कह देता है "अब मेरा सब खत्म", तो इसका अर्थ है कि कर्म और अध्यात्म को समझा ही नहीं गया।</p><p><em>क्या आपके भीतर भी कोई आवाज़ कहती है कि "अब मेरी उम्र नहीं रही"? वह आवाज़ आपके शरीर की है, या आपके मन की?</em></p><h2 id="hi-s6">योग-साधना: जहाँ बुढ़ापा उलटने लगता है</h2><blockquote><p>"बानवे वर्ष की आयु में भी तुम्हें ऊर्जा से भरा होना चाहिए।"</p></blockquote><p>जब मनुष्य <strong>योग-साधना</strong> (yogic practice) की इस अवस्था में पहुँचता है, तो उसके भीतर बुढ़ापे को उलटने की प्रक्रिया आरंभ हो जाती है। उस आयु में भी योगी अत्यंत युवा दिखाई देता है।</p><h2 id="hi-s7">मुख्य बातें</h2><ul><li>मृत्यु की ख़बरें रोज़ आती हैं; प्रश्न यह है कि क्या हमने सोचा कि हमारा भी वह दिन आएगा, और उसके लिए क्या तैयारी की।</li><li>गीता ७.२९: जो गुरु की शरण में जाकर जरा और मरण से छूटने का प्रयास करते हैं, वही ब्रह्म, अध्यात्म और कर्म को पूर्ण रूप से जानते हैं।</li><li>शरणागति का अर्थ है अहंकार छोड़कर झुकना।</li><li>बुद्ध बुढ़ापा, रोग और मृत्यु देखकर जाग गए; हम रोज़ देखकर भी नहीं जागते।</li><li>जरा से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं, बल्कि मन को बूढ़ा न होने देना है।</li><li>बूढ़ा मन बार-बार जन्म का कारण बनता है; योग-साधना से साधक हर आयु में ऊर्जावान और युवा रहता है।</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=bZ7mcPw99Tc" target="_blank" rel="noopener"><img src="assets/bZ7mcPw99Tc.jpg" alt="The Bhagavad Gita - How to Escape the Cycle of Rebirth | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Bhagavad Gita - How to Escape the Cycle of Rebirth | Acharya Upendra Ji<small>YouTube · 6:23</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>इस लेख में</h3><ol><li><a href="#hi-s1">क्या मेरा भी वह दिन आएगा?</a></li><li><a href="#hi-s2">क्या हमने सचमुच अपना कर्तव्य समझ लिया है?</a></li><li><a href="#hi-s3">शरणागति: अहंकार का झुकना</a></li><li><a href="#hi-s4">गौतम बुद्ध के तीन प्रश्न</a></li><li><a href="#hi-s5">जरा से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं</a></li><li><a href="#hi-s6">योग-साधना: जहाँ बुढ़ापा उलटने लगता है</a></li><li><a href="#hi-s7">मुख्य बातें</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="ब्रह्मर्षि आचार्य उपेंद्र जी">
+      <div><strong>ब्रह्मर्षि आचार्य उपेंद्र जी</strong><p>अंतर योग के संस्थापक, राष्ट्र के पुनरुत्थान के लिए सनातन धर्म के शाश्वत ज्ञान का प्रसार कर रहे हैं।</p><a class="more" href="https://antaryogfoundation.in/hi">आचार्य जी के बारे में →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>आचार्य जी के और प्रवचन सुनें</h2><p>जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">प्रवचन देखें</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+<div class="lang-block" hidden data-lang="en" data-title="Not an Old Body but an Old Mind Is the Real Bondage | Antar Yog Foundation" lang="en">
+<section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  
+  <h1>Not an Old Body but an Old Mind Is the Real Bondage</h1>
+  <div class="orn">❖</div>
+  <div class="byline"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+    <div class="who"><strong>Brahmarshi Acharya Upendra Ji</strong><span>Based on a discourse · 5 min read</span></div></div>
+  <div class="actions"><a class="btn btn-ghost" href="#hi" data-switch="hi">हिन्दी में पढ़ें</a><a class="btn btn-ghost" href="https://www.youtube.com/watch?v=bZ7mcPw99Tc" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>Watch the discourse</a></div>
+</div></section>
+
+
+<main class="wrap layout">
+  <article class="article"><p>Every day we hear news of someone's death. But have we ever paused to think that one day this news will be about us too?</p><p>In this discourse, through a profound verse of the Shrimad Bhagavad Gita and the famous story of Gautama Buddha, a simple question is asked: what is the true meaning of freedom from <em>jarā</em> (old age) and death?</p><h2 id="en-s1">Will That Day Come for Me Too?</h2><p>Messages keep arriving on WhatsApp: this actor has passed away, that actor has passed away, a hundred people were killed in a bomb blast somewhere. We hear them, forward them, and discuss why someone took their own life, or whether it was murder.</p><p>Every night we also watch the news. But while forwarding all this, one question hardly ever arises in the mind.</p><blockquote><p>"Have you ever thought that my day too will come one day? And what precaution have I taken for it?"</p></blockquote><p><em>The next time you read news of someone's death, does it make you think about your own life, or does it remain just another piece of news?</em></p><h2 id="en-s2">Have We Really Understood Our Duty?</h2><p>Many of us feel that we are fulfilling our duty properly. That we know what we have to do in life. That we have also understood <strong>adhyātma</strong> (spirituality), that is, "who am I".</p><p>For such people Shri Krishna gives a touchstone in the seventh chapter of the Gita:</p><blockquote class="verse"><p><strong>jarā-maraṇa-mokṣāya mām āśritya yatanti ye</strong><br><strong>te brahma tad viduḥ kṛtsnam adhyātmaṁ karma cākhilam</strong><br>"Those who take refuge in Me and strive for liberation from old age and death know that Brahman, the whole of the spiritual Self, and all action."<br>(Bhagavad Gita 7.29)</p></blockquote><p>Those who take refuge in Me and make <strong>yatna</strong> (effort) to be free from <strong>jarā</strong> (old age) and <strong>maraṇa</strong> (death), they alone know that Brahman, the whole of spirituality and the whole of action.</p><p>That is, knowledge of all action, all spirituality and the Supreme comes when we make at least a little effort to be free from old age and death.</p><h2 id="en-s3">Surrender: The Bowing of the Ego</h2><p>"Taking refuge in Me" means going to the Guru, making <strong>śaraṇāgati</strong> (surrender), and understanding from him.</p><p>To take refuge means to bow before someone. And bowing is possible only when the ego is let go. Only when the ego is gone will there be true surrender.</p><p>And what is to be learned from the Guru? The path to freedom from old age and death. Whoever understood this understood action, spirituality and Brahman.</p><h2 id="en-s4">Gautama Buddha's Three Questions</h2><p>In Siddhartha's childhood an astrologer told his father that this child would become either a very great Guru or a very great king. The father wanted him to be king. So for sixteen years he was kept in the splendour of the royal palace, in <em>māyā</em>, so that nothing that could awaken dispassion would come before his eyes.</p><p>One day he went out with his charioteer. First he saw an <strong>old man</strong>: white hair, a stick in his hand, wrinkles on his body. "Will this happen to me too?" "Yes." "Then I do not want this."</p><p>Then he saw a <strong>sick man</strong>, whose body was not functioning well. "Can this happen to me too?" "Yes, certainly." "Then I do not want this."</p><p>Finally he saw a <strong>funeral procession</strong>. "Will this happen to me too?" "Yes, one day." "Then I do not want this."</p><p>And in that very moment he resolved that he must become a saint.</p><p>The Buddha saw three sights once and awakened. We see such news every day, and still do not ask the question: "Will this happen to me too?"</p><h2 id="en-s5">Freedom from Old Age Is Not Erasing Wrinkles</h2><p>A misunderstanding needs to be cleared here. Being free from old age does not mean your hair will not turn white or wrinkles will not come. It does not mean going to a cosmetic doctor.</p><p>Real old age is when someone says, "What now? We have grown old, we are as good as dead, one foot is in the grave." To such people Shri Krishna says that you have gone astray somewhere.</p><blockquote><p>"The body may grow old, but if your mind has grown old, then once again birth; not one, but many births."</p></blockquote><p>Physical work may come to an end, but your work does not end. When the mind says "Now it is all over for me", it means action and spirituality were never understood.</p><p><em>Is there a voice inside you too that says "I am past that age now"? Is that the voice of your body, or of your mind?</em></p><h2 id="en-s6">Yoga Sadhana: Where Old Age Begins to Reverse</h2><blockquote><p>"Even at the age of ninety-two you should be full of energy."</p></blockquote><p>When a person reaches this state of <strong>yoga sādhanā</strong> (yogic practice), a process of reversing old age begins within him. Even at that age the yogi looks very youthful.</p><h2 id="en-s7">Key Takeaways</h2><ul><li>News of death comes every day; the question is whether we have thought that our day too will come, and what we have prepared for it.</li><li>Gita 7.29: those who go to the refuge of the Guru and strive to be free from old age and death alone fully know Brahman, spirituality and action.</li><li>Surrender means letting go of the ego and bowing.</li><li>The Buddha awakened on seeing old age, sickness and death; we see them every day and still do not awaken.</li><li>Freedom from old age does not mean erasing wrinkles, but not letting the mind grow old.</li><li>An old mind becomes the cause of repeated births; through yoga sadhana the seeker stays energetic and youthful at every age.</li></ul><section class="video"><a href="https://www.youtube.com/watch?v=bZ7mcPw99Tc" target="_blank" rel="noopener"><img src="assets/bZ7mcPw99Tc.jpg" alt="The Bhagavad Gita - How to Escape the Cycle of Rebirth | Acharya Upendra Ji" loading="lazy"><div class="play"><span><svg viewBox="0 0 24 24" aria-hidden="true" fill="#6b3d22"><path fill-rule="evenodd" d="M8 5v14l11-7z"/></svg></span></div><div class="caption">The Bhagavad Gita - How to Escape the Cycle of Rebirth | Acharya Upendra Ji<small>YouTube · 6:23</small></div></a></section></article>
+  <aside class="aside"><div class="sticky">
+    <nav class="card toc"><h3>In this article</h3><ol><li><a href="#en-s1">Will That Day Come for Me Too?</a></li><li><a href="#en-s2">Have We Really Understood Our Duty?</a></li><li><a href="#en-s3">Surrender: The Bowing of the Ego</a></li><li><a href="#en-s4">Gautama Buddha's Three Questions</a></li><li><a href="#en-s5">Freedom from Old Age Is Not Erasing Wrinkles</a></li><li><a href="#en-s6">Yoga Sadhana: Where Old Age Begins to Reverse</a></li><li><a href="#en-s7">Key Takeaways</a></li></ol></nav>
+    <div class="card author"><img src="assets/acharya-ji.jpg" alt="Brahmarshi Acharya Upendra Ji">
+      <div><strong>Brahmarshi Acharya Upendra Ji</strong><p>The founder of Antar Yog, teaching the timeless wisdom of Sanatan Dharma for the revival of a nation.</p><a class="more" href="https://antaryogfoundation.in">About Acharya Ji →</a></div></div>
+  </div></aside>
+</main>
+
+<section class="cta"><div class="wrap">
+  <h2>Listen to more discourses by Acharya Ji</h2><p>Join life-transforming knowledge sessions and powerful sadhanas.</p>
+  <div class="actions"><a class="btn btn-solid" href="https://learn.antaryogfoundation.in/courses">Explore discourses</a>
+  <a class="btn btn-ghost" href="https://learn.antaryogfoundation.in/sign_up">Sign Up</a></div>
+</div></section>
+</div>
+
+<footer class="site-footer"><div class="wrap">
+  <div class="cols">
+    <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
+      <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
+      <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
+    <div><h4>Contact</h4><ul class="contact">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.6V17h16V7.6l-8 5.3-8-5.3zM5.8 7l6.2 4.1L18.2 7H5.8z"/></svg><a href="mailto:antaryog.foundation@gmail.com">antaryog.foundation@gmail.com</a></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a7 7 0 0 1 7 7c0 5.2-7 13-7 13S5 14.2 5 9a7 7 0 0 1 7-7zm0 4.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"/></svg><span>2nd Floor, Chemco House, D. Sukhadwala Road, Fort, Mumbai - 400001, Maharashtra, India</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 3v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2z"/></svg><span>Monday - Saturday, 10:00 AM - 6:00 PM</span></li></ul></div>
+  </div>
+  <div class="legal"><span>© 2026 Antar Yog Foundation</span>
+    <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
+</div></footer>
+<script>
+(function () {
+  var blocks = document.querySelectorAll('[data-lang]');
+  function show(lang) {
+    var block = document.querySelector('[data-lang="' + lang + '"]');
+    if (!block) return false;
+    blocks.forEach(function (b) { b.hidden = b !== block; });
+    document.documentElement.lang = lang;
+    document.title = block.dataset.title;
+    document.querySelectorAll('.lang-switch [data-switch]').forEach(function (a) {
+      a.classList.toggle('active', a.dataset.switch === lang);
+    });
+    return true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-switch]');
+    if (!a) return;
+    e.preventDefault();
+    if (show(a.dataset.switch)) {
+      history.replaceState(null, '', '#' + a.dataset.switch);
+      window.scrollTo(0, 0);
+    }
+  });
+  var hash = location.hash.slice(1);
+  var lang = hash.split('-')[0];
+  if (lang && show(lang) && hash.indexOf('-') > 0) {
+    var target = document.getElementById(hash);
+    if (target) target.scrollIntoView();
+  }
+})();
+</script>
+</body></html>
