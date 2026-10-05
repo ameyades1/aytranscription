@@ -6,7 +6,8 @@ Usage: python3 tools/horde_image.py <talk_name> [--model flux|juggernaut] [--out
   --model   flux (Flux.1-Schnell, default) or juggernaut (Juggernaut XL)
   --out     folder to save into (default: output/<talk>/blog/assets); files are hero.jpg, inline.jpg
 
-Set HORDE_API_KEY for an account key; without it the anonymous key is used (lowest priority).
+The AI Horde key comes from HORDE_API_KEY, else from tools/.horde_key (one line, never committed),
+else the anonymous key is used (lowest priority).
 """
 import argparse
 import io
@@ -23,7 +24,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAN = os.path.join(REPO, 'tools', 'image_plan.md')
 API = 'https://aihorde.net/api/v2'
 UA = 'aytranscription/1.0 (github.com/ameyades1/aytranscription)'
-STYLE = 'Warm natural light, cinematic, high detail, authentic Indian setting. No text or lettering.'
+# The style ending is part of every prompt in image_plan.md; only the negative prompt is added here
 NEGATIVE = 'text, letters, watermark, signature, blurry, deformed hands, extra limbs, nsfw'
 MODELS = {
     'flux': {'name': 'Flux.1-Schnell fp8 (Compact)', 'steps': 4, 'cfg_scale': 1, 'sampler_name': 'k_euler'},
@@ -47,14 +48,23 @@ def clean(cell):
     cell = re.sub(r'\(\[[^\]]*\]\[\d+\]\)', '', cell)
     cell = re.sub(r'Place after .*', '', cell)
     cell = re.sub(r'\*\*“[^”]*”\*\*\s*—\s*', '', cell)    # leading "Title" —
-    cell = cell.replace('**', '').replace('*', '').replace('16:9.', '')
+    cell = cell.replace('**', '').replace('*', '')
     return ' '.join(cell.split())
+
+
+def api_key():
+    if os.environ.get('HORDE_API_KEY'):
+        return os.environ['HORDE_API_KEY']
+    path = os.path.join(REPO, 'tools', '.horde_key')
+    if os.path.exists(path):
+        return open(path).read().strip()
+    return '0000000000'
 
 
 def call(method, path, body=None):
     req = urllib.request.Request(
         API + path, method=method, data=json.dumps(body).encode() if body else None,
-        headers={'apikey': os.environ.get('HORDE_API_KEY', '0000000000'),
+        headers={'apikey': api_key(),
                  'Client-Agent': 'aytranscription:1.0:github.com/ameyades1',
                  'Content-Type': 'application/json', 'User-Agent': UA})
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -75,12 +85,13 @@ def generate(prompt, model, attempts=6):
 def generate_once(prompt, model):
     m = MODELS[model]
     job = call('POST', '/generate/async', {
-        'prompt': f'{prompt} {STYLE} ### {NEGATIVE}',
+        'prompt': f'{prompt} ### {NEGATIVE}',
         'params': {'width': 1024, 'height': 576, 'steps': m['steps'], 'cfg_scale': m['cfg_scale'],
                    'sampler_name': m['sampler_name'], 'n': 1},
         'models': [m['name']], 'nsfw': False, 'censor_nsfw': True, 'r2': True,
     })
     jid = job['id']
+    started, first = time.time(), None
     while True:
         time.sleep(10)
         s = call('GET', f'/generate/check/{jid}')
@@ -93,7 +104,11 @@ def generate_once(prompt, model):
                 pass
             return None
         print(f'  waiting: queue position {s.get("queue_position")}, eta {s.get("wait_time")}s', flush=True)
+        if first is None:
+            first = (s.get('queue_position'), s.get('wait_time'))
     gen = call('GET', f'/generate/status/{jid}')['generations'][0]
+    q, eta = first or (0, 0)
+    print(f'  TIMING: queue {q}, first eta {eta}s, took {int(time.time() - started)}s', flush=True)
     if gen.get('censored'):
         print('  note: image was censored by the safety filter')
     with urllib.request.urlopen(urllib.request.Request(gen['img'], headers={'User-Agent': UA}), timeout=120) as r:

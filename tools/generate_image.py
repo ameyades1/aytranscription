@@ -22,7 +22,6 @@ from PIL import Image
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLAN = os.path.join(REPO, 'tools', 'image_plan.md')
 MODEL = 'gemini-3.1-flash-image'
-STYLE = 'Cinematic, high detail, cultural authenticity, warm natural light. No text or lettering in the image.'
 
 
 def clean(cell):
@@ -30,7 +29,6 @@ def clean(cell):
     cell = re.sub(r'\(\[[^\]]*\]\[\d+\]\)', '', cell)    # ([Ameya Desai][n])
     cell = re.sub(r'Place after .*', '', cell)          # placement note and what follows
     cell = cell.replace('**', '').replace('*', '')
-    cell = re.sub(r'\b16:9\.?', '', cell)
     return ' '.join(cell.split()).strip(' —')
 
 
@@ -70,7 +68,7 @@ def main():
                 continue
             response = client.models.generate_content(
                 model=MODEL,
-                contents=f'{prompt} {STYLE}',
+                contents=prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=['IMAGE'],
                     image_config=types.ImageConfig(aspect_ratio='16:9'),

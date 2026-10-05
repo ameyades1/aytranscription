@@ -8,7 +8,7 @@
 #
 # Settings (environment variables):
 #   MODEL          flux or juggernaut (default: juggernaut)
-#   HORDE_API_KEY  AI Horde account key (default: anonymous, lowest priority)
+#   HORDE_API_KEY  AI Horde account key (default: the key in tools/.horde_key, else anonymous)
 #   PUSH           1 = commit and push after each blog (default: 1)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -22,6 +22,8 @@ mkdir -p "$LOG_DIR"
 
 log() { echo "[$(date '+%m-%d %H:%M')] $1"; }
 
+if [ -n "$HORDE_API_KEY" ] || [ -s tools/.horde_key ]; then log "Using an AI Horde account key"; else log "Using the anonymous AI Horde key (slow)"; fi
+
 talks=$(grep -oE '^\[[0-9]+\]: \S+/aytranscription/[^/]+/blog/' tools/image_plan.md | sed -E 's|.*/aytranscription/([^/]+)/blog/|\1|')
 done_count=0
 failed=()
@@ -30,7 +32,11 @@ for name in $talks; do
     [ -f "output/$name/blog/assets/hero.jpg" ] && continue
     [ -f "output/$name/${name}_blog.txt" ] || continue
     log "$name: generating ($MODEL)"
-    if ! $PY tools/horde_image.py "$name" --model "$MODEL" > "$LOG_DIR/$name.log" 2>&1 ||
+    start=$(date +%s)
+    # Full output to the blog's log; the TIMING lines (queue, eta, time taken) also to this log
+    $PY tools/horde_image.py "$name" --model "$MODEL" 2>&1 | tee "$LOG_DIR/$name.log" |
+        grep --line-buffered -E "^(hero|inline) |TIMING|no worker|note:" | sed -u 's/^/    /'
+    if [ "${PIPESTATUS[0]}" -ne 0 ] ||
        [ ! -f "output/$name/blog/assets/inline.jpg" ]; then
         log "$name: FAILED, see $LOG_DIR/$name.log"
         rm -f "output/$name/blog/assets/hero.jpg"   # so a re-run retries this blog
@@ -53,7 +59,7 @@ for name in $talks; do
             log "$name: git commit/push failed"
     fi
     done_count=$((done_count + 1))
-    log "$name: done"
+    log "$name: done in $(( ($(date +%s) - start) / 60 )) min"
 done
 
 log "Finished: $done_count blog(s) with new images."
