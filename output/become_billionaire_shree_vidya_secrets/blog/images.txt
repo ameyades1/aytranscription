@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | नौकरी से आगे का सपना | A Dream Beyond a Job | Indian entrepreneur/creator working on something of their own in a workshop/studio/business setting, with a purposeful rather than corporate-stock aesthetic

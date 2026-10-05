@@ -99,10 +99,11 @@ def write_images_txt(talk):
     heads = lambda k: [l[3:].strip() for l in open(os.path.join(REPO, 'output', talk, f'{talk}_{k}.txt'),
                                                     encoding='utf-8') if l.startswith('## ')]
     en, hi = heads('blog_en'), heads('blog')
-    if not m or m.group(1) not in en or len(en) != len(hi):
+    # The plan names the section in English (newer rows) or Hindi (the first 16 rows)
+    if not m or len(en) != len(hi) or (m.group(1) not in en and m.group(1) not in hi):
         print(f'  note: could not place the inline image for {talk}; add blog/images.txt by hand')
         return
-    i = en.index(m.group(1))
+    i = en.index(m.group(1)) if m.group(1) in en else hi.index(m.group(1))
     alt = re.sub(r'\*\*“[^”]*”\*\*\s*—\s*', '', row.split('|')[4]).split('.')[0].strip()
     open(path, 'w', encoding='utf-8').write(
         '# file | Hindi section heading | English section heading | description\n'
