@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक ही कर्म, दो अलग भाग्य | The Same Act, Two Different Destinies | Two identical paths splitting in a misty forest, one bright, one shaded
