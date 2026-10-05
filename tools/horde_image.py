@@ -61,7 +61,18 @@ def call(method, path, body=None):
         return json.load(r)
 
 
-def generate(prompt, model):
+def generate(prompt, model, attempts=6):
+    """Retry when no worker can take the job (models come and go on the Horde)."""
+    for attempt in range(1, attempts + 1):
+        img = generate_once(prompt, model)
+        if img is not None:
+            return img
+        print(f'  no worker for {MODELS[model]["name"]} (attempt {attempt}/{attempts}), retrying in 10 min', flush=True)
+        time.sleep(600)
+    sys.exit(f'No worker could run {MODELS[model]["name"]} after {attempts} attempts')
+
+
+def generate_once(prompt, model):
     m = MODELS[model]
     job = call('POST', '/generate/async', {
         'prompt': f'{prompt} {STYLE} ### {NEGATIVE}',
@@ -76,7 +87,11 @@ def generate(prompt, model):
         if s.get('done'):
             break
         if not s.get('is_possible', True):
-            sys.exit(f'No worker can run {m["name"]} right now')
+            try:
+                call('DELETE', f'/generate/status/{jid}')
+            except Exception:
+                pass
+            return None
         print(f'  waiting: queue position {s.get("queue_position")}, eta {s.get("wait_time")}s', flush=True)
     gen = call('GET', f'/generate/status/{jid}')['generations'][0]
     if gen.get('censored'):
