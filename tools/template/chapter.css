@@ -1,0 +1,62 @@
+:root {
+  --ink: #2b2520;
+  --ink-strong: #3a2a1a;
+  --accent: #7a4a1c;
+  --accent-soft: #9a6b2f;
+  --gold: #c0975a;
+  --rule: #e2d3bd;
+  --panel: #faf5ec;
+  --panel-verse: #fbf7f0;
+  --paper: #fffdf9;
+  --font: 'Noto Serif Devanagari', 'Noto Serif', Georgia, serif;
+}
+
+html { font-family: var(--font); font-size: 11pt; line-height: 1.85; color: var(--ink); background: var(--paper); }
+body { margin: 0; }
+
+header { text-align: center; padding: 18mm 0 8mm; break-after: avoid; }
+header .label { font-size: 10pt; color: var(--accent-soft); }
+h1 { font-size: 24pt; line-height: 1.4; margin: 4mm 0 2mm; font-weight: 700; color: var(--ink-strong); }
+.orn { color: var(--gold); font-size: 13pt; }
+
+h2 { font-size: 14pt; font-weight: 700; color: var(--accent); margin: 9mm 0 3mm; padding-bottom: 1.5mm;
+     border-bottom: .6pt solid var(--rule); break-after: avoid; line-height: 1.5; }
+h3 { font-size: 12pt; font-weight: 700; color: var(--ink-strong); margin: 6mm 0 2mm; break-after: avoid; }
+
+p { margin: 0 0 3.2mm; text-align: justify; orphans: 2; widows: 2; }
+strong { font-weight: 600; color: var(--ink-strong); }
+em { font-style: normal; color: var(--accent); }
+
+blockquote { margin: 4mm 0; padding: 2.5mm 4.5mm; border-left: 2.2pt solid var(--gold); background: var(--panel); break-inside: avoid; }
+blockquote p { margin: 0 0 1.5mm; text-align: left; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote.verse { text-align: center; border-left: none; border-top: .6pt solid var(--rule); border-bottom: .6pt solid var(--rule);
+                   background: var(--panel-verse); padding: 4mm; }
+blockquote.verse p { text-align: center; font-size: 12pt; }
+
+ul { margin: 2mm 0 4mm; padding-left: 6mm; }
+li { margin-bottom: 1.2mm; }
+ol.takeaways { list-style: none; padding: 0; margin: 3mm 0; }
+ol.takeaways li { display: flex; gap: 3mm; margin-bottom: 3mm; break-inside: avoid; }
+ol.takeaways .num { flex: 0 0 6mm; font-weight: 700; color: var(--accent-soft); }
+
+/* Web page */
+@media screen {
+  html { font-size: 18px; }
+  body { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header { padding: 3rem 0 1.5rem; }
+  header .label { font-size: .9rem; }
+  .orn { font-size: 1.1rem; }
+  blockquote.verse p { font-size: 1.05rem; }
+  h1 { font-size: 2.1rem; }
+  h2 { font-size: 1.3rem; margin-top: 2.5rem; }
+  p { text-align: left; }
+}
+@media screen and (max-width: 480px) {
+  html { font-size: 16px; }
+  h1 { font-size: 1.7rem; }
+}
+
+/* PDF */
+@page { size: A5; margin: 20mm 17mm 22mm 17mm; }
+@media print { html { background: none; } }

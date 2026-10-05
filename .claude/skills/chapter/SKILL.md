@@ -81,15 +81,17 @@ the transcript. Write the result to `output/<name>/<name>_blog.txt`. It is writt
 transcript, not from the book chapter, and the same three additions apply:
 - Authenticity and no channel promotions, as in step 3.
 - **Format** (below). The title line is `# <Title>`, with no label and no colon in the title.
-  Pull quotes are `> "..."` lines. A reflective question for the reader is a paragraph of its
-  own in `*italics*`. The closing takeaways are a `- ` bullet list.
+  **No direct quotes from Acharya Ji in the blog,** even where the prompt asks for pull quotes:
+  give his words as ordinary text (indirect speech, e.g. "Acharya Ji explains that...").
+  Scripture verses stay as verse blocks. A reflective question for the reader is a paragraph of
+  its own in `*italics*`. The closing takeaways are a `- ` bullet list.
 
 ## Step 3c: Write the English versions
 
 Translate both into English: `<name>_chapter_en.txt` from the chapter and `<name>_blog_en.txt`
 from the blog text. Each is a faithful translation, not a new text:
-- Same title, sections, order, quotes, questions and takeaways. Translate quotes faithfully and
-  keep them as `> "..."` quotes. Add nothing that is not in the Hindi version.
+- Same title, sections, order, quotes, questions and takeaways. Translate quotes faithfully,
+  keeping each in the same form as the Hindi (a `> "..."` quote in the chapter, ordinary text in the blog). Add nothing that is not in the Hindi version.
 - Scripture verses keep their Sanskrit as the IAST transliteration in `**bold**`, followed by a
   quoted English meaning and the source line (e.g. `> (Bhagavad Gita 18.66)`).
 - Title line `# Chapter: <Title>` for the chapter, `# <Title>` for the blog. Same format rules.
