@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | यह सब एक छोटे से कैलकुलेटर से शुरू हुआ | It All Began with a Small Calculator | An old pocket calculator next to a child doing mental arithmetic on a slate, nostalgic warm light

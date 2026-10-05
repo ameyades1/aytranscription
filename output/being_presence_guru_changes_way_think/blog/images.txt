@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | खेल-खेल में खोया बचपन लौट आया | A Lost Childhood Returns Through Play | Adults laughing while playing a simple traditional game in an ashram courtyard
