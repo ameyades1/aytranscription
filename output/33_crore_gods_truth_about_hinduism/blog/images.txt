@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | देवता यानी विभाग | Deities Are Departments | A banyan tree with many branches, each holding a small hanging lamp
