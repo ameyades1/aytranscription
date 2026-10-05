@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सोने की तरह तपना | Refined Like Gold | Close view of raw gold being purified in a goldsmith's small fire, molten gold glowing in a clay crucible
