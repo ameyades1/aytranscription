@@ -1,84 +1,169 @@
 # One mp3 per line, processed top to bottom. Lines starting with # are skipped.
 # Optional second field overrides the output name:  tools/x_ABCDEFGHIJK.mp3  my_name
 # Talks that already have output/<name>/blog/index.html are skipped automatically.
-tools/attain_divine_qualities_empower_spiritual_pY4goiPddYM.mp3
-tools/awaken_divine_shakti_kali_lakshmi_saraswati_XQF7970d0Rw.mp3
-tools/awaken_inner_shiv_shakti_maha_shivratri_l5IMXQm6_Os.mp3
-tools/become_billionaire_shree_vidya_secrets_GmsR2kEJyok.mp3
-tools/burn_your_karma_before_it_burns_you_RUNDzhc9cUI.mp3
-tools/chanting_om_final_breath_liberation_JzoOLxtJbDs.mp3
-tools/company_you_keep_shapes_destiny_4xYklVbL04A.mp3
-tools/competent_guru_activate_chakras_kundalini_qOlSD2XtlQ4.mp3
-tools/control_your_mind_before_it_controls_you_78JhEGWoiFU.mp3
-tools/destiny_awaits_obstacle_in_way_LTlS3QAFHV0.mp3
-tools/diet_hindering_success_link_prosperity_q1lSaFpLhAA.mp3
-tools/difference_ved_vedant_2pqFFJAtSRY.mp3
-tools/divine_power_every_woman_holds_dsCYM0o3enk.mp3
-tools/do_this_one_thing_achieve_successful_life_3isyY5JDCes.mp3
-tools/durva_red_flowers_lord_ganesh_worship_8TQP05l8T8o.mp3
-tools/eat_shapes_how_you_think_I8XxEUhOuRY.mp3
-tools/eat_to_heal_not_to_harm_spiritual_BeSI4EHmtmE.mp3
-tools/every_human_inherently_spiritual_ov5VfQaTt80.mp3
-tools/evolution_of_dharma_sanatan_dharma_nl9WwWI4OZU.mp3
-tools/future_lies_in_hands_message_to_women_IRT9HMMAN1I.mp3
-tools/gau_seva_antar_yog_purity_prosperity_eYm2lJLozys.mp3
-tools/goddess_lakshmi_lord_vishnu_stories_YxeuWagekhw.mp3
-tools/guru_and_disciple_highest_form_love_rzvDKGED45s.mp3
-tools/guru_bridging_science_spirituality_CT4y8LiHBU4.mp3
-tools/gyan_sarovar_mount_abu_women_address_JN2rLNTRmkg.mp3
-tools/hardcore_non_vegetarian_awakening_3H6JBMMDsPY.mp3
-tools/hidden_meaning_spiritual_symbols_--fzGWGYwj8.mp3
-tools/hidden_power_of_positivity_CE4lUMtfOKw.mp3
-tools/hidden_truth_rudra_rudraksha_337o_M4hQlc.mp3
-tools/ideal_king_sanatan_rashtra_interview_bHiqwjZfjdQ.mp3
-tools/joy_sorrow_transformation_XrizjvAqptQ.mp3
-tools/know_your_first_duty_in_life_FHJt2VprFWs.mp3
-tools/know_your_god_transformative_path_3vpUtI7qrO0.mp3
-tools/know_your_lord_before_worship_N23HvqfmdZQ.mp3
-tools/knowledge_work_for_you_Jjev58uqjlk.mp3
-tools/love_burden_for_child_parenting_laHKtOVpJcc.mp3
-tools/love_respect_friendship_connection_fTnWUxV-cUI.mp3
-tools/loving_in_the_right_way_valentines_jnlSGQ1NeuU.mp3
-tools/manifesting_goals_correctly_pSgr-IzLZmA.mp3
-tools/marriage_giving_not_taking_relationships_qKeSO8HjLgk.mp3
-tools/married_or_not_insights_2J9rmfsbeSQ.mp3
-tools/mind_or_body_more_powerful_uCpV4GP4tZE.mp3
-tools/non_veg_food_remains_body_truths_yMTf0fB0O7I.mp3
-tools/overcome_struggles_of_life_m2IU0GRbYW8.mp3
-tools/physical_mental_strength_spiritual_path_ryX-m980D3M.mp3
-tools/power_of_collectivity_Twmk2ibbD8o.mp3
-tools/power_of_deities_in_your_life_4ZGq4KwZdOg.mp3
-tools/power_of_healing_antar_yog_science_x0tGU8YmWDQ.mp3
-tools/power_of_surrendering_to_guru_xXkJCnkCJh4.mp3 surrendering_to_guru
-tools/radha_krishna_divine_secret_o1TG0gTf1rI.mp3
-tools/rigid_mind_vs_flexible_mind_destiny_n_vbFgF9h4Q.mp3
-tools/sacred_guru_jupiter_chanting_4pc2zrIOdXE.mp3
-tools/sattva_rajas_tamas_balance_success_liberation_vYa0-yyFT9I.mp3
-tools/saturn_mars_succeed_shani_mangal_9R8rCQWnNmg.mp3
-tools/satyug_rules_kaliyug_different_path_cv1TsfZGQNs.mp3
-tools/secrets_mastering_your_mind_technique_6v0N16_t-Bo.mp3
-tools/shreya_vs_preya_vedantic_wisdom_nhdgssseYpQ.mp3
-tools/shukra_graha_chanting_wealth_relationships_NcBGjacSy-s.mp3
-tools/spiritual_science_om_aum_UETeOQlt8wQ.mp3
-tools/stop_asking_god_fix_your_life_lCzbwxk3pqA.mp3
-tools/stop_mind_controlling_unlock_true_focus_JyaRQhS1FLU.mp3
-tools/stop_tolerating_toxic_love_IZr0L44iccY.mp3
-tools/struggling_despite_trying_best_lzy0iom4NM0.mp3
-tools/struggling_laziness_lack_drive_spiritual_ekKEpnvRlDo.mp3
-tools/three_types_obstacle_removers_harta_9K7jnPjftng.mp3
-tools/too_bad_to_be_too_good_valentines_3D4bZOwfWIc.mp3
-tools/trapped_illusory_happiness_T_do140cMxM.mp3
-tools/true_disciple_change_your_life_F2ed2I00dQA.mp3
-tools/true_meaning_of_love_valentines_fbSCA8hutgs.mp3
-tools/true_power_of_scriptures_decoded_Aze4oMZWvlo.mp3
-tools/truly_desire_or_infatuation_MV8HZe_1Czg.mp3
-tools/truth_about_lord_ganesh_Of8N4Jl6tvo.mp3
-tools/twin_flames_soulmates_karmic_bonds_h5RrdwSpFsg.mp3
-tools/two_causes_create_your_life_-MdwHudA9q0.mp3
-tools/unlock_divine_energy_durga_saptashati_mantra_u4rEtz0EDT4.mp3
-tools/unlock_full_potential_in_life_4UYYhdxw4RQ.mp3
-tools/water_is_your_first_medicine_COOfNtQO9p8.mp3
-tools/why_blind_love_is_dangerous_H2TJ9HG0F9I.mp3
-tools/why_satsang_does_not_change_your_life_xvFF9MbWP30.mp3
-tools/why_society_remains_divided_interview_D1gVmT4mOxM.mp3
-tools/without_guru_scriptures_can_mislead_iJKo4l8Wk1w.mp3
+# done: tools/attain_divine_qualities_empower_spiritual_pY4goiPddYM.mp3
+# done: tools/awaken_divine_shakti_kali_lakshmi_saraswati_XQF7970d0Rw.mp3
+# done: tools/awaken_inner_shiv_shakti_maha_shivratri_l5IMXQm6_Os.mp3
+# done: tools/become_billionaire_shree_vidya_secrets_GmsR2kEJyok.mp3
+# done: tools/burn_your_karma_before_it_burns_you_RUNDzhc9cUI.mp3
+# done: tools/chanting_om_final_breath_liberation_JzoOLxtJbDs.mp3
+# done: tools/company_you_keep_shapes_destiny_4xYklVbL04A.mp3
+# done: tools/competent_guru_activate_chakras_kundalini_qOlSD2XtlQ4.mp3
+# done: tools/control_your_mind_before_it_controls_you_78JhEGWoiFU.mp3
+# done: tools/destiny_awaits_obstacle_in_way_LTlS3QAFHV0.mp3
+# done: tools/diet_hindering_success_link_prosperity_q1lSaFpLhAA.mp3
+# done: tools/difference_ved_vedant_2pqFFJAtSRY.mp3
+# done: tools/divine_power_every_woman_holds_dsCYM0o3enk.mp3
+# done: tools/do_this_one_thing_achieve_successful_life_3isyY5JDCes.mp3
+# done: tools/durva_red_flowers_lord_ganesh_worship_8TQP05l8T8o.mp3
+# done: tools/eat_shapes_how_you_think_I8XxEUhOuRY.mp3
+# done: tools/eat_to_heal_not_to_harm_spiritual_BeSI4EHmtmE.mp3
+# done: tools/every_human_inherently_spiritual_ov5VfQaTt80.mp3
+# done: tools/evolution_of_dharma_sanatan_dharma_nl9WwWI4OZU.mp3
+# done: tools/future_lies_in_hands_message_to_women_IRT9HMMAN1I.mp3
+# done: tools/gau_seva_antar_yog_purity_prosperity_eYm2lJLozys.mp3
+# done: tools/goddess_lakshmi_lord_vishnu_stories_YxeuWagekhw.mp3
+# done: tools/guru_and_disciple_highest_form_love_rzvDKGED45s.mp3
+# done: tools/guru_bridging_science_spirituality_CT4y8LiHBU4.mp3
+# done: tools/gyan_sarovar_mount_abu_women_address_JN2rLNTRmkg.mp3
+# done: tools/hardcore_non_vegetarian_awakening_3H6JBMMDsPY.mp3
+# done: tools/hidden_meaning_spiritual_symbols_--fzGWGYwj8.mp3
+# done: tools/hidden_power_of_positivity_CE4lUMtfOKw.mp3
+# done: tools/hidden_truth_rudra_rudraksha_337o_M4hQlc.mp3
+# done: tools/ideal_king_sanatan_rashtra_interview_bHiqwjZfjdQ.mp3
+# done: tools/joy_sorrow_transformation_XrizjvAqptQ.mp3
+# done: tools/know_your_first_duty_in_life_FHJt2VprFWs.mp3
+# done: tools/know_your_god_transformative_path_3vpUtI7qrO0.mp3
+# done: tools/know_your_lord_before_worship_N23HvqfmdZQ.mp3
+# done: tools/knowledge_work_for_you_Jjev58uqjlk.mp3
+# done: tools/love_burden_for_child_parenting_laHKtOVpJcc.mp3
+# done: tools/love_respect_friendship_connection_fTnWUxV-cUI.mp3
+# done: tools/loving_in_the_right_way_valentines_jnlSGQ1NeuU.mp3
+# done: tools/manifesting_goals_correctly_pSgr-IzLZmA.mp3
+# done: tools/marriage_giving_not_taking_relationships_qKeSO8HjLgk.mp3
+# done: tools/married_or_not_insights_2J9rmfsbeSQ.mp3
+# done: tools/mind_or_body_more_powerful_uCpV4GP4tZE.mp3
+# done: tools/non_veg_food_remains_body_truths_yMTf0fB0O7I.mp3
+# done: tools/overcome_struggles_of_life_m2IU0GRbYW8.mp3
+# done: tools/physical_mental_strength_spiritual_path_ryX-m980D3M.mp3
+# done: tools/power_of_collectivity_Twmk2ibbD8o.mp3
+# done: tools/power_of_deities_in_your_life_4ZGq4KwZdOg.mp3
+# done: tools/power_of_healing_antar_yog_science_x0tGU8YmWDQ.mp3
+# done: tools/power_of_surrendering_to_guru_xXkJCnkCJh4.mp3 surrendering_to_guru
+# done: tools/radha_krishna_divine_secret_o1TG0gTf1rI.mp3
+# done: tools/rigid_mind_vs_flexible_mind_destiny_n_vbFgF9h4Q.mp3
+# done: tools/sacred_guru_jupiter_chanting_4pc2zrIOdXE.mp3
+# done: tools/sattva_rajas_tamas_balance_success_liberation_vYa0-yyFT9I.mp3
+# done: tools/saturn_mars_succeed_shani_mangal_9R8rCQWnNmg.mp3
+# done: tools/satyug_rules_kaliyug_different_path_cv1TsfZGQNs.mp3
+# done: tools/secrets_mastering_your_mind_technique_6v0N16_t-Bo.mp3
+# done: tools/shreya_vs_preya_vedantic_wisdom_nhdgssseYpQ.mp3
+# done: tools/shukra_graha_chanting_wealth_relationships_NcBGjacSy-s.mp3
+# done: tools/spiritual_science_om_aum_UETeOQlt8wQ.mp3
+# done: tools/stop_asking_god_fix_your_life_lCzbwxk3pqA.mp3
+# done: tools/stop_mind_controlling_unlock_true_focus_JyaRQhS1FLU.mp3
+# done: tools/stop_tolerating_toxic_love_IZr0L44iccY.mp3
+# done: tools/struggling_despite_trying_best_lzy0iom4NM0.mp3
+# done: tools/struggling_laziness_lack_drive_spiritual_ekKEpnvRlDo.mp3
+# done: tools/three_types_obstacle_removers_harta_9K7jnPjftng.mp3
+# done: tools/too_bad_to_be_too_good_valentines_3D4bZOwfWIc.mp3
+# done: tools/trapped_illusory_happiness_T_do140cMxM.mp3
+# done: tools/true_disciple_change_your_life_F2ed2I00dQA.mp3
+# done: tools/true_meaning_of_love_valentines_fbSCA8hutgs.mp3
+# done: tools/true_power_of_scriptures_decoded_Aze4oMZWvlo.mp3
+# done: tools/truly_desire_or_infatuation_MV8HZe_1Czg.mp3
+# done: tools/truth_about_lord_ganesh_Of8N4Jl6tvo.mp3
+# done: tools/twin_flames_soulmates_karmic_bonds_h5RrdwSpFsg.mp3
+# done: tools/two_causes_create_your_life_-MdwHudA9q0.mp3
+# done: tools/unlock_divine_energy_durga_saptashati_mantra_u4rEtz0EDT4.mp3
+# done: tools/unlock_full_potential_in_life_4UYYhdxw4RQ.mp3
+# done: tools/water_is_your_first_medicine_COOfNtQO9p8.mp3
+# done: tools/why_blind_love_is_dangerous_H2TJ9HG0F9I.mp3
+# done: tools/why_satsang_does_not_change_your_life_xvFF9MbWP30.mp3
+# done: tools/why_society_remains_divided_interview_D1gVmT4mOxM.mp3
+# done: tools/without_guru_scriptures_can_mislead_iJKo4l8Wk1w.mp3
+
+# ---- New talks from the YouTube channel (blogs.xlsx, Candidates sheet: Blog = Yes) ----
+https://www.youtube.com/watch?v=v7qix63fi6o when_kalki_avatar_come
+https://www.youtube.com/watch?v=sfXdESZA-GQ vastu_positive_energy_in_your_space
+https://www.youtube.com/watch?v=NQc60uQ0Mic secret_ultimate_happiness
+https://www.youtube.com/watch?v=9_Olb-bBLgA every_moment_enlightened_master_new_birth
+https://www.youtube.com/watch?v=PRyW99k_yqU big_pitru_dosh_understanding_pitru_rin
+https://www.youtube.com/watch?v=tyUs6RYpWcg animal_sacrifice
+https://www.youtube.com/watch?v=KH9tkZuYu-g only_way_know_god
+https://www.youtube.com/watch?v=YQsZMpnU5_k artificial_intelligence_getting_smarter_but_humans
+https://www.youtube.com/watch?v=JbLQmGA_EGw mahalay_shraddha_matters_truth_about_pitru
+https://www.youtube.com/watch?v=_mmj8c0S8CI spiritual_age_matters_physical_age
+https://www.youtube.com/watch?v=GWX23OsqOhU hidden_meaning_behind_10_days_ganesh
+https://www.youtube.com/watch?v=WAHlUMxRjLM not_wait_until_retirement_transform_life
+https://www.youtube.com/watch?v=JP46r1WEVAM legends_keep_working
+https://www.youtube.com/watch?v=WZWLpp17Wtg truth_about_brahmacharya_exposed_video
+https://www.youtube.com/watch?v=14RWGh4zZWE ultimate_source_learn_about_every_religion
+https://www.youtube.com/watch?v=KLcdi0TBvIc one_realisation_free_from_all_suffering
+https://www.youtube.com/watch?v=jkk__RZ8f2Y who_real_doer_karma_ego_bhagavad
+https://www.youtube.com/watch?v=h1HWI6ycCzw dharma_teaches_us
+https://www.youtube.com/watch?v=I8KubLzfuLs reveals_4_life_changing_components
+https://www.youtube.com/watch?v=Hi2yo3WNWNg unveiling_truth_karma_ultimate_goal_or
+https://www.youtube.com/watch?v=6eUffXQaXLg mrityu_versus_moksha
+https://www.youtube.com/watch?v=siLE-ViWK0M was_ram_rajya_like_federal_or
+https://www.youtube.com/watch?v=GNHT_imyrIg real_role_maha_kali
+https://www.youtube.com/watch?v=3YzvjV9tkWg secrets_of_becoming_billionaire_marathi
+https://www.youtube.com/watch?v=tIhv44VSkqg decides_destiny
+https://www.youtube.com/watch?v=Jr0CoUVfsOw spirituality_kids
+https://www.youtube.com/watch?v=nCLeNTnp9Kw true_meaning_pitru_rin
+https://www.youtube.com/watch?v=ItIczpWGBaE women_have_right_perform_shraddha_pind
+https://www.youtube.com/watch?v=n6Djrb91zEg spiritual_power_women_kali_yug
+https://www.youtube.com/watch?v=bZ7mcPw99Tc gita_escape_cycle_of_rebirth
+https://www.youtube.com/watch?v=YEnlgHqzyxk worldly_maya_makes_forget_true_self
+https://www.youtube.com/watch?v=owKF50txJi0 chant_thousand_names_god
+https://www.youtube.com/watch?v=HB9KQtNP1K8 ganesh_chaturthi_pitru_paksha_navratri_diwali
+https://www.youtube.com/watch?v=UWDUuysKBzw need_murtis_symbols_understand_god
+https://www.youtube.com/watch?v=kZDtLhoBlRo 33_crore_gods_truth_about_hinduism
+https://www.youtube.com/watch?v=AKMTPA0Tkdk gita_warning_worship_without_understanding
+https://www.youtube.com/watch?v=Ctn4fjD6vCE ganesh_have_elephant_head_mouse
+https://www.youtube.com/watch?v=LrMV7jGjO2Q art_living_life
+https://www.youtube.com/watch?v=_HeobSgNv_w missing_step_blocking_spiritual_success
+https://www.youtube.com/watch?v=V_Mxy5bZpOc know_kind_student_shishya
+https://www.youtube.com/watch?v=UrcdlD7wahA pind_daan
+https://www.youtube.com/watch?v=x1eZQdFF8X4 lakshmi_come_some_people_not_others
+https://www.youtube.com/watch?v=Ky-LxnXsPtM anyone_grant_liberation_living_or_dead
+https://www.youtube.com/watch?v=9pLcWhHUChs when_love_turns_into_control
+https://www.youtube.com/watch?v=yCkZTkwD1i4 life_boomerang_before_react
+https://www.youtube.com/watch?v=20whyVbHtSc when_disciple_become_truly_powerful
+https://www.youtube.com/watch?v=us3EHBnohcM what_changed_within_you_this_year
+https://www.youtube.com/watch?v=d4BN4FoJVEk ganpati_visarjan_tradition
+https://www.youtube.com/watch?v=C9fR-GCNrts understand_spiritual_science_behind_different_offerings
+https://www.youtube.com/watch?v=F_TD03rB_YE worship_ganesh_every_year_but_understand
+https://www.youtube.com/watch?v=BkItcK_s7nM real_meaning_guru
+https://www.youtube.com/watch?v=cyTbblKx0hs three_gunas_karma
+https://www.youtube.com/watch?v=lexXRwU7fro see_god_even_enemy
+https://www.youtube.com/watch?v=YNyeE5PBXGo take_so_long_fulfil_desires
+https://www.youtube.com/watch?v=WgP-OmokJAw every_ganesh_idol_look_different
+https://www.youtube.com/watch?v=A8DTW5a8qvM spiritual_meaning_secularism_independence_day_special
+https://www.youtube.com/watch?v=kz1WlH6Jnvw truly_independent
+https://www.youtube.com/watch?v=nG93Sidv3N8 what_is_a_guru
+https://www.youtube.com/watch?v=XKvzk38B8fw biggest_spiritual_misconception_about_death
+https://www.youtube.com/watch?v=OZpiSalQjIk women_continue_sadhana_during_their_monthly
+https://www.youtube.com/watch?v=oTh4Q5cWWNQ punya_vs_paap
+https://www.youtube.com/watch?v=VU9BYISeysU being_presence_guru_changes_way_think
+https://www.youtube.com/watch?v=H9n35RembE0 see_lord_everyone_but_treat_merit
+https://www.youtube.com/watch?v=8LoNGJLVvs4 future_country_bharat_know
+https://www.youtube.com/watch?v=sV8GCXqarP0 true_wealth_money_health_respect_or
+https://www.youtube.com/watch?v=NrWomOQaEeI ghee_more_than_food
+
+# ---- Candidates marked No or left blank (remove the "# " to include one) ----
+# https://www.youtube.com/watch?v=YnWveWF6RVc real_way_awaken_true_potential    [blank] The Real Way to Awaken Your True Potential | Acharya Upendra
+# https://www.youtube.com/watch?v=ksBOItw84g0 4_hidden_levels_spiritual_power    [blank] 4 Hidden Levels of Spiritual Power — 99% Never Cross the Fir
+# https://www.youtube.com/watch?v=te7uI9WowQ4 take_reach_state_ganpati    [blank] What Does It Take to Reach the State of Ganpati? | Acharya U
+# https://www.youtube.com/watch?v=agTrn2OrT3I time_awaken    [blank] शंखनाद - उठो, जागो! युग परिवर्तन का समय आया है | It Is Time 
+# https://www.youtube.com/watch?v=JdU1pQGyam4 need_jeevit_guru_life    [blank] Why Do You Need A Jeevit Guru In Life? | Acharya Upendra Ji 
+# https://www.youtube.com/watch?v=gDGvlhSCaGM pitru_rin_pitru_dosh    [blank] Pitru Rin and Pitru Dosh Explained | Complete Guide to Shrad
+# https://www.youtube.com/watch?v=7Z8tqrWnqNk ganesh_chaturthi    [blank] Ganesh Chaturthi - Mundaka Upanishad, Meaning of Ganesh and 
+# https://www.youtube.com/watch?v=LnZ6CPxy6ak masterkey_every_problem    [blank] Masterkey to Your Every Problem | Acharya Upendra Ji | Antar
+# https://www.youtube.com/watch?v=gSL8eiXdt1g one_truth_change_life    [blank] One Truth That Will Change Your Life | Acharya Upendra Ji | 
+# https://www.youtube.com/watch?v=biGK39IUAmY unlocking_key_happy_relationships    [blank] Unlocking the Key to Happy Relationships | Acharya Upendra J
+# https://www.youtube.com/watch?v=iQcVpvkuV5A secret_blueprint_make_bharat_vishwa_guru    [blank] The Secret Blueprint to Make Bharat Vishwa Guru | Acharya Up
+# https://www.youtube.com/watch?v=bHXPtQp0SvU only_way_attain_eternal_bliss    [blank] The Only Way to Attain Eternal Bliss | Acharya Upendra Ji | 
+# https://www.youtube.com/watch?v=VzyZOb0tf7g today_decides_future    [No] TODAY DECIDES YOUR FUTURE | A Once-in-1000-Year Karmic Turni
+# https://www.youtube.com/watch?v=bQkA0_WxDp0 knowledge_transform_life_forever    [No] This Knowledge Will Transform Your Life Forever | Acharya Up
+# https://www.youtube.com/watch?v=yR3vmnDp78E revealing_shocking_truth_life    [No] Revealing the Shocking Truth of Life | Acharya Upendra Ji | 

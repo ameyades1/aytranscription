@@ -7,6 +7,9 @@
 #
 # Usage: ./batch_chapters.sh [list_file]
 #
+# Each line of the list is an mp3 file or a YouTube link, then an optional output name
+# (required for a link): tools/x_ABCDEFGHIJK.mp3 [name]  or  https://www.youtube.com/watch?v=ID name
+#
 # Settings (environment variables):
 #   MODEL            claude model (default: claude-opus-5-5, the model the first chapters were made with)
 #   EFFORT           claude effort level: low, medium, high, xhigh, max (default: low)
@@ -61,7 +64,7 @@ is_done() {
 }
 
 is_usage_limit() {
-    grep -qiE "usage limit|limit reached|rate limit|limit will reset|out of extra usage|429" "$1"
+    grep -qiE "usage limit|spend limit|session limit|limit reached|rate limit|limit will reset|limit resets|out of extra usage|429" "$1"
 }
 
 done_count=0
@@ -69,12 +72,19 @@ skipped=()
 
 while read -r input name _; do
     [[ -z "$input" || "$input" == \#* ]] && continue
+    given_name="$name"
     name="${name:-$(default_name "$input")}"
 
     if is_done "$name"; then
         continue
     fi
-    if [ ! -f "$input" ]; then
+    if [[ "$input" == http* ]]; then
+        if [ -z "$given_name" ]; then
+            log_error "$input: a YouTube link needs an output name after it, skipping"
+            skipped+=("$input (no name)")
+            continue
+        fi
+    elif [ ! -f "$input" ]; then
         log_error "$input: file not found, skipping"
         skipped+=("$name (file not found)")
         continue
