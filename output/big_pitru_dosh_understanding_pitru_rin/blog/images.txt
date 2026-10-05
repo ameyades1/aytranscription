@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सात पीढ़ियों का वृक्ष | The Tree of Seven Generations | Close view of thick intertwined roots of an old tree spreading into the earth
