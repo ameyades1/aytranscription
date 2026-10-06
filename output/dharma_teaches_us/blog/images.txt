@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | हर धर्म के तीन हिस्से | The Three Parts of Every Religion | Three different lamps burning side by side on a stone ledge in a temple

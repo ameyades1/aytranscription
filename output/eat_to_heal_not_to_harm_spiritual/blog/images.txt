@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | शाकाहार क्यों? | Why Vegetarian Food? | Baskets of fresh vegetables, fruits and grains at an Indian market stall in morning light
