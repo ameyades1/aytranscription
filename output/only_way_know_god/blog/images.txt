@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | मूर्ति मानचित्र है, गुरु चालक है | The Idol Is the Map, the Guru Is the Driver | A paper map of India on a car dashboard, a guide at the wheel

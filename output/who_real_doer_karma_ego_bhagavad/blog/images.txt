@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | प्रपंच: पांच का खेल | Prapancha: The Play of Five | Earth, water, fire, air and sky in one landscape

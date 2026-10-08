@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | हनुमान बनो, मावळे बनो | Be a Hanuman, Be a Mavla | A Hanuman murti with a mace, temple lamps

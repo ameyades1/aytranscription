@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | मां, गुरु और भारत माता | Mother, Guru and Mother India | A mother teaching her child beside a map of India

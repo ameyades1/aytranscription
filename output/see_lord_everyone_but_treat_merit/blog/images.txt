@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | पहले साम, फिर दाम, तब युद्ध | First Sama, Then Dama, Then War | An open hand, a raised palm and a sword in a row, symbolic

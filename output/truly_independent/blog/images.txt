@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | आपने अपना संविधान पढ़ा है? | Have You Read Your Constitution? | An open copy of the Constitution of India on a desk

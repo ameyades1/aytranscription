@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | पिंडदान और कौवे की परीक्षा | Pind Daan and the Test of the Crow | A crow approaching rice offerings on a ghat

@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | "विश्व का कल्याण हो" | "May the World Be Well" | A seeker offering water to the rising sun

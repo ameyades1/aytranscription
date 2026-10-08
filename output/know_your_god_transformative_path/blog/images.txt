@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक अनजान चित्र से प्रेम? | Love for an Unknown Photograph? | A young man holding an old photograph of a stranger, puzzled, in a dim room

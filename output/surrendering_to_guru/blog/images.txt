@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | अपनी धारणा छोड़ो, सही गाड़ी पकड़ो | Drop Your Ideas, Catch the Right Train | A traveller boarding a train at a sunlit platform

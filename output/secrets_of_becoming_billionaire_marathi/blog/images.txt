@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सोने की चिड़िया और "गरीब ब्राह्मण" का भ्रम | The Golden Bird and the Myth of the "Poor Brahmin" | A golden sparrow sculpture over a map of ancient India

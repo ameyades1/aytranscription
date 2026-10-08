@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | तमस से निकलने के दो ही रास्ते | Only Two Ways Out of Tamas | A dark cave with two openings of light

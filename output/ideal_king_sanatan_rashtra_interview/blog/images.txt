@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | जब मना करने के साथ रास्ता भी मिले | When a "No" Comes With a Way | A closed gate with a clear side path leading onward

@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | जब डॉक्टर "काका" हुआ करते थे | When the Doctor Was "Kaka" | An old family doctor visiting a home with his bag

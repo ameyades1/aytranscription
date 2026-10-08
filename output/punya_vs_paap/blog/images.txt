@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | बाहर से एक, भीतर से अलग | Alike Outside, Different Inside | Two identical lamps, one glowing warmly, one with smoke

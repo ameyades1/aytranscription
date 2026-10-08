@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सीमित पट्टी से अनंत नहीं मापा जा सकता | A Finite Ruler Cannot Measure the Infinite | A wooden ruler held up against a vast starry sky

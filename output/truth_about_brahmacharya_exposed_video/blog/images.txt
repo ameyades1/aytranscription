@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | शंकराचार्य और मंडन मिश्र | Shankaracharya and Mandana Mishra | Two scholars in debate in an ancient courtyard

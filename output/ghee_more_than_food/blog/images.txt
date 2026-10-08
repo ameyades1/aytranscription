@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | घी जाता कहाँ है? | Where Does the Ghee Go? | Ghee being poured into a small sacred fire

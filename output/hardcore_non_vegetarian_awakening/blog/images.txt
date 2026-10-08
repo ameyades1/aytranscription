@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | स्वाद के प्रेमी से एक खुला प्रश्न | An Open Question to the Lover of Taste | A table of rich food with a hand pausing before eating

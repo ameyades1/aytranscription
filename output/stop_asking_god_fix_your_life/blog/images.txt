@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | जितनी ऊँचाई, उतने विघ्न | The Higher You Rise, the More Obstacles | A mountain path with rocks near the summit

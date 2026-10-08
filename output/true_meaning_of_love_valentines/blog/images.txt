@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | माँ का प्रेम या माँ का मोह? | A Mother's Love or a Mother's Attachment? | A mother feeding her child

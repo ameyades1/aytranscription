@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | हाथी का सिर: विवेक के गुण | The Elephant's Head: The Qualities of Discernment | A wise elephant in a forest

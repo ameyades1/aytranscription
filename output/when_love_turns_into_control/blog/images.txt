@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक बेटे का बिल | A Son's Bill | A young boy handing a paper note to his mother at home

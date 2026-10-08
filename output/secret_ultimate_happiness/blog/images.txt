@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | बीच में बैठी छन्नी | The Filter in Between | Light passing through a filter onto a page

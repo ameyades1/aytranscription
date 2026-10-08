@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सेवानिवृत्ति के बाद का खालीपन | The Emptiness After Retirement | An elderly man alone on a park bench, gazing into the distance

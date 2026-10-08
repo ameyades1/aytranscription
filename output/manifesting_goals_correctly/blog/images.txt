@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | बड़ा सोचो, पर धैर्य रखो | Think Big, but Be Patient | A gardener watering a tiny sapling under a tall tree

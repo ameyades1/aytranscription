@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सोने का दृष्टांत | The Example of Gold | Gold ornaments of different shapes beside a lump of raw gold

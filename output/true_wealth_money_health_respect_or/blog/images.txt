@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | धन के छह रूप | The Six Forms of Wealth | Six objects: coins, a book, a heart, a garland, a lamp, a seed

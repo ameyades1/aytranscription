@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | मूर्ति ऋषियों के दर्शन से आती है | The Murti Comes from the Vision of the Rishis | A sculptor carving a murti in a workshop

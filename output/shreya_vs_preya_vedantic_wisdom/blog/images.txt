@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | क्या व्यापार भी श्रेष्ठ कर्म हो सकता है | Can Business Also Be Noble Action | An honest shopkeeper serving a customer

@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | डर आता कहाँ से है? | Where Does Fear Come From? | Person standing calmly at the edge of a vast landscape at dawn, posture relaxed and confident, visual emphasis on absence of fear rather than physical bravery

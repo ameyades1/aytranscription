@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | महाभारत हमारे भीतर | The Mahabharata Within Us | A chariot on a battlefield in mist, symbolic and calm

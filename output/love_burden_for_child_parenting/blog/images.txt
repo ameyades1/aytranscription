@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | चित्रों के लिए सजा बचपन | A Childhood Dressed Up for Photos | A child in stiff formal clothes posing unhappily for a camera

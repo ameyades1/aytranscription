@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | चिकित्सक का उदाहरण | The Example of the Doctor | A doctor attending a patient with care

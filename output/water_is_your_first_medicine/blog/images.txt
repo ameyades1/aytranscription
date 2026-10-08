@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | चंद्र, जल और मन का संबंध | The Moon, Water and the Mind | The moon reflected on a still lake

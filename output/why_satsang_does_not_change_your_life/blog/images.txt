@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | दूसरों के दोषों की नोटबुक | A Notebook of Other People's Faults | A notebook filled with notes, a pen pointing at others

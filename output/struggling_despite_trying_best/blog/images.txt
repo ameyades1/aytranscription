@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | कर्म से पहले चिंतन | Contemplation Before Action | A person thinking quietly before a chessboard

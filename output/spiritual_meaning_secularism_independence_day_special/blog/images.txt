@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | अतिथि देवो भव, पर विवेक के साथ | Atithi Devo Bhava, but with Discernment | A family welcoming a guest at their door

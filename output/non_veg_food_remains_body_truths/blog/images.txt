@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सिंह बीमार नहीं होता, तो हम क्यों? | The Lion Does Not Fall Ill, So Why Do We? | A lion resting in grassland at sunset

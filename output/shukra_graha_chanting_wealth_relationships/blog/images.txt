@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सामूहिक जप की शक्ति | The Power of Collective Chanting | Many people chanting together in a hall

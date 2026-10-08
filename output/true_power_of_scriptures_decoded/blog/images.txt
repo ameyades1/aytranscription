@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | अर्थशास्त्र: समृद्धि, धर्म के लिए | Arthashastra: Prosperity, for Dharma | Coins, a ledger and a lamp on a desk

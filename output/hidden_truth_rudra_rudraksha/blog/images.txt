@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | गुरु क्यों रोते हैं? | Why Does the Guru Cry? | A guru figure seen from behind, gazing at a city at dusk with compassion

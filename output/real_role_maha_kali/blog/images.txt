@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | पहले सीमा, फिर नींव | First the Boundary, Then the Foundation | A strong fence around a young garden

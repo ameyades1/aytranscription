@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक प्रश्न: क्या आप फोटो से शादी करेंगे? | A Question: Would You Marry a Photo? | A young man holding a framed portrait, looking puzzled, in a quiet room

@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | आनंद की सीढ़ी: तामसिक से सात्विक तक | The Ladder of Joy: From Tamasic to Sattvic | A ladder rising from shade into sunlight

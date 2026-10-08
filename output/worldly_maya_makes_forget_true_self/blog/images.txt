@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | आँखों पर पट्टी और गाड़ी | A Blindfold and a Car | A blindfolded person in a car's passenger seat

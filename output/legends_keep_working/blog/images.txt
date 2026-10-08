@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | राम और कृष्ण गुरुकुल क्यों गए? | Why Did Rama and Krishna Go to the Gurukul? | Young students studying with a teacher in a forest gurukul

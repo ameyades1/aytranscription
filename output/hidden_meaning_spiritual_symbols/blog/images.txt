@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | हर विद्या का अपना संकेत-शास्त्र | Every Discipline Has Its Own Code of Signs | Road signs, musical notes and math symbols arranged together artistically

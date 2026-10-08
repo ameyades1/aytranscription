@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक कमरा, दो सच | One Room, Two Truths | Two people looking out of one room through different windows

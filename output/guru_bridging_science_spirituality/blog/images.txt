@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | शास्त्रों का डिकोडिंग | Decoding the Scriptures | An old Sanskrit manuscript under a magnifying glass on a scholar's desk

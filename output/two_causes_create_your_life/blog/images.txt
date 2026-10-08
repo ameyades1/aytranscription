@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | और कुम्हार? | And the Potter? | A village potter beside many finished pots

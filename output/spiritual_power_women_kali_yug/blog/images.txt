@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | वाणी की अग्नि और महाकाली | The Fire of Speech and Mahakali | A flame burning steadily in a dark temple

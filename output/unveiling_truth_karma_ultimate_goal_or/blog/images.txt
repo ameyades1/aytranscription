@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | बाँस है कर्मयोग, शिखर है ज्ञानयोग | The Pole Is Karma Yoga, the Summit Is Jnana Yoga | A pole vault bar against a bright sky

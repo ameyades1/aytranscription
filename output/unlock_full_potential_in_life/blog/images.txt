@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | वानप्रस्थ का असली अर्थ | The Real Meaning of Vanaprastha | An elderly couple walking a forest path together

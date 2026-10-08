@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | एक संस्था, अनेक शाखाएं | One Organisation, Many Branches | A large tree with many branches over a village

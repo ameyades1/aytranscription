@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सूर्य आत्मा है, चंद्र मन है | The Sun Is the Self, the Moon Is the Mind | The sun and moon both visible in a dawn sky

@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | सच्चा जिज्ञासु: वेदांत का विद्यार्थी | The True Seeker: A Student of Vedanta | A young student of Vedanta reading under a lamp

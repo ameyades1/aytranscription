@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | जब शब्दों को अक्षरशः पकड़ लिया जाए | When Words Are Taken Literally | A confused villager reading a sign upside down
