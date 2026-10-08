@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | "बैटरी कौन लाएगा?" | "Who Will Bring the Batteries?" | A child crying among new toys in a bright room
