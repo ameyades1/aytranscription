@@ -216,7 +216,7 @@ def tile(t, topic_names):
             f'<div class="thumb">{img}</div><div class="body">'
             f'<span class="topic">{both(names)}</span>'
             f'<h3>{both({l: esc(text[l]["title"]) for l in text})}</h3>'
-            + (f'<p class="quote">{quote}</p>' if quote else '') +
+            +
             f'<div class="meta">{both({l: UI[l]["read"].format(m=local_digits(text[l]["minutes"], l)) for l in text})}</div>'
             f'</div></a>')
 
