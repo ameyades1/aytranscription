@@ -1,0 +1,2 @@
+# file | Hindi section heading | English section heading | description
+inline.jpg | आने वाला समय: उज्ज्वल, पर कठिनाइयों से होकर | The Coming Times: Bright, but Through Hardship | A lone tree standing strong on a hill after a storm, sun breaking through clouds
