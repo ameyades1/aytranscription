@@ -64,6 +64,8 @@ Final test: if a native English reader could tell the text was translated, revis
 
 Names, Deities & Scriptures (fixed spellings):
 Shri Krishna, Shri Rama, Lord Shiva, Lord Vishnu, Lord Ganesha, Devi / Maa Durga, Hanuman, Maharshi (e.g., Maharshi Patanjali, Maharshi Vedavyasa).
+Antar Yog, Antar Yog Foundation (never "Antaryog").
+Shibir for शिविर, always (never "camp", "retreat" or "workshop"), e.g. "the Antar Yog Shri Vidya Shibir"; gloss it once as **Shibir** (a gathering for spiritual practice and teaching).
 Bhagavad Gita (Gita on later mentions), Upanishads, Vedas, Vedanta, Advaita Vedanta, Ramayana, Mahabharata, Yoga Sutras, Shri Vidya, Shri Yantra.
 Karma Yoga, Bhakti Yoga, Jnana Yoga, Kundalini, shaktipat, sadhana, satsang, samskara(s), dharma, karma, prana, chakra, Sadguru, Guru.
 Capitalise names of paths, scriptures, deities and Guru; keep common practice words (sadhana, satsang, dharma) lowercase mid-sentence.

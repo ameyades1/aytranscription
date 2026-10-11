@@ -97,6 +97,8 @@ glossing and verse format). Where the prompt and this skill differ, this skill's
   keeping each in the same form as the Hindi (a `> "..."` quote in the chapter, ordinary text in the blog). Add nothing that is not in the Hindi version.
 - Scripture verses keep their Sanskrit as the IAST transliteration in `**bold**`, followed by a
   quoted English meaning and the source line (e.g. `> (Bhagavad Gita 18.66)`).
+- Some Hindi words stay as they are in English: शिविर is always "Shibir", never "camp"
+  (the prompt's names list has the full set).
 - Title line `# Chapter: <Title>` for the chapter, `# <Title>` for the blog. Same format rules.
 
 ## Format for all four texts
