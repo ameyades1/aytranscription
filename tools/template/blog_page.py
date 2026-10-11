@@ -147,7 +147,9 @@ def local_digits(n, lang):
 def read_images(out_dir):
     """Inline images from <blog>/images.txt: one line per image,
     file | Hindi section heading | English section heading | description.
-    Each image goes at the end of that section (before the next ## heading)."""
+    Each image goes at the end of that section (before the next ## heading).
+    The English heading is optional: when it does not match, the English page uses the section
+    at the same position as the Hindi heading, so retranslated headings do not drop images."""
     path = os.path.join(out_dir, 'images.txt')
     images = []
     if os.path.exists(path):
@@ -163,13 +165,22 @@ def hero_image(out_dir):
     return next((f for f in ('hero.jpg', 'hero.png') if os.path.exists(os.path.join(out_dir, 'assets', f))), None)
 
 
-def place_images(body, lang, out_dir):
+def h2_texts(path):
+    """Plain text of each ## heading in a blog text file, in order."""
+    return [re.sub(r'[*_`]', '', l[3:]).strip()
+            for l in open(path, encoding='utf-8') if l.startswith('## ')]
+
+
+def place_images(body, lang, out_dir, hi_heads=None):
     for img in read_images(out_dir):
         if not os.path.exists(os.path.join(out_dir, 'assets', img['file'])):
             print(f"Note: assets/{img['file']} not found, left out", file=sys.stderr)
             continue
         heads = list(re.finditer(r'<h2>(.*?)</h2>', body))
         at = next((i for i, h in enumerate(heads) if re.sub('<[^>]+>', '', h.group(1)).strip() == img[lang]), None)
+        if at is None and lang == 'en' and hi_heads and img['hi'] in hi_heads:
+            i = hi_heads.index(img['hi'])
+            at = i if i < len(heads) else None
         if at is None:
             print(f"Note: section '{img[lang]}' not found for {img['file']} ({lang}), left out", file=sys.stderr)
             continue
@@ -179,7 +190,7 @@ def place_images(body, lang, out_dir):
     return body
 
 
-def build_lang(path, out_dir, video, other_lang):
+def build_lang(path, out_dir, video, other_lang, hi_heads=None):
     """Hero, article+sidebar and call-to-action for one language."""
     text = open(path, encoding='utf-8').read()
     lang = 'hi' if re.search(r'[ऀ-ॿ]', text) else 'en'
@@ -190,7 +201,7 @@ def build_lang(path, out_dir, video, other_lang):
     label, title = title_line.split(':', 1) if ':' in title_line else ('', title_line)
     label, title = label.strip(), title.strip()
 
-    body = place_images(body, lang, out_dir)
+    body = place_images(body, lang, out_dir, hi_heads)
     hero = hero_image(out_dir)
     toc = []
 
@@ -337,7 +348,8 @@ def main():
     langs = ['hi' if re.search(r'[ऀ-ॿ]', open(c, encoding='utf-8').read()) else 'en' for c in a.chapters]
     if len(langs) == 2 and langs[0] == langs[1]:
         ap.error('the two chapters must be in different languages (one Hindi, one English)')
-    blocks = [build_lang(c, out_dir, video, langs[1 - i] if len(langs) == 2 else None)
+    hi_heads = h2_texts(a.chapters[langs.index('hi')]) if 'hi' in langs else None
+    blocks = [build_lang(c, out_dir, video, langs[1 - i] if len(langs) == 2 else None, hi_heads)
               for i, c in enumerate(a.chapters)]
     first = blocks[0]
     content = '\n'.join(b['html'].replace('<div class="lang-block"', '<div class="lang-block" hidden', 1) if i else b['html']

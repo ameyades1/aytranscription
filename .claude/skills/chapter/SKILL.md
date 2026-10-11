@@ -1,6 +1,6 @@
 ---
 name: chapter
-description: Turn a spiritual discourse (local audio file, YouTube URL, or existing raw transcript .txt) into a book chapter (.txt) and a separate Antar Yog Foundation blog page, in Hindi and English, in a folder per talk under output/<name>/. The chapter follows tools/prompts/transcript_to_chapter.txt and the blog follows tools/prompts/transcript_to_blog.txt. Uses the video's YouTube transcript when one exists, otherwise transcribes locally with WhisperX; Claude does the cleaning and writing (no Gemini).
+description: Turn a spiritual discourse (local audio file, YouTube URL, or existing raw transcript .txt) into a book chapter (.txt) and a separate Antar Yog Foundation blog page, in Hindi and English, in a folder per talk under output/<name>/. The chapter follows tools/prompts/transcript_to_chapter.txt, the blog follows tools/prompts/transcript_to_blog.txt, and the English versions follow tools/prompts/hindi_to_english.txt. Uses the video's YouTube transcript when one exists, otherwise transcribes locally with WhisperX; Claude does the cleaning and writing (no Gemini).
 argument-hint: <audio.mp3 | youtube_url | raw_transcript.txt> [name]
 model: claude-opus-5-5
 effort: low
@@ -22,8 +22,8 @@ every file for that talk goes in it:
 |------|---------|
 | `<name>_raw_transcript.txt` | YouTube transcript or WhisperX output, untouched |
 | `<name>_clean.txt` | Cleaned transcript |
-| `<name>_chapter.txt` / `_chapter_en.txt` | Book chapter (prompt `tools/prompts/transcript_to_chapter.txt`), Hindi and English |
-| `<name>_blog.txt` / `_blog_en.txt` | Blog text (prompt `tools/prompts/transcript_to_blog.txt`), Hindi and English |
+| `<name>_chapter.txt` / `_chapter_en.txt` | Book chapter (prompt `tools/prompts/transcript_to_chapter.txt`), Hindi; English via `tools/prompts/hindi_to_english.txt` |
+| `<name>_blog.txt` / `_blog_en.txt` | Blog text (prompt `tools/prompts/transcript_to_blog.txt`), Hindi; English via `tools/prompts/hindi_to_english.txt` |
 | `blog/index.html` | Antar Yog Foundation blog page with both languages and a language switch (images in `blog/assets/`; the `blog/` folder is everything needed to publish) |
 
 ## Step 1: Get the raw transcript
@@ -88,8 +88,11 @@ transcript, not from the book chapter, and the same three additions apply:
 
 ## Step 3c: Write the English versions
 
-Translate both into English: `<name>_chapter_en.txt` from the chapter and `<name>_blog_en.txt`
-from the blog text. Each is a faithful translation, not a new text:
+Read `tools/prompts/hindi_to_english.txt` and follow it to translate both into English:
+`<name>_chapter_en.txt` from the chapter and `<name>_blog_en.txt` from the blog text. Each keeps
+every idea of the Hindi but reads as natural English written fresh, not word for word (the
+prompt covers meaning over words, active voice, varied wording around fixed concept names,
+glossing and verse format). Where the prompt and this skill differ, this skill's format wins:
 - Same title, sections, order, quotes, questions and takeaways. Translate quotes faithfully,
   keeping each in the same form as the Hindi (a `> "..."` quote in the chapter, ordinary text in the blog). Add nothing that is not in the Hindi version.
 - Scripture verses keep their Sanskrit as the IAST transliteration in `**bold**`, followed by a
