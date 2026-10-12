@@ -79,6 +79,7 @@ Do not leave any Devanagari in the English text.
 
 Formatting Sanskrit Shlokas:
 Keep every verse as a visually distinct block quote: the verse in IAST transliteration with diacritics (bold, one line per pada), then an accurate English translation of its meaning in quotes, then the reference in parentheses, e.g. (Bhagavad Gita 9.22). If the Hindi gives no meaning for a verse, supply an accurate one. Do not repeat the meaning again in the paragraph that follows; explain it instead.
+Use the Gita Press, Gorakhpur edition as the authority for every verse: the IAST must match the Gita Press Devanagari text letter for letter, the reference must follow Gita Press numbering, and the English meaning must faithfully render the Gita Press Hindi meaning (for the Bhagavad Gita, the Jayadayal Goyandka or Swami Ramsukhdas translation), including vocatives such as "O Arjuna". If the Hindi text's verse or reference differs from Gita Press, follow Gita Press. Never invent a reference; if the source is unknown, write "(source unknown)".
 Short Sanskrit phrases quoted in running text go in IAST with a brief English gloss in parentheses on first use, e.g. "duḥkhālayam aśāśvatam" (an abode of sorrow, impermanent).
 
 Structure:

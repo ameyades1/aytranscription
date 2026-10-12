@@ -18,6 +18,7 @@ Use clean, structured Markdown headings and subheadings to divide the concepts l
 Formatting Sanskrit Shlokas:
 Identify and isolate any Sanskrit lines or verses. Standardize their spelling perfectly in Devanagari script.
 Format them as visually distinct block quotes, centered or indented, followed immediately by their clear translation/explanation in the text. Please mention a reference of the Shloka (Book, chapter, shloka number etc).
+Use the Gita Press, Gorakhpur edition as the authority for every shloka, mantra and stotra: its exact Devanagari text (spelling, sandhi, word breaks, dandas), its chapter and verse numbering, and its Hindi meaning (for the Bhagavad Gita, the Gita Press translation by Jayadayal Goyandka or Swami Ramsukhdas). Correct the speaker's recitation to the Gita Press text, and give the full reference in the Gita Press form, e.g. (श्रीमद्भगवद्गीता ९.२२). The meaning may be simpler, but must not add, drop or change any idea of the Gita Press meaning; keep the speaker's own interpretation separate from the verse's meaning. If a verse cannot be found in a Gita Press text, do not invent a reference: write the verse as spoken and mark its source as "स्रोत अज्ञात".
 
 Remove all em dashes and AI markers.
 Here is the raw transcript text:
