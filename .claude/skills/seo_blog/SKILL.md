@@ -1,6 +1,6 @@
 ---
 name: seo_blog
-description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text, internal links, Also read and Further reading). The blog text is not edited.
+description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read and Further reading). The blog text is not edited.
 argument-hint: <talk name>
 model: claude-opus-5-5
 effort: medium
@@ -46,6 +46,10 @@ Talk: `$ARGUMENTS`.
      the existing file name (section 9). Look at
      each image before describing it. Never rename image files: the image tools, the gallery
      and the generator all rely on these names.
+   - `caption`: a short visible caption for each language for `hero.jpg` and `inline.jpg`
+     (section 9), keyed by file name. A few words that tie the image to the talk's message
+     (for example "एक ज्योति, अनेक दीप" / "One flame, many lamps"), not a repeat of the alt text
+     or the title. Leave an image out if no caption adds meaning.
    - `links`: the in-text links (section 7). Each phrase must be copied exactly from a paragraph
      or list item of that language's blog text (not a heading or verse), and should appear
      there before any other occurrence you don't want linked. 3 to 5 links per language.

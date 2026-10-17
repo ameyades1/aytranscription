@@ -66,6 +66,11 @@ img { max-width: 100%; display: block; }
                 box-shadow: 0 10px 30px rgba(46,33,24,.15); max-height: 32rem; }
 .article .figure { margin: 2rem 0; }
 .article .figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+.hero-img { margin-block: 0; }
+.hero-img figcaption, .article .figure figcaption { margin-top: .6rem; text-align: center; font-family: var(--serif);
+                                                    font-size: .95rem; font-style: italic; color: var(--muted); }
+/* Devanagari has no true italic, so Hindi captions stay upright */
+.hero-img figcaption:lang(hi), .article .figure figcaption:lang(hi) { font-style: normal; }
 
 /* Layout */
 .layout { display: grid; grid-template-columns: minmax(0, 44rem) 18rem; justify-content: center; gap: 4rem; padding-block: 3rem; }

@@ -9,11 +9,12 @@ Usage: blog_page.py <blog.txt> [<other_language_blog.txt>] [--video YOUTUBE_ID] 
   --video       YouTube ID of the original discourse (adds a "watch" button and video card)
   --out         Output HTML (default: blog/index.html in the chapter's folder)
 
-Optional <blog>/seo.json (written by /seo_blog) sets, per language, the <title> tag and image alt
-text, and adds links inside the text, an "Also read" box and Related Reading cards. Every key
+Optional <blog>/seo.json (written by /seo_blog) sets, per language, the <title> tag, image alt
+text and image captions, and adds links inside the text, an "Also read" box and Related Reading cards. Every key
 is optional:
   {"title": {"hi": "...", "en": "..."},
    "alt": {"hero.jpg": {"hi": "...", "en": "..."}, "inline.jpg": {...}, "<video ID>.jpg": {...}},
+   "caption": {"hero.jpg": {"hi": "...", "en": "..."}, "inline.jpg": {...}},
    "links": [{"talk": "<other talk>", "hi": "phrase in the Hindi text", "en": "phrase in the English text"}],
    "also_read": {"talk": "<other talk>", "after": {"hi": "Hindi ## heading", "en": "English ## heading"}},
    "related": ["<other talk>", ...]}
@@ -203,6 +204,12 @@ def section_end(body, heads_by_lang, lang, hi_heads=None):
     return heads[at + 1].start() if at + 1 < len(heads) else len(body)
 
 
+def caption(seo, file, lang):
+    """<figcaption> for an image from seo.json, or ''."""
+    text = seo.get('caption', {}).get(file, {}).get(lang)
+    return f'<figcaption>{esc(text)}</figcaption>' if text else ''
+
+
 def alt_text(seo, file, lang, default):
     """Alt text for an image from seo.json, else the default."""
     return seo.get('alt', {}).get(file, {}).get(lang) or default
@@ -217,7 +224,9 @@ def place_images(body, lang, out_dir, hi_heads=None, seo=None):
         if pos is None:
             print(f"Note: section '{img[lang]}' not found for {img['file']} ({lang}), left out", file=sys.stderr)
             continue
-        fig = f'<figure class="figure"><img src="assets/{esc(img["file"])}" alt="{esc(alt_text(seo or {}, img["file"], lang, img["alt"]))}" loading="lazy"></figure>'
+        fig = (f'<figure class="figure"><img src="assets/{esc(img["file"])}" '
+               f'alt="{esc(alt_text(seo or {}, img["file"], lang, img["alt"]))}" loading="lazy">'
+               f'{caption(seo or {}, img["file"], lang)}</figure>')
         body = body[:pos] + fig + body[pos:]
     return body
 
@@ -353,7 +362,7 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
     <div class="who"><strong>{T['author']}</strong><span>{T['meta'].format(m=minutes)}</span></div></div>
   <div class="actions">{''.join(actions)}</div>
 </div></section>
-{f'<div class="wrap hero-img"><img src="assets/{hero}" alt="{esc(alt_text(seo, hero, lang, title))}"></div>' if hero else ''}
+{f'<figure class="wrap hero-img"><img src="assets/{hero}" alt="{esc(alt_text(seo, hero, lang, title))}">{caption(seo, hero, lang)}</figure>' if hero else ''}
 
 <main class="wrap layout">
   <article class="article">{body}{video_html}{related}</article>
