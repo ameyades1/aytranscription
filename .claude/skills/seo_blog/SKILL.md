@@ -57,20 +57,29 @@ Talk: `$ARGUMENTS`.
      section it extends best.
    - `related`: the 3 talks that suit a reader of this blog best.
    - `wordpress`: the values to enter in WordPress (the page generator ignores this key):
-     - `category`: one topic key from `gallery_topics.txt` (the `topic <key> | <English> |
-       <Hindi>` lines; the English and Hindi names there are the WordPress category names).
-       Use the talk's key if it is listed there; otherwise choose the best fit and say so in
-       the reply, so the talk can be added to `gallery_topics.txt`. Never invent a category.
+     - `category`: the talk's topic key in `gallery_topics.txt`, copied as is (the
+       `topic <key> | <English> | <Hindi>` lines give the WordPress category names). These 14
+       categories are the approved list; never invent or rename one. If the talk is not listed
+       there, choose one by the rules below and say so in the reply, so it can be added to
+       `gallery_topics.txt`:
+       - One category per post: the main thing the post is about.
+       - `festivals` only when the post is about the festival itself (how and why it is
+         observed). When a festival is just the occasion, use the topic's category and add the
+         festival as a tag (for example, why Ganesha loves red flowers → `deities`, tag Ganesh
+         Chaturthi).
+       - Pitru Paksha, shraddha and pind daan go to `pitru`, not `festivals`.
      - `hi` and `en`, each with:
        - `slug`: section 3's slug without the `/hi/` or `/en/` prefix: short, lowercase,
          Latin letters, words joined by hyphens.
        - `focus_keyword`: the primary keyword for that language (section 2).
        - `secondary_keywords`: 2 to 4 more keywords for that language (section 2).
        - `meta_description`: section 3's meta description, 140 to 155 characters for English.
-       - `tags`: 3 to 6 tags in that language, naming the main concepts of the talk. Reuse a tag
-         already used in another talk's seo.json when it means the same thing
-         (`grep -h -A8 '"tags"' output/*/blog/seo.json`), so tags group posts instead of
-         splitting them.
+       - `tags`: 3 to 6 tags in that language, naming the talk's main concepts, deities,
+         festivals or texts (Ganesh, Pitru Paksha, Bhagavad Gita, Advaita Vedanta). Series
+         such as Ganesh Vidya are tags, not categories. Reuse a tag already used in another
+         talk's seo.json when it means the same thing
+         (`grep -h -A8 '"tags"' output/*/blog/seo.json`); never create near-duplicates
+         (Self Control / Sense Control). A tag should be one that at least 3 posts can share.
    Use only talks whose `output/<talk>/blog/index.html` exists. Add nothing else to seo.json:
    the FAQ and the schema stay in the report only.
 6. If `output/<name>/blog/index.html` exists, rebuild it with `tools/rebuild_blogs.sh <name>`
