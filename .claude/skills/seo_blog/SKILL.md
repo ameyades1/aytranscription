@@ -1,7 +1,7 @@
 ---
 name: seo_blog
 description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read, Further reading, and the WordPress slug, keywords, meta description, category and tags). The blog text is not edited.
-argument-hint: <talk name>
+argument-hint: <talk name> [--no-rebuild]
 model: claude-opus-5-5
 effort: medium
 ---
@@ -10,7 +10,8 @@ effort: medium
 
 This command runs on Claude Opus 5.5 at medium effort (the `model` and `effort` fields above).
 
-Talk: `$ARGUMENTS`.
+Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
+`--no-rebuild` (used by `batch_seo.sh`, which rebuilds all pages once at the end), skip step 6.
 
 1. Read `tools/prompts/seo_blog_specialist.txt` and follow it exactly.
 2. Read the Hindi blog `output/<name>/<name>_blog.txt`, then the English blog
@@ -86,6 +87,8 @@ Talk: `$ARGUMENTS`.
    (it keeps the page's YouTube video and also rebuilds the pages that link to this talk and
    the blog index). Any "Note:" line means a phrase, heading or talk
    was not found: fix seo.json and rebuild until there are none.
+7. Run `python3 tools/check_seo.py <name>`. Fix every error it lists in seo.json or the report
+   and run it again until the talk passes. Warnings may stay, but fix them if you can.
 
 Rules:
 - Do not edit the blog texts, rename images or change any other file; write only the report,
