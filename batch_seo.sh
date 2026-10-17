@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run /seo_blog on every talk's blog, one fresh `claude -p` session per talk, writing
-# tools/seo/<name>.md and output/<name>/blog/seo.json. Talks run one at a time, in order, so each
+# output/<name>/blog/seo_report.md and output/<name>/blog/seo.json. Talks run one at a time, in order, so each
 # can reuse the tags of the talks before it. Talks that already pass tools/check_seo.py are
 # skipped, so the script can be stopped and re-run at any time. When Claude hits a usage limit,
 # it waits and retries. Pages are not rebuilt per talk; at the end every page and the blog index
@@ -40,7 +40,7 @@ log_info()  { echo -e "${GREEN}[INFO]${NC} $(date '+%H:%M') $1"; }
 log_warn()  { echo -e "${YELLOW}[WAIT]${NC} $(date '+%H:%M') $1"; }
 log_error() { echo -e "${RED}[FAIL]${NC} $(date '+%H:%M') $1" >&2; }
 
-mkdir -p tools/seo "$LOG_DIR"
+mkdir -p "$LOG_DIR"
 
 is_usage_limit() {
     grep -qiE "usage limit|spend limit|session limit|limit reached|rate limit|limit will reset|limit resets|out of extra usage|429" "$1"

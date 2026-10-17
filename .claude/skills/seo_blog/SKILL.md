@@ -1,6 +1,6 @@
 ---
 name: seo_blog
-description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read, Further reading, and the WordPress slug, keywords, meta description, category and tags). The blog text is not edited.
+description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to output/<name>/blog/seo_report.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read, Further reading, and the WordPress slug, keywords, meta description, category and tags). The blog text is not edited.
 argument-hint: <talk name> [--no-rebuild]
 model: claude-opus-5-5
 effort: medium
@@ -20,7 +20,7 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
    text, and carry any Sanskrit review issues into the authenticity flags.
 3. For internal links, list the other talks with `ls output/` and link only to blogs that
    exist there. Never invent a post.
-4. Write the report to `tools/seo/<name>.md` in the prompt's 11-section output format
+4. Write the report to `output/<name>/blog/seo_report.md` in the prompt's 11-section output format
    (section 11 is written in step 5).
    The first line is `<name>: SEO report`, with the talk name written exactly as given and
    no escaped underscores.

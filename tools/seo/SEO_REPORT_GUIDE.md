@@ -1,7 +1,7 @@
 # The SEO report, explained from scratch
 
 This guide explains every section of a `/seo_blog` report (for example
-`tools/seo/33_crore_gods_truth_about_hinduism.md`) for someone who has never studied SEO.
+`output/33_crore_gods_truth_about_hinduism/blog/seo_report.md`) for someone who has never studied SEO.
 
 ## First, what SEO is
 

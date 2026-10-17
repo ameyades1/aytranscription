@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check each talk's SEO files written by /seo_blog: tools/seo/<name>.md and output/<name>/blog/seo.json.
+"""Check each talk's SEO files written by /seo_blog: output/<name>/blog/seo_report.md and output/<name>/blog/seo.json.
 
 Usage: check_seo.py [<talk> ...]   (default: every talk that has a seo.json)
 
@@ -97,9 +97,9 @@ def report_json(text):
 
 def check(talk, seo, topic_keys, assign, slugs, keywords, category_names):
     err, warn = [], []
-    report = os.path.join(ROOT, 'tools', 'seo', f'{talk}.md')
+    report = os.path.join(OUT, talk, 'blog', 'seo_report.md')
     if not os.path.exists(report):
-        err.append(f'no report tools/seo/{talk}.md')
+        err.append(f'no report output/{talk}/blog/seo_report.md')
     else:
         text = open(report, encoding='utf-8').read()
         if text.split('\n', 1)[0].strip().replace('\\_', '_') != f'{talk}: SEO report':
