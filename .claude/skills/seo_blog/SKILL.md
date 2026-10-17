@@ -42,7 +42,8 @@ Talk: `$ARGUMENTS`.
      recommended), at most 60 characters. This is the `<title>` tag only; the H1 in the blog
      text is not changed.
    - `alt`: alt text for each language for the images in `output/<name>/blog/assets/` that the
-     page shows (`hero.jpg`, `inline.jpg`), keyed by the existing file name (section 9). Look at
+     page shows (`hero.jpg`, `inline.jpg` and the video thumbnail `<video ID>.jpg`), keyed by
+     the existing file name (section 9). Look at
      each image before describing it. Never rename image files: the image tools, the gallery
      and the generator all rely on these names.
    - `links`: the in-text links (section 7). Each phrase must be copied exactly from a paragraph

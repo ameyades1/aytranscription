@@ -13,7 +13,7 @@ Optional <blog>/seo.json (written by /seo_blog) sets, per language, the <title> 
 text, and adds links inside the text, an "Also read" box and Related Reading cards. Every key
 is optional:
   {"title": {"hi": "...", "en": "..."},
-   "alt": {"hero.jpg": {"hi": "...", "en": "..."}, "inline.jpg": {"hi": "...", "en": "..."}},
+   "alt": {"hero.jpg": {"hi": "...", "en": "..."}, "inline.jpg": {...}, "<video ID>.jpg": {...}},
    "links": [{"talk": "<other talk>", "hi": "phrase in the Hindi text", "en": "phrase in the English text"}],
    "also_read": {"talk": "<other talk>", "after": {"hi": "Hindi ## heading", "en": "English ## heading"}},
    "related": ["<other talk>", ...]}
@@ -338,7 +338,7 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
         if video['thumb']:
             cap = esc(video['title']) + (f'<small>YouTube · {esc(video["duration"])}</small>' if video['duration'] else '')
             video_html = (f'<section class="video"><a href="{url}" target="_blank" rel="noopener">'
-                          f'<img src="assets/{video["thumb"]}" alt="{esc(video["title"] or T["video_h"])}" loading="lazy">'
+                          f'<img src="assets/{video["thumb"]}" alt="{esc(alt_text(seo, video["thumb"], lang, video["title"] or T["video_h"]))}" loading="lazy">'
                           f'<div class="play"><span>{icon("play", "#6b3d22")}</span></div>'
                           f'<div class="caption">{cap}</div></a></section>')
 
