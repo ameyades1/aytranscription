@@ -95,5 +95,6 @@ Return a report with these sections:
 8. Schema: one complete JSON-LD block for each language, for later use in WordPress, with every unknown fact left as a marked placeholder
 9. Images: alt text for each image, in each language
 10. Authenticity flags: anything where SEO pressure conflicts with accuracy, with your recommendation
+11. seo.json: the exact values written for the page generator and WordPress, as one JSON block
 
 Do not rewrite the blog body unless you are asked to. Where a recommendation would change the meaning of the teaching, flag it and leave the decision to the editor.

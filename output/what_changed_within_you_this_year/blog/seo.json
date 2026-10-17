@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "चातुर्मास का महत्व: त्योहार इन्हीं महीनों में क्यों आते हैं",
+    "en": "Significance of Chaturmas: Why Festivals Come in Monsoon"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "बरसात में पहाड़ी गांव का पुराना पत्थर का मंदिर, दीपों से सजी सीढ़ियों पर भगवा, पीले और सफेद वस्त्रों में संत, और भीगी गली से आते गांव वाले",
+      "en": "An old stone village temple in monsoon rain, saints in saffron, yellow and white robes on its lamp-lit steps as villagers walk up the wet lane"
+    },
+    "inline.jpg": {
+      "hi": "घने जंगल में बारिश के बीच कीचड़ भरे रास्ते पर दंड लिए नंगे पांव चलते भगवा वस्त्रधारी ऋषियों की कतार",
+      "en": "A line of barefoot sages in saffron, carrying wooden staffs, walking a muddy forest path in heavy rain"
+    },
+    "us3EHBnohcM.jpg": {
+      "hi": "वीडियो: चातुर्मास का महत्व, गणेश सीरीज़ एपिसोड 16, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Significance of Chaturmas, Ganesh Series Episode 16, Brahmarshi Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "संत ठहरे, गांव में उत्सव हुए",
+      "en": "The sages stayed, and the village celebrated"
+    },
+    "inline.jpg": {
+      "hi": "जब वर्षा ने राह रोक दी",
+      "en": "When the rains closed the road"
+    }
+  },
+  "links": [
+    {
+      "talk": "spiritual_age_matters_physical_age",
+      "hi": "त्योहारों का आध्यात्मिक अर्थ",
+      "en": "The spiritual meaning of a festival"
+    },
+    {
+      "talk": "not_wait_until_retirement_transform_life",
+      "hi": "अगर पूरा जीवन केवल बाहरी पूजा में ही बीत जाए",
+      "en": "If your whole life passes in outward worship alone"
+    },
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "ऋषियों ने सामान्य जन के लिए साधना को प्रतीकों में ढाल दिया",
+      "en": "The sages shaped spiritual practice into symbols"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "शिष्य का भार उठाते हैं",
+      "en": "they take on the burden of the disciple"
+    },
+    {
+      "talk": "truth_about_brahmacharya_exposed_video",
+      "hi": "ब्रह्मचर्य की तैयारी के बाद ही गृहस्थ आश्रम का अर्थ है",
+      "en": "the householder stage has meaning only after the preparation of brahmacharya"
+    }
+  ],
+  "also_read": {
+    "talk": "ganesh_chaturthi_pitru_paksha_navratri_diwali",
+    "after": {
+      "hi": "चातुर्मास: चार महीने का ठहराव",
+      "en": "Chaturmas: Four Months of Pause"
+    }
+  },
+  "related": [
+    "worship_ganesh_every_year_but_understand",
+    "why_satsang_does_not_change_your_life",
+    "hidden_meaning_behind_10_days_ganesh"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "chaturmas-ka-mahatva",
+      "focus_keyword": "चातुर्मास का महत्व",
+      "secondary_keywords": [
+        "चातुर्मास में त्योहार क्यों",
+        "त्योहारों का आध्यात्मिक अर्थ",
+        "चातुर्मास के बाद विवाह क्यों",
+        "आपके भीतर क्या बदला"
+      ],
+      "meta_description": "अधिकतर त्योहार चातुर्मास में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का वर्षा में ठहराव और त्योहारों का प्रश्न: भीतर क्या बदला?",
+      "tags": [
+        "चातुर्मास",
+        "गुरु-शिष्य",
+        "ब्रह्मचर्य",
+        "विवेक",
+        "गणेश सीरीज़"
+      ]
+    },
+    "en": {
+      "slug": "significance-of-chaturmas",
+      "focus_keyword": "significance of Chaturmas",
+      "secondary_keywords": [
+        "why festivals fall in Chaturmas",
+        "spiritual meaning of Hindu festivals",
+        "why weddings after Chaturmas",
+        "what changed within you this year"
+      ],
+      "meta_description": "Why do most Hindu festivals fall in Chaturmas, and why do weddings follow? Acharya Upendra Ji explains the sages' monsoon stay and what each festival asks.",
+      "tags": [
+        "Chaturmas",
+        "Guru and Disciple",
+        "Brahmacharya",
+        "Viveka",
+        "Ganesh Series"
+      ]
+    }
+  }
+}

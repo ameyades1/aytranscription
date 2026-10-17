@@ -1,0 +1,107 @@
+{
+  "title": {
+    "hi": "बच्चों पर अपेक्षाओं का बोझ: राजसिक परवरिश के संकेत",
+    "en": "Parental Pressure on Children: Signs of Rajasic Parenting"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "किताबों से ठसाठस भरा भारी बस्ता उठाए, झुककर पत्थर की लंबी सीढ़ियां चढ़ता स्कूल यूनिफॉर्म में एक छोटा लड़का",
+      "en": "A small boy in school uniform, bent under a heavy backpack stuffed with books, climbing a long flight of stone steps"
+    },
+    "inline.jpg": {
+      "hi": "काली वास्कट और बो-टाई पहने, आंगन में तस्वीर के लिए खड़ा नाराज़ दिखता छोटा लड़का",
+      "en": "A small boy in a black waistcoat and bow tie standing stiffly in a courtyard, frowning at the camera"
+    },
+    "laHKtOVpJcc.jpg": {
+      "hi": "वीडियो: क्या आपका प्रेम बच्चे पर बोझ बन रहा है, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Is your love becoming a burden for your child? Brahmarshi Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बस्ते में किताबें, कंधों पर सपने",
+      "en": "Books in the bag, dreams on the shoulders"
+    },
+    "inline.jpg": {
+      "hi": "सजा हुआ बच्चा, रूठा हुआ बचपन",
+      "en": "Dressed up, but not happy"
+    }
+  },
+  "links": [
+    {
+      "talk": "when_love_turns_into_control",
+      "hi": "अपेक्षाएं बहुत ऊंची होती हैं, उन्हें कोई फल चाहिए",
+      "en": "Her expectations run very high, and she wants a result"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "रजोगुण का अंत दुख ही होता है",
+      "en": "rajas, the quality of restless desire, always ends in suffering"
+    },
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "बाहर वही प्रेम ढूंढते-ढूंढते",
+      "en": "Searching outside for the love they missed"
+    },
+    {
+      "talk": "company_you_keep_shapes_destiny",
+      "hi": "प्रश्न यह है कि घर में क्या भरा है",
+      "en": "The real question is what fills the home"
+    },
+    {
+      "talk": "three_gunas_karma",
+      "hi": "अपनी वृत्ति को जांचना आवश्यक है",
+      "en": "examine your own tendencies"
+    }
+  ],
+  "also_read": {
+    "talk": "who_real_doer_karma_ego_bhagavad",
+    "after": {
+      "hi": "सिर पर सवार अपेक्षाएं",
+      "en": "Expectations That Never Let Up"
+    }
+  },
+  "related": [
+    "when_love_turns_into_control",
+    "true_meaning_of_love_valentines",
+    "sattva_rajas_tamas_balance_success_liberation"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "bachchon-par-apekshaon-ka-bojh",
+      "focus_keyword": "बच्चों पर अपेक्षाओं का बोझ",
+      "secondary_keywords": [
+        "बच्चों पर पढ़ाई का दबाव",
+        "राजसिक परवरिश",
+        "बच्चों की दूसरों से तुलना",
+        "माता-पिता के अधूरे सपने"
+      ],
+      "meta_description": "क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी बताते हैं राजसिक परवरिश के संकेत: ऊंची अपेक्षाएं, तुलना, अधूरे सपनों का बोझ और दिखावा।",
+      "tags": [
+        "परवरिश",
+        "रजोगुण",
+        "त्रिगुण",
+        "सत्त्व गुण",
+        "अपेक्षा"
+      ]
+    },
+    "en": {
+      "slug": "parental-pressure-on-children",
+      "focus_keyword": "parental pressure on children",
+      "secondary_keywords": [
+        "rajasic parenting",
+        "pushing your dreams on your child",
+        "comparing your child to others"
+      ],
+      "meta_description": "Is your love becoming a burden for your child? Acharya Upendra Ji explains rajasic parenting: high expectations, comparison and unfulfilled dreams.",
+      "tags": [
+        "Parenting",
+        "Rajas",
+        "Three Gunas",
+        "Sattva",
+        "Expectations"
+      ]
+    }
+  }
+}

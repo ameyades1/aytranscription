@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "पिंडदान का अर्थ: कौवा पिंड क्यों खाता है, क्यों नहीं?",
+    "en": "Pind Daan Meaning: Why the Crow Eats the Pind, or Refuses"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "नदी किनारे घाट पर पत्तल में रखे सफेद चावल के पिंड के पास खड़ा कौवा, पीछे सुबह की रोशनी में पुरानी इमारतें और नावें",
+      "en": "A crow beside white rice pinds on a leaf plate on a riverside ghat, with old buildings and boats in the soft morning light"
+    },
+    "inline.jpg": {
+      "hi": "केले के पत्ते पर काले तिल छिड़के सफेद चावल के पिंड, पास में पीतल की कटोरी में काले तिल",
+      "en": "White rice pinds sprinkled with black sesame seeds on a banana leaf, with a brass bowl of black til beside them"
+    },
+    "UrcdlD7wahA.jpg": {
+      "hi": "वीडियो: पिंडदान क्या है और श्राद्ध में कौवे, गाय और कुत्ते को भोजन क्यों, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Pind Daan Explained, Why Crows, Cows and Dogs Are Fed During Shraddha, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "कौवा संकेतक है, पूर्वज नहीं",
+      "en": "The crow is a signal, not an ancestor"
+    },
+    "inline.jpg": {
+      "hi": "सफेद पिंड, सात्विक मन",
+      "en": "A white pind, a sattvic mind"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पितर कौन हैं",
+      "en": "Who are the ancestors we honour"
+    },
+    {
+      "talk": "mahalay_shraddha_matters_truth_about_pitru",
+      "hi": "इस पिंड को परमात्मा के लिए अर्पण करना",
+      "en": "offer this pind to God"
+    },
+    {
+      "talk": "big_pitru_dosh_understanding_pitru_rin",
+      "hi": "उनका हमसे लगाव",
+      "en": "their bond with us"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "वे अभी मुक्त नहीं हुए हैं",
+      "en": "they have not yet found liberation"
+    }
+  ],
+  "also_read": {
+    "talk": "mrityu_versus_moksha",
+    "after": {
+      "hi": "कौवा: एक संकेतक",
+      "en": "The Crow as a Signal"
+    }
+  },
+  "related": [
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "women_have_right_perform_shraddha_pind",
+    "true_meaning_pitru_rin"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "pind-daan-ka-arth",
+      "focus_keyword": "पिंडदान का अर्थ",
+      "secondary_keywords": [
+        "श्राद्ध में कौवे को भोजन क्यों",
+        "पितृ पक्ष में कौवे का महत्व",
+        "कौवा पिंड न खाए तो"
+      ],
+      "meta_description": "पिंडदान का वास्तविक अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।",
+      "tags": [
+        "पितृ पक्ष",
+        "श्राद्ध",
+        "पिंडदान",
+        "पितर",
+        "सत्त्व गुण"
+      ]
+    },
+    "en": {
+      "slug": "pind-daan-meaning",
+      "focus_keyword": "pind daan meaning",
+      "secondary_keywords": [
+        "why feed crows in shraddha",
+        "crow not eating pind meaning",
+        "Pitru Paksha crow significance"
+      ],
+      "meta_description": "What does pind daan really mean, and why does a crow sometimes refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.",
+      "tags": [
+        "Pitru Paksha",
+        "Shraddha",
+        "Pind Daan",
+        "Ancestors",
+        "Sattva"
+      ]
+    }
+  }
+}

@@ -141,6 +141,12 @@ Points 1–3 are fixes to the blog text that only the editor can approve.
 
 ---
 
+## 11. seo.json
+
+A copy of the exact values the skill wrote to `output/<name>/blog/seo.json`: the title tag, alt text, captions, links, Also read and Further reading that the page uses, and the `wordpress` part (slug, focus and secondary keywords, meta description, category and tags) to enter in WordPress. The check script makes sure this copy always matches the file.
+
+---
+
 ## Two more ideas behind the report
 
 - **E-E-A-T** (Experience, Expertise, Authoritativeness, Trustworthiness): what Google looks for, especially on topics that shape people's beliefs and lives. Verse references, a named author with a bio, and accurate content all count. The Sanskrit reviews help with this too.

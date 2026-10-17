@@ -20,7 +20,8 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
    text, and carry any Sanskrit review issues into the authenticity flags.
 3. For internal links, list the other talks with `ls output/` and link only to blogs that
    exist there. Never invent a post.
-4. Write the report to `tools/seo/<name>.md` in the prompt's 10-section output format.
+4. Write the report to `tools/seo/<name>.md` in the prompt's 11-section output format
+   (section 11 is written in step 5).
    The first line is `<name>: SEO report`, with the talk name written exactly as given and
    no escaped underscores.
    Section 8 (Schema) is for later use in WordPress and is never added to the page. Give one
@@ -80,9 +81,23 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
          such as Ganesh Vidya are tags, not categories. Reuse a tag already used in another
          talk's seo.json when it means the same thing
          (`grep -h -A8 '"tags"' output/*/blog/seo.json`); never create near-duplicates
-         (Self Control / Sense Control). A tag should be one that at least 3 posts can share.
+         (Self Control / Sense Control, Ganesh / Lord Ganesha). A tag should be one that at
+         least 3 posts can share.
+         - Never use a category name, or a broad label that only restates a category, as a
+           tag (Festivals, Hindu Festivals, Deities, Ancestors & Shraddha): the category
+           already groups those posts.
+         - A series tag uses the series' own name exactly as the video title or thumbnail
+           gives it (for example Ganesh Series), written the same way in every post of the
+           series. Don't also add a separate deity tag unless the post is about that deity.
+       - The focus keyword must not be another talk's focus keyword
+         (`grep -h '"focus_keyword"' output/*/blog/seo.json`). If two talks would target the
+         same query, pick the narrower query this talk answers best, and note the overlap in
+         section 7 (cannibalization).
    Use only talks whose `output/<talk>/blog/index.html` exists. Add nothing else to seo.json:
    the FAQ and the schema stay in the report only.
+   Then add section 11 to the report: `## 11. seo.json`, a one-line note, and the complete
+   seo.json in a single ```json block, exactly as written. Whenever seo.json changes later
+   (for example while fixing step 6 or 7), update this block too; the check compares them.
 6. If `output/<name>/blog/index.html` exists, rebuild it with `tools/rebuild_blogs.sh <name>`
    (it keeps the page's YouTube video and also rebuilds the pages that link to this talk and
    the blog index). Any "Note:" line means a phrase, heading or talk

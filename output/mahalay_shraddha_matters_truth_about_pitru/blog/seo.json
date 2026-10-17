@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "महालय श्राद्ध क्या है? श्राद्ध, पिंडदान, तर्पण का सच्चा अर्थ",
+    "en": "Mahalaya Shraddha Meaning: Shraddha, Pind Daan and Tarpan"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय नदी के घाट पर बैठा परिवार अंजलि से जल अर्पित करता हुआ, पास में पीतल का लोटा और फूल-चावल की थाली, पीछे नदी में नावें",
+      "en": "A family on a riverside ghat at sunrise offering water from cupped hands, with a brass lota and a plate of marigolds and rice beside them and boats on the river behind"
+    },
+    "inline.jpg": {
+      "hi": "सुबह की धूप में तांबे के लोटे से नदी में जल की धारा अर्पित करता हाथ, पीछे घाट की पुरानी इमारतें",
+      "en": "A hand pouring a stream of water from a copper lota into a river in the morning sun, old ghat buildings blurred behind"
+    },
+    "JbLQmGA_EGw.jpg": {
+      "hi": "वीडियो: महालय श्राद्ध क्यों ज़रूरी है, श्राद्ध, पिंडदान, पितर और तर्पण का सच, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Why Mahalay Shraddha Matters, the truth about shraddha, pind daan, pitars and tarpan, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक साथ, सभी पूर्वजों के लिए",
+      "en": "Together, for all our ancestors"
+    },
+    "inline.jpg": {
+      "hi": "जल की धारा, कृतज्ञता का भाव",
+      "en": "A stream of water, a stream of thanks"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पितर कौन हैं",
+      "en": "Who are the ancestors we honour"
+    },
+    {
+      "talk": "pind_daan",
+      "hi": "इस पूरे अस्तित्व को अर्पण करना",
+      "en": "surrendering this entire existence"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "उसके कुल के सारे पूर्वज मुक्त हो जाते हैं",
+      "en": "all the ancestors of that family are freed"
+    },
+    {
+      "talk": "big_pitru_dosh_understanding_pitru_rin",
+      "hi": "कई पीढ़ियों के पूर्वज हैं",
+      "en": "many generations who came before them"
+    },
+    {
+      "talk": "mrityu_versus_moksha",
+      "hi": "देह छोड़ने के बाद दो ही स्वाभाविक रास्ते हैं",
+      "en": "a soul that leaves the body has two natural paths"
+    }
+  ],
+  "also_read": {
+    "talk": "hidden_meaning_behind_10_days_ganesh",
+    "after": {
+      "hi": "चातुर्मास एक यात्रा है, सिर्फ़ त्योहारों की सूची नहीं",
+      "en": "Chaturmas Is a Journey, Not Just a List of Festivals"
+    }
+  },
+  "related": [
+    "pind_daan",
+    "women_have_right_perform_shraddha_pind",
+    "big_pitru_dosh_understanding_pitru_rin"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "mahalaya-shraddha-kya-hai",
+      "focus_keyword": "महालय श्राद्ध क्या है",
+      "secondary_keywords": [
+        "श्राद्ध का अर्थ",
+        "श्राद्ध, पिंडदान और तर्पण में अंतर",
+        "पितृ पक्ष में सभी पितरों का श्राद्ध एक साथ क्यों"
+      ],
+      "meta_description": "महालय श्राद्ध क्या है और पितृ पक्ष में सभी पूर्वजों का श्राद्ध एक साथ क्यों? आचार्य उपेंद्र जी सरल भाषा में बताते हैं श्राद्ध, पिंडदान और तर्पण का अर्थ।",
+      "tags": [
+        "पितृ पक्ष",
+        "श्राद्ध",
+        "पितर",
+        "पिंडदान",
+        "तर्पण",
+        "चातुर्मास"
+      ]
+    },
+    "en": {
+      "slug": "mahalaya-shraddha-meaning",
+      "focus_keyword": "Mahalaya Shraddha meaning",
+      "secondary_keywords": [
+        "shraddha meaning",
+        "difference between shraddha, pind daan and tarpan",
+        "why perform shraddha in Pitru Paksha"
+      ],
+      "meta_description": "What is Mahalaya Shraddha, and why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.",
+      "tags": [
+        "Pitru Paksha",
+        "Shraddha",
+        "Ancestors",
+        "Pind Daan",
+        "Tarpan",
+        "Chaturmas"
+      ]
+    }
+  }
+}

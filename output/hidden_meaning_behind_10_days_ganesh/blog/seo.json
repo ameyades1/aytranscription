@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों?",
+    "en": "Ganesh Chaturthi Spiritual Meaning: Why 10 Days?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पहाड़ी नदी के किनारे चट्टान पर ध्यानमग्न साधक, चारों ओर प्रकाश के घेरे और ऊपर चमकता सूर्य: तीनों अवस्थाओं के पार का साक्षी",
+      "en": "A meditator on a rock by a mountain river, wrapped in glowing rings of light under a bright sun: the witness beyond the three states"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की मेज़ पर कच्चे सोने का बड़ा डला, पास में सोने के कंगन, झुमके और हार: नाम-रूप अनेक, सोना एक",
+      "en": "A large raw gold nugget beside gold bangles, jhumka earrings and a necklace on a wooden table: many names and forms, one gold"
+    },
+    "GWX23OsqOhU.jpg": {
+      "hi": "वीडियो: गणेश उत्सव दस दिन का क्यों, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: The Hidden Meaning Behind 10 Days of Ganesh Festival, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "तीनों अवस्थाओं का साक्षी",
+      "en": "The witness of all three states"
+    },
+    "inline.jpg": {
+      "hi": "आकार अनेक, सोना एक",
+      "en": "Many shapes, one gold"
+    }
+  },
+  "links": [
+    {
+      "talk": "ganpati_visarjan_tradition",
+      "hi": "विसर्जन करते हैं",
+      "en": "the immersion of the idol in water"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "मैं यह शरीर नहीं हूं",
+      "en": "I am not this body"
+    },
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "उस दिन जीवन बदल जाएगा",
+      "en": "your life will change"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "यही है गणेश",
+      "en": "this is Lord Ganesha"
+    }
+  ],
+  "also_read": {
+    "talk": "ganesh_chaturthi_pitru_paksha_navratri_diwali",
+    "after": {
+      "hi": "छुट्टी नहीं, साधना",
+      "en": "Not a Holiday but a Practice"
+    }
+  },
+  "related": [
+    "truth_about_lord_ganesh",
+    "ganpati_visarjan_tradition",
+    "worship_ganesh_every_year_but_understand"
+  ],
+  "wordpress": {
+    "category": "festivals",
+    "hi": {
+      "slug": "ganesh-chaturthi-ka-adhyatmik-arth",
+      "focus_keyword": "गणेश चतुर्थी का आध्यात्मिक अर्थ",
+      "secondary_keywords": [
+        "गणेश उत्सव 10 दिन क्यों",
+        "गणेश चतुर्थी क्यों मनाई जाती है",
+        "तुरीय अवस्था",
+        "चेतना की चार अवस्थाएं"
+      ],
+      "meta_description": "गणेश उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं: चेतना की चौथी अवस्था तुरीय में विवेक रूपी गणेश का जन्म होता है।",
+      "tags": [
+        "गणेश चतुर्थी",
+        "गणेश",
+        "अद्वैत वेदांत",
+        "विवेक",
+        "अनंत चतुर्दशी"
+      ]
+    },
+    "en": {
+      "slug": "ganesh-chaturthi-spiritual-meaning",
+      "focus_keyword": "Ganesh Chaturthi spiritual meaning",
+      "secondary_keywords": [
+        "why Ganesh Chaturthi is celebrated for 10 days",
+        "why Ganesh festival starts on Chaturthi",
+        "Turiya fourth state of consciousness",
+        "Ganesha as viveka"
+      ],
+      "meta_description": "Why does Ganesh Chaturthi begin on the fourth day and last 10 days? Acharya Upendra Ji explains its spiritual meaning: Turiya and the birth of discernment.",
+      "tags": [
+        "Ganesh Chaturthi",
+        "Ganesh",
+        "Advaita Vedanta",
+        "Viveka",
+        "Anant Chaturdashi"
+      ]
+    }
+  }
+}

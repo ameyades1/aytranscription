@@ -13,8 +13,10 @@ Checks:
   - every link phrase is in that language's blog text, outside headings, verses and other links
     (as the page generator places them), and every also_read heading exists
   - related has 3 talks
+  - the report's section 11 holds a JSON block equal to seo.json
   - wordpress: category is the talk's key in gallery_topics.txt; slugs are lowercase-hyphenated and
-    unique across all talks; focus keyword, 2-4 secondary keywords, meta description
+    unique across all talks; focus keywords are unique across all talks; no tag repeats a category
+    name; focus keyword, 2-4 secondary keywords, meta description
     (English 140-155 characters) and 3-6 tags for each language
 """
 import json
@@ -42,17 +44,19 @@ def has_page(talk):
 
 
 def read_topics():
-    keys, assign = set(), {}
+    keys, names, assign = set(), set(), {}
     for line in open(os.path.join(ROOT, 'gallery_topics.txt'), encoding='utf-8'):
         line = line.strip()
         if not line or line.startswith('#'):
             continue
         if line.startswith('topic '):
-            keys.add(line[6:].split('|')[0].strip())
+            parts = [p.strip() for p in line[6:].split('|')]
+            keys.add(parts[0])
+            names.update(p.casefold() for p in parts)  # key, English and Hindi names
         else:
             name, key = line.split()
             assign[name] = key
-    return keys, assign
+    return keys, names, assign
 
 
 def body_html(talk, lang):
@@ -80,13 +84,28 @@ def h2s(talk, lang):
     return [re.sub(r'[*_`]', '', l[3:]).strip() for l in open(path, encoding='utf-8') if l.startswith('## ')]
 
 
-def check(talk, seo, topic_keys, assign, slugs):
+def report_json(text):
+    """The JSON block in the report's section 11, or None."""
+    m = re.search(r'^## 11\..*?```json\n(.*?)\n```', text, re.S | re.M)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return None
+
+
+def check(talk, seo, topic_keys, assign, slugs, keywords, category_names):
     err, warn = [], []
     report = os.path.join(ROOT, 'tools', 'seo', f'{talk}.md')
     if not os.path.exists(report):
         err.append(f'no report tools/seo/{talk}.md')
-    elif open(report, encoding='utf-8').readline().strip().replace('\\_', '_') != f'{talk}: SEO report':
-        err.append('report first line is not "<name>: SEO report"')
+    else:
+        text = open(report, encoding='utf-8').read()
+        if text.split('\n', 1)[0].strip().replace('\\_', '_') != f'{talk}: SEO report':
+            err.append('report first line is not "<name>: SEO report"')
+        if report_json(text) != seo:
+            err.append('report section 11 has no JSON block equal to seo.json')
 
     extra = set(seo) - KEYS
     if extra:
@@ -168,8 +187,13 @@ def check(talk, seo, topic_keys, assign, slugs):
             err.append(f'wordpress {lang}: slug {slug} also used by {slugs[slug]}')
         else:
             slugs[slug] = f'{talk} ({lang})'
-        if not w.get('focus_keyword'):
+        focus = w.get('focus_keyword', '')
+        if not focus:
             err.append(f'wordpress {lang}: focus_keyword missing')
+        elif focus.casefold() in keywords:
+            err.append(f'wordpress {lang}: focus keyword {focus!r} also used by {keywords[focus.casefold()]}')
+        else:
+            keywords[focus.casefold()] = f'{talk} ({lang})'
         if not 2 <= len(w.get('secondary_keywords', [])) <= 4:
             err.append(f'wordpress {lang}: {len(w.get("secondary_keywords", []))} secondary keywords (2 to 4)')
         meta = w.get('meta_description', '')
@@ -182,22 +206,27 @@ def check(talk, seo, topic_keys, assign, slugs):
         tags = w.get('tags', [])
         if not 3 <= len(tags) <= 6:
             err.append(f'wordpress {lang}: {len(tags)} tags (3 to 6)')
+        for tag in tags:
+            if tag.casefold() in category_names:
+                err.append(f'wordpress {lang}: tag {tag!r} repeats a category name')
     return err, warn
 
 
 def main():
     talks = sys.argv[1:] or sorted(d for d in os.listdir(OUT) if os.path.isfile(os.path.join(OUT, d, 'blog', 'seo.json')))
-    topic_keys, assign = read_topics()
+    topic_keys, category_names, assign = read_topics()
 
-    # slugs of talks not being checked still count for uniqueness
-    slugs = {}
+    # slugs and focus keywords of talks not being checked still count for uniqueness
+    slugs, keywords = {}, {}
     for d in sorted(os.listdir(OUT)):
         path = os.path.join(OUT, d, 'blog', 'seo.json')
         if d not in talks and os.path.isfile(path):
             for lang in LANGS:
-                s = json.load(open(path, encoding='utf-8')).get('wordpress', {}).get(lang, {}).get('slug')
-                if s:
-                    slugs[s] = f'{d} ({lang})'
+                w = json.load(open(path, encoding='utf-8')).get('wordpress', {}).get(lang, {})
+                if w.get('slug'):
+                    slugs[w['slug']] = f'{d} ({lang})'
+                if w.get('focus_keyword'):
+                    keywords[w['focus_keyword'].casefold()] = f'{d} ({lang})'
 
     failed = 0
     for talk in talks:
@@ -212,7 +241,7 @@ def main():
             print(f'{talk}: FAIL\n  - seo.json is not valid JSON ({e})')
             failed += 1
             continue
-        err, warn = check(talk, seo, topic_keys, assign, slugs)
+        err, warn = check(talk, seo, topic_keys, assign, slugs, keywords, category_names)
         if err or warn:
             print(f'{talk}: {"FAIL" if err else "ok, with warnings"}')
             for e in err:
