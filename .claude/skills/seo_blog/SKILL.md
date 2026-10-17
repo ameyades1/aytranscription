@@ -1,6 +1,6 @@
 ---
 name: seo_blog
-description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read and Further reading). The blog text is not edited.
+description: Write an SEO report for one talk's blog (output/<name>/<name>_blog.txt and _blog_en.txt) as a Senior SEO Blog Specialist for Indian spirituality, following tools/prompts/seo_blog_specialist.txt, and save it to tools/seo/<name>.md, plus output/<name>/blog/seo.json for the page generator (title tag, image alt text and captions, internal links, Also read, Further reading, and the WordPress slug, keywords, meta description, category and tags). The blog text is not edited.
 argument-hint: <talk name>
 model: claude-opus-5-5
 effort: medium
@@ -56,8 +56,23 @@ Talk: `$ARGUMENTS`.
    - `also_read`: one talk, placed after the `##` heading (copied exactly, per language) of the
      section it extends best.
    - `related`: the 3 talks that suit a reader of this blog best.
+   - `wordpress`: the values to enter in WordPress (the page generator ignores this key):
+     - `category`: one topic key from `gallery_topics.txt` (the `topic <key> | <English> |
+       <Hindi>` lines; the English and Hindi names there are the WordPress category names).
+       Use the talk's key if it is listed there; otherwise choose the best fit and say so in
+       the reply, so the talk can be added to `gallery_topics.txt`. Never invent a category.
+     - `hi` and `en`, each with:
+       - `slug`: section 3's slug without the `/hi/` or `/en/` prefix: short, lowercase,
+         Latin letters, words joined by hyphens.
+       - `focus_keyword`: the primary keyword for that language (section 2).
+       - `secondary_keywords`: 2 to 4 more keywords for that language (section 2).
+       - `meta_description`: section 3's meta description, 140 to 155 characters for English.
+       - `tags`: 3 to 6 tags in that language, naming the main concepts of the talk. Reuse a tag
+         already used in another talk's seo.json when it means the same thing
+         (`grep -h -A8 '"tags"' output/*/blog/seo.json`), so tags group posts instead of
+         splitting them.
    Use only talks whose `output/<talk>/blog/index.html` exists. Add nothing else to seo.json:
-   meta descriptions, the FAQ and the schema stay in the report only.
+   the FAQ and the schema stay in the report only.
 6. If `output/<name>/blog/index.html` exists, rebuild it with `tools/rebuild_blogs.sh <name>`
    (it keeps the page's YouTube video and also rebuilds the pages that link to this talk and
    the blog index). Any "Note:" line means a phrase, heading or talk

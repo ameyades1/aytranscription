@@ -56,6 +56,7 @@ truth_about_lord_ganesh                       deities
 three_types_obstacle_removers_harta           deities
 unlock_divine_energy_durga_saptashati_mantra  deities
 hidden_meaning_spiritual_symbols              deities
+33_crore_gods_truth_about_hinduism            deities
 
 chanting_om_final_breath_liberation           mantra
 spiritual_science_om_aum                      mantra

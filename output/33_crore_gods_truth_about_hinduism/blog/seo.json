@@ -65,5 +65,44 @@
     "know_your_lord_before_worship",
     "ultimate_source_learn_about_every_religion",
     "power_of_deities_in_your_life"
-  ]
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "33-koti-devta-ya-ek-bhagwan",
+      "focus_keyword": "33 कोटि देवता",
+      "secondary_keywords": [
+        "33 करोड़ देवी देवता",
+        "हिंदू धर्म में कितने भगवान हैं",
+        "भगवान एक है या अनेक",
+        "रूप और स्वरूप में अंतर"
+      ],
+      "meta_description": "हिंदू धर्म में 33 कोटि देवता क्यों हैं? ब्रह्मर्षि आचार्य उपेंद्र जी बताते हैं कि भगवान एक ही है, ओंकार, और सभी देवता उसी एक की शक्तियाँ और भूमिकाएँ हैं।",
+      "tags": [
+        "33 कोटि देवता",
+        "अद्वैत वेदांत",
+        "ओंकार",
+        "रूप और स्वरूप",
+        "मूर्ति पूजा"
+      ]
+    },
+    "en": {
+      "slug": "33-crore-gods-or-one-god",
+      "focus_keyword": "33 crore gods",
+      "secondary_keywords": [
+        "why does Hinduism have so many gods",
+        "one God in Hinduism",
+        "33 koti meaning",
+        "rupa and swarupa"
+      ],
+      "meta_description": "Why does Hinduism have 33 crore gods? Acharya Upendra Ji explains that God is one, the formless Omkara, and the devtas are its many powers and roles.",
+      "tags": [
+        "33 crore gods",
+        "Advaita Vedanta",
+        "Omkara",
+        "Rupa and Swarupa",
+        "Idol worship"
+      ]
+    }
+  }
 }

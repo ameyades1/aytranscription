@@ -19,6 +19,8 @@ is optional:
    "also_read": {"talk": "<other talk>", "after": {"hi": "Hindi ## heading", "en": "English ## heading"}},
    "related": ["<other talk>", ...]}
 A talk is a folder name under output/; links point to its blog page, and talks without one are left out.
+A "wordpress" key (slug, keywords, meta description, category, tags) is for publishing in WordPress
+and is not used by this page.
 
 Site links, contact details and the founder description come from antaryogfoundation.in
 and are kept in SITE below.
