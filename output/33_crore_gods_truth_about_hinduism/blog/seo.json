@@ -1,0 +1,55 @@
+{
+  "title": {
+    "hi": "33 कोटि देवता या एक भगवान? हिंदू धर्म का सच",
+    "en": "33 Crore Gods or One God? The Truth About Hinduism"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के आँगन में एक ऊँचे पीतल के दीपक के चारों ओर जलते हज़ारों दीये: एक ही ज्योति से अनेक दीप",
+      "en": "Thousands of diyas lit around one tall brass lamp in a temple courtyard: one flame, many lights"
+    },
+    "inline.jpg": {
+      "hi": "अनेक शाखाओं वाला बरगद का पेड़, हर शाखा पर एक छोटा दीपक: एक मूल, अनेक अभिव्यक्तियाँ",
+      "en": "A banyan tree with many branches, each holding a small hanging lamp: one root, many expressions"
+    }
+  },
+  "links": [
+    {
+      "talk": "know_your_lord_before_worship",
+      "hi": "अपने भगवान को जानते हैं",
+      "en": "know your God"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "अग्र देवता",
+      "en": "Lord Ganesha is worshipped first"
+    },
+    {
+      "talk": "power_of_deities_in_your_life",
+      "hi": "अलग-अलग शक्तियाँ",
+      "en": "different powers"
+    },
+    {
+      "talk": "spiritual_science_om_aum",
+      "hi": "ओंकार एक ही है",
+      "en": "Omkara is one"
+    },
+    {
+      "talk": "ultimate_source_learn_about_every_religion",
+      "hi": "किसी और धर्म का",
+      "en": "the God of any other faith"
+    }
+  ],
+  "also_read": {
+    "talk": "need_murtis_symbols_understand_god",
+    "after": {
+      "hi": "फिर मूर्ति क्यों?",
+      "en": "Why an Idol, Then?"
+    }
+  },
+  "related": [
+    "know_your_lord_before_worship",
+    "ultimate_source_learn_about_every_religion",
+    "power_of_deities_in_your_life"
+  ]
+}

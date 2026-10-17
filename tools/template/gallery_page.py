@@ -263,10 +263,10 @@ def main():
 <style>{css}</style>
 </head><body>
 
-{site_header(switch)}
+{site_header(switch, blog='index.html')}
 
 <section class="hero"><div class="wrap">
-  <div class="crumbs"><a href="{SITE['home']}">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="crumbs"><a href="{SITE['home']}">Home</a> › <a href="index.html">Blog</a></div>
   <div class="label">{both({l: UI[l]['label'] for l in UI})}</div>
   <h1>{both({l: UI[l]['h1'] for l in UI})}</h1>
   <div class="orn">❖</div>
@@ -284,7 +284,7 @@ def main():
   <p class="empty" hidden>{both({l: UI[l]['empty'] for l in UI})}</p>
 </main>
 
-{site_footer(TEXT['hi']['motto'])}
+{site_footer(TEXT['hi']['motto'], blog='index.html')}
 <script>{GALLERY_JS}</script>
 </body></html>
 '''

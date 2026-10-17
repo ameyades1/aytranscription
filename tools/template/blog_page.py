@@ -9,11 +9,22 @@ Usage: blog_page.py <blog.txt> [<other_language_blog.txt>] [--video YOUTUBE_ID] 
   --video       YouTube ID of the original discourse (adds a "watch" button and video card)
   --out         Output HTML (default: blog/index.html in the chapter's folder)
 
+Optional <blog>/seo.json (written by /seo_blog) sets, per language, the <title> tag and image alt
+text, and adds links inside the text, an "Also read" box and Related Reading cards. Every key
+is optional:
+  {"title": {"hi": "...", "en": "..."},
+   "alt": {"hero.jpg": {"hi": "...", "en": "..."}, "inline.jpg": {"hi": "...", "en": "..."}},
+   "links": [{"talk": "<other talk>", "hi": "phrase in the Hindi text", "en": "phrase in the English text"}],
+   "also_read": {"talk": "<other talk>", "after": {"hi": "Hindi ## heading", "en": "English ## heading"}},
+   "related": ["<other talk>", ...]}
+A talk is a folder name under output/; links point to its blog page, and talks without one are left out.
+
 Site links, contact details and the founder description come from antaryogfoundation.in
 and are kept in SITE below.
 """
 import argparse
 import html
+import json
 import os
 import re
 import shutil
@@ -25,6 +36,9 @@ from md_to_html import FONTS, convert  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
+# The blog index is our own gallery page (output/index.html); blog pages sit two folders below it.
+BLOG = '../../index.html'
+
 SITE = {
     'home': 'https://antaryogfoundation.in',
     'nav': [
@@ -32,7 +46,7 @@ SITE = {
         ('Our Work', 'https://antaryogfoundation.in/our-work'),
         ('Events', 'https://antaryogfoundation.in/events'),
         ('Discourses', 'https://learn.antaryogfoundation.in/courses'),
-        ('Blog', 'https://blogs.antaryogfoundation.in'),
+        ('Blog', BLOG),
         ('Shop', 'https://wellness.antaryogfoundation.in'),
         ('Contact Us', 'https://antaryogfoundation.in/contact-us'),
     ],
@@ -41,7 +55,7 @@ SITE = {
         ('Our Work', 'https://antaryogfoundation.in/our-work'),
         ('Current and Upcoming Events', 'https://antaryogfoundation.in/events'),
         ('Discourses', 'https://learn.antaryogfoundation.in/courses'),
-        ('Blog', 'https://blogs.antaryogfoundation.in'),
+        ('Blog', BLOG),
         ('Newsroom', 'https://antaryogfoundation.in/newsroom'),
         ('Letters of Distinction', 'https://antaryogfoundation.in/letters-of-distinction'),
     ],
@@ -77,6 +91,8 @@ TEXT = {
         'cta_p': 'जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।',
         'cta_1': 'प्रवचन देखें', 'cta_2': 'Sign Up',
         'motto': 'जनहिताय स्वयम् मोक्षाय च',
+        'also_h': 'यह भी पढ़ें',
+        'related_h': 'आगे पढ़ें',
     },
     'en': {
         'author': 'Brahmarshi Acharya Upendra Ji',
@@ -90,6 +106,8 @@ TEXT = {
         'cta_p': 'Join life-transforming knowledge sessions and powerful sadhanas.',
         'cta_1': 'Explore discourses', 'cta_2': 'Sign Up',
         'motto': 'जनहिताय स्वयम् मोक्षाय च',
+        'also_h': 'Also read',
+        'related_h': 'Further reading',
     },
 }
 
@@ -171,23 +189,112 @@ def h2_texts(path):
             for l in open(path, encoding='utf-8') if l.startswith('## ')]
 
 
-def place_images(body, lang, out_dir, hi_heads=None):
+def section_end(body, heads_by_lang, lang, hi_heads=None):
+    """Position at the end of the section headed heads_by_lang[lang] (before the next ## heading),
+    or None. For English, falls back to the section at the Hindi heading's position."""
+    heads = list(re.finditer(r'<h2>(.*?)</h2>', body))
+    at = next((i for i, h in enumerate(heads)
+               if re.sub('<[^>]+>', '', h.group(1)).strip() == heads_by_lang.get(lang)), None)
+    if at is None and lang == 'en' and hi_heads and heads_by_lang.get('hi') in hi_heads:
+        i = hi_heads.index(heads_by_lang['hi'])
+        at = i if i < len(heads) else None
+    if at is None:
+        return None
+    return heads[at + 1].start() if at + 1 < len(heads) else len(body)
+
+
+def alt_text(seo, file, lang, default):
+    """Alt text for an image from seo.json, else the default."""
+    return seo.get('alt', {}).get(file, {}).get(lang) or default
+
+
+def place_images(body, lang, out_dir, hi_heads=None, seo=None):
     for img in read_images(out_dir):
         if not os.path.exists(os.path.join(out_dir, 'assets', img['file'])):
             print(f"Note: assets/{img['file']} not found, left out", file=sys.stderr)
             continue
-        heads = list(re.finditer(r'<h2>(.*?)</h2>', body))
-        at = next((i for i, h in enumerate(heads) if re.sub('<[^>]+>', '', h.group(1)).strip() == img[lang]), None)
-        if at is None and lang == 'en' and hi_heads and img['hi'] in hi_heads:
-            i = hi_heads.index(img['hi'])
-            at = i if i < len(heads) else None
-        if at is None:
+        pos = section_end(body, img, lang, hi_heads)
+        if pos is None:
             print(f"Note: section '{img[lang]}' not found for {img['file']} ({lang}), left out", file=sys.stderr)
             continue
-        pos = heads[at + 1].start() if at + 1 < len(heads) else len(body)
-        fig = f'<figure class="figure"><img src="assets/{esc(img["file"])}" alt="{esc(img["alt"])}" loading="lazy"></figure>'
+        fig = f'<figure class="figure"><img src="assets/{esc(img["file"])}" alt="{esc(alt_text(seo or {}, img["file"], lang, img["alt"]))}" loading="lazy"></figure>'
         body = body[:pos] + fig + body[pos:]
     return body
+
+
+def read_seo(out_dir):
+    """<blog>/seo.json, or {} when there is none."""
+    path = os.path.join(out_dir, 'seo.json')
+    return json.load(open(path, encoding='utf-8')) if os.path.exists(path) else {}
+
+
+def talk_info(talk, lang, out_dir):
+    """Link, title, excerpt and image of another talk's blog page, or None when it has none.
+    Pages sit at output/<talk>/blog/index.html, so links are relative to this page."""
+    root = os.path.dirname(os.path.dirname(out_dir))
+    folder = os.path.join(root, talk)
+    txt = os.path.join(folder, f'{talk}_blog{"_en" if lang == "en" else ""}.txt')
+    if not (os.path.isfile(os.path.join(folder, 'blog', 'index.html')) and os.path.isfile(txt)):
+        print(f'Note: no {lang} blog page for {talk}, link left out', file=sys.stderr)
+        return None
+    lines = [l.strip() for l in open(txt, encoding='utf-8') if l.strip()]
+    plain = lambda t: re.sub(r'[*_`]', '', t).strip()  # noqa: E731
+    title = next((plain(l[2:]) for l in lines if l.startswith('# ')), talk)
+    para = next((plain(l) for l in lines if not l.startswith(('#', '>', '-', '*'))), '')
+    excerpt = para if len(para) <= 150 else para[:150].rsplit(' ', 1)[0] + '…'
+    assets = os.path.join(folder, 'blog', 'assets')
+    imgs = [f for f in ('hero.jpg', 'hero.png') if os.path.exists(os.path.join(assets, f))] or sorted(
+        f for f in os.listdir(assets) if f.endswith('.jpg') and f not in ('acharya-ji.jpg', 'inline.jpg'))
+    return {'href': f'../../{talk}/blog/index.html#{lang}', 'title': title, 'excerpt': excerpt,
+            'img': f'../../{talk}/blog/assets/{imgs[0]}' if imgs else ''}
+
+
+def link_phrases(body, links, lang, out_dir):
+    """Link the first plain-text occurrence of each phrase (not in headings, quotes or links)."""
+    for link in links:
+        phrase = link.get(lang)
+        info = phrase and talk_info(link['talk'], lang, out_dir)
+        if not info:
+            continue
+        parts = re.split(r'(<[^>]+>)', body)
+        skip, done = 0, False
+        for i, part in enumerate(parts):
+            if part.startswith('<'):
+                m = re.match(r'<(/?)(h1|h2|h3|a|blockquote)\b', part)
+                if m:
+                    skip += -1 if m.group(1) else 1
+            elif not skip and esc(phrase) in part:
+                parts[i] = part.replace(esc(phrase), f'<a href="{info["href"]}">{esc(phrase)}</a>', 1)
+                done = True
+                break
+        if not done:
+            print(f"Note: phrase '{phrase}' not found ({lang}), not linked", file=sys.stderr)
+        body = ''.join(parts)
+    return body
+
+
+def also_read_box(body, also, lang, out_dir, hi_heads, T):
+    info = talk_info(also['talk'], lang, out_dir)
+    pos = info and section_end(body, also.get('after', {}), lang, hi_heads)
+    if pos is None:
+        if info:
+            print(f"Note: section for the also-read box not found ({lang}), left out", file=sys.stderr)
+        return body
+    img = f'<img src="{info["img"]}" alt="" loading="lazy">' if info['img'] else ''
+    box = (f'<aside class="also-read"><a href="{info["href"]}">{img}'
+           f'<div><span>{T["also_h"]}</span><strong>{esc(info["title"])} →</strong></div></a></aside>')
+    return body[:pos] + box + body[pos:]
+
+
+def related_section(talks, lang, out_dir, T):
+    cards = []
+    for talk in talks:
+        info = talk_info(talk, lang, out_dir)
+        if info:
+            img = f'<img src="{info["img"]}" alt="" loading="lazy">' if info['img'] else ''
+            cards.append(f'<a class="rel-card" href="{info["href"]}">{img}<div><strong>{esc(info["title"])}</strong>'
+                         f'<p>{esc(info["excerpt"])}</p></div></a>')
+    return f'<section class="related"><h2>{T["related_h"]}</h2><div class="rel-grid">{"".join(cards)}</div></section>' if cards else ''
 
 
 def build_lang(path, out_dir, video, other_lang, hi_heads=None):
@@ -201,7 +308,12 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
     label, title = title_line.split(':', 1) if ':' in title_line else ('', title_line)
     label, title = label.strip(), title.strip()
 
-    body = place_images(body, lang, out_dir, hi_heads)
+    seo = read_seo(out_dir)
+    body = place_images(body, lang, out_dir, hi_heads, seo)
+    page_title = seo.get('title', {}).get(lang) or f'{title} | Antar Yog Foundation'
+    body = link_phrases(body, seo.get('links', []), lang, out_dir)
+    if seo.get('also_read'):
+        body = also_read_box(body, seo['also_read'], lang, out_dir, hi_heads, T)
     hero = hero_image(out_dir)
     toc = []
 
@@ -209,6 +321,8 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
         toc.append(m.group(1))
         return f'<h2 id="{lang}-s{len(toc)}">{m.group(1)}</h2>'
     body = re.sub(r'<h2>(.*?)</h2>', number_h2, body)
+
+    related = related_section(seo.get('related', []), lang, out_dir, T)
 
     minutes = local_digits(read_minutes(text, lang), lang)
 
@@ -229,9 +343,9 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
                           f'<div class="caption">{cap}</div></a></section>')
 
     toc_html = ''.join(f'<li><a href="#{lang}-s{i}">{t}</a></li>' for i, t in enumerate(toc, 1))
-    html_ = f'''<div class="lang-block" data-lang="{lang}" data-title="{esc(title)} | Antar Yog Foundation" lang="{lang}">
+    html_ = f'''<div class="lang-block" data-lang="{lang}" data-title="{esc(page_title)}" lang="{lang}">
 <section class="hero"><div class="wrap">
-  <div class="crumbs"><a href="{SITE['home']}">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="crumbs"><a href="{SITE['home']}">Home</a> › <a href="{BLOG}">Blog</a></div>
   {f'<div class="label">{esc(label)}</div>' if label else ''}
   <h1>{esc(title)}</h1>
   <div class="orn">❖</div>
@@ -239,10 +353,10 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
     <div class="who"><strong>{T['author']}</strong><span>{T['meta'].format(m=minutes)}</span></div></div>
   <div class="actions">{''.join(actions)}</div>
 </div></section>
-{f'<div class="wrap hero-img"><img src="assets/{hero}" alt="{esc(title)}"></div>' if hero else ''}
+{f'<div class="wrap hero-img"><img src="assets/{hero}" alt="{esc(alt_text(seo, hero, lang, title))}"></div>' if hero else ''}
 
 <main class="wrap layout">
-  <article class="article">{body}{video_html}</article>
+  <article class="article">{body}{video_html}{related}</article>
   <aside class="aside"><div class="sticky">
     <nav class="card toc"><h3>{T['toc']}</h3><ol>{toc_html}</ol></nav>
     <div class="card author"><img src="assets/acharya-ji.jpg" alt="{esc(T['author'])}">
@@ -256,12 +370,14 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
   <a class="btn btn-ghost" href="{SITE['signup']}">{T['cta_2']}</a></div>
 </div></section>
 </div>'''
-    return {'lang': lang, 'title': title, 'author': T['author'], 'html': html_}
+    return {'lang': lang, 'title': title, 'page_title': page_title, 'author': T['author'], 'html': html_}
 
 
-def site_header(switch=''):
-    """Site header with logo, optional language switch and navigation (assets/ next to the page)."""
-    nav = ''.join(f'<a href="{u}"{" class=active" if n == "Blog" else ""}>{n}</a>' for n, u in SITE['nav'])
+def site_header(switch='', blog=BLOG):
+    """Site header with logo, optional language switch and navigation (assets/ next to the page).
+    blog is the link to the blog index, relative to the page."""
+    nav = ''.join(f'<a href="{blog if u == BLOG else u}"{" class=active" if n == "Blog" else ""}>{n}</a>'
+                  for n, u in SITE['nav'])
     return f'''<header class="site-header"><div class="wrap">
   <a class="logo" href="{SITE['home']}"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
   {switch}
@@ -270,9 +386,9 @@ def site_header(switch=''):
 </div></header>'''
 
 
-def site_footer(motto):
+def site_footer(motto, blog=BLOG):
     """Site footer with links and contact details."""
-    links = lambda items: ''.join(f'<li><a href="{u}">{n}</a></li>' for n, u in items)  # noqa: E731
+    links = lambda items: ''.join(f'<li><a href="{blog if u == BLOG else u}">{n}</a></li>' for n, u in items)  # noqa: E731
     return f'''<footer class="site-footer"><div class="wrap">
   <div class="cols">
     <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>{motto}</p>
@@ -366,7 +482,7 @@ def main():
     page = f'''<!doctype html>
 <html lang="{first['lang']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(first['title'])} | Antar Yog Foundation</title>
+<title>{esc(first['page_title'])}</title>
 <meta name="description" content="{esc(first['author'])} — {esc(first['title'])}">
 <link rel="icon" href="assets/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -192,6 +192,28 @@ img { max-width: 100%; display: block; }
   .layout { display: block; padding: 0; }
   .hero { background: none; }
 }
+
+/* SEO blocks: also read, related reading */
+.article .also-read span { display: block; font-family: var(--sans); font-size: .75rem; font-weight: 600;
+                   letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: .35rem; }
+.article .also-read { margin: 1.6rem 0; border: 1px solid var(--rule); border-radius: 12px; background: #fff; }
+.article .also-read a { display: flex; align-items: center; gap: 1rem; padding: .75rem 1rem; text-decoration: none; }
+.article .also-read img { flex: 0 0 5.5rem; width: 5.5rem; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
+.article .also-read strong { display: block; color: var(--accent); font-weight: 600; font-size: 1.05rem; line-height: 1.45; }
+.article .also-read a:hover strong { text-decoration: underline; }
+/* Links inside the text are never bold, even inside bold text */
+.article p a, .article li a { color: var(--accent); font-weight: 400; text-decoration-color: var(--gold); text-underline-offset: .2em; }
+.related { margin-top: 3rem; }
+.related h2 { margin-top: 0; }
+.rel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 1rem; }
+.rel-card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--rule); border-radius: 14px; overflow: hidden;
+            text-decoration: none; transition: box-shadow .15s, transform .15s; }
+.rel-card:hover { box-shadow: 0 8px 20px rgba(46,33,24,.12); transform: translateY(-2px); }
+.rel-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.rel-card div { padding: .8rem 1rem 1rem; }
+.rel-card strong { display: block; font-size: 1rem; line-height: 1.45; color: var(--ink-strong); font-weight: 600; }
+.rel-card p { font-size: .85rem; line-height: 1.55; color: var(--muted); margin: .4rem 0 0; }
+@media print { .related, .also-read { display: none; } }
 </style>
 </head><body>
 
@@ -199,12 +221,12 @@ img { max-width: 100%; display: block; }
   <a class="logo" href="https://antaryogfoundation.in"><img src="assets/logo.png" alt="Antar Yog Foundation"></a>
   <div class="lang-switch"><a href="#hi" data-switch="hi" class=active>हिन्दी</a><a href="#en" data-switch="en">English</a></div>
   <input type="checkbox" id="menu" class="menu-toggle"><label for="menu" class="menu-btn" aria-label="Menu"><span></span></label>
-  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="https://blogs.antaryogfoundation.in" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
+  <nav class="nav"><a href="https://antaryogfoundation.in/">Home</a><a href="https://antaryogfoundation.in/our-work">Our Work</a><a href="https://antaryogfoundation.in/events">Events</a><a href="https://learn.antaryogfoundation.in/courses">Discourses</a><a href="../../index.html" class=active>Blog</a><a href="https://wellness.antaryogfoundation.in">Shop</a><a href="https://antaryogfoundation.in/contact-us">Contact Us</a><a class="btn btn-solid" href="https://payment.antaryogfoundation.in/donation">Donate</a></nav>
 </div></header>
 
 <div class="lang-block" data-lang="hi" data-title="इस वर्ष आपके भीतर क्या बदला | Antar Yog Foundation" lang="hi">
 <section class="hero"><div class="wrap">
-  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="../../index.html">Blog</a></div>
   
   <h1>इस वर्ष आपके भीतर क्या बदला</h1>
   <div class="orn">❖</div>
@@ -231,7 +253,7 @@ img { max-width: 100%; display: block; }
 </div>
 <div class="lang-block" hidden data-lang="en" data-title="What Changed Within You This Year? | Antar Yog Foundation" lang="en">
 <section class="hero"><div class="wrap">
-  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="https://blogs.antaryogfoundation.in">Blog</a></div>
+  <div class="crumbs"><a href="https://antaryogfoundation.in">Home</a> › <a href="../../index.html">Blog</a></div>
   
   <h1>What Changed Within You This Year?</h1>
   <div class="orn">❖</div>
@@ -262,7 +284,7 @@ img { max-width: 100%; display: block; }
     <div class="brand"><img src="assets/logo.png" alt="Antar Yog Foundation"><p>जनहिताय स्वयम् मोक्षाय च</p>
       <div class="social"><a href="https://youtube.com/@AntarYogFoundationOfficial" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4a2.5 2.5 0 0 0-1.8 1.8A26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a>
       <a href="https://www.instagram.com/antaryogfoundation" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm5.3-3.8a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></a></div></div>
-    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="https://blogs.antaryogfoundation.in">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
+    <div><h4>Explore</h4><ul><li><a href="https://antaryogfoundation.in/our-work">Our Work</a></li><li><a href="https://antaryogfoundation.in/events">Current and Upcoming Events</a></li><li><a href="https://learn.antaryogfoundation.in/courses">Discourses</a></li><li><a href="../../index.html">Blog</a></li><li><a href="https://antaryogfoundation.in/newsroom">Newsroom</a></li><li><a href="https://antaryogfoundation.in/letters-of-distinction">Letters of Distinction</a></li></ul></div>
     <div><h4>Services</h4><ul><li><a href="https://naadijyotish.antaryogfoundation.in">Naadi Jyotish</a></li><li><a href="https://naadijyotish.antaryogfoundation.in/kundali">Horoscope</a></li><li><a href="https://vasturupantaran.antaryogfoundation.in">Vastu Rupantaran</a></li><li><a href="https://wellness.antaryogfoundation.in">Shop</a></li><li><a href="https://payment.antaryogfoundation.in/donation">Donate</a></li></ul></div>
     <div><h4>Contact</h4><ul class="contact">
       <li><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 3v13h10V5H7zm5 14a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg><a href="tel:+917710948461">+91 77109 48461</a></li>
