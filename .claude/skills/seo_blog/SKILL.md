@@ -58,10 +58,9 @@ Talk: `$ARGUMENTS`.
    - `related`: the 3 talks that suit a reader of this blog best.
    Use only talks whose `output/<talk>/blog/index.html` exists. Add nothing else to seo.json:
    meta descriptions, the FAQ and the schema stay in the report only.
-6. If `output/<name>/blog/index.html` exists, rebuild it with the same command as the
-   /chapter skill (`python3 tools/template/blog_page.py output/<name>/<name>_blog.txt
-   output/<name>/<name>_blog_en.txt --video=<ID>`, the ID taken from the existing page's
-   YouTube link; no --video if it has none). Any "Note:" line means a phrase, heading or talk
+6. If `output/<name>/blog/index.html` exists, rebuild it with `tools/rebuild_blogs.sh <name>`
+   (it keeps the page's YouTube video and also rebuilds the pages that link to this talk and
+   the blog index). Any "Note:" line means a phrase, heading or talk
    was not found: fix seo.json and rebuild until there are none.
 
 Rules:
