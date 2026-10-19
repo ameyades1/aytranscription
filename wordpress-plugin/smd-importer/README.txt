@@ -1,4 +1,4 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.1.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.2.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -92,10 +92,14 @@ IMAGES
 - Every image the file names must be uploaded, or the import stops before creating anything and lists the missing files.
 - JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a draft with the same image files reuses the existing Media Library items instead of duplicating them.
 
+ALSO READ AND VIDEO
+- A line "Also read: [Post title](https://...)" becomes a boxed link. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
+- A line that is only a YouTube link, [Title](https://www.youtube.com/watch?v=...) or a bare URL, becomes an embedded video, with the link text as its caption. Watch, youtu.be, embed, shorts and live links all work.
+
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.1.0
+LIMITATIONS IN VERSION 1.2.0
 - Does not implement native SureRank canonical/robots/schema writes.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
 - SEO title and description fields are stored by this plugin. SureRank's custom-field template integration must be tested before production use.

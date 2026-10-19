@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates drafts by default.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.1.0';
+    const VERSION = '1.2.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const META_SEO_TITLE = 'smd_seo_title';
@@ -25,6 +25,7 @@ class SMD_SureRank_Markdown_Importer {
         add_action('admin_post_smd_import_markdown', [$this, 'handle_upload']);
         add_action('admin_notices', [$this, 'notice']);
         add_action('init', [$this, 'register_meta']);
+        add_action('wp_enqueue_scripts', [$this, 'styles']);
     }
 
     public function menu() {
@@ -40,6 +41,20 @@ class SMD_SureRank_Markdown_Importer {
                 'sanitize_callback' => 'sanitize_text_field'
             ]);
         }
+    }
+
+    /** Styles the "Also read" box, only on posts that have one. */
+    public function styles() {
+        $post = is_singular() ? get_post() : null;
+        if (!$post || strpos($post->post_content, 'smd-also-read') === false) return;
+        wp_register_style('smd-importer', false, [], self::VERSION);
+        wp_enqueue_style('smd-importer');
+        wp_add_inline_style('smd-importer', '.smd-also-read{margin:2em 0;border:1px solid rgba(0,0,0,.12);border-left:4px solid currentColor;border-radius:6px;overflow:hidden}'
+            . '.smd-also-read a{display:flex;gap:1em;align-items:center;padding:.75em 1em;text-decoration:none}'
+            . '.smd-also-read img{flex:0 0 120px;width:120px;height:68px;object-fit:cover;border-radius:4px;margin:0}'
+            . '.smd-also-read span{display:block;font-size:.8em;text-transform:uppercase;letter-spacing:.05em;opacity:.7}'
+            . '.smd-also-read strong{display:block;line-height:1.35}'
+            . '@media (max-width:480px){.smd-also-read img{flex-basis:88px;width:88px;height:50px}}');
     }
 
     public function render_page() {
@@ -247,6 +262,8 @@ class SMD_SureRank_Markdown_Importer {
         foreach ($lines as $line) {
             $trim = trim($line);
             if ($img = $this->parse_image_line($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $this->figure($img, $images); continue; }
+            if ($html = $this->also_read($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $html; continue; }
+            if ($html = $this->youtube($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $html; continue; }
             if ($trim === '') { $flush_p(); $flush_list(); $flush_quote(); continue; }
             if (preg_match('/^(#{1,6})\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_list(); $flush_quote(); $n = strlen($m[1]); $out[] = '<h' . $n . '>' . $this->inline_format($m[2]) . '</h' . $n . '>'; continue; }
             if (preg_match('/^([-*_])\1\1+$/', $trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = '<hr />'; continue; }
@@ -257,7 +274,7 @@ class SMD_SureRank_Markdown_Importer {
         }
         $flush_p(); $flush_list(); $flush_quote();
         return wp_kses(implode("\n", $out), ['p'=>[], 'h1'=>[], 'h2'=>[], 'h3'=>[], 'h4'=>[], 'h5'=>[], 'h6'=>[], 'strong'=>[], 'em'=>[], 'del'=>[], 'a'=>['href'=>[], 'title'=>[], 'target'=>[], 'rel'=>[]], 'ul'=>[], 'ol'=>[], 'li'=>[], 'blockquote'=>[], 'hr'=>[], 'br'=>[],
-            'figure'=>['class'=>[]], 'figcaption'=>['class'=>[]], 'img'=>['src'=>[], 'alt'=>[], 'class'=>[], 'width'=>[], 'height'=>[], 'loading'=>[], 'decoding'=>[]]]);
+            'figure'=>['class'=>[]], 'aside'=>['class'=>[]], 'div'=>['class'=>[]], 'span'=>['class'=>[]], 'figcaption'=>['class'=>[]], 'img'=>['src'=>[], 'alt'=>[], 'class'=>[], 'width'=>[], 'height'=>[], 'loading'=>[], 'decoding'=>[]]]);
     }
 
     /** Joins a paragraph's or quote's source lines; a line ending in two spaces or a backslash keeps its line break. */
@@ -269,6 +286,32 @@ class SMD_SureRank_Markdown_Importer {
             if ($i < count($lines) - 1) $html .= $break ? "<br>\n" : ' ';
         }
         return $html;
+    }
+
+    /**
+     * A line "Also read: [Title](url)" (the label may be bold) as a box. If a post here has the
+     * URL's last path segment as its slug, the box shows that post's featured image.
+     */
+    private function also_read($trim) {
+        if (!preg_match('/^(?:\*\*|__)?also read\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)\s*$/i', $trim, $m)) return '';
+        $segments = array_values(array_filter(explode('/', (string) wp_parse_url($m[2], PHP_URL_PATH)), function($seg) { return $seg !== '' && !preg_match('/^index\.html?$/i', $seg); }));
+        $post = $segments ? get_page_by_path(sanitize_title(end($segments)), OBJECT, 'post') : null;
+        $thumb = $post ? get_the_post_thumbnail($post, 'medium', ['loading' => 'lazy', 'alt' => '']) : '';
+        return '<aside class="smd-also-read"><a href="' . esc_url($m[2]) . '">' . $thumb . '<span class="smd-also-read-text"><span>Also read</span><strong>' . $this->inline_format($m[1]) . ' &rarr;</strong></span></a></aside>';
+    }
+
+    /**
+     * A line that is only a YouTube link, [Title](url) or a bare URL, in any of the watch, youtu.be,
+     * embed or shorts forms, as an embed block; WordPress turns the URL on its own line into the player.
+     */
+    private function youtube($trim) {
+        if (preg_match('/^\[([^\]]*)\]\(\s*<?([^\s)<>]+)>?\s*\)$/', $trim, $m)) { $title = $m[1]; $url = $m[2]; }
+        elseif (preg_match('/^<?(https?:\/\/\S+?)>?$/', $trim, $m)) { $title = ''; $url = $m[1]; }
+        else return '';
+        if (!preg_match('#^https?://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/|live/)|youtube-nocookie\.com/embed/|youtu\.be/)([A-Za-z0-9_-]{11})#i', $url, $id)) return '';
+        $html = '<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">' . "\nhttps://www.youtube.com/watch?v=" . $id[1] . "\n" . '</div>';
+        if ($title !== '') $html .= '<figcaption class="wp-element-caption">' . $this->inline_format($title) . '</figcaption>';
+        return $html . '</figure>';
     }
 
     /** A standalone image line as an image block's figure, with the attachment's sizes so WordPress serves srcset. */
