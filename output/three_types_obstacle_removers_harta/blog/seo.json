@@ -1,0 +1,58 @@
+{
+  "title": {
+    "hi": "विघ्नहर्ता का अर्थ: तीन प्रकार के हर्ता, आप कौन से हैं?",
+    "en": "Meaning of Vighnaharta: Three Kinds of Obstacle Removers"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन पत्थर के मंदिर के प्रांगण में सुबह की धूप में झाड़ू से सूखे पत्ते बुहारते धोती पहने कई सेवक, पास में बाँस की टोकरियाँ",
+      "en": "Several men in dhotis sweeping dry leaves with brooms in the courtyard of an ancient stone temple in early sunlight, with wicker baskets nearby"
+    },
+    "inline.jpg": {
+      "hi": "सुबह की सुनहरी रोशनी में पुरानी गली में अकेले झाड़ू लगाती दस्ताने पहने एक महिला, दूर सड़क पर एक गाय",
+      "en": "A woman wearing gloves sweeping an old street alone in golden morning light, with a cow further down the road"
+    },
+    "9K7jnPjftng.jpg": {
+      "hi": "वीडियो: विघ्न हरने वाला बनें, ब्रह्मर्षि आचार्य उपेंद्र जी; पास में नदी में चट्टान धकेलता एक व्यक्ति",
+      "en": "Video: Become an Obstacle Remover, Transform Your Life! Acharya Upendra Ji beside a man pushing a boulder in a river"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जब हरण भी सेवा बन जाए",
+      "en": "When taking away becomes service"
+    },
+    "inline.jpg": {
+      "hi": "न कैमरा, न बैनर, बस सेवा",
+      "en": "No camera, no banner, only service"
+    }
+  },
+  "links": [
+    {"talk": "worship_ganesh_every_year_but_understand", "hi": "गणेश जी की स्तुति", "en": "in praise of Lord Ganesha"},
+    {"talk": "what_is_a_guru", "hi": "गुरु आपके रोगों से लेकर हर दोष का हरण करता है", "en": "the Guru takes it all away"},
+    {"talk": "gau_seva_antar_yog_purity_prosperity", "hi": "सेवा कार्यक्रमों", "en": "other service programmes"},
+    {"talk": "three_gunas_karma", "hi": "क्योंकि यही उसका स्वभाव है", "en": "because that is their nature"}
+  ],
+  "also_read": {
+    "talk": "punya_vs_paap",
+    "after": {"hi": "शिवाजी महाराज: जब हरण भी सेवा बन जाए", "en": "Shivaji Maharaj: When Taking Away Becomes Service"}
+  },
+  "related": ["sattva_rajas_tamas_balance_success_liberation", "truth_about_lord_ganesh", "legends_keep_working"],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "vighnaharta-ka-arth-teen-prakar-ke-harta",
+      "focus_keyword": "विघ्नहर्ता का अर्थ",
+      "secondary_keywords": ["त्वमेव केवलं हर्तासि का अर्थ", "सात्विक राजसिक तामसिक सेवा", "निःस्वार्थ सेवा क्या है"],
+      "meta_description": "विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक।",
+      "tags": ["गणपति अथर्वशीर्ष", "गणेश", "त्रिगुण", "सेवा", "अहिंसा", "महाभारत"]
+    },
+    "en": {
+      "slug": "vighnaharta-meaning-three-kinds-of-harta",
+      "focus_keyword": "meaning of Vighnaharta",
+      "secondary_keywords": ["tvameva kevalam hartasi meaning", "sattvic rajasic tamasic service", "how to become an obstacle remover"],
+      "meta_description": "What does Vighnaharta mean? Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.",
+      "tags": ["Ganapati Atharvashirsha", "Ganesh", "Three Gunas", "Seva", "Ahimsa", "Mahabharata"]
+    }
+  }
+}

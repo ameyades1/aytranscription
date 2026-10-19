@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "सर्वधर्मान्परित्यज्य का अर्थ: गीता 18.66 और गुरु की शरण",
+    "en": "Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर में पत्थर के चबूतरे पर बैठे श्वेत दाढ़ी वाले गुरु के चरणों में सिर झुकाकर प्रणाम करता श्वेत वस्त्रधारी शिष्य",
+      "en": "A disciple in white kneels with his head bowed at the feet of a white-bearded Guru seated on a carved stone platform in a temple"
+    },
+    "inline.jpg": {
+      "hi": "सुनहरी धूप में रेलवे प्लेटफ़ॉर्म पर पीठ पर बैग लिए एक युवक ट्रेन के डिब्बे में चढ़ता हुआ",
+      "en": "A young man with a backpack boards a train coach on a sunlit railway platform"
+    },
+    "xXkJCnkCJh4.jpg": {
+      "hi": "आचार्य उपेंद्र जी के साथ 'The Power of Surrendering to the Guru' शीर्षक, और तारों भरे आकाश के नीचे तीन शिष्यों को उपदेश देते गुरु का चित्र",
+      "en": "Acharya Upendra Ji beside the title 'The Power of Surrendering to the Guru', with an illustration of a Guru teaching three disciples under a starry sky"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "न मम: मेरा नहीं, तेरा",
+      "en": "Na mama: not mine, but Yours"
+    },
+    "inline.jpg": {
+      "hi": "सही गाड़ी, अपने आप मंज़िल",
+      "en": "The right train, and the destination comes"
+    }
+  },
+  "links": [
+    {"talk": "anyone_grant_liberation_living_or_dead", "hi": "लाभ जीवित गुरु से है", "en": "The benefit comes from a living Guru"},
+    {"talk": "burn_your_karma_before_it_burns_you", "hi": "किसी पाप के कारण रोग आया", "en": "One sin brought illness"},
+    {"talk": "know_your_first_duty_in_life", "hi": "हर भूमिका के साथ कुछ करणीय और अकरणीय बातें जुड़ी हैं", "en": "Every role carries things you ought to do and things you ought not to do"},
+    {"talk": "without_guru_scriptures_can_mislead", "hi": "अपनी सारी धारणाएँ छोड़कर गुरु के पास आओ", "en": "set aside all your own assumptions and come to the Guru"},
+    {"talk": "who_real_doer_karma_ego_bhagavad", "hi": "अहंकार उतना जाएगा", "en": "the more your ego dissolves"}
+  ],
+  "also_read": {
+    "talk": "what_is_a_guru",
+    "after": {"hi": "शरण किसकी: जीवित गुरु की", "en": "Whose Refuge? A Living Guru"}
+  },
+  "related": ["when_disciple_become_truly_powerful", "know_kind_student_shishya", "true_disciple_change_your_life"],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "sarva-dharman-parityajya-ka-arth",
+      "focus_keyword": "सर्वधर्मान्परित्यज्य का अर्थ",
+      "secondary_keywords": ["गीता 18.66 का अर्थ", "गुरु की शरण", "शरणागति क्या है", "जीवित गुरु का महत्व"],
+      "meta_description": "गीता 18.66 'सर्वधर्मान्परित्यज्य' का अर्थ क्या है? आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",
+      "tags": ["भगवद्गीता", "शरणागति", "सद्गुरु", "कर्तव्य", "अहंकार"]
+    },
+    "en": {
+      "slug": "sarva-dharman-parityajya-meaning",
+      "focus_keyword": "sarva dharman parityajya meaning",
+      "secondary_keywords": ["Bhagavad Gita 18.66 meaning", "surrender to the Guru", "what is sharanagati", "importance of a living Guru"],
+      "meta_description": "What does Gita 18.66, sarva dharman parityajya, really mean? Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing beats miracles.",
+      "tags": ["Bhagavad Gita", "Sharanagati", "Sadguru", "Duty", "Ego"]
+    }
+  }
+}

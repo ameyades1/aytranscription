@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "अस्थिर संसार में स्थिर क्या है? दुःख से मुक्ति का एक बोध",
+    "en": "Nothing Lasts Forever: One Realisation That Frees You"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त की सुनहरी रोशनी में पत्थर के पुराने कुंड के जल पर तैरता गुलाबी कमल, चारों ओर फैलती लहरें और कमल के पत्ते",
+      "en": "A pink lotus floating on rippling water in an old stone temple tank, lit by golden sunset light, with lily pads around it"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की मेज़ पर पुराने पीले कागज़ों के ढेर पर रखा लोहे की पुरानी चाबियों का गुच्छा, पीछे फ़ाइलें और पीतल की दवात",
+      "en": "A ring of old iron keys resting on a stack of yellowed papers on a wooden desk, with files and brass inkwells behind"
+    },
+    "KLcdi0TBvIc.jpg": {
+      "hi": "वीडियो: Nothing You Love Will Stay Forever, आचार्य उपेंद्र जी, पीछे आग में जलती एक पुरानी कार",
+      "en": "Video: Nothing You Love Will Stay Forever, Acharya Upendra Ji with an old car in flames behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जल में रहकर भी अलिप्त",
+      "en": "In the water, yet untouched"
+    },
+    "inline.jpg": {
+      "hi": "करार लंबा, जीवन अनिश्चित",
+      "en": "A long lease, an uncertain life"
+    }
+  },
+  "links": [
+    {
+      "talk": "art_living_life",
+      "hi": "स्वयं हमें ही सब कुछ छोड़कर जाना पड़ता है",
+      "en": "we ourselves have to leave everything behind and go"
+    },
+    {
+      "talk": "trapped_illusory_happiness",
+      "hi": "गारंटी वाला सुख खोजने के लिए वह चीज़ों के पीछे दौड़ रहा है",
+      "en": "he chases after things in search of a happiness that comes with a guarantee"
+    },
+    {
+      "talk": "big_pitru_dosh_understanding_pitru_rin",
+      "hi": "यही पितर बनने का रास्ता है",
+      "en": "the road to becoming a pitar"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "उस अस्थिरता में कुछ स्थिर खोजना होगा",
+      "en": "find something steady within that instability"
+    },
+    {
+      "talk": "not_wait_until_retirement_transform_life",
+      "hi": "आध्यात्मिक जीवन अभी ज़रा भी शुरू नहीं किया",
+      "en": "not yet begun a spiritual life at all"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_age_matters_physical_age",
+    "after": {
+      "hi": "पचास के बाद धीरे-धीरे अलिप्त होना क्यों?",
+      "en": "Why Begin Letting Go After Fifty?"
+    }
+  },
+  "related": [
+    "joy_sorrow_transformation",
+    "secret_ultimate_happiness",
+    "mrityu_versus_moksha"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "asthir-sansar-mein-sthir-kya-hai",
+      "focus_keyword": "अस्थिर संसार में स्थिर क्या है",
+      "secondary_keywords": [
+        "वानप्रस्थ आश्रम का अर्थ",
+        "पचास के बाद विरक्ति",
+        "दुःख से मुक्ति कैसे पाएं",
+        "भोग को योग में बदलना"
+      ],
+      "meta_description": "संसार को तुम छोड़ोगे या संसार तुम्हें छोड़ देगा। आचार्य उपेंद्र जी बताते हैं कि अस्थिर संसार में स्थिर क्या है, और पचास के बाद वानप्रस्थ का अर्थ क्या है।",
+      "tags": [
+        "अनित्यता",
+        "मोह",
+        "वैराग्य",
+        "माया",
+        "अहंकार"
+      ]
+    },
+    "en": {
+      "slug": "nothing-lasts-forever",
+      "focus_keyword": "nothing lasts forever",
+      "secondary_keywords": [
+        "vanaprastha meaning",
+        "detachment after 50",
+        "how to be free from suffering",
+        "turning bhoga into yoga"
+      ],
+      "meta_description": "Body, wealth and relationships all change. Acharya Upendra Ji explains what stays steady when nothing lasts forever, and why vanaprastha begins at home.",
+      "tags": [
+        "Impermanence",
+        "Attachment",
+        "Vairagya",
+        "Maya",
+        "Ego"
+      ]
+    }
+  }
+}

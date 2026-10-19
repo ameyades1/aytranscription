@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "पितृ ऋण का सच्चा अर्थ: श्राद्ध से पहले माता-पिता की सेवा",
+    "en": "Pitru Rin Meaning: Serve Your Parents While They Are Alive"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "घर में पलंग पर बैठे सफ़ेद कपड़ों में बुज़ुर्ग पिता के पैर उनका बेटा पीतल की परात में श्रद्धा से धो रहा है, पास में दीवार से टिकी लाठी",
+      "en": "A son kneeling at home, gently washing his elderly father's feet in a brass basin as the father sits on the bed, a walking stick leaning nearby"
+    },
+    "inline.jpg": {
+      "hi": "घर में दादा-दादी के बीच बैठा छोटा पोता खिलखिलाकर हँस रहा है और दोनों बुज़ुर्ग प्रेम से उसके साथ हँस रहे हैं",
+      "en": "A little boy laughing out loud between his smiling grandmother and grandfather as they sit together at home"
+    },
+    "nCLeNTnp9Kw.jpg": {
+      "hi": "वीडियो: जीते जी पितृ ऋण चुकाएँ, माता-पिता की सेवा करता परिवार, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Fulfil Pitru Rin While They Are Alive, a family caring for elderly parents, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सेवा जीते जी, श्रद्धा सदा",
+      "en": "Serve them while they are here"
+    },
+    "inline.jpg": {
+      "hi": "लाठी ही नहीं, आनंद भी",
+      "en": "Not just their support, their joy"
+    }
+  },
+  "links": [
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "क्योंकि तब वे पितर बनते हैं",
+      "en": "that is how a person becomes a pitar"
+    },
+    {
+      "talk": "mahalay_shraddha_matters_truth_about_pitru",
+      "hi": "बाद में श्राद्ध करना गलत नहीं है",
+      "en": "there is nothing wrong with performing shraddha afterwards"
+    },
+    {
+      "talk": "gau_seva_antar_yog_purity_prosperity",
+      "hi": "गौ-सेवा",
+      "en": "go-seva"
+    },
+    {
+      "talk": "big_pitru_dosh_understanding_pitru_rin",
+      "hi": "पूरे परिवार को आशीर्वाद देते रहेंगे",
+      "en": "those ancestors go on blessing the whole family"
+    }
+  ],
+  "also_read": {
+    "talk": "mrityu_versus_moksha",
+    "after": {
+      "hi": "जिस घर में श्राद्ध की ज़रूरत ही न पड़े",
+      "en": "A Home That Never Needs Shraddha"
+    }
+  },
+  "related": [
+    "big_pitru_dosh_understanding_pitru_rin",
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "pind_daan"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "pitru-rin-ka-sachcha-arth",
+      "focus_keyword": "पितृ ऋण का अर्थ",
+      "secondary_keywords": [
+        "पितृ ऋण कैसे चुकाएं",
+        "जीते जी माता-पिता की सेवा",
+        "मातृदेवो भव पितृदेवो भव का अर्थ",
+        "बाद में श्राद्ध करने से लाभ"
+      ],
+      "meta_description": "पितृ ऋण का सच्चा अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।",
+      "tags": [
+        "पितृ ऋण",
+        "श्राद्ध",
+        "पितर",
+        "सेवा",
+        "उपनिषद"
+      ]
+    },
+    "en": {
+      "slug": "pitru-rin-meaning",
+      "focus_keyword": "pitru rin meaning",
+      "secondary_keywords": [
+        "how to repay pitru rin",
+        "serving parents while they are alive",
+        "matru devo bhava meaning",
+        "shraddha after neglecting parents"
+      ],
+      "meta_description": "What does pitru rin truly mean? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they live.",
+      "tags": [
+        "Pitru Rin",
+        "Shraddha",
+        "Ancestors",
+        "Seva",
+        "Upanishads"
+      ]
+    }
+  }
+}

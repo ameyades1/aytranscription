@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "उपादान और निमित्त कारण: घड़ा कौन बनाता है?",
+    "en": "Material and Efficient Cause: Who Really Makes the Pot?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "चाक पर घूमते मिट्टी के घड़े को गीले हाथों से आकार देता कुम्हार, पास में मिट्टी का ढेर, पानी का बर्तन और पीछे सूखते घड़े",
+      "en": "A potter shaping a clay pot on a spinning wheel with wet, muddy hands, a heap of clay beside him, a bowl of water and drying pots behind"
+    },
+    "inline.jpg": {
+      "hi": "गांव के खपरैल वाले छप्पर के नीचे चाक के पास बैठा बुज़ुर्ग कुम्हार, सामने कतार में रखे अनेक बने हुए मिट्टी के घड़े",
+      "en": "An elderly village potter seated at his wheel under a tiled roof, with rows of many finished clay pots in front of him"
+    },
+    "-MdwHudA9q0.jpg": {
+      "hi": "वीडियो: \"Who Really Creates Your Life? The Two Causes You Must Know\", तारों भरे आकाश के आगे सफ़ेद कुर्ते में आचार्य उपेंद्र जी और \"You're Doing Everything... But Something's Missing!\" लिखा शीर्षक",
+      "en": "Video: \"Who Really Creates Your Life? The Two Causes You Must Know\", Acharya Upendra Ji in a white kurta against a starry sky, with the words \"You're Doing Everything... But Something's Missing!\""
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मिट्टी, चाक और करने वाले हाथ",
+      "en": "Clay, wheel and the hands that shape them"
+    },
+    "inline.jpg": {
+      "hi": "घड़े अनेक, पर कर्ता कौन?",
+      "en": "Many pots, but who is the maker?"
+    }
+  },
+  "links": [
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "उसके आगे कोई शक्ति है, पहले उसे समझो",
+      "en": "A power stands beyond that claim, and we must first come to understand it"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "वेदांत एक-एक करके चीज़ों को उपादान की ओर रखता जाता है",
+      "en": "Vedanta moves one thing after another over to the side of the material cause"
+    },
+    {
+      "talk": "control_your_mind_before_it_controls_you",
+      "hi": "मूड ठीक हो, तभी काम होता है",
+      "en": "Work happens only when your mood allows it"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "अहंकार के ऊपर की जो उच्चतर स्थितियां हैं",
+      "en": "Among the higher states that lie above the ego"
+    }
+  ],
+  "also_read": {
+    "talk": "worldly_maya_makes_forget_true_self",
+    "after": {
+      "hi": "व्यक्ति भी सामग्री ही है",
+      "en": "The Person Is Material Too"
+    }
+  },
+  "related": [
+    "who_real_doer_karma_ego_bhagavad",
+    "decides_destiny",
+    "knowledge_work_for_you"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "upadan-aur-nimitt-karan",
+      "focus_keyword": "उपादान और निमित्त कारण",
+      "secondary_keywords": [
+        "उपादान कारण क्या है",
+        "निमित्त कारण का अर्थ",
+        "असली कर्ता कौन है",
+        "मैंने किया का अहंकार"
+      ],
+      "meta_description": "उपादान और निमित्त कारण क्या हैं? कुम्हार और घड़े के उदाहरण से आचार्य उपेंद्र जी समझाते हैं कि \"मैंने बनाया\" कहने वाला अहंकार असली कर्ता क्यों नहीं है।",
+      "tags": [
+        "अद्वैत वेदांत",
+        "अहंकार",
+        "ब्रह्म सूत्र",
+        "गणेश"
+      ]
+    },
+    "en": {
+      "slug": "material-and-efficient-cause-vedanta",
+      "focus_keyword": "material and efficient cause in Vedanta",
+      "secondary_keywords": [
+        "upadana karana and nimitta karana",
+        "who is the real doer",
+        "ego and doership",
+        "Brahma Sutras potter and pot"
+      ],
+      "meta_description": "What are the material and efficient causes in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the \"I made it\" ego is not the true doer.",
+      "tags": [
+        "Advaita Vedanta",
+        "Ego",
+        "Brahma Sutras",
+        "Ganesh"
+      ]
+    }
+  }
+}

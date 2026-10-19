@@ -1,0 +1,99 @@
+{
+  "title": {
+    "hi": "गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है",
+    "en": "How to Choose a Ganesh Idol: Whose Form Should It Follow?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मूर्तिकार की कार्यशाला में मेज़ों पर सजी अलग-अलग रंग और आकार की गणपति मूर्तियां, बीच में बिना रंग की मिट्टी की मूर्ति और पीछे काम करते कारीगर",
+      "en": "Ganesh idols of many colours and sizes on workbenches in a sculptor's workshop, an unpainted clay idol among them and artisans at work behind"
+    },
+    "inline.jpg": {
+      "hi": "दीयों और गेंदे की पंखुड़ियों से सजी प्राचीन मंदिर की पत्थर की सीढ़ियां, जो ऊपर उजले आकाश की ओर जाती हैं",
+      "en": "Ancient stone temple steps lined with diyas and marigold petals, rising toward a bright open sky"
+    },
+    "WgP-OmokJAw.jpg": {
+      "hi": "वीडियो: हर गणपति की मूर्ति अलग क्यों दिखती है, गणेश सीरीज़ भाग 7, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Why Does Every Ganesh Idol Look Different?, Ganesh Series Ep 7, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रूप अनेक, पसंद किसकी?",
+      "en": "So many forms, but whose choice?"
+    },
+    "inline.jpg": {
+      "hi": "साकार से निराकार की ओर",
+      "en": "From form toward the formless"
+    }
+  },
+  "links": [
+    {
+      "talk": "ganpati_visarjan_tradition",
+      "hi": "न सजावट की प्रतियोगिता है, न कलाकारी की",
+      "en": "neither a decorating contest nor an art competition"
+    },
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "ऋषियों की अनुभूति से जन्मी कल्पना",
+      "en": "follow their vision, not our own imagination"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "वह परमात्मा जिसका कोई रूप नहीं",
+      "en": "God beyond all form"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "हर नाम, हर रूप का एक प्रतीकात्मक अर्थ है",
+      "en": "Every name and every form carries a symbolic meaning"
+    }
+  ],
+  "also_read": {
+    "talk": "worship_ganesh_every_year_but_understand",
+    "after": {
+      "hi": "बालवाड़ी से पहली कक्षा तक",
+      "en": "From Balwadi to First Grade"
+    }
+  },
+  "related": [
+    "ganesh_have_elephant_head_mouse",
+    "truth_about_lord_ganesh",
+    "hidden_meaning_behind_10_days_ganesh"
+  ],
+  "wordpress": {
+    "category": "festivals",
+    "hi": {
+      "slug": "ganpati-ki-murti-kaisi-ho",
+      "focus_keyword": "गणपति की मूर्ति कैसी होनी चाहिए",
+      "secondary_keywords": [
+        "गणेश मूर्ति कैसे चुनें",
+        "हर गणपति की मूर्ति अलग क्यों",
+        "साकार और निराकार पूजा"
+      ],
+      "meta_description": "गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है।",
+      "tags": [
+        "गणेश चतुर्थी",
+        "गणेश सीरीज़",
+        "मूर्ति पूजा",
+        "साकार और निराकार"
+      ]
+    },
+    "en": {
+      "slug": "how-to-choose-ganesh-idol",
+      "focus_keyword": "how to choose a Ganesh idol",
+      "secondary_keywords": [
+        "which Ganpati idol to bring home",
+        "why every Ganesh idol looks different",
+        "sakar and nirakar worship"
+      ],
+      "meta_description": "How to choose a Ganesh idol? Acharya Upendra Ji explains why its form should follow the sages' description, not trends, and why the idol is a first step.",
+      "tags": [
+        "Ganesh Chaturthi",
+        "Ganesh Series",
+        "Idol worship",
+        "Sakar and Nirakar"
+      ]
+    }
+  }
+}

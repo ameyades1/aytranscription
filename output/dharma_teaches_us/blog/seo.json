@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "धर्म का असली सार: संत-वाणी और परमात्मा-वाणी का भेद",
+    "en": "True Essence of Dharma: Word of Saints vs Word of God"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन पत्थर के मंदिर में नक्काशीदार लकड़ी की रेहल पर खुला पुराना ग्रंथ, पास में गेंदे के फूल, अगरबत्ती और जलते दीपक वाली पीतल की थाली",
+      "en": "An old open scripture resting on a carved wooden book stand in an ancient stone temple, with marigolds, incense and a lit lamp on a brass plate beside it"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर की पत्थर की मुंडेर पर साथ-साथ जलते तीन अलग दीपक: पीतल का ऊँचा समई, मिट्टी का दीया और नक्काशीदार पीतल का दीपक",
+      "en": "Three different lamps burning side by side on a stone ledge in a temple: a tall brass lamp, a clay diya and an ornate brass lamp"
+    },
+    "h1HWI6ycCzw.jpg": {
+      "hi": "वीडियो: गणेश सीरीज़ एपिसोड १५, \"करो तो ठीक से करो, वरना कुछ मत करो\", ब्रह्मर्षि आचार्य उपेंद्र जी, साथ में निशाने के बीच लगा तीर",
+      "en": "Video: Ganesh Series episode 15, \"If you do it, do it properly, or do not do it at all\", Brahmarshi Acharya Upendra Ji beside a dart in the bullseye"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "वचन के पीछे छिपा तत्त्व",
+      "en": "The essence behind the word"
+    },
+    "inline.jpg": {
+      "hi": "दीप अनेक, ज्योति एक",
+      "en": "Many lamps, one flame"
+    }
+  },
+  "links": [
+    {
+      "talk": "ultimate_source_learn_about_every_religion",
+      "hi": "तत्व एक है, कहानियां अलग हैं, कर्मकांड अलग हैं",
+      "en": "The essence is one; only the stories and rituals differ"
+    },
+    {
+      "talk": "know_your_lord_before_worship",
+      "hi": "हम बच्चों को धर्म तो बहुत सिखाते हैं, पर उसका अर्थ नहीं बताते",
+      "en": "we teach children a great deal of religion but never explain what it means"
+    },
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "तैंतीस कोटि देवता",
+      "en": "fifty different forms of the Divine"
+    },
+    {
+      "talk": "only_way_know_god",
+      "hi": "रूप साधक की सुविधा है, ब्रह्म तो अनंत है",
+      "en": "A form is there to help the seeker"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_meaning_secularism_independence_day_special",
+    "after": {
+      "hi": "हम कहां अटक जाते हैं?",
+      "en": "Where Do We Get Stuck?"
+    }
+  },
+  "related": [
+    "evolution_of_dharma_sanatan_dharma",
+    "need_murtis_symbols_understand_god",
+    "why_society_remains_divided_interview"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "dharma-ka-asli-saar",
+      "focus_keyword": "धर्म का असली सार",
+      "secondary_keywords": [
+        "धर्म हमें क्या सिखाता है",
+        "संत वाणी और परमात्मा वाणी में अंतर",
+        "हर धर्म के तीन भाग",
+        "मेरा भगवान तेरे भगवान से बड़ा"
+      ],
+      "meta_description": "धर्म का असली सार क्या है? आचार्य उपेंद्र जी बताते हैं कि परमात्मा की वाणी सार्वभौमिक है, संत-वाणी देश-काल से बंधी, और हर धर्म के तीन भाग हैं पर तत्त्व एक है।",
+      "tags": [
+        "अद्वैत वेदांत",
+        "इष्ट देवता",
+        "ब्रह्मचर्य",
+        "सर्वधर्म समभाव",
+        "गणेश सीरीज़"
+      ]
+    },
+    "en": {
+      "slug": "true-essence-of-dharma",
+      "focus_keyword": "true essence of dharma",
+      "secondary_keywords": [
+        "what does dharma teach us",
+        "word of saints vs word of God",
+        "three parts of every religion",
+        "my God is greater than yours"
+      ],
+      "meta_description": "What is the true essence of dharma? Acharya Upendra Ji explains how God's universal word differs from a saint's word, and the three parts of each religion.",
+      "tags": [
+        "Advaita Vedanta",
+        "Ishta Devata",
+        "Brahmacharya",
+        "Interfaith Harmony",
+        "Ganesh Series"
+      ]
+    }
+  }
+}

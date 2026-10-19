@@ -1,0 +1,110 @@
+{
+  "title": {
+    "hi": "गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम",
+    "en": "Ganesh Chaturthi to Diwali: The Hidden Order of Festivals"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय गेंदे की मालाओं से सजी गणेश प्रतिमा, आगे रंगोली पर दूर तक जलते दीयों की पंक्ति और उत्सव में चलते लोग",
+      "en": "A marigold-garlanded Ganesha idol at sunset, with a long row of lit diyas on rangoli leading towards people walking in celebration"
+    },
+    "inline.jpg": {
+      "hi": "दीयों से प्रकाशित कमरे में आँखें बंद कर ध्यान करता युवक, सीने से प्रकाश फूटता हुआ, जबकि खिड़की के बाहर आसमान में आतिशबाज़ी",
+      "en": "A young man meditating with eyes closed in a lamplit room, light glowing from his chest, while fireworks burst in the sky outside the window"
+    },
+    "HB9KQtNP1K8.jpg": {
+      "hi": "वीडियो: गणेश चतुर्थी, पितृपक्ष, नवरात्रि और दिवाली इसी क्रम में क्यों आते हैं, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Why Do Ganesh Chaturthi, Pitru Paksha, Navratri and Diwali Come in This Order? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हर पर्व, नर से नारायण की ओर एक कदम",
+      "en": "Each festival, a step from Nara to Narayana"
+    },
+    "inline.jpg": {
+      "hi": "असली आतिशबाज़ी भीतर",
+      "en": "The real fireworks are within"
+    }
+  },
+  "links": [
+    {
+      "talk": "hidden_meaning_behind_10_days_ganesh",
+      "hi": "गणपति के दस दिन",
+      "en": "the ten days of Ganapati"
+    },
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पितृ ऋण",
+      "en": "pitru rina"
+    },
+    {
+      "talk": "unlock_divine_energy_durga_saptashati_mantra",
+      "hi": "दुर्गा सप्तशती की साधना",
+      "en": "Durga Saptashati"
+    },
+    {
+      "talk": "truth_about_brahmacharya_exposed_video",
+      "hi": "स्वयं ब्रह्मचर्य का पालन करके",
+      "en": "practising brahmacharya yourself"
+    },
+    {
+      "talk": "spiritual_age_matters_physical_age",
+      "hi": "हमारी आध्यात्मिक आयु",
+      "en": "our spiritual age"
+    }
+  ],
+  "also_read": {
+    "talk": "attain_divine_qualities_empower_spiritual",
+    "after": {
+      "hi": "नरक चतुर्दशी: आख़िरी अंधेरा",
+      "en": "Naraka Chaturdashi: The Last Darkness"
+    }
+  },
+  "related": [
+    "hidden_meaning_behind_10_days_ganesh",
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "awaken_divine_shakti_kali_lakshmi_saraswati"
+  ],
+  "wordpress": {
+    "category": "festivals",
+    "hi": {
+      "slug": "tyoharon-ka-adhyatmik-kram",
+      "focus_keyword": "त्योहारों का आध्यात्मिक क्रम",
+      "secondary_keywords": [
+        "गणेश चतुर्थी से दिवाली तक",
+        "नरक चतुर्दशी का आध्यात्मिक अर्थ",
+        "दिवाली पर पटाखों का अर्थ",
+        "नर से नारायण"
+      ],
+      "meta_description": "पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली, यही क्रम क्यों? आचार्य उपेंद्र जी बताते हैं कि हर त्योहार छुट्टी नहीं, नर से नारायण की यात्रा का एक पड़ाव है।",
+      "tags": [
+        "गणेश सीरीज़",
+        "गणेश चतुर्थी",
+        "पितृ पक्ष",
+        "नवरात्रि",
+        "दिवाली",
+        "ब्रह्मचर्य"
+      ]
+    },
+    "en": {
+      "slug": "hidden-order-of-hindu-festivals",
+      "focus_keyword": "spiritual order of Hindu festivals",
+      "secondary_keywords": [
+        "Ganesh Chaturthi to Diwali",
+        "Naraka Chaturdashi spiritual meaning",
+        "spiritual meaning of Diwali firecrackers",
+        "Nara to Narayana"
+      ],
+      "meta_description": "Why does Ganapati come first, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji sees each festival as a step from Nara to Narayana, not a holiday.",
+      "tags": [
+        "Ganesh Series",
+        "Ganesh Chaturthi",
+        "Pitru Paksha",
+        "Navratri",
+        "Diwali",
+        "Brahmacharya"
+      ]
+    }
+  }
+}

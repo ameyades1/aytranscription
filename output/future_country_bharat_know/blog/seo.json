@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "भारत का भविष्य: आध्यात्मिक शक्ति से बदलेगा देश",
+    "en": "The Future of Bharat: Why Spiritual Strength Must Grow"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय चट्टान पर खड़े और बैठे युवा भारतीय स्त्री-पुरुष, नीचे खेतों, नदी, पुल और मंदिरों वाली घाटी को निहारते हुए",
+      "en": "Young Indian men and women on a rocky hilltop at sunrise, looking out over a valley of fields, a river, a bridge and temples"
+    },
+    "inline.jpg": {
+      "hi": "तूफ़ान के बाद पहाड़ी पर अडिग खड़ा एक पेड़, पास में टूटी डालियाँ और काले बादलों को चीरती सूरज की किरणें",
+      "en": "A lone tree standing firm on a hill after a storm, broken branches at its feet and sunlight breaking through dark clouds"
+    },
+    "8LoNGJLVvs4.jpg": {
+      "hi": "वीडियो: The Future of Our Country Bharat You Must Know, आचार्य उपेंद्र जी, पीछे नीले आकाश में भारत का मानचित्र",
+      "en": "Video: The Future of Our Country Bharat You Must Know, Acharya Upendra Ji with a map of India in a blue sky"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "देश बदलने में सबकी भूमिका",
+      "en": "Everyone has a part to play"
+    },
+    "inline.jpg": {
+      "hi": "जो साधना में जड़ें जमाए, वही टिकेगा",
+      "en": "Rooted in sadhana, it stands"
+    }
+  },
+  "links": [
+    {
+      "talk": "when_kalki_avatar_come",
+      "hi": "किसी एक महापुरुष या गुरु का है",
+      "en": "the work of one great soul or one Guru"
+    },
+    {
+      "talk": "power_of_collectivity",
+      "hi": "भूमिका तो सबकी होती है",
+      "en": "everyone has a part to play"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "नया प्रशासन आना है",
+      "en": "If a new administration is to come"
+    },
+    {
+      "talk": "satyug_rules_kaliyug_different_path",
+      "hi": "भारत का भविष्य उज्ज्वल है",
+      "en": "Bharat has a bright future"
+    },
+    {
+      "talk": "missing_step_blocking_spiritual_success",
+      "hi": "जो आध्यात्मिक साधना करेंगे",
+      "en": "those who practise spiritual sadhana"
+    }
+  ],
+  "also_read": {
+    "talk": "what_is_a_guru",
+    "after": {
+      "hi": "क्या भारत को बदलना केवल गुरु का काम है?",
+      "en": "Is Changing Bharat the Guru's Job Alone?"
+    }
+  },
+  "related": [
+    "satyug_rules_kaliyug_different_path",
+    "when_kalki_avatar_come",
+    "ideal_king_sanatan_rashtra_interview"
+  ],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "bharat-ka-bhavishya",
+      "focus_keyword": "भारत का भविष्य",
+      "secondary_keywords": [
+        "भारत कैसे बदलेगा",
+        "देश बदलने में हमारी भूमिका",
+        "आध्यात्मिक शक्ति और राष्ट्र",
+        "नाड़ी भविष्यवाणी भारत"
+      ],
+      "meta_description": "भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी बताते हैं: भविष्य उज्ज्वल है, पर कठिनाइयों से होकर; देश बदलने में सबकी भूमिका है, आधार है आध्यात्मिक शक्ति।",
+      "tags": [
+        "राष्ट्र निर्माण",
+        "नेतृत्व",
+        "अंतर योग",
+        "आध्यात्मिक शक्ति"
+      ]
+    },
+    "en": {
+      "slug": "future-of-bharat",
+      "focus_keyword": "future of Bharat",
+      "secondary_keywords": [
+        "who will change India",
+        "role of citizens in changing India",
+        "spiritual transformation of India",
+        "Nadi prediction about India"
+      ],
+      "meta_description": "What is the future of Bharat? Acharya Upendra Ji says it is bright but comes through hardship, and a new Bharat rests on growing spiritual strength.",
+      "tags": [
+        "Nation Building",
+        "Leadership",
+        "Antar Yog",
+        "Spiritual Strength"
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": {
+    "hi": "विश्वास से उपचार: प्लेसिबो, नोसिबो और श्रद्धा का विज्ञान",
+    "en": "The Power of Belief in Healing: Placebo, Nocebo and Faith"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "गाँव के एक घर में सफ़ेद कोट और स्टेथोस्कोप पहने युवा डॉक्टर, नारंगी साड़ी पहनी बुज़ुर्ग महिला का हाथ थामे मुस्कुराते हुए उनसे बात करते हुए",
+      "en": "A young doctor in a white coat and stethoscope holding the hand of an elderly woman in an orange sari as they smile at each other in a village home"
+    },
+    "inline.jpg": {
+      "hi": "पुराने घर के आँगन में चमड़े का बैग लिए बैठे मुस्कुराते बुज़ुर्ग पारिवारिक डॉक्टर, सामने एक माँ और दो बच्चे उन्हें सुनते हुए",
+      "en": "A smiling elderly family doctor with a leather bag sitting in the courtyard of an old home, as a mother and two children listen to him"
+    },
+    "x0tGU8YmWDQ.jpg": {
+      "hi": "वीडियो: The Power of Healing is Within You, ब्रह्मर्षि आचार्य उपेंद्र जी और चक्रों के साथ ध्यान में बैठी आकृति",
+      "en": "Video: The Power of Healing is Within You, Brahmarshi Acharya Upendra Ji beside a meditating figure with glowing chakras"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "भरोसा भी उपचार का हिस्सा है",
+      "en": "Trust is part of the cure"
+    },
+    "inline.jpg": {
+      "hi": "जब डॉक्टर परिवार का सदस्य था",
+      "en": "When the doctor was one of the family"
+    }
+  },
+  "links": [
+    {
+      "talk": "water_is_your_first_medicine",
+      "hi": "उसमें दवा नहीं थी, केवल पानी था",
+      "en": "The syringe held no medicine, only water"
+    },
+    {
+      "talk": "physical_mental_strength_spiritual_path",
+      "hi": "अधिकतर तो रोगी स्वयं ही आशा छोड़ देता है",
+      "en": "it is the patients themselves who give up hope"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "चार गुरुओं से पूछकर करता हूँ",
+      "en": "I consult four gurus before I act"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "पहला ही इतना अच्छा चुनें कि उसे पूरा समर्पण कर सकें",
+      "en": "choose the first one so carefully that you can surrender to them fully"
+    }
+  ],
+  "also_read": {
+    "talk": "being_presence_guru_changes_way_think",
+    "after": {
+      "hi": "जब डॉक्टर \"काका\" हुआ करते थे",
+      "en": "When the Doctor Was \"Kaka\""
+    }
+  },
+  "related": [
+    "physical_mental_strength_spiritual_path",
+    "water_is_your_first_medicine",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "vishwas-se-upchar",
+      "focus_keyword": "विश्वास से उपचार",
+      "secondary_keywords": [
+        "प्लेसिबो प्रभाव क्या है",
+        "नोसिबो प्रभाव",
+        "श्रद्धा का विज्ञान"
+      ],
+      "meta_description": "एक ही दवा किसी को ठीक करती है, किसी पर असर नहीं करती। आचार्य उपेंद्र जी बताते हैं विश्वास से उपचार का विज्ञान: प्लेसिबो, नोसिबो और उपचार के तीन स्तंभ।",
+      "tags": [
+        "आस्था",
+        "आत्मविश्वास",
+        "स्वास्थ्य"
+      ]
+    },
+    "en": {
+      "slug": "power-of-belief-in-healing",
+      "focus_keyword": "power of belief in healing",
+      "secondary_keywords": [
+        "placebo and nocebo effect",
+        "faith and healing",
+        "trust in your doctor"
+      ],
+      "meta_description": "Why does the same medicine heal one person and not another? Acharya Upendra Ji explains the power of belief in healing, the placebo and the nocebo effect.",
+      "tags": [
+        "Faith",
+        "Self-Confidence",
+        "Health"
+      ]
+    }
+  }
+}

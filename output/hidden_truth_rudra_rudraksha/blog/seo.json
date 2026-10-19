@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "रुद्राक्ष का अर्थ: रुद्र कौन है और गुरु क्यों रोते हैं",
+    "en": "Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "काले कपड़े पर बिछी रुद्राक्ष की माला, एक मनके पर आँसू जैसी पानी की एक बूँद, पीछे पीतल का दीपक",
+      "en": "A rudraksha mala on dark cloth with a single tear-like drop of water on one bead, a brass lamp in the background"
+    },
+    "inline.jpg": {
+      "hi": "भगवा वस्त्र में एक साधु, पीछे से दिखते हुए, सूर्यास्त के समय नदी किनारे बसे शहर और मंदिरों के शिखरों को निहारते हुए",
+      "en": "A sage in saffron robes, seen from behind, gazing over a riverside city and temple spires at sunset"
+    },
+    "337o_M4hQlc.jpg": {
+      "hi": "वीडियो: रुद्र और रुद्राक्ष का रहस्य, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Mysteries of Rudra and Rudraksha, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "गुरु का एक आँसू",
+      "en": "A single tear of the Guru"
+    },
+    "inline.jpg": {
+      "hi": "पूरे संसार के लिए गुरु की करुणा",
+      "en": "The Guru's compassion for the whole world"
+    }
+  },
+  "links": [
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "तैंतीस कोटि देवताओं",
+      "en": "thirty-three categories of gods"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "गुरु ही शिव है और शिव ही गुरु है",
+      "en": "the Guru is Shiva and Shiva is the Guru"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "वह पुण्य किसी गुरु कृपा से ही बना था",
+      "en": "That merit was itself built"
+    },
+    {
+      "talk": "awaken_inner_shiv_shakti_maha_shivratri",
+      "hi": "शिव साधना करने वालों",
+      "en": "those who practise Shiva sadhana"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "वेद की कक्षा तो दुनिया भर में चलेगी",
+      "en": "Classes on the Vedas will go on all over the world"
+    }
+  ],
+  "also_read": {
+    "talk": "surrendering_to_guru",
+    "after": {
+      "hi": "वेद नहीं, वेदांत",
+      "en": "Not the Vedas, but Vedanta"
+    }
+  },
+  "related": [
+    "hidden_meaning_spiritual_symbols",
+    "being_presence_guru_changes_way_think",
+    "guru_and_disciple_highest_form_love"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "rudraksha-ka-arth",
+      "focus_keyword": "रुद्राक्ष का अर्थ",
+      "secondary_keywords": [
+        "रुद्र का अर्थ",
+        "रुद्राक्ष धारण करने का अर्थ",
+        "ग्यारह रुद्र कौन हैं",
+        "रुद्र और रौद्र में अंतर"
+      ],
+      "meta_description": "रुद्राक्ष का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि रुद्र क्रोध नहीं, वह है जिसकी कमी रुलाती है, और रुद्राक्ष धारण करना गुरु का निरंतर स्मरण क्यों है।",
+      "tags": [
+        "रुद्राक्ष",
+        "शिव",
+        "सद्गुरु",
+        "प्रतीकवाद",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "rudraksha-meaning",
+      "focus_keyword": "rudraksha meaning",
+      "secondary_keywords": [
+        "meaning of Rudra",
+        "what does wearing rudraksha mean",
+        "eleven Rudras",
+        "Rudra and Raudra difference"
+      ],
+      "meta_description": "What does rudraksha really mean? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.",
+      "tags": [
+        "Rudraksha",
+        "Shiva",
+        "Sadguru",
+        "Symbolism",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

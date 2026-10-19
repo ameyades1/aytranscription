@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "गुरु पूर्णिमा का आध्यात्मिक अर्थ और व्यास का असली अर्थ",
+    "en": "Spiritual Meaning of Guru Purnima and Who Vyasa Really Was"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पूर्णिमा की रात नदी किनारे दीपों से जगमगाता मंदिर और घाट, सीढ़ियों पर ध्यान में बैठे श्वेत वस्त्रधारी साधक, जल पर चांदनी",
+      "en": "A full moon over a river ghat at night, a lamp-lit temple and devotees in white seated in meditation on the steps, moonlight on the water"
+    },
+    "inline.jpg": {
+      "hi": "भोर में नदी के घाट पर बैठा एक साधक उगते सूर्य को देख रहा है, ऊपर आकाश में चंद्रमा भी दिख रहा है, दूर नावें और घाट की इमारतें",
+      "en": "A seeker seated on a river ghat at dawn, facing the rising sun while the moon still shows in the sky, with boats and ghat buildings beyond"
+    },
+    "BkItcK_s7nM.jpg": {
+      "hi": "वीडियो: Real Meaning of Guru Explained, आचार्य उपेंद्र जी, पीछे गुरु के चरणों में दंडवत प्रणाम करता एक शिष्य",
+      "en": "Video: Real Meaning of Guru Explained, Acharya Upendra Ji, with a disciple prostrating at the Guru's feet behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जब मन पर आत्मा का पूरा प्रकाश पड़े",
+      "en": "When the mind reflects the Self in full"
+    },
+    "inline.jpg": {
+      "hi": "सूर्य आत्मा, चंद्र मन",
+      "en": "The sun as the Self, the moon as the mind"
+    }
+  },
+  "links": [
+    {
+      "talk": "mahalay_shraddha_matters_truth_about_pitru",
+      "hi": "पितरों के लिए हम जो कुछ भी करते हैं",
+      "en": "Everything we do for our ancestors"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "मैं यह शरीर नहीं हूं",
+      "en": "I am not this body"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "जिसके मन पर आत्मा का प्रकाश पूरा का पूरा झलकता है",
+      "en": "whose mind reflects the light of the Self completely"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "जानने की प्रक्रिया",
+      "en": "the process of coming to know"
+    },
+    {
+      "talk": "know_your_lord_before_worship",
+      "hi": "ज्ञानी भक्त बनना आवश्यक है",
+      "en": "you must become a devotee who also knows"
+    }
+  ],
+  "also_read": {
+    "talk": "without_guru_scriptures_can_mislead",
+    "after": {
+      "hi": "सत्रह पुराण, फिर भी बेचैनी",
+      "en": "Seventeen Puranas, Yet No Peace"
+    }
+  },
+  "related": [
+    "guru_and_disciple_highest_form_love",
+    "being_presence_guru_changes_way_think",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-purnima-ka-adhyatmik-arth",
+      "focus_keyword": "गुरु पूर्णिमा का आध्यात्मिक अर्थ",
+      "secondary_keywords": [
+        "गुरु पूर्णिमा पूर्णिमा को क्यों होती है",
+        "वेदव्यास का असली नाम",
+        "व्यास का अर्थ",
+        "व्यास पूर्णिमा"
+      ],
+      "meta_description": "गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है? आचार्य उपेंद्र जी बताते हैं सूर्य-चंद्र का प्रतीक, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है।",
+      "tags": [
+        "गुरु पूर्णिमा",
+        "वेदव्यास",
+        "भागवत पुराण",
+        "भक्ति",
+        "वेद"
+      ]
+    },
+    "en": {
+      "slug": "spiritual-meaning-of-guru-purnima",
+      "focus_keyword": "spiritual meaning of Guru Purnima",
+      "secondary_keywords": [
+        "why Guru Purnima is on the full moon",
+        "real name of Vedavyasa",
+        "meaning of Vyasa",
+        "Vyasa Purnima"
+      ],
+      "meta_description": "Why does Guru Purnima fall on the full moon? Acharya Upendra Ji explains the sun-moon symbolism, why Vyasa is a title, and why knowledge needs devotion.",
+      "tags": [
+        "Guru Purnima",
+        "Vedavyasa",
+        "Bhagavata Purana",
+        "Bhakti",
+        "Vedas"
+      ]
+    }
+  }
+}

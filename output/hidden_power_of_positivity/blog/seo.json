@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "भद्रं कर्णेभिः मंत्र का अर्थ: शुभ सुनो, शुभ देखो",
+    "en": "Bhadram Karnebhih Meaning: The Hidden Power of Positivity"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की सुनहरी धूप में बगीचे में आँखें बंद किए मुस्कुराती एक भारतीय महिला, पास में उड़ती चिड़िया और खिले फूल",
+      "en": "An Indian woman with eyes closed and a gentle smile in a garden at golden sunrise, a small bird in flight and flowers in bloom nearby"
+    },
+    "inline.jpg": {
+      "hi": "धूल से सने एक मज़दूर के हाथ, पीछे शाम की रोशनी में जगमगाता नया बना बंगला",
+      "en": "The dust-covered hands of a construction worker in the foreground, with a newly built mansion glowing behind at dusk"
+    },
+    "CE4lUMtfOKw.jpg": {
+      "hi": "वीडियो: सकारात्मकता की छिपी शक्ति, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Discover the Hidden Power of Positivity, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो सुनें, वह शुभ हो",
+      "en": "May what we hear be auspicious"
+    },
+    "inline.jpg": {
+      "hi": "बंगले के पीछे का यज्ञ",
+      "en": "The sacrifice behind the mansion"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_disciple_change_your_life",
+      "hi": "गुरु की वाणी कड़वी दवा जैसी लग सकती है",
+      "en": "can taste like bitter medicine, yet you should still drink them"
+    },
+    {
+      "talk": "shreya_vs_preya_vedantic_wisdom",
+      "hi": "जो केवल प्रिय है, वह भद्र नहीं",
+      "en": "Whatever merely pleases is not bhadra"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "यह सुनकर यदि अहंकार आ गया",
+      "en": "If hearing this makes them proud"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "जीत-हार तो प्रारब्ध है",
+      "en": "are a matter of destiny"
+    }
+  ],
+  "also_read": {
+    "talk": "company_you_keep_shapes_destiny",
+    "after": {
+      "hi": "क्या \"भद्र\" का अर्थ \"मीठा\" है?",
+      "en": "Does \"Bhadra\" Mean \"Pleasant\"?"
+    }
+  },
+  "related": [
+    "shreya_vs_preya_vedantic_wisdom",
+    "company_you_keep_shapes_destiny",
+    "who_real_doer_karma_ego_bhagavad"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "bhadram-karnebhih-mantra-ka-arth",
+      "focus_keyword": "भद्रं कर्णेभिः मंत्र का अर्थ",
+      "secondary_keywords": [
+        "भद्र सुनो भद्र देखो",
+        "यज्ञ का वास्तविक अर्थ",
+        "प्रेय और श्रेय का भेद",
+        "सकारात्मकता की शक्ति"
+      ],
+      "meta_description": "भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना।",
+      "tags": [
+        "शांति मंत्र",
+        "यज्ञ",
+        "भगवद्गीता",
+        "विवेक"
+      ]
+    },
+    "en": {
+      "slug": "bhadram-karnebhih-meaning",
+      "focus_keyword": "Bhadram Karnebhih meaning",
+      "secondary_keywords": [
+        "hidden power of positivity",
+        "true meaning of yajna",
+        "preya and shreya",
+        "hear good see good meaning"
+      ],
+      "meta_description": "What does Bhadram Karnebhih really mean? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.",
+      "tags": [
+        "Shanti Mantra",
+        "Yajna",
+        "Bhagavad Gita",
+        "Viveka"
+      ]
+    }
+  }
+}

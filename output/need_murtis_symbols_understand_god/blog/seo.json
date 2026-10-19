@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "मूर्ति पूजा क्यों करते हैं, जब ईश्वर निराकार है?",
+    "en": "Why Worship a Murti If God Is Formless?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के आले में फूलों की माला पहने हाथ जोड़े बैठी पत्थर की मूर्ति, सामने सुनहरी धूप में बादलों से भरा खुला आकाश",
+      "en": "A garlanded stone murti seated with joined palms in a temple niche, facing a wide cloud-filled sky in golden light"
+    },
+    "inline.jpg": {
+      "hi": "पत्थर के कारखाने में एक दाढ़ी वाले शिल्पी छेनी-हथौड़ी से देवी की अलंकृत पत्थर की मूर्ति गढ़ते हुए",
+      "en": "A bearded sculptor shaping an ornate stone murti of a goddess with chisel and mallet in a stone workshop"
+    },
+    "UWDUuysKBzw.jpg": {
+      "hi": "वीडियो: हर धर्म प्रतीकों का उपयोग क्यों करता है, गणेश सीरीज़ भाग 6, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Why does every religion use symbols, Ganesh Series episode 6, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "साकार के सहारे निराकार की ओर",
+      "en": "Through form, toward the formless"
+    },
+    "inline.jpg": {
+      "hi": "ऋषियों के दर्शन का नक्शा",
+      "en": "A map of the rishis' vision"
+    }
+  },
+  "links": [
+    {
+      "talk": "ultimate_source_learn_about_every_religion",
+      "hi": "हर परंपरा किसी प्रतीक का सहारा लेती है",
+      "en": "every tradition rests on a symbol"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "उस प्रतीक के पीछे कुछ तो होगा",
+      "en": "something will always stand behind it"
+    },
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "पांचों तत्वों में विलीन हो गया",
+      "en": "merged into the five elements"
+    },
+    {
+      "talk": "ganesh_have_elephant_head_mouse",
+      "hi": "हाथी जैसे रूप क्यों बने",
+      "en": "Why did forms like an elephant arise"
+    },
+    {
+      "talk": "every_ganesh_idol_look_different",
+      "hi": "ऋषियों के अनुभव का नक्शा",
+      "en": "a map of what the rishis experienced"
+    }
+  ],
+  "also_read": {
+    "talk": "only_way_know_god",
+    "after": {
+      "hi": "मूर्ति ऋषियों के दर्शन से आती है",
+      "en": "The Murti Comes From the Vision of the Rishis"
+    }
+  },
+  "related": [
+    "gita_warning_worship_without_understanding",
+    "know_your_god_transformative_path",
+    "33_crore_gods_truth_about_hinduism"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "murti-puja-kyon-karte-hain",
+      "focus_keyword": "मूर्ति पूजा क्यों करते हैं",
+      "secondary_keywords": [
+        "मूर्ति पूजा",
+        "साकार और निराकार",
+        "निराकार की पूजा"
+      ],
+      "meta_description": "ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।",
+      "tags": [
+        "गणेश सीरीज़",
+        "मूर्ति पूजा",
+        "साकार और निराकार",
+        "प्रतीकवाद",
+        "अद्वैत वेदांत"
+      ]
+    },
+    "en": {
+      "slug": "why-worship-a-murti-formless-god",
+      "focus_keyword": "worship a murti",
+      "secondary_keywords": [
+        "why do Hindus worship idols",
+        "worship of the formless",
+        "two paths of yoga to God"
+      ],
+      "meta_description": "If God is formless, why worship a murti? Acharya Ji explains why finite beings need form, the two paths of yoga, and why murtis follow the rishis' vision.",
+      "tags": [
+        "Ganesh Series",
+        "Idol worship",
+        "Sakar and Nirakar",
+        "Symbolism",
+        "Advaita Vedanta"
+      ]
+    }
+  }
+}

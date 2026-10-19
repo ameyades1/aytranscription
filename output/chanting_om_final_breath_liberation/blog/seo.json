@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "अंतिम समय में ॐ का जाप: क्या इससे मोक्ष मिलता है?",
+    "en": "Chanting Om at the Time of Death: Is It Enough for Moksha?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नदी किनारे पत्थर के घाट पर पालथी मारकर ध्यान करता एक साधक, आँखें बंद, हृदय के स्थान पर कोमल प्रकाश",
+      "en": "A seeker meditating cross-legged on a stone ghat by a river at sunset, eyes closed, with a soft glow of light at the heart"
+    },
+    "inline.jpg": {
+      "hi": "आँखें बंद किए, हृदय पर हाथ रखे शांत भाव में खड़ी एक स्त्री, पीछे पीतल का दीपक जलता हुआ",
+      "en": "A woman with eyes closed and a hand resting on her heart, calm and inward, a brass oil lamp glowing behind her"
+    },
+    "JzoOLxtJbDs.jpg": {
+      "hi": "वीडियो: The Secret of Chanting Om Until Your Last Breath, ब्रह्मर्षि आचार्य उपेंद्र जी और ॐ से जुड़ी हृदय-गति रेखा के पास आँखें बंद किए लेटे एक वृद्ध",
+      "en": "Video: The Secret of Chanting Om Until Your Last Breath, Brahmarshi Acharya Upendra Ji, and an elderly man resting with eyes closed beside a heartbeat line joined to Om"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हर क्षण को अंतिम क्षण समझकर",
+      "en": "Every moment as the last"
+    },
+    "inline.jpg": {
+      "hi": "बिना शर्त का प्रेम",
+      "en": "Love that asks for nothing"
+    }
+  },
+  "links": [
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "केवल अंत में ॐ बोलने से मोक्ष नहीं होता",
+      "en": "saying Om at the end alone does not bring liberation"
+    },
+    {
+      "talk": "art_living_life",
+      "hi": "मृत्यु से नौ सेकंड पहले भी कोई सूचना नहीं मिलती",
+      "en": "Before death, you do not get even nine seconds"
+    },
+    {
+      "talk": "spiritual_science_om_aum",
+      "hi": "पहले जीवन में ॐ को समझना है",
+      "en": "first come to understand Om during your life"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "जिसने उस ॐ को वास्तव में सुना और समझा है",
+      "en": "someone who has truly heard and understood Om"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "उसी के अनुसार अगला जन्म होता है",
+      "en": "your next birth follows from it"
+    }
+  ],
+  "also_read": {
+    "talk": "anyone_grant_liberation_living_or_dead",
+    "after": {
+      "hi": "वह छोटा सा \"च\" जिसे सब भूल जाते हैं",
+      "en": "The Little Word \"Ca\" That Everyone Overlooks"
+    }
+  },
+  "related": [
+    "spiritual_science_om_aum",
+    "biggest_spiritual_misconception_about_death",
+    "art_living_life"
+  ],
+  "wordpress": {
+    "category": "moksha",
+    "hi": {
+      "slug": "antim-samay-om-jaap",
+      "focus_keyword": "अंतिम समय में ॐ का जाप",
+      "secondary_keywords": [
+        "मृत्यु के समय क्या करना चाहिए",
+        "अंत मति सो गति",
+        "गीता अध्याय 8 श्लोक 13",
+        "अंतिम विचार और अगला जन्म"
+      ],
+      "meta_description": "क्या मृत्यु के समय ॐ बोलने से मोक्ष मिलता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।",
+      "tags": [
+        "भगवद्गीता",
+        "ॐ",
+        "पुनर्जन्म",
+        "नाम स्मरण"
+      ]
+    },
+    "en": {
+      "slug": "chanting-om-at-death",
+      "focus_keyword": "chanting Om at the time of death",
+      "secondary_keywords": [
+        "what to do at the time of death",
+        "anta mati so gati meaning",
+        "Bhagavad Gita 8.13 meaning",
+        "last thought before death and rebirth"
+      ],
+      "meta_description": "Can chanting Om at the moment of death bring moksha? Acharya Upendra Ji explains Bhagavad Gita chapter 8 and why your last thought is shaped by a lifetime.",
+      "tags": [
+        "Bhagavad Gita",
+        "Om",
+        "Rebirth",
+        "Naam Smaran"
+      ]
+    }
+  }
+}

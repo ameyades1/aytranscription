@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "ब्रह्मचर्य का असली अर्थ: विवाह, काम और संयम | आचार्य जी",
+    "en": "What Is Brahmacharya? The Truth No One Tells | Acharya Ji"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में वन आश्रम की कुटियों के पास पत्थर पर चटाई बिछाकर ध्यान में बैठा श्वेत वस्त्रधारी युवा साधक",
+      "en": "A young seeker in white cloth sits in meditation on a mat by forest hermitage huts, lit by the morning sun"
+    },
+    "inline.jpg": {
+      "hi": "प्राचीन आंगन में शिष्यों के बीच शास्त्रार्थ करते भगवा वस्त्रधारी संन्यासी और श्वेत वस्त्रधारी गृहस्थ विद्वान",
+      "en": "A saffron-robed monk and a householder scholar in white debate in an ancient courtyard, with disciples seated around them"
+    },
+    "WZWLpp17Wtg.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Truth About Brahmacharya\" का थंबनेल, ताले वाले द्वार के सामने चमकती चाबी",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Truth About Brahmacharya\", with a glowing key before a locked door"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "ब्रह्म में विचरण ही ब्रह्मचर्य",
+      "en": "Moving in Brahman is brahmacharya"
+    },
+    "inline.jpg": {
+      "hi": "भगवा और गृहस्थ, दोनों एक ही मार्ग पर",
+      "en": "Saffron and householder on the same path"
+    }
+  },
+  "links": [
+    {"talk": "marriage_giving_not_taking_relationships", "hi": "मानो विवाह कोई दोष हो", "en": "as though marriage were a sin"},
+    {"talk": "truly_desire_or_infatuation", "hi": "काम पुरुषार्थ", "en": "kama purushartha"},
+    {"talk": "true_power_of_scriptures_decoded", "hi": "वे पहले ग्रंथ पढ़ें", "en": "should first read the scriptures"},
+    {"talk": "divine_power_every_woman_holds", "hi": "स्त्रियां कितना सुरक्षित अनुभव करती हैं", "en": "how safe women feel"},
+    {"talk": "sattva_rajas_tamas_balance_success_liberation", "hi": "सतोगुण", "en": "sattva guna"}
+  ],
+  "also_read": {
+    "talk": "married_or_not_insights",
+    "after": {"hi": "भगवा बनाम गृहस्थ", "en": "Saffron Robes or the Householder's Life?"}
+  },
+  "related": ["truly_desire_or_infatuation", "marriage_giving_not_taking_relationships", "control_your_mind_before_it_controls_you"],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "brahmacharya-ka-asli-arth",
+      "focus_keyword": "ब्रह्मचर्य का असली अर्थ",
+      "secondary_keywords": ["ब्रह्मचर्य क्या है", "क्या गृहस्थ ब्रह्मचारी हो सकता है", "शास्त्रोक्त काम", "ब्रह्मचर्य की पहचान"],
+      "meta_description": "क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।",
+      "tags": ["ब्रह्मचर्य", "पुरुषार्थ", "विवाह", "भगवद्गीता", "आदि शंकराचार्य"]
+    },
+    "en": {
+      "slug": "what-is-brahmacharya",
+      "focus_keyword": "what is brahmacharya",
+      "secondary_keywords": ["true meaning of brahmacharya", "can a married person practice brahmacharya", "brahmacharya in marriage", "signs of brahmacharya"],
+      "meta_description": "Is marriage a spiritual step down? Acharya Upendra Ji explains what brahmacharya truly means, why kama is a purushartha, and how true restraint shows.",
+      "tags": ["Brahmacharya", "Purusharthas", "Marriage", "Bhagavad Gita", "Adi Shankaracharya"]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं",
+    "en": "Balance of Sattva, Rajas and Tamas: Three Cords That Bind"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के नक्काशीदार स्तंभों के सामने दो हाथों में थमी सफ़ेद, लाल और काली डोरियों से गुँथी एक रस्सी",
+      "en": "Two hands holding a rope braided from white, red and black strands, with carved temple pillars behind"
+    },
+    "inline.jpg": {
+      "hi": "पुराने मंदिर की पत्थर की सीढ़ी पर धूप में साथ-साथ रखे सुनहरी किनारी वाले सफ़ेद, लाल और काले वस्त्र",
+      "en": "White, red and black cloths with gold borders draped side by side on an old temple's stone step in sunlight"
+    },
+    "vYa0-yyFT9I.jpg": {
+      "hi": "वीडियो: Sattva + Rajas + Tamas = Unlock Your True Potential (सत्व, रज और तम), ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे सफ़ेद, लाल और काले रंग पर टूटती ज़ंजीरें",
+      "en": "Video: Sattva + Rajas + Tamas = Unlock Your True Potential, Brahmarshi Acharya Upendra Ji with broken chains on a white, red and black background"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "तीन डोरियाँ, एक बंधन",
+      "en": "Three strands, one bond"
+    },
+    "inline.jpg": {
+      "hi": "श्वेत, लाल, काला: सत्व, रज, तम",
+      "en": "White, red, black: sattva, rajas, tamas"
+    }
+  },
+  "links": [
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "सत्व, रज और तम तीन डोरियाँ हैं",
+      "en": "Sattva, rajas and tamas are three cords"
+    },
+    {
+      "talk": "trapped_illusory_happiness",
+      "hi": "मनुष्य बार-बार सुख ही खोजता रहता है",
+      "en": "a person keeps chasing happiness, over and over"
+    },
+    {
+      "talk": "struggling_laziness_lack_drive_spiritual",
+      "hi": "तो वह तमोगुण गलत समय पर है",
+      "en": "tamas has arrived at the wrong time"
+    },
+    {
+      "talk": "three_gunas_karma",
+      "hi": "यह सब रजस शक्ति से चलता है",
+      "en": "every other activity runs on the energy of rajas"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "लक्ष्य केवल अच्छा बनना नहीं, मुक्ति है",
+      "en": "The goal is liberation, not merely becoming good"
+    }
+  ],
+  "also_read": {
+    "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+    "after": {
+      "hi": "तीन देवियाँ, तीन रंग",
+      "en": "Three Goddesses, Three Colours"
+    }
+  },
+  "related": [
+    "gita_escape_cycle_of_rebirth",
+    "real_role_maha_kali",
+    "lakshmi_come_some_people_not_others"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "sattva-rajas-tamas-santulan",
+      "focus_keyword": "सत्व रज तम का संतुलन",
+      "secondary_keywords": [
+        "सत्व रज तम क्या है",
+        "गुण का अर्थ डोरी",
+        "सत्वगुण भी बंधन क्यों"
+      ],
+      "meta_description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें।",
+      "tags": [
+        "त्रिगुण",
+        "सत्त्व गुण",
+        "रजोगुण",
+        "माया",
+        "पुनर्जन्म",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "sattva-rajas-tamas-balance",
+      "focus_keyword": "balance of sattva rajas and tamas",
+      "secondary_keywords": [
+        "what are sattva rajas and tamas",
+        "meaning of guna",
+        "does sattva also bind"
+      ],
+      "meta_description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day.",
+      "tags": [
+        "Three Gunas",
+        "Sattva",
+        "Rajas",
+        "Maya",
+        "Rebirth",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

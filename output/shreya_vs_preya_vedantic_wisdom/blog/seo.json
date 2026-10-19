@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "श्रेय और प्रेय क्या है? कठोपनिषद् का सही चुनाव",
+    "en": "Shreya vs Preya: The Katha Upanishad on Right Choices"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पहाड़ों के बीच दोराहे पर खड़ी स्त्री, बाईं ओर ऊपर चढ़ती पथरीली सीढ़ियाँ और दाईं ओर फूलों से घिरा आसान रास्ता",
+      "en": "A woman stands at a fork in the mountains, with steep stone steps climbing to the left and an easy flower-lined path to the right"
+    },
+    "inline.jpg": {
+      "hi": "अनाज की दुकान में मुस्कुराता दुकानदार स्टील के स्कूप से ग्राहक के कपड़े के थैले में अनाज डालता हुआ",
+      "en": "A smiling shopkeeper in a grain shop pours grain from a steel scoop into a customer's cloth bag"
+    },
+    "nhdgssseYpQ.jpg": {
+      "hi": "वीडियो: जो अच्छा लगे वह करें या जो सही है? श्रेय बनाम प्रेय, आचार्य उपेंद्र जी",
+      "en": "Video: Do what you like or do what is right? Shreya vs Preya, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "दो राहें: श्रेय और प्रेय",
+      "en": "Two paths: the good and the pleasant"
+    },
+    "inline.jpg": {
+      "hi": "ज्ञान से जुड़ा व्यापार",
+      "en": "A trade guided by knowledge"
+    }
+  },
+  "links": [
+    {
+      "talk": "knowledge_work_for_you",
+      "hi": "मन प्रेय की ओर ही प्रवृत्त होता है",
+      "en": "the mind drifts toward preya on its own"
+    },
+    {
+      "talk": "know_your_first_duty_in_life",
+      "hi": "मुझे नर से नारायण जाना है",
+      "en": "I must rise from nara to Narayana"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "ज्ञान युक्त व्यापार बना",
+      "en": "a business guided by knowledge"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "ज्ञान, सुख और वैराग्य साथ हों",
+      "en": "knowledge, happiness and detachment travel together"
+    },
+    {
+      "talk": "legends_keep_working",
+      "hi": "लोगों को भी देना है",
+      "en": "I must give to others as well"
+    }
+  ],
+  "also_read": {
+    "talk": "who_real_doer_karma_ego_bhagavad",
+    "after": {
+      "hi": "\"सब कुछ मेरा नहीं है\": कर्मयोग की ओर",
+      "en": "\"Not Everything Is Mine\": Toward Karma Yoga"
+    }
+  },
+  "related": [
+    "three_gunas_karma",
+    "difference_ved_vedant",
+    "punya_vs_paap"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "shreya-aur-preya-kya-hai",
+      "focus_keyword": "श्रेय और प्रेय",
+      "secondary_keywords": [
+        "श्रेय और प्रेय में अंतर",
+        "कठोपनिषद् श्रेय प्रेय",
+        "श्रेष्ठ कर्म क्या है",
+        "shreya preya meaning in hindi"
+      ],
+      "meta_description": "जो प्रिय लगे वह करें या जो सही है? आचार्य उपेंद्र जी कठोपनिषद् के श्रेय-प्रेय से बताते हैं कि श्रेष्ठ कर्म की इच्छा कब जागती है और कर्मयोग तक कैसे ले जाती है।",
+      "tags": [
+        "उपनिषद",
+        "विवेक",
+        "सत्त्व गुण",
+        "त्रिगुण",
+        "कर्मयोग"
+      ]
+    },
+    "en": {
+      "slug": "shreya-vs-preya",
+      "focus_keyword": "shreya vs preya",
+      "secondary_keywords": [
+        "shreya and preya meaning",
+        "Katha Upanishad 1.2.2",
+        "the good vs the pleasant",
+        "noble action in business"
+      ],
+      "meta_description": "Do what you like or what is right? Acharya Upendra Ji explains shreya and preya from the Katha Upanishad, and how noble action leads to Karma Yoga.",
+      "tags": [
+        "Upanishads",
+        "Viveka",
+        "Sattva",
+        "Three Gunas",
+        "Karma Yoga"
+      ]
+    }
+  }
+}

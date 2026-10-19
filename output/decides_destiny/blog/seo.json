@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार",
+    "en": "What Decides Your Destiny? Karma vs Samskaras"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लकड़ी की मेज़ पर डोरी से बँधी प्राचीन ताड़पत्र पांडुलिपि पर रखा हाथ, पास में जलता पीतल का दीपक, फूल और पुरानी पुस्तकें",
+      "en": "A hand resting on an ancient palm-leaf manuscript tied with cord on a wooden table, beside a lit brass lamp, flowers and old books"
+    },
+    "inline.jpg": {
+      "hi": "धुंध भरे जंगल में दो रास्तों में बँटती पगडंडी, बीच में दो तीरों वाला पत्थर, एक रास्ता धूप से उजला और दूसरा छाया में",
+      "en": "A misty forest trail splitting in two around a stone marker carved with two arrows, one path sunlit and the other in shadow"
+    },
+    "tIhv44VSkqg.jpg": {
+      "hi": "वीडियो: आपका भाग्य कौन तय करता है, कर्म या कुछ और? ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: What Decides Your Destiny, Your Karma or Something Else? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "कर्म बीतते हैं, संस्कार लिखे रहते हैं",
+      "en": "Deeds pass; their impressions stay written"
+    },
+    "inline.jpg": {
+      "hi": "एक कर्म, दो राहें",
+      "en": "One deed, two paths"
+    }
+  },
+  "links": [
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "पहले किए हुए पाप-पुण्य कर्मों से",
+      "en": "the fruit of your past deeds"
+    },
+    {
+      "talk": "destiny_awaits_obstacle_in_way",
+      "hi": "यह उसके भाग्य का हिस्सा है",
+      "en": "It is part of their destiny"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "पर साथ में अहंकार भी ले आए",
+      "en": "but carried ego along with it"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "पाप और पुण्य का निर्णय आखिर होता कैसे है",
+      "en": "How, after all, do we tell sin from merit"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "जैसे-जैसे आपकी कुंडलिनी शक्ति ऊपर उठती है",
+      "en": "As your Kundalini Shakti climbs higher"
+    }
+  ],
+  "also_read": {
+    "talk": "two_causes_create_your_life",
+    "after": {
+      "hi": "गीता के पाँच हेतु: भाग्य के पाँच स्तंभ",
+      "en": "The Gita's Five Causes: The Pillars of Destiny"
+    }
+  },
+  "related": [
+    "reveals_4_life_changing_components",
+    "who_real_doer_karma_ego_bhagavad",
+    "burn_your_karma_before_it_burns_you"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "bhagya-kaise-banta-hai",
+      "focus_keyword": "भाग्य कैसे बनता है",
+      "secondary_keywords": [
+        "संस्कार का अर्थ",
+        "गीता के अनुसार भाग्य",
+        "कर्म की सिद्धि के पाँच हेतु",
+        "दैव का अर्थ"
+      ],
+      "meta_description": "भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से।",
+      "tags": [
+        "संस्कार",
+        "भगवद्गीता",
+        "कुंडलिनी",
+        "पाप और पुण्य"
+      ]
+    },
+    "en": {
+      "slug": "what-decides-your-destiny",
+      "focus_keyword": "what decides your destiny",
+      "secondary_keywords": [
+        "samskaras meaning",
+        "five causes of action Bhagavad Gita 18.14",
+        "daiva meaning in the Gita",
+        "karma vs destiny"
+      ],
+      "meta_description": "What decides your destiny: past karma or the samskaras it leaves? Acharya Upendra Ji explains the Gita's five causes of action and the meaning of daiva.",
+      "tags": [
+        "Samskaras",
+        "Bhagavad Gita",
+        "Kundalini",
+        "Sin and Merit"
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "शत्रु में भगवान कैसे देखें: पाप से घृणा, पापी से नहीं",
+    "en": "How to See God in Your Enemy: Hate the Sin, Not the Sinner"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "एक प्राचीन पत्थर के मंदिर के प्रांगण में सफेद कुर्ते पहने दो पुरुष शांत भाव से एक-दूसरे से हाथ मिलाते हुए, पीछे दीयों से जगमगाता गर्भगृह",
+      "en": "Two men in white shirts calmly shaking hands in the courtyard of an ancient stone temple, with lamps glowing in the sanctum behind them"
+    },
+    "inline.jpg": {
+      "hi": "जंगल में नदी किनारे एक विशाल वृक्ष के नीचे बैठे जटाधारी ऋषि पंख की कलम से लकड़ी की पट्टी पर लिखते हुए, पत्तों से छनकर आती सुबह की धूप",
+      "en": "A bearded sage with a topknot sitting under a great tree by a forest river, writing on a wooden board with a quill in soft morning light"
+    },
+    "lexXRwU7fro.jpg": {
+      "hi": "वीडियो: क्या आप शत्रु में भी भगवान देख सकते हैं? गणेश सीरीज़ एपिसोड 19, आचार्य उपेंद्र जी; आधा रंगा चेहरा पोंछता एक युवक और \"Hate the Sin, Not the Sinner\"",
+      "en": "Video: Can You See God Even in Your Enemy? Ganesh Series episode 19, Acharya Upendra Ji, beside a young man wiping off half-painted face makeup under the words \"Hate the Sin, Not the Sinner\""
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "संघर्ष हो सकता है, वैर नहीं",
+      "en": "Conflict, perhaps; hostility, never"
+    },
+    "inline.jpg": {
+      "hi": "डाकू वाल्या से महर्षि वाल्मीकि तक",
+      "en": "From Valya the bandit to Maharshi Valmiki"
+    }
+  },
+  "links": [
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "साक्षी भाव से नहीं देखेंगे",
+      "en": "look on as a witness"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "पात्र के भीतर घुसे रहेंगे",
+      "en": "stay lost inside the role"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "पाप से घृणा करो, पापी से नहीं",
+      "en": "hate the sin, not the sinner"
+    },
+    {
+      "talk": "life_boomerang_before_react",
+      "hi": "सब संभव है",
+      "en": "Anything is possible"
+    }
+  ],
+  "also_read": {
+    "talk": "see_lord_everyone_but_treat_merit",
+    "after": {
+      "hi": "लड़ना, पर वैर भाव के बिना",
+      "en": "Fight, but Without Hatred"
+    }
+  },
+  "related": [
+    "see_lord_everyone_but_treat_merit",
+    "life_boomerang_before_react",
+    "punya_vs_paap"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "shatru-mein-bhagwan-kaise-dekhen",
+      "focus_keyword": "शत्रु में भगवान कैसे देखें",
+      "secondary_keywords": [
+        "पाप से घृणा करो पापी से नहीं",
+        "साक्षी भाव क्या है",
+        "सर्वत्र भगवत् बुद्धि",
+        "वाल्या से वाल्मीकि"
+      ],
+      "meta_description": "क्या शत्रु में भी भगवान दिख सकता है? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।",
+      "tags": [
+        "गणेश सीरीज़",
+        "साक्षी भाव",
+        "समदर्शिता",
+        "अद्वैत वेदांत",
+        "प्रारब्ध"
+      ]
+    },
+    "en": {
+      "slug": "see-god-in-your-enemy",
+      "focus_keyword": "how to see God in your enemy",
+      "secondary_keywords": [
+        "hate the sin not the sinner",
+        "what is sakshi bhava",
+        "how Valya became Valmiki",
+        "fight without hatred"
+      ],
+      "meta_description": "Can you see God even in your enemy? Acharya Upendra Ji explains sakshi bhava, how to fight without hatred, and why the bandit Valya could become Valmiki.",
+      "tags": [
+        "Ganesh Series",
+        "Sakshi Bhava",
+        "Equal Vision",
+        "Advaita Vedanta",
+        "Prarabdha"
+      ]
+    }
+  }
+}

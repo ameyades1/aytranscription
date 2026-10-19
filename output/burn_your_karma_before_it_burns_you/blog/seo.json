@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय",
+    "en": "How to Burn Sanchit Karma: Obstacles on the Path"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "ताँबे के कटोरे में जलती आग, जो सूखे पत्तों और पुराने पीले पन्नों की परतों के बीच रखा है, ऊपर उठता धुआँ और गर्म रोशनी",
+      "en": "A fire burning in a copper bowl set among dry leaves and layers of old yellowed pages, with smoke rising in warm light"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर के प्रांगण में खड़े स्त्री-पुरुष आकाश में चंद्रमा और ग्रहों को देख रहे हैं, बीच में एक दीप-पात्र रखा है",
+      "en": "Men and women in a temple courtyard gazing up at the moon and planets in a glowing sky, with a lamp bowl at the centre"
+    },
+    "RUNDzhc9cUI.jpg": {
+      "hi": "सफ़ेद कुर्ते में मुस्कुराते ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे तारों भरे आकाश में राशि-चक्र, और लिखा है \"You Can Change Your Destiny! Dissolve your past karma before it turns into pain.\"",
+      "en": "Brahmarshi Acharya Upendra Ji smiling in a white kurta before a starry sky with the zodiac wheel, beside the words \"You Can Change Your Destiny! Dissolve your past karma before it turns into pain.\""
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पकने से पहले जला दो",
+      "en": "Burn it before it ripens"
+    },
+    "inline.jpg": {
+      "hi": "ग्रह ऊपर, उपाय यहीं",
+      "en": "The planets above, the remedy here"
+    }
+  },
+  "links": [
+    {
+      "talk": "decides_destiny",
+      "hi": "पिछले जन्मों और कर्मों का जमा हुआ हिसाब",
+      "en": "the stored-up account of past lives and past deeds"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "रजोगुण का अंत दुख है",
+      "en": "always ends in suffering"
+    },
+    {
+      "talk": "saturn_mars_succeed_shani_mangal",
+      "hi": "उसकी ऊर्जा के प्रतिनिधि यहीं, आपके रिश्तों में हैं",
+      "en": "The people who carry its energy are right here, in your relationships"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "सही शास्त्र की गलत समझ हो सकती है",
+      "en": "You can misread a true scripture"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "गुरु की बात सुनना ही",
+      "en": "Listening to the Guru is itself"
+    }
+  ],
+  "also_read": {
+    "talk": "struggling_laziness_lack_drive_spiritual",
+    "after": {
+      "hi": "प्रमाद, आलस्य और \"बाद में देखते हैं\"",
+      "en": "Heedlessness, Laziness and \"Let's See Later\""
+    }
+  },
+  "related": [
+    "destiny_awaits_obstacle_in_way",
+    "three_gunas_karma",
+    "missing_step_blocking_spiritual_success"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "sanchit-karma-kaise-jalayen",
+      "focus_keyword": "संचित कर्म",
+      "secondary_keywords": [
+        "संचित कर्म कैसे जलाएं",
+        "संचित और प्रारब्ध कर्म",
+        "साधना में विघ्न और उपाय",
+        "वाणी के चार स्तर"
+      ],
+      "meta_description": "संचित कर्म को प्रारब्ध बनने से पहले कैसे जलाएं? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।",
+      "tags": [
+        "प्रारब्ध",
+        "त्रिगुण",
+        "विवेक",
+        "अहंकार",
+        "शरणागति"
+      ]
+    },
+    "en": {
+      "slug": "how-to-burn-sanchit-karma",
+      "focus_keyword": "sanchit karma",
+      "secondary_keywords": [
+        "how to burn past karma",
+        "sanchit karma vs prarabdha",
+        "obstacles on the spiritual path",
+        "four levels of speech para pashyanti"
+      ],
+      "meta_description": "How do you burn sanchit karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each.",
+      "tags": [
+        "Prarabdha",
+        "Three Gunas",
+        "Viveka",
+        "Ego",
+        "Sharanagati"
+      ]
+    }
+  }
+}

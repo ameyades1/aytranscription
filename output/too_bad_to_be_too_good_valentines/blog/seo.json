@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "ज़रूरत से ज़्यादा अच्छा होना भी गलत क्यों है | आचार्य जी",
+    "en": "Is Being Too Good a Bad Thing? Love Without Discernment"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी धूप में पुरानी इमारत के आँगन में एक व्यक्ति आगे बढ़े अनेक हाथों में कंबल बाँट रहा है, पास में कंबलों का ढेर",
+      "en": "In a sunlit old courtyard, a man hands out blankets to a crowd of outstretched hands, a pile of blankets beside him"
+    },
+    "inline.jpg": {
+      "hi": "लाल कपड़े से आँखें बँधा, ज्योति से जलता हृदय के आकार का दीया, खिड़की के बाहर मंदिरों के शिखर",
+      "en": "A heart-shaped lamp with a burning flame, its eyes bound with a red cloth, temple spires outside the window"
+    },
+    "3D4bZOwfWIc.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"It Is Too Bad to be Too Good\" का थंबनेल, अंगूठा ऊपर और नीचे करते दो हाथ",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"It Is Too Bad to be Too Good\", with one thumb up and one thumb down"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "देना, पर विवेक के साथ",
+      "en": "Giving, but with discernment"
+    },
+    "inline.jpg": {
+      "hi": "भावना है, दृष्टि नहीं",
+      "en": "Feeling, without sight"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "रजोगुण का अंत दुख है",
+      "en": "rajoguna ends in suffering"
+    },
+    {
+      "talk": "stop_tolerating_toxic_love",
+      "hi": "कोई भी शराब पीने वाला हो",
+      "en": "Someone may be a drunkard"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "लक्ष्मी की कथा के माध्यम से",
+      "en": "uses the story of Lakshmi"
+    },
+    {
+      "talk": "why_blind_love_is_dangerous",
+      "hi": "भावना तो है, पर विवेक नहीं",
+      "en": "the feeling is there"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "चोट खाने के बाद ही व्यक्ति गुरु की ओर आता है",
+      "en": "only after getting hurt do you turn to the Guru"
+    }
+  ],
+  "also_read": {
+    "talk": "true_meaning_of_love_valentines",
+    "after": {
+      "hi": "यह कथा लक्ष्मी की नहीं, आपके हृदय की है",
+      "en": "This Is Not Lakshmi's Story but Your Heart's"
+    }
+  },
+  "related": [
+    "loving_in_the_right_way_valentines",
+    "see_lord_everyone_but_treat_merit",
+    "when_love_turns_into_control"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "zarurat-se-zyada-achha-hona",
+      "focus_keyword": "ज़रूरत से ज़्यादा अच्छा होना",
+      "secondary_keywords": ["बिना विवेक का प्रेम", "अंधभक्ति क्या है", "गलत व्यक्ति से प्रेम", "zyada achha hona bhi bura hai"],
+      "meta_description": "क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।",
+      "tags": ["वैलेंटाइन डे", "रजोगुण", "विवेक", "लक्ष्मी", "अंधश्रद्धा"]
+    },
+    "en": {
+      "slug": "too-bad-to-be-too-good",
+      "focus_keyword": "is being too good a bad thing",
+      "secondary_keywords": ["too bad to be too good meaning", "love without discernment", "giving your heart to the wrong person"],
+      "meta_description": "Can being too good be a mistake? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.",
+      "tags": ["Valentine's Day", "Rajas", "Viveka", "Lakshmi", "Blind Faith"]
+    }
+  }
+}

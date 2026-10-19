@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "आध्यात्मिक और सांसारिक जीवन: क्या सच में दो संसार हैं?",
+    "en": "Spiritual and Worldly Life: Are They Really Separate?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप भरे घरेलू कार्यस्थल में लैपटॉप पर काम करता युवक, मेज़ पर पास ही छोटा मंदिर, जलता दीया, अगरबत्ती और गेंदे के फूल",
+      "en": "A young man working on a laptop in a sunlit home office, with a small shrine, a lit diya, incense and marigolds on the same desk"
+    },
+    "inline.jpg": {
+      "hi": "किराने की दुकान में मुस्कुराती महिला को सामान का पैकेट देता दुकानदार, पीछे गेंदे की माला से सजा गणेश जी और लक्ष्मी जी का छोटा मंदिर",
+      "en": "A shopkeeper handing a parcel to a smiling woman in a grocery shop, beside a small shrine to Ganesha and Lakshmi decorated with marigold garlands"
+    },
+    "ov5VfQaTt80.jpg": {
+      "hi": "वीडियो: \"You Are More Spiritual Than You Realise\", ब्रह्मर्षि आचार्य उपेंद्र जी, साथ में प्रकाश से भरा मानव सिर",
+      "en": "Video: \"You Are More Spiritual Than You Realise\", Brahmarshi Acharya Upendra Ji beside a glowing human head"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "काम भी, पूजा भी",
+      "en": "Work and worship, as one"
+    },
+    "inline.jpg": {
+      "hi": "हर ग्राहक में भगवान",
+      "en": "God in every customer"
+    }
+  },
+  "links": [
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "यह शिव और पार्वती की जोड़ी है",
+      "en": "the two of you are Lord Shiva and Devi Parvati"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "ग्राहक भगवान है",
+      "en": "The customer is God"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "जीवन में उतारी गई श्री विद्या",
+      "en": "Shri Vidya brought down into daily life"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "धर्म-अधर्म की कसौटी",
+      "en": "scale of dharma and adharma"
+    },
+    {
+      "talk": "truly_desire_or_infatuation",
+      "hi": "अज्ञानवश आत्मा से प्रेम करता है",
+      "en": "loves the Atman (the Self), not the body"
+    }
+  ],
+  "also_read": {
+    "talk": "not_wait_until_retirement_transform_life",
+    "after": {
+      "hi": "दो सौ प्रतिशत जीवन क्या है?",
+      "en": "What Does It Mean to Live Two Hundred Percent?"
+    }
+  },
+  "related": [
+    "worldly_maya_makes_forget_true_self",
+    "unlock_full_potential_in_life",
+    "legends_keep_working"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "adhyatmik-aur-sansarik-jeevan",
+      "focus_keyword": "आध्यात्मिक और सांसारिक जीवन",
+      "secondary_keywords": [
+        "हर मनुष्य आध्यात्मिक है",
+        "दो सौ प्रतिशत जीवन",
+        "संसार में रहकर अध्यात्म",
+        "कर्तव्य ही धर्म है"
+      ],
+      "meta_description": "क्या आध्यात्मिक और सांसारिक जीवन अलग हैं? आचार्य उपेंद्र जी बताते हैं कि संसार एक ही है, विवाह और व्यापार भी पूजा हैं, और हर मनुष्य अनजाने में आध्यात्मिक है।",
+      "tags": [
+        "अद्वैत वेदांत",
+        "श्री विद्या",
+        "कर्मयोग",
+        "कर्तव्य"
+      ]
+    },
+    "en": {
+      "slug": "spiritual-and-worldly-life",
+      "focus_keyword": "spiritual and worldly life",
+      "secondary_keywords": [
+        "every human is inherently spiritual",
+        "how to balance spiritual and worldly life",
+        "seeing God in daily life",
+        "duty is dharma"
+      ],
+      "meta_description": "Are spiritual and worldly life really separate? Acharya Upendra Ji shows how marriage, business and duty become worship, and why every human is spiritual.",
+      "tags": [
+        "Advaita Vedanta",
+        "Shri Vidya",
+        "Karma Yoga",
+        "Duty"
+      ]
+    }
+  }
+}

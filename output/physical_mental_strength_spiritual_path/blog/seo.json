@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक",
+    "en": "Health on the Spiritual Path: From Illness to Liberation"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी धूप में हरियाली के बीच एक प्राचीन पत्थर के मंदिर की ओर जाती चार पत्थर की सीढ़ियां, दोनों ओर शिखर-आकार के स्तंभ",
+      "en": "Four stone steps leading up through green foliage to an ancient stone temple in golden sunlight, with tiered stone finials on either side"
+    },
+    "inline.jpg": {
+      "hi": "दीयों की मंद रोशनी में काले पत्थर की महाकाली की मूर्ति: अनेक भुजाओं में त्रिशूल और खड्ग, गले में मुंडमाला, चरणों के नीचे लेटे शिव",
+      "en": "A dark stone murti of Mahakali in dim lamplight, holding a trident and sword in her many arms, wearing a garland of skulls, with Shiva lying beneath her feet"
+    },
+    "ryX-m980D3M.jpg": {
+      "hi": "वीडियो: केवल उपचार नहीं, अपनी आंतरिक शक्ति जगाएं, आचार्य उपेंद्र जी",
+      "en": "Video: Do Not Just Heal, Awaken Your Inner Power, with Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चार सीढ़ियां, एक मंज़िल",
+      "en": "Four steps, one destination"
+    },
+    "inline.jpg": {
+      "hi": "शक्ति आतंक के लिए नहीं, रक्षा के लिए",
+      "en": "Power not to terrify, but to protect"
+    }
+  },
+  "links": [
+    {
+      "talk": "mind_or_body_more_powerful",
+      "hi": "यदि मन ठीक नहीं, तो शरीर भी ठीक नहीं रहेगा",
+      "en": "If the mind is unwell, the body will not stay well for long"
+    },
+    {
+      "talk": "power_of_healing_antar_yog_science",
+      "hi": "उपचार की सिद्धि",
+      "en": "the power of healing"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "पहले मोक्ष की स्थिति प्राप्त करनी है",
+      "en": "you must first reach the state of moksha"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "दूसरों के कर्म अपने ऊपर लिए",
+      "en": "took the karma of others upon themselves"
+    },
+    {
+      "talk": "awaken_inner_shiv_shakti_maha_shivratri",
+      "hi": "जीवन्मुक्त गुरु ही शिव है, और शिव ही गुरु है",
+      "en": "the jivanmukta Guru is Shiva, and Shiva is the Guru"
+    }
+  ],
+  "also_read": {
+    "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+    "after": {
+      "hi": "प्रतिकार शक्ति: महाकाली और भैरवी",
+      "en": "The Power to Resist: Mahakali and Bhairavi"
+    }
+  },
+  "related": [
+    "eat_to_heal_not_to_harm_spiritual",
+    "when_disciple_become_truly_powerful",
+    "gita_escape_cycle_of_rebirth"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "sadhana-mein-swasthya-ka-mahatva",
+      "focus_keyword": "साधना में स्वास्थ्य का महत्व",
+      "secondary_keywords": [
+        "सिद्धियां क्या हैं",
+        "अष्ट सिद्धि",
+        "संत बीमार क्यों होते हैं",
+        "जीवन्मुक्त का अर्थ"
+      ],
+      "meta_description": "साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है।",
+      "tags": [
+        "सिद्धियां",
+        "जीवन्मुक्ति",
+        "प्रारब्ध",
+        "सद्गुरु",
+        "आध्यात्मिक शक्ति"
+      ]
+    },
+    "en": {
+      "slug": "health-on-the-spiritual-path",
+      "focus_keyword": "health on the spiritual path",
+      "secondary_keywords": [
+        "what are siddhis",
+        "ashta siddhi",
+        "why do enlightened masters get sick",
+        "jivanmukta meaning"
+      ],
+      "meta_description": "Why health matters on the spiritual path: Acharya Ji maps four steps, from illness to health, enjoyment, siddhi and liberation, and why siddhis must wait.",
+      "tags": [
+        "Siddhis",
+        "Jivanmukti",
+        "Prarabdha",
+        "Sadguru",
+        "Spiritual Strength"
+      ]
+    }
+  }
+}

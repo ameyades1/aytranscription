@@ -1,0 +1,105 @@
+{
+  "title": {
+    "hi": "गुरु सान्निध्य का अनुभव: सोचने का ढंग कैसे बदला",
+    "en": "Guru Sannidhya: How the Guru's Presence Changes You"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पत्थर के आश्रम-मंडप में दरियों पर बैठे साधक, सामने गेंदे के फूलों और पीतल के दीपों से सजे आसन पर गुरु: गुरु सान्निध्य शिविर",
+      "en": "Seekers seated on mats in a stone ashram hall, facing the Guru on a seat decorated with marigolds and brass lamps: a Guru Sannidhya Shibir"
+    },
+    "inline.jpg": {
+      "hi": "आश्रम के आँगन में खड़िया से बने खानों पर लकड़ी की छड़ियों से खेलते और ठहाके लगाते बड़े साधक",
+      "en": "Adult seekers laughing as they play a stick game on chalk-drawn squares in an ashram courtyard"
+    },
+    "VU9BYISeysU.jpg": {
+      "hi": "वीडियो: गुरु सान्निध्य से जागते आनंद, साहस और निर्भयता, एक साधक का अनुभव",
+      "en": "Video: Guru's Presence Awakens Joy, Courage and Fearlessness, a seeker's experience"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "निकटता से बदलता चिंतन",
+      "en": "Nearness that changes the mind"
+    },
+    "inline.jpg": {
+      "hi": "फिर से बच्चे बनकर",
+      "en": "Becoming children again"
+    }
+  },
+  "links": [
+    {
+      "talk": "every_moment_enlightened_master_new_birth",
+      "hi": "कुछ दिन गुरुदेव के निकट बिताए",
+      "en": "seekers spent several days close to Gurudev"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "देश कार्य और विश्व कार्य",
+      "en": "work for the nation and the world"
+    },
+    {
+      "talk": "why_satsang_does_not_change_your_life",
+      "hi": "सीख केवल ज्ञान सत्र तक सीमित नहीं थी",
+      "en": "The learning did not stay inside the teaching sessions"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "किसी भी चीज़ में स्वयं को उलझाओ मत",
+      "en": "do not entangle yourself in anything"
+    },
+    {
+      "talk": "when_disciple_become_truly_powerful",
+      "hi": "गुरुदेव साथ हैं",
+      "en": "Gurudev is with them"
+    }
+  ],
+  "also_read": {
+    "talk": "true_disciple_change_your_life",
+    "after": {
+      "hi": "एक ज्ञान, अनेक दिशाएँ",
+      "en": "One Teaching, Many Directions"
+    }
+  },
+  "related": [
+    "every_moment_enlightened_master_new_birth",
+    "when_disciple_become_truly_powerful",
+    "guru_and_disciple_highest_form_love"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-sannidhya-ka-anubhav",
+      "focus_keyword": "गुरु सान्निध्य",
+      "secondary_keywords": [
+        "गुरु सान्निध्य का अनुभव",
+        "गुरु के सान्निध्य में क्या होता है",
+        "गुरु साथ हैं तो डर कैसा"
+      ],
+      "meta_description": "गुरु सान्निध्य में क्या बदलता है? शिविर के एक साधक बताते हैं कि गुरुदेव के निकट बिताए कुछ दिनों ने उनका चिंतन कैसे बदला, डर कैसे छूटा और खोया बचपन कैसे लौटा।",
+      "tags": [
+        "साधक अनुभव",
+        "सद्गुरु",
+        "सेवा",
+        "कर्तापन"
+      ]
+    },
+    "en": {
+      "slug": "guru-sannidhya-experience",
+      "focus_keyword": "Guru Sannidhya",
+      "secondary_keywords": [
+        "being in the presence of a Guru",
+        "what happens in the Guru's presence",
+        "Guru's presence",
+        "spiritual retreat experience"
+      ],
+      "meta_description": "What happens in the Guru's presence? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased their fear and brought back play.",
+      "tags": [
+        "Seeker Experiences",
+        "Sadguru",
+        "Seva",
+        "Doership"
+      ]
+    }
+  }
+}

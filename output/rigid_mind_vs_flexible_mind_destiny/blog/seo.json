@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "अड़ियल स्वभाव कैसे बदलें? लचीली बुद्धि का रहस्य",
+    "en": "Rigid Mind vs Flexible Mind: Who Holds Your Destiny?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त में पुराने किले की दीवार के पास एक ओर पत्तों रहित, अकड़ा हुआ सूखा पेड़ और दूसरी ओर हवा में झुकते हरे बाँस, पीछे पहाड़ और झील",
+      "en": "At sunset by an old fort wall, a stiff, leafless dead tree stands on one side while green bamboo bends in the wind on the other, with a hill and a lake behind"
+    },
+    "inline.jpg": {
+      "hi": "एक ही कमरे में दो अलग खिड़कियों से बाहर देखते स्त्री और पुरुष: एक को हरा पेड़ दिखता है, दूसरे को झील के किनारे बसा शहर",
+      "en": "In one room, a woman and a man look out of two different windows: she sees a green tree, he sees a lakeside city"
+    },
+    "n_vbFgF9h4Q.jpg": {
+      "hi": "वीडियो: You Can Rewrite Destiny, आचार्य उपेंद्र जी, पास में कागज़ पर कलम से लिखता हुआ हाथ",
+      "en": "Video: You Can Rewrite Destiny, Acharya Upendra Ji beside a hand writing on paper with a pen"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो झुकता है, वही हरा रहता है",
+      "en": "What bends stays green"
+    },
+    "inline.jpg": {
+      "hi": "दोनों अपनी जगह सही",
+      "en": "Each right from where they stand"
+    }
+  },
+  "links": [
+    {
+      "talk": "decides_destiny",
+      "hi": "भाग्य पहले से लिखा हुआ है, पर उसे फिर से लिखा भी जा सकता है",
+      "en": "destiny is already written, yet you can write it again"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "राजा, सम्राट या किसी ऊँचे पद का प्रबंधक",
+      "en": "a king, an emperor or a senior manager"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "सबमें भगवान को देखो, पर व्यवहार योग्यता के अनुसार करो",
+      "en": "see God in everyone, but treat each person according to their capacity"
+    },
+    {
+      "talk": "saturn_mars_succeed_shani_mangal",
+      "hi": "मंगल यानी पुलिस, स्वयंसेवक, व्यवस्था",
+      "en": "Mars stands for the police, volunteers and discipline"
+    },
+    {
+      "talk": "secrets_mastering_your_mind_technique",
+      "hi": "गणों का अधिपति बनना है",
+      "en": "a leader of the many in your care"
+    }
+  ],
+  "also_read": {
+    "talk": "see_god_even_enemy",
+    "after": {
+      "hi": "दूसरे का जीवन कब देखोगे?",
+      "en": "When Will You Look at Their Life?"
+    }
+  },
+  "related": [
+    "see_lord_everyone_but_treat_merit",
+    "secrets_mastering_your_mind_technique",
+    "control_your_mind_before_it_controls_you"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "adiyal-swabhav-kaise-badlen",
+      "focus_keyword": "अड़ियल स्वभाव कैसे बदलें",
+      "secondary_keywords": [
+        "लचीली बुद्धि",
+        "मैं तो ऐसा ही हूँ",
+        "मेधा और दुर्मेधा का अर्थ",
+        "दूसरे का दृष्टिकोण कैसे समझें"
+      ],
+      "meta_description": "क्या आप भी कहते हैं, \"मैं तो ऐसा ही हूँ\"? आचार्य उपेंद्र जी बताते हैं कि अड़ियल स्वभाव से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।",
+      "tags": [
+        "विवेक",
+        "नेतृत्व",
+        "अहंकार",
+        "समदर्शिता"
+      ]
+    },
+    "en": {
+      "slug": "rigid-mind-vs-flexible-mind",
+      "focus_keyword": "rigid mind vs flexible mind",
+      "secondary_keywords": [
+        "how to stop being stubborn",
+        "I am just like this mindset",
+        "medha and durmedha meaning",
+        "seeing from another person's perspective"
+      ],
+      "meta_description": "Rigid mind vs flexible mind: Acharya Upendra Ji explains why \"I'm just like this\" invites obstacles, and why rising higher needs a flexible intellect.",
+      "tags": [
+        "Viveka",
+        "Leadership",
+        "Ego",
+        "Equal Vision"
+      ]
+    }
+  }
+}

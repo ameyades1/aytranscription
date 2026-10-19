@@ -1,0 +1,81 @@
+{
+  "title": {
+    "hi": "गोपिका वल्लभ का अर्थ: जब राधा-कृष्ण ने भूमिकाएं बदलीं",
+    "en": "Gopika Vallabha Meaning: Radha and Krishna Swap Roles"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त में नदी किनारे पेड़ के नीचे मिट्टी की मटकी, उस पर टिकी बाँसुरी और मोरपंख, सुनहरी चुनरी और गेंदे के फूल, दूर नदी तट पर मंदिर",
+      "en": "A clay pot with a flute and peacock feather resting on it, a golden scarf and marigolds, under a tree by a river at sunset, temples on the far bank"
+    },
+    "inline.jpg": {
+      "hi": "मोरपंख का मुकुट पहने बाल कृष्ण सूर्यास्त में नदी किनारे के रास्ते पर मिट्टी की मटकी उठाए मुस्कुराते हुए चल रहे हैं",
+      "en": "Young Krishna in a peacock-feather crown smiles as he carries a clay pot along a riverside path at sunset"
+    },
+    "o1TG0gTf1rI.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Radha Krishna: Divine Secret You Never Knew!\" का थंबनेल, साथ में बाँसुरी बजाते कृष्ण और राधा",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Radha Krishna: Divine Secret You Never Knew!\", with Krishna playing the flute beside Radha"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मटकी और मुरली, एक ही प्रेम",
+      "en": "The pot and the flute, one love"
+    },
+    "inline.jpg": {
+      "hi": "दूसरे का भार उठाकर ही उसे जाना जाता है",
+      "en": "You know a load only by carrying it"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "प्रेम का एक अनिवार्य तत्व",
+      "en": "an essential part of love"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "तब वह पत्नी की पीड़ा समझेगा",
+      "en": "what his wife goes through"
+    },
+    {
+      "talk": "divine_power_every_woman_holds",
+      "hi": "वह स्त्री कितना कार्य करती थी",
+      "en": "how much work she carried every day"
+    },
+    {
+      "talk": "loving_in_the_right_way_valentines",
+      "hi": "प्रेम अपनी पूर्णता में व्यक्त होता है",
+      "en": "love find its full expression"
+    }
+  ],
+  "also_read": {
+    "talk": "marriage_giving_not_taking_relationships",
+    "after": {
+      "hi": "एक महीने का प्रयोग",
+      "en": "A Month in Each Other's Shoes"
+    }
+  },
+  "related": [
+    "true_meaning_of_love_valentines",
+    "loving_in_the_right_way_valentines",
+    "marriage_giving_not_taking_relationships"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "gopika-vallabh-ka-arth",
+      "focus_keyword": "गोपिका वल्लभ का अर्थ",
+      "secondary_keywords": ["राधा कृष्ण का रहस्य", "राधा कृष्ण ने भूमिकाएं क्यों बदलीं", "पति पत्नी एक दूसरे को कैसे समझें", "radha krishna ka rahasya"],
+      "meta_description": "कृष्ण को गोपिका वल्लभ क्यों कहते हैं? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है।",
+      "tags": ["राधा कृष्ण", "लीला", "विवाह"]
+    },
+    "en": {
+      "slug": "gopika-vallabha-meaning",
+      "focus_keyword": "Gopika Vallabha meaning",
+      "secondary_keywords": ["Radha Krishna secret", "Radha Krishna role reversal", "understanding your spouse's struggles"],
+      "meta_description": "Why is Krishna called Gopika Vallabha? Acharya Upendra Ji tells how Radha and Krishna swapped roles, and why living your beloved's life completes love.",
+      "tags": ["Radha Krishna", "Lila", "Marriage"]
+    }
+  }
+}

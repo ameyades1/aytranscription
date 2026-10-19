@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति",
+    "en": "Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नक्काशीदार शिखरों वाला प्राचीन दक्षिण भारतीय मंदिर, पीछे पेड़ों के पार आधुनिक शहर की ऊँची इमारतें और व्यस्त सड़क",
+      "en": "An ancient South Indian temple with carved towers at sunset, and beyond the trees the high-rise skyline and busy road of a modern city"
+    },
+    "inline.jpg": {
+      "hi": "पत्थर के प्राचीन मंदिर के गर्भगृह में त्रिशूलों और मालाओं से सजी भैरव की मूर्ति, दोनों ओर जलते पीतल के दीप और द्वार पर बैठा कुत्ता",
+      "en": "Inside an old stone shrine, an image of Bhairava adorned with garlands and tridents, brass lamps burning on both sides and a dog resting at the threshold"
+    },
+    "cv1TsfZGQNs.jpg": {
+      "hi": "वीडियो: Kaliyug Secret, हाथ में पुस्तक लिए प्रवचन देते आचार्य उपेंद्र जी",
+      "en": "Video: Kaliyug Secret, Acharya Upendra Ji speaking with a book in his hand"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "वही सनातन ज्ञान, नए युग की गति",
+      "en": "Timeless knowledge, the pace of a new age"
+    },
+    "inline.jpg": {
+      "hi": "भैरव: अभय की शक्ति",
+      "en": "Bhairava: the power that knows no fear"
+    }
+  },
+  "links": [
+    {
+      "talk": "real_role_maha_kali",
+      "hi": "सब महाकाली के अंतर्गत हैं",
+      "en": "The army, the police and security guards all come under"
+    },
+    {
+      "talk": "artificial_intelligence_getting_smarter_but_humans",
+      "hi": "यह साधन सात्विक हाथों में होना चाहिए",
+      "en": "this tool should stay in sattvic hands"
+    },
+    {
+      "talk": "shukra_graha_chanting_wealth_relationships",
+      "hi": "आगम और तंत्र के सारे गुण शुक्र के अंतर्गत आते हैं",
+      "en": "All the qualities of the Agamas and tantra fall under Venus"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "इससे धन भी मिलेगा और बुद्धि भी नहीं बिगड़ेगी",
+      "en": "It will bring you wealth, and your mind will stay clear"
+    },
+    {
+      "talk": "future_country_bharat_know",
+      "hi": "भारत फिर से विश्वगुरु होगा",
+      "en": "India will once again be Vishwaguru"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_power_women_kali_yug",
+    "after": {
+      "hi": "महिलाओं को पहले उठना होगा",
+      "en": "Women Must Rise First"
+    }
+  },
+  "related": [
+    "evolution_of_dharma_sanatan_dharma",
+    "real_role_maha_kali",
+    "future_country_bharat_know"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "satyug-ke-niyam-kaliyug-ka-marg",
+      "focus_keyword": "कलियुग में साधना का मार्ग",
+      "secondary_keywords": ["सत्ययुग और कलियुग में अंतर", "दक्षिण मार्ग और वाम मार्ग", "पंचमकार का अर्थ", "भैरव शक्ति"],
+      "meta_description": "कलियुग में कौन सा मार्ग काम करेगा? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
+      "tags": ["कलियुग", "तंत्र", "भैरव", "सिद्धियां", "विश्वगुरु", "भगवद्गीता"]
+    },
+    "en": {
+      "slug": "satyug-rules-kaliyug-path",
+      "focus_keyword": "spiritual path in Kaliyug",
+      "secondary_keywords": ["Satyug vs Kaliyug", "Dakshina Vama Siddhanta Kaula", "Panchamakara meaning", "Bhairava Shakti"],
+      "meta_description": "Which spiritual path works in Kaliyug? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
+      "tags": ["Kali Yuga", "Tantra", "Bhairava", "Siddhis", "Vishwaguru", "Bhagavad Gita"]
+    }
+  }
+}

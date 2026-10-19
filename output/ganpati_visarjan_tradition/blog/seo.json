@@ -1,0 +1,63 @@
+{
+  "title": {
+    "hi": "गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है",
+    "en": "Ganpati Visarjan Meaning: What the Returned Clay Teaches"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नदी के घाट पर भक्त फूलों की माला से सजी गणपति की मूर्ति को जल में विसर्जित करते हुए",
+      "en": "Devotees immersing a garlanded Ganesha idol in a river at sunset, the setting sun reflected in the water"
+    },
+    "inline.jpg": {
+      "hi": "घेरे में कई लोगों के हाथ गीली मिट्टी के एक ही ढेर को थामे हुए",
+      "en": "Many hands in a circle resting on a single heap of wet river clay"
+    },
+    "d4BN4FoJVEk.jpg": {
+      "hi": "वीडियो: गणपति विसर्जन का भूला हुआ अर्थ, गणेश सीरीज़ भाग 12, आचार्य उपेंद्र जी",
+      "en": "Video: Forgotten Meaning of Ganpati Visarjan, Ganesh Series Ep 12, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "नाम-रूप ज्ञान-गंगा को अर्पित",
+      "en": "Name and form, offered to the Ganga of knowledge"
+    },
+    "inline.jpg": {
+      "hi": "सबके हाथ एक ही मिट्टी",
+      "en": "One clay in every hand"
+    }
+  },
+  "links": [
+    {"talk": "hidden_meaning_behind_10_days_ganesh", "hi": "दस दिन संगीत बजा", "en": "music plays for ten days"},
+    {"talk": "every_ganesh_idol_look_different", "hi": "तेरा गणपति बड़ा है, हमारा छोटा है", "en": "Your Ganpati is bigger, ours is smaller"},
+    {"talk": "three_gunas_karma", "hi": "तीनों गुणों से परे", "en": "beyond the three gunas"},
+    {"talk": "worship_ganesh_every_year_but_understand", "hi": "गणपति का अर्थ क्या है", "en": "what Ganpati really means"},
+    {"talk": "see_lord_everyone_but_treat_merit", "hi": "हर ओर अद्वैत दिखना चाहिए था", "en": "we should see Advaita everywhere"}
+  ],
+  "also_read": {
+    "talk": "need_murtis_symbols_understand_god",
+    "after": {"hi": "विसर्जन: नाम-रूप को ज्ञान-गंगा में अर्पित करना", "en": "Visarjan: Offering Name and Form to the Ganga of Knowledge"}
+  },
+  "related": [
+    "hidden_meaning_behind_10_days_ganesh",
+    "every_ganesh_idol_look_different",
+    "worship_ganesh_every_year_but_understand"
+  ],
+  "wordpress": {
+    "category": "festivals",
+    "hi": {
+      "slug": "ganpati-visarjan-ka-arth",
+      "focus_keyword": "गणपति विसर्जन का अर्थ",
+      "secondary_keywords": ["गणेश विसर्जन क्यों करते हैं", "विसर्जन के बाद मिट्टी का क्या करें", "गणपति विसर्जन का आध्यात्मिक महत्व"],
+      "meta_description": "गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
+      "tags": ["गणेश सीरीज़", "गणेश चतुर्थी", "अद्वैत वेदांत", "मूर्ति पूजा", "साकार और निराकार"]
+    },
+    "en": {
+      "slug": "ganpati-visarjan-meaning",
+      "focus_keyword": "Ganpati Visarjan meaning",
+      "secondary_keywords": ["why is the Ganesh idol immersed", "what to do with visarjan clay", "spiritual significance of Ganesh Visarjan"],
+      "meta_description": "What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
+      "tags": ["Ganesh Series", "Ganesh Chaturthi", "Advaita Vedanta", "Idol worship", "Sakar and Nirakar"]
+    }
+  }
+}

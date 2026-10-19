@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "वेद और वेदांत में अंतर: वेद किताब नहीं, जानने की यात्रा",
+    "en": "Difference Between Veda and Vedanta: Knowing, Not a Book"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय पहाड़ी पर प्राचीन पत्थर की सीढ़ियों पर रखी, सुनहरी आभा से चमकती देवनागरी लिपि वाली ताड़पत्र-शैली की पोथी, पीछे घाटी में दूर तक जाता घुमावदार रास्ता",
+      "en": "A glowing palm-leaf style manuscript in Devanagari script resting on ancient stone steps at sunrise, with a winding path stretching far into the valley beyond"
+    },
+    "inline.jpg": {
+      "hi": "सुबह के उजाले में चप्पल पहने एक व्यक्ति के पैर पहाड़ी पगडंडी पर आगे बढ़ते हुए, दोनों ओर हवा में लहराती सुनहरी देवनागरी लिपि",
+      "en": "The feet of a person in sandals walking along a hilltop path at dawn, with ribbons of golden Devanagari script flowing through the air on both sides"
+    },
+    "2pqFFJAtSRY.jpg": {
+      "hi": "वीडियो: \"Difference Between Ved and Vedant\", नीले पृष्ठभूमि पर सफ़ेद कुर्ते में ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: \"Difference Between Ved and Vedant\", Brahmarshi Acharya Upendra Ji in a white kurta against a blue background"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पोथी से आगे, जानने की राह",
+      "en": "Beyond the book, the road of knowing"
+    },
+    "inline.jpg": {
+      "hi": "हर कदम पर जानना",
+      "en": "Knowing, one step at a time"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_power_of_scriptures_decoded",
+      "hi": "अधिकतर लोगों को लगता है कि वेद नाम की कोई पुस्तक है",
+      "en": "Most people assume that the Veda is a book"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "संसार में इन्हीं तीन प्रकार के लोग हैं",
+      "en": "The world is made up of exactly these three kinds of people"
+    },
+    {
+      "talk": "evolution_of_dharma_sanatan_dharma",
+      "hi": "यही है वेद के विकसित होने की कहानी",
+      "en": "This is how the Veda grew"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "अंधश्रद्धा नहीं, ज्ञानयुक्त भक्ति",
+      "en": "Not blind faith, but devotion grounded in understanding"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "हृदय से गुरु की बातें समझते हुए सीखना",
+      "en": "learning as your heart takes in what the Guru teaches"
+    }
+  ],
+  "also_read": {
+    "talk": "shreya_vs_preya_vedantic_wisdom",
+    "after": {
+      "hi": "फिर राजसिक और सात्विक स्वर आते हैं",
+      "en": "Then the Rajasic and Sattvic Voices Arrive"
+    }
+  },
+  "related": [
+    "real_meaning_guru",
+    "without_guru_scriptures_can_mislead",
+    "ultimate_source_learn_about_every_religion"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "ved-aur-vedant-mein-antar",
+      "focus_keyword": "वेद और वेदांत में अंतर",
+      "secondary_keywords": [
+        "वेद का अर्थ क्या है",
+        "वेदांत क्या है",
+        "उपनिषद का अर्थ",
+        "कर्मकांड उपासना कांड ज्ञान कांड"
+      ],
+      "meta_description": "वेद और वेदांत में क्या अंतर है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।",
+      "tags": [
+        "वेद",
+        "उपनिषद",
+        "अद्वैत वेदांत",
+        "त्रिगुण",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "difference-between-veda-and-vedanta",
+      "focus_keyword": "difference between Veda and Vedanta",
+      "secondary_keywords": [
+        "what does Veda mean",
+        "what is Vedanta",
+        "meaning of Upanishad",
+        "karma kanda and jnana kanda"
+      ],
+      "meta_description": "What is the difference between Veda and Vedanta? Acharya Upendra Ji explains why the Veda is a process of knowing, and why Vedanta is where knowing ends.",
+      "tags": [
+        "Vedas",
+        "Upanishads",
+        "Advaita Vedanta",
+        "Three Gunas",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

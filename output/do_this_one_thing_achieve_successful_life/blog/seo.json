@@ -1,0 +1,99 @@
+{
+  "title": {
+    "hi": "काम में आनंद कैसे पाएं: खुश होकर करें कर्म",
+    "en": "How to Find Joy in Your Work: Act from Happiness"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पत्थर की दीवारों वाले कमरे में लकड़ी के हथकरघे पर मुस्कुराते हुए कपड़ा बुनती, छापेदार साड़ी पहने एक बुज़ुर्ग महिला, पास में कढ़ाई वाले रंगीन कुशन",
+      "en": "An elderly woman in a printed sari smiling as she weaves on a wooden handloom in a stone-walled room, with embroidered cushions beside her"
+    },
+    "inline.jpg": {
+      "hi": "आंगन में लकड़ी की मेज़ पर ड्रॉइंग टैबलेट पर मुस्कुराते हुए चित्र बनाता एक युवक, पास में पेंसिल के स्केच और एक कप",
+      "en": "A young man smiling as he draws on a drawing tablet at a wooden table in a courtyard, with pencil sketches and a mug beside him"
+    },
+    "3isyY5JDCes.jpg": {
+      "hi": "वीडियो: आपकी सफलता प्राप्ति का अद्वितीय मन्त्र, ब्रह्मर्षि आचार्य उपेंद्र जी के साथ सुनहरी ट्रॉफी और निशाने पर लगे डार्ट",
+      "en": "Video: आपकी सफलता प्राप्ति का अद्वितीय मन्त्र (the unique mantra for success), Brahmarshi Acharya Upendra Ji beside a gold trophy and darts in a target"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो काम स्वभाव बन जाए",
+      "en": "Work that has become one's nature"
+    },
+    "inline.jpg": {
+      "hi": "काम नहीं, खेल",
+      "en": "Not work, but play"
+    }
+  },
+  "links": [
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "यही भाव रिश्तों में भी आ जाता है",
+      "en": "The same attitude creeps into relationships"
+    },
+    {
+      "talk": "when_love_turns_into_control",
+      "hi": "और जहां अपेक्षा है, वहां",
+      "en": "Where there is expectation, there is no"
+    },
+    {
+      "talk": "trapped_illusory_happiness",
+      "hi": "उसमें खुशी टिकती नहीं",
+      "en": "the happiness does not last"
+    },
+    {
+      "talk": "unveiling_truth_karma_ultimate_goal_or",
+      "hi": "कर्मयोग यानी कर्म को ही साधना बना लेना",
+      "en": "Karma Yoga means turning your work itself into"
+    }
+  ],
+  "also_read": {
+    "talk": "legends_keep_working",
+    "after": {
+      "hi": "आचार्य जी स्वयं क्यों सिखाते हैं",
+      "en": "Why Acharya Ji Teaches"
+    }
+  },
+  "related": [
+    "unveiling_truth_karma_ultimate_goal_or",
+    "when_love_turns_into_control",
+    "marriage_giving_not_taking_relationships"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "kaam-mein-anand-kaise-paayen",
+      "focus_keyword": "काम में आनंद कैसे पाएं",
+      "secondary_keywords": [
+        "बिना अपेक्षा के कर्म",
+        "दैनिक जीवन में कर्मयोग",
+        "निःस्वार्थ प्रेम",
+        "खुश होकर काम करना"
+      ],
+      "meta_description": "क्या आप केवल वेतन और बदले के लिए काम करते हैं? आचार्य उपेंद्र जी बताते हैं कि काम में आनंद कैसे पाएं: खुश होकर कर्म करें, यही कर्मयोग की पात्रता है।",
+      "tags": [
+        "कर्मयोग",
+        "अपेक्षा",
+        "निःस्वार्थ प्रेम"
+      ]
+    },
+    "en": {
+      "slug": "find-joy-in-your-work",
+      "focus_keyword": "how to find joy in your work",
+      "secondary_keywords": [
+        "work without expectation",
+        "Karma Yoga in daily life",
+        "do what you love and love what you do",
+        "act from happiness"
+      ],
+      "meta_description": "Working only for salary and reward? Acharya Upendra Ji explains how to find joy in your work by acting from happiness, which readies you for Karma Yoga.",
+      "tags": [
+        "Karma Yoga",
+        "Expectations",
+        "Selfless Love"
+      ]
+    }
+  }
+}

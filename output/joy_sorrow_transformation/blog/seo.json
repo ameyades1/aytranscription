@@ -1,0 +1,99 @@
+{
+  "title": {
+    "hi": "सुख-दुःख का असली कारण: धारणा शक्ति की एक कथा",
+    "en": "Why Some People Are Always Unhappy: Dharana Shakti"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "भैंसों के तबेले में गोबर के ढेर के बीच फावड़ा लिए खिलखिलाकर हँसता एक नंगे पाँव बालक",
+      "en": "A barefoot boy laughing as he works a shovel through heaps of dung in a cattle shed, with buffaloes behind him"
+    },
+    "inline.jpg": {
+      "hi": "रंग-बिरंगे खिलौनों, खिलौना गाड़ियों और फटे उपहार-कागज़ के बीच फर्श पर बैठकर रोता एक छोटा बालक",
+      "en": "A small boy sitting on the floor and crying among colourful toys, toy cars and torn gift wrapping"
+    },
+    "XrizjvAqptQ.jpg": {
+      "hi": "वीडियो: आपका सुख दुःख में और दुःख सुख में कैसे बदल सकता है, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: How Your Joy Can Turn Into Sorrow, and Your Sorrow Into Joy, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "गोबर में भी घोड़े की आशा",
+      "en": "Hoping for a horse, even in the dung"
+    },
+    "inline.jpg": {
+      "hi": "खिलौनों में भी आँसू",
+      "en": "Tears, even among the toys"
+    }
+  },
+  "links": [
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "दुःख का खेल अंदर से होता है",
+      "en": "the game of suffering begins inside"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "आलस्य और जड़ता",
+      "en": "dullness and inertia"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "मन पर पड़ी गहरी छाप",
+      "en": "deep impressions on the mind"
+    },
+    {
+      "talk": "do_this_one_thing_achieve_successful_life",
+      "hi": "बदलती है केवल वह आँख जिससे हम उसे देखते हैं",
+      "en": "What changes is the eye you look at it with"
+    }
+  ],
+  "also_read": {
+    "talk": "control_your_mind_before_it_controls_you",
+    "after": {
+      "hi": "धारणा शक्ति: सुख-दुःख की असली जड़",
+      "en": "Dharana Shakti: The Real Root of Happiness and Suffering"
+    }
+  },
+  "related": [
+    "control_your_mind_before_it_controls_you",
+    "decides_destiny",
+    "one_realisation_free_from_all_suffering"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "sukh-dukh-ka-asli-karan",
+      "focus_keyword": "सुख-दुःख का असली कारण",
+      "secondary_keywords": [
+        "हमेशा दुखी रहने का कारण",
+        "धारणा शक्ति क्या है",
+        "सकारात्मक सोच की कहानी",
+        "संस्कार का अर्थ"
+      ],
+      "meta_description": "सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है।",
+      "tags": [
+        "धारणा शक्ति",
+        "संस्कार",
+        "सुख और दुःख"
+      ]
+    },
+    "en": {
+      "slug": "why-some-people-are-always-unhappy",
+      "focus_keyword": "why some people are always unhappy",
+      "secondary_keywords": [
+        "what is dharana shakti",
+        "happiness comes from within",
+        "positive thinking story",
+        "samskaras meaning"
+      ],
+      "meta_description": "Why are some people always unhappy? Through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.",
+      "tags": [
+        "Dharana Shakti",
+        "Samskaras",
+        "Happiness and Suffering"
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": {
+    "hi": "समाज की शक्ति: दैवी संपत्ति से खुलते हैं सारे रास्ते",
+    "en": "The Power of Community: Why Divine Wealth Comes First"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी धूप में गाँव के स्त्री-पुरुष मिलकर रस्सी और लकड़ी के लट्ठे से पत्थर का कुआँ बना रहे हैं, पीछे खपरैल वाले कच्चे घर",
+      "en": "Village women and men working together with ropes and a wooden beam to build a stone well in golden light, with tiled mud houses behind them"
+    },
+    "inline.jpg": {
+      "hi": "बड़े पेड़ की छाँव में चटाई पर गोल घेरे में बैठे गाँव के लोग आपस में शांति से बातचीत कर रहे हैं",
+      "en": "Villagers sitting in a circle on a mat in the shade of a large tree, talking calmly with one another"
+    },
+    "Twmk2ibbD8o.jpg": {
+      "hi": "वीडियो: The Power of Collectivity, सभागार में बैठे श्रोताओं के सामने ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: The Power of Collectivity, Brahmarshi Acharya Upendra Ji in front of an audience seated in a hall"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जब लोग साथ आते हैं, रास्ते खुलते हैं",
+      "en": "When people come together, doors open"
+    },
+    "inline.jpg": {
+      "hi": "जो बात बातचीत में सुलझ जाए, वह समय बचाती है",
+      "en": "Settled in conversation, not in court"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "संपत्ति, सम्मान, समाज, स्त्री, समय, स्वास्थ्य",
+      "en": "Wealth, respect, community, a life partner, time and health"
+    },
+    {
+      "talk": "attain_divine_qualities_empower_spiritual",
+      "hi": "भीतर के दैवी गुण",
+      "en": "the divine virtues within you"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "गुरु का कार्य बड़ा तब होगा",
+      "en": "when people come together around it"
+    },
+    {
+      "talk": "why_society_remains_divided_interview",
+      "hi": "जिसके साथ लोग जुड़े हैं",
+      "en": "When people stand with you"
+    }
+  ],
+  "also_read": {
+    "talk": "lakshmi_come_some_people_not_others",
+    "after": {
+      "hi": "क्या मेरा विश्व छोटा है या बड़ा?",
+      "en": "Is My World Small or Large?"
+    }
+  },
+  "related": [
+    "true_wealth_money_health_respect_or",
+    "attain_divine_qualities_empower_spiritual",
+    "lakshmi_come_some_people_not_others"
+  ],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "samaj-ki-shakti-daivi-sampatti",
+      "focus_keyword": "समाज की शक्ति",
+      "secondary_keywords": [
+        "दैवी संपत्ति क्या है",
+        "व्यापार में सफलता के लिए दैवी गुण",
+        "अच्छी वाणी का महत्व"
+      ],
+      "meta_description": "जीवन की सब संपदाओं में समाज पहले क्यों आता है? आचार्य उपेंद्र जी बताते हैं कि वाणी समाज को जोड़ती है और दैवी संपत्ति विवादों को बातचीत में सुलझाकर समय बचाती है।",
+      "tags": [
+        "दैवी संपत्ति",
+        "पुरुषार्थ",
+        "नेतृत्व"
+      ]
+    },
+    "en": {
+      "slug": "power-of-community-divine-wealth",
+      "focus_keyword": "power of community",
+      "secondary_keywords": [
+        "what is daivi sampatti",
+        "divine qualities for success in business",
+        "importance of good communication"
+      ],
+      "meta_description": "Why does community come before money? Acharya Upendra Ji explains how speech connects people and how divine wealth settles disputes and saves your time.",
+      "tags": [
+        "Daivi Sampatti",
+        "Purusharthas",
+        "Leadership"
+      ]
+    }
+  }
+}

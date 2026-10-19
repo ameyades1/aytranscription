@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "मरने के बाद मोक्ष? जीते-जी मुक्ति की सच्ची समझ",
+    "en": "Liberation After Death? Why Moksha Comes While Alive"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "भोर के समय पुराने ढंग के कमरे में बिस्तर पर उठकर बैठी साड़ी पहने एक स्त्री, खुली खिड़की से सुबह के आकाश और उड़ते पक्षियों को निहारती हुई",
+      "en": "A woman in a sari sitting up in bed at dawn in an old-style room, gazing through an open window at the morning sky and birds in flight"
+    },
+    "inline.jpg": {
+      "hi": "सुबह की रोशनी में नदी किनारे घाट और मंदिर, बाईं ओर का दृश्य धुंधला होता हुआ और नदी, नावें व उड़ते पक्षी साफ़ दिखते हुए",
+      "en": "Riverside ghats and temples in morning light, the left side dissolving into a blur while the river, boats and flying birds stand out clearly"
+    },
+    "XKvzk38B8fw.jpg": {
+      "hi": "वीडियो: Moksha After Death Is a Lie, ब्रह्मर्षि आचार्य उपेंद्र जी और ज़मीन पर लेटे शरीर से ऊपर उठती एक प्रकाशमय आकृति",
+      "en": "Video: Moksha After Death Is a Lie, Brahmarshi Acharya Upendra Ji beside a glowing figure rising from a body lying on the floor"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सपने से पूरी तरह जागना",
+      "en": "Fully awake from the dream"
+    },
+    "inline.jpg": {
+      "hi": "सपना धुंधला, जागृति स्पष्ट",
+      "en": "The dream fades, waking is clear"
+    }
+  },
+  "links": [
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "जो जीते जी मुक्त हो चुका है",
+      "en": "Only someone who has become free in this life"
+    },
+    {
+      "talk": "mrityu_versus_moksha",
+      "hi": "मृत्यु के बाद अपने आप आप कुछ नहीं कर सकते",
+      "en": "Once you have died, you can do nothing for yourself"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "सब कल्पना है",
+      "en": "all of it is imagination"
+    },
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "आसक्ति का नष्ट हो जाना",
+      "en": "Clinging comes to an end"
+    }
+  ],
+  "also_read": {
+    "talk": "art_living_life",
+    "after": {
+      "hi": "मृत्यु के बाद क्या संभव है?",
+      "en": "What Can Happen After Death?"
+    }
+  },
+  "related": [
+    "anyone_grant_liberation_living_or_dead",
+    "mrityu_versus_moksha",
+    "chanting_om_final_breath_liberation"
+  ],
+  "wordpress": {
+    "category": "moksha",
+    "hi": {
+      "slug": "marne-ke-baad-moksha",
+      "focus_keyword": "मरने के बाद मोक्ष",
+      "secondary_keywords": [
+        "जीवन्मुक्त का अर्थ",
+        "मोक्ष का अर्थ मोह का क्षय",
+        "मृत्यु और मोक्ष का अर्थ",
+        "जीते जी मुक्ति"
+      ],
+      "meta_description": "क्या मरने के बाद मोक्ष मिलता है? आचार्य उपेंद्र जी समझाते हैं कि मुक्ति जीते-जी की अवस्था है, और आध्यात्मिक भाषा में मृत्यु व मोक्ष का अर्थ क्या है।",
+      "tags": [
+        "जीवन्मुक्ति",
+        "साक्षी भाव",
+        "अद्वैत वेदांत",
+        "मोह"
+      ]
+    },
+    "en": {
+      "slug": "liberation-after-death",
+      "focus_keyword": "liberation after death",
+      "secondary_keywords": [
+        "moksha after death",
+        "jivanmukta meaning",
+        "liberation while alive",
+        "spiritual meaning of death"
+      ],
+      "meta_description": "Does liberation after death come by itself? Acharya Upendra Ji explains why moksha is a state reached while alive, and what death and moksha truly mean.",
+      "tags": [
+        "Jivanmukti",
+        "Sakshi Bhava",
+        "Advaita Vedanta",
+        "Attachment"
+      ]
+    }
+  }
+}

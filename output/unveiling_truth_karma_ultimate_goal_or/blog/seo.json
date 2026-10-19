@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "कर्मयोगी कौन है? कर्म का बाँस कब छोड़ें",
+    "en": "Who Is a Karma Yogi? When to Let Go of the Pole of Action"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "शाम की सुनहरी रोशनी में स्टेडियम के पास हवा में ऊपर उठता बाँस-कूद खिलाड़ी, दोनों हाथ ऊपर, और उससे छूटा हुआ बाँस अलग खड़ा",
+      "en": "A pole vaulter rising in mid-air beside a stadium in golden evening light, arms raised, the released pole standing apart"
+    },
+    "inline.jpg": {
+      "hi": "नीले आसमान में ऊँची छड़ के ऊपर से पार होता बाँस-कूद खिलाड़ी, नीचे छूटा हुआ बाँस और दूर पहाड़",
+      "en": "A pole vaulter clearing the high bar against a blue sky, the released pole below and hills in the distance"
+    },
+    "Hi2yo3WNWNg.jpg": {
+      "hi": "वीडियो: कर्मयोग, अंतिम लक्ष्य या केवल शुरुआत? ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Karma Yog, Ultimate Goal or Just the Beginning? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बाँस छूटा, तभी छलाँग पूरी हुई",
+      "en": "Only by letting go does the leap complete"
+    },
+    "inline.jpg": {
+      "hi": "कर्म सहारा है, शिखर नहीं",
+      "en": "Action lifts you; it is not the summit"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "धन-अर्जन भी जीवन का एक लक्ष्य है",
+      "en": "Earning wealth"
+    },
+    {
+      "talk": "not_wait_until_retirement_transform_life",
+      "hi": "यह योजना युवावस्था में ही बननी चाहिए",
+      "en": "you need to plan while you are young"
+    },
+    {
+      "talk": "guru_and_disciple_highest_form_love",
+      "hi": "शिष्य अनाथ जैसे हो जाते हैं",
+      "en": "the disciples are left like orphans"
+    },
+    {
+      "talk": "legends_keep_working",
+      "hi": "फिर भी उन्होंने संसार के लिए काम किया",
+      "en": "yet he kept working for the world"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_age_matters_physical_age",
+    "after": {
+      "hi": "ज़ंजीर वाला प्रयोग: बुढ़ापे को आज महसूस कीजिए",
+      "en": "The Chain Experiment: Feel Old Age Today"
+    }
+  },
+  "related": [
+    "not_wait_until_retirement_transform_life",
+    "legends_keep_working",
+    "who_real_doer_karma_ego_bhagavad"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "karmayogi-kaun-hai",
+      "focus_keyword": "कर्मयोगी कौन है",
+      "secondary_keywords": [
+        "कर्मयोग और ज्ञानयोग",
+        "क्या कर्मयोग अंतिम लक्ष्य है",
+        "कर्म से निवृत्ति कब लें",
+        "कर्मण्येवाधिकारस्ते का अर्थ"
+      ],
+      "meta_description": "कर्मयोगी कौन है? बाँस-कूद के उदाहरण से आचार्य उपेंद्र जी बताते हैं कि कर्मयोग ज्ञानयोग तक ले जाता है, और अपने कर्म की एक सीमा तय करना क्यों ज़रूरी है।",
+      "tags": [
+        "कर्मयोग",
+        "ज्ञानयोग",
+        "भगवद्गीता",
+        "वैराग्य"
+      ]
+    },
+    "en": {
+      "slug": "who-is-a-karma-yogi",
+      "focus_keyword": "who is a karma yogi",
+      "secondary_keywords": [
+        "karma yoga vs jnana yoga",
+        "is karma yoga the ultimate goal",
+        "when to stop working spiritually",
+        "Bhagavad Gita 2.47 meaning"
+      ],
+      "meta_description": "Who is a Karma Yogi? Through a pole vault image, Acharya Upendra Ji explains why action leads to Jnana Yoga and why you must set a limit to your work.",
+      "tags": [
+        "Karma Yoga",
+        "Jnana Yoga",
+        "Bhagavad Gita",
+        "Vairagya"
+      ]
+    }
+  }
+}

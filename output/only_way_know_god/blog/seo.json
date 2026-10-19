@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "भगवान को कैसे जानें? मूर्ति मानचित्र है, गुरु चालक",
+    "en": "How to Know God: The Murti Is the Map, the Guru the Driver"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लकड़ी की मेज़ पर रखी एक मंदिर की पुरानी श्वेत-श्याम तस्वीर, पीछे पेड़ों के बीच कच्चा रास्ता उसी मंदिर के असली गोपुरम तक जाता हुआ",
+      "en": "An old black-and-white photo of a temple on a wooden table, while a dirt road under trees leads to the real temple gopuram in evening light"
+    },
+    "inline.jpg": {
+      "hi": "पहाड़ी सड़क पर कार चलाते पगड़ी पहने चालक, डैशबोर्ड पर भारत का कागज़ी मानचित्र और एक छोटी देव-मूर्ति",
+      "en": "A turbaned driver steering along a winding hill road, with a paper map of India and a small deity figurine on the dashboard"
+    },
+    "KH9tkZuYu-g.jpg": {
+      "hi": "वीडियो: अपने भगवान को जानने का एकमात्र मार्ग, गणेश विद्या शिविर से, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: The Only Way to Know Your God, Pearls of Wisdom from Ganesh Vidya Shibir, by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चित्र से आगे, मूल की ओर",
+      "en": "Beyond the picture, to the original"
+    },
+    "inline.jpg": {
+      "hi": "शास्त्र मानचित्र हैं, गुरु चालक",
+      "en": "The scriptures are the map, the Guru drives"
+    }
+  },
+  "links": [
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "मर्म जाने बिना किया गया पूजा-पाठ अर्थहीन है",
+      "en": "worship performed without understanding its essence is empty"
+    },
+    {
+      "talk": "know_your_god_transformative_path",
+      "hi": "हमें अपने भगवान को जानना चाहिए",
+      "en": "we ought to know our own God"
+    },
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "मूर्ति एक प्रतीक थी, पहली सीढ़ी",
+      "en": "the murti was a symbol, the first step of the ladder"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "आंखें खोलकर, मानचित्र के साथ चलना होगा",
+      "en": "walk with your eyes open and the map in hand"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "चालक और मानचित्र दोनों की ज़रूरत होगी",
+      "en": "you will need both the driver and the map"
+    }
+  ],
+  "also_read": {
+    "talk": "know_your_lord_before_worship",
+    "after": {
+      "hi": "कहीं हम भी चित्र पर ही तो नहीं रुके?",
+      "en": "Have We Also Stopped at the Picture?"
+    }
+  },
+  "related": [
+    "what_is_a_guru",
+    "every_ganesh_idol_look_different",
+    "33_crore_gods_truth_about_hinduism"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "bhagwan-ko-kaise-jane",
+      "focus_keyword": "भगवान को कैसे जानें",
+      "secondary_keywords": ["मूर्ति पूजा और गुरु", "जीवित गुरु क्यों आवश्यक है", "रूपकल्पना का अर्थ"],
+      "meta_description": "भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए।",
+      "tags": ["मूर्ति पूजा", "साकार और निराकार", "अंधश्रद्धा", "सद्गुरु", "उपनिषद"]
+    },
+    "en": {
+      "slug": "how-to-know-god-murti-map-guru",
+      "focus_keyword": "how to know God",
+      "secondary_keywords": ["why you need a living Guru", "is idol worship enough", "rupakalpana meaning"],
+      "meta_description": "How do you truly know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.",
+      "tags": ["Idol worship", "Sakar and Nirakar", "Blind Faith", "Sadguru", "Upanishads"]
+    }
+  }
+}

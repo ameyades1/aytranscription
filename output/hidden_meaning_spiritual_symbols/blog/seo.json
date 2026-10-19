@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "धर्म में प्रतीकों का महत्व: प्रतीक, अंधश्रद्धा और गुरु",
+    "en": "Importance of Symbols in Religion: Meaning vs Blind Faith"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर की बलुआ पत्थर की दीवार पर उकेरे कमल, शंख और चक्र, पीछे शाम की सुनहरी धूप में मंदिर के शिखर",
+      "en": "A lotus, a conch and a wheel carved in relief on a sandstone temple wall, with temple spires behind in golden evening light"
+    },
+    "inline.jpg": {
+      "hi": "नदी किनारे के घाटों और मंदिरों के सामने पत्थर पर रखे सड़क के संकेत-चिह्न, संगीत का स्वर-चिह्न और गणित के गुणा व भाग के चिह्न",
+      "en": "Road signs, a musical note and the maths signs for times and divide set on a stone ledge before riverside ghats and temples at sunrise"
+    },
+    "--fzGWGYwj8.jpg": {
+      "hi": "वीडियो: आध्यात्मिक प्रतीकों का छिपा अर्थ, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: The Secret Meaning Behind Spiritual Symbols, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "प्रतीक पत्थर में, अर्थ अनुभव में",
+      "en": "The symbol in stone, the meaning in experience"
+    },
+    "inline.jpg": {
+      "hi": "याद रखने के लिए संकेत",
+      "en": "Signs that help us remember"
+    }
+  },
+  "links": [
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "गहरे सत्य तक पहुंचने का पुल",
+      "en": "the bridge that carries you to that deeper truth"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "उसके पीछे का अर्थ भूल जाना",
+      "en": "forget the meaning behind it"
+    },
+    {
+      "talk": "guru_bridging_science_spirituality",
+      "hi": "सामान्य विज्ञान",
+      "en": "ordinary science"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "केवल ग्रंथ पढ़ लेना पर्याप्त नहीं",
+      "en": "reading the scriptures is not enough"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "प्रतीक की कुंजी",
+      "en": "The key to their symbols"
+    }
+  ],
+  "also_read": {
+    "talk": "true_power_of_scriptures_decoded",
+    "after": {
+      "hi": "हर विद्या का अपना संकेत-शास्त्र",
+      "en": "Every Discipline Has Its Own Shorthand"
+    }
+  },
+  "related": [
+    "without_guru_scriptures_can_mislead",
+    "need_murtis_symbols_understand_god",
+    "gita_warning_worship_without_understanding"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "dharm-mein-prateekon-ka-mahatva",
+      "focus_keyword": "धर्म में प्रतीकों का महत्व",
+      "secondary_keywords": [
+        "शास्त्र प्रतीकों में क्यों बोलते हैं",
+        "प्रतीक और अंधश्रद्धा",
+        "अंधश्रद्धा कैसे शुरू होती है"
+      ],
+      "meta_description": "शास्त्र प्रतीकों में क्यों बोलते हैं? आचार्य उपेंद्र जी बताते हैं धर्म में प्रतीकों का महत्व, अंधश्रद्धा कैसे जन्मती है और प्रतीक की कुंजी गुरु के पास क्यों है।",
+      "tags": [
+        "प्रतीकवाद",
+        "अंधश्रद्धा",
+        "सद्गुरु",
+        "विवेक"
+      ]
+    },
+    "en": {
+      "slug": "importance-of-symbols-in-religion",
+      "focus_keyword": "importance of symbols in religion",
+      "secondary_keywords": [
+        "why scriptures speak in symbols",
+        "symbols and blind faith",
+        "hidden meaning of spiritual symbols"
+      ],
+      "meta_description": "Why do scriptures speak in symbols? Acharya Upendra Ji explains the importance of symbols in religion, how blind faith begins, and why you need a Guru.",
+      "tags": [
+        "Symbolism",
+        "Blind Faith",
+        "Sadguru",
+        "Viveka"
+      ]
+    }
+  }
+}

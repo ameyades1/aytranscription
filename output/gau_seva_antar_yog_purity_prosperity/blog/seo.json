@@ -1,0 +1,81 @@
+{
+  "title": {
+    "hi": "गौ सेवा का महत्व: कृतज्ञता से समृद्धि तक",
+    "en": "Importance of Gau Seva: From Gratitude to Prosperity"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "गौशाला की धूप में खड़ी सफ़ेद गाय, जो अपने नन्हे बछड़े को स्नेह से सहला रही है",
+      "en": "A white cow nuzzling her young calf in a sunlit gaushala"
+    },
+    "inline.jpg": {
+      "hi": "गौशाला में हाथ में हरा चारा लिए बैठे सेवक की ओर दौड़ता हुआ एक भूरा बछड़ा",
+      "en": "A brown calf running towards a volunteer who holds out fresh green fodder in a gaushala"
+    },
+    "eYm2lJLozys.jpg": {
+      "hi": "वीडियो: अंतर्योग की अनूठी गौ सेवा, आचार्य उपेंद्र जी एक बछड़े को स्नेह से सहलाते हुए",
+      "en": "Video: Antar Yog's Unique Gau Seva, Acharya Upendra Ji gently stroking a calf"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "माँ का वात्सल्य",
+      "en": "A mother's tender love"
+    },
+    "inline.jpg": {
+      "hi": "जहाँ भाव है, वहाँ स्नेह दौड़ा आता है",
+      "en": "Where there is feeling, love comes running"
+    }
+  },
+  "links": [
+    {
+      "talk": "ghee_more_than_food",
+      "hi": "दूध, दही, घी",
+      "en": "Milk, curd, ghee"
+    },
+    {
+      "talk": "lakshmi_come_some_people_not_others",
+      "hi": "धन, समृद्धि और ऐश्वर्य",
+      "en": "wealth, abundance and splendour"
+    },
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "तैंतीस कोटि देवी-देवताओं",
+      "en": "thirty-three crore gods and goddesses"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "पुण्य",
+      "en": "punya"
+    }
+  ],
+  "also_read": {
+    "talk": "every_moment_enlightened_master_new_birth",
+    "after": {
+      "hi": "यांत्रिक सेवा नहीं, भाव की सेवा",
+      "en": "Serve with Feeling, Not by Rote"
+    }
+  },
+  "related": [
+    "every_moment_enlightened_master_new_birth",
+    "33_crore_gods_truth_about_hinduism",
+    "punya_vs_paap"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "gau-seva-ka-mahatva",
+      "focus_keyword": "गौ सेवा का महत्व",
+      "secondary_keywords": ["गौ सेवा के लाभ", "गाय को माता क्यों कहते हैं", "गौशाला में सेवा", "गौ सेवा से पुण्य"],
+      "meta_description": "गाय को माता क्यों कहते हैं? आचार्य उपेंद्र जी से जानें गौ सेवा का महत्व: यांत्रिक नहीं, भाव से की गई सेवा, जो कृतज्ञता को समृद्धि और मन की शांति में बदल दे।",
+      "tags": ["गौ सेवा", "सेवा", "कृतज्ञता", "अंतर योग"]
+    },
+    "en": {
+      "slug": "importance-of-gau-seva",
+      "focus_keyword": "importance of gau seva",
+      "secondary_keywords": ["benefits of gau seva", "why is the cow called mother in Hinduism", "gau seva at a gaushala"],
+      "meta_description": "Why is the cow called Gau Mata? Acharya Upendra Ji explains the importance of gau seva: serving with feeling, not by rote, turns gratitude into prosperity.",
+      "tags": ["Gau Seva", "Seva", "Gratitude", "Antar Yog"]
+    }
+  }
+}

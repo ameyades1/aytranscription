@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "ये यथा मां प्रपद्यन्ते का अर्थ: क्या भगवान बदला लेते हैं?",
+    "en": "Bhagavad Gita 4.11 Meaning: Does God Take Revenge?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के नारंगी आकाश में लकड़ी का बूमरैंग फेंकता एक व्यक्ति, पीछे सूखा मैदान और ताड़ के पेड़",
+      "en": "A man throws a wooden boomerang into an orange sunset sky above dry scrubland and palm trees"
+    },
+    "inline.jpg": {
+      "hi": "शेर के साथ विराजमान, अनेक भुजाओं में शस्त्र लिए दुर्गा देवी की मूर्ति, आशीर्वाद में उठा हाथ और सामने प्रणाम करती एक भक्त",
+      "en": "A many-armed Maa Durga murti holding weapons, one hand raised in blessing, with her lion beside her and a devotee before her"
+    },
+    "yCkZTkwD1i4.jpg": {
+      "hi": "वीडियो: Pause Before You React, गणेश सीरीज़ भाग 21, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Pause Before You React, Ganesh Series Ep 21, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो फेंका, वही लौटा",
+      "en": "What you throw comes back"
+    },
+    "inline.jpg": {
+      "hi": "हाथ में शस्त्र, भाव में उद्धार",
+      "en": "Weapons in hand, uplift at heart"
+    }
+  },
+  "links": [
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "सामने वाले को दिया गया व्यवहार ब्रह्म को दिया गया व्यवहार है",
+      "en": "how you treat the person before you is how you treat Brahman"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "जब भीतर गणपति जागृत होते हैं",
+      "en": "once Lord Ganesha awakens within"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "यह बदले का भाव नहीं, यह शत्रु भाव नहीं",
+      "en": "It holds no spirit of revenge and no enmity"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "कर्म करो और फल का हठ छोड़ दो",
+      "en": "act, and let go of your insistence on the fruit"
+    }
+  ],
+  "also_read": {
+    "talk": "see_lord_everyone_but_treat_merit",
+    "after": {
+      "hi": "दुर्गा देवी: शस्त्र हाथ में, करुणा हृदय में",
+      "en": "Maa Durga: A Weapon in Her Hand, Compassion in Her Heart"
+    }
+  },
+  "related": [
+    "see_lord_everyone_but_treat_merit",
+    "see_god_even_enemy",
+    "punya_vs_paap"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "ye-yatha-mam-prapadyante-arth",
+      "focus_keyword": "ये यथा मां प्रपद्यन्ते का अर्थ",
+      "secondary_keywords": [
+        "क्या भगवान बदला लेते हैं",
+        "जैसा दोगे वैसा मिलेगा",
+        "प्रतिक्रिया देने से पहले क्या करें",
+        "गीता ४.११ का अर्थ"
+      ],
+      "meta_description": "क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी 'ये यथा मां प्रपद्यन्ते' का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।",
+      "tags": [
+        "गणेश सीरीज़",
+        "भगवद्गीता",
+        "विवेक",
+        "कर्मयोग",
+        "गुरु-शिष्य"
+      ]
+    },
+    "en": {
+      "slug": "bhagavad-gita-4-11-meaning",
+      "focus_keyword": "Bhagavad Gita 4.11 meaning",
+      "secondary_keywords": [
+        "does God take revenge",
+        "life is a boomerang",
+        "pause before you react",
+        "ye yatha mam prapadyante meaning"
+      ],
+      "meta_description": "Does God take revenge? Acharya Upendra Ji explains Bhagavad Gita 4.11: God answers us in the language we understand, yet always for our uplift.",
+      "tags": [
+        "Ganesh Series",
+        "Bhagavad Gita",
+        "Viveka",
+        "Karma Yoga",
+        "Guru and Disciple"
+      ]
+    }
+  }
+}

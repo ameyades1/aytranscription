@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "गुरु शिष्य का प्रेम: प्रेम का सर्वोच्च स्वरूप",
+    "en": "Love Between Guru and Disciple: Love's Highest Form"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन पत्थर के मंदिर-मंडप में आसन पर बैठे श्वेत केशों वाले गुरु के चरणों में सिर झुकाकर प्रणाम करता शिष्य",
+      "en": "A disciple bowing his head at the feet of a white-haired Guru seated on a cushion in an ancient carved stone temple hall"
+    },
+    "inline.jpg": {
+      "hi": "नदी किनारे पेड़ के नीचे बैठे गुरु बोलते हुए, और सामने हाथ में कॉपी-कलम लिए एकाग्र होकर सुनता युवा शिष्य",
+      "en": "A Guru speaking beneath a tree by a river while a young disciple, notebook and pen in hand, listens intently"
+    },
+    "rzvDKGED45s.jpg": {
+      "hi": "वीडियो: गुरु और शिष्य, प्रेम का सर्वोच्च स्वरूप, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Guru and Disciple, The Highest Form of Love, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "गुरु को पहचाना, तो परमात्मा को पहचाना",
+      "en": "Recognising the Guru, recognising God"
+    },
+    "inline.jpg": {
+      "hi": "जैसा कहा गया, वैसा ही सुनना",
+      "en": "Hearing the words exactly as spoken"
+    }
+  },
+  "links": [
+    {
+      "talk": "what_is_a_guru",
+      "hi": "गुरु को उनके असली रूप में पहचान लेता है",
+      "en": "recognise the Guru in their true form"
+    },
+    {
+      "talk": "radha_krishna_divine_secret",
+      "hi": "श्री कृष्ण और राधा का जीवन",
+      "en": "the lives of Shri Krishna and Radha"
+    },
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "बहुत कुछ होता है, पर प्रेम नहीं",
+      "en": "a great deal more, but not love"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "उस गुरु के पास जाना होता है जिसने उसे अनुभव किया है",
+      "en": "go to a Guru who has lived it"
+    },
+    {
+      "talk": "know_kind_student_shishya",
+      "hi": "गुरु की बात पूर्ण स्वरूप में",
+      "en": "form the habit of hearing"
+    }
+  ],
+  "also_read": {
+    "talk": "true_disciple_change_your_life",
+    "after": {
+      "hi": "असली शिष्य की पहचान",
+      "en": "The Mark of a True Disciple"
+    }
+  },
+  "related": [
+    "surrendering_to_guru",
+    "when_disciple_become_truly_powerful",
+    "truly_desire_or_infatuation"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-shishya-ka-prem",
+      "focus_keyword": "गुरु शिष्य का प्रेम",
+      "secondary_keywords": [
+        "सच्चा प्रेम क्या है",
+        "मोह और प्रेम में अंतर",
+        "असली शिष्य की पहचान"
+      ],
+      "meta_description": "जिसे हम प्रेम कहते हैं, क्या वह सच में प्रेम है? आचार्य उपेंद्र जी बताते हैं कि गुरु शिष्य का प्रेम मोह और आसक्ति से कैसे अलग है और असली शिष्य की पहचान क्या है।",
+      "tags": [
+        "गुरु-शिष्य",
+        "मोह",
+        "पुनर्जन्म",
+        "चक्र"
+      ]
+    },
+    "en": {
+      "slug": "guru-disciple-love",
+      "focus_keyword": "love between Guru and disciple",
+      "secondary_keywords": [
+        "what is true love spiritually",
+        "difference between love and attachment",
+        "signs of a true disciple"
+      ],
+      "meta_description": "Is what we call love really love? Acharya Upendra Ji explains love between Guru and disciple, how it differs from moha, and the mark of a true disciple.",
+      "tags": [
+        "Guru and Disciple",
+        "Attachment",
+        "Rebirth",
+        "Chakras"
+      ]
+    }
+  }
+}

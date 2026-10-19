@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "गुरु सेवा का महत्व: सान्निध्य में हर क्षण नया जन्म",
+    "en": "Importance of Guru Seva: Every Moment a New Birth"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में गुरुकुल के आँगन की नम मिट्टी से निकलता नन्हा अंकुर, पीछे मिट्टी के घड़े और कच्ची दीवार",
+      "en": "A tiny seedling with dew-covered leaves rising from moist soil in a gurukul courtyard at sunrise, clay pots and a mud wall behind"
+    },
+    "inline.jpg": {
+      "hi": "लाल-केसरिया रेशमी वस्त्र पर रखी नक्काशीदार लकड़ी की गुरु पादुका, चारों ओर गेंदे के फूल, जलता दीया, धूप और कुमकुम-हल्दी की थाली",
+      "en": "Carved wooden Guru padukas on a red and saffron silk cloth, surrounded by marigolds, a lit brass diya, incense and a plate of kumkum and turmeric"
+    },
+    "9_Olb-bBLgA.jpg": {
+      "hi": "वीडियो: जीवित सद्गुरु के साथ हर क्षण एक नया जन्म है, पल्लवी डांगी जी की आध्यात्मिक यात्रा",
+      "en": "Video: Every Moment With an Enlightened Master Is a New Birth, Pallavi Dangi's spiritual journey"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हर दिन एक नया अंकुर",
+      "en": "A new sprout every day"
+    },
+    "inline.jpg": {
+      "hi": "पादुका नहीं, गुरु का मार्ग",
+      "en": "Not the sandals, but the path"
+    }
+  },
+  "links": [
+    {
+      "talk": "being_presence_guru_changes_way_think",
+      "hi": "यदि आप छह महीने ऐसे गुरु के सान्निध्य में रहें",
+      "en": "Spend six months in the presence of such a Guru"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "उस समय तमोगुण से रजोगुण तक पहुंचना हुआ",
+      "en": "climbing from tamoguna to rajoguna"
+    },
+    {
+      "talk": "saturn_mars_succeed_shani_mangal",
+      "hi": "लगभग सभी को शनि का उपाय आया था",
+      "en": "Almost everyone had been given a Saturn remedy"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "इसलिए गुरु जो कहें, बस उतना करना है",
+      "en": "So whatever the Guru says, simply do that"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "श्री विद्या वाला यह देश",
+      "en": "this land of Shri Vidya"
+    }
+  ],
+  "also_read": {
+    "talk": "true_disciple_change_your_life",
+    "after": {
+      "hi": "वाणी जो संस्कार बन जाती है",
+      "en": "Words That Become Samskaras"
+    }
+  },
+  "related": [
+    "being_presence_guru_changes_way_think",
+    "guru_and_disciple_highest_form_love",
+    "know_kind_student_shishya"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-seva-ka-mahatva",
+      "focus_keyword": "गुरु सेवा का महत्व",
+      "secondary_keywords": [
+        "गुरु पादुका पूजन का अर्थ",
+        "सेवा से आत्म परिवर्तन",
+        "तमोगुण से सत्त्वगुण कैसे बढ़ें"
+      ],
+      "meta_description": "गुरु सेवा क्यों देते हैं? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।",
+      "tags": [
+        "सेवा",
+        "गुरु पादुका",
+        "संस्कार",
+        "त्रिगुण",
+        "साधक अनुभव"
+      ]
+    },
+    "en": {
+      "slug": "importance-of-guru-seva",
+      "focus_keyword": "importance of Guru seva",
+      "secondary_keywords": [
+        "meaning of Guru Paduka puja",
+        "seva and spiritual transformation",
+        "how to go from tamas to sattva"
+      ],
+      "meta_description": "Why does the Guru give seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.",
+      "tags": [
+        "Seva",
+        "Guru Paduka",
+        "Samskaras",
+        "Three Gunas",
+        "Seeker Experiences"
+      ]
+    }
+  }
+}

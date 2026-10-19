@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति",
+    "en": "Who Can Grant Liberation? Death vs Freedom While Alive"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नदी किनारे चटाई पर ध्यान में बैठे भगवा वस्त्रधारी साधु, ऊपर आकाश में उड़ते पक्षियों का झुंड और दूर घाट पर मंदिर",
+      "en": "A saffron-robed sage meditating on a mat by a river at sunset, a flock of birds flying overhead and temples on the far ghats"
+    },
+    "inline.jpg": {
+      "hi": "संध्या के समय घाट के पास नदी में तैरते सैकड़ों जलते दीये, पीछे रोशनी से जगमगाते मंदिर",
+      "en": "Hundreds of lit diyas floating on a river beside the ghats at dusk, with lit-up temples behind them"
+    },
+    "Ky-LxnXsPtM.jpg": {
+      "hi": "वीडियो थंबनेल: एक ओर लेटा शरीर और जन्म-मृत्यु का चक्र, दूसरी ओर प्रकाश में ध्यानस्थ साधक, 'मृत्यु और मोक्ष में अंतर' लिखा है, दाईं ओर आचार्य उपेंद्र जी",
+      "en": "Video thumbnail: a body lying beneath the cycle of birth and death beside a meditator in light, the words 'मृत्यु और मोक्ष में अंतर', and Acharya Upendra Ji on the right"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "शरीर रहे, बंधन छूटे",
+      "en": "The body remains, the bonds fall away"
+    },
+    "inline.jpg": {
+      "hi": "रुकी हुई यात्रा, दूर की ज्योति",
+      "en": "A journey halted short of the light"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पितर वे हैं जो इस यात्रा में कहीं बीच में रुक गए",
+      "en": "pitars are those who halted somewhere in the middle of it"
+    },
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "एक बार मर जाऊँ तो छूट जाऊँगा",
+      "en": "Once I die, I will be free"
+    },
+    {
+      "talk": "mrityu_versus_moksha",
+      "hi": "मरने पर शरीर यहीं रहता है",
+      "en": "When we die, the body stays behind"
+    },
+    {
+      "talk": "pind_daan",
+      "hi": "कौवा पिंड पर चोंच लगा दे",
+      "en": "watching a crow peck"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "ऐसा एकमात्र गुरु ही",
+      "en": "Only a Guru who is a jivanmukta"
+    }
+  ],
+  "also_read": {
+    "talk": "chanting_om_final_breath_liberation",
+    "after": {
+      "hi": "मोक्ष क्या है?",
+      "en": "What Is Liberation?"
+    }
+  },
+  "related": [
+    "mrityu_versus_moksha",
+    "biggest_spiritual_misconception_about_death",
+    "gita_escape_cycle_of_rebirth"
+  ],
+  "wordpress": {
+    "category": "moksha",
+    "hi": {
+      "slug": "kaun-moksha-dila-sakta-hai",
+      "focus_keyword": "मोक्ष दिला सकता है",
+      "secondary_keywords": [
+        "मोक्ष कौन दिला सकता है",
+        "मृत्यु और मोक्ष में अंतर",
+        "जीवन्मुक्ति क्या है",
+        "पितरों की मुक्ति"
+      ],
+      "meta_description": "क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
+      "tags": [
+        "जीवन्मुक्ति",
+        "सद्गुरु",
+        "संस्कार",
+        "पुरुषार्थ",
+        "पिंडदान"
+      ]
+    },
+    "en": {
+      "slug": "who-can-grant-liberation",
+      "focus_keyword": "grant liberation",
+      "secondary_keywords": [
+        "who can grant moksha",
+        "difference between death and moksha",
+        "jivanmukti meaning",
+        "liberation of ancestors"
+      ],
+      "meta_description": "Who can grant liberation to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
+      "tags": [
+        "Jivanmukti",
+        "Sadguru",
+        "Samskaras",
+        "Purusharthas",
+        "Pind Daan"
+      ]
+    }
+  }
+}

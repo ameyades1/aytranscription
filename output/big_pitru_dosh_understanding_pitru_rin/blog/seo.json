@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण",
+    "en": "Pitru Dosh: Ancestral Karma Across Seven Lifetimes"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "भोर की धुंध में विशाल पुराना बरगद, जिसकी जटाओं और जड़ों पर अनगिनत मिट्टी के दीये जल रहे हैं और तने पर गेंदे की माला चढ़ी है, पास में एक झोपड़ी",
+      "en": "A vast old banyan tree in the misty dawn, countless clay diyas glowing on its hanging roots and trunk, a marigold garland on the trunk and a village hut nearby"
+    },
+    "inline.jpg": {
+      "hi": "बरगद की मोटी, आपस में गुंथी जड़ें धरती में फैलती हुईं, जड़ों और पत्थरों पर जलते मिट्टी के दीये और तने पर गेंदे की माला",
+      "en": "Thick, intertwined banyan roots spreading into the earth, with clay diyas burning on the roots and stones and a marigold garland on the trunk"
+    },
+    "PRyW99k_yqU.jpg": {
+      "hi": "वीडियो: कितना बड़ा है पितृ दोष? पितृ ऋण और पूर्वजों का कर्म, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: How Big Is Pitru Dosh? Understanding Pitru Rin and Ancestral Karma, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक वृक्ष, अनगिनत पितर",
+      "en": "One tree, countless ancestors"
+    },
+    "inline.jpg": {
+      "hi": "जड़ें दिखती नहीं, पर हैं",
+      "en": "Unseen roots are still roots"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पूर्वजों के प्रति हमारा कर्ज़",
+      "en": "the debt we owe our ancestors"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "आप अपने लिए स्वयं उत्तरदायी हैं",
+      "en": "You are responsible for yourself"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "कलियुग में मुक्ति की दर बहुत कम है",
+      "en": "very few people attain liberation in this age"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "जन्म-जन्मांतर की श्रृंखला",
+      "en": "the chain of births, one life after another"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "माया में हम इतने अटक गए हैं",
+      "en": "the illusion of the world"
+    }
+  ],
+  "also_read": {
+    "talk": "mrityu_versus_moksha",
+    "after": {
+      "hi": "मुक्त भी आपको ही करना है",
+      "en": "Freeing Them Is Your Task"
+    }
+  },
+  "related": [
+    "true_meaning_pitru_rin",
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "pind_daan"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "pitru-dosh-saat-peedhi-saat-janm",
+      "focus_keyword": "पितृ दोष",
+      "secondary_keywords": [
+        "पितृ दोष क्या है",
+        "पितृ दोष और पितृ ऋण में अंतर",
+        "हर साल श्राद्ध क्यों करें",
+        "सात पीढ़ी के पितर"
+      ],
+      "meta_description": "पितृ दोष क्या है और एक बार का श्राद्ध काफ़ी क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं पितृ ऋण, पितृ लाभ और सात पीढ़ियों व सात जन्मों के पितरों का कर्म।",
+      "tags": [
+        "पितृ दोष",
+        "पितृ ऋण",
+        "पितर",
+        "श्राद्ध",
+        "पुनर्जन्म"
+      ]
+    },
+    "en": {
+      "slug": "pitru-dosh-seven-lifetimes",
+      "focus_keyword": "pitru dosh",
+      "secondary_keywords": [
+        "what is pitru dosh",
+        "pitru dosh vs pitru rin",
+        "ancestral karma",
+        "seven generations of ancestors"
+      ],
+      "meta_description": "What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes.",
+      "tags": [
+        "Pitru Dosh",
+        "Pitru Rin",
+        "Ancestors",
+        "Shraddha",
+        "Rebirth"
+      ]
+    }
+  }
+}

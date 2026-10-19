@@ -1,0 +1,62 @@
+{
+  "title": {
+    "hi": "गुरु ग्रह का महत्व: देवगुरु बृहस्पति की कृपा का रहस्य",
+    "en": "Significance of Jupiter: Devguru Brihaspati's Grace"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "रात के तारों भरे आकाश में चमकता बृहस्पति ग्रह, जिसे दीपों के बीच मंदिर की छत पर बैठे श्वेत केशों वाले साधु निहार रहे हैं; नीचे नदी किनारे जगमगाता नगर",
+      "en": "A white-haired sage in saffron robes sits beside oil lamps on a temple terrace, gazing at a glowing Jupiter in the starry night sky above a lit riverside town"
+    },
+    "inline.jpg": {
+      "hi": "पुरानी हवेली के आँगन में छुपा-छुपी: एक माँ हाथ से इशारा करती है, एक बच्चा उस ओर दौड़ता है और एक बच्ची पत्थर के खंभे के पीछे छिपी है",
+      "en": "Hide-and-seek in an old courtyard: a mother points the way as a boy runs toward the spot and a girl hides behind a stone pillar"
+    },
+    "4pc2zrIOdXE.jpg": {
+      "hi": "वीडियो: गुरु ग्रह मंत्र जप, बृहस्पति ग्रह के सामने आचार्य उपेंद्र जी; 56 दिनों में 76,000 जप",
+      "en": "Video: Guru Graha mantra chanting, Acharya Upendra Ji before the planet Jupiter; 76,000 chants over 56 days"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "देवगुरु की कृपा, जीवन की दिशा",
+      "en": "The Guru's grace sets life's course"
+    },
+    "inline.jpg": {
+      "hi": "माँ का इशारा, गुरु का काम",
+      "en": "A mother's hint, the Guru's work"
+    }
+  },
+  "links": [
+    {"talk": "shukra_graha_chanting_wealth_relationships", "hi": "वैश्विक नवग्रह जप अभियान", "en": "Navagraha (nine planets) chanting campaign"},
+    {"talk": "worldly_maya_makes_forget_true_self", "hi": "परमात्मा सृष्टि रचकर स्वयं छिप जाते हैं", "en": "God creates the world and then hides Himself in it"},
+    {"talk": "what_is_a_guru", "hi": "जीवन में गुरु का होना बहुत महत्वपूर्ण है", "en": "Having a Guru in life matters deeply"},
+    {"talk": "spiritual_science_om_aum", "hi": "गणपति तो ओंकार स्वरूप हैं", "en": "Ganapati is the very form of Om"}
+  ],
+  "also_read": {
+    "talk": "saturn_mars_succeed_shani_mangal",
+    "after": {"hi": "जब गुरु कमज़ोर हो", "en": "When Jupiter Is Weak"}
+  },
+  "related": [
+    "shukra_graha_chanting_wealth_relationships",
+    "saturn_mars_succeed_shani_mangal",
+    "what_is_a_guru"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "guru-grah-ka-mahatva",
+      "focus_keyword": "गुरु ग्रह का महत्व",
+      "secondary_keywords": ["कमज़ोर गुरु ग्रह के लक्षण", "देवगुरु बृहस्पति", "गुरु बीज मंत्र साधना", "शिवे रुष्टे गुरुस्त्राता का अर्थ"],
+      "meta_description": "देवगुरु बृहस्पति, यानी गुरु ग्रह, जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा का रहस्य, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",
+      "tags": ["नवग्रह", "गुरु कृपा", "सद्गुरु", "माया"]
+    },
+    "en": {
+      "slug": "significance-of-jupiter-guru-grace",
+      "focus_keyword": "significance of Jupiter in Vedic astrology",
+      "secondary_keywords": ["weak Jupiter effects", "who is Devguru Brihaspati", "Guru beej mantra sadhana", "shive ruste gurus trata meaning"],
+      "meta_description": "What does Jupiter, Devguru Brihaspati, govern in your life? Acharya Upendra Ji explains Guru grace, the signs of a weak Jupiter and the Guru beej mantra.",
+      "tags": ["Navagraha", "Guru Kripa", "Sadguru", "Maya"]
+    }
+  }
+}

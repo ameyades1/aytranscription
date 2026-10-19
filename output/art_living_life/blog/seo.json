@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "संसार छोड़ने की कला: मृत्यु की तैयारी किससे सीखें",
+    "en": "The Art of Leaving: Who Can Teach You to Prepare for Death?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नक्काशीदार लकड़ी के बरामदे में चटाई पर शांत मुस्कान के साथ बैठे श्वेत वस्त्रधारी वृद्ध, नीचे गाँव, अलाव का धुआँ और दूर मंदिरों के शिखर",
+      "en": "An elderly man in white sits smiling on a mat on a carved wooden veranda at sunset, overlooking a village with cooking fires and distant temple spires"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की पुरानी मेज़ पर रेत गिराती रेतघड़ी, पास में गेंदे और मोगरे की माला, पीतल का कलश और मिट्टी का दीया",
+      "en": "An hourglass with sand running on an old wooden table, beside a marigold and jasmine garland, a brass pot and a clay lamp"
+    },
+    "LrMV7jGjO2Q.jpg": {
+      "hi": "वीडियो: Learn How To Leave This World, आचार्य उपेंद्र जी, पास में शांति से लेटे वृद्ध जिनकी आत्मा प्रकाश में ऊपर उठ रही है",
+      "en": "Video: Learn How To Leave This World, Acharya Upendra Ji beside an elderly man lying peacefully as his soul rises into the light"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "विदा के लिए तैयार, भीतर से शांत",
+      "en": "Ready to leave, at peace within"
+    },
+    "inline.jpg": {
+      "hi": "रेत गिरती रहती है, तारीख कोई नहीं जानता",
+      "en": "The sand keeps falling; no one knows the date"
+    }
+  },
+  "links": [
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "जन्म है, तो मृत्यु है",
+      "en": "whoever is born will die"
+    },
+    {
+      "talk": "chanting_om_final_breath_liberation",
+      "hi": "मंच कैसे छोड़ना है",
+      "en": "how to step off the stage"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "वही आपको मुक्ति दिला सकता है",
+      "en": "can lead you to liberation"
+    },
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "आपके पितरों के लिए भी",
+      "en": "to your ancestors"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "बाकी सब केवल पुस्तकीय ज्ञान है",
+      "en": "Everything else is mere book learning"
+    }
+  ],
+  "also_read": {
+    "talk": "not_wait_until_retirement_transform_life",
+    "after": {
+      "hi": "क्या आप जानते हैं वह दिन कब है?",
+      "en": "Do You Know When Your Day Will Come?"
+    }
+  },
+  "related": [
+    "biggest_spiritual_misconception_about_death",
+    "mrityu_versus_moksha",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "moksha",
+    "hi": {
+      "slug": "sansar-chhodne-ki-kala",
+      "focus_keyword": "संसार छोड़ने की कला",
+      "secondary_keywords": [
+        "मृत्यु की तैयारी कैसे करें",
+        "जीने की कला और छोड़ने की कला",
+        "जीवन्मुक्त सद्गुरु",
+        "जीवन में निश्चित क्या है"
+      ],
+      "meta_description": "केवल मृत्यु निश्चित है, पर उसकी तारीख कोई नहीं जानता। आचार्य उपेंद्र जी बताते हैं संसार छोड़ने की कला क्या है और इसे कौन सिखा सकता है।",
+      "tags": [
+        "जीवन्मुक्ति",
+        "सद्गुरु",
+        "शक्तिपात",
+        "अनित्यता"
+      ]
+    },
+    "en": {
+      "slug": "art-of-leaving",
+      "focus_keyword": "art of leaving",
+      "secondary_keywords": [
+        "how to prepare for death spiritually",
+        "art of living and art of leaving",
+        "jivanmukta guru",
+        "death is the only certainty in life"
+      ],
+      "meta_description": "Death is life's only certainty, and no one knows the day. Acharya Upendra Ji explains the Art of Leaving, and why only a liberated Sadguru can teach it.",
+      "tags": [
+        "Jivanmukti",
+        "Sadguru",
+        "Shaktipat",
+        "Impermanence"
+      ]
+    }
+  }
+}

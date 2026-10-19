@@ -1,0 +1,97 @@
+{
+  "title": {
+    "hi": "क्या मनुष्य का शरीर मांसाहार के लिए बना है?",
+    "en": "Are Humans Meant to Eat Meat? What Your Gut Reveals"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "बुनी हुई चटाई पर मिट्टी की खाली थाली, चारों ओर अनानास, अंगूर, स्ट्रॉबेरी, फूलगोभी, कद्दू, गाजर, बैंगन, आलू और दाल-चावल की कटोरियाँ",
+      "en": "An empty clay plate on a woven mat, surrounded by pineapple, grapes, strawberries, cauliflower, pumpkin, carrots, aubergine, potatoes and bowls of lentils and rice"
+    },
+    "inline.jpg": {
+      "hi": "सूर्यास्त की नारंगी रोशनी में सूखी घास के मैदान में आराम से बैठा एक सिंह",
+      "en": "A lion resting in dry grassland under an orange sunset sky"
+    },
+    "yMTf0fB0O7I.jpg": {
+      "hi": "वीडियो: Non-Veg Stays in Your Body for Years, ब्रह्मर्षि आचार्य उपेंद्र जी और पीछे क्रॉस लगी मांसाहारी थाली, Mindful Eating Series",
+      "en": "Video: Non-Veg Stays in Your Body for Years, Brahmarshi Acharya Upendra Ji beside a crossed-out platter of meat dishes, Mindful Eating Series"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "थाली वही भरें, जिसके लिए शरीर बना है",
+      "en": "Fill the plate your body was made for"
+    },
+    "inline.jpg": {
+      "hi": "सिंह की रचना अलग, हमारी अलग",
+      "en": "The lion is built differently from us"
+    }
+  },
+  "links": [
+    {
+      "talk": "eat_shapes_how_you_think",
+      "hi": "हम अक्सर पूछते हैं कि क्या खाना सही है और क्या नहीं",
+      "en": "We often ask what we should eat and what we should avoid"
+    },
+    {
+      "talk": "eat_to_heal_not_to_harm_spiritual",
+      "hi": "शाकाहार और मांसाहार में अंतर है",
+      "en": "A vegetarian meal and a meat meal behave differently"
+    },
+    {
+      "talk": "diet_hindering_success_link_prosperity",
+      "hi": "हमें भोजन से बहुत सत्व, बहुत रस लेना है",
+      "en": "We are meant to draw a great deal of nourishment and essence from our food"
+    },
+    {
+      "talk": "ghee_more_than_food",
+      "hi": "अगली बार भोजन चुनते समय",
+      "en": "The next time you choose a meal"
+    }
+  ],
+  "also_read": {
+    "talk": "hardcore_non_vegetarian_awakening",
+    "after": {
+      "hi": "सिंह बीमार नहीं होता, तो हम क्यों?",
+      "en": "If the Lion Stays Healthy, Why Don't We?"
+    }
+  },
+  "related": [
+    "eat_to_heal_not_to_harm_spiritual",
+    "water_is_your_first_medicine",
+    "eat_shapes_how_you_think"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "kya-sharir-mansahar-ke-liye-bana-hai",
+      "focus_keyword": "क्या मनुष्य का शरीर मांसाहार के लिए बना है",
+      "secondary_keywords": [
+        "मनुष्य और मांसाहारी प्राणियों का पाचन तंत्र",
+        "मांसाहार और पाचन",
+        "मांसाहार से रोग क्यों होते हैं"
+      ],
+      "meta_description": "क्या मनुष्य का शरीर मांसाहार के लिए बना है? आचार्य उपेंद्र जी लंबी, लहरदार मानव आँत की तुलना मांसाहारी प्राणियों की छोटी, चिकनी आँत से करते हैं।",
+      "tags": [
+        "मांसाहार",
+        "शाकाहार",
+        "माइंडफुल ईटिंग सीरीज़"
+      ]
+    },
+    "en": {
+      "slug": "are-humans-meant-to-eat-meat",
+      "focus_keyword": "are humans meant to eat meat",
+      "secondary_keywords": [
+        "human vs carnivore digestive system",
+        "meat and digestion",
+        "is the human body designed for vegetarian food"
+      ],
+      "meta_description": "Are humans meant to eat meat? Acharya Upendra Ji compares the long, ridged human gut with the short, smooth gut of a carnivore and what each is built for.",
+      "tags": [
+        "Meat-Eating",
+        "Vegetarianism",
+        "Mindful Eating Series"
+      ]
+    }
+  }
+}

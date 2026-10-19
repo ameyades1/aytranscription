@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "वर्ण और आश्रम व्यवस्था: अध्यात्म साठ तक क्यों टालें?",
+    "en": "Varna and Ashrama System: Why Wait Until 60 to Turn Inward?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय गंगा घाट की पत्थर की सीढ़ियों पर सफ़ेद कुर्ते-पायजामे में आँखें मूँदकर ध्यान करते एक युवक और एक युवती, पीछे पुराने घाट और नदी पर नावें",
+      "en": "A young man and woman in white kurtas meditating with eyes closed on a stone ghat by the Ganga at sunrise, old riverside buildings and boats behind them"
+    },
+    "inline.jpg": {
+      "hi": "जंगल की पगडंडी पर साथ चलते एक बुज़ुर्ग दंपती, सफ़ेद दाढ़ी वाले पति हाथ में लाठी और रुद्राक्ष माला लिए, पत्नी सादी सफ़ेद साड़ी में",
+      "en": "An elderly couple walking together on a forest path, the white-bearded husband holding a wooden staff and wearing a rudraksha mala, the wife in a plain cream sari"
+    },
+    "4UYYhdxw4RQ.jpg": {
+      "hi": "वीडियो: जीवन में अपनी पूरी क्षमता कैसे जगाएं, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: How to Unlock Your Full Potential in Life, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "संन्यास वृत्ति, पच्चीस से ही",
+      "en": "A renunciate's spirit, from twenty-five"
+    },
+    "inline.jpg": {
+      "hi": "साथ-साथ, पर भीतर से अनासक्त",
+      "en": "Together, yet inwardly unattached"
+    }
+  },
+  "links": [
+    {
+      "talk": "not_wait_until_retirement_transform_life",
+      "hi": "जब सब निपट जाए, तब भगवान",
+      "en": "there will be time for God"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "प्रकृति के तीन मूल स्वभाव",
+      "en": "the three basic qualities of nature"
+    },
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "अनासक्त होने का अभ्यास",
+      "en": "practise detachment"
+    },
+    {
+      "talk": "why_society_remains_divided_interview",
+      "hi": "यह व्यवस्था कठोर नहीं, परिवर्तनशील है",
+      "en": "This system is not rigid"
+    },
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "स्वयं मोक्ष के मार्ग पर आ गए",
+      "en": "we become saints ourselves"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_age_matters_physical_age",
+    "after": {
+      "hi": "कौन दे सकता है गारंटी?",
+      "en": "Who Can Promise You Your Later Years?"
+    }
+  },
+  "related": [
+    "three_gunas_karma",
+    "every_human_inherently_spiritual",
+    "truth_about_brahmacharya_exposed_video"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "varna-aur-ashram-vyavastha",
+      "focus_keyword": "वर्ण और आश्रम व्यवस्था",
+      "secondary_keywords": [
+        "चार आश्रम कौन से हैं",
+        "वानप्रस्थ आश्रम का अर्थ",
+        "संन्यास वृत्ति क्या है",
+        "क्या वर्ण बदल सकता है"
+      ],
+      "meta_description": "वर्ण और आश्रम व्यवस्था का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि वर्ण गुण और कर्म से बदलता है, और अध्यात्म को साठ के बाद तक टालना क्यों ठीक नहीं।",
+      "tags": [
+        "वर्ण व्यवस्था",
+        "त्रिगुण",
+        "वैराग्य",
+        "भगवद्गीता",
+        "आश्रम व्यवस्था"
+      ]
+    },
+    "en": {
+      "slug": "varna-and-ashrama-system",
+      "focus_keyword": "varna and ashrama system",
+      "secondary_keywords": [
+        "four ashramas of life",
+        "meaning of vanaprastha",
+        "can varna change",
+        "sannyasa vritti meaning"
+      ],
+      "meta_description": "What does the varna and ashrama system teach? Acharya Upendra Ji shows how varna shifts with guna and action, and why spirituality should not wait for 60.",
+      "tags": [
+        "Varna",
+        "Three Gunas",
+        "Vairagya",
+        "Bhagavad Gita",
+        "Ashrama System"
+      ]
+    }
+  }
+}

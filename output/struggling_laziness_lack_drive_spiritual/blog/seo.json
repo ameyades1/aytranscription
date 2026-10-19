@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "आलस्य कैसे दूर करें? तमोगुण से निकलने का आध्यात्मिक उपाय",
+    "en": "Spiritual Solution for Laziness: How to Break Out of Tamas"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह बिखरे बिस्तर के पास खड़ा एक युवक, दोनों हाथों से खिड़की के पर्दे खोलकर कमरे में धूप आने देता हुआ",
+      "en": "A young man standing beside an unmade bed in the morning, pulling the window curtains open to let sunlight into the room"
+    },
+    "inline.jpg": {
+      "hi": "अंधेरी गुफा के भीतर से दिखते प्रकाश के दो द्वार: एक में धूप से भरी पत्थर की सीढ़ियाँ, दूसरे में खुली घाटी",
+      "en": "Two openings of light seen from inside a dark cave: one with sunlit stone steps, the other looking out over an open valley"
+    },
+    "ekKEpnvRlDo.jpg": {
+      "hi": "वीडियो: आलस्य से जूझ रहे हैं? आचार्य उपेंद्र जी बताते हैं आध्यात्मिक उपाय",
+      "en": "Video: Struggling with laziness? Acharya Upendra Ji explains the spiritual fix"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बोध जागा, तो आलस्य गया",
+      "en": "When duty dawns, inertia leaves"
+    },
+    "inline.jpg": {
+      "hi": "बाहर का अनुशासन, या भीतर का बोध",
+      "en": "Discipline from outside, or awareness within"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "तमोगुण से सीधी छलांग नहीं लगती",
+      "en": "You cannot leap straight out of it"
+    },
+    {
+      "talk": "unlock_full_potential_in_life",
+      "hi": "वाल्या को वाल्मीकि बना सकता है",
+      "en": "transform a Valya into a Valmiki"
+    },
+    {
+      "talk": "know_your_first_duty_in_life",
+      "hi": "जब कर्तव्य का बोध हो जाता है",
+      "en": "the moment a sense of duty awakens"
+    },
+    {
+      "talk": "shreya_vs_preya_vedantic_wisdom",
+      "hi": "जो करते हो उसे पसंद करो, या जो पसंद है वही करो",
+      "en": "Should you love what you do, or do only what you love"
+    },
+    {
+      "talk": "being_presence_guru_changes_way_think",
+      "hi": "उसे तोड़ने के लिए कोई सामने बैठा होना चाहिए",
+      "en": "breaking it takes someone sitting right in front of you"
+    }
+  ],
+  "also_read": {
+    "talk": "knowledge_work_for_you",
+    "after": {
+      "hi": "प्रेय या श्रेय: क्या चुनें?",
+      "en": "Preya or Shreya: Which Will You Choose?"
+    }
+  },
+  "related": [
+    "three_gunas_karma",
+    "control_your_mind_before_it_controls_you",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "aalasya-kaise-door-karen",
+      "focus_keyword": "आलस्य कैसे दूर करें",
+      "secondary_keywords": ["तमोगुण से कैसे निकलें", "कर्तव्य-बोध", "आलस्य और तमोगुण", "गुणातीत का अर्थ"],
+      "meta_description": "आलस्य कैसे दूर करें? आचार्य जी बताते हैं: आलस्य तमोगुण है। कर्तव्य-बोध तमस से रजस में लाता है, श्रेष्ठ को प्रिय बनाना सत्त्व में, और गुरु संस्कार बदलते हैं।",
+      "tags": ["तमोगुण", "त्रिगुण", "कर्तव्य", "सद्गुरु", "संस्कार", "श्रेय और प्रेय"]
+    },
+    "en": {
+      "slug": "spiritual-solution-for-laziness",
+      "focus_keyword": "spiritual solution for laziness",
+      "secondary_keywords": ["how to get out of tamas", "tamoguna and laziness", "lack of motivation spiritual cause", "gunatita meaning"],
+      "meta_description": "Struggling with laziness? Acharya Ji explains the spiritual solution: a sense of duty lifts you from tamas to rajas, and a Guru can make the direct leap.",
+      "tags": ["Tamas", "Three Gunas", "Duty", "Sadguru", "Samskaras", "Shreyas and Preyas"]
+    }
+  }
+}

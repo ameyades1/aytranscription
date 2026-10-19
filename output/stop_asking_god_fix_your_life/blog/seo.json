@@ -1,0 +1,63 @@
+{
+  "title": {
+    "hi": "भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति",
+    "en": "What to Ask God in Prayer: Strength, Not a Problem-Free Life"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त की सुनहरी रोशनी में खड़ी चट्टान पर रस्सी के सहारे चढ़ता युवक, ऊपर की पकड़ की ओर हाथ बढ़ाता हुआ, पीछे घाटी और नुकीली पहाड़ी",
+      "en": "A young man in a climbing harness reaches for the next hold on a steep rock face at sunset, with a valley and a pointed hill behind him"
+    },
+    "inline.jpg": {
+      "hi": "पहाड़ की चोटी तक जाता पत्थरों भरा ऊबड़-खाबड़ रास्ता, ऊपर चढ़ते दो छोटे यात्री, नीचे बादलों से घिरी घाटियाँ",
+      "en": "A rocky, boulder-strewn trail climbs to a mountain summit, with two small hikers near the top and cloud-filled valleys below"
+    },
+    "lCzbwxk3pqA.jpg": {
+      "hi": "वीडियो: आपकी हर समस्या का एक छिपा उद्देश्य है, आचार्य उपेंद्र जी, पीछे प्रश्नचिह्नों के बीच जलता बल्ब",
+      "en": "Video: Your Every Problem Has a Hidden Purpose, Acharya Upendra Ji with a glowing light bulb among question marks behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चट्टान नहीं हटती, हाथ मज़बूत होते हैं",
+      "en": "The rock stays; the hands grow stronger"
+    },
+    "inline.jpg": {
+      "hi": "जितनी ऊँचाई, उतने पत्थर",
+      "en": "The higher the path, the more the stones"
+    }
+  },
+  "links": [
+    {"talk": "know_kind_student_shishya", "hi": "उत्तम शिष्य दूसरों के अनुभव से सीखता है", "en": "the finest disciple learns from the experience of others"},
+    {"talk": "hidden_meaning_spiritual_symbols", "hi": "यह अंधश्रद्धा न हो", "en": "it must not become blind faith"},
+    {"talk": "power_of_healing_antar_yog_science", "hi": "उपचार के विज्ञान", "en": "the science of healing"},
+    {"talk": "real_role_maha_kali", "hi": "दुर्गा की उपासना में पहला पाठ", "en": "the worship of Maa Durga always begins"},
+    {"talk": "saturn_mars_succeed_shani_mangal", "hi": "धीरे-धीरे ढीला होता गया, क्योंकि रख-रखाव नहीं हुआ", "en": "They grew looser over time because no one maintained them"}
+  ],
+  "also_read": {
+    "talk": "struggling_despite_trying_best",
+    "after": {"hi": "तीन तरह के लोग: आप कौन से हैं?", "en": "Three Kinds of People: Which One Are You?"}
+  },
+  "related": [
+    "manifesting_goals_correctly",
+    "destiny_awaits_obstacle_in_way",
+    "reveals_4_life_changing_components"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "bhagwan-se-kya-mange",
+      "focus_keyword": "भगवान से क्या माँगें",
+      "secondary_keywords": ["प्रार्थना में क्या माँगें", "ज्योतिष अंधविश्वास है या नहीं", "अंगूठी और उपाय अंधश्रद्धा", "विघ्न अचानक नहीं आते"],
+      "meta_description": "भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं।",
+      "tags": ["प्रार्थना", "अंधश्रद्धा", "आत्मविश्वास", "नवग्रह"]
+    },
+    "en": {
+      "slug": "what-to-ask-god-in-prayer",
+      "focus_keyword": "what to ask God in prayer",
+      "secondary_keywords": ["should I ask God to solve my problems", "is astrology superstition", "do astrological remedies work", "why obstacles grow as you rise"],
+      "meta_description": "Should you ask God to remove your problems? Acharya Upendra Ji explains what to ask for in prayer, why the effort is yours, and why remedies are catalysts.",
+      "tags": ["Prayer", "Blind Faith", "Self-Confidence", "Navagraha"]
+    }
+  }
+}

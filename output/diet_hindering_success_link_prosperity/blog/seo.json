@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "ईमानदार कमाई और सात्विक भोजन: थाली में धन का असर",
+    "en": "Honest Earnings and Sattvic Food: What Your Plate Carries"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लकड़ी की मेज़ पर केले के पत्ते वाली थाली में लाल और काले चावल, रोटियाँ और मिट्टी की कटोरियों में सब्ज़ियाँ, पीछे अनाज बीनते एक किसान के हाथ और दीवार से टिके फावड़े",
+      "en": "A thali on a banana leaf with red and black rice, rotis and vegetables in clay bowls on a wooden table, behind it a farmer's hands sorting grain and shovels leaning against a mud wall"
+    },
+    "inline.jpg": {
+      "hi": "बाईं ओर अनाज और मिट्टी की कटोरियों के साथ एक सादी भारतीय थाली, दाईं ओर दस्तावेज़ पर हस्ताक्षर करता सूट पहने व्यक्ति और रुपये के भुगतान वाली डिजिटल स्क्रीन",
+      "en": "On the left, a simple Indian thali with grains and clay bowls; on the right, a man in a suit signing a document beside digital screens showing a rupee payment"
+    },
+    "q1lSaFpLhAA.jpg": {
+      "hi": "वीडियो: Is Your Diet Blocking Your Success?, ब्रह्मर्षि आचार्य उपेंद्र जी और सब्ज़ियों से बने पहेली के टुकड़े को 'Success' वाले टुकड़े से जोड़ते दस्ताने पहने हाथ",
+      "en": "Video: Is Your Diet Blocking Your Success?, Brahmarshi Acharya Upendra Ji, and gloved hands joining a puzzle piece made of vegetables to one marked 'Success'"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मेहनत से उपजा, श्रद्धा से परोसा",
+      "en": "Grown with honest toil, served with care"
+    },
+    "inline.jpg": {
+      "hi": "थाली वही, पर धन किस राह से आया?",
+      "en": "The same plate, but which path did the money take?"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "ईमानदार मेहनत का धन",
+      "en": "Your money comes from honest hard work"
+    },
+    {
+      "talk": "eat_shapes_how_you_think",
+      "hi": "थाली का भोजन और उसे खरीदने वाला धन",
+      "en": "the food on your plate and the money that paid for it"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "उसने किसी का हक छीनकर कमाया है",
+      "en": "He has earned by taking what rightfully belonged to others"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "पिछले कर्मों से बना भाग्य",
+      "en": "destiny shaped by past actions"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "भक्ति और सत्त्वगुण बाहर से आई तामसिकता को भी काट सकते हैं",
+      "en": "Devotion and sattva guna can overcome tamasic influences from outside"
+    }
+  ],
+  "also_read": {
+    "talk": "lakshmi_come_some_people_not_others",
+    "after": {
+      "hi": "अन्याय का धन, सात्विक भोजन",
+      "en": "Unjust Money, Pure Food"
+    }
+  },
+  "related": [
+    "eat_shapes_how_you_think",
+    "sattva_rajas_tamas_balance_success_liberation",
+    "true_wealth_money_health_respect_or"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "imandar-kamai-aur-satvik-bhojan",
+      "focus_keyword": "ईमानदार कमाई और सात्विक भोजन",
+      "secondary_keywords": [
+        "बेईमानी की कमाई का असर",
+        "सात्विक भोजन का महत्व",
+        "धन की शुद्धि",
+        "मीराबाई और विष का प्याला"
+      ],
+      "meta_description": "क्या सात्विक भोजन ही काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि ईमानदार कमाई और सात्विक भोजन मिलकर फल देते हैं, और भक्ति ने मीराबाई को विष से कैसे बचाया।",
+      "tags": [
+        "सत्त्व गुण",
+        "त्रिगुण",
+        "प्रारब्ध",
+        "भक्ति",
+        "धन की शुद्धि"
+      ]
+    },
+    "en": {
+      "slug": "honest-earnings-sattvic-food",
+      "focus_keyword": "honest earnings and sattvic food",
+      "secondary_keywords": [
+        "does black money affect your karma",
+        "importance of sattvic food",
+        "purity of wealth in Hinduism",
+        "Meerabai poison story"
+      ],
+      "meta_description": "Is sattvic food enough? Acharya Upendra Ji explains why honest earnings and sattvic food work together, and how devotion protected Meerabai from poison.",
+      "tags": [
+        "Sattva",
+        "Three Gunas",
+        "Prarabdha",
+        "Bhakti",
+        "Purity of Wealth"
+      ]
+    }
+  }
+}

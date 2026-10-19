@@ -1,0 +1,99 @@
+{
+  "title": {
+    "hi": "मांसाहार क्यों नहीं करना चाहिए? खुद को खाकर दिखाओ",
+    "en": "A Challenge for Meat Eaters: Eat Yourself First"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "शाम की रोशनी में लकड़ी की मेज़ पर स्टील की शाकाहारी थाली के सामने बैठा एक युवक, जो सिर झुकाए सोच में डूबा है; पास में तांबे का गिलास, कटोरियाँ और रोटियाँ",
+      "en": "A young man in a white kurta sits deep in thought over a steel vegetarian thali on a wooden table in warm evening light, with a copper tumbler, bowls and rotis nearby"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की मेज़ पर पीतल की थाली में चावल और मांस के व्यंजन, चारों ओर करी, कबाब, दाल और नान की कटोरियाँ, और थाली की ओर बढ़ा हुआ एक हाथ जो खाने से पहले ठिठका है",
+      "en": "A hand pausing above a brass platter of rice and meat dishes, surrounded by bowls of meat curry, kebabs, dal and naan on a wooden table"
+    },
+    "3H6JBMMDsPY.jpg": {
+      "hi": "वीडियो: Hardcore Non-Vegetarian? Try This If You Dare, ब्रह्मर्षि आचार्य उपेंद्र जी और पीछे बर्गर पकड़े हुए हाथ, Mindful Eating Series",
+      "en": "Video: Hardcore Non-Vegetarian? Try This If You Dare, Brahmarshi Acharya Upendra Ji with hands holding a burger behind him, Mindful Eating Series"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "थाली के सामने एक ईमानदार पल",
+      "en": "An honest pause before the plate"
+    },
+    "inline.jpg": {
+      "hi": "स्वाद किसकी कीमत पर?",
+      "en": "Whose life pays for the taste?"
+    }
+  },
+  "links": [
+    {
+      "talk": "non_veg_food_remains_body_truths",
+      "hi": "कल से चिकन फ्राई, भेजा फ्राई, सब छोड़ दो",
+      "en": "give up the chicken fry, the brain fry, all of it"
+    },
+    {
+      "talk": "trapped_illusory_happiness",
+      "hi": "बड़े मज़े से, स्वाद ले लेकर मांसाहार करता है",
+      "en": "eats meat with great relish, savouring every bite"
+    },
+    {
+      "talk": "animal_sacrifice",
+      "hi": "कहा जाता है कि मंत्र बोलकर काटा जाए तो वह शुद्ध हो जाता है",
+      "en": "Some people believe that meat becomes pure if you recite a mantra while cutting it"
+    },
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "क्या वह किसी और जीव के लिए उचित है",
+      "en": "is it right to inflict it on another living being"
+    }
+  ],
+  "also_read": {
+    "talk": "eat_to_heal_not_to_harm_spiritual",
+    "after": {
+      "hi": "मंत्र बोलकर काटो, फिर?",
+      "en": "What If You Recite a Mantra While You Cut?"
+    }
+  },
+  "related": [
+    "diet_hindering_success_link_prosperity",
+    "eat_shapes_how_you_think",
+    "knowledge_work_for_you"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "mansahar-kyon-nahi-karna-chahiye",
+      "focus_keyword": "मांसाहार क्यों नहीं करना चाहिए",
+      "secondary_keywords": [
+        "मांसाहारी को खुली चुनौती",
+        "जीवों की पीड़ा और मांसाहार",
+        "मंत्र बोलकर काटा मांस शुद्ध है क्या"
+      ],
+      "meta_description": "मांसाहार क्यों नहीं करना चाहिए? आचार्य उपेंद्र जी हर कट्टर मांसाहारी को एक खुली चुनौती देते हैं: जो पीड़ा आप खुद नहीं सह सकते, वह किसी जीव को क्यों दें?",
+      "tags": [
+        "मांसाहार",
+        "शाकाहार",
+        "अहिंसा",
+        "माइंडफुल ईटिंग सीरीज़"
+      ]
+    },
+    "en": {
+      "slug": "challenge-for-meat-eaters",
+      "focus_keyword": "challenge for meat eaters",
+      "secondary_keywords": [
+        "why not eat meat",
+        "hardcore non-vegetarian",
+        "does a mantra make meat pure"
+      ],
+      "meta_description": "A challenge for meat eaters from Acharya Upendra Ji: if you could not bear to eat a small piece of yourself, is it right to make another being bear it?",
+      "tags": [
+        "Meat-Eating",
+        "Vegetarianism",
+        "Ahimsa",
+        "Mindful Eating Series"
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": {
+    "hi": "गणेश जी का सिर हाथी का क्यों है, वाहन चूहा क्यों?",
+    "en": "Why Ganesha Has an Elephant Head and Rides a Mouse"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन मंदिर के नक्काशीदार खंभों के बीच चतुर्भुज गणेश की पत्थर की प्रतिमा, पास में पिछले पैरों पर खड़ा ऊपर देखता चूहा, चारों ओर फूल और जलते दीये",
+      "en": "A four-armed stone Ganesha idol between carved temple pillars, a mouse standing on its hind legs beside it looking up, with flowers and lit lamps around"
+    },
+    "inline.jpg": {
+      "hi": "तारों भरे रात के आकाश और आकाशगंगा के सामने हाथ में ऊपर उठाई लकड़ी की माप-पट्टी, नीचे गुंबददार छतरियों वाला महल",
+      "en": "A hand holding up a wooden ruler against a starry night sky and the Milky Way, with a domed palace pavilion below"
+    },
+    "Ctn4fjD6vCE.jpg": {
+      "hi": "वीडियो: गणेश सीरीज़ एपिसोड 1, गणेश जी ऐसे क्यों दिखते हैं, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Ganesh Series Ep 1, Why Lord Ganesh Looks Like This? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रूप एक संकेत है, लक्ष्य अनंत",
+      "en": "The form points; the goal is the Infinite"
+    },
+    "inline.jpg": {
+      "hi": "अनंत किसी पट्टी में नहीं समाता",
+      "en": "No ruler can hold the Infinite"
+    }
+  },
+  "links": [
+    {"talk": "hidden_meaning_spiritual_symbols", "hi": "ये प्रतीक हैं", "en": "These forms are symbols"},
+    {"talk": "need_murtis_symbols_understand_god", "hi": "बाहर की मूर्ति एक माध्यम होती है", "en": "the idol outside is a medium"},
+    {"talk": "spiritual_science_om_aum", "hi": "हम आँखें बंद करके ॐ बोलते हैं", "en": "We close our eyes and chant Om"},
+    {"talk": "durva_red_flowers_lord_ganesh_worship", "hi": "इतने लाल फूल चढ़ते हैं", "en": "baskets of red flowers"}
+  ],
+  "also_read": {
+    "talk": "truth_about_lord_ganesh",
+    "after": {"hi": "अथर्वशीर्ष में हाथी कहाँ है?", "en": "Where Is the Elephant in the Atharvashirsha?"}
+  },
+  "related": [
+    "truth_about_lord_ganesh",
+    "worship_ganesh_every_year_but_understand",
+    "need_murtis_symbols_understand_god"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "ganesh-ji-ka-sir-hathi-ka-kyon",
+      "focus_keyword": "गणेश जी का सिर हाथी का क्यों है",
+      "secondary_keywords": ["गणेश जी चूहे पर कैसे बैठते हैं", "गणपति के रूप का प्रतीकात्मक अर्थ", "एकदन्तं चतुर्हस्तं मंत्र का अर्थ"],
+      "meta_description": "गणेश जी का सिर हाथी का क्यों है, वे चूहे पर कैसे बैठते हैं? आचार्य उपेंद्र जी बताते हैं कि यह रूप प्रतीक है, जो ऋषियों ने अनंत परम तत्त्व तक ले जाने को दिया।",
+      "tags": ["गणेश सीरीज़", "गणेश", "मूर्ति पूजा", "साकार और निराकार", "गणपति अथर्वशीर्ष"]
+    },
+    "en": {
+      "slug": "why-ganesha-has-elephant-head",
+      "focus_keyword": "why Ganesha has an elephant head",
+      "secondary_keywords": ["why does Ganesha ride a mouse", "symbolism of Ganesha's form", "ekadantam chaturhastam meaning"],
+      "meta_description": "Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols.",
+      "tags": ["Ganesh Series", "Ganesh", "Idol worship", "Sakar and Nirakar", "Ganapati Atharvashirsha"]
+    }
+  }
+}

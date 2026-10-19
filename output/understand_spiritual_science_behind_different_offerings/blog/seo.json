@@ -1,0 +1,62 @@
+{
+  "title": {
+    "hi": "देवताओं को अलग अर्पण क्यों? तुलसी, बिल्व, दूर्वा का विज्ञान",
+    "en": "Why Different Offerings to Different Gods? The Science"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पीतल की पूजा थाली में तुलसी की मंजरियाँ, हरे पत्तों का गुच्छा और दूर्वा घास, पीछे जलता दीया और फूल",
+      "en": "A brass puja plate holding sprigs of tulsi, a cluster of green leaves and a bundle of durva grass, with a lit lamp and flowers behind"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर में पीतल के लोटे से काले पत्थर के शिवलिंग पर दूध का अभिषेक करते पुजारी, पास में पीतल का दीपस्तंभ",
+      "en": "A priest pouring milk from a brass pot over a black stone Shivalinga in a temple, with a brass lamp stand beside it"
+    },
+    "C9fR-GCNrts.jpg": {
+      "hi": "वीडियो: अलग-अलग देवताओं को अलग अर्पण क्यों, गणेश सीरीज़ भाग 3, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Why These Offerings? Ganesh Series episode 3 with Acharya Upendra Ji, beside Vishnu, a Shivalinga and Ganesha"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हर अर्पण में एक ऊर्जा",
+      "en": "Every offering carries an energy"
+    },
+    "inline.jpg": {
+      "hi": "अभिषेक: साधारण स्नान नहीं",
+      "en": "Abhisheka: no ordinary bath"
+    }
+  },
+  "links": [
+    {"talk": "durva_red_flowers_lord_ganesh_worship", "hi": "गणेश को दूर्वा", "en": "durva for Ganesha"},
+    {"talk": "hidden_meaning_spiritual_symbols", "hi": "प्रतीकात्मक विज्ञान", "en": "symbolic science"},
+    {"talk": "know_your_lord_before_worship", "hi": "पहले अपने भगवान को जानें", "en": "First know your God"},
+    {"talk": "need_murtis_symbols_understand_god", "hi": "मूर्ति तो धातु या पत्थर की है", "en": "The idol is made of metal or stone"}
+  ],
+  "also_read": {
+    "talk": "gita_warning_worship_without_understanding",
+    "after": {"hi": "पहले भगवान को जानो, फिर पूजा को", "en": "First Know Your God, Then Your Worship"}
+  },
+  "related": [
+    "know_your_god_transformative_path",
+    "ganesh_have_elephant_head_mouse",
+    "power_of_deities_in_your_life"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "devtaon-ko-alag-arpan-kyon",
+      "focus_keyword": "देवताओं को अलग-अलग अर्पण क्यों",
+      "secondary_keywords": ["तुलसी बिल्व पत्र दूर्वा का महत्व", "पूजा में अर्पण का विज्ञान", "अभिषेक का अर्थ", "पूजा विधि का अर्थ"],
+      "meta_description": "विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा क्यों? आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान, ऊर्जा और अभिषेक का अर्थ।",
+      "tags": ["गणेश सीरीज़", "प्रतीकवाद", "कर्मकांड", "मूर्ति पूजा", "अंधश्रद्धा"]
+    },
+    "en": {
+      "slug": "why-different-offerings-to-different-gods",
+      "focus_keyword": "why different offerings to different gods",
+      "secondary_keywords": ["significance of tulsi, bilva and durva", "science behind Hindu puja offerings", "meaning of abhisheka", "meaning of puja rituals"],
+      "meta_description": "Why tulsi for Vishnu, bilva for Shiva, durva for Ganesha? Acharya Upendra Ji explains the symbolic science of energy behind each offering and abhisheka.",
+      "tags": ["Ganesh Series", "Symbolism", "Rituals", "Idol worship", "Blind Faith"]
+    }
+  }
+}

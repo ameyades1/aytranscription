@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं?",
+    "en": "Three Types of Disciples: What Do You Ask the Guru For?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में खुले लकड़ी के द्वार से आश्रम की ओर नंगे पांव जाते तीन साधक: एक केसरिया, एक सफेद कुर्ते में झोला लिए, एक श्वेत उत्तरीय में",
+      "en": "Three barefoot seekers walking through an open wooden gate towards an ashram pavilion in morning light, one in saffron, one in white with a cloth bag, one in a white shawl"
+    },
+    "inline.jpg": {
+      "hi": "सूर्यास्त के समय नदी घाटी के ऊपर गुफा के मुहाने पर शांत भाव से बैठा एक बालक, नचिकेता का प्रतीक",
+      "en": "A young boy sitting calmly at the mouth of a cave above a river valley at sunset, evoking Nachiketa"
+    },
+    "V_Mxy5bZpOc.jpg": {
+      "hi": "वीडियो: Know What Kind of Student / Shishya You Are, आचार्य उपेंद्र जी",
+      "en": "Video: Know What Kind of Student / Shishya You Are, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक द्वार, तीन तरह के शिष्य",
+      "en": "One gate, three kinds of disciples"
+    },
+    "inline.jpg": {
+      "hi": "जो उपाय नहीं, ज्ञान मांगता है",
+      "en": "The one who asks for knowledge, not a remedy"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "शिष्य तीन प्रकार के होते हैं",
+      "en": "there are three kinds of disciples"
+    },
+    {
+      "talk": "stop_asking_god_fix_your_life",
+      "hi": "कोई रामबाण इलाज",
+      "en": "They want a miracle cure"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "पूर्व कर्म और उसके संस्कारों",
+      "en": "my past actions"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "ऐसा अन्याय परमात्मा नहीं करते",
+      "en": "God never commits the injustice"
+    },
+    {
+      "talk": "true_disciple_change_your_life",
+      "hi": "वह उपाय नहीं, ज्ञान मांगता है",
+      "en": "They ask for knowledge, not a remedy"
+    }
+  ],
+  "also_read": {
+    "talk": "when_disciple_become_truly_powerful",
+    "after": {
+      "hi": "तीसरा शिष्य: \"मैं कहां गलत था?\"",
+      "en": "The Third Disciple: \"Where Did I Go Wrong?\""
+    }
+  },
+  "related": [
+    "guru_and_disciple_highest_form_love",
+    "without_guru_scriptures_can_mislead",
+    "three_gunas_karma"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "shishya-ke-teen-prakar",
+      "focus_keyword": "शिष्य के तीन प्रकार",
+      "secondary_keywords": [
+        "तामसिक राजसिक सात्त्विक शिष्य",
+        "गुरु से क्या मांगें",
+        "उत्तम शिष्य के लक्षण",
+        "नचिकेता की कथा"
+      ],
+      "meta_description": "तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और \"मैं कहां गलत था?\" पूछने से कर्म कैसे सुलझता है।",
+      "tags": [
+        "त्रिगुण",
+        "सत्त्व गुण",
+        "नचिकेता",
+        "उपनिषद",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "three-types-of-disciples",
+      "focus_keyword": "three types of disciples",
+      "secondary_keywords": [
+        "tamasic rajasic sattvic disciple",
+        "what to ask a Guru",
+        "qualities of a good disciple",
+        "Nachiketa story Katha Upanishad"
+      ],
+      "meta_description": "Tamasic, rajasic or sattvic? Acharya Ji explains three types of disciples, why outer remedies fade, and how asking where you went wrong resolves karma.",
+      "tags": [
+        "Three Gunas",
+        "Sattva",
+        "Nachiketa",
+        "Upanishads",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष",
+    "en": "Does Shraddha Free Your Ancestors? Death vs Moksha"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय नदी के घाट पर केले के पत्तों पर सफेद चावल के पिंड रखते धोती पहने दो पुरुष, पास में पीतल के लोटे, गेंदे के फूल और जल में तैरते दीये",
+      "en": "Two men in white dhotis placing white rice pinds on banana leaves at a riverside ghat at sunrise, with brass pots, marigolds and diyas floating on the water"
+    },
+    "inline.jpg": {
+      "hi": "घाट की पत्थर की सीढ़ी पर पत्तल में रखे चावल के पिंडों की ओर बढ़ता कौवा, पीछे नदी में खड़ा व्यक्ति और पुराने घाट",
+      "en": "A crow stepping towards rice pinds on a leaf plate on a stone ghat, with a man standing in the river and old ghats behind"
+    },
+    "6eUffXQaXLg.jpg": {
+      "hi": "वीडियो: मृत्यु बनाम मोक्ष, मृत्यु और मुक्ति में अंतर, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Mrityu Versus Moksha, the difference between death and liberation, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मृत्यु मुक्ति नहीं है",
+      "en": "Death is not liberation"
+    },
+    "inline.jpg": {
+      "hi": "क्या कौवा पूरा पिंड छूता है?",
+      "en": "Does the crow touch the whole pind?"
+    }
+  },
+  "links": [
+    {
+      "talk": "biggest_spiritual_misconception_about_death",
+      "hi": "जो चला गया, वह मुक्त हो गया",
+      "en": "whoever has passed away has been set free"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "जीव फिर एक नया शरीर लेकर लौटता है",
+      "en": "the soul returns in a new body"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "जो स्वयं जीते जी मुक्त हो चुका है",
+      "en": "Only someone who is already free while living"
+    },
+    {
+      "talk": "mahalay_shraddha_matters_truth_about_pitru",
+      "hi": "पिंडदान पंद्रह-बीस मिनट में निपट जाता है",
+      "en": "is finished in fifteen or twenty minutes"
+    },
+    {
+      "talk": "pind_daan",
+      "hi": "कौवे पिंड को आसानी से नहीं छूते",
+      "en": "Crows do not touch a pind easily"
+    }
+  ],
+  "also_read": {
+    "talk": "true_meaning_pitru_rin",
+    "after": {
+      "hi": "बेटे के श्राद्ध की प्रतीक्षा क्यों?",
+      "en": "Why Wait for Your Son to Perform Shraddha?"
+    }
+  },
+  "related": [
+    "anyone_grant_liberation_living_or_dead",
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "big_pitru_dosh_understanding_pitru_rin"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "shraddha-se-pitron-ki-mukti",
+      "focus_keyword": "क्या श्राद्ध से पितरों को मुक्ति मिलती है",
+      "secondary_keywords": [
+        "मृत्यु और मोक्ष में अंतर",
+        "आत्म-श्राद्ध क्या है",
+        "पितरों की मुक्ति कैसे हो",
+        "श्राद्ध में योगी को भोजन"
+      ],
+      "meta_description": "क्या मृत्यु ही मुक्ति है, और क्या श्राद्ध से पितरों को मुक्ति मिलती है? आचार्य उपेंद्र जी बताते हैं कि जीते जी मुक्त व्यक्ति ही पितरों को मुक्ति दे सकता है।",
+      "tags": [
+        "पितृ पक्ष",
+        "श्राद्ध",
+        "पिंडदान",
+        "जीवन्मुक्ति",
+        "पुनर्जन्म"
+      ]
+    },
+    "en": {
+      "slug": "can-shraddha-liberate-ancestors",
+      "focus_keyword": "can shraddha liberate ancestors",
+      "secondary_keywords": [
+        "death vs moksha",
+        "atma shraddha",
+        "who can liberate ancestors",
+        "Pitru Paksha meaning"
+      ],
+      "meta_description": "Is death the same as moksha, and can shraddha free your ancestors? Acharya Upendra Ji explains why only one liberated while living can grant liberation.",
+      "tags": [
+        "Pitru Paksha",
+        "Shraddha",
+        "Pind Daan",
+        "Jivanmukti",
+        "Rebirth"
+      ]
+    }
+  }
+}

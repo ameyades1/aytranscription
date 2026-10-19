@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "चित्त वृत्ति निरोध का अर्थ: मन बार-बार क्यों बदलता है",
+    "en": "Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन पत्थर के मंदिरों के सामने चट्टान पर स्थिर बैठकर ध्यान करते भगवा वस्त्रधारी साधक, ऊपर पेड़ की एक डाल से दूसरी पर छलाँग लगाता बंदर",
+      "en": "A monk in saffron robes meditates still on a rock before ancient stone temples, while a monkey leaps from branch to branch in the tree above"
+    },
+    "inline.jpg": {
+      "hi": "शांत कमरे में पत्थर के फ़र्श पर रखा मिट्टी का दीया, जिसकी लौ बिना हिले सीधी जल रही है, पीछे जाली वाली खिड़की से आती धूप",
+      "en": "A clay diya on a stone floor in a quiet room, its flame burning straight and unmoving, with sunlight falling through a carved window behind"
+    },
+    "JyaRQhS1FLU.jpg": {
+      "hi": "वीडियो: Stop Your Mind from Controlling You, Unlock the Secret to True Focus, आचार्य उपेंद्र जी, पास में ध्यानमग्न चेहरे के भीतर कमल जैसा चक्र और लिखा है \"YOU Can Master Your Mind!\"",
+      "en": "Video: Stop Your Mind from Controlling You, Unlock the Secret to True Focus, Acharya Upendra Ji beside a meditating face with a lotus pattern in the mind and the words \"YOU Can Master Your Mind!\""
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बंदर-सा उछलता मन, स्थिर बैठा साधक",
+      "en": "A leaping mind, a seeker who stays still"
+    },
+    "inline.jpg": {
+      "hi": "जो लौ हिलती नहीं",
+      "en": "The flame that does not waver"
+    }
+  },
+  "links": [
+    {
+      "talk": "destiny_awaits_obstacle_in_way",
+      "hi": "महर्षि पतंजलि ने योग की परिभाषा",
+      "en": "Maharshi Patanjali defined yoga"
+    },
+    {
+      "talk": "rigid_mind_vs_flexible_mind_destiny",
+      "hi": "इसका अर्थ यह नहीं कि नया कुछ सीखो ही मत",
+      "en": "this does not mean you should never learn anything new"
+    },
+    {
+      "talk": "control_your_mind_before_it_controls_you",
+      "hi": "जब उद्देश्य ही भूल गया",
+      "en": "When you have forgotten your purpose itself"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "विवाह से पहले कहा",
+      "en": "Before marriage, you promised"
+    },
+    {
+      "talk": "knowledge_work_for_you",
+      "hi": "इसे चोरी करनी ही पड़ती है",
+      "en": "he cannot help but steal it"
+    }
+  ],
+  "also_read": {
+    "talk": "secrets_mastering_your_mind_technique",
+    "after": {
+      "hi": "स्थिरता: योग का असली अभ्यास",
+      "en": "Steadiness: The Real Practice of Yoga"
+    }
+  },
+  "related": [
+    "control_your_mind_before_it_controls_you",
+    "joy_sorrow_transformation",
+    "knowledge_work_for_you"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "chitta-vritti-nirodh-ka-arth",
+      "focus_keyword": "चित्त वृत्ति निरोध का अर्थ",
+      "secondary_keywords": ["योगश्चित्तवृत्तिनिरोधः का अर्थ", "वृत्ति और प्रवृत्ति में अंतर", "मन बार-बार क्यों भटकता है"],
+      "meta_description": "चित्त वृत्ति निरोध क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",
+      "tags": ["मन पर नियंत्रण", "पतंजलि योगसूत्र", "एकाग्रता", "आदतें"]
+    },
+    "en": {
+      "slug": "chitta-vritti-nirodha-meaning",
+      "focus_keyword": "chitta vritti nirodha meaning",
+      "secondary_keywords": ["Yoga Sutra 1.2 meaning", "vritti and pravritti", "why does my mind keep wandering"],
+      "meta_description": "What is chitta vritti nirodha? Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.",
+      "tags": ["Mastering the Mind", "Patanjali Yoga Sutras", "Focus", "Habits"]
+    }
+  }
+}

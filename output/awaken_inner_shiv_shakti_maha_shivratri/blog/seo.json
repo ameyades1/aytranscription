@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ",
+    "en": "What Does the Shivling Stand For? | Maha Shivratri"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "अंधेरे मंदिर में काले पत्थर का शिवलिंग, जिस पर जल की धारा गिर रही है; जलहरी पर हरे बिल्व पत्र और सफ़ेद फूल, पीछे जलता दीपक",
+      "en": "A black stone Shivling in a dim temple with water pouring over it, green bilva leaves and white flowers on its base, and a lamp glowing behind"
+    },
+    "inline.jpg": {
+      "hi": "सूर्योदय में नदी के घाट पर चलता सफ़ेद कुर्ते में एक व्यक्ति, जिसके शरीर से एक चमकती पारदर्शी आकृति अलग होती दिख रही है; पानी पर तैरते दीये",
+      "en": "A man in a white kurta walking along a river ghat at sunrise as a glowing, transparent figure separates from his body, with lamps floating on the water"
+    },
+    "l5IMXQm6_Os.jpg": {
+      "hi": "वीडियो: Awakening the Shiv and Shakti Within You (भीतर के शिव और शक्ति को जगाइए), आचार्य उपेंद्र जी, पीछे भगवान शिव का चित्र",
+      "en": "Video: Awakening the Shiv and Shakti Within You, Acharya Upendra Ji, with an image of Lord Shiva behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जल बाहर के लिंग पर, ध्यान भीतर के शिव पर",
+      "en": "Water on the stone, attention on the Shiva within"
+    },
+    "inline.jpg": {
+      "hi": "शरीर दिखता है, करने वाला नहीं",
+      "en": "The body is seen; the one who acts is not"
+    }
+  },
+  "links": [
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "निराकार को आकार कैसे मिला",
+      "en": "how the formless could ever take on a form"
+    },
+    {
+      "talk": "overcome_struggles_of_life",
+      "hi": "तो तनाव नहीं आना चाहिए",
+      "en": "you should not let stress take over"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "तब तक पुनर्जन्म होगा",
+      "en": "rebirth will continue"
+    },
+    {
+      "talk": "secrets_mastering_your_mind_technique",
+      "hi": "गणों का अधिपति तभी बनेंगे",
+      "en": "the first task is to think"
+    }
+  ],
+  "also_read": {
+    "talk": "understand_spiritual_science_behind_different_offerings",
+    "after": {
+      "hi": "तीन दल वाला बिल्व पत्र: तीन से परे जाने का संकल्प",
+      "en": "The Three-Leaved Bilva: A Resolve to Go Beyond Three"
+    }
+  },
+  "related": [
+    "hidden_truth_rudra_rudraksha",
+    "hidden_meaning_spiritual_symbols",
+    "sattva_rajas_tamas_balance_success_liberation"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "shivling-kiska-prateek-hai",
+      "focus_keyword": "शिवलिंग किसका प्रतीक है",
+      "secondary_keywords": [
+        "शिवलिंग का रहस्य",
+        "बिल्व पत्र के तीन पत्ते का अर्थ",
+        "शिव शब्द का अर्थ",
+        "महाशिवरात्रि का आध्यात्मिक अर्थ"
+      ],
+      "meta_description": "शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
+      "tags": [
+        "महाशिवरात्रि",
+        "शिव",
+        "त्रिगुण",
+        "पुनर्जन्म",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "what-does-the-shivling-stand-for",
+      "focus_keyword": "what does the Shivling stand for",
+      "secondary_keywords": [
+        "what does the Shivling represent",
+        "spiritual meaning of Shivling",
+        "meaning of three-leaved bilva leaf",
+        "Maha Shivratri spiritual significance"
+      ],
+      "meta_description": "What does the Shivling stand for? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
+      "tags": [
+        "Maha Shivratri",
+        "Shiva",
+        "Three Gunas",
+        "Rebirth",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

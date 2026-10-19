@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है?",
+    "en": "Artificial Intelligence Is Getting Smarter. Are We?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय खुली खिड़की के पास एक साधारण कमरे में कुर्सी पर झुककर मोबाइल फ़ोन में खोया युवक, बाहर शहर के ऊपर उड़ते पक्षी",
+      "en": "A young man hunched on a wooden chair in a bare room, absorbed in his phone, while a sunset sky with flying birds glows through the open window"
+    },
+    "inline.jpg": {
+      "hi": "गाँव की कक्षा में लकड़ी की मेज़ पर पुराना कैलकुलेटर, पास में माथे पर हाथ रखे स्लेट पर चॉक से हिसाब करता बालक",
+      "en": "In a village classroom, an old calculator sits on a wooden desk beside a boy, hand on his forehead, working out sums in chalk on his slate"
+    },
+    "YQsZMpnU5_k.jpg": {
+      "hi": "वीडियो: AI Is Making Humans Dumb, आचार्य उपेंद्र जी, पीछे डेटा स्क्रीनों से घिरा परेशान व्यक्ति",
+      "en": "Video: AI Is Making Humans Dumb, Acharya Upendra Ji, with a troubled man surrounded by data screens behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बाहर पूरा आकाश, नज़र केवल स्क्रीन पर",
+      "en": "A whole sky outside, eyes only on the screen"
+    },
+    "inline.jpg": {
+      "hi": "मशीन हिसाब करती है, बुद्धि सोचती है",
+      "en": "The machine calculates; the mind thinks"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_power_of_scriptures_decoded",
+      "hi": "ग्रंथ केवल पूजा के लिए नहीं है",
+      "en": "A sacred text is not meant only for worship"
+    },
+    {
+      "talk": "satyug_rules_kaliyug_different_path",
+      "hi": "कृत्रिम बुद्धि का एक अत्यंत प्रारंभिक रूप",
+      "en": "a very early form of artificial intelligence"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "अपनी विवेक बुद्धि का",
+      "en": "your own discerning intelligence"
+    },
+    {
+      "talk": "water_is_your_first_medicine",
+      "hi": "पानी है, तो प्राण है",
+      "en": "where there is water, there is life"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "आज यह विज्ञान रजस-तमस के हाथों में है",
+      "en": "this science is in the hands of rajas and tamas"
+    }
+  ],
+  "also_read": {
+    "talk": "guru_bridging_science_spirituality",
+    "after": {
+      "hi": "कलियुग का एक पुराना संकेत",
+      "en": "An Old Sign of the Kali Yuga"
+    }
+  },
+  "related": [
+    "control_your_mind_before_it_controls_you",
+    "stop_mind_controlling_unlock_true_focus",
+    "three_gunas_karma"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "kritrim-buddhi-aur-vivek-buddhi",
+      "focus_keyword": "कृत्रिम बुद्धि",
+      "secondary_keywords": [
+        "क्या AI हमें मूर्ख बना रहा है",
+        "विवेक बुद्धि",
+        "मूल बुद्धि",
+        "AI और अध्यात्म"
+      ],
+      "meta_description": "कृत्रिम बुद्धि बढ़ रही है, हम मूल बुद्धि खो रहे हैं। आचार्य उपेंद्र जी बताते हैं कि AI के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
+      "tags": [
+        "विवेक",
+        "त्रिगुण",
+        "सत्त्व गुण",
+        "कलियुग",
+        "कृत्रिम बुद्धि"
+      ]
+    },
+    "en": {
+      "slug": "artificial-intelligence-and-viveka",
+      "focus_keyword": "artificial intelligence",
+      "secondary_keywords": [
+        "is AI making us dumber",
+        "AI and spirituality",
+        "what is viveka",
+        "borrowed intelligence"
+      ],
+      "meta_description": "Artificial intelligence keeps getting smarter while we stop thinking. Acharya Upendra Ji explains why viveka, your inner Ganapati, must guide its use.",
+      "tags": [
+        "Viveka",
+        "Three Gunas",
+        "Sattva",
+        "Kali Yuga",
+        "Artificial Intelligence"
+      ]
+    }
+  }
+}

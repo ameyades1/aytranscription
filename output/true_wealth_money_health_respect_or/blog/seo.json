@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "सच्चा धन क्या है: पैसा, सम्मान, समय और स्वास्थ्य",
+    "en": "What Is True Wealth? Money, Health, Respect and More"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मिट्टी के घर में चटाई पर बैठकर पीतल की थालियों और कटोरियों में साथ भोजन करता मुस्कुराता परिवार: पिता, माता, बेटा और बेटी",
+      "en": "A smiling family of father, mother, son and daughter sitting on a mat in a rustic home, sharing a meal from brass plates and bowls"
+    },
+    "inline.jpg": {
+      "hi": "पत्थर की चौकी पर एक पंक्ति में रखे सोने के सिक्के, चमड़े की जिल्द वाली पुस्तक, लाल हृदय, फूलों की माला, पीतल का दीपक और अंकुर फूटता बीज",
+      "en": "A row of gold coins, a leather-bound book, a red heart, a flower garland, a brass lamp and a sprouting seed on a stone ledge"
+    },
+    "sV8GCXqarP0.jpg": {
+      "hi": "वीडियो: Rich in Money, Poor in Life (पैसे में अमीर, जीवन में गरीब), सिक्कों के ढेर पर अकेले बैठे व्यक्ति के साथ ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Rich in Money, Poor in Life, Brahmarshi Acharya Upendra Ji beside a man sitting alone on heaps of coins"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जहां परिवार साथ है, वहां लक्ष्मी है",
+      "en": "Where the family is together, Lakshmi is present"
+    },
+    "inline.jpg": {
+      "hi": "पैसा, धन का केवल एक रूप",
+      "en": "Money is only one form of wealth"
+    }
+  },
+  "links": [
+    {
+      "talk": "mind_or_body_more_powerful",
+      "hi": "शरीर से सूक्ष्म इंद्रियां हैं",
+      "en": "The senses are subtler than the body"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "जो आत्मा के स्तर पर कार्य करता है",
+      "en": "those who act from the level of the Atman"
+    },
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "जब चाहें, धन को छोड़ भी सकते हैं",
+      "en": "they can walk away from wealth just as easily"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "धन का अर्थ केवल पैसा नहीं है",
+      "en": "Wealth means far more than money"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "तो वहां लक्ष्मी नहीं है",
+      "en": "Lakshmi is absent"
+    }
+  ],
+  "also_read": {
+    "talk": "lakshmi_come_some_people_not_others",
+    "after": {
+      "hi": "धन के छह रूप",
+      "en": "The Six Forms of Wealth"
+    }
+  },
+  "related": [
+    "lakshmi_come_some_people_not_others",
+    "become_billionaire_shree_vidya_secrets",
+    "one_realisation_free_from_all_suffering"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "sachcha-dhan-kya-hai",
+      "focus_keyword": "सच्चा धन क्या है",
+      "secondary_keywords": [
+        "धन के छह रूप",
+        "सबसे गरीब कौन है",
+        "मेहनत से धन आता है या बुद्धि से"
+      ],
+      "meta_description": "सच्चा धन क्या है? आचार्य उपेंद्र जी बताते हैं कि धन केवल मेहनत से नहीं, बुद्धि से आता है, संत धन से अनासक्त क्यों रहते हैं, और धन के छह रूप कौन से हैं।",
+      "tags": [
+        "लक्ष्मी",
+        "भगवद्गीता",
+        "वैराग्य",
+        "आदि शंकराचार्य"
+      ]
+    },
+    "en": {
+      "slug": "what-is-true-wealth",
+      "focus_keyword": "what is true wealth",
+      "secondary_keywords": [
+        "six forms of wealth",
+        "rich in money poor in life",
+        "does hard work bring wealth"
+      ],
+      "meta_description": "What is true wealth? Acharya Upendra Ji explains why money follows intellect, why saints stay unattached, and the six forms of wealth beyond money.",
+      "tags": [
+        "Lakshmi",
+        "Bhagavad Gita",
+        "Vairagya",
+        "Adi Shankaracharya"
+      ]
+    }
+  }
+}

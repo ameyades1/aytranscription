@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "विष्णु और लक्ष्मी का महत्व: पालन ही जीवन है",
+    "en": "Why Vishnu and Lakshmi Matter: Sustaining Takes a Lifetime"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप भरी छत पर एक परिवार, माँ, पिता, बेटी और बेटा, मिट्टी के गमलों में पौधों की देखभाल करते हुए, बेटा तांबे के रंग के झारे से पानी दे रहा है",
+      "en": "A family on a sunlit terrace, mother, father, daughter and son, tending plants in clay pots while the boy waters them from a copper watering can"
+    },
+    "inline.jpg": {
+      "hi": "नए घर में सामान के डिब्बों के बीच पीतल का दीपक जलाते नवविवाहित दंपति, पास में गेंदे के फूलों की थाली",
+      "en": "A newly married couple lighting a brass lamp together among moving boxes in their new home, with a plate of marigolds beside it"
+    },
+    "YxeuWagekhw.jpg": {
+      "hi": "वीडियो: The Untold Stories of Goddess Lakshmi and Lord Vishnu, ब्रह्मर्षि आचार्य उपेंद्र जी, साथ में शेषनाग पर लेटे भगवान विष्णु, उनके चरणों में माता लक्ष्मी और कमल पर ब्रह्मा जी",
+      "en": "Video: The Untold Stories of Goddess Lakshmi and Lord Vishnu, Brahmarshi Acharya Upendra Ji, beside Lord Vishnu resting on Shesha with Goddess Lakshmi at his feet and Brahma on a lotus"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो बोया, उसे रोज़ सींचना",
+      "en": "What is planted must be watered every day"
+    },
+    "inline.jpg": {
+      "hi": "एक नया विश्व, जिसे अब संभालना है",
+      "en": "A new world, now to be sustained"
+    }
+  },
+  "links": [
+    {
+      "talk": "lakshmi_come_some_people_not_others",
+      "hi": "शरीर हो, व्यापार हो, राज्य चलाना हो या परिवार",
+      "en": "the body, a business, a kingdom or a family"
+    },
+    {
+      "talk": "real_role_maha_kali",
+      "hi": "इसलिए यह मत सोचिए कि अब काली या सरस्वती की ज़रूरत नहीं रही",
+      "en": "you no longer need Kali or Saraswati"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "फिर कभी विवाह होता है",
+      "en": "Then, one day, comes marriage"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "सृजन और अंत, दोनों बार-बार आते हैं",
+      "en": "Creation and endings both return again and again"
+    }
+  ],
+  "also_read": {
+    "talk": "power_of_deities_in_your_life",
+    "after": {
+      "hi": "तो समय जाता कहां है?",
+      "en": "Where Does All the Time Go?"
+    }
+  },
+  "related": [
+    "lakshmi_come_some_people_not_others",
+    "awaken_divine_shakti_kali_lakshmi_saraswati",
+    "real_role_maha_kali"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "vishnu-lakshmi-ka-mahatva",
+      "focus_keyword": "विष्णु और लक्ष्मी का महत्व",
+      "secondary_keywords": [
+        "विष्णु पालनकर्ता क्यों हैं",
+        "लक्ष्मी तत्व क्या है",
+        "महालक्ष्मी का महत्व",
+        "सृजन पालन और अंत की शक्ति"
+      ],
+      "meta_description": "उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में विष्णु और लक्ष्मी तत्व की सबसे अधिक आवश्यकता क्यों होती है।",
+      "tags": [
+        "लक्ष्मी",
+        "विष्णु",
+        "त्रिदेव",
+        "शक्ति",
+        "विवाह"
+      ]
+    },
+    "en": {
+      "slug": "why-vishnu-and-lakshmi-matter",
+      "focus_keyword": "significance of Vishnu and Lakshmi",
+      "secondary_keywords": [
+        "Vishnu the sustainer",
+        "Lakshmi tattva meaning",
+        "importance of Mahalakshmi",
+        "creation sustenance and dissolution in Hinduism"
+      ],
+      "meta_description": "Creation takes a moment, sustaining takes a lifetime. Acharya Upendra Ji explains why body, business and family need Vishnu and Lakshmi most of all.",
+      "tags": [
+        "Lakshmi",
+        "Vishnu",
+        "Trimurti",
+        "Shakti",
+        "Marriage"
+      ]
+    }
+  }
+}

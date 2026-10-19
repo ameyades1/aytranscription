@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "गुरु से कुंडलिनी जागरण: सात चक्र, सात तरह का जीवन",
+    "en": "Kundalini Awakening Through a Guru: 7 Chakras of Life"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "गाँव के कच्चे घर और बरगद के पेड़ के सामने आँखें बंद कर ध्यान में बैठी साड़ी पहने स्त्री, रीढ़ के साथ मूलाधार से सहस्रार तक सात रंगों के प्रकाशित चक्र",
+      "en": "A woman in a sari meditating with closed eyes before a village mud house and a banyan tree, seven glowing coloured chakras along her spine from root to crown"
+    },
+    "inline.jpg": {
+      "hi": "बरगद की जड़ों के पास पहाड़ी पर ऊपर चढ़ती पत्थर की सीढ़ियाँ, मेहराब और कई स्तरों से होकर शिखर पर फैलते प्रकाश तक",
+      "en": "Stone steps climbing a hillside beside banyan roots, rising through an arch and several levels toward light at the summit"
+    },
+    "qOlSD2XtlQ4.jpg": {
+      "hi": "वीडियो: केवल समर्थ गुरु ही आपके चक्र जागृत कर सकता है, आचार्य उपेंद्र जी",
+      "en": "Video: Only a Competent Guru Can Activate Your Chakras, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मूलाधार से सहस्रार तक",
+      "en": "From root to crown"
+    },
+    "inline.jpg": {
+      "hi": "हर सीढ़ी, जीने का एक ढंग",
+      "en": "Each step, a way of living"
+    }
+  },
+  "links": [
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "अपात्र को भी दान देते रहना",
+      "en": "even to the undeserving"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "आज्ञा चक्र तक पहुँचे लोग गुरु के लिए जीते हैं",
+      "en": "Those who reach the Ajna chakra live for the Guru"
+    },
+    {
+      "talk": "when_disciple_become_truly_powerful",
+      "hi": "साधना को खेल मत समझना",
+      "en": "never to treat sadhana as a game"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "कुंडलिनी उठने के बाद अचानक आप भूल जाते हैं",
+      "en": "Once the Kundalini rises, you suddenly lose track"
+    },
+    {
+      "talk": "company_you_keep_shapes_destiny",
+      "hi": "वे किन गलत लोगों के साथ रहते थे",
+      "en": "the wrong company they once kept"
+    }
+  ],
+  "also_read": {
+    "talk": "guru_and_disciple_highest_form_love",
+    "after": {
+      "hi": "नेतृत्व से शरणागति तक",
+      "en": "From Leadership to Surrender"
+    }
+  },
+  "related": [
+    "decides_destiny",
+    "when_disciple_become_truly_powerful",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-se-kundalini-jagran",
+      "focus_keyword": "गुरु से कुंडलिनी जागरण",
+      "secondary_keywords": [
+        "सात चक्र और जीवन",
+        "शक्तिपात क्या है",
+        "समर्थ गुरु की पहचान",
+        "विवेकहीन करुणा"
+      ],
+      "meta_description": "एक चक्र ऊपर उठने में कई जन्म लगते हैं। आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात यह यात्रा कैसे तेज़ करता है।",
+      "tags": [
+        "कुंडलिनी",
+        "शक्तिपात",
+        "चक्र",
+        "शरणागति",
+        "विवेक"
+      ]
+    },
+    "en": {
+      "slug": "kundalini-awakening-through-guru",
+      "focus_keyword": "Kundalini awakening through a Guru",
+      "secondary_keywords": [
+        "seven chakras meaning in life",
+        "what is shaktipat",
+        "idiotic compassion",
+        "can a Guru activate chakras"
+      ],
+      "meta_description": "One chakra can take lifetimes. Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.",
+      "tags": [
+        "Kundalini",
+        "Shaktipat",
+        "Chakras",
+        "Sharanagati",
+        "Viveka"
+      ]
+    }
+  }
+}

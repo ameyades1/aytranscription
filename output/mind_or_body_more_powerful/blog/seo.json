@@ -1,0 +1,99 @@
+{
+  "title": {
+    "hi": "मन या शरीर, कौन अधिक शक्तिशाली? पहले शरीर क्यों",
+    "en": "Mind or Body, Which Is More Powerful? Why Kali Comes First"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लकड़ी की मेज़ पर एक-दूसरे को काटते हुए रखी पंख वाली कलम और नक्काशीदार तलवार, पास में पीतल की दवात और ढाल, पीछे महल के खंभों से आती सुनहरी धूप",
+      "en": "A feather quill pen and an engraved sword crossed on a wooden desk, beside a brass inkpot and a shield, in golden light from palace pillars"
+    },
+    "inline.jpg": {
+      "hi": "भोर में धुंध भरी घाटी के ऊपर कँटीले तारों की बाड़ के साथ पहरा देते दो सैनिक",
+      "en": "Two soldiers keeping watch along a barbed-wire border fence above a misty valley at dawn"
+    },
+    "uCpV4GP4tZE.jpg": {
+      "hi": "वीडियो: What Is More Powerful? Mind or Body, ब्रह्मर्षि आचार्य उपेंद्र जी, एक चमकता मस्तिष्क और डंबल उठाता हाथ",
+      "en": "Video: What Is More Powerful? Mind or Body, Brahmarshi Acharya Upendra Ji beside a glowing brain and a hand lifting a dumbbell"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "कलम की रक्षा तलवार करती है",
+      "en": "The sword guards the pen"
+    },
+    "inline.jpg": {
+      "hi": "शांति के पीछे खड़े रक्षक",
+      "en": "The guardians who stand behind peace"
+    }
+  },
+  "links": [
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "महाकाली आत्मरक्षा की देवी हैं",
+      "en": "Mahakali is the goddess of self-defence"
+    },
+    {
+      "talk": "physical_mental_strength_spiritual_path",
+      "hi": "स्वस्थ शरीर में ही स्वस्थ मन रहता है",
+      "en": "A healthy mind lives in a healthy body"
+    },
+    {
+      "talk": "unlock_divine_energy_durga_saptashati_mantra",
+      "hi": "प्रथम चरित्र ही काली का है",
+      "en": "the very first episode of the sacred story belongs to Kali"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "मन में भावना होगी कि यह बढ़े, फैले",
+      "en": "You will naturally want it to grow and spread"
+    }
+  ],
+  "also_read": {
+    "talk": "real_role_maha_kali",
+    "after": {
+      "hi": "बड़ा सोचो, पर पहले सुरक्षा",
+      "en": "Think Big, but Secure It First"
+    }
+  },
+  "related": [
+    "real_role_maha_kali",
+    "physical_mental_strength_spiritual_path",
+    "awaken_divine_shakti_kali_lakshmi_saraswati"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "man-ya-sharir-kaun-shaktishali",
+      "focus_keyword": "मन या शरीर कौन अधिक शक्तिशाली",
+      "secondary_keywords": [
+        "कलम या तलवार कौन बड़ा",
+        "अन्नमयं हि सोम्य मनः का अर्थ",
+        "स्वस्थ शरीर में स्वस्थ मन"
+      ],
+      "meta_description": "मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है।",
+      "tags": [
+        "महाकाली",
+        "उपनिषद",
+        "अहिंसा",
+        "आत्मरक्षा"
+      ]
+    },
+    "en": {
+      "slug": "mind-or-body-which-is-more-powerful",
+      "focus_keyword": "mind or body which is more powerful",
+      "secondary_keywords": [
+        "is the pen mightier than the sword",
+        "annamayam hi somya manah meaning",
+        "Mahakali goddess of self-defence"
+      ],
+      "meta_description": "Mind or body, which is more powerful? Acharya Upendra Ji explains why the Upanishads put a strong body before intellect, and why Kali worship comes first.",
+      "tags": [
+        "Mahakali",
+        "Upanishads",
+        "Ahimsa",
+        "Self-Defence"
+      ]
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "बिना अर्थ जाने पूजा: गीता की चेतावनी और मूर्ति का मर्म",
+    "en": "Worship Without Understanding: The Gita's Warning"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "दीपक की लौ के पास लकड़ी के फ्रेम में रखी एक वृद्ध महिला की पुरानी श्वेत-श्याम तस्वीर, खिड़की से आती सुनहरी धूप",
+      "en": "An old black-and-white portrait of an elderly woman in a wooden frame beside a lit brass diya, in warm window light"
+    },
+    "inline.jpg": {
+      "hi": "एक युवक हाथ में किसी अनजान युवती की फ्रेम की हुई तस्वीर लिए उलझन में उसे देख रहा है",
+      "en": "A young man frowning in puzzlement at a framed photograph of a young woman he does not know"
+    },
+    "AKMTPA0Tkdk.jpg": {
+      "hi": "वीडियो: क्या आप सच में अपने भगवान को जानते हैं? गणेश सीरीज़ एपिसोड 4, आचार्य उपेंद्र जी",
+      "en": "Video: Do You Really Know Your God? Ganesh Series Ep 4, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "दीप जलता है, पर क्या पहचान है?",
+      "en": "We light the lamp, but do we know the face?"
+    },
+    "inline.jpg": {
+      "hi": "फोटो पहला कदम है, मिलन नहीं",
+      "en": "A photograph is the first step, not the union"
+    }
+  },
+  "links": [
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "निराकार की ओर इशारा करती एक उंगली",
+      "en": "a finger pointing toward the formless"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "सब में निराकार तक पहुँचने के संकेत छिपे हैं",
+      "en": "every detail hides a clue that leads toward the formless"
+    },
+    {
+      "talk": "truly_desire_or_infatuation",
+      "hi": "बस एक आकर्षण",
+      "en": "a passing attraction"
+    },
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "हिंदू धर्म में भी एक ही भगवान है",
+      "en": "In Hinduism, too, there is only one God"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "यह अर्थ कोई जीवित गुरु ही बता सकता है",
+      "en": "Only a living Guru can reveal this meaning"
+    }
+  ],
+  "also_read": {
+    "talk": "know_your_lord_before_worship",
+    "after": {
+      "hi": "क्या हम फोटो पर ही रुके हैं?",
+      "en": "Have We Stopped at the Photograph?"
+    }
+  },
+  "related": [
+    "need_murtis_symbols_understand_god",
+    "33_crore_gods_truth_about_hinduism",
+    "know_your_god_transformative_path"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "bina-arth-jane-puja-gita-chetavani",
+      "focus_keyword": "बिना अर्थ जाने पूजा",
+      "secondary_keywords": [
+        "मूर्ति पूजा का अर्थ",
+        "क्या मूर्ति पूजा गलत है",
+        "साकार और निराकार पूजा",
+        "अपने भगवान को कैसे जानें"
+      ],
+      "meta_description": "क्या बिना अर्थ जाने पूजा पर्याप्त है? आचार्य उपेंद्र जी बताते हैं कि हर मूर्ति निराकार का संकेत है, और संत भी साकार की पूजा अर्थ जानकर ही करते थे।",
+      "tags": [
+        "गणेश सीरीज़",
+        "मूर्ति पूजा",
+        "साकार और निराकार",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "worship-without-understanding-gita",
+      "focus_keyword": "worship without understanding",
+      "secondary_keywords": [
+        "is idol worship wrong",
+        "meaning of murti puja",
+        "sakar and nirakar worship",
+        "Bhagavad Gita on worship without knowledge"
+      ],
+      "meta_description": "Is worship without understanding enough? Acharya Upendra Ji explains why every murti is a code for the formless, and why the saints knew its meaning.",
+      "tags": [
+        "Ganesh Series",
+        "Idol worship",
+        "Sakar and Nirakar",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

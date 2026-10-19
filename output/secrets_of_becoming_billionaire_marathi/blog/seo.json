@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "अरबपति बनने का रहस्य: श्रीविद्या और श्रीयंत्र साधना",
+    "en": "Secret of Becoming a Billionaire: India's Shri Vidya"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लाल मखमली कपड़े पर रखी पीतल की थाली पर उकेरा गया श्रीयंत्र, चारों ओर जलते दीये, पीतल के कलश और गुलाबी-सफेद फूल",
+      "en": "A Shri Yantra engraved on a brass plate resting on red velvet, surrounded by lit oil lamps, brass vessels and pink and white flowers"
+    },
+    "inline.jpg": {
+      "hi": "प्राचीन भारत के पुराने मानचित्र पर खड़ी सोने की चिड़िया की मूर्ति, पीछे पत्थर के मंदिर-शिखर और ढलती सुनहरी धूप",
+      "en": "A golden sparrow figure standing on an old map of ancient India, with carved stone temple spires behind it in warm golden light"
+    },
+    "3YzvjV9tkWg.jpg": {
+      "hi": "वीडियो: प्राचीन भारतीय ज्ञानाद्वारे अब्जाधीश बनण्याची रहस्ये (प्राचीन भारतीय ज्ञान से अरबपति बनने के रहस्य), आचार्य उपेंद्र जी, पीछे उड़ते नोटों के बीच बांहें फैलाए एक व्यक्ति",
+      "en": "Video: Secrets of Becoming a Billionaire Through Ancient Indian Wisdom (Marathi), Acharya Upendra Ji, with a man spreading his arms among flying banknotes"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "श्रीयंत्र: समृद्धि की गुप्त साधना",
+      "en": "The Shri Yantra: a hidden practice of prosperity"
+    },
+    "inline.jpg": {
+      "hi": "सोने की चिड़िया फिर से",
+      "en": "The golden bird, once again"
+    }
+  },
+  "links": [
+    {
+      "talk": "future_country_bharat_know",
+      "hi": "हमें ऐसा भारत नहीं चाहिए",
+      "en": "we should not accept the India we have today"
+    },
+    {
+      "talk": "lakshmi_come_some_people_not_others",
+      "hi": "लक्ष्मी का वरदान",
+      "en": "the blessing of Lakshmi"
+    },
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "पैसा बुरा है, पैसे से दिमाग खराब होता है",
+      "en": "money is evil and that it corrupts the mind"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "गुरु द्वारा आध्यात्मिक ऊर्जा का संचार",
+      "en": "the Guru transmits spiritual energy"
+    }
+  ],
+  "also_read": {
+    "talk": "become_billionaire_shree_vidya_secrets",
+    "after": {
+      "hi": "धन बुरा नहीं: भोग और मोक्ष साथ-साथ",
+      "en": "Wealth Is Not Evil: Enjoyment and Liberation Together"
+    }
+  },
+  "related": [
+    "become_billionaire_shree_vidya_secrets",
+    "lakshmi_come_some_people_not_others",
+    "true_wealth_money_health_respect_or"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "arabpati-banne-ka-rahasya",
+      "focus_keyword": "अरबपति बनने का रहस्य",
+      "secondary_keywords": [
+        "श्रीयंत्र कुंकुम अभिषेक",
+        "सुखस्य मूलं धर्मः का अर्थ",
+        "क्या धन बुरा है",
+        "भारत सोने की चिड़िया"
+      ],
+      "meta_description": "मेहनत बराबर, फिर भी फल इतना अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र धन के बारे में क्या सिखाते हैं।",
+      "tags": [
+        "श्री विद्या",
+        "श्री यंत्र",
+        "लक्ष्मी",
+        "उद्यमिता",
+        "शक्तिपात"
+      ]
+    },
+    "en": {
+      "slug": "secret-of-becoming-a-billionaire",
+      "focus_keyword": "secret of becoming a billionaire",
+      "secondary_keywords": [
+        "Shri Yantra kumkum abhishek",
+        "sukhasya mulam dharmah meaning",
+        "is money evil in Hinduism",
+        "why schools don't teach about money"
+      ],
+      "meta_description": "Why do some grow rich from the same hard work others barely live on? Acharya Upendra Ji points to Shri Vidya, the Shri Yantra and Chanakya on wealth.",
+      "tags": [
+        "Shri Vidya",
+        "Shri Yantra",
+        "Lakshmi",
+        "Entrepreneurship",
+        "Shaktipat"
+      ]
+    }
+  }
+}

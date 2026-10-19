@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों?",
+    "en": "Meaning of Sahasranama: Why Chant 1000 Names of God?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "जलते पीतल के दीपक के पास रुद्राक्ष की माला फेरते साधक के हाथ, पीछे फूलों और ग्रंथों से सजी पूजा की वेदी",
+      "en": "A devotee's hands telling rudraksha mala beads beside a lit brass lamp, with an altar of flowers and scriptures behind"
+    },
+    "inline.jpg": {
+      "hi": "एक ही व्यक्ति चार रूपों में: माँ का बेटा, दोस्तों का साथी, ऑफ़िस का सहकर्मी और बच्चों का पिता",
+      "en": "One man in four roles: a son with his mother, a friend at cards, a colleague at work and a father with his children"
+    },
+    "owKF50txJi0.jpg": {
+      "hi": "वीडियो: सहस्रनाम का असली अर्थ, गणेश सीरीज़ भाग 18, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Real Meaning of Sahasranam, Ganesh Series Ep 18, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हर मनके पर वही एक",
+      "en": "Every bead, the same One"
+    },
+    "inline.jpg": {
+      "hi": "नाम अनेक, व्यक्ति एक",
+      "en": "Many names, one person"
+    }
+  },
+  "links": [
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "एक ही ईश्वर के हज़ार नाम",
+      "en": "call the one God by a thousand names"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "उसे हर व्यक्ति में विष्णु दिखने चाहिए",
+      "en": "you should see Vishnu in every person"
+    },
+    {
+      "talk": "gau_seva_antar_yog_purity_prosperity",
+      "hi": "मैंने गाय को चारा खिलाया",
+      "en": "I fed fodder to a cow"
+    },
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "सहस्रनाम में अनगिनत रूपों को एक ही नाम से जोड़ा जाता है",
+      "en": "a sahasranama ties countless forms to a single name"
+    }
+  ],
+  "also_read": {
+    "talk": "see_god_even_enemy",
+    "after": {
+      "hi": "कहानी के रचयिता आप ही हैं",
+      "en": "You Wrote the Story Yourself"
+    }
+  },
+  "related": [
+    "see_god_even_enemy",
+    "33_crore_gods_truth_about_hinduism",
+    "see_lord_everyone_but_treat_merit"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "sahasranam-ka-arth",
+      "focus_keyword": "सहस्रनाम का अर्थ",
+      "secondary_keywords": [
+        "भगवान के हज़ार नाम क्यों",
+        "सहस्रनाम पाठ क्यों करें",
+        "वासुदेवः सर्वम् का अर्थ",
+        "ॐ तत्सत् का अर्थ"
+      ],
+      "meta_description": "एक ही भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं कि सहस्रनाम का उद्देश्य रटना नहीं, गीता के 'वासुदेवः सर्वम्' की तरह हर रूप में परमात्मा को देखना है।",
+      "tags": [
+        "गणेश सीरीज़",
+        "सहस्रनाम",
+        "अद्वैत वेदांत",
+        "भगवद्गीता",
+        "साक्षी भाव"
+      ]
+    },
+    "en": {
+      "slug": "meaning-of-sahasranama",
+      "focus_keyword": "meaning of sahasranama",
+      "secondary_keywords": [
+        "why chant 1000 names of God",
+        "why recite sahasranama",
+        "Vasudevah sarvam meaning",
+        "Om Tat Sat meaning"
+      ],
+      "meta_description": "Why chant a thousand names of one God? Acharya Upendra Ji explains that a sahasranama is not rote repetition but a way to see God in every form.",
+      "tags": [
+        "Ganesh Series",
+        "Sahasranama",
+        "Advaita Vedanta",
+        "Bhagavad Gita",
+        "Sakshi Bhava"
+      ]
+    }
+  }
+}

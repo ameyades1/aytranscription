@@ -1,0 +1,63 @@
+{
+  "title": {
+    "hi": "शुक्र ग्रह का प्रभाव: प्रेम, विवाह, धन और आभा का कारक",
+    "en": "Significance of Venus in Vedic Astrology: Love and Wealth"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "संध्या के गुलाबी आकाश में चमकता शुक्र तारा; रेशमी साड़ी पहने एक स्त्री घाट की सीढ़ियों पर जलते दीपक के पास बैठी शांत नदी को निहार रही है",
+      "en": "Venus shining as the evening star in a pink dusk sky, while a woman in a silk saree sits beside a lit diya on a riverside ghat, gazing at the calm water"
+    },
+    "inline.jpg": {
+      "hi": "धूप से भरे हॉल में आँखें बंद किए, हाथ जोड़कर एक साथ मंत्र जप करते सैकड़ों स्त्री-पुरुष साधक",
+      "en": "Hundreds of men and women sit together in a sunlit hall, eyes closed and palms joined, chanting a mantra in unison"
+    },
+    "NcBGjacSy-s.jpg": {
+      "hi": "वीडियो: शुक्र ग्रह जप साधना, शुक्र ग्रह के सामने ब्रह्मर्षि आचार्य उपेंद्र जी; 43 दिनों में 64,000 जप",
+      "en": "Video: Powerful Shukra (Venus) Chanting, Brahmarshi Acharya Upendra Ji before the planet Venus; 64,000 chants over 43 days"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "शुक्र जागे, जीवन में आभा",
+      "en": "When Venus rises, radiance follows"
+    },
+    "inline.jpg": {
+      "hi": "हज़ारों स्वर, एक संकल्प",
+      "en": "Many voices, one intention"
+    }
+  },
+  "links": [
+    {"talk": "marriage_giving_not_taking_relationships", "hi": "विवाह सफल होता है", "en": "marriage thrives"},
+    {"talk": "lakshmi_come_some_people_not_others", "hi": "लक्ष्मी सहजता से आती है", "en": "comes to you with ease"},
+    {"talk": "sattva_rajas_tamas_balance_success_liberation", "hi": "भोग, सुख और सक्रियता से जुड़ा", "en": "connected with enjoyment, comfort and activity"},
+    {"talk": "life_boomerang_before_react", "hi": "अगर आप पत्नी को धोखा देते हैं", "en": "If you deceive your wife"},
+    {"talk": "power_of_collectivity", "hi": "जब हज़ारों साधक एक ही समय पर जप करते हैं", "en": "When thousands of practitioners chant at the same time"}
+  ],
+  "also_read": {
+    "talk": "sacred_guru_jupiter_chanting",
+    "after": {"hi": "सामूहिक जप की शक्ति", "en": "The Power of Chanting Together"}
+  },
+  "related": [
+    "sacred_guru_jupiter_chanting",
+    "saturn_mars_succeed_shani_mangal",
+    "lakshmi_come_some_people_not_others"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "shukra-grah-ka-prabhav",
+      "focus_keyword": "शुक्र ग्रह का प्रभाव",
+      "secondary_keywords": ["कमज़ोर शुक्र के लक्षण", "शुक्र बीज मंत्र जप", "शुक्र ग्रह जप साधना", "शुक्र और लक्ष्मी"],
+      "meta_description": "शुक्र ग्रह का प्रभाव प्रेम, विवाह, धन और कला पर कैसे पड़ता है? आचार्य उपेंद्र जी बताते हैं प्रबल और दोषग्रस्त शुक्र के लक्षण और शुक्र बीज मंत्र जप साधना।",
+      "tags": ["नवग्रह", "लक्ष्मी", "विवाह", "रजोगुण"]
+    },
+    "en": {
+      "slug": "significance-of-venus-shukra",
+      "focus_keyword": "significance of Venus in Vedic astrology",
+      "secondary_keywords": ["weak Venus symptoms", "Shukra beej mantra chanting", "Shukra Graha Jap Sadhana", "Venus and relationships"],
+      "meta_description": "How does Venus, called Shukra, shape love, marriage, wealth and art? Acharya Upendra Ji explains the signs of a weak Venus and the Shukra beej mantra jap.",
+      "tags": ["Navagraha", "Lakshmi", "Marriage", "Rajas"]
+    }
+  }
+}

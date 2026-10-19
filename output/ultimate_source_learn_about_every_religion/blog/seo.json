@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव",
+    "en": "Unity of All Religions: A Seeker's Story of One Source"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "चट्टानी पर्वत की गुफा से निकलता एक झरना, जो ढलान पर अनेक धाराओं में बँटकर बहता है, पीछे सुनहरी धूप में पहाड़",
+      "en": "A single spring pouring from a cave in a rocky peak and dividing into many streams down the slope, with mountains in golden light behind"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की पट्टी पर साथ-साथ रखे छह धर्मग्रंथ, जिन पर बुद्ध, धर्मचक्र, अलंकृत आकृति, चाँद-तारा, क्रॉस और ॐ के सुनहरे चिह्न हैं",
+      "en": "Six holy books standing side by side on a wooden shelf in warm light, their covers marked with the Buddha, a Dharma wheel, an ornate medallion, a crescent and star, a cross and Om"
+    },
+    "14RWGh4zZWE.jpg": {
+      "hi": "वीडियो: \"Discovering the Unity of All Religions\", साधिका गीता डांगी का अनुभव, पीछे ॐ, धर्मचक्र, क्रॉस और चाँद-तारा के चिह्न",
+      "en": "Video: \"Discovering the Unity of All Religions\", Geeta Dangi's testimony, with Om, Dharma wheel, cross and crescent symbols behind her"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक स्रोत, अनेक धाराएँ",
+      "en": "One source, many streams"
+    },
+    "inline.jpg": {
+      "hi": "ग्रंथ अनेक, तत्त्व एक",
+      "en": "Many scriptures, one essence"
+    }
+  },
+  "links": [
+    {
+      "talk": "animal_sacrifice",
+      "hi": "पशुबलि की प्रथा रूढ़ कर दी",
+      "en": "turned animal sacrifice into an established custom"
+    },
+    {
+      "talk": "spiritual_meaning_secularism_independence_day_special",
+      "hi": "मैं श्रेष्ठ, तुम कनिष्ठ",
+      "en": "I am superior, you are inferior"
+    },
+    {
+      "talk": "dharma_teaches_us",
+      "hi": "सब धर्मों के मूल धर्मगुरु एक जैसा ही ज्ञान देते हैं",
+      "en": "The founding teachers of every religion teach the same knowledge"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "किसी श्रोत्रिय और ब्रह्मनिष्ठ गुरु से ही सीखना चाहिए",
+      "en": "must be learned from a Guru who is both shrotriya and brahmanishtha"
+    }
+  ],
+  "also_read": {
+    "talk": "evolution_of_dharma_sanatan_dharma",
+    "after": {
+      "hi": "\"मैं हिंदू नहीं हूँ\"",
+      "en": "\"I Am Not a Hindu\""
+    }
+  },
+  "related": [
+    "surrendering_to_guru",
+    "being_presence_guru_changes_way_think",
+    "hidden_meaning_spiritual_symbols"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "sabhi-dharmon-ka-mool-srot",
+      "focus_keyword": "सभी धर्मों का मूल स्रोत",
+      "secondary_keywords": [
+        "सब धर्मों का मूल स्रोत",
+        "सब धर्म एक समान हैं",
+        "गीता और बाइबल में समानता",
+        "सनातन धर्म सबसे प्राचीन धर्म"
+      ],
+      "meta_description": "सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।",
+      "tags": [
+        "सर्वधर्म समभाव",
+        "साधक अनुभव",
+        "भगवद्गीता",
+        "अहिंसा",
+        "सद्गुरु"
+      ]
+    },
+    "en": {
+      "slug": "unity-of-all-religions",
+      "focus_keyword": "unity of all religions",
+      "secondary_keywords": [
+        "essence of all religions",
+        "are all religions the same",
+        "Bhagavad Gita and Bible similarities",
+        "Sanatana Dharma oldest religion"
+      ],
+      "meta_description": "Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree.",
+      "tags": [
+        "Interfaith Harmony",
+        "Seeker Experiences",
+        "Bhagavad Gita",
+        "Ahimsa",
+        "Sadguru"
+      ]
+    }
+  }
+}

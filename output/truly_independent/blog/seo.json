@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "लोकतंत्र का असली अर्थ: क्या हम सच में आज़ाद हैं?",
+    "en": "True Meaning of Democracy: Are We Really Free?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के आकाश में लहराता तिरंगा और उसके नीचे एकत्र विशाल जनसमूह, दूर गुंबद वाली ऐतिहासिक इमारतें",
+      "en": "The Indian tricolour flying against a sunrise sky above a vast gathered crowd, with domed historic buildings in the distance"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की मेज़ पर संविधान की प्रतीक, सुनहरी किनारी वाली खुली पुस्तक, पास में अशोक स्तंभ की प्रतिकृति, ग्लोब और तिरंगा",
+      "en": "An open book with gilded borders standing for the Constitution on a wooden desk, beside an Ashoka lion capital, a globe and the tricolour"
+    },
+    "kz1WlH6Jnvw.jpg": {
+      "hi": "वीडियो: क्या हम सच में लोकतंत्र समझते हैं?, आचार्य उपेंद्र जी, पीछे संसद भवन और तिरंगा",
+      "en": "Video: Do we really understand democracy? Acharya Upendra Ji with Parliament House and the tricolour behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जनता ही असली शक्ति है",
+      "en": "The people hold the power"
+    },
+    "inline.jpg": {
+      "hi": "पहले अपना संविधान पढ़ें",
+      "en": "First, read your Constitution"
+    }
+  },
+  "links": [
+    {
+      "talk": "spiritual_meaning_secularism_independence_day_special",
+      "hi": "पंथनिरपेक्ष",
+      "en": "secular"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "क्योंकि आप स्वयं को भूल गए हैं",
+      "en": "because you have forgotten yourself"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "वह याद दिलाने के लिए गुरु को आना पड़ता है",
+      "en": "the Guru has to come to remind you"
+    },
+    {
+      "talk": "was_ram_rajya_like_federal_or",
+      "hi": "व्यवस्था एक खेल बनकर रह गई है",
+      "en": "The system has turned into a game"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "राजा का धर्म है कि वह जनता के हित में खर्च करे",
+      "en": "spend for the good of the people"
+    }
+  ],
+  "also_read": {
+    "talk": "future_country_bharat_know",
+    "after": {
+      "hi": "आपने अपना संविधान पढ़ा है?",
+      "en": "Have You Read Your Constitution?"
+    }
+  },
+  "related": [
+    "spiritual_meaning_secularism_independence_day_special",
+    "why_society_remains_divided_interview",
+    "power_of_collectivity"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "loktantra-ka-asli-arth",
+      "focus_keyword": "लोकतंत्र का असली अर्थ",
+      "secondary_keywords": ["क्या हम सच में आज़ाद हैं", "संप्रभु का अर्थ", "by the people buy the people", "संविधान क्यों पढ़ें"],
+      "meta_description": "लोकतंत्र का असली अर्थ क्या है? आचार्य उपेंद्र जी: भारत ने स्वयं को संप्रभु क्यों कहा, by the people कैसे buy the people बना, और नागरिक की असली ताकत।",
+      "tags": ["स्वतंत्रता दिवस", "लोकतंत्र", "चाणक्य", "सुशासन", "राष्ट्र निर्माण"]
+    },
+    "en": {
+      "slug": "true-meaning-of-democracy",
+      "focus_keyword": "true meaning of democracy",
+      "secondary_keywords": ["are we really free", "meaning of sovereign in the Preamble", "by the people or buy the people"],
+      "meta_description": "What is the true meaning of democracy? Acharya Upendra Ji on why India calls itself sovereign, how by the people became buy the people, and your power.",
+      "tags": ["Independence Day", "Democracy", "Chanakya", "Good Governance", "Nation Building"]
+    }
+  }
+}

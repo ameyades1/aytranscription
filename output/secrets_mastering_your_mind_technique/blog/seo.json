@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "स्थिर मन कैसे पाएं? अथर्व मन और जीवन का नेतृत्व",
+    "en": "How to Develop a Steady Mind: The Atharva Way to Lead"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप भरी पुरानी गली में आगे बढ़ती भीड़ के बीच क्रीम कुर्ता और दुपट्टा पहने एक शांत, स्थिर दृष्टि वाला युवक",
+      "en": "A calm young man in a cream kurta and shawl stands steady amid a crowd moving through a sunlit old street"
+    },
+    "inline.jpg": {
+      "hi": "खुली खिड़की के पास चटाई पर पालथी मारकर बैठा युवक, आँखें बंद करके अनुलोम-विलोम प्राणायाम करता हुआ",
+      "en": "A young man sits cross-legged on a mat by an open window, eyes closed, practising alternate-nostril pranayama"
+    },
+    "6v0N16_t-Bo.jpg": {
+      "hi": "वीडियो: The Secrets to Mastering Your Mind, आचार्य उपेंद्र जी, पास में चमकता मस्तिष्क के आकार का बल्ब",
+      "en": "Video: The Secrets to Mastering Your Mind, Acharya Upendra Ji beside a glowing brain-shaped light bulb"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "भीड़ चलती है, अथर्व मन स्थिर रहता है",
+      "en": "The crowd moves; the atharva mind stays steady"
+    },
+    "inline.jpg": {
+      "hi": "श्वास अधीन, तो मन अधीन",
+      "en": "Master the breath, and the mind follows"
+    }
+  },
+  "links": [
+    {
+      "talk": "control_your_mind_before_it_controls_you",
+      "hi": "तभी मेरा मन मेरे अधीन होता है",
+      "en": "my mind serves me the way a kingdom serves its king"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "बेचैन सक्रियता का गुण",
+      "en": "the quality of restless activity"
+    },
+    {
+      "talk": "rigid_mind_vs_flexible_mind_destiny",
+      "hi": "हमने इसे जीवन का ढंग मान लिया",
+      "en": "you have accepted all this as a way of life"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "गुरु के पास जाकर",
+      "en": "by going to the Guru and quietly listening to whatever he says"
+    },
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "यह फिल्मी प्रेम नहीं",
+      "en": "This is not the love of the movies"
+    }
+  ],
+  "also_read": {
+    "talk": "truly_independent",
+    "after": {
+      "hi": "हारा हुआ मन, हारा हुआ राष्ट्र",
+      "en": "A Defeated Mind, a Defeated Nation"
+    }
+  },
+  "related": [
+    "control_your_mind_before_it_controls_you",
+    "surrendering_to_guru",
+    "ideal_king_sanatan_rashtra_interview"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "sthir-man-kaise-paayen",
+      "focus_keyword": "स्थिर मन कैसे पाएं",
+      "secondary_keywords": ["अथर्व का अर्थ", "अपने जीवन का नेता कैसे बनें", "असली नास्तिक कौन है", "महत्संग दुर्लभ अगम्य अमोघ"],
+      "meta_description": "स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य।",
+      "tags": ["मन पर नियंत्रण", "नेतृत्व", "आत्मविश्वास", "शरणागति", "नारद भक्ति सूत्र"]
+    },
+    "en": {
+      "slug": "how-to-develop-a-steady-mind",
+      "focus_keyword": "how to develop a steady mind",
+      "secondary_keywords": ["atharva meaning", "how to lead your own life", "real atheist Swami Vivekananda", "Narada Bhakti Sutra 39 meaning"],
+      "meta_description": "How do you develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.",
+      "tags": ["Mastering the Mind", "Leadership", "Self-Confidence", "Sharanagati", "Narada Bhakti Sutra"]
+    }
+  }
+}

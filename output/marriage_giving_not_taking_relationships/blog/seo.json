@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "विवाह का उद्देश्य: लेना नहीं, देना | आचार्य उपेंद्र जी",
+    "en": "Spiritual Purpose of Marriage: Giving, Not Taking"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "भोजन की मेज़ पर लाल-सुनहरी साड़ी पहने बुज़ुर्ग पत्नी मुस्कुराते हुए अपने पति की थाली में चम्मच से भोजन परोसती, पति हाथ में थाली लिए मुस्कुराते, मेज़ पर पीतल के बर्तन",
+      "en": "At a dining table, an elderly wife in a red and gold sari smilingly serves food with a spoon onto her husband's plate as he holds it out, brass vessels on the table"
+    },
+    "inline.jpg": {
+      "hi": "बारिश में भीगी गली में एक छाते के नीचे साथ चलते पति-पत्नी, पति छाता थामे और दोनों एक-दूसरे को देखकर मुस्कुराते",
+      "en": "A husband and wife walking together under one umbrella on a rain-soaked lane, the husband holding the umbrella as they smile at each other"
+    },
+    "qKeSO8HjLgk.jpg": {
+      "hi": "वीडियो: Marriage Is About Giving, Not Taking, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Marriage Is About Giving, Not Taking, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो आता है, वही देना",
+      "en": "Giving what you know how to give"
+    },
+    "inline.jpg": {
+      "hi": "एक छाता, दो जीवन",
+      "en": "One umbrella, two lives"
+    }
+  },
+  "links": [
+    {
+      "talk": "when_love_turns_into_control",
+      "hi": "जहाँ हम कुछ देकर बदले में कुछ लेने आए हों",
+      "en": "where we hand over something and come to collect something in return"
+    },
+    {
+      "talk": "loving_in_the_right_way_valentines",
+      "hi": "यदि उसे घूमना अच्छा लगता है, तो पत्नी को भी घूमने ले जाए",
+      "en": "If he loves to travel, let him take his wife along"
+    },
+    {
+      "talk": "know_your_first_duty_in_life",
+      "hi": "हमारा जन्म देने के लिए होता है, लेने के लिए नहीं",
+      "en": "we are born to give, not to take"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "वह आपके कर्म काटने के लिए आया है",
+      "en": "Your partner has come to help you work off your karma"
+    },
+    {
+      "talk": "stop_tolerating_toxic_love",
+      "hi": "तलाक देना है या प्रेम से रहना है",
+      "en": "Whether you divorce or live together with love"
+    }
+  ],
+  "also_read": {
+    "talk": "married_or_not_insights",
+    "after": {
+      "hi": "कठिन जीवनसाथी: प्रारब्ध और नया कर्म",
+      "en": "A Difficult Partner: Destiny and New Action"
+    }
+  },
+  "related": [
+    "true_meaning_of_love_valentines",
+    "love_respect_friendship_connection",
+    "twin_flames_soulmates_karmic_bonds"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "vivah-ka-uddeshya",
+      "focus_keyword": "विवाह का उद्देश्य",
+      "secondary_keywords": [
+        "शादी लेने का नहीं देने का संबंध",
+        "पति पत्नी का कर्तव्य",
+        "झगड़ालू जीवनसाथी और प्रारब्ध",
+        "शादी में अपेक्षाएं"
+      ],
+      "meta_description": "क्या विवाह सुखी होने का सौदा है? आचार्य उपेंद्र जी बताते हैं कि विवाह लेने का नहीं, देने का संबंध है, और कठिन जीवनसाथी के साथ हमारा व्यवहार हमारा नया कर्म है।",
+      "tags": [
+        "विवाह",
+        "निःस्वार्थ प्रेम",
+        "अपेक्षा",
+        "प्रारब्ध",
+        "कर्मयोग"
+      ]
+    },
+    "en": {
+      "slug": "marriage-giving-not-taking",
+      "focus_keyword": "spiritual purpose of marriage",
+      "secondary_keywords": [
+        "marriage is about giving not taking",
+        "expectations in marriage",
+        "how to deal with a difficult spouse",
+        "prarabdha and marriage"
+      ],
+      "meta_description": "Is marriage a deal for happiness? Acharya Upendra Ji explains why marriage is about giving, not taking, and why a difficult partner is your prarabdha.",
+      "tags": [
+        "Marriage",
+        "Selfless Love",
+        "Expectations",
+        "Prarabdha",
+        "Karma Yoga"
+      ]
+    }
+  }
+}

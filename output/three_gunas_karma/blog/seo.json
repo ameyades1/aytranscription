@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "त्रिगुण और कर्म: कर्म आप करते हैं या प्रकृति करवाती है?",
+    "en": "Three Gunas and Human Behaviour: Who Really Acts?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय गंगा घाट पर एक हाथ की डोरियों से नचाई जा रही सजी-धजी कठपुतली",
+      "en": "A richly dressed puppet moved by strings from a hand above, on a riverside ghat at sunset"
+    },
+    "inline.jpg": {
+      "hi": "सूर्यास्त के समय गोवा के समुद्र तट पर संगीत मंच और रंगीन रोशनियों के आसपास उमड़ी भीड़",
+      "en": "A crowd gathered around a music stage with coloured lights on a Goa beach at sunset"
+    },
+    "cyTbblKx0hs.jpg": {
+      "hi": "वीडियो: What Really Controls Your Behaviour? (आपके व्यवहार को सच में कौन चलाता है?), आचार्य उपेंद्र जी, पीछे पानी के नीचे छिपा हिमखंड",
+      "en": "Video: What Really Controls Your Behaviour? Acharya Upendra Ji beside a painting of an iceberg hidden below the water"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "डोर किसके हाथ में है?",
+      "en": "Who holds the strings?"
+    },
+    "inline.jpg": {
+      "hi": "राजसिक तट, राजसिक मन",
+      "en": "A rajasic shore meets a rajasic mind"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "स्थान, व्यक्ति, वस्तु, सब कुछ इन्हीं के अनुसार विभाजित है",
+      "en": "Every place, every person and every object falls under one of them"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "फिर भी हम अहंकार में यही समझते रहते हैं कि मैं कर्म करता हूँ",
+      "en": "ego keeps us convinced that we are the ones who act"
+    },
+    {
+      "talk": "company_you_keep_shapes_destiny",
+      "hi": "हर स्थान का भी अपना एक गुण होता है",
+      "en": "Every place carries a quality of its own too"
+    },
+    {
+      "talk": "struggling_laziness_lack_drive_spiritual",
+      "hi": "अपने गुण बदलना आपका कर्तव्य",
+      "en": "changing your own gunas becomes your duty"
+    }
+  ],
+  "also_read": {
+    "talk": "true_meaning_pitru_rin",
+    "after": {
+      "hi": "आपके हाथ में क्या है?",
+      "en": "What Lies Within Your Control?"
+    }
+  },
+  "related": [
+    "who_real_doer_karma_ego_bhagavad",
+    "sattva_rajas_tamas_balance_success_liberation",
+    "company_you_keep_shapes_destiny"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "trigun-aur-karma",
+      "focus_keyword": "त्रिगुण और कर्म",
+      "secondary_keywords": [
+        "कर्म कौन करवाता है",
+        "सत्व रज तम और व्यवहार",
+        "स्थान का गुण और कर्म"
+      ],
+      "meta_description": "क्या कर्म सच में आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से समझाते हैं कि भीतर और बाहर के गुणों का मेल ही कर्म बनाता है।",
+      "tags": [
+        "त्रिगुण",
+        "भगवद्गीता",
+        "अहंकार",
+        "कर्तापन",
+        "रजोगुण",
+        "तमोगुण"
+      ]
+    },
+    "en": {
+      "slug": "three-gunas-human-behaviour",
+      "focus_keyword": "three gunas and human behaviour",
+      "secondary_keywords": [
+        "how gunas influence our actions",
+        "does nature make us act",
+        "rajasic and tamasic places"
+      ],
+      "meta_description": "Do you act, or does nature act through you? Acharya Upendra Ji shows how the gunas within you meet the gunas of a place to shape what you do (Gita 3.27).",
+      "tags": [
+        "Three Gunas",
+        "Bhagavad Gita",
+        "Ego",
+        "Doership",
+        "Rajas",
+        "Tamas"
+      ]
+    }
+  }
+}

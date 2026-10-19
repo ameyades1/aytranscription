@@ -1,0 +1,62 @@
+{
+  "title": {
+    "hi": "सच्चा शिष्य कौन है? जब ज्ञान कर्म बन जाए",
+    "en": "What Makes a True Disciple? Turning Knowledge into Action"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "आश्रम के आंगन में मिट्टी के घड़े से पौधों को सींचता सफेद वस्त्रधारी युवा साधक, पीछे बैठे तीन साधक उसे देख रहे हैं",
+      "en": "A young seeker in white cloth watering plants from a clay pot in an ashram courtyard while three seated seekers look on"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर के बरामदे में बोलते हुए श्वेत केश वाले गुरु और उनके सामने बैठकर नोटबुक में लिखता पीले कुर्ते वाला युवा शिष्य",
+      "en": "A white-haired Guru speaking in a temple veranda as a young disciple in a yellow kurta sits before him writing in a notebook"
+    },
+    "F2ed2I00dQA.jpg": {
+      "hi": "वीडियो: Are YOU a True Disciple? This Idea Will Change YOUR Life, आचार्य उपेंद्र जी",
+      "en": "Video: Are YOU a True Disciple? This Idea Will Change YOUR Life, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सुना हुआ ज्ञान, जो कर्म बनकर बहे",
+      "en": "Knowledge that flows out as action"
+    },
+    "inline.jpg": {
+      "hi": "नोट्स से आगे: आज क्या लागू किया?",
+      "en": "Beyond the notes: what did you apply today?"
+    }
+  },
+  "links": [
+    {"talk": "why_satsang_does_not_change_your_life", "hi": "हम प्रवचन सुनते हैं", "en": "We listen to discourses"},
+    {"talk": "know_kind_student_shishya", "hi": "शिष्य बनकर ही कोई दाता बन सकता है", "en": "You can become a giver only by first being a disciple"},
+    {"talk": "three_types_obstacle_removers_harta", "hi": "सारे विघ्न दूर होते हैं", "en": "all obstacles fall away"},
+    {"talk": "knowledge_work_for_you", "hi": "ज्ञान का प्रमाण उसका कर्म है", "en": "Action is the proof of knowledge"},
+    {"talk": "become_billionaire_shree_vidya_secrets", "hi": "श्री विद्या को जीवन में उतारो", "en": "Bring Shri Vidya into your life"}
+  ],
+  "also_read": {
+    "talk": "missing_step_blocking_spiritual_success",
+    "after": {
+      "hi": "कान से संस्कार तक: गुरु के शब्दों की यात्रा",
+      "en": "From the Ear to the Samskaras: How the Guru's Words Travel"
+    }
+  },
+  "related": ["guru_and_disciple_highest_form_love", "when_disciple_become_truly_powerful", "without_guru_scriptures_can_mislead"],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "sachcha-shishya-kaun-hai",
+      "focus_keyword": "सच्चा शिष्य कौन है",
+      "secondary_keywords": ["ज्ञान को कर्म में कैसे बदलें", "गुरु के शब्द जीवन में कैसे उतारें", "एक तरी ओवी अनुभवावी का अर्थ", "अनूचान का अर्थ"],
+      "meta_description": "सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए।",
+      "tags": ["गुरु-शिष्य", "गणपति अथर्वशीर्ष", "संस्कार", "श्री विद्या"]
+    },
+    "en": {
+      "slug": "true-disciple-knowledge-into-action",
+      "focus_keyword": "what makes a true disciple",
+      "secondary_keywords": ["how to turn knowledge into action", "applying spiritual teachings in daily life", "ek tari ovi anubhavavi meaning", "anuchana meaning"],
+      "meta_description": "What makes a true disciple? Acharya Upendra Ji explains how the Guru's words travel from ear to conduct, and why real knowledge always ends in action.",
+      "tags": ["Guru and Disciple", "Ganapati Atharvashirsha", "Samskaras", "Shri Vidya"]
+    }
+  }
+}

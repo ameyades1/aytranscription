@@ -1,0 +1,62 @@
+{
+  "title": {
+    "hi": "असली गणेश कौन है? गणेश जन्म कथा का अर्थ",
+    "en": "Who Is the Real Ganesha? The Meaning of His Birth Story"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के नक्काशीदार खंभों के बीच पालथी मारकर बैठी चतुर्भुज गणेश प्रतिमा, एक हाथ अभय मुद्रा में, सामने गेंदे के फूल और जलते दीये, सुनहरी रोशनी",
+      "en": "A four-armed Ganesha idol seated cross-legged between carved temple pillars, one hand raised in blessing, with marigolds and lit lamps in warm golden light"
+    },
+    "inline.jpg": {
+      "hi": "धूप से छनते जंगल में खड़े लंबे दाँतों वाले हाथी का पास से लिया गया चित्र, बड़े कान और शांत आँख",
+      "en": "Close-up of a tusked elephant standing in a sunlit forest, its large ear and calm eye in view"
+    },
+    "Of8N4Jl6tvo.jpg": {
+      "hi": "वीडियो: स्नान के उबटन से बालक को गढ़ती पार्वती का चित्र और ब्रह्मर्षि आचार्य उपेंद्र जी, The Truth About Lord Ganesh That No One Told You",
+      "en": "Video: Parvati shaping a child from bathing paste, beside Acharya Upendra Ji, The Truth About Lord Ganesh That No One Told You, Decoded by Guru"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रूप एक प्रतीक है, गणेश भीतर हैं",
+      "en": "The form is a symbol; Ganesha lives within"
+    },
+    "inline.jpg": {
+      "hi": "विशालता: विवेक का चिह्न",
+      "en": "Vastness, the mark of discernment"
+    }
+  },
+  "links": [
+    {"talk": "hidden_meaning_spiritual_symbols", "hi": "एक अर्थ को रूप में कहने का तरीका", "en": "a way of giving shape to a meaning"},
+    {"talk": "spiritual_science_om_aum", "hi": "वही असली, ब्रह्म वाला गणेश है", "en": "the true Ganesha, the one who is Brahman"},
+    {"talk": "worldly_maya_makes_forget_true_self", "hi": "तभी संसार और माया रचने की इच्छा होती है", "en": "does the desire arise to build a world and its illusions"},
+    {"talk": "why_satsang_does_not_change_your_life", "hi": "फिर भी हमें उनकी बातों पर विश्वास नहीं होता", "en": "still we do not trust what we hear"}
+  ],
+  "also_read": {
+    "talk": "ganesh_have_elephant_head_mouse",
+    "after": {"hi": "हाथी का सिर: विवेक के गुण", "en": "The Elephant's Head: The Marks of Discernment"}
+  },
+  "related": [
+    "hidden_meaning_behind_10_days_ganesh",
+    "three_types_obstacle_removers_harta",
+    "sattva_rajas_tamas_balance_success_liberation"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "asli-ganesh-kaun-hai",
+      "focus_keyword": "असली गणेश",
+      "secondary_keywords": ["वास्तविक गणेश", "गणेश जन्म कथा का रहस्य", "पार्वती के मैल से गणेश का जन्म", "गणेश और विवेक बुद्धि"],
+      "meta_description": "असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।",
+      "tags": ["गणेश", "विवेक", "गणपति अथर्वशीर्ष", "त्रिगुण", "प्रतीकवाद"]
+    },
+    "en": {
+      "slug": "who-is-the-real-ganesha",
+      "focus_keyword": "who is the real Ganesha",
+      "secondary_keywords": ["Ganesha birth story meaning", "Ganesha born from Parvati's bathing paste", "Ganesha and discernment"],
+      "meta_description": "Who is the real Ganesha? Acharya Upendra Ji decodes the birth story: Parvati's bath, Shiva's return and the elephant head as discernment born within us.",
+      "tags": ["Ganesh", "Viveka", "Ganapati Atharvashirsha", "Three Gunas", "Symbolism"]
+    }
+  }
+}

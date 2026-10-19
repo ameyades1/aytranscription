@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य",
+    "en": "Struggling Despite Trying Your Best? Act with Understanding"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी शाम की रोशनी में धनुष-बाण लिए एक प्राचीन भारतीय धनुर्धर, पेड़ों और चट्टानों के बीच दूर रखे लक्ष्य-चक्र को देखते हुए",
+      "en": "An ancient Indian archer holding a bow in golden evening light, looking towards a distant target among trees and rocks"
+    },
+    "inline.jpg": {
+      "hi": "पारंपरिक कमरे में शतरंज की बिसात के सामने ठोड़ी पर हाथ रखे गहरे विचार में बैठा एक व्यक्ति",
+      "en": "A man sitting deep in thought, hand to his chin, before a chessboard in a traditional room"
+    },
+    "lzy0iom4NM0.jpg": {
+      "hi": "वीडियो: आपको दुःख और सुख क्यों आते हैं? कर्म योग सीरीज़ में आचार्य उपेंद्र जी",
+      "en": "Video: Why do sorrow and joy come to you? Acharya Upendra Ji in the Karma Yog Series"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पहले लक्ष्य पहचानो, फिर तीर चलाओ",
+      "en": "Know the target before you draw the bow"
+    },
+    "inline.jpg": {
+      "hi": "चाल से पहले चिंतन",
+      "en": "Think before the move"
+    }
+  },
+  "links": [
+    {
+      "talk": "overcome_struggles_of_life",
+      "hi": "संघर्ष निश्चित है",
+      "en": "struggle is guaranteed"
+    },
+    {
+      "talk": "joy_sorrow_transformation",
+      "hi": "सुख-दुख केवल परिणाम हैं, लक्ष्य नहीं",
+      "en": "Pleasure and pain are merely outcomes, not the goal"
+    },
+    {
+      "talk": "saturn_mars_succeed_shani_mangal",
+      "hi": "शनि उन्हें जबरदस्ती बिठा रहा है",
+      "en": "Shani (Saturn) is forcing them to sit still"
+    },
+    {
+      "talk": "sacred_guru_jupiter_chanting",
+      "hi": "उच्च के गुरु (बृहस्पति) की दशा",
+      "en": "an exalted Jupiter"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "अहंकार की, अज्ञान की, मोह की",
+      "en": "of ego, of ignorance, of attachment"
+    }
+  ],
+  "also_read": {
+    "talk": "legends_keep_working",
+    "after": {
+      "hi": "निःस्वार्थ सेवा और योगक्षेम का वचन",
+      "en": "Selfless Service and the Promise of Yogakshema"
+    }
+  },
+  "related": [
+    "unveiling_truth_karma_ultimate_goal_or",
+    "who_real_doer_karma_ego_bhagavad",
+    "knowledge_work_for_you"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "poori-koshish-ke-baad-bhi-sangharsh-kyon",
+      "focus_keyword": "पूरी कोशिश के बाद भी संघर्ष क्यों",
+      "secondary_keywords": ["ज्ञानयुक्त कर्म", "बुरे समय में क्या करें", "साढ़ेसाती का आध्यात्मिक अर्थ", "योगक्षेमं वहाम्यहम् का अर्थ"],
+      "meta_description": "पूरी कोशिश के बाद भी संघर्ष क्यों? आचार्य जी बताते हैं: ज्ञान आना ही है, या समझ से या कटु अनुभव से। कर्म से पहले चिंतन करें और हर अनुभव से सीखें।",
+      "tags": ["कर्मयोग", "कर्म योग सीरीज़", "भगवद्गीता", "सेवा", "अहंकार"]
+    },
+    "en": {
+      "slug": "struggling-despite-trying-your-best",
+      "focus_keyword": "struggling despite trying your best",
+      "secondary_keywords": ["action guided by knowledge", "what to do in bad times", "Sade Sati spiritual meaning", "Bhagavad Gita 9.22 meaning"],
+      "meta_description": "Struggling despite trying your best? Acharya Ji explains that life teaches either way: through understanding before you act, or through bitter experience.",
+      "tags": ["Karma Yoga", "Karma Yog Series", "Bhagavad Gita", "Seva", "Ego"]
+    }
+  }
+}

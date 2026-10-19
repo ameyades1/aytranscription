@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "मन को वश में कैसे करें? गीता की सात्त्विक धृति",
+    "en": "How to Control Your Mind: Sattvic Dhriti in the Gita"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "शहर की ऊँची इमारतों वाली खिड़की के सामने शांत बैठकर ध्यान करती साड़ी पहने महिला, चारों ओर समाचार, शेयर बाज़ार और सोशल मीडिया की चमकती स्क्रीनें",
+      "en": "A woman in a sari meditates calmly before a window overlooking city towers, surrounded by glowing screens of news, stock prices and social media"
+    },
+    "inline.jpg": {
+      "hi": "बड़ी स्क्रीनों वाली मेज़ पर बैठी महिला, फ़िल्मों, समाचारों और वीडियो की सूची में से सोच-समझकर चुनती हुई",
+      "en": "A woman at a desk of large screens thoughtfully choosing among films, news and videos"
+    },
+    "78JhEGWoiFU.jpg": {
+      "hi": "वीडियो: Control Your Mind with Detachment & Become the Right Maintainer, आचार्य उपेंद्र जी, पास में कठपुतली के धागों से बँधा मानव मस्तिष्क",
+      "en": "Video: Control Your Mind with Detachment & Become the Right Maintainer, Acharya Upendra Ji beside a human mind held by puppet strings"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चारों ओर स्क्रीनें, पर मन अपने वश में",
+      "en": "Screens all around, yet the mind is her own"
+    },
+    "inline.jpg": {
+      "hi": "देखने से पहले चुनना",
+      "en": "Choosing before watching"
+    }
+  },
+  "links": [
+    {
+      "talk": "shukra_graha_chanting_wealth_relationships",
+      "hi": "सामान्य शुक्र से जुड़ा मनोरंजन",
+      "en": "the ordinary entertainment that astrology links to Venus"
+    },
+    {
+      "talk": "joy_sorrow_transformation",
+      "hi": "जब धारणा शक्ति सात्त्विक हो जाती है",
+      "en": "When your power of holding firm becomes sattvic"
+    },
+    {
+      "talk": "stop_mind_controlling_unlock_true_focus",
+      "hi": "तब मन मालिक हो जाता है और हम उसके गुलाम",
+      "en": "the mind becomes the master and we become its slaves"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "अच्छा पालनकर्ता, अच्छा विष्णु बन सकता है",
+      "en": "a good sustainer, a true Vishnu"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "सात्त्विक वृत्ति है, राजसिक नहीं",
+      "en": "is sattvic, not rajasic"
+    }
+  ],
+  "also_read": {
+    "talk": "ideal_king_sanatan_rashtra_interview",
+    "after": {
+      "hi": "रंजन से ऊपर रक्षण",
+      "en": "Protection Comes Before Entertainment"
+    }
+  },
+  "related": [
+    "stop_mind_controlling_unlock_true_focus",
+    "secrets_mastering_your_mind_technique",
+    "know_your_first_duty_in_life"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "man-ko-vash-mein-kaise-karein",
+      "focus_keyword": "मन को वश में कैसे करें",
+      "secondary_keywords": [
+        "सात्त्विक धृति क्या है",
+        "गीता 18.33 का अर्थ",
+        "मन पर नियंत्रण",
+        "क्या अध्यात्म में मनोरंजन गलत है"
+      ],
+      "meta_description": "क्या अध्यात्म में मनोरंजन वर्जित है? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही नियंत्रण है।",
+      "tags": [
+        "मन पर नियंत्रण",
+        "भगवद्गीता",
+        "सत्त्व गुण",
+        "धारणा शक्ति",
+        "कर्तव्य"
+      ]
+    },
+    "en": {
+      "slug": "control-your-mind-bhagavad-gita",
+      "focus_keyword": "how to control the mind Bhagavad Gita",
+      "secondary_keywords": [
+        "sattvic dhriti meaning",
+        "Bhagavad Gita 18.33 meaning",
+        "is watching TV bad for spiritual life",
+        "mind is the master"
+      ],
+      "meta_description": "Spiritual life need not mean giving up entertainment. Acharya Upendra Ji on sattvic dhriti, Gita 18.33: pull your mind out as easily as it settles in.",
+      "tags": [
+        "Mastering the Mind",
+        "Bhagavad Gita",
+        "Sattva",
+        "Dharana Shakti",
+        "Duty"
+      ]
+    }
+  }
+}

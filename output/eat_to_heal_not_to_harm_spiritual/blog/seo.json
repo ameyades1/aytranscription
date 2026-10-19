@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "शाकाहार का आध्यात्मिक कारण: उपचार के लिए खाएँ",
+    "en": "Spiritual Reason for Vegetarianism: Eat to Heal, Not Harm"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पुरानी लकड़ी की मेज़ पर केले के पत्ते पर परोसी शाकाहारी थाली: चावल, दाल, पालक पनीर, गोभी की सब्ज़ी, दही, रोटी और पापड़, चारों ओर बैंगन, भिंडी, हरी मिर्च, आँवला, अदरक, हल्दी और ताज़ी हरी पत्तियाँ",
+      "en": "A vegetarian meal served on banana leaves on an old wooden table: rice, dal, palak paneer, cauliflower curry, curd, rotis and papad, surrounded by aubergines, okra, chillies, amla, ginger, turmeric and fresh herbs"
+    },
+    "inline.jpg": {
+      "hi": "सुबह की धूप में भारतीय सब्ज़ी मंडी: टोकरियों में बैंगन, करेला, गाजर, भिंडी, मिर्च, आम, केले और अनार, और बोरियों में चावल, गेहूँ और दालें",
+      "en": "An Indian market in morning sunlight, with baskets of aubergines, bitter gourd, carrots, okra, chillies, mangoes, bananas and pomegranates, and sacks of rice, wheat and lentils"
+    },
+    "BeSI4EHmtmE.jpg": {
+      "hi": "वीडियो: Eat to Heal, Not to Harm!, ब्रह्मर्षि आचार्य उपेंद्र जी और सब्ज़ियों व फलों के बीच ध्यान में बैठा एक युवक",
+      "en": "Video: Eat to Heal, Not to Harm!, Brahmarshi Acharya Upendra Ji beside a young man meditating among vegetables and fruits"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "ऐसी थाली, जिसमें किसी का प्राण नहीं गया",
+      "en": "A meal that cost no creature its life"
+    },
+    "inline.jpg": {
+      "hi": "वह अन्न जो फिर उग आता है",
+      "en": "Food that grows back"
+    }
+  },
+  "links": [
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "सब कुछ ईश्वर है, ईश्वर ही मैं हूँ",
+      "en": "everything is God, and that God is who you are"
+    },
+    {
+      "talk": "unlock_divine_energy_durga_saptashati_mantra",
+      "hi": "शास्त्रों में देवी कहती हैं",
+      "en": "In the scriptures, the Goddess declares"
+    },
+    {
+      "talk": "hardcore_non_vegetarian_awakening",
+      "hi": "किसी अंग को तोड़ना या किसी को मारना हिंसा है",
+      "en": "Breaking off a limb or killing a being is violence"
+    },
+    {
+      "talk": "understand_spiritual_science_behind_different_offerings",
+      "hi": "मंदिरों में बाल अर्पण का वास्तविक अर्थ",
+      "en": "Offering hair at temples truly means"
+    },
+    {
+      "talk": "non_veg_food_remains_body_truths",
+      "hi": "शाकाहार में पौधे का केवल वह भाग लिया जाता है जो फिर उग आता है",
+      "en": "A vegetarian diet takes only the part of a plant that grows back"
+    }
+  ],
+  "also_read": {
+    "talk": "animal_sacrifice",
+    "after": {
+      "hi": "हिंसा की सच्ची परिभाषा",
+      "en": "What Violence Really Means"
+    }
+  },
+  "related": [
+    "eat_shapes_how_you_think",
+    "diet_hindering_success_link_prosperity",
+    "ghee_more_than_food"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "shakahar-ka-adhyatmik-karan",
+      "focus_keyword": "शाकाहार का आध्यात्मिक कारण",
+      "secondary_keywords": [
+        "शाकाहार क्यों करें",
+        "हिंसा की सच्ची परिभाषा",
+        "मोक्ष और शाकाहार",
+        "शाकंभरी देवी"
+      ],
+      "meta_description": "शाकाहार का आध्यात्मिक कारण क्या है? आचार्य उपेंद्र जी बताते हैं कि मोक्ष का साधक किसी को क्यों नहीं मारता, हिंसा क्या है और शाकंभरी का संकेत।",
+      "tags": [
+        "शाकाहार",
+        "अहिंसा",
+        "अद्वैत वेदांत",
+        "दुर्गा सप्तशती"
+      ]
+    },
+    "en": {
+      "slug": "spiritual-reason-for-vegetarianism",
+      "focus_keyword": "spiritual reason for vegetarianism",
+      "secondary_keywords": [
+        "why be vegetarian in Hinduism",
+        "what counts as violence in Hinduism",
+        "moksha and vegetarianism",
+        "Shakambhari Devi"
+      ],
+      "meta_description": "Why go vegetarian? Acharya Upendra Ji gives the spiritual reason for vegetarianism: seeing God in all beings, what counts as violence, and what grows back.",
+      "tags": [
+        "Vegetarianism",
+        "Ahimsa",
+        "Advaita Vedanta",
+        "Durga Saptashati"
+      ]
+    }
+  }
+}

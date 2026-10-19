@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "पाप और पुण्य में अंतर क्या है? सत्त्व, रज और तम",
+    "en": "Difference Between Sin and Virtue: The Three Gunas"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "बाईं ओर फलों के पास लकड़ी के तख्ते पर रखा रसोई का चाकू, दाईं ओर ऑपरेशन थिएटर में सर्जन के पास हरे कपड़े पर रखा स्केलपेल",
+      "en": "A kitchen knife on a wooden board beside fruit on the left, and a scalpel on green surgical cloth beside a surgeon in an operating theatre on the right"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर की पत्थर की खिड़की पर पीतल के दो एक जैसे दीप, एक में जलती लौ और दूसरे से उठता धुआँ",
+      "en": "Two identical brass lamps on a temple's stone window ledge, one burning with a flame and the other giving off smoke"
+    },
+    "oTh4Q5cWWNQ.jpg": {
+      "hi": "वीडियो: पाप और पुण्य क्या हैं? ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Punya vs Paap, the real difference between sin and virtue, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक ही धार, दो भाव",
+      "en": "One blade, two intentions"
+    },
+    "inline.jpg": {
+      "hi": "एक जागता, एक बुझा",
+      "en": "One awake, one put out"
+    }
+  },
+  "links": [
+    {
+      "talk": "attain_divine_qualities_empower_spiritual",
+      "hi": "दैवी संपत्ति",
+      "en": "divine wealth"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "इन तीन गुणों को पार करना",
+      "en": "rise beyond the three gunas"
+    },
+    {
+      "talk": "three_gunas_karma",
+      "hi": "एक गुण से दूसरे गुण में छलांग लगाते रहते हैं",
+      "en": "leaping from one guna to another"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "तीनों शक्तियों का उपयोग हमें सदा करना है",
+      "en": "use all three powers at all times"
+    },
+    {
+      "talk": "real_role_maha_kali",
+      "hi": "काली की शक्ति",
+      "en": "the power of Kali"
+    }
+  ],
+  "also_read": {
+    "talk": "decides_destiny",
+    "after": {
+      "hi": "पाप और पुण्य की सीधी परिभाषा",
+      "en": "A Simple Definition of Sin and Virtue"
+    }
+  },
+  "related": [
+    "sattva_rajas_tamas_balance_success_liberation",
+    "take_so_long_fulfil_desires",
+    "power_of_deities_in_your_life"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "paap-aur-punya-mein-antar",
+      "focus_keyword": "पाप और पुण्य में अंतर",
+      "secondary_keywords": [
+        "पाप और पुण्य क्या है",
+        "सत्व रज तम गुण",
+        "ध्यान और नींद में अंतर",
+        "गुण और शक्ति में अंतर"
+      ],
+      "meta_description": "एक ही कर्म कभी पाप तो कभी पुण्य क्यों? आचार्य उपेंद्र जी समझाते हैं: रजस तमोगुण से जुड़े तो पाप, सत्त्व से जुड़े तो पुण्य। ध्यान, दान और शिवाजी के उदाहरण।",
+      "tags": [
+        "पाप और पुण्य",
+        "त्रिगुण",
+        "सत्त्व गुण",
+        "रजोगुण",
+        "शक्ति"
+      ]
+    },
+    "en": {
+      "slug": "difference-between-sin-and-virtue",
+      "focus_keyword": "difference between sin and virtue",
+      "secondary_keywords": [
+        "punya and paap meaning",
+        "sattva rajas tamas explained",
+        "intention behind karma",
+        "guna and shakti difference"
+      ],
+      "meta_description": "What makes the same action a sin or a virtue? Acharya Upendra Ji explains how rajas joined with tamas becomes sin, and rajas guided by sattva, virtue.",
+      "tags": [
+        "Sin and Merit",
+        "Three Gunas",
+        "Sattva",
+        "Rajas",
+        "Shakti"
+      ]
+    }
+  }
+}

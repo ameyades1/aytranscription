@@ -1,0 +1,81 @@
+{
+  "title": {
+    "hi": "प्रेम कैसे जताएं: प्रेम जो कृति में दिखे | आचार्य जी",
+    "en": "Show Love Through Actions, Not Just Words | Acharya Ji"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में भीड़ भरी सड़क पर एक युवक बुज़ुर्ग महिला का हाथ थामे उनके साथ चल रहा है",
+      "en": "A young man holds an elderly woman's hand and walks beside her along a busy street in the morning sun"
+    },
+    "inline.jpg": {
+      "hi": "नक्काशीदार लकड़ी की मुंडेर पर बाँसुरी, मोरपंख और गेंदे के फूल, पीछे धुंधले मंदिर शिखर",
+      "en": "A bamboo flute, a peacock feather and marigolds on a carved wooden ledge, with temple spires behind"
+    },
+    "jnlSGQ1NeuU.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Are You Loving the Right Way?\" का थंबनेल, झील किनारे बेंच पर बैठा एक जोड़ा",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Are You Loving the Right Way?\", with a couple on a lakeside bench"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "प्रेम, जो साथ चलता है",
+      "en": "Love that walks alongside"
+    },
+    "inline.jpg": {
+      "hi": "अपनी सामर्थ्य भर देना",
+      "en": "Giving within one's means"
+    }
+  },
+  "links": [
+    {
+      "talk": "why_blind_love_is_dangerous",
+      "hi": "ज्ञान, विवेक और वाणी की शक्ति",
+      "en": "the goddess of knowledge, discernment and speech"
+    },
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "प्रेम क्या है",
+      "en": "what love is"
+    },
+    {
+      "talk": "radha_krishna_divine_secret",
+      "hi": "श्रीकृष्ण ने राधा को अनगिनत उपहार दिए",
+      "en": "Shri Krishna gave Radha countless gifts"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "यह बात अपनी पत्नी पर भी लागू होती है",
+      "en": "The same holds true for your wife"
+    }
+  ],
+  "also_read": {
+    "talk": "true_meaning_of_love_valentines",
+    "after": {
+      "hi": "क्या यह सच में प्रेम है?",
+      "en": "Is This Really Love?"
+    }
+  },
+  "related": [
+    "marriage_giving_not_taking_relationships",
+    "radha_krishna_divine_secret",
+    "why_blind_love_is_dangerous"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "prem-kaise-jatayen",
+      "focus_keyword": "प्रेम कैसे जताएं",
+      "secondary_keywords": ["सच्चा प्रेम क्या है", "प्रेम कर्म में दिखता है", "पत्नी से प्रेम कैसे जताएं", "pyar kaise jataye"],
+      "meta_description": "क्या \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि प्रेम केवल शब्दों से नहीं, कृति से जताया जाता है, जीवनसाथी के साथ भी।",
+      "tags": ["वैलेंटाइन डे", "राधा कृष्ण", "सरस्वती", "विवाह"]
+    },
+    "en": {
+      "slug": "show-love-through-actions",
+      "focus_keyword": "show love through actions",
+      "secondary_keywords": ["is saying I love you enough", "love in action not words", "how Krishna expressed love for Radha"],
+      "meta_description": "Is saying \"I love you\" enough? Acharya Upendra Ji explains why love must show in action, from Krishna's gifts to Radha to going along with your wife.",
+      "tags": ["Valentine's Day", "Radha Krishna", "Saraswati", "Marriage"]
+    }
+  }
+}

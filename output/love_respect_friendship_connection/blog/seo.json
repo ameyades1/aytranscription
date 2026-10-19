@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "प्रेम के प्रकार: स्नेह, मित्रता, आदर और गुरु प्रेम",
+    "en": "Love, Respect and Friendship: Four Forms of One Love"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "घर के आँगन में साथ बैठा तीन पीढ़ियों का परिवार: बीच में मुस्कुराती दादी, उनके चारों ओर बड़े, युवा और बच्चे आपस में हँसते-बातें करते",
+      "en": "A three-generation family sitting together in a home courtyard: a smiling grandmother at the centre, surrounded by adults, young women and children talking and laughing"
+    },
+    "inline.jpg": {
+      "hi": "सफेद कुर्ता-धोती पहने युवक घुटनों के बल बैठकर गुरु की चरण पादुकाओं पर फूल चढ़ाता, पास में मालाओं से सजा केसरिया आसन",
+      "en": "A young man in a white kurta and dhoti kneeling to offer flowers on the Guru's padukas, beside a seat draped in saffron cloth and garlands"
+    },
+    "fTnWUxV-cUI.jpg": {
+      "hi": "वीडियो: Love, Respect and Friendship, The Hidden Connection, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Love, Respect and Friendship, The Hidden Connection, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक प्रेम, हर पीढ़ी के लिए",
+      "en": "One love, for every generation"
+    },
+    "inline.jpg": {
+      "hi": "प्रेम की पहली पाठशाला: गुरु",
+      "en": "The first school of love: the Guru"
+    }
+  },
+  "links": [
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "प्रेम सिर्फ शादी में नहीं होता",
+      "en": "love does not live in marriage alone"
+    },
+    {
+      "talk": "love_burden_for_child_parenting",
+      "hi": "अपने से छोटे के प्रति, जैसे किसी बच्चे के प्रति",
+      "en": "love for someone younger than you, such as a child"
+    },
+    {
+      "talk": "guru_and_disciple_highest_form_love",
+      "hi": "इन सबमें सबसे ऊँचा स्थान गुरु का है",
+      "en": "the Guru holds the highest place"
+    },
+    {
+      "talk": "being_presence_guru_changes_way_think",
+      "hi": "उनके पास से प्रेम को समझो",
+      "en": "Learn what love is"
+    },
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "सबको भगवान मानकर प्रेम करना संभव है",
+      "en": "love everyone by seeing each person as God"
+    }
+  ],
+  "also_read": {
+    "talk": "what_is_a_guru",
+    "after": {
+      "hi": "चौथा रूप: गुरु के प्रति प्रेम",
+      "en": "The Fourth Form: Love for the Guru"
+    }
+  },
+  "related": [
+    "loving_in_the_right_way_valentines",
+    "marriage_giving_not_taking_relationships",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "prem-ke-prakar",
+      "focus_keyword": "प्रेम के प्रकार",
+      "secondary_keywords": [
+        "स्नेह प्रेम और आदर में अंतर",
+        "क्या प्रेम केवल शादी में होता है",
+        "गुरु के प्रति प्रेम",
+        "प्रेम कैसे सीखें"
+      ],
+      "meta_description": "क्या प्रेम केवल शादी में होता है? आचार्य उपेंद्र जी बताते हैं प्रेम के प्रकार: छोटों से स्नेह, बराबर वालों से मित्रता, बड़ों का आदर, और गुरु से प्रेम सीखना।",
+      "tags": [
+        "गुरु-शिष्य",
+        "सर्वत्र भगवत् बुद्धि",
+        "मित्रता",
+        "आदर-सम्मान"
+      ]
+    },
+    "en": {
+      "slug": "love-respect-friendship",
+      "focus_keyword": "love respect and friendship",
+      "secondary_keywords": [
+        "types of love in Hinduism",
+        "is love only in marriage",
+        "love for the Guru",
+        "how to learn to love"
+      ],
+      "meta_description": "Is love only for marriage? Acharya Upendra Ji explains love, respect and friendship as forms of one love, and why we first learn love from the Guru.",
+      "tags": [
+        "Guru and Disciple",
+        "Sarvatra Bhagavat Buddhi",
+        "Friendship",
+        "Respect"
+      ]
+    }
+  }
+}

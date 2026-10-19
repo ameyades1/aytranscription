@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "स्त्री को शक्ति क्यों कहा जाता है? माँ की हज़ार गुना शक्ति",
+    "en": "Why Is Woman Called Shakti? A Mother's Thousandfold Power"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "हरी साड़ी पहने एक शांत, दृढ़ भारतीय स्त्री मिट्टी के घर के आंगन में खड़ी है; उसके चारों ओर दीपक और फूल-पत्तियों की सुनहरी रेखाएँ",
+      "en": "A calm, steady Indian woman in a green sari standing in the courtyard of a mud-walled home, with golden line drawings of lamps and leaves around her"
+    },
+    "inline.jpg": {
+      "hi": "मिट्टी के घर में एक माँ अपने छोटे बेटे को स्लेट पर अक्षर लिखना सिखा रही है, बच्चा ध्यान से उसकी ओर देख रहा है",
+      "en": "In a mud-walled home, a mother teaches her young son to write letters on a slate while he looks up at her attentively"
+    },
+    "dsCYM0o3enk.jpg": {
+      "hi": "वीडियो: The Divine Power Every Woman Holds (हर स्त्री के भीतर छिपी दिव्य शक्ति), ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे माथे पर बिंदी वाले स्त्री-चेहरे का चित्र",
+      "en": "Video: The Divine Power Every Woman Holds, Brahmarshi Acharya Upendra Ji, with a painted woman's face and a glowing bindi behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "शक्ति, जो शरीर के बल से परे है",
+      "en": "A strength beyond the body"
+    },
+    "inline.jpg": {
+      "hi": "समय पर दिया ज्ञान, माँ की सबसे बड़ी शक्ति",
+      "en": "Wisdom given in time, a mother's greatest strength"
+    }
+  },
+  "links": [
+    {
+      "talk": "gyan_sarovar_mount_abu_women_address",
+      "hi": "वे हमेशा उनसे कम से कम हज़ार गुना शक्तिशाली थीं",
+      "en": "they have always been at least a thousand times more powerful"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "देवी पार्वती शक्ति हैं, लक्ष्मी शक्ति हैं, सरस्वती शक्ति हैं",
+      "en": "Goddess Parvati is Shakti, Goddess Lakshmi is Shakti, Goddess Saraswati is Shakti"
+    },
+    {
+      "talk": "spiritual_power_women_kali_yug",
+      "hi": "यह किसी और स्तर की शक्ति है",
+      "en": "It belongs to another level altogether"
+    },
+    {
+      "talk": "love_burden_for_child_parenting",
+      "hi": "समय पर ज्ञान नहीं दिया",
+      "en": "fails to teach the child at the right time"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "स्वयं राजसिक-तामसिक रहना",
+      "en": "stays rajasic and tamasic"
+    }
+  ],
+  "also_read": {
+    "talk": "future_lies_in_hands_message_to_women",
+    "after": {
+      "hi": "विवाह न किया हो, तब भी?",
+      "en": "What If She Has Never Married?"
+    }
+  },
+  "related": [
+    "women_have_right_perform_shraddha_pind",
+    "women_continue_sadhana_during_their_monthly",
+    "real_role_maha_kali"
+  ],
+  "wordpress": {
+    "category": "women",
+    "hi": {
+      "slug": "stri-ko-shakti-kyon-kaha-jata-hai",
+      "focus_keyword": "स्त्री को शक्ति क्यों कहा जाता है",
+      "secondary_keywords": [
+        "नारी शक्ति का आध्यात्मिक अर्थ",
+        "स्त्री अबला नहीं है",
+        "बच्चे के संस्कार में माँ की भूमिका",
+        "गांधारी और दुर्योधन"
+      ],
+      "meta_description": "स्त्री को शक्ति क्यों कहा जाता है? आचार्य उपेंद्र जी बताते हैं कि यह शक्ति शरीर के बल से परे है, और माँ की हज़ार गुना शक्ति के साथ बड़ा उत्तरदायित्व भी आता है।",
+      "tags": [
+        "नारी शक्ति",
+        "शक्ति",
+        "परवरिश",
+        "त्रिगुण",
+        "महाभारत"
+      ]
+    },
+    "en": {
+      "slug": "why-woman-is-called-shakti",
+      "focus_keyword": "why is woman called Shakti",
+      "secondary_keywords": [
+        "divine feminine power in Hinduism",
+        "woman is not abala",
+        "mother's role in a child's upbringing",
+        "Gandhari and Duryodhana lesson"
+      ],
+      "meta_description": "Why does our tradition call woman Shakti? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility.",
+      "tags": [
+        "Women's Empowerment",
+        "Shakti",
+        "Parenting",
+        "Three Gunas",
+        "Mahabharata"
+      ]
+    }
+  }
+}

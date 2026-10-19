@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "शास्त्र का अर्थ: धर्म, अर्थ, काम, मोक्ष के नियम",
+    "en": "Meaning of Shastra: Dharma, Artha, Kama and Moksha"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में लकड़ी की मेज़ पर रखा भारत का पुराना नक्शा और देवता के चित्रों वाला खुला ग्रंथ, पास में जलता दीपक और पीतल की वस्तुएँ",
+      "en": "An old map of India and an open illustrated scripture on a wooden desk in morning sunlight, beside a lit oil lamp and brass objects"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी की मेज़ पर जलता पीतल का दीपक, सोने के सिक्कों के ढेर, चमड़े की बही, कलम और सिक्कों से भरी थैली",
+      "en": "A lit brass oil lamp, stacks of gold coins, a leather-bound ledger, a pen and a pouch of coins on a wooden desk"
+    },
+    "Aze4oMZWvlo.jpg": {
+      "hi": "वीडियो: \"The True Power of Scriptures\", खुले ग्रंथ, दीपक और गेंदे के फूलों के सामने सफ़ेद कुर्ते में ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: \"The True Power of Scriptures\", Brahmarshi Acharya Upendra Ji in a white kurta before an open scripture, an oil lamp and marigolds"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "शास्त्र: जीवन का नक्शा",
+      "en": "Shastra: a map for life"
+    },
+    "inline.jpg": {
+      "hi": "धन, धर्म के दीप तले",
+      "en": "Wealth, in the light of dharma"
+    }
+  },
+  "links": [
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "जिए हुए अनुभव से निकला मार्गदर्शन",
+      "en": "guidance drawn from lived experience"
+    },
+    {
+      "talk": "dharma_teaches_us",
+      "hi": "धर्म का केवल एक अंग",
+      "en": "Giving is only one part of dharma"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "श्रीविद्या परंपरा के दत्तात्रेय",
+      "en": "in the Shri Vidya tradition"
+    },
+    {
+      "talk": "secrets_of_becoming_billionaire_marathi",
+      "hi": "इसलिए अमीर बनना भी शास्त्र का विषय है",
+      "en": "Becoming wealthy is therefore a proper subject of the shastras"
+    },
+    {
+      "talk": "truth_about_brahmacharya_exposed_video",
+      "hi": "शास्त्रोक्त प्रजा-उत्पत्ति का ज्ञाता",
+      "en": "someone who understands procreation as the scriptures prescribe it"
+    }
+  ],
+  "also_read": {
+    "talk": "true_wealth_money_health_respect_or",
+    "after": {
+      "hi": "अर्थशास्त्र: समृद्धि, धर्म के लिए",
+      "en": "Artha Shastra: Prosperity in the Service of Dharma"
+    }
+  },
+  "related": [
+    "without_guru_scriptures_can_mislead",
+    "difference_ved_vedant",
+    "dharma_teaches_us"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "shastra-ka-arth",
+      "focus_keyword": "शास्त्र का अर्थ",
+      "secondary_keywords": ["शास्त्र क्या है", "धर्मशास्त्र अर्थशास्त्र कामशास्त्र", "सात्त्विक दान क्या है", "धर्मस्य मूलम् अर्थः का अर्थ"],
+      "meta_description": "शास्त्र का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",
+      "tags": ["शास्त्र", "पुरुषार्थ", "भगवद्गीता", "दान", "चाणक्य", "ब्रह्मचर्य"]
+    },
+    "en": {
+      "slug": "meaning-of-shastra",
+      "focus_keyword": "meaning of shastra",
+      "secondary_keywords": ["what is a shastra", "dharma artha kama moksha shastra", "sattvic dana Bhagavad Gita 17.20", "purpose of Kama Shastra"],
+      "meta_description": "What does shastra mean? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra and dana to Artha and Kama.",
+      "tags": ["Shastra", "Purusharthas", "Bhagavad Gita", "Dana", "Chanakya", "Brahmacharya"]
+    }
+  }
+}

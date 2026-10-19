@@ -1,0 +1,81 @@
+{
+  "title": {
+    "hi": "दुर्गा सप्तशती बीज मंत्र: कैप्सूल जैसी साधना",
+    "en": "Durga Saptashati Beej Mantra: Sadhana in a Capsule"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त की सुनहरी रोशनी में अंधेरी मिट्टी पर चमकता एक बीज, पीछे धुंधले पेड़",
+      "en": "A single seed glowing on dark soil in golden sunset light, with blurred trees behind"
+    },
+    "inline.jpg": {
+      "hi": "अंधेरे मंदिर में नक्काशीदार गोल मंडल के केंद्र से फूटता प्रकाश का एक बिंदु, दोनों ओर जलते दीपक",
+      "en": "A point of light radiating from the centre of a carved circular mandala in a dark temple, lamps burning on both sides"
+    },
+    "u4rEtz0EDT4.jpg": {
+      "hi": "वीडियो: Unlock the Divine Energy (दिव्य ऊर्जा जगाइए), ब्रह्मर्षि आचार्य उपेंद्र जी, साथ में सिंह पर विराजमान माँ दुर्गा",
+      "en": "Video: Unlock the Divine Energy, Brahmarshi Acharya Upendra Ji, with Maa Durga seated on a lion"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "छोटा सा बीज, पूरे वृक्ष की शक्ति",
+      "en": "A small seed holds the whole tree"
+    },
+    "inline.jpg": {
+      "hi": "एक बिंदु में छिपा नाद",
+      "en": "Sound hidden in a single dot"
+    }
+  },
+  "links": [
+    {
+      "talk": "hidden_power_of_positivity",
+      "hi": "जो बात हम मन में बार-बार धारण करते हैं, वही हमारा मंत्र बन जाती है",
+      "en": "Whatever you hold in your mind again and again turns into your mantra"
+    },
+    {
+      "talk": "spiritual_science_om_aum",
+      "hi": "ये ध्वनि की शक्ति से काम करते हैं",
+      "en": "they work through the power of sound itself"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "दुर्गा सप्तशती कोई विकल्प नहीं है",
+      "en": "the Durga Saptashati is not optional"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "बाकी गुरु दीक्षा तो देते हैं, पर मंत्र बना नहीं सकते",
+      "en": "other Gurus give initiation, but they cannot create a mantra"
+    }
+  ],
+  "also_read": {
+    "talk": "satyug_rules_kaliyug_different_path",
+    "after": {
+      "hi": "कलियुग का समाधान: तंत्रोक्त बीज मंत्रात्मक साधना",
+      "en": "The Answer for Kali Yuga: A Tantric Practice of Seed Mantras"
+    }
+  },
+  "related": [
+    "real_role_maha_kali",
+    "chant_thousand_names_god",
+    "missing_step_blocking_spiritual_success"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "durga-saptashati-beej-mantra",
+      "focus_keyword": "दुर्गा सप्तशती बीज मंत्र",
+      "secondary_keywords": ["बीज मंत्र क्या है", "मंत्र का अर्थ", "दुर्गा सप्तशती पाठ का समय", "तंत्रोक्त दुर्गा सप्तशती"],
+      "meta_description": "बीज मंत्र क्या है और उसे कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बनता है, और दुर्गा सप्तशती की बीज साधना क्या है।",
+      "tags": ["दुर्गा सप्तशती", "मंत्र", "कुंडलिनी", "तंत्र", "कलियुग"]
+    },
+    "en": {
+      "slug": "durga-saptashati-beej-mantra-sadhana",
+      "focus_keyword": "Durga Saptashati beej mantra",
+      "secondary_keywords": ["what is a bija mantra", "meaning of the word mantra", "how long does Durga Saptashati path take", "tantrokta Durga Saptashati"],
+      "meta_description": "What is a bija mantra, and why does Acharya Upendra Ji call it a capsule? On the Durga Saptashati, the mantra you repeat daily and a short tantric sadhana.",
+      "tags": ["Durga Saptashati", "Mantra", "Kundalini", "Tantra", "Kali Yuga"]
+    }
+  }
+}

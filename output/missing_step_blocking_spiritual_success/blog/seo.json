@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "श्रवण, मनन, निदिध्यासन: साधना की छूटी हुई सीढ़ी",
+    "en": "Shravana, Manana, Nididhyasana: The Missing Step in Sadhana"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "दो ऊँची पत्थर की दीवारों के बीच ऊपर चढ़ती पुरानी सीढ़ियाँ, नीचे की एक सीढ़ी के बीच खाली जगह, और ऊपर सुनहरे प्रकाश में मंदिर का गुंबद",
+      "en": "Old stone steps rising between high walls, with a gap in one of the lower steps, toward a temple dome in golden light at the top"
+    },
+    "inline.jpg": {
+      "hi": "सफ़ेद वस्त्र में एक साधक शांत कक्ष में चटाई पर आँखें बंद कर ध्यान में बैठा है, पास में जलता दीपक और खिड़की से आती धूप",
+      "en": "A seeker in white sits in meditation with eyes closed on a mat in a quiet room, beside a lit oil lamp and sunlight from a window"
+    },
+    "_HeobSgNv_w.jpg": {
+      "hi": "वीडियो: This Missing Step Is Stopping Your Spiritual Success, ब्रह्मर्षि आचार्य उपेंद्र जी, पानी पर पत्थर की सीढ़ियाँ जो एक मंदिर द्वार तक जाती हैं",
+      "en": "Video: This Missing Step Is Stopping Your Spiritual Success, Brahmarshi Acharya Upendra Ji beside stepping stones leading to a temple gateway"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक सीढ़ी छूटी, तो शिखर दूर",
+      "en": "Skip one step, and the summit stays out of reach"
+    },
+    "inline.jpg": {
+      "hi": "जो जाना और माना, उसे जीना",
+      "en": "Living what you have understood and accepted"
+    }
+  },
+  "links": [
+    {
+      "talk": "why_satsang_does_not_change_your_life",
+      "hi": "आपने प्रवचन सुने",
+      "en": "You have listened to discourses"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "अपने वेदों को श्रुति कहा गया है",
+      "en": "our Vedas are called shruti"
+    },
+    {
+      "talk": "knowledge_work_for_you",
+      "hi": "पर मुझे उसका अनुभव नहीं होता",
+      "en": "but I do not experience it"
+    },
+    {
+      "talk": "power_of_healing_antar_yog_science",
+      "hi": "उपचार (हीलिंग) की विधियाँ",
+      "en": "methods of healing"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "आपके जीवित गुरु उसे प्रमाणित करें",
+      "en": "Your living Guru should verify it"
+    }
+  ],
+  "also_read": {
+    "talk": "true_power_of_scriptures_decoded",
+    "after": {
+      "hi": "अनुभूति सत्य है या कल्पना?",
+      "en": "Is Your Experience Real or Imagined?"
+    }
+  },
+  "related": [
+    "why_satsang_does_not_change_your_life",
+    "without_guru_scriptures_can_mislead",
+    "know_kind_student_shishya"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "shravan-manan-nididhyasan",
+      "focus_keyword": "श्रवण मनन निदिध्यासन",
+      "secondary_keywords": ["निदिध्यासन क्या है", "साधना का फल क्यों नहीं मिलता", "आध्यात्मिक अनुभव सच्चा है या कल्पना"],
+      "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण, मनन और निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
+      "tags": ["अद्वैत वेदांत", "गुरु-शिष्य", "साधक अनुभव", "तपस्या"]
+    },
+    "en": {
+      "slug": "shravana-manana-nididhyasana",
+      "focus_keyword": "shravana manana nididhyasana",
+      "secondary_keywords": ["what is nididhyasana", "why sadhana is not giving results", "how to know if a spiritual experience is real"],
+      "meta_description": "Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real.",
+      "tags": ["Advaita Vedanta", "Guru and Disciple", "Seeker Experiences", "Tapasya"]
+    }
+  }
+}

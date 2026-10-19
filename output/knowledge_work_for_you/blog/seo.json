@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर",
+    "en": "Knowing What Is Right but Not Doing It: Gita 3.33-34"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी शाम में कच्चे रास्ते के दोराहे पर खड़ा एक युवक, एक ओर सूरज की रोशनी वाला खुला मार्ग और दूसरी ओर घने पेड़ों के बीच अँधेरा मार्ग",
+      "en": "A young man standing at a fork in a dirt road at golden sunset, one path leading into open sunlight and the other into a dark wooded lane"
+    },
+    "inline.jpg": {
+      "hi": "धुंध भरे युद्धक्षेत्र में सूर्योदय के समय चार घोड़ों वाले सुनहरे रथ पर बैठे दो योद्धा, ऊपर लहराता केसरिया ध्वज और दूर सेनाओं की पताकाएँ",
+      "en": "Two warriors in an ornate golden chariot drawn by four horses on a misty battlefield at sunrise, a saffron flag above and distant army banners"
+    },
+    "Jjev58uqjlk.jpg": {
+      "hi": "वीडियो: Knowledge Alone Does Not Change Your Life, सफ़ेद कुर्ते में आचार्य उपेंद्र जी और पीछे प्रकाश से चमकती एक खुली किताब",
+      "en": "Video: Knowledge Alone Does Not Change Your Life, Acharya Upendra Ji in a white kurta beside an open book glowing with light"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "श्रेय या प्रेय: हर मोड़ पर एक चुनाव",
+      "en": "Shreyas or preyas: a choice at every turn"
+    },
+    "inline.jpg": {
+      "hi": "असली कुरुक्षेत्र हमारे भीतर है",
+      "en": "The real Kurukshetra lies within"
+    }
+  },
+  "links": [
+    {
+      "talk": "three_gunas_karma",
+      "hi": "अलग गुणों से काम करता है",
+      "en": "works through their own qualities"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "आवश्यकता पड़ने पर पलटवार कैसे करे",
+      "en": "how to strike back when the need arises"
+    },
+    {
+      "talk": "control_your_mind_before_it_controls_you",
+      "hi": "मन वास्तव में अंधा है",
+      "en": "The mind truly is blind"
+    },
+    {
+      "talk": "true_disciple_change_your_life",
+      "hi": "गुरु के पास जाकर भी जो सही है, वह नहीं करते",
+      "en": "fail to do what they know they should"
+    },
+    {
+      "talk": "shreya_vs_preya_vedantic_wisdom",
+      "hi": "जो मुझे प्रिय लगता है",
+      "en": "whatever feels pleasing to me"
+    }
+  ],
+  "also_read": {
+    "talk": "attain_divine_qualities_empower_spiritual",
+    "after": {
+      "hi": "सौ कौरव, सौ विकार",
+      "en": "A Hundred Kauravas, a Hundred Distortions"
+    }
+  },
+  "related": [
+    "why_satsang_does_not_change_your_life",
+    "who_real_doer_karma_ego_bhagavad",
+    "without_guru_scriptures_can_mislead"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "jaante-hue-bhi-sahi-kyon-nahi-kar-paate",
+      "focus_keyword": "जानते हुए भी सही क्यों नहीं कर पाते",
+      "secondary_keywords": [
+        "गीता 3.33 का अर्थ",
+        "राग द्वेष क्या है",
+        "श्रेय और प्रेय",
+        "महाभारत का आध्यात्मिक अर्थ"
+      ],
+      "meta_description": "सही जानते हुए भी कर नहीं पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
+      "tags": [
+        "भगवद्गीता",
+        "महाभारत",
+        "विवेक",
+        "मन पर नियंत्रण",
+        "श्रेय और प्रेय"
+      ]
+    },
+    "en": {
+      "slug": "knowing-right-but-not-doing-it",
+      "focus_keyword": "knowing what is right but not doing it",
+      "secondary_keywords": [
+        "Bhagavad Gita 3.33 meaning",
+        "raga and dvesha meaning",
+        "Mahabharata symbolism mind and intellect",
+        "shreyas and preyas"
+      ],
+      "meta_description": "Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
+      "tags": [
+        "Bhagavad Gita",
+        "Mahabharata",
+        "Viveka",
+        "Mastering the Mind",
+        "Shreyas and Preyas"
+      ]
+    }
+  }
+}

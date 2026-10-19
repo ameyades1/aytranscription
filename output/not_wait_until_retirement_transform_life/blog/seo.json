@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "अध्यात्म कब शुरू करें? रिटायरमेंट तक इंतज़ार क्यों",
+    "en": "Spirituality After Retirement? Why You Should Not Wait"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय खुली बालकनी के पास चटाई पर आँखें मूँदकर ध्यान करती एक युवती, बाहर गमलों के पौधे और शहर की ऊँची इमारतें",
+      "en": "A young woman meditating cross-legged with eyes closed on a mat by an open balcony at sunrise, potted plants and city towers beyond"
+    },
+    "inline.jpg": {
+      "hi": "पार्क की बेंच पर अकेले बैठे सफ़ेद बालों वाले एक बुज़ुर्ग, दूर झील की ओर देखते हुए",
+      "en": "A white-haired elderly man sitting alone on a park bench, gazing toward a distant lake"
+    },
+    "WAHlUMxRjLM.jpg": {
+      "hi": "वीडियो: जीवन बदलने के लिए रिटायरमेंट का इंतज़ार मत कीजिए, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Do Not Wait Until Retirement to Transform Your Life, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "भीतर की यात्रा आज से, साठ के बाद नहीं",
+      "en": "Turn inward today, not after sixty"
+    },
+    "inline.jpg": {
+      "hi": "भूमिका छूटी, तो भीतर क्या बचा?",
+      "en": "When the role ends, what remains?"
+    }
+  },
+  "links": [
+    {
+      "talk": "know_your_lord_before_worship",
+      "hi": "गणेश गीता में संवाद भगवान गणपति और राजा वरेण्य का है",
+      "en": "the dialogue is between Lord Ganesha and King Varenya"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "मिथ्या लालसाओं के पीछे भागता रहता है",
+      "en": "we keep chasing false cravings"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "वेदांत की शिक्षा ब्रह्मचर्य आश्रम में ही मिलनी चाहिए",
+      "en": "children should learn Vedanta during the student stage itself"
+    },
+    {
+      "talk": "legends_keep_working",
+      "hi": "कर्म तो करना ही है",
+      "en": "everyone is bound to act"
+    },
+    {
+      "talk": "spiritual_age_matters_physical_age",
+      "hi": "जिसे आध्यात्मिक जीवन जीने की आदत है",
+      "en": "Those who are used to living a spiritual life"
+    }
+  ],
+  "also_read": {
+    "talk": "love_burden_for_child_parenting",
+    "after": {
+      "hi": "हर बच्चे को कर्मयोगी बनाना",
+      "en": "Raising Every Child to Be a Karma Yogi"
+    }
+  },
+  "related": [
+    "every_human_inherently_spiritual",
+    "do_this_one_thing_achieve_successful_life",
+    "burn_your_karma_before_it_burns_you"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "adhyatma-kab-shuru-karen",
+      "focus_keyword": "अध्यात्म कब शुरू करें",
+      "secondary_keywords": [
+        "भज गोविन्दम् श्लोक 7 का अर्थ",
+        "रिटायरमेंट के बाद खालीपन",
+        "कर्मयोगी की पहचान",
+        "बच्चों को कर्मयोग सिखाना"
+      ],
+      "meta_description": "अध्यात्म कब शुरू करें? भज गोविन्दम् के सातवें श्लोक से आचार्य उपेंद्र जी बताते हैं कि भगवत्-चिंतन और कर्मयोग साठ के बाद नहीं, बचपन से क्यों शुरू हो।",
+      "tags": [
+        "कर्मयोग",
+        "गणेश गीता",
+        "आदि शंकराचार्य",
+        "परवरिश"
+      ]
+    },
+    "en": {
+      "slug": "spirituality-after-retirement",
+      "focus_keyword": "spirituality after retirement",
+      "secondary_keywords": [
+        "Bhaja Govindam verse 7 meaning",
+        "emptiness after retirement",
+        "signs of a karma yogi",
+        "teaching children karma yoga"
+      ],
+      "meta_description": "Should spiritual life wait until retirement? Through Bhaja Govindam verse 7, Acharya Upendra Ji explains why Karma Yoga must begin in childhood, not at 60.",
+      "tags": [
+        "Karma Yoga",
+        "Ganesha Gita",
+        "Adi Shankaracharya",
+        "Parenting"
+      ]
+    }
+  }
+}

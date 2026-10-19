@@ -1,0 +1,110 @@
+{
+  "title": {
+    "hi": "महाकाली, महालक्ष्मी और महासरस्वती: तीन गुणों का अर्थ",
+    "en": "Mahakali, Mahalakshmi and Mahasaraswati: The Three Gunas"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के तीन मेहराबों में तीन देवियों के प्रतीक: बाईं ओर लाल वस्त्र लिपटा त्रिशूल, अग्नि-पात्र, माला और लाल गुड़हल; बीच में सुनहरी रोशनी में कमल, स्वर्ण-मुद्राएँ, कलश और दीपक; दाईं ओर श्वेत वस्त्र, वीणा, हंस, पुस्तकें और श्वेत फूल",
+      "en": "Symbols of the three goddesses under three temple arches: on the left a trident wrapped in red cloth, a fire bowl, prayer beads and red hibiscus; in the centre a pink lotus, gold coins, a brass pot and lamps in golden light; on the right a veena, a white swan, books and white flowers"
+    },
+    "inline.jpg": {
+      "hi": "दीपक की रोशनी में पीतल की गणपति मूर्ति, पास में चूहा, खुली पुस्तक, कमल के फूल और वीणा",
+      "en": "A brass Ganapati idol in lamplight with his mouse beside him, an open book, lotus flowers and a veena"
+    },
+    "XQF7970d0Rw.jpg": {
+      "hi": "वीडियो: Awaken the Divine Shakti Within You (भीतर की दिव्य शक्ति जगाइए), ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे देवी काली, लक्ष्मी और सरस्वती के चित्र",
+      "en": "Video: Awaken the Divine Shakti Within You, Brahmarshi Acharya Upendra Ji, with images of Goddess Kali, Lakshmi and Saraswati behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "तीन शक्तियाँ, एक ही देवी",
+      "en": "Three powers, one Goddess"
+    },
+    "inline.jpg": {
+      "hi": "प्रतीक समझ में आए, तो पूजा पूरी",
+      "en": "Grasp the symbol, and worship is complete"
+    }
+  },
+  "links": [
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "हम निराकार को देख नहीं सकते, इसलिए उसे साकार रूप में समझाया गया",
+      "en": "We cannot see the formless, so it was explained to us through form"
+    },
+    {
+      "talk": "ganesh_have_elephant_head_mouse",
+      "hi": "उनका वाहन चूहा हमारी वासनाएँ और कामनाएँ हैं",
+      "en": "his mount, the mouse, stands for our cravings and desires"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "किसी एक गुण से जीवन नहीं चलता",
+      "en": "No single guna can run a life"
+    },
+    {
+      "talk": "real_role_maha_kali",
+      "hi": "काली कोई बाहरी स्त्री नहीं",
+      "en": "Kali is not some woman outside me"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "सिंह में भी भगवान है",
+      "en": "God is in the lion too"
+    }
+  ],
+  "also_read": {
+    "talk": "why_society_remains_divided_interview",
+    "after": {
+      "hi": "श्रीराम ने हनुमान से पूछा: हमारा नाता क्या है?",
+      "en": "Shri Rama Asked Hanuman: What Is Our Relationship?"
+    }
+  },
+  "related": [
+    "divine_power_every_woman_holds",
+    "unlock_divine_energy_durga_saptashati_mantra",
+    "three_gunas_karma"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "mahakali-mahalakshmi-mahasaraswati-arth",
+      "focus_keyword": "महालक्ष्मी और महासरस्वती",
+      "secondary_keywords": [
+        "महाकाली महालक्ष्मी महासरस्वती का अर्थ",
+        "तीन देवियाँ तीन गुण",
+        "सत्त्व रजस तमस और देवी",
+        "नारियल क्यों फोड़ते हैं"
+      ],
+      "meta_description": "महाकाली, महालक्ष्मी और महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।",
+      "tags": [
+        "त्रिगुण",
+        "दुर्गा सप्तशती",
+        "नवरात्रि",
+        "महाकाली",
+        "लक्ष्मी",
+        "मूर्ति पूजा"
+      ]
+    },
+    "en": {
+      "slug": "mahakali-mahalakshmi-and-mahasaraswati-three-gunas",
+      "focus_keyword": "Mahalakshmi and Mahasaraswati",
+      "secondary_keywords": [
+        "Mahakali Mahalakshmi Mahasaraswati meaning",
+        "Kali Lakshmi Saraswati three gunas",
+        "three goddesses of Durga Saptashati",
+        "why do we break a coconut"
+      ],
+      "meta_description": "Who are Mahakali, Mahalakshmi and Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete.",
+      "tags": [
+        "Three Gunas",
+        "Durga Saptashati",
+        "Navratri",
+        "Mahakali",
+        "Lakshmi",
+        "Idol worship"
+      ]
+    }
+  }
+}

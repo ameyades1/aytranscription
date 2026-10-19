@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल",
+    "en": "Why Sense Pleasures Don't Last: The Trap of Physical Bliss"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त में पुराने घाट और महल के सामने एक बच्चा उंगली से साबुन का बुलबुला छूता है और बुलबुला फूटकर बिखर जाता है",
+      "en": "At sunset before an old riverside palace and ghat, a child touches a soap bubble with one finger and it bursts into spray"
+    },
+    "inline.jpg": {
+      "hi": "पुरानी बावड़ी के अंधेरे मेहराब में बैठी एक स्त्री ऊपर धूप से भरी पत्थर की सीढ़ियों की ओर देखती हुई",
+      "en": "A woman sitting in the dark arch of an old stepwell, looking up at stone steps that rise into sunlight"
+    },
+    "T_do140cMxM.jpg": {
+      "hi": "वीडियो: क्या आप क्षणिक सुख के जाल में फंसे हैं? आचार्य उपेंद्र जी",
+      "en": "Video: Are you trapped in illusory happiness? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "छुआ, और सुख बिखर गया",
+      "en": "Touched, and the joy is gone"
+    },
+    "inline.jpg": {
+      "hi": "पहली पायदान से ऊपर की ओर",
+      "en": "From the first rung, upward"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "इस सीढ़ी की पहली पायदान",
+      "en": "The first rung of this ladder"
+    },
+    {
+      "talk": "secret_ultimate_happiness",
+      "hi": "पर वह आनंद सदा नहीं टिकता",
+      "en": "yet that joy never lasts"
+    },
+    {
+      "talk": "control_your_mind_before_it_controls_you",
+      "hi": "मन बार-बार वही सुख खोजता है",
+      "en": "The mind keeps chasing the same pleasure"
+    },
+    {
+      "talk": "joy_sorrow_transformation",
+      "hi": "जब आपका आनंद किसी और के व्यवहार पर टिका है",
+      "en": "When your joy depends on how someone else behaves"
+    },
+    {
+      "talk": "struggling_laziness_lack_drive_spiritual",
+      "hi": "दिन भर बिस्तर पर पड़े रहना, ज़िम्मेदारियों से बचना",
+      "en": "Lying in bed all day and dodging your responsibilities"
+    }
+  ],
+  "also_read": {
+    "talk": "shreya_vs_preya_vedantic_wisdom",
+    "after": {
+      "hi": "रोज़मर्रा के जीवन में शारीरिक आनंद",
+      "en": "Physical Bliss in Everyday Life"
+    }
+  },
+  "related": [
+    "three_gunas_karma",
+    "worldly_maya_makes_forget_true_self",
+    "truly_desire_or_infatuation"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "indriya-sukh-kshanik-kyon",
+      "focus_keyword": "इंद्रिय सुख क्षणिक क्यों है",
+      "secondary_keywords": ["शारीरिक आनंद क्या है", "क्षणिक सुख का जाल", "लालसा और निर्भरता", "पंच तन्मात्रा"],
+      "meta_description": "इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है।",
+      "tags": ["त्रिगुण", "तमोगुण", "श्रेय और प्रेय", "इंद्रिय सुख"]
+    },
+    "en": {
+      "slug": "why-sense-pleasures-dont-last",
+      "focus_keyword": "why sense pleasures don't last",
+      "secondary_keywords": ["physical bliss meaning", "illusory happiness", "cycle of craving and dependency", "five tanmatras"],
+      "meta_description": "Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.",
+      "tags": ["Three Gunas", "Tamas", "Shreyas and Preyas", "Sense Pleasures"]
+    }
+  }
+}

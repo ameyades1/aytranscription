@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "अच्छे नेता की पहचान: जो मना करे, वही राह भी दिखाए",
+    "en": "What Makes a Good Leader? Stop, Then Show the Way"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी शाम में कच्चे रास्ते पर मुकुटधारी राजा एक साधारण ग्रामीण को हाथ से आगे का रास्ता दिखाते हुए, पीछे पहाड़ी पर किला",
+      "en": "A crowned king on a dirt road at golden hour pointing the way ahead for a simple villager, a hilltop fort behind them"
+    },
+    "inline.jpg": {
+      "hi": "पत्थर की दीवार में बंद लकड़ी का बड़ा फाटक, और उसके बगल से पेड़ों के बीच धूप में आगे जाता खुला रास्ता",
+      "en": "A large closed wooden gate in a stone wall, with an open sunlit path running on beside it under the trees"
+    },
+    "bHiqwjZfjdQ.jpg": {
+      "hi": "वीडियो: How Should an Ideal King Lead a Sanatan Rashtra, आचार्य उपेंद्र जी, पीछे भारत का मानचित्र, तिरंगा और ॐ",
+      "en": "Video: How Should an Ideal King Lead a Sanatan Rashtra, Acharya Upendra Ji with a map of India, the tricolour and Om"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रोके भी, राह भी दिखाए",
+      "en": "Stop, then show the way"
+    },
+    "inline.jpg": {
+      "hi": "एक द्वार बंद, एक राह खुली",
+      "en": "One gate shut, one path open"
+    }
+  },
+  "links": [
+    {
+      "talk": "future_country_bharat_know",
+      "hi": "अच्छा राजा या अच्छा नेता",
+      "en": "a good king, or a good leader"
+    },
+    {
+      "talk": "evolution_of_dharma_sanatan_dharma",
+      "hi": "पुरानी व्यवस्था को हटा देना आसान है",
+      "en": "Doing away with an old arrangement is easy"
+    },
+    {
+      "talk": "why_society_remains_divided_interview",
+      "hi": "एक आदर्श राजा अपनी प्रजा को",
+      "en": "An ideal king gives his people"
+    },
+    {
+      "talk": "spiritual_meaning_secularism_independence_day_special",
+      "hi": "सनातन राष्ट्र के संदर्भ में",
+      "en": "for a Sanatan Rashtra"
+    }
+  ],
+  "also_read": {
+    "talk": "was_ram_rajya_like_federal_or",
+    "after": {
+      "hi": "सनातन राष्ट्र की दृष्टि से",
+      "en": "Through the Lens of a Sanatan Rashtra"
+    }
+  },
+  "related": [
+    "was_ram_rajya_like_federal_or",
+    "future_country_bharat_know",
+    "why_society_remains_divided_interview"
+  ],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "achhe-neta-ki-pehchan",
+      "focus_keyword": "अच्छे नेता की पहचान",
+      "secondary_keywords": [
+        "अच्छे राजा के गुण",
+        "आदर्श राजा कैसा होना चाहिए",
+        "अच्छा शासन क्या है",
+        "सनातन राष्ट्र"
+      ],
+      "meta_description": "अच्छे नेता की पहचान क्या है? आचार्य उपेंद्र जी एक साधारण उदाहरण से समझाते हैं कि अच्छा राजा केवल मना नहीं करता, बेहतर विकल्प भी देता है।",
+      "tags": [
+        "नेतृत्व",
+        "सनातन राष्ट्र",
+        "सुशासन",
+        "राष्ट्र निर्माण"
+      ]
+    },
+    "en": {
+      "slug": "what-makes-a-good-leader",
+      "focus_keyword": "what makes a good leader",
+      "secondary_keywords": [
+        "qualities of an ideal king",
+        "good governance in Sanatan Dharma",
+        "Sanatan Rashtra",
+        "leader who offers alternatives"
+      ],
+      "meta_description": "What makes a good leader? Acharya Upendra Ji explains, with a simple parking example, that a good king never only forbids: he also offers an alternative.",
+      "tags": [
+        "Leadership",
+        "Sanatan Rashtra",
+        "Good Governance",
+        "Nation Building"
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "जीवन के संघर्षों को कैसे पार करें? गीता 2.14 का उत्तर",
+    "en": "How to Overcome Struggles in Life: What the Gita Teaches"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "भोर की सुनहरी रोशनी में एक पर्वत शिखर, जिसके चारों ओर बादल उठते और छंटते हुए, सामने हरी ढलान और चट्टानें",
+      "en": "A mountain peak in golden dawn light with clouds rising and drifting around it, a green slope and rocks in the foreground"
+    },
+    "inline.jpg": {
+      "hi": "धान के हरे खेत पर एक ओर सूरज की धूप और दूसरी ओर काले बादलों से गिरती बारिश, बीच में पानी से भरी मेड़",
+      "en": "A green rice field with sunshine on one side and rain pouring from dark clouds on the other, a water-filled furrow between them"
+    },
+    "m2IU0GRbYW8.jpg": {
+      "hi": "वीडियो: जीवन के संघर्षों को पार करें, आचार्य उपेंद्र जी का जागृति वीडियो",
+      "en": "Video: Overcome the Struggles of Life, an awakening video by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बादल आते-जाते हैं, पर्वत रहता है",
+      "en": "Clouds come and go; the mountain stays"
+    },
+    "inline.jpg": {
+      "hi": "एक ही खेत पर धूप भी, वर्षा भी",
+      "en": "Sun and rain on the same field"
+    }
+  },
+  "links": [
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "पिछले कर्मों का फल",
+      "en": "the fruit of past actions"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "मन पर पड़ी छापें",
+      "en": "the deep impressions left on the mind"
+    },
+    {
+      "talk": "joy_sorrow_transformation",
+      "hi": "या तो सुख जन्म लेता है या दुःख",
+      "en": "gives birth to either pleasure or pain"
+    },
+    {
+      "talk": "one_realisation_free_from_all_suffering",
+      "hi": "केवल परिवर्तन ही स्थिर है",
+      "en": "change alone is constant"
+    },
+    {
+      "talk": "stop_asking_god_fix_your_life",
+      "hi": "उसके लिए कुछ करना होगा",
+      "en": "You have to do something about it"
+    }
+  ],
+  "also_read": {
+    "talk": "struggling_despite_trying_best",
+    "after": {
+      "hi": "सहनशीलता: पहला कदम, मंजिल नहीं",
+      "en": "Endurance: The First Step, Not the Destination"
+    }
+  },
+  "related": [
+    "who_real_doer_karma_ego_bhagavad",
+    "sattva_rajas_tamas_balance_success_liberation",
+    "gita_escape_cycle_of_rebirth"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "jeevan-ke-sangharsh-kaise-paar-karen",
+      "focus_keyword": "जीवन के संघर्षों को कैसे पार करें",
+      "secondary_keywords": ["गीता 2.14 का अर्थ", "मात्रास्पर्शास्तु कौन्तेय श्लोक", "तितिक्षा का अर्थ", "क्या कठिन समय स्थायी है"],
+      "meta_description": "जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा।",
+      "tags": ["भगवद्गीता", "अनित्यता", "प्रारब्ध", "संस्कार", "कर्मयोग"]
+    },
+    "en": {
+      "slug": "overcome-struggles-in-life-gita",
+      "focus_keyword": "how to overcome struggles in life",
+      "secondary_keywords": ["Bhagavad Gita 2.14 meaning", "titiksha meaning", "what is dvandva", "is suffering permanent"],
+      "meta_description": "How do you overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.",
+      "tags": ["Bhagavad Gita", "Impermanence", "Prarabdha", "Samskaras", "Karma Yoga"]
+    }
+  }
+}

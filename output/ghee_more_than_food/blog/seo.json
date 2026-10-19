@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "घी का आध्यात्मिक महत्व: भीतर का यज्ञ और वाणी",
+    "en": "Spiritual Significance of Ghee: Inner Fire and Speech"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लकड़ी की मेज़ पर पीतल की कटोरी में पिघला सुनहरा देसी घी, पीछे जलता घी का दीया, बगल में कपड़े पर रखी रोटियाँ और थाली में सफ़ेद फूल",
+      "en": "Golden melted desi ghee in a brass bowl on a wooden table, with a lit ghee lamp behind it, rotis on a cloth beside it and white flowers on a plate"
+    },
+    "inline.jpg": {
+      "hi": "धोती पहने एक व्यक्ति पीतल की करछी से ईंट के हवन कुंड की अग्नि में घी की आहुति देता हुआ, पास में कलश, दीया और गेंदे के फूल",
+      "en": "A man in a white dhoti pouring ghee from a brass ladle into the fire of a brick havan kund, with a kalash, an oil lamp and marigolds nearby"
+    },
+    "NrWomOQaEeI.jpg": {
+      "hi": "वीडियो: Ghee: More Than Just Food!, आचार्य उपेंद्र जी और चम्मच में देसी घी से भरा जार",
+      "en": "Video: Ghee: More Than Just Food!, Acharya Upendra Ji beside a jar of desi ghee with a spoon"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "थाली का घी, दीये की लौ",
+      "en": "The ghee on the plate, the flame in the lamp"
+    },
+    "inline.jpg": {
+      "hi": "हर भोजन एक आहुति",
+      "en": "Every meal an offering"
+    }
+  },
+  "links": [
+    {
+      "talk": "eat_shapes_how_you_think",
+      "hi": "जो हम खाते हैं, वह हमारे बोलने में उतरता है",
+      "en": "What we eat finds its way into the way we speak"
+    },
+    {
+      "talk": "gau_seva_antar_yog_purity_prosperity",
+      "hi": "गाय का शुद्ध देसी घी",
+      "en": "pure desi ghee from the cow"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "विशुद्धि का अर्थ ही है शुद्धि",
+      "en": "The word vishuddhi itself means purity"
+    },
+    {
+      "talk": "eat_to_heal_not_to_harm_spiritual",
+      "hi": "कितना मांसाहार और कितना शाकाहार कर रहा हूँ",
+      "en": "how much of my diet is meat and how much is vegetarian"
+    }
+  ],
+  "also_read": {
+    "talk": "non_veg_food_remains_body_truths",
+    "after": {
+      "hi": "जैसा घी, वैसी वाणी",
+      "en": "As the Ghee, So the Speech"
+    }
+  },
+  "related": [
+    "diet_hindering_success_link_prosperity",
+    "hardcore_non_vegetarian_awakening",
+    "eat_shapes_how_you_think"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "ghee-ka-adhyatmik-mahatva",
+      "focus_keyword": "घी का आध्यात्मिक महत्व",
+      "secondary_keywords": [
+        "भोजन एक यज्ञ",
+        "आहार और वाणी",
+        "विशुद्धि चक्र और वाणी",
+        "देसी घी का महत्व"
+      ],
+      "meta_description": "घी का आध्यात्मिक महत्व क्या है? आचार्य उपेंद्र जी बताते हैं कि पेट में एक सहज यज्ञ चलता है, घी उसका तेज है, और जो हम खाते हैं वही हमारी वाणी बनता है।",
+      "tags": [
+        "यज्ञ",
+        "शाकाहार",
+        "चक्र",
+        "श्रीविद्या"
+      ]
+    },
+    "en": {
+      "slug": "spiritual-significance-of-ghee",
+      "focus_keyword": "spiritual significance of ghee",
+      "secondary_keywords": [
+        "eating as a yajna",
+        "how food affects speech",
+        "Vishuddhi chakra and speech",
+        "desi ghee in Hinduism"
+      ],
+      "meta_description": "What is the spiritual significance of ghee? Acharya Upendra Ji explains the inner yajna of digestion and how what we eat becomes the way we speak.",
+      "tags": [
+        "Yajna",
+        "Vegetarianism",
+        "Chakras",
+        "Shri Vidya"
+      ]
+    }
+  }
+}

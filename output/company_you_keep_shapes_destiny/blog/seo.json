@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "संगति का प्रभाव: आपकी संगति ही आपका भविष्य गढ़ती है",
+    "en": "The Company You Keep: How It Shapes Your Spiritual Growth"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की धूप में गाँव के कच्चे रास्ते पर साथ चलते स्त्री-पुरुषों का एक समूह, एक ओर सूखी पथरीली ज़मीन और दूसरी ओर नहर के किनारे हरे धान के खेत",
+      "en": "A group of village men and women walking together on a dirt path in morning light, dry rocky land on one side and green rice fields beside a canal on the other"
+    },
+    "inline.jpg": {
+      "hi": "बाईं ओर पुराने घर के आँगन में किताबें खोलकर साथ बैठा एक परिवार, दाईं ओर रात की चमकती शहर की सड़क पर अपने-अपने फ़ोन में खोए लोग",
+      "en": "On the left, a family sitting together over open books in the courtyard of an old house; on the right, people on a neon-lit city street at night, each absorbed in a phone"
+    },
+    "4xYklVbL04A.jpg": {
+      "hi": "वीडियो: The People Around You Shape Your Destiny, ब्रह्मर्षि आचार्य उपेंद्र जी और हथौड़ी-छेनी से एक युवक की मूर्ति गढ़ते आस-पास के लोग",
+      "en": "Video: The People Around You Shape Your Destiny, Brahmarshi Acharya Upendra Ji, and the people around a young man carving his statue with hammers and chisels"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जिनके साथ चलते हैं, वही राह बनती है",
+      "en": "The path follows the people we walk with"
+    },
+    "inline.jpg": {
+      "hi": "परिवेश से ही संस्कार बनते हैं",
+      "en": "Our surroundings become our samskaras"
+    }
+  },
+  "links": [
+    {
+      "talk": "why_satsang_does_not_change_your_life",
+      "hi": "उनका संग करने से होता है जो आपको सत्य की ओर ले जाएँ",
+      "en": "keeping the company of those who lead you towards truth"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "धीरे-धीरे आपका गुण नीचे आने लगेगा",
+      "en": "your inner state will slowly begin to slide"
+    },
+    {
+      "talk": "trapped_illusory_happiness",
+      "hi": "आप उसी सुख में बँध जाते हो",
+      "en": "you get bound up in that very comfort"
+    },
+    {
+      "talk": "being_presence_guru_changes_way_think",
+      "hi": "अधिक से अधिक समय गुरु के साथ रहना पड़ता है",
+      "en": "spend as much time as possible with the Guru"
+    }
+  ],
+  "also_read": {
+    "talk": "worldly_maya_makes_forget_true_self",
+    "after": {
+      "hi": "महापुरुष घर क्यों छोड़ देते हैं?",
+      "en": "Why Do Great Souls Leave Home?"
+    }
+  },
+  "related": [
+    "sattva_rajas_tamas_balance_success_liberation",
+    "why_satsang_does_not_change_your_life",
+    "being_presence_guru_changes_way_think"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "sangati-ka-prabhav",
+      "focus_keyword": "संगति का प्रभाव",
+      "secondary_keywords": [
+        "सात्विक कैसे रहें",
+        "रिश्तेदारों से दूरी कैसे बनाएं",
+        "सत्संग का महत्व",
+        "सतोगुण कैसे बढ़ाएं"
+      ],
+      "meta_description": "साधना से मिली शांति क्यों फीकी पड़ती है? आचार्य उपेंद्र जी बताते हैं कि संगति का प्रभाव विचार, आचरण और सतोगुण पर कैसे पड़ता है और पुराने रिश्ते कैसे निभाएँ।",
+      "tags": [
+        "सत्त्व गुण",
+        "त्रिगुण",
+        "सत्संग",
+        "संस्कार",
+        "विवेक"
+      ]
+    },
+    "en": {
+      "slug": "company-you-keep-spiritual-growth",
+      "focus_keyword": "company you keep and spiritual growth",
+      "secondary_keywords": [
+        "how to stay sattvic",
+        "outgrowing family spiritually",
+        "importance of satsang",
+        "how to increase sattva guna"
+      ],
+      "meta_description": "Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep shapes your thoughts and sattva, and how to meet old ties.",
+      "tags": [
+        "Sattva",
+        "Three Gunas",
+        "Satsang",
+        "Samskaras",
+        "Viveka"
+      ]
+    }
+  }
+}

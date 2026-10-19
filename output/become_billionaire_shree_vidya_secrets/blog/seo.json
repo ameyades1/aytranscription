@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "श्री विद्या और धन: भोग से मोक्ष तक का रहस्य",
+    "en": "Shri Vidya and Wealth: From Bhoga to Moksha"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "लाल लकड़ी के गोल आसन पर कमल की आकृति वाली बड़ी स्वर्ण थाली, उसके चारों ओर सोने के सिक्के, पीछे पीतल का पात्र और कलश-शिखर, ऊपर से फैलती सुनहरी रोशनी",
+      "en": "A large golden plate with a lotus design on a round red wooden base, ringed by gold coins, with a brass bowl and spires behind it in radiating golden light"
+    },
+    "inline.jpg": {
+      "hi": "धूप से भरी कार्यशाला में चश्मा पहने एक युवा भारतीय उद्यमी बड़ी मेज़ पर अपने काम पर झुका हुआ, पीछे खिड़कियां, पौधे और दीवार पर चित्र",
+      "en": "A young Indian entrepreneur in glasses bent over his work at a large table in a sunlit workshop, with windows, potted plants and paintings behind him"
+    },
+    "GmsR2kEJyok.jpg": {
+      "hi": "वीडियो: How to Become a Billionaire Using Ancient Indian Wisdom (प्राचीन भारतीय ज्ञान से अरबपति कैसे बनें), Shree Vidya Secrets; सफेद कुर्ते में आचार्य उपेंद्र जी, पीछे उड़ते नोटों के बीच बांहें फैलाए एक व्यक्ति",
+      "en": "Video: How to Become a Billionaire Using Ancient Indian Wisdom, Shree Vidya Secrets; Acharya Upendra Ji in a white kurta, beside a man spreading his arms among flying banknotes"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "धन भी साधना का माध्यम",
+      "en": "Wealth, too, can serve the practice"
+    },
+    "inline.jpg": {
+      "hi": "नौकरी से आगे, कुछ रचने का संकल्प",
+      "en": "Beyond a job: the resolve to create"
+    }
+  },
+  "links": [
+    {
+      "talk": "lakshmi_come_some_people_not_others",
+      "hi": "कुछ बड़ा करे",
+      "en": "build something big"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "भगवान विष्णु पालनकर्ता हैं",
+      "en": "Lord Vishnu sustains the world"
+    },
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "पैसा खराब है, अमीर खराब हैं",
+      "en": "money is bad, that the rich are bad"
+    },
+    {
+      "talk": "diet_hindering_success_link_prosperity",
+      "hi": "अपने शरीर को स्वस्थ रखने के लिए भी धन लगता है",
+      "en": "Even keeping your own body healthy takes money"
+    }
+  ],
+  "also_read": {
+    "talk": "secrets_of_becoming_billionaire_marathi",
+    "after": {
+      "hi": "गुरुओं की परंपरा और श्री यंत्र साधना",
+      "en": "The Lineage of Masters and the Shri Yantra Sadhana"
+    }
+  },
+  "related": [
+    "secrets_of_becoming_billionaire_marathi",
+    "true_wealth_money_health_respect_or",
+    "lakshmi_come_some_people_not_others"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "shri-vidya-aur-dhan",
+      "focus_keyword": "श्री विद्या",
+      "secondary_keywords": [
+        "श्री विद्या और धन",
+        "श्री विद्या भोग और मोक्ष",
+        "क्या धन कमाना पाप है",
+        "धर्म का मूल अर्थ है"
+      ],
+      "meta_description": "क्या धन की इच्छा पाप है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।",
+      "tags": [
+        "श्री विद्या",
+        "लक्ष्मी",
+        "पुरुषार्थ",
+        "श्री यंत्र",
+        "उद्यमिता"
+      ]
+    },
+    "en": {
+      "slug": "shri-vidya-and-wealth",
+      "focus_keyword": "Shri Vidya",
+      "secondary_keywords": [
+        "Shree Vidya",
+        "Shri Vidya and wealth",
+        "Shri Vidya bhoga and moksha",
+        "dharmasya mulam arthah meaning"
+      ],
+      "meta_description": "Is wanting wealth unspiritual? Acharya Upendra Ji explains how Shri Vidya teaches earning, planning and giving wealth, granting both bhoga and moksha.",
+      "tags": [
+        "Shri Vidya",
+        "Lakshmi",
+        "Purusharthas",
+        "Shri Yantra",
+        "Entrepreneurship"
+      ]
+    }
+  }
+}

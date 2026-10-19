@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "आध्यात्मिक आयु: आपकी असली उम्र कितनी है?",
+    "en": "Spiritual Age vs Physical Age: How Old Are You Really?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप में घर की पत्थर की सीढ़ियों पर बैठे सफेद दाढ़ी वाले बुज़ुर्ग और एक छोटा लड़का, दोनों एक-दूसरे को देखकर खुलकर हंसते हुए",
+      "en": "A white-bearded elderly man and a young boy sitting on sunlit stone steps outside a house, laughing as they look at each other"
+    },
+    "inline.jpg": {
+      "hi": "सफेद वस्त्र ओढ़े एक युवा विद्यार्थी फर्श पर बैठकर लकड़ी के रेहल पर रखा ग्रंथ पढ़ते हुए, पास में पीतल के दीपक की लौ",
+      "en": "A young student wrapped in white cloth sitting on the floor, reading a scripture on a wooden book stand beside a lit brass lamp"
+    },
+    "_mmj8c0S8CI.jpg": {
+      "hi": "वीडियो: Know Your Spiritual Age (अपनी आध्यात्मिक आयु जानिए), गणेश सीरीज़ भाग 11, आचार्य उपेंद्र जी, पीछे बादलों के बीच कमल तक जाती सुनहरी घुमावदार सीढ़ी",
+      "en": "Video: Know Your Spiritual Age, Ganesh Series Ep 11, Acharya Upendra Ji, with a golden spiral staircase rising through clouds to a lotus"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "उम्र शरीर की, या समझ की?",
+      "en": "The body's age, or the understanding's?"
+    },
+    "inline.jpg": {
+      "hi": "मूर्ति के पीछे का अर्थ खोजता जिज्ञासु",
+      "en": "A seeker looking for the meaning behind the idol"
+    }
+  },
+  "links": [
+    {
+      "talk": "worship_ganesh_every_year_but_understand",
+      "hi": "गणपति बाप्पा मतलब सूंड वाले",
+      "en": "Ganapati Bappa is the one with the trunk"
+    },
+    {
+      "talk": "every_moment_enlightened_master_new_birth",
+      "hi": "भीतर का पुराना सब मर जाता है",
+      "en": "Everything old inside you dies"
+    },
+    {
+      "talk": "stop_asking_god_fix_your_life",
+      "hi": "छोटी-मोटी समस्याएं सुलझ जाएं",
+      "en": "your small problems get solved"
+    },
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "वह छोटी मूर्ति कुछ करने वाली नहीं थी",
+      "en": "That small idol was never going to do anything for you"
+    },
+    {
+      "talk": "hidden_meaning_behind_10_days_ganesh",
+      "hi": "दस दिन ऊंचा संगीत",
+      "en": "For ten days there is loud music"
+    }
+  ],
+  "also_read": {
+    "talk": "not_wait_until_retirement_transform_life",
+    "after": {
+      "hi": "कथा, पुराण और धारावाहिक: छह से बारह वर्ष",
+      "en": "Stories, Puranas and TV Serials: Six to Twelve Years"
+    }
+  },
+  "related": [
+    "gita_warning_worship_without_understanding",
+    "worship_ganesh_every_year_but_understand",
+    "why_satsang_does_not_change_your_life"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "aadhyatmik-aayu",
+      "focus_keyword": "आध्यात्मिक आयु",
+      "secondary_keywords": [
+        "आध्यात्मिक उम्र कैसे पहचानें",
+        "आध्यात्मिक प्रगति के स्तर",
+        "मंदिर जाने का असली उद्देश्य"
+      ],
+      "meta_description": "आपकी आध्यात्मिक आयु कितनी है? आचार्य उपेंद्र जी बताते हैं कि मंदिर जाने, कथा सुनने और प्रार्थना के ढंग से यह कैसे दिखती है, और क्यों वे कहते हैं: गति बढ़ाओ।",
+      "tags": [
+        "गणेश सीरीज़",
+        "मूर्ति पूजा",
+        "कर्मयोग",
+        "भक्ति",
+        "अहंकार"
+      ]
+    },
+    "en": {
+      "slug": "spiritual-age-vs-physical-age",
+      "focus_keyword": "spiritual age",
+      "secondary_keywords": [
+        "spiritual age vs physical age",
+        "stages of spiritual growth",
+        "signs of spiritual maturity"
+      ],
+      "meta_description": "What is your spiritual age? Acharya Upendra Ji shows how the way you visit temples, hear katha and pray reveals it, and why he says: move faster.",
+      "tags": [
+        "Ganesh Series",
+        "Idol worship",
+        "Karma Yoga",
+        "Bhakti",
+        "Ego"
+      ]
+    }
+  }
+}

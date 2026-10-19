@@ -1,0 +1,106 @@
+{
+  "title": {
+    "hi": "इच्छा और इच्छाशक्ति में अंतर: हर चाह का फल आता है",
+    "en": "Wish vs Willpower: Are You Manifesting Goals Correctly?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय पहाड़ी पर धनुष खींचे एकाग्र धनुर्धर, लक्ष्य पर टिकी दृष्टि, नीचे घाटी में प्राचीन मंदिर और नदी",
+      "en": "A focused archer drawing his bow on a hilltop at sunset, eyes fixed on the target, with ancient temples and a river in the valley below"
+    },
+    "inline.jpg": {
+      "hi": "विशाल पेड़ की छाँव में बैठा एक माली छोटे पौधे को झारी से पानी दे रहा है, पीछे सुबह की धुंध में और बड़े पेड़",
+      "en": "A gardener crouching in the shade of a huge tree, watering a tiny sapling from a can, with more tall trees in the morning mist behind"
+    },
+    "pSgr-IzLZmA.jpg": {
+      "hi": "वीडियो: क्या आप अपने लक्ष्य सही ढंग से मैनिफेस्ट कर रहे हैं, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Are You Manifesting Your Goals Correctly? Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चाह नहीं, लक्ष्य पर टिका संकल्प",
+      "en": "Not a wish, but a will fixed on the goal"
+    },
+    "inline.jpg": {
+      "hi": "हर बड़ा वृक्ष कभी छोटा पौधा था",
+      "en": "Every great tree was once a sapling"
+    }
+  },
+  "links": [
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "एक हल्की इच्छा भी कर्म है, और उसका फल भी आता है",
+      "en": "even a faint wish is an action, and it bears fruit"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "जनता को ऐसा राजा मिलना ही नहीं चाहिए",
+      "en": "the people should never end up with a king like that"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "सोचो तो बड़ा सोचो",
+      "en": "if you are going to think, think big"
+    },
+    {
+      "talk": "do_this_one_thing_achieve_successful_life",
+      "hi": "घर की चार रोटियाँ बनाने में भी अच्छा करना है",
+      "en": "you should also do your best when you make four rotis at home"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "छोटे काम अहंकार मिटाने और दूसरों को समझने के लिए आते हैं",
+      "en": "Small tasks come to dissolve the ego and help us understand others"
+    }
+  ],
+  "also_read": {
+    "talk": "struggling_despite_trying_best",
+    "after": {
+      "hi": "राजा बनने का सपना, बिना तैयारी के",
+      "en": "Dreaming of a Throne Without Preparing for It"
+    }
+  },
+  "related": [
+    "decides_destiny",
+    "truly_desire_or_infatuation",
+    "legends_keep_working"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "ichha-aur-ichhashakti-mein-antar",
+      "focus_keyword": "इच्छा और इच्छाशक्ति में अंतर",
+      "secondary_keywords": [
+        "क्या इच्छा भी कर्म है",
+        "प्रबल इच्छाशक्ति",
+        "लक्ष्य कैसे पूरे करें",
+        "बड़ा सोचो पर धैर्य रखो"
+      ],
+      "meta_description": "क्या हल्की इच्छा भी कर्म है? आचार्य उपेंद्र जी बताते हैं इच्छा और इच्छाशक्ति में अंतर: क्षणिक चाह का फल कैसे आता है, प्रबल इच्छाशक्ति से मार्ग कैसे खुलता है।",
+      "tags": [
+        "कर्मयोग",
+        "इच्छाशक्ति",
+        "पुनर्जन्म",
+        "अहंकार"
+      ]
+    },
+    "en": {
+      "slug": "wish-vs-willpower",
+      "focus_keyword": "wish vs willpower",
+      "secondary_keywords": [
+        "manifesting goals correctly",
+        "is a wish also karma",
+        "difference between wish and willpower",
+        "think big but be patient"
+      ],
+      "meta_description": "Is a passing wish also karma? Acharya Upendra Ji explains wish vs willpower: why idle wishes bear unwanted fruit, and how strong will opens the path ahead.",
+      "tags": [
+        "Karma Yoga",
+        "Willpower",
+        "Rebirth",
+        "Ego"
+      ]
+    }
+  }
+}

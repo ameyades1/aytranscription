@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया",
+    "en": "Meaning of AUM: Why Om, and What A, U and M Stand For"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी रोशनी में सरोवर किनारे पत्थर के घाट पर शॉल ओढ़े बैठा एक साधक, पास में जलता दीया, जल में फैलती गोल तरंगें और सामने मंदिरों की कतार",
+      "en": "A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake toward a row of temples in golden light"
+    },
+    "inline.jpg": {
+      "hi": "नक्काशीदार पत्थर के मंदिर-द्वार में लटकी पीतल की घंटी, पीछे धुंधली रोशनी में मंदिर का गोपुरम",
+      "en": "A bronze bell hanging in a carved stone temple archway, with a temple gopuram in soft light behind it"
+    },
+    "UETeOQlt8wQ.jpg": {
+      "hi": "वीडियो: The Spiritual Science Behind the ॐ Sound, सफ़ेद कुर्ते में आचार्य उपेंद्र जी और नीली तरंगों के बीच चमकता नारंगी ॐ",
+      "en": "Video: The Spiritual Science Behind the Om Sound, Acharya Upendra Ji in a white kurta beside a glowing orange Om amid blue ripples"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक नाद, अनंत तरंगें",
+      "en": "One sound, endless ripples"
+    },
+    "inline.jpg": {
+      "hi": "हर ध्वनि में वही ब्रह्म",
+      "en": "In every sound, the same Brahman"
+    }
+  },
+  "links": [
+    {
+      "talk": "chanting_om_final_breath_liberation",
+      "hi": "हम सबने ॐ सुना है, बोला है",
+      "en": "We have all heard Om, and we have all chanted it"
+    },
+    {
+      "talk": "true_power_of_scriptures_decoded",
+      "hi": "हमारा शास्त्र, जो स्वयं एक विज्ञान है",
+      "en": "our scriptures, which are a science in their own right"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "यह प्रतीकात्मक है",
+      "en": "Om is symbolic"
+    },
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "वह शब्द भी उसी ब्रह्म का रूप है",
+      "en": "Even those harsh words are a form of the same Brahman"
+    },
+    {
+      "talk": "guru_bridging_science_spirituality",
+      "hi": "हमें स्वयं शोध करना चाहिए",
+      "en": "we should investigate it for ourselves"
+    }
+  ],
+  "also_read": {
+    "talk": "chant_thousand_names_god",
+    "after": {
+      "hi": "क्या गाली भी ब्रह्म है?",
+      "en": "Is Even an Insult Brahman?"
+    }
+  },
+  "related": [
+    "chanting_om_final_breath_liberation",
+    "hidden_meaning_spiritual_symbols",
+    "difference_ved_vedant"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "om-mein-a-u-m-ka-arth",
+      "focus_keyword": "ॐ में अ उ म का अर्थ",
+      "secondary_keywords": [
+        "ॐ ही क्यों",
+        "ॐ का अर्थ क्या है",
+        "ओंकार का रहस्य",
+        "ॐ और ब्रह्म"
+      ],
+      "meta_description": "ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है।",
+      "tags": [
+        "ॐ",
+        "ब्रह्म",
+        "अद्वैत वेदांत"
+      ]
+    },
+    "en": {
+      "slug": "meaning-of-aum-why-om",
+      "focus_keyword": "meaning of AUM",
+      "secondary_keywords": [
+        "why Om",
+        "what does Om mean",
+        "why do we chant Om",
+        "Om and Brahman"
+      ],
+      "meta_description": "What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M.",
+      "tags": [
+        "Om",
+        "Brahman",
+        "Advaita Vedanta"
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "title": {
+    "hi": "गीता में नारी के सात गुण: महिलाओं के लिए आचार्य जी का संदेश",
+    "en": "Seven Qualities of Women in Bhagavad Gita: Message to Women"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पारंपरिक साड़ी पहने एक भारतीय स्त्री खंभों वाले आंगन में पीतल का ऊंचा दीपस्तंभ जला रही है; पीछे महिलाओं और परिवारों की सभा बैठी है, आगे फूलों की रंगोली",
+      "en": "An Indian woman in a traditional sari lights a tall brass lamp in a pillared courtyard, with a gathering of women and families seated behind and a flower rangoli in front"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर के पत्थर के फर्श पर लाल वस्त्र पर रखी वीणा, गुलाबी कमल और डमरू बंधा त्रिशूल, पास में जलता दीया",
+      "en": "A veena, a pink lotus and a trident with a damaru laid on red cloth on a stone temple floor, beside a lit oil lamp"
+    },
+    "IRT9HMMAN1I.jpg": {
+      "hi": "वीडियो: The Future is in Your Hands, महिलाओं के लिए आचार्य उपेंद्र जी का संदेश; मंच पर बोलते आचार्य जी और प्रकाश थामे अंजुलि",
+      "en": "Video: The Future is in Your Hands, Acharya Upendra Ji's message to all women, showing him at a podium beside cupped hands holding light"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "भविष्य का दीप, नारी के हाथों में",
+      "en": "The lamp of the future, in a woman's hands"
+    },
+    "inline.jpg": {
+      "hi": "वीणा, कमल और त्रिशूल: ज्ञान, समृद्धि और शक्ति",
+      "en": "Veena, lotus and trident: knowledge, prosperity and strength"
+    }
+  },
+  "links": [
+    {
+      "talk": "gyan_sarovar_mount_abu_women_address",
+      "hi": "वह कम से कम हजार गुना शक्तिशाली है",
+      "en": "she is at least a thousand times more powerful"
+    },
+    {
+      "talk": "divine_power_every_woman_holds",
+      "hi": "बचपन में मां की शक्ति उस पर हजार नहीं, लाखों गुना होती है",
+      "en": "not a thousand but a hundred thousand times greater"
+    },
+    {
+      "talk": "spiritual_power_women_kali_yug",
+      "hi": "घर में अति सौम्य, और कार्यालय या बाहर जहां अन्याय हो, वहां अति रौद्र",
+      "en": "supremely gentle at home, and supremely fierce at the office"
+    },
+    {
+      "talk": "real_role_maha_kali",
+      "hi": "दुर्गा सप्तशती का पहला चरित्र महाकाली का है",
+      "en": "The Durga Saptashati opens with the story of Mahakali"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "लक्ष्मी और काली के रूप भी उतने ही पवित्र हैं",
+      "en": "the forms of Lakshmi and Kali are just as sacred"
+    }
+  ],
+  "also_read": {
+    "talk": "lakshmi_come_some_people_not_others",
+    "after": {
+      "hi": "श्री: घर में लक्ष्मी तीन बार आती है",
+      "en": "Shri: Lakshmi Enters the Home Three Times"
+    }
+  },
+  "related": [
+    "stop_tolerating_toxic_love",
+    "what_is_a_guru",
+    "women_continue_sadhana_during_their_monthly"
+  ],
+  "wordpress": {
+    "category": "women",
+    "hi": {
+      "slug": "gita-mein-nari-ke-saat-gun",
+      "focus_keyword": "गीता में नारी के सात गुण",
+      "secondary_keywords": [
+        "पतिव्रता का सही अर्थ",
+        "घर में लक्ष्मी के तीन रूप",
+        "अति सौम्य अति रौद्र का अर्थ",
+        "स्त्री और मोक्ष"
+      ],
+      "meta_description": "गीता १०.३४ में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।",
+      "tags": [
+        "नारी शक्ति",
+        "शक्ति",
+        "भगवद्गीता",
+        "दुर्गा सप्तशती",
+        "लक्ष्मी",
+        "अर्धनारीश्वर"
+      ]
+    },
+    "en": {
+      "slug": "seven-qualities-of-women-bhagavad-gita",
+      "focus_keyword": "seven qualities of women in Bhagavad Gita",
+      "secondary_keywords": [
+        "true meaning of pativrata",
+        "Lakshmi as mother, daughter-in-law and daughter",
+        "supremely gentle and supremely fierce",
+        "can women attain moksha"
+      ],
+      "meta_description": "Bhagavad Gita 10.34 names seven divine qualities in women. Acharya Upendra Ji explains them: be supremely gentle at home and supremely fierce to injustice.",
+      "tags": [
+        "Women's Empowerment",
+        "Shakti",
+        "Bhagavad Gita",
+        "Durga Saptashati",
+        "Lakshmi",
+        "Ardhanarishvara"
+      ]
+    }
+  }
+}

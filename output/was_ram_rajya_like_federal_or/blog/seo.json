@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "राम राज्य संघीय था या एकात्मक? शासन का सूत्र",
+    "en": "Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी सुबह में महल के छज्जे से मुकुटधारी राजा नदी किनारे बसे मंदिरों और घाटों वाले विशाल नगर को निहारते हुए, नदी में ध्वज वाली नाव",
+      "en": "A crowned king on a palace balcony at golden dawn looking over a vast riverside city of temples and ghats, a boat with a saffron flag on the river"
+    },
+    "inline.jpg": {
+      "hi": "गांव के चौक में फैली शाखाओं और लटकती जटाओं वाला विशाल बरगद, नीचे चबूतरे पर बैठे बुज़ुर्ग और आसपास घूमते ग्रामीण",
+      "en": "A vast banyan tree with spreading branches and hanging aerial roots in a village square, elders seated on its platform and villagers around"
+    },
+    "siLE-ViWK0M.jpg": {
+      "hi": "वीडियो: राम राज्य क्यों नहीं आया? आचार्य उपेंद्र जी, अशोक स्तंभ, सत्यमेव जयते और तिरंगे के रंग",
+      "en": "Video: Why has Ram Rajya not come? Acharya Upendra Ji with the Ashoka emblem, Satyameva Jayate and the tricolour"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "एक हाथ, एक आवाज़",
+      "en": "One hand, one voice"
+    },
+    "inline.jpg": {
+      "hi": "एक जड़, अनेक शाखाएं",
+      "en": "One root, many branches"
+    }
+  },
+  "links": [
+    {
+      "talk": "future_country_bharat_know",
+      "hi": "हमारे देश की शासन व्यवस्था",
+      "en": "the way our country is governed"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "उन्हीं के मत से शासन चलाए",
+      "en": "govern according to his wishes"
+    },
+    {
+      "talk": "why_society_remains_divided_interview",
+      "hi": "यहां का मित्र वहां का शत्रु",
+      "en": "A friend at one level is an enemy at the next"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "पूर्ण समर्पण",
+      "en": "complete self-offering"
+    },
+    {
+      "talk": "power_of_collectivity",
+      "hi": "विरोधी शाखाएं मिलकर कुछ नहीं चला सकतीं",
+      "en": "branches in conflict cannot run anything together"
+    }
+  ],
+  "also_read": {
+    "talk": "spiritual_meaning_secularism_independence_day_special",
+    "after": {
+      "hi": "हमारी व्यवस्था की खिचड़ी",
+      "en": "The Khichdi of Our System"
+    }
+  },
+  "related": [
+    "ideal_king_sanatan_rashtra_interview",
+    "future_country_bharat_know",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "ram-rajya-sanghiya-ya-ekatmak",
+      "focus_keyword": "राम राज्य",
+      "secondary_keywords": [
+        "राम राज्य कैसा था",
+        "राम राज्य का सूत्र",
+        "संघीय शासन",
+        "एकात्मक व्यवस्था"
+      ],
+      "meta_description": "राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
+      "tags": [
+        "श्री राम",
+        "सुशासन",
+        "राष्ट्र निर्माण",
+        "शरणागति",
+        "नेतृत्व"
+      ]
+    },
+    "en": {
+      "slug": "ram-rajya-federal-or-unitary",
+      "focus_keyword": "Ram Rajya",
+      "secondary_keywords": [
+        "was Ram Rajya federal or unitary",
+        "federal government",
+        "unitary system",
+        "how to bring Ram Rajya"
+      ],
+      "meta_description": "Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.",
+      "tags": [
+        "Shri Rama",
+        "Good Governance",
+        "Nation Building",
+        "Sharanagati",
+        "Leadership"
+      ]
+    }
+  }
+}

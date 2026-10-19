@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "भाग्य में रुकावट क्यों? पतंजलि का किसान और नहर",
+    "en": "What Is Blocking Your Destiny? Patanjali's Farmer Analogy"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "हरे धान के खेतों के बीच पत्थर से बनी सूखी सिंचाई नहर, जिसके बीचोंबीच एक बड़ा पत्थर अटका है",
+      "en": "A dry stone-lined irrigation channel between green paddy fields, with a large rock lodged in the middle of it"
+    },
+    "inline.jpg": {
+      "hi": "सिंचाई की नहर से पत्थर उठाता किसान का हाथ, और नीचे खेत की ओर फिर से बहता पानी",
+      "en": "A farmer's hand lifting a stone out of an irrigation channel as the water flows on towards the fields"
+    },
+    "LTlS3QAFHV0.jpg": {
+      "hi": "वीडियो: यह रुकावट हटाइए, स्वयं को पाइए। ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Remove This, Find Yourself. Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पानी तैयार है, बस एक पत्थर बीच में है",
+      "en": "The water is ready; only a stone stands in the way"
+    },
+    "inline.jpg": {
+      "hi": "रोड़ा हटा, प्रवाह अपने आप चल पड़ा",
+      "en": "Lift the stone, and the flow moves on its own"
+    }
+  },
+  "links": [
+    {
+      "talk": "manifesting_goals_correctly",
+      "hi": "दस बार, हज़ार बार दोहराने की ज़रूरत नहीं",
+      "en": "ten times, or a thousand times"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "आपके जीवन की पूरी पटकथा",
+      "en": "the entire script of your life"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "सारे विघ्न दूर हों",
+      "en": "remove every obstacle"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "केवल माया का कचरा हटाना है",
+      "en": "you only need to clear away the debris of maya"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "सात्त्विक बुद्धि विघ्न हटाने की प्रार्थना करती है",
+      "en": "A sattvic mind prays for obstacles to be removed"
+    }
+  ],
+  "also_read": {
+    "talk": "three_types_obstacle_removers_harta",
+    "after": {
+      "hi": "तीन बुद्धियां, कचरे के साथ तीन व्यवहार",
+      "en": "Three Kinds of Mind, Three Ways of Handling the Debris"
+    }
+  },
+  "related": [
+    "decides_destiny",
+    "reveals_4_life_changing_components",
+    "worldly_maya_makes_forget_true_self"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "bhagya-mein-rukawat",
+      "focus_keyword": "भाग्य में रुकावट",
+      "secondary_keywords": [
+        "योगसूत्र ४.३ का अर्थ",
+        "माया का आवरण",
+        "सात्त्विक राजसिक तामसिक बुद्धि"
+      ],
+      "meta_description": "भाग्य में रुकावट क्यों आती है? आचार्य उपेंद्र जी योगसूत्र ४.३ के किसान दृष्टांत से समझाते हैं: माया का कचरा हटाइए, भाग्य का प्रवाह अपने आप बहने लगता है।",
+      "tags": [
+        "माया",
+        "त्रिगुण",
+        "पतंजलि योगसूत्र",
+        "अहंकार"
+      ]
+    },
+    "en": {
+      "slug": "what-is-blocking-your-destiny",
+      "focus_keyword": "what is blocking your destiny",
+      "secondary_keywords": [
+        "Yoga Sutra 4.3 meaning",
+        "Patanjali farmer analogy",
+        "sattvic rajasic tamasic mind"
+      ],
+      "meta_description": "What is blocking your destiny? Acharya Upendra Ji explains Yoga Sutra 4.3: like a farmer opening a channel, remove the debris of maya and the flow returns.",
+      "tags": [
+        "Maya",
+        "Three Gunas",
+        "Patanjali Yoga Sutras",
+        "Ego"
+      ]
+    }
+  }
+}

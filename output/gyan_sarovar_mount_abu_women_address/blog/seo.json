@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य जी",
+    "en": "Is a Woman Equal to a Man? Acharya Ji's Answer at Mount Abu"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "साड़ी पहने एक भारतीय स्त्री मंच पर माइक के सामने उंगली उठाकर बोल रही है; सामने ऊंची खिड़कियों वाले सभागार में सैकड़ों महिलाएं ध्यान से सुन रही हैं",
+      "en": "An Indian woman in a sari speaks at a microphone with a raised finger, facing hundreds of women listening in a hall with tall arched windows"
+    },
+    "inline.jpg": {
+      "hi": "घर में फर्श पर बैठी एक मां अपने बेटे को दीवार पर लगे भारत के मानचित्र पर कुछ दिखा रही है; पास में जलते दीये और पीतल के पात्र",
+      "en": "A mother sitting on the floor at home points out something on a map of India to her young son, beside lit oil lamps and brass bowls"
+    },
+    "JN2rLNTRmkg.jpg": {
+      "hi": "वीडियो: ज्ञान सरोवर, माउंट आबू में आचार्य उपेंद्र जी का 500 प्रभावशाली महिलाओं को संबोधन; ब्रह्माकुमारी बहनें आचार्य जी को शॉल पहनाकर सम्मानित कर रही हैं",
+      "en": "Video: Acharya Upendra Ji's address to 500 influential women at Gyan Sarovar, Mount Abu, showing Brahma Kumari sisters honouring him with a shawl"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बराबरी नहीं, अपनी शक्ति की पहचान",
+      "en": "Not equality, but knowing her own strength"
+    },
+    "inline.jpg": {
+      "hi": "मां को समझकर ही भारत माता को समझें",
+      "en": "Understand the mother to understand Mother India"
+    }
+  },
+  "links": [
+    {
+      "talk": "spiritual_power_women_kali_yug",
+      "hi": "बाहर कितना भी अत्याचार हो, वह सह लेती है",
+      "en": "However much injustice she faces outside, she endures it"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "शिव और शक्ति का एक ही स्वरूप में मिलन",
+      "en": "Lord Shiva and Shakti united in a single form"
+    },
+    {
+      "talk": "divine_power_every_woman_holds",
+      "hi": "पहले नारी की अपनी शक्तियों को पहचानना होगा",
+      "en": "First, women must recognise their own powers"
+    },
+    {
+      "talk": "future_lies_in_hands_message_to_women",
+      "hi": "ये शक्तियां स्त्री में अद्भुत रूप से विकसित हैं",
+      "en": "these powers are remarkably developed in women"
+    }
+  ],
+  "also_read": {
+    "talk": "what_is_a_guru",
+    "after": {
+      "hi": "मां, गुरु और भारत माता",
+      "en": "The Mother, the Guru and Mother India"
+    }
+  },
+  "related": [
+    "stop_tolerating_toxic_love",
+    "real_role_maha_kali",
+    "future_country_bharat_know"
+  ],
+  "wordpress": {
+    "category": "women",
+    "hi": {
+      "slug": "kya-stri-purush-ke-barabar-hai",
+      "focus_keyword": "क्या स्त्री पुरुष के बराबर है",
+      "secondary_keywords": [
+        "अध्यात्म द्वारा महिला सशक्तिकरण",
+        "अर्धनारीश्वर का अर्थ",
+        "स्त्री का अंतर्ज्ञान",
+        "ब्रह्माकुमारी माउंट आबू सम्मेलन"
+      ],
+      "meta_description": "क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य उपेंद्र जी ने 500 महिलाओं से कहा: नारी हजार गुना शक्तिशाली है। जानें अर्धनारीश्वर और अंतर्ज्ञान का संदेश।",
+      "tags": [
+        "नारी शक्ति",
+        "शक्ति",
+        "दुर्गा सप्तशती",
+        "अर्धनारीश्वर",
+        "विश्वगुरु"
+      ]
+    },
+    "en": {
+      "slug": "is-woman-equal-to-man",
+      "focus_keyword": "is a woman equal to a man",
+      "secondary_keywords": [
+        "women's empowerment through spirituality",
+        "meaning of Ardhanarishvara",
+        "women's intuition spirituality",
+        "Acharya Upendra Ji Mount Abu"
+      ],
+      "meta_description": "Is a woman equal to a man? At Mount Abu, Acharya Upendra Ji told 500 women she is a thousand times stronger, and why India needs Ardhanarishvara balance.",
+      "tags": [
+        "Women's Empowerment",
+        "Shakti",
+        "Durga Saptashati",
+        "Ardhanarishvara",
+        "Vishwaguru"
+      ]
+    }
+  }
+}

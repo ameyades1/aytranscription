@@ -1,0 +1,110 @@
+{
+  "title": {
+    "hi": "पाप का डर और हृदय ग्रंथि: पूजा-पाठ से आगे का रास्ता",
+    "en": "Fear of Sin and the Knot in the Heart: Beyond Ritual"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मिट्टी के घड़े के पास लकड़ी की मेज़ पर दो हाथ जूट की रस्सी से लिपटे दिल के आकार को बीच की गांठ पर कसकर बांधते हुए",
+      "en": "Two hands tightening a knot at the centre of a heart shape wound from jute rope, on a wooden table beside a clay pot"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर के खंभों और पीतल के दीयों के बीच तनी मोटी रस्सी, जिसकी गांठ के भीतर से सुनहरी रोशनी झांक रही है",
+      "en": "A thick rope stretched between temple pillars and brass lamps, with golden light shining from inside its knot"
+    },
+    "YNyeE5PBXGo.jpg": {
+      "hi": "वीडियो: इच्छाएं पूरी होने में इतना समय क्यों लगता है? गणेश सीरीज़ एपिसोड 13, आचार्य उपेंद्र जी",
+      "en": "Video: What is delaying your desires? Ganesh Series episode 13, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "डर से कसती गांठ",
+      "en": "A knot tied tight by fear"
+    },
+    "inline.jpg": {
+      "hi": "गांठ खुले, तो प्रकाश निकले",
+      "en": "Loosen the knot, and the light gets through"
+    }
+  },
+  "links": [
+    {
+      "talk": "punya_vs_paap",
+      "hi": "पाप-पुण्य का यह ज्ञान अधिक दिया",
+      "en": "taught a great deal about sin and merit"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "मनुष्य को ऊपर उठाना चाहता है",
+      "en": "tries to lift a person up"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "गणपति का अर्थ क्या है",
+      "en": "What does Lord Ganesha stand for"
+    },
+    {
+      "talk": "hidden_meaning_spiritual_symbols",
+      "hi": "थाली में रखे चांदी, सोने, सुपारी और दीये का अर्थ",
+      "en": "What do the silver, the gold, the betel nut and the lamp on the plate signify"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "पूजा-पाठ अंत नहीं है",
+      "en": "ritual worship is not the end of the journey"
+    }
+  ],
+  "also_read": {
+    "talk": "love_burden_for_child_parenting",
+    "after": {
+      "hi": "या तो पूरा अर्थ सिखाओ, या डर मत सिखाओ",
+      "en": "Teach the Full Meaning, or Do Not Teach Fear"
+    }
+  },
+  "related": [
+    "punya_vs_paap",
+    "gita_warning_worship_without_understanding",
+    "knowledge_work_for_you"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "paap-ka-dar-hriday-granthi",
+      "focus_keyword": "पाप का डर",
+      "secondary_keywords": [
+        "हृदय ग्रंथि क्या है",
+        "अपराध बोध से मुक्ति",
+        "पूजा-पाठ से आगे",
+        "बच्चों को पाप-पुण्य सिखाना"
+      ],
+      "meta_description": "क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य उपेंद्र जी बताते हैं कि पाप का अनावश्यक डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं।",
+      "tags": [
+        "गणेश सीरीज़",
+        "पाप और पुण्य",
+        "संस्कार",
+        "त्रिगुण",
+        "परवरिश",
+        "उपनिषद"
+      ]
+    },
+    "en": {
+      "slug": "fear-of-sin-knot-in-the-heart",
+      "focus_keyword": "fear of sin",
+      "secondary_keywords": [
+        "hridaya granthi meaning",
+        "letting go of guilt spiritually",
+        "beyond ritual worship",
+        "teaching children about sin"
+      ],
+      "meta_description": "Does a voice keep saying \"you did wrong\"? Acharya Upendra Ji explains how needless fear of sin ties the heart knot, and why ritual worship is only a start.",
+      "tags": [
+        "Ganesh Series",
+        "Sin and Merit",
+        "Samskaras",
+        "Three Gunas",
+        "Parenting",
+        "Upanishads"
+      ]
+    }
+  }
+}

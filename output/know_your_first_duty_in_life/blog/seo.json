@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "जीवन का प्रथम कर्तव्य क्या है? गर्भ में किया गया वचन",
+    "en": "Your First Duty in Life: The Promise Made in the Womb"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "गर्म रोशनी में सफ़ेद कपड़े में लिपटा सोता हुआ नवजात शिशु, जिसने अपनी नन्ही मुट्ठी में एक बड़े की उँगली पकड़ रखी है",
+      "en": "A sleeping newborn wrapped in white cloth, its tiny fist holding an adult's finger in warm light"
+    },
+    "inline.jpg": {
+      "hi": "खिड़की के पास खड़ी गर्भवती स्त्री, जो मुस्कुराते हुए अपने पेट पर दोनों हाथ रखे नीचे देख रही है",
+      "en": "A pregnant woman standing by a sunlit window, smiling as she rests both hands on her belly"
+    },
+    "FHJt2VprFWs.jpg": {
+      "hi": "वीडियो: जीवन में आपका प्रथम कर्तव्य, आचार्य उपेंद्र जी",
+      "en": "Video: Know Your First Duty in Life, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बारह दिन की स्मृति",
+      "en": "Twelve days of remembering"
+    },
+    "inline.jpg": {
+      "hi": "जहाँ पहला वचन लिया गया",
+      "en": "Where the first promise is made"
+    }
+  },
+  "links": [
+    {
+      "talk": "what_is_a_guru",
+      "hi": "जो स्वयं सत्य को जान चुका हो",
+      "en": "someone who has known the truth directly"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "वह फिर भूल जाता है कि उसका प्रथम कर्तव्य क्या था",
+      "en": "the child forgets once more what its first duty was"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "पिछले जन्मों के गलत कर्मों को काटना",
+      "en": "Undo the wrong deeds of past lives"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "ध्यान के द्वारा सारे मोह निकालकर विलीन हो जाना",
+      "en": "let go of every attachment and dissolve"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "हम कर्ता तो हैं, पर नींद में कर रहे हैं",
+      "en": "we are still doers, but we act while asleep"
+    }
+  ],
+  "also_read": {
+    "talk": "without_guru_scriptures_can_mislead",
+    "after": {
+      "hi": "गुरु कुछ थोपते नहीं, बस याद दिलाते हैं",
+      "en": "The Guru Does Not Impose, Only Reminds"
+    }
+  },
+  "related": [
+    "surrendering_to_guru",
+    "true_disciple_change_your_life",
+    "unveiling_truth_karma_ultimate_goal_or"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "jeevan-ka-pratham-kartavya",
+      "focus_keyword": "जीवन का प्रथम कर्तव्य",
+      "secondary_keywords": [
+        "गर्भ में जीव का संकल्प",
+        "साक्षात्कारी गुरु की आवश्यकता",
+        "मोक्ष का अर्थ मोह का क्षय",
+        "नर से नारायण"
+      ],
+      "meta_description": "जीवन का प्रथम कर्तव्य क्या है? आचार्य उपेंद्र जी वह वचन याद दिलाते हैं जो हर जीव गर्भ में स्वयं से करता है: गुरु की खोज, प्रायश्चित, पुण्य कार्य और मोक्ष।",
+      "tags": [
+        "कर्तव्य",
+        "सद्गुरु",
+        "पुनर्जन्म",
+        "माया",
+        "गरुड़ पुराण"
+      ]
+    },
+    "en": {
+      "slug": "first-duty-in-life",
+      "focus_keyword": "first duty in life",
+      "secondary_keywords": [
+        "promise made in the womb Garuda Purana",
+        "why we need a realized Guru",
+        "moksha meaning end of attachment",
+        "nara to Narayana"
+      ],
+      "meta_description": "What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realized Guru, atone, do good, seek moksha.",
+      "tags": [
+        "Duty",
+        "Sadguru",
+        "Rebirth",
+        "Maya",
+        "Garuda Purana"
+      ]
+    }
+  }
+}

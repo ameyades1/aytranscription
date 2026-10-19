@@ -1,0 +1,94 @@
+{
+  "title": {
+    "hi": "पतिव्रता का अर्थ: दबना नहीं, तेज से जीना | आचार्य उपेंद्र जी",
+    "en": "Pativrata Meaning: Living with Radiance, Not Submission"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "पुराने घर के बरामदे में लकड़ी के खंभे के पास खड़ी, सुनहरी-मैरून साड़ी और बिंदी लगाए एक महिला, हाथ जोड़े आत्मविश्वास से मुस्कुराती हुई",
+      "en": "A woman in a gold and maroon sari and bindi stands by a carved wooden pillar in the hallway of a traditional home, hands clasped, smiling with quiet confidence"
+    },
+    "inline.jpg": {
+      "hi": "उत्सव की रोशनी में भैंसे के रूप वाले असुर महिषासुर का भाले से वध करती अनेक भुजाओं वाली माँ दुर्गा की प्रतिमा",
+      "en": "A murti of many-armed Devi Durga spearing the buffalo demon Mahishasura, lit by warm festival lights"
+    },
+    "2J9rmfsbeSQ.jpg": {
+      "hi": "वीडियो: Married or Not, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Married or Not, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "विनम्र भी, निडर भी",
+      "en": "Gentle, and unafraid"
+    },
+    "inline.jpg": {
+      "hi": "जहाँ आवश्यक हो, महिषासुरमर्दिनी",
+      "en": "Mahishasuramardini, when the moment calls"
+    }
+  },
+  "links": [
+    {
+      "talk": "spiritual_power_women_kali_yug",
+      "hi": "अपनी वाणी से बोलना",
+      "en": "speak in her own voice"
+    },
+    {
+      "talk": "anyone_grant_liberation_living_or_dead",
+      "hi": "आपके कर्म आपको मुक्ति की ओर ले जाने चाहिए",
+      "en": "What you do should carry you towards liberation"
+    },
+    {
+      "talk": "stop_tolerating_toxic_love",
+      "hi": "वह सहन नहीं करना है",
+      "en": "she must not put up with it"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "वैवाहिक जीवन में समस्या आती है",
+      "en": "too much contact brings trouble into married life"
+    },
+    {
+      "talk": "when_love_turns_into_control",
+      "hi": "कुछ समय स्वतंत्र जीने दीजिए",
+      "en": "let him live on his own for a while"
+    }
+  ],
+  "also_read": {
+    "talk": "divine_power_every_woman_holds",
+    "after": {
+      "hi": "पतिव्रता: देवी का स्वरूप",
+      "en": "Pativrata: A Form of the Goddess"
+    }
+  },
+  "related": [
+    "future_lies_in_hands_message_to_women",
+    "marriage_giving_not_taking_relationships",
+    "gyan_sarovar_mount_abu_women_address"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "pativrata-ka-arth",
+      "focus_keyword": "पतिव्रता का अर्थ",
+      "secondary_keywords": [
+        "पतिव्रता धर्म क्या है",
+        "ससुराल में ना कैसे कहें",
+        "शादी के बाद मायके से कितनी बात करें"
+      ],
+      "meta_description": "क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती।",
+      "tags": ["पतिव्रता", "विवाह", "नारी शक्ति", "कर्मयोग", "मोह"]
+    },
+    "en": {
+      "slug": "pativrata-meaning",
+      "focus_keyword": "pativrata meaning",
+      "secondary_keywords": [
+        "pativrata dharma",
+        "how to say no to in-laws",
+        "married daughter calling parents too often"
+      ],
+      "meta_description": "Does being a pativrata mean silently enduring everything? Acharya Upendra Ji explains why a devoted wife lives with tej, speaks up and refuses abuse.",
+      "tags": ["Pativrata", "Marriage", "Women's Empowerment", "Karma Yoga", "Attachment"]
+    }
+  }
+}

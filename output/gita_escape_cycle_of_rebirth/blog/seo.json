@@ -1,0 +1,105 @@
+{
+  "title": {
+    "hi": "जरा-मरण से मुक्ति: गीता 7.29 और बूढ़े मन का बंधन",
+    "en": "Escape the Cycle of Rebirth: Gita 7.29 on the Old Mind"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुबह की सुनहरी धूप में बगीचे के आँगन में योग मैट पर वीरभद्रासन करती, सफ़ेद कुर्ता-पायजामा पहने मुस्कुराती सफ़ेद बालों वाली एक वृद्ध स्त्री",
+      "en": "A smiling grey-haired older woman in a white kurta holding a warrior yoga pose on a mat in a sunlit garden courtyard"
+    },
+    "inline.jpg": {
+      "hi": "झील किनारे पत्थर पर बैठकर पैर पकड़े योग मुद्रा में खिंचाव करता सफ़ेद बालों और दाढ़ी वाला पुरुष, पीछे पहाड़ियाँ और पानी में झलकता पुराना मंदिर",
+      "en": "A grey-haired, bearded man in white stretching in a seated yoga pose on a stone ledge by a lake, with hills and an old temple reflected behind him"
+    },
+    "bZ7mcPw99Tc.jpg": {
+      "hi": "वीडियो: Why Are We Born Again?, ब्रह्मर्षि आचार्य उपेंद्र जी और तारों भरे आकाश में चमकते पदचिह्नों से घिरा सोता हुआ शिशु",
+      "en": "Video: Why Are We Born Again?, Brahmarshi Acharya Upendra Ji beside a sleeping newborn ringed by glowing footprints under a starry sky"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "शरीर की उम्र बढ़े, मन युवा रहे",
+      "en": "The body ages, the mind stays young"
+    },
+    "inline.jpg": {
+      "hi": "हर आयु में ऊर्जा",
+      "en": "Energy at every age"
+    }
+  },
+  "links": [
+    {
+      "talk": "art_living_life",
+      "hi": "क्या हमने कभी सोचा है कि हमारा भी वह दिन कभी आएगा",
+      "en": "whether we have ever considered that our own day will come too"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "शरण जाना यानी किसी के सामने झुकना",
+      "en": "To take refuge is to bow before someone"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "राजमहल के ठाट-बाट में",
+      "en": "in the splendour of the palace"
+    },
+    {
+      "talk": "spiritual_age_matters_physical_age",
+      "hi": "शरीर बूढ़ा हो सकता है, लेकिन अगर मन बूढ़ा हो गया",
+      "en": "the body may grow old, but if the mind grows old"
+    },
+    {
+      "talk": "not_wait_until_retirement_transform_life",
+      "hi": "शारीरिक काम समाप्त हो सकते हैं, पर तुम्हारा कार्य समाप्त नहीं होता",
+      "en": "Your physical work may come to an end, but your purpose in life does not"
+    }
+  ],
+  "also_read": {
+    "talk": "chanting_om_final_breath_liberation",
+    "after": {
+      "hi": "क्या हमने सचमुच अपना कर्तव्य समझ लिया है?",
+      "en": "Do We Really Understand Our Duty?"
+    }
+  },
+  "related": [
+    "biggest_spiritual_misconception_about_death",
+    "spiritual_age_matters_physical_age",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "moksha",
+    "hi": {
+      "slug": "jara-maran-se-mukti",
+      "focus_keyword": "जरा-मरण से मुक्ति",
+      "secondary_keywords": [
+        "गीता 7.29 का अर्थ",
+        "जन्म-मरण के चक्र से मुक्ति",
+        "बुढ़ापा शरीर का नहीं मन का"
+      ],
+      "meta_description": "जरा-मरण से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं। गीता 7.29 और बुद्ध की कथा से आचार्य उपेंद्र जी समझाते हैं कि बूढ़ा मन बार-बार जन्म का कारण क्यों बनता है।",
+      "tags": [
+        "भगवद्गीता",
+        "पुनर्जन्म",
+        "शरणागति",
+        "वैराग्य"
+      ]
+    },
+    "en": {
+      "slug": "escape-cycle-of-rebirth",
+      "focus_keyword": "escape the cycle of rebirth",
+      "secondary_keywords": [
+        "Bhagavad Gita 7.29 meaning",
+        "freedom from old age and death",
+        "old mind not old body",
+        "why are we born again"
+      ],
+      "meta_description": "Why are we born again? Through Gita 7.29 and the Buddha's story, Acharya Upendra Ji explains how an old mind, not an old body, keeps us in rebirth.",
+      "tags": [
+        "Bhagavad Gita",
+        "Rebirth",
+        "Sharanagati",
+        "Vairagya"
+      ]
+    }
+  }
+}

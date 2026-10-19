@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ: धर्म की फलश्रुति दिखाओ",
+    "en": "Spiritual Meaning of Secularism: Show the Fruits of Faith"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय एक पहाड़ी के शिखर की ओर अलग-अलग पगडंडियों से चढ़ते अनेक भारतीय स्त्री-पुरुष",
+      "en": "Many Indian men and women climbing a hill at sunset by different trails that all lead to one summit"
+    },
+    "inline.jpg": {
+      "hi": "घर के द्वार पर पूजा की थाली लिए मुस्कुराती स्त्री और उसका परिवार, हाथ जोड़कर खड़े अतिथि का स्वागत करते हुए",
+      "en": "A smiling woman holding a puja plate at the door, with her family beside her, welcoming a guest who greets them with folded hands"
+    },
+    "A8DTW5a8qvM.jpg": {
+      "hi": "वीडियो: What Is the Spiritual Meaning of Secularism, आचार्य उपेंद्र जी, पीछे तिरंगा और अनेक धर्मों के प्रतीकों वाला तराजू",
+      "en": "Video: What Is the Spiritual Meaning of Secularism, Acharya Upendra Ji with the tricolour and a balance holding symbols of many faiths"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सत्य एक, मार्ग अनेक",
+      "en": "One truth, many paths"
+    },
+    "inline.jpg": {
+      "hi": "स्वागत हो, पर विवेक के साथ",
+      "en": "Welcome, with discernment"
+    }
+  },
+  "links": [
+    {
+      "talk": "ultimate_source_learn_about_every_religion",
+      "hi": "सारे धर्म और पंथ एक ही सत्य",
+      "en": "every religion and sect is pointing to the same truth"
+    },
+    {
+      "talk": "dharma_teaches_us",
+      "hi": "मैं अपना धर्म कितना पक्का कर सकता हूं",
+      "en": "how firmly I can establish my own"
+    },
+    {
+      "talk": "evolution_of_dharma_sanatan_dharma",
+      "hi": "सनातन धर्म का अर्थ ही है",
+      "en": "The very meaning of Sanatana Dharma"
+    },
+    {
+      "talk": "see_lord_everyone_but_treat_merit",
+      "hi": "किसी को भी, कहीं भी, कैसे भी रख लो",
+      "en": "letting anyone stay anywhere, on any terms"
+    },
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "अर्थशास्त्र और राजनीति की थोड़ी सीख",
+      "en": "his teachings on governance"
+    }
+  ],
+  "also_read": {
+    "talk": "truly_independent",
+    "after": {
+      "hi": "अतिथि देवो भव, पर विवेक के साथ",
+      "en": "Treat the Guest as God, but with Discernment"
+    }
+  },
+  "related": [
+    "future_country_bharat_know",
+    "why_society_remains_divided_interview",
+    "power_of_collectivity"
+  ],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "dharmanirpekshata-ka-adhyatmik-arth",
+      "focus_keyword": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ",
+      "secondary_keywords": ["एकं सद्विप्रा बहुधा वदन्ति का अर्थ", "अतिथि देवो भव का अर्थ", "योग के पांच यम", "सेक्युलर का अर्थ"],
+      "meta_description": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ क्या है? आचार्य उपेंद्र जी: सत्य एक है, द्वेष नहीं दृढ़ता, विवेक के साथ अतिथि सत्कार, और पांच यमों की फलश्रुति।",
+      "tags": ["सर्वधर्म समभाव", "पतंजलि योगसूत्र", "अहिंसा", "स्वतंत्रता दिवस", "चाणक्य"]
+    },
+    "en": {
+      "slug": "spiritual-meaning-of-secularism",
+      "focus_keyword": "spiritual meaning of secularism",
+      "secondary_keywords": ["ekam sat vipra bahudha vadanti meaning", "atithi devo bhava meaning", "five yamas of Patanjali"],
+      "meta_description": "What is the spiritual meaning of secularism? Acharya Upendra Ji on why Truth is one, welcoming guests with discernment, and living the five yamas.",
+      "tags": ["Interfaith Harmony", "Patanjali Yoga Sutras", "Ahimsa", "Independence Day", "Chanakya"]
+    }
+  }
+}

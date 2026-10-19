@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
+    "en": "How to Fix Your Vastu Without Breaking Down Walls"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप से भरे पारंपरिक भारतीय घर में सफ़ेद साड़ी पहने महिला फर्श पर फूलों की रंगोली बनाती हुई, पास में कुत्ते को सहलाता बालक, पीछे रसोई में खाना बनाता पुरुष, चारों ओर पौधे और लकड़ी का झूला",
+      "en": "A woman in a white sari making a flower rangoli on the floor of a sunlit traditional Indian home, a boy stroking a dog nearby and a man cooking in the kitchen behind, with plants and a wooden swing"
+    },
+    "inline.jpg": {
+      "hi": "शाम की सुनहरी रोशनी में शांत, सुव्यवस्थित बैठक: बीच में लकड़ी की मेज़ और जूट की दरी, सोफ़ा, दो कुर्सियाँ, पीतल का दीपस्तंभ, देव-प्रतिमा और दीवार पर गोल मंडल-आकृतियाँ",
+      "en": "A calm, orderly living room in warm golden light: a wooden coffee table on a jute rug, a sofa, two armchairs, a brass lamp stand, a small deity figure and round mandala art on the walls"
+    },
+    "sfXdESZA-GQ.jpg": {
+      "hi": "वीडियो: अपने स्थान में सकारात्मक ऊर्जा का संचार करें (Turn Your Home Into a Powerhouse), सफ़ेद पोलो शर्ट में निशांत भावा और सफ़ेद कुर्ते में आचार्य उपेंद्र जी आमने-सामने, पीछे सुनहरे आकाश तले सीढ़ियों के ऊपर एक भवन",
+      "en": "Video: Turn Your Home Into a Powerhouse, Nishant Bhava in a white polo shirt facing Acharya Upendra Ji in a white kurta, with a glowing building atop stone steps behind them"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "स्थान की ऊर्जा, परिवार का सुख",
+      "en": "A home's energy shapes the life within"
+    },
+    "inline.jpg": {
+      "hi": "दीवारें वही, स्पंदन नए",
+      "en": "Same walls, new vibrations"
+    }
+  },
+  "links": [
+    {
+      "talk": "decides_destiny",
+      "hi": "हर व्यक्ति का अपना भाग्य है",
+      "en": "every person carries their own destiny"
+    },
+    {
+      "talk": "big_pitru_dosh_understanding_pitru_rin",
+      "hi": "पितृ दोष",
+      "en": "pitru dosha"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "धन वर्षा में नहीं आता",
+      "en": "money does not fall like rain"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "वे विष्णु के साथ आती हैं",
+      "en": "she comes with Lord Vishnu"
+    },
+    {
+      "talk": "lakshmi_come_some_people_not_others",
+      "hi": "केवल लक्ष्मी के पीछे भागेंगे",
+      "en": "Chase Lakshmi alone"
+    }
+  ],
+  "also_read": {
+    "talk": "secrets_of_becoming_billionaire_marathi",
+    "after": {
+      "hi": "व्यापार की सफलता: श्रीविद्या का सूत्र",
+      "en": "Business Success: The Shri Vidya Formula"
+    }
+  },
+  "related": [
+    "decides_destiny",
+    "become_billionaire_shree_vidya_secrets",
+    "lakshmi_come_some_people_not_others"
+  ],
+  "wordpress": {
+    "category": "sadhana",
+    "hi": {
+      "slug": "vastu-sudhar-bina-tod-phod",
+      "focus_keyword": "वास्तु सुधार",
+      "secondary_keywords": [
+        "बिना तोड़-फोड़ वास्तु उपाय",
+        "फ्लैट के लिए वास्तु",
+        "वास्तु यंत्र",
+        "वास्तु दोष के उपाय"
+      ],
+      "meta_description": "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
+      "tags": [
+        "वास्तु",
+        "श्री यंत्र",
+        "श्री विद्या",
+        "लक्ष्मी",
+        "विष्णु"
+      ]
+    },
+    "en": {
+      "slug": "fix-your-vastu-without-demolition",
+      "focus_keyword": "fix your Vastu",
+      "secondary_keywords": [
+        "Vastu without demolition",
+        "Vastu for flats",
+        "Vastu yantras",
+        "Vastu Transformation"
+      ],
+      "meta_description": "Can you fix your Vastu without breaking walls? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
+      "tags": [
+        "Vastu",
+        "Shri Yantra",
+        "Shri Vidya",
+        "Lakshmi",
+        "Vishnu"
+      ]
+    }
+  }
+}

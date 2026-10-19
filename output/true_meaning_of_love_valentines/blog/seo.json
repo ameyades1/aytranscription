@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "सच्चा प्रेम क्या है? प्रेम और मोह का अंतर | आचार्य जी",
+    "en": "True Meaning of Love: Love vs Attachment | Acharya Ji"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय नदी किनारे बेंच पर एक-दूसरे का हाथ थामे बैठे बुज़ुर्ग पति-पत्नी, पीछे से दिखते हुए",
+      "en": "An elderly couple seen from behind, holding hands on a riverside bench at sunset"
+    },
+    "inline.jpg": {
+      "hi": "घर में बैठी एक माँ मुस्कुराते हुए अपने छोटे बेटे को थाली से अपने हाथ से खाना खिला रही है",
+      "en": "A smiling mother sitting at home feeds her young son by hand from a steel plate"
+    },
+    "fbSCA8hutgs.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Know The Real Meaning of Love\" का थंबनेल, समुद्र तट पर हाथ थामे चलता एक जोड़ा",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Know The Real Meaning of Love\", with a couple walking hand in hand on a beach"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जो दोनों ओर से बहे, वही प्रेम",
+      "en": "Love that flows both ways"
+    },
+    "inline.jpg": {
+      "hi": "प्रेम या मोह?",
+      "en": "Love, or attachment?"
+    }
+  },
+  "links": [
+    {
+      "talk": "attain_divine_qualities_empower_spiritual",
+      "hi": "महालक्ष्मी की पूजा में",
+      "en": "spoken of in the worship of Mahalakshmi"
+    },
+    {
+      "talk": "truly_desire_or_infatuation",
+      "hi": "अलग-अलग ठीक से समझना होगा",
+      "en": "understand love and desire clearly, each on its own"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "गृहस्थ आश्रम में प्रवेश करते ही",
+      "en": "did you find God the moment you entered"
+    },
+    {
+      "talk": "when_love_turns_into_control",
+      "hi": "एक माँ अपने बेटे से प्रेम करती ही जाती है",
+      "en": "A mother goes on loving her son no matter what"
+    },
+    {
+      "talk": "married_or_not_insights",
+      "hi": "यदि पत्नी का प्रेम पति की शराब छुड़ा सके",
+      "en": "free her husband from drinking"
+    }
+  ],
+  "also_read": {
+    "talk": "why_blind_love_is_dangerous",
+    "after": {
+      "hi": "जिसे हम प्रेम कहते हैं, वह असल में क्या है?",
+      "en": "What Do We Really Mean When We Say \"Love\"?"
+    }
+  },
+  "related": [
+    "loving_in_the_right_way_valentines",
+    "too_bad_to_be_too_good_valentines",
+    "love_respect_friendship_connection"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "sachcha-prem-kya-hai",
+      "focus_keyword": "सच्चा प्रेम क्या है",
+      "secondary_keywords": [
+        "प्रेम और मोह में अंतर",
+        "एकतरफ़ा प्रेम",
+        "प्रेम ही ईश्वर है",
+        "sachcha pyar kya hai"
+      ],
+      "meta_description": "जिसे हम प्रेम कहते हैं, क्या वह सचमुच प्रेम है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।",
+      "tags": [
+        "वैलेंटाइन डे",
+        "मोह",
+        "लक्ष्मी",
+        "विवाह",
+        "पतिव्रता"
+      ]
+    },
+    "en": {
+      "slug": "true-meaning-of-love",
+      "focus_keyword": "true meaning of love",
+      "secondary_keywords": [
+        "love vs attachment",
+        "is one-sided love real love",
+        "love is God",
+        "what is love in Hinduism"
+      ],
+      "meta_description": "Is what we call love really love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.",
+      "tags": [
+        "Valentine's Day",
+        "Attachment",
+        "Lakshmi",
+        "Marriage",
+        "Pativrata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग",
+    "en": "Why Lakshmi Comes to Some People: Goal, Love, Sacrifice"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "शाम की सुनहरी रोशनी में घर का खुला द्वार, बेंत की कुर्सी पर रखी सुनहरी ज़री वाली लाल रेशमी साड़ी, गेंदे की मालाएं, फूलों की रंगोली और उसके चारों ओर जलते मिट्टी के दीये",
+      "en": "An open doorway of a home in warm evening light, a red silk sari with gold zari draped over a cane chair, marigold garlands, a flower rangoli and lit clay diyas around it"
+    },
+    "inline.jpg": {
+      "hi": "पुराने पत्थर के कमरे में खिड़की से आती धूप में लकड़ी के स्टैंड पर टंगी सुनहरी किनारी वाली लाल रेशमी साड़ी, पास में पीतल के दीपस्तंभ",
+      "en": "A red silk sari with a gold border hanging on a wooden stand in an old stone room lit by sunlight from a window, with brass lamp stands nearby"
+    },
+    "x1eZQdFF8X4.jpg": {
+      "hi": "वीडियो: घर में लक्ष्मी क्यों नहीं ठहरतीं?, ब्रह्मर्षि आचार्य उपेंद्र जी के साथ कमल पर विराजमान माता लक्ष्मी",
+      "en": "Video: घर में लक्ष्मी क्यों नहीं ठहरतीं? (Why does Lakshmi not stay in the home?), Brahmarshi Acharya Upendra Ji beside Goddess Lakshmi seated on a lotus"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "लक्ष्मी कभी अकेली नहीं आतीं",
+      "en": "Lakshmi never comes alone"
+    },
+    "inline.jpg": {
+      "hi": "लाल रंग: प्रेम भी, अग्नि भी",
+      "en": "Red: the colour of love, and of fire"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "अग्नि की तरह, पूरी शक्ति के साथ काम करना",
+      "en": "Like fire, you should work with all your strength"
+    },
+    {
+      "talk": "punya_vs_paap",
+      "hi": "तो क्या पैसा नहीं है, इसलिए मैं पापी हूं?",
+      "en": "Does a lack of money mean you are a sinner?"
+    },
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "किसी कर्म का भोग चल रहा हो",
+      "en": "reaping the fruit of some past action"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "वे पूरे विश्व का पालन करते हैं",
+      "en": "who looks after the entire universe"
+    },
+    {
+      "talk": "true_wealth_money_health_respect_or",
+      "hi": "धन किसके पास आता है",
+      "en": "to whom does wealth come?"
+    }
+  ],
+  "also_read": {
+    "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+    "after": {
+      "hi": "लाल साड़ी का दूसरा अर्थ: रजोगुण और यज्ञ भाव",
+      "en": "The Second Meaning of the Red Sari: Rajoguna and the Spirit of Offering"
+    }
+  },
+  "related": [
+    "true_wealth_money_health_respect_or",
+    "goddess_lakshmi_lord_vishnu_stories",
+    "become_billionaire_shree_vidya_secrets"
+  ],
+  "wordpress": {
+    "category": "success",
+    "hi": {
+      "slug": "lakshmi-kiske-paas-aati-hai",
+      "focus_keyword": "लक्ष्मी किसके पास आती है",
+      "secondary_keywords": [
+        "घर में लक्ष्मी क्यों नहीं ठहरती",
+        "लक्ष्मी चंचल क्यों है",
+        "लक्ष्मी की लाल साड़ी का अर्थ",
+        "लक्ष्मी और अलक्ष्मी"
+      ],
+      "meta_description": "लक्ष्मी किसके पास आती है और किसके पास टिकती है? आचार्य उपेंद्र जी बताते हैं कि लक्ष्मी लक्ष्य हैं, और उनकी लाल साड़ी प्रेम, कर्मशीलता और त्याग की प्रतीक है।",
+      "tags": [
+        "लक्ष्मी",
+        "विष्णु",
+        "रजोगुण",
+        "यज्ञ",
+        "दुर्गा सप्तशती"
+      ]
+    },
+    "en": {
+      "slug": "why-lakshmi-comes-to-some-people",
+      "focus_keyword": "why Lakshmi comes to some people",
+      "secondary_keywords": [
+        "why Lakshmi does not stay",
+        "why is Lakshmi called chanchala",
+        "meaning of Lakshmi's red sari",
+        "Lakshmi and Alakshmi"
+      ],
+      "meta_description": "Why does Lakshmi come to some people and not others? Acharya Upendra Ji explains Lakshmi as lakshya, a goal, and her red sari as love, drive and sacrifice.",
+      "tags": [
+        "Lakshmi",
+        "Vishnu",
+        "Rajas",
+        "Yajna",
+        "Durga Saptashati"
+      ]
+    }
+  }
+}

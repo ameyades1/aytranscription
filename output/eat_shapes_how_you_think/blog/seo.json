@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "स्थानीय भोजन का महत्व: जहाँ जन्म, वहीं का अन्न",
+    "en": "Why Eat Locally Grown Food? Karma, Soil and Your Plate"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "गाँव के आँगन में लकड़ी की मेज़ पर केले के पत्ते वाली थाली में लाल और काले चावल, रोटियाँ और मिट्टी की कटोरियों में सब्ज़ियाँ, चारों ओर टोकरियों में अनाज, ताज़ी सब्ज़ियाँ और हल्दी, पीछे लाल मिट्टी के खेत",
+      "en": "A thali on a banana leaf with red and black rice, rotis and vegetables in clay bowls on a wooden table in a village courtyard, surrounded by baskets of grain, fresh vegetables and turmeric, with red-soil fields behind"
+    },
+    "inline.jpg": {
+      "hi": "लाल मिट्टी पर बोरी के टाट पर रखी ताज़ी खुदी गाजर, आलू और प्याज़ को समेटते एक किसान के हाथ",
+      "en": "A farmer's hands gathering freshly dug carrots, potatoes and onions on a burlap cloth laid over red soil"
+    },
+    "I8XxEUhOuRY.jpg": {
+      "hi": "वीडियो: What You Eat Decides How You Think!, ब्रह्मर्षि आचार्य उपेंद्र जी और सब्ज़ियों से बना मस्तिष्क थामे हाथ, Mindful Eating Series",
+      "en": "Video: What You Eat Decides How You Think!, Brahmarshi Acharya Upendra Ji beside hands holding a brain made of vegetables, Mindful Eating Series"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "अपनी ही भूमि से उपजी थाली",
+      "en": "A plate grown from your own land"
+    },
+    "inline.jpg": {
+      "hi": "जिस मिट्टी में जन्म, उसी का अन्न",
+      "en": "The soil you were born to, the food it gives"
+    }
+  },
+  "links": [
+    {
+      "talk": "burn_your_karma_before_it_burns_you",
+      "hi": "पिछले कर्मों से बना भाग्य",
+      "en": "the destiny shaped by your past actions"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "उसमें उसके कर्म का रहस्य छिपा है",
+      "en": "holds the secret of your karma"
+    },
+    {
+      "talk": "ghee_more_than_food",
+      "hi": "जो गुण उसने खाया है, वही गुण उस प्राणी में होगा",
+      "en": "the qualities they eat become their own"
+    },
+    {
+      "talk": "diet_hindering_success_link_prosperity",
+      "hi": "जो हम खाते हैं, वही गुण हमारे भीतर आते हैं",
+      "en": "The qualities of what you eat become your own qualities"
+    }
+  ],
+  "also_read": {
+    "talk": "water_is_your_first_medicine",
+    "after": {
+      "hi": "मिट्टी, पृथ्वी तत्व और प्रारब्ध",
+      "en": "The Soil, the Earth Element and Destiny"
+    }
+  },
+  "related": [
+    "diet_hindering_success_link_prosperity",
+    "ghee_more_than_food",
+    "non_veg_food_remains_body_truths"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "sthaniya-bhojan-ka-mahatva",
+      "focus_keyword": "स्थानीय भोजन का महत्व",
+      "secondary_keywords": [
+        "जहाँ जन्म वहीं का अन्न",
+        "भोजन और प्रारब्ध",
+        "विदेशी भोजन रोज़ खाना सही है या नहीं",
+        "जैसा अन्न वैसा मन"
+      ],
+      "meta_description": "जहाँ जन्म, वहीं का अन्न। आचार्य उपेंद्र जी बताते हैं स्थानीय भोजन का महत्व, जन्मभूमि की मिट्टी का कर्म और प्रारब्ध से संबंध, और विदेशी भोजन कब ठीक है।",
+      "tags": [
+        "माइंडफुल ईटिंग सीरीज़",
+        "प्रारब्ध",
+        "स्थानीय भोजन",
+        "पंचतत्व"
+      ]
+    },
+    "en": {
+      "slug": "why-eat-locally-grown-food",
+      "focus_keyword": "why eat locally grown food",
+      "secondary_keywords": [
+        "eat the food of the land you were born in",
+        "food and prarabdha",
+        "is eating foreign food every day bad",
+        "what you eat shapes how you think"
+      ],
+      "meta_description": "Why eat locally grown food? Acharya Upendra Ji links the soil of your birthplace to karma and prarabdha, and explains why foreign food should stay a treat.",
+      "tags": [
+        "Mindful Eating Series",
+        "Prarabdha",
+        "Local Food",
+        "Five Elements"
+      ]
+    }
+  }
+}

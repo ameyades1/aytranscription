@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "काम का असली अर्थ: प्रेम या केवल आकर्षण? | आचार्य जी",
+    "en": "Love vs Lust: The True Meaning of Kama | Acharya Ji"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय घाट और नदी की पृष्ठभूमि में एक-दूसरे की ओर बढ़ते पुरुष और स्त्री के हाथ",
+      "en": "A man's and a woman's hands reaching towards each other against a river ghat at sunset"
+    },
+    "inline.jpg": {
+      "hi": "घर में बिस्तर पर बैठे एक बुज़ुर्ग रोगी का हाथ थामकर उनसे स्नेह से बात करता एक युवा डॉक्टर",
+      "en": "A young doctor holds the hand of an elderly patient sitting on a bed at home and talks with him kindly"
+    },
+    "MV8HZe_1Czg.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Do You Really Desire or Is It Infatuation?\" का थंबनेल, गाड़ी और व्यक्ति के सपने देखता एक युवक",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Do You Really Desire or Is It Infatuation?\", with a young man daydreaming of a car and a person"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "जहाँ प्रेम है, वहाँ स्पर्श है",
+      "en": "Where there is love, there is touch"
+    },
+    "inline.jpg": {
+      "hi": "स्पर्श के पीछे का हेतु",
+      "en": "The intention behind the touch"
+    }
+  },
+  "links": [
+    {"talk": "true_meaning_of_love_valentines", "hi": "सच्चा प्रेम", "en": "true love"},
+    {"talk": "marriage_giving_not_taking_relationships", "hi": "प्रेम केवल विवाह तक सीमित नहीं है", "en": "love is not confined to marriage"},
+    {"talk": "goddess_lakshmi_lord_vishnu_stories", "hi": "लक्ष्मी तत्व", "en": "Lakshmi tattva"},
+    {"talk": "true_power_of_scriptures_decoded", "hi": "कामशास्त्र", "en": "Kamashastra"},
+    {"talk": "when_kalki_avatar_come", "hi": "कल्कि", "en": "Kalki"}
+  ],
+  "also_read": {
+    "talk": "why_blind_love_is_dangerous",
+    "after": {"hi": "कलयुग की सबसे बड़ी उलझन", "en": "The Great Confusion of Kali Yuga"}
+  },
+  "related": ["true_meaning_of_love_valentines", "love_respect_friendship_connection", "why_blind_love_is_dangerous"],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "kaam-ka-asli-arth",
+      "focus_keyword": "काम का असली अर्थ",
+      "secondary_keywords": ["प्रेम और वासना में अंतर", "प्रेम या आकर्षण", "काम पुरुषार्थ क्या है"],
+      "meta_description": "जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।",
+      "tags": ["पुरुषार्थ", "वासना", "कलियुग", "कल्कि अवतार", "भक्ति"]
+    },
+    "en": {
+      "slug": "love-vs-lust",
+      "focus_keyword": "love vs lust",
+      "secondary_keywords": ["true meaning of kama", "is it love or infatuation", "kama purushartha meaning"],
+      "meta_description": "Is it love or attraction? Acharya Upendra Ji explains the true meaning of kama, the two levels of desire, and why the intention behind a touch matters.",
+      "tags": ["Purusharthas", "Vasana", "Kali Yuga", "Kalki Avatar", "Bhakti"]
+    }
+  }
+}

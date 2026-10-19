@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "तामसिक रिश्ता क्या है? अत्याचार सहना गुण नहीं",
+    "en": "Why Do People Stay in Toxic Relationships? The Tamasic Trap"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "धूप में पुराने पत्थर के दरवाज़े पर खड़ी, हल्के बादामी सूट और दुपट्टे में एक युवती, एक हाथ से चौखट थामे, बाहर उजाले की ओर गंभीर नज़र से देखती",
+      "en": "A young woman in a pale beige kurta and dupatta stands in an old stone doorway, one hand on the frame, looking out with a serious gaze toward the sunlight"
+    },
+    "inline.jpg": {
+      "hi": "धूप में सफ़ेद लकड़ी की बाड़, एक ओर गेंदे के नारंगी फूल और दूसरी ओर लाल-गुलाबी फूलों की क्यारी, पीछे खपरैल वाला घर",
+      "en": "A white wooden picket fence in sunlight with orange marigolds on one side and red and pink flowers on the other, a tiled-roof house behind"
+    },
+    "IZr0L44iccY.jpg": {
+      "hi": "वीडियो: Stop Tolerating Toxic Love, आचार्य उपेंद्र जी का प्रवचन",
+      "en": "Video: Stop Tolerating Toxic Love, a discourse by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "दहलीज़ पार करने का साहस",
+      "en": "The courage to cross the threshold"
+    },
+    "inline.jpg": {
+      "hi": "सीमा भी, खिलना भी",
+      "en": "A boundary, and room to bloom"
+    }
+  },
+  "links": [
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "गुणों की दृष्टि से",
+      "en": "the three qualities of nature"
+    },
+    {
+      "talk": "why_blind_love_is_dangerous",
+      "hi": "रोज़ गालियां मिलती हैं, और वह सहता रहता है",
+      "en": "and every day they quietly take it"
+    },
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "ज्ञान के लिए गुरु के पास जाना होता है",
+      "en": "to gain it you have to go to the Guru"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "विवाह होते ही अपने कुछ नियम स्पष्ट हो जाने चाहिए",
+      "en": "From the moment you marry, a few rules of your own should be clear"
+    },
+    {
+      "talk": "every_moment_enlightened_master_new_birth",
+      "hi": "गुरु ने गुरु-कार्य दिया",
+      "en": "If the Guru gives you work to do"
+    }
+  ],
+  "also_read": {
+    "talk": "too_bad_to_be_too_good_valentines",
+    "after": {
+      "hi": "सहना: गुण या अज्ञान?",
+      "en": "Endurance: Virtue or Ignorance?"
+    }
+  },
+  "related": [
+    "married_or_not_insights",
+    "when_love_turns_into_control",
+    "twin_flames_soulmates_karmic_bonds"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "tamasik-rishta-kya-hai",
+      "focus_keyword": "तामसिक रिश्ता क्या है",
+      "secondary_keywords": [
+        "टॉक्सिक रिश्ते में लोग क्यों रहते हैं",
+        "रिश्ते में अत्याचार सहना",
+        "रिश्ते में स्वस्थ सीमाएं",
+        "आत्मविश्वास से ना कहना"
+      ],
+      "meta_description": "तामसिक रिश्ता क्या है? आचार्य उपेंद्र जी बताते हैं कि अत्याचार सहना सहिष्णुता नहीं, भय और आत्म-मूल्य की कमी है, और आत्मविश्वास से ना कहना क्यों ज़रूरी है।",
+      "tags": [
+        "त्रिगुण",
+        "तमोगुण",
+        "टॉक्सिक रिश्ते",
+        "आत्मविश्वास",
+        "विवाह"
+      ]
+    },
+    "en": {
+      "slug": "why-people-stay-in-toxic-relationships",
+      "focus_keyword": "why do people stay in toxic relationships",
+      "secondary_keywords": [
+        "tamasic relationship",
+        "is tolerating abuse a virtue",
+        "healthy boundaries in relationships",
+        "how to say no with confidence"
+      ],
+      "meta_description": "Why do people stay in toxic relationships? Acharya Upendra Ji explains tamasic clinging, why enduring abuse is not a virtue, and how to say a confident no.",
+      "tags": [
+        "Three Gunas",
+        "Tamas",
+        "Toxic Relationships",
+        "Self-Confidence",
+        "Marriage"
+      ]
+    }
+  }
+}

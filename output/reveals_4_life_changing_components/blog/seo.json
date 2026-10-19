@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "भाग्य कैसे बदलें? योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा",
+    "en": "How to Change Your Destiny: 4 Principles from Acharya Ji"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "खिड़की से आती गर्म रोशनी में पुरानी लकड़ी की मेज़ पर एक पंक्ति में रखी चार प्राचीन चाबियाँ",
+      "en": "Four antique keys laid in a row on a weathered wooden table in warm window light"
+    },
+    "inline.jpg": {
+      "hi": "लालटेन की रोशनी में लकड़ी की मेज़ पर बड़े कागज़ पर योजना का नक्शा बनाता एक व्यक्ति",
+      "en": "A man sketching a plan on a large sheet of paper at a wooden desk, lit by oil lamps"
+    },
+    "I8KubLzfuLs.jpg": {
+      "hi": "वीडियो: भाग्य बदलने के ४ सरल उपाय। ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: 4 Simple Ways to Change Your Destiny. Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "चार सूत्र, एक बदला हुआ भाग्य",
+      "en": "Four principles, one changed destiny"
+    },
+    "inline.jpg": {
+      "hi": "हर बदलाव की शुरुआत एक योजना से",
+      "en": "Every change begins with a plan"
+    }
+  },
+  "links": [
+    {
+      "talk": "manifesting_goals_correctly",
+      "hi": "इच्छाएँ तो बहुत सी हो सकती हैं",
+      "en": "You can have any number of wishes"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "पिछले जन्मों के कर्म",
+      "en": "including those from past lives"
+    },
+    {
+      "talk": "power_of_healing_antar_yog_science",
+      "hi": "बहुत से लोगों में यही कमी होती है",
+      "en": "Self-belief is exactly what many people lack"
+    },
+    {
+      "talk": "stop_asking_god_fix_your_life",
+      "hi": "ज्योतिष का अर्थ यह नहीं",
+      "en": "Astrology is not about asking"
+    },
+    {
+      "talk": "future_country_bharat_know",
+      "hi": "पूरे देश को बदलने के लिए कितनी बड़ी योजना चाहिए",
+      "en": "how great a plan must a whole country need"
+    }
+  ],
+  "also_read": {
+    "talk": "burn_your_karma_before_it_burns_you",
+    "after": {
+      "hi": "जो दुःख अभी आया नहीं, उसे आज ही रोको",
+      "en": "Stop Today the Suffering That Has Not Yet Come"
+    }
+  },
+  "related": [
+    "decides_destiny",
+    "destiny_awaits_obstacle_in_way",
+    "surrendering_to_guru"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "bhagya-kaise-badle",
+      "focus_keyword": "भाग्य कैसे बदलें",
+      "secondary_keywords": ["भाग्य बदलने के उपाय", "प्रारब्ध और पुरुषार्थ", "हेयं दुःखमनागतम् का अर्थ"],
+      "meta_description": "भाग्य कैसे बदलें? आचार्य उपेंद्र जी चार सूत्र बताते हैं: योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा, और योगसूत्र २.१६ से आने वाले दुःख को आज ही रोकना।",
+      "tags": ["प्रारब्ध", "आत्मविश्वास", "गुरु कृपा", "पतंजलि योगसूत्र"]
+    },
+    "en": {
+      "slug": "how-to-change-your-destiny",
+      "focus_keyword": "how to change your destiny",
+      "secondary_keywords": ["four principles to change destiny", "prarabdha and purushartha", "heyam duhkham anagatam meaning"],
+      "meta_description": "How to change your destiny? Acharya Upendra Ji gives four principles: a clear plan, prarabdha, self-belief and the Guru's grace, with Yoga Sutra 2.16.",
+      "tags": ["Prarabdha", "Self-Confidence", "Guru Kripa", "Patanjali Yoga Sutras"]
+    }
+  }
+}

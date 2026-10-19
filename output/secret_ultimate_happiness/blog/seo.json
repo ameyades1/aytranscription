@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "कौन सा ज्ञान मुक्ति देता है? परम आनंद का रहस्य",
+    "en": "Which Knowledge Leads to Liberation? The Secret of Bliss"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "हिमालय की बर्फ़ीली चोटियों और क्षितिज पर सुनहरे सूर्य के सामने चट्टान पर ध्यान में बैठा, हल्के रंग की चादर ओढ़े साधक",
+      "en": "A seeker wrapped in a cream shawl sits in meditation on a rocky ledge, facing snow-capped Himalayan peaks and a golden sun low on the horizon"
+    },
+    "inline.jpg": {
+      "hi": "खिड़की की धूप में हाथ में पकड़ी गोल नारंगी छन्नी, जिससे छनकर रोशनी खुली किताब के पन्ने पर नारंगी घेरा बनाती है",
+      "en": "A hand holds a round amber filter in window light, casting an orange circle of light onto the page of an open book"
+    },
+    "NQc60uQ0Mic.jpg": {
+      "hi": "वीडियो: The Secret to Ultimate Happiness, Pearls of Wisdom from Upanishad Series, आचार्य उपेंद्र जी",
+      "en": "Video: The Secret to Ultimate Happiness, Pearls of Wisdom from Upanishad Series, by Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "मन से परे, स्रोत के सम्मुख",
+      "en": "Beyond the mind, facing the Source"
+    },
+    "inline.jpg": {
+      "hi": "जैसी छन्नी, वैसा प्रकाश",
+      "en": "The light takes the colour of the filter"
+    }
+  },
+  "links": [
+    {
+      "talk": "without_guru_scriptures_can_mislead",
+      "hi": "किताबी ज्ञान, अपने आप जुटाया हुआ ज्ञान",
+      "en": "Knowledge gathered from books"
+    },
+    {
+      "talk": "who_real_doer_karma_ego_bhagavad",
+      "hi": "गीता के अनुसार यह कर्ता-भाव",
+      "en": "this sense of being the doer"
+    },
+    {
+      "talk": "why_satsang_does_not_change_your_life",
+      "hi": "सत्संग में आकर, कोर्स करके, किताब पढ़कर पाप नहीं रुकता",
+      "en": "Attending satsang, finishing a course or reading a book does not stop you from sinning"
+    },
+    {
+      "talk": "decides_destiny",
+      "hi": "जो नकारात्मक संस्कार बच गए",
+      "en": "especially the negative ones still left over"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "पूर्ण समर्पित शिष्य",
+      "en": "a disciple who has surrendered completely"
+    }
+  ],
+  "also_read": {
+    "talk": "three_gunas_karma",
+    "after": {
+      "hi": "आप शरीर, मन, बुद्धि नहीं हो",
+      "en": "You Are Not the Body, Mind or Intellect"
+    }
+  },
+  "related": [
+    "knowledge_work_for_you",
+    "true_disciple_change_your_life",
+    "what_is_a_guru"
+  ],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "kaun-sa-gyan-mukti-deta-hai",
+      "focus_keyword": "कौन सा ज्ञान मुक्ति देता है",
+      "secondary_keywords": [
+        "वासना क्या है",
+        "मैं कर्ता हूँ का भाव",
+        "किताबी ज्ञान और अहंकार",
+        "सद्गुरु की पहचान"
+      ],
+      "meta_description": "ज्ञान पाप से नहीं रोकता, फिर भी ज्ञानी को मोक्ष क्यों? आचार्य उपेंद्र जी समझाते हैं वासना, अहंकार और सद्गुरु का रहस्य, और कौन सा ज्ञान सच में मुक्त करता है।",
+      "tags": [
+        "अहंकार",
+        "वासना",
+        "सद्गुरु",
+        "शरणागति",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "which-knowledge-leads-to-liberation",
+      "focus_keyword": "which knowledge leads to liberation",
+      "secondary_keywords": [
+        "what is vasana",
+        "knowledge and ego",
+        "I am the doer Bhagavad Gita 3.27",
+        "qualities of a Sadguru"
+      ],
+      "meta_description": "Why doesn't knowledge stop sin, yet the wise attain moksha? Acharya Upendra Ji explains vasana, ego and the Sadguru, and which knowledge truly frees you.",
+      "tags": [
+        "Ego",
+        "Vasana",
+        "Sadguru",
+        "Sharanagati",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}

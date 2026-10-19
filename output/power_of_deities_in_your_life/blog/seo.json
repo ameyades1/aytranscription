@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "त्रिदेव और त्रिदेवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में",
+    "en": "Trimurti and Their Consorts: Three Powers in Your Life"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर की पत्थर की वेदी पर दीपकों के बीच पीतल के तीन आसन: बाईं ओर गुलाबी कमल, बीच में श्वेत शंख और दाईं ओर त्रिशूल, आसपास बिखरे फूल",
+      "en": "Three brass stands on a stone temple altar among oil lamps: a pink lotus on the left, a white conch in the centre and a trident on the right, with scattered flowers"
+    },
+    "inline.jpg": {
+      "hi": "धूप भरे कमरे में पुस्तकों के ढेर पर टिकी वीणा, पास में स्वर्ण-मुद्राओं की छोटी ढेरी, पीछे जलता दीपक और फूल",
+      "en": "A veena resting on a stack of books in a sunlit room, a small pile of gold coins beside it, with a lit lamp and flowers behind"
+    },
+    "4ZGq4KwZdOg.jpg": {
+      "hi": "वीडियो: Discover the Power of Deities in Your Life (अपने जीवन में देवताओं की शक्ति जानिए), ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी और शिव-पार्वती के चित्र",
+      "en": "Video: Discover the Power of Deities in Your Life, Brahmarshi Acharya Upendra Ji, with images of Brahma and Saraswati, Vishnu and Lakshmi, and Shiva and Parvati behind him"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रचना, पालन और त्याग: तीन शक्तियाँ",
+      "en": "To create, to sustain, to let go"
+    },
+    "inline.jpg": {
+      "hi": "धन से पहले ज्ञान",
+      "en": "Knowledge before wealth"
+    }
+  },
+  "links": [
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "सरस्वती, लक्ष्मी, काली",
+      "en": "Saraswati, Lakshmi, Kali"
+    },
+    {
+      "talk": "dharma_teaches_us",
+      "hi": "किसी प्रामाणिक स्रोत से पुष्ट ज्ञान",
+      "en": "knowledge confirmed by an authentic source"
+    },
+    {
+      "talk": "attain_divine_qualities_empower_spiritual",
+      "hi": "कितने लोग जानते हैं कि उस दिन सरस्वती का भी पूजन होता है",
+      "en": "how many people know that Saraswati is worshipped too"
+    },
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "शरीर जन्मा, तो जीवन भर उसका पालन करना है",
+      "en": "you have to care for it for the rest of its life"
+    },
+    {
+      "talk": "art_living_life",
+      "hi": "या तो आपको संसार छोड़ना होगा, या संसार आपको छोड़ देगा",
+      "en": "either you leave the world, or the world leaves you"
+    }
+  ],
+  "also_read": {
+    "talk": "real_role_maha_kali",
+    "after": {
+      "hi": "एक दिन सब छूटेगा: महाकाल और महाकाली",
+      "en": "One Day You Must Let Go of It All: Mahakala and Mahakali"
+    }
+  },
+  "related": [
+    "sattva_rajas_tamas_balance_success_liberation",
+    "goddess_lakshmi_lord_vishnu_stories",
+    "awaken_divine_shakti_kali_lakshmi_saraswati"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "tridev-aur-tridevi",
+      "focus_keyword": "त्रिदेव और त्रिदेवियाँ",
+      "secondary_keywords": [
+        "ब्रह्मा विष्णु महेश का अर्थ",
+        "देव और देवियाँ",
+        "सृष्टि पालन संहार का अर्थ",
+        "धन से पहले ज्ञान"
+      ],
+      "meta_description": "ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि त्रिदेव और त्रिदेवियाँ जीवन में रचना, पालन और त्याग की शक्तियाँ हैं।",
+      "tags": [
+        "त्रिदेव",
+        "त्रिगुण",
+        "सरस्वती",
+        "लक्ष्मी",
+        "महाकाली"
+      ]
+    },
+    "en": {
+      "slug": "trimurti-three-powers-in-your-life",
+      "focus_keyword": "Trimurti",
+      "secondary_keywords": [
+        "Trimurti and their consorts",
+        "Brahma Vishnu Mahesh meaning",
+        "gods and goddesses",
+        "knowledge before wealth Saraswati Lakshmi"
+      ],
+      "meta_description": "Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains the Trimurti and their consorts as your powers to create, sustain and let go.",
+      "tags": [
+        "Trimurti",
+        "Three Gunas",
+        "Saraswati",
+        "Lakshmi",
+        "Mahakali"
+      ]
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "भगवान को जानना या मानना? गणेश गीता का यथार्थ योग",
+    "en": "Know God, Don't Just Believe: The Ganesha Gita's Yoga"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "प्राचीन पत्थर के मंदिर में बैठा एक साधक, खुले द्वार के सामने गेंदे की माला पहने भगवान गणेश की पत्थर की मूर्ति, पीछे सूर्योदय का आकाश",
+      "en": "A seeker seated in an ancient stone temple facing a stone idol of Lord Ganesha with a marigold garland, framed by a doorway open to the rising sun"
+    },
+    "inline.jpg": {
+      "hi": "एक युवक धुंधले कमरे में किसी अनजान व्यक्ति की पुरानी श्वेत-श्याम तस्वीर हाथ में लिए उदास होकर उसे देख रहा है",
+      "en": "A young man in a dim room gazing pensively at an old black-and-white photograph of a stranger"
+    },
+    "3vpUtI7qrO0.jpg": {
+      "hi": "वीडियो: अपने भगवान को जानो, आचार्य उपेंद्र जी और भगवान गणेश की श्वेत मूर्ति",
+      "en": "Video: Know Your God, Acharya Upendra Ji beside a white idol of Lord Ganesha"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "रूप एक द्वार है, मंज़िल उसके पार",
+      "en": "The form is a doorway; the goal lies beyond"
+    },
+    "inline.jpg": {
+      "hi": "जिसे जानते नहीं, उससे प्रेम कैसा?",
+      "en": "How can you love someone you do not know?"
+    }
+  },
+  "links": [
+    {
+      "talk": "need_murtis_symbols_understand_god",
+      "hi": "निराकार को समझना कठिन है",
+      "en": "the formless is hard to grasp"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "पर जिसे पूज रहे हैं, उसे जानते नहीं",
+      "en": "Yet we do not know the One we are worshipping"
+    },
+    {
+      "talk": "stop_asking_god_fix_your_life",
+      "hi": "हमारी प्रार्थना अक्सर क्या होती है",
+      "en": "What do our prayers usually sound like"
+    },
+    {
+      "talk": "ganesh_have_elephant_head_mouse",
+      "hi": "गणपति का गज मुख क्यों है?",
+      "en": "Why does Ganapati have an elephant"
+    },
+    {
+      "talk": "33_crore_gods_truth_about_hinduism",
+      "hi": "इतने स्वरूप कैसे हो गए",
+      "en": "how did He come to have so many forms"
+    }
+  ],
+  "also_read": {
+    "talk": "know_your_lord_before_worship",
+    "after": {
+      "hi": "जानना, मानना नहीं",
+      "en": "Know Him, Don't Just Accept Him"
+    }
+  },
+  "related": [
+    "only_way_know_god",
+    "truth_about_lord_ganesh",
+    "ultimate_source_learn_about_every_religion"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "bhagwan-ko-jano-sirf-mano-nahi",
+      "focus_keyword": "भगवान को जानना या मानना",
+      "secondary_keywords": [
+        "गणेश गीता का यथार्थ योग",
+        "शिव और विष्णु में भेद",
+        "सच्ची भक्ति क्या है",
+        "वैष्णव शैव शाक्त में अंतर"
+      ],
+      "meta_description": "क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
+      "tags": [
+        "गणेश गीता",
+        "भक्ति",
+        "साकार और निराकार",
+        "अंधश्रद्धा",
+        "गणेश"
+      ]
+    },
+    "en": {
+      "slug": "know-god-dont-just-believe",
+      "focus_keyword": "knowing God vs believing in God",
+      "secondary_keywords": [
+        "Ganesha Gita true yoga",
+        "are Shiva and Vishnu the same",
+        "what is true bhakti",
+        "Vaishnava Shaiva Shakta difference"
+      ],
+      "meta_description": "Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference.",
+      "tags": [
+        "Ganesha Gita",
+        "Bhakti",
+        "Sakar and Nirakar",
+        "Blind Faith",
+        "Ganesh"
+      ]
+    }
+  }
+}
