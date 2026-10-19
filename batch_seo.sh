@@ -18,6 +18,7 @@
 #   LIMIT_WAIT       seconds to wait after a usage limit before retrying (default: 1800)
 #   MAX_FAILURES     other failures allowed per talk before skipping it (default: 2)
 #   REBUILD          set to 0 to skip the final rebuild (default: 1)
+#   PAUSE            seconds to wait after each talk, to leave usage for other work (default: 0)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
@@ -29,6 +30,7 @@ PERMISSION_MODE="${PERMISSION_MODE:-auto}"
 LIMIT_WAIT="${LIMIT_WAIT:-1800}"
 MAX_FAILURES="${MAX_FAILURES:-2}"
 REBUILD="${REBUILD:-1}"
+PAUSE="${PAUSE:-0}"
 LOG_DIR="tools/batch_logs/seo"
 
 RED='\033[0;31m'
@@ -96,6 +98,7 @@ for name in "${talks[@]}"; do
 
     done_count=$((done_count + 1))
     log_info "$name: done ($(tail -1 "$log" | cut -c1-150))"
+    [ "$PAUSE" -gt 0 ] && sleep "$PAUSE"
 done
 
 echo
