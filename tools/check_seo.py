@@ -4,6 +4,9 @@
 Usage: check_seo.py [<talk> ...]   (default: every talk that has a seo.json)
 
 Errors make the check fail; warnings are printed but allowed. Exit code 1 if any talk has errors.
+Phrases, headings and keywords are checked against <talk>_blog_seo.txt / _blog_seo_en.txt when
+/seo_blog_fix has written them, else against the original blog texts.
+
 Checks:
   - the report exists and its first line is "<name>: SEO report"
   - seo.json has only the allowed keys
@@ -18,11 +21,16 @@ Checks:
     unique across all talks; focus keywords are unique across all talks; no tag repeats a category
     name; focus keyword, 2-4 secondary keywords, meta description
     (English 140-155 characters) and 3-6 tags for each language
+  - SureRank's page checks (wordpress/surerank plugin, v1.10.2): the focus keyword is in the title
+    tag, the meta description, the body text and (when written in Latin letters) the slug, matched
+    the way SureRank matches it (a Hindi keyword: as written); meta descriptions are at most 160 characters; the slug keeps the
+    page URL within 90 characters; the body has at least one subheading
 """
 import json
 import os
 import re
 import sys
+import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, 'tools', 'template'))
@@ -33,10 +41,41 @@ OUT = os.path.join(ROOT, 'output')
 KEYS = {'title', 'alt', 'caption', 'links', 'also_read', 'related', 'wordpress'}
 LANGS = ('hi', 'en')
 SLUG = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
+# SureRank warns when the page URL is over 90 characters; this is the longest URL prefix a post gets
+URL_PREFIX = 'https://antaryogfoundation.in/hi/'
+URL_LENGTH = 90
+# the combining marks SureRank strips before matching (Latin accents only, not Devanagari vowel signs)
+ACCENTS = re.compile('[\u0300-\u036f\u1ab0-\u1aff\u1dc0-\u1dff\u20d0-\u20ff\ufe20-\ufe2f]')
 
 
 def blog_txt(talk, lang):
-    return os.path.join(OUT, talk, f'{talk}_blog{"_en" if lang == "en" else ""}.txt')
+    """The SEO-fixed text if /seo_blog_fix has written one (it is what gets published), else the original."""
+    suffix = '_en' if lang == 'en' else ''
+    fixed = os.path.join(OUT, talk, f'{talk}_blog_seo{suffix}.txt')
+    return fixed if os.path.exists(fixed) else os.path.join(OUT, talk, f'{talk}_blog{suffix}.txt')
+
+
+def keyword_found(text, keyword):
+    """SureRank's keyword match: whole words, any case, accents ignored, the keyword's words may
+    also be run together or have one other word between them.
+
+    SureRank's word boundaries fail on Devanagari (a keyword ending in a vowel sign, like देवता,
+    is never found), so a keyword that is not in Latin letters only has to appear as written."""
+    if not text or not keyword:
+        return False
+    norm = lambda t: ACCENTS.sub('', unicodedata.normalize('NFD', t)).lower()
+    text, words = norm(text), norm(keyword).split()
+    if not keyword.isascii():
+        return ' '.join(words) in ' '.join(text.split())
+    patterns = [r'\b' + re.escape(' '.join(words)) + r'\b']
+    if len(words) > 1:
+        patterns.append(r'\b' + re.escape(''.join(words)) + r'\b')
+        patterns.append(r'\b' + r'\s+(?:\S+\s+)?'.join(map(re.escape, words)) + r'\b')
+    return any(re.search(p, text) for p in patterns)
+
+
+def plain_text(html_text):
+    return re.sub(r'\s+', ' ', re.sub(r'<[^>]*>', ' ', html_text)).strip()
 
 
 def has_page(talk):
@@ -201,8 +240,20 @@ def check(talk, seo, topic_keys, assign, slugs, keywords, category_names):
             err.append(f'wordpress {lang}: meta_description missing')
         elif lang == 'en' and not 140 <= len(meta) <= 155:
             warn.append(f'wordpress en: meta description is {len(meta)} characters (140 to 155)')
-        elif lang == 'hi' and len(meta) > 160:
-            warn.append(f'wordpress hi: meta description is {len(meta)} characters (over 160)')
+        elif len(meta) > 160:
+            err.append(f'wordpress {lang}: meta description is {len(meta)} characters (SureRank: over 160)')
+        if len(URL_PREFIX + slug + '/') > URL_LENGTH:
+            err.append(f'wordpress {lang}: slug is {len(slug)} characters, the page URL would be over {URL_LENGTH}')
+        if focus:
+            places = {'title tag': seo.get('title', {}).get(lang), 'meta description': meta,
+                      'body text': plain_text(bodies[lang] or '')}
+            if focus.isascii():  # a Devanagari keyword can never be in the Latin slug
+                places['slug'] = slug.replace('-', ' ')
+            for place, text in places.items():
+                if not keyword_found(text, focus):
+                    err.append(f'wordpress {lang}: focus keyword {focus!r} not in the {place} (SureRank)')
+        if not h2s(talk, lang):
+            err.append(f'{lang}: the blog has no subheading (SureRank wants at least one)')
         tags = w.get('tags', [])
         if not 3 <= len(tags) <= 6:
             err.append(f'wordpress {lang}: {len(tags)} tags (3 to 6)')

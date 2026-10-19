@@ -21,7 +21,7 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
 3. For internal links, list the other talks with `ls output/` and link only to blogs that
    exist there. Never invent a post.
 4. Write the report to `output/<name>/blog/seo_report.md` in the prompt's 11-section output format
-   (section 11 is written in step 5).
+   (section 11 is written in step 5, section 12 in step 8).
    The first line is `<name>: SEO report`, with the talk name written exactly as given and
    no escaped underscores.
    Section 8 (Schema) is for later use in WordPress and is never added to the page. Give one
@@ -72,10 +72,13 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
        - Pitru Paksha, shraddha and pind daan go to `pitru`, not `festivals`.
      - `hi` and `en`, each with:
        - `slug`: section 3's slug without the `/hi/` or `/en/` prefix: short, lowercase,
-         Latin letters, words joined by hyphens.
-       - `focus_keyword`: the primary keyword for that language (section 2).
+         Latin letters, words joined by hyphens, at most 55 characters (SureRank warns when the
+         page URL is over 90 characters).
+       - `focus_keyword`: the primary keyword for that language (section 2). It must pass
+         SureRank's keyword checks (see "SureRank checks" below).
        - `secondary_keywords`: 2 to 4 more keywords for that language (section 2).
-       - `meta_description`: section 3's meta description, 140 to 155 characters for English.
+       - `meta_description`: section 3's meta description, 140 to 155 characters for English
+         and at most 160 for Hindi. It contains the focus keyword.
        - `tags`: 3 to 6 tags in that language, naming the talk's main concepts, deities,
          festivals or texts (Ganesh, Pitru Paksha, Bhagavad Gita, Advaita Vedanta). Series
          such as Ganesh Vidya are tags, not categories. Reuse a tag already used in another
@@ -104,6 +107,32 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
    was not found: fix seo.json and rebuild until there are none.
 7. Run `python3 tools/check_seo.py <name>`. Fix every error it lists in seo.json or the report
    and run it again until the talk passes. Warnings may stay, but fix them if you can.
+8. Add the SEO checklist as the report's last section: copy `tools/prompts/seo_checklist.md`
+   to the end of the report (after section 11) and mark each item for this talk: `[x]` when it
+   is met, `[ ]` when not, with a short reason after any unmet item (for example "focus keyword
+   not in the first 100 words"). Base the marks on what was actually written and on the check
+   in step 7, not on intent. Keep the "Not covered" list as it is.
+
+SureRank checks (the WordPress SEO plugin; `tools/check_seo.py` checks all of these):
+- The focus keyword must appear, for each language, in that language's:
+  - title tag (`title`),
+  - meta description,
+  - blog body text (the paragraphs, lists and headings below the H1; the H1 itself does not
+    count),
+  - slug, for an English keyword (a Hindi keyword in Devanagari is not checked in the slug).
+- SureRank's matching: whole words, any case, accents ignored; the keyword's words may also be
+  run together ("house keeper" = "housekeeper") or have one other word between them. Nothing
+  else counts: "33" is not "thirty-three", "god" is not "gods", and a synonym is not the keyword.
+  A Hindi keyword has to appear exactly as written.
+- The blog text is never changed to fit a keyword, so choose the focus keyword from wording the
+  body already uses. Before settling on one, search both blog texts for it (for example
+  `grep -ic "<keyword>" output/<name>/<name>_blog_en.txt`). If the query people search for
+  is worded differently from the body (for example "33 crore gods" when the body only says
+  "thirty-three crore gods"), use the body's wording as the focus keyword, put the searched
+  wording in `secondary_keywords`, and note the mismatch in the report's section 2 so the blog
+  can be edited later if wanted.
+- Meta descriptions are at most 160 characters; the slug at most 55 characters.
+- The blog has at least one `##` subheading in each language (if not, say so in the report).
 
 Rules:
 - Do not edit the blog texts, rename images or change any other file; write only the report,
@@ -114,4 +143,4 @@ Rules:
   a scriptural claim that the blog does not support.
 
 Reply with one line: the recommended primary keyword in each language, the number of
-authenticity flags, and the number of links placed.
+authenticity flags, the number of links placed, and the number of unmet checklist items.

@@ -1,20 +1,20 @@
 {
   "title": {
     "hi": "33 कोटि देवता या एक भगवान? हिंदू धर्म का सच",
-    "en": "33 Crore Gods or One God? The Truth About Hinduism"
+    "en": "Why So Many Gods? 33 Crore Gods or One God in Hinduism"
   },
   "alt": {
     "hero.jpg": {
-      "hi": "मंदिर के आँगन में एक ऊँचे पीतल के दीपक के चारों ओर जलते हज़ारों दीये: एक ही ज्योति से अनेक दीप",
-      "en": "Thousands of diyas lit around one tall brass lamp in a temple courtyard: one flame, many lights"
+      "hi": "शाम के समय मंदिर के आँगन में हज़ारों जलते दीये, बीच में एक ऊँचा पीतल का दीपक, और दीये जलाते भक्त",
+      "en": "Thousands of lit diyas filling a temple courtyard at dusk around one tall brass lamp, with devotees lighting more"
     },
     "inline.jpg": {
-      "hi": "अनेक शाखाओं वाला बरगद का पेड़, हर शाखा पर एक छोटा दीपक: एक मूल, अनेक अभिव्यक्तियाँ",
-      "en": "A banyan tree with many branches, each holding a small hanging lamp: one root, many expressions"
+      "hi": "मंदिर के आँगन में फूलमालाओं से सजा विशाल बरगद, जिसकी हर शाखा से छोटे दीपक लटक रहे हैं",
+      "en": "A huge banyan tree in a temple courtyard, garlanded with marigolds, with small lamps hanging from every branch"
     },
     "kZDtLhoBlRo.jpg": {
-      "hi": "वीडियो: 33 कोटि देवता या एक भगवान, ब्रह्मर्षि आचार्य उपेंद्र जी",
-      "en": "Video: 33 Crore Gods? The Truth About Hinduism, Acharya Upendra Ji"
+      "hi": "वीडियो: गणेश सीरीज़ भाग 5, 33 कोटि देवता? ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Ganesh Series Ep 5, 33 Crore Gods? Myth vs Reality, with Acharya Upendra Ji"
     }
   },
   "caption": {
@@ -72,35 +72,33 @@
       "slug": "33-koti-devta-ya-ek-bhagwan",
       "focus_keyword": "33 कोटि देवता",
       "secondary_keywords": [
+        "तैंतीस कोटि देवता",
         "33 करोड़ देवी देवता",
         "हिंदू धर्म में कितने भगवान हैं",
-        "भगवान एक है या अनेक",
-        "रूप और स्वरूप में अंतर"
+        "भगवान एक है या अनेक"
       ],
       "meta_description": "हिंदू धर्म में 33 कोटि देवता क्यों हैं? ब्रह्मर्षि आचार्य उपेंद्र जी बताते हैं कि भगवान एक ही है, ओंकार, और सभी देवता उसी एक की शक्तियाँ और भूमिकाएँ हैं।",
       "tags": [
-        "33 कोटि देवता",
+        "गणेश सीरीज़",
         "अद्वैत वेदांत",
-        "ओंकार",
-        "रूप और स्वरूप",
+        "ॐ",
         "मूर्ति पूजा"
       ]
     },
     "en": {
-      "slug": "33-crore-gods-or-one-god",
+      "slug": "33-crore-gods-one-god",
       "focus_keyword": "33 crore gods",
       "secondary_keywords": [
+        "why so many gods",
+        "thirty-three crore gods",
         "why does Hinduism have so many gods",
-        "one God in Hinduism",
-        "33 koti meaning",
-        "rupa and swarupa"
+        "one God in Hinduism"
       ],
-      "meta_description": "Why does Hinduism have 33 crore gods? Acharya Upendra Ji explains that God is one, the formless Omkara, and the devtas are its many powers and roles.",
+      "meta_description": "Why so many gods in Hinduism? Acharya Upendra Ji explains that God is one, the formless Omkara, and the 33 crore gods are the powers and roles of that One.",
       "tags": [
-        "33 crore gods",
+        "Ganesh Series",
         "Advaita Vedanta",
-        "Omkara",
-        "Rupa and Swarupa",
+        "Om",
         "Idol worship"
       ]
     }

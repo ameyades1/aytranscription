@@ -67,6 +67,10 @@ GALLERY_CSS = """
                border-left: 2px solid var(--gold); padding-left: .7rem;
                display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .tile .meta { margin-top: auto; padding-top: .3rem; font-size: .8rem; color: var(--muted); }
+.seo-link { margin: 1.1rem 0 0; }
+.seo-link a { display: inline-block; font-size: .92rem; font-weight: 600; color: var(--accent); text-decoration: none;
+              border: 1px solid var(--gold); border-radius: 999px; padding: .45rem 1.1rem; }
+.seo-link a:hover { background: var(--panel); }
 .empty { text-align: center; color: var(--muted); padding: 3rem 0 4rem; }
 html[lang="hi"] [data-l="en"], html[lang="en"] [data-l="hi"] { display: none; }
 @media (max-width: 820px) { .tools { top: 4.5rem; } }
@@ -250,6 +254,10 @@ def main():
     switch = ('<div class="lang-switch"><a href="#hi" data-switch="hi" class="active">हिन्दी</a>'
               '<a href="#en" data-switch="en">English</a></div>')
     css = open(os.path.join(HERE, 'blog.css'), encoding='utf-8').read() + GALLERY_CSS
+    # link to the SEO-optimized English gallery (seo_gallery_page.py), once it exists
+    seo_link = ('<p class="seo-link"><a href="seo/index.html">'
+                + both({'hi': 'SEO-अनुकूलित ब्लॉग देखें (English) →', 'en': 'See the SEO-optimized blogs (English) →'})
+                + '</a></p>') if os.path.exists(os.path.join(a.output, 'seo', 'index.html')) else ''
 
     page = f'''<!doctype html>
 <html lang="hi" data-titlehi="{UI['hi']['title']} | Antar Yog Foundation" data-titleen="{UI['en']['title']} | Antar Yog Foundation">
@@ -271,6 +279,7 @@ def main():
   <h1>{both({l: UI[l]['h1'] for l in UI})}</h1>
   <div class="orn">❖</div>
   <p class="sub">{both({l: UI[l]['sub'].format(n=n[l], author=author[l]) for l in UI})}</p>
+  {seo_link}
 </div></section>
 
 <section class="tools"><div class="wrap">
