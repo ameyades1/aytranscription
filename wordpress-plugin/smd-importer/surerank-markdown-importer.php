@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: SureRank Markdown Blog Importer
- * Description: Import Markdown blog posts with front matter, formatting, taxonomy and SEO metadata. Creates drafts by default.
- * Version: 1.0.0
+ * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates drafts by default.
+ * Version: 1.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,9 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
+    const META_IMAGE_HASH = '_smd_image_hash';
+    const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const META_SEO_TITLE = 'smd_seo_title';
     const META_SEO_DESCRIPTION = 'smd_seo_description';
     const META_CANONICAL = 'smd_canonical_url';
@@ -52,6 +54,7 @@ class SMD_SureRank_Markdown_Importer {
             <?php wp_nonce_field('smd_import_markdown'); ?>
             <input type="hidden" name="action" value="smd_import_markdown">
             <table class="form-table"><tr><th scope="row"><label for="smd_markdown_file">Markdown file</label></th><td><input type="file" id="smd_markdown_file" name="smd_markdown_file" accept=".md,.markdown,text/markdown,text/plain" required><p class="description">Maximum size: 2 MB. Use the provided template format.</p></td></tr>
+            <tr><th scope="row"><label for="smd_images">Images</label></th><td><input type="file" id="smd_images" name="smd_images[]" accept="image/jpeg,image/png,image/webp,image/gif" multiple><p class="description">Optional. Select the hero and inline images the Markdown refers to by file name: <code>featured_image: hero.jpg</code> in the front matter becomes the featured image, and a line <code>![alt text](inline.jpg "caption")</code> in the body places that image there. Maximum 10 MB per image.</p></td></tr>
             <tr><th scope="row">Import behavior</th><td><label><input type="checkbox" name="smd_allow_update" value="1"> Update an existing draft with the same slug (never updates published posts)</label></td></tr></table>
             <?php submit_button('Import as Draft'); ?>
           </form>
@@ -80,7 +83,16 @@ class SMD_SureRank_Markdown_Importer {
         $existing = get_page_by_path($slug, OBJECT, 'post');
         $allow_update = !empty($_POST['smd_allow_update']);
         if ($existing && !($allow_update && $existing->post_status === 'draft')) $this->redirect('error', 'A post with this slug already exists. Choose a different slug or enable update for an existing draft.');
-        $content = $this->markdown_to_html($body);
+        $refs = $this->image_refs($m, $body);
+        if ($refs && !current_user_can('upload_files')) $this->redirect('error', 'This file uses images, and you do not have permission to upload files.');
+        $files = $this->uploaded_images();
+        if (is_wp_error($files)) $this->redirect('error', $files->get_error_message());
+        $missing = [];
+        foreach ($refs as $ref) if (!$this->is_remote($ref) && !isset($files[$this->image_key($ref)])) $missing[] = $ref;
+        if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Select them in the Images field.');
+        $images = $this->import_images($refs, $files);
+        if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
+        $content = $this->markdown_to_html($body, $images);
         $status = 'draft'; // Safety default: never publish directly from an uploaded file.
         $postarr = [
             'post_type' => 'post', 'post_status' => $status, 'post_title' => $title,
@@ -95,6 +107,7 @@ class SMD_SureRank_Markdown_Importer {
             $post_id = wp_insert_post(wp_slash($postarr), true);
         }
         if (is_wp_error($post_id)) $this->redirect('error', 'WordPress could not create the post: ' . $post_id->get_error_message());
+        foreach ($images as $img) if (!wp_get_post_parent_id($img['id'])) wp_update_post(['ID' => $img['id'], 'post_parent' => $post_id]);
 
         $cats = $this->csv_values($m['categories'] ?? '');
         $tags = $this->csv_values($m['tags'] ?? '');
@@ -111,11 +124,88 @@ class SMD_SureRank_Markdown_Importer {
         $robots = sanitize_text_field($m['robots'] ?? 'index,follow');
         if (!in_array($robots, ['index,follow','noindex,follow','index,nofollow','noindex,nofollow'], true)) $robots = 'index,follow';
         update_post_meta($post_id, self::META_ROBOTS, $robots);
-        if (!empty($m['featured_image_id']) && current_user_can('upload_files')) {
+        $hero = $m['featured_image'] ?? '';
+        if ($hero !== '' && isset($images[$this->image_key($hero)])) {
+            $hero_id = $images[$this->image_key($hero)]['id'];
+            set_post_thumbnail($post_id, $hero_id);
+            if (!empty($m['featured_image_alt'])) update_post_meta($hero_id, '_wp_attachment_image_alt', sanitize_text_field($m['featured_image_alt']));
+            if (!empty($m['featured_image_caption'])) wp_update_post(['ID' => $hero_id, 'post_excerpt' => sanitize_text_field($m['featured_image_caption'])]);
+        } elseif (!empty($m['featured_image_id']) && current_user_can('upload_files')) {
             $image_id = absint($m['featured_image_id']);
             if ($image_id && get_post_type($image_id) === 'attachment') set_post_thumbnail($post_id, $image_id);
         }
-        $this->redirect('success', 'Draft created: ' . get_the_title($post_id), $post_id);
+        $this->redirect('success', (isset($postarr['ID']) ? 'Draft updated: ' : 'Draft created: ') . get_the_title($post_id), $post_id);
+    }
+
+    /** Every image the document uses: the front-matter hero first, then the body's image lines in order. */
+    private function image_refs($meta, $body) {
+        $refs = [];
+        if (!empty($meta['featured_image'])) $refs[] = $meta['featured_image'];
+        foreach (preg_split('/\R/', $body) as $line) if ($img = $this->parse_image_line(trim($line))) $refs[] = $img['src'];
+        return array_values(array_unique($refs));
+    }
+
+    /** A line that is only ![alt](src "caption"); src is a file name (or path) or an http(s) URL. */
+    private function parse_image_line($trim) {
+        if (!preg_match('/^!\[([^\]]*)\]\(\s*<?([^\s)<>]+)>?(?:\s+"([^"]*)")?\s*\)$/', $trim, $m)) return null;
+        return ['alt' => $m[1], 'src' => $m[2], 'caption' => $m[3] ?? ''];
+    }
+
+    private function is_remote($ref) { return (bool) preg_match('#^https?://#i', $ref); }
+
+    /** Images are matched by file name alone, so "assets/hero.jpg" in the Markdown finds an uploaded hero.jpg. */
+    private function image_key($ref) {
+        if ($this->is_remote($ref)) return $ref;
+        return strtolower(sanitize_file_name(wp_basename(rawurldecode($ref))));
+    }
+
+    /** The Images field's files, keyed by image_key(), after checking each is a real image within the size limit. */
+    private function uploaded_images() {
+        $out = [];
+        $f = $_FILES['smd_images'] ?? null;
+        if (!$f || !is_array($f['name'])) return $out;
+        foreach ($f['name'] as $i => $name) {
+            if ($f['error'][$i] === UPLOAD_ERR_NO_FILE) continue;
+            $name = sanitize_file_name($name);
+            if ($f['error'][$i] !== UPLOAD_ERR_OK || !is_uploaded_file($f['tmp_name'][$i])) return new WP_Error('smd_image', "The image $name could not be uploaded.");
+            if ((int) $f['size'][$i] > self::MAX_IMAGE_BYTES) return new WP_Error('smd_image', "The image $name exceeds the 10 MB limit.");
+            $type = wp_check_filetype_and_ext($f['tmp_name'][$i], $name);
+            if (!in_array($type['type'], ['image/jpeg', 'image/png', 'image/webp', 'image/gif'], true)) return new WP_Error('smd_image', "$name is not a JPEG, PNG, WebP or GIF image.");
+            $out[$this->image_key($name)] = ['name' => $name, 'type' => $type['type'], 'tmp_name' => $f['tmp_name'][$i], 'error' => 0, 'size' => (int) $f['size'][$i]];
+        }
+        return $out;
+    }
+
+    /**
+     * Adds each referenced image to the Media Library and returns image_key() => [id, url].
+     * An uploaded file identical to one imported before (same MD5) reuses that attachment,
+     * so re-importing a draft does not duplicate its images.
+     */
+    private function import_images($refs, $files) {
+        if (!$refs) return [];
+        require_once ABSPATH . 'wp-admin/includes/file.php';
+        require_once ABSPATH . 'wp-admin/includes/media.php';
+        require_once ABSPATH . 'wp-admin/includes/image.php';
+        $out = [];
+        foreach ($refs as $ref) {
+            $key = $this->image_key($ref);
+            if ($this->is_remote($ref)) {
+                $id = media_sideload_image(esc_url_raw($ref), 0, null, 'id');
+                if (is_wp_error($id)) return new WP_Error('smd_image', "The image $ref could not be downloaded: " . $id->get_error_message());
+            } else {
+                $file = $files[$key];
+                $hash = md5_file($file['tmp_name']);
+                $found = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => self::META_IMAGE_HASH, 'meta_value' => $hash, 'fields' => 'ids', 'numberposts' => 1]);
+                if ($found) $id = (int) $found[0];
+                else {
+                    $id = media_handle_sideload($file, 0);
+                    if (is_wp_error($id)) return new WP_Error('smd_image', 'The image ' . $file['name'] . ' could not be saved: ' . $id->get_error_message());
+                    update_post_meta($id, self::META_IMAGE_HASH, $hash);
+                }
+            }
+            $out[$key] = ['id' => (int) $id, 'url' => wp_get_attachment_image_url($id, 'large') ?: wp_get_attachment_url($id)];
+        }
+        return $out;
     }
 
     private function parse_document($raw) {
@@ -148,24 +238,48 @@ class SMD_SureRank_Markdown_Importer {
         return array_values(array_unique($out));
     }
 
-    private function markdown_to_html($markdown) {
+    private function markdown_to_html($markdown, $images = []) {
         $markdown = str_replace(["\r\n", "\r"], "\n", $markdown);
         $lines = explode("\n", $markdown); $out = []; $paragraph = []; $list = null; $quote = [];
-        $flush_p = function() use (&$paragraph, &$out) { if ($paragraph) { $out[] = '<p>' . $this->inline_format(implode(' ', array_map('trim', $paragraph))) . '</p>'; $paragraph = []; } };
+        $flush_p = function() use (&$paragraph, &$out) { if ($paragraph) { $out[] = '<p>' . $this->join_lines($paragraph) . '</p>'; $paragraph = []; } };
         $flush_list = function() use (&$list, &$out) { if ($list !== null) { $out[] = '</' . $list . '>'; $list = null; } };
-        $flush_quote = function() use (&$quote, &$out) { if ($quote) { $out[] = '<blockquote><p>' . $this->inline_format(implode(' ', array_map('trim', $quote))) . '</p></blockquote>'; $quote = []; } };
+        $flush_quote = function() use (&$quote, &$out) { if ($quote) { $out[] = '<blockquote><p>' . $this->join_lines($quote) . '</p></blockquote>'; $quote = []; } };
         foreach ($lines as $line) {
             $trim = trim($line);
+            if ($img = $this->parse_image_line($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $this->figure($img, $images); continue; }
             if ($trim === '') { $flush_p(); $flush_list(); $flush_quote(); continue; }
             if (preg_match('/^(#{1,6})\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_list(); $flush_quote(); $n = strlen($m[1]); $out[] = '<h' . $n . '>' . $this->inline_format($m[2]) . '</h' . $n . '>'; continue; }
             if (preg_match('/^([-*_])\1\1+$/', $trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = '<hr />'; continue; }
-            if (preg_match('/^>\s?(.*)$/', $trim, $m)) { $flush_p(); $flush_list(); $quote[] = $m[1]; continue; }
+            if (preg_match('/^>\s?(.*)$/', ltrim($line), $m)) { $flush_p(); $flush_list(); $quote[] = $m[1]; continue; }
             if (preg_match('/^[-*+]\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_quote(); if ($list !== 'ul') { $flush_list(); $list = 'ul'; $out[] = '<ul>'; } $out[] = '<li>' . $this->inline_format($m[1]) . '</li>'; continue; }
             if (preg_match('/^\d+[.)]\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_quote(); if ($list !== 'ol') { $flush_list(); $list = 'ol'; $out[] = '<ol>'; } $out[] = '<li>' . $this->inline_format($m[1]) . '</li>'; continue; }
-            $flush_list(); $flush_quote(); $paragraph[] = $trim;
+            $flush_list(); $flush_quote(); $paragraph[] = ltrim($line);
         }
         $flush_p(); $flush_list(); $flush_quote();
-        return wp_kses(implode("\n", $out), ['p'=>[], 'h1'=>[], 'h2'=>[], 'h3'=>[], 'h4'=>[], 'h5'=>[], 'h6'=>[], 'strong'=>[], 'em'=>[], 'del'=>[], 'a'=>['href'=>[], 'title'=>[], 'target'=>[], 'rel'=>[]], 'ul'=>[], 'ol'=>[], 'li'=>[], 'blockquote'=>[], 'hr'=>[]]);
+        return wp_kses(implode("\n", $out), ['p'=>[], 'h1'=>[], 'h2'=>[], 'h3'=>[], 'h4'=>[], 'h5'=>[], 'h6'=>[], 'strong'=>[], 'em'=>[], 'del'=>[], 'a'=>['href'=>[], 'title'=>[], 'target'=>[], 'rel'=>[]], 'ul'=>[], 'ol'=>[], 'li'=>[], 'blockquote'=>[], 'hr'=>[], 'br'=>[],
+            'figure'=>['class'=>[]], 'figcaption'=>['class'=>[]], 'img'=>['src'=>[], 'alt'=>[], 'class'=>[], 'width'=>[], 'height'=>[], 'loading'=>[], 'decoding'=>[]]]);
+    }
+
+    /** Joins a paragraph's or quote's source lines; a line ending in two spaces or a backslash keeps its line break. */
+    private function join_lines($lines) {
+        $html = '';
+        foreach ($lines as $i => $line) {
+            $break = (bool) preg_match('/(  |\\\\)$/', $line);
+            $html .= $this->inline_format(trim(rtrim($line, " \\\\")));
+            if ($i < count($lines) - 1) $html .= $break ? "<br>\n" : ' ';
+        }
+        return $html;
+    }
+
+    /** A standalone image line as an image block's figure, with the attachment's sizes so WordPress serves srcset. */
+    private function figure($img, $images) {
+        $key = $this->image_key($img['src']);
+        if (!isset($images[$key])) return '';
+        $id = $images[$key]['id'];
+        if ($img['alt'] !== '') update_post_meta($id, '_wp_attachment_image_alt', sanitize_text_field($img['alt']));
+        $html = '<figure class="wp-block-image size-large"><img src="' . esc_url($images[$key]['url']) . '" alt="' . esc_attr($img['alt']) . '" class="wp-image-' . $id . '" loading="lazy" />';
+        if ($img['caption'] !== '') $html .= '<figcaption class="wp-element-caption">' . $this->inline_format($img['caption']) . '</figcaption>';
+        return $html . '</figure>';
     }
 
     private function inline_format($text) {

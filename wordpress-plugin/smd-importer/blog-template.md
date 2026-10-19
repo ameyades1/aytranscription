@@ -11,6 +11,9 @@ seo_title: "Example SEO Title for Search Results"
 meta_description: "A concise description for search results, written for readers and accurately reflecting the article."
 canonical_url: ""
 robots: "index,follow"
+featured_image: "hero.jpg"
+featured_image_alt: "Describe the hero image for screen readers and search"
+featured_image_caption: "Optional caption"
 featured_image_id: ""
 ---
 
@@ -21,6 +24,8 @@ Write your introduction here. Use **bold text**, *italics*, and [descriptive lin
 ## First Main Section
 
 Write the section content here.
+
+![Describe the inline image](inline.jpg "Optional caption")
 
 ### A Subsection
 
