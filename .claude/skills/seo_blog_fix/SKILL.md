@@ -64,7 +64,12 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
    - `links` and `also_read`: unchanged unless an edit touched a phrase or heading; then copy
      the new wording exactly.
    Then put the same JSON in the report's section 11 block (the check compares them), and
-   update section 2's keyword note and the section 12 checklist marks to match.
+   update the report to match, so no part of it is stale:
+   - section 2's keyword note;
+   - section 3: mark the title, meta description and slug now in seo.json as the recommended
+     ones, for each language, copied exactly (add them if the fix wrote new ones);
+   - section 8: the schema's headline/alternativeHeadline, description, keywords and URL slugs;
+   - the section 12 checklist marks.
 7. Run `python3 tools/check_seo.py <name>` (it checks against the `_seo` texts when they
    exist). Fix every error in the `_seo` texts or seo.json, within the rules above, and run it
    again until the talk passes.
@@ -73,14 +78,19 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
    blog index). Any "Note:" line other than "could not read video details" means a link phrase,
    heading or talk was not found: fix the `_seo` text or seo.json within the rules above, run the
    check again and rebuild until there are none.
-9. Write `output/<name>/blog/seo_fix.md`:
+9. Write `output/<name>/blog/seo_fix.md` (after the last edit to the `_seo` texts, so it lists
+   every change):
    - First line: `<name>: SEO fix`.
    - For each language, a table of every change (where | before | after | why).
    - The checklist items now met, and those still unmet with the reason.
    - Every seo.json change (field | before | after), including the old and new slug.
 
+10. Run `python3 tools/verify_seo_fix.py <name>`: it checks that nothing is stale (fixed texts,
+    seo_fix.md, the page, report section 3) and that WordPress would place every image. Fix every
+    error and warning, then run it again until the talk passes with no warnings.
+
 Rules:
-- Write only the two `_seo` text files, seo.json, the report (sections 2, 11 and 12) and
+- Write only the two `_seo` text files, seo.json, the report (sections 2, 3, 8, 11 and 12) and
   `seo_fix.md`, and rebuild pages only with `tools/rebuild_blogs.sh`. Never change the original
   blog texts or the images.
 - No WordPress work: never import, export or touch the local WordPress. That is

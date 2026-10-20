@@ -1,0 +1,120 @@
+#!/usr/bin/env python3
+"""Verify that a talk fixed by /seo_blog_fix has no stale files before it goes to WordPress.
+
+Usage: verify_seo_fix.py [<talk> ...]   (default: every talk with SEO-fixed texts)
+
+The WordPress importer (~/wordpress/import_post.py) reads the SEO-fixed texts
+(<name>_blog_seo[_en].txt), blog/seo.json, blog/images.txt and blog/assets/; the blog page is
+built from the same texts. Errors make the talk fail (exit code 1); warnings are printed.
+Errors:
+  - tools/check_seo.py fails (it checks seo.json against the fixed texts: link phrases, Also read
+    headings, focus keyword in title, meta description, body and slug, unique slugs, and the
+    report's section 11 copy of seo.json)
+  - a fixed text is missing or older than its original (the fix is stale)
+  - seo_fix.md is missing or older than the fixed texts
+  - the blog page is older than the fixed texts or seo.json (not rebuilt after the fix)
+  - a fixed text has a different number of ## sections from its original (the page generator and
+    the importer place images and the Also read box by section position when a heading is reworded)
+  - an inline image's section heading (images.txt) is in neither original text, so the importer
+    would leave the image out of the WordPress post
+Warnings:
+  - the report's section 3 no longer names seo.json's slug, title or meta description (the fix
+    updates only sections 2, 11 and 12; seo.json is what gets published)
+"""
+import json
+import os
+import re
+import subprocess
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, 'output')
+
+
+def h2s(path):
+    return [l[3:].strip() for l in open(path, encoding='utf-8') if l.startswith('## ')]
+
+
+def verify(talk):
+    err, warn = [], []
+    d = os.path.join(OUT, talk)
+    blog = os.path.join(d, 'blog')
+    texts = {}
+    for suffix in ('', '_en'):
+        orig = os.path.join(d, f'{talk}_blog{suffix}.txt')
+        fixed = os.path.join(d, f'{talk}_blog_seo{suffix}.txt')
+        if not os.path.exists(fixed):
+            err.append(f'{os.path.basename(fixed)} missing')
+        elif os.path.exists(orig) and os.path.getmtime(fixed) < os.path.getmtime(orig):
+            err.append(f'{os.path.basename(fixed)} is older than {os.path.basename(orig)} (stale fix)')
+        else:
+            texts['en' if suffix else 'hi'] = fixed
+    if err:
+        return err, warn
+
+    r = subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'check_seo.py'), talk],
+                       capture_output=True, text=True)
+    if r.returncode:
+        err += ['check_seo: ' + l.strip(' -') for l in r.stdout.splitlines() if l.startswith('  - ')]
+
+    newest_text = max(os.path.getmtime(p) for p in texts.values())
+    fix_md = os.path.join(blog, 'seo_fix.md')
+    if not os.path.exists(fix_md):
+        err.append('blog/seo_fix.md missing')
+    elif os.path.getmtime(fix_md) < newest_text:
+        err.append('blog/seo_fix.md is older than the fixed texts')
+
+    page = os.path.join(blog, 'index.html')
+    seo_path = os.path.join(blog, 'seo.json')
+    if os.path.getmtime(page) < max(newest_text, os.path.getmtime(seo_path)):
+        err.append('blog page is older than the fixed texts or seo.json (run tools/rebuild_blogs.sh)')
+
+    # sections: same number and order as the original, so placement by position works
+    orig = {lang: h2s(os.path.join(d, f'{talk}_blog{"_en" if lang == "en" else ""}.txt')) for lang in texts}
+    for lang, p in texts.items():
+        if len(h2s(p)) != len(orig[lang]):
+            err.append(f'{os.path.basename(p)} has {len(h2s(p))} ## sections, the original {len(orig[lang])}')
+
+    # inline images: the importer looks up images.txt's headings in the original texts
+    # (English, else Hindi) and places the image at that section's position
+    imgs = os.path.join(blog, 'images.txt')
+    if os.path.exists(imgs):
+        for line in open(imgs, encoding='utf-8'):
+            if line.strip() and not line.startswith('#'):
+                f, hi, en, _ = (p.strip() for p in line.split('|'))
+                if en not in orig['en'] and hi not in orig['hi']:
+                    err.append(f'images.txt: no original heading for {f} (English "{en}", Hindi "{hi}"); '
+                               'WordPress would leave it out')
+
+    seo = json.load(open(seo_path, encoding='utf-8'))
+    report = open(os.path.join(blog, 'seo_report.md'), encoding='utf-8').read()
+    m = re.search(r'^## 3\..*?(?=^## 4\.)', report, re.S | re.M)
+    sec3 = m.group(0) if m else ''
+    for lang in ('hi', 'en'):
+        w = seo.get('wordpress', {}).get(lang, {})
+        for field, value in (('slug', w.get('slug')), ('title', seo.get('title', {}).get(lang)),
+                             ('meta description', w.get('meta_description'))):
+            if value and value not in sec3:
+                warn.append(f'report section 3 does not show the {lang} {field} in seo.json')
+    return err, warn
+
+
+def main():
+    talks = sys.argv[1:] or sorted(t for t in os.listdir(OUT)
+                                   if os.path.exists(os.path.join(OUT, t, f'{t}_blog_seo_en.txt')))
+    failed = 0
+    for talk in talks:
+        err, warn = verify(talk)
+        if err or warn:
+            print(f'{talk}: {"FAIL" if err else "ok, with warnings"}')
+            for e in err:
+                print(f'  - {e}')
+            for w in warn:
+                print(f'  ~ {w}')
+        failed += bool(err)
+    print(f'\nVerified {len(talks)} fixed talk(s): {len(talks) - failed} passed, {failed} failed')
+    sys.exit(1 if failed else 0)
+
+
+if __name__ == '__main__':
+    main()

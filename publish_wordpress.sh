@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Publish talks to the local WordPress, after ./publish_blog.sh has written and checked their SEO
-# files. For each talk that passes tools/check_seo.py:
+# files. For each talk that passes tools/check_seo.py (and, when it has SEO-fixed texts,
+# tools/verify_seo_fix.py, so nothing stale is imported):
 #   1. import  ~/wordpress/import_post.py   creates or updates the talk's post (from the SEO-fixed
 #              texts when they exist)
 #   2. relink  re-imports the already imported posts that link to this talk but not to its
@@ -64,6 +65,12 @@ publish() {
     local name="$1"
     if ! seo_passes "$name"; then
         log_error "$name: fails tools/check_seo.py (run ./publish_blog.sh $name first)"
+        return 1
+    fi
+    # a talk with SEO-fixed texts must have nothing stale (texts, seo.json, page, images)
+    if [ -f "output/$name/${name}_blog_seo_en.txt" ] &&
+        ! python3 tools/verify_seo_fix.py "$name" > "$LOG_DIR/${name}_verify.log" 2>&1; then
+        log_error "$name: fails tools/verify_seo_fix.py, see $LOG_DIR/${name}_verify.log"
         return 1
     fi
 
