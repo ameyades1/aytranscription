@@ -30,6 +30,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | does chanting God's name at death give moksha | English | Informational | Medium (question form; FAQ 1) |
 | Akshara Brahman Om meaning | English | Informational | Low |
 
+**Keyword note (after the SEO fix):** the focus keywords "अंतिम समय में ॐ का जाप" and "chanting Om at the time of death" are the searched wordings, but neither original blog text used them (the Hindi says "मृत्यु के समय" and "ॐ बोलना", the English "saying Om" and "at the time of death"). The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use each one once in the first 100 words, in a short direct answer, and once in a question heading ("क्या अंतिम समय में ॐ का जाप काफ़ी है?" / "Is Chanting Om at the Time of Death Enough?"). The English heading "Anta Mati So Gati: As the Mind at the End, So the Journey Beyond" also carries the secondary keyword. The meta descriptions and the English slug were rewritten to contain the focus keywords.
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "अंतिम श्वास में ॐ: क्या मृत्यु के क्षण में मुक्ति संभव है?"; not changed)
@@ -37,18 +39,18 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 2. मृत्यु के समय क्या करें? गीता अध्याय 8 की विधि (43)
 3. अंत मति सो गति: अंतिम विचार और अगला जन्म | आचार्य जी (52)
 
-Meta description: क्या मृत्यु के समय ॐ बोलने से मोक्ष मिलता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।
+Meta description (150 characters) **recommended**: क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।
 
-Slug: `/hi/antim-samay-om-jaap`
+Slug **recommended**: `/hi/antim-samay-om-jaap`
 
 **English** (H1 in the blog: "Om with Your Last Breath: Can You Find Liberation at the Moment of Death?"; not changed)
 1. Chanting Om at the Time of Death: Is It Enough for Moksha? (58 characters) **recommended**
 2. What to Do at the Time of Death: Bhagavad Gita Chapter 8 (56)
 3. Anta Mati So Gati: Your Last Thought and Your Next Birth (55)
 
-Meta description (155 characters): Can chanting Om at the moment of death bring moksha? Acharya Upendra Ji explains Bhagavad Gita chapter 8 and why your last thought is shaped by a lifetime.
+Meta description (149 characters) **recommended**: Is chanting Om at the time of death enough for moksha? Acharya Upendra Ji explains Bhagavad Gita 8 and why your last thought is shaped by a lifetime.
 
-Slug: `/en/chanting-om-at-death`
+Slug **recommended**: `/en/chanting-om-at-the-time-of-death` (was `/en/chanting-om-at-death`; the English focus keyword must appear in the slug)
 
 ## 4. Outline changes
 
@@ -109,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/antim-samay-om-jaap/`, `/en/chanting-om-at-death/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/antim-samay-om-jaap/`, `/en/chanting-om-at-the-time-of-death/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -128,7 +130,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "अंतिम श्वास में ॐ: क्या मृत्यु के क्षण में मुक्ति संभव है?",
       "alternativeHeadline": "अंतिम समय में ॐ का जाप: क्या इससे मोक्ष मिलता है?",
-      "description": "क्या मृत्यु के समय ॐ बोलने से मोक्ष मिलता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।",
+      "description": "क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।",
       "inLanguage": "hi",
       "keywords": ["अंतिम समय में ॐ का जाप", "मृत्यु के समय क्या करना चाहिए", "अंत मति सो गति", "गीता अध्याय 8 श्लोक 13", "अंतिम विचार और अगला जन्म"],
       "about": [
@@ -219,7 +221,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Om with Your Last Breath: Can You Find Liberation at the Moment of Death?",
       "alternativeHeadline": "Chanting Om at the Time of Death: Is It Enough for Moksha?",
-      "description": "Can chanting Om at the moment of death bring moksha? Acharya Upendra Ji explains Bhagavad Gita chapter 8 and why your last thought is shaped by a lifetime.",
+      "description": "Is chanting Om at the time of death enough for moksha? Acharya Upendra Ji explains Bhagavad Gita 8 and why your last thought is shaped by a lifetime.",
       "inLanguage": "en",
       "keywords": ["chanting Om at the time of death", "what to do at the time of death", "anta mati so gati meaning", "Bhagavad Gita 8.13 meaning", "last thought before death and rebirth"],
       "about": [
@@ -418,7 +420,7 @@ The exact seo.json written for the page generator and WordPress.
         "गीता अध्याय 8 श्लोक 13",
         "अंतिम विचार और अगला जन्म"
       ],
-      "meta_description": "क्या मृत्यु के समय ॐ बोलने से मोक्ष मिलता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।",
+      "meta_description": "क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।",
       "tags": [
         "भगवद्गीता",
         "ॐ",
@@ -427,7 +429,7 @@ The exact seo.json written for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "chanting-om-at-death",
+      "slug": "chanting-om-at-the-time-of-death",
       "focus_keyword": "chanting Om at the time of death",
       "secondary_keywords": [
         "what to do at the time of death",
@@ -435,7 +437,7 @@ The exact seo.json written for the page generator and WordPress.
         "Bhagavad Gita 8.13 meaning",
         "last thought before death and rebirth"
       ],
-      "meta_description": "Can chanting Om at the moment of death bring moksha? Acharya Upendra Ji explains Bhagavad Gita chapter 8 and why your last thought is shaped by a lifetime.",
+      "meta_description": "Is chanting Om at the time of death enough for moksha? Acharya Upendra Ji explains Bhagavad Gita 8 and why your last thought is shaped by a lifetime.",
       "tags": [
         "Bhagavad Gita",
         "Om",
@@ -446,3 +448,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the searched wording, now in the `_seo` texts)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts ("नाम स्मरण" / "Naam Smaran" is only used here so far; it fits the other name-chanting talks, such as `chant_thousand_names_god`)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (flags 1-3 fixed in the `_seo` texts with the Sanskrit review's wording; issues 4-9 are minor readings or verse text, left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)

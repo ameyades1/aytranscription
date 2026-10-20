@@ -11,16 +11,16 @@ The talk takes up a line from the Vedic procedure of the Savitra Kathaka Agnicha
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| पशुबलि (primary) | Hindi | Informational | High |
+| पशुबलि का अर्थ (primary) | Hindi | Informational | High |
+| पशुबलि | Hindi | Informational | High |
 | पशु बलि का अर्थ | Hindi | Informational | High |
-| पशुबलि का अर्थ | Hindi | Informational | High |
 | पशु बलि क्या है | Hindi | Informational | High |
 | पशु और पाश का अर्थ | Hindi | Informational | Medium |
 | ज्ञानयज्ञ गीता ४.३३ | Hindi | Informational | Medium |
 | भीतर का पशु | Hindi | Informational / reflective | Medium |
 | द्रव्ययज्ञ और ज्ञानयज्ञ में अंतर | Hindi | Informational | Low |
-| animal sacrifice (primary) | English | Informational | High |
-| spiritual meaning of animal sacrifice | English | Informational | High |
+| spiritual meaning of animal sacrifice (primary) | English | Informational | High |
+| animal sacrifice | English | Informational | High |
 | pashu bali meaning | English / Hinglish | Informational | High |
 | jnana yajna Bhagavad Gita 4.33 | English | Informational | Medium |
 | pashu and pasha meaning | English | Informational | Medium |
@@ -30,9 +30,9 @@ The talk takes up a line from the Vedic procedure of the Savitra Kathaka Agnicha
 | bali ka matlab kya hai | Hinglish | Informational | Low |
 | Acharya Upendra Ji animal sacrifice | English | Navigational | Low |
 
-**Keyword wording vs the body (SureRank).** The blog text is not changed, so the focus keywords come from the body's own wording:
-- Hindi: the body (below the H1) uses only the joined form "पशुबलि", once, in the first sentence ("जब तक पशुबलि नहीं होगी"). The searched phrases "पशु बलि का अर्थ" (spaced, as on the video thumbnail) and "पशुबलि का अर्थ" appear only in the H1, which SureRank does not count. Focus keyword: **पशुबलि**; the two searched phrases are secondary keywords. If wanted later, a body sentence such as "पशुबलि का अर्थ क्या है?" in the intro would let "पशुबलि का अर्थ" become the focus keyword.
-- English: "spiritual meaning of animal sacrifice" is not in the body (the H1 says "What Animal Sacrifice Truly Means"). The body has "animal sacrifice" in the first sentence. Focus keyword: **animal sacrifice** (broad and competitive; the title, meta and slug narrow it to the spiritual meaning), with "spiritual meaning of animal sacrifice" as a secondary keyword.
+**Keyword wording vs the body (SureRank).** The SEO fix (`seo_fix.md`) brought the searched wording into the `_seo` texts, which are what gets published:
+- Hindi: the original body used only "पशुबलि" and had the searched "पशुबलि का अर्थ" only in the H1. The `_seo` text now uses it in a short direct answer in the intro (within the first 100 words) and in the H2 "पशुबलि का अर्थ क्या है?". Focus keyword: **पशुबलि का अर्थ**; "पशुबलि" and the spaced thumbnail form "पशु बलि का अर्थ" are secondary keywords (the body writes the joined form throughout).
+- English: the original body had only "animal sacrifice". The `_seo` text now uses "spiritual meaning of animal sacrifice" in the direct answer (within the first 100 words) and in the H2 "What Is the Spiritual Meaning of Animal Sacrifice?". Focus keyword: **spiritual meaning of animal sacrifice**, already in the title and slug; "animal sacrifice" is a secondary keyword.
 - "pashu bali" and "sacrifice the animal within" are not in the English body either (it says "pashu", "offering up the beast within", "the animal inside you"); they stay secondary keywords only.
 
 ## 3. Titles and meta
@@ -42,18 +42,18 @@ The talk takes up a line from the Vedic procedure of the Savitra Kathaka Agnicha
 2. पशुबलि का असली अर्थ: भीतर के पशु की बलि और ज्ञानयज्ञ (52)
 3. वेदों में पशुबलि: पशु यानी पाश, भीतर का बंधन (44)
 
-Meta description: "वेदों में पशुबलि का क्या अर्थ है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।"
+Meta description (**recommended**, as in seo.json): "वेदों में पशुबलि का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।"
 
-Slug: `/hi/pashu-bali-ka-arth`
+Slug (**recommended**): `/hi/pashu-bali-ka-arth`
 
 **English**
 1. Spiritual Meaning of Animal Sacrifice: The Beast Within (55) **recommended**
 2. Animal Sacrifice in the Vedas: Pashu, Pasha and the Self (56)
 3. What Is Pashu Bali? Offering Up the Animal Within (49)
 
-Meta description (152 characters): "What does animal sacrifice in the Vedas mean? Acharya Upendra Ji reads pashu as pasha, the bonds within, and shows why Gita 4.33 puts jnana yajna first."
+Meta description (**recommended**, 150 characters): "What is the spiritual meaning of animal sacrifice? Acharya Upendra Ji reads pashu as pasha, the bonds within, offered in the jnana yajna of Gita 4.33."
 
-Slug: `/en/spiritual-meaning-of-animal-sacrifice` (contains the focus keyword "animal sacrifice")
+Slug (**recommended**): `/en/spiritual-meaning-of-animal-sacrifice` (contains the focus keyword "spiritual meaning of animal sacrifice")
 
 The titles and metas present the inner reading as Acharya Ji's ("reads", "बताते हैं"), never as "what the Vedas really say" (flag 9).
 
@@ -130,9 +130,9 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "पशुबलि का असली अर्थ: भीतर के पशु की आहुति",
       "alternativeHeadline": "पशुबलि का अर्थ क्या है? भीतर के पशु की आहुति",
-      "description": "वेदों में पशुबलि का क्या अर्थ है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।",
+      "description": "वेदों में पशुबलि का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।",
       "inLanguage": "hi",
-      "keywords": ["पशुबलि", "पशु बलि का अर्थ", "पशुबलि का अर्थ", "ज्ञानयज्ञ गीता ४.३३", "भीतर का पशु"],
+      "keywords": ["पशुबलि का अर्थ", "पशुबलि", "पशु बलि का अर्थ", "ज्ञानयज्ञ गीता ४.३३", "भीतर का पशु"],
       "about": [
         { "@type": "Thing", "name": "पशुबलि" },
         { "@type": "Thing", "name": "यज्ञ" },
@@ -220,9 +220,9 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "What Animal Sacrifice Truly Means: Offering Up the Beast Within",
       "alternativeHeadline": "Spiritual Meaning of Animal Sacrifice: The Beast Within",
-      "description": "What does animal sacrifice in the Vedas mean? Acharya Upendra Ji reads pashu as pasha, the bonds within, and shows why Gita 4.33 puts jnana yajna first.",
+      "description": "What is the spiritual meaning of animal sacrifice? Acharya Upendra Ji reads pashu as pasha, the bonds within, offered in the jnana yajna of Gita 4.33.",
       "inLanguage": "en",
-      "keywords": ["animal sacrifice", "spiritual meaning of animal sacrifice", "pashu bali meaning", "jnana yajna Bhagavad Gita 4.33", "sacrifice the animal within"],
+      "keywords": ["spiritual meaning of animal sacrifice", "animal sacrifice", "pashu bali meaning", "jnana yajna Bhagavad Gita 4.33", "sacrifice the animal within"],
       "about": [
         { "@type": "Thing", "name": "Animal sacrifice" },
         { "@type": "Thing", "name": "Yajna" },
@@ -413,14 +413,14 @@ The values written to `output/animal_sacrifice/blog/seo.json` for the page gener
     "category": "deities",
     "hi": {
       "slug": "pashu-bali-ka-arth",
-      "focus_keyword": "पशुबलि",
+      "focus_keyword": "पशुबलि का अर्थ",
       "secondary_keywords": [
+        "पशुबलि",
         "पशु बलि का अर्थ",
-        "पशुबलि का अर्थ",
         "ज्ञानयज्ञ गीता ४.३३",
         "भीतर का पशु"
       ],
-      "meta_description": "वेदों में पशुबलि का क्या अर्थ है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।",
+      "meta_description": "वेदों में पशुबलि का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।",
       "tags": [
         "यज्ञ",
         "भगवद्गीता",
@@ -431,14 +431,14 @@ The values written to `output/animal_sacrifice/blog/seo.json` for the page gener
     },
     "en": {
       "slug": "spiritual-meaning-of-animal-sacrifice",
-      "focus_keyword": "animal sacrifice",
+      "focus_keyword": "spiritual meaning of animal sacrifice",
       "secondary_keywords": [
-        "spiritual meaning of animal sacrifice",
+        "animal sacrifice",
         "pashu bali meaning",
         "jnana yajna Bhagavad Gita 4.33",
         "sacrifice the animal within"
       ],
-      "meta_description": "What does animal sacrifice in the Vedas mean? Acharya Upendra Ji reads pashu as pasha, the bonds within, and shows why Gita 4.33 puts jnana yajna first.",
+      "meta_description": "What is the spiritual meaning of animal sacrifice? Acharya Upendra Ji reads pashu as pasha, the bonds within, offered in the jnana yajna of Gita 4.33.",
       "tags": [
         "Yajna",
         "Bhagavad Gita",
@@ -458,8 +458,8 @@ The values written to `output/animal_sacrifice/blog/seo.json` for the page gener
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses (पशुबलि / animal sacrifice, both in the first sentence)
-- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (पशु बलि का अर्थ, spiritual meaning of animal sacrifice; section 2)
+- [x] Focus keyword taken from wording the article uses (पशुबलि का अर्थ / spiritual meaning of animal sacrifice, in the `_seo` texts' direct answer and one H2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the searched wording is now the focus keyword; the spaced पशु बलि का अर्थ stays secondary; section 2)
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 
 ### Focus keyword placement (SureRank)
@@ -514,7 +514,7 @@ The values written to `output/animal_sacrifice/blog/seo.json` for the page gener
 
 ### Content trust
 - [x] Titles, metas and snippets faithful to the talk
-- [ ] No unsupported scriptural claims (the SEO texts add none, but the blog body still carries Sanskrit review issues 1 and 2, Major: the Gita 4.33 reading and the opening claim attributed to the Vedas; see flags 1–2)
+- [x] No unsupported scriptural claims (Sanskrit review issues 1 and 2, Major, corrected in the `_seo` texts with the review's wording; the Minor issues 3–8 remain for the editor)
 - [x] Health promises, fear-selling and attacks on other traditions flagged
 
 ### Not covered

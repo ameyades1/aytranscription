@@ -31,7 +31,14 @@ Still unmet: none. `python3 tools/check_seo.py 33_crore_gods_truth_about_hinduis
 Not changed:
 - **Direct answer.** The opening already answers the question ("Hinduism, too, has one God. Everything else is an expression of that One."), so no answer paragraph was added. Section 5's longer snippet is still there if the editor wants it.
 - **Authenticity flags 1–3** (the meaning of *koti*, "Other religions do not accept idol worship", परम तत्व → तत्त्व) are content corrections, not SEO fixes. Making them would add a claim or change wording that the talk's meaning depends on, so they stay with the editor.
-- Report sections 3, 5, 6 and 8 still show the old Hindi title, meta and English slug. Only sections 2, 11 and 12 were updated. seo.json is the source of truth.
+- Report sections 5 (direct answer) and 6 (FAQ) still say "तैंतीस कोटि देवता" / "thirty-three crore gods". That is the body's own wording and is still a secondary keyword, so they were left as they are.
+
+## Report updates
+
+- Section 2: keyword table now marks "33 कोटि देवता" and "33 crore gods" as primary; the keyword note describes the `_seo` texts.
+- Section 3: the recommended Hindi title and meta description and the English slug are now the ones in seo.json.
+- Section 8: Hindi alternativeHeadline and description, the keywords and `about` names (both languages) and the post URLs (built from the slugs) match seo.json.
+- Sections 11 and 12: already matched seo.json and the `_seo` texts.
 
 ## seo.json changes
 
