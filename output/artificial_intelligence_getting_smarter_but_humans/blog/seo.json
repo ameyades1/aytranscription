@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है?",
-    "en": "Artificial Intelligence Is Getting Smarter. Are We?"
+    "hi": "क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक",
+    "en": "Is AI Making Us Dumber? Artificial Intelligence and Viveka"
   },
   "alt": {
     "hero.jpg": {
@@ -69,15 +69,15 @@
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "kritrim-buddhi-aur-vivek-buddhi",
-      "focus_keyword": "कृत्रिम बुद्धि",
+      "slug": "kya-ai-hamein-moorkh-bana-raha-hai",
+      "focus_keyword": "क्या AI हमें मूर्ख बना रहा है",
       "secondary_keywords": [
-        "क्या AI हमें मूर्ख बना रहा है",
+        "कृत्रिम बुद्धि",
         "विवेक बुद्धि",
         "मूल बुद्धि",
         "AI और अध्यात्म"
       ],
-      "meta_description": "कृत्रिम बुद्धि बढ़ रही है, हम मूल बुद्धि खो रहे हैं। आचार्य उपेंद्र जी बताते हैं कि AI के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
+      "meta_description": "क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
       "tags": [
         "विवेक",
         "त्रिगुण",
@@ -87,15 +87,15 @@
       ]
     },
     "en": {
-      "slug": "artificial-intelligence-and-viveka",
-      "focus_keyword": "artificial intelligence",
+      "slug": "is-ai-making-us-dumber",
+      "focus_keyword": "is AI making us dumber",
       "secondary_keywords": [
-        "is AI making us dumber",
+        "artificial intelligence",
         "AI and spirituality",
         "what is viveka",
         "borrowed intelligence"
       ],
-      "meta_description": "Artificial intelligence keeps getting smarter while we stop thinking. Acharya Upendra Ji explains why viveka, your inner Ganapati, must guide its use.",
+      "meta_description": "Is AI making us dumber? Acharya Upendra Ji explains how we handed our thinking to machines, and why viveka, the inner Ganapati, must guide AI's use.",
       "tags": [
         "Viveka",
         "Three Gunas",

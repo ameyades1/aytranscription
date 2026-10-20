@@ -8,15 +8,15 @@ The talk traces how, from the calculator to Google to ChatGPT, we have handed ou
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| कृत्रिम बुद्धि | Hindi | Informational | High (primary) |
-| क्या AI हमें मूर्ख बना रहा है | Hindi | Informational / emotional | High |
+| क्या AI हमें मूर्ख बना रहा है | Hindi | Informational / emotional | High (primary) |
+| कृत्रिम बुद्धि | Hindi | Informational | High |
 | विवेक बुद्धि | Hindi | Informational | High |
 | मूल बुद्धि | Hindi | Informational | Low |
 | AI और अध्यात्म | Hindi | Informational | Medium |
 | kya AI hume bewakoof bana raha hai | Hinglish | Informational / emotional | Medium |
 | AI se dimag kamzor ho raha hai | Hinglish | Emotional | Medium |
-| artificial intelligence | English | Informational | High (primary) |
-| is AI making us dumber | English | Informational / emotional | High |
+| is AI making us dumber | English | Informational / emotional | High (primary) |
+| artificial intelligence | English | Informational | High |
 | AI and spirituality | English | Informational | High |
 | what is viveka | English | Informational | Medium |
 | borrowed intelligence | English | Informational | Low |
@@ -24,31 +24,31 @@ The talk traces how, from the calculator to Google to ChatGPT, we have handed ou
 | Acharya Upendra Ji AI | English | Navigational | Low |
 
 Notes:
-- The primary keywords are taken from wording both bodies already use, within the first 100 words: "कृत्रिम बुद्धि (Artificial Intelligence)" (3 times in the Hindi body) and "Artificial Intelligence" (3 times in the English body). They also match the video title ("Artificial Intelligence Is Getting Smarter, But Are Humans Getting Dumber").
-- Mismatch: the query people most likely type is "is AI making us dumber" / "क्या AI हमें मूर्ख बना रहा है", but neither body uses that wording (the English body has "we keep getting dumber", the Hindi "हम dumb होते जा रहे हैं"), so it cannot be the SureRank focus keyword. It is the first secondary keyword in each language. If the editor wants to target it directly, a question H2 or a direct-answer paragraph (sections 4 and 5) would add it to the body.
-- "कृत्रिम बुद्धि" and "artificial intelligence" alone are broad, competitive head terms whose top results define what AI is. The title and meta narrow the promise to the spiritual angle (viveka, "are we getting smarter?"), so the post competes on the question it actually answers.
+- The primary keywords are the searched questions "क्या AI हमें मूर्ख बना रहा है" and "is AI making us dumber". The SEO fix (`seo_fix.md`) added them to the `_seo` texts that get published: in a short direct answer under the H1 (first 100 words) and as the second section's H2. They match the video's question ("...But Are Humans Getting Dumber"). The earlier primary keywords, "कृत्रिम बुद्धि" and "artificial intelligence", stay in the bodies and in the titles, and are now the first secondary keywords.
+- Mismatch (resolved by the SEO fix): the original bodies did not use the searched wording (the English had "we keep getting dumber", the Hindi "हम dumb होते जा रहे हैं"). The `_seo` texts now use it once in the opening answer and once as an H2, so it is the SureRank focus keyword in each language. The original blog texts are unchanged.
+- "कृत्रिम बुद्धि" and "artificial intelligence" alone are broad, competitive head terms whose top results define what AI is. The focus keyword is the narrower question the post actually answers, and the title and meta pair it with the spiritual angle (viveka).
 - Hindi and English were chosen separately: Hindi searchers mix "AI" with Hindi words, so the Hinglish variants above are kept as secondary research; "विवेक बुद्धि" is a phrase Hindi readers already search, while English readers need "what is viveka".
 - "Kali Yuga age of machines" and "AI water consumption" are left out of the keyword set on purpose (authenticity flags 1 and 4).
 
 ## 3. Titles and meta
 
 **Hindi**
-1. कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है? **(recommended)**
-2. कृत्रिम बुद्धि और विवेक: AI के युग में भीतर के गणपति
-3. क्या AI हमें मूर्ख बना रहा है? अपनी विवेक बुद्धि जगाइए (no primary keyword; for social posts)
+1. क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक **(recommended, set by the SEO fix)**
+2. कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है? (the earlier recommendation)
+3. क्या AI हमें मूर्ख बना रहा है? अपनी विवेक बुद्धि जगाइए (for social posts)
 
-Meta description (159 characters): कृत्रिम बुद्धि बढ़ रही है, हम मूल बुद्धि खो रहे हैं। आचार्य उपेंद्र जी बताते हैं कि AI के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।
+Meta description (149 characters, recommended): क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।
 
-Slug: `/hi/kritrim-buddhi-aur-vivek-buddhi`
+Slug (recommended): `/hi/kya-ai-hamein-moorkh-bana-raha-hai`
 
 **English**
-1. Artificial Intelligence Is Getting Smarter. Are We? **(recommended)**
-2. Artificial Intelligence and Viveka: A Spiritual View
-3. Is AI Making Us Dumber? Awaken Your Inner Ganapati (no primary keyword; for social posts)
+1. Is AI Making Us Dumber? Artificial Intelligence and Viveka **(recommended, set by the SEO fix)**
+2. Artificial Intelligence Is Getting Smarter. Are We? (the earlier recommendation)
+3. Is AI Making Us Dumber? Awaken Your Inner Ganapati (for social posts)
 
-Meta description (150 characters): Artificial intelligence keeps getting smarter while we stop thinking. Acharya Upendra Ji explains why viveka, your inner Ganapati, must guide its use.
+Meta description (148 characters, recommended): Is AI making us dumber? Acharya Upendra Ji explains how we handed our thinking to machines, and why viveka, the inner Ganapati, must guide AI's use.
 
-Slug: `/en/artificial-intelligence-and-viveka`
+Slug (recommended): `/en/is-ai-making-us-dumber`
 
 ## 4. Outline changes
 
@@ -104,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kritrim-buddhi-aur-vivek-buddhi/`, `/en/artificial-intelligence-and-viveka/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-ai-hamein-moorkh-bana-raha-hai/`, `/en/is-ai-making-us-dumber/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -121,10 +121,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "फ़ोन स्मार्ट हो रहा है, क्या हम भी?",
-      "alternativeHeadline": "कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है?",
-      "description": "कृत्रिम बुद्धि बढ़ रही है, हम मूल बुद्धि खो रहे हैं। आचार्य उपेंद्र जी बताते हैं कि AI के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
+      "alternativeHeadline": "क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक",
+      "description": "क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
       "inLanguage": "hi",
-      "keywords": ["कृत्रिम बुद्धि", "क्या AI हमें मूर्ख बना रहा है", "विवेक बुद्धि", "मूल बुद्धि", "AI और अध्यात्म"],
+      "keywords": ["क्या AI हमें मूर्ख बना रहा है", "कृत्रिम बुद्धि", "विवेक बुद्धि", "मूल बुद्धि", "AI और अध्यात्म"],
       "about": [
         { "@type": "Thing", "name": "कृत्रिम बुद्धि" },
         { "@type": "Thing", "name": "विवेक" },
@@ -211,10 +211,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Your Phone Is Getting Smarter. Are You?",
-      "alternativeHeadline": "Artificial Intelligence Is Getting Smarter. Are We?",
-      "description": "Artificial intelligence keeps getting smarter while we stop thinking. Acharya Upendra Ji explains why viveka, your inner Ganapati, must guide its use.",
+      "alternativeHeadline": "Is AI Making Us Dumber? Artificial Intelligence and Viveka",
+      "description": "Is AI making us dumber? Acharya Upendra Ji explains how we handed our thinking to machines, and why viveka, the inner Ganapati, must guide AI's use.",
       "inLanguage": "en",
-      "keywords": ["artificial intelligence", "is AI making us dumber", "AI and spirituality", "what is viveka", "borrowed intelligence"],
+      "keywords": ["is AI making us dumber", "artificial intelligence", "AI and spirituality", "what is viveka", "borrowed intelligence"],
       "about": [
         { "@type": "Thing", "name": "Artificial Intelligence" },
         { "@type": "Thing", "name": "Viveka" },
@@ -338,8 +338,8 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
 ```json
 {
   "title": {
-    "hi": "कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है?",
-    "en": "Artificial Intelligence Is Getting Smarter. Are We?"
+    "hi": "क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक",
+    "en": "Is AI Making Us Dumber? Artificial Intelligence and Viveka"
   },
   "alt": {
     "hero.jpg": {
@@ -407,15 +407,15 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "kritrim-buddhi-aur-vivek-buddhi",
-      "focus_keyword": "कृत्रिम बुद्धि",
+      "slug": "kya-ai-hamein-moorkh-bana-raha-hai",
+      "focus_keyword": "क्या AI हमें मूर्ख बना रहा है",
       "secondary_keywords": [
-        "क्या AI हमें मूर्ख बना रहा है",
+        "कृत्रिम बुद्धि",
         "विवेक बुद्धि",
         "मूल बुद्धि",
         "AI और अध्यात्म"
       ],
-      "meta_description": "कृत्रिम बुद्धि बढ़ रही है, हम मूल बुद्धि खो रहे हैं। आचार्य उपेंद्र जी बताते हैं कि AI के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
+      "meta_description": "क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।",
       "tags": [
         "विवेक",
         "त्रिगुण",
@@ -425,15 +425,15 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
       ]
     },
     "en": {
-      "slug": "artificial-intelligence-and-viveka",
-      "focus_keyword": "artificial intelligence",
+      "slug": "is-ai-making-us-dumber",
+      "focus_keyword": "is AI making us dumber",
       "secondary_keywords": [
-        "is AI making us dumber",
+        "artificial intelligence",
         "AI and spirituality",
         "what is viveka",
         "borrowed intelligence"
       ],
-      "meta_description": "Artificial intelligence keeps getting smarter while we stop thinking. Acharya Upendra Ji explains why viveka, your inner Ganapati, must guide its use.",
+      "meta_description": "Is AI making us dumber? Acharya Upendra Ji explains how we handed our thinking to machines, and why viveka, the inner Ganapati, must guide AI's use.",
       "tags": [
         "Viveka",
         "Three Gunas",
@@ -453,8 +453,8 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses
-- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (resolved: the searched wording is now the focus keyword)
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 
 ### Focus keyword placement (SureRank)
@@ -480,6 +480,8 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
 
 ### Headings
 - [x] At least one subheading (H2)
+- [x] A question H2 carries the focus keyword (SEO fix)
+- [x] A short direct answer (about 60 words) placed early (SEO fix)
 
 ### Images
 - [x] Every image has alt text in both languages
@@ -509,7 +511,7 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
 
 ### Content trust
 - [x] Titles, metas and snippets faithful to the talk
-- [ ] No unsupported scriptural claims: the SEO texts add none, but the blog body still has Sanskrit review issue 1 (Major: Kali Yuga as an age of machines presented as scripture) and issue 8 (Shukracharya mapping) unapplied; see flags 1 and 8
+- [ ] No unsupported scriptural claims: the SEO texts and the SEO fix add none, but the blog body (original and `_seo` copy) still has Sanskrit review issue 1 (Major: Kali Yuga as an age of machines presented as scripture) and issue 8 (Shukracharya mapping) unapplied; see flags 1 and 8
 - [x] Health promises, fear-selling and attacks on other traditions flagged
 
 ### Not covered
