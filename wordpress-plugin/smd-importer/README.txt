@@ -1,13 +1,13 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.3.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.4.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
 - Accepts one .md/.markdown file (maximum 2 MB).
 - Converts basic Markdown headings, paragraphs, bold/italic, links, lists, blockquotes and horizontal rules.
-- Creates a WordPress post as a DRAFT (never publishes automatically).
+- Creates the WordPress post as PENDING REVIEW (never publishes automatically). An editor reviews it and publishes it.
 - Supports title, slug, excerpt, categories, tags, SEO title, meta description, canonical URL and robots directive in front matter.
 - Creates missing categories and tags.
-- Prevents duplicate slugs by default; optional update is limited to existing drafts.
+- Prevents duplicate slugs by default; optional update is limited to existing pending or draft posts.
 - Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by Astra at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
 - Optionally assigns a featured image using an existing WordPress media attachment ID instead.
 
@@ -19,7 +19,7 @@ INSTALLATION
 2. Upload surerank-markdown-importer.zip and click Install Now, then Activate.
 3. Go to Tools > Markdown Blog Importer.
 4. Upload a .md file using the format below, and select its images (if any) in the Images field.
-5. Open the resulting draft and review it in Astra and in the SureRank panel before publishing.
+5. Open the resulting pending post and review it in Astra and in the SureRank panel before publishing.
 
 MARKDOWN TEMPLATE EXAMPLE
 ----------------------------------
@@ -83,7 +83,7 @@ IMAGES
 - Inline: put a line containing only ![alt text](inline.jpg "Optional caption") where the image belongs, usually at the end of the section it illustrates. It becomes an image block (figure with caption).
 - Images are matched by file name, so assets/inline.jpg in the Markdown finds an uploaded inline.jpg. An http(s) URL is downloaded into the Media Library instead.
 - Every image the file names must be uploaded, or the import stops before creating anything and lists the missing files.
-- JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a draft with the same image files reuses the existing Media Library items instead of duplicating them.
+- JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a post with the same image files reuses the existing Media Library items instead of duplicating them.
 
 ALSO READ AND VIDEO
 - A line "Also read: [Post title](https://...)" becomes a boxed link. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
@@ -92,7 +92,7 @@ ALSO READ AND VIDEO
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.3.0
+LIMITATIONS IN VERSION 1.4.0
 - Does not write SureRank schema settings.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
 - Always back up the site and test on staging before installing on a production website.

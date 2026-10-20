@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: SureRank Markdown Blog Importer
- * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates drafts by default.
- * Version: 1.3.0
+ * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
+ * Version: 1.4.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.3.0';
+    const VERSION = '1.4.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const META_SEO_TITLE = 'smd_seo_title';
@@ -63,14 +63,14 @@ class SMD_SureRank_Markdown_Importer {
         ?>
         <div class="wrap">
           <h1>Markdown Blog Importer</h1>
-          <p>Upload one Markdown <code>.md</code> file. Posts are created as <strong>drafts</strong>; existing posts with the same slug are not overwritten.</p>
+          <p>Upload one Markdown <code>.md</code> file. Posts are created as <strong>Pending Review</strong> and never published; existing posts with the same slug are not overwritten.</p>
           <?php if (!$sure): ?><div class="notice notice-warning"><p>SureRank was not detected automatically. The importer will still create posts, but verify your SureRank integration before publishing.</p></div><?php else: ?><div class="notice notice-info"><p>SureRank appears to be active. The SEO title, meta description, focus keyword, canonical URL and robots setting are written to the post's SureRank settings.</p></div><?php endif; ?>
           <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data">
             <?php wp_nonce_field('smd_import_markdown'); ?>
             <input type="hidden" name="action" value="smd_import_markdown">
             <table class="form-table"><tr><th scope="row"><label for="smd_markdown_file">Markdown file</label></th><td><input type="file" id="smd_markdown_file" name="smd_markdown_file" accept=".md,.markdown,text/markdown,text/plain" required><p class="description">Maximum size: 2 MB. Use the provided template format.</p></td></tr>
             <tr><th scope="row"><label for="smd_images">Images</label></th><td><input type="file" id="smd_images" name="smd_images[]" accept="image/jpeg,image/png,image/webp,image/gif" multiple><p class="description">Optional. Select the hero and inline images the Markdown refers to by file name: <code>featured_image: hero.jpg</code> in the front matter becomes the featured image, and a line <code>![alt text](inline.jpg "caption")</code> in the body places that image there. Maximum 10 MB per image.</p></td></tr>
-            <tr><th scope="row">Import behavior</th><td><label><input type="checkbox" name="smd_allow_update" value="1"> Update an existing draft with the same slug (never updates published posts)</label></td></tr></table>
+            <tr><th scope="row">Import behavior</th><td><label><input type="checkbox" name="smd_allow_update" value="1"> Update an existing pending or draft post with the same slug (never updates published or scheduled posts)</label></td></tr></table>
             <?php submit_button('Import as Draft'); ?>
           </form>
           <hr><h2>SEO custom fields</h2>
@@ -97,7 +97,8 @@ class SMD_SureRank_Markdown_Importer {
         $slug = !empty($m['slug']) ? sanitize_title($m['slug']) : sanitize_title($title);
         $existing = get_page_by_path($slug, OBJECT, 'post');
         $allow_update = !empty($_POST['smd_allow_update']);
-        if ($existing && !($allow_update && $existing->post_status === 'draft')) $this->redirect('error', 'A post with this slug already exists. Choose a different slug or enable update for an existing draft.');
+        $updatable = $existing && in_array($existing->post_status, ['pending', 'draft'], true);
+        if ($existing && !($allow_update && $updatable)) $this->redirect('error', 'A post with this slug already exists. Choose a different slug or enable update for an existing pending or draft post.');
         $refs = $this->image_refs($m, $body);
         if ($refs && !current_user_can('upload_files')) $this->redirect('error', 'This file uses images, and you do not have permission to upload files.');
         $files = $this->uploaded_images();
@@ -108,14 +109,14 @@ class SMD_SureRank_Markdown_Importer {
         $images = $this->import_images($refs, $files);
         if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
         $content = $this->markdown_to_html($body, $images);
-        $status = 'draft'; // Safety default: never publish directly from an uploaded file.
+        $status = 'pending'; // Pending Review: an editor publishes it; never published directly from an uploaded file.
         $postarr = [
             'post_type' => 'post', 'post_status' => $status, 'post_title' => $title,
             'post_name' => $slug, 'post_content' => $content,
             'post_excerpt' => isset($m['excerpt']) ? sanitize_textarea_field($m['excerpt']) : '',
             'post_author' => get_current_user_id(),
         ];
-        if ($existing && $allow_update && $existing->post_status === 'draft') {
+        if ($allow_update && $updatable) {
             $postarr['ID'] = $existing->ID;
             $post_id = wp_update_post(wp_slash($postarr), true);
         } else {
@@ -150,7 +151,7 @@ class SMD_SureRank_Markdown_Importer {
             $image_id = absint($m['featured_image_id']);
             if ($image_id && get_post_type($image_id) === 'attachment') set_post_thumbnail($post_id, $image_id);
         }
-        $this->redirect('success', (isset($postarr['ID']) ? 'Draft updated: ' : 'Draft created: ') . get_the_title($post_id), $post_id);
+        $this->redirect('success', (isset($postarr['ID']) ? 'Post updated, pending review: ' : 'Post created, pending review: ') . get_the_title($post_id), $post_id);
     }
 
     /**
@@ -218,7 +219,7 @@ class SMD_SureRank_Markdown_Importer {
     /**
      * Adds each referenced image to the Media Library and returns image_key() => [id, url].
      * An uploaded file identical to one imported before (same MD5) reuses that attachment,
-     * so re-importing a draft does not duplicate its images.
+     * so re-importing a post does not duplicate its images.
      */
     private function import_images($refs, $files) {
         if (!$refs) return [];
@@ -378,7 +379,7 @@ class SMD_SureRank_Markdown_Importer {
         $type = $_GET['smd_result'] === 'success' ? 'success' : 'error';
         $message = isset($_GET['smd_message']) ? sanitize_text_field(rawurldecode(wp_unslash($_GET['smd_message']))) : 'Import finished.';
         echo '<div class="notice notice-' . esc_attr($type) . ' is-dismissible"><p>' . esc_html($message);
-        if ($type === 'success' && !empty($_GET['post_id'])) echo ' <a href="' . esc_url(get_edit_post_link(absint($_GET['post_id']), 'raw')) . '">Edit draft</a> · <a href="' . esc_url(get_preview_post_link(absint($_GET['post_id']))) . '">Preview</a>';
+        if ($type === 'success' && !empty($_GET['post_id'])) echo ' <a href="' . esc_url(get_edit_post_link(absint($_GET['post_id']), 'raw')) . '">Edit post</a> · <a href="' . esc_url(get_preview_post_link(absint($_GET['post_id']))) . '">Preview</a>';
         echo '</p></div>';
     }
 }
