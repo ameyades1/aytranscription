@@ -26,6 +26,8 @@ A short talk on food and the money that buys it. Acharya Ji says a sattvic diet 
 | why do good people suffer and stay protected | English | Emotional / life problem | Low (only touched on) |
 | Acharya Upendra Ji diet and prosperity | English | Navigational | Low |
 
+Keyword note (after /seo_blog_fix): neither focus keyword appeared word for word in the original body, so the check failed. The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use "ईमानदार कमाई और सात्विक भोजन" and "honest earnings and sattvic food" in a short direct answer within the first 100 words, and the English slug now carries the whole keyword (`honest-earnings-and-sattvic-food`). The focus keywords stay the same; there is no other searched-wording mismatch.
+
 Cannibalization check: no existing focus keyword covers earnings and food. `eat_shapes_how_you_think` (food of one's region) and `sattva_rajas_tamas_balance_success_liberation` (the three gunas) are close neighbours. Neither has a seo.json yet; when they get one, keep "jaisa ann waisa mann" and "sattvic food" general queries with whichever of them answers them best, and keep this post on the source of money.
 
 ## 3. Titles and meta
@@ -35,18 +37,18 @@ Cannibalization check: no existing focus keyword covers earnings and food. `eat_
 2. क्या केवल सात्विक भोजन काफ़ी है? कमाई का असर भी जानिए (52)
 3. आपकी थाली में आपकी कमाई भी परोसी जाती है (39, the H1)
 
-Meta description (151 characters): क्या सात्विक भोजन ही काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि ईमानदार कमाई और सात्विक भोजन मिलकर फल देते हैं, और भक्ति ने मीराबाई को विष से कैसे बचाया।
+Meta description (151 characters, **recommended, in seo.json**): क्या सात्विक भोजन ही काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि ईमानदार कमाई और सात्विक भोजन मिलकर फल देते हैं, और भक्ति ने मीराबाई को विष से कैसे बचाया।
 
-Slug: `/hi/imandar-kamai-aur-satvik-bhojan`
+Slug: `/hi/imandar-kamai-aur-satvik-bhojan` **(recommended, in seo.json)**
 
 **English**
 1. Honest Earnings and Sattvic Food: What Your Plate Carries (57 characters) **(recommended)**
 2. Is Sattvic Food Enough? How Your Money Shapes Your Meal (55)
 3. Your Plate Also Serves Up How You Earned It (43, the H1)
 
-Meta description (152 characters): Is sattvic food enough? Acharya Upendra Ji explains why honest earnings and sattvic food work together, and how devotion protected Meerabai from poison.
+Meta description (152 characters, **recommended, in seo.json**): Is sattvic food enough? Acharya Upendra Ji explains why honest earnings and sattvic food work together, and how devotion protected Meerabai from poison.
 
-Slug: `/en/honest-earnings-sattvic-food`
+Slug: `/en/honest-earnings-and-sattvic-food` **(recommended, in seo.json)**
 
 Avoid "diet for success" or "this food will make you rich" titles: the talk does not say that (section 10).
 
@@ -57,7 +59,9 @@ The H1 and headings are clear. Suggested changes, none of which alter the teachi
 - H2 "अन्याय का धन, सात्विक भोजन" / "Unjust Money, Pure Food": keep; it is already a strong, searchable contrast.
 - H2 "जब सात्विक व्यक्ति के साथ गलत होता है" / "When Wrong Is Done to a Pure Person": could add "क्या भक्ति रक्षा करती है?" / "Does Devotion Protect?" as an H3, matching the Meerabai query.
 - Hindi "मीराबाई का उदाहरण": add the short description the English already has ("श्रीकृष्ण की अनन्य भक्त संत-कवयित्री मीराबाई"), as the Sanskrit review suggests, so both versions carry the same entity information.
-- An early "direct answer" paragraph (section 5) after the first section would help featured snippets. The focus phrase is already close to the opening ("सात्विक आहार ... पैसा कमाने के ढंग"), so no keyword insertion is needed.
+- An early "direct answer" paragraph (section 5) after the first section would help featured snippets.
+
+Applied by /seo_blog_fix (in the `_seo` texts only): a direct answer with the focus keyword after the opening paragraphs, and question headings for "जब सात्विक व्यक्ति के साथ गलत होता है" / "When Wrong Is Done to a Pure Person" and "मीराबाई का उदाहरण" / "The Example of Meerabai". "धन और भोजन के अलग-अलग मेल" was kept, because `images.txt` places `inline.jpg` under it.
 
 ## 5. Direct answer paragraph
 
@@ -119,7 +123,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/imandar-kamai-aur-satvik-bhojan/`, `/en/honest-earnings-sattvic-food/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/imandar-kamai-aur-satvik-bhojan/`, `/en/honest-earnings-and-sattvic-food/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -430,7 +434,7 @@ The exact seo.json written for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "honest-earnings-sattvic-food",
+      "slug": "honest-earnings-and-sattvic-food",
       "focus_keyword": "honest earnings and sattvic food",
       "secondary_keywords": [
         "does black money affect your karma",
@@ -450,3 +454,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "धन की शुद्धि" / "Purity of Wealth" is used by this post only so far (the other four tags are shared by 8 to 28 posts); tags are outside /seo_blog_fix's scope
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
