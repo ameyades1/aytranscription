@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# Run /seo_blog_fix on talks whose SEO files fail tools/check_seo.py, one fresh `claude -p` session
+# Run /seo_blog_fix on talks whose SEO is not fixed and consistent, one fresh `claude -p` session
 # per talk: it writes <name>_blog_seo.txt and _blog_seo_en.txt, updates seo.json and the report
-# to them, and rebuilds the talk's page. A talk is done when its fixed copies are newer than the
-# original texts and it passes the check, so the script can be stopped and re-run at any time.
+# to them, and rebuilds the talk's page. A talk is done when tools/verify_seo_fix.py --strict
+# passes (fixed copies current, check_seo.py passing, page and seo_fix.md current, every report
+# section matching seo.json), so the script can be stopped and re-run at any time.
 # Talks without a seo.json are skipped (run /seo_blog first). When Claude hits a usage limit, it
 # waits and retries. At the end every talk is checked again. No WordPress work; nothing is committed.
 #
-# Usage: ./batch_seo_fix.sh [talk_name ...]   (default: every talk that fails the check)
+# Usage: ./batch_seo_fix.sh [talk_name ...]   (default: every talk with a seo.json not yet done)
 #
 # Settings (environment variables):
 #   LIMIT            stop after this many talks (default: no limit)
@@ -45,22 +46,18 @@ is_usage_limit() {
     grep -qiE "usage limit|spend limit|session limit|limit reached|rate limit|limit will reset|limit resets|out of extra usage|429" "$1"
 }
 
-# A talk is done when its fixed copies are newer than the original texts and it passes the check
+# A talk is done when its fix is current and consistent, with no warnings
 is_done() {
-    local n="$1" d="output/$1"
-    [ -f "$d/${n}_blog_seo.txt" ] && [ -f "$d/${n}_blog_seo_en.txt" ] &&
-        [ "$d/${n}_blog_seo.txt" -nt "$d/${n}_blog.txt" ] && [ "$d/${n}_blog_seo_en.txt" -nt "$d/${n}_blog_en.txt" ] &&
-        python3 tools/check_seo.py "$n" > /dev/null 2>&1
+    python3 tools/verify_seo_fix.py --strict "$1" > /dev/null 2>&1
 }
 
 if [ $# -gt 0 ]; then
     talks=("$@")
 else
-    # every talk with a seo.json that fails the check
+    # every talk with a seo.json (talks already done are skipped below)
     talks=()
     for f in output/*/blog/seo.json; do
-        n="$(basename "$(dirname "$(dirname "$f")")")"
-        python3 tools/check_seo.py "$n" > /dev/null 2>&1 || talks+=("$n")
+        talks+=("$(basename "$(dirname "$(dirname "$f")")")")
     done
 fi
 
@@ -108,8 +105,8 @@ done
 echo
 log_info "Finished: $done_count talk(s) fixed."
 
-log_info "Checking every talk with a seo.json"
-python3 tools/check_seo.py > "$LOG_DIR/_check.log" 2>&1
+log_info "Verifying every fixed talk"
+python3 tools/verify_seo_fix.py --strict > "$LOG_DIR/_check.log" 2>&1
 tail -1 "$LOG_DIR/_check.log"
 grep -q 'FAIL' "$LOG_DIR/_check.log" && log_error "Failures listed in $LOG_DIR/_check.log"
 

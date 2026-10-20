@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Verify that a talk fixed by /seo_blog_fix has no stale files before it goes to WordPress.
 
-Usage: verify_seo_fix.py [<talk> ...]   (default: every talk with SEO-fixed texts)
+Usage: verify_seo_fix.py [--strict] [<talk> ...]   (default: every talk with SEO-fixed texts)
+
+--strict makes warnings fail too (batch_seo_fix.sh uses it to decide a talk is done).
 
 The WordPress importer (~/wordpress/import_post.py) reads the SEO-fixed texts
 (<name>_blog_seo[_en].txt), blog/seo.json, blog/images.txt and blog/assets/; the blog page is
@@ -100,7 +102,10 @@ def verify(talk):
 
 
 def main():
-    talks = sys.argv[1:] or sorted(t for t in os.listdir(OUT)
+    args = sys.argv[1:]
+    strict = '--strict' in args
+    args = [a for a in args if a != '--strict']
+    talks = args or sorted(t for t in os.listdir(OUT)
                                    if os.path.exists(os.path.join(OUT, t, f'{t}_blog_seo_en.txt')))
     failed = 0
     for talk in talks:
@@ -111,7 +116,7 @@ def main():
                 print(f'  - {e}')
             for w in warn:
                 print(f'  ~ {w}')
-        failed += bool(err)
+        failed += bool(err or (strict and warn))
     print(f'\nVerified {len(talks)} fixed talk(s): {len(talks) - failed} passed, {failed} failed')
     sys.exit(1 if failed else 0)
 
