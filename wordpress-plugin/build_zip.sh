@@ -3,7 +3,7 @@
 # Build the uploadable zip of the Markdown importer plugin from wordpress-plugin/smd-importer/.
 #   Usage: wordpress-plugin/build_zip.sh [output dir]
 # Writes surerank-markdown-importer-<version>.zip, the version taken from the plugin header, to
-# the output dir (default: the Windows Downloads folder, else the current directory). The files
+# the output dir (default: your Windows Downloads folder, else the current directory). The files
 # sit in an smd-importer/ folder, so uploading it over an installed copy replaces that plugin.
 
 set -euo pipefail
@@ -13,7 +13,8 @@ SRC="$HERE/smd-importer"
 OUT="${1:-}"
 if [ -z "$OUT" ]; then
     OUT="$PWD"
-    for dir in /mnt/c/Users/*/Downloads; do
+    for dir in "/mnt/c/Users/$USER/Downloads" /mnt/c/Users/*/Downloads; do
+        case "$dir" in */Public/*|*/Default*) continue ;; esac
         if [ -w "$dir" ]; then OUT="$dir"; break; fi
     done
 fi
