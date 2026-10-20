@@ -14,8 +14,9 @@ output dir (default: your Windows Downloads folder, else the current directory).
   - front matter: title (the H1), slug, excerpt and meta description, category (English name from
     gallery_topics.txt), tags, SEO title, focus keyword, and the hero with its alt text and caption
   - the body, with each link phrase from seo.json linked to /<slug of the linked talk>/, the inline
-    image at the end of its section (images.txt), an "Also read:" line after its section, and the
-    YouTube video under "Watch the Discourse"
+    image at the end of its section (images.txt), an "Also read:" line after its section with the
+    linked talk's hero as its thumbnail (assets/also-read.jpg), the last section (Key Takeaways) in a
+    "::: takeaways" box, and the YouTube video under "Watch the Discourse"
 Uploading the zip again with "update" ticked replaces a pending or draft post's text and SEO; the
 importer reuses images it already has.
 """
@@ -139,7 +140,13 @@ def build(talk, lang='en'):
         if i is None:
             print(f'Note: no place for the Also read box', file=sys.stderr)
         else:
-            after.setdefault(i, []).append(f'{LABELS[lang]["also_read"]}: [{md_text(h1(also["talk"], lang))}]'
+            thumb = ''
+            hero = f'{OUT}/{also["talk"]}/blog/assets/hero.jpg'
+            if os.path.exists(hero):  # the linked talk's hero, as the box's thumbnail
+                files['assets/also-read.jpg'] = hero
+                alt = seo_of(also['talk']).get('alt', {}).get('hero.jpg', {}).get(lang, '')
+                thumb = f'![{md_text(alt)}](assets/also-read.jpg) '
+            after.setdefault(i, []).append(f'{LABELS[lang]["also_read"]}: {thumb}[{md_text(h1(also["talk"], lang))}]'
                                            f'(/{post_slug(also["talk"], lang)}/)')
 
     body, section = [], -1
@@ -150,10 +157,13 @@ def build(talk, lang='en'):
                 body.pop()
             body.extend(['', item, ''])
 
+    last_section = sum(1 for l in lines if l.startswith('## ')) - 1
     for line in lines[1:]:
         if line.startswith('## '):
             close_section()
             section += 1
+            if section == last_section:  # the last section is Key Takeaways: a boxed group
+                body.extend([':::' + ' takeaways', ''])
         elif line.strip() and not line.startswith('>'):
             for phrase, href in list(links):  # the first occurrence of each phrase, as import_post.py
                 if phrase in line:
@@ -161,6 +171,8 @@ def build(talk, lang='en'):
                     links.remove((phrase, href))
         body.append(line)
     close_section()
+    if last_section >= 0:
+        body.extend(['', ':::'])
     for phrase, _ in links:
         print(f"Note: link phrase '{phrase}' not found", file=sys.stderr)
     vid = video(talk)

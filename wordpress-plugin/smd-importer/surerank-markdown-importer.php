@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 1.8.0
+ * Version: 2.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.8.0';
+    const VERSION = '2.0.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
@@ -29,7 +29,6 @@ class SMD_SureRank_Markdown_Importer {
         add_action('admin_post_smd_import_markdown', [$this, 'handle_upload']);
         add_action('admin_notices', [$this, 'notice']);
         add_action('init', [$this, 'register_meta']);
-        add_action('wp_enqueue_scripts', [$this, 'styles']);
     }
 
     public function menu() {
@@ -45,20 +44,6 @@ class SMD_SureRank_Markdown_Importer {
                 'sanitize_callback' => 'sanitize_text_field'
             ]);
         }
-    }
-
-    /** Styles the "Also read" box, only on posts that have one. */
-    public function styles() {
-        $post = is_singular() ? get_post() : null;
-        if (!$post || strpos($post->post_content, 'smd-also-read') === false) return;
-        wp_register_style('smd-importer', false, [], self::VERSION);
-        wp_enqueue_style('smd-importer');
-        wp_add_inline_style('smd-importer', '.smd-also-read{margin:2em 0;border:1px solid rgba(0,0,0,.12);border-left:4px solid currentColor;border-radius:6px;overflow:hidden}'
-            . '.smd-also-read a{display:flex;gap:1em;align-items:center;padding:.75em 1em;text-decoration:none}'
-            . '.smd-also-read img{flex:0 0 120px;width:120px;height:68px;object-fit:cover;border-radius:4px;margin:0}'
-            . '.smd-also-read span{display:block;font-size:.8em;text-transform:uppercase;letter-spacing:.05em;opacity:.7}'
-            . '.smd-also-read strong{display:block;line-height:1.35}'
-            . '@media (max-width:480px){.smd-also-read img{flex-basis:88px;width:88px;height:50px}}');
     }
 
     public function render_page() {
@@ -123,7 +108,8 @@ class SMD_SureRank_Markdown_Importer {
         if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Add them to the zip or select them in the Images field.');
         $images = $this->import_images($refs, $files, $slug, $this->image_alts($m, $body), ($allow_update && $updatable) ? $existing->ID : 0);
         if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
-        $content = $this->markdown_to_html($body, $images);
+        $content = $this->markdown_to_blocks($body, $images);
+        if (!$this->blocks_round_trip($content)) $this->redirect('error', 'The converted post did not parse back into the same blocks, so nothing was saved. Please report the Markdown that caused this.');
         $status = 'pending'; // Pending Review: an editor publishes it; never published directly from an uploaded file.
         $postarr = [
             'post_type' => 'post', 'post_status' => $status, 'post_title' => $title,
@@ -133,6 +119,9 @@ class SMD_SureRank_Markdown_Importer {
         ];
         if ($allow_update && $updatable) {
             $postarr['ID'] = $existing->ID;
+            // WordPress caches each embed's result on the post, including a failed "{{unknown}}"; clear them so
+            // a re-import tries every video again.
+            foreach (array_keys(get_post_meta($existing->ID)) as $key) if (strpos($key, '_oembed_') === 0) delete_post_meta($existing->ID, $key);
             $post_id = wp_update_post(wp_slash($postarr), true);
         } else {
             $post_id = wp_insert_post(wp_slash($postarr), true);
@@ -196,7 +185,11 @@ class SMD_SureRank_Markdown_Importer {
     private function image_refs($meta, $body) {
         $refs = [];
         if (!empty($meta['featured_image'])) $refs[] = $meta['featured_image'];
-        foreach (explode("\n", $body) as $line) if ($img = $this->parse_image_line(trim($line))) $refs[] = $img['src'];
+        foreach (explode("\n", $body) as $line) {
+            $trim = trim($line);
+            if ($img = $this->parse_image_line($trim)) $refs[] = $img['src'];
+            elseif (($also = $this->parse_also_read($trim)) && $also['img'] !== '') $refs[] = $also['img'];
+        }
         return array_values(array_unique($refs));
     }
 
@@ -204,7 +197,11 @@ class SMD_SureRank_Markdown_Importer {
     private function image_alts($meta, $body) {
         $alts = [];
         if (!empty($meta['featured_image'])) $alts[$this->image_key($meta['featured_image'])] = $meta['featured_image_alt'] ?? '';
-        foreach (explode("\n", $body) as $line) if ($img = $this->parse_image_line(trim($line))) $alts += [$this->image_key($img['src']) => $img['alt']];
+        foreach (explode("\n", $body) as $line) {
+            $trim = trim($line);
+            if ($img = $this->parse_image_line($trim)) $alts += [$this->image_key($img['src']) => $img['alt']];
+            elseif (($also = $this->parse_also_read($trim)) && $also['img'] !== '') $alts += [$this->image_key($also['img']) => $also['alt'] !== '' ? $also['alt'] : $also['title']];
+        }
         return $alts;
     }
 
@@ -358,28 +355,78 @@ class SMD_SureRank_Markdown_Importer {
         return array_values(array_unique($out));
     }
 
-    private function markdown_to_html($markdown, $images = []) {
-        $markdown = str_replace(["\r\n", "\r"], "\n", $markdown);
-        $lines = explode("\n", $markdown); $out = []; $paragraph = []; $list = null; $quote = [];
-        $flush_p = function() use (&$paragraph, &$out) { if ($paragraph) { $out[] = '<p>' . $this->join_lines($paragraph) . '</p>'; $paragraph = []; } };
-        $flush_list = function() use (&$list, &$out) { if ($list !== null) { $out[] = '</' . $list . '>'; $list = null; } };
-        $flush_quote = function() use (&$quote, &$out) { if ($quote) { $out[] = '<blockquote><p>' . $this->join_lines($quote) . '</p></blockquote>'; $quote = []; } };
+    /**
+     * Converts the Markdown body to the post's content as core blocks (paragraph, heading, list, quote, separator,
+     * image, embed, group, columns), in the markup the block editor itself saves, so any theme renders it and the
+     * editor opens it as ordinary blocks. Lines ":::" or "::: name" open a bordered group (class name), ":::" closes it.
+     */
+    private function markdown_to_blocks($markdown, $images = []) {
+        $lines = explode("\n", str_replace(["\r\n", "\r"], "\n", $markdown));
+        $stack = [[]]; $groups = []; $paragraph = []; $list = null; $items = []; $quote = [];
+        $add = function($block) use (&$stack) { $stack[count($stack) - 1][] = $block; };
+        $flush = function() use (&$paragraph, &$list, &$items, &$quote, $add) {
+            if ($paragraph) { $add($this->block('paragraph', [], '<p>' . $this->join_lines($paragraph) . '</p>')); $paragraph = []; }
+            if ($list !== null) {
+                $inner = '';
+                foreach ($items as $item) $inner .= $this->block('list-item', [], '<li>' . $item . '</li>');
+                $tag = $list === 'ol' ? 'ol' : 'ul';
+                $add($this->block('list', $list === 'ol' ? ['ordered' => true] : [], '<' . $tag . ' class="wp-block-list">' . $inner . '</' . $tag . '>'));
+                $list = null; $items = [];
+            }
+            if ($quote) {
+                $add($this->block('quote', [], '<blockquote class="wp-block-quote">' . $this->block('paragraph', [], '<p>' . $this->join_lines($quote) . '</p>') . '</blockquote>'));
+                $quote = [];
+            }
+        };
         foreach ($lines as $line) {
             $trim = trim($line);
-            if ($img = $this->parse_image_line($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $this->figure($img, $images); continue; }
-            if ($html = $this->also_read($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $html; continue; }
-            if ($html = $this->youtube($trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = $html; continue; }
-            if ($trim === '') { $flush_p(); $flush_list(); $flush_quote(); continue; }
-            if (preg_match('/^(#{1,6})\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_list(); $flush_quote(); $n = strlen($m[1]); $out[] = '<h' . $n . '>' . $this->inline_format($m[2]) . '</h' . $n . '>'; continue; }
-            if (preg_match('/^([-*_])\1\1+$/', $trim)) { $flush_p(); $flush_list(); $flush_quote(); $out[] = '<hr />'; continue; }
-            if (preg_match('/^>\s?(.*)$/', ltrim($line), $m)) { $flush_p(); $flush_list(); $quote[] = $m[1]; continue; }
-            if (preg_match('/^[-*+]\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_quote(); if ($list !== 'ul') { $flush_list(); $list = 'ul'; $out[] = '<ul>'; } $out[] = '<li>' . $this->inline_format($m[1]) . '</li>'; continue; }
-            if (preg_match('/^\d+[.)]\s+(.+)$/', $trim, $m)) { $flush_p(); $flush_quote(); if ($list !== 'ol') { $flush_list(); $list = 'ol'; $out[] = '<ol>'; } $out[] = '<li>' . $this->inline_format($m[1]) . '</li>'; continue; }
-            $flush_list(); $flush_quote(); $paragraph[] = ltrim($line);
+            if (preg_match('/^:::\s*([A-Za-z0-9_-]*)$/', $trim, $m)) {
+                $flush();
+                if ($m[1] === '' && count($stack) > 1) { $add_to = array_pop($stack); $stack[count($stack) - 1][] = $this->group(array_pop($groups), $add_to); }
+                else { $stack[] = []; $groups[] = $m[1]; }
+                continue;
+            }
+            if ($img = $this->parse_image_line($trim)) { $flush(); $add($this->image_block($img, $images)); continue; }
+            if ($also = $this->parse_also_read($trim)) { $flush(); $add($this->also_read_block($also, $images)); continue; }
+            if ($html = $this->youtube_block($trim)) { $flush(); $add($html); continue; }
+            if ($trim === '') { $flush(); continue; }
+            if (preg_match('/^(#{1,6})\s+(.+)$/', $trim, $m)) {
+                $flush();
+                $level = max(2, strlen($m[1])); // the post title is the page's only H1
+                $add($this->block('heading', $level === 2 ? [] : ['level' => $level], '<h' . $level . ' class="wp-block-heading">' . $this->inline_format($m[2]) . '</h' . $level . '>'));
+                continue;
+            }
+            if (preg_match('/^([-*_])\1\1+$/', $trim)) { $flush(); $add($this->block('separator', [], '<hr class="wp-block-separator has-alpha-channel-opacity"/>')); continue; }
+            if (preg_match('/^>\s?(.*)$/', ltrim($line), $m)) { if ($paragraph || $list !== null) $flush(); $quote[] = $m[1]; continue; }
+            if (preg_match('/^([-*+]|\d+[.)])\s+(.+)$/', $trim, $m)) {
+                $type = ctype_digit($m[1][0]) ? 'ol' : 'ul';
+                if ($paragraph || $quote || ($list !== null && $list !== $type)) $flush();
+                $list = $type; $items[] = $this->inline_format($m[2]);
+                continue;
+            }
+            if ($list !== null || $quote) $flush();
+            $paragraph[] = ltrim($line);
         }
-        $flush_p(); $flush_list(); $flush_quote();
-        return wp_kses(implode("\n", $out), ['p'=>[], 'h1'=>[], 'h2'=>[], 'h3'=>[], 'h4'=>[], 'h5'=>[], 'h6'=>[], 'strong'=>[], 'em'=>[], 'del'=>[], 'a'=>['href'=>[], 'title'=>[], 'target'=>[], 'rel'=>[]], 'ul'=>[], 'ol'=>[], 'li'=>[], 'blockquote'=>[], 'hr'=>[], 'br'=>[],
-            'figure'=>['class'=>[]], 'aside'=>['class'=>[]], 'div'=>['class'=>[]], 'span'=>['class'=>[]], 'figcaption'=>['class'=>[]], 'img'=>['src'=>[], 'alt'=>[], 'class'=>[], 'width'=>[], 'height'=>[], 'loading'=>[], 'decoding'=>[]]]);
+        $flush();
+        while (count($stack) > 1) { $inner = array_pop($stack); $stack[count($stack) - 1][] = $this->group(array_pop($groups), $inner); }
+        return implode("\n\n", $stack[0]);
+    }
+
+    /** One block: its comment delimiters around its saved markup; attributes as the editor serialises them. */
+    private function block($name, $attrs, $html) {
+        $json = $attrs ? ' ' . serialize_block_attributes($attrs) : '';
+        return "<!-- wp:$name$json -->\n$html\n<!-- /wp:$name -->";
+    }
+
+    /** A group with a 1px border, rounded corners and padding, all saved on the block, so it is boxed in any theme. */
+    private function group($class, $blocks, $extra = []) {
+        $attrs = ($class !== '' ? ['className' => $class] : []) + [
+            'style' => ['border' => ['width' => '1px', 'radius' => '8px'], 'spacing' => ['padding' => ['top' => '1rem', 'right' => '1.5rem', 'bottom' => '1rem', 'left' => '1.5rem']]],
+            'layout' => ['type' => 'constrained'],
+        ] + $extra;
+        $html = '<div class="wp-block-group' . ($class !== '' ? ' ' . esc_attr($class) : '') . '" style="border-width:1px;border-radius:8px;padding-top:1rem;padding-right:1.5rem;padding-bottom:1rem;padding-left:1.5rem">'
+            . implode("\n\n", $blocks) . '</div>';
+        return $this->block('group', $attrs, $html);
     }
 
     /** Joins a paragraph's or quote's source lines; a line ending in two spaces or a backslash keeps its line break. */
@@ -388,48 +435,86 @@ class SMD_SureRank_Markdown_Importer {
         foreach ($lines as $i => $line) {
             $break = (bool) preg_match('/(  |\\\\)$/', $line);
             $html .= $this->inline_format(trim(rtrim($line, " \\\\")));
-            if ($i < count($lines) - 1) $html .= $break ? "<br>\n" : ' ';
+            if ($i < count($lines) - 1) $html .= $break ? '<br>' : ' ';
         }
         return $html;
     }
 
-    /**
-     * A line "Also read: [Title](url)" or "यह भी पढ़ें: [Title](url)" (the label may be bold) as a box, labelled as
-     * written; url may be site-relative (/slug/). If a post here has the
-     * URL's last path segment as its slug, the box shows that post's featured image.
-     */
-    private function also_read($trim) {
-        if (!preg_match('/^(?:\*\*|__)?(also read|यह भी पढ़ें)\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)\s*$/iu', $trim, $m)) return '';
-        $label = $m[1]; array_splice($m, 1, 1);
-        $segments = array_values(array_filter(explode('/', (string) wp_parse_url($m[2], PHP_URL_PATH)), function($seg) { return $seg !== '' && !preg_match('/^index\.html?$/i', $seg); }));
-        $post = $segments ? get_page_by_path(sanitize_title(end($segments)), OBJECT, 'post') : null;
-        $thumb = $post ? get_the_post_thumbnail($post, 'medium', ['loading' => 'lazy', 'alt' => '']) : '';
-        return '<aside class="smd-also-read"><a href="' . esc_url($m[2]) . '">' . $thumb . '<span class="smd-also-read-text"><span>' . esc_html(strtolower($label) === 'also read' ? 'Also read' : $label) . '</span><strong>' . $this->inline_format($m[1]) . ' &rarr;</strong></span></a></aside>';
-    }
-
-    /**
-     * A line that is only a YouTube link, [Title](url) or a bare URL, in any of the watch, youtu.be,
-     * embed or shorts forms, as an embed block; WordPress turns the URL on its own line into the player.
-     */
-    private function youtube($trim) {
-        if (preg_match('/^\[([^\]]*)\]\(\s*<?([^\s)<>]+)>?\s*\)$/', $trim, $m)) { $title = $m[1]; $url = $m[2]; }
-        elseif (preg_match('/^<?(https?:\/\/\S+?)>?$/', $trim, $m)) { $title = ''; $url = $m[1]; }
-        else return '';
-        if (!preg_match('#^https?://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/|live/)|youtube-nocookie\.com/embed/|youtu\.be/)([A-Za-z0-9_-]{11})#i', $url, $id)) return '';
-        $html = '<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">' . "\nhttps://www.youtube.com/watch?v=" . $id[1] . "\n" . '</div>';
-        if ($title !== '') $html .= '<figcaption class="wp-element-caption">' . $this->inline_format($title) . '</figcaption>';
-        return $html . '</figure>';
-    }
-
-    /** A standalone image line as an image block's figure, with the attachment's sizes so WordPress serves srcset. */
-    private function figure($img, $images) {
+    /** A standalone image line as an image block, centred (which centres its caption in every theme). */
+    private function image_block($img, $images) {
         $key = $this->image_key($img['src']);
         if (!isset($images[$key])) return '';
         $id = $images[$key]['id'];
         if ($img['alt'] !== '') update_post_meta($id, '_wp_attachment_image_alt', sanitize_text_field($img['alt']));
-        $html = '<figure class="wp-block-image size-large"><img src="' . esc_url($images[$key]['url']) . '" alt="' . esc_attr($img['alt']) . '" class="wp-image-' . $id . '" loading="lazy" />';
+        $html = '<figure class="wp-block-image aligncenter size-large"><img src="' . esc_url($images[$key]['url']) . '" alt="' . esc_attr($img['alt']) . '" class="wp-image-' . $id . '"/>';
         if ($img['caption'] !== '') $html .= '<figcaption class="wp-element-caption">' . $this->inline_format($img['caption']) . '</figcaption>';
-        return $html . '</figure>';
+        return $this->block('image', ['id' => $id, 'sizeSlug' => 'large', 'linkDestination' => 'none', 'align' => 'center'], $html . '</figure>');
+    }
+
+    /**
+     * A line "Also read: [Title](url)" or "यह भी पढ़ें: [Title](url)" (the label may be bold), optionally with a
+     * thumbnail image before the link: "Also read: ![alt](also-read.jpg) [Title](url)". url may be site-relative.
+     */
+    private function parse_also_read($trim) {
+        if (!preg_match('/^(?:\*\*|__)?(also read|यह भी पढ़ें)\s*:?\s*(?:\*\*|__)?\s*:?\s*(?:!\[([^\]]*)\]\(\s*([^\s)]+)\s*\)\s*)?\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)\s*$/iu', $trim, $m)) return null;
+        return ['label' => strtolower($m[1]) === 'also read' ? 'Also read' : $m[1], 'alt' => $m[2], 'img' => $m[3], 'title' => $m[4], 'url' => $m[5]];
+    }
+
+    /**
+     * The Also read box: a bordered group holding two columns, a small linked thumbnail and the label over the
+     * linked title. The thumbnail is the line's own image, else the featured image of the post here whose slug is
+     * the URL's last path segment, else there is none and the box holds only the text.
+     */
+    private function also_read_block($also, $images) {
+        $id = 0;
+        if ($also['img'] !== '' && isset($images[$this->image_key($also['img'])])) $id = $images[$this->image_key($also['img'])]['id'];
+        else {
+            $segments = array_values(array_filter(explode('/', (string) wp_parse_url($also['url'], PHP_URL_PATH)), function($seg) { return $seg !== '' && !preg_match('/^index\.html?$/i', $seg); }));
+            $post = $segments ? get_page_by_path(sanitize_title(end($segments)), OBJECT, 'post') : null;
+            if ($post) $id = (int) get_post_thumbnail_id($post);
+        }
+        $url = esc_url($also['url']);
+        $text = $this->block('paragraph', [], '<p><em>' . esc_html($also['label']) . '</em><br><strong><a href="' . $url . '">' . $this->inline_format($also['title']) . '</a></strong></p>');
+        if (!$id) return $this->group('also-read', [$text]);
+        $src = wp_get_attachment_image_url($id, 'thumbnail');
+        $alt = (string) get_post_meta($id, '_wp_attachment_image_alt', true);
+        $thumb = $this->block('image', ['id' => $id, 'sizeSlug' => 'thumbnail', 'linkDestination' => 'custom'],
+            '<figure class="wp-block-image size-thumbnail"><a href="' . $url . '"><img src="' . esc_url($src) . '" alt="' . esc_attr($alt) . '" class="wp-image-' . $id . '"/></a></figure>');
+        $columns = $this->block('columns', ['verticalAlignment' => 'center', 'isStackedOnMobile' => false],
+            '<div class="wp-block-columns are-vertically-aligned-center is-not-stacked-on-mobile">'
+            . $this->block('column', ['width' => '6rem'], '<div class="wp-block-column" style="flex-basis:6rem">' . $thumb . '</div>')
+            . "\n\n" . $this->block('column', ['verticalAlignment' => 'center'], '<div class="wp-block-column is-vertically-aligned-center">' . $text . '</div>')
+            . '</div>');
+        return $this->group('also-read', [$columns]);
+    }
+
+    /**
+     * A line that is only a YouTube link, [Title](url) or a bare URL (watch, youtu.be, embed, shorts or live), as an
+     * embed block with the link text as caption. If YouTube refuses to embed the video (its owner turned embedding
+     * off), it becomes the video's thumbnail linking to it on YouTube instead, so the reader still gets a picture.
+     */
+    private function youtube_block($trim) {
+        if (preg_match('/^\[([^\]]*)\]\(\s*<?([^\s)<>]+)>?\s*\)$/', $trim, $m)) { $title = $m[1]; $url = $m[2]; }
+        elseif (preg_match('/^<?(https?:\/\/\S+?)>?$/', $trim, $m)) { $title = ''; $url = $m[1]; }
+        else return '';
+        if (!preg_match('#^https?://(?:www\.|m\.)?(?:youtube\.com/(?:watch\?(?:.*&)?v=|embed/|shorts/|live/)|youtube-nocookie\.com/embed/|youtu\.be/)([A-Za-z0-9_-]{11})#i', $url, $id)) return '';
+        $watch = 'https://www.youtube.com/watch?v=' . $id[1];
+        $caption = $title !== '' ? '<figcaption class="wp-element-caption">' . $this->inline_format($title) . '</figcaption>' : '';
+        if (wp_oembed_get($watch)) {
+            return $this->block('embed', ['url' => $watch, 'type' => 'video', 'providerNameSlug' => 'youtube', 'responsive' => true, 'className' => 'wp-embed-aspect-16-9 wp-has-aspect-ratio'],
+                '<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">' . "\n" . $watch . "\n" . '</div>' . $caption . '</figure>');
+        }
+        $alt = 'Video: ' . ($title !== '' ? $title : 'watch on YouTube');
+        // the full-width thumbnail when the video has one (HD uploads), else the standard one, which every video has
+        $thumb = 'https://i.ytimg.com/vi/' . $id[1] . '/maxresdefault.jpg';
+        if (wp_remote_retrieve_response_code(wp_remote_head($thumb)) !== 200) $thumb = 'https://i.ytimg.com/vi/' . $id[1] . '/hqdefault.jpg';
+        return $this->block('image', ['sizeSlug' => 'large', 'linkDestination' => 'custom', 'align' => 'center'],
+            '<figure class="wp-block-image aligncenter size-large"><a href="' . esc_url($watch) . '"><img src="' . esc_url($thumb) . '" alt="' . esc_attr($alt) . '"/></a>' . $caption . '</figure>');
+    }
+
+    /** True when the content parses back into blocks and serialises to exactly the same text (balanced, well-formed). */
+    private function blocks_round_trip($content) {
+        return serialize_blocks(parse_blocks($content)) === $content;
     }
 
     private function inline_format($text) {

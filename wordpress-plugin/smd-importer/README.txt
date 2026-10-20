@@ -1,14 +1,14 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.8.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 2.0.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
 - Accepts one .md/.markdown file (maximum 2 MB), or one .zip (maximum 50 MB) holding the .md and its images.
-- Converts basic Markdown headings, paragraphs, bold/italic, links, lists, blockquotes and horizontal rules.
+- Converts Markdown into standard WordPress blocks (see BLOCKS below), so the post looks right in any theme and opens in the block editor as ordinary, editable blocks. The plugin adds no CSS of its own.
 - Creates the WordPress post as PENDING REVIEW (never publishes automatically). An editor reviews it and publishes it.
 - Supports title, slug, excerpt, categories, tags, SEO title, meta description, canonical URL and robots directive in front matter.
 - Creates missing categories and tags.
 - Prevents duplicate slugs by default; optional update is limited to existing pending or draft posts.
-- Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by Astra at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
+- Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by the theme, usually at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
 - Optionally assigns a featured image using an existing WordPress media attachment ID instead.
 
 SURERANK
@@ -32,7 +32,7 @@ INSTALLATION
 2. Upload surerank-markdown-importer.zip and click Install Now, then Activate.
 3. Go to Tools > Markdown Blog Importer.
 4. Upload a .md file using the format below and select its images (if any) in the Images field, or upload one .zip holding the .md and its images.
-5. Open the resulting pending post and review it in Astra and in the SureRank panel before publishing.
+5. Open the resulting pending post and review it in the theme and in the SureRank panel before publishing.
 
 MARKDOWN TEMPLATE EXAMPLE
 ----------------------------------
@@ -93,7 +93,7 @@ SUPPORTED FRONT MATTER
 
 IMAGES
 - Hero: name it in the front matter (featured_image: hero.jpg). It is set as the featured image, not repeated in the body.
-- Inline: put a line containing only ![alt text](inline.jpg "Optional caption") where the image belongs, usually at the end of the section it illustrates. It becomes an image block (figure with caption).
+- Inline: put a line containing only ![alt text](inline.jpg "Optional caption") where the image belongs, usually at the end of the section it illustrates. It becomes a centred image block, with its caption centred under it.
 - Images are matched by file name, so assets/inline.jpg in the Markdown finds an uploaded inline.jpg. An http(s) URL is downloaded into the Media Library instead.
 - Every image the file names must be uploaded, or the import stops before creating anything and lists the missing files.
 - Each new image is saved under the post's slug: hero.jpg in a post with slug art-of-leaving becomes art-of-leaving-hero.jpg, so every blog can use the same hero.jpg and inline.jpg names and the Media Library still gets descriptive, distinct file names. Its Media Library title is its alt text.
@@ -103,8 +103,31 @@ LINKS
 - [text](https://...) and site-relative [text](/post-slug/) links are converted. A site-relative link points into the site the post is imported to, so links between imported posts work on any site.
 
 ALSO READ AND VIDEO
-- A line "Also read: [Post title](https://...)" becomes a boxed link. For a Hindi post, write "यह भी पढ़ें: [शीर्षक](/slug/)"; the box shows the label as written. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
+- A line "Also read: [Post title](https://...)" becomes a bordered box with the label and the linked title. For a Hindi post, write "यह भी पढ़ें: [शीर्षक](/slug/)"; the box shows the label as written. The link is kept as written.
+- For a thumbnail, put an image before the link: "Also read: ![alt](also-read.jpg) [Post title](/slug/)", and include also-read.jpg with the upload. Without one, the box uses the featured image of the post on this site whose slug is the URL's last path segment (index.html is ignored), if there is one; otherwise it has no thumbnail.
 - A line that is only a YouTube link, [Title](https://www.youtube.com/watch?v=...) or a bare URL, becomes an embedded video, with the link text as its caption. Watch, youtu.be, embed, shorts and live links all work.
+- Some videos cannot be embedded, because their owner has turned embedding off. The importer checks this with YouTube at import time; such a video becomes the video's thumbnail, linking to it on YouTube, with the same caption. Re-importing a post checks every video again.
+
+BOXES
+- Lines ":::" or "::: name" and a later ":::" put everything between them in a bordered box (a group block with a 1px border, rounded corners and padding saved on the block), with "name" as its CSS class. For example:
+    ::: takeaways
+    ## Key Takeaways
+    - First point
+    :::
+- Boxes can hold any of the other elements, including headings, lists, images and other boxes. A box left open at the end of the file is closed there.
+
+BLOCKS
+Every element becomes a standard WordPress core block, in the markup the block editor itself saves:
+- paragraph (with bold, italic, strikethrough, links and line breaks inside it) -> Paragraph
+- # to ###### heading -> Heading. A # heading becomes level 2, since the post title is the page's only level-1 heading.
+- "- item" / "1. item" lists -> List of List items (bulleted or numbered)
+- > quote lines -> Quote holding a Paragraph
+- --- / *** / ___ -> Separator
+- ![alt](file "caption") -> Image (centred, with caption)
+- YouTube line -> Embed, or Image linking to the video when it cannot be embedded
+- ::: box -> Group
+- Also read line -> Group holding Columns: a Column with a linked Image thumbnail and a Column with a Paragraph
+Before saving, the importer checks that the content parses back into exactly the same blocks; if not, nothing is saved.
 
 ZIP UPLOAD
 - Instead of the .md file and separate images, upload one .zip in the Markdown field. It must hold exactly one .md or .markdown file; its images (JPEG, PNG, WebP or GIF) may sit beside it or in any folder, such as assets/.
@@ -120,7 +143,7 @@ HINDI AND OTHER LANGUAGES
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.8.0
+LIMITATIONS IN VERSION 2.0.0
 - Does not write SureRank schema settings.
-- Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
+- Fenced code blocks, tables, images inside a paragraph (an image must be on its own line), nested lists and raw HTML are not supported; such lines come through as plain text.
 - Always back up the site and test on staging before installing on a production website.
