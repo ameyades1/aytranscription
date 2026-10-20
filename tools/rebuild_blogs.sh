@@ -8,13 +8,17 @@
 #
 # A talk is a folder name under output/. Pages that link to a talk are found through their
 # blog/seo.json. The YouTube ID is taken from each existing page, so the video card is kept.
+# Pages are built from the SEO-fixed texts (<name>_blog_seo.txt, _blog_seo_en.txt) when they exist.
 set -u
 cd "$(dirname "$0")/.."
 
 build() {  # build <talk>: rebuild one talk's page; returns non-zero on failure
   local n=$1 page=output/$1/blog/index.html files=() id=''
-  [ -f "output/$n/${n}_blog.txt" ] && files+=("output/$n/${n}_blog.txt")
-  [ -f "output/$n/${n}_blog_en.txt" ] && files+=("output/$n/${n}_blog_en.txt")
+  # the SEO-fixed copies (from /seo_blog_fix) when they exist, else the original texts
+  for s in '' _en; do
+    if [ -f "output/$n/${n}_blog_seo$s.txt" ]; then files+=("output/$n/${n}_blog_seo$s.txt")
+    elif [ -f "output/$n/${n}_blog$s.txt" ]; then files+=("output/$n/${n}_blog$s.txt"); fi
+  done
   if [ ${#files[@]} -eq 0 ]; then echo "Skipped $n: no blog text" >&2; return 1; fi
   [ -f "$page" ] && id=$(grep -o 'youtube\.com/watch?v=[A-Za-z0-9_-]\{11\}' "$page" | head -1 | cut -d= -f2)
   python3 tools/template/blog_page.py "${files[@]}" ${id:+--video=$id}

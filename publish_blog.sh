@@ -1,19 +1,15 @@
 #!/bin/bash
 
-# Take talks all the way from discourse to the local WordPress, skipping every step that is
-# already done, so the script can be stopped and re-run at any time:
+# Take talks from discourse to checked, SEO-fixed blog pages, skipping every step that is already
+# done, so the script can be stopped and re-run at any time:
 #   1. blog    /chapter <url>         output/<name>/<name>_blog.txt and _blog_en.txt (URL input only)
 #   2. SEO     /seo_blog <name>       blog/seo_report.md and blog/seo.json
 #   3. fix     /seo_blog_fix <name>   <name>_blog_seo.txt and _blog_seo_en.txt; seo.json updated to them
 #   4. check   tools/check_seo.py     stops the talk if it fails
-#   5. import  ~/wordpress/import_post.py   creates or updates the talk's post
-#   6. relink  re-imports the already imported posts that link to this talk but not to its
-#              current slug, so their links point straight to the new URL
-# Once at the end, when at least one talk was imported:
-#   7. static  ~/wordpress/export_static.sh exports the local WordPress with Simply Static to
-#              output/wp/, then tools/template/seo_gallery_page.py writes the English SEO gallery
-#              (output/seo/index.html) and gallery_page.py the main gallery that links to it.
-#              Commit and push output/ to publish them on GitHub Pages.
+# Once at the end:
+#   5. rebuild tools/rebuild_blogs.sh  the talks' pages (from the SEO-fixed texts), the pages that
+#              link to them and the blog index
+# No WordPress work: ./publish_wordpress.sh imports the talks into the local WordPress afterwards.
 # Each Claude step is a fresh `claude -p` session. When Claude hits a usage limit, it waits and
 # retries. Nothing is committed and nothing goes to the live site.
 #
@@ -26,8 +22,6 @@
 #   LIMIT_WAIT       seconds to wait after a usage limit before retrying (default: 1800)
 #   MAX_FAILURES     failed attempts allowed per step before skipping the talk (default: 2)
 #   PAUSE            seconds to wait after each talk that ran a Claude step (default: 0)
-#   WP_DIR           the local WordPress folder with import_post.py (default: ~/wordpress)
-#   STATIC           set to 0 to skip step 7 (default: 1)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
@@ -38,8 +32,6 @@ PERMISSION_MODE="${PERMISSION_MODE:-auto}"
 LIMIT_WAIT="${LIMIT_WAIT:-1800}"
 MAX_FAILURES="${MAX_FAILURES:-2}"
 PAUSE="${PAUSE:-0}"
-WP_DIR="${WP_DIR:-$HOME/wordpress}"
-STATIC="${STATIC:-1}"
 LOG_DIR="tools/batch_logs/publish"
 
 RED='\033[0;31m'
@@ -55,10 +47,6 @@ mkdir -p "$LOG_DIR"
 
 is_usage_limit() {
     grep -qiE "usage limit|spend limit|session limit|limit reached|rate limit|limit will reset|limit resets|out of extra usage|429" "$1"
-}
-
-wp() {
-    (cd "$WP_DIR" && docker compose run --rm -T cli wp "$@" 2>/dev/null)
 }
 
 # The talk whose blog page embeds this YouTube video, if any
@@ -99,23 +87,6 @@ run_claude() {
         log_error "$name: $step failed (attempt $failures/$MAX_FAILURES), see $log"
         [ "$failures" -ge "$MAX_FAILURES" ] && return 1
     done
-}
-
-# The talks already imported whose seo.json links to this talk (links, also_read or related)
-linking_talks() {
-    python3 - "$1" <<'EOF'
-import glob, json, os, sys
-talk = sys.argv[1]
-for path in sorted(glob.glob('output/*/blog/seo.json')):
-    other = path.split(os.sep)[1]
-    if other == talk:
-        continue
-    seo = json.load(open(path, encoding='utf-8'))
-    targets = [l.get('talk') for l in seo.get('links', [])] + seo.get('related', []) + \
-              [(seo.get('also_read') or {}).get('talk')]
-    if talk in targets:
-        print(other)
-EOF
 }
 
 publish() {
@@ -164,32 +135,7 @@ publish() {
         return 1
     fi
 
-    # 5. import
-    local old_slug new_slug
-    old_slug=$(wp post list --post_type=post --meta_key=_antaryog_talk --meta_value="$name" --post_status=any --field=post_name)
-    if ! python3 "$WP_DIR/import_post.py" "$name" > "$LOG_DIR/${name}_import.log" 2>&1; then
-        log_error "$name: import failed, see $LOG_DIR/${name}_import.log"
-        return 1
-    fi
-    grep '^Note:' "$LOG_DIR/${name}_import.log" | sed "s/^/    /" >&2
-    log_info "$name: imported $(grep '^http' "$LOG_DIR/${name}_import.log")"
-    new_slug=$(wp post list --post_type=post --meta_key=_antaryog_talk --meta_value="$name" --post_status=any --field=post_name)
-    [ -n "$old_slug" ] && [ "$old_slug" != "$new_slug" ] && log_info "$name: slug changed, $old_slug → $new_slug"
-
-    # 6. relink: imported posts that link here but not to the current slug
-    local other pid
-    for other in $(linking_talks "$name"); do
-        pid=$(wp post list --post_type=post --meta_key=_antaryog_talk --meta_value="$other" --post_status=any --field=ID)
-        [ -n "$pid" ] || continue
-        if ! wp post get "$pid" --field=post_content | grep -q "href=\"/$new_slug/\""; then
-            if python3 "$WP_DIR/import_post.py" "$other" > "$LOG_DIR/${other}_import.log" 2>&1; then
-                log_info "$name: re-imported $other to update its link"
-            else
-                log_error "$name: re-import of $other failed, see $LOG_DIR/${other}_import.log"
-            fi
-        fi
-    done
-
+    PUBLISHED="$name"
     [ "$ran_claude" = 1 ] && [ "$PAUSE" -gt 0 ] && sleep "$PAUSE"
     return 0
 }
@@ -206,31 +152,31 @@ else
 fi
 
 done_count=0
+done_names=()
 skipped=()
 for input in "${inputs[@]}"; do
     if publish "$input"; then
         done_count=$((done_count + 1))
+        done_names+=("$PUBLISHED")
     else
         skipped+=("$input")
     fi
 done
 
-# 7. static site and galleries
-if [ "$STATIC" = 1 ] && [ "$done_count" -gt 0 ]; then
-    log_info "Exporting the static site and building the galleries"
-    if "$WP_DIR/export_static.sh" > "$LOG_DIR/_static.log" 2>&1 &&
-        python3 tools/template/seo_gallery_page.py >> "$LOG_DIR/_static.log" 2>&1 &&
-        python3 tools/template/gallery_page.py >> "$LOG_DIR/_static.log" 2>&1; then
-        grep -E "^Static site|^SEO gallery|^Gallery" "$LOG_DIR/_static.log" | sed 's/^/    /'
-    else
-        log_error "Static export or gallery failed, see $LOG_DIR/_static.log"
-    fi
+# 5. rebuild: the pages of the talks done (from the SEO-fixed texts), the pages that link to
+#    them and the blog index (/seo_blog_fix rebuilds each talk too; this makes sure)
+if [ "$done_count" -gt 0 ]; then
+    log_info "Rebuilding the blog pages"
+    tools/rebuild_blogs.sh "${done_names[@]}" > "$LOG_DIR/_rebuild.log" 2>&1 || log_error "Rebuild failed, see $LOG_DIR/_rebuild.log"
+    notes=$(grep '^Note:' "$LOG_DIR/_rebuild.log" | grep -vc 'video details')
+    [ "$notes" -gt 0 ] && log_error "$notes 'Note:' line(s) in $LOG_DIR/_rebuild.log: a phrase, heading or talk was not found"
 fi
 
 echo
-log_info "Finished: $done_count talk(s) published to the local WordPress."
+log_info "Finished: $done_count talk(s) ready. Next: ./publish_wordpress.sh <talks> to import them into the local WordPress."
 if [ ${#skipped[@]} -gt 0 ]; then
     log_error "Skipped ${#skipped[@]}:"
     printf '  - %s\n' "${skipped[@]}" >&2
     exit 1
 fi
+

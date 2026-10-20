@@ -1,6 +1,6 @@
 ---
 name: seo_blog_fix
-description: Write SEO-improved copies of one talk's blog texts, output/<name>/<name>_blog_seo.txt (Hindi) and output/<name>/<name>_blog_seo_en.txt (English), fixing the unmet items of its SEO report's checklist with the smallest faithful edits, following tools/prompts/seo_blog_specialist.txt, then updates seo.json (focus keyword, slug, title, meta description) to match the fixed texts. The original blog texts are not changed.
+description: Write SEO-improved copies of one talk's blog texts, output/<name>/<name>_blog_seo.txt (Hindi) and output/<name>/<name>_blog_seo_en.txt (English), fixing the unmet items of its SEO report's checklist with the smallest faithful edits, following tools/prompts/seo_blog_specialist.txt, then updates seo.json (focus keyword, slug, title, meta description) to match the fixed texts and rebuilds the talk's blog page from them. The original blog texts are not changed. No WordPress work.
 argument-hint: <talk name>
 model: claude-opus-5-5
 effort: medium
@@ -68,7 +68,12 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
 7. Run `python3 tools/check_seo.py <name>` (it checks against the `_seo` texts when they
    exist). Fix every error in the `_seo` texts or seo.json, within the rules above, and run it
    again until the talk passes.
-8. Write `output/<name>/blog/seo_fix.md`:
+8. Rebuild the blog page from the `_seo` texts with `tools/rebuild_blogs.sh <name>` (it uses the
+   `_seo` copies when they exist, and also rebuilds the pages that link to this talk and the
+   blog index). Any "Note:" line other than "could not read video details" means a link phrase,
+   heading or talk was not found: fix the `_seo` text or seo.json within the rules above, run the
+   check again and rebuild until there are none.
+9. Write `output/<name>/blog/seo_fix.md`:
    - First line: `<name>: SEO fix`.
    - For each language, a table of every change (where | before | after | why).
    - The checklist items now met, and those still unmet with the reason.
@@ -76,7 +81,10 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
 
 Rules:
 - Write only the two `_seo` text files, seo.json, the report (sections 2, 11 and 12) and
-  `seo_fix.md`. Never change the original blog texts, the page or the images.
+  `seo_fix.md`, and rebuild pages only with `tools/rebuild_blogs.sh`. Never change the original
+  blog texts or the images.
+- No WordPress work: never import, export or touch the local WordPress. That is
+  `publish_wordpress.sh`'s job, later in the pipeline.
 - If nothing in a language needs fixing, still write its `_seo` copy (unchanged) and say so in
   seo_fix.md.
 

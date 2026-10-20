@@ -3,6 +3,10 @@
 
 Usage: blog_page.py <blog.txt> [<other_language_blog.txt>] [--video YOUTUBE_ID] [--out FILE]
 
+The blog texts may be the SEO-fixed copies (<name>_blog_seo.txt, <name>_blog_seo_en.txt, written by
+/seo_blog_fix); tools/rebuild_blogs.sh passes them when they exist. Their headings may be reworded,
+so images and the Also read box fall back to the section at the same position in the original text.
+
   blog.txt      The blog text (or a chapter); its language is the page's default.
   other ...     The same chapter in the other language (Hindi/English). Both languages go on
                 the same page with a language switch; open a language directly with #hi / #en.
@@ -192,15 +196,21 @@ def h2_texts(path):
             for l in open(path, encoding='utf-8') if l.startswith('## ')]
 
 
-def section_end(body, heads_by_lang, lang, hi_heads=None):
+def section_end(body, heads_by_lang, lang, orig_heads=None):
     """Position at the end of the section headed heads_by_lang[lang] (before the next ## heading),
-    or None. For English, falls back to the section at the Hindi heading's position."""
+    or None. orig_heads ({'hi': [...], 'en': [...]}: the ## headings of the original blog texts)
+    gives the fallback when the heading is not on the page (an SEO-fixed text rewords headings
+    but keeps their order, and a retranslated English text may word them differently): the
+    section at that heading's position in the original text of this language, then (for English)
+    at the Hindi heading's position."""
     heads = list(re.finditer(r'<h2>(.*?)</h2>', body))
     at = next((i for i, h in enumerate(heads)
                if re.sub('<[^>]+>', '', h.group(1)).strip() == heads_by_lang.get(lang)), None)
-    if at is None and lang == 'en' and hi_heads and heads_by_lang.get('hi') in hi_heads:
-        i = hi_heads.index(heads_by_lang['hi'])
-        at = i if i < len(heads) else None
+    orig = orig_heads or {}
+    for l in (lang, 'hi'):
+        if at is None and heads_by_lang.get(l) in orig.get(l, []):
+            i = orig[l].index(heads_by_lang[l])
+            at = i if i < len(heads) else None
     if at is None:
         return None
     return heads[at + 1].start() if at + 1 < len(heads) else len(body)
@@ -217,12 +227,12 @@ def alt_text(seo, file, lang, default):
     return seo.get('alt', {}).get(file, {}).get(lang) or default
 
 
-def place_images(body, lang, out_dir, hi_heads=None, seo=None):
+def place_images(body, lang, out_dir, orig_heads=None, seo=None):
     for img in read_images(out_dir):
         if not os.path.exists(os.path.join(out_dir, 'assets', img['file'])):
             print(f"Note: assets/{img['file']} not found, left out", file=sys.stderr)
             continue
-        pos = section_end(body, img, lang, hi_heads)
+        pos = section_end(body, img, lang, orig_heads)
         if pos is None:
             print(f"Note: section '{img[lang]}' not found for {img['file']} ({lang}), left out", file=sys.stderr)
             continue
@@ -239,12 +249,25 @@ def read_seo(out_dir):
     return json.load(open(path, encoding='utf-8')) if os.path.exists(path) else {}
 
 
+def blog_text(folder, talk, lang):
+    """A talk's blog text for one language: the SEO-fixed copy when there is one."""
+    suffix = '_en' if lang == 'en' else ''
+    seo = os.path.join(folder, f'{talk}_blog_seo{suffix}.txt')
+    return seo if os.path.isfile(seo) else os.path.join(folder, f'{talk}_blog{suffix}.txt')
+
+
+def original_text(path):
+    """The original blog text for an SEO-fixed copy (<name>_blog_seo[_en].txt), else the path."""
+    orig = re.sub(r'_blog_seo(_en)?\.txt$', r'_blog\1.txt', path)
+    return orig if os.path.isfile(orig) else path
+
+
 def talk_info(talk, lang, out_dir):
     """Link, title, excerpt and image of another talk's blog page, or None when it has none.
     Pages sit at output/<talk>/blog/index.html, so links are relative to this page."""
     root = os.path.dirname(os.path.dirname(out_dir))
     folder = os.path.join(root, talk)
-    txt = os.path.join(folder, f'{talk}_blog{"_en" if lang == "en" else ""}.txt')
+    txt = blog_text(folder, talk, lang)
     if not (os.path.isfile(os.path.join(folder, 'blog', 'index.html')) and os.path.isfile(txt)):
         print(f'Note: no {lang} blog page for {talk}, link left out', file=sys.stderr)
         return None
@@ -284,9 +307,9 @@ def link_phrases(body, links, lang, out_dir):
     return body
 
 
-def also_read_box(body, also, lang, out_dir, hi_heads, T):
+def also_read_box(body, also, lang, out_dir, orig_heads, T):
     info = talk_info(also['talk'], lang, out_dir)
-    pos = info and section_end(body, also.get('after', {}), lang, hi_heads)
+    pos = info and section_end(body, also.get('after', {}), lang, orig_heads)
     if pos is None:
         if info:
             print(f"Note: section for the also-read box not found ({lang}), left out", file=sys.stderr)
@@ -308,7 +331,7 @@ def related_section(talks, lang, out_dir, T):
     return f'<section class="related"><h2>{T["related_h"]}</h2><div class="rel-grid">{"".join(cards)}</div></section>' if cards else ''
 
 
-def build_lang(path, out_dir, video, other_lang, hi_heads=None):
+def build_lang(path, out_dir, video, other_lang, orig_heads=None):
     """Hero, article+sidebar and call-to-action for one language."""
     text = open(path, encoding='utf-8').read()
     lang = 'hi' if re.search(r'[ऀ-ॿ]', text) else 'en'
@@ -320,11 +343,11 @@ def build_lang(path, out_dir, video, other_lang, hi_heads=None):
     label, title = label.strip(), title.strip()
 
     seo = read_seo(out_dir)
-    body = place_images(body, lang, out_dir, hi_heads, seo)
+    body = place_images(body, lang, out_dir, orig_heads, seo)
     page_title = seo.get('title', {}).get(lang) or f'{title} | Antar Yog Foundation'
     body = link_phrases(body, seo.get('links', []), lang, out_dir)
     if seo.get('also_read'):
-        body = also_read_box(body, seo['also_read'], lang, out_dir, hi_heads, T)
+        body = also_read_box(body, seo['also_read'], lang, out_dir, orig_heads, T)
     hero = hero_image(out_dir)
     toc = []
 
@@ -475,8 +498,8 @@ def main():
     langs = ['hi' if re.search(r'[ऀ-ॿ]', open(c, encoding='utf-8').read()) else 'en' for c in a.chapters]
     if len(langs) == 2 and langs[0] == langs[1]:
         ap.error('the two chapters must be in different languages (one Hindi, one English)')
-    hi_heads = h2_texts(a.chapters[langs.index('hi')]) if 'hi' in langs else None
-    blocks = [build_lang(c, out_dir, video, langs[1 - i] if len(langs) == 2 else None, hi_heads)
+    orig_heads = {l: h2_texts(original_text(c)) for l, c in zip(langs, a.chapters)}
+    blocks = [build_lang(c, out_dir, video, langs[1 - i] if len(langs) == 2 else None, orig_heads)
               for i, c in enumerate(a.chapters)]
     first = blocks[0]
     content = '\n'.join(b['html'].replace('<div class="lang-block"', '<div class="lang-block" hidden', 1) if i else b['html']
