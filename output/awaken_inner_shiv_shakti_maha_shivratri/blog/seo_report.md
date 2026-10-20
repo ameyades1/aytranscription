@@ -8,16 +8,16 @@ The talk explains what the Shivling stands for and reads the Maha Shivratri wors
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| शिवलिंग किसका प्रतीक है (primary) | Hindi | Informational | High |
-| शिवलिंग का रहस्य | Hindi | Informational | High |
+| शिवलिंग का रहस्य (primary) | Hindi | Informational | High |
+| शिवलिंग किसका प्रतीक है | Hindi | Informational | High |
 | शिवलिंग का अर्थ | Hindi | Informational | High |
 | बिल्व पत्र के तीन पत्ते का अर्थ | Hindi | Informational / ritual | Medium |
 | शिव शब्द का अर्थ | Hindi | Informational | Medium |
 | महाशिवरात्रि का आध्यात्मिक अर्थ | Hindi | Informational (seasonal) | Medium |
 | लिंग शरीर क्या है | Hindi | Informational | Low |
 | shivling ka rahasya / shivling kis ka prateek hai | Hinglish | Informational | Medium |
-| what does the Shivling stand for (primary) | English | Informational | High |
-| what does the Shivling represent | English | Informational | High |
+| what does the Shivling represent (primary) | English | Informational | High |
+| what does the Shivling stand for | English | Informational | High |
 | spiritual meaning of Shivling | English | Informational | High |
 | meaning of three-leaved bilva leaf | English | Informational / ritual | Medium |
 | meaning of the word Shiva | English | Informational | Medium |
@@ -25,29 +25,31 @@ The talk explains what the Shivling stands for and reads the Maha Shivratri wors
 | Shiva and Parvati as Purusha and Prakriti | English | Informational | Low |
 | linga sharira subtle body | English | Informational | Low |
 
-Keyword wording: the primary keywords are taken word for word from the body (the opening question "शिवलिंग किसका प्रतीक है?" / "what does the Shivling stand for?"), so SureRank finds them in the first 100 words. The commonly searched forms "शिवलिंग का रहस्य" (the body says "शिवलिंग का असली रहस्य" only in the H1), "what does the Shivling represent" and "spiritual meaning of Shivling" do not appear in the body; they are kept as secondary keywords. If the editor wants to target them directly, the body's opening question could carry that wording.
+Keyword wording: the original blog asked "शिवलिंग किसका प्रतीक है?" / "what does the Shivling stand for?" but never used the commonly searched forms "शिवलिंग का रहस्य" (only "शिवलिंग का असली रहस्य" in the H1) and "what does the Shivling represent". The SEO fix (seo_fix.md) adds a short direct-answer paragraph after the H1 that opens with the searched wording, and turns the second H2 into the question "शिवलिंग किसका प्रतीक है?" / "What Does the Shivling Represent?". The focus keywords are now "शिवलिंग का रहस्य" / "what does the Shivling represent", both in the first 100 words of the `_seo` texts; the old focus keywords stay as secondary keywords. "spiritual meaning of Shivling" is still not in the body and stays a secondary keyword.
 
 Competition: "Maha Shivratri significance" is crowded with news and festival sites; the Shivling-meaning queries are more winnable with a deep answer from within the tradition. Keep the post off generic "Maha Shivratri 2027 date / puja vidhi" queries: it gives no dates or vidhi.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ (recommended)
-2. शिवलिंग किसका प्रतीक है? लिंग शरीर और बिल्व पत्र का अर्थ
-3. महाशिवरात्रि: शिवलिंग, बिल्व पत्र और शिव शब्द का अर्थ
+1. शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है? (recommended)
+2. शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ
+3. शिवलिंग किसका प्रतीक है? लिंग शरीर और बिल्व पत्र का अर्थ
+4. महाशिवरात्रि: शिवलिंग, बिल्व पत्र और शिव शब्द का अर्थ
 
-Meta description: शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।
+Meta description: शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।
 
-Slug: /hi/shivling-kiska-prateek-hai
+Slug: /hi/shivling-ka-rahasya
 
 **English**
-1. What Does the Shivling Stand For? | Maha Shivratri (recommended)
-2. What Does the Shivling Represent? The Subtle Body Within
-3. Shivling, Bilva and the Name Shiva: Maha Shivratri Meaning
+1. What Does the Shivling Represent? | Maha Shivratri (recommended)
+2. What Does the Shivling Stand For? | Maha Shivratri
+3. What Does the Shivling Represent? The Subtle Body Within
+4. Shivling, Bilva and the Name Shiva: Maha Shivratri Meaning
 
-Meta description: What does the Shivling stand for? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.
+Meta description: What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.
 
-Slug: /en/what-does-the-shivling-stand-for
+Slug: /en/what-does-the-shivling-represent
 
 The H1s stay as they are; they already carry "शिवलिंग" / "Shivling" and "महाशिवरात्रि" / "Maha Shivratri".
 
@@ -112,10 +114,10 @@ For later use in WordPress; never added to the page. Dates: published 2026-10-03
       "@type": "BlogPosting",
       "@id": "{{HI_POST_URL}}#article",
       "headline": "महाशिवरात्रि पर जानिए शिवलिंग का असली रहस्य",
-      "alternativeHeadline": "शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ",
-      "description": "शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
+      "alternativeHeadline": "शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है?",
+      "description": "शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
       "inLanguage": "hi",
-      "keywords": ["शिवलिंग किसका प्रतीक है", "शिवलिंग का रहस्य", "बिल्व पत्र के तीन पत्ते का अर्थ", "शिव शब्द का अर्थ", "महाशिवरात्रि का आध्यात्मिक अर्थ"],
+      "keywords": ["शिवलिंग का रहस्य", "शिवलिंग किसका प्रतीक है", "बिल्व पत्र के तीन पत्ते का अर्थ", "शिव शब्द का अर्थ", "महाशिवरात्रि का आध्यात्मिक अर्थ"],
       "about": [
         {"@type": "Thing", "name": "शिवलिंग"},
         {"@type": "Thing", "name": "महाशिवरात्रि"},
@@ -182,10 +184,10 @@ For later use in WordPress; never added to the page. Dates: published 2026-10-03
       "@type": "BlogPosting",
       "@id": "{{EN_POST_URL}}#article",
       "headline": "This Maha Shivratri, Discover the True Secret of the Shivling",
-      "alternativeHeadline": "What Does the Shivling Stand For? | Maha Shivratri",
-      "description": "What does the Shivling stand for? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
+      "alternativeHeadline": "What Does the Shivling Represent? | Maha Shivratri",
+      "description": "What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
       "inLanguage": "en",
-      "keywords": ["what does the Shivling stand for", "what does the Shivling represent", "spiritual meaning of Shivling", "meaning of three-leaved bilva leaf", "meaning of the word Shiva", "Maha Shivratri spiritual significance"],
+      "keywords": ["what does the Shivling represent", "what does the Shivling stand for", "spiritual meaning of Shivling", "meaning of three-leaved bilva leaf", "meaning of the word Shiva", "Maha Shivratri spiritual significance"],
       "about": [
         {"@type": "Thing", "name": "Shivling"},
         {"@type": "Thing", "name": "Maha Shivratri"},
@@ -242,7 +244,7 @@ For later use in WordPress; never added to the page. Dates: published 2026-10-03
 }
 ```
 
-**WordPress SEO plugin mapping (Yoast or Rank Math):** the plugin fills BlogPosting/Article, WebPage, Organization, Person (from the post author), BreadcrumbList, headline, datePublished/dateModified, image and inLanguage itself. Enter by hand: the SEO title, meta description, slug and focus keyword (from seo.json `wordpress`), the Organization logo and social profiles once in the plugin's site settings, and the author profile for Acharya Ji. Add by hand (custom schema block or the plugin's schema builder): VideoObject (if the plugin's video module does not detect the embed), `alternativeHeadline`, `about`, `keywords`, and the `translationOfWork` / `workTranslation` pair, which also needs the hreflang pair from the translation plugin (WPML or Polylang). Replace every `{{PLACEHOLDER}}` with the live URLs.
+**WordPress SEO plugin mapping (Yoast or Rank Math):** the plugin fills BlogPosting/Article, WebPage, Organization, Person (from the post author), BreadcrumbList, headline, datePublished/dateModified, image and inLanguage itself. Enter by hand: the SEO title, meta description, slug and focus keyword (from seo.json `wordpress`), the Organization logo and social profiles once in the plugin's site settings, and the author profile for Acharya Ji. Add by hand (custom schema block or the plugin's schema builder): VideoObject (if the plugin's video module does not detect the embed), `alternativeHeadline`, `about`, `keywords`, and the `translationOfWork` / `workTranslation` pair, which also needs the hreflang pair from the translation plugin (WPML or Polylang). Replace every `{{PLACEHOLDER}}` with the live URLs. URL slugs: Hindi `shivling-ka-rahasya`, English `what-does-the-shivling-represent`.
 
 ## 9. Images
 
@@ -279,8 +281,8 @@ The exact values written to output/awaken_inner_shiv_shakti_maha_shivratri/blog/
 ```json
 {
   "title": {
-    "hi": "शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ",
-    "en": "What Does the Shivling Stand For? | Maha Shivratri"
+    "hi": "शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है?",
+    "en": "What Does the Shivling Represent? | Maha Shivratri"
   },
   "alt": {
     "hero.jpg": {
@@ -343,15 +345,15 @@ The exact values written to output/awaken_inner_shiv_shakti_maha_shivratri/blog/
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "shivling-kiska-prateek-hai",
-      "focus_keyword": "शिवलिंग किसका प्रतीक है",
+      "slug": "shivling-ka-rahasya",
+      "focus_keyword": "शिवलिंग का रहस्य",
       "secondary_keywords": [
-        "शिवलिंग का रहस्य",
+        "शिवलिंग किसका प्रतीक है",
         "बिल्व पत्र के तीन पत्ते का अर्थ",
         "शिव शब्द का अर्थ",
         "महाशिवरात्रि का आध्यात्मिक अर्थ"
       ],
-      "meta_description": "शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
+      "meta_description": "शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
       "tags": [
         "महाशिवरात्रि",
         "शिव",
@@ -361,15 +363,15 @@ The exact values written to output/awaken_inner_shiv_shakti_maha_shivratri/blog/
       ]
     },
     "en": {
-      "slug": "what-does-the-shivling-stand-for",
-      "focus_keyword": "what does the Shivling stand for",
+      "slug": "what-does-the-shivling-represent",
+      "focus_keyword": "what does the Shivling represent",
       "secondary_keywords": [
-        "what does the Shivling represent",
+        "what does the Shivling stand for",
         "spiritual meaning of Shivling",
         "meaning of three-leaved bilva leaf",
         "Maha Shivratri spiritual significance"
       ],
-      "meta_description": "What does the Shivling stand for? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
+      "meta_description": "What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
       "tags": [
         "Maha Shivratri",
         "Shiva",
@@ -398,7 +400,7 @@ The exact values written to output/awaken_inner_shiv_shakti_maha_shivratri/blog/
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [x] Within the first 100 words (preferred)
+- [x] Within the first 100 words (preferred): the searched wording now opens the `_seo` texts
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters

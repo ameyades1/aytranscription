@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ",
-    "en": "What Does the Shivling Stand For? | Maha Shivratri"
+    "hi": "शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है?",
+    "en": "What Does the Shivling Represent? | Maha Shivratri"
   },
   "alt": {
     "hero.jpg": {
@@ -64,15 +64,15 @@
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "shivling-kiska-prateek-hai",
-      "focus_keyword": "शिवलिंग किसका प्रतीक है",
+      "slug": "shivling-ka-rahasya",
+      "focus_keyword": "शिवलिंग का रहस्य",
       "secondary_keywords": [
-        "शिवलिंग का रहस्य",
+        "शिवलिंग किसका प्रतीक है",
         "बिल्व पत्र के तीन पत्ते का अर्थ",
         "शिव शब्द का अर्थ",
         "महाशिवरात्रि का आध्यात्मिक अर्थ"
       ],
-      "meta_description": "शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
+      "meta_description": "शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।",
       "tags": [
         "महाशिवरात्रि",
         "शिव",
@@ -82,15 +82,15 @@
       ]
     },
     "en": {
-      "slug": "what-does-the-shivling-stand-for",
-      "focus_keyword": "what does the Shivling stand for",
+      "slug": "what-does-the-shivling-represent",
+      "focus_keyword": "what does the Shivling represent",
       "secondary_keywords": [
-        "what does the Shivling represent",
+        "what does the Shivling stand for",
         "spiritual meaning of Shivling",
         "meaning of three-leaved bilva leaf",
         "Maha Shivratri spiritual significance"
       ],
-      "meta_description": "What does the Shivling stand for? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
+      "meta_description": "What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri.",
       "tags": [
         "Maha Shivratri",
         "Shiva",
