@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates drafts by default.
- * Version: 1.2.0
+ * Version: 1.3.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.2.0';
+    const VERSION = '1.3.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const META_SEO_TITLE = 'smd_seo_title';
@@ -64,7 +64,7 @@ class SMD_SureRank_Markdown_Importer {
         <div class="wrap">
           <h1>Markdown Blog Importer</h1>
           <p>Upload one Markdown <code>.md</code> file. Posts are created as <strong>drafts</strong>; existing posts with the same slug are not overwritten.</p>
-          <?php if (!$sure): ?><div class="notice notice-warning"><p>SureRank was not detected automatically. The importer will still create posts, but verify your SureRank integration before publishing.</p></div><?php else: ?><div class="notice notice-info"><p>SureRank appears to be active. This importer stores SEO title and description in its own custom fields; follow the one-time SureRank template setup in the included README to use them for search metadata.</p></div><?php endif; ?>
+          <?php if (!$sure): ?><div class="notice notice-warning"><p>SureRank was not detected automatically. The importer will still create posts, but verify your SureRank integration before publishing.</p></div><?php else: ?><div class="notice notice-info"><p>SureRank appears to be active. The SEO title, meta description, focus keyword, canonical URL and robots setting are written to the post's SureRank settings.</p></div><?php endif; ?>
           <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data">
             <?php wp_nonce_field('smd_import_markdown'); ?>
             <input type="hidden" name="action" value="smd_import_markdown">
@@ -74,7 +74,7 @@ class SMD_SureRank_Markdown_Importer {
             <?php submit_button('Import as Draft'); ?>
           </form>
           <hr><h2>SEO custom fields</h2>
-          <p>The importer stores SEO title and description in <code>smd_seo_title</code> and <code>smd_seo_description</code>. It also stores canonical and robots values for reference. SureRank's native per-post canonical/robots/schema fields are not written directly by this version, because their internal storage format is not a documented stable API.</p>
+          <p>The SEO title, meta description, focus keyword and canonical URL go into SureRank's per-post settings (<code>surerank_settings_general</code>), and the robots value into its no-index and no-follow flags, so the SureRank panel shows them. Copies are also kept in <code>smd_seo_title</code>, <code>smd_seo_description</code>, <code>smd_canonical_url</code> and <code>smd_robots</code>. Schema is not written.</p>
           <p><a href="<?php echo esc_url(plugins_url('README.txt', __FILE__)); ?>" target="_blank" rel="noopener">Read setup instructions and download the Markdown template</a></p>
         </div>
         <?php
@@ -139,6 +139,7 @@ class SMD_SureRank_Markdown_Importer {
         $robots = sanitize_text_field($m['robots'] ?? 'index,follow');
         if (!in_array($robots, ['index,follow','noindex,follow','index,nofollow','noindex,nofollow'], true)) $robots = 'index,follow';
         update_post_meta($post_id, self::META_ROBOTS, $robots);
+        $this->save_surerank($post_id, $m, $robots);
         $hero = $m['featured_image'] ?? '';
         if ($hero !== '' && isset($images[$this->image_key($hero)])) {
             $hero_id = $images[$this->image_key($hero)]['id'];
@@ -150,6 +151,29 @@ class SMD_SureRank_Markdown_Importer {
             if ($image_id && get_post_type($image_id) === 'attachment') set_post_thumbnail($post_id, $image_id);
         }
         $this->redirect('success', (isset($postarr['ID']) ? 'Draft updated: ' : 'Draft created: ') . get_the_title($post_id), $post_id);
+    }
+
+    /**
+     * Writes the SEO fields where SureRank reads them: title, description, focus keyword and canonical
+     * in the surerank_settings_general array (other keys already there are kept), and the robots
+     * directive as the separate surerank_settings_post_no_index / _no_follow flags.
+     */
+    private function save_surerank($post_id, $m, $robots) {
+        $general = get_post_meta($post_id, 'surerank_settings_general', true);
+        if (!is_array($general)) $general = [];
+        $fields = [
+            'page_title' => sanitize_text_field($m['seo_title'] ?? ''),
+            'page_description' => sanitize_textarea_field($m['meta_description'] ?? ''),
+            'focus_keyword' => sanitize_text_field($m['focus_keyword'] ?? ''),
+            'canonical_url' => esc_url_raw($m['canonical_url'] ?? ''),
+        ];
+        foreach ($fields as $key => $value) {
+            if ($value !== '') $general[$key] = $value; else unset($general[$key]);
+            delete_post_meta($post_id, 'surerank_settings_' . $key); // a stray per-key copy would shadow the array
+        }
+        update_post_meta($post_id, 'surerank_settings_general', $general);
+        update_post_meta($post_id, 'surerank_settings_post_no_index', strpos($robots, 'noindex') === 0 ? 'yes' : 'no');
+        update_post_meta($post_id, 'surerank_settings_post_no_follow', substr($robots, -8) === 'nofollow' ? 'yes' : 'no');
     }
 
     /** Every image the document uses: the front-matter hero first, then the body's image lines in order. */

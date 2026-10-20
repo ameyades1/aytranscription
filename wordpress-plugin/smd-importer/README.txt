@@ -1,4 +1,4 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.2.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.3.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -11,16 +11,8 @@ WHAT IT DOES
 - Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by Astra at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
 - Optionally assigns a featured image using an existing WordPress media attachment ID instead.
 
-IMPORTANT SURE RANK NOTE
-SureRank's SEO UI supports per-post Search Engine Title, Search Engine Description, canonical URL and robots settings. SureRank does not document a stable public PHP metadata-key contract for all of those fields. This importer therefore stores SEO title/description in its own custom fields instead of guessing SureRank's private metadata format. The canonical and robots values are retained as importer metadata but are NOT automatically applied to SureRank's output in this version.
-
-To use SEO title/description from the importer fields in SureRank, go to SureRank > General Settings > Meta Templates and set the post Search Engine Title template to:
-%custom_field.smd_seo_title%
-
-Set the post Search Engine Description template to:
-%custom_field.smd_seo_description%
-
-Test this on a draft first. Template behavior can depend on the SureRank version/configuration; confirm the rendered <title> and meta description on a preview or staging site before publishing. If you prefer SureRank's built-in per-post overrides, keep the existing template and manually transfer those two fields in the SureRank panel. This plugin does not claim to write the native SureRank canonical/robots/schema fields.
+SURERANK
+The importer writes seo_title, meta_description, focus_keyword and canonical_url into the post's own SureRank settings (the surerank_settings_general post meta, the same place the SureRank panel saves them), and robots into SureRank's no-index and no-follow flags. The post's SureRank panel shows these values, and no template setup is needed. Copies are also kept in smd_seo_title, smd_seo_description, smd_canonical_url and smd_robots. Empty fields fall back to SureRank's defaults (for the title, %title% - %site_name%). Schema is not written. This was tested with SureRank 1.10.2; check the SureRank panel on a draft after a SureRank update.
 
 INSTALLATION
 1. In WordPress admin, go to Plugins > Add New Plugin > Upload Plugin.
@@ -83,6 +75,7 @@ SUPPORTED FRONT MATTER
 - robots: index,follow | noindex,follow | index,nofollow | noindex,nofollow
 - featured_image: file name of the hero image (uploaded in the Images field) or an http(s) URL; it becomes the featured image
 - featured_image_alt, featured_image_caption: alt text and caption for the hero
+- focus_keyword (SureRank's focus keyword)
 - featured_image_id (an existing WordPress media attachment ID; used only when featured_image is empty)
 
 IMAGES
@@ -99,8 +92,7 @@ ALSO READ AND VIDEO
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.2.0
-- Does not implement native SureRank canonical/robots/schema writes.
+LIMITATIONS IN VERSION 1.3.0
+- Does not write SureRank schema settings.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
-- SEO title and description fields are stored by this plugin. SureRank's custom-field template integration must be tested before production use.
 - Always back up the site and test on staging before installing on a production website.
