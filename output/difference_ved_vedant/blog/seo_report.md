@@ -27,6 +27,8 @@ The talk answers the question in the video's title: what is the difference betwe
 | ved kya hai | Hinglish | Informational | Medium |
 | Acharya Upendra Ji Vedanta | English | Navigational | Low |
 
+Keyword note: the original blog texts did not use the focus keywords in the body, and "वेदांत" / "Vedanta" only appeared halfway down. The SEO-fixed copies (`difference_ved_vedant_blog_seo.txt` and `_blog_seo_en.txt`, which are published) now use "वेद और वेदांत में अंतर" and "difference between Veda and Vedanta" in a direct-answer paragraph within the first 100 words, and two headings are now the questions readers search for: "वेदांत क्या है?" / "What Is Vedanta?" and "वेद के तीन कांड कौन-से हैं?" / "What Are the Three Kandas of the Veda?". Focus keywords are unchanged. The Hinglish forms ("ved aur vedant mein antar") are not used in the body; they stay in the keyword table for YouTube and future use.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -34,22 +36,25 @@ The talk answers the question in the video's title: what is the difference betwe
 2. वेद क्या है और वेदांत क्या है? सरल भाषा में अंतर (47)
 3. वेदांत: जहां वेद पूरा होता है, जहां जानना पूर्ण होता है (55)
 
-Meta description (151 characters): "वेद और वेदांत में क्या अंतर है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।"
+Meta description (151 characters) **recommended**: "वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।"
 
-Slug: `/hi/ved-aur-vedant-mein-antar`
+Slug: `/hi/ved-aur-vedant-mein-antar` **recommended**
 
 **English**
 1. Difference Between Veda and Vedanta: Knowing, Not a Book (56) **recommended**
 2. What Is the Veda, and What Is Vedanta? A Clear Answer (53)
 3. Veda vs Vedanta: Where the Journey of Knowing Ends (50)
 
-Meta description (153 characters): "What is the difference between Veda and Vedanta? Acharya Upendra Ji explains why the Veda is a process of knowing, and why Vedanta is where knowing ends."
+Meta description (153 characters) **recommended**: "What is the difference between Veda and Vedanta? Acharya Upendra Ji explains why the Veda is a process of knowing, and why Vedanta is where knowing ends."
 
-Slug: `/en/difference-between-veda-and-vedanta`
+Slug: `/en/difference-between-veda-and-vedanta` **recommended**
 
 ## 4. Outline changes
 
 The H1 and the order of sections stay. Suggested heading changes only (no change to the teaching):
+
+Applied in the SEO-fixed copies: the direct answer (section 5, cut to the blog's own wording) after the two opening paragraphs, and the two question headings "वेदांत क्या है? जहां जानना पूरा होता है" / "What Is Vedanta? Where Knowing Reaches Its End" and "वेद के तीन कांड कौन-से हैं?" / "What Are the Three Kandas of the Veda?" (the question form of the kandas heading, matching FAQ 3). The H1 is unchanged.
+
 - The primary keyword is not in the H1 or the first 100 words of either language; the page talks about "वेद" and only reaches "वेदांत" halfway down. Place the direct answer paragraph (section 5) after the two opening paragraphs, before the first H2, so both "वेद" and "वेदांत" appear early. Optionally adjust the H1 to "वेद और वेदांत: वेद पढ़ने की किताब नहीं, जानने की यात्रा है" / "Veda and Vedanta: Not a Book to Read but a Journey of Knowing" (editor's choice; the title tag already carries the keyword).
 - "वेदांत: जहां जानना पूरा होता है" / "Vedanta: Where Knowing Reaches Its End" → "वेदांत क्या है? जहां जानना पूरा होता है" / "What Is Vedanta? Where Knowing Reaches Its End" (matches the question searchers type).
 - "वेद यानी जानना, पर क्या जानना?" / "Veda Means Knowing, but Knowing What?": keep; it answers "वेद का अर्थ".
@@ -122,7 +127,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "वेद पढ़ने की किताब नहीं, जानने की यात्रा है",
       "alternativeHeadline": "वेद और वेदांत में अंतर: वेद किताब नहीं, जानने की यात्रा",
-      "description": "वेद और वेदांत में क्या अंतर है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।",
+      "description": "वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।",
       "inLanguage": "hi",
       "keywords": [
         "वेद और वेदांत में अंतर",
@@ -543,7 +548,7 @@ The exact contents of `output/difference_ved_vedant/blog/seo.json`, used by the 
         "उपनिषद का अर्थ",
         "कर्मकांड उपासना कांड ज्ञान कांड"
       ],
-      "meta_description": "वेद और वेदांत में क्या अंतर है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।",
+      "meta_description": "वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।",
       "tags": [
         "वेद",
         "उपनिषद",
@@ -573,3 +578,73 @@ The exact contents of `output/difference_ved_vedant/blog/seo.json`, used by the 
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the blog body still states that the Vedas contain tamasic chapters on drinking and many women, with no passage cited: flag 1, Sanskrit review issue 1. It changes the teaching's wording, so it is for the editor to correct in the original blog, not an SEO fix. Titles, metas, snippets and FAQ do not use it.)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
