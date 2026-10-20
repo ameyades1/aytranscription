@@ -21,7 +21,7 @@ The import page says which of them it found. With none active, the values are ke
 
 SureRank checks a post's SEO when it is first saved, before the importer has written these values, so its panel may show warnings (such as a long default title or no focus keyword) until the post is saved again, for example when it is reviewed and published.
 
-SURERANK IMAGE TITLES (one-time setup)
+SURERANK IMAGE TITLES (one-time setup, only if you use SureRank)
 SureRank's "auto set image title" setting is on by default. It replaces the title of every image added to the Media Library with one it makes itself (in lowercase), overwriting the alt-text titles this importer gives its images. The file names and the alt text in the post are not affected. SureRank 1.10.2 has no switch for it in its settings screens, so turn it off with WP-CLI:
 
   wp eval '$s = get_option("surerank_settings", []); $s["auto_set_image_title"] = false; update_option("surerank_settings", $s);'
@@ -39,7 +39,7 @@ INSTALLATION
 2. Upload markdown-blog-importer-<version>.zip and click Install Now, then Activate.
 3. Go to Tools > Markdown Blog Importer.
 4. Upload a .md file using the format below and select its images (if any) in the Images field, or upload one .zip holding the .md and its images.
-5. Open the resulting pending post and review it in the theme and in the SureRank panel before publishing.
+5. Open the resulting pending post and review it in the theme and in your SEO plugin's panel before publishing.
 
 MARKDOWN TEMPLATE EXAMPLE
 ----------------------------------
@@ -151,6 +151,6 @@ LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
 LIMITATIONS IN VERSION 2.1.0
-- Does not write SureRank schema settings.
+- Does not write any SEO plugin's schema settings.
 - Fenced code blocks, tables, images inside a paragraph (an image must be on its own line), nested lists and raw HTML are not supported; such lines come through as plain text.
 - Always back up the site and test on staging before installing on a production website.
