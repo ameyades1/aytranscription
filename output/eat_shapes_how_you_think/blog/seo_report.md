@@ -24,6 +24,8 @@ A short talk on eating the food of the land you were born in. Acharya Ji says fo
 | what you eat shapes how you think | English | Informational | Medium (matches the video title; use with care) |
 | Acharya Upendra Ji on food | English | Navigational | Low |
 
+Keyword note: the searched wording matches the body's own wording in both languages, so there is no mismatch. The original blog texts did not use either focus keyword in the body; the SEO-fixed copies (`eat_shapes_how_you_think_blog_seo.txt`, `eat_shapes_how_you_think_blog_seo_en.txt`) now use "स्थानीय भोजन का महत्व" and "why eat locally grown food" once each in a short direct-answer paragraph within the first 100 words.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -82,7 +84,7 @@ The H1s stay as they are. Suggested heading tweaks, without changing the teachin
 | जो गुण उसने खाया है, वही गुण उस प्राणी में होगा | the qualities they eat become their own | ghee_more_than_food | "As the ghee, so the speech": food shaping the inner self |
 | जो हम खाते हैं, वही गुण हमारे भीतर आते हैं | The qualities of what you eat become your own qualities | diet_hindering_success_link_prosperity | Sattvic food and the purity of what we eat |
 
-Also read: water_is_your_first_medicine, after "मिट्टी, पृथ्वी तत्व और प्रारब्ध" / "The Soil, the Earth Element and Destiny" (both talks link what we take in to the elements and to prana).
+Also read: water_is_your_first_medicine, after "जन्मभूमि का अन्न ही क्यों खाएँ?" / "Why Eat the Food of Your Birthplace?" (the SEO-fixed headings; originally "मिट्टी, पृथ्वी तत्व और प्रारब्ध" / "The Soil, the Earth Element and Destiny") (both talks link what we take in to the elements and to prana).
 
 Related reading: diet_hindering_success_link_prosperity, ghee_more_than_food, non_veg_food_remains_body_truths (all Food & Health).
 
@@ -374,8 +376,8 @@ The exact seo.json written for the page generator and WordPress.
   "also_read": {
     "talk": "water_is_your_first_medicine",
     "after": {
-      "hi": "मिट्टी, पृथ्वी तत्व और प्रारब्ध",
-      "en": "The Soil, the Earth Element and Destiny"
+      "hi": "जन्मभूमि का अन्न ही क्यों खाएँ?",
+      "en": "Why Eat the Food of Your Birthplace?"
     }
   },
   "related": [
@@ -422,3 +424,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts (not yet: "स्थानीय भोजन" / "Local Food" is used only by this post and "पंचतत्व" / "Five Elements" by 2; tags are outside the blog text, so this fix does not change them)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
