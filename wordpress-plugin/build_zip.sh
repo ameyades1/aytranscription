@@ -2,7 +2,7 @@
 
 # Build the uploadable zip of the Markdown importer plugin from wordpress-plugin/smd-importer/.
 #   Usage: wordpress-plugin/build_zip.sh [output dir]
-# Writes surerank-markdown-importer-<version>.zip, the version taken from the plugin header, to
+# Writes markdown-blog-importer-<version>.zip, the version taken from the plugin header, to
 # the output dir (default: your Windows Downloads folder, else the current directory). The files
 # sit in an smd-importer/ folder, so uploading it over an installed copy replaces that plugin.
 
@@ -21,7 +21,7 @@ fi
 
 VERSION=$(sed -n 's/^ \* Version: *//p' "$SRC/surerank-markdown-importer.php" | head -1)
 [ -n "$VERSION" ] || { echo "No Version: line in the plugin header" >&2; exit 1; }
-ZIP="$OUT/surerank-markdown-importer-$VERSION.zip"
+ZIP="$OUT/markdown-blog-importer-$VERSION.zip"
 
 rm -f "$ZIP"
 python3 -I - "$HERE" "$ZIP" <<'EOF'

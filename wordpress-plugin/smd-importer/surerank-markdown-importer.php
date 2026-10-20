@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: SureRank Markdown Blog Importer
- * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 2.0.0
+ * Plugin Name: Markdown Blog Importer
+ * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata (written to SureRank, Yoast SEO, Rank Math or All in One SEO, whichever is active). Creates posts as Pending Review; never publishes.
+ * Version: 2.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -11,8 +11,8 @@
 
 if (!defined('ABSPATH')) exit;
 
-class SMD_SureRank_Markdown_Importer {
-    const VERSION = '2.0.0';
+class SMD_Markdown_Importer {
+    const VERSION = '2.1.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
@@ -48,12 +48,12 @@ class SMD_SureRank_Markdown_Importer {
 
     public function render_page() {
         if (!current_user_can('edit_posts')) return;
-        $sure = defined('SURERANK_VERSION') || class_exists('SureRank') || function_exists('surerank_init');
+        $seo = $this->active_seo_plugins();
         ?>
         <div class="wrap">
           <h1>Markdown Blog Importer</h1>
           <p>Upload one Markdown <code>.md</code> file, or one <code>.zip</code> holding the <code>.md</code> and its images. Posts are created as <strong>Pending Review</strong> and never published; existing posts with the same slug are not overwritten.</p>
-          <?php if (!$sure): ?><div class="notice notice-warning"><p>SureRank was not detected automatically. The importer will still create posts, but verify your SureRank integration before publishing.</p></div><?php else: ?><div class="notice notice-info"><p>SureRank appears to be active. The SEO title, meta description, focus keyword, canonical URL and robots setting are written to the post's SureRank settings.</p></div><?php endif; ?>
+          <?php if (!$seo): ?><div class="notice notice-warning"><p>No supported SEO plugin (SureRank, Yoast SEO, Rank Math or All in One SEO) is active. Posts are still imported, and the SEO title, meta description, focus keyword, canonical URL and robots setting are kept in the importer's own fields, but no SEO plugin will use them.</p></div><?php else: ?><div class="notice notice-info"><p>The SEO title, meta description, focus keyword, canonical URL and robots setting will be written to <?php echo esc_html(implode(' and ', $seo)); ?>.</p></div><?php endif; ?>
           <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data">
             <?php wp_nonce_field('smd_import_markdown'); ?>
             <input type="hidden" name="action" value="smd_import_markdown">
@@ -62,8 +62,8 @@ class SMD_SureRank_Markdown_Importer {
             <tr><th scope="row">Import behavior</th><td><label><input type="checkbox" name="smd_allow_update" value="1"> Update an existing pending or draft post with the same slug (never updates published or scheduled posts)</label></td></tr></table>
             <?php submit_button('Import for Review'); ?>
           </form>
-          <hr><h2>SEO custom fields</h2>
-          <p>The SEO title, meta description, focus keyword and canonical URL go into SureRank's per-post settings (<code>surerank_settings_general</code>), and the robots value into its no-index and no-follow flags, so the SureRank panel shows them. Copies are also kept in <code>smd_seo_title</code>, <code>smd_seo_description</code>, <code>smd_canonical_url</code> and <code>smd_robots</code>. Schema is not written.</p>
+          <hr><h2>SEO fields</h2>
+          <p>The front matter's <code>seo_title</code>, <code>meta_description</code>, <code>focus_keyword</code>, <code>canonical_url</code> and <code>robots</code> are written to each active supported SEO plugin's own per-post settings, so its panel shows them. Copies are also kept in <code>smd_seo_title</code>, <code>smd_seo_description</code>, <code>smd_canonical_url</code> and <code>smd_robots</code>. Schema is not written.</p>
           <p><a href="<?php echo esc_url(plugins_url('README.txt', __FILE__)); ?>" target="_blank" rel="noopener">Read setup instructions and download the Markdown template</a></p>
         </div>
         <?php
@@ -144,7 +144,7 @@ class SMD_SureRank_Markdown_Importer {
         $robots = sanitize_text_field($m['robots'] ?? 'index,follow');
         if (!in_array($robots, ['index,follow','noindex,follow','index,nofollow','noindex,nofollow'], true)) $robots = 'index,follow';
         update_post_meta($post_id, self::META_ROBOTS, $robots);
-        $this->save_surerank($post_id, $m, $robots);
+        $this->save_seo($post_id, $m, $robots);
         $hero = $m['featured_image'] ?? '';
         if ($hero !== '' && isset($images[$this->image_key($hero)])) {
             $hero_id = $images[$this->image_key($hero)]['id'];
@@ -158,27 +158,69 @@ class SMD_SureRank_Markdown_Importer {
         $this->redirect('success', (isset($postarr['ID']) ? 'Post updated, pending review: ' : 'Post created, pending review: ') . get_the_title($post_id), $post_id);
     }
 
+    /** The supported SEO plugins that are active, by name. */
+    private function active_seo_plugins() {
+        $found = [];
+        if (defined('SURERANK_VERSION')) $found['surerank'] = 'SureRank';
+        if (defined('WPSEO_VERSION')) $found['yoast'] = 'Yoast SEO';
+        if (defined('RANK_MATH_VERSION')) $found['rankmath'] = 'Rank Math';
+        if (function_exists('aioseo') && class_exists('\AIOSEO\Plugin\Common\Models\Post')) $found['aioseo'] = 'All in One SEO';
+        return $found;
+    }
+
     /**
-     * Writes the SEO fields where SureRank reads them: title, description, focus keyword and canonical
-     * in the surerank_settings_general array (other keys already there are kept), and the robots
-     * directive as the separate surerank_settings_post_no_index / _no_follow flags.
+     * Writes the SEO title, description, focus keyword, canonical URL and robots directive into each active
+     * supported SEO plugin's own per-post settings. An empty value clears that plugin's override, so it falls back
+     * to its default. With none active, only the importer's own smd_* fields hold them.
      */
-    private function save_surerank($post_id, $m, $robots) {
-        $general = get_post_meta($post_id, 'surerank_settings_general', true);
-        if (!is_array($general)) $general = [];
-        $fields = [
-            'page_title' => sanitize_text_field($m['seo_title'] ?? ''),
-            'page_description' => sanitize_textarea_field($m['meta_description'] ?? ''),
-            'focus_keyword' => sanitize_text_field($m['focus_keyword'] ?? ''),
-            'canonical_url' => esc_url_raw($m['canonical_url'] ?? ''),
-        ];
-        foreach ($fields as $key => $value) {
-            if ($value !== '') $general[$key] = $value; else unset($general[$key]);
-            delete_post_meta($post_id, 'surerank_settings_' . $key); // a stray per-key copy would shadow the array
+    private function save_seo($post_id, $m, $robots) {
+        $title = sanitize_text_field($m['seo_title'] ?? '');
+        $description = sanitize_textarea_field($m['meta_description'] ?? '');
+        $keyword = sanitize_text_field($m['focus_keyword'] ?? '');
+        $canonical = esc_url_raw($m['canonical_url'] ?? '');
+        $noindex = strpos($robots, 'noindex') === 0;
+        $nofollow = substr($robots, -8) === 'nofollow';
+        $set = function($key, $value) use ($post_id) { if ($value !== '') update_post_meta($post_id, $key, $value); else delete_post_meta($post_id, $key); };
+        $active = $this->active_seo_plugins();
+
+        if (isset($active['surerank'])) { // title, description, keyword and canonical share one array; robots are flags
+            $general = get_post_meta($post_id, 'surerank_settings_general', true);
+            if (!is_array($general)) $general = [];
+            foreach (['page_title' => $title, 'page_description' => $description, 'focus_keyword' => $keyword, 'canonical_url' => $canonical] as $key => $value) {
+                if ($value !== '') $general[$key] = $value; else unset($general[$key]);
+                delete_post_meta($post_id, 'surerank_settings_' . $key); // a stray per-key copy would shadow the array
+            }
+            update_post_meta($post_id, 'surerank_settings_general', $general);
+            update_post_meta($post_id, 'surerank_settings_post_no_index', $noindex ? 'yes' : 'no');
+            update_post_meta($post_id, 'surerank_settings_post_no_follow', $nofollow ? 'yes' : 'no');
         }
-        update_post_meta($post_id, 'surerank_settings_general', $general);
-        update_post_meta($post_id, 'surerank_settings_post_no_index', strpos($robots, 'noindex') === 0 ? 'yes' : 'no');
-        update_post_meta($post_id, 'surerank_settings_post_no_follow', substr($robots, -8) === 'nofollow' ? 'yes' : 'no');
+        if (isset($active['yoast'])) { // robots: "1" sets noindex / nofollow, no value keeps the default
+            $set('_yoast_wpseo_title', $title);
+            $set('_yoast_wpseo_metadesc', $description);
+            $set('_yoast_wpseo_focuskw', $keyword);
+            $set('_yoast_wpseo_canonical', $canonical);
+            $set('_yoast_wpseo_meta-robots-noindex', $noindex ? '1' : '');
+            $set('_yoast_wpseo_meta-robots-nofollow', $nofollow ? '1' : '');
+        }
+        if (isset($active['rankmath'])) { // robots: a list of directives
+            $set('rank_math_title', $title);
+            $set('rank_math_description', $description);
+            $set('rank_math_focus_keyword', $keyword);
+            $set('rank_math_canonical_url', $canonical);
+            update_post_meta($post_id, 'rank_math_robots', array_values(array_filter([$noindex ? 'noindex' : 'index', $nofollow ? 'nofollow' : ''])));
+        }
+        if (isset($active['aioseo'])) { // its own table, written through its public model
+            \AIOSEO\Plugin\Common\Models\Post::savePost($post_id, [
+                'title' => $title !== '' ? $title : null,
+                'description' => $description !== '' ? $description : null,
+                'focus_keyword' => $keyword !== '' ? $keyword : null,
+                'keyphrases' => $keyword !== '' ? ['focus' => ['keyphrase' => $keyword], 'additional' => []] : null,
+                'canonical_url' => $canonical !== '' ? $canonical : null,
+                'default' => !$noindex && !$nofollow,
+                'noindex' => $noindex,
+                'nofollow' => $nofollow,
+            ]);
+        }
     }
 
     /** Every image the document uses: the front-matter hero first, then the body's image lines in order. */
@@ -550,4 +592,4 @@ class SMD_SureRank_Markdown_Importer {
         echo '</p></div>';
     }
 }
-new SMD_SureRank_Markdown_Importer();
+new SMD_Markdown_Importer();

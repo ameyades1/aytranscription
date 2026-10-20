@@ -1,4 +1,4 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 2.0.0
+MARKDOWN BLOG IMPORTER — VERSION 2.1.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -11,8 +11,15 @@ WHAT IT DOES
 - Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by the theme, usually at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
 - Optionally assigns a featured image using an existing WordPress media attachment ID instead.
 
-SURERANK
-The importer writes seo_title, meta_description, focus_keyword and canonical_url into the post's own SureRank settings (the surerank_settings_general post meta, the same place the SureRank panel saves them), and robots into SureRank's no-index and no-follow flags. The post's SureRank panel shows these values, and no template setup is needed. Copies are also kept in smd_seo_title, smd_seo_description, smd_canonical_url and smd_robots. Empty fields fall back to SureRank's defaults (for the title, %title% - %site_name%). Schema is not written. This was tested with SureRank 1.10.2; check the SureRank panel on a draft after a SureRank update.
+SEO PLUGINS
+The front matter's seo_title, meta_description, focus_keyword, canonical_url and robots are written into the post's own settings of every active supported SEO plugin, so its panel shows them and no template setup is needed:
+- SureRank: surerank_settings_general (page_title, page_description, focus_keyword, canonical_url) and the surerank_settings_post_no_index / _no_follow flags
+- Yoast SEO: _yoast_wpseo_title, _metadesc, _focuskw, _canonical, _meta-robots-noindex and _meta-robots-nofollow
+- Rank Math: rank_math_title, _description, _focus_keyword, _canonical_url and rank_math_robots
+- All in One SEO: its own aioseo_posts table, through its Post::savePost() method (title, description, focus keyword, canonical URL, noindex, nofollow)
+The import page says which of them it found. With none active, the values are kept only in the importer's own fields (smd_seo_title, smd_seo_description, smd_canonical_url, smd_robots), which it always writes; re-import once an SEO plugin is active to pass them on. An empty field clears that plugin's per-post value, so it falls back to its default. Schema is not written. Tested with SureRank 1.10.2, Yoast SEO 28.7, Rank Math 1.0.280 and All in One SEO; check the SEO panel on a draft after updating any of them.
+
+SureRank checks a post's SEO when it is first saved, before the importer has written these values, so its panel may show warnings (such as a long default title or no focus keyword) until the post is saved again, for example when it is reviewed and published.
 
 SURERANK IMAGE TITLES (one-time setup)
 SureRank's "auto set image title" setting is on by default. It replaces the title of every image added to the Media Library with one it makes itself (in lowercase), overwriting the alt-text titles this importer gives its images. The file names and the alt text in the post are not affected. SureRank 1.10.2 has no switch for it in its settings screens, so turn it off with WP-CLI:
@@ -29,7 +36,7 @@ A related setting, SureRank > Advanced > Image SEO > "Optimize Image SEO without
 
 INSTALLATION
 1. In WordPress admin, go to Plugins > Add New Plugin > Upload Plugin.
-2. Upload surerank-markdown-importer.zip and click Install Now, then Activate.
+2. Upload markdown-blog-importer-<version>.zip and click Install Now, then Activate.
 3. Go to Tools > Markdown Blog Importer.
 4. Upload a .md file using the format below and select its images (if any) in the Images field, or upload one .zip holding the .md and its images.
 5. Open the resulting pending post and review it in the theme and in the SureRank panel before publishing.
@@ -88,7 +95,7 @@ SUPPORTED FRONT MATTER
 - robots: index,follow | noindex,follow | index,nofollow | noindex,nofollow
 - featured_image: file name of the hero image (uploaded in the Images field) or an http(s) URL; it becomes the featured image
 - featured_image_alt, featured_image_caption: alt text and caption for the hero
-- focus_keyword (SureRank's focus keyword)
+- focus_keyword (the SEO plugin's focus keyword)
 - featured_image_id (an existing WordPress media attachment ID; used only when featured_image is empty)
 
 IMAGES
@@ -143,7 +150,7 @@ HINDI AND OTHER LANGUAGES
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 2.0.0
+LIMITATIONS IN VERSION 2.1.0
 - Does not write SureRank schema settings.
 - Fenced code blocks, tables, images inside a paragraph (an image must be on its own line), nested lists and raw HTML are not supported; such lines come through as plain text.
 - Always back up the site and test on staging before installing on a production website.
