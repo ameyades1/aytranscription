@@ -11,7 +11,7 @@ A short, focused talk on one widely held belief: that moksha is something we rec
 
 Priorities are judgement only. No search volume or difficulty tools were used.
 
-Keyword note: people (and the video thumbnail) say "moksha after death", but the English body never uses those words together (it says "moksha (liberation) is something we receive after death"), so SureRank would not find it. The English focus keyword is therefore "liberation after death", which the body has in the first H2 "Does Liberation Come After Death?" (one word between, which SureRank accepts) and near the start of the post. "moksha after death" stays a secondary keyword; if the editor wants it as the focus keyword later, the opening sentence could say "moksha after death" word for word. The Hindi "मरने के बाद मोक्ष" is in the first body paragraph block ("मरने के बाद मोक्ष नहीं मिलता, बल्कि…").
+Keyword note: people (and the video thumbnail) say "moksha after death". The original English body never used those words together, so the SEO fix (`_blog_seo_en.txt`, see seo_fix.md) now says "we do not receive moksha after death" in the opening and renames the first H2 to "Does Moksha Come After Death?". The English focus keyword is therefore "moksha after death"; "liberation after death" moves to the secondary keywords. The Hindi "मरने के बाद मोक्ष" is in the first body paragraph block ("मरने के बाद मोक्ष नहीं मिलता, बल्कि…") and, after the fix, in the first H2 "क्या मरने के बाद मोक्ष मिलता है?".
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
@@ -23,8 +23,8 @@ Keyword note: people (and the video thumbnail) say "moksha after death", but the
 | मोक्ष का अर्थ मोह का क्षय | Hindi | Informational | Low (popular nirukti, flag 4) |
 | marne ke baad moksha milta hai kya | Hinglish | Informational | Medium |
 | jeete ji mukti | Hinglish | Informational | Low |
-| liberation after death | English | Informational | High (primary EN; the body's wording, see note) |
-| moksha after death | English | Informational | High (the searched wording and the thumbnail's; secondary, see note) |
+| liberation after death | English | Informational | High (secondary; the original body's wording, see note) |
+| moksha after death | English | Informational | High (primary EN; the searched wording and the thumbnail's, now in the body, see note) |
 | is moksha attained after death | English | Informational | High (secondary of anyone_grant_liberation_living_or_dead; this post answers it more directly) |
 | jivanmukta meaning | English | Informational | Medium |
 | liberation while alive | English | Informational / reflective | Medium |
@@ -44,13 +44,13 @@ Meta description (148 characters): क्या मरने के बाद �
 Slug: `/hi/marne-ke-baad-moksha`
 
 **English** (H1 in the blog: "Liberation Does Not Come After Death"; not changed)
-1. Liberation After Death? Why Moksha Comes While Alive (52 characters) **recommended**
+1. Moksha After Death? Why Liberation Comes While Alive (52 characters) **recommended** (after the SEO fix; was "Liberation After Death? Why Moksha Comes While Alive")
 2. Is Moksha Attained After Death? Death vs Liberation (51)
 3. Jivanmukta Meaning: Free While Still in the Body (48)
 
-Meta description (152 characters): Does liberation after death come by itself? Acharya Upendra Ji explains why moksha is a state reached while alive, and what death and moksha truly mean.
+Meta description (152 characters): Does moksha after death come by itself? Acharya Upendra Ji explains why liberation is a state reached while alive, and what death and moksha truly mean.
 
-Slug: `/en/liberation-after-death`
+Slug: `/en/moksha-after-death`
 
 Avoid the thumbnail's wording "Moksha After Death Is a Lie" as a title tag (flag 1).
 
@@ -108,7 +108,7 @@ All of these targets exist under output/ and have a blog page. They are applied 
 **Pillar and cluster:** no "Death and Liberation" pillar page exists yet. The `moksha` cluster (this post, `anyone_grant_liberation_living_or_dead`, `chanting_om_final_breath_liberation`, `gita_escape_cycle_of_rebirth`, `art_living_life`) plus `mrityu_versus_moksha` should share one hub; link it from every post once it exists.
 
 **Cannibalization (important):** these three talks use near-identical definitions of death and moksha ("the body goes, the living remains"). Keep the split already proposed in `anyone_grant_liberation_living_or_dead`'s report:
-- this post: "मरने के बाद मोक्ष" / "liberation after death" (the misconception itself; "moksha after death", the thumbnail's wording, is a secondary). `anyone_grant_liberation_living_or_dead`'s H1 "Liberation After Death, or Freedom While Alive?" also contains this phrase, but its focus keyword is "grant liberation", so the two posts do not target the same focus keyword;
+- this post: "मरने के बाद मोक्ष" / "moksha after death" (the misconception itself, the thumbnail's wording; "liberation after death" is a secondary since the SEO fix). `anyone_grant_liberation_living_or_dead`'s H1 "Liberation After Death, or Freedom While Alive?" also contains this phrase, but its focus keyword is "grant liberation", so the two posts do not target the same focus keyword;
 - `anyone_grant_liberation_living_or_dead`: "मोक्ष कौन दिला सकता है" / "who can grant moksha". Its secondary keyword "is moksha attained after death" overlaps this post's primary; consider removing it there, or leave it, since this post answers it first;
 - `mrityu_versus_moksha`: Pitru Paksha and atma-shraddha, with "क्या श्राद्ध से पितरों को मुक्ति मिलती है" / "can shraddha liberate ancestors".
 For that reason this post uses "मृत्यु और मोक्ष का अर्थ" / "spiritual meaning of death" as secondaries, not "difference between death and moksha".
@@ -123,7 +123,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/marne-ke-baad-moksha/`, `/en/liberation-after-death/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/marne-ke-baad-moksha/`, `/en/moksha-after-death/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -231,10 +231,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Liberation Does Not Come After Death",
-      "alternativeHeadline": "Liberation After Death? Why Moksha Comes While Alive",
-      "description": "Does liberation after death come by itself? Acharya Upendra Ji explains why moksha is a state reached while alive, and what death and moksha truly mean.",
+      "alternativeHeadline": "Moksha After Death? Why Liberation Comes While Alive",
+      "description": "Does moksha after death come by itself? Acharya Upendra Ji explains why liberation is a state reached while alive, and what death and moksha truly mean.",
       "inLanguage": "en",
-      "keywords": ["liberation after death", "moksha after death", "jivanmukta meaning", "liberation while alive", "spiritual meaning of death"],
+      "keywords": ["moksha after death", "liberation after death", "jivanmukta meaning", "liberation while alive", "spiritual meaning of death"],
       "about": [
         { "@type": "Thing", "name": "Moksha" },
         { "@type": "Thing", "name": "Jivanmukti" },
@@ -354,7 +354,7 @@ The exact values written to blog/seo.json for the page generator and WordPress.
 {
   "title": {
     "hi": "मरने के बाद मोक्ष? जीते-जी मुक्ति की सच्ची समझ",
-    "en": "Liberation After Death? Why Moksha Comes While Alive"
+    "en": "Moksha After Death? Why Liberation Comes While Alive"
   },
   "alt": {
     "hero.jpg": {
@@ -434,15 +434,15 @@ The exact values written to blog/seo.json for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "liberation-after-death",
-      "focus_keyword": "liberation after death",
+      "slug": "moksha-after-death",
+      "focus_keyword": "moksha after death",
       "secondary_keywords": [
-        "moksha after death",
+        "liberation after death",
         "jivanmukta meaning",
         "liberation while alive",
         "spiritual meaning of death"
       ],
-      "meta_description": "Does liberation after death come by itself? Acharya Upendra Ji explains why moksha is a state reached while alive, and what death and moksha truly mean.",
+      "meta_description": "Does moksha after death come by itself? Acharya Upendra Ji explains why liberation is a state reached while alive, and what death and moksha truly mean.",
       "tags": [
         "Jivanmukti",
         "Sakshi Bhava",
