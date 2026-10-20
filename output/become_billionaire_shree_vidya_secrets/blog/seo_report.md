@@ -29,7 +29,7 @@ A short talk (under seven minutes) given at the Antar Yog Shri Vidya Shibir. Its
 | sukhasya mulam dharmah | Hinglish | Informational | Low |
 | Acharya Upendra Ji Shri Vidya | English | Navigational | Low |
 
-The focus keywords are **श्री विद्या** and **Shri Vidya**: the exact wording the body uses (in the opening paragraph and throughout), so they pass SureRank's title, meta, body and slug checks. "श्री विद्या और धन / Shri Vidya and wealth" stays as the main secondary query: the blog never uses that exact phrase, so it cannot be the focus keyword without editing the text. **Wording mismatch:** the video title and thumbnail spell it "Shree Vidya", which people also search; the body only says "Shri Vidya", so "Shree Vidya" is a secondary keyword. If wanted, the blog could later mention the spelling once ("Shri Vidya (also written Shree Vidya)"). "How to become a billionaire" is left out on purpose: it promises a result the blog does not give (flag 9), and it is the focus of the Marathi-Shibir post (section 7).
+The focus keywords are **श्री विद्या और धन** and **Shri Vidya and wealth**, the main searched queries. The original blog never used that exact phrase; the SEO fix (`_seo` texts, seo_fix.md) adds it once in a short direct-answer paragraph in the first 100 words, so it now passes SureRank's title, meta, body and slug checks. The broader "श्री विद्या" / "Shri Vidya" moved to the secondary keywords. **Wording mismatch (resolved in the `_seo` text):** the video title and thumbnail spell it "Shree Vidya", which people also search; the English `_seo` text now mentions the spelling once ("Shri Vidya (also written Shree Vidya)"), and "Shree Vidya" stays a secondary keyword. "How to become a billionaire" is left out on purpose: it promises a result the blog does not give (flag 9), and it is the focus of the Marathi-Shibir post (section 7).
 
 ## 3. Titles and meta
 
@@ -38,20 +38,20 @@ The focus keywords are **श्री विद्या** and **Shri Vidya**: t
 2. श्री विद्या: धन, धर्म और मोक्ष की साधना (39)
 3. धन पाप नहीं: श्री विद्या का भोग और मोक्ष (40)
 
-Meta description (139 characters): "क्या धन की इच्छा पाप है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।"
+Meta description (150 characters, **recommended**): "श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।"
 
-Slug: `/hi/shri-vidya-aur-dhan`
+Slug (**recommended**): `/hi/shri-vidya-aur-dhan`
 
 **English**
 1. Shri Vidya and Wealth: From Bhoga to Moksha (43) **recommended**
 2. Is Wealth Unspiritual? Shri Vidya on Money and Dharma (53)
 3. Shri Vidya: Earn, Plan and Give Wealth with Dharma (50)
 
-Meta description (150 characters): "Is wanting wealth unspiritual? Acharya Upendra Ji explains how Shri Vidya teaches earning, planning and giving wealth, granting both bhoga and moksha."
+Meta description (154 characters, **recommended**): "What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha."
 
-Slug: `/en/shri-vidya-and-wealth`
+Slug (**recommended**): `/en/shri-vidya-and-wealth`
 
-The H1 ("श्री विद्या: धन, धर्म और मुक्ति का प्राचीन रहस्य" / "Shri Vidya: The Ancient Secret of Wealth, Dharma and Liberation") stays as it is; it already carries the focus keyword "श्री विद्या" / "Shri Vidya". Both titles and both meta descriptions contain the focus keyword, and the English slug contains "shri-vidya".
+The H1 ("श्री विद्या: धन, धर्म और मुक्ति का प्राचीन रहस्य" / "Shri Vidya: The Ancient Secret of Wealth, Dharma and Liberation") stays as it is. After the SEO fix (seo_fix.md), the focus keywords are "श्री विद्या और धन" / "Shri Vidya and wealth": both recommended titles and both meta descriptions contain them, and the English slug is "shri-vidya-and-wealth".
 
 ## 4. Outline changes
 
@@ -114,9 +114,9 @@ For later use in WordPress; not added to the page. Dates come from git (first co
       "@id": "{{HI_POST_URL}}#article",
       "headline": "श्री विद्या: धन, धर्म और मुक्ति का प्राचीन रहस्य",
       "alternativeHeadline": "श्री विद्या और धन: भोग से मोक्ष तक का रहस्य",
-      "description": "क्या धन की इच्छा पाप है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।",
+      "description": "श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।",
       "inLanguage": "hi",
-      "keywords": ["श्री विद्या", "श्री विद्या और धन", "श्री विद्या भोग और मोक्ष", "क्या धन कमाना पाप है", "धर्म का मूल अर्थ है"],
+      "keywords": ["श्री विद्या और धन", "श्री विद्या", "श्री विद्या भोग और मोक्ष", "क्या धन कमाना पाप है", "धर्म का मूल अर्थ है"],
       "about": [
         {"@type": "Thing", "name": "श्री विद्या"},
         {"@type": "Thing", "name": "धन और धर्म"},
@@ -183,9 +183,9 @@ For later use in WordPress; not added to the page. Dates come from git (first co
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Shri Vidya: The Ancient Secret of Wealth, Dharma and Liberation",
       "alternativeHeadline": "Shri Vidya and Wealth: From Bhoga to Moksha",
-      "description": "Is wanting wealth unspiritual? Acharya Upendra Ji explains how Shri Vidya teaches earning, planning and giving wealth, granting both bhoga and moksha.",
+      "description": "What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha.",
       "inLanguage": "en",
-      "keywords": ["Shri Vidya", "Shree Vidya", "Shri Vidya and wealth", "Shri Vidya bhoga and moksha", "dharmasya mulam arthah meaning"],
+      "keywords": ["Shri Vidya and wealth", "Shri Vidya", "Shree Vidya", "Shri Vidya bhoga and moksha", "dharmasya mulam arthah meaning"],
       "about": [
         {"@type": "Thing", "name": "Shri Vidya"},
         {"@type": "Thing", "name": "Wealth and dharma"},
@@ -243,7 +243,7 @@ For later use in WordPress; not added to the page. Dates come from git (first co
 
 The video is in Hindi, so `inLanguage` of the VideoObject is `hi` in both blocks.
 
-**WordPress SEO plugin mapping (Yoast / Rank Math):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the `video` / VideoObject (or let the plugin's video module detect the embed), and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin (Polylang / WPML). Replace every `{{PLACEHOLDER}}` once the URLs are known; no FAQPage block is included, because the FAQ is not on the page.
+**WordPress SEO plugin mapping (Yoast / Rank Math):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the `video` / VideoObject (or let the plugin's video module detect the embed), and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin (Polylang / WPML). Replace every `{{PLACEHOLDER}}` once the URLs are known; no FAQPage block is included, because the FAQ is not on the page. URL slugs: Hindi `shri-vidya-aur-dhan`, English `shri-vidya-and-wealth`.
 
 ## 9. Images
 
@@ -340,14 +340,14 @@ The values written to output/become_billionaire_shree_vidya_secrets/blog/seo.jso
     "category": "success",
     "hi": {
       "slug": "shri-vidya-aur-dhan",
-      "focus_keyword": "श्री विद्या",
+      "focus_keyword": "श्री विद्या और धन",
       "secondary_keywords": [
-        "श्री विद्या और धन",
+        "श्री विद्या",
         "श्री विद्या भोग और मोक्ष",
         "क्या धन कमाना पाप है",
         "धर्म का मूल अर्थ है"
       ],
-      "meta_description": "क्या धन की इच्छा पाप है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।",
+      "meta_description": "श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।",
       "tags": [
         "श्री विद्या",
         "लक्ष्मी",
@@ -358,14 +358,14 @@ The values written to output/become_billionaire_shree_vidya_secrets/blog/seo.jso
     },
     "en": {
       "slug": "shri-vidya-and-wealth",
-      "focus_keyword": "Shri Vidya",
+      "focus_keyword": "Shri Vidya and wealth",
       "secondary_keywords": [
+        "Shri Vidya",
         "Shree Vidya",
-        "Shri Vidya and wealth",
         "Shri Vidya bhoga and moksha",
         "dharmasya mulam arthah meaning"
       ],
-      "meta_description": "Is wanting wealth unspiritual? Acharya Upendra Ji explains how Shri Vidya teaches earning, planning and giving wealth, granting both bhoga and moksha.",
+      "meta_description": "What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha.",
       "tags": [
         "Shri Vidya",
         "Lakshmi",
@@ -394,7 +394,7 @@ The values written to output/become_billionaire_shree_vidya_secrets/blog/seo.jso
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [x] Within the first 100 words (preferred)
+- [x] Within the first 100 words (preferred) (after the SEO fix: the `_seo` texts open with a direct answer that uses "श्री विद्या और धन" / "Shri Vidya and wealth")
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
