@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति",
-    "en": "Who Can Grant Liberation? Death vs Freedom While Alive"
+    "hi": "मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति",
+    "en": "Who Can Grant Moksha? Death vs Freedom While Alive"
   },
   "alt": {
     "hero.jpg": {
@@ -69,15 +69,14 @@
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "kaun-moksha-dila-sakta-hai",
-      "focus_keyword": "मोक्ष दिला सकता है",
+      "slug": "moksha-kaun-dila-sakta-hai",
+      "focus_keyword": "मोक्ष कौन दिला सकता है",
       "secondary_keywords": [
-        "मोक्ष कौन दिला सकता है",
         "मृत्यु और मोक्ष में अंतर",
         "जीवन्मुक्ति क्या है",
         "पितरों की मुक्ति"
       ],
-      "meta_description": "क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
+      "meta_description": "मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
       "tags": [
         "जीवन्मुक्ति",
         "सद्गुरु",
@@ -87,15 +86,15 @@
       ]
     },
     "en": {
-      "slug": "who-can-grant-liberation",
-      "focus_keyword": "grant liberation",
+      "slug": "who-can-grant-moksha",
+      "focus_keyword": "who can grant moksha",
       "secondary_keywords": [
-        "who can grant moksha",
+        "grant liberation",
         "difference between death and moksha",
         "jivanmukti meaning",
         "liberation of ancestors"
       ],
-      "meta_description": "Who can grant liberation to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
+      "meta_description": "Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
       "tags": [
         "Jivanmukti",
         "Sadguru",

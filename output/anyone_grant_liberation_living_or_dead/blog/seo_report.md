@@ -5,7 +5,7 @@ Current page: output/anyone_grant_liberation_living_or_dead/blog/index.html (one
 
 ## 1. Summary
 
-The talk asks a question many families carry, especially around Pitru Paksha: can a priest, a ritual or anyone at all grant moksha to a departed parent, or to oneself? Acharya Ji's answer has three parts. Pitars are souls that got stuck on the journey from nara to Narayana. Death means the body goes while the mind keeps "living"; moksha means the body stays while the "living" ends (jivanmukti), so liberation does not come automatically with death. And only a Guru who is himself free can free others, living or dead. The main intent is **informational** ("who can", "difference", "meaning"), with an emotional layer for readers grieving a parent or worried about rites at Gaya or Trimbakeshwar. The opportunity is the narrow question "who can grant moksha / liberation": most results are generic definitions of moksha or ritual guides for pind daan, and few answer who can actually liberate. Two other talks on this site cover the death-versus-moksha definitions closely (see section 7, cannibalization), so this post should own the "who can grant liberation" query (focus keywords "मोक्ष दिला सकता है" / "grant liberation", taken from the body's own wording) and leave the broader "मृत्यु और मोक्ष" queries to them. Searches rise around Pitru Paksha (usually September); refresh the post 4 to 6 weeks before.
+The talk asks a question many families carry, especially around Pitru Paksha: can a priest, a ritual or anyone at all grant moksha to a departed parent, or to oneself? Acharya Ji's answer has three parts. Pitars are souls that got stuck on the journey from nara to Narayana. Death means the body goes while the mind keeps "living"; moksha means the body stays while the "living" ends (jivanmukti), so liberation does not come automatically with death. And only a Guru who is himself free can free others, living or dead. The main intent is **informational** ("who can", "difference", "meaning"), with an emotional layer for readers grieving a parent or worried about rites at Gaya or Trimbakeshwar. The opportunity is the narrow question "who can grant moksha / liberation": most results are generic definitions of moksha or ritual guides for pind daan, and few answer who can actually liberate. Two other talks on this site cover the death-versus-moksha definitions closely (see section 7, cannibalization), so this post should own the "who can grant liberation" query (focus keywords "मोक्ष कौन दिला सकता है" / "who can grant moksha", which the SEO-fixed text now uses) and leave the broader "मृत्यु और मोक्ष" queries to them. Searches rise around Pitru Paksha (usually September); refresh the post 4 to 6 weeks before.
 
 ## 2. Keywords
 
@@ -13,8 +13,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| मोक्ष दिला सकता है | Hindi | Informational | High (primary HI, body wording) |
-| मोक्ष कौन दिला सकता है | Hindi | Informational | High (searched wording) |
+| मोक्ष कौन दिला सकता है | Hindi | Informational | High (primary HI, searched wording, now in the SEO-fixed text) |
+| मोक्ष दिला सकता है | Hindi | Informational | Medium (contained in the primary keyword) |
 | मृत्यु और मोक्ष में अंतर | Hindi | Informational | High (shared with mrityu_versus_moksha, see section 7) |
 | जीवन्मुक्ति क्या है | Hindi | Informational | Medium |
 | पितरों की मुक्ति | Hindi | Emotional / practical | Medium (handle with care, flag 2 and 6) |
@@ -22,8 +22,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | मोक्ष का अर्थ | Hindi | Informational | Low (very broad, flag 3) |
 | moksha kaun dila sakta hai | Hinglish | Informational | Medium |
 | pitron ki mukti kaise ho | Hinglish | Emotional / practical | Low |
-| grant liberation | English | Informational | High (primary EN, body wording) |
-| who can grant moksha | English | Informational | High (searched wording) |
+| who can grant moksha | English | Informational | High (primary EN, searched wording, now in the SEO-fixed text) |
+| grant liberation | English | Informational | High (secondary EN, body wording) |
 | difference between death and moksha | English | Informational | High |
 | jivanmukti meaning | English | Informational | Medium |
 | liberation of ancestors | English | Emotional / informational | Medium |
@@ -31,31 +31,31 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | can a guru liberate ancestors | English | Informational | Low |
 | Acharya Upendra Ji moksha | English | Navigational | Low |
 
-**Focus keywords and wording mismatch.** The focus keywords are taken from the body, which SureRank requires: "मोक्ष दिला सकता है" appears twice in the Hindi (the first sentence and the section "जो स्वयं मुक्त है, वही मुक्त कर सकता है"), and "grant liberation" appears twice in the English (the section "Only the Free Can Set Others Free"). People more likely search "मोक्ष कौन दिला सकता है" and "who can grant moksha", which the body never says word for word, so both are secondary keywords. The English keyword is not in the first 100 words (the intro says "lead another to liberation"); if the editor wants it there, the first sentence could read "Only someone who is free can grant liberation to another." The previous focus keywords ("मोक्ष कौन दिला सकता है" / "who can grant moksha") failed the SureRank body check and were replaced.
+**Focus keywords and wording mismatch.** People search "मोक्ष कौन दिला सकता है" and "who can grant moksha", which the original blog never says word for word, so the report first used the body wording "मोक्ष दिला सकता है" / "grant liberation". The SEO fix (`seo_fix.md`) added a short direct answer opening with the searched question in both languages, within the first 100 words, and rephrased the H2 "जो स्वयं मुक्त है, वही मुक्त कर सकता है" / "Only the Free Can Set Others Free" as "मोक्ष कौन दिला सकता है?" / "Who Can Grant Moksha?". The searched wording is now the focus keyword in both languages; "grant liberation" stays a secondary keyword (the English first sentence now says "can grant liberation to another"), and "मोक्ष दिला सकता है" is contained in the Hindi focus keyword.
 
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति (recommended, 48 characters)
+1. मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति (recommended, 48 characters)
 2. क्या कोई पितरों को मोक्ष दिला सकता है?
 3. मृत्यु या मोक्ष: जीते-जी मुक्ति का सच्चा अर्थ
 
-**Hindi meta description (160 characters)**
-क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।
+**Hindi meta description (151 characters)**
+मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।
 
 **English title options**
-1. Who Can Grant Liberation? Death vs Freedom While Alive (recommended, 54 characters)
+1. Who Can Grant Moksha? Death vs Freedom While Alive (recommended, 50 characters)
 2. Can Anyone Free Our Ancestors? Moksha and the Guru
 3. Death or Moksha: What Jivanmukti Really Means
 
-**English meta description (149 characters)**
-Who can grant liberation to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.
+**English meta description (145 characters)**
+Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.
 
 **Slugs**
-- Hindi: /hi/kaun-moksha-dila-sakta-hai
-- English: /en/who-can-grant-liberation
+- Hindi: /hi/moksha-kaun-dila-sakta-hai
+- English: /en/who-can-grant-moksha
 
 ## 4. Outline changes
 
@@ -126,7 +126,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaun-moksha-dila-sakta-hai/`, `/en/who-can-grant-liberation/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/moksha-kaun-dila-sakta-hai/`, `/en/who-can-grant-moksha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -143,10 +143,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "मरने के बाद मोक्ष या जीते-जी मुक्ति",
-      "alternativeHeadline": "कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति",
-      "description": "क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
+      "alternativeHeadline": "मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति",
+      "description": "मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
       "inLanguage": "hi",
-      "keywords": ["मोक्ष दिला सकता है", "मोक्ष कौन दिला सकता है", "मृत्यु और मोक्ष में अंतर", "जीवन्मुक्ति क्या है", "पितरों की मुक्ति"],
+      "keywords": ["मोक्ष कौन दिला सकता है", "मृत्यु और मोक्ष में अंतर", "जीवन्मुक्ति क्या है", "पितरों की मुक्ति"],
       "about": [
         { "@type": "Thing", "name": "मोक्ष" },
         { "@type": "Thing", "name": "जीवन्मुक्ति" },
@@ -233,10 +233,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Liberation After Death, or Freedom While Alive?",
-      "alternativeHeadline": "Who Can Grant Liberation? Death vs Freedom While Alive",
-      "description": "Who can grant liberation to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
+      "alternativeHeadline": "Who Can Grant Moksha? Death vs Freedom While Alive",
+      "description": "Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
       "inLanguage": "en",
-      "keywords": ["grant liberation", "who can grant moksha", "difference between death and moksha", "jivanmukti meaning", "liberation of ancestors"],
+      "keywords": ["who can grant moksha", "grant liberation", "difference between death and moksha", "jivanmukti meaning", "liberation of ancestors"],
       "about": [
         { "@type": "Thing", "name": "Moksha" },
         { "@type": "Thing", "name": "Jivanmukti" },
@@ -358,8 +358,8 @@ The exact values written to blog/seo.json for the page generator and WordPress.
 ```json
 {
   "title": {
-    "hi": "कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति",
-    "en": "Who Can Grant Liberation? Death vs Freedom While Alive"
+    "hi": "मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति",
+    "en": "Who Can Grant Moksha? Death vs Freedom While Alive"
   },
   "alt": {
     "hero.jpg": {
@@ -427,15 +427,14 @@ The exact values written to blog/seo.json for the page generator and WordPress.
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "kaun-moksha-dila-sakta-hai",
-      "focus_keyword": "मोक्ष दिला सकता है",
+      "slug": "moksha-kaun-dila-sakta-hai",
+      "focus_keyword": "मोक्ष कौन दिला सकता है",
       "secondary_keywords": [
-        "मोक्ष कौन दिला सकता है",
         "मृत्यु और मोक्ष में अंतर",
         "जीवन्मुक्ति क्या है",
         "पितरों की मुक्ति"
       ],
-      "meta_description": "क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
+      "meta_description": "मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है।",
       "tags": [
         "जीवन्मुक्ति",
         "सद्गुरु",
@@ -445,15 +444,15 @@ The exact values written to blog/seo.json for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "who-can-grant-liberation",
-      "focus_keyword": "grant liberation",
+      "slug": "who-can-grant-moksha",
+      "focus_keyword": "who can grant moksha",
       "secondary_keywords": [
-        "who can grant moksha",
+        "grant liberation",
         "difference between death and moksha",
         "jivanmukti meaning",
         "liberation of ancestors"
       ],
-      "meta_description": "Who can grant liberation to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
+      "meta_description": "Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.",
       "tags": [
         "Jivanmukti",
         "Sadguru",
@@ -482,7 +481,7 @@ The exact values written to blog/seo.json for the page generator and WordPress.
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): met in Hindi (first sentence); the English "grant liberation" first appears in the last section
+- [x] Within the first 100 words (preferred)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
