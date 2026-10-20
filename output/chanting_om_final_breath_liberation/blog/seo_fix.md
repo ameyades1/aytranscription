@@ -48,3 +48,12 @@ No teaching, example, verse, verse translation, reference, H1 or order of ideas 
 | wordpress.en.slug | chanting-om-at-death | chanting-om-at-the-time-of-death |
 
 The focus keywords, secondary keywords, Hindi slug (`antim-samay-om-jaap`), titles, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended meta and slugs), 8 (schema descriptions and suggested slugs) and 12 (checklist, newly added) were updated to match.
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | antim-samay-om-jaap | chanting-om-at-the-time-of-death |
+| focus_keyword | अंतिम समय में ॐ का जाप | chanting Om at the time of death |
+| title | अंतिम समय में ॐ का जाप: क्या इससे मोक्ष मिलता है? | Chanting Om at the Time of Death: Is It Enough for Moksha? |
+| meta_description | क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है। | Is chanting Om at the time of death enough for moksha? Acharya Upendra Ji explains Bhagavad Gita 8 and why your last thought is shaped by a lifetime. |
