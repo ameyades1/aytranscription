@@ -13,7 +13,7 @@ A short talk giving the spiritual reason for vegetarianism. Acharya Ji starts fr
 |---|---|---|---|
 | शाकाहार का आध्यात्मिक कारण (focus) | Hindi | Informational | High |
 | शाकाहार क्यों करें | Hindi | Informational | High |
-| हिंसा की सच्ची परिभाषा | Hindi | Informational | Medium |
+| हिंसा किसे कहते हैं | Hindi | Informational | Medium |
 | मोक्ष और शाकाहार | Hindi | Informational | Medium |
 | शाकंभरी देवी | Hindi | Informational (deity) | Medium (secondary only; see section 10) |
 | बाल अर्पण का अर्थ | Hindi | Informational | Low |
@@ -25,6 +25,8 @@ A short talk giving the spiritual reason for vegetarianism. Acharya Ji starts fr
 | Shakambhari Devi | English | Informational (deity) | Low (secondary only) |
 | eat to heal not to harm | English | Navigational (video title) | Low |
 
+Keyword note: there is no searched-wording mismatch; both focus keywords are the searched wording. The original blog texts did not use them; the `_seo` texts (`/seo_blog_fix`) now use "शाकाहार का आध्यात्मिक कारण" / "spiritual reason for vegetarianism" in the first 100 words, in a short direct-answer paragraph. The H2 "हिंसा की सच्ची परिभाषा" / "What Violence Really Means" became "हिंसा किसे कहते हैं?" / "What Counts as Violence?" in the `_seo` texts, so the Hindi secondary keyword is now "हिंसा किसे कहते हैं".
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -32,18 +34,18 @@ A short talk giving the spiritual reason for vegetarianism. Acharya Ji starts fr
 2. शाकाहार क्यों? मोक्ष, अहिंसा और शाकंभरी का संकेत
 3. हिंसा की सच्ची परिभाषा: बाल, नाखून और शाकाहार
 
-Meta description: शाकाहार का आध्यात्मिक कारण क्या है? आचार्य उपेंद्र जी बताते हैं कि मोक्ष का साधक किसी को क्यों नहीं मारता, हिंसा क्या है और शाकंभरी का संकेत।
+Meta description (recommended, in seo.json): शाकाहार का आध्यात्मिक कारण क्या है? आचार्य उपेंद्र जी बताते हैं कि मोक्ष का साधक किसी को क्यों नहीं मारता, हिंसा क्या है और शाकंभरी का संकेत।
 
-Slug: `/hi/shakahar-ka-adhyatmik-karan/`
+Slug (recommended, in seo.json): `/hi/shakahar-ka-adhyatmik-karan/`
 
 **English**
 1. Spiritual Reason for Vegetarianism: Eat to Heal, Not Harm (recommended, 57 characters)
 2. Why Be Vegetarian? Moksha, Oneness and What Violence Means
 3. What Counts as Violence? Hair, Nails and the Vegetarian Plate
 
-Meta description (155 characters): Why go vegetarian? Acharya Upendra Ji gives the spiritual reason for vegetarianism: seeing God in all beings, what counts as violence, and what grows back.
+Meta description (recommended, in seo.json; 155 characters): Why go vegetarian? Acharya Upendra Ji gives the spiritual reason for vegetarianism: seeing God in all beings, what counts as violence, and what grows back.
 
-Slug: `/en/spiritual-reason-for-vegetarianism/`
+Slug (recommended, in seo.json): `/en/spiritual-reason-for-vegetarianism/`
 
 ## 4. Outline changes
 
@@ -87,7 +89,7 @@ The H1s stay as they are ("उपचार के लिए खाएँ, हा
 | किसी अंग को तोड़ना या किसी को मारना हिंसा है | Breaking off a limb or killing a being is violence | hardcore_non_vegetarian_awakening | Acharya Ji's direct challenge to those who eat meat |
 | शाकाहार में पौधे का केवल वह भाग लिया जाता है जो फिर उग आता है | A vegetarian diet takes only the part of a plant that grows back | non_veg_food_remains_body_truths | The body-based case for plant food, complementing this spiritual one |
 
-Also read: animal_sacrifice, after "हिंसा की सच्ची परिभाषा" / "What Violence Really Means" (pashu bali read as offering up the beast within; the same question of what true sacrifice and ahimsa mean).
+Also read: animal_sacrifice, after "हिंसा किसे कहते हैं?" / "What Counts as Violence?" (the `_seo` texts' wording of this H2) (pashu bali read as offering up the beast within; the same question of what true sacrifice and ahimsa mean).
 
 Related reading: eat_shapes_how_you_think, diet_hindering_success_link_prosperity, ghee_more_than_food (all Food & Health).
 
@@ -129,7 +131,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "keywords": [
         "शाकाहार का आध्यात्मिक कारण",
         "शाकाहार क्यों करें",
-        "हिंसा की सच्ची परिभाषा",
+        "हिंसा किसे कहते हैं",
         "मोक्ष और शाकाहार",
         "शाकंभरी देवी"
       ],
@@ -506,8 +508,8 @@ The exact seo.json written for the page generator and WordPress.
   "also_read": {
     "talk": "animal_sacrifice",
     "after": {
-      "hi": "हिंसा की सच्ची परिभाषा",
-      "en": "What Violence Really Means"
+      "hi": "हिंसा किसे कहते हैं?",
+      "en": "What Counts as Violence?"
     }
   },
   "related": [
@@ -522,7 +524,7 @@ The exact seo.json written for the page generator and WordPress.
       "focus_keyword": "शाकाहार का आध्यात्मिक कारण",
       "secondary_keywords": [
         "शाकाहार क्यों करें",
-        "हिंसा की सच्ची परिभाषा",
+        "हिंसा किसे कहते हैं",
         "मोक्ष और शाकाहार",
         "शाकंभरी देवी"
       ],
@@ -554,3 +556,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the blog body still presents the Shakambhari verse as a rule for human diet and gives it a meaning wider than the line quoted: Sanskrit review issues 1–2, section 10 flags 1–2; a correction for the editor, not an SEO fix)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
