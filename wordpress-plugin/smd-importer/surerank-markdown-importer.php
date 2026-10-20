@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 1.7.0
+ * Version: 1.8.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.7.0';
+    const VERSION = '1.8.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
@@ -121,7 +121,7 @@ class SMD_SureRank_Markdown_Importer {
         $missing = [];
         foreach ($refs as $ref) if (!$this->is_remote($ref) && !isset($files[$this->image_key($ref)])) $missing[] = $ref;
         if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Add them to the zip or select them in the Images field.');
-        $images = $this->import_images($refs, $files, $slug, $this->image_alts($m, $body));
+        $images = $this->import_images($refs, $files, $slug, $this->image_alts($m, $body), ($allow_update && $updatable) ? $existing->ID : 0);
         if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
         $content = $this->markdown_to_html($body, $images);
         $status = 'pending'; // Pending Review: an editor publishes it; never published directly from an uploaded file.
@@ -196,7 +196,7 @@ class SMD_SureRank_Markdown_Importer {
     private function image_refs($meta, $body) {
         $refs = [];
         if (!empty($meta['featured_image'])) $refs[] = $meta['featured_image'];
-        foreach (preg_split('/\R/', $body) as $line) if ($img = $this->parse_image_line(trim($line))) $refs[] = $img['src'];
+        foreach (explode("\n", $body) as $line) if ($img = $this->parse_image_line(trim($line))) $refs[] = $img['src'];
         return array_values(array_unique($refs));
     }
 
@@ -204,7 +204,7 @@ class SMD_SureRank_Markdown_Importer {
     private function image_alts($meta, $body) {
         $alts = [];
         if (!empty($meta['featured_image'])) $alts[$this->image_key($meta['featured_image'])] = $meta['featured_image_alt'] ?? '';
-        foreach (preg_split('/\R/', $body) as $line) if ($img = $this->parse_image_line(trim($line))) $alts += [$this->image_key($img['src']) => $img['alt']];
+        foreach (explode("\n", $body) as $line) if ($img = $this->parse_image_line(trim($line))) $alts += [$this->image_key($img['src']) => $img['alt']];
         return $alts;
     }
 
@@ -291,12 +291,13 @@ class SMD_SureRank_Markdown_Importer {
 
     /**
      * Adds each referenced image to the Media Library and returns image_key() => [id, url].
-     * An uploaded file identical to one imported before (same MD5) reuses that attachment,
-     * so re-importing a post does not duplicate its images.
+     * An uploaded file identical to one this post already has (same MD5) reuses that attachment,
+     * so re-importing a post does not duplicate its images. Other posts' copies are not reused:
+     * the Hindi and English posts of one talk share image files but need their own alt text.
      * New uploads are saved as <slug>-<file name> (hero.jpg becomes art-of-leaving-hero.jpg), so every
      * post's images get descriptive, distinct names, and are titled with their alt text.
      */
-    private function import_images($refs, $files, $slug, $alts) {
+    private function import_images($refs, $files, $slug, $alts, $post_id = 0) {
         if (!$refs) return [];
         require_once ABSPATH . 'wp-admin/includes/file.php';
         require_once ABSPATH . 'wp-admin/includes/media.php';
@@ -310,7 +311,7 @@ class SMD_SureRank_Markdown_Importer {
             } else {
                 $file = $files[$key];
                 $hash = md5_file($file['tmp_name']);
-                $found = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => self::META_IMAGE_HASH, 'meta_value' => $hash, 'fields' => 'ids', 'numberposts' => 1]);
+                $found = $post_id ? get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'post_parent' => $post_id, 'meta_key' => self::META_IMAGE_HASH, 'meta_value' => $hash, 'fields' => 'ids', 'numberposts' => 1]) : [];
                 if ($found) $id = (int) $found[0];
                 else {
                     if (strpos($file['name'], $slug . '-') !== 0) $file['name'] = $slug . '-' . $file['name'];
@@ -326,9 +327,12 @@ class SMD_SureRank_Markdown_Importer {
 
     private function parse_document($raw) {
         $raw = preg_replace('/^\xEF\xBB\xBF/', '', $raw);
-        if (!preg_match('/\A---\s*\R(.*?)\R---\s*(?:\R|$)(.*)\z/s', $raw, $matches)) return new WP_Error('smd_front_matter', 'The file must begin with YAML-style front matter between --- lines.');
+        // Line breaks are normalised here and split on "\n": PCRE's \R would also break on the byte 0x85, which
+        // is inside many Devanagari letters (अ is E0 A4 85), cutting Hindi lines in two.
+        $raw = str_replace(["\r\n", "\r"], "\n", $raw);
+        if (!preg_match('/\A---[ \t]*\n(.*?)\n---[ \t]*(?:\n|$)(.*)\z/s', $raw, $matches)) return new WP_Error('smd_front_matter', 'The file must begin with YAML-style front matter between --- lines.');
         $meta = []; $current = '';
-        foreach (preg_split('/\R/', $matches[1]) as $line) {
+        foreach (explode("\n", $matches[1]) as $line) {
             if (trim($line) === '' || preg_match('/^\s*#/', $line)) continue;
             if (preg_match('/^([a-zA-Z0-9_-]+):\s*(.*?)\s*$/', $line, $kv)) {
                 $key = strtolower($kv[1]); $value = trim($kv[2]); $current = $key;
@@ -390,15 +394,17 @@ class SMD_SureRank_Markdown_Importer {
     }
 
     /**
-     * A line "Also read: [Title](url)" (the label may be bold) as a box; url may be site-relative (/slug/). If a post here has the
+     * A line "Also read: [Title](url)" or "यह भी पढ़ें: [Title](url)" (the label may be bold) as a box, labelled as
+     * written; url may be site-relative (/slug/). If a post here has the
      * URL's last path segment as its slug, the box shows that post's featured image.
      */
     private function also_read($trim) {
-        if (!preg_match('/^(?:\*\*|__)?also read\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)\s*$/i', $trim, $m)) return '';
+        if (!preg_match('/^(?:\*\*|__)?(also read|यह भी पढ़ें)\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)\s*$/iu', $trim, $m)) return '';
+        $label = $m[1]; array_splice($m, 1, 1);
         $segments = array_values(array_filter(explode('/', (string) wp_parse_url($m[2], PHP_URL_PATH)), function($seg) { return $seg !== '' && !preg_match('/^index\.html?$/i', $seg); }));
         $post = $segments ? get_page_by_path(sanitize_title(end($segments)), OBJECT, 'post') : null;
         $thumb = $post ? get_the_post_thumbnail($post, 'medium', ['loading' => 'lazy', 'alt' => '']) : '';
-        return '<aside class="smd-also-read"><a href="' . esc_url($m[2]) . '">' . $thumb . '<span class="smd-also-read-text"><span>Also read</span><strong>' . $this->inline_format($m[1]) . ' &rarr;</strong></span></a></aside>';
+        return '<aside class="smd-also-read"><a href="' . esc_url($m[2]) . '">' . $thumb . '<span class="smd-also-read-text"><span>' . esc_html(strtolower($label) === 'also read' ? 'Also read' : $label) . '</span><strong>' . $this->inline_format($m[1]) . ' &rarr;</strong></span></a></aside>';
     }
 
     /**

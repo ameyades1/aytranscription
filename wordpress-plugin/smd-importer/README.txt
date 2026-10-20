@@ -1,4 +1,4 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.7.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.8.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -97,13 +97,13 @@ IMAGES
 - Images are matched by file name, so assets/inline.jpg in the Markdown finds an uploaded inline.jpg. An http(s) URL is downloaded into the Media Library instead.
 - Every image the file names must be uploaded, or the import stops before creating anything and lists the missing files.
 - Each new image is saved under the post's slug: hero.jpg in a post with slug art-of-leaving becomes art-of-leaving-hero.jpg, so every blog can use the same hero.jpg and inline.jpg names and the Media Library still gets descriptive, distinct file names. Its Media Library title is its alt text.
-- JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a post with the same image files reuses the existing Media Library items instead of duplicating them.
+- JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a post with the same image files reuses that post's existing Media Library items instead of duplicating them. Another post's identical image is not reused, so two posts sharing an image (such as the English and Hindi posts of one blog) each get their own copy with their own alt text.
 
 LINKS
 - [text](https://...) and site-relative [text](/post-slug/) links are converted. A site-relative link points into the site the post is imported to, so links between imported posts work on any site.
 
 ALSO READ AND VIDEO
-- A line "Also read: [Post title](https://...)" becomes a boxed link. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
+- A line "Also read: [Post title](https://...)" becomes a boxed link. For a Hindi post, write "यह भी पढ़ें: [शीर्षक](/slug/)"; the box shows the label as written. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
 - A line that is only a YouTube link, [Title](https://www.youtube.com/watch?v=...) or a bare URL, becomes an embedded video, with the link text as its caption. Watch, youtu.be, embed, shorts and live links all work.
 
 ZIP UPLOAD
@@ -113,10 +113,14 @@ ZIP UPLOAD
 - An image also picked in the Images field replaces the zip's copy of it.
 - The server's PHP upload_max_filesize and post_max_size must allow the zip's size.
 
+HINDI AND OTHER LANGUAGES
+- The .md file must be UTF-8. Titles, headings, body, tags, categories, alt text and captions can be in Hindi (Devanagari) or any other script.
+- Give a Hindi post a Latin-letter slug (slug: "sansar-chhodne-ki-kala"), since WordPress would otherwise turn the Devanagari title into a long encoded URL.
+
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.7.0
+LIMITATIONS IN VERSION 1.8.0
 - Does not write SureRank schema settings.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
 - Always back up the site and test on staging before installing on a production website.

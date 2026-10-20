@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Build one talk's upload zip for the WordPress Markdown importer plugin (wordpress-plugin/).
 
-Usage: python3 tools/make_post_zip.py <talk> [output dir]
+Usage: python3 tools/make_post_zip.py <talk> [output dir] [--lang en|hi]
+
+Builds the English post by default; --lang hi builds the Hindi one from the Hindi text and seo.json's
+Hindi fields (slug, title, keywords, tags, alt text, captions, link phrases, category name), with
+links and "Also read" pointing to the linked talks' Hindi posts.
 
 Reads (never writes) output/<talk>/: <talk>_blog_seo_en.txt (the SEO-fixed text from /seo_blog_fix)
-or else <talk>_blog_en.txt, blog/seo.json, blog/images.txt, blog/index.html (for the video) and
+or else <talk>_blog_en.txt (for Hindi, _blog_seo.txt or else _blog.txt), blog/seo.json, blog/images.txt, blog/index.html (for the video) and
 blog/assets/. Writes <slug>.zip, holding <slug>.md and assets/hero.jpg and assets/inline.jpg, to the
 output dir (default: your Windows Downloads folder, else the current directory). The .md has:
   - front matter: title (the H1), slug, excerpt and meta description, category (English name from
@@ -15,6 +19,7 @@ output dir (default: your Windows Downloads folder, else the current directory).
 Uploading the zip again with "update" ticked replaces a pending or draft post's text and SEO; the
 importer reuses images it already has.
 """
+import argparse
 import glob
 import json
 import os
@@ -33,8 +38,8 @@ def blog_path(talk, lang='en', original=False):
     return fixed if os.path.exists(fixed) and not original else f'{OUT}/{talk}/{talk}_blog{suffix}.txt'
 
 
-def h1(talk):
-    return open(blog_path(talk), encoding='utf-8').readline().lstrip('# ').strip()
+def h1(talk, lang='en'):
+    return open(blog_path(talk, lang), encoding='utf-8').readline().lstrip('# ').strip()
 
 
 def seo_of(talk):
@@ -46,9 +51,11 @@ def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
 
 
-def post_slug(talk):
-    """The slug the talk's post gets: seo.json's, else the English H1's (as ~/wordpress/import_post.py)."""
-    return seo_of(talk).get('wordpress', {}).get('en', {}).get('slug') or slugify(h1(talk))
+def post_slug(talk, lang='en'):
+    """The slug the talk's post gets: seo.json's, else the English H1's (as ~/wordpress/import_post.py);
+    a Hindi post without one gets the English H1's with -hi, since a Devanagari H1 gives no Latin slug."""
+    slug = seo_of(talk).get('wordpress', {}).get(lang, {}).get('slug')
+    return slug or slugify(h1(talk)) + ('-hi' if lang == 'hi' else '')
 
 
 def h2s(talk, lang, original=False):
@@ -63,10 +70,10 @@ def section_index(talk, en, hi, original):
     return hi_heads.index(hi) if hi in hi_heads else None
 
 
-def category_name(key):
+def category_name(key, lang='en'):
     for line in open(f'{REPO}/gallery_topics.txt', encoding='utf-8'):
         if line.startswith(f'topic {key} '):
-            return line.split('|')[1].strip()
+            return line.split('|')[1 if lang == 'en' else 2].strip()
     return key
 
 
@@ -93,14 +100,20 @@ def md_text(text):
     return text.replace('[', '(').replace(']', ')')
 
 
-def build(talk):
+LABELS = {'en': {'also_read': 'Also read', 'video': 'Watch the Discourse'},
+          'hi': {'also_read': 'यह भी पढ़ें', 'video': 'प्रवचन देखें'}}
+
+
+def build(talk, lang='en'):
     """Returns (slug, Markdown text, {path in zip: file})."""
     seo = seo_of(talk)
-    w = seo['wordpress']['en']
-    slug = post_slug(talk)
-    lines = open(blog_path(talk), encoding='utf-8').read().splitlines()
+    if lang not in seo.get('wordpress', {}):
+        sys.exit(f'{talk}: seo.json has no wordpress.{lang} section')
+    w = seo['wordpress'][lang]
+    slug = post_slug(talk, lang)
+    lines = open(blog_path(talk, lang), encoding='utf-8').read().splitlines()
     title = lines[0].lstrip('# ').strip()
-    links = [(l['en'], f'/{post_slug(l["talk"])}/') for l in seo.get('links', []) if l.get('en')]
+    links = [(l[lang], f'/{post_slug(l["talk"], lang)}/') for l in seo.get('links', []) if l.get(lang)]
     files = {}
 
     # what goes at the end of each section, by section index
@@ -116,8 +129,8 @@ def build(talk):
             if i is None or not os.path.exists(src):
                 print(f'Note: no place for {f}', file=sys.stderr)
                 continue
-            alt = seo.get('alt', {}).get(f, {}).get('en', desc)
-            cap = seo.get('caption', {}).get(f, {}).get('en', '')
+            alt = seo.get('alt', {}).get(f, {}).get(lang, desc)
+            cap = seo.get('caption', {}).get(f, {}).get(lang, '')
             files[f'assets/{f}'] = src
             after.setdefault(i, []).append(f'![{md_text(alt)}](assets/{f}' + (f' {q(cap)})' if cap else ')'))
     also = seo.get('also_read')
@@ -126,7 +139,8 @@ def build(talk):
         if i is None:
             print(f'Note: no place for the Also read box', file=sys.stderr)
         else:
-            after.setdefault(i, []).append(f'Also read: [{md_text(h1(also["talk"]))}](/{post_slug(also["talk"])}/)')
+            after.setdefault(i, []).append(f'{LABELS[lang]["also_read"]}: [{md_text(h1(also["talk"], lang))}]'
+                                           f'(/{post_slug(also["talk"], lang)}/)')
 
     body, section = [], -1
 
@@ -152,12 +166,12 @@ def build(talk):
     vid = video(talk)
     if vid:
         url, vtitle = vid
-        body += ['', '## Watch the Discourse', '', f'[{md_text(vtitle)}]({url})' if vtitle else url]
+        body += ['', f'## {LABELS[lang]["video"]}', '', f'[{md_text(vtitle)}]({url})' if vtitle else url]
 
     front = ['---', f'title: {q(title)}', f'slug: {q(slug)}', f'excerpt: {q(w["meta_description"])}',
-             'categories:', f'  - {category_name(w.get("category") or seo["wordpress"]["category"])}', 'tags:']
+             'categories:', f'  - {category_name(w.get("category") or seo["wordpress"]["category"], lang)}', 'tags:']
     front += [f'  - {t}' for t in w.get('tags', [])]
-    front += [f'seo_title: {q(seo.get("title", {}).get("en", title))}',
+    front += [f'seo_title: {q(seo.get("title", {}).get(lang, title))}',
               f'meta_description: {q(w["meta_description"])}',
               f'focus_keyword: {q(w.get("focus_keyword", ""))}',
               'robots: "index,follow"']
@@ -165,8 +179,8 @@ def build(talk):
     if os.path.exists(hero):
         files['assets/hero.jpg'] = hero
         front += ['featured_image: "assets/hero.jpg"',
-                  f'featured_image_alt: {q(seo.get("alt", {}).get("hero.jpg", {}).get("en", title))}',
-                  f'featured_image_caption: {q(seo.get("caption", {}).get("hero.jpg", {}).get("en", ""))}']
+                  f'featured_image_alt: {q(seo.get("alt", {}).get("hero.jpg", {}).get(lang, title))}',
+                  f'featured_image_caption: {q(seo.get("caption", {}).get("hero.jpg", {}).get(lang, ""))}']
     front.append('---')
     text = '\n'.join(front) + '\n\n' + re.sub(r'\n{3,}', '\n\n', '\n'.join(body)).strip() + '\n'
     return slug, text, files
@@ -180,11 +194,14 @@ def downloads():
 
 
 def main():
-    if len(sys.argv) < 2:
-        sys.exit(__doc__)
-    talk = sys.argv[1].rstrip('/').split('/')[-1]
-    out = sys.argv[2] if len(sys.argv) > 2 else downloads()
-    slug, text, files = build(talk)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('talk')
+    ap.add_argument('out', nargs='?', help='output dir (default: your Windows Downloads folder)')
+    ap.add_argument('--lang', choices=['en', 'hi'], default='en', help='the post\'s language (default: en)')
+    args = ap.parse_args()
+    talk = args.talk.rstrip('/').split('/')[-1]
+    out = args.out or downloads()
+    slug, text, files = build(talk, args.lang)
     path = os.path.join(out, f'{slug}.zip')
     with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as z:
         z.writestr(f'{slug}.md', text)
