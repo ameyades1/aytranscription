@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "मैं कौन हूँ? संसार की माया हमें खुद को कैसे भुलाती है",
+    "en": "Who Am I? How Maya Makes Us Forget Our True Self"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त के समय छत पर बैठी पीले कपड़ों में एक छोटी बच्ची, लकड़ी के घोड़े और मिट्टी के छोटे खिलौनों से खेलती हुई",
+      "en": "A little girl in a yellow dress sits on a terrace at sunset, playing with a wooden toy horse and small clay toys"
+    },
+    "inline.jpg": {
+      "hi": "कार की सीट पर आँखों पर काली पट्टी बाँधे बैठी एक स्त्री, खिड़की के बाहर धुंधली सड़क",
+      "en": "A woman sits in a car seat with a black blindfold over her eyes, a hazy street outside the window"
+    },
+    "YEnlgHqzyxk.jpg": {
+      "hi": "वीडियो: संसार की माया हमें अपना असली स्वरूप कैसे भुला देती है, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: How Worldly Maya Makes You Forget Your True Self, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "खेल में खोकर, पहला प्रश्न भूल जाना",
+      "en": "Lost in play, the first question forgotten"
+    },
+    "inline.jpg": {
+      "hi": "गंतव्य जाने बिना यात्रा",
+      "en": "A journey without knowing where to"
+    }
+  },
+  "links": [
+    {"talk": "know_your_first_duty_in_life", "hi": "हमारा वास्तविक कर्म", "en": "the real work of our life"},
+    {"talk": "gita_escape_cycle_of_rebirth", "hi": "कोई राजा बनकर जन्मा", "en": "One arrives as a king"},
+    {"talk": "trapped_illusory_happiness", "hi": "माया में खेलना सीख जाता है", "en": "learns to play inside illusion"},
+    {"talk": "spiritual_science_om_aum", "hi": "अर्थ के साथ सुनाइए", "en": "explain what it means"},
+    {"talk": "decides_destiny", "hi": "कोई विशेष विचार क्यों आता है", "en": "where our particular thoughts come from"}
+  ],
+  "also_read": {
+    "talk": "every_human_inherently_spiritual",
+    "after": {"hi": "अध्यात्म का सरल अर्थ", "en": "Spirituality in Plain Words"}
+  },
+  "related": ["know_your_first_duty_in_life", "trapped_illusory_happiness", "decides_destiny"],
+  "wordpress": {
+    "category": "mind",
+    "hi": {
+      "slug": "main-kaun-hoon-sansar-ki-maya",
+      "focus_keyword": "मैं कौन हूँ",
+      "secondary_keywords": ["कोऽहम् सोऽहम्", "संसार की माया", "आत्मा का अध्ययन", "main kaun hoon"],
+      "meta_description": "मैं कौन हूँ, कहाँ से आया, कहाँ जाऊँगा? आचार्य उपेंद्र जी बताते हैं कि कोऽहम् का प्रश्न क्या है और संसार की माया हमें अपना असली स्वरूप कैसे भुला देती है।",
+      "tags": ["माया", "आदि शंकराचार्य", "अद्वैत वेदांत", "पुनर्जन्म"]
+    },
+    "en": {
+      "slug": "who-am-i-maya-forget-true-self",
+      "focus_keyword": "who am I",
+      "secondary_keywords": ["ko'ham so'ham meaning", "how maya makes us forget who we are", "meaning of adhyatma", "where did I come from spirituality"],
+      "meta_description": "Who am I, where did I come from, where will I go? Acharya Upendra Ji on ko'ham and so'ham, and how the maya of the world makes us forget our true self.",
+      "tags": ["Maya", "Adi Shankaracharya", "Advaita Vedanta", "Rebirth"]
+    }
+  }
+}

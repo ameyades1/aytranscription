@@ -1,0 +1,81 @@
+{
+  "title": {
+    "hi": "पुत्र मोह और अंधा प्रेम क्यों खतरनाक है",
+    "en": "Blind Compassion: Why Blind Love Is Dangerous"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी धूप में ऊँची चट्टान के किनारे की ओर बढ़ते छोटे बच्चे का हाथ थामे लाल दुपट्टा ओढ़े एक माँ",
+      "en": "In golden light, a mother in a red dupatta holds the hand of a small boy as he steps toward the edge of a steep cliff"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर में साथ बैठी तीन देवियाँ: त्रिशूल लिए काली, वीणा बजाती सरस्वती और कमल लिए लक्ष्मी",
+      "en": "Three goddesses seated together in a temple: Kali with a trident, Saraswati playing the veena and Lakshmi holding a lotus"
+    },
+    "H2TJ9HG0F9I.jpg": {
+      "hi": "आचार्य उपेंद्र जी के प्रवचन \"Why Blind Love is Dangerous\" का थंबनेल, आचार्य जी और आँखों पर पट्टी बाँधे प्रेमी जोड़े के चित्र के साथ",
+      "en": "Thumbnail of Acharya Upendra Ji's talk \"Why Blind Love is Dangerous\", showing Acharya Ji beside a blindfolded couple and hearts"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "हाथ थामना, पर आंखें खुली रखकर",
+      "en": "Holding on, with eyes open"
+    },
+    "inline.jpg": {
+      "hi": "तीनों शक्तियाँ, गुरु भक्ति से पूर्ण",
+      "en": "Three powers, made whole by devotion"
+    }
+  },
+  "links": [
+    {
+      "talk": "goddess_lakshmi_lord_vishnu_stories",
+      "hi": "जब जब लक्ष्मी का विष्णु से वियोग हुआ",
+      "en": "Lakshmi meets with pain whenever she is separated from Vishnu"
+    },
+    {
+      "talk": "sattva_rajas_tamas_balance_success_liberation",
+      "hi": "रजोगुण का अंत सदा दुख है",
+      "en": "rajoguna always ends in suffering"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "काली और सरस्वती अधिक हों",
+      "en": "When Kali and Saraswati dominate"
+    },
+    {
+      "talk": "surrendering_to_guru",
+      "hi": "गुरु भक्ति से ही वे पूर्ण होती हैं",
+      "en": "devotion to the Guru makes them whole"
+    }
+  ],
+  "also_read": {
+    "talk": "stop_tolerating_toxic_love",
+    "after": {
+      "hi": "जब हृदय बड़ा हो पर आंखें बंद हों",
+      "en": "When the Heart Is Wide Open but the Eyes Are Shut"
+    }
+  },
+  "related": [
+    "too_bad_to_be_too_good_valentines",
+    "love_burden_for_child_parenting",
+    "true_meaning_of_love_valentines"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "putra-moh-andha-prem",
+      "focus_keyword": "पुत्र मोह",
+      "secondary_keywords": ["अंधा प्रेम", "अंधी करुणा", "लक्ष्मी तत्व", "putra moh kya hai"],
+      "meta_description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है।",
+      "tags": ["मोह", "लक्ष्मी", "रजोगुण", "विवेक", "परवरिश"]
+    },
+    "en": {
+      "slug": "blind-compassion-why-blind-love-is-dangerous",
+      "focus_keyword": "blind compassion",
+      "secondary_keywords": ["why blind love is dangerous", "putra moha meaning", "foolish compassion", "Lakshmi without Narayana"],
+      "meta_description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind compassion without discernment leads to ruin.",
+      "tags": ["Attachment", "Lakshmi", "Rajas", "Viveka", "Parenting"]
+    }
+  }
+}

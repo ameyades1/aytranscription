@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "शिष्य शक्तिवान कब बनता है? गुरु, शक्तिपात और साधना",
+    "en": "When Does a Disciple Become Powerful? Guru and Shaktipat"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी धूप में पहाड़ी पगडंडी पर लाठी लिए एक मार्गदर्शक, पीठ पर बैग लिए युवा यात्री को आगे पर्वत शिखरों की ओर रास्ता दिखाते हुए",
+      "en": "On a mountain trail in golden sunlight, a guide holding a walking staff points the way towards distant peaks for a young trekker carrying a backpack"
+    },
+    "inline.jpg": {
+      "hi": "पुराने घर की सीढ़ियों पर सफेद कुर्ता-पायजामा पहने बैठे एक बहुत वृद्ध पिता, हाथ में छड़ी लिए, और उनके पास बैठा उनका बुजुर्ग बेटा",
+      "en": "A very old father holding a walking cane sits on the steps of an old house beside his elderly son, both dressed in white kurta-pyjama"
+    },
+    "20whyVbHtSc.jpg": {
+      "hi": "गणेश सीरीज़ एपिसोड 17 का थंबनेल: 'Guru-Disciple Bond' शीर्षक, पेड़ के नीचे दीपक के पास शिष्य को उपदेश देते श्वेत दाढ़ी वाले गुरु का चित्र, और आचार्य उपेंद्र जी",
+      "en": "Ganesh Series episode 17 thumbnail titled 'Guru-Disciple Bond': a white-bearded Guru teaching a young disciple by a lamp under a tree, beside Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "गुरु राह दिखाते हैं, चलना शिष्य को है",
+      "en": "The Guru shows the way; the disciple must walk it"
+    },
+    "inline.jpg": {
+      "hi": "सहारा कब तक?",
+      "en": "Support, but for how long?"
+    }
+  },
+  "links": [
+    {"talk": "competent_guru_activate_chakras_kundalini", "hi": "गुरु द्वारा शिष्य में आध्यात्मिक ऊर्जा का संचार", "en": "transmission of spiritual energy into the disciple"},
+    {"talk": "love_burden_for_child_parenting", "hi": "हर माता-पिता चाहते हैं कि बच्चे में शक्ति आए", "en": "Every parent wants their child to grow strong"},
+    {"talk": "why_satsang_does_not_change_your_life", "hi": "दो साधनाएं कीं, चार कीं", "en": "You did two sadhanas, then four"},
+    {"talk": "truth_about_lord_ganesh", "hi": "विवेक बुद्धि के देवता हैं", "en": "The deity of the discerning mind is"},
+    {"talk": "true_disciple_change_your_life", "hi": "शिष्य में यह समझ हो कि मुझे कहां तक", "en": "The disciple needs the understanding to know how far to remain"}
+  ],
+  "also_read": {
+    "talk": "guru_and_disciple_highest_form_love",
+    "after": {"hi": "गुरु परमेश्वर से ऊपर क्यों?", "en": "Why Is the Guru Placed Above God?"}
+  },
+  "related": ["what_is_a_guru", "know_kind_student_shishya", "being_presence_guru_changes_way_think"],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "shishya-shaktivan-kab-banta-hai",
+      "focus_keyword": "शिष्य शक्तिवान",
+      "secondary_keywords": ["गुरु शिष्य संबंध", "शक्तिपात क्या है", "विवेक बुद्धि", "गणेश गीता"],
+      "meta_description": "शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है।",
+      "tags": ["गणेश सीरीज़", "गुरु-शिष्य", "शक्तिपात", "विवेक", "गणेश गीता"]
+    },
+    "en": {
+      "slug": "when-does-a-disciple-become-powerful",
+      "focus_keyword": "disciple become powerful",
+      "secondary_keywords": ["when does a disciple become truly powerful", "Guru disciple relationship", "what is shaktipat", "what is viveka buddhi"],
+      "meta_description": "When does a disciple become powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty, why power lies within you, and what viveka means.",
+      "tags": ["Ganesh Series", "Guru and Disciple", "Shaktipat", "Viveka", "Ganesha Gita"]
+    }
+  }
+}

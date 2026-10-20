@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है",
+    "en": "Love Without Accounting: Why a Mother's Bill Comes to Zero"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मिट्टी की दीवारों वाली रसोई में ज़मीन पर बैठी साड़ी पहने माँ, मुस्कुराते बेटे और बेटी की थालियों में खाना परोसती हुई",
+      "en": "A mother in a sari sitting on the floor of a mud-walled kitchen, smiling as she serves food onto her son's and daughter's plates"
+    },
+    "inline.jpg": {
+      "hi": "घर के बैठक कक्ष में एक छोटा लड़का अपनी माँ को कागज़ की एक पर्ची थमाता हुआ",
+      "en": "A young boy in a living room handing a slip of paper to his mother"
+    },
+    "9pLcWhHUChs.jpg": {
+      "hi": "वीडियो: प्रेम या नियंत्रण? रंगीन धागों से बच्चे को बाँधे माता-पिता, ब्रह्मर्षि आचार्य उपेंद्र जी, गणेश सीरीज़ एपिसोड 22",
+      "en": "Video: Love or control? Parents holding a child bound in coloured strings, Brahmarshi Acharya Upendra Ji, Ganesh Series episode 22"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "परोसना, बिना गिने",
+      "en": "Serving, without counting"
+    },
+    "inline.jpg": {
+      "hi": "बेटे का बिल, माँ का शून्य",
+      "en": "The son's bill, the mother's zero"
+    }
+  },
+  "links": [
+    {
+      "talk": "love_burden_for_child_parenting",
+      "hi": "प्रेम धीरे-धीरे नियंत्रण और अपेक्षा में बदलने लगता है",
+      "en": "love slowly begins to turn into control and expectation"
+    },
+    {
+      "talk": "true_meaning_of_love_valentines",
+      "hi": "बिना हिसाब का प्रेम",
+      "en": "love without accounting"
+    },
+    {
+      "talk": "marriage_giving_not_taking_relationships",
+      "hi": "फल का हठ छोड़ दो",
+      "en": "let go of your insistence on the fruit"
+    },
+    {
+      "talk": "competent_guru_activate_chakras_kundalini",
+      "hi": "निचले चक्रों की चेतना",
+      "en": "the awareness of the lower chakras"
+    },
+    {
+      "talk": "see_god_even_enemy",
+      "hi": "शत्रु के बेटे के साथ भी",
+      "en": "even to your enemy"
+    }
+  ],
+  "also_read": {
+    "talk": "divine_power_every_woman_holds",
+    "after": {
+      "hi": "कॉलेज की वह लड़की जो बदल गई",
+      "en": "The College Friend Who Changed Overnight"
+    }
+  },
+  "related": [
+    "love_burden_for_child_parenting",
+    "true_meaning_of_love_valentines",
+    "marriage_giving_not_taking_relationships"
+  ],
+  "wordpress": {
+    "category": "love",
+    "hi": {
+      "slug": "bina-hisab-ka-prem",
+      "focus_keyword": "बिना हिसाब का प्रेम",
+      "secondary_keywords": [
+        "प्रेम में अपेक्षा",
+        "निःस्वार्थ प्रेम",
+        "माँ का प्रेम",
+        "मातृभाव"
+      ],
+      "meta_description": "प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति।",
+      "tags": [
+        "गणेश सीरीज़",
+        "निःस्वार्थ प्रेम",
+        "अपेक्षा",
+        "परवरिश",
+        "कर्मयोग"
+      ]
+    },
+    "en": {
+      "slug": "love-without-accounting",
+      "focus_keyword": "love without accounting",
+      "secondary_keywords": [
+        "when love turns into control",
+        "love without expectation",
+        "mother's love",
+        "selfless love"
+      ],
+      "meta_description": "When does love turn into control? Acharya Upendra Ji uses a mother's bill of zeros to explain love without accounting, the highest spiritual state.",
+      "tags": [
+        "Ganesh Series",
+        "Selfless Love",
+        "Expectations",
+        "Parenting",
+        "Karma Yoga"
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "मासिक धर्म में साधना क्यों न छूटे: भ्रांति और सत्य",
+    "en": "Sadhana During Menstruation: Why It Need Not Stop"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सफ़ेद-क्रीम कुर्ता और दुपट्टा पहने एक युवा स्त्री घर में सुबह की धूप में चटाई पर आँखें बंद करके ध्यान में बैठी है; पीछे छोटे पूजा स्थान पर दीया जल रहा है",
+      "en": "A young woman in a cream kurta and dupatta meditates with eyes closed on a woven mat at home in morning sunlight, a small lit lamp on the home shrine behind her"
+    },
+    "inline.jpg": {
+      "hi": "सूर्यास्त की सुनहरी रोशनी में एक प्राचीन पत्थर का मंदिर-प्रांगण; एक ओर भगवा वस्त्र पहने साधु शांत बैठे हैं",
+      "en": "An ancient stone temple courtyard in golden sunset light, with a saffron-robed sadhu sitting quietly at one side"
+    },
+    "OZpiSalQjIk.jpg": {
+      "hi": "वीडियो: Can Women Continue Sadhana During Their Monthly Cycle? Myth vs Truth (क्या मासिक धर्म में स्त्रियां साधना जारी रख सकती हैं?), आचार्य उपेंद्र जी, पीछे देवी के आगे प्रार्थना करती स्त्री का चित्र",
+      "en": "Video: Can Women Continue Sadhana During Their Monthly Cycle? Myth vs Truth, Acharya Upendra Ji, with a drawing of a woman praying before a goddess on a lotus"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "साधना, जो किसी दिन नहीं रुकती",
+      "en": "A practice that keeps no days off"
+    },
+    "inline.jpg": {
+      "hi": "जहां वातावरण ही वैराग्य जगाता है",
+      "en": "Where the setting itself stirs detachment"
+    }
+  },
+  "links": [
+    {
+      "talk": "divine_power_every_woman_holds",
+      "hi": "यदि स्त्री स्वयं देवी जैसी सशक्त है",
+      "en": "if a woman is strong and spiritual, like the Devi herself"
+    },
+    {
+      "talk": "eat_shapes_how_you_think",
+      "hi": "और घर में अन्न बनाने वाली स्त्री ही है",
+      "en": "it is the woman who prepares the food"
+    },
+    {
+      "talk": "become_billionaire_shree_vidya_secrets",
+      "hi": "उस श्री विद्या गुरु के पास जाओ",
+      "en": "go to the Shri Vidya Guru"
+    },
+    {
+      "talk": "awaken_divine_shakti_kali_lakshmi_saraswati",
+      "hi": "लक्ष्मी, पार्वती और सरस्वती, तीनों का संतुलन",
+      "en": "Lakshmi, Parvati and Saraswati"
+    },
+    {
+      "talk": "saturn_mars_succeed_shani_mangal",
+      "hi": "शनि देव को वही प्रिय है",
+      "en": "What Shani Dev loves"
+    }
+  ],
+  "also_read": {
+    "talk": "women_have_right_perform_shraddha_pind",
+    "after": {
+      "hi": "फिर यह नियम आया कहां से?",
+      "en": "Then Where Did This Rule Come From?"
+    }
+  },
+  "related": [
+    "women_have_right_perform_shraddha_pind",
+    "gyan_sarovar_mount_abu_women_address",
+    "spiritual_power_women_kali_yug"
+  ],
+  "wordpress": {
+    "category": "women",
+    "hi": {
+      "slug": "masik-dharm-mein-sadhana",
+      "focus_keyword": "मासिक धर्म",
+      "secondary_keywords": ["मासिक धर्म में साधना", "पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
+      "meta_description": "क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।",
+      "tags": ["नारी शक्ति", "अंधश्रद्धा", "वैराग्य", "श्री विद्या", "शनि देव"]
+    },
+    "en": {
+      "slug": "sadhana-during-menstruation",
+      "focus_keyword": "menstruation",
+      "secondary_keywords": ["sadhana during menstruation", "can women do sadhana during periods", "can women chant mantras during periods", "shmashan vairagya meaning"],
+      "meta_description": "Should women stop sadhana during menstruation? Acharya Upendra Ji explains where the rule came from and why your personal practice can continue every day.",
+      "tags": ["Women's Empowerment", "Blind Faith", "Vairagya", "Shri Vidya", "Shani Dev"]
+    }
+  }
+}

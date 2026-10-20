@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर",
+    "en": "How Casteism Can End: Hanuman's Answer to Shri Rama"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी सुबह में नदी किनारे पत्थर पर बैठे श्री राम के सामने हाथ जोड़कर घुटनों के बल बैठे हनुमान जी, श्री राम का हाथ उनकी ओर बढ़ा हुआ",
+      "en": "Hanuman kneeling with folded hands before Shri Rama, who sits on a riverside rock at golden dawn and reaches out a hand to him"
+    },
+    "inline.jpg": {
+      "hi": "मंदिर में आमने-सामने रखे मिट्टी के दो दीये, जिनकी बातियों से एक ही लौ उठ रही है, पीछे गेंदे के फूल",
+      "en": "Two clay diyas facing each other in a temple, their wicks rising into a single flame, with marigolds behind"
+    },
+    "D1gVmT4mOxM.jpg": {
+      "hi": "वीडियो: आचार्य उपेंद्र जी बताते हैं कि समाज आज भी बंटा क्यों है, लाल पृष्ठभूमि पर कांटेदार तार",
+      "en": "Video: Acharya Upendra Ji reveals why society is still divided, with barbed wire on a red background"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सेवा में दास, आत्मा में एक",
+      "en": "A servant in service, one in the Self"
+    },
+    "inline.jpg": {
+      "hi": "दो दीये, एक ज्योति",
+      "en": "Two lamps, one flame"
+    }
+  },
+  "links": [
+    {"talk": "was_ram_rajya_like_federal_or", "hi": "राजा राजा है", "en": "A king is a king"},
+    {"talk": "power_of_collectivity", "hi": "श्रमिक संगठनों के नेता", "en": "labour union leaders"},
+    {"talk": "see_lord_everyone_but_treat_merit", "hi": "आप और मैं बिल्कुल एक हैं", "en": "you and I are entirely one"},
+    {"talk": "unlock_full_potential_in_life", "hi": "हर वर्ण में", "en": "people of every varna"},
+    {"talk": "see_god_even_enemy", "hi": "किसी को किस स्तर से देखते हैं", "en": "do you look at others"}
+  ],
+  "also_read": {
+    "talk": "ideal_king_sanatan_rashtra_interview",
+    "after": {"hi": "तो समाज बंटा क्यों है?", "en": "Why, Then, Does Society Remain Divided?"}
+  },
+  "related": ["unlock_full_potential_in_life", "see_lord_everyone_but_treat_merit", "was_ram_rajya_like_federal_or"],
+  "wordpress": {
+    "category": "nation",
+    "hi": {
+      "slug": "jativad-kaise-mite-hanuman-ji-ka-uttar",
+      "focus_keyword": "जातिवाद",
+      "secondary_keywords": ["जातिवाद कैसे खत्म हो", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
+      "meta_description": "जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
+      "tags": ["हनुमान", "श्री राम", "वर्ण व्यवस्था", "अद्वैत वेदांत", "समदर्शिता"]
+    },
+    "en": {
+      "slug": "hanuman-answer-to-end-casteism",
+      "focus_keyword": "casteism",
+      "secondary_keywords": ["how to end casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
+      "meta_description": "Why does casteism last? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
+      "tags": ["Hanuman", "Shri Rama", "Varna", "Advaita Vedanta", "Equal Vision"]
+    }
+  }
+}

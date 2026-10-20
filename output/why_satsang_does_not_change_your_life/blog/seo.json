@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता",
+    "en": "Why Satsang Does Not Change Your Life: Be a Good Listener"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "खंभों वाले खुले हॉल में ज़मीन पर बैठकर सत्संग सुनते स्त्री-पुरुष: कोई ध्यान से सुन रहा है, कोई गाल पर हाथ टिकाए सोच में डूबा है",
+      "en": "Men and women of all ages seated on the floor of an open pillared hall listening to a satsang, some attentive, one resting his cheek on his hand, lost in thought"
+    },
+    "inline.jpg": {
+      "hi": "मेज़ पर बैठा एक अधेड़ व्यक्ति रंगीन निशानों वाली नोटबुक थामे सामने बैठे लोगों की ओर पेन से इशारा कर रहा है",
+      "en": "A middle-aged man at a table holding a notebook full of coloured tabs and pointing his pen at the people sitting across from him"
+    },
+    "xvFF9MbWP30.jpg": {
+      "hi": "वीडियो: This Is Why Satsang Does Not Change YOUR Life, हेडफ़ोन के पास आचार्य उपेंद्र जी और शब्द \"You Hear Everything But Apply Nothing!\"",
+      "en": "Video: This Is Why Satsang Does Not Change YOUR Life, Acharya Upendra Ji beside a pair of headphones with the words \"You Hear Everything But Apply Nothing!\""
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "सब सुनते हैं, पर किसके लिए?",
+      "en": "Everyone listens, but for whom?"
+    },
+    "inline.jpg": {
+      "hi": "गुरु की वाणी: दर्पण, उँगली नहीं",
+      "en": "The Guru's words: a mirror, not a finger"
+    }
+  },
+  "links": [
+    {
+      "talk": "company_you_keep_shapes_destiny",
+      "hi": "सत्य का संग",
+      "en": "being in the presence of truth"
+    },
+    {
+      "talk": "missing_step_blocking_spiritual_success",
+      "hi": "कान तो पवित्र हो गया",
+      "en": "your ears have been purified"
+    },
+    {
+      "talk": "difference_ved_vedant",
+      "hi": "उपनिषदों का आत्मज्ञान",
+      "en": "the knowledge of the Self taught in the Upanishads"
+    },
+    {
+      "talk": "know_kind_student_shishya",
+      "hi": "हर बात को स्वयं पर लागू करता है",
+      "en": "applies every word to themselves"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "उन्हें गुरु तक पहुँचा सकता हूँ",
+      "en": "bring them to the Guru"
+    }
+  ],
+  "also_read": {
+    "talk": "true_disciple_change_your_life",
+    "after": {
+      "hi": "नर से नारायण की यात्रा",
+      "en": "The Journey from Human to Divine"
+    }
+  },
+  "related": [
+    "knowledge_work_for_you",
+    "being_presence_guru_changes_way_think",
+    "when_disciple_become_truly_powerful"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "satsang-aur-achha-shrota",
+      "focus_keyword": "अच्छा श्रोता",
+      "secondary_keywords": [
+        "सत्संग का अर्थ",
+        "सत्संग का पहला विघ्न",
+        "सत्संग से जीवन क्यों नहीं बदलता",
+        "satsang ka labh kyon nahi milta"
+      ],
+      "meta_description": "सत्संग सुनकर भी जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
+      "tags": [
+        "सत्संग",
+        "अहंकार",
+        "सद्गुरु"
+      ]
+    },
+    "en": {
+      "slug": "why-satsang-does-not-change-your-life",
+      "focus_keyword": "satsang",
+      "secondary_keywords": [
+        "how to be a good listener in satsang",
+        "first obstacle in satsang",
+        "why spiritual discourses do not change me",
+        "what is satsang"
+      ],
+      "meta_description": "Why does satsang leave you unchanged? Acharya Upendra Ji explains how a good listener applies every word to themselves, not to the faults of others.",
+      "tags": [
+        "Satsang",
+        "Ego",
+        "Sadguru"
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "title": {
+    "hi": "प्राणमय कोश: जल कैसे बनता है प्राण",
+    "en": "Pranamaya Kosha: How Water Becomes Prana"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "खिड़की के पास लकड़ी की सतह पर सुबह की धूप में रखा पानी से भरा काँच का गिलास और ताँबे का घड़ा, बाहर हरी पत्तियाँ",
+      "en": "A glass of water and a hammered copper pot on a wooden sill in warm morning light beside a window, with green leaves outside"
+    },
+    "inline.jpg": {
+      "hi": "पहाड़ों और पेड़ों से घिरी शांत झील में झलकता पूर्ण चंद्र, किनारे पर पत्थर का नक्काशीदार मंडप",
+      "en": "A full moon reflected in a still lake ringed by hills and trees, with a carved stone pavilion on the shore"
+    },
+    "COOfNtQO9p8.jpg": {
+      "hi": "वीडियो: Water Is Your First Medicine, ब्रह्मर्षि आचार्य उपेंद्र जी और पानी से भरा गिलास",
+      "en": "Video: Water Is Your First Medicine, Brahmarshi Acharya Upendra Ji beside a glass of water"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पहले जल, फिर सब कुछ",
+      "en": "Water first, then everything else"
+    },
+    "inline.jpg": {
+      "hi": "जल में चंद्र, जल में मन",
+      "en": "The Moon in the water, the water in the mind"
+    }
+  },
+  "links": [
+    {
+      "talk": "ghee_more_than_food",
+      "hi": "यह सब भीतर जाकर क्या बनता है",
+      "en": "what all of it becomes once it is inside you"
+    },
+    {
+      "talk": "secrets_mastering_your_mind_technique",
+      "hi": "संपूर्ण जीवन-ऊर्जा",
+      "en": "the whole energy that keeps you alive"
+    },
+    {
+      "talk": "diet_hindering_success_link_prosperity",
+      "hi": "जो खाया-पिया उससे मन तो थोड़ा बनता ही है",
+      "en": "whatever you eat and drink is bound to shape the mind"
+    },
+    {
+      "talk": "mind_or_body_more_powerful",
+      "hi": "हम जो कुछ भी ग्रहण करते हैं, वह हमारे मन को गढ़ रहा है",
+      "en": "Everything we take in is shaping the mind"
+    }
+  ],
+  "also_read": {
+    "talk": "eat_shapes_how_you_think",
+    "after": {
+      "hi": "जो पीते हैं, वह कहाँ जाता है?",
+      "en": "Where Does Everything You Drink Go?"
+    }
+  },
+  "related": [
+    "eat_shapes_how_you_think",
+    "ghee_more_than_food",
+    "mind_or_body_more_powerful"
+  ],
+  "wordpress": {
+    "category": "food",
+    "hi": {
+      "slug": "pranamaya-kosh-jal-aur-pran",
+      "focus_keyword": "प्राणमय कोश",
+      "secondary_keywords": [
+        "जल आपकी पहली औषधि",
+        "जल और प्राण",
+        "अन्नमय कोश",
+        "यथा पिण्डे तथा ब्रह्माण्डे"
+      ],
+      "meta_description": "प्राणमय कोश अन्नमय कोश से ऊपर है। आचार्य उपेंद्र जी बताते हैं कि जो हम पीते हैं वह प्राण कैसे बनता है, थके व्यक्ति को पहले जल क्यों, और जल मन को कैसे गढ़ता है।",
+      "tags": [
+        "प्राण",
+        "पंचकोश",
+        "पंचतत्व",
+        "उपनिषद",
+        "स्वास्थ्य"
+      ]
+    },
+    "en": {
+      "slug": "pranamaya-kosha-water-and-prana",
+      "focus_keyword": "Pranamaya Kosha",
+      "secondary_keywords": [
+        "water is your first medicine",
+        "water and prana",
+        "annamaya kosha",
+        "yatha pinde tatha brahmande"
+      ],
+      "meta_description": "Pranamaya Kosha and water: Acharya Upendra Ji explains why every drink becomes prana, why the sick get fluid first, and how what you drink shapes the mind.",
+      "tags": [
+        "Prana",
+        "Koshas",
+        "Five Elements",
+        "Upanishads",
+        "Health"
+      ]
+    }
+  }
+}

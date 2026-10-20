@@ -1,0 +1,101 @@
+{
+  "title": {
+    "hi": "स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं",
+    "en": "Women Can Perform Shraddha: What the Scriptures Say"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्योदय के समय नदी के घाट पर बैठी साड़ी पहने एक स्त्री हाथ से जल अर्पित करती हुई, पास में गेंदे के फूलों की थाली, पीछे पुराने घाट और नावें",
+      "en": "A woman in a sari kneels on a river ghat at sunrise, pouring water from her hand as an offering, with a plate of marigolds beside her and old ghats and boats behind"
+    },
+    "inline.jpg": {
+      "hi": "नदी किनारे पीले वस्त्रों में बैठी एक युवा स्त्री रेत के पिंड बनाती हुई, सामने रेत के तीन पिंड, पास में जलता दीया, फूल और पीतल का कलश",
+      "en": "A young woman in a yellow sari shapes pindas of sand on a riverbank, with three sand pindas before her and a lit lamp, flowers and a brass pot beside her"
+    },
+    "ItIczpWGBaE.jpg": {
+      "hi": "वीडियो: क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं, माता सीता की कथा, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Women Have the Right to Perform Shraddha and Pind Daan, The Story of Mata Sita, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "पितरों के लिए अर्पण, किसी भी हाथ से",
+      "en": "An offering for the ancestors, from any hand"
+    },
+    "inline.jpg": {
+      "hi": "रेत के पिंड, पूरे मन से",
+      "en": "Pindas of sand, offered with a whole heart"
+    }
+  },
+  "links": [
+    {
+      "talk": "mahalay_shraddha_matters_truth_about_pitru",
+      "hi": "श्राद्ध और तर्पण",
+      "en": "offering water and food to the ancestors"
+    },
+    {
+      "talk": "divine_power_every_woman_holds",
+      "hi": "स्त्री का भावुक स्वभाव",
+      "en": "emotional nature"
+    },
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पूर्वज हमारे अपने माता-पिता हैं",
+      "en": "Our ancestors are our own parents and grandparents"
+    },
+    {
+      "talk": "mrityu_versus_moksha",
+      "hi": "उन्हें बस इतना चाहिए कि कोई उन्हें मुक्त करे",
+      "en": "All they need is someone to set them free"
+    }
+  ],
+  "also_read": {
+    "talk": "pind_daan",
+    "after": {
+      "hi": "पितर क्या माँगते हैं",
+      "en": "What the Ancestors Ask For"
+    }
+  },
+  "related": [
+    "mahalay_shraddha_matters_truth_about_pitru",
+    "mrityu_versus_moksha",
+    "true_meaning_pitru_rin"
+  ],
+  "wordpress": {
+    "category": "pitru",
+    "hi": {
+      "slug": "striyon-ko-shraddha-ka-adhikar",
+      "focus_keyword": "स्त्रियों को श्राद्ध का अधिकार",
+      "secondary_keywords": [
+        "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
+        "क्या महिलाएं पिंडदान कर सकती हैं",
+        "बेटी श्राद्ध कर सकती है"
+      ],
+      "meta_description": "क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं।",
+      "tags": [
+        "श्राद्ध",
+        "पिंडदान",
+        "पितृ पक्ष",
+        "तर्पण",
+        "नारी शक्ति"
+      ]
+    },
+    "en": {
+      "slug": "women-can-perform-shraddha",
+      "focus_keyword": "women can perform shraddha",
+      "secondary_keywords": [
+        "can women perform shraddha",
+        "can women do pind daan",
+        "can daughters perform shraddha"
+      ],
+      "meta_description": "Can women do shraddha and pind daan? Acharya Upendra Ji explains why women can perform shraddha, why it is not required of all, and what the ancestors ask.",
+      "tags": [
+        "Shraddha",
+        "Pind Daan",
+        "Pitru Paksha",
+        "Tarpan",
+        "Women's Empowerment"
+      ]
+    }
+  }
+}

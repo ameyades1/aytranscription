@@ -1,0 +1,86 @@
+{
+  "title": {
+    "hi": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है",
+    "en": "Scriptures Without a Guru: Why Literal Reading Misleads"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "मंदिर के पत्थर के खंभे के पास फ़र्श पर बैठे तिलकधारी वृद्ध गुरु, लकड़ी की चौकी पर खुले ग्रंथ की पंक्ति पर उँगली रखकर बालक शिष्य को पढ़ाते हुए, पास में जलता पीतल का दीपक",
+      "en": "An elderly Guru with tilak, seated by a carved temple pillar, points to a line in an open scripture on a wooden stand as a young disciple reads beside a lit brass lamp"
+    },
+    "inline.jpg": {
+      "hi": "गाँव की कच्ची गली में खाली लकड़ी के बोर्ड को उलझन में सिर पकड़कर देखता पगड़ी पहने एक ग्रामीण",
+      "en": "A village man in a turban holds his head in confusion as he stares up at a blank wooden signboard on a dirt lane"
+    },
+    "iJKo4l8Wk1w.jpg": {
+      "hi": "वीडियो: \"Without a Guru, Scriptures Can Mislead You!\", सफ़ेद कुर्ते में ब्रह्मर्षि आचार्य उपेंद्र जी, पीछे खुला ग्रंथ और गुरु से पढ़ते शिष्यों का चित्र",
+      "en": "Video: \"Without a Guru, Scriptures Can Mislead You!\", Brahmarshi Acharya Upendra Ji in a white kurta before an open scripture and a painting of disciples learning from a Guru"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "अक्षर ग्रंथ में, अर्थ गुरु के पास",
+      "en": "The words are in the book; the meaning is with the Guru"
+    },
+    "inline.jpg": {
+      "hi": "अक्षर पढ़े, संकेत छूट गया",
+      "en": "He read the letters and missed the sign"
+    }
+  },
+  "links": [
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "अंधश्रद्धा ऐसे ही शुरू होती है",
+      "en": "This is exactly how blind faith begins"
+    },
+    {
+      "talk": "true_power_of_scriptures_decoded",
+      "hi": "शास्त्र ऐसे ही होते हैं",
+      "en": "This is how scriptures work"
+    },
+    {
+      "talk": "know_your_first_duty_in_life",
+      "hi": "हमारा प्रथम कर्तव्य है गुरु के पास जाकर शास्त्र समझना",
+      "en": "our first duty is to go to the Guru"
+    },
+    {
+      "talk": "three_gunas_karma",
+      "hi": "लड़के ने भी कर्म किया, पर भूल कहाँ हुई?",
+      "en": "The young man acted too, so where did he go wrong?"
+    },
+    {
+      "talk": "what_is_a_guru",
+      "hi": "देहधारी गुरु चाहिए ही चाहिए",
+      "en": "you need a Guru in human form"
+    }
+  ],
+  "also_read": {
+    "talk": "surrendering_to_guru",
+    "after": {
+      "hi": "या दत्तात्रेय बनो, या जीवित गुरु लो",
+      "en": "Be a Dattatreya, or Find a Living Guru"
+    }
+  },
+  "related": [
+    "what_is_a_guru",
+    "true_power_of_scriptures_decoded",
+    "being_presence_guru_changes_way_think"
+  ],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "shastra-samajhne-ke-liye-guru",
+      "focus_keyword": "शास्त्र समझने के लिए गुरु",
+      "secondary_keywords": ["गुरु के बिना शास्त्र", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
+      "meta_description": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",
+      "tags": ["अंधश्रद्धा", "सत्त्व गुण", "तमोगुण", "उपनिषद", "कर्तव्य"]
+    },
+    "en": {
+      "slug": "scriptures-without-a-guru",
+      "focus_keyword": "scriptures without a Guru",
+      "secondary_keywords": ["without a Guru", "is a Guru necessary", "why you need a living Guru", "tamasic and sattvic doer"],
+      "meta_description": "Can you read scriptures without a Guru? Acharya Upendra Ji's parable of a boy who took them literally shows why a living Guru is your first duty.",
+      "tags": ["Blind Faith", "Sattva", "Tamas", "Upanishads", "Duty"]
+    }
+  }
+}

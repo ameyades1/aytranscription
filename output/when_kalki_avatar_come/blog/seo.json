@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर",
+    "en": "When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सूर्यास्त की सुनहरी रोशनी में पहाड़ी घास पर खड़ा एक सफेद घोड़ा, पीछे धुंध से भरी घाटियां और पर्वत",
+      "en": "A white horse standing on a grassy hilltop in golden sunset light, misty valleys and mountains behind it"
+    },
+    "inline.jpg": {
+      "hi": "दीपों से जगमगाते नक्काशीदार मंदिर में गदा थामे, फूलमाला पहने बैठे हनुमानजी की मूर्ति",
+      "en": "A murti of Hanuman holding a mace and wearing flower garlands in a carved temple lit by oil lamps"
+    },
+    "v7qix63fi6o.jpg": {
+      "hi": "वीडियो: कल्कि अवतार कब और कैसे आएगा, ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Revealed When and How Kalki Avatar Will Come, with Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "प्रतीक्षा नहीं, पहचान",
+      "en": "Not waiting, but recognising"
+    },
+    "inline.jpg": {
+      "hi": "जिसने अपने स्वामी को पहचाना",
+      "en": "The one who recognised his Lord"
+    }
+  },
+  "links": [
+    {
+      "talk": "ideal_king_sanatan_rashtra_interview",
+      "hi": "जिस गुरु या नेता का आप अनुसरण कर रहे हो",
+      "en": "before you follow a Guru or a leader"
+    },
+    {
+      "talk": "know_your_god_transformative_path",
+      "hi": "शत-प्रतिशत निश्चय कि भगवान क्या है",
+      "en": "one hundred percent certain of what God is"
+    },
+    {
+      "talk": "being_presence_guru_changes_way_think",
+      "hi": "गुरु के समीप जाना",
+      "en": "you draw close to the Guru"
+    },
+    {
+      "talk": "gita_escape_cycle_of_rebirth",
+      "hi": "उसका मोक्ष निश्चित है",
+      "en": "is certain to be liberated"
+    },
+    {
+      "talk": "power_of_collectivity",
+      "hi": "एक पूरी सेना मिलकर यह कार्य करती है",
+      "en": "A whole army accomplishes the work together"
+    }
+  ],
+  "also_read": {
+    "talk": "what_is_a_guru",
+    "after": {
+      "hi": "कल्कि बाहर नहीं, भीतर जागेगा",
+      "en": "Kalki Will Awaken Within, Not Outside"
+    }
+  },
+  "related": [
+    "legends_keep_working",
+    "surrendering_to_guru",
+    "future_country_bharat_know"
+  ],
+  "wordpress": {
+    "category": "dharma",
+    "hi": {
+      "slug": "kalki-avatar-kab-aayega",
+      "focus_keyword": "कल्कि अवतार",
+      "secondary_keywords": [
+        "कल्कि अवतार कब आएगा",
+        "अवतार की परिभाषा",
+        "चार प्रकार की मुक्ति",
+        "kalki avatar kab aayega"
+      ],
+      "meta_description": "कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।",
+      "tags": [
+        "भगवद्गीता",
+        "अवतार",
+        "गुरु-शिष्य",
+        "अद्वैत वेदांत",
+        "विष्णु"
+      ]
+    },
+    "en": {
+      "slug": "when-will-kalki-avatar-come",
+      "focus_keyword": "Kalki avatar",
+      "secondary_keywords": [
+        "when will Kalki avatar come",
+        "what is an avatar in the Bhagavad Gita",
+        "four types of mukti",
+        "yada yada hi dharmasya meaning"
+      ],
+      "meta_description": "When will the Kalki avatar come? Acharya Upendra Ji explains Gita 4.7 to 4.9: why waiting is not the answer, and how the Kalki within you awakens.",
+      "tags": [
+        "Bhagavad Gita",
+        "Avatar",
+        "Guru and Disciple",
+        "Advaita Vedanta",
+        "Vishnu"
+      ]
+    }
+  }
+}

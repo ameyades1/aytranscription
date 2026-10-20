@@ -1,0 +1,59 @@
+{
+  "title": {
+    "hi": "गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य",
+    "en": "What Is a Guru? The Guru Gita and India as Vishwaguru"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "दीपों से जगमगाते प्राचीन मंदिर में भगवा वस्त्रधारी श्वेत दाढ़ी वाले गुरु, सामने बैठे श्वेत वस्त्रधारी शिष्य को जलता हुआ दीया देते हुए",
+      "en": "In an ancient lamp-lit temple, a white-bearded Guru in saffron robes hands a burning oil lamp to a disciple in white seated before him"
+    },
+    "inline.jpg": {
+      "hi": "सूर्योदय के समय झील किनारे घाट पर घुटनों के बल बैठा साधक, उगते सूर्य को अंजलि से जल अर्पित करता हुआ",
+      "en": "A seeker kneeling on a lakeside ghat at sunrise, pouring water from his cupped hands as an offering to the rising sun"
+    },
+    "nG93Sidv3N8.jpg": {
+      "hi": "आचार्य उपेंद्र जी के साथ 'श्री गुरु गीता (हिंदी टीका सहित)' पुस्तक का आवरण, जिस पर शिव और पार्वती का चित्र है, और शीर्षक 'The Most Important Book for Kaliyug'",
+      "en": "Acharya Upendra Ji beside the cover of the book 'Shri Guru Gita (with Hindi commentary)' showing Shiva and Parvati, with the title 'The Most Important Book for Kaliyug'"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "गुरु से शिष्य तक: ज्ञान की ज्योति",
+      "en": "From Guru to disciple: the flame of knowledge"
+    },
+    "inline.jpg": {
+      "hi": "मेरा नहीं, विश्व का कल्याण",
+      "en": "Not my welfare, but the world's"
+    }
+  },
+  "links": [
+    {"talk": "without_guru_scriptures_can_mislead", "hi": "गुरु के बिना ज्ञान नहीं", "en": "without the Guru there is no knowledge"},
+    {"talk": "guru_and_disciple_highest_form_love", "hi": "गुरु-शिष्य संबंध के पूर्ण रहस्य", "en": "the complete mystery of the bond between Guru and disciple"},
+    {"talk": "guru_bridging_science_spirituality", "hi": "वैज्ञानिक दृष्टिकोण से अध्ययन और चिंतन", "en": "from a scientific point of view"},
+    {"talk": "satyug_rules_kaliyug_different_path", "hi": "भारत विश्वगुरु बने", "en": "if India is to be a Vishwaguru"},
+    {"talk": "surrendering_to_guru", "hi": "अर्जुन के लिए तो कम से कम श्रीकृष्ण सामने थे", "en": "Arjuna at least had Shri Krishna standing before him"}
+  ],
+  "also_read": {
+    "talk": "when_disciple_become_truly_powerful",
+    "after": {"hi": "आज हम किसकी शरण में जाएं?", "en": "In Whom Should We Take Refuge Today?"}
+  },
+  "related": ["sacred_guru_jupiter_chanting", "real_meaning_guru", "know_kind_student_shishya"],
+  "wordpress": {
+    "category": "guru",
+    "hi": {
+      "slug": "guru-kya-hai",
+      "focus_keyword": "गुरु क्या है",
+      "secondary_keywords": ["गुरु गीता", "स्कंद पुराण गुरु गीता", "गुरु तत्व", "भारत विश्वगुरु"],
+      "meta_description": "गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है।",
+      "tags": ["गुरु गीता", "गुरु-शिष्य", "शरणागति", "भगवद्गीता", "विश्वगुरु"]
+    },
+    "en": {
+      "slug": "what-is-a-guru",
+      "focus_keyword": "what is a Guru",
+      "secondary_keywords": ["Guru Gita", "Guru Gita commentary", "Guru Gita Skanda Purana", "India as Vishwaguru"],
+      "meta_description": "What is a Guru: a person, or the doorway to truth? Acharya Ji's Guru Gita commentary explains the Guru, grace and refuge before India is Vishwaguru.",
+      "tags": ["Guru Gita", "Guru and Disciple", "Sharanagati", "Bhagavad Gita", "Vishwaguru"]
+    }
+  }
+}

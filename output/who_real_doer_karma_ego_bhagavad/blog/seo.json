@@ -1,0 +1,108 @@
+{
+  "title": {
+    "hi": "असली कर्ता कौन है? गीता के अनुसार कर्म और अहंकार",
+    "en": "Who Is the Real Doer? Bhagavad Gita 3.27 on Karma and Ego"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "सुनहरी शाम में हवा से झुकती गेहूं की बालियां, पीछे एक घना पेड़ और खेत के किनारे छोटी झोपड़ी",
+      "en": "Golden wheat bending in the wind at sunset, with a broad tree and a small brick hut at the edge of the field"
+    },
+    "inline.jpg": {
+      "hi": "बर्फीले पहाड़ों के नीचे बहती नदी, पत्थरों पर जलती आग, खुला आकाश और बादल: एक ही दृश्य में पांचों तत्त्व",
+      "en": "A river flowing below snowy mountains, a fire burning on the rocks, open sky and clouds: the five elements in one scene"
+    },
+    "jkk__RZ8f2Y.jpg": {
+      "hi": "वीडियो: क्या आपके कर्म सच में आपके हैं? भगवान विष्णु के सामने बांसुरी बजाता युवक, साथ में ब्रह्मर्षि आचार्य उपेंद्र जी",
+      "en": "Video: Are your actions really your own? A young man playing the flute before Lord Vishnu, with Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "बालियां झुकती हैं, चलाती हवा है",
+      "en": "The wheat bends, but the wind moves it"
+    },
+    "inline.jpg": {
+      "hi": "हम भी इन्हीं पांच से बने हैं",
+      "en": "We are made of these same five"
+    }
+  },
+  "links": [
+    {
+      "talk": "punya_vs_paap",
+      "hi": "पुण्य का बैलेंस",
+      "en": "balance of merit"
+    },
+    {
+      "talk": "mrityu_versus_moksha",
+      "hi": "अपने पूर्वजों को मुक्त करना",
+      "en": "free your ancestors"
+    },
+    {
+      "talk": "true_meaning_pitru_rin",
+      "hi": "पितृ ऋण",
+      "en": "pitru rina"
+    },
+    {
+      "talk": "worldly_maya_makes_forget_true_self",
+      "hi": "माया में कितना अटका है",
+      "en": "stuck in Maya"
+    },
+    {
+      "talk": "three_gunas_karma",
+      "hi": "प्रकृति के गुणों द्वारा होते हैं",
+      "en": "qualities carry out every action"
+    }
+  ],
+  "also_read": {
+    "talk": "unveiling_truth_karma_ultimate_goal_or",
+    "after": {
+      "hi": "मैं नहीं, मेरे माध्यम से",
+      "en": "Not by Me, but Through Me"
+    }
+  },
+  "related": [
+    "three_gunas_karma",
+    "unveiling_truth_karma_ultimate_goal_or",
+    "true_meaning_pitru_rin"
+  ],
+  "wordpress": {
+    "category": "karma",
+    "hi": {
+      "slug": "asli-karta-kaun-hai-gita-3-27",
+      "focus_keyword": "असली कर्ता कौन है",
+      "secondary_keywords": [
+        "मैं कर्ता हूं",
+        "गीता 3.27",
+        "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः",
+        "कर्तापन का अहंकार"
+      ],
+      "meta_description": "असली कर्ता कौन है? आचार्य उपेंद्र जी भगवद्गीता ३.२७ से समझाते हैं कि सारे कर्म प्रकृति के गुणों से होते हैं, और 'मैं ही करता हूं' मानना अहंकार है।",
+      "tags": [
+        "भगवद्गीता",
+        "अहंकार",
+        "त्रिगुण",
+        "माया",
+        "पितृ ऋण"
+      ]
+    },
+    "en": {
+      "slug": "who-is-the-real-doer-gita-3-27",
+      "focus_keyword": "who is the real doer",
+      "secondary_keywords": [
+        "Bhagavad Gita 3.27",
+        "I am the doer",
+        "ego of doership",
+        "prakriteh kriyamanani gunaih meaning"
+      ],
+      "meta_description": "Who is the real doer of your actions? Acharya Upendra Ji explains Bhagavad Gita 3.27: nature's qualities do every action, and 'I alone do it' is ego.",
+      "tags": [
+        "Bhagavad Gita",
+        "Ego",
+        "Three Gunas",
+        "Maya",
+        "Pitru Rin"
+      ]
+    }
+  }
+}

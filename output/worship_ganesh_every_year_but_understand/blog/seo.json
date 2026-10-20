@@ -1,0 +1,104 @@
+{
+  "title": {
+    "hi": "गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा?",
+    "en": "Worship Lord Ganesha Every Year? Do You Understand Him?"
+  },
+  "alt": {
+    "hero.jpg": {
+      "hi": "घर में फूलों से सजी गणपति मूर्ति के सामने पीतल के दीपों के बीच आरती करता एक परिवार, माता-पिता और दो बच्चे हाथ जोड़े बैठे हैं",
+      "en": "A family performing aarti before a flower-decked Ganesha idol at home, the parents and two children seated among brass lamps with folded hands"
+    },
+    "inline.jpg": {
+      "hi": "लकड़ी के स्टैंड पर खुला ग्रंथ, पीछे माला पहने गणेश जी की मूर्ति और थाली में जलता दीपक, खिड़की से आती सुनहरी धूप",
+      "en": "An open scripture on a wooden book stand, with a garlanded Ganesha murti behind it and a lit diya on a brass plate in warm window light"
+    },
+    "F_TD03rB_YE.jpg": {
+      "hi": "वीडियो: हर वर्ष गणपति पूजा, पर क्या आप उन्हें समझते हैं? गणेश सीरीज़ एपिसोड 2, आचार्य उपेंद्र जी",
+      "en": "Video: You Worship Ganesh Every Year, but Do You Understand Him? Ganesh Series Ep 2, Acharya Upendra Ji"
+    }
+  },
+  "caption": {
+    "hero.jpg": {
+      "hi": "आरती हर वर्ष, पर समझ कब?",
+      "en": "The aarti every year, but when the understanding?"
+    },
+    "inline.jpg": {
+      "hi": "श्रद्धा के साथ ज्ञान का दीप",
+      "en": "Faith, lit by knowledge"
+    }
+  },
+  "links": [
+    {
+      "talk": "ganpati_visarjan_tradition",
+      "hi": "फिर नाचते-गाते विसर्जन",
+      "en": "with singing and dancing to the chant"
+    },
+    {
+      "talk": "durva_red_flowers_lord_ganesh_worship",
+      "hi": "इतने मोदक, इतनी दूर्वा, इतने लाल फूल",
+      "en": "all the durva, all the red flowers"
+    },
+    {
+      "talk": "know_your_lord_before_worship",
+      "hi": "अर्थात ऐसा भक्त जिसकी भक्ति में समझ भी हो",
+      "en": "whose devotion is joined with understanding"
+    },
+    {
+      "talk": "truth_about_lord_ganesh",
+      "hi": "गणपति बुद्धि-विद्या के देवता",
+      "en": "Lord Ganesha is the lord of wisdom and learning"
+    },
+    {
+      "talk": "gita_warning_worship_without_understanding",
+      "hi": "बिना समझे की गई पूजा",
+      "en": "Worship without understanding"
+    }
+  ],
+  "also_read": {
+    "talk": "know_your_god_transformative_path",
+    "after": {
+      "hi": "श्रद्धा है, पर क्या ज्ञान भी है?",
+      "en": "You Have Faith, but Do You Also Have Knowledge?"
+    }
+  },
+  "related": [
+    "three_types_obstacle_removers_harta",
+    "ganesh_have_elephant_head_mouse",
+    "hidden_meaning_behind_10_days_ganesh"
+  ],
+  "wordpress": {
+    "category": "deities",
+    "hi": {
+      "slug": "ganpati-upasana-samajh-ke-saath",
+      "focus_keyword": "गणपति उपासना",
+      "secondary_keywords": [
+        "गणपति पूजा का अर्थ",
+        "श्रद्धा और ज्ञान",
+        "गणेश जी किसके देवता हैं"
+      ],
+      "meta_description": "हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
+      "tags": [
+        "गणेश सीरीज़",
+        "अंधश्रद्धा",
+        "भक्ति",
+        "भगवद्गीता"
+      ]
+    },
+    "en": {
+      "slug": "worship-lord-ganesha-with-understanding",
+      "focus_keyword": "worship Lord Ganesha",
+      "secondary_keywords": [
+        "Ganesh puja meaning",
+        "faith and knowledge",
+        "what does Lord Ganesha stand for"
+      ],
+      "meta_description": "You worship Lord Ganesha every year, so why so many obstacles? Acharya Upendra Ji explains why faith needs knowledge and how to become a jnani bhakta.",
+      "tags": [
+        "Ganesh Series",
+        "Blind Faith",
+        "Bhakti",
+        "Bhagavad Gita"
+      ]
+    }
+  }
+}
