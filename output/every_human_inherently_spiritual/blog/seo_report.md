@@ -27,25 +27,27 @@ The talk challenges the belief that life has two halves, one spiritual and one w
 | sansar mein rehkar adhyatm kaise kare | Hinglish | Practical | Medium |
 | Acharya Upendra Ji spiritual life | English | Navigational | Low |
 
+Keyword note: the focus keywords "आध्यात्मिक और सांसारिक जीवन" and "spiritual and worldly life" are the searched wording. The original bodies had them only in the H1 (and, in English, in the Key Takeaways), not in the first 100 words; the `_seo` texts now use each once in a short direct answer after the two opening paragraphs. The video-title query "every human is inherently spiritual" / "हर मनुष्य आध्यात्मिक है" is now the question H2 "Is Every Human Inherently Spiritual?" / "क्या हर मनुष्य आध्यात्मिक है?" (formerly "The Play of Love and Aversion" / "प्रेम और द्वेष का खेल").
+
 ## 3. Titles and meta
 
 **Hindi**
-1. आध्यात्मिक और सांसारिक जीवन: क्या सच में दो संसार हैं? (54 characters) **recommended**
+1. आध्यात्मिक और सांसारिक जीवन: क्या सच में दो संसार हैं? (54 characters) **recommended; in seo.json**
 2. हर मनुष्य आध्यात्मिक है: दो सौ प्रतिशत जीवन का रहस्य (52)
 3. संसार ही अध्यात्म है: विवाह, व्यापार और धर्म (44)
 
-Meta description (157 characters): "क्या आध्यात्मिक और सांसारिक जीवन अलग हैं? आचार्य उपेंद्र जी बताते हैं कि संसार एक ही है, विवाह और व्यापार भी पूजा हैं, और हर मनुष्य अनजाने में आध्यात्मिक है।"
+Meta description (157 characters; recommended; in seo.json): "क्या आध्यात्मिक और सांसारिक जीवन अलग हैं? आचार्य उपेंद्र जी बताते हैं कि संसार एक ही है, विवाह और व्यापार भी पूजा हैं, और हर मनुष्य अनजाने में आध्यात्मिक है।"
 
-Slug: `/hi/adhyatmik-aur-sansarik-jeevan`
+Slug (recommended; in seo.json): `/hi/adhyatmik-aur-sansarik-jeevan`
 
 **English**
-1. Spiritual and Worldly Life: Are They Really Separate? (53) **recommended**
+1. Spiritual and Worldly Life: Are They Really Separate? (53) **recommended; in seo.json**
 2. Every Human Is Inherently Spiritual: Live 200 Percent (53)
 3. Finding God in Marriage, Business and Daily Duty (48)
 
-Meta description (154 characters): "Are spiritual and worldly life really separate? Acharya Upendra Ji shows how marriage, business and duty become worship, and why every human is spiritual."
+Meta description (154 characters; recommended; in seo.json): "Are spiritual and worldly life really separate? Acharya Upendra Ji shows how marriage, business and duty become worship, and why every human is spiritual."
 
-Slug: `/en/spiritual-and-worldly-life`
+Slug (recommended; in seo.json): `/en/spiritual-and-worldly-life`
 
 ## 4. Outline changes
 
@@ -569,3 +571,77 @@ The exact contents of `output/every_human_inherently_spiritual/blog/seo.json`, u
   }
 }
 ```
+
+## 12. SEO checklist
+
+This report had no checklist when it was written; it was added with the SEO fix and reflects the `_seo` texts and the current seo.json.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (आध्यात्मिक और सांसारिक जीवन / spiritual and worldly life, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2's keyword note)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] One H2 phrased as the question readers search ("क्या हर मनुष्य आध्यात्मिक है?" / "Is Every Human Inherently Spiritual?")
+- [x] A short direct answer (40–60 words) early in the post
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" box after a fitting section
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the blog quotes no verse; the Sanskrit review's four Minor issues, the love/aversion attribution, the Bhaja Govindam paraphrase, "आध्यात्म"/"अध्यात्म" and "आत्म तत्व", remain for the editor; section 10)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
