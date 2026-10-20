@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 1.5.0
+ * Version: 1.6.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.5.0';
+    const VERSION = '1.6.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
@@ -121,7 +121,7 @@ class SMD_SureRank_Markdown_Importer {
         $missing = [];
         foreach ($refs as $ref) if (!$this->is_remote($ref) && !isset($files[$this->image_key($ref)])) $missing[] = $ref;
         if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Add them to the zip or select them in the Images field.');
-        $images = $this->import_images($refs, $files);
+        $images = $this->import_images($refs, $files, $slug, $this->image_alts($m, $body));
         if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
         $content = $this->markdown_to_html($body, $images);
         $status = 'pending'; // Pending Review: an editor publishes it; never published directly from an uploaded file.
@@ -200,6 +200,14 @@ class SMD_SureRank_Markdown_Importer {
         return array_values(array_unique($refs));
     }
 
+    /** Each image's alt text, keyed by image_key(): the hero's from featured_image_alt, the others from their image lines. */
+    private function image_alts($meta, $body) {
+        $alts = [];
+        if (!empty($meta['featured_image'])) $alts[$this->image_key($meta['featured_image'])] = $meta['featured_image_alt'] ?? '';
+        foreach (preg_split('/\R/', $body) as $line) if ($img = $this->parse_image_line(trim($line))) $alts += [$this->image_key($img['src']) => $img['alt']];
+        return $alts;
+    }
+
     /** A line that is only ![alt](src "caption"); src is a file name (or path) or an http(s) URL. */
     private function parse_image_line($trim) {
         if (!preg_match('/^!\[([^\]]*)\]\(\s*<?([^\s)<>]+)>?(?:\s+"([^"]*)")?\s*\)$/', $trim, $m)) return null;
@@ -229,6 +237,12 @@ class SMD_SureRank_Markdown_Importer {
             $out[$this->image_key($name)] = ['name' => $name, 'type' => $type['type'], 'tmp_name' => $f['tmp_name'][$i], 'error' => 0, 'size' => (int) $f['size'][$i]];
         }
         return $out;
+    }
+
+    /** A Media Library title: the alt text, or else the file name without its extension. */
+    private function image_title($alt, $name) {
+        $alt = sanitize_text_field($alt);
+        return $alt !== '' ? $alt : preg_replace('/\.[^.]+$/', '', wp_basename($name));
     }
 
     /**
@@ -279,8 +293,10 @@ class SMD_SureRank_Markdown_Importer {
      * Adds each referenced image to the Media Library and returns image_key() => [id, url].
      * An uploaded file identical to one imported before (same MD5) reuses that attachment,
      * so re-importing a post does not duplicate its images.
+     * New uploads are saved as <slug>-<file name> (hero.jpg becomes art-of-leaving-hero.jpg), so every
+     * post's images get descriptive, distinct names, and are titled with their alt text.
      */
-    private function import_images($refs, $files) {
+    private function import_images($refs, $files, $slug, $alts) {
         if (!$refs) return [];
         require_once ABSPATH . 'wp-admin/includes/file.php';
         require_once ABSPATH . 'wp-admin/includes/media.php';
@@ -289,7 +305,7 @@ class SMD_SureRank_Markdown_Importer {
         foreach ($refs as $ref) {
             $key = $this->image_key($ref);
             if ($this->is_remote($ref)) {
-                $id = media_sideload_image(esc_url_raw($ref), 0, null, 'id');
+                $id = media_sideload_image(esc_url_raw($ref), 0, $this->image_title($alts[$key] ?? '', $ref), 'id');
                 if (is_wp_error($id)) return new WP_Error('smd_image', "The image $ref could not be downloaded: " . $id->get_error_message());
             } else {
                 $file = $files[$key];
@@ -297,7 +313,8 @@ class SMD_SureRank_Markdown_Importer {
                 $found = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => self::META_IMAGE_HASH, 'meta_value' => $hash, 'fields' => 'ids', 'numberposts' => 1]);
                 if ($found) $id = (int) $found[0];
                 else {
-                    $id = media_handle_sideload($file, 0);
+                    if (strpos($file['name'], $slug . '-') !== 0) $file['name'] = $slug . '-' . $file['name'];
+                    $id = media_handle_sideload($file, 0, null, ['post_title' => $this->image_title($alts[$key] ?? '', $file['name'])]);
                     if (is_wp_error($id)) return new WP_Error('smd_image', 'The image ' . $file['name'] . ' could not be saved: ' . $id->get_error_message());
                     update_post_meta($id, self::META_IMAGE_HASH, $hash);
                 }

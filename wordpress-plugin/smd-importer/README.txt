@@ -1,4 +1,4 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.5.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.6.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -83,6 +83,7 @@ IMAGES
 - Inline: put a line containing only ![alt text](inline.jpg "Optional caption") where the image belongs, usually at the end of the section it illustrates. It becomes an image block (figure with caption).
 - Images are matched by file name, so assets/inline.jpg in the Markdown finds an uploaded inline.jpg. An http(s) URL is downloaded into the Media Library instead.
 - Every image the file names must be uploaded, or the import stops before creating anything and lists the missing files.
+- Each new image is saved under the post's slug: hero.jpg in a post with slug art-of-leaving becomes art-of-leaving-hero.jpg, so every blog can use the same hero.jpg and inline.jpg names and the Media Library still gets descriptive, distinct file names. Its Media Library title is its alt text.
 - JPEG, PNG, WebP or GIF, at most 10 MB each. Re-importing a post with the same image files reuses the existing Media Library items instead of duplicating them.
 
 ALSO READ AND VIDEO
@@ -99,7 +100,7 @@ ZIP UPLOAD
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.5.0
+LIMITATIONS IN VERSION 1.6.0
 - Does not write SureRank schema settings.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
 - Always back up the site and test on staging before installing on a production website.
