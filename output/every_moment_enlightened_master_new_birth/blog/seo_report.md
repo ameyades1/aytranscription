@@ -22,6 +22,8 @@ A sadhika's first-hand account of six months in the Guru's presence: how the Gur
 | selfless service in spiritual life | English | Informational | Medium |
 | Every Moment With an Enlightened Master Is a New Birth | English | Navigational (video title) | Low |
 
+Keyword note: the original blog texts never use the exact wording "गुरु सेवा का महत्व" / "importance of Guru seva" (they say only "सेवा" / "seva"). The SEO fix adds it once, in a short direct answer right after "इस परिवर्तन के लिए गुरु एक साधन देते हैं: **सेवा**" / "the Guru gives you one tool: **seva**", within the first 100 words of the `_seo` texts, and renames the last H2 to the searched question "गुरु पादुका पूजन का सच्चा अर्थ क्या है?" / "What Does Guru Paduka Worship Really Mean?". The meta descriptions now contain the focus keywords too.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -29,18 +31,18 @@ A sadhika's first-hand account of six months in the Guru's presence: how the Gur
 2. गुरु पादुका पूजन का सच्चा अर्थ: सेवा से नया जन्म
 3. सेवा ने कैसे बदला जीवन: गुरु के सान्निध्य में छह महीने
 
-Meta description: गुरु सेवा क्यों देते हैं? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।
+Meta description (recommended, in seo.json): गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।
 
-Slug: /hi/guru-seva-ka-mahatva
+Slug (recommended, in seo.json): /hi/guru-seva-ka-mahatva
 
 **English**
 1. Importance of Guru Seva: Every Moment a New Birth (recommended, 49 characters)
 2. The True Meaning of Guru Paduka Worship
 3. How Seva Changed My Life in the Guru's Presence
 
-Meta description (147 characters): Why does the Guru give seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.
+Meta description (recommended, in seo.json, 155 characters): What is the importance of Guru seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.
 
-Slug: /en/importance-of-guru-seva
+Slug (recommended, in seo.json): /en/importance-of-guru-seva
 
 The H1s ("गुरु के सान्निध्य में हर क्षण नया जन्म" / "In the Guru's Presence, Every Moment Is a New Birth") stay as they are; they match the video title.
 
@@ -108,7 +110,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
       "@id": "{{WP_URL_HI}}#article",
       "headline": "गुरु के सान्निध्य में हर क्षण नया जन्म",
       "alternativeHeadline": "गुरु सेवा का महत्व: सान्निध्य में हर क्षण नया जन्म",
-      "description": "गुरु सेवा क्यों देते हैं? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।",
+      "description": "गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।",
       "inLanguage": "hi",
       "keywords": ["गुरु सेवा का महत्व", "गुरु पादुका पूजन का अर्थ", "सेवा से आत्म परिवर्तन", "तमोगुण से सत्त्वगुण कैसे बढ़ें"],
       "about": [
@@ -176,7 +178,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
       "@id": "{{WP_URL_EN}}#article",
       "headline": "In the Guru's Presence, Every Moment Is a New Birth",
       "alternativeHeadline": "Importance of Guru Seva: Every Moment a New Birth",
-      "description": "Why does the Guru give seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.",
+      "description": "What is the importance of Guru seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.",
       "inLanguage": "en",
       "keywords": ["importance of Guru seva", "meaning of Guru Paduka puja", "seva and spiritual transformation", "how to go from tamas to sattva"],
       "about": [
@@ -233,7 +235,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist. See flag 4 before choosing the author.
+**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist (`{{WP_URL_HI}}`, `{{WP_URL_EN}}`: suggested slugs `/hi/guru-seva-ka-mahatva/` and `/en/importance-of-guru-seva/`). See flag 4 before choosing the author.
 
 ## 9. Images
 
@@ -339,7 +341,7 @@ The exact values written to output/every_moment_enlightened_master_new_birth/blo
         "सेवा से आत्म परिवर्तन",
         "तमोगुण से सत्त्वगुण कैसे बढ़ें"
       ],
-      "meta_description": "गुरु सेवा क्यों देते हैं? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।",
+      "meta_description": "गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।",
       "tags": [
         "सेवा",
         "गुरु पादुका",
@@ -356,7 +358,7 @@ The exact values written to output/every_moment_enlightened_master_new_birth/blo
         "seva and spiritual transformation",
         "how to go from tamas to sattva"
       ],
-      "meta_description": "Why does the Guru give seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.",
+      "meta_description": "What is the importance of Guru seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth.",
       "tags": [
         "Seva",
         "Guru Paduka",
@@ -368,3 +370,77 @@ The exact values written to output/every_moment_enlightened_master_new_birth/blo
   }
 }
 ```
+
+## 12. SEO checklist
+
+This report had no checklist when it was written; it was added with the SEO fix and reflects the `_seo` texts and the current seo.json.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (गुरु सेवा का महत्व / importance of Guru seva, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2's keyword note)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] One H2 phrased as the question readers search ("गुरु पादुका पूजन का सच्चा अर्थ क्या है?" / "What Does Guru Paduka Worship Really Mean?")
+- [x] A short direct answer (40–60 words) early in the post
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Sanskrit review's Major issue, Gita 14.10 framed as a tamas → rajas → sattva ladder, and the uncited Guru Gita line remain in the body for the editor to fix in the original blog; section 10, flags 1–3. The SEO fields and the new direct answer present the sequence as the seeker's experience, not as what the verse says)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
