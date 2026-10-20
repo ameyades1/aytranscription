@@ -30,6 +30,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | why do great souls leave home | English | Informational | Low |
 | Acharya Upendra Ji company you keep | English | Navigational | Low |
 
+Keyword note: neither primary keyword appeared in the original body (the Hindi never said "संगति का प्रभाव"; the English never said "company you keep and spiritual growth"). The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use each once, in the opening direct answer within the first 100 words, and seo.json targets them.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -42,13 +44,13 @@ Meta description (155 characters): साधना से मिली शां
 Slug: /hi/sangati-ka-prabhav
 
 **English**
-1. The Company You Keep: How It Shapes Your Spiritual Growth (recommended, 57 characters)
+1. The Company You Keep and Spiritual Growth: Staying Sattvic (recommended, 58 characters)
 2. How to Stay Sattvic: Why Your Company Decides Everything
 3. When You Outgrow Your Family: Company, Sattva and the Guru
 
-Meta description (149 characters): Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep shapes your thoughts and sattva, and how to meet old ties.
+Meta description (149 characters): Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep and spiritual growth are linked, and how to meet old ties.
 
-Slug: /en/company-you-keep-spiritual-growth
+Slug: /en/company-you-keep-and-spiritual-growth
 
 ## 4. Outline changes
 
@@ -111,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sangati-ka-prabhav/`, `/en/company-you-keep-spiritual-growth/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sangati-ka-prabhav/`, `/en/company-you-keep-and-spiritual-growth/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -220,8 +222,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Company You Keep Shapes Your Destiny",
-      "alternativeHeadline": "The Company You Keep: How It Shapes Your Spiritual Growth",
-      "description": "Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep shapes your thoughts and sattva, and how to meet old ties.",
+      "alternativeHeadline": "The Company You Keep and Spiritual Growth: Staying Sattvic",
+      "description": "Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep and spiritual growth are linked, and how to meet old ties.",
       "inLanguage": "en",
       "keywords": ["company you keep and spiritual growth", "how to stay sattvic", "outgrowing family spiritually", "importance of satsang", "how to increase sattva guna"],
       "about": [
@@ -336,7 +338,7 @@ The exact seo.json written for the page generator and WordPress.
 {
   "title": {
     "hi": "संगति का प्रभाव: आपकी संगति ही आपका भविष्य गढ़ती है",
-    "en": "The Company You Keep: How It Shapes Your Spiritual Growth"
+    "en": "The Company You Keep and Spiritual Growth: Staying Sattvic"
   },
   "alt": {
     "hero.jpg": {
@@ -417,7 +419,7 @@ The exact seo.json written for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "company-you-keep-spiritual-growth",
+      "slug": "company-you-keep-and-spiritual-growth",
       "focus_keyword": "company you keep and spiritual growth",
       "secondary_keywords": [
         "how to stay sattvic",
@@ -425,7 +427,7 @@ The exact seo.json written for the page generator and WordPress.
         "importance of satsang",
         "how to increase sattva guna"
       ],
-      "meta_description": "Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep shapes your thoughts and sattva, and how to meet old ties.",
+      "meta_description": "Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep and spiritual growth are linked, and how to meet old ties.",
       "tags": [
         "Sattva",
         "Three Gunas",
@@ -437,3 +439,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
