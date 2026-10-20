@@ -11,14 +11,14 @@ A long, wide-ranging Navratri talk. Its spine: the forms of the gods are symbols
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| महालक्ष्मी और महासरस्वती (primary) | Hindi | Informational / seasonal | High |
+| महाकाली महालक्ष्मी महासरस्वती (primary) | Hindi | Informational / seasonal | High |
 | महाकाली महालक्ष्मी महासरस्वती का अर्थ | Hindi | Informational / seasonal | High |
 | तीन देवियाँ तीन गुण | Hindi | Informational | High |
 | सत्त्व रजस तमस और देवी | Hindi | Informational | Medium |
 | गुण कर्म से वर्ण व्यवस्था | Hindi | Informational | Medium |
 | नारियल क्यों फोड़ते हैं | Hindi | Informational / ritual | Medium |
 | मूर्ति पूजा कब तक | Hindi | Informational | Low |
-| Mahalakshmi and Mahasaraswati (primary) | English | Informational / seasonal | High |
+| Mahakali Mahalakshmi Mahasaraswati (primary) | English | Informational / seasonal | High |
 | Mahakali Mahalakshmi Mahasaraswati meaning | English | Informational / seasonal | High |
 | Kali Lakshmi Saraswati three gunas | English | Informational / seasonal | High |
 | three goddesses of Durga Saptashati | English | Informational | Medium |
@@ -30,29 +30,29 @@ A long, wide-ranging Navratri talk. Its spine: the forms of the gods are symbols
 | nariyal kyon fodte hain | Hinglish | Informational / ritual | Low |
 | Acharya Upendra Ji Navratri | English | Navigational | Low |
 
-**Keyword vs body wording.** People search the trio as "महाकाली महालक्ष्मी महासरस्वती" / "Mahakali Mahalakshmi Mahasaraswati", but the body only writes it with a comma and "और"/"and" ("महाकाली, महालक्ष्मी और महासरस्वती" / "Mahakali, Mahalakshmi and Mahasaraswati"), which SureRank does not match to the searched wording; "Kali Lakshmi Saraswati" appears only in the H1, which does not count. The focus keyword is therefore the body's own wording, "महालक्ष्मी और महासरस्वती" / "Mahalakshmi and Mahasaraswati" (in the body, title, meta and English slug), and the searched forms are secondary keywords. If the editor wants the full searched form as the focus keyword, the body could add one sentence naming "महाकाली महालक्ष्मी महासरस्वती" / "Mahakali Mahalakshmi Mahasaraswati" without commas, ideally in the first 100 words (section 4). Neither focus keyword is in the first 100 words today.
+**Keyword vs body wording.** People search the trio as "महाकाली महालक्ष्मी महासरस्वती" / "Mahakali Mahalakshmi Mahasaraswati", but the original body only wrote it with a comma and "और"/"and" ("महाकाली, महालक्ष्मी और महासरस्वती" / "Mahakali, Mahalakshmi and Mahasaraswati"), which SureRank does not match to the searched wording; "Kali Lakshmi Saraswati" appears only in the H1, which does not count. The SEO fix (`seo_fix.md`) added a short direct-answer paragraph after the H1 that opens with the searched wording ("महाकाली महालक्ष्मी महासरस्वती कौन हैं?" / "Who are Mahakali Mahalakshmi Mahasaraswati?"), so the `_seo` texts now use it in the first 100 words, and it is the focus keyword in both languages. The earlier focus keyword, "महालक्ष्मी और महासरस्वती" / "Mahalakshmi and Mahasaraswati", was only the body's wording, not a searched query, and is not kept as a secondary keyword.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. महाकाली, महालक्ष्मी और महासरस्वती: तीन गुणों का अर्थ (52 characters) **recommended**
+1. महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ (48 characters) **recommended**
 2. काली, लक्ष्मी, सरस्वती: भीतर की तीन शक्तियाँ (44)
 3. तीन देवियाँ, तीन गुण: दुर्गा सप्तशती का रहस्य (45)
 
-Meta description (148 characters): "महाकाली, महालक्ष्मी और महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।"
+Meta description (144 characters) **recommended**: "महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।"
 
-Slug: `/hi/mahakali-mahalakshmi-mahasaraswati-arth`
+Slug **recommended**: `/hi/mahakali-mahalakshmi-mahasaraswati-arth`
 
 **English**
-1. Mahakali, Mahalakshmi and Mahasaraswati: The Three Gunas (56) **recommended**
+1. Mahakali Mahalakshmi Mahasaraswati: The Three Gunas (51) **recommended**
 2. Kali, Lakshmi, Saraswati: The Three Gunas Within You (52)
 3. Three Goddesses, Three Gunas: Durga Saptashati Decoded (54)
 
-Meta description (150 characters): "Who are Mahakali, Mahalakshmi and Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete."
+Meta description (145 characters) **recommended**: "Who are Mahakali Mahalakshmi Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete."
 
-Slug: `/en/mahakali-mahalakshmi-and-mahasaraswati-three-gunas`
+Slug **recommended**: `/en/mahakali-mahalakshmi-mahasaraswati-three-gunas`
 
-The H1 ("काली, लक्ष्मी, सरस्वती: भीतर की तीन शक्तियों को जगाइए" / "Kali, Lakshmi, Saraswati: Awaken the Three Powers Within") stays as it is; the title tags lead with the searched names and the guna angle, and contain the focus keyword word for word. Both meta descriptions contain it too ("महाकाली, महालक्ष्मी और महासरस्वती कौन हैं?" / "Who are Mahakali, Mahalakshmi and Mahasaraswati?").
+The H1 ("काली, लक्ष्मी, सरस्वती: भीतर की तीन शक्तियों को जगाइए" / "Kali, Lakshmi, Saraswati: Awaken the Three Powers Within") stays as it is; the title tags lead with the searched names and the guna angle, and contain the focus keyword word for word. Both meta descriptions contain it too ("महाकाली महालक्ष्मी महासरस्वती कौन हैं?" / "Who are Mahakali Mahalakshmi Mahasaraswati?"), matching the opening question of the `_seo` texts.
 
 ## 4. Outline changes
 
@@ -115,7 +115,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahakali-mahalakshmi-mahasaraswati-arth/`, `/en/mahakali-mahalakshmi-and-mahasaraswati-three-gunas/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahakali-mahalakshmi-mahasaraswati-arth/`, `/en/mahakali-mahalakshmi-mahasaraswati-three-gunas/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -132,11 +132,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "काली, लक्ष्मी, सरस्वती: भीतर की तीन शक्तियों को जगाइए",
-      "alternativeHeadline": "महाकाली, महालक्ष्मी और महासरस्वती: तीन गुणों का अर्थ",
-      "description": "महाकाली, महालक्ष्मी और महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।",
+      "alternativeHeadline": "महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ",
+      "description": "महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।",
       "inLanguage": "hi",
       "keywords": [
-        "महालक्ष्मी और महासरस्वती",
+        "महाकाली महालक्ष्मी महासरस्वती",
         "महाकाली महालक्ष्मी महासरस्वती का अर्थ",
         "तीन देवियाँ तीन गुण",
         "सत्त्व रजस तमस और देवी",
@@ -283,11 +283,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Kali, Lakshmi, Saraswati: Awaken the Three Powers Within",
-      "alternativeHeadline": "Mahakali, Mahalakshmi and Mahasaraswati: The Three Gunas",
-      "description": "Who are Mahakali, Mahalakshmi and Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete.",
+      "alternativeHeadline": "Mahakali Mahalakshmi Mahasaraswati: The Three Gunas",
+      "description": "Who are Mahakali Mahalakshmi Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete.",
       "inLanguage": "en",
       "keywords": [
-        "Mahalakshmi and Mahasaraswati",
+        "Mahakali Mahalakshmi Mahasaraswati",
         "Mahakali Mahalakshmi Mahasaraswati meaning",
         "Kali Lakshmi Saraswati three gunas",
         "three goddesses of Durga Saptashati",
@@ -483,8 +483,8 @@ The exact values written to output/awaken_divine_shakti_kali_lakshmi_saraswati/b
 ```json
 {
   "title": {
-    "hi": "महाकाली, महालक्ष्मी और महासरस्वती: तीन गुणों का अर्थ",
-    "en": "Mahakali, Mahalakshmi and Mahasaraswati: The Three Gunas"
+    "hi": "महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ",
+    "en": "Mahakali Mahalakshmi Mahasaraswati: The Three Gunas"
   },
   "alt": {
     "hero.jpg": {
@@ -553,14 +553,14 @@ The exact values written to output/awaken_divine_shakti_kali_lakshmi_saraswati/b
     "category": "deities",
     "hi": {
       "slug": "mahakali-mahalakshmi-mahasaraswati-arth",
-      "focus_keyword": "महालक्ष्मी और महासरस्वती",
+      "focus_keyword": "महाकाली महालक्ष्मी महासरस्वती",
       "secondary_keywords": [
         "महाकाली महालक्ष्मी महासरस्वती का अर्थ",
         "तीन देवियाँ तीन गुण",
         "सत्त्व रजस तमस और देवी",
         "नारियल क्यों फोड़ते हैं"
       ],
-      "meta_description": "महाकाली, महालक्ष्मी और महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।",
+      "meta_description": "महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।",
       "tags": [
         "त्रिगुण",
         "दुर्गा सप्तशती",
@@ -571,15 +571,15 @@ The exact values written to output/awaken_divine_shakti_kali_lakshmi_saraswati/b
       ]
     },
     "en": {
-      "slug": "mahakali-mahalakshmi-and-mahasaraswati-three-gunas",
-      "focus_keyword": "Mahalakshmi and Mahasaraswati",
+      "slug": "mahakali-mahalakshmi-mahasaraswati-three-gunas",
+      "focus_keyword": "Mahakali Mahalakshmi Mahasaraswati",
       "secondary_keywords": [
         "Mahakali Mahalakshmi Mahasaraswati meaning",
         "Kali Lakshmi Saraswati three gunas",
         "three goddesses of Durga Saptashati",
         "why do we break a coconut"
       ],
-      "meta_description": "Who are Mahakali, Mahalakshmi and Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete.",
+      "meta_description": "Who are Mahakali Mahalakshmi Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete.",
       "tags": [
         "Three Gunas",
         "Durga Saptashati",
@@ -609,7 +609,7 @@ The exact values written to output/awaken_divine_shakti_kali_lakshmi_saraswati/b
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): the trio is first named in the "तीन देवियाँ, तीन गुण" / "Three Goddesses, Three Gunas" section
+- [x] Within the first 100 words (preferred): the `_seo` texts open with "महाकाली महालक्ष्मी महासरस्वती कौन हैं?" / "Who are Mahakali Mahalakshmi Mahasaraswati?"
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
