@@ -24,25 +24,27 @@ The talk asks whether our past actions alone make our destiny, and answers throu
 | does charity with ego give good karma | English | Emotional / informational | Low |
 | Acharya Upendra Ji destiny | English | Navigational | Low |
 
+Keyword note: "भाग्य कैसे बनता है" was the searched wording but did not appear in the Hindi body (the body asked "क्या मेरे कर्म ही मेरा भाग्य हैं?"); "what decides your destiny" appeared in the English body only late, in the surgeon paragraph. The SEO copies (`decides_destiny_blog_seo.txt`, `decides_destiny_blog_seo_en.txt`) now use each focus keyword in a short direct answer within the first 100 words, so both stay the focus keywords.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार (recommended, 48 characters)
+1. भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार (recommended, in seo.json, 48 characters)
 2. क्या कर्म ही भाग्य है? गीता १८.१४ में दैव का अर्थ
 3. आपका भाग्य कौन लिखता है? कर्म नहीं, संस्कार
 
-Meta description (155 characters): भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से।
+Meta description (recommended, in seo.json, 155 characters): भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से।
 
-Slug: `/hi/bhagya-kaise-banta-hai`
+Slug (recommended, in seo.json): `/hi/bhagya-kaise-banta-hai`
 
 **English**
-1. What Decides Your Destiny? Karma vs Samskaras (recommended, 45 characters)
+1. What Decides Your Destiny? Karma vs Samskaras (recommended, in seo.json, 45 characters)
 2. Karma or Samskaras? The Gita's Five Causes of Action
 3. Who Writes Your Destiny? Gita 18.14 and Daiva Explained
 
-Meta description (152 characters): What decides your destiny: past karma or the samskaras it leaves? Acharya Upendra Ji explains the Gita's five causes of action and the meaning of daiva.
+Meta description (recommended, in seo.json, 152 characters): What decides your destiny: past karma or the samskaras it leaves? Acharya Upendra Ji explains the Gita's five causes of action and the meaning of daiva.
 
-Slug: `/en/what-decides-your-destiny`
+Slug (recommended, in seo.json): `/en/what-decides-your-destiny`
 
 The title tags speak of samskaras as an explanation, not as a claim that the Gita "rejects karma", in line with authenticity flag 1.
 
@@ -56,6 +58,7 @@ These are suggestions for the editor; the blog text has not been changed.
 - "संस्कार: आप कितने परमात्मामय हुए?" / "Samskaras: How Much of You Has Become Divine?": good; optionally add "संस्कार का अर्थ" / "meaning" to the heading to match the high-priority query.
 - The two short Kundalini sections could be merged into one H2 ("कुंडलिनी, संस्कार और भाग्य" / "Kundalini, Samskaras and Destiny") with the last one as its closing paragraph; at present the final H2 is two sentences long.
 - Place the direct-answer paragraph (section 5) right after the introduction, before the first H2.
+- Applied in the SEO copies (`_seo` texts): the direct answer (both languages) and the two question headings for the five causes and daiva; seo.json's `also_read.after` now uses the new five-causes heading. The other suggestions are left to the editor.
 
 ## 5. Direct answer paragraph
 
@@ -391,8 +394,8 @@ The exact contents of `output/decides_destiny/blog/seo.json`, used by the page g
   "also_read": {
     "talk": "two_causes_create_your_life",
     "after": {
-      "hi": "गीता के पाँच हेतु: भाग्य के पाँच स्तंभ",
-      "en": "The Gita's Five Causes: The Pillars of Destiny"
+      "hi": "गीता के अनुसार कर्म की सिद्धि के पाँच हेतु कौन-से हैं?",
+      "en": "What Are the Gita's Five Causes of Action?"
     }
   },
   "related": [
@@ -439,3 +442,73 @@ The exact contents of `output/decides_destiny/blog/seo.json`, used by the page g
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
