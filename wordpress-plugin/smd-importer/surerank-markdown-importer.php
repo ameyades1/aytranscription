@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 1.6.0
+ * Version: 1.7.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.6.0';
+    const VERSION = '1.7.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
     const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
@@ -390,11 +390,11 @@ class SMD_SureRank_Markdown_Importer {
     }
 
     /**
-     * A line "Also read: [Title](url)" (the label may be bold) as a box. If a post here has the
+     * A line "Also read: [Title](url)" (the label may be bold) as a box; url may be site-relative (/slug/). If a post here has the
      * URL's last path segment as its slug, the box shows that post's featured image.
      */
     private function also_read($trim) {
-        if (!preg_match('/^(?:\*\*|__)?also read\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)\s*$/i', $trim, $m)) return '';
+        if (!preg_match('/^(?:\*\*|__)?also read\s*:?\s*(?:\*\*|__)?\s*:?\s*\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)\)\s*$/i', $trim, $m)) return '';
         $segments = array_values(array_filter(explode('/', (string) wp_parse_url($m[2], PHP_URL_PATH)), function($seg) { return $seg !== '' && !preg_match('/^index\.html?$/i', $seg); }));
         $post = $segments ? get_page_by_path(sanitize_title(end($segments)), OBJECT, 'post') : null;
         $thumb = $post ? get_the_post_thumbnail($post, 'medium', ['loading' => 'lazy', 'alt' => '']) : '';
@@ -430,7 +430,7 @@ class SMD_SureRank_Markdown_Importer {
         $text = esc_html($text);
         // Links are converted using a placeholder so URL/text are escaped separately.
         $links = [];
-        $text = preg_replace_callback('/\[([^\]]+)\]\((https?:\/\/[^\s)]+)(?:\s+"([^"]*)")?\)/', function($m) use (&$links) {
+        $text = preg_replace_callback('/\[([^\]]+)\]\((https?:\/\/[^\s)]+|\/[^\s)]*)(?:\s+"([^"]*)")?\)/', function($m) use (&$links) {
             $key = 'SMDLINK' . count($links) . 'TOKEN';
             $links[$key] = '<a href="' . esc_url($m[2]) . '"' . (isset($m[3]) ? ' title="' . esc_attr($m[3]) . '"' : '') . '>' . $m[1] . '</a>';
             return $key;
