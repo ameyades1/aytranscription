@@ -27,6 +27,8 @@ A short talk (a three-minute clip) that turns the equality debate around: women 
 
 Avoid: "women superior to men", "are women more powerful than men" as targets. The talk does say "a thousand times more powerful", but those queries draw a debate audience and invite a gender-war reading (flag 6).
 
+Keyword note: neither focus keyword appeared word for word in the original blog body (the Hindi heading says "स्त्री को 'शक्ति' क्यों कहा गया?", the English one "Why Does Our Tradition Call Woman 'Shakti'?"). The SEO fix (`seo_fix.md`) adds a 60-word direct answer under the H1 of the `_seo` texts that opens with the searched question, so "स्त्री को शक्ति क्यों कहा जाता है" and "why is woman called Shakti" are now in the body and in the first 100 words. The English slug now matches the keyword word order (`why-is-woman-called-shakti`), and the English meta description now contains it.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -34,18 +36,18 @@ Avoid: "women superior to men", "are women more powerful than men" as targets. T
 2. हर स्त्री के भीतर छिपी दिव्य शक्ति: अबला नहीं, शक्ति (51)
 3. नारी शक्ति का अर्थ: शक्ति के साथ आता है उत्तरदायित्व (52)
 
-Meta description (159 characters): "स्त्री को शक्ति क्यों कहा जाता है? आचार्य उपेंद्र जी बताते हैं कि यह शक्ति शरीर के बल से परे है, और माँ की हज़ार गुना शक्ति के साथ बड़ा उत्तरदायित्व भी आता है।"
+Meta description (159 characters) **recommended**: "स्त्री को शक्ति क्यों कहा जाता है? आचार्य उपेंद्र जी बताते हैं कि यह शक्ति शरीर के बल से परे है, और माँ की हज़ार गुना शक्ति के साथ बड़ा उत्तरदायित्व भी आता है।"
 
-Slug: `/hi/stri-ko-shakti-kyon-kaha-jata-hai`
+Slug **recommended**: `/hi/stri-ko-shakti-kyon-kaha-jata-hai`
 
 **English**
 1. Why Is Woman Called Shakti? A Mother's Thousandfold Power (57) **recommended**
 2. The Divine Power Every Woman Holds: Not Abala, but Shakti (57)
 3. Shakti Within Every Woman, and the Responsibility It Brings (59)
 
-Meta description (151 characters): "Why does our tradition call woman Shakti? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility."
+Meta description (154 characters) **recommended**: "Why is woman called Shakti in our tradition? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility."
 
-Slug: `/en/why-woman-is-called-shakti`
+Slug **recommended**: `/en/why-is-woman-called-shakti`
 
 The H1 ("हर स्त्री के भीतर छिपी दिव्य शक्ति" / "The Divine Power Hidden Within Every Woman") stays as it is; it matches the video title, and the title tag carries the question query.
 
@@ -53,7 +55,7 @@ The H1 ("हर स्त्री के भीतर छिपी दिव्
 
 Suggestions only; no teaching is rewritten.
 - The headings are already question-shaped ("स्त्री को 'शक्ति' क्यों कहा गया?", "विवाह न किया हो, तब भी?"). Keep them.
-- The primary keyword's key word "शक्ति" / "Shakti" first appears in the second section, past the first 100 words of the Hindi. Consider placing the direct answer (section 5) as a one-paragraph intro under the H1 so that "स्त्री को शक्ति" / "woman ... Shakti" appear early.
+- The primary keyword's key word "शक्ति" / "Shakti" first appears in the second section, past the first 100 words of the Hindi. Consider placing the direct answer (section 5) as a one-paragraph intro under the H1 so that "स्त्री को शक्ति" / "woman ... Shakti" appear early. Done in the `_seo` texts (see `seo_fix.md`).
 - "माँ की हज़ार गुना शक्ति" / "A Mother's Thousandfold Strength": an optional H3 "गांधारी से सीख" / "The Lesson of Gandhari" would make the example scannable and catch the Gandhari queries. Apply review issue 1 first (flag 1).
 - The Hindi has no context line for Gandhari while the English does (review issue 2). Either add it to the Hindi or keep it as an English translator's note; it helps readers who don't know the Mahabharata in both languages.
 - "मुख्य बातें" / "Key Takeaways" is snippet-friendly; apply review issues 1 and 4 to two of its lines before publishing.
@@ -109,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/stri-ko-shakti-kyon-kaha-jata-hai/`, `/en/why-woman-is-called-shakti/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/stri-ko-shakti-kyon-kaha-jata-hai/`, `/en/why-is-woman-called-shakti/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -278,7 +280,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Divine Power Hidden Within Every Woman",
       "alternativeHeadline": "Why Is Woman Called Shakti? A Mother's Thousandfold Power",
-      "description": "Why does our tradition call woman Shakti? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility.",
+      "description": "Why is woman called Shakti in our tradition? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility.",
       "inLanguage": "en",
       "keywords": [
         "why is woman called Shakti",
@@ -553,7 +555,7 @@ The values written to `output/divine_power_every_woman_holds/blog/seo.json` for 
       ]
     },
     "en": {
-      "slug": "why-woman-is-called-shakti",
+      "slug": "why-is-woman-called-shakti",
       "focus_keyword": "why is woman called Shakti",
       "secondary_keywords": [
         "divine feminine power in Hinduism",
@@ -561,7 +563,7 @@ The values written to `output/divine_power_every_woman_holds/blog/seo.json` for 
         "mother's role in a child's upbringing",
         "Gandhari and Duryodhana lesson"
       ],
-      "meta_description": "Why does our tradition call woman Shakti? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility.",
+      "meta_description": "Why is woman called Shakti in our tradition? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility.",
       "tags": [
         "Women's Empowerment",
         "Shakti",
@@ -573,3 +575,73 @@ The values written to `output/divine_power_every_woman_holds/blog/seo.json` for 
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts' direct answer uses it; the original body did not)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
