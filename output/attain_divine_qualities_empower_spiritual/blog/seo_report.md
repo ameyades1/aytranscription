@@ -11,15 +11,15 @@ The talk recasts Lakshmi Puja: the true Lakshmi is the **daivi sampatti** (divin
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| दैवी संपत्ति (primary) | Hindi | Informational | High |
-| लक्ष्मी पूजन का असली अर्थ | Hindi | Informational / seasonal | High |
+| लक्ष्मी पूजन का असली अर्थ (primary) | Hindi | Informational / seasonal | High |
+| दैवी संपत्ति | Hindi | Informational | High |
 | दैवी संपत्ति के गुण | Hindi | Informational | High |
 | गीता अध्याय १६ दैवी संपदा | Hindi | Informational | Medium |
 | दैवी और आसुरी संपदा | Hindi | Informational | Medium |
 | असली लक्ष्मी कौन है | Hindi | Informational | Medium |
 | अभय का अर्थ गीता | Hindi | Informational | Low |
-| divine wealth (primary) | English | Informational | High |
-| true meaning of Lakshmi Puja | English | Informational / seasonal | High |
+| true meaning of Lakshmi Puja (primary) | English | Informational / seasonal | High |
+| divine wealth | English | Informational | High |
 | daivi sampatti | English / Hinglish | Informational | High |
 | divine qualities Bhagavad Gita chapter 16 | English | Informational | High |
 | divine and demonic qualities in the Gita | English | Informational | Medium |
@@ -29,27 +29,27 @@ The talk recasts Lakshmi Puja: the true Lakshmi is the **daivi sampatti** (divin
 | daivi sampada ke gun | Hinglish | Informational | Medium |
 | Acharya Upendra Ji Lakshmi Puja | English | Navigational | Low |
 
-**Focus keywords and the body's wording.** The focus keywords are "दैवी संपत्ति" (8 times in the Hindi body, first in the second paragraph) and "divine wealth" (10 times in the English body, first in the second paragraph), the post's central term. The seasonal queries people search, "लक्ष्मी पूजन का असली अर्थ" and "true meaning of Lakshmi Puja", are kept as secondary keywords and in the titles, but the body never uses that wording: the Hindi says "असली लक्ष्मी पूजन" only in the H1, and the English says "true Lakshmi" but not "true meaning of Lakshmi Puja". If the editor wants to target the seasonal query directly, a sentence with that exact wording could be added to the intro later.
+**Focus keywords and the body's wording.** The seasonal queries people search, "लक्ष्मी पूजन का असली अर्थ" and "true meaning of Lakshmi Puja", were at first missing from the body (the Hindi said "असली लक्ष्मी पूजन" only in the H1; the English said "true Lakshmi"), so the first focus keywords were the central term, "दैवी संपत्ति" / "divine wealth". The SEO fix (`seo_fix.md`) now uses the searched wording once in the second paragraph of each `_seo` text ("…और लक्ष्मी पूजन का असली अर्थ क्या है?" / "…and what the true meaning of Lakshmi Puja is?"), within the first 100 words, so it is the focus keyword in both languages. "दैवी संपत्ति" (9 times) and "divine wealth" (9 times) stay as secondary keywords, and the fix also puts them in a question H2 ("दैवी संपत्ति के गुण कौन-से हैं?" / "What Are the Qualities of Divine Wealth?").
 
 ## 3. Titles and meta
 
 **Hindi**
-1. दैवी संपत्ति: लक्ष्मी पूजन का असली अर्थ (गीता १६) (49 characters) **recommended**
+1. दैवी संपत्ति: लक्ष्मी पूजन का असली अर्थ (गीता १६) (49 characters) **recommended** (in seo.json)
 2. लक्ष्मी पूजन का असली अर्थ: गीता की दैवी संपत्ति (47)
 3. असली लक्ष्मी पूजन: दैवी संपत्ति को जगाने की कला (46)
 
-Meta description (152 characters): "असली लक्ष्मी पूजन क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।"
+Meta description (160 characters, **recommended**, in seo.json after the SEO fix): "लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।"
 
-Slug: `/hi/daivi-sampatti-laxmi-pujan`
+Slug (**recommended**, in seo.json after the SEO fix): `/hi/laxmi-pujan-ka-asli-arth` (first proposed: `/hi/daivi-sampatti-laxmi-pujan`)
 
 **English**
-1. Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16) (57) **recommended**
+1. Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16) (57) **recommended** (in seo.json)
 2. True Meaning of Lakshmi Puja: Divine Wealth in the Gita (55)
 3. The Real Lakshmi Puja: Awakening Divine Wealth Within (53)
 
-Meta description (152 characters): "What is the true Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Bhagavad Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi."
+Meta description (154 characters, **recommended**, in seo.json after the SEO fix): "What is the true meaning of Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi."
 
-Slug: `/en/lakshmi-puja-divine-wealth-gita`
+Slug (**recommended**, in seo.json after the SEO fix): `/en/true-meaning-of-lakshmi-puja` (first proposed: `/en/lakshmi-puja-divine-wealth-gita`)
 
 The titles and metas present "divine wealth is the real Lakshmi" as Acharya Ji's teaching ("shows", "बताते हैं"), not as a traditional name for the verses (flag 3).
 
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/daivi-sampatti-laxmi-pujan/`, `/en/lakshmi-puja-divine-wealth-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/laxmi-pujan-ka-asli-arth/`, `/en/true-meaning-of-lakshmi-puja/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -127,11 +127,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "असली लक्ष्मी पूजन: दैवी संपत्ति को जगाने की कला",
       "alternativeHeadline": "दैवी संपत्ति: लक्ष्मी पूजन का असली अर्थ (गीता १६)",
-      "description": "असली लक्ष्मी पूजन क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।",
+      "description": "लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।",
       "inLanguage": "hi",
       "keywords": [
-        "दैवी संपत्ति",
         "लक्ष्मी पूजन का असली अर्थ",
+        "दैवी संपत्ति",
         "दैवी संपत्ति के गुण",
         "दैवी और आसुरी संपदा",
         "गीता अध्याय १६ दैवी संपदा"
@@ -274,11 +274,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The True Lakshmi Puja: The Art of Awakening Divine Wealth",
       "alternativeHeadline": "Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16)",
-      "description": "What is the true Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Bhagavad Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi.",
+      "description": "What is the true meaning of Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi.",
       "inLanguage": "en",
       "keywords": [
-        "divine wealth",
         "true meaning of Lakshmi Puja",
+        "divine wealth",
         "daivi sampatti",
         "divine qualities Bhagavad Gita chapter 16",
         "divine and demonic qualities in the Gita"
@@ -524,15 +524,15 @@ The exact values written to `output/attain_divine_qualities_empower_spiritual/bl
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "daivi-sampatti-laxmi-pujan",
-      "focus_keyword": "दैवी संपत्ति",
+      "slug": "laxmi-pujan-ka-asli-arth",
+      "focus_keyword": "लक्ष्मी पूजन का असली अर्थ",
       "secondary_keywords": [
-        "लक्ष्मी पूजन का असली अर्थ",
+        "दैवी संपत्ति",
         "दैवी संपत्ति के गुण",
         "दैवी और आसुरी संपदा",
         "गीता अध्याय १६ दैवी संपदा"
       ],
-      "meta_description": "असली लक्ष्मी पूजन क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।",
+      "meta_description": "लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।",
       "tags": [
         "भगवद्गीता",
         "लक्ष्मी",
@@ -542,15 +542,15 @@ The exact values written to `output/attain_divine_qualities_empower_spiritual/bl
       ]
     },
     "en": {
-      "slug": "lakshmi-puja-divine-wealth-gita",
-      "focus_keyword": "divine wealth",
+      "slug": "true-meaning-of-lakshmi-puja",
+      "focus_keyword": "true meaning of Lakshmi Puja",
       "secondary_keywords": [
-        "true meaning of Lakshmi Puja",
+        "divine wealth",
         "daivi sampatti",
         "divine qualities Bhagavad Gita chapter 16",
         "divine and demonic qualities in the Gita"
       ],
-      "meta_description": "What is the true Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Bhagavad Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi.",
+      "meta_description": "What is the true meaning of Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi.",
       "tags": [
         "Bhagavad Gita",
         "Lakshmi",
@@ -570,8 +570,8 @@ The exact values written to `output/attain_divine_qualities_empower_spiritual/bl
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses ("दैवी संपत्ति" 8 times, "divine wealth" 10 times)
-- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2: "लक्ष्मी पूजन का असली अर्थ" / "true meaning of Lakshmi Puja")
+- [x] Focus keyword taken from wording the article already uses ("लक्ष्मी पूजन का असली अर्थ" and "true meaning of Lakshmi Puja", once each in the `_seo` texts' second paragraph after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2; resolved by the SEO fix, the searched wording is now the focus keyword)
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 
 ### Focus keyword placement (SureRank)
@@ -583,7 +583,7 @@ The exact values written to `output/attain_divine_qualities_empower_spiritual/bl
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
-- [x] Keyword near the start (both recommended titles open with the focus keyword)
+- [x] Keyword near the start (the focus keyword follows the two-word lead "दैवी संपत्ति:" / "Divine Wealth:")
 - [x] Faithful to the talk, no clickbait
 
 ### Meta description
