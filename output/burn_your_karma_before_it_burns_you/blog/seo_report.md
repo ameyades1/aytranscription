@@ -8,16 +8,16 @@ The talk is a quick tour of the obstacles (विघ्न) on the path of sadha
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| संचित कर्म (primary) | Hindi | Informational | High |
-| संचित कर्म कैसे जलाएं | Hindi | Informational / practical | High |
+| संचित कर्म | Hindi | Informational | High |
+| संचित कर्म कैसे जलाएं (primary) | Hindi | Informational / practical | High |
 | संचित और प्रारब्ध कर्म | Hindi | Informational | High |
 | साधना में विघ्न और उपाय | Hindi | Practical | Medium |
 | वाणी के चार स्तर | Hindi | Informational | Medium |
 | प्रमाद आलस्य दीर्घसूत्रता | Hindi | Informational | Low |
 | बुरा समय क्यों आता है | Hindi | Emotional / life problem | Medium |
 | sanchit karma kaise khatam kare | Hinglish | Practical | Medium |
-| sanchit karma (primary) | English | Informational | High |
-| how to burn past karma | English | Informational / practical | High |
+| sanchit karma | English | Informational | High |
+| how to burn past karma (primary) | English | Informational / practical | High |
 | sanchit karma vs prarabdha | English | Informational | High |
 | obstacles on the spiritual path | English | Informational | Medium |
 | four levels of speech para pashyanti | English | Informational | Medium |
@@ -25,27 +25,28 @@ The talk is a quick tour of the obstacles (विघ्न) on the path of sadha
 | can past karma be erased | English | Emotional / informational | Medium |
 | Acharya Upendra Ji karma | English | Navigational | Low |
 
-Keyword wording: the focus keywords are the body's own wording, "संचित कर्म" (5 times, first in the opening section) and "sanchit karma" (in the first section, within the first 100 words). The searched phrasings "संचित कर्म कैसे जलाएं" and "how to burn past karma" do not occur in the body (it says "संचित कर्म को जला दो" and "Burn it instead" / "Burning old karma"), so they are secondary keywords. If wanted, the blog could later add a sentence using "how to burn past karma" / "संचित कर्म कैसे जलाएं" so they can become the focus keywords.
+Keyword wording: the searched phrasings "संचित कर्म कैसे जलाएं" and "how to burn past karma" did not occur in the original body (it says "संचित कर्म को जला दो" and "Burn it instead" / "Burning old karma"). The SEO fix (`seo_fix.md`) added a short direct-answer paragraph after the intro of each `_seo` text that uses them once, within the first 100 words, so they are now the focus keywords. The body's own wording, "संचित कर्म" / "sanchit karma", moved to the secondary keywords.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय (recommended, 50 characters; contains the focus keyword "संचित कर्म")
+1. संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय (recommended, 50 characters; contains the focus keyword "संचित कर्म कैसे जलाएं")
 2. कर्म आपको जलाए उससे पहले: संचित कर्म और साधना के विघ्न
 3. बुरा समय, अहंकार, संशय, आलस्य: साधना के विघ्न और उपाय
 
-Meta description: संचित कर्म को प्रारब्ध बनने से पहले कैसे जलाएं? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।
+Meta description (recommended, 140 characters): संचित कर्म कैसे जलाएं, प्रारब्ध बनने से पहले? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।
 
-Slug: `/hi/sanchit-karma-kaise-jalayen`
+Slug (recommended): `/hi/sanchit-karma-kaise-jalayen`
 
 **English**
-1. How to Burn Sanchit Karma: Obstacles on the Path (recommended, 48 characters)
-2. Sanchit Karma: Burn It Before It Burns You
-3. Sanchit Karma, Ego, Doubt: Obstacles in Sadhana
+1. How to Burn Past Karma: Obstacles on the Spiritual Path (recommended, 55 characters; contains the focus keyword "how to burn past karma")
+2. How to Burn Sanchit Karma: Obstacles on the Path
+3. Sanchit Karma: Burn It Before It Burns You
+4. Sanchit Karma, Ego, Doubt: Obstacles in Sadhana
 
-Meta description: How do you burn sanchit karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each. (155 characters)
+Meta description (recommended, 152 characters): How to burn past karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each one.
 
-Slug: `/en/how-to-burn-sanchit-karma`
+Slug (recommended): `/en/how-to-burn-past-karma`
 
 ## 4. Outline changes
 
@@ -113,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sanchit-karma-kaise-jalayen/`, `/en/how-to-burn-sanchit-karma/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sanchit-karma-kaise-jalayen/`, `/en/how-to-burn-past-karma/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -131,9 +132,9 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "कर्म आपको जलाए उससे पहले आप कर्म को जला दो",
       "alternativeHeadline": "संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय",
-      "description": "संचित कर्म को प्रारब्ध बनने से पहले कैसे जलाएं? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।",
+      "description": "संचित कर्म कैसे जलाएं, प्रारब्ध बनने से पहले? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।",
       "inLanguage": "hi",
-      "keywords": ["संचित कर्म", "संचित कर्म कैसे जलाएं", "संचित और प्रारब्ध कर्म", "साधना में विघ्न और उपाय", "वाणी के चार स्तर"],
+      "keywords": ["संचित कर्म कैसे जलाएं", "संचित कर्म", "संचित और प्रारब्ध कर्म", "साधना में विघ्न और उपाय", "वाणी के चार स्तर"],
       "about": [
         { "@type": "Thing", "name": "संचित कर्म" },
         { "@type": "Thing", "name": "प्रारब्ध" },
@@ -220,10 +221,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Burn Your Karma Before It Burns You",
-      "alternativeHeadline": "How to Burn Sanchit Karma: Obstacles on the Path",
-      "description": "How do you burn sanchit karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each.",
+      "alternativeHeadline": "How to Burn Past Karma: Obstacles on the Spiritual Path",
+      "description": "How to burn past karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each one.",
       "inLanguage": "en",
-      "keywords": ["sanchit karma", "how to burn past karma", "sanchit karma vs prarabdha", "obstacles on the spiritual path", "four levels of speech para pashyanti"],
+      "keywords": ["how to burn past karma", "sanchit karma", "sanchit karma vs prarabdha", "obstacles on the spiritual path", "four levels of speech para pashyanti"],
       "about": [
         { "@type": "Thing", "name": "Sanchit Karma" },
         { "@type": "Thing", "name": "Prarabdha" },
@@ -336,7 +337,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
 {
   "title": {
     "hi": "संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय",
-    "en": "How to Burn Sanchit Karma: Obstacles on the Path"
+    "en": "How to Burn Past Karma: Obstacles on the Spiritual Path"
   },
   "alt": {
     "hero.jpg": {
@@ -405,14 +406,14 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
     "category": "karma",
     "hi": {
       "slug": "sanchit-karma-kaise-jalayen",
-      "focus_keyword": "संचित कर्म",
+      "focus_keyword": "संचित कर्म कैसे जलाएं",
       "secondary_keywords": [
-        "संचित कर्म कैसे जलाएं",
+        "संचित कर्म",
         "संचित और प्रारब्ध कर्म",
         "साधना में विघ्न और उपाय",
         "वाणी के चार स्तर"
       ],
-      "meta_description": "संचित कर्म को प्रारब्ध बनने से पहले कैसे जलाएं? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।",
+      "meta_description": "संचित कर्म कैसे जलाएं, प्रारब्ध बनने से पहले? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।",
       "tags": [
         "प्रारब्ध",
         "त्रिगुण",
@@ -422,15 +423,15 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
       ]
     },
     "en": {
-      "slug": "how-to-burn-sanchit-karma",
-      "focus_keyword": "sanchit karma",
+      "slug": "how-to-burn-past-karma",
+      "focus_keyword": "how to burn past karma",
       "secondary_keywords": [
-        "how to burn past karma",
+        "sanchit karma",
         "sanchit karma vs prarabdha",
         "obstacles on the spiritual path",
         "four levels of speech para pashyanti"
       ],
-      "meta_description": "How do you burn sanchit karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each.",
+      "meta_description": "How to burn past karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each one.",
       "tags": [
         "Prarabdha",
         "Three Gunas",
