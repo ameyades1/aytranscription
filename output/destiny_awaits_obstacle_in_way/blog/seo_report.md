@@ -23,31 +23,33 @@ The talk teaches that what we seek is already within us and that the work is onl
 | sattvic rajasic tamasic mind | English | Informational | Medium |
 | Acharya Upendra Ji destiny obstacle | English | Navigational | Low |
 
+Keyword note: the original blog texts did not contain either focus keyword word for word (the Hindi body says only "रुकावट", the English only "blocking the way"). The SEO-fixed copies (`destiny_awaits_obstacle_in_way_blog_seo.txt` and `_blog_seo_en.txt`, which are published) now use "भाग्य में रुकावट क्यों आती है?" and "what is blocking your destiny?" in a direct-answer paragraph within the first 100 words, and carry "सात्त्विक, राजसिक और तामसिक बुद्धि" / "Sattvic, Rajasic and Tamasic Minds" in the third `##` heading. Focus keywords are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. भाग्य में रुकावट क्यों? पतंजलि का किसान और नहर (recommended, 46 characters)
+1. भाग्य में रुकावट क्यों? पतंजलि का किसान और नहर (recommended, in seo.json, 46 characters)
 2. भाग्य पहले से बह रहा है: बस माया का रोड़ा हटाइए
 3. योगसूत्र ४.३: रुकावट हटाइए, प्रवाह अपने आप होगा
 
-Meta description (152 characters): भाग्य में रुकावट क्यों आती है? आचार्य उपेंद्र जी योगसूत्र ४.३ के किसान दृष्टांत से समझाते हैं: माया का कचरा हटाइए, भाग्य का प्रवाह अपने आप बहने लगता है।
+Meta description (recommended, in seo.json, 152 characters): भाग्य में रुकावट क्यों आती है? आचार्य उपेंद्र जी योगसूत्र ४.३ के किसान दृष्टांत से समझाते हैं: माया का कचरा हटाइए, भाग्य का प्रवाह अपने आप बहने लगता है।
 
-Slug: `/hi/bhagya-mein-rukawat`
+Slug (recommended, in seo.json): `/hi/bhagya-mein-rukawat`
 
 **English**
-1. What Is Blocking Your Destiny? Patanjali's Farmer Analogy (recommended, 57 characters)
+1. What Is Blocking Your Destiny? Patanjali's Farmer Analogy (recommended, in seo.json, 57 characters)
 2. Your Destiny Is Already Flowing: Clear the Obstacle
 3. Yoga Sutra 4.3 Explained: Remove the Block, Let It Flow
 
-Meta description (155 characters): What is blocking your destiny? Acharya Upendra Ji explains Yoga Sutra 4.3: like a farmer opening a channel, remove the debris of maya and the flow returns.
+Meta description (recommended, in seo.json, 155 characters): What is blocking your destiny? Acharya Upendra Ji explains Yoga Sutra 4.3: like a farmer opening a channel, remove the debris of maya and the flow returns.
 
-Slug: `/en/what-is-blocking-your-destiny`
+Slug (recommended, in seo.json): `/en/what-is-blocking-your-destiny`
 
 The title tags attribute only the farmer image to Patanjali; the tap, channel and stone are Acharya Ji's retelling (flag 1).
 
 ## 4. Outline changes
 
-These are suggestions for the editor; the blog text has not been changed.
+These are suggestions for the editor; the original blog text has not been changed. Applied in the SEO-fixed copies (see `seo_fix.md`): the direct-answer paragraph after the introduction, and the "three kinds of mind" heading renamed to "सात्त्विक, राजसिक और तामसिक बुद्धि रुकावट के साथ क्या करती है?" / "How Do Sattvic, Rajasic and Tamasic Minds Handle Obstacles?" (`also_read.after` updated). The "field, channel and stone" heading is kept, because `images.txt` places `inline.jpg` under it.
 
 - H1: keep as is in both languages. The title tag carries the search phrasing.
 - Place the direct-answer paragraph (section 5) right after the introduction, before the first H2.
@@ -386,8 +388,8 @@ The exact contents of `output/destiny_awaits_obstacle_in_way/blog/seo.json`, use
   "also_read": {
     "talk": "three_types_obstacle_removers_harta",
     "after": {
-      "hi": "तीन बुद्धियां, कचरे के साथ तीन व्यवहार",
-      "en": "Three Kinds of Mind, Three Ways of Handling the Debris"
+      "hi": "सात्त्विक, राजसिक और तामसिक बुद्धि रुकावट के साथ क्या करती है?",
+      "en": "How Do Sattvic, Rajasic and Tamasic Minds Handle Obstacles?"
     }
   },
   "related": [
@@ -432,3 +434,73 @@ The exact contents of `output/destiny_awaits_obstacle_in_way/blog/seo.json`, use
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
