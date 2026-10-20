@@ -24,6 +24,8 @@ A short discourse (video 3:54) on the role of a competent Guru (समर्थ 
 | idiotic compassion | English | Emotional / life problem | Medium |
 | Acharya Upendra Ji Kundalini | English | Navigational | Low |
 
+Keyword note: the original blog texts never used the focus keywords ("कुंडलिनी जागरण" / "Kundalini awakening" appeared nowhere in the body). The SEO copies (`competent_guru_activate_chakras_kundalini_blog_seo.txt`, `competent_guru_activate_chakras_kundalini_blog_seo_en.txt`) now use "गुरु से कुंडलिनी जागरण" and "Kundalini awakening through a Guru" word for word in a short direct-answer paragraph within the first 100 words, so both stay the focus keywords. The English slug now carries every word of the keyword (`kundalini-awakening-through-a-guru`).
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -31,18 +33,18 @@ A short discourse (video 3:54) on the role of a competent Guru (समर्थ 
 2. शक्तिपात क्या है? समर्थ गुरु और जन्मों की यात्रा
 3. सात चक्र, सात जीवन: आप किस चक्र पर जी रहे हैं?
 
-Meta description (146 characters): एक चक्र ऊपर उठने में कई जन्म लगते हैं। आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात यह यात्रा कैसे तेज़ करता है।
+Meta description (151 characters, **recommended**): गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है।
 
-Slug: `/hi/guru-se-kundalini-jagran`
+Slug (**recommended**): `/hi/guru-se-kundalini-jagran`
 
 **English**
 1. Kundalini Awakening Through a Guru: 7 Chakras of Life (53 characters, **recommended**)
 2. What Is Shaktipat? How a Competent Guru Raises Kundalini
 3. Seven Chakras, Seven Ways of Living: Which One Is Yours?
 
-Meta description (150 characters): One chakra can take lifetimes. Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.
+Meta description (155 characters, **recommended**): Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.
 
-Slug: `/en/kundalini-awakening-through-guru`
+Slug (**recommended**): `/en/kundalini-awakening-through-a-guru`
 
 The H1s in the blog texts stay as they are; the recommended titles are for the `<title>` tag only.
 
@@ -106,7 +108,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator. The talk is Acharya Ji's own discourse, so he is the author.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-se-kundalini-jagran/`, `/en/kundalini-awakening-through-guru/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-se-kundalini-jagran/`, `/en/kundalini-awakening-through-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -124,7 +126,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "समर्थ गुरु और कुंडलिनी: जन्मों की यात्रा एक साधना में",
       "alternativeHeadline": "गुरु से कुंडलिनी जागरण: सात चक्र, सात तरह का जीवन",
-      "description": "एक चक्र ऊपर उठने में कई जन्म लगते हैं। आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात यह यात्रा कैसे तेज़ करता है।",
+      "description": "गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है।",
       "inLanguage": "hi",
       "keywords": ["गुरु से कुंडलिनी जागरण", "सात चक्र और जीवन", "शक्तिपात क्या है", "समर्थ गुरु की पहचान", "विवेकहीन करुणा"],
       "about": [
@@ -214,7 +216,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Competent Guru and Kundalini: Many Lifetimes of Progress in One Sadhana",
       "alternativeHeadline": "Kundalini Awakening Through a Guru: 7 Chakras of Life",
-      "description": "One chakra can take lifetimes. Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.",
+      "description": "Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.",
       "inLanguage": "en",
       "keywords": ["Kundalini awakening through a Guru", "seven chakras meaning in life", "what is shaktipat", "idiotic compassion", "can a Guru activate chakras"],
       "about": [
@@ -405,7 +407,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
         "समर्थ गुरु की पहचान",
         "विवेकहीन करुणा"
       ],
-      "meta_description": "एक चक्र ऊपर उठने में कई जन्म लगते हैं। आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात यह यात्रा कैसे तेज़ करता है।",
+      "meta_description": "गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है।",
       "tags": [
         "कुंडलिनी",
         "शक्तिपात",
@@ -415,7 +417,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "kundalini-awakening-through-guru",
+      "slug": "kundalini-awakening-through-a-guru",
       "focus_keyword": "Kundalini awakening through a Guru",
       "secondary_keywords": [
         "seven chakras meaning in life",
@@ -423,7 +425,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
         "idiotic compassion",
         "can a Guru activate chakras"
       ],
-      "meta_description": "One chakra can take lifetimes. Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.",
+      "meta_description": "Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey.",
       "tags": [
         "Kundalini",
         "Shaktipat",
@@ -435,3 +437,75 @@ The exact values written to `seo.json` for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked against the SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`), which are what gets published; `tools/check_seo.py` passes.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
