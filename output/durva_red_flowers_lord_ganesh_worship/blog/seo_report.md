@@ -25,29 +25,31 @@ Nearly everyone who does Ganesh puja offers red flowers (usually hibiscus) and d
 | raktam lambodaram meaning | English | Informational (verse) | Low |
 | Acharya Upendra Ji Ganesh | English | Navigational | Low |
 
-Notes: the durva query is the bigger, steadier one in both languages, so it is the focus keyword; red flowers is the main secondary. "Durva" is spelled several ways in searches (durva, doorva, dhoob, dubh); use "durva" in titles and let the body's "दूर्वा" cover Hindi.
+Notes: the durva query is the bigger, steadier one in both languages, so it is the focus keyword; red flowers is the main secondary. "Durva" is spelled several ways in searches (durva, doorva, dhoob, dubh); use "durva" in titles and let the body's "दूर्वा" cover Hindi. Mismatch (now fixed): the original blog texts never used the searched wording "गणेश जी को दूर्वा क्यों चढ़ाते हैं" / "why durva is offered to Ganesha". The SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`, the texts published to WordPress) now use it in a short direct answer after the intro, inside the first 100 words, and the durva H2 is phrased as the question ("दूर्वा क्यों चढ़ाते हैं: तीन-तीन का अर्पण" / "Why Offer Durva? Offering Everything That Comes in Threes"). The focus keywords stay as above.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. गणेश जी को दूर्वा और लाल फूल क्यों चढ़ाते हैं? (recommended, 46 characters)
-2. गणपति को लाल फूल और दूर्वा क्यों प्रिय हैं: छिपा अर्थ
-3. दूर्वा और लाल फूल का रहस्य: गणेश पूजा का प्रतीक
+1. गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों? (recommended, 53 characters; contains the focus keyword exactly)
+2. गणेश जी को दूर्वा और लाल फूल क्यों चढ़ाते हैं?
+3. गणपति को लाल फूल और दूर्वा क्यों प्रिय हैं: छिपा अर्थ
+4. दूर्वा और लाल फूल का रहस्य: गणेश पूजा का प्रतीक
 
-Meta description (157 characters): गणेश पूजा में लाल फूल और दूर्वा क्यों चढ़ाते हैं? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।
+Meta description (recommended, 160 characters): गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।
 
-Slug: `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain`
+Slug (recommended): `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain`
 
 **English**
-1. Why Durva and Red Flowers Are Offered to Lord Ganesha (recommended, 53 characters)
-2. Why Does Ganesha Love Red Flowers and Durva Grass?
-3. Durva and Red Flowers in Ganesh Puja: The Hidden Meaning
+1. Why Durva Is Offered to Ganesha, and Why Red Flowers (recommended, 52 characters; contains the focus keyword exactly)
+2. Why Durva and Red Flowers Are Offered to Lord Ganesha
+3. Why Does Ganesha Love Red Flowers and Durva Grass?
+4. Durva and Red Flowers in Ganesh Puja: The Hidden Meaning
 
-Meta description (150 characters): Why are red flowers and durva offered to Ganesha? Acharya Upendra Ji explains the meaning: rajas shakti, offering the triads, and the grass that bows.
+Meta description (recommended, 148 characters): Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows.
 
-Slug: `/en/why-durva-red-flowers-for-ganesha`
+Slug (recommended): `/en/why-durva-is-offered-to-ganesha`
 
-The H1s ("गणपति को लाल फूल और दूर्वा ही क्यों प्रिय हैं" / "Why Lord Ganesha Loves Red Flowers and Durva Grass") are already good and stay unchanged; the title tags lead with durva, the bigger query.
+The H1s ("गणपति को लाल फूल और दूर्वा ही क्यों प्रिय हैं" / "Why Lord Ganesha Loves Red Flowers and Durva Grass") are already good and stay unchanged; the title tags lead with durva, the bigger query, and contain the focus keyword word for word (SureRank).
 
 ## 4. Outline changes
 
@@ -105,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain/`, `/en/why-durva-red-flowers-for-ganesha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain/`, `/en/why-durva-is-offered-to-ganesha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -121,8 +123,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "गणपति को लाल फूल और दूर्वा ही क्यों प्रिय हैं",
-      "alternativeHeadline": "गणेश जी को दूर्वा और लाल फूल क्यों चढ़ाते हैं?",
-      "description": "गणेश पूजा में लाल फूल और दूर्वा क्यों चढ़ाते हैं? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
+      "alternativeHeadline": "गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों?",
+      "description": "गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
       "inLanguage": "hi",
       "keywords": ["गणेश जी को दूर्वा क्यों चढ़ाते हैं", "गणपति को लाल फूल क्यों प्रिय हैं", "दूर्वा का आध्यात्मिक अर्थ", "रक्तं लम्बोदरं मंत्र का अर्थ"],
       "about": [
@@ -211,8 +213,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Why Lord Ganesha Loves Red Flowers and Durva Grass",
-      "alternativeHeadline": "Why Durva and Red Flowers Are Offered to Lord Ganesha",
-      "description": "Why are red flowers and durva offered to Ganesha? Acharya Upendra Ji explains the meaning: rajas shakti, offering the triads, and the grass that bows.",
+      "alternativeHeadline": "Why Durva Is Offered to Ganesha, and Why Red Flowers",
+      "description": "Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows.",
       "inLanguage": "en",
       "keywords": ["why durva is offered to Ganesha", "why Ganesha loves red flowers", "spiritual meaning of durva grass", "red flowers and durva in Ganesh puja"],
       "about": [
@@ -339,8 +341,8 @@ The values written to `output/durva_red_flowers_lord_ganesh_worship/blog/seo.jso
 ```json
 {
   "title": {
-    "hi": "गणेश जी को दूर्वा और लाल फूल क्यों चढ़ाते हैं?",
-    "en": "Why Durva and Red Flowers Are Offered to Lord Ganesha"
+    "hi": "गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों?",
+    "en": "Why Durva Is Offered to Ganesha, and Why Red Flowers"
   },
   "alt": {
     "hero.jpg": {
@@ -387,16 +389,86 @@ The values written to `output/durva_red_flowers_lord_ganesh_worship/blog/seo.jso
       "slug": "ganesh-ji-ko-durva-kyon-chadhate-hain",
       "focus_keyword": "गणेश जी को दूर्वा क्यों चढ़ाते हैं",
       "secondary_keywords": ["गणपति को लाल फूल क्यों प्रिय हैं", "दूर्वा का आध्यात्मिक अर्थ", "रक्तं लम्बोदरं मंत्र का अर्थ"],
-      "meta_description": "गणेश पूजा में लाल फूल और दूर्वा क्यों चढ़ाते हैं? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
+      "meta_description": "गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
       "tags": ["गणेश", "दूर्वा", "गणेश चतुर्थी", "त्रिगुण", "गणपति अथर्वशीर्ष"]
     },
     "en": {
-      "slug": "why-durva-red-flowers-for-ganesha",
+      "slug": "why-durva-is-offered-to-ganesha",
       "focus_keyword": "why durva is offered to Ganesha",
       "secondary_keywords": ["why Ganesha loves red flowers", "spiritual meaning of durva grass", "red flowers and durva in Ganesh puja"],
-      "meta_description": "Why are red flowers and durva offered to Ganesha? Acharya Upendra Ji explains the meaning: rajas shakti, offering the triads, and the grass that bows.",
+      "meta_description": "Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows.",
       "tags": ["Ganesh", "Durva", "Ganesh Chaturthi", "Three Gunas", "Ganapati Atharvashirsha"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the Puranic story of Ganesha covered in the demons' blood is unsourced (flag 4), and the Hindi verse meaning is incomplete (review issue 1, Major); not SEO edits, so left for the editor (verses and translations are not touched here)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)

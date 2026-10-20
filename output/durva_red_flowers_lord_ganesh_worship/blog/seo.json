@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "गणेश जी को दूर्वा और लाल फूल क्यों चढ़ाते हैं?",
-    "en": "Why Durva and Red Flowers Are Offered to Lord Ganesha"
+    "hi": "गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों?",
+    "en": "Why Durva Is Offered to Ganesha, and Why Red Flowers"
   },
   "alt": {
     "hero.jpg": {
@@ -48,14 +48,14 @@
       "slug": "ganesh-ji-ko-durva-kyon-chadhate-hain",
       "focus_keyword": "गणेश जी को दूर्वा क्यों चढ़ाते हैं",
       "secondary_keywords": ["गणपति को लाल फूल क्यों प्रिय हैं", "दूर्वा का आध्यात्मिक अर्थ", "रक्तं लम्बोदरं मंत्र का अर्थ"],
-      "meta_description": "गणेश पूजा में लाल फूल और दूर्वा क्यों चढ़ाते हैं? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
+      "meta_description": "गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",
       "tags": ["गणेश", "दूर्वा", "गणेश चतुर्थी", "त्रिगुण", "गणपति अथर्वशीर्ष"]
     },
     "en": {
-      "slug": "why-durva-red-flowers-for-ganesha",
+      "slug": "why-durva-is-offered-to-ganesha",
       "focus_keyword": "why durva is offered to Ganesha",
       "secondary_keywords": ["why Ganesha loves red flowers", "spiritual meaning of durva grass", "red flowers and durva in Ganesh puja"],
-      "meta_description": "Why are red flowers and durva offered to Ganesha? Acharya Upendra Ji explains the meaning: rajas shakti, offering the triads, and the grass that bows.",
+      "meta_description": "Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows.",
       "tags": ["Ganesh", "Durva", "Ganesh Chaturthi", "Three Gunas", "Ganapati Atharvashirsha"]
     }
   }
