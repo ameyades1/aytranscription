@@ -14,6 +14,19 @@ WHAT IT DOES
 SURERANK
 The importer writes seo_title, meta_description, focus_keyword and canonical_url into the post's own SureRank settings (the surerank_settings_general post meta, the same place the SureRank panel saves them), and robots into SureRank's no-index and no-follow flags. The post's SureRank panel shows these values, and no template setup is needed. Copies are also kept in smd_seo_title, smd_seo_description, smd_canonical_url and smd_robots. Empty fields fall back to SureRank's defaults (for the title, %title% - %site_name%). Schema is not written. This was tested with SureRank 1.10.2; check the SureRank panel on a draft after a SureRank update.
 
+SURERANK IMAGE TITLES (one-time setup)
+SureRank's "auto set image title" setting is on by default. It replaces the title of every image added to the Media Library with one it makes itself (in lowercase), overwriting the alt-text titles this importer gives its images. The file names and the alt text in the post are not affected. SureRank 1.10.2 has no switch for it in its settings screens, so turn it off with WP-CLI:
+
+  wp eval '$s = get_option("surerank_settings", []); $s["auto_set_image_title"] = false; update_option("surerank_settings", $s);'
+
+Check it with:
+
+  wp eval 'var_dump(SureRank\Inc\Functions\Settings::get("auto_set_image_title"));'
+
+which should print bool(false). Without WP-CLI, run the same PHP once from a code-snippets plugin. A SureRank update may add a switch for this or reset it, so check again after updating.
+
+A related setting, SureRank > Advanced > Image SEO > "Optimize Image SEO without AI" (auto_set_image_alt), fills in missing alt text from the image's file name, such as "Hero 2 300x169". Turn it off too if you want only the alt text you wrote.
+
 INSTALLATION
 1. In WordPress admin, go to Plugins > Add New Plugin > Upload Plugin.
 2. Upload surerank-markdown-importer.zip and click Install Now, then Activate.
