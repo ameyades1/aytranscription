@@ -22,6 +22,9 @@ Acharya Upendra Ji answers a common seeker's question, "does spiritual life mean
 | mind is the master, you are the slave | English | Informational | Low |
 | control your mind before it controls you | English | Navigational (video title) | Low |
 | Acharya Upendra Ji mind control | English | Navigational | Low |
+| how to control your mind | English | Practical | High |
+
+Keyword note: the original blog texts used neither focus keyword in the body ("मन को वश में कैसे करें" / "how to control the mind Bhagavad Gita"); the intro speaks of "आपके मन की चाबी" / "who holds the key to your mind". The SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`) add a short direct answer after the intro that uses "मन को वश में कैसे करें" and "how to control your mind" within the first 100 words. The English focus keyword is now "how to control your mind" (it also starts the English title); "how to control the mind Bhagavad Gita" moves to the secondary keywords, and "mind is the master" is dropped from them.
 
 ## 3. Titles and meta
 
@@ -30,18 +33,18 @@ Acharya Upendra Ji answers a common seeker's question, "does spiritual life mean
 2. मन को वश में करो, इससे पहले कि मन तुम्हें वश में कर ले
 3. क्या धारावाहिक देखना गलत है? मन पर नियंत्रण का असली अर्थ
 
-Meta description: क्या अध्यात्म में मनोरंजन वर्जित है? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही नियंत्रण है।
+Meta description (recommended, in seo.json): मन को वश में कैसे करें? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही सच्चा नियंत्रण है।
 
-Slug: `/hi/man-ko-vash-mein-kaise-karein`
+Slug (recommended, in seo.json): `/hi/man-ko-vash-mein-kaise-karein`
 
 **English**
 1. How to Control Your Mind: Sattvic Dhriti in the Gita (recommended, 52 characters)
 2. Control Your Mind Before It Controls You | Acharya Ji
 3. Is Watching TV Wrong? True Mind Control in the Gita
 
-Meta description (150 characters): Spiritual life need not mean giving up entertainment. Acharya Upendra Ji on sattvic dhriti, Gita 18.33: pull your mind out as easily as it settles in.
+Meta description (recommended, in seo.json, 147 characters): How to control your mind without giving up entertainment: Acharya Upendra Ji on sattvic dhriti, Gita 18.33. Pull it out as easily as it settles in.
 
-Slug: `/en/control-your-mind-bhagavad-gita`
+Slug (recommended, in seo.json): `/en/how-to-control-your-mind-bhagavad-gita`
 
 ## 4. Outline changes
 
@@ -104,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/man-ko-vash-mein-kaise-karein/`, `/en/control-your-mind-bhagavad-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/man-ko-vash-mein-kaise-karein/`, `/en/how-to-control-your-mind-bhagavad-gita/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -122,7 +125,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "मन को वश में करो, इससे पहले कि मन तुम्हें वश में कर ले",
       "alternativeHeadline": "मन को वश में कैसे करें? गीता की सात्त्विक धृति",
-      "description": "क्या अध्यात्म में मनोरंजन वर्जित है? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही नियंत्रण है।",
+      "description": "मन को वश में कैसे करें? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही सच्चा नियंत्रण है।",
       "inLanguage": "hi",
       "keywords": ["मन को वश में कैसे करें", "सात्त्विक धृति क्या है", "गीता 18.33 का अर्थ", "मन पर नियंत्रण", "क्या अध्यात्म में मनोरंजन गलत है"],
       "about": [
@@ -212,9 +215,9 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Control Your Mind Before It Controls You",
       "alternativeHeadline": "How to Control Your Mind: Sattvic Dhriti in the Gita",
-      "description": "Spiritual life need not mean giving up entertainment. Acharya Upendra Ji on sattvic dhriti, Gita 18.33: pull your mind out as easily as it settles in.",
+      "description": "How to control your mind without giving up entertainment: Acharya Upendra Ji on sattvic dhriti, Gita 18.33. Pull it out as easily as it settles in.",
       "inLanguage": "en",
-      "keywords": ["how to control the mind Bhagavad Gita", "sattvic dhriti meaning", "Bhagavad Gita 18.33 meaning", "is watching TV bad for spiritual life", "mind is the master"],
+      "keywords": ["how to control your mind", "how to control the mind Bhagavad Gita", "sattvic dhriti meaning", "Bhagavad Gita 18.33 meaning", "is watching TV bad for spiritual life"],
       "about": [
         { "@type": "Thing", "name": "Mastering the Mind" },
         { "@type": "Thing", "name": "Sattvic Dhriti" },
@@ -402,7 +405,7 @@ The exact values written to `output/control_your_mind_before_it_controls_you/blo
         "मन पर नियंत्रण",
         "क्या अध्यात्म में मनोरंजन गलत है"
       ],
-      "meta_description": "क्या अध्यात्म में मनोरंजन वर्जित है? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही नियंत्रण है।",
+      "meta_description": "मन को वश में कैसे करें? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही सच्चा नियंत्रण है।",
       "tags": [
         "मन पर नियंत्रण",
         "भगवद्गीता",
@@ -412,15 +415,15 @@ The exact values written to `output/control_your_mind_before_it_controls_you/blo
       ]
     },
     "en": {
-      "slug": "control-your-mind-bhagavad-gita",
-      "focus_keyword": "how to control the mind Bhagavad Gita",
+      "slug": "how-to-control-your-mind-bhagavad-gita",
+      "focus_keyword": "how to control your mind",
       "secondary_keywords": [
+        "how to control the mind Bhagavad Gita",
         "sattvic dhriti meaning",
         "Bhagavad Gita 18.33 meaning",
-        "is watching TV bad for spiritual life",
-        "mind is the master"
+        "is watching TV bad for spiritual life"
       ],
-      "meta_description": "Spiritual life need not mean giving up entertainment. Acharya Upendra Ji on sattvic dhriti, Gita 18.33: pull your mind out as easily as it settles in.",
+      "meta_description": "How to control your mind without giving up entertainment: Acharya Upendra Ji on sattvic dhriti, Gita 18.33. Pull it out as easily as it settles in.",
       "tags": [
         "Mastering the Mind",
         "Bhagavad Gita",
@@ -432,3 +435,75 @@ The exact values written to `output/control_your_mind_before_it_controls_you/blo
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked against the SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`), which are what gets published; `tools/check_seo.py` passes.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
