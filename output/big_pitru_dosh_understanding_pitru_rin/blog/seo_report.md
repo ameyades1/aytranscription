@@ -13,22 +13,22 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| पितृ दोष | Hindi | Informational | High (primary HI) |
-| पितृ दोष क्या है | Hindi | Informational | High |
+| पितृ दोष क्या है | Hindi | Informational | High (primary HI) |
+| पितृ दोष | Hindi | Informational | High |
 | पितृ दोष और पितृ ऋण में अंतर | Hindi | Informational | High |
 | हर साल श्राद्ध क्यों करें | Hindi | Informational, seasonal | Medium |
 | सात पीढ़ी के पितर | Hindi | Informational | Medium |
 | पितृ दोष कितना बड़ा है | Hindi | Navigational (video title) | Low |
 | pitra dosh kya hai | Hinglish | Informational | Medium |
 | ek baar shraddha kafi hai kya | Hinglish | Informational | Low |
-| pitru dosh | English | Informational | High (primary EN) |
-| what is pitru dosh | English | Informational | High |
+| what is pitru dosh | English | Informational | High (primary EN) |
+| pitru dosh | English | Informational | High |
 | pitru dosh vs pitru rin | English | Informational | High |
 | ancestral karma | English | Informational / emotional | Medium |
 | seven generations of ancestors | English | Informational | Medium |
 | Acharya Upendra Ji pitru dosh | English | Navigational | Low |
 
-Keyword wording: the question form people search ("पितृ दोष क्या है" / "what is pitru dosh") never appears in the body, so it cannot pass SureRank's body check. The focus keyword is therefore the bare term "पितृ दोष" / "pitru dosh", which the body uses many times (first in the second section), and the question forms are secondary keywords. If the editor adds the direct answer paragraph (section 5) with the question as its lead-in, the question form could become the focus keyword later.
+Keyword wording: the question form people search ("पितृ दोष क्या है" / "what is pitru dosh") was not in the original body. The SEO fix (seo_fix.md) adds a direct answer paragraph after the H1 with the question as its lead-in, so the `_seo` texts now use it in the first 100 words. The focus keyword is therefore the question form "पितृ दोष क्या है" / "what is pitru dosh", and the bare term "पितृ दोष" / "pitru dosh" moves to the secondary keywords.
 
 Not targeted on purpose: "पितृ दोष के उपाय" / "pitru dosh remedies" and "पितृ दोष के लक्षण" / "pitru dosh symptoms". The post gives neither remedies nor symptoms, so it would not deliver what those searchers want (see flag 5).
 
@@ -37,24 +37,24 @@ Not targeted on purpose: "पितृ दोष के उपाय" / "pitru d
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण (recommended, 54)
-2. पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण (48)
+1. पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण (recommended, 48)
+2. पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण (54)
 3. एक बार का श्राद्ध काफ़ी क्यों नहीं? पितृ दोष और पितृ ऋण (55)
 
 **Hindi meta description** (150 characters)
 पितृ दोष क्या है और एक बार का श्राद्ध काफ़ी क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं पितृ ऋण, पितृ लाभ और सात पीढ़ियों व सात जन्मों के पितरों का कर्म।
 
 **English title options (60 characters or fewer)**
-1. Pitru Dosh: Ancestral Karma Across Seven Lifetimes (recommended, 50)
-2. What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes (58)
+1. What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes (recommended, 58)
+2. Pitru Dosh: Ancestral Karma Across Seven Lifetimes (50)
 3. Is One Shraddha Enough? Pitru Dosh and Ancestral Karma (54)
 
 **English meta description** (152 characters)
 What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes.
 
 **Slugs**
-- Hindi: `/hi/pitru-dosh-saat-peedhi-saat-janm`
-- English: `/en/pitru-dosh-seven-lifetimes`
+- Hindi: `/hi/pitru-dosh-kya-hai`
+- English: `/en/what-is-pitru-dosh`
 
 ## 4. Outline changes
 
@@ -122,7 +122,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-dosh-saat-peedhi-saat-janm/`, `/en/pitru-dosh-seven-lifetimes/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-dosh-kya-hai/`, `/en/what-is-pitru-dosh/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -139,10 +139,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "पितृ दोष कितना गहरा है जब पितर सात जन्मों में फैले हों",
-      "alternativeHeadline": "पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण",
+      "alternativeHeadline": "पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण",
       "description": "पितृ दोष क्या है और एक बार का श्राद्ध काफ़ी क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं पितृ ऋण, पितृ लाभ और सात पीढ़ियों व सात जन्मों के पितरों का कर्म।",
       "inLanguage": "hi",
-      "keywords": ["पितृ दोष", "पितृ दोष क्या है", "पितृ दोष और पितृ ऋण में अंतर", "हर साल श्राद्ध क्यों करें", "सात पीढ़ी के पितर"],
+      "keywords": ["पितृ दोष क्या है", "पितृ दोष", "पितृ दोष और पितृ ऋण में अंतर", "हर साल श्राद्ध क्यों करें", "सात पीढ़ी के पितर"],
       "about": [
         { "@type": "Thing", "name": "पितृ दोष" },
         { "@type": "Thing", "name": "पितृ ऋण" },
@@ -229,10 +229,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "How Deep Pitru Dosh Runs When Your Ancestors Span Seven Lifetimes",
-      "alternativeHeadline": "Pitru Dosh: Ancestral Karma Across Seven Lifetimes",
+      "alternativeHeadline": "What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes",
       "description": "What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes.",
       "inLanguage": "en",
-      "keywords": ["pitru dosh", "what is pitru dosh", "pitru dosh vs pitru rin", "ancestral karma", "seven generations of ancestors"],
+      "keywords": ["what is pitru dosh", "pitru dosh", "pitru dosh vs pitru rin", "ancestral karma", "seven generations of ancestors"],
       "about": [
         { "@type": "Thing", "name": "Pitru Dosh" },
         { "@type": "Thing", "name": "Pitru Rin" },
@@ -350,8 +350,8 @@ The values written to output/big_pitru_dosh_understanding_pitru_rin/blog/seo.jso
 ```json
 {
   "title": {
-    "hi": "पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण",
-    "en": "Pitru Dosh: Ancestral Karma Across Seven Lifetimes"
+    "hi": "पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण",
+    "en": "What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes"
   },
   "alt": {
     "hero.jpg": {
@@ -419,10 +419,10 @@ The values written to output/big_pitru_dosh_understanding_pitru_rin/blog/seo.jso
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "pitru-dosh-saat-peedhi-saat-janm",
-      "focus_keyword": "पितृ दोष",
+      "slug": "pitru-dosh-kya-hai",
+      "focus_keyword": "पितृ दोष क्या है",
       "secondary_keywords": [
-        "पितृ दोष क्या है",
+        "पितृ दोष",
         "पितृ दोष और पितृ ऋण में अंतर",
         "हर साल श्राद्ध क्यों करें",
         "सात पीढ़ी के पितर"
@@ -437,10 +437,10 @@ The values written to output/big_pitru_dosh_understanding_pitru_rin/blog/seo.jso
       ]
     },
     "en": {
-      "slug": "pitru-dosh-seven-lifetimes",
-      "focus_keyword": "pitru dosh",
+      "slug": "what-is-pitru-dosh",
+      "focus_keyword": "what is pitru dosh",
       "secondary_keywords": [
-        "what is pitru dosh",
+        "pitru dosh",
         "pitru dosh vs pitru rin",
         "ancestral karma",
         "seven generations of ancestors"
@@ -474,7 +474,7 @@ The values written to output/big_pitru_dosh_understanding_pitru_rin/blog/seo.jso
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): "पितृ दोष" / "pitru dosh" first appears in the body at about word 130–150 (second section); adding the section 5 direct answer after the H1 would fix it
+- [x] Within the first 100 words (preferred): met in the `_seo` texts, whose new opening direct answer starts with "पितृ दोष क्या है?" / "What is pitru dosh?"
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters

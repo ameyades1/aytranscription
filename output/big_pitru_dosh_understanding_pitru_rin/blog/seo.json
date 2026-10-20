@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण",
-    "en": "Pitru Dosh: Ancestral Karma Across Seven Lifetimes"
+    "hi": "पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण",
+    "en": "What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes"
   },
   "alt": {
     "hero.jpg": {
@@ -69,10 +69,10 @@
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "pitru-dosh-saat-peedhi-saat-janm",
-      "focus_keyword": "पितृ दोष",
+      "slug": "pitru-dosh-kya-hai",
+      "focus_keyword": "पितृ दोष क्या है",
       "secondary_keywords": [
-        "पितृ दोष क्या है",
+        "पितृ दोष",
         "पितृ दोष और पितृ ऋण में अंतर",
         "हर साल श्राद्ध क्यों करें",
         "सात पीढ़ी के पितर"
@@ -87,10 +87,10 @@
       ]
     },
     "en": {
-      "slug": "pitru-dosh-seven-lifetimes",
-      "focus_keyword": "pitru dosh",
+      "slug": "what-is-pitru-dosh",
+      "focus_keyword": "what is pitru dosh",
       "secondary_keywords": [
-        "what is pitru dosh",
+        "pitru dosh",
         "pitru dosh vs pitru rin",
         "ancestral karma",
         "seven generations of ancestors"
