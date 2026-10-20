@@ -57,3 +57,12 @@ Not changed:
 | links, also_read | (unchanged) | (unchanged; no edit touched a phrase or heading) |
 
 No other talk uses either focus keyword or the new slug.
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | 33-koti-devta-ya-ek-bhagwan | 33-crore-gods-one-god |
+| focus keyword | 33 कोटि देवता | 33 crore gods |
+| title | 33 कोटि देवता या एक भगवान? हिंदू धर्म का सच | Why So Many Gods? 33 Crore Gods or One God in Hinduism |
+| meta description | हिंदू धर्म में 33 कोटि देवता क्यों हैं? ब्रह्मर्षि आचार्य उपेंद्र जी बताते हैं कि भगवान एक ही है, ओंकार, और सभी देवता उसी एक की शक्तियाँ और भूमिकाएँ हैं। | Why so many gods in Hinduism? Acharya Upendra Ji explains that God is one, the formless Omkara, and the 33 crore gods are the powers and roles of that One. |
