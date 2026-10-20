@@ -15,14 +15,14 @@ This is a short testimonial, not a discourse by Acharya Ji: a seeker from the re
 | आध्यात्मिक शिविर का अनुभव | Hindi | Informational / navigational | Medium |
 | guru ke saath rehne ka anubhav | Hinglish | Informational | Medium |
 | guru sannidhya kya hai | Hinglish | Informational | Medium |
-| Guru Sannidhya | English | Informational / navigational | High (focus) |
-| being in the presence of a Guru | English | Informational / emotional | High |
+| being in the presence of a Guru | English | Informational / emotional | High (focus) |
+| Guru Sannidhya | English | Informational / navigational | High |
 | Guru's presence | English | Informational / emotional | Medium |
 | what happens in the Guru's presence | English | Informational | High |
 | spiritual retreat experience | English | Informational / navigational | Medium |
 | Antar Yog Guru Sannidhya Shibir | English | Navigational | Low |
 
-Keyword wording: the focus keywords are taken from wording both bodies already use. "गुरु सान्निध्य" is in the Hindi first sentence; "Guru Sannidhya" is in the English first sentence. The English query people most likely search, "being in the presence of a Guru", does not appear in the English body (it only says "the Guru's presence" in the key takeaways), so it is a secondary keyword. Mismatch flagged: if the editor wants to target it directly, a natural sentence in the opening (see section 4) would allow it to become the focus keyword later.
+Keyword wording: the focus keywords are taken from wording the published (`_seo`) texts use. "गुरु सान्निध्य" is in the Hindi first sentence. The English query people most likely search, "being in the presence of a Guru", was missing from the original English body (it only said "the Guru's presence" in the key takeaways). The SEO fix (seo_fix.md) adds it once in a short direct-answer paragraph after the opening, within the first 100 words, so it is now the English focus keyword; "Guru Sannidhya", still in the first sentence, moved to the secondary keywords. No Hindi mismatch.
 
 ## 3. Titles and meta
 
@@ -31,19 +31,19 @@ Keyword wording: the focus keywords are taken from wording both bodies already u
 2. गुरु के सान्निध्य में क्या होता है? एक साधक का अनुभव
 3. गुरु साथ हैं तो डर कैसा? गुरु सान्निध्य शिविर से बोध
 
-Meta description: गुरु सान्निध्य में क्या बदलता है? शिविर के एक साधक बताते हैं कि गुरुदेव के निकट बिताए कुछ दिनों ने उनका चिंतन कैसे बदला, डर कैसे छूटा और खोया बचपन कैसे लौटा।
+Meta description (**recommended**): गुरु सान्निध्य में क्या बदलता है? शिविर के एक साधक बताते हैं कि गुरुदेव के निकट बिताए कुछ दिनों ने उनका चिंतन कैसे बदला, डर कैसे छूटा और खोया बचपन कैसे लौटा।
 
-Slug: `/hi/guru-sannidhya-ka-anubhav/`
+Slug: `/hi/guru-sannidhya-ka-anubhav/` (**recommended**)
 
 **English**
-1. Guru Sannidhya: How the Guru's Presence Changes You (51 characters, **recommended**)
-4. Being in the Guru's Presence: How It Changes Your Thinking (58 characters; better match for the searched wording, but its keyword is not in the body)
+1. Being in the Presence of a Guru: How It Changes You (51 characters, **recommended**; contains the focus keyword, now in the body after the SEO fix)
+4. Guru Sannidhya: How the Guru's Presence Changes You (51 characters; the original recommendation, before the focus keyword changed)
 2. What Happens in the Presence of a Guru? A Seeker's Story
 3. The Guru Is With You, So Why Fear? Lessons from a Shibir
 
-Meta description (155 characters): What happens in the Guru's presence? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased their fear and brought back play.
+Meta description (155 characters, **recommended**): What does being in the presence of a Guru do? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased fear and brought back play.
 
-Slug: `/en/guru-sannidhya-experience/`
+Slug: `/en/being-in-the-presence-of-a-guru/` (**recommended**; was `/en/guru-sannidhya-experience/` before the SEO fix)
 
 The YouTube title says "Mind-Blowing Revelations". The phrase is the seeker's own, but it is kept out of the titles to avoid a clickbait tone (see section 10).
 
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The speaker is a seeker, not Acharya Ji. So `author` is the Antar Yog Foundation, and Acharya Ji (Gurudev in the text) is listed under `mentions`, not as the author (flag 4).
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-sannidhya-ka-anubhav/`, `/en/guru-sannidhya-experience/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-sannidhya-ka-anubhav/`, `/en/being-in-the-presence-of-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -213,10 +213,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "How the Guru's Presence Changes the Way You Think",
-      "alternativeHeadline": "Guru Sannidhya: How the Guru's Presence Changes You",
-      "description": "What happens in the Guru's presence? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased their fear and brought back play.",
+      "alternativeHeadline": "Being in the Presence of a Guru: How It Changes You",
+      "description": "What does being in the presence of a Guru do? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased fear and brought back play.",
       "inLanguage": "en",
-      "keywords": ["Guru Sannidhya", "being in the presence of a Guru", "what happens in the Guru's presence", "Guru's presence", "spiritual retreat experience"],
+      "keywords": ["being in the presence of a Guru", "Guru Sannidhya", "what happens in the Guru's presence", "Guru's presence", "spiritual retreat experience"],
       "about": [
         { "@type": "Thing", "name": "Guru Sannidhya" },
         { "@type": "Thing", "name": "Guru-disciple tradition" },
@@ -324,7 +324,7 @@ The exact values written to `output/being_presence_guru_changes_way_think/blog/s
 {
   "title": {
     "hi": "गुरु सान्निध्य का अनुभव: सोचने का ढंग कैसे बदला",
-    "en": "Guru Sannidhya: How the Guru's Presence Changes You"
+    "en": "Being in the Presence of a Guru: How It Changes You"
   },
   "alt": {
     "hero.jpg": {
@@ -408,15 +408,15 @@ The exact values written to `output/being_presence_guru_changes_way_think/blog/s
       ]
     },
     "en": {
-      "slug": "guru-sannidhya-experience",
-      "focus_keyword": "Guru Sannidhya",
+      "slug": "being-in-the-presence-of-a-guru",
+      "focus_keyword": "being in the presence of a Guru",
       "secondary_keywords": [
-        "being in the presence of a Guru",
+        "Guru Sannidhya",
         "what happens in the Guru's presence",
         "Guru's presence",
         "spiritual retreat experience"
       ],
-      "meta_description": "What happens in the Guru's presence? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased their fear and brought back play.",
+      "meta_description": "What does being in the presence of a Guru do? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased fear and brought back play.",
       "tags": [
         "Seeker Experiences",
         "Sadguru",
