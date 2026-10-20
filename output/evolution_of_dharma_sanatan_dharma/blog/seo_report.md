@@ -28,6 +28,8 @@ The talk traces how Vedic religion grew in stages: the Mantra Samhita (praise of
 | त्रैगुण्यविषया वेदा अर्थ / Gita 2.45 meaning | Hindi / English | Informational (verse) | Low |
 | Acharya Upendra Ji evolution of dharma | English | Navigational | Low |
 
+Keyword note: the searched wording and the body's wording are the same for both focus keywords. The original blog texts did not use them in the body (only in the H1); the SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use "सनातन धर्म का विकास" in the direct-answer paragraph and "the evolution of Sanatan Dharma" in the second paragraph, both within the first 100 words. The English meta description was rewritten to contain the focus keyword.
+
 Not targeted on purpose: "दक्षिणा की शुरुआत", "origin of dakshina", "Shukla vs Krishna Yajurveda", "Yajnavalkya story". The blog's account of each is not supported by scripture as written (section 10), so ranking for them would put a contested claim in front of readers looking for facts.
 
 ## 3. Titles and meta
@@ -37,18 +39,18 @@ Not targeted on purpose: "दक्षिणा की शुरुआत", "ori
 2. वेद के चार भाग: मंत्र संहिता, ब्राह्मण, आरण्यक, उपनिषद (54)
 3. हम पूजा क्यों करते हैं? सनातन धर्म के विकास की कहानी (52)
 
-Meta description: सनातन धर्म का विकास कैसे हुआ? आचार्य उपेंद्र जी बताते हैं वेदों की यात्रा: मंत्र संहिता की स्तुति से ब्राह्मण के कर्मकांड, आरण्यक और उपनिषद के आत्मज्ञान तक।
+Meta description (**recommended**): सनातन धर्म का विकास कैसे हुआ? आचार्य उपेंद्र जी बताते हैं वेदों की यात्रा: मंत्र संहिता की स्तुति से ब्राह्मण के कर्मकांड, आरण्यक और उपनिषद के आत्मज्ञान तक।
 
-Slug: `/hi/sanatan-dharma-ka-vikas`
+Slug (**recommended**): `/hi/sanatan-dharma-ka-vikas`
 
 **English**
 1. Evolution of Sanatan Dharma: From Praise to Self-Knowledge (58 characters) — **recommended**
 2. Four Parts of the Vedas: Samhita to Upanishad (46)
 3. Why Do We Worship? How Sanatan Dharma Evolved, Step by Step (59)
 
-Meta description (150 characters): How did Sanatan Dharma evolve? Acharya Upendra Ji traces the Vedas from praise to ritual, forest reflection and the Upanishads' knowledge of the Self.
+Meta description (152 characters): The evolution of Sanatan Dharma, as Acharya Upendra Ji tells it: the Vedas grew from praise to ritual, forest reflection and Upanishadic Self-knowledge. — **recommended**
 
-Slug: `/en/evolution-of-sanatan-dharma`
+Slug (**recommended**): `/en/evolution-of-sanatan-dharma`
 
 The H1 in the blog text stays as written; the recommended title is the `<title>` tag only.
 
@@ -293,7 +295,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "From Praise to Self-Knowledge: How Sanatan Dharma Evolved",
       "alternativeHeadline": "Evolution of Sanatan Dharma: From Praise to Self-Knowledge",
-      "description": "How did Sanatan Dharma evolve? Acharya Upendra Ji traces the Vedas from praise to ritual, forest reflection and the Upanishads' knowledge of the Self.",
+      "description": "The evolution of Sanatan Dharma, as Acharya Upendra Ji tells it: the Vedas grew from praise to ritual, forest reflection and Upanishadic Self-knowledge.",
       "inLanguage": "en",
       "keywords": [
         "evolution of Sanatan Dharma",
@@ -575,7 +577,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "why do Hindus worship",
         "what are the Aranyakas"
       ],
-      "meta_description": "How did Sanatan Dharma evolve? Acharya Upendra Ji traces the Vedas from praise to ritual, forest reflection and the Upanishads' knowledge of the Self.",
+      "meta_description": "The evolution of Sanatan Dharma, as Acharya Upendra Ji tells it: the Vedas grew from praise to ritual, forest reflection and Upanishadic Self-knowledge.",
       "tags": [
         "Vedas",
         "Upanishads",
@@ -587,3 +589,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the SEO-fixed texts)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the Sanskrit review (flags 1–8 in section 10) found claims in the body attributed to scripture without support; correcting them changes the teaching text, which is the editor's decision, not an SEO fix
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
