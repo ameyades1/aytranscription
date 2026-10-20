@@ -19,9 +19,11 @@ Errors:
     the importer place images and the Also read box by section position when a heading is reworded)
   - an inline image's section heading (images.txt) is in neither original text, so the importer
     would leave the image out of the WordPress post
-Warnings:
-  - the report's section 3 no longer names seo.json's slug, title or meta description (the fix
-    updates only sections 2, 11 and 12; seo.json is what gets published)
+Warnings (the report and seo_fix.md must agree with seo.json, which is what gets published):
+  - the report's section 3 or section 8 (schema) does not show seo.json's slug, title or meta
+    description, for each language
+  - seo_fix.md has no "Final seo.json values" section, or it does not show seo.json's slug,
+    focus keyword, title or meta description, for each language
 """
 import json
 import os
@@ -90,14 +92,32 @@ def verify(talk):
 
     seo = json.load(open(seo_path, encoding='utf-8'))
     report = open(os.path.join(blog, 'seo_report.md'), encoding='utf-8').read()
-    m = re.search(r'^## 3\..*?(?=^## 4\.)', report, re.S | re.M)
-    sec3 = m.group(0) if m else ''
+
+    def section(text, start, end):
+        m = re.search(rf'^## {start}\..*?(?=^## {end}\.|\Z)', text, re.S | re.M)
+        return m.group(0) if m else ''
+
+    def shows(text, value):  # as written, or as escaped inside a JSON string
+        return value in text or json.dumps(value, ensure_ascii=False)[1:-1] in text
+
+    fix_text = open(fix_md, encoding='utf-8').read() if os.path.exists(fix_md) else ''
+    m = re.search(r'^## Final seo\.json values.*?(?=^## |\Z)', fix_text, re.S | re.M)
+    final = m.group(0) if m else None
+    if final is None and fix_text:
+        warn.append('seo_fix.md has no "## Final seo.json values" section')
+    places = {'report section 3': section(report, 3, 4), 'report section 8': section(report, 8, 9)}
     for lang in ('hi', 'en'):
         w = seo.get('wordpress', {}).get(lang, {})
-        for field, value in (('slug', w.get('slug')), ('title', seo.get('title', {}).get(lang)),
-                             ('meta description', w.get('meta_description'))):
-            if value and value not in sec3:
-                warn.append(f'report section 3 does not show the {lang} {field} in seo.json')
+        values = {'slug': w.get('slug'), 'title': seo.get('title', {}).get(lang),
+                  'meta description': w.get('meta_description')}
+        for place, text in places.items():
+            for field, value in values.items():
+                if value and not shows(text, value):
+                    warn.append(f'{place} does not show the {lang} {field} in seo.json')
+        if final is not None:
+            for field, value in dict(values, **{'focus keyword': w.get('focus_keyword')}).items():
+                if value and not shows(final, value):
+                    warn.append(f'seo_fix.md final values do not show the {lang} {field} in seo.json')
     return err, warn
 
 

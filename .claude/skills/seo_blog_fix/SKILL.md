@@ -84,6 +84,9 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
    - For each language, a table of every change (where | before | after | why).
    - The checklist items now met, and those still unmet with the reason.
    - Every seo.json change (field | before | after), including the old and new slug.
+   - Last, a `## Final seo.json values` section: a table (field | Hindi | English) with the
+     slug, focus keyword, title and meta description exactly as they are in seo.json at the
+     end, whether or not they changed. `tools/verify_seo_fix.py` compares it with seo.json.
 
 10. Run `python3 tools/verify_seo_fix.py <name>`: it checks that nothing is stale (fixed texts,
     seo_fix.md, the page, report section 3) and that WordPress would place every image. Fix every
