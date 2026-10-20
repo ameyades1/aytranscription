@@ -25,6 +25,8 @@ A short talk on why we work. Acharya Ji describes two ways to act: acting in ord
 | act from happiness | English | Informational | Low |
 | secret of a successful life | English | Navigational (video title) | Low (the blog does not answer it; see section 10) |
 
+Keyword note: the original blog texts never used either focus keyword word for word. The `_seo` texts (`do_this_one_thing_achieve_successful_life_blog_seo.txt`, `_blog_seo_en.txt`) now use "काम में आनंद कैसे पाएं" and "how to find joy in your work" in a short direct-answer paragraph in the first 100 words and in the second H2, so both focus keywords stay as they are.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -32,18 +34,18 @@ A short talk on why we work. Acharya Ji describes two ways to act: acting in ord
 2. दैनिक जीवन में कर्मयोग: जब काम खेल लगे (38)
 3. खुश होने के लिए नहीं, खुश होकर कर्म करें (40, the H1)
 
-Meta description (148 characters): क्या आप केवल वेतन और बदले के लिए काम करते हैं? आचार्य उपेंद्र जी बताते हैं कि काम में आनंद कैसे पाएं: खुश होकर कर्म करें, यही कर्मयोग की पात्रता है।
+Meta description (148 characters) **(recommended)**: क्या आप केवल वेतन और बदले के लिए काम करते हैं? आचार्य उपेंद्र जी बताते हैं कि काम में आनंद कैसे पाएं: खुश होकर कर्म करें, यही कर्मयोग की पात्रता है।
 
-Slug: `/hi/kaam-mein-anand-kaise-paayen`
+Slug: `/hi/kaam-mein-anand-kaise-paayen` **(recommended)**
 
 **English**
 1. How to Find Joy in Your Work: Act from Happiness (48 characters) **(recommended)**
 2. Karma Yoga in Daily Life: When Work Feels Like Play (51)
 3. Act from Happiness, Not in Search of It (39, the H1)
 
-Meta description (152 characters): Working only for salary and reward? Acharya Upendra Ji explains how to find joy in your work by acting from happiness, which readies you for Karma Yoga.
+Meta description (152 characters) **(recommended)**: Working only for salary and reward? Acharya Upendra Ji explains how to find joy in your work by acting from happiness, which readies you for Karma Yoga.
 
-Slug: `/en/find-joy-in-your-work`
+Slug: `/en/how-to-find-joy-in-your-work` **(recommended)**
 
 Avoid "secret of success" or "success mantra" titles: the talk does not offer one (section 10).
 
@@ -104,7 +106,7 @@ Cannibalization: none with current focus keywords. Watch "work without expectati
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-05 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2025-02-07, 195 seconds.
+For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-05 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2025-02-07, 195 seconds. URL slugs: `{{HI_URL}}` ends in `/hi/kaam-mein-anand-kaise-paayen`, `{{EN_URL}}` in `/en/how-to-find-joy-in-your-work`.
 
 ### Hindi
 
@@ -399,7 +401,7 @@ The exact seo.json written for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "find-joy-in-your-work",
+      "slug": "how-to-find-joy-in-your-work",
       "focus_keyword": "how to find joy in your work",
       "secondary_keywords": [
         "work without expectation",
@@ -417,3 +419,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts' direct answer and second H2 use it; the original body did not)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Bhagavad Gita "passion" line flagged in section 10 is still in the text; a review correction, not an SEO edit)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
