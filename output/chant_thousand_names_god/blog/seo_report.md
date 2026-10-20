@@ -25,14 +25,16 @@ The talk (Ganesh Series, episode 18) answers a question many devotees have: why 
 
 Notes: "Vishnu Sahasranama meaning" has much higher search interest, but the talk is not about the Vishnu Sahasranama in particular, so it should not be targeted in the title. It can appear naturally in the body (it already does).
 
+Keyword note (after /seo_blog_fix): the original Hindi body said only "सहस्रनाम का असली अर्थ", never the searched "सहस्रनाम का अर्थ", so the Hindi focus keyword was missing from the body and the title. The `_seo` texts (what gets published) add a short direct answer after the opening question that uses "सहस्रनाम का अर्थ" (Hindi, about word 87) and "meaning of sahasranama" (English, about word 112). The Hindi title now uses the exact keyword, and both meta descriptions contain it. Focus keywords and slugs are unchanged. See seo_fix.md.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों? (recommended, 48 characters)
+1. सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों? (recommended, 43 characters; was "सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों?" before /seo_blog_fix)
 2. भगवान के हज़ार नाम क्यों? सहस्रनाम पाठ का रहस्य
 3. सहस्रनाम क्यों पढ़ें? हर रूप में एक ही परमात्मा
 
-Meta description: एक ही भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं कि सहस्रनाम का उद्देश्य रटना नहीं, गीता के 'वासुदेवः सर्वम्' की तरह हर रूप में परमात्मा को देखना है।
+Meta description (159 characters, recommended): सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है।
 
 Slug: `/hi/sahasranam-ka-arth`
 
@@ -41,7 +43,7 @@ Slug: `/hi/sahasranam-ka-arth`
 2. Why Chant a Thousand Names of God? Sahasranama Explained
 3. A Thousand Names, One God: The Real Meaning of Sahasranama
 
-Meta description (144 characters): Why chant a thousand names of one God? Acharya Upendra Ji explains that a sahasranama is not rote repetition but a way to see God in every form.
+Meta description (155 characters, recommended): What is the meaning of sahasranama? Acharya Upendra Ji explains why we chant a thousand names of one God: not rote repetition, but to see God in all forms.
 
 Slug: `/en/meaning-of-sahasranama`
 
@@ -116,8 +118,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "हज़ार नाम एक ही परमात्मा के",
-      "alternativeHeadline": "सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों?",
-      "description": "एक ही भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं कि सहस्रनाम का उद्देश्य रटना नहीं, गीता के 'वासुदेवः सर्वम्' की तरह हर रूप में परमात्मा को देखना है।",
+      "alternativeHeadline": "सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों?",
+      "description": "सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है।",
       "inLanguage": "hi",
       "keywords": ["सहस्रनाम का अर्थ", "भगवान के हज़ार नाम क्यों", "सहस्रनाम पाठ क्यों करें", "वासुदेवः सर्वम् का अर्थ", "ॐ तत्सत् का अर्थ"],
       "about": [
@@ -207,7 +209,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "A Thousand Names of the One God",
       "alternativeHeadline": "Meaning of Sahasranama: Why Chant 1000 Names of God?",
-      "description": "Why chant a thousand names of one God? Acharya Upendra Ji explains that a sahasranama is not rote repetition but a way to see God in every form.",
+      "description": "What is the meaning of sahasranama? Acharya Upendra Ji explains why we chant a thousand names of one God: not rote repetition, but to see God in all forms.",
       "inLanguage": "en",
       "keywords": ["meaning of sahasranama", "why chant 1000 names of God", "why recite sahasranama", "Vasudevah sarvam meaning", "Om Tat Sat meaning"],
       "about": [
@@ -332,7 +334,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
 ```json
 {
   "title": {
-    "hi": "सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों?",
+    "hi": "सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों?",
     "en": "Meaning of Sahasranama: Why Chant 1000 Names of God?"
   },
   "alt": {
@@ -404,7 +406,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "वासुदेवः सर्वम् का अर्थ",
         "ॐ तत्सत् का अर्थ"
       ],
-      "meta_description": "एक ही भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं कि सहस्रनाम का उद्देश्य रटना नहीं, गीता के 'वासुदेवः सर्वम्' की तरह हर रूप में परमात्मा को देखना है।",
+      "meta_description": "सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है।",
       "tags": [
         "गणेश सीरीज़",
         "सहस्रनाम",
@@ -422,7 +424,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "Vasudevah sarvam meaning",
         "Om Tat Sat meaning"
       ],
-      "meta_description": "Why chant a thousand names of one God? Acharya Upendra Ji explains that a sahasranama is not rote repetition but a way to see God in every form.",
+      "meta_description": "What is the meaning of sahasranama? Acharya Upendra Ji explains why we chant a thousand names of one God: not rote repetition, but to see God in all forms.",
       "tags": [
         "Ganesh Series",
         "Sahasranama",
@@ -434,3 +436,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [ ] Within the first 100 words (preferred) (met in Hindi (about word 87); in English at about word 112, because the direct answer has to follow the question it answers)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
