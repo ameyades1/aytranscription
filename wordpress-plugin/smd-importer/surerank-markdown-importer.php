@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SureRank Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata. Creates posts as Pending Review; never publishes.
- * Version: 1.4.0
+ * Version: 1.5.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,9 +12,13 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_SureRank_Markdown_Importer {
-    const VERSION = '1.4.0';
+    const VERSION = '1.5.0';
     const META_IMAGE_HASH = '_smd_image_hash';
     const MAX_IMAGE_BYTES = 10485760; // 10 MB per image
+    const MAX_ZIP_BYTES = 52428800; // 50 MB per zip
+    const MAX_ZIP_ENTRIES = 100;
+
+    private $temp_files = [];
     const META_SEO_TITLE = 'smd_seo_title';
     const META_SEO_DESCRIPTION = 'smd_seo_description';
     const META_CANONICAL = 'smd_canonical_url';
@@ -63,15 +67,15 @@ class SMD_SureRank_Markdown_Importer {
         ?>
         <div class="wrap">
           <h1>Markdown Blog Importer</h1>
-          <p>Upload one Markdown <code>.md</code> file. Posts are created as <strong>Pending Review</strong> and never published; existing posts with the same slug are not overwritten.</p>
+          <p>Upload one Markdown <code>.md</code> file, or one <code>.zip</code> holding the <code>.md</code> and its images. Posts are created as <strong>Pending Review</strong> and never published; existing posts with the same slug are not overwritten.</p>
           <?php if (!$sure): ?><div class="notice notice-warning"><p>SureRank was not detected automatically. The importer will still create posts, but verify your SureRank integration before publishing.</p></div><?php else: ?><div class="notice notice-info"><p>SureRank appears to be active. The SEO title, meta description, focus keyword, canonical URL and robots setting are written to the post's SureRank settings.</p></div><?php endif; ?>
           <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" enctype="multipart/form-data">
             <?php wp_nonce_field('smd_import_markdown'); ?>
             <input type="hidden" name="action" value="smd_import_markdown">
-            <table class="form-table"><tr><th scope="row"><label for="smd_markdown_file">Markdown file</label></th><td><input type="file" id="smd_markdown_file" name="smd_markdown_file" accept=".md,.markdown,text/markdown,text/plain" required><p class="description">Maximum size: 2 MB. Use the provided template format.</p></td></tr>
-            <tr><th scope="row"><label for="smd_images">Images</label></th><td><input type="file" id="smd_images" name="smd_images[]" accept="image/jpeg,image/png,image/webp,image/gif" multiple><p class="description">Optional. Select the hero and inline images the Markdown refers to by file name: <code>featured_image: hero.jpg</code> in the front matter becomes the featured image, and a line <code>![alt text](inline.jpg "caption")</code> in the body places that image there. Maximum 10 MB per image.</p></td></tr>
+            <table class="form-table"><tr><th scope="row"><label for="smd_markdown_file">Markdown or zip file</label></th><td><input type="file" id="smd_markdown_file" name="smd_markdown_file" accept=".md,.markdown,.zip,text/markdown,text/plain,application/zip" required><p class="description">A <code>.md</code> file (maximum 2 MB) in the template format, or a <code>.zip</code> (maximum 50 MB) containing exactly one <code>.md</code> file and the images it names, in any folder.</p></td></tr>
+            <tr><th scope="row"><label for="smd_images">Images</label></th><td><input type="file" id="smd_images" name="smd_images[]" accept="image/jpeg,image/png,image/webp,image/gif" multiple><p class="description">Optional, and not needed when the zip holds the images. Select the hero and inline images the Markdown refers to by file name: <code>featured_image: hero.jpg</code> in the front matter becomes the featured image, and a line <code>![alt text](inline.jpg "caption")</code> in the body places that image there. Maximum 10 MB per image.</p></td></tr>
             <tr><th scope="row">Import behavior</th><td><label><input type="checkbox" name="smd_allow_update" value="1"> Update an existing pending or draft post with the same slug (never updates published or scheduled posts)</label></td></tr></table>
-            <?php submit_button('Import as Draft'); ?>
+            <?php submit_button('Import for Review'); ?>
           </form>
           <hr><h2>SEO custom fields</h2>
           <p>The SEO title, meta description, focus keyword and canonical URL go into SureRank's per-post settings (<code>surerank_settings_general</code>), and the robots value into its no-index and no-follow flags, so the SureRank panel shows them. Copies are also kept in <code>smd_seo_title</code>, <code>smd_seo_description</code>, <code>smd_canonical_url</code> and <code>smd_robots</code>. Schema is not written.</p>
@@ -84,10 +88,20 @@ class SMD_SureRank_Markdown_Importer {
         if (!current_user_can('edit_posts')) wp_die('You do not have permission to import posts.');
         check_admin_referer('smd_import_markdown');
         if (empty($_FILES['smd_markdown_file']['tmp_name']) || !is_uploaded_file($_FILES['smd_markdown_file']['tmp_name'])) $this->redirect('error', 'Please select a Markdown file.');
-        if (!empty($_FILES['smd_markdown_file']['size']) && (int) $_FILES['smd_markdown_file']['size'] > 2 * 1024 * 1024) $this->redirect('error', 'File exceeds the 2 MB limit.');
         $filename = sanitize_file_name($_FILES['smd_markdown_file']['name']);
-        if (!preg_match('/\.(md|markdown)$/i', $filename)) $this->redirect('error', 'Only .md or .markdown files are accepted.');
-        $raw = file_get_contents($_FILES['smd_markdown_file']['tmp_name']);
+        $size = (int) ($_FILES['smd_markdown_file']['size'] ?? 0);
+        $zip_images = [];
+        if (preg_match('/\.zip$/i', $filename)) {
+            if ($size > self::MAX_ZIP_BYTES) $this->redirect('error', 'The zip exceeds the 50 MB limit.');
+            register_shutdown_function([$this, 'remove_temp_files']);
+            $zip = $this->read_zip($_FILES['smd_markdown_file']['tmp_name']);
+            if (is_wp_error($zip)) $this->redirect('error', $zip->get_error_message());
+            $raw = $zip['markdown']; $zip_images = $zip['images'];
+        } else {
+            if ($size > 2 * 1024 * 1024) $this->redirect('error', 'File exceeds the 2 MB limit.');
+            if (!preg_match('/\.(md|markdown)$/i', $filename)) $this->redirect('error', 'Only .md, .markdown or .zip files are accepted.');
+            $raw = file_get_contents($_FILES['smd_markdown_file']['tmp_name']);
+        }
         if ($raw === false || trim($raw) === '') $this->redirect('error', 'The uploaded file is empty or could not be read.');
         $doc = $this->parse_document($raw);
         if (is_wp_error($doc)) $this->redirect('error', $doc->get_error_message());
@@ -103,9 +117,10 @@ class SMD_SureRank_Markdown_Importer {
         if ($refs && !current_user_can('upload_files')) $this->redirect('error', 'This file uses images, and you do not have permission to upload files.');
         $files = $this->uploaded_images();
         if (is_wp_error($files)) $this->redirect('error', $files->get_error_message());
+        $files = array_merge($zip_images, $files); // an image picked in the Images field wins over the zip's copy
         $missing = [];
         foreach ($refs as $ref) if (!$this->is_remote($ref) && !isset($files[$this->image_key($ref)])) $missing[] = $ref;
-        if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Select them in the Images field.');
+        if ($missing) $this->redirect('error', 'These images are referenced but were not uploaded: ' . implode(', ', array_unique($missing)) . '. Add them to the zip or select them in the Images field.');
         $images = $this->import_images($refs, $files);
         if (is_wp_error($images)) $this->redirect('error', $images->get_error_message());
         $content = $this->markdown_to_html($body, $images);
@@ -214,6 +229,50 @@ class SMD_SureRank_Markdown_Importer {
             $out[$this->image_key($name)] = ['name' => $name, 'type' => $type['type'], 'tmp_name' => $f['tmp_name'][$i], 'error' => 0, 'size' => (int) $f['size'][$i]];
         }
         return $out;
+    }
+
+    /**
+     * Reads an uploaded zip: exactly one .md/.markdown file (its text) and its JPEG, PNG, WebP and
+     * GIF images, keyed by image_key() of their file names and written to temporary files.
+     * Folders inside the zip are ignored, as are macOS __MACOSX entries, hidden files and other types.
+     * Entries are read into memory and never extracted by their own paths.
+     */
+    private function read_zip($path) {
+        if (!class_exists('ZipArchive')) return new WP_Error('smd_zip', 'This server cannot open zip files (the PHP zip extension is missing). Upload the .md file and select its images instead.');
+        $zip = new ZipArchive();
+        if ($zip->open($path) !== true) return new WP_Error('smd_zip', 'The zip file could not be opened.');
+        if ($zip->numFiles > self::MAX_ZIP_ENTRIES) { $zip->close(); return new WP_Error('smd_zip', 'The zip holds more than ' . self::MAX_ZIP_ENTRIES . ' files.'); }
+        $markdown = []; $images = [];
+        for ($i = 0; $i < $zip->numFiles; $i++) {
+            $stat = $zip->statIndex($i);
+            $entry = str_replace('\\', '/', $stat['name']);
+            $base = wp_basename($entry);
+            if (substr($entry, -1) === '/' || $base === '' || $base[0] === '.' || preg_match('#(^|/)__MACOSX/#', $entry)) continue;
+            if (preg_match('/\.(md|markdown)$/i', $base)) {
+                if ($stat['size'] > 2 * 1024 * 1024) { $zip->close(); return new WP_Error('smd_zip', "$base exceeds the 2 MB limit."); }
+                $markdown[] = $i;
+            } elseif (preg_match('/\.(jpe?g|png|webp|gif)$/i', $base)) {
+                $name = sanitize_file_name($base);
+                if ($stat['size'] > self::MAX_IMAGE_BYTES) { $zip->close(); return new WP_Error('smd_image', "The image $name exceeds the 10 MB limit."); }
+                $key = $this->image_key($name);
+                if (isset($images[$key])) { $zip->close(); return new WP_Error('smd_zip', "The zip holds more than one image named $name."); }
+                $tmp = wp_tempnam($name);
+                $this->temp_files[] = $tmp;
+                if (file_put_contents($tmp, $zip->getFromIndex($i)) === false) { $zip->close(); return new WP_Error('smd_zip', "The image $name could not be read from the zip."); }
+                $type = wp_check_filetype_and_ext($tmp, $name);
+                if (!in_array($type['type'], ['image/jpeg', 'image/png', 'image/webp', 'image/gif'], true)) { $zip->close(); return new WP_Error('smd_image', "$name is not a JPEG, PNG, WebP or GIF image."); }
+                $images[$key] = ['name' => $name, 'type' => $type['type'], 'tmp_name' => $tmp, 'error' => 0, 'size' => (int) $stat['size']];
+            }
+        }
+        if (count($markdown) !== 1) { $zip->close(); return new WP_Error('smd_zip', count($markdown) ? 'The zip holds more than one Markdown file; it must hold exactly one.' : 'The zip holds no .md or .markdown file.'); }
+        $raw = $zip->getFromIndex($markdown[0]);
+        $zip->close();
+        return ['markdown' => $raw, 'images' => $images];
+    }
+
+    /** Deletes the zip's temporary image files that the Media Library did not take over. */
+    public function remove_temp_files() {
+        foreach ($this->temp_files as $tmp) if (file_exists($tmp)) @unlink($tmp);
     }
 
     /**

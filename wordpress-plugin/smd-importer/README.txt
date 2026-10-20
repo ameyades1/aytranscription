@@ -1,8 +1,8 @@
-SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.4.0
+SURE RANK MARKDOWN BLOG IMPORTER — VERSION 1.5.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
-- Accepts one .md/.markdown file (maximum 2 MB).
+- Accepts one .md/.markdown file (maximum 2 MB), or one .zip (maximum 50 MB) holding the .md and its images.
 - Converts basic Markdown headings, paragraphs, bold/italic, links, lists, blockquotes and horizontal rules.
 - Creates the WordPress post as PENDING REVIEW (never publishes automatically). An editor reviews it and publishes it.
 - Supports title, slug, excerpt, categories, tags, SEO title, meta description, canonical URL and robots directive in front matter.
@@ -18,7 +18,7 @@ INSTALLATION
 1. In WordPress admin, go to Plugins > Add New Plugin > Upload Plugin.
 2. Upload surerank-markdown-importer.zip and click Install Now, then Activate.
 3. Go to Tools > Markdown Blog Importer.
-4. Upload a .md file using the format below, and select its images (if any) in the Images field.
+4. Upload a .md file using the format below and select its images (if any) in the Images field, or upload one .zip holding the .md and its images.
 5. Open the resulting pending post and review it in Astra and in the SureRank panel before publishing.
 
 MARKDOWN TEMPLATE EXAMPLE
@@ -89,10 +89,17 @@ ALSO READ AND VIDEO
 - A line "Also read: [Post title](https://...)" becomes a boxed link. If a post on this site has the URL's last path segment as its slug (index.html is ignored), the box shows that post's featured image as a thumbnail. The link itself is kept as written.
 - A line that is only a YouTube link, [Title](https://www.youtube.com/watch?v=...) or a bare URL, becomes an embedded video, with the link text as its caption. Watch, youtu.be, embed, shorts and live links all work.
 
+ZIP UPLOAD
+- Instead of the .md file and separate images, upload one .zip in the Markdown field. It must hold exactly one .md or .markdown file; its images (JPEG, PNG, WebP or GIF) may sit beside it or in any folder, such as assets/.
+- Images are matched by file name as above, so two images with the same file name in different folders are rejected.
+- Other files, hidden files and macOS __MACOSX entries are ignored. At most 100 files, 2 MB for the .md and 10 MB per image.
+- An image also picked in the Images field replaces the zip's copy of it.
+- The server's PHP upload_max_filesize and post_max_size must allow the zip's size.
+
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 1.4.0
+LIMITATIONS IN VERSION 1.5.0
 - Does not write SureRank schema settings.
 - Markdown support is intentionally basic. Fenced code blocks, tables, images inside a paragraph (an image must be on its own line) and nested lists are not supported in this first version.
 - Always back up the site and test on staging before installing on a production website.
