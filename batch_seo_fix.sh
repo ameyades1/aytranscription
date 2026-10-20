@@ -5,6 +5,9 @@
 # to them, and rebuilds the talk's page. A talk is done when tools/verify_seo_fix.py --strict
 # passes (fixed copies current, check_seo.py passing, page and seo_fix.md current, every report
 # section matching seo.json), so the script can be stopped and re-run at any time.
+# Each talk is committed and pushed as soon as it is done (set PUSH=0 to only commit, COMMIT=0 to
+# do neither): its fixed texts, seo.json, report, seo_fix.md, and every blog page and the blog
+# index that the rebuild changed. Nothing else in the working tree is committed.
 # Talks without a seo.json are skipped (run /seo_blog first). When Claude hits a usage limit, it
 # waits and retries. At the end every talk is checked again. No WordPress work; nothing is committed.
 #
@@ -18,6 +21,8 @@
 #   LIMIT_WAIT       seconds to wait after a usage limit before retrying (default: 1800)
 #   MAX_FAILURES     other failures allowed per talk before skipping it (default: 2)
 #   PAUSE            seconds to wait after each talk, to leave usage for other work (default: 3600)
+#   COMMIT           set to 0 to not commit finished talks (default: 1)
+#   PUSH             set to 0 to commit without pushing (default: 1)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
@@ -29,6 +34,8 @@ PERMISSION_MODE="${PERMISSION_MODE:-auto}"
 LIMIT_WAIT="${LIMIT_WAIT:-1800}"
 MAX_FAILURES="${MAX_FAILURES:-2}"
 PAUSE="${PAUSE:-3600}"
+COMMIT="${COMMIT:-1}"
+PUSH="${PUSH:-1}"
 LOG_DIR="tools/batch_logs/seo_fix"
 
 RED='\033[0;31m'
@@ -44,6 +51,24 @@ mkdir -p "$LOG_DIR"
 
 is_usage_limit() {
     grep -qiE "usage limit|spend limit|session limit|limit reached|rate limit|limit will reset|limit resets|out of extra usage|429" "$1"
+}
+
+# commit_talk <name>: commit the talk's SEO files and the rebuilt pages, then push
+commit_talk() {
+    local n="$1" d="output/$1"
+    [ "$COMMIT" = 1 ] || return 0
+    git add -- "$d/${n}_blog_seo.txt" "$d/${n}_blog_seo_en.txt" "$d/blog/seo.json" \
+        "$d/blog/seo_report.md" "$d/blog/seo_fix.md" "$d/blog/index.html" &&
+    git add -u -- 'output/*/blog/index.html' output/index.html || return 1
+    git diff --cached --quiet && return 0
+    git commit -q -m "SEO fix: $n
+
+Written by /seo_blog_fix (batch_seo_fix.sh); every change is listed in
+$d/blog/seo_fix.md. Pages rebuilt from the fixed texts.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || return 1
+    [ "$PUSH" = 1 ] || return 0
+    git pull -q --rebase --autostash && git push -q
 }
 
 # A talk is done when its fix is current and consistent, with no warnings
@@ -98,6 +123,11 @@ for name in "${talks[@]}"; do
     done
 
     done_count=$((done_count + 1))
+    if commit_talk "$name"; then
+        log_info "$name: committed$([ "$PUSH" = 1 ] && echo ' and pushed')"
+    else
+        log_error "$name: commit or push failed; the talk's files are left for a manual commit"
+    fi
     log_info "$name: done ($(tail -1 "$log" | cut -c1-150))"
     [ "$PAUSE" -gt 0 ] && sleep "$PAUSE"
 done
