@@ -1,6 +1,6 @@
 {
   "title": {
-    "hi": "गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है",
+    "hi": "गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप",
     "en": "How to Choose a Ganesh Idol: Whose Form Should It Follow?"
   },
   "alt": {
@@ -64,7 +64,7 @@
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "ganpati-ki-murti-kaisi-ho",
+      "slug": "ganpati-ki-murti-kaisi-honi-chahiye",
       "focus_keyword": "गणपति की मूर्ति कैसी होनी चाहिए",
       "secondary_keywords": [
         "गणेश मूर्ति कैसे चुनें",
@@ -80,7 +80,7 @@
       ]
     },
     "en": {
-      "slug": "how-to-choose-ganesh-idol",
+      "slug": "how-to-choose-a-ganesh-idol",
       "focus_keyword": "how to choose a Ganesh idol",
       "secondary_keywords": [
         "which Ganpati idol to bring home",

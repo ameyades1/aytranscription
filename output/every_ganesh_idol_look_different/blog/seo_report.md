@@ -22,27 +22,29 @@ The talk (Ganesh Series, episode 7) asks a question every family faces before Ga
 | sakar and nirakar worship | English | Informational | Medium |
 | Acharya Upendra Ji Ganesh Series | English | Navigational | Low |
 
+Keyword note: the focus keywords are the searched wordings "गणपति की मूर्ति कैसी होनी चाहिए" and "how to choose a Ganesh idol". The original bodies used neither (the Hindi asked only "उसका रूप कौन तय करता है?", the English "the form of the idol you bring home"); the `_seo` texts now use each once in a short direct answer within the first 100 words, and the question "हर गणपति की मूर्ति अलग क्यों दिखती है?" / "Why Does Every Ganesh Idol Look Different?" is now the first H2.
+
 Seasonal: refresh the post and push it on social channels in July–August each year, ahead of the idol-booking season.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है (recommended)
-2. गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप
+1. गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप (recommended; in seo.json)
+2. गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है (the earlier choice; it lacks the exact focus keyword)
 3. गणेश मूर्ति कैसे चुनें: रूप किसकी पसंद से?
 
-Meta description: गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है।
+Meta description (recommended; in seo.json): गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है।
 
-Slug: /hi/ganpati-ki-murti-kaisi-ho/
+Slug: /hi/ganpati-ki-murti-kaisi-honi-chahiye/
 
 **English**
-1. How to Choose a Ganesh Idol: Whose Form Should It Follow? (recommended)
+1. How to Choose a Ganesh Idol: Whose Form Should It Follow? (recommended; in seo.json)
 2. Why Does Every Ganesh Idol Look Different?
 3. Which Ganpati Idol to Bring Home? Follow the Sages
 
-Meta description (153 characters): How to choose a Ganesh idol? Acharya Upendra Ji explains why its form should follow the sages' description, not trends, and why the idol is a first step.
+Meta description (153 characters; recommended; in seo.json): How to choose a Ganesh idol? Acharya Upendra Ji explains why its form should follow the sages' description, not trends, and why the idol is a first step.
 
-Slug: /en/how-to-choose-ganesh-idol/
+Slug: /en/how-to-choose-a-ganesh-idol/
 
 ## 4. Outline changes
 
@@ -103,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-ki-murti-kaisi-ho/`, `/en/how-to-choose-ganesh-idol/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-ki-murti-kaisi-honi-chahiye/`, `/en/how-to-choose-a-ganesh-idol/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -119,7 +121,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "गणपति किसकी पसंद से आते हैं",
-      "alternativeHeadline": "गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है",
+      "alternativeHeadline": "गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप",
       "description": "गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है।",
       "inLanguage": "hi",
       "keywords": ["गणपति की मूर्ति कैसी होनी चाहिए", "गणेश मूर्ति कैसे चुनें", "हर गणपति की मूर्ति अलग क्यों", "साकार और निराकार पूजा"],
@@ -329,7 +331,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
 ```json
 {
   "title": {
-    "hi": "गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है",
+    "hi": "गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप",
     "en": "How to Choose a Ganesh Idol: Whose Form Should It Follow?"
   },
   "alt": {
@@ -393,7 +395,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "ganpati-ki-murti-kaisi-ho",
+      "slug": "ganpati-ki-murti-kaisi-honi-chahiye",
       "focus_keyword": "गणपति की मूर्ति कैसी होनी चाहिए",
       "secondary_keywords": [
         "गणेश मूर्ति कैसे चुनें",
@@ -409,7 +411,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
       ]
     },
     "en": {
-      "slug": "how-to-choose-ganesh-idol",
+      "slug": "how-to-choose-a-ganesh-idol",
       "focus_keyword": "how to choose a Ganesh idol",
       "secondary_keywords": [
         "which Ganpati idol to bring home",
@@ -427,3 +429,77 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+This report had no checklist when it was written; it was added with the SEO fix and reflects the `_seo` texts and the current seo.json.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (गणपति की मूर्ति कैसी होनी चाहिए / how to choose a Ganesh idol, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2's keyword note)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] One H2 phrased as the question readers search ("हर गणपति की मूर्ति अलग क्यों दिखती है?" / "Why Does Every Ganesh Idol Look Different?")
+- [x] A short direct answer (40–60 words) early in the post
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the blog quotes no verse; the Sanskrit review's two Minor issues, "सोला"/"sovale" and the zero-to-six analogy, remain for the editor; section 10)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
