@@ -25,25 +25,27 @@ A short discourse (3:23) in which Acharya Upendra Ji answers a common confusion 
 
 Gita 4.11 ("ye yathā māṁ prapadyante") is not targeted here: `life_boomerang_before_react` already owns "Bhagavad Gita 4.11 meaning" / "ये यथा मां प्रपद्यन्ते का अर्थ".
 
+Keyword match: the Hindi focus keyword "सबमें भगवान देखने का अर्थ" is already in the opening sentence of the blog. The English blog only said "Does seeing God in everyone mean ...", not the searched wording "what does seeing God in everyone mean"; the `_seo` text (`see_lord_everyone_but_treat_merit_blog_seo_en.txt`) now opens with "What does seeing God in everyone mean?", so it stays the English focus keyword, and the English title, meta description and slug now contain it. Each language also has a 40–60 word direct answer after the opening and two question H2s ("गीता ५.१८ में समदर्शन का अर्थ क्या है?", "क्या सबमें भगवान देखने का अर्थ सबसे एक जैसा व्यवहार है?" / "What Does Gita 5.18 Mean by Equal Vision?", "Does Seeing God in Everyone Mean Treating Everyone Alike?").
+
 ## 3. Titles and meta
 
 **Hindi**
-1. सबमें भगवान देखने का अर्थ: व्यवहार योग्यता से (गीता 5.18) (recommended, 57 characters)
+1. सबमें भगवान देखने का अर्थ: व्यवहार योग्यता से (गीता 5.18) (recommended, 57 characters; in seo.json)
 2. समदर्शन का अर्थ: सबमें भगवान, पर बर्ताव योग्यता से
 3. क्या सबसे एक जैसा व्यवहार करें? गीता का समदर्शन
 
-Meta description: क्या सबमें भगवान देखने का अर्थ सबसे एक जैसा व्यवहार है? आचार्य उपेंद्र जी समझाते हैं गीता ५.१८ का समदर्शन, योग्यता से व्यवहार और दुर्गा देवी का लंबा युद्ध।
+Meta description (recommended, in seo.json): क्या सबमें भगवान देखने का अर्थ सबसे एक जैसा व्यवहार है? आचार्य उपेंद्र जी समझाते हैं गीता ५.१८ का समदर्शन, योग्यता से व्यवहार और दुर्गा देवी का लंबा युद्ध।
 
-Slug: `/hi/sabmein-bhagwan-vyavhar-yogyata-se`
+Slug (recommended, in seo.json): `/hi/sabmein-bhagwan-vyavhar-yogyata-se`
 
 **English**
-1. See God in Everyone, Treat on Merit: Gita 5.18 Explained (recommended, 56 characters)
-2. What Does Seeing God in Everyone Mean? Equal Vision vs Merit
+1. What Does Seeing God in Everyone Mean? Equal Vision vs Merit (recommended, 60 characters; in seo.json)
+2. See God in Everyone, Treat on Merit: Gita 5.18 Explained (56 characters; the earlier recommendation, which lacked the focus keyword)
 3. Equal Vision in the Gita: See Alike, Don't Treat Alike
 
-Meta description (154 characters): Does seeing God in everyone mean treating all alike? Acharya Upendra Ji explains Gita 5.18, why we must treat each on merit, and why Durga fought so long.
+Meta description (153 characters, recommended, in seo.json): What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long.
 
-Slug: `/en/see-god-in-everyone-treat-on-merit`
+Slug (recommended, in seo.json): `/en/what-does-seeing-god-in-everyone-mean` (earlier: `/en/see-god-in-everyone-treat-on-merit`)
 
 ## 4. Outline changes
 
@@ -91,7 +93,7 @@ FAQ 4 must stay attributed to Acharya Ji (see flag 1). FAQ 5 keeps the blog's wo
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-06-08, duration 203 s (PT3M23S), title "See Lord in Everyone but Treat on Merit | Rare Insights by Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing. No FAQPage block is included; add one only if the FAQ in section 6 is published on the page.
+For later use in WordPress; not added to the page. URL slugs: `/hi/sabmein-bhagwan-vyavhar-yogyata-se`, `/en/what-does-seeing-god-in-everyone-mean`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-06-08, duration 203 s (PT3M23S), title "See Lord in Everyone but Treat on Merit | Rare Insights by Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing. No FAQPage block is included; add one only if the FAQ in section 6 is published on the page.
 
 **Hindi**
 
@@ -236,8 +238,8 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@type": "BlogPosting",
       "@id": "{{EN_POST_URL}}#article",
       "headline": "See God in Everyone, but Treat Each on Merit",
-      "alternativeHeadline": "See God in Everyone, Treat on Merit: Gita 5.18 Explained",
-      "description": "Does seeing God in everyone mean treating all alike? Acharya Upendra Ji explains Gita 5.18, why we must treat each on merit, and why Durga fought so long.",
+      "alternativeHeadline": "What Does Seeing God in Everyone Mean? Equal Vision vs Merit",
+      "description": "What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long.",
       "inLanguage": "en",
       "keywords": "what does seeing God in everyone mean, Bhagavad Gita 5.18 meaning, samadarshan equal vision, sama dana danda bheda, why Durga fought a long battle",
       "about": [
@@ -315,7 +317,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@type": "VideoObject",
       "@id": "{{EN_POST_URL}}#video",
       "name": "See Lord in Everyone but Treat on Merit | Rare Insights by Acharya Upendra Ji",
-      "description": "Does seeing God in everyone mean treating all alike? Acharya Upendra Ji explains Gita 5.18, why we must treat each on merit, and why Durga fought so long.",
+      "description": "What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long.",
       "thumbnailUrl": "https://i.ytimg.com/vi/H9n35RembE0/hqdefault.jpg",
       "uploadDate": "2026-06-08",
       "duration": "PT3M23S",
@@ -350,7 +352,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "See God in Everyone, Treat on Merit: Gita 5.18 Explained",
+          "name": "What Does Seeing God in Everyone Mean? Equal Vision vs Merit",
           "item": "{{EN_POST_URL}}"
         }
       ]
@@ -396,7 +398,7 @@ The exact values written to `output/see_lord_everyone_but_treat_merit/blog/seo.j
 {
   "title": {
     "hi": "सबमें भगवान देखने का अर्थ: व्यवहार योग्यता से (गीता 5.18)",
-    "en": "See God in Everyone, Treat on Merit: Gita 5.18 Explained"
+    "en": "What Does Seeing God in Everyone Mean? Equal Vision vs Merit"
   },
   "alt": {
     "hero.jpg": {
@@ -476,7 +478,7 @@ The exact values written to `output/see_lord_everyone_but_treat_merit/blog/seo.j
       ]
     },
     "en": {
-      "slug": "see-god-in-everyone-treat-on-merit",
+      "slug": "what-does-seeing-god-in-everyone-mean",
       "focus_keyword": "what does seeing God in everyone mean",
       "secondary_keywords": [
         "Bhagavad Gita 5.18 meaning",
@@ -484,7 +486,7 @@ The exact values written to `output/see_lord_everyone_but_treat_merit/blog/seo.j
         "sama dana danda bheda",
         "why Durga fought a long battle"
       ],
-      "meta_description": "Does seeing God in everyone mean treating all alike? Acharya Upendra Ji explains Gita 5.18, why we must treat each on merit, and why Durga fought so long.",
+      "meta_description": "What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long.",
       "tags": [
         "Bhagavad Gita",
         "Equal Vision",
@@ -495,3 +497,75 @@ The exact values written to `output/see_lord_everyone_but_treat_merit/blog/seo.j
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (English: in the `_seo` text's opening sentence)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] Some H2s phrased as natural search questions (two more in each `_seo` text)
+- [x] A 40–60 word direct answer near the start (in the `_seo` texts)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the Durga dialogue reads as scripture, "treat on merit" is given as the Gita's message, and the partial verses 4.8/4.11 are not marked (flags 1–6); the wording fixes change the blog text beyond SEO and are left to the editor
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
