@@ -24,6 +24,8 @@ A short discourse (3 min 30 s) in which Acharya Upendra Ji says the first duty o
 | what is the purpose of human life Hinduism | English | Informational | Low (crowded; secondary angle only) |
 | Acharya Upendra Ji first duty | English / navigational | Navigational | Low |
 
+Keyword note: the searched wording is the focus keyword in both languages (जीवन का प्रथम कर्तव्य / first duty in life). The original blog texts only say "प्रथम कर्तव्य क्या था" / "first duty was", so the keyword was missing from the body. The `_seo` texts (`know_your_first_duty_in_life_blog_seo.txt`, `_blog_seo_en.txt`) now use it in a short direct answer within the first 100 words and in the first `##` heading; see `seo_fix.md`.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -52,7 +54,7 @@ The H1 and teaching stay as they are. Suggested heading changes (for the editor;
 - H2 "बारह दिन, और फिर भूल" / "Twelve Days of Memory, Then Forgetting": keep, but apply review fixes 2 and 3 in the body first (twelve-day memory and naamkaran timing stated as Acharya Ji's teaching).
 - H2 "कर्ता बनने के चार कदम" / "Four Steps to Becoming a True Doer": could become a question, "प्रथम कर्तव्य के चार कदम कौन से हैं?" / "What Are the Four Steps of Your First Duty?", which suits a list snippet.
 - Add an H2 "अक्सर पूछे जाने वाले प्रश्न" / "Frequently Asked Questions" with the FAQ in section 6, if the editor agrees.
-- The primary keyword is not in the first 100 words (the intro says "प्रथम कर्म" / "first action"). A light edit such as "आपके जीवन का प्रथम कर्तव्य क्या है?" / "what your first duty in life is" in the opening paragraph would place it naturally without changing the meaning.
+- The primary keyword is not in the first 100 words (the intro says "प्रथम कर्म" / "first action"). A light edit such as "आपके जीवन का प्रथम कर्तव्य क्या है?" / "what your first duty in life is" in the opening paragraph would place it naturally without changing the meaning. Applied in the `_seo` texts, together with the two question headings above and the direct answer in section 5.
 
 ## 5. Direct answer paragraph
 
@@ -238,6 +240,8 @@ For later use in WordPress only; not added to the page. Dates come from git (blo
 
 **WordPress SEO plugin mapping (Yoast / Rank Math):** The plugin fills BlogPosting (headline, datePublished, dateModified, image, mainEntityOfPage), Organization, the WebPage and the BreadcrumbList by itself from the post, site settings and category. Enter by hand: the focus keyword, the SEO title (alternativeHeadline), the meta description and the slug (from seo.json `wordpress`); the author Person details (Acharya Ji's name and profile URL) in the user profile or the plugin's schema settings; and the VideoObject (upload date, duration, thumbnail), unless a video SEO add-on reads it from the embed. Add translationOfWork / workTranslation, keywords and about through a custom schema block, and set the hreflang pairs (hi-IN, en, x-default) through the multilingual plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist.
 
+`{{HI_POST_URL}}`, `{{EN_POST_URL}}`: the two post addresses (slugs in seo.json: `/hi/jeevan-ka-pratham-kartavya/`, `/en/first-duty-in-life/`).
+
 ## 9. Images
 
 | File | Hindi alt | English alt | Caption (hi / en) |
@@ -372,3 +376,73 @@ The exact values written to `output/know_your_first_duty_in_life/blog/seo.json`:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts' direct answer and first heading)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no mismatch left: the searched wording is the focus keyword and is now in the `_seo` texts; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro, both languages)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Garuda Purana is a tag only here so far, but five blogs discuss it)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the womb account is attributed to the Katha Upanishad, flag 1; naamkaran "only after the twelfth day" and the twelve-day memory read as scripture, flags 2 and 3. These need the Sanskrit review's corrections in the original blog, beyond an SEO edit)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
