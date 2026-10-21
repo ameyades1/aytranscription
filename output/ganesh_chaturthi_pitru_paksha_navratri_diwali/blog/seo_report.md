@@ -23,6 +23,8 @@ The talk (Ganesh Series, episode 10) explains why India's autumn festivals follo
 | why are there so many festivals in India | English | Question (long tail) | Medium |
 | Raksha Bandhan spiritual meaning brahmacharya | English | Informational | Low |
 
+Keyword note: the original blog texts do not use the focus keyword word for word in either language (the H1s say "त्योहारों का छिपा हुआ आध्यात्मिक क्रम" / "Hidden Spiritual Sequence of Festivals", and the H1 does not count), and the English title, meta description and slug did not contain "spiritual order of Hindu festivals". The `_seo` texts (`/seo_blog_fix`) open with a short direct answer that uses "त्योहारों का आध्यात्मिक क्रम" / "the spiritual order of Hindu festivals" in the first 100 words, together with the searched wording "गणेश चतुर्थी से दिवाली तक" / "Ganesh Chaturthi to Diwali". The English title, both meta descriptions and the English slug (`spiritual-order-of-hindu-festivals`) now contain the focus keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,19 @@ The talk (Ganesh Series, episode 10) explains why India's autumn festivals follo
 2. त्योहार इसी क्रम में क्यों आते हैं? गणपति से दिवाली तक
 3. छुट्टी नहीं, साधना: त्योहारों का छिपा आध्यात्मिक क्रम
 
-Meta description: पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली, यही क्रम क्यों? आचार्य उपेंद्र जी बताते हैं कि हर त्योहार छुट्टी नहीं, नर से नारायण की यात्रा का एक पड़ाव है।
+Meta description (156 characters) **recommended**: पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है।
 
-Slug: `/hi/tyoharon-ka-adhyatmik-kram`
+Slug **recommended**: `/hi/tyoharon-ka-adhyatmik-kram`
 
 **English**
-1. Ganesh Chaturthi to Diwali: The Hidden Order of Festivals (recommended, 57 characters)
+1. Spiritual Order of Hindu Festivals: Ganapati to Diwali (**recommended**, 54 characters)
 2. Why Hindu Festivals Come in This Order: Ganapati to Diwali
 3. Not a Holiday: The Spiritual Order of Hindu Festivals
+4. Ganesh Chaturthi to Diwali: The Hidden Order of Festivals (the earlier choice; it lacks the focus keyword)
 
-Meta description (155 characters): Why does Ganapati come first, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji sees each festival as a step from Nara to Narayana, not a holiday.
+Meta description (154 characters) **recommended**: Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana.
 
-Slug: `/en/hidden-order-of-hindu-festivals`
+Slug **recommended**: `/en/spiritual-order-of-hindu-festivals`
 
 ## 4. Outline changes
 
@@ -108,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tyoharon-ka-adhyatmik-kram/`, `/en/hidden-order-of-hindu-festivals/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tyoharon-ka-adhyatmik-kram/`, `/en/spiritual-order-of-hindu-festivals/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -125,7 +128,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "गणपति से दिवाली तक त्योहारों का छिपा हुआ आध्यात्मिक क्रम",
       "alternativeHeadline": "गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम",
-      "description": "पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली, यही क्रम क्यों? आचार्य उपेंद्र जी बताते हैं कि हर त्योहार छुट्टी नहीं, नर से नारायण की यात्रा का एक पड़ाव है।",
+      "description": "पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है।",
       "inLanguage": "hi",
       "keywords": ["त्योहारों का आध्यात्मिक क्रम", "गणेश चतुर्थी से दिवाली तक", "नरक चतुर्दशी का आध्यात्मिक अर्थ", "दिवाली पर पटाखों का अर्थ", "नर से नारायण"],
       "about": [
@@ -215,8 +218,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Hidden Spiritual Sequence of Festivals from Ganapati to Diwali",
-      "alternativeHeadline": "Ganesh Chaturthi to Diwali: The Hidden Order of Festivals",
-      "description": "Why does Ganapati come first, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji sees each festival as a step from Nara to Narayana, not a holiday.",
+      "alternativeHeadline": "Spiritual Order of Hindu Festivals: Ganapati to Diwali",
+      "description": "Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana.",
       "inLanguage": "en",
       "keywords": ["spiritual order of Hindu festivals", "Ganesh Chaturthi to Diwali", "Naraka Chaturdashi spiritual meaning", "spiritual meaning of Diwali firecrackers", "Nara to Narayana"],
       "about": [
@@ -350,7 +353,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
 {
   "title": {
     "hi": "गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम",
-    "en": "Ganesh Chaturthi to Diwali: The Hidden Order of Festivals"
+    "en": "Spiritual Order of Hindu Festivals: Ganapati to Diwali"
   },
   "alt": {
     "hero.jpg": {
@@ -426,7 +429,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "दिवाली पर पटाखों का अर्थ",
         "नर से नारायण"
       ],
-      "meta_description": "पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली, यही क्रम क्यों? आचार्य उपेंद्र जी बताते हैं कि हर त्योहार छुट्टी नहीं, नर से नारायण की यात्रा का एक पड़ाव है।",
+      "meta_description": "पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है।",
       "tags": [
         "गणेश सीरीज़",
         "गणेश चतुर्थी",
@@ -437,7 +440,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
       ]
     },
     "en": {
-      "slug": "hidden-order-of-hindu-festivals",
+      "slug": "spiritual-order-of-hindu-festivals",
       "focus_keyword": "spiritual order of Hindu festivals",
       "secondary_keywords": [
         "Ganesh Chaturthi to Diwali",
@@ -445,7 +448,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "spiritual meaning of Diwali firecrackers",
         "Nara to Narayana"
       ],
-      "meta_description": "Why does Ganapati come first, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji sees each festival as a step from Nara to Narayana, not a holiday.",
+      "meta_description": "Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana.",
       "tags": [
         "Ganesh Series",
         "Ganesh Chaturthi",
@@ -458,3 +461,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (met in the `_seo` texts; the talk's own thesis)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title (met after the fix: English title now `Spiritual Order of Hindu Festivals: Ganapati to Diwali`)
+- [x] In the meta description (met after the fix: both meta descriptions now contain the keyword)
+- [x] In the body text (met in the `_seo` texts)
+- [x] In the URL slug (English keywords) (met after the fix: slug `spiritual-order-of-hindu-festivals`)
+- [x] Within the first 100 words (preferred) (met in the `_seo` texts: direct-answer opening)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Navratri / नवरात्रि and Diwali / दिवाली are on 2 posts so far; recurring festivals that later talks will share)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the Sanskrit review's fixes (Rahu called Narakasura, apta leaves placed on Padwa, "scriptures describe crackers that burst within") are not yet applied to the blog; they are content edits outside the SEO fix (section 10, flags 1–3)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
