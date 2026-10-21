@@ -22,6 +22,8 @@ This talk (Ganesh Series, Ep 4) asks whether we know the God we worship. Acharya
 | symbolism of Hindu deities | English | Informational | Low |
 | Acharya Upendra Ji Ganesh Series | English | Navigational | Low |
 
+Keyword note: neither focus keyword appeared word for word in the original body texts (Hindi had "मर्म जाने बिना किए गए पूजा-पाठ"; English never said "worship without understanding", the video title's wording). The SEO fix (`/seo_blog_fix`) added a short direct answer after the intro of each `_seo` text that uses the focus keyword in the first 100 words, and reworded the Gita heading as a question that carries it ("गीता बिना अर्थ जाने पूजा के बारे में क्या कहती है?" / "What Does the Gita Say About Worship Without Understanding?"). The "Every Image Carries a Code" heading now also carries "मूर्ति पूजा का अर्थ" / "Meaning of Murti Puja". Both focus keywords, slugs, titles and meta descriptions stay as they were. See `seo_fix.md`.
+
 ## 3. Titles and meta
 
 **Hindi** (the H1 "फोटो से शादी या भगवान से मिलन" stays)
@@ -29,18 +31,18 @@ This talk (Ganesh Series, Ep 4) asks whether we know the God we worship. Acharya
 2. क्या मूर्ति पूजा गलत है? फोटो से शादी का उदाहरण
 3. अपने भगवान को जानते हैं? बिना समझे पूजा का सच
 
-Meta description: क्या बिना अर्थ जाने पूजा पर्याप्त है? आचार्य उपेंद्र जी बताते हैं कि हर मूर्ति निराकार का संकेत है, और संत भी साकार की पूजा अर्थ जानकर ही करते थे।
+Meta description (recommended, in seo.json): क्या बिना अर्थ जाने पूजा पर्याप्त है? आचार्य उपेंद्र जी बताते हैं कि हर मूर्ति निराकार का संकेत है, और संत भी साकार की पूजा अर्थ जानकर ही करते थे।
 
-Slug: `/hi/bina-arth-jane-puja-gita-chetavani`
+Slug (recommended, in seo.json): `/hi/bina-arth-jane-puja-gita-chetavani`
 
 **English** (the H1 "Marrying a Photograph, or Meeting God" stays)
 1. Worship Without Understanding: The Gita's Warning (recommended, 49 characters)
 2. Is Idol Worship Wrong? Marrying a Photograph
 3. Do You Really Know the God You Worship?
 
-Meta description: Is worship without understanding enough? Acharya Upendra Ji explains why every murti is a code for the formless, and why the saints knew its meaning. (149 characters)
+Meta description (recommended, in seo.json): Is worship without understanding enough? Acharya Upendra Ji explains why every murti is a code for the formless, and why the saints knew its meaning. (149 characters)
 
-Slug: `/en/worship-without-understanding-gita`
+Slug (recommended, in seo.json): `/en/worship-without-understanding-gita`
 
 ## 4. Outline changes
 
@@ -332,7 +334,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 Notes:
 - The Hindi BlogPosting uses `workTranslation` to point to the English post; the English one uses `translationOfWork` to point back.
 - WordPress SEO plugin (Yoast / Rank Math): the plugin fills BlogPosting/Article, `datePublished`/`dateModified`, `mainEntityOfPage`, BreadcrumbList, Organization and the author Person from the site settings, along with the canonical and Open Graph tags. Enter these by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags. The `video` VideoObject, `about`, `keywords`, `alternativeHeadline` and the translation links need a custom schema block (Rank Math Schema Builder or a code snippet). hreflang pairs (hi-IN, en, x-default) come from the multilingual plugin (WPML / Polylang), not from this schema.
-- Placeholders still to fill: both post URLs, the site and blog URLs, the category URLs, the author page, the logo and the uploaded image URLs.
+- Placeholders still to fill: both post URLs (slugs: `/hi/bina-arth-jane-puja-gita-chetavani/`, `/en/worship-without-understanding-gita/`), the site and blog URLs, the category URLs, the author page, the logo and the uploaded image URLs.
 
 ## 9. Images
 
@@ -466,3 +468,73 @@ The exact contents of `output/gita_warning_worship_without_understanding/blog/se
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it word for word, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the focus keywords are the searched wording; "is idol worship wrong" / "क्या मूर्ति पूजा गलत है" are secondary keywords)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords) (`worship-without-understanding-gita`)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro of the `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (three H2s per language are now natural questions)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the "Gita's warning" has no verse reference, and the English takeaway states it as plain fact; content corrections from the Sanskrit review left to the editor, flags 1 and 2)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (flags 3 and 6)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
