@@ -23,6 +23,8 @@ A two-minute exchange in which Acharya Ji puts one open challenge to every "hard
 | does a mantra make meat pure | English | Informational | Low |
 | Acharya Upendra Ji non veg | English | Navigational | Low |
 
+Keyword note: the original blog texts used neither focus keyword ("मांसाहार क्यों नहीं करना चाहिए" / "challenge for meat eaters"). The `_seo` texts (`hardcore_non_vegetarian_awakening_blog_seo.txt` and `_blog_seo_en.txt`, the ones published) now use each once, in a short direct answer after the intro (within the first 100 words). The last content H2 is now a question carrying the secondary keywords: "मांसाहारी को खुली चुनौती: रोज़ कौन कर पाएगा?" / "Hardcore Non-Vegetarian? Could You Do It Every Day?". The English direct answer also opens with "Why not eat meat?". The focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -425,3 +427,79 @@ The exact contents of output/hardcore_non_vegetarian_awakening/blog/seo.json, as
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marks are for the `_seo` texts and the seo.json above.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (मांसाहार क्यों नहीं करना चाहिए / challenge for meat eaters, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the focus keywords are the searched wording; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] At least one H2 phrased as a question readers search
+
+### Direct answer
+- [x] A 40–60 word direct answer early in each language, built only from the blog
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the blog makes none)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (section 10; Sanskrit review issues 1–3, Minor, are left for the editor)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
