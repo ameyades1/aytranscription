@@ -23,25 +23,27 @@ Topic: why physical and mental health are the first requirement of the spiritual
 | jivanmukta meaning | English | Informational | Medium |
 | physical and mental strength spiritual path Acharya Upendra Ji | English | Navigational | Low |
 
+Keyword note: the original blog texts did not use the focus keywords word for word ("साधना में स्वास्थ्य का महत्व" and "health on the spiritual path" appeared nowhere in the body), so `tools/check_seo.py` failed on the body-text check. The SEO copies (`physical_mental_strength_spiritual_path_blog_seo.txt`, `_blog_seo_en.txt`) now open with a 60-word direct-answer paragraph (section 5, built only from the blog) that begins with the focus keyword, and the H2 "साधना का क्रम: चार सीढ़ियां" / "Four Steps on the Path of Practice" is now the question "साधना में स्वास्थ्य क्यों आवश्यक है?" / "Why Does Health Matter on the Spiritual Path?" (section 4), so the focus keywords, titles, metas and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "रोगी से मुक्ति तक, आध्यात्मिक यात्रा की चार सीढ़ियां", unchanged)
-1. साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक (47 chars) — **recommended**
+1. साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक (47 chars) — **recommended**, in seo.json
 2. रोगी से मुक्ति तक: आध्यात्मिक यात्रा की चार सीढ़ियां
 3. सिद्धियां क्या हैं, और मुक्ति उनसे ऊपर क्यों है?
 
-Meta description (159 chars): साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है।
+Meta description (159 chars, **recommended**, in seo.json): साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है।
 
-Slug: `/hi/sadhana-mein-swasthya-ka-mahatva`
+Slug (**recommended**, in seo.json): `/hi/sadhana-mein-swasthya-ka-mahatva`
 
 **English** (H1: "From Illness to Liberation: The Four Steps of the Spiritual Journey", unchanged)
-1. Health on the Spiritual Path: From Illness to Liberation (56 chars) — **recommended**
+1. Health on the Spiritual Path: From Illness to Liberation (56 chars) — **recommended**, in seo.json
 2. From Illness to Liberation: 4 Steps of the Spiritual Path (58 chars)
 3. What Are Siddhis, and Why Does Liberation Come First? (53 chars)
 
-Meta description (154 chars): Why health matters on the spiritual path: Acharya Ji maps four steps, from illness to health, enjoyment, siddhi and liberation, and why siddhis must wait.
+Meta description (154 chars, **recommended**, in seo.json): Why health matters on the spiritual path: Acharya Ji maps four steps, from illness to health, enjoyment, siddhi and liberation, and why siddhis must wait.
 
-Slug: `/en/health-on-the-spiritual-path`
+Slug (**recommended**, in seo.json): `/en/health-on-the-spiritual-path`
 
 Titles and metas avoid "cancer", "cure", "healing powers" and "black magic" on purpose (flags 7 and 8).
 
@@ -95,7 +97,7 @@ Cannibalization: `mind_or_body_more_powerful` holds "मन या शरीर 
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID ryX-m980D3M, uploaded 2025-08-01, 596 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/sadhana-mein-swasthya-ka-mahatva/`, `/en/health-on-the-spiritual-path/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID ryX-m980D3M, uploaded 2025-08-01, 596 s, title from yt-dlp.
 
 **Hindi**
 
@@ -371,3 +373,73 @@ The values written to `output/physical_mental_strength_spiritual_path/blog/seo.j
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (true of the `_seo` texts)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
