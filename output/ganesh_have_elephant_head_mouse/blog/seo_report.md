@@ -18,14 +18,15 @@ Current page: output/ganesh_have_elephant_head_mouse/blog/index.html (one page w
 | गणेश जी का वाहन चूहा क्यों है | Hindi | Informational | Medium |
 | ganesh ji ka sir hathi ka kyu hai | Hinglish | Informational | High |
 | ganesh ji chuhe par kaise baithte hain | Hinglish | Informational | Medium |
-| why Ganesha has an elephant head | English | Informational | High (primary) |
+| why does Ganesha have an elephant head | English | Informational | High (primary) |
+| why Ganesha has an elephant head | English | Informational | Medium |
 | why does Ganesha ride a mouse | English | Informational | High |
 | symbolism of Ganesha's form | English | Informational | Medium |
 | ekadantam chaturhastam meaning | English | Informational (verse) | Low |
 | how to explain Ganesha to a child | English | Informational / Practical | Low |
 | Acharya Upendra Ji Ganesh Series | English | Navigational | Low |
 
-Notes: the elephant-head query is the larger one in both languages and matches the video title, so it is the focus keyword; the mouse query is the main secondary. Competition is high (big publishers, kids' sites), so the angle that can win is the one only this talk offers: the form as a deliberate, symbolic doorway from the finite to the infinite, tied to the Atharvashirsha text. Don't target "Ganesha birth story" queries here; that is truth_about_lord_ganesh's ground (section 7).
+Notes: the elephant-head query is the larger one in both languages and matches the video title, so it is the focus keyword; the mouse query is the main secondary. Mismatch: the original blog texts never use the searched wording (Hindi says "गणपति हाथी कैसे हो गए", English "how did Ganapati become an elephant"). The SEO fix (`seo_fix.md`) puts "गणेश जी का सिर हाथी का क्यों है" and the question form people search in English, "why does Ganesha have an elephant head", in the opening of the `_seo` texts; the English focus keyword is now that question form, and "why Ganesha has an elephant head" stays a close variant (no longer a secondary, as it is a near-duplicate). Competition is high (big publishers, kids' sites), so the angle that can win is the one only this talk offers: the form as a deliberate, symbolic doorway from the finite to the infinite, tied to the Atharvashirsha text. Don't target "Ganesha birth story" queries here; that is truth_about_lord_ganesh's ground (section 7).
 
 ## 3. Titles and meta
 
@@ -39,13 +40,13 @@ Meta description (157 characters): गणेश जी का सिर हा�
 Slug: `/hi/ganesh-ji-ka-sir-hathi-ka-kyon`
 
 **English**
-1. Why Ganesha Has an Elephant Head and Rides a Mouse (recommended, 50 characters)
+1. Why Does Ganesha Have an Elephant Head and Ride a Mouse? (recommended, 56 characters)
 2. Ganesha's Elephant Head and Mouse: Symbol or Fact?
 3. Why Did the Sages Give Ganesha an Elephant's Head?
 
 Meta description (149 characters): Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols.
 
-Slug: `/en/why-ganesha-has-elephant-head`
+Slug: `/en/why-does-ganesha-have-an-elephant-head`
 
 The H1s ("गणपति हाथी कैसे हुए और चूहे पर कैसे बैठते हैं" / "How Did Ganapati Get an Elephant's Head, and How Does He Ride a Mouse?") stay unchanged; the title tags put the search phrase first.
 
@@ -93,7 +94,7 @@ Related reading: truth_about_lord_ganesh, worship_ganesh_every_year_but_understa
 
 Pillar: Gods and Devtas (category `deities`). Other Ganesh Series posts to link from later: every_ganesh_idol_look_different, hidden_meaning_behind_10_days_ganesh, chant_thousand_names_god.
 
-**Cannibalization:** truth_about_lord_ganesh (no seo.json yet) ends with "The Elephant's Head: The Marks of Discernment" and could compete for the elephant-head query. When its SEO is done, give it the narrower query it answers best, for example "Ganesha birth story meaning" / "गणेश जन्म कथा का रहस्य", and keep "why Ganesha has an elephant head" here as the series opener (or swap, if analytics later show the other post ranks better). every_ganesh_idol_look_different ("how to choose a Ganesh idol") and need_murtis_symbols_understand_god touch idol worship; this post uses "idol worship" only as a tag.
+**Cannibalization:** truth_about_lord_ganesh (no seo.json yet) ends with "The Elephant's Head: The Marks of Discernment" and could compete for the elephant-head query. When its SEO is done, give it the narrower query it answers best, for example "Ganesha birth story meaning" / "गणेश जन्म कथा का रहस्य", and keep "why does Ganesha have an elephant head" here as the series opener (or swap, if analytics later show the other post ranks better). every_ganesh_idol_look_different ("how to choose a Ganesh idol") and need_murtis_symbols_understand_god touch idol worship; this post uses "idol worship" only as a tag.
 
 ## 8. Schema
 
@@ -105,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ka-sir-hathi-ka-kyon/`, `/en/why-ganesha-has-elephant-head/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ka-sir-hathi-ka-kyon/`, `/en/why-does-ganesha-have-an-elephant-head/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -212,10 +213,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "How Did Ganapati Get an Elephant's Head, and How Does He Ride a Mouse?",
-      "alternativeHeadline": "Why Ganesha Has an Elephant Head and Rides a Mouse",
+      "alternativeHeadline": "Why Does Ganesha Have an Elephant Head and Ride a Mouse?",
       "description": "Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols.",
       "inLanguage": "en",
-      "keywords": ["why Ganesha has an elephant head", "why does Ganesha ride a mouse", "symbolism of Ganesha's form", "ekadantam chaturhastam meaning"],
+      "keywords": ["why does Ganesha have an elephant head", "why does Ganesha ride a mouse", "symbolism of Ganesha's form", "ekadantam chaturhastam meaning"],
       "about": [
         { "@type": "Thing", "name": "Ganesha" },
         { "@type": "Thing", "name": "Ganapati Atharvashirsha" },
@@ -344,7 +345,7 @@ The values written to `output/ganesh_have_elephant_head_mouse/blog/seo.json` (th
 {
   "title": {
     "hi": "गणेश जी का सिर हाथी का क्यों है, वाहन चूहा क्यों?",
-    "en": "Why Ganesha Has an Elephant Head and Rides a Mouse"
+    "en": "Why Does Ganesha Have an Elephant Head and Ride a Mouse?"
   },
   "alt": {
     "hero.jpg": {
@@ -395,8 +396,8 @@ The values written to `output/ganesh_have_elephant_head_mouse/blog/seo.json` (th
       "tags": ["गणेश सीरीज़", "गणेश", "मूर्ति पूजा", "साकार और निराकार", "गणपति अथर्वशीर्ष"]
     },
     "en": {
-      "slug": "why-ganesha-has-elephant-head",
-      "focus_keyword": "why Ganesha has an elephant head",
+      "slug": "why-does-ganesha-have-an-elephant-head",
+      "focus_keyword": "why does Ganesha have an elephant head",
       "secondary_keywords": ["why does Ganesha ride a mouse", "symbolism of Ganesha's form", "ekadantam chaturhastam meaning"],
       "meta_description": "Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols.",
       "tags": ["Ganesh Series", "Ganesh", "Idol worship", "Sakar and Nirakar", "Ganapati Atharvashirsha"]
@@ -404,3 +405,73 @@ The values written to `output/ganesh_have_elephant_head_mouse/blog/seo.json` (th
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (mismatch flagged in section 2 and fixed in the `_seo` texts)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the opening paragraph of the `_seo` texts, plus a 40–60 word direct answer at the end of the opening section)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (one H2 per language now phrased as the searched question)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the Sanskrit review's open items, the incomplete Hindi verse gloss and "the Upanishads call", are flagged in section 10 for the editor; the SEO fix touches no verse or gloss)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
