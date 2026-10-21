@@ -21,6 +21,8 @@ A short (6-minute) discourse on what women need in order to lead: **vak**, the p
 | vani ki shakti, mahila netritva | Hinglish | Informational | Low |
 | Acharya Upendra Ji women speech | English | Navigational | Low |
 
+Keyword note: the original blog texts did not contain either focus keyword word for word (the body said "वाणी की शक्ति" / "the power of speech" only). The SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`) add a short direct-answer paragraph after the opening that uses "महिला नेतृत्व और वाणी की शक्ति" / "power of speech for women leaders" once, within the first 100 words, so both focus keywords now appear in the body. The English slug now carries the full keyword (`power-of-speech-for-women-leaders`).
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -28,7 +30,7 @@ A short (6-minute) discourse on what women need in order to lead: **vak**, the p
 2. वाणी की शक्ति: नेतृत्व के लिए स्त्री को क्या सीखना होगा
 3. वाक्, सरस्वती और महाकाली: स्त्री के नेतृत्व का आधार
 
-Meta description: नेतृत्व के लिए स्त्री को वाक् अर्थात् वाणी की शक्ति क्यों चाहिए? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और भीतर सोई महाकाली को जगाने का अर्थ समझाते हैं।
+Meta description: महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं।
 
 Slug: `/hi/mahila-netritva-vani-ki-shakti`
 
@@ -37,9 +39,9 @@ Slug: `/hi/mahila-netritva-vani-ki-shakti`
 2. Why Women Who Lead Need Vak, the Power of Speech
 3. Vak, Saraswati and Mahakali: A Woman's Path to Leadership
 
-Meta description (154 characters): Why must a woman who leads master vak, the power of speech? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.
+Meta description (149 characters): Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.
 
-Slug: `/en/power-of-speech-women-leaders`
+Slug: `/en/power-of-speech-for-women-leaders`
 
 ## 4. Outline changes
 
@@ -97,7 +99,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The VideoObject `inLanguage` is `hi` in both blocks: the discourse itself is in Hindi.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahila-netritva-vani-ki-shakti/`, `/en/power-of-speech-women-leaders/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahila-netritva-vani-ki-shakti/`, `/en/power-of-speech-for-women-leaders/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -115,7 +117,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "वाणी की शक्ति और स्त्री के भीतर सोई महाकाली",
       "alternativeHeadline": "महिला नेतृत्व और वाणी की शक्ति: स्त्री में सोई महाकाली",
-      "description": "नेतृत्व के लिए स्त्री को वाक् अर्थात् वाणी की शक्ति क्यों चाहिए? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और भीतर सोई महाकाली को जगाने का अर्थ समझाते हैं।",
+      "description": "महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं।",
       "inLanguage": "hi",
       "keywords": [
         "महिला नेतृत्व और वाणी की शक्ति",
@@ -269,7 +271,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Power of Speech and the Mahakali Asleep Within Every Woman",
       "alternativeHeadline": "Power of Speech for Women Leaders: The Mahakali Within",
-      "description": "Why must a woman who leads master vak, the power of speech? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.",
+      "description": "Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.",
       "inLanguage": "en",
       "keywords": [
         "power of speech for women leaders",
@@ -522,20 +524,90 @@ The exact values written to `output/spiritual_power_women_kali_yug/blog/seo.json
         "वाक् शक्ति का अर्थ",
         "ब्रह्मा सरस्वती कथा का अर्थ"
       ],
-      "meta_description": "नेतृत्व के लिए स्त्री को वाक् अर्थात् वाणी की शक्ति क्यों चाहिए? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और भीतर सोई महाकाली को जगाने का अर्थ समझाते हैं।",
+      "meta_description": "महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं।",
       "tags": ["नारी शक्ति", "नेतृत्व", "महाकाली", "सरस्वती", "भगवद्गीता"]
     },
     "en": {
-      "slug": "power-of-speech-women-leaders",
+      "slug": "power-of-speech-for-women-leaders",
       "focus_keyword": "power of speech for women leaders",
       "secondary_keywords": [
         "how to awaken Mahakali within",
         "what is vak in Hinduism",
         "Brahma and Saraswati story meaning"
       ],
-      "meta_description": "Why must a woman who leads master vak, the power of speech? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.",
+      "meta_description": "Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within.",
       "tags": ["Women's Empowerment", "Leadership", "Mahakali", "Saraswati", "Bhagavad Gita"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred): in the direct-answer paragraph of the `_seo` texts
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters (54 / 54)
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters (148 / 149)
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
