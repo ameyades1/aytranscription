@@ -23,6 +23,8 @@ A 10:39 discourse in which Acharya Upendra Ji gives a Vedantic, symbolic reading
 | Acharya Upendra Ji Rudraksha | English | Navigational (video) | Low |
 | rudraksha benefits / mukhi types / how to wear rudraksha | English / Hindi | Practical / commercial | Not targeted (not answered here; see flag 1) |
 
+Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither focus phrase word for word; they said "रुद्राक्ष" / "rudraksha" and asked what "Rudra" means, but never "रुद्राक्ष का अर्थ" / "rudraksha meaning". The SEO-fixed texts (`_seo`) add a short direct answer after the second intro paragraph that uses the focus keyword (within the first 100 words) and gives Acharya Ji's reading without the aksha gloss (flag 2). The H2 "रुद्र: जिसकी कमी रुलाती है" / "Rudra: The One Whose Absence Makes You Weep" is now the question "रुद्र का अर्थ क्या है?" / "What Does Rudra Mean?", which the section answers. The English meta description now uses "rudraksha meaning" word for word. The focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,18 @@ A 10:39 discourse in which Acharya Upendra Ji gives a Vedantic, symbolic reading
 2. रुद्राक्ष धारण करने का असली अर्थ: गुरु का स्मरण (47)
 3. रुद्र का अर्थ: क्रोध नहीं, जिसकी कमी रुलाए (42)
 
-Meta description: रुद्राक्ष का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि रुद्र क्रोध नहीं, वह है जिसकी कमी रुलाती है, और रुद्राक्ष धारण करना गुरु का निरंतर स्मरण क्यों है।
+Meta description (recommended, as in seo.json, 156 characters): रुद्राक्ष का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि रुद्र क्रोध नहीं, वह है जिसकी कमी रुलाती है, और रुद्राक्ष धारण करना गुरु का निरंतर स्मरण क्यों है।
 
-Slug: `/hi/rudraksha-ka-arth`
+Slug (recommended, as in seo.json): `/hi/rudraksha-ka-arth`
 
 **English**
 1. Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps (54 characters) **recommended**
 2. What Does Wearing Rudraksha Really Mean? Acharya Ji Explains (60)
 3. Meaning of Rudra: Not Anger, but What We Miss (45)
 
-Meta description: What does rudraksha really mean? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru. (150 characters)
+Meta description (recommended, as in seo.json, 153 characters; updated by `/seo_blog_fix` to contain the focus keyword word for word): What is the true rudraksha meaning? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.
 
-Slug: `/en/rudraksha-meaning`
+Slug (recommended, as in seo.json): `/en/rudraksha-meaning`
 
 The H1s in the blog stay as they are; the titles above are for the `<title>` tag and WordPress SEO title only. The video title's "EXPOSES Hidden Truth" is not reused: it reads as clickbait.
 
@@ -266,7 +268,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The True Meaning of Rudraksha: The Tears of the Guru",
       "alternativeHeadline": "Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps",
-      "description": "What does rudraksha really mean? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.",
+      "description": "What is the true rudraksha meaning? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.",
       "inLanguage": "en",
       "keywords": [
         "rudraksha meaning",
@@ -530,7 +532,7 @@ The exact values written to `output/hidden_truth_rudra_rudraksha/blog/seo.json` 
         "eleven Rudras",
         "Rudra and Raudra difference"
       ],
-      "meta_description": "What does rudraksha really mean? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.",
+      "meta_description": "What is the true rudraksha meaning? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru.",
       "tags": [
         "Rudraksha",
         "Shiva",
@@ -542,3 +544,73 @@ The exact values written to `output/hidden_truth_rudra_rudraksha/blog/seo.json` 
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts now use it word for word)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts (Rudraksha / रुद्राक्ष is used by this post only, and few talks are likely to share it; Shiva / शिव is in 2 posts and can grow)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the direct answer avoids the "aksha = tears" gloss; flag 2)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (section 10, flags 4 and 6)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
