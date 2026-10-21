@@ -30,6 +30,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 Cannibalization: `pind_daan` owns "पिंडदान का अर्थ / pind daan meaning". Keep this post on "Mahalaya Shraddha" and "shraddha, pind daan and tarpan as three rites", not on pind daan alone. `big_pitru_dosh_understanding_pitru_rin` is the better target for "पितृ दोष" queries.
 
+Keyword placement (after /seo_blog_fix): the original blog texts did not contain the focus keywords word for word (the Hindi body never asks "महालय श्राद्ध क्या है"; the English body never says "Mahalaya Shraddha meaning"). The `_seo` texts, which are what gets published, add the section 5 direct answer after the intro, opening with each focus keyword, so it now appears in the body and in the first 100 words in both languages. No mismatch between searched and body wording remains.
+
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
@@ -39,7 +41,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 2. महालय श्राद्ध क्यों ज़रूरी है: पितरों का सच (the H1)
 3. पितृ पक्ष में सबका श्राद्ध एक साथ क्यों? महालय का रहस्य
 
-**Hindi meta description**
+**Hindi meta description (recommended)**
 महालय श्राद्ध क्या है और पितृ पक्ष में सभी पूर्वजों का श्राद्ध एक साथ क्यों? आचार्य उपेंद्र जी सरल भाषा में बताते हैं श्राद्ध, पिंडदान और तर्पण का अर्थ।
 
 **English title options**
@@ -49,10 +51,10 @@ The H1s stay as they are. Only the `<title>` tag changes.
 
 The title uses "Pind Daan", the common search spelling (also in the video title); the blog body uses "pinda daan". Both are correct; no change to the body is needed.
 
-**English meta description (149 characters)**
-What is Mahalaya Shraddha, and why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.
+**English meta description (145 characters, recommended)**
+Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.
 
-**Slugs**
+**Slugs (recommended, as in seo.json)**
 - Hindi: /hi/mahalaya-shraddha-kya-hai
 - English: /en/mahalaya-shraddha-meaning
 
@@ -229,7 +231,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why Mahalaya Shraddha Matters: The Truth About Our Ancestors",
       "alternativeHeadline": "Mahalaya Shraddha Meaning: Shraddha, Pind Daan and Tarpan",
-      "description": "What is Mahalaya Shraddha, and why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.",
+      "description": "Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.",
       "inLanguage": "en",
       "keywords": ["Mahalaya Shraddha meaning", "shraddha meaning", "difference between shraddha, pind daan and tarpan", "why perform shraddha in Pitru Paksha"],
       "about": [
@@ -447,7 +449,7 @@ The values written to `output/mahalay_shraddha_matters_truth_about_pitru/blog/se
         "difference between shraddha, pind daan and tarpan",
         "why perform shraddha in Pitru Paksha"
       ],
-      "meta_description": "What is Mahalaya Shraddha, and why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.",
+      "meta_description": "Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.",
       "tags": [
         "Pitru Paksha",
         "Shraddha",
@@ -460,3 +462,75 @@ The values written to `output/mahalay_shraddha_matters_truth_about_pitru/blog/se
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked against the `_seo` texts (written by /seo_blog_fix), which are what gets published.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts' direct answer uses it word for word)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [ ] No broad labels that only restate a category ("Ancestors" / "पितर" largely restate the category "Ancestors & Shraddha" / "पितृ और श्राद्ध"; tags are outside the scope of /seo_blog_fix, so they were left as /seo_blog chose them)
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the three-year annual-shraddha rule is still presented as the sages' system in the body; Sanskrit review issue 1, flag 1; an editorial fix, not an SEO one)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
