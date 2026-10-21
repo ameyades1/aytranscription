@@ -28,25 +28,27 @@ A practical talk on **what to ask God for**. Acharya Ji says that praying for a 
 
 Avoid: "best gemstone for success", "ज्योतिष उपाय से काम बनेगा", "प्रार्थना से हर समस्या दूर". The talk says remedies are only catalysts and that a problem-free life is not the goal; targeting those queries would promise what the post refuses to promise.
 
+Keyword note: the searched wordings "भगवान से क्या माँगें" and "what to ask God in prayer" were not in the original bodies (they say "प्रार्थना में क्या माँगें?" / "What Should You Ask for in Prayer?"). The `_seo` texts (`/seo_blog_fix`) now use each once in a short direct answer in the first section, within the first 100 words, so both stay the focus keywords. The English meta description was rewritten to contain the focus keyword.
+
 ## 3. Titles and meta
 
-Hindi
-1. भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति (57 characters) **recommended**
+**Hindi**
+1. भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति **(recommended, 57 characters)**
 2. प्रार्थना में क्या माँगें: परिणाम नहीं, क्षमता
 3. अंगूठी, ज्योतिष और उपाय: उत्प्रेरक हैं, मुख्य काम नहीं
 
-Meta description: भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं।
+Meta description (recommended): भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं।
 
-Slug: /hi/bhagwan-se-kya-mange
+Slug (recommended): `/hi/bhagwan-se-kya-mange`
 
-English
-1. What to Ask God in Prayer: Strength, Not a Problem-Free Life (60 characters) **recommended**
+**English**
+1. What to Ask God in Prayer: Strength, Not a Problem-Free Life **(recommended, 60 characters)**
 2. Stop Asking God to Fix Your Life: Ask for Strength Instead
 3. Is Astrology Superstition? Remedies as Catalysts, Not Cures
 
-Meta description: Should you ask God to remove your problems? Acharya Upendra Ji explains what to ask for in prayer, why the effort is yours, and why remedies are catalysts. (155 characters)
+Meta description (recommended, 155 characters; set by the SEO fix): What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts.
 
-Slug: /en/what-to-ask-god-in-prayer
+Slug (recommended): `/en/what-to-ask-god-in-prayer`
 
 ## 4. Outline changes
 
@@ -203,7 +205,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_URL}}#article",
       "headline": "Don't Ask God to Remove Your Problems; Ask for the Strength to Solve Them",
       "alternativeHeadline": "What to Ask God in Prayer: Strength, Not a Problem-Free Life",
-      "description": "Should you ask God to remove your problems? Acharya Upendra Ji explains what to ask for in prayer, why the effort is yours, and why remedies are catalysts.",
+      "description": "What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts.",
       "inLanguage": "en",
       "keywords": ["what to ask God in prayer", "should I ask God to solve my problems", "is astrology superstition", "do astrological remedies work", "why obstacles grow as you rise"],
       "about": [
@@ -283,7 +285,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/bhagwan-se-kya-mange/`, `/en/what-to-ask-god-in-prayer/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -371,9 +373,79 @@ The exact seo.json written for the page generator and WordPress:
       "slug": "what-to-ask-god-in-prayer",
       "focus_keyword": "what to ask God in prayer",
       "secondary_keywords": ["should I ask God to solve my problems", "is astrology superstition", "do astrological remedies work", "why obstacles grow as you rise"],
-      "meta_description": "Should you ask God to remove your problems? Acharya Upendra Ji explains what to ask for in prayer, why the effort is yours, and why remedies are catalysts.",
+      "meta_description": "What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts.",
       "tags": ["Prayer", "Blind Faith", "Self-Confidence", "Navagraha"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "प्रार्थना" / "Prayer" is used by this post only so far
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
