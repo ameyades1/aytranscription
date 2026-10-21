@@ -22,6 +22,8 @@ A discourse (the video is 11:32) in which Acharya Upendra Ji answers a question 
 | does a devoted wife have to endure everything | English | Emotional / life problem | Low |
 | married or not Acharya Upendra Ji | English | Navigational (video title) | Low |
 
+Keyword note: the original blog texts did not use either focus keyword word for word (the Hindi said "पतिव्रता होने का अर्थ"; the English never said "pativrata meaning"). The SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`) now use "पतिव्रता का अर्थ" in the opening sentence and "pativrata meaning" in a short direct answer after the opening, so both focus keywords are in the body within the first 100 words. The secondary keyword "शादी के बाद मायके से कितनी बात करें" is now a `##` heading in the Hindi, and the English heading "How Often Should a Married Daughter Call Home?" matches the "married daughter calling parents too often" query.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -29,18 +31,18 @@ A discourse (the video is 11:32) in which Acharya Upendra Ji answers a question 
 2. पतिव्रता धर्म क्या है? चुपचाप सहना नहीं, तेज से जीना
 3. क्या पतिव्रता होने का अर्थ सब कुछ सहना है?
 
-Meta description (hi): क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती।
+Meta description (hi, **recommended**): क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती।
 
-Slug (hi): `/hi/pativrata-ka-arth/`
+Slug (hi): `/hi/pativrata-ka-arth/` **recommended**
 
 **English**
 1. Pativrata Meaning: Living with Radiance, Not Submission (55 characters) **recommended**
 2. What Is Pativrata Dharma? Strength, Not Silent Suffering
 3. Does a Pativrata Have to Endure Everything?
 
-Meta description (en, 149 characters): Does being a pativrata mean silently enduring everything? Acharya Upendra Ji explains why a devoted wife lives with tej, speaks up and refuses abuse.
+Meta description (en, 153 characters, **recommended**): What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse.
 
-Slug (en): `/en/pativrata-meaning/`
+Slug (en): `/en/pativrata-meaning/` **recommended**
 
 The H1s ("पतिव्रता का असली अर्थ: दबना नहीं, तेज से जीना" / "The True Meaning of Pativrata: Living with Radiance, Not in Submission") stay as they are; the title tags put the focus keyword first. The video title "Married or Not" is not used as a title: it does not say what the post answers.
 
@@ -218,7 +220,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The True Meaning of Pativrata: Living with Radiance, Not in Submission",
       "alternativeHeadline": "Pativrata Meaning: Living with Radiance, Not Submission",
-      "description": "Does being a pativrata mean silently enduring everything? Acharya Upendra Ji explains why a devoted wife lives with tej, speaks up and refuses abuse.",
+      "description": "What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse.",
       "inLanguage": "en",
       "keywords": [
         "pativrata meaning",
@@ -429,9 +431,79 @@ The exact values written to `output/married_or_not_insights/blog/seo.json` for t
         "how to say no to in-laws",
         "married daughter calling parents too often"
       ],
-      "meta_description": "Does being a pativrata mean silently enduring everything? Acharya Upendra Ji explains why a devoted wife lives with tej, speaks up and refuses abuse.",
+      "meta_description": "What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse.",
       "tags": ["Pativrata", "Marriage", "Women's Empowerment", "Karma Yoga", "Attachment"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the SEO copies of the texts now use both keywords word for word)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
