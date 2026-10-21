@@ -28,6 +28,8 @@ The full discourse Acharya Upendra Ji gave to a large gathering of women at Moun
 | pativrata ka sahi arth | Hinglish | Informational | Medium |
 | Acharya Upendra Ji message to women, Mount Abu | English | Navigational | Low |
 
+Keyword note: the original blog texts do not use the focus keyword word for word in either language (the Hindi says "नारी में भगवान की सात विभूतियां", the English "Seven Divine Glories in Women"), and the first Gita terms appear only in the fifth section. The `_seo` texts (`/seo_blog_fix`) open with a short direct answer that uses "गीता में नारी के सात गुण" / "seven qualities of women in the Bhagavad Gita" in the first 100 words; the English slug now includes "in" (`seven-qualities-of-women-in-bhagavad-gita`) so the keyword matches it, and both meta descriptions now contain the keyword.
+
 Left to other posts: "स्त्री को शक्ति क्यों कहा जाता है" / "why is woman called Shakti" (focus keyword of `divine_power_every_woman_holds`), and the equality and empowerment head terms ("क्या नारी पुरुष के बराबर है", "women's empowerment through spirituality"), which the earlier report reserved for `gyan_sarovar_mount_abu_women_address`.
 
 Avoid as targets: "thyroid cause in women", "knee pain reason" (medical claims, flag 11); "women superior to men" (gender-war framing, flag 13).
@@ -39,18 +41,18 @@ Avoid as targets: "thyroid cause in women", "knee pain reason" (medical claims, 
 2. भविष्य नारी के हाथों में: गीता की सात विभूतियां (47)
 3. अति सौम्य, अति रौद्र: गीता में नारी के सात गुण (46)
 
-Meta description (153 characters): "गीता १०.३४ में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।"
+Meta description (147 characters) **recommended**: "गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।"
 
-Slug: `/hi/gita-mein-nari-ke-saat-gun`
+Slug **recommended**: `/hi/gita-mein-nari-ke-saat-gun`
 
 **English**
 1. Seven Qualities of Women in Bhagavad Gita: Message to Women (59) **recommended**
 2. The Future Lies in the Hands of Women: Gita 10.34 Explained (59)
 3. Supremely Gentle, Supremely Fierce: The Gita on Women (52)
 
-Meta description (155 characters): "Bhagavad Gita 10.34 names seven divine qualities in women. Acharya Upendra Ji explains them: be supremely gentle at home and supremely fierce to injustice."
+Meta description (153 characters) **recommended**: "What are the seven qualities of women in the Bhagavad Gita? Acharya Upendra Ji explains them: be supremely gentle at home, supremely fierce to injustice."
 
-Slug: `/en/seven-qualities-of-women-bhagavad-gita`
+Slug **recommended**: `/en/seven-qualities-of-women-in-bhagavad-gita`
 
 The H1 ("भविष्य नारी के हाथों में" / "The Future Lies in the Hands of Women") stays as it is; it matches the video title, and the title tag carries the Gita query.
 
@@ -116,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The VideoObject `inLanguage` is `hi` in both blocks: the discourse itself is in Hindi.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/gita-mein-nari-ke-saat-gun/`, `/en/seven-qualities-of-women-bhagavad-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/gita-mein-nari-ke-saat-gun/`, `/en/seven-qualities-of-women-in-bhagavad-gita/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -134,7 +136,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "भविष्य नारी के हाथों में",
       "alternativeHeadline": "गीता में नारी के सात गुण: महिलाओं के लिए आचार्य जी का संदेश",
-      "description": "गीता १०.३४ में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।",
+      "description": "गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।",
       "inLanguage": "hi",
       "keywords": [
         "गीता में नारी के सात गुण",
@@ -289,7 +291,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Future Lies in the Hands of Women",
       "alternativeHeadline": "Seven Qualities of Women in Bhagavad Gita: Message to Women",
-      "description": "Bhagavad Gita 10.34 names seven divine qualities in women. Acharya Upendra Ji explains them: be supremely gentle at home and supremely fierce to injustice.",
+      "description": "What are the seven qualities of women in the Bhagavad Gita? Acharya Upendra Ji explains them: be supremely gentle at home, supremely fierce to injustice.",
       "inLanguage": "en",
       "keywords": [
         "seven qualities of women in Bhagavad Gita",
@@ -564,7 +566,7 @@ The values written to `output/future_lies_in_hands_message_to_women/blog/seo.jso
         "अति सौम्य अति रौद्र का अर्थ",
         "स्त्री और मोक्ष"
       ],
-      "meta_description": "गीता १०.३४ में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।",
+      "meta_description": "गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।",
       "tags": [
         "नारी शक्ति",
         "शक्ति",
@@ -575,7 +577,7 @@ The values written to `output/future_lies_in_hands_message_to_women/blog/seo.jso
       ]
     },
     "en": {
-      "slug": "seven-qualities-of-women-bhagavad-gita",
+      "slug": "seven-qualities-of-women-in-bhagavad-gita",
       "focus_keyword": "seven qualities of women in Bhagavad Gita",
       "secondary_keywords": [
         "true meaning of pativrata",
@@ -583,7 +585,7 @@ The values written to `output/future_lies_in_hands_message_to_women/blog/seo.jso
         "supremely gentle and supremely fierce",
         "can women attain moksha"
       ],
-      "meta_description": "Bhagavad Gita 10.34 names seven divine qualities in women. Acharya Upendra Ji explains them: be supremely gentle at home and supremely fierce to injustice.",
+      "meta_description": "What are the seven qualities of women in the Bhagavad Gita? Acharya Upendra Ji explains them: be supremely gentle at home, supremely fierce to injustice.",
       "tags": [
         "Women's Empowerment",
         "Shakti",
@@ -596,3 +598,73 @@ The values written to `output/future_lies_in_hands_message_to_women/blog/seo.jso
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description (met after the fix: both meta descriptions now contain the keyword)
+- [x] In the body text (met in the `_seo` texts)
+- [x] In the URL slug (English keywords) (met after the fix: slug `seven-qualities-of-women-in-bhagavad-gita`)
+- [x] Within the first 100 words (preferred) (met in the `_seo` texts: direct-answer opening)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Ardhanarishvara / अर्धनारीश्वर is on 2 posts so far; a recurring theme of the Shiva-Shakti talks)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the Sanskrit review's fixes (Gita 10.34 Hindi meaning, Durga Saptashati reference, dhriti = dharana, the unverified "Devi Purana" source) are not yet applied to the blog; they are content edits outside the SEO fix (section 10, flags 1–4)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
