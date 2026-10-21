@@ -22,6 +22,8 @@ Topic: how a worshipper can actually know God rather than only loving a picture 
 | scriptures are the map, Guru is the driver | English | Informational | Low |
 | Acharya Upendra Ji know your God | English | Navigational | Low |
 
+Keyword note: the original blog texts did not use the focus keywords word for word (the Hindi body says "हमें अपने भगवान को जानना चाहिए", the English "we ought to know our own God"). The SEO copies (`only_way_know_god_blog_seo.txt`, `_blog_seo_en.txt`) now use "भगवान को कैसे जानें" in the first paragraph and "how to know God" in a short direct-answer paragraph within the first 100 words, so the focus keywords are unchanged. Two headings now carry question wording ("जीवित गुरु क्यों आवश्यक है?" / "Why Do You Need a Living Guru?").
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "चित्र से प्रेम या ईश्वर से मिलन", unchanged)
@@ -29,18 +31,18 @@ Topic: how a worshipper can actually know God rather than only loving a picture 
 2. चित्र से प्रेम या ईश्वर से मिलन? भगवान को कैसे जानें
 3. मूर्ति, शास्त्र और गुरु: भगवान को जानने का मार्ग
 
-Meta description: भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए।
+Meta description — **recommended**: भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए।
 
-Slug: `/hi/bhagwan-ko-kaise-jane`
+Slug — **recommended**: `/hi/bhagwan-ko-kaise-jane`
 
 **English** (H1: "Loving a Picture, or Meeting God?", unchanged)
 1. How to Know God: The Murti Is the Map, the Guru the Driver (58 chars) — **recommended**
 2. Loving a Picture or Meeting God? How to Truly Know God (54 chars)
 3. Is Idol Worship Enough? Why You Need a Living Guru (50 chars)
 
-Meta description (152 chars): How do you truly know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.
+Meta description (142 chars) — **recommended**: How to know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.
 
-Slug: `/en/how-to-know-god-murti-map-guru`
+Slug — **recommended**: `/en/how-to-know-god-murti-map-guru`
 
 The video title says "The Only Way"; the title tags avoid "only way" on purpose (see flag 4).
 
@@ -93,7 +95,7 @@ Cannibalization: this is the fifth post on "know your God before you worship". T
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID KH9tkZuYu-g, uploaded 2023-12-22, 671 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/bhagwan-ko-kaise-jane/`, `/en/how-to-know-god-murti-map-guru/`). Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID KH9tkZuYu-g, uploaded 2023-12-22, 671 s, title from yt-dlp.
 
 **Hindi**
 
@@ -174,7 +176,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Loving a Picture, or Meeting God?",
       "alternativeHeadline": "How to Know God: The Murti Is the Map, the Guru the Driver",
-      "description": "How do you truly know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.",
+      "description": "How to know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.",
       "inLanguage": "en",
       "keywords": ["how to know God", "why you need a living Guru", "is idol worship enough", "rupakalpana meaning"],
       "about": [
@@ -337,9 +339,79 @@ The values written to `output/only_way_know_god/blog/seo.json`:
       "slug": "how-to-know-god-murti-map-guru",
       "focus_keyword": "how to know God",
       "secondary_keywords": ["why you need a living Guru", "is idol worship enough", "rupakalpana meaning"],
-      "meta_description": "How do you truly know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.",
+      "meta_description": "How to know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way.",
       "tags": ["Idol worship", "Sakar and Nirakar", "Blind Faith", "Sadguru", "Upanishads"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged (none found; the verse-reading and "only way" flags are in section 10)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
