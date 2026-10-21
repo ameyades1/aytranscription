@@ -1,7 +1,7 @@
 {
   "title": {
     "hi": "गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है",
-    "en": "Ganpati Visarjan Meaning: What the Returned Clay Teaches"
+    "en": "Meaning of Ganpati Visarjan: What the Returned Clay Teaches"
   },
   "alt": {
     "hero.jpg": {
@@ -49,14 +49,14 @@
       "slug": "ganpati-visarjan-ka-arth",
       "focus_keyword": "गणपति विसर्जन का अर्थ",
       "secondary_keywords": ["गणेश विसर्जन क्यों करते हैं", "विसर्जन के बाद मिट्टी का क्या करें", "गणपति विसर्जन का आध्यात्मिक महत्व"],
-      "meta_description": "गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
+      "meta_description": "गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
       "tags": ["गणेश सीरीज़", "गणेश चतुर्थी", "अद्वैत वेदांत", "मूर्ति पूजा", "साकार और निराकार"]
     },
     "en": {
-      "slug": "ganpati-visarjan-meaning",
-      "focus_keyword": "Ganpati Visarjan meaning",
+      "slug": "meaning-of-ganpati-visarjan",
+      "focus_keyword": "meaning of Ganpati Visarjan",
       "secondary_keywords": ["why is the Ganesh idol immersed", "what to do with visarjan clay", "spiritual significance of Ganesh Visarjan"],
-      "meta_description": "What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
+      "meta_description": "What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
       "tags": ["Ganesh Series", "Ganesh Chaturthi", "Advaita Vedanta", "Idol worship", "Sakar and Nirakar"]
     }
   }

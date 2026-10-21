@@ -19,13 +19,16 @@ Every year on Anant Chaturdashi millions of families immerse their Ganpati, and 
 | ganpati visarjan ka arth | Hinglish | Informational | High |
 | ganesh visarjan kyu karte hai | Hinglish | Informational | High |
 | visarjan ki mitti ka kya kare | Hinglish | Practical | Medium |
-| Ganpati Visarjan meaning | English | Informational | High (primary) |
+| meaning of Ganpati Visarjan | English | Informational | High (primary) |
+| Ganpati Visarjan meaning | English | Informational | High |
 | why is the Ganesh idol immersed | English | Informational | High |
 | spiritual significance of Ganesh Visarjan | English | Informational | Medium |
 | what to do with visarjan clay | English | Practical | Medium |
 | Acharya Upendra Ji Ganesh Series | English | Navigational | Low |
 
 Notes: "Ganpati" (Marathi/Mumbai usage, and the video's own spelling) and "Ganesh" are both searched heavily; the focus keyword uses "Ganpati" to match the talk and the video, and the secondaries cover "Ganesh". Avoid "visarjan muhurat" and "visarjan vidhi": the talk does not answer them.
+
+Keyword mismatch (fixed by `/seo_blog_fix`): the original blog texts never use "गणपति विसर्जन का अर्थ" or "Ganpati Visarjan" at all. The SEO copies (`ganpati_visarjan_tradition_blog_seo.txt`, `ganpati_visarjan_tradition_blog_seo_en.txt`) add a short direct answer at the end of the opening section that uses the Hindi focus keyword and, in English, "meaning of Ganpati Visarjan" (the video thumbnail's own wording, "Forgotten Meaning of Ganpati Visarjan"). "Ganpati Visarjan meaning" could not be worked into a natural English sentence, so "meaning of Ganpati Visarjan" is now the English focus keyword; the two are the same query in different word order. One H2 per language now asks the practical query: "विसर्जन के बाद मिट्टी का क्या करें?" / "What to Do with the Clay After Visarjan?".
 
 ## 3. Titles and meta
 
@@ -34,18 +37,18 @@ Notes: "Ganpati" (Marathi/Mumbai usage, and the video's own spelling) and "Ganes
 2. गणेश विसर्जन क्यों करते हैं? नाम-रूप और ज्ञान-गंगा
 3. विसर्जन के बाद लौटी मिट्टी: गणपति विसर्जन का भूला अर्थ
 
-Meta description (151 characters): गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।
+Meta description (146 characters): गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।
 
 Slug: `/hi/ganpati-visarjan-ka-arth`
 
 **English**
-1. Ganpati Visarjan Meaning: What the Returned Clay Teaches (recommended, 56 characters)
+1. Meaning of Ganpati Visarjan: What the Returned Clay Teaches (recommended, 59 characters)
 2. Why Is the Ganesh Idol Immersed? The Forgotten Meaning
 3. The Handful of Clay After Visarjan: A Lesson in Advaita
 
-Meta description (148 characters): What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.
+Meta description (149 characters): What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.
 
-Slug: `/en/ganpati-visarjan-meaning`
+Slug: `/en/meaning-of-ganpati-visarjan`
 
 The H1s ("विसर्जन के बाद लौटी मुट्ठी भर मिट्टी क्या कहती है" / "What the Handful of Clay Returned After Visarjan Tells Us") are evocative but do not name Ganpati; the title tags lead with the query and the H1s stay unchanged.
 
@@ -99,7 +102,7 @@ Related reading: hidden_meaning_behind_10_days_ganesh, every_ganesh_idol_look_di
 
 Pillar: Festivals (category `festivals`), within the Ganesh Series cluster. Other Ganesh Series posts to link from later: ganesh_chaturthi_pitru_paksha_navratri_diwali, ganesh_have_elephant_head_mouse, truth_about_lord_ganesh.
 
-**Cannibalization:** hidden_meaning_behind_10_days_ganesh targets "Ganesh Chaturthi spiritual meaning" and also mentions visarjan. This post takes the narrower query "Ganpati Visarjan meaning" / "गणपति विसर्जन का अर्थ" and should not target Ganesh Chaturthi; Ganesh Chaturthi is only a tag here. every_ganesh_idol_look_different targets the idol choice ("how to choose a Ganesh idol"), not the immersion, so there is no overlap.
+**Cannibalization:** hidden_meaning_behind_10_days_ganesh targets "Ganesh Chaturthi spiritual meaning" and also mentions visarjan. This post takes the narrower query "meaning of Ganpati Visarjan" / "गणपति विसर्जन का अर्थ" and should not target Ganesh Chaturthi; Ganesh Chaturthi is only a tag here. every_ganesh_idol_look_different targets the idol choice ("how to choose a Ganesh idol"), not the immersion, so there is no overlap.
 
 ## 8. Schema
 
@@ -111,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-visarjan-ka-arth/`, `/en/ganpati-visarjan-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-visarjan-ka-arth/`, `/en/meaning-of-ganpati-visarjan/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -128,7 +131,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "विसर्जन के बाद लौटी मुट्ठी भर मिट्टी क्या कहती है",
       "alternativeHeadline": "गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है",
-      "description": "गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
+      "description": "गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
       "inLanguage": "hi",
       "keywords": ["गणपति विसर्जन का अर्थ", "गणेश विसर्जन क्यों करते हैं", "विसर्जन के बाद मिट्टी का क्या करें", "गणपति विसर्जन का आध्यात्मिक महत्व"],
       "about": [
@@ -217,10 +220,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "What the Handful of Clay Returned After Visarjan Tells Us",
-      "alternativeHeadline": "Ganpati Visarjan Meaning: What the Returned Clay Teaches",
-      "description": "What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
+      "alternativeHeadline": "Meaning of Ganpati Visarjan: What the Returned Clay Teaches",
+      "description": "What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
       "inLanguage": "en",
-      "keywords": ["Ganpati Visarjan meaning", "why is the Ganesh idol immersed", "what to do with visarjan clay", "spiritual significance of Ganesh Visarjan"],
+      "keywords": ["meaning of Ganpati Visarjan", "why is the Ganesh idol immersed", "what to do with visarjan clay", "spiritual significance of Ganesh Visarjan"],
       "about": [
         { "@type": "Thing", "name": "Ganesh Visarjan" },
         { "@type": "Thing", "name": "Nama-rupa" },
@@ -347,7 +350,7 @@ The values written to `output/ganpati_visarjan_tradition/blog/seo.json` (the pag
 {
   "title": {
     "hi": "गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है",
-    "en": "Ganpati Visarjan Meaning: What the Returned Clay Teaches"
+    "en": "Meaning of Ganpati Visarjan: What the Returned Clay Teaches"
   },
   "alt": {
     "hero.jpg": {
@@ -395,16 +398,86 @@ The values written to `output/ganpati_visarjan_tradition/blog/seo.json` (the pag
       "slug": "ganpati-visarjan-ka-arth",
       "focus_keyword": "गणपति विसर्जन का अर्थ",
       "secondary_keywords": ["गणेश विसर्जन क्यों करते हैं", "विसर्जन के बाद मिट्टी का क्या करें", "गणपति विसर्जन का आध्यात्मिक महत्व"],
-      "meta_description": "गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
+      "meta_description": "गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",
       "tags": ["गणेश सीरीज़", "गणेश चतुर्थी", "अद्वैत वेदांत", "मूर्ति पूजा", "साकार और निराकार"]
     },
     "en": {
-      "slug": "ganpati-visarjan-meaning",
-      "focus_keyword": "Ganpati Visarjan meaning",
+      "slug": "meaning-of-ganpati-visarjan",
+      "focus_keyword": "meaning of Ganpati Visarjan",
       "secondary_keywords": ["why is the Ganesh idol immersed", "what to do with visarjan clay", "spiritual significance of Ganesh Visarjan"],
-      "meta_description": "What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
+      "meta_description": "What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay.",
       "tags": ["Ganesh Series", "Ganesh Chaturthi", "Advaita Vedanta", "Idol worship", "Sakar and Nirakar"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (mismatch flagged in section 2 and fixed in the `_seo` texts)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the 40–60 word direct answer at the end of the opening section of the `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (one H2 per language now phrased as a searched question)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the Sanskrit review's open items, the unsourced "शास्त्र कहता है" / "The scriptures say" and "what the rishis prescribed", are flagged in section 10 for the editor; the SEO fix does not repeat them)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
