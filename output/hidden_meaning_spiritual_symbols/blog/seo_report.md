@@ -21,6 +21,8 @@ A short talk (2:55 on YouTube) in which Acharya Upendra Ji answers why spiritual
 | Acharya Upendra Ji spiritual symbols | English | Navigational | Low |
 | meaning of Hindu symbols (lotus, conch, chakra) | English | Informational | Low (not answered here; see flag 1) |
 
+Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither focus keyword; "धर्म में प्रतीकों का महत्व" and "importance of symbols in religion" were nowhere in the body, which only asks why spiritual teachings speak in symbols. The SEO-fixed texts (`_seo`) now open a short direct answer with the focus keyword, in the first 100 words, and rephrase the H2 "जब प्रतीक ही सत्य बन जाए" / "When the Symbol Takes the Place of the Truth" as the secondary keyword question "अंधश्रद्धा कैसे शुरू होती है?" / "How Does Blind Faith Begin?". The focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -28,18 +30,18 @@ A short talk (2:55 on YouTube) in which Acharya Upendra Ji answers why spiritual
 2. शास्त्र प्रतीकों में क्यों बोलते हैं? सरल उत्तर (47)
 3. प्रतीक और अंधश्रद्धा: संकेत पकड़ा, अर्थ भूले (44)
 
-Meta description: शास्त्र प्रतीकों में क्यों बोलते हैं? आचार्य उपेंद्र जी बताते हैं धर्म में प्रतीकों का महत्व, अंधश्रद्धा कैसे जन्मती है और प्रतीक की कुंजी गुरु के पास क्यों है।
+Meta description (recommended, as in seo.json): शास्त्र प्रतीकों में क्यों बोलते हैं? आचार्य उपेंद्र जी बताते हैं धर्म में प्रतीकों का महत्व, अंधश्रद्धा कैसे जन्मती है और प्रतीक की कुंजी गुरु के पास क्यों है।
 
-Slug: `/hi/dharm-mein-prateekon-ka-mahatva`
+Slug (recommended, as in seo.json): `/hi/dharm-mein-prateekon-ka-mahatva`
 
 **English**
 1. Importance of Symbols in Religion: Meaning vs Blind Faith (57 characters) **recommended**
 2. Why Do Scriptures Speak in Symbols? Acharya Ji Explains (55)
 3. Symbols and Blind Faith: When the Sign Replaces the Truth (57)
 
-Meta description: Why do scriptures speak in symbols? Acharya Upendra Ji explains the importance of symbols in religion, how blind faith begins, and why you need a Guru. (151 characters)
+Meta description (recommended, as in seo.json): Why do scriptures speak in symbols? Acharya Upendra Ji explains the importance of symbols in religion, how blind faith begins, and why you need a Guru. (151 characters)
 
-Slug: `/en/importance-of-symbols-in-religion`
+Slug (recommended, as in seo.json): `/en/importance-of-symbols-in-religion`
 
 The H1s in the blog stay as they are; the titles above are for the `<title>` tag and WordPress SEO title only.
 
@@ -529,3 +531,73 @@ The exact values written to `output/hidden_meaning_spiritual_symbols/blog/seo.js
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
