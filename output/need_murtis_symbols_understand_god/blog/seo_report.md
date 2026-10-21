@@ -27,22 +27,23 @@ Keyword notes:
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "मूर्ति क्यों चाहिए जब ईश्वर निराकार है", unchanged)
-1. मूर्ति पूजा क्यों? निराकार ईश्वर और साकार उपासना (48 characters) — **recommended**
-2. ईश्वर निराकार है, तो मूर्ति पूजा क्यों?
-3. मूर्ति पूजा का रहस्य: सांत मनुष्य और अनंत ईश्वर
+1. मूर्ति पूजा क्यों करते हैं, जब ईश्वर निराकार है? (48 characters) — **recommended; in seo.json**
+2. मूर्ति पूजा क्यों? निराकार ईश्वर और साकार उपासना (the first proposal, before the SEO fix)
+3. ईश्वर निराकार है, तो मूर्ति पूजा क्यों?
+4. मूर्ति पूजा का रहस्य: सांत मनुष्य और अनंत ईश्वर
 
-Meta description (152 characters): ईश्वर निराकार है तो मूर्ति पूजा क्यों? आचार्य जी समझाते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।
+Meta description (160 characters, recommended; in seo.json): ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।
 
-Slug: /hi/murti-puja-kyon
+Slug (recommended; in seo.json): /hi/murti-puja-kyon-karte-hain
 
 **English** (H1 in the blog: "Why Worship a Murti If God Has No Form?", unchanged)
-1. Why Worship a Murti If God Is Formless? (39 characters) — **recommended**
+1. Why Worship a Murti If God Is Formless? (39 characters) — **recommended; in seo.json**
 2. Worship a Murti or the Formless? Acharya Ji Explains
 3. Why We Worship a Murti: Form, the Finite and the Infinite
 
-Meta description (154 characters): If God is formless, why worship a murti? Acharya Ji explains why finite beings need form, the two paths of yoga, and why murtis follow the rishis' vision.
+Meta description (154 characters, recommended; in seo.json): If God is formless, why worship a murti? Acharya Ji explains why finite beings need form, the two paths of yoga, and why murtis follow the rishis' vision.
 
-Slug: /en/why-worship-a-murti-formless-god
+Slug (recommended; in seo.json): /en/why-worship-a-murti-formless-god
 
 ## 4. Outline changes
 
@@ -98,7 +99,7 @@ Cannibalization: no other post uses "मूर्ति पूजा" or "worshi
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Unknown values are `{{PLACEHOLDER}}`. Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog); video uploaded 2026-08-27, 381 seconds (yt-dlp).
+For later use in WordPress; not added to the page. Unknown values are `{{PLACEHOLDER}}`. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs in seo.json: `/hi/murti-puja-kyon-karte-hain/`, `/en/why-worship-a-murti-formless-god/`). Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog); video uploaded 2026-08-27, 381 seconds (yt-dlp).
 
 **Hindi**
 
@@ -110,10 +111,10 @@ For later use in WordPress; not added to the page. Unknown values are `{{PLACEHO
       "@type": "BlogPosting",
       "@id": "{{HI_POST_URL}}#article",
       "headline": "मूर्ति क्यों चाहिए जब ईश्वर निराकार है",
-      "alternativeHeadline": "मूर्ति पूजा क्यों? निराकार ईश्वर और साकार उपासना",
-      "description": "ईश्वर निराकार है तो मूर्ति पूजा क्यों? आचार्य जी समझाते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।",
+      "alternativeHeadline": "मूर्ति पूजा क्यों करते हैं, जब ईश्वर निराकार है?",
+      "description": "ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।",
       "inLanguage": "hi",
-      "keywords": ["मूर्ति पूजा", "मूर्ति पूजा क्यों करते हैं", "साकार और निराकार", "निराकार की पूजा"],
+      "keywords": ["मूर्ति पूजा क्यों करते हैं", "मूर्ति पूजा", "साकार और निराकार", "निराकार की पूजा"],
       "about": [
         {"@type": "Thing", "name": "मूर्ति पूजा"},
         {"@type": "Thing", "name": "साकार और निराकार"},

@@ -38,4 +38,13 @@ Still unmet: none. `python3 tools/check_seo.py need_murtis_symbols_understand_go
 | wordpress.hi.slug | murti-puja-kyon | murti-puja-kyon-karte-hain |
 | wordpress.hi.meta_description | ईश्वर निराकार है तो मूर्ति पूजा क्यों? आचार्य जी समझाते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई। | ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई। (160 characters) |
 
-English: no changes. The focus keyword stays "worship a murti", the slug stays `why-worship-a-murti-formless-god`, and the title and meta already contain the keyword. `links`, `also_read` and `related` are unchanged in both languages. The report's section 11 block matches the new seo.json, and section 2's keyword table and notes were updated. Section 12 needed no mark changes. Sections 3 and 8 still show the old Hindi title and meta as the report's original proposals.
+English: no changes. The focus keyword stays "worship a murti", the slug stays `why-worship-a-murti-formless-god`, and the title and meta already contain the keyword. `links`, `also_read` and `related` are unchanged in both languages. The report's section 11 block matches the new seo.json, and section 2's keyword table and notes were updated. Section 12 needed no mark changes. Sections 3 and 8 now show the seo.json title, meta description and slug for both languages (section 3 marks them "recommended; in seo.json" and keeps the old Hindi title as a listed alternative; section 8's Hindi alternativeHeadline, description and keywords were updated, and both URL slugs are noted).
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| Slug | murti-puja-kyon-karte-hain | why-worship-a-murti-formless-god |
+| Focus keyword | मूर्ति पूजा क्यों करते हैं | worship a murti |
+| Title | मूर्ति पूजा क्यों करते हैं, जब ईश्वर निराकार है? | Why Worship a Murti If God Is Formless? |
+| Meta description | ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई। | If God is formless, why worship a murti? Acharya Ji explains why finite beings need form, the two paths of yoga, and why murtis follow the rishis' vision. |
