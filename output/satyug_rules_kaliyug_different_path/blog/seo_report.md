@@ -17,7 +17,7 @@ A long discourse (video uploaded 2026-01-26, 2:39:23) in which Acharya Ji argues
 | kaliyug me kaun sa marg | Hinglish | Informational | Medium |
 | satyug ke niyam kaliyug | Hinglish | Navigational / informational | Medium |
 | dakshin marg vam marg kya hai | Hinglish | Informational | Medium |
-| spiritual path in Kaliyug | English | Informational / practical | High (focus) |
+| spiritual path in Kaliyuga | English | Informational / practical | High (focus) |
 | Satyug vs Kaliyug | English | Informational | High |
 | Dakshina Vama Siddhanta Kaula | English | Informational | Medium |
 | Panchamakara meaning | English | Informational | Medium |
@@ -28,25 +28,29 @@ A long discourse (video uploaded 2026-01-26, 2:39:23) in which Acharya Ji argues
 
 Deliberately not targeted: "vama marga rituals", "panchamakara practice", "tantra for wealth / power". They would draw readers looking for literal left-hand practice, which the blog does not teach and explicitly calls dangerous at the tamasic level (flag 1).
 
+Keyword note (after the SEO fix): neither focus keyword appeared word for word in the original body. The `_seo` texts now use "कलियुग में साधना का मार्ग" and "spiritual path in Kaliyuga" in a short answer paragraph within the first 100 words. The English keyword is spelled "Kaliyuga", as the body spells it everywhere, rather than the earlier "Kaliyug"; search engines treat the two spellings alike, and SureRank needs the body's exact word.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति (recommended, 58 characters)
+1. कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति (recommended, 51 characters; in seo.json after the SEO fix)
 2. कलियुग में साधना का मार्ग: दक्षिण, वाम, सिद्धांत या कौल?
 3. कलियुग में सत्ययुग के नियम क्यों नहीं चलते? आचार्य उपेंद्र जी
+4. सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति (the earlier title; it lacks the focus keyword)
 
-Meta description: कलियुग में कौन सा मार्ग काम करेगा? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।
+Meta description (recommended, in seo.json): कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।
 
-Slug: `/hi/satyug-ke-niyam-kaliyug-ka-marg`
+Slug (recommended, in seo.json): `/hi/kaliyug-mein-sadhana-ka-marg`
 
 **English**
-1. Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava (recommended, 54 characters)
-2. The Spiritual Path in Kaliyug: Dakshina, Vama or Kaula?
+1. Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava (recommended, 54 characters; in seo.json after the SEO fix)
+2. The Spiritual Path in Kaliyuga: Dakshina, Vama or Kaula?
 3. Why Satyug's Rules Don't Win Kaliyug | Acharya Upendra Ji
+4. Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava (the earlier title; it lacks the focus keyword)
 
-Meta description (151 characters): Which spiritual path works in Kaliyug? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.
+Meta description (recommended, in seo.json, 152 characters): What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.
 
-Slug: `/en/satyug-rules-kaliyug-path`
+Slug (recommended, in seo.json): `/en/spiritual-path-in-kaliyuga`
 
 ## 4. Outline changes
 
@@ -108,7 +112,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/satyug-ke-niyam-kaliyug-ka-marg/`, `/en/satyug-rules-kaliyug-path/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaliyug-mein-sadhana-ka-marg/`, `/en/spiritual-path-in-kaliyuga/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -125,8 +129,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "सत्ययुग के नियम, कलियुग का मार्ग: भैरव शक्ति और विश्वगुरु भारत",
-      "alternativeHeadline": "सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति",
-      "description": "कलियुग में कौन सा मार्ग काम करेगा? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
+      "alternativeHeadline": "कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति",
+      "description": "कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
       "inLanguage": "hi",
       "keywords": ["कलियुग में साधना का मार्ग", "सत्ययुग और कलियुग में अंतर", "दक्षिण मार्ग और वाम मार्ग", "पंचमकार का अर्थ", "भैरव शक्ति"],
       "about": [
@@ -216,10 +220,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Satyuga's Rules, Kaliyuga's Path: Bhairava Shakti and India as Vishwaguru",
-      "alternativeHeadline": "Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava",
-      "description": "Which spiritual path works in Kaliyug? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
+      "alternativeHeadline": "Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava",
+      "description": "What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
       "inLanguage": "en",
-      "keywords": ["spiritual path in Kaliyug", "Satyug vs Kaliyug", "Dakshina Vama Siddhanta Kaula", "Panchamakara meaning", "Bhairava Shakti"],
+      "keywords": ["spiritual path in Kaliyuga", "Satyug vs Kaliyug", "Dakshina Vama Siddhanta Kaula", "Panchamakara meaning", "Bhairava Shakti"],
       "about": [
         { "@type": "Thing", "name": "Kali Yuga" },
         { "@type": "Thing", "name": "Agama and Tantra" },
@@ -332,8 +336,8 @@ The exact contents of `output/satyug_rules_kaliyug_different_path/blog/seo.json`
 ```json
 {
   "title": {
-    "hi": "सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति",
-    "en": "Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava"
+    "hi": "कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति",
+    "en": "Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava"
   },
   "alt": {
     "hero.jpg": {
@@ -401,19 +405,89 @@ The exact contents of `output/satyug_rules_kaliyug_different_path/blog/seo.json`
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "satyug-ke-niyam-kaliyug-ka-marg",
+      "slug": "kaliyug-mein-sadhana-ka-marg",
       "focus_keyword": "कलियुग में साधना का मार्ग",
       "secondary_keywords": ["सत्ययुग और कलियुग में अंतर", "दक्षिण मार्ग और वाम मार्ग", "पंचमकार का अर्थ", "भैरव शक्ति"],
-      "meta_description": "कलियुग में कौन सा मार्ग काम करेगा? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
+      "meta_description": "कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
       "tags": ["कलियुग", "तंत्र", "भैरव", "सिद्धियां", "विश्वगुरु", "भगवद्गीता"]
     },
     "en": {
-      "slug": "satyug-rules-kaliyug-path",
-      "focus_keyword": "spiritual path in Kaliyug",
+      "slug": "spiritual-path-in-kaliyuga",
+      "focus_keyword": "spiritual path in Kaliyuga",
       "secondary_keywords": ["Satyug vs Kaliyug", "Dakshina Vama Siddhanta Kaula", "Panchamakara meaning", "Bhairava Shakti"],
-      "meta_description": "Which spiritual path works in Kaliyug? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
+      "meta_description": "What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
       "tags": ["Kali Yuga", "Tantra", "Bhairava", "Siddhis", "Vishwaguru", "Bhagavad Gita"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Bhairava, Tantra and Siddhis are in 1 to 2 posts so far, but they are recurring topics in these talks)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the body keeps statements the Sanskrit review flags as unsourced: the Bhavishya Purana claim and the Shankaracharya statement, flags 3 and 5; an editorial fix, not an SEO one; no SEO copy uses them)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)

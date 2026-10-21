@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति",
-    "en": "Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava"
+    "hi": "कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति",
+    "en": "Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava"
   },
   "alt": {
     "hero.jpg": {
@@ -69,17 +69,17 @@
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "satyug-ke-niyam-kaliyug-ka-marg",
+      "slug": "kaliyug-mein-sadhana-ka-marg",
       "focus_keyword": "कलियुग में साधना का मार्ग",
       "secondary_keywords": ["सत्ययुग और कलियुग में अंतर", "दक्षिण मार्ग और वाम मार्ग", "पंचमकार का अर्थ", "भैरव शक्ति"],
-      "meta_description": "कलियुग में कौन सा मार्ग काम करेगा? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
+      "meta_description": "कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",
       "tags": ["कलियुग", "तंत्र", "भैरव", "सिद्धियां", "विश्वगुरु", "भगवद्गीता"]
     },
     "en": {
-      "slug": "satyug-rules-kaliyug-path",
-      "focus_keyword": "spiritual path in Kaliyug",
+      "slug": "spiritual-path-in-kaliyuga",
+      "focus_keyword": "spiritual path in Kaliyuga",
       "secondary_keywords": ["Satyug vs Kaliyug", "Dakshina Vama Siddhanta Kaula", "Panchamakara meaning", "Bhairava Shakti"],
-      "meta_description": "Which spiritual path works in Kaliyug? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
+      "meta_description": "What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti.",
       "tags": ["Kali Yuga", "Tantra", "Bhairava", "Siddhis", "Vishwaguru", "Bhagavad Gita"]
     }
   }
