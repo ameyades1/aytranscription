@@ -24,6 +24,8 @@ A very short discourse (the video is under two minutes; about 300 words per lang
 | love is God meaning | English | Informational | Low |
 | Acharya Upendra Ji Guru disciple | English | Navigational | Low |
 
+Keyword note: neither focus keyword appeared word for word in the original blog body ("गुरु, प्रेम और शिष्यत्व" / "the Guru, love and discipleship"). The SEO-fixed texts (`guru_and_disciple_highest_form_love_blog_seo.txt`, `guru_and_disciple_highest_form_love_blog_seo_en.txt`) now use "गुरु शिष्य का प्रेम" and "the love between Guru and disciple" in the opening paragraph, and the English slug is now `love-between-guru-and-disciple` so it contains the focus keyword. No other searched wording differs from the body.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -31,18 +33,18 @@ A very short discourse (the video is under two minutes; about 300 words per lang
 2. सच्चा प्रेम क्या है? मोह, आसक्ति और गुरु का मार्ग
 3. असली शिष्य की पहचान: गुरु से प्रेम सीखना
 
-Meta description: जिसे हम प्रेम कहते हैं, क्या वह सच में प्रेम है? आचार्य उपेंद्र जी बताते हैं कि गुरु शिष्य का प्रेम मोह और आसक्ति से कैसे अलग है और असली शिष्य की पहचान क्या है।
+Meta description (recommended): जिसे हम प्रेम कहते हैं, क्या वह सच में प्रेम है? आचार्य उपेंद्र जी बताते हैं कि गुरु शिष्य का प्रेम मोह और आसक्ति से कैसे अलग है और असली शिष्य की पहचान क्या है।
 
-Slug: `/hi/guru-shishya-ka-prem/`
+Slug (recommended): `/hi/guru-shishya-ka-prem/`
 
 **English**
 1. Love Between Guru and Disciple: Love's Highest Form (recommended, 51 characters)
 2. What Is True Love? Moha, Attachment and the Guru
 3. The Mark of a True Disciple: Learning Love from a Guru
 
-Meta description (152 characters): Is what we call love really love? Acharya Upendra Ji explains love between Guru and disciple, how it differs from moha, and the mark of a true disciple.
+Meta description (recommended, 152 characters): Is what we call love really love? Acharya Upendra Ji explains love between Guru and disciple, how it differs from moha, and the mark of a true disciple.
 
-Slug: `/en/guru-disciple-love/`
+Slug (recommended): `/en/love-between-guru-and-disciple/`
 
 ## 4. Outline changes
 
@@ -102,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-shishya-ka-prem/`, `/en/guru-disciple-love/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-shishya-ka-prem/`, `/en/love-between-guru-and-disciple/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -511,7 +513,7 @@ The exact values written to `output/guru_and_disciple_highest_form_love/blog/seo
       ]
     },
     "en": {
-      "slug": "guru-disciple-love",
+      "slug": "love-between-guru-and-disciple",
       "focus_keyword": "love between Guru and disciple",
       "secondary_keywords": [
         "what is true love spiritually",
@@ -529,3 +531,73 @@ The exact values written to `output/guru_and_disciple_highest_form_love/blog/seo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
