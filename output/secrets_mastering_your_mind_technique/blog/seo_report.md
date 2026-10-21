@@ -23,6 +23,8 @@ Acharya Ji explains the **atharva** (calm, steady) mind as the first requirement
 | Narada Bhakti Sutra 39 meaning | English | Informational | Low |
 | Acharya Upendra Ji mastering the mind | English | Navigational | Low |
 
+Keyword note: the original blog texts never use the searched wording "स्थिर मन कैसे पाएं" / "how to develop a steady mind" (they say "स्थिर मन वाला नेता क्यों चाहिए?" / "Why Does a Leader Need a Steady Mind?"). The SEO fix (`seo_fix.md`) added a short direct answer to the opening of each `_seo` text that uses this wording in the first 100 words, so both focus keywords now match the published body.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,24 +32,24 @@ Acharya Ji explains the **atharva** (calm, steady) mind as the first requirement
 2. अथर्व मन: अपने जीवन के गणाधिपति कैसे बनें
 3. मन, श्वास और प्राण के स्वामी कैसे बनें: अथर्व मन
 
-Meta description (142 characters): स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य।
+Meta description (recommended, 142 characters): स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य।
 
-Slug: `/hi/sthir-man-kaise-paayen`
+Slug (recommended): `/hi/sthir-man-kaise-paayen`
 
 **English**
 1. How to Develop a Steady Mind: The Atharva Way to Lead (recommended, 53 characters)
 2. The Atharva Mind: Lead Your Own Life Like Ganapati
 3. Master Your Breath, Master Your Mind: The Atharva Mind
 
-Meta description (155 characters): How do you develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.
+Meta description (recommended, 151 characters): How to develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.
 
-Slug: `/en/how-to-develop-a-steady-mind`
+Slug (recommended): `/en/how-to-develop-a-steady-mind`
 
 ## 4. Outline changes
 
 The H1 and the teaching stay as they are. Suggested heading changes only:
-- Use the primary keyword early: the first paragraph does not contain "स्थिर मन" / "steady mind" as a phrase until the third paragraph in Hindi. Consider adding the direct answer (section 5) right after the H1 so the keyword appears in the first 100 words.
-- H2 "आपके भीतर का गण" / "The Gana Within You" → "आपके भीतर का गण: शरीर, मन, प्राण के अधिपति कौन?" / "The Gana Within You: Who Rules Body, Mind and Breath?" (question form for People Also Ask).
+- Use the primary keyword early: the first paragraph does not contain "स्थिर मन" / "steady mind" as a phrase until the third paragraph in Hindi. Consider adding the direct answer (section 5) right after the H1 so the keyword appears in the first 100 words. (Done in the `_seo` texts: a direct answer now follows the opening's second paragraph; see `seo_fix.md`.)
+- H2 "आपके भीतर का गण" / "The Gana Within You" → "आपके भीतर का गण: शरीर, मन, प्राण के अधिपति कौन?" / "The Gana Within You: Who Rules Body, Mind and Breath?" (question form for People Also Ask). (Done in the `_seo` texts as "आपके भीतर का गण: शरीर, मन और प्राण का अधिपति कौन?" / "The Gana Within You: Who Rules Body, Mind and Breath?".)
 - H2 "क्या आपकी श्वास आपकी सुनती है?" could add "प्राणायाम से मन कैसे शांत होता है" as an H3 or in the paragraph, matching the practical query.
 - H2 "\"ऐसा ही होता है\"" / "\"That's Just How It Is\"" → "\"ऐसा ही होता है\": अन्याय को स्वीकार करना हारा हुआ मन क्यों है?" / "\"That's Just How It Is\": Why Accepting Injustice Is a Defeated Mind".
 - H2 "प्रेम एव कार्यम्": see flag 6 (sandhi form प्रेमैव कार्यम्); the editor decides.
@@ -215,7 +217,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Atharva Mind: Becoming the Ganadhipati of Your Own Life",
       "alternativeHeadline": "How to Develop a Steady Mind: The Atharva Way to Lead",
-      "description": "How do you develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.",
+      "description": "How to develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.",
       "inLanguage": "en",
       "keywords": ["how to develop a steady mind", "atharva meaning", "how to lead your own life", "real atheist Swami Vivekananda", "Narada Bhakti Sutra 39 meaning"],
       "about": [
@@ -414,9 +416,79 @@ The exact values written to `output/secrets_mastering_your_mind_technique/blog/s
       "slug": "how-to-develop-a-steady-mind",
       "focus_keyword": "how to develop a steady mind",
       "secondary_keywords": ["atharva meaning", "how to lead your own life", "real atheist Swami Vivekananda", "Narada Bhakti Sutra 39 meaning"],
-      "meta_description": "How do you develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.",
+      "meta_description": "How to develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru.",
       "tags": ["Mastering the Mind", "Leadership", "Self-Confidence", "Sharanagati", "Narada Bhakti Sutra"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the blog adds a promise of liberation to the meaning of Narada Bhakti Sutra 42, names a non-existent "ज्ञानमय कोश" / "jnanamaya kosha", and attributes the "true devotee" line to sutra 42 (flags 1–3, Sanskrit review); left to the editor, as the SEO fix never touches teachings or verses
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
