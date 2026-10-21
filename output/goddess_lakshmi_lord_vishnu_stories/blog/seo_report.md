@@ -23,6 +23,8 @@ A short, focused talk (the video runs 4 min 25 s). Acharya Ji's point: the momen
 | lakshmi tattva kya hai | Hinglish | Informational | Low |
 | Acharya Upendra Ji Lakshmi Vishnu | English | Navigational | Low |
 
+Keyword note: neither focus keyword appeared word for word in the original body texts (Hindi had "**विष्णु और लक्ष्मी** का स्थान" and "विष्णु और लक्ष्मी तत्व", not "विष्णु और लक्ष्मी का महत्व"; English said "Lord Vishnu and Goddess Lakshmi" but never "significance of Vishnu and Lakshmi"). The SEO fix (`/seo_blog_fix`) added a short direct answer after the intro of each `_seo` text that uses the focus keyword in the first 100 words, so both focus keywords stay as they were. The English title, slug (`significance-of-vishnu-and-lakshmi`) and meta description, and the Hindi meta description, now contain the focus keyword. See `seo_fix.md`.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,19 @@ A short, focused talk (the video runs 4 min 25 s). Acharya Ji's point: the momen
 2. उत्पत्ति एक क्षण की, पालन पूरे जीवन का (38)
 3. महालक्ष्मी सबसे महत्वपूर्ण क्यों? विष्णु-लक्ष्मी तत्व (52)
 
-Meta description (158 characters): "उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में विष्णु और लक्ष्मी तत्व की सबसे अधिक आवश्यकता क्यों होती है।"
+Meta description (154 characters) **recommended**: "विष्णु और लक्ष्मी का महत्व: उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में पालन सबसे अधिक क्यों चाहिए।"
 
-Slug: `/hi/vishnu-lakshmi-ka-mahatva`
+Slug **recommended**: `/hi/vishnu-lakshmi-ka-mahatva`
 
 **English**
-1. Why Vishnu and Lakshmi Matter: Sustaining Takes a Lifetime (58) **recommended**
-2. Vishnu and Lakshmi: The Power That Sustains Your Life (53)
-3. Creation Takes a Moment, Sustaining Takes a Lifetime (52)
+1. Significance of Vishnu and Lakshmi: Why Sustaining Matters (58) **recommended**
+2. Why Vishnu and Lakshmi Matter: Sustaining Takes a Lifetime (58)
+3. Vishnu and Lakshmi: The Power That Sustains Your Life (53)
+4. Creation Takes a Moment, Sustaining Takes a Lifetime (52)
 
-Meta description (148 characters): "Creation takes a moment, sustaining takes a lifetime. Acharya Upendra Ji explains why body, business and family need Vishnu and Lakshmi most of all."
+Meta description (152 characters) **recommended**: "Significance of Vishnu and Lakshmi: creation takes a moment, sustaining a lifetime. Acharya Upendra Ji explains why body, business and family need them."
 
-Slug: `/en/why-vishnu-and-lakshmi-matter`
+Slug **recommended**: `/en/significance-of-vishnu-and-lakshmi`
 
 The H1 ("उत्पत्ति एक क्षण की, पालन पूरे जीवन का" / "Creation Takes a Moment, Sustaining Takes a Lifetime") stays; the title tag puts the searched names first.
 
@@ -97,7 +100,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vishnu-lakshmi-ka-mahatva/`, `/en/why-vishnu-and-lakshmi-matter/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vishnu-lakshmi-ka-mahatva/`, `/en/significance-of-vishnu-and-lakshmi/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -115,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "उत्पत्ति एक क्षण की, पालन पूरे जीवन का",
       "alternativeHeadline": "विष्णु और लक्ष्मी का महत्व: पालन ही जीवन है",
-      "description": "उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में विष्णु और लक्ष्मी तत्व की सबसे अधिक आवश्यकता क्यों होती है।",
+      "description": "विष्णु और लक्ष्मी का महत्व: उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में पालन सबसे अधिक क्यों चाहिए।",
       "inLanguage": "hi",
       "keywords": [
         "विष्णु और लक्ष्मी का महत्व",
@@ -265,8 +268,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Creation Takes a Moment, Sustaining Takes a Lifetime",
-      "alternativeHeadline": "Why Vishnu and Lakshmi Matter: Sustaining Takes a Lifetime",
-      "description": "Creation takes a moment, sustaining takes a lifetime. Acharya Upendra Ji explains why body, business and family need Vishnu and Lakshmi most of all.",
+      "alternativeHeadline": "Significance of Vishnu and Lakshmi: Why Sustaining Matters",
+      "description": "Significance of Vishnu and Lakshmi: creation takes a moment, sustaining a lifetime. Acharya Upendra Ji explains why body, business and family need them.",
       "inLanguage": "en",
       "keywords": [
         "significance of Vishnu and Lakshmi",
@@ -443,7 +446,7 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
 {
   "title": {
     "hi": "विष्णु और लक्ष्मी का महत्व: पालन ही जीवन है",
-    "en": "Why Vishnu and Lakshmi Matter: Sustaining Takes a Lifetime"
+    "en": "Significance of Vishnu and Lakshmi: Why Sustaining Matters"
   },
   "alt": {
     "hero.jpg": {
@@ -514,7 +517,7 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
         "महालक्ष्मी का महत्व",
         "सृजन पालन और अंत की शक्ति"
       ],
-      "meta_description": "उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में विष्णु और लक्ष्मी तत्व की सबसे अधिक आवश्यकता क्यों होती है।",
+      "meta_description": "विष्णु और लक्ष्मी का महत्व: उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में पालन सबसे अधिक क्यों चाहिए।",
       "tags": [
         "लक्ष्मी",
         "विष्णु",
@@ -524,7 +527,7 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
       ]
     },
     "en": {
-      "slug": "why-vishnu-and-lakshmi-matter",
+      "slug": "significance-of-vishnu-and-lakshmi",
       "focus_keyword": "significance of Vishnu and Lakshmi",
       "secondary_keywords": [
         "Vishnu the sustainer",
@@ -532,7 +535,7 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
         "importance of Mahalakshmi",
         "creation sustenance and dissolution in Hinduism"
       ],
-      "meta_description": "Creation takes a moment, sustaining takes a lifetime. Acharya Upendra Ji explains why body, business and family need Vishnu and Lakshmi most of all.",
+      "meta_description": "Significance of Vishnu and Lakshmi: creation takes a moment, sustaining a lifetime. Acharya Upendra Ji explains why body, business and family need them.",
       "tags": [
         "Lakshmi",
         "Vishnu",
@@ -544,3 +547,73 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it word for word, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the focus keywords are the searched wording and now appear in the `_seo` texts; the mismatch is noted in section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords) (`significance-of-vishnu-and-lakshmi`)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro of the `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (the last H2 in each language is now a natural question)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the Mahalakshmi claim is attributed to Acharya Ji in the body and the reworded heading; the review's Key Takeaways wording is left to the editor, flag 1)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
