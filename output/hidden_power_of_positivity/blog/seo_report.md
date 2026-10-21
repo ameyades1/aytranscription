@@ -24,6 +24,8 @@ An 11-minute discourse (YouTube, "Discover the Hidden Power of Positivity") in w
 | Bhagavad Gita 3.14 yajna cycle | English | Informational | Low |
 | Acharya Upendra Ji positivity | English | Navigational | Low |
 
+Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither focus keyword; they quote the mantra only in the verse and never name it as "भद्रं कर्णेभिः" / "Bhadram Karnebhih" in the body. The SEO-fixed texts (`_seo`) now name the mantra in the intro, add a short direct answer that opens with the focus keyword (within the first 100 words), and rephrase the H2 "एक मंत्र, जिसे हम रोज़ दोहराते हैं" / "A Mantra We Recite Every Day" as "भद्रं कर्णेभिः मंत्र का अर्थ क्या है?" / "What Does Bhadram Karnebhih Mean?". The English meta description now uses "Bhadram Karnebhih meaning" word for word. The focus keywords and slugs are unchanged.
+
 No focus keyword overlaps with another talk's. "preya and shreya" is the core topic of `shreya_vs_preya_vedantic_wisdom`, so it stays a secondary keyword here (see section 7).
 
 ## 3. Titles and meta
@@ -33,18 +35,18 @@ No focus keyword overlaps with another talk's. "preya and shreya" is the core to
 2. भद्र सुनो, भद्र देखो: शांति मंत्र का गहरा अर्थ
 3. भद्रं कर्णेभिः: प्रिय नहीं, कल्याणकारी सुनें
 
-Meta description (154 characters): भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना।
+Meta description (recommended, as in seo.json, 154 characters): भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना।
 
-Slug: `/hi/bhadram-karnebhih-mantra-ka-arth`
+Slug (recommended, as in seo.json): `/hi/bhadram-karnebhih-mantra-ka-arth`
 
 **English**
 1. Bhadram Karnebhih Meaning: The Hidden Power of Positivity (recommended, 57 characters)
 2. Hear What Is Auspicious: Bhadram Karnebhih Explained
 3. Bhadram Karnebhih: Why Auspicious Is Not Pleasant
 
-Meta description (148 characters): What does Bhadram Karnebhih really mean? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.
+Meta description (recommended, as in seo.json, 146 characters; updated by `/seo_blog_fix` to contain the focus keyword word for word): What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.
 
-Slug: `/en/bhadram-karnebhih-meaning`
+Slug (recommended, as in seo.json): `/en/bhadram-karnebhih-meaning`
 
 ## 4. Outline changes
 
@@ -217,7 +219,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Hear What Is Auspicious, See What Is Auspicious: The Hidden Power of Positivity",
       "alternativeHeadline": "Bhadram Karnebhih Meaning: The Hidden Power of Positivity",
-      "description": "What does Bhadram Karnebhih really mean? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.",
+      "description": "What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.",
       "inLanguage": "en",
       "keywords": [
         "Bhadram Karnebhih meaning",
@@ -430,7 +432,7 @@ The exact values written to `output/hidden_power_of_positivity/blog/seo.json` fo
         "preya and shreya",
         "hear good see good meaning"
       ],
-      "meta_description": "What does Bhadram Karnebhih really mean? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.",
+      "meta_description": "What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything.",
       "tags": [
         "Shanti Mantra",
         "Yajna",
@@ -441,3 +443,73 @@ The exact values written to `output/hidden_power_of_positivity/blog/seo.json` fo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Shanti Mantra / शांति मंत्र is in this post only so far, but every shanti path talk can share it)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged (section 10, flags 8 and 9)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
