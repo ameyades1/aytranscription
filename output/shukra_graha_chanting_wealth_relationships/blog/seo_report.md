@@ -26,6 +26,8 @@ A short talk on **Shukra (शुक्र, Venus)** as the significator of love,
 | shukra grah ka prabhav | Hinglish | Informational | Medium |
 | Acharya Upendra Ji Shukra chanting | English | Navigational | Low |
 
+Keyword wording: the original blog texts did not use either focus keyword (Hindi had only "शुक्र", never "शुक्र ग्रह का प्रभाव"; English never said "Vedic astrology"). The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now open the first section with a short direct answer that uses "शुक्र ग्रह का प्रभाव" / "significance of Venus in Vedic astrology" within the first 100 words, and the strong/weak Venus heading now also asks about the signs of a weak Venus ("कमज़ोर शुक्र के लक्षण"). Focus keywords are unchanged; the English slug now carries the full keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -35,16 +37,16 @@ A short talk on **Shukra (शुक्र, Venus)** as the significator of love,
 
 Meta description: शुक्र ग्रह का प्रभाव प्रेम, विवाह, धन और कला पर कैसे पड़ता है? आचार्य उपेंद्र जी बताते हैं प्रबल और दोषग्रस्त शुक्र के लक्षण और शुक्र बीज मंत्र जप साधना।
 
-Slug: `/hi/shukra-grah-ka-prabhav`
+Slug: `/hi/shukra-grah-ka-prabhav` (recommended; title, meta description and slug as in seo.json)
 
 **English**
 1. Significance of Venus in Vedic Astrology: Love and Wealth **(recommended)**
 2. When Venus Awakens: Love, Wealth and Radiance
 3. Weak Venus? What Shukra Rules and How to Awaken It
 
-Meta description (154 characters): How does Venus, called Shukra, shape love, marriage, wealth and art? Acharya Upendra Ji explains the signs of a weak Venus and the Shukra beej mantra jap.
+Meta description (150 characters): The significance of Venus in Vedic astrology: how Shukra shapes love, marriage, wealth and art. Acharya Upendra Ji explains the signs of a weak Venus.
 
-Slug: `/en/significance-of-venus-shukra`
+Slug: `/en/significance-of-venus-in-vedic-astrology` (recommended; title, meta description and slug as in seo.json)
 
 ## 4. Outline changes
 
@@ -204,7 +206,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_URL}}#article",
       "headline": "When Venus Awakens, Love, Wealth and Radiance Flow Naturally",
       "alternativeHeadline": "Significance of Venus in Vedic Astrology: Love and Wealth",
-      "description": "How does Venus, called Shukra, shape love, marriage, wealth and art? Acharya Upendra Ji explains the signs of a weak Venus and the Shukra beej mantra jap.",
+      "description": "The significance of Venus in Vedic astrology: how Shukra shapes love, marriage, wealth and art. Acharya Upendra Ji explains the signs of a weak Venus.",
       "inLanguage": "en",
       "keywords": ["significance of Venus in Vedic astrology", "weak Venus symptoms", "Shukra beej mantra chanting", "Shukra Graha Jap Sadhana", "Venus and relationships"],
       "about": [
@@ -283,7 +285,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing; suggested post slugs: `/hi/shukra-grah-ka-prabhav/`, `/en/significance-of-venus-in-vedic-astrology/`) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -366,12 +368,82 @@ The exact seo.json written for the page generator and WordPress:
       "tags": ["नवग्रह", "लक्ष्मी", "विवाह", "रजोगुण"]
     },
     "en": {
-      "slug": "significance-of-venus-shukra",
+      "slug": "significance-of-venus-in-vedic-astrology",
       "focus_keyword": "significance of Venus in Vedic astrology",
       "secondary_keywords": ["weak Venus symptoms", "Shukra beej mantra chanting", "Shukra Graha Jap Sadhana", "Venus and relationships"],
-      "meta_description": "How does Venus, called Shukra, shape love, marriage, wealth and art? Acharya Upendra Ji explains the signs of a weak Venus and the Shukra beej mantra jap.",
+      "meta_description": "The significance of Venus in Vedic astrology: how Shukra shapes love, marriage, wealth and art. Acharya Upendra Ji explains the signs of a weak Venus.",
       "tags": ["Navagraha", "Lakshmi", "Marriage", "Rajas"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the body's "शास्त्र कहते हैं / The scriptures say" names no text and lists संतान सुख under Shukra; Sanskrit review issues 1 and 3, flags 1 and 3; content edits are outside this SEO fix)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
