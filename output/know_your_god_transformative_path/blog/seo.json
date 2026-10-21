@@ -1,7 +1,7 @@
 {
   "title": {
     "hi": "भगवान को जानना या मानना? गणेश गीता का यथार्थ योग",
-    "en": "Know God, Don't Just Believe: The Ganesha Gita's Yoga"
+    "en": "Knowing God vs Believing in God: The Ganesha Gita's Yoga"
   },
   "alt": {
     "hero.jpg": {
@@ -69,7 +69,7 @@
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "bhagwan-ko-jano-sirf-mano-nahi",
+      "slug": "bhagwan-ko-janna-ya-manna",
       "focus_keyword": "भगवान को जानना या मानना",
       "secondary_keywords": [
         "गणेश गीता का यथार्थ योग",
@@ -77,7 +77,7 @@
         "सच्ची भक्ति क्या है",
         "वैष्णव शैव शाक्त में अंतर"
       ],
-      "meta_description": "क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
+      "meta_description": "भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
       "tags": [
         "गणेश गीता",
         "भक्ति",
@@ -87,7 +87,7 @@
       ]
     },
     "en": {
-      "slug": "know-god-dont-just-believe",
+      "slug": "knowing-god-vs-believing-in-god",
       "focus_keyword": "knowing God vs believing in God",
       "secondary_keywords": [
         "Ganesha Gita true yoga",
@@ -95,7 +95,7 @@
         "what is true bhakti",
         "Vaishnava Shaiva Shakta difference"
       ],
-      "meta_description": "Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference.",
+      "meta_description": "Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference.",
       "tags": [
         "Ganesha Gita",
         "Bhakti",

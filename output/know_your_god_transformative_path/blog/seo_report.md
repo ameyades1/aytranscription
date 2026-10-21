@@ -22,25 +22,32 @@ This talk asks how well we really know the God we worship every day. Acharya Ji 
 | Ganesha Gita abheda buddhi verse | English | Informational | Low |
 | Know Your God Acharya Upendra Ji | English | Navigational | Low |
 
+Keyword note: the original blog texts never use the primary keywords word for word (the Hindi says "भगवान को **जानना** होता है, केवल **मानना** नहीं", the English "you must **know** God, not merely **believe** in Him"), so SureRank could not find them. The SEO fix (`seo_fix.md`) adds a short direct answer after the intro of the `_seo` texts that opens with "भगवान को जानना या मानना?" / "Knowing God vs believing in God?", within the first 100 words. Both stay the focus keywords; no mismatch is left. The fix also rewords the Ganesha Gita heading as the question "क्या शिव और विष्णु में भेद है?" / "Are Shiva and Vishnu the Same?", which carries the secondary keywords "शिव और विष्णु में भेद" and "are Shiva and Vishnu the same".
+
 ## 3. Titles and meta
 
 **Hindi** (the H1 "भगवान को जानो, केवल मानो नहीं" stays)
-1. भगवान को जानना या मानना? गणेश गीता का यथार्थ योग (recommended, 48 characters)
+1. भगवान को जानना या मानना? गणेश गीता का यथार्थ योग (recommended, in seo.json, 48 characters)
 2. भगवान को जानो, केवल मानो नहीं: सच्ची भक्ति की नींव
 3. शिव, विष्णु, शक्ति और गणेश में भेद क्यों नहीं?
 
-Meta description: क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।
+Meta description (recommended, in seo.json): भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।
 
-Slug: `/hi/bhagwan-ko-jano-sirf-mano-nahi`
+Slug (recommended, in seo.json): `/hi/bhagwan-ko-janna-ya-manna`
+
+(The SEO fix replaced the earlier meta description, which lacked the focus keyword, and the slug `bhagwan-ko-jano-sirf-mano-nahi`, so the slug follows the focus keyword.)
 
 **English** (the H1 "Know God, Don't Just Believe" stays)
-1. Know God, Don't Just Believe: The Ganesha Gita's Yoga (recommended, 53 characters)
-2. Do You Really Know the God You Worship?
-3. Are Shiva and Vishnu the Same? The Ganesha Gita Answers
+1. Knowing God vs Believing in God: The Ganesha Gita's Yoga (recommended, in seo.json, 56 characters)
+2. Know God, Don't Just Believe: The Ganesha Gita's Yoga (the earlier recommendation; it lacks the focus keyword)
+3. Do You Really Know the God You Worship?
+4. Are Shiva and Vishnu the Same? The Ganesha Gita Answers
 
-Meta description: Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference. (152 characters)
+Meta description (recommended, in seo.json): Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference. (152 characters)
 
-Slug: `/en/know-god-dont-just-believe`
+Slug (recommended, in seo.json): `/en/knowing-god-vs-believing-in-god`
+
+(The SEO fix replaced the earlier meta description and the slug `know-god-dont-just-believe`, neither of which contained the focus keyword.)
 
 ## 4. Outline changes
 
@@ -49,6 +56,8 @@ The H2 structure is short, question-led and mobile-friendly. Suggestions only; n
 - "गणेश गीता का यथार्थ योग" / "The True Yoga of the Ganesha Gita": an H3 "क्या शिव और विष्णु एक हैं?" / "Are Shiva and Vishnu the Same?" before the verses would match the top question query, and the verses answer it directly.
 - "वैष्णव, शाक्त या शैव?" / "Vaishnava, Shakta or Shaiva?" already matches a search query; keep it.
 - Consider placing the direct answer (section 5) right after the opening, so the primary keyword appears in the first 100 words. At present neither language uses the exact phrase early.
+
+Applied in the `_seo` texts (see `seo_fix.md`): a direct answer after the intro, and the Ganesha Gita heading reworded as "क्या शिव और विष्णु में भेद है? गणेश गीता का यथार्थ योग" / "Are Shiva and Vishnu the Same? The True Yoga of the Ganesha Gita" (rewording the heading instead of adding an H3 keeps the number of sections). The "जानना, मानना नहीं" / "Know Him, Don't Just Accept Him" heading is left as it is, because it anchors the Also read box.
 
 ## 5. Direct answer paragraph
 
@@ -105,7 +114,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@id": "{{PLACEHOLDER_WORDPRESS_URL_HI}}#article",
       "headline": "भगवान को जानो, केवल मानो नहीं",
       "alternativeHeadline": "भगवान को जानना या मानना? गणेश गीता का यथार्थ योग",
-      "description": "क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
+      "description": "भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
       "inLanguage": "hi",
       "keywords": "भगवान को जानना या मानना, गणेश गीता का यथार्थ योग, शिव और विष्णु में भेद, सच्ची भक्ति क्या है, वैष्णव शैव शाक्त में अंतर",
       "about": [
@@ -170,7 +179,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "VideoObject",
       "@id": "https://www.youtube.com/watch?v=3vpUtI7qrO0#video",
       "name": "Know Your God | A Transformative Path to 2025 | Acharya Upendra Ji",
-      "description": "क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
+      "description": "भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
       "thumbnailUrl": "https://i.ytimg.com/vi/3vpUtI7qrO0/maxresdefault.jpg",
       "uploadDate": "2025-01-06",
       "duration": "PT7M9S",
@@ -223,8 +232,8 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "BlogPosting",
       "@id": "{{PLACEHOLDER_WORDPRESS_URL_EN}}#article",
       "headline": "Know God, Don't Just Believe",
-      "alternativeHeadline": "Know God, Don't Just Believe: The Ganesha Gita's Yoga",
-      "description": "Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference.",
+      "alternativeHeadline": "Knowing God vs Believing in God: The Ganesha Gita's Yoga",
+      "description": "Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference.",
       "inLanguage": "en",
       "keywords": "knowing God vs believing in God, Ganesha Gita true yoga, are Shiva and Vishnu the same, what is true bhakti, Vaishnava Shaiva Shakta difference",
       "about": [
@@ -289,7 +298,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "VideoObject",
       "@id": "https://www.youtube.com/watch?v=3vpUtI7qrO0#video",
       "name": "Know Your God | A Transformative Path to 2025 | Acharya Upendra Ji",
-      "description": "Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference.",
+      "description": "Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3vpUtI7qrO0/maxresdefault.jpg",
       "uploadDate": "2025-01-06",
       "duration": "PT7M9S",
@@ -332,7 +341,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates the BlogPosting/Article, BreadcrumbList, Organization and Person nodes from the post itself: headline, dates, author, featured image, canonical URL and breadcrumbs. Enter by hand: the SEO title (section 3), meta description, focus keyword and slug in the post's SEO box; the Organization logo and social profiles once in the plugin's site settings; the author's name and page in the user profile. The plugin does not fill `alternativeHeadline`, `about`, `keywords`, the VideoObject (unless its video module is enabled) or the `workTranslation` / `translationOfWork` pair; add those through a custom schema block, and set hreflang (hi-IN, en, x-default) through the translation plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates the BlogPosting/Article, BreadcrumbList, Organization and Person nodes from the post itself: headline, dates, author, featured image, canonical URL and breadcrumbs. Enter by hand: the SEO title (section 3), meta description, focus keyword and slug in the post's SEO box; the Organization logo and social profiles once in the plugin's site settings; the author's name and page in the user profile. The plugin does not fill `alternativeHeadline`, `about`, `keywords`, the VideoObject (unless its video module is enabled) or the `workTranslation` / `translationOfWork` pair; add those through a custom schema block, and set hreflang (hi-IN, en, x-default) through the translation plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/bhagwan-ko-janna-ya-manna`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-god-vs-believing-in-god`.
 
 ## 9. Images
 
@@ -365,7 +374,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
 {
   "title": {
     "hi": "भगवान को जानना या मानना? गणेश गीता का यथार्थ योग",
-    "en": "Know God, Don't Just Believe: The Ganesha Gita's Yoga"
+    "en": "Knowing God vs Believing in God: The Ganesha Gita's Yoga"
   },
   "alt": {
     "hero.jpg": {
@@ -433,7 +442,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "bhagwan-ko-jano-sirf-mano-nahi",
+      "slug": "bhagwan-ko-janna-ya-manna",
       "focus_keyword": "भगवान को जानना या मानना",
       "secondary_keywords": [
         "गणेश गीता का यथार्थ योग",
@@ -441,7 +450,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
         "सच्ची भक्ति क्या है",
         "वैष्णव शैव शाक्त में अंतर"
       ],
-      "meta_description": "क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
+      "meta_description": "भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।",
       "tags": [
         "गणेश गीता",
         "भक्ति",
@@ -451,7 +460,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
       ]
     },
     "en": {
-      "slug": "know-god-dont-just-believe",
+      "slug": "knowing-god-vs-believing-in-god",
       "focus_keyword": "knowing God vs believing in God",
       "secondary_keywords": [
         "Ganesha Gita true yoga",
@@ -459,7 +468,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
         "what is true bhakti",
         "Vaishnava Shaiva Shakta difference"
       ],
-      "meta_description": "Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference.",
+      "meta_description": "Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference.",
       "tags": [
         "Ganesha Gita",
         "Bhakti",
@@ -471,3 +480,75 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked for the `_seo` texts and the seo.json written by the SEO fix (`seo_fix.md`); `check_seo.py` passes.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts' direct answer, built from the "जानना, मानना नहीं" / "Know Him, Don't Just Accept Him" section)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no mismatch left: the searched wording is the focus keyword and is now in the `_seo` texts; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro, both languages)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the blog still attributes "साधकानां हितार्थाय ब्रह्मणो रूपकल्पना" to Maharshi Vedavyasa and quotes its popular form; review issues 1 and 2, Major; flags 1 and 2. Fixing a scripture attribution goes beyond an SEO edit and is left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
