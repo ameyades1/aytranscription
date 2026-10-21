@@ -16,7 +16,8 @@ A very short discourse (the video is under two minutes; about 350 words per lang
 | prem ke prakar | Hinglish | Informational | Medium |
 | sneh prem aur aadar | Hinglish | Informational | Low |
 | guru ke prati prem | Hinglish | Devotional | Low |
-| love respect and friendship | English | Informational | High (focus) |
+| types of love | English | Informational | High (focus) |
+| love respect and friendship | English | Informational | High |
 | types of love in Hinduism | English | Informational | Medium |
 | is love only in marriage | English | Informational / emotional | Medium |
 | love for the Guru | English | Devotional | Medium |
@@ -24,6 +25,8 @@ A very short discourse (the video is under two minutes; about 350 words per lang
 | Acharya Upendra Ji on love | English | Navigational | Low |
 
 Priorities are judgement of intent and competition, not measured volumes.
+
+Keyword note (after the SEO fix): the English focus keyword was "love respect and friendship", but the body only had the phrase with a comma ("love, respect and friendship" does not even appear; the title tag's "Love, Respect and Friendship" is broken by the comma), so SureRank could not match it in the title, meta, body or slug. The `_seo` English text now uses the searched wording "types of love" in its direct-answer paragraph and in the H2 "Types of Love: One Love, Many Names", so "types of love" is now the English focus keyword and "love respect and friendship" moves to the secondary keywords. Generic English "types of love" queries still lean toward the Greek eros/philia/agape lists (section 10, flag 6); the post answers with the talk's own scheme. The Hindi focus keyword "प्रेम के प्रकार" stays; the `_seo` Hindi text now uses it in its direct-answer paragraph and in the H2 "प्रेम के प्रकार: एक प्रेम, अनेक नाम".
 
 ## 3. Titles and meta
 
@@ -37,13 +40,14 @@ Meta description: क्या प्रेम केवल शादी मे�
 Slug: `/hi/prem-ke-prakar`
 
 **English**
-1. Love, Respect and Friendship: Four Forms of One Love (52 characters) **recommended**
-2. Four Forms of Love, and Why We Learn Love from the Guru
-3. Is Love Only for Marriage? Affection, Friendship, Respect
+1. Types of Love: Affection, Friendship, Respect and the Guru (58 characters) **recommended**
+2. Love, Respect and Friendship: Four Forms of One Love (52 characters; the comma keeps it from matching a focus keyword)
+3. Four Forms of Love, and Why We Learn Love from the Guru
+4. Is Love Only for Marriage? Affection, Friendship, Respect
 
-Meta description (148 characters): Is love only for marriage? Acharya Upendra Ji explains love, respect and friendship as forms of one love, and why we first learn love from the Guru.
+Meta description (151 characters): Is love only for marriage? Acharya Upendra Ji explains the types of love: affection, friendship and respect, and why we first learn love from the Guru.
 
-Slug: `/en/love-respect-friendship`
+Slug: `/en/types-of-love`
 
 The H1s in the blog text stay as they are; the title tags above carry the keywords.
 
@@ -103,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/prem-ke-prakar/`, `/en/love-respect-friendship/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/prem-ke-prakar/`, `/en/types-of-love/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -218,12 +222,12 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Four Forms of Love, and the Oneness We Learn from the Guru",
-      "alternativeHeadline": "Love, Respect and Friendship: Four Forms of One Love",
-      "description": "Is love only for marriage? Acharya Upendra Ji explains love, respect and friendship as forms of one love, and why we first learn love from the Guru.",
+      "alternativeHeadline": "Types of Love: Affection, Friendship, Respect and the Guru",
+      "description": "Is love only for marriage? Acharya Upendra Ji explains the types of love: affection, friendship and respect, and why we first learn love from the Guru.",
       "inLanguage": "en",
       "keywords": [
+        "types of love",
         "love respect and friendship",
-        "types of love in Hinduism",
         "is love only in marriage",
         "love for the Guru",
         "how to learn to love"
@@ -341,7 +345,7 @@ The exact values written to `output/love_respect_friendship_connection/blog/seo.
 {
   "title": {
     "hi": "प्रेम के प्रकार: स्नेह, मित्रता, आदर और गुरु प्रेम",
-    "en": "Love, Respect and Friendship: Four Forms of One Love"
+    "en": "Types of Love: Affection, Friendship, Respect and the Guru"
   },
   "alt": {
     "hero.jpg": {
@@ -426,15 +430,15 @@ The exact values written to `output/love_respect_friendship_connection/blog/seo.
       ]
     },
     "en": {
-      "slug": "love-respect-friendship",
-      "focus_keyword": "love respect and friendship",
+      "slug": "types-of-love",
+      "focus_keyword": "types of love",
       "secondary_keywords": [
-        "types of love in Hinduism",
+        "love respect and friendship",
         "is love only in marriage",
         "love for the Guru",
         "how to learn to love"
       ],
-      "meta_description": "Is love only for marriage? Acharya Upendra Ji explains love, respect and friendship as forms of one love, and why we first learn love from the Guru.",
+      "meta_description": "Is love only for marriage? Acharya Upendra Ji explains the types of love: affection, friendship and respect, and why we first learn love from the Guru.",
       "tags": [
         "Guru and Disciple",
         "Sarvatra Bhagavat Buddhi",
@@ -445,3 +449,73 @@ The exact values written to `output/love_respect_friendship_connection/blog/seo.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (after the SEO fix: in the direct-answer paragraph of both `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
