@@ -22,6 +22,8 @@ A short event-style blog on Antar Yog's gau seva: why the cow is called Gau Mata
 | why is the cow sacred in Hinduism | English | Informational | Medium (broad, competitive; the post answers it only in part) |
 | Antar Yog gau seva | English / Hinglish | Navigational | Low (small volume, easy win) |
 
+Keyword note: the original blog texts never use the focus keywords word for word (the Hindi only says "उनका महत्व सर्वोपरि", the English "placed her above all else"). The `_seo` texts (`gau_seva_antar_yog_purity_prosperity_blog_seo.txt` / `_blog_seo_en.txt`, which are what gets published) now use "गौ सेवा का महत्व" and "importance of gau seva" once each in a short direct answer at the end of the opening section, within the first 100 words, and two H2s are phrased as searched questions ("गौ सेवा क्यों करें?" / "Why Do Gau Seva?", "गौ सेवा के लाभ क्या हैं?" / "What Are the Benefits of Gau Seva?"). The focus keywords stay as they are.
+
 Seasonal: gau seva searches rise around Gopashtami (Kartik Shukla Ashtami, around Diwali), Govardhan Puja and Makar Sankranti. Refresh the post 4–6 weeks before Gopashtami each year.
 
 ## 3. Titles and meta
@@ -232,7 +234,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist. The video title mentions liberation, which the blog does not cover (flag 10); the VideoObject keeps the real title, but do not reuse that word in the post's title or description.
+**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/gau-seva-ka-mahatva/`, `/en/importance-of-gau-seva/`). The video title mentions liberation, which the blog does not cover (flag 10); the VideoObject keeps the real title, but do not reuse that word in the post's title or description.
 
 ## 9. Images
 
@@ -351,3 +353,73 @@ The exact content of output/gau_seva_antar_yog_purity_prosperity/blog/seo.json:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no other searched wording; the focus keywords are the searched wording and are now in the `_seo` texts)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer at the end of the opening section of the `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (two H2s per language now phrased as searched questions)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the "thousandfold" fruit of sadhana in a gaushala has no source, and the Gita 17.23 gloss gives Acharya Ji's application as the verse's meaning; flags 1 and 2, left to the editor because the SEO fix may not change teachings or verse translations)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
