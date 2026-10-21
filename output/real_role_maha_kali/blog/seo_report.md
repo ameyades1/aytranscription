@@ -30,27 +30,29 @@ A short, practical talk on why Mahakali comes first. Durga is made of the three 
 
 Not targeted on purpose: "buri nazar se bachne ke upay" / "evil eye protection Kali" (fear-selling; see flag 12) and the trio query "Mahakali Mahalakshmi Mahasaraswati", which belongs to `awaken_divine_shakti_kali_lakshmi_saraswati`.
 
+Keyword note: the original blog texts never use the focus keywords word for word: the intro says "महाकाली की वास्तविक भूमिका" / "Mahakali's real role", which SureRank does not match to "महाकाली की भूमिका" / "role of Mahakali". The SEO fix (`seo_fix.md`) adds a short direct-answer paragraph after the intro of each `_seo` text that uses them in the first 100 words, and turns the H2 "रक्षा किसकी? ज्ञान और लक्ष्मी की" / "What Needs Guarding? Knowledge and Wealth" into the searched question "महाकाली किसकी रक्षा करती हैं? ज्ञान और लक्ष्मी की" / "What Does Mahakali Protect? Knowledge and Wealth". The focus keywords and slugs are unchanged; the Hindi title and the English meta description were rewritten to contain them exactly.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. महाकाली की असली भूमिका: हर आरंभ उन्हीं से क्यों (47 characters) **recommended**
-2. महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ (44)
+1. महाकाली की असली भूमिका: हर आरंभ उन्हीं से क्यों (47 characters)
+2. महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ (44) **recommended** (contains the focus keyword exactly)
 3. दुर्गा सप्तशती का पहला खंड महाकाली का क्यों? (44)
 
-Meta description (150 characters): "दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा।"
+Meta description (150 characters, **recommended**): "दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा।"
 
-Slug: `/hi/mahakali-ki-bhumika`
+Slug (**recommended**): `/hi/mahakali-ki-bhumika`
 
 **English**
 1. Real Role of Mahakali: Why Every Beginning Starts With Her (58) **recommended**
 2. Why Mahakali Comes First in the Durga Saptashati (48)
 3. Mahakali Guards Knowledge and Wealth: Her Real Role (51)
 
-Meta description (154 characters): "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains her real role: guarding knowledge and wealth before anything begins."
+Meta description (154 characters, **recommended**): "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else."
 
-Slug: `/en/role-of-mahakali`
+Slug (**recommended**): `/en/role-of-mahakali`
 
-The H1 ("महाकाली पहले क्यों आती हैं: हर शुभ आरंभ की रक्षक शक्ति" / "Why Mahakali Comes First: The Power That Guards Every Auspicious Beginning") stays as it is; the title tags lead with the searched phrase "role of Mahakali", which also matches the video title.
+The H1 ("महाकाली पहले क्यों आती हैं: हर शुभ आरंभ की रक्षक शक्ति" / "Why Mahakali Comes First: The Power That Guards Every Auspicious Beginning") stays as it is; the title tags lead with the searched phrases "महाकाली की भूमिका" / "role of Mahakali", which also matches the video title.
 
 ## 4. Outline changes
 
@@ -134,7 +136,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "महाकाली पहले क्यों आती हैं: हर शुभ आरंभ की रक्षक शक्ति",
-      "alternativeHeadline": "महाकाली की असली भूमिका: हर आरंभ उन्हीं से क्यों",
+      "alternativeHeadline": "महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ",
       "description": "दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा।",
       "inLanguage": "hi",
       "keywords": [
@@ -285,7 +287,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why Mahakali Comes First: The Power That Guards Every Auspicious Beginning",
       "alternativeHeadline": "Real Role of Mahakali: Why Every Beginning Starts With Her",
-      "description": "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains her real role: guarding knowledge and wealth before anything begins.",
+      "description": "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else.",
       "inLanguage": "en",
       "keywords": [
         "role of Mahakali",
@@ -470,7 +472,7 @@ The exact values written to `output/real_role_maha_kali/blog/seo.json` for the p
 ```json
 {
   "title": {
-    "hi": "महाकाली की असली भूमिका: हर आरंभ उन्हीं से क्यों",
+    "hi": "महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ",
     "en": "Real Role of Mahakali: Why Every Beginning Starts With Her"
   },
   "alt": {
@@ -562,7 +564,7 @@ The exact values written to `output/real_role_maha_kali/blog/seo.json` for the p
         "Mahakali tamasic power",
         "Mahakali protection of knowledge and wealth"
       ],
-      "meta_description": "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains her real role: guarding knowledge and wealth before anything begins.",
+      "meta_description": "Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else.",
       "tags": [
         "Mahakali",
         "Durga Saptashati",
@@ -573,3 +575,73 @@ The exact values written to `output/real_role_maha_kali/blog/seo.json` for the p
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims in the titles, metas, FAQ and the SEO edits (the blog's own review issues, such as Indra's "hundred" eyes and "शास्त्र उन्हें मूर्ख कहते हैं", are flags 1–9 in section 10, left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
