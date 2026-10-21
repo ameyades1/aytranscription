@@ -29,22 +29,22 @@ A short talk (the video runs 5 min 46 s) that moves the Trimurti and their conso
 ## 3. Titles and meta
 
 **Hindi**
-1. देव और देवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में (51 characters) **recommended**
-2. देव और देवियाँ: रचना, पालन और त्याग की तीन शक्तियाँ (50)
-3. ब्रह्मा विष्णु महेश का अर्थ: रचना, पालन और त्याग (47; needs the body change in section 2 to carry a focus keyword)
+1. त्रिदेव और त्रिदेवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में (59 characters) **(recommended)**
+2. देव और देवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में (51; the first proposal, before the `_seo` text carried "त्रिदेव और त्रिदेवियाँ")
+3. ब्रह्मा विष्णु महेश का अर्थ: रचना, पालन और त्याग (47)
 
-Meta description (156 characters): "ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि ये देव और देवियाँ जीवन में रचना, पालन और त्याग की तीन शक्तियाँ हैं।"
+Meta description (157 characters) **(recommended)**: ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि त्रिदेव और त्रिदेवियाँ जीवन में रचना, पालन और त्याग की शक्तियाँ हैं।
 
-Slug: `/hi/dev-aur-deviyan`
+Slug **(recommended)**: `/hi/tridev-aur-tridevi`
 
 **English**
-1. Gods and Goddesses in Your Life: Brahma, Vishnu, Mahesh (55) **recommended**
-2. Gods and Goddesses as Three Powers: Create, Sustain, Let Go (59)
-3. Trimurti and Their Consorts: Three Powers in Your Life (54; needs the body change in section 2)
+1. Trimurti and Their Consorts: Three Powers in Your Life (54) **(recommended)**
+2. Gods and Goddesses in Your Life: Brahma, Vishnu, Mahesh (55; the first proposal, before the `_seo` text carried "Trimurti")
+3. Gods and Goddesses as Three Powers: Create, Sustain, Let Go (59)
 
-Meta description (145 characters): "Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains these gods and goddesses as your powers to create, sustain and let go."
+Meta description (152 characters) **(recommended)**: Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains the Trimurti and their consorts as your powers to create, sustain and let go.
 
-Slug: `/en/gods-and-goddesses-in-your-life`
+Slug **(recommended)**: `/en/trimurti-three-powers-in-your-life`
 
 The H1 ("त्रिदेव और त्रिदेवियाँ आपके जीवन में कैसे काम करते हैं" / "How the Three Gods and Three Goddesses Work in Your Life") stays. A title built on "सरस्वती, लक्ष्मी, काली" is avoided because `awaken_divine_shakti_kali_lakshmi_saraswati` owns the three-goddess query.
 
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/dev-aur-deviyan/`, `/en/gods-and-goddesses-in-your-life/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tridev-aur-tridevi/`, `/en/trimurti-three-powers-in-your-life/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -119,13 +119,13 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "त्रिदेव और त्रिदेवियाँ आपके जीवन में कैसे काम करते हैं",
-      "alternativeHeadline": "देव और देवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में",
-      "description": "ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि ये देव और देवियाँ जीवन में रचना, पालन और त्याग की तीन शक्तियाँ हैं।",
+      "alternativeHeadline": "त्रिदेव और त्रिदेवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में",
+      "description": "ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि त्रिदेव और त्रिदेवियाँ जीवन में रचना, पालन और त्याग की शक्तियाँ हैं।",
       "inLanguage": "hi",
       "keywords": [
-        "देव और देवियाँ",
-        "ब्रह्मा विष्णु महेश का अर्थ",
         "त्रिदेव और त्रिदेवियाँ",
+        "ब्रह्मा विष्णु महेश का अर्थ",
+        "देव और देवियाँ",
         "सृष्टि पालन संहार का अर्थ",
         "धन से पहले ज्ञान"
       ],
@@ -282,14 +282,14 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "How the Three Gods and Three Goddesses Work in Your Life",
-      "alternativeHeadline": "Gods and Goddesses in Your Life: Brahma, Vishnu, Mahesh",
-      "description": "Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains these gods and goddesses as your powers to create, sustain and let go.",
+      "alternativeHeadline": "Trimurti and Their Consorts: Three Powers in Your Life",
+      "description": "Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains the Trimurti and their consorts as your powers to create, sustain and let go.",
       "inLanguage": "en",
       "keywords": [
-        "gods and goddesses",
-        "Brahma Vishnu Mahesh meaning",
+        "Trimurti",
         "Trimurti and their consorts",
-        "Mahakala and Mahakali meaning",
+        "Brahma Vishnu Mahesh meaning",
+        "gods and goddesses",
         "knowledge before wealth Saraswati Lakshmi"
       ],
       "about": [

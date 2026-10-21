@@ -40,4 +40,13 @@ No teaching, example, verse, H1, link phrase or "Also read" heading was changed;
 | wordpress.en.secondary_keywords | Brahma Vishnu Mahesh meaning, Trimurti and their consorts, Mahakala and Mahakali meaning, knowledge before wealth Saraswati Lakshmi | Trimurti and their consorts, Brahma Vishnu Mahesh meaning, gods and goddesses, knowledge before wealth Saraswati Lakshmi (Mahakala and Mahakali meaning dropped to stay at 4; `real_role_maha_kali` covers Mahakali in depth) |
 | wordpress.en.meta_description | Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains these gods and goddesses as your powers to create, sustain and let go. | Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains the Trimurti and their consorts as your powers to create, sustain and let go. (152) |
 
-`links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON, and section 2 is updated; sections 3 and 8 still show the old titles and slugs as originally proposed. `python3 tools/check_seo.py power_of_deities_in_your_life` passes.
+`links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. Section 2 (keyword note), section 3 (the title, meta description and slug above marked recommended in each language), section 8 (alternativeHeadline, description and keywords of both schema blocks, and the suggested slugs `/hi/tridev-aur-tridevi/` and `/en/trimurti-three-powers-in-your-life/`) and the section 12 marks match seo.json. `python3 tools/check_seo.py power_of_deities_in_your_life` passes, and `tools/rebuild_blogs.sh` printed no notes.
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | tridev-aur-tridevi | trimurti-three-powers-in-your-life |
+| focus_keyword | त्रिदेव और त्रिदेवियाँ | Trimurti |
+| title | त्रिदेव और त्रिदेवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में | Trimurti and Their Consorts: Three Powers in Your Life |
+| meta_description | ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि त्रिदेव और त्रिदेवियाँ जीवन में रचना, पालन और त्याग की शक्तियाँ हैं। | Brahma-Saraswati, Vishnu-Lakshmi, Mahesh-Kali: Acharya Upendra Ji explains the Trimurti and their consorts as your powers to create, sustain and let go. |
