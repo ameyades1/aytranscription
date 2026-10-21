@@ -65,8 +65,9 @@
     "category": "mind",
     "hi": {
       "slug": "man-ya-sharir-kaun-shaktishali",
-      "focus_keyword": "मन या शरीर कौन अधिक शक्तिशाली",
+      "focus_keyword": "मन या शरीर",
       "secondary_keywords": [
+        "मन या शरीर कौन अधिक शक्तिशाली",
         "कलम या तलवार कौन बड़ा",
         "अन्नमयं हि सोम्य मनः का अर्थ",
         "स्वस्थ शरीर में स्वस्थ मन"
@@ -81,8 +82,9 @@
     },
     "en": {
       "slug": "mind-or-body-which-is-more-powerful",
-      "focus_keyword": "mind or body which is more powerful",
+      "focus_keyword": "mind or body",
       "secondary_keywords": [
+        "mind or body which is more powerful",
         "is the pen mightier than the sword",
         "annamayam hi somya manah meaning",
         "Mahakali goddess of self-defence"

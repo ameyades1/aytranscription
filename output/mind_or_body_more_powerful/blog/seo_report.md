@@ -11,18 +11,22 @@ A short talk that answers "the pen or the sword, which comes first?" through Kal
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| मन या शरीर कौन अधिक शक्तिशाली (focus) | Hindi | Informational / comparative | High |
+| मन या शरीर (focus) | Hindi | Informational / comparative | High |
+| मन या शरीर कौन अधिक शक्तिशाली | Hindi | Informational / comparative | High |
 | कलम या तलवार कौन बड़ा | Hindi | Informational | Medium |
 | अन्नमयं हि सोम्य मनः का अर्थ | Hindi | Informational (verse meaning) | Medium |
 | काली उपासना पहले क्यों | Hindi | Informational | Medium (overlaps real_role_maha_kali; secondary only) |
 | स्वस्थ शरीर में स्वस्थ मन | Hindi | Informational | Medium |
 | man ya sharir kaun shaktishali | Hinglish | Informational | Medium |
-| mind or body which is more powerful (focus) | English | Informational / comparative | High |
+| mind or body (focus) | English | Informational / comparative | High |
+| mind or body which is more powerful | English | Informational / comparative | High |
 | is the pen mightier than the sword | English | Informational | Medium |
 | annamayam hi somya manah meaning | English | Informational (verse meaning) | Low |
 | Mahakali goddess of self-defence | English | Informational | Medium |
 | strong body before intellect Upanishads | English | Informational | Low |
 | Acharya Upendra Ji mind or body | English | Navigational | Low |
+
+Keyword note: people search the video's question, "mind or body, which is more powerful" / "मन या शरीर, कौन अधिक शक्तिशाली", while the original blog only says "first the body, then the intellect" / "पहले शरीर, फिर बुद्धि". The SEO copies of the texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now ask that question word for word in the first 100 words. Because SureRank does not match a keyword across the comma in that question, the focus keywords are its core, "mind or body" / "मन या शरीर", which the title, meta description, body and English slug all contain; the full question stays as the first secondary keyword in each language.
 
 ## 3. Titles and meta
 
@@ -31,18 +35,18 @@ A short talk that answers "the pen or the sword, which comes first?" through Kal
 2. कलम या तलवार, पहले क्या? उपनिषद और महाकाली का उत्तर (49 characters)
 3. पहले शरीर, फिर बुद्धि: महाकाली की उपासना पहले क्यों (49 characters)
 
-Meta description (156 characters): मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है।
+Meta description (recommended, 156 characters): मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है।
 
-Slug: `/hi/man-ya-sharir-kaun-shaktishali/`
+Slug (recommended): `/hi/man-ya-sharir-kaun-shaktishali/` (`man-ya-sharir-kaun-shaktishali`)
 
 **English**
 1. Mind or Body, Which Is More Powerful? Why Kali Comes First (recommended, 58 characters)
 2. The Pen or the Sword: Why the Upanishads Put the Body First (59 characters)
 3. Is the Pen Mightier Than the Sword? Acharya Upendra Ji (54 characters)
 
-Meta description (154 characters): Mind or body, which is more powerful? Acharya Upendra Ji explains why the Upanishads put a strong body before intellect, and why Kali worship comes first.
+Meta description (recommended, 154 characters): Mind or body, which is more powerful? Acharya Upendra Ji explains why the Upanishads put a strong body before intellect, and why Kali worship comes first.
 
-Slug: `/en/mind-or-body-which-is-more-powerful/`
+Slug (recommended): `/en/mind-or-body-which-is-more-powerful/` (`mind-or-body-which-is-more-powerful`)
 
 ## 4. Outline changes
 
@@ -118,7 +122,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "alternativeHeadline": "मन या शरीर, कौन अधिक शक्तिशाली? पहले शरीर क्यों",
       "description": "मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है।",
       "inLanguage": "hi",
-      "keywords": ["मन या शरीर कौन अधिक शक्तिशाली", "कलम या तलवार कौन बड़ा", "अन्नमयं हि सोम्य मनः का अर्थ", "स्वस्थ शरीर में स्वस्थ मन"],
+      "keywords": ["मन या शरीर", "मन या शरीर कौन अधिक शक्तिशाली", "कलम या तलवार कौन बड़ा", "अन्नमयं हि सोम्य मनः का अर्थ", "स्वस्थ शरीर में स्वस्थ मन"],
       "about": [
         { "@type": "Thing", "name": "महाकाली" },
         { "@type": "Thing", "name": "शरीरबोध" },
@@ -209,7 +213,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "alternativeHeadline": "Mind or Body, Which Is More Powerful? Why Kali Comes First",
       "description": "Mind or body, which is more powerful? Acharya Upendra Ji explains why the Upanishads put a strong body before intellect, and why Kali worship comes first.",
       "inLanguage": "en",
-      "keywords": ["mind or body which is more powerful", "is the pen mightier than the sword", "annamayam hi somya manah meaning", "Mahakali goddess of self-defence"],
+      "keywords": ["mind or body", "mind or body which is more powerful", "is the pen mightier than the sword", "annamayam hi somya manah meaning", "Mahakali goddess of self-defence"],
       "about": [
         { "@type": "Thing", "name": "Mahakali" },
         { "@type": "Thing", "name": "Sharirabodh (body-awareness)" },
@@ -386,8 +390,9 @@ The exact values written to `output/mind_or_body_more_powerful/blog/seo.json` fo
     "category": "mind",
     "hi": {
       "slug": "man-ya-sharir-kaun-shaktishali",
-      "focus_keyword": "मन या शरीर कौन अधिक शक्तिशाली",
+      "focus_keyword": "मन या शरीर",
       "secondary_keywords": [
+        "मन या शरीर कौन अधिक शक्तिशाली",
         "कलम या तलवार कौन बड़ा",
         "अन्नमयं हि सोम्य मनः का अर्थ",
         "स्वस्थ शरीर में स्वस्थ मन"
@@ -402,8 +407,9 @@ The exact values written to `output/mind_or_body_more_powerful/blog/seo.json` fo
     },
     "en": {
       "slug": "mind-or-body-which-is-more-powerful",
-      "focus_keyword": "mind or body which is more powerful",
+      "focus_keyword": "mind or body",
       "secondary_keywords": [
+        "mind or body which is more powerful",
         "is the pen mightier than the sword",
         "annamayam hi somya manah meaning",
         "Mahakali goddess of self-defence"
@@ -419,3 +425,73 @@ The exact values written to `output/mind_or_body_more_powerful/blog/seo.json` fo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the SEO copies of the texts now use both keywords word for word)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2's keyword note)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (आत्मरक्षा / Self-Defence is new; it also fits real_role_maha_kali and awaken_divine_shakti_kali_lakshmi_saraswati)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
