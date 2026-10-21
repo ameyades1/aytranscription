@@ -24,6 +24,8 @@ A short Marathi interview (6:59) in which Acharya Upendra Ji introduces the Anta
 
 Note: "Shri Vidya and wealth" / "श्री विद्या और धन" is the focus keyword of `become_billionaire_shree_vidya_secrets`; it is deliberately not targeted here (see section 7).
 
+Mismatch: the original blog texts never use the focus keywords word for word in the body (the Hindi H1 says "अरबपति बनने का भूला हुआ रहस्य", the English has it only in the H1), and neither meta description contained them. The SEO copies (`secrets_of_becoming_billionaire_marathi_blog_seo.txt` / `_blog_seo_en.txt`) now use "अरबपति बनने का रहस्य" / "secret of becoming a billionaire" in a direct-answer paragraph within the first 100 words, and both meta descriptions open with them. The searched verse wording "सुखस्य मूलं धर्मः का अर्थ" / "sukhasya mulam dharmah" is now in an H2 of the SEO copies. Focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -31,18 +33,18 @@ Note: "Shri Vidya and wealth" / "श्री विद्या और धन" 
 2. अरबपति बनने का भूला हुआ रहस्य: श्रीविद्या (40)
 3. मेहनत बराबर, फल अलग क्यों? श्रीविद्या का उत्तर (45)
 
-Meta description (148): मेहनत बराबर, फिर भी फल इतना अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र धन के बारे में क्या सिखाते हैं।
+Meta description (151) — **recommended**: अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं।
 
-Slug: `/hi/arabpati-banne-ka-rahasya`
+Slug — **recommended**: `/hi/arabpati-banne-ka-rahasya`
 
 **English**
 1. Secret of Becoming a Billionaire: India's Shri Vidya (52 characters) — **recommended**
 2. Shri Vidya, the Shri Yantra and the Secret of Wealth (52)
 3. Is Money Evil? Shri Vidya on Becoming Wealthy (46)
 
-Meta description (149): Why do some grow rich from the same hard work others barely live on? Acharya Upendra Ji points to Shri Vidya, the Shri Yantra and Chanakya on wealth.
+Meta description (154) — **recommended**: What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya.
 
-Slug: `/en/secret-of-becoming-a-billionaire`
+Slug — **recommended**: `/en/secret-of-becoming-a-billionaire`
 
 The H1s in the blog text stay unchanged; the titles above are for the `<title>` tag only.
 
@@ -105,7 +107,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{HI_POST_URL}}#article",
       "headline": "श्रीविद्या से समृद्धि तक: अरबपति बनने का भूला हुआ रहस्य",
       "alternativeHeadline": "अरबपति बनने का रहस्य: श्रीविद्या और श्रीयंत्र साधना",
-      "description": "मेहनत बराबर, फिर भी फल इतना अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र धन के बारे में क्या सिखाते हैं।",
+      "description": "अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं।",
       "inLanguage": "hi",
       "keywords": "अरबपति बनने का रहस्य, श्रीयंत्र कुंकुम अभिषेक, सुखस्य मूलं धर्मः का अर्थ, क्या धन बुरा है, भारत सोने की चिड़िया",
       "about": [
@@ -181,7 +183,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_POST_URL}}#article",
       "headline": "From Shri Vidya to Prosperity: The Forgotten Secret of Becoming a Billionaire",
       "alternativeHeadline": "Secret of Becoming a Billionaire: India's Shri Vidya",
-      "description": "Why do some grow rich from the same hard work others barely live on? Acharya Upendra Ji points to Shri Vidya, the Shri Yantra and Chanakya on wealth.",
+      "description": "What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya.",
       "inLanguage": "en",
       "keywords": "secret of becoming a billionaire, Shri Yantra kumkum abhishek, sukhasya mulam dharmah meaning, is money evil in Hinduism, why schools don't teach about money",
       "about": [
@@ -250,7 +252,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 - Filled by the plugin itself: Organization (from site settings: name, logo, social profiles), BreadcrumbList, BlogPosting headline (post title), datePublished/dateModified (post dates), mainEntityOfPage, image (featured image) and author (the WordPress user; set it to an "Acharya Upendra Ji" author profile).
 - Enter by hand per post: SEO title (`title`), meta description, slug, focus keyword and secondary keywords, category and tags (from `seo.json` → `wordpress`); alternativeHeadline, `about`, translationOfWork/workTranslation (or let WPML/Polylang hreflang handle the language pair) and the Person details via the plugin's schema editor or a custom JSON-LD block.
 - VideoObject: Rank Math/Yoast Video SEO can detect the YouTube embed; otherwise paste the VideoObject node by hand. Upload date and duration must come from the values above.
-- Replace every `{{PLACEHOLDER}}` with the live URLs once the posts are published.
+- Replace every `{{PLACEHOLDER}}` with the live URLs once the posts are published (slugs: `/hi/arabpati-banne-ka-rahasya/`, `/en/secret-of-becoming-a-billionaire/`).
 
 ## 9. Images
 
@@ -353,7 +355,7 @@ The exact values written to `output/secrets_of_becoming_billionaire_marathi/blog
         "क्या धन बुरा है",
         "भारत सोने की चिड़िया"
       ],
-      "meta_description": "मेहनत बराबर, फिर भी फल इतना अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र धन के बारे में क्या सिखाते हैं।",
+      "meta_description": "अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं।",
       "tags": [
         "श्री विद्या",
         "श्री यंत्र",
@@ -371,7 +373,7 @@ The exact values written to `output/secrets_of_becoming_billionaire_marathi/blog
         "is money evil in Hinduism",
         "why schools don't teach about money"
       ],
-      "meta_description": "Why do some grow rich from the same hard work others barely live on? Acharya Upendra Ji points to Shri Vidya, the Shri Yantra and Chanakya on wealth.",
+      "meta_description": "What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya.",
       "tags": [
         "Shri Vidya",
         "Shri Yantra",
@@ -383,3 +385,79 @@ The exact values written to `output/secrets_of_becoming_billionaire_marathi/blog
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marks refer to the SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`), which are what gets published.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization; "Shri Vidya and wealth" is left to `become_billionaire_shree_vidya_secrets`)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the H1s)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description (SEO fix)
+- [x] In the body text (SEO copies, direct-answer paragraph)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (SEO copies)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters (154)
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+- [x] One or two H2s phrased as the natural question readers search for (SEO copies: "श्रीयंत्र पर कुंकुम अभिषेक क्या है?", "सुखस्य मूलं धर्मः का अर्थ क्या है?" / "What Is Kumkum Abhishek on the Shri Yantra?", "What Does Sukhasya Mulam Dharmah Mean?")
+
+### Direct answer
+- [x] A 40–60 word direct answer early in the post (SEO copies, third paragraph, before the first H2)
+- [x] Searched wording used in the body (SEO copies: "अरबपति बनने का रहस्य" / "secret of becoming a billionaire")
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language (4)
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series (no series)
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject, BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk; no wealth guarantee (flag 2)
+- [x] No unsupported scriptural claims in titles, metas or the direct answer
+- [ ] Sanskrit review corrections applied (flags 1, 4, 5, 6: lineage wording, Chanakya sutra lines, "for the first time", आह्वान): not an SEO edit; left to the editor
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
