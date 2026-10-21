@@ -23,6 +23,8 @@ The talk teaches that changing your destiny, whether as one person or as a natio
 | Jyotisha eye of the Vedas | English | Informational | Low |
 | Acharya Upendra Ji change destiny | English | Navigational | Low |
 
+Keyword note: people search "भाग्य कैसे बदलें" / "how to change your destiny", but the original bodies only say "भाग्य अगर बदलना है" / "changing your destiny", so neither focus keyword was in the body text (a SureRank failure). After the SEO fix, the `_seo` texts use the searched wording once each, in a short direct answer at the end of the introduction (within the first 100 words). The focus keywords are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -419,3 +421,73 @@ The exact contents of `output/reveals_4_life_changing_components/blog/seo.json`,
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses ("भाग्य कैसे बदलें" / "how to change your destiny", once each in the `_seo` texts' direct-answer paragraph after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2; resolved by the SEO fix, the searched wording is now in the body)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred; in the `_seo` texts' direct answer at the end of the introduction)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (in the SEO text; the blog's own review issues are in section 10)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
