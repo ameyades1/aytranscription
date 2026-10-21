@@ -13,8 +13,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| Ganesh Chaturthi spiritual meaning | English | Informational | High (primary EN) |
-| why Ganesh Chaturthi is celebrated for 10 days | English | Informational | High (seasonal peak; the video's own question) |
+| Ganesh Chaturthi spiritual meaning | English | Informational | High (secondary EN; was the primary until `/seo_blog_fix`) |
+| why Ganesh Chaturthi is celebrated for 10 days | English | Informational | High (primary EN; seasonal peak; the video's own question) |
 | why Ganesh festival starts on Chaturthi | English | Informational | Medium |
 | Turiya, the fourth state of consciousness | English | Informational | Medium (evergreen, outside the festival season) |
 | Ganesha as viveka / discernment | English | Informational | Low |
@@ -25,6 +25,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | चेतना की चार अवस्थाएं (जाग्रत, स्वप्न, सुषुप्ति, तुरीय) | Hindi | Informational | Medium |
 | ganesh utsav 10 din kyu manate hai | Hinglish | Informational | Medium |
 
+Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither primary keyword. "गणेश चतुर्थी का आध्यात्मिक अर्थ" and "Ganesh Chaturthi spiritual meaning" were nowhere in the body (the body says "गणेश चतुर्थी का महत्व" / "Ganesh Chaturthi matters"). The SEO-fixed texts (`_seo`) now use "गणेश चतुर्थी का आध्यात्मिक अर्थ" in a short direct answer in the first 100 words, and the English intro now asks "why Ganesh Chaturthi is celebrated for 10 days", the video's own question. That wording is now the English focus keyword (slug `why-ganesh-chaturthi-is-celebrated-for-10-days`); "Ganesh Chaturthi spiritual meaning" moves to the secondary keywords, because SureRank's match cannot find it in natural English ("Ganesh Chaturthi's spiritual meaning" or "the spiritual meaning of Ganesh Chaturthi" do not count).
+
 Avoid targeting "Ganesh Chaturthi puja vidhi" or "muhurat" queries: the talk does not answer them, and readers would bounce.
 
 ## 3. Titles and meta
@@ -32,24 +34,29 @@ Avoid targeting "Ganesh Chaturthi puja vidhi" or "muhurat" queries: the talk doe
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों? (recommended)
+1. गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों? (recommended; in seo.json)
 2. गणेश उत्सव 10 दिन का क्यों? तुरीय और विवेक का रहस्य
 3. चतुर्थी को ही क्यों आते हैं गणपति? चेतना की चौथी अवस्था
 
-**Hindi meta description**
-गणेश उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं: चेतना की चौथी अवस्था तुरीय में विवेक रूपी गणेश का जन्म होता है।
+**Hindi meta description (recommended; in seo.json)**
+गणेश चतुर्थी का आध्यात्मिक अर्थ: उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं, तुरीय में जागा विवेक ही गणेश है।
+
+(The first draft, "गणेश उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? ...", did not contain the focus keyword.)
 
 **English title options**
-1. Ganesh Chaturthi Spiritual Meaning: Why 10 Days? (recommended)
-2. Why Is Ganesh Festival 10 Days? Turiya and Discernment
-3. Why Does Ganesha Come on Chaturthi? The Fourth State
+1. Why Ganesh Chaturthi Is Celebrated for 10 Days (recommended; in seo.json, built from the new focus keyword)
+2. Ganesh Chaturthi Spiritual Meaning: Why 10 Days? (the first recommendation)
+3. Why Is Ganesh Festival 10 Days? Turiya and Discernment
+4. Why Does Ganesha Come on Chaturthi? The Fourth State
 
-**English meta description (154 characters)**
-Why does Ganesh Chaturthi begin on the fourth day and last 10 days? Acharya Upendra Ji explains its spiritual meaning: Turiya and the birth of discernment.
+**English meta description (recommended; in seo.json, 149 characters)**
+Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturdashi: Acharya Upendra Ji explains Turiya and the birth of discernment.
 
-**Slugs**
+(The first draft, "Why does Ganesh Chaturthi begin on the fourth day and last 10 days? ...", did not contain the focus keyword.)
+
+**Slugs (recommended; in seo.json)**
 - Hindi: /hi/ganesh-chaturthi-ka-adhyatmik-arth
-- English: /en/ganesh-chaturthi-spiritual-meaning
+- English: /en/why-ganesh-chaturthi-is-celebrated-for-10-days
 
 ## 4. Outline changes
 
@@ -122,7 +129,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-chaturthi-ka-adhyatmik-arth/`, `/en/ganesh-chaturthi-spiritual-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-chaturthi-ka-adhyatmik-arth/`, `/en/why-ganesh-chaturthi-is-celebrated-for-10-days/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -139,7 +146,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "गणेश चतुर्थी का छिपा अर्थ: तुरीय अवस्था और विवेक का जन्म",
       "alternativeHeadline": "गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों?",
-      "description": "गणेश उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं: चेतना की चौथी अवस्था तुरीय में विवेक रूपी गणेश का जन्म होता है।",
+      "description": "गणेश चतुर्थी का आध्यात्मिक अर्थ: उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं, तुरीय में जागा विवेक ही गणेश है।",
       "inLanguage": "hi",
       "keywords": ["गणेश चतुर्थी का आध्यात्मिक अर्थ", "गणेश उत्सव 10 दिन क्यों", "गणेश चतुर्थी क्यों मनाई जाती है", "तुरीय अवस्था", "चेतना की चार अवस्थाएं"],
       "about": [
@@ -228,10 +235,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Hidden Meaning of Ganesh Chaturthi: Turiya and the Birth of Discernment",
-      "alternativeHeadline": "Ganesh Chaturthi Spiritual Meaning: Why 10 Days?",
-      "description": "Why does Ganesh Chaturthi begin on the fourth day and last 10 days? Acharya Upendra Ji explains its spiritual meaning: Turiya and the birth of discernment.",
+      "alternativeHeadline": "Why Ganesh Chaturthi Is Celebrated for 10 Days",
+      "description": "Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturdashi: Acharya Upendra Ji explains Turiya and the birth of discernment.",
       "inLanguage": "en",
-      "keywords": ["Ganesh Chaturthi spiritual meaning", "why Ganesh Chaturthi is celebrated for 10 days", "why Ganesh festival starts on Chaturthi", "Turiya fourth state of consciousness", "Ganesha as viveka"],
+      "keywords": ["why Ganesh Chaturthi is celebrated for 10 days", "Ganesh Chaturthi spiritual meaning", "why Ganesh festival starts on Chaturthi", "Turiya fourth state of consciousness", "Ganesha as viveka"],
       "about": [
         { "@type": "Thing", "name": "Ganesh Chaturthi" },
         { "@type": "Thing", "name": "Turiya" },
@@ -357,7 +364,7 @@ The values written to `output/hidden_meaning_behind_10_days_ganesh/blog/seo.json
 {
   "title": {
     "hi": "गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों?",
-    "en": "Ganesh Chaturthi Spiritual Meaning: Why 10 Days?"
+    "en": "Why Ganesh Chaturthi Is Celebrated for 10 Days"
   },
   "alt": {
     "hero.jpg": {
@@ -428,7 +435,7 @@ The values written to `output/hidden_meaning_behind_10_days_ganesh/blog/seo.json
         "तुरीय अवस्था",
         "चेतना की चार अवस्थाएं"
       ],
-      "meta_description": "गणेश उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं: चेतना की चौथी अवस्था तुरीय में विवेक रूपी गणेश का जन्म होता है।",
+      "meta_description": "गणेश चतुर्थी का आध्यात्मिक अर्थ: उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं, तुरीय में जागा विवेक ही गणेश है।",
       "tags": [
         "गणेश चतुर्थी",
         "गणेश",
@@ -438,15 +445,15 @@ The values written to `output/hidden_meaning_behind_10_days_ganesh/blog/seo.json
       ]
     },
     "en": {
-      "slug": "ganesh-chaturthi-spiritual-meaning",
-      "focus_keyword": "Ganesh Chaturthi spiritual meaning",
+      "slug": "why-ganesh-chaturthi-is-celebrated-for-10-days",
+      "focus_keyword": "why Ganesh Chaturthi is celebrated for 10 days",
       "secondary_keywords": [
-        "why Ganesh Chaturthi is celebrated for 10 days",
+        "Ganesh Chaturthi spiritual meaning",
         "why Ganesh festival starts on Chaturthi",
         "Turiya fourth state of consciousness",
         "Ganesha as viveka"
       ],
-      "meta_description": "Why does Ganesh Chaturthi begin on the fourth day and last 10 days? Acharya Upendra Ji explains its spiritual meaning: Turiya and the birth of discernment.",
+      "meta_description": "Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturdashi: Acharya Upendra Ji explains Turiya and the birth of discernment.",
       "tags": [
         "Ganesh Chaturthi",
         "Ganesh",
@@ -458,3 +465,73 @@ The values written to `output/hidden_meaning_behind_10_days_ganesh/blog/seo.json
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("Anant Chaturdashi" is used by this post only; tags are outside `/seo_blog_fix`'s scope)
+- [x] No broad labels that only restate a category
+- [ ] Series tags named exactly as the series (the talk is Ganesh Series Ep 9, but the tags have no "Ganesh Series" tag, which 18 other posts use; tags are outside `/seo_blog_fix`'s scope)
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (both blogs still say the fourth state is called "Chaturyam" and that Turiya comes from it; Sanskrit review issue 1, Major, to be fixed by the editor in the original blog)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
