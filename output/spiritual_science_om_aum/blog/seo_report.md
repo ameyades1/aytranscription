@@ -31,22 +31,24 @@ Overlap: `chanting_om_final_breath_liberation` targets "chanting Om at the time 
 ## 3. Titles and meta
 
 **Hindi**
-1. ॐ ही क्यों? अ, उ, म में छिपा पूरा ब्रह्मांड **(recommended, 43 characters)**
-2. ॐ ही क्यों? गुरुओं ने यही ध्वनि क्यों चुनी
-3. ॐ ही क्यों? मुख की तीन अवस्थाओं में छिपा रहस्य
+1. ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया **(recommended, 40 characters; set by the SEO fix)**
+2. ॐ ही क्यों? अ, उ, म में छिपा पूरा ब्रह्मांड (the original recommendation)
+3. ॐ ही क्यों? गुरुओं ने यही ध्वनि क्यों चुनी
+4. ॐ ही क्यों? मुख की तीन अवस्थाओं में छिपा रहस्य
 
-Meta description (148 characters): ॐ ही क्यों, कोई और ध्वनि क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और क्यों संसार का हर शब्द ॐ में समाया है।
+Meta description (recommended, 149 characters): ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है।
 
-Slug: `/hi/om-hi-kyon-a-u-m`
+Slug (recommended): `/hi/om-mein-a-u-m-ka-arth`
 
 **English**
-1. Why Om? What the Three Sounds A, U and M Mean **(recommended, 45 characters)**
-2. Why Om and Not Another Sound? The Meaning of A, U, M
-3. Why Om? The Whole Universe in A, U and M
+1. Meaning of AUM: Why Om, and What A, U and M Stand For **(recommended, 53 characters; set by the SEO fix)**
+2. Why Om? What the Three Sounds A, U and M Mean (the original recommendation)
+3. Why Om and Not Another Sound? The Meaning of A, U, M
+4. Why Om? The Whole Universe in A, U and M
 
-Meta description (147 characters): Why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M, and why every word lies within Om.
+Meta description (recommended, 144 characters): What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M.
 
-Slug: `/en/why-om-meaning-of-a-u-m`
+Slug (recommended): `/en/meaning-of-aum-why-om`
 
 ## 4. Outline changes
 
@@ -101,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/om-hi-kyon-a-u-m/`, `/en/why-om-meaning-of-a-u-m/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/om-mein-a-u-m-ka-arth/`, `/en/meaning-of-aum-why-om/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -119,10 +121,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "अ उ म में छिपा पूरा ब्रह्मांड",
-      "alternativeHeadline": "ॐ ही क्यों? अ, उ, म में छिपा पूरा ब्रह्मांड",
-      "description": "ॐ ही क्यों, कोई और ध्वनि क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और क्यों संसार का हर शब्द ॐ में समाया है।",
+      "alternativeHeadline": "ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया",
+      "description": "ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है।",
       "inLanguage": "hi",
-      "keywords": ["ॐ ही क्यों", "ॐ में अ उ म का अर्थ", "ॐ का अर्थ क्या है", "ओंकार का रहस्य", "ॐ और ब्रह्म"],
+      "keywords": ["ॐ में अ उ म का अर्थ", "ॐ ही क्यों", "ॐ का अर्थ क्या है", "ओंकार का रहस्य", "ॐ और ब्रह्म"],
       "about": [
         { "@type": "Thing", "name": "ॐ" },
         { "@type": "Thing", "name": "ब्रह्म" },
@@ -209,10 +211,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Whole Universe Hidden in A, U and M",
-      "alternativeHeadline": "Why Om? What the Three Sounds A, U and M Mean",
-      "description": "Why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M, and why every word lies within Om.",
+      "alternativeHeadline": "Meaning of AUM: Why Om, and What A, U and M Stand For",
+      "description": "What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M.",
       "inLanguage": "en",
-      "keywords": ["why Om", "meaning of AUM", "what does Om mean", "why do we chant Om", "Om and Brahman"],
+      "keywords": ["meaning of AUM", "why Om", "what does Om mean", "why do we chant Om", "Om and Brahman"],
       "about": [
         { "@type": "Thing", "name": "Om" },
         { "@type": "Thing", "name": "Brahman" },

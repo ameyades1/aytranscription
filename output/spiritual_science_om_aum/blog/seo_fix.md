@@ -44,6 +44,15 @@ No teaching, example, H1, heading or order of ideas changed. The blog quotes no 
 | wordpress.en.secondary_keywords | meaning of AUM, what does Om mean, why do we chant Om, Om and Brahman | why Om, what does Om mean, why do we chant Om, Om and Brahman |
 | wordpress.en.meta_description | Why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M, and why every word lies within Om. | What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M. (144) |
 
-`links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. Section 2's keyword table and note, and the section 12 checklist mark, were updated to match.
+`links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. Section 2's keyword table and note, sections 3 and 8, and the section 12 checklist mark were updated to match.
 
-Note: the report's sections 3 and 8 (titles, slugs and schema) still show the old titles and slugs. This fix may only edit sections 2, 11 and 12. Use seo.json for the WordPress values.
+The report's section 3 now marks these titles, meta descriptions and slugs as the recommended ones, and section 8's schema uses the new alternativeHeadline, description, keywords and suggested slugs.
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | om-mein-a-u-m-ka-arth | meaning-of-aum-why-om |
+| focus keyword | ॐ में अ उ म का अर्थ | meaning of AUM |
+| title | ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया | Meaning of AUM: Why Om, and What A, U and M Stand For |
+| meta description | ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है। | What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M. |
