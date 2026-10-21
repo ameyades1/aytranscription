@@ -27,6 +27,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | Pitru Paksha crow significance | English | Informational, seasonal | Medium |
 | Acharya Upendra Ji pind daan | English | Navigational | Low |
 
+Keyword note: neither blog body used the focus keyword word for word ("पिंडदान का अर्थ" / "pind daan meaning"); the Hindi had only "पिंडदान का भाव" and "पिंडदान का पहला प्रतीक", the English only "pind daan, the offering of the pind". The SEO-fixed texts (`pind_daan_blog_seo.txt`, `pind_daan_blog_seo_en.txt`) now use each keyword in a short direct answer after the first intro paragraph (first 100 words), and the Hindi also in the first H2 ("पिंडदान का अर्थ क्या है? यह शरीर भी एक गांव है"). Both meta descriptions were reworded to contain the keyword exactly.
+
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
@@ -36,18 +38,18 @@ The H1s stay as they are. Only the `<title>` tag changes.
 2. श्राद्ध में कौवे को पिंड क्यों? पिंडदान का गहरा अर्थ
 3. पितृ पक्ष में कौवा: पूर्वज या संकेतक?
 
-**Hindi meta description**
-पिंडदान का वास्तविक अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।
+**Hindi meta description (150 characters, recommended)**
+पिंडदान का अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।
 
 **English title options**
 1. Pind Daan Meaning: Why the Crow Eats the Pind, or Refuses (recommended)
 2. Why Feed Crows in Shraddha? The Real Meaning of Pind Daan
 3. Is the Crow Your Ancestor? Pind Daan and Pitru Paksha
 
-**English meta description (153 characters)**
-What does pind daan really mean, and why does a crow sometimes refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.
+**English meta description (155 characters, recommended)**
+What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.
 
-**Slugs**
+**Slugs (recommended)**
 - Hindi: /hi/pind-daan-ka-arth
 - English: /en/pind-daan-meaning
 
@@ -131,7 +133,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "कौवा पिंड क्यों खाता है और क्यों नहीं",
       "alternativeHeadline": "पिंडदान का अर्थ: कौवा पिंड क्यों खाता है, क्यों नहीं?",
-      "description": "पिंडदान का वास्तविक अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।",
+      "description": "पिंडदान का अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।",
       "inLanguage": "hi",
       "keywords": ["पिंडदान का अर्थ", "श्राद्ध में कौवे को भोजन क्यों", "पितृ पक्ष में कौवे का महत्व", "कौवा पिंड न खाए तो"],
       "about": [
@@ -221,7 +223,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why the Crow Eats the Pind, and Why It Sometimes Will Not",
       "alternativeHeadline": "Pind Daan Meaning: Why the Crow Eats the Pind, or Refuses",
-      "description": "What does pind daan really mean, and why does a crow sometimes refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.",
+      "description": "What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.",
       "inLanguage": "en",
       "keywords": ["pind daan meaning", "why feed crows in shraddha", "crow not eating pind meaning", "Pitru Paksha crow significance"],
       "about": [
@@ -414,7 +416,7 @@ The values written to `output/pind_daan/blog/seo.json` (the page generator uses 
         "पितृ पक्ष में कौवे का महत्व",
         "कौवा पिंड न खाए तो"
       ],
-      "meta_description": "पिंडदान का वास्तविक अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।",
+      "meta_description": "पिंडदान का अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक।",
       "tags": [
         "पितृ पक्ष",
         "श्राद्ध",
@@ -431,7 +433,7 @@ The values written to `output/pind_daan/blog/seo.json` (the page generator uses 
         "crow not eating pind meaning",
         "Pitru Paksha crow significance"
       ],
-      "meta_description": "What does pind daan really mean, and why does a crow sometimes refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.",
+      "meta_description": "What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.",
       "tags": [
         "Pitru Paksha",
         "Shraddha",
@@ -443,3 +445,73 @@ The values written to `output/pind_daan/blog/seo.json` (the page generator uses 
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (SEO-fixed texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred; in the SEO-fixed texts' direct answer)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (in the SEO-fixed texts, Sanskrit review issues 1–4 are applied with the review's wording; the original blog texts still carry them)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
