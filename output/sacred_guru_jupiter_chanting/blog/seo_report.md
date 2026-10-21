@@ -26,6 +26,9 @@ A short talk that joins two meanings of "Guru": the planet **Jupiter (गुर�
 | guru grah kamjor ho to kya kare | Hinglish | Practical | Medium |
 | guru grah ka mahatva | Hinglish | Informational | Medium |
 | Acharya Upendra Ji Guru chanting | English | Navigational | Low |
+| significance of Jupiter | English | Informational | High |
+
+Keyword note: the original blog texts used neither focus keyword. The Hindi body had "गुरु ग्रह" but never "गुरु ग्रह का महत्व", and the English body never said "significance of Jupiter" (Jupiter is absent from the English H1 and first 100 words). The SEO fix (`_seo` texts, see `seo_fix.md`) adds a short direct-answer paragraph using "गुरु ग्रह का महत्व" / "significance of Jupiter" in the first 100 words and turns the H2 "गुरु ग्रह: जीवन को अर्थ देने वाली शक्ति" / "Jupiter: The Power That Gives Life Meaning" into "जीवन में गुरु ग्रह का महत्व क्या है?" / "What Is the Significance of Jupiter in Your Life?". The English focus keyword is now the shorter "significance of Jupiter" (it fits the title tag and slug); "significance of Jupiter in Vedic astrology" moved to the secondary keywords, and "shive ruste gurus trata meaning" was dropped from them until the verse meaning is corrected (flag 1).
 
 ## 3. Titles and meta
 
@@ -34,18 +37,18 @@ A short talk that joins two meanings of "Guru": the planet **Jupiter (गुर�
 2. गुरु ही शिव हैं: गुरु ग्रह और गुरु कृपा का रहस्य
 3. कमज़ोर गुरु ग्रह के लक्षण और गुरु बीज मंत्र साधना
 
-Meta description: देवगुरु बृहस्पति, यानी गुरु ग्रह, जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा का रहस्य, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।
+Meta description **(recommended)**: गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।
 
-Slug: `/hi/guru-grah-ka-mahatva`
+Slug **(recommended)**: `/hi/guru-grah-ka-mahatva`
 
 **English**
 1. Significance of Jupiter: Devguru Brihaspati's Grace **(recommended)**
 2. The Guru Is Shiva: Jupiter, Brihaspati and Guru Grace
 3. Weak Jupiter? The Guru Principle Behind the Planet
 
-Meta description (153 characters): What does Jupiter, Devguru Brihaspati, govern in your life? Acharya Upendra Ji explains Guru grace, the signs of a weak Jupiter and the Guru beej mantra.
+Meta description (152 characters) **(recommended)**: What is the significance of Jupiter, Devguru Brihaspati, in your life? Acharya Upendra Ji explains Guru grace, signs of a weak Jupiter and Guru sadhana.
 
-Slug: `/en/significance-of-jupiter-guru-grace`
+Slug **(recommended)**: `/en/significance-of-jupiter-guru-grace`
 
 ## 4. Outline changes
 
@@ -113,7 +116,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{HI_URL}}#article",
       "headline": "गुरु ही शिव हैं और देवगुरु बृहस्पति की कृपा का रहस्य",
       "alternativeHeadline": "गुरु ग्रह का महत्व: देवगुरु बृहस्पति की कृपा का रहस्य",
-      "description": "देवगुरु बृहस्पति, यानी गुरु ग्रह, जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा का रहस्य, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",
+      "description": "गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",
       "inLanguage": "hi",
       "keywords": ["गुरु ग्रह का महत्व", "कमज़ोर गुरु ग्रह के लक्षण", "देवगुरु बृहस्पति", "गुरु बीज मंत्र साधना", "शिवे रुष्टे गुरुस्त्राता का अर्थ"],
       "about": [
@@ -204,9 +207,9 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{EN_URL}}#article",
       "headline": "The Guru Is Shiva: The Secret of Devguru Brihaspati's Grace",
       "alternativeHeadline": "Significance of Jupiter: Devguru Brihaspati's Grace",
-      "description": "What does Jupiter, Devguru Brihaspati, govern in your life? Acharya Upendra Ji explains Guru grace, the signs of a weak Jupiter and the Guru beej mantra.",
+      "description": "What is the significance of Jupiter, Devguru Brihaspati, in your life? Acharya Upendra Ji explains Guru grace, signs of a weak Jupiter and Guru sadhana.",
       "inLanguage": "en",
-      "keywords": ["significance of Jupiter in Vedic astrology", "weak Jupiter effects", "who is Devguru Brihaspati", "Guru beej mantra sadhana", "shive ruste gurus trata meaning"],
+      "keywords": ["significance of Jupiter", "significance of Jupiter in Vedic astrology", "weak Jupiter effects", "who is Devguru Brihaspati", "Guru beej mantra sadhana"],
       "about": [
         { "@type": "Thing", "name": "Brihaspati (Jupiter)" },
         { "@type": "Thing", "name": "Guru Kripa" },
@@ -283,7 +286,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/guru-grah-ka-mahatva/`, `/en/significance-of-jupiter-guru-grace/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -364,16 +367,86 @@ The exact seo.json written for the page generator and WordPress:
       "slug": "guru-grah-ka-mahatva",
       "focus_keyword": "गुरु ग्रह का महत्व",
       "secondary_keywords": ["कमज़ोर गुरु ग्रह के लक्षण", "देवगुरु बृहस्पति", "गुरु बीज मंत्र साधना", "शिवे रुष्टे गुरुस्त्राता का अर्थ"],
-      "meta_description": "देवगुरु बृहस्पति, यानी गुरु ग्रह, जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा का रहस्य, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",
+      "meta_description": "गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",
       "tags": ["नवग्रह", "गुरु कृपा", "सद्गुरु", "माया"]
     },
     "en": {
       "slug": "significance-of-jupiter-guru-grace",
-      "focus_keyword": "significance of Jupiter in Vedic astrology",
-      "secondary_keywords": ["weak Jupiter effects", "who is Devguru Brihaspati", "Guru beej mantra sadhana", "shive ruste gurus trata meaning"],
-      "meta_description": "What does Jupiter, Devguru Brihaspati, govern in your life? Acharya Upendra Ji explains Guru grace, the signs of a weak Jupiter and the Guru beej mantra.",
+      "focus_keyword": "significance of Jupiter",
+      "secondary_keywords": ["significance of Jupiter in Vedic astrology", "weak Jupiter effects", "who is Devguru Brihaspati", "Guru beej mantra sadhana"],
+      "meta_description": "What is the significance of Jupiter, Devguru Brihaspati, in your life? Acharya Upendra Ji explains Guru grace, signs of a weak Jupiter and Guru sadhana.",
       "tags": ["Navagraha", "Guru Kripa", "Sadguru", "Maya"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (`_seo` texts: Hindi word 64, English word 62)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts ("गुरु कृपा / Guru Kripa" is in 2 posts so far; a recurring theme in the Guru talks)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (none in the titles, metas, snippets or the fix; the body's "शास्त्र कहता है" for Kabir's doha and the unverified "ग्रंथराज" are flagged in section 10 for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (flags 6 and 7)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
