@@ -23,6 +23,8 @@ Acharya Upendra Ji contrasts **medha** (a deep, scripture-grounded intellect tha
 | can destiny be rewritten | English | Informational | Low (owned by other destiny posts; see section 7) |
 | Acharya Upendra Ji rigid mind flexible mind | English | Navigational (video title) | Low |
 
+Keyword note: neither focus keyword was in the original blog bodies, which say only "अड़े हुए" / "अड़ जाएँ" and "rigid". The SEO-fixed texts (`rigid_mind_vs_flexible_mind_destiny_blog_seo.txt` / `_blog_seo_en.txt`, written by `/seo_blog_fix`) now use "अड़ियल स्वभाव कैसे बदलें" in a short direct answer at the top and in one `##` heading, and "rigid mind vs flexible mind" in the opening sentence, so the searched wording and the focus keyword are the same in each language.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,7 +32,7 @@ Acharya Upendra Ji contrasts **medha** (a deep, scripture-grounded intellect tha
 2. अड़ियल मन या लचीली बुद्धि: भाग्य किसके हाथ में?
 3. "मैं तो ऐसा ही हूँ" कहने से पहले यह पढ़ें
 
-Meta description: क्या आप भी कहते हैं, "मैं तो ऐसा ही हूँ"? आचार्य उपेंद्र जी बताते हैं कि अड़ियल स्वभाव से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।
+Meta description (159 characters): अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि "मैं तो ऐसा ही हूँ" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।
 
 Slug: `/hi/adiyal-swabhav-kaise-badlen`
 
@@ -122,7 +124,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "अड़ियल मन या लचीली बुद्धि: आपका भाग्य किसके हाथ में है",
       "alternativeHeadline": "अड़ियल स्वभाव कैसे बदलें? लचीली बुद्धि का रहस्य",
-      "description": "क्या आप भी कहते हैं, \"मैं तो ऐसा ही हूँ\"? आचार्य उपेंद्र जी बताते हैं कि अड़ियल स्वभाव से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।",
+      "description": "अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि \"मैं तो ऐसा ही हूँ\" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।",
       "inLanguage": "hi",
       "keywords": [
         "अड़ियल स्वभाव कैसे बदलें",
@@ -515,7 +517,7 @@ The exact values written to `output/rigid_mind_vs_flexible_mind_destiny/blog/seo
         "मेधा और दुर्मेधा का अर्थ",
         "दूसरे का दृष्टिकोण कैसे समझें"
       ],
-      "meta_description": "क्या आप भी कहते हैं, \"मैं तो ऐसा ही हूँ\"? आचार्य उपेंद्र जी बताते हैं कि अड़ियल स्वभाव से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।",
+      "meta_description": "अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि \"मैं तो ऐसा ही हूँ\" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।",
       "tags": [
         "विवेक",
         "नेतृत्व",
@@ -543,3 +545,73 @@ The exact values written to `output/rigid_mind_vs_flexible_mind_destiny/blog/seo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
