@@ -15,14 +15,16 @@ The talk (Ganesh Series, episode 21, "Life Is a Boomerang: Do This Before You Re
 | प्रतिक्रिया देने से पहले क्या करें | Hindi | Life problem | Medium |
 | जिस रूप में भजोगे उस रूप में भजूँगा | Hindi | Informational (the H1 itself) | Medium |
 | ye yatha mam prapadyante meaning / ye yatha mam prapadyante ka arth | English / Hinglish | Informational | High |
-| Bhagavad Gita 4.11 meaning (primary) | English | Informational | High |
-| does God take revenge | English | Emotional / informational | Medium |
+| Bhagavad Gita 4.11 meaning | English | Informational | High (secondary: "4.11" can never match a slug) |
+| does God take revenge (primary) | English | Emotional / informational | High |
 | life is a boomerang | English | Emotional / life | Medium (broad; mostly quote pages) |
 | pause before you react | English | Life problem | Medium (self-help competition) |
 | why Durga lets the demon touch her / Durga compassion for demons | English | Informational | Low (see authenticity flag 1) |
 | Acharya Upendra Ji Ganesh Series | English / Hindi | Navigational | Low |
 
-Notes: "karma is a boomerang" and "what goes around comes around" have high interest, but the talk is about how God responds and about discernment, not the law of karma in general, so they are not used in titles.
+Notes: The `_seo` texts (SEO fix) now carry the Hindi focus keyword "ये यथा मां प्रपद्यन्ते का अर्थ" word for word in a direct answer in the first 100 words; before, the body only had the verse itself. The English focus keyword is now "does God take revenge" (in the title, the meta description, the first 100 words and an H2): "Bhagavad Gita 4.11 meaning" is the larger query, but SureRank matches the slug with hyphens read as spaces, so "4.11" never matches `4-11`; it stays a secondary keyword and in the title. One H2 per language now carries "before you react" / "प्रतिक्रिया देने से पहले" from the video title.
+
+"karma is a boomerang" and "what goes around comes around" have high interest, but the talk is about how God responds and about discernment, not the law of karma in general, so they are not used in titles.
 
 ## 3. Titles and meta
 
@@ -31,18 +33,18 @@ Notes: "karma is a boomerang" and "what goes around comes around" have high inte
 2. गीता ४.११ का अर्थ: जिस रूप में भजोगे, उस रूप में भजूँगा
 3. क्या भगवान बदला लेते हैं? गीता ४.११ और दुर्गा की करुणा
 
-Meta description: क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी 'ये यथा मां प्रपद्यन्ते' का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।
+Meta description (recommended, in seo.json): क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।
 
-Slug: `/hi/ye-yatha-mam-prapadyante-arth`
+Slug (recommended, in seo.json): `/hi/ye-yatha-mam-prapadyante-arth`
 
 **English**
 1. Bhagavad Gita 4.11 Meaning: Does God Take Revenge? (recommended, 50 characters)
 2. Life Is a Boomerang: Gita 4.11 and the Pause Before You React
 3. As You Come to Me, So I Come to You: Gita 4.11 Explained
 
-Meta description (143 characters): Does God take revenge? Acharya Upendra Ji explains Bhagavad Gita 4.11: God answers us in the language we understand, yet always for our uplift.
+Meta description (recommended, in seo.json, 143 characters): Does God take revenge? Acharya Upendra Ji explains Bhagavad Gita 4.11: God answers us in the language we understand, yet always for our uplift.
 
-Slug: `/en/bhagavad-gita-4-11-meaning`
+Slug (recommended, in seo.json): `/en/does-god-take-revenge-gita-4-11`
 
 ## 4. Outline changes
 
@@ -100,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ye-yatha-mam-prapadyante-arth/`, `/en/bhagavad-gita-4-11-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ye-yatha-mam-prapadyante-arth/`, `/en/does-god-take-revenge-gita-4-11/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -117,7 +119,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "जिस रूप में भजोगे उस रूप में भजूँगा",
       "alternativeHeadline": "ये यथा मां प्रपद्यन्ते का अर्थ: क्या भगवान बदला लेते हैं?",
-      "description": "क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी 'ये यथा मां प्रपद्यन्ते' का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।",
+      "description": "क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।",
       "inLanguage": "hi",
       "keywords": [
         "ये यथा मां प्रपद्यन्ते का अर्थ",
@@ -267,8 +269,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "description": "Does God take revenge? Acharya Upendra Ji explains Bhagavad Gita 4.11: God answers us in the language we understand, yet always for our uplift.",
       "inLanguage": "en",
       "keywords": [
-        "Bhagavad Gita 4.11 meaning",
         "does God take revenge",
+        "Bhagavad Gita 4.11 meaning",
         "life is a boomerang",
         "pause before you react",
         "ye yatha mam prapadyante meaning"
@@ -518,7 +520,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
         "प्रतिक्रिया देने से पहले क्या करें",
         "गीता ४.११ का अर्थ"
       ],
-      "meta_description": "क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी 'ये यथा मां प्रपद्यन्ते' का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।",
+      "meta_description": "क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।",
       "tags": [
         "गणेश सीरीज़",
         "भगवद्गीता",
@@ -528,10 +530,10 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
       ]
     },
     "en": {
-      "slug": "bhagavad-gita-4-11-meaning",
-      "focus_keyword": "Bhagavad Gita 4.11 meaning",
+      "slug": "does-god-take-revenge-gita-4-11",
+      "focus_keyword": "does God take revenge",
       "secondary_keywords": [
-        "does God take revenge",
+        "Bhagavad Gita 4.11 meaning",
         "life is a boomerang",
         "pause before you react",
         "ye yatha mam prapadyante meaning"
@@ -548,3 +550,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the `_seo` texts' direct answer)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (in the `_seo` texts: Sanskrit review issues 1, 3, 6, 7 and 8 applied with the review's wording; issues 4, 5 and 9 touch verse references or IAST and are left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
