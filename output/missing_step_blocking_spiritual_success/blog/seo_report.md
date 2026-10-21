@@ -26,27 +26,29 @@ The blog answers a very common seeker's question: "I have heard discourses and r
 | sadhana ka phal kyon nahi milta | Hinglish | Emotional | Medium |
 | Acharya Upendra Ji sadhana | English | Navigational | Low |
 
+Keyword note: people search the three steps as one term without punctuation ("श्रवण मनन निदिध्यासन", "shravana manana nididhyasana"), while the original blog only writes them as a list ("श्रवण, मनन और निदिध्यासन" / "shravana, manana and nididhyasana"), which SureRank does not match. The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use the searched wording once in a short direct answer in the opening (within the first 100 words), and the title tags and meta descriptions use it too, so the focus keywords stay as they are.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. श्रवण, मनन, निदिध्यासन: साधना की छूटी हुई सीढ़ी (recommended, 47 characters)
+1. श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी (recommended, 45 characters)
 2. साधना का फल क्यों नहीं मिलता? श्रवण, मनन, निदिध्यासन
 3. निदिध्यासन क्या है? वह सीढ़ी जो साधक छोड़ देते हैं
 
-Meta description: प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण, मनन और निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।
+Meta description (recommended, 149 characters): प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।
 
-Slug: /hi/shravan-manan-nididhyasan
+Slug (recommended): /hi/shravan-manan-nididhyasan
 
 **English**
-1. Shravana, Manana, Nididhyasana: The Missing Step in Sadhana (recommended, 59 characters)
+1. Shravana Manana Nididhyasana: The Missing Step in Sadhana (recommended, 57 characters)
 2. Why Your Sadhana Isn't Working: Shravana, Manana, Nididhyasana
 3. What Is Nididhyasana? The Step Most Seekers Skip
 
-Meta description (145 characters): Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real.
+Meta description (recommended, 152 characters): Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real.
 
-Slug: /en/shravana-manana-nididhyasana
+Slug (recommended): /en/shravana-manana-nididhyasana
 
-The H1 in the blog text ("वह छूटी हुई सीढ़ी जो आपकी साधना को रोक रही है" / "The Missing Step That Is Holding Back Your Sadhana") is kept; the title tags carry the keyword.
+The H1 in the blog text ("वह छूटी हुई सीढ़ी जो आपकी साधना को रोक रही है" / "The Missing Step That Is Holding Back Your Sadhana") is kept; the title tags carry the keyword. The titles and meta descriptions write the three steps without commas, as people search them, so SureRank matches the focus keyword.
 
 ## 4. Outline changes
 
@@ -120,8 +122,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "वह छूटी हुई सीढ़ी जो आपकी साधना को रोक रही है",
-      "alternativeHeadline": "श्रवण, मनन, निदिध्यासन: साधना की छूटी हुई सीढ़ी",
-      "description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण, मनन और निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
+      "alternativeHeadline": "श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी",
+      "description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
       "inLanguage": "hi",
       "keywords": ["श्रवण मनन निदिध्यासन", "निदिध्यासन क्या है", "साधना का फल क्यों नहीं मिलता", "आध्यात्मिक अनुभव सच्चा है या कल्पना"],
       "about": [
@@ -212,8 +214,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Missing Step That Is Holding Back Your Sadhana",
-      "alternativeHeadline": "Shravana, Manana, Nididhyasana: The Missing Step in Sadhana",
-      "description": "Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real.",
+      "alternativeHeadline": "Shravana Manana Nididhyasana: The Missing Step in Sadhana",
+      "description": "Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real.",
       "inLanguage": "en",
       "keywords": ["shravana manana nididhyasana", "what is nididhyasana", "why sadhana is not giving results", "how to know if a spiritual experience is real"],
       "about": [
@@ -330,8 +332,8 @@ The exact values written to `output/missing_step_blocking_spiritual_success/blog
 ```json
 {
   "title": {
-    "hi": "श्रवण, मनन, निदिध्यासन: साधना की छूटी हुई सीढ़ी",
-    "en": "Shravana, Manana, Nididhyasana: The Missing Step in Sadhana"
+    "hi": "श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी",
+    "en": "Shravana Manana Nididhyasana: The Missing Step in Sadhana"
   },
   "alt": {
     "hero.jpg": {
@@ -402,16 +404,86 @@ The exact values written to `output/missing_step_blocking_spiritual_success/blog
       "slug": "shravan-manan-nididhyasan",
       "focus_keyword": "श्रवण मनन निदिध्यासन",
       "secondary_keywords": ["निदिध्यासन क्या है", "साधना का फल क्यों नहीं मिलता", "आध्यात्मिक अनुभव सच्चा है या कल्पना"],
-      "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण, मनन और निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
+      "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
       "tags": ["अद्वैत वेदांत", "गुरु-शिष्य", "साधक अनुभव", "तपस्या"]
     },
     "en": {
       "slug": "shravana-manana-nididhyasana",
       "focus_keyword": "shravana manana nididhyasana",
       "secondary_keywords": ["what is nididhyasana", "why sadhana is not giving results", "how to know if a spiritual experience is real"],
-      "meta_description": "Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real.",
+      "meta_description": "Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real.",
       "tags": ["Advaita Vedanta", "Guru and Disciple", "Seeker Experiences", "Tapasya"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts — "Tapasya" / "तपस्या" is used by no other post yet; tags are outside the SEO fix
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the body still says the scriptures prescribe seven or eleven parayanas (Sanskrit review item 3, section 10 flag 3); left for the editor, as it is not an SEO fix
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)

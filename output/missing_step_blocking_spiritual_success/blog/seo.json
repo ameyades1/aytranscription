@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "श्रवण, मनन, निदिध्यासन: साधना की छूटी हुई सीढ़ी",
-    "en": "Shravana, Manana, Nididhyasana: The Missing Step in Sadhana"
+    "hi": "श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी",
+    "en": "Shravana Manana Nididhyasana: The Missing Step in Sadhana"
   },
   "alt": {
     "hero.jpg": {
@@ -72,14 +72,14 @@
       "slug": "shravan-manan-nididhyasan",
       "focus_keyword": "श्रवण मनन निदिध्यासन",
       "secondary_keywords": ["निदिध्यासन क्या है", "साधना का फल क्यों नहीं मिलता", "आध्यात्मिक अनुभव सच्चा है या कल्पना"],
-      "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण, मनन और निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
+      "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",
       "tags": ["अद्वैत वेदांत", "गुरु-शिष्य", "साधक अनुभव", "तपस्या"]
     },
     "en": {
       "slug": "shravana-manana-nididhyasana",
       "focus_keyword": "shravana manana nididhyasana",
       "secondary_keywords": ["what is nididhyasana", "why sadhana is not giving results", "how to know if a spiritual experience is real"],
-      "meta_description": "Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real.",
+      "meta_description": "Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real.",
       "tags": ["Advaita Vedanta", "Guru and Disciple", "Seeker Experiences", "Tapasya"]
     }
   }
