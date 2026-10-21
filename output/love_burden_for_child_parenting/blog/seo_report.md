@@ -28,6 +28,8 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | sattvic parenting | English | Informational | Low |
 | Acharya Upendra Ji parenting | English | Navigational | Low |
 
+Keyword note: the original blog texts used neither primary keyword word for word (they say "दबाव", "अपेक्षाएं", "pressure", "expectations"). The SEO copies (`love_burden_for_child_parenting_blog_seo.txt` / `_blog_seo_en.txt`, the texts that are published) now use "बच्चों पर अपेक्षाओं का बोझ" and "parental pressure on children" in a short direct answer within the first 100 words, and the comparison H2 carries the secondary keywords "बच्चों की दूसरों से तुलना" / "comparing your child to others". Searched and body wording now match, so the focus keywords stay as they are.
+
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
@@ -37,20 +39,20 @@ The H1s stay as they are. Only the `<title>` tag changes.
 2. क्या आपका प्रेम बच्चे पर बोझ बन रहा है? राजसिक परवरिश
 3. सपनों का बोझ: बच्चों पर दबाव और राजसिक परवरिश
 
-**Hindi meta description (144 characters)**
-क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी बताते हैं राजसिक परवरिश के संकेत: ऊंची अपेक्षाएं, तुलना, अधूरे सपनों का बोझ और दिखावा।
+**Hindi meta description (148 characters; recommended, in seo.json)**
+क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी राजसिक परवरिश के संकेत बताते हैं: बच्चों पर अपेक्षाओं का बोझ, तुलना, अधूरे सपने और दिखावा।
 
-**Hindi slug:** `/hi/bachchon-par-apekshaon-ka-bojh`
+**Hindi slug (recommended, in seo.json):** `/hi/bachchon-par-apekshaon-ka-bojh`
 
 **English title options (60 characters or fewer)**
 1. Parental Pressure on Children: Signs of Rajasic Parenting (recommended, 57)
 2. Is Your Love Becoming a Burden for Your Child?
 3. The Burden of Dreams: Rajasic Parenting and Its Cost
 
-**English meta description (147 characters)**
-Is your love becoming a burden for your child? Acharya Upendra Ji explains rajasic parenting: high expectations, comparison and unfulfilled dreams.
+**English meta description (150 characters; recommended, in seo.json)**
+Is your love a burden for your child? Acharya Upendra Ji explains rajasic parenting: parental pressure on children, comparison and unfulfilled dreams.
 
-**English slug:** `/en/parental-pressure-on-children`
+**English slug (recommended, in seo.json):** `/en/parental-pressure-on-children`
 
 ## 4. Outline changes
 
@@ -132,7 +134,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "सपनों का बोझ और राजसिक परवरिश",
       "alternativeHeadline": "बच्चों पर अपेक्षाओं का बोझ: राजसिक परवरिश के संकेत",
-      "description": "क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी बताते हैं राजसिक परवरिश के संकेत: ऊंची अपेक्षाएं, तुलना, अधूरे सपनों का बोझ और दिखावा।",
+      "description": "क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी राजसिक परवरिश के संकेत बताते हैं: बच्चों पर अपेक्षाओं का बोझ, तुलना, अधूरे सपने और दिखावा।",
       "inLanguage": "hi",
       "keywords": ["बच्चों पर अपेक्षाओं का बोझ", "बच्चों पर पढ़ाई का दबाव", "राजसिक परवरिश", "बच्चों की दूसरों से तुलना", "माता-पिता के अधूरे सपने"],
       "about": [
@@ -222,7 +224,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Burden of Dreams and Rajasic Parenting",
       "alternativeHeadline": "Parental Pressure on Children: Signs of Rajasic Parenting",
-      "description": "Is your love becoming a burden for your child? Acharya Upendra Ji explains rajasic parenting: high expectations, comparison and unfulfilled dreams.",
+      "description": "Is your love a burden for your child? Acharya Upendra Ji explains rajasic parenting: parental pressure on children, comparison and unfulfilled dreams.",
       "inLanguage": "en",
       "keywords": ["parental pressure on children", "rajasic parenting", "pushing your dreams on your child", "comparing your child to others"],
       "about": [
@@ -411,7 +413,7 @@ The values written to `output/love_burden_for_child_parenting/blog/seo.json` (th
         "बच्चों की दूसरों से तुलना",
         "माता-पिता के अधूरे सपने"
       ],
-      "meta_description": "क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी बताते हैं राजसिक परवरिश के संकेत: ऊंची अपेक्षाएं, तुलना, अधूरे सपनों का बोझ और दिखावा।",
+      "meta_description": "क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी राजसिक परवरिश के संकेत बताते हैं: बच्चों पर अपेक्षाओं का बोझ, तुलना, अधूरे सपने और दिखावा।",
       "tags": [
         "परवरिश",
         "रजोगुण",
@@ -428,7 +430,7 @@ The values written to `output/love_burden_for_child_parenting/blog/seo.json` (th
         "pushing your dreams on your child",
         "comparing your child to others"
       ],
-      "meta_description": "Is your love becoming a burden for your child? Acharya Upendra Ji explains rajasic parenting: high expectations, comparison and unfulfilled dreams.",
+      "meta_description": "Is your love a burden for your child? Acharya Upendra Ji explains rajasic parenting: parental pressure on children, comparison and unfulfilled dreams.",
       "tags": [
         "Parenting",
         "Rajas",
@@ -440,3 +442,73 @@ The values written to `output/love_burden_for_child_parenting/blog/seo.json` (th
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the `_seo` texts' direct answer)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the blog quotes no verse; the Sanskrit review's only point, सात्विक → सात्त्विक, is a spelling standardisation left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
