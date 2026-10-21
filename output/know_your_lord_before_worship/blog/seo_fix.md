@@ -41,4 +41,13 @@ Not changed (optional suggestions in the report): the authenticity flags from th
 | wordpress.en.secondary_keywords | who is a jnani bhakta, know your God before you worship, Bhagavad Gita 7.17 meaning, devotee dearest to God | jnani bhakta, know your God before you worship, Bhagavad Gita 7.17 meaning, devotee dearest to God |
 | wordpress.en.slug | jnani-bhakta-know-your-lord-before-worship | who-is-a-jnani-bhakta |
 
-The titles and meta descriptions already contain the new focus keywords, so they are unchanged. `links` and `also_read` are unchanged too. The report's section 11 holds the same JSON, and its sections 2 and 12 are updated. Section 3 still shows the old slugs; this fix may not edit section 3. `python3 tools/check_seo.py know_your_lord_before_worship`: passed.
+The titles and meta descriptions already contain the new focus keywords, so they are unchanged. `links` and `also_read` are unchanged too. The report's section 11 holds the same JSON, and its sections 2, 3 (recommended title, meta description and new slugs marked as in seo.json), 8 (schema keywords now lead with the new focus keyword; URL placeholders mapped to the new slugs) and 12 are updated. `python3 tools/check_seo.py know_your_lord_before_worship`: passed.
+
+## Final seo.json values
+
+| field | Hindi | English |
+|---|---|---|
+| slug | gyani-bhakt-kaun-hai | who-is-a-jnani-bhakta |
+| focus keyword | ज्ञानी भक्त कौन है | who is a jnani bhakta |
+| title | ज्ञानी भक्त कौन है? पूजा से पहले अपने भगवान को जानें | Who Is a Jnani Bhakta? Know Your Lord Before You Worship |
+| meta description | ज्ञानी भक्त कौन है? आचार्य उपेंद्र जी बताते हैं कि पूजा से पहले भगवान को जानना क्यों ज़रूरी है, और गीता ७.१७ ज्ञानी भक्त को अत्यंत प्रिय क्यों कहती है। | Who is a jnani bhakta? Acharya Upendra Ji explains why we must know the God we worship, not just believe, for Gita 7.17 holds the knower supremely dear. |

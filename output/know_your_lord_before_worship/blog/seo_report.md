@@ -26,22 +26,26 @@ Keyword note: the original blog did not use the searched question wording ("ज�
 ## 3. Titles and meta
 
 **Hindi** (the H1 "पूजा से पहले पहचान, क्या आप अपने भगवान को जानते हैं" stays)
-1. ज्ञानी भक्त कौन है? पूजा से पहले अपने भगवान को जानें (recommended, 52 characters)
+1. ज्ञानी भक्त कौन है? पूजा से पहले अपने भगवान को जानें (recommended, in seo.json, 52 characters)
 2. पूजा से पहले पहचान: क्या आप अपने भगवान को जानते हैं?
 3. गीता 7.17: भगवान को ज्ञानी भक्त क्यों अत्यंत प्रिय है
 
-Meta description: ज्ञानी भक्त कौन है? आचार्य उपेंद्र जी बताते हैं कि पूजा से पहले भगवान को जानना क्यों ज़रूरी है, और गीता ७.१७ ज्ञानी भक्त को अत्यंत प्रिय क्यों कहती है। (151 characters)
+Meta description (recommended, in seo.json): ज्ञानी भक्त कौन है? आचार्य उपेंद्र जी बताते हैं कि पूजा से पहले भगवान को जानना क्यों ज़रूरी है, और गीता ७.१७ ज्ञानी भक्त को अत्यंत प्रिय क्यों कहती है। (151 characters)
 
-Slug: `/hi/gyani-bhakt-puja-se-pehle-bhagwan-ko-jano`
+Slug (recommended, in seo.json): `/hi/gyani-bhakt-kaun-hai`
+
+(The SEO fix replaced the earlier slug `gyani-bhakt-puja-se-pehle-bhagwan-ko-jano`, so the slug follows the focus keyword "ज्ञानी भक्त कौन है".)
 
 **English** (the H1 "Know Before You Worship: Do You Really Know Your God?" stays)
-1. Who Is a Jnani Bhakta? Know Your Lord Before You Worship (recommended, 56 characters)
+1. Who Is a Jnani Bhakta? Know Your Lord Before You Worship (recommended, in seo.json, 56 characters)
 2. Know Before You Worship: Do You Really Know Your God?
 3. Bhagavad Gita 7.17: Why the Devotee Who Knows Is Dear
 
-Meta description: Who is a jnani bhakta? Acharya Upendra Ji explains why we must know the God we worship, not just believe, for Gita 7.17 holds the knower supremely dear. (152 characters)
+Meta description (recommended, in seo.json): Who is a jnani bhakta? Acharya Upendra Ji explains why we must know the God we worship, not just believe, for Gita 7.17 holds the knower supremely dear. (152 characters)
 
-Slug: `/en/jnani-bhakta-know-your-lord-before-worship` (contains the English focus keyword, as SureRank requires)
+Slug (recommended, in seo.json): `/en/who-is-a-jnani-bhakta` (contains the English focus keyword, as SureRank requires)
+
+(The SEO fix replaced the earlier slug `jnani-bhakta-know-your-lord-before-worship`, so the slug follows the focus keyword "who is a jnani bhakta".)
 
 ## 4. Outline changes
 
@@ -108,7 +112,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "alternativeHeadline": "ज्ञानी भक्त कौन है? पूजा से पहले अपने भगवान को जानें",
       "description": "ज्ञानी भक्त कौन है? आचार्य उपेंद्र जी बताते हैं कि पूजा से पहले भगवान को जानना क्यों ज़रूरी है, और गीता ७.१७ ज्ञानी भक्त को अत्यंत प्रिय क्यों कहती है।",
       "inLanguage": "hi",
-      "keywords": "ज्ञानी भक्त, ज्ञानी भक्त कौन है, पूजा से पहले भगवान को जानें, गीता 7.17 का अर्थ, भगवान को सबसे प्रिय भक्त",
+      "keywords": "ज्ञानी भक्त कौन है, ज्ञानी भक्त, पूजा से पहले भगवान को जानें, गीता 7.17 का अर्थ, भगवान को सबसे प्रिय भक्त",
       "about": [
         {
           "@type": "Thing",
@@ -227,7 +231,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "alternativeHeadline": "Who Is a Jnani Bhakta? Know Your Lord Before You Worship",
       "description": "Who is a jnani bhakta? Acharya Upendra Ji explains why we must know the God we worship, not just believe, for Gita 7.17 holds the knower supremely dear.",
       "inLanguage": "en",
-      "keywords": "jnani bhakta, who is a jnani bhakta, know your God before you worship, Bhagavad Gita 7.17 meaning, devotee dearest to God",
+      "keywords": "who is a jnani bhakta, jnani bhakta, know your God before you worship, Bhagavad Gita 7.17 meaning, devotee dearest to God",
       "about": [
         {
           "@type": "Thing",
@@ -333,7 +337,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/gyani-bhakt-kaun-hai`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/who-is-a-jnani-bhakta`.
 
 ## 9. Images
 
