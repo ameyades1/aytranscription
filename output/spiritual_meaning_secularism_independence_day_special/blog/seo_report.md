@@ -25,6 +25,8 @@ A short Independence Day talk (video uploaded 2026-08-15, 3:54) in which Acharya
 
 Deliberately not targeted: "Hindu rashtra vs secular", "refugees in India", "illegal immigration". The guest analogy touches them, but the talk does not discuss policy, and those queries would bring political traffic the post cannot honestly serve (flag 3). "is secularism against Hinduism" is kept at Medium because the post answers it honestly from the teaching (no contradiction: Truth is one; live your own dharma).
 
+Wording check: the searched wording and the body agree (no mismatch). The focus keywords "धर्मनिरपेक्षता का आध्यात्मिक अर्थ" and "spiritual meaning of secularism" were in the H1 only, not in the body (the body said "धर्मनिरपेक्षता के पीछे का आध्यात्मिक विचार" / "The spiritual idea behind secularism"). The SEO fix (`_seo` texts) adds the section 5 direct answer after the opening, so each focus keyword now appears word for word in the body within the first 100 words.
+
 Seasonal: refresh the post 4 to 6 weeks before 15 August (early July) and before 26 January (mid December).
 
 ## 3. Titles and meta
@@ -531,3 +533,73 @@ The exact values written to `output/spiritual_meaning_secularism_independence_da
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
