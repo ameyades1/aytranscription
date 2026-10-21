@@ -22,6 +22,8 @@ Topic: why a hard situation (an illness, a broken relationship, poverty, no job)
 | is suffering permanent | English | Emotional / life problem | Medium |
 | Acharya Upendra Ji overcome the struggles of life | English | Navigational | Low |
 
+Keyword note: the original blog texts did not use the focus keywords word for word (both said "जीवन के संघर्षों" / "Life's Struggles" only in the H1, which SureRank does not count). The SEO copies (`overcome_struggles_of_life_blog_seo.txt`, `_blog_seo_en.txt`) now open with a short direct-answer paragraph that begins with "जीवन के संघर्षों को कैसे पार करें?" / "Here is how to overcome struggles in life." within the first 100 words, and carry the keyword once more in the H2 over the Gita's eighteen-chapter journey, so the focus keywords are unchanged. The H2 "गीता का पहला उपदेश क्या है?" / "What Is the Gita's First Teaching?" is now "गीता २.१४ का अर्थ क्या है?" / "What Does Bhagavad Gita 2.14 Mean?", matching the verse queries. The English meta description and slug now contain the focus keyword word for word.
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "जो आया है वह जाएगा भी: गीता से जीवन के संघर्षों को पार करना", unchanged)
@@ -29,18 +31,18 @@ Topic: why a hard situation (an illness, a broken relationship, poverty, no job)
 2. जो आया है वह जाएगा भी: गीता से संघर्षों को पार करना
 3. सहनशीलता पहला कदम है, मंजिल नहीं: गीता 2.14 का अर्थ
 
-Meta description (155 chars): जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा।
+Meta description (155 chars): जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा। — **recommended**
 
-Slug: `/hi/jeevan-ke-sangharsh-kaise-paar-karen`
+Slug: `/hi/jeevan-ke-sangharsh-kaise-paar-karen` — **recommended**
 
 **English** (H1: "Whatever Comes Must Also Go: Overcoming Life's Struggles with the Gita", unchanged)
 1. How to Overcome Struggles in Life: What the Gita Teaches (56 chars) — **recommended**
 2. Whatever Comes Must Also Go: Bhagavad Gita 2.14 Explained (57 chars)
 3. Endurance Is the First Step: Gita 2.14 on Life's Struggles (58 chars)
 
-Meta description (151 chars): How do you overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.
+Meta description (147 chars): How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last. — **recommended**
 
-Slug: `/en/overcome-struggles-in-life-gita`
+Slug: `/en/how-to-overcome-struggles-in-life-gita` — **recommended**
 
 Titles and metas avoid the words "cancer", "diabetes", "cure" and "first teaching of the Gita" on purpose (flags 2 and 5).
 
@@ -94,7 +96,7 @@ Cannibalization: `one_realisation_free_from_all_suffering` holds "अस्थ�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID m2IU0GRbYW8, uploaded 2025-01-22, 335 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/jeevan-ke-sangharsh-kaise-paar-karen/`, `/en/how-to-overcome-struggles-in-life-gita/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID m2IU0GRbYW8, uploaded 2025-01-22, 335 s, title from yt-dlp.
 
 **Hindi**
 
@@ -175,7 +177,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Whatever Comes Must Also Go: Overcoming Life's Struggles with the Gita",
       "alternativeHeadline": "How to Overcome Struggles in Life: What the Gita Teaches",
-      "description": "How do you overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.",
+      "description": "How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.",
       "inLanguage": "en",
       "keywords": ["how to overcome struggles in life", "Bhagavad Gita 2.14 meaning", "titiksha meaning", "what is dvandva", "is suffering permanent"],
       "about": [
@@ -340,12 +342,82 @@ The values written to `output/overcome_struggles_of_life/blog/seo.json`:
       "tags": ["भगवद्गीता", "अनित्यता", "प्रारब्ध", "संस्कार", "कर्मयोग"]
     },
     "en": {
-      "slug": "overcome-struggles-in-life-gita",
+      "slug": "how-to-overcome-struggles-in-life-gita",
       "focus_keyword": "how to overcome struggles in life",
       "secondary_keywords": ["Bhagavad Gita 2.14 meaning", "titiksha meaning", "what is dvandva", "is suffering permanent"],
-      "meta_description": "How do you overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.",
+      "meta_description": "How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last.",
       "tags": ["Bhagavad Gita", "Impermanence", "Prarabdha", "Samskaras", "Karma Yoga"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (true of the `_seo` texts)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims in the titles, metas, FAQ and the SEO edits (the blog's own review issues are flags 1–4 and 6–9 in section 10)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (the illness, cancer and diabetes passage is flag 5; titles, metas and the FAQ avoid health wording)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
