@@ -28,27 +28,33 @@ The talk takes on a problem almost every reader has felt: knowing what is right 
 
 No search volumes are given; priorities are judgement of intent and competition.
 
+Keyword note: the original blog did not use the exact primary wording in its body (only "आप जानते थे क्या सही है, फिर भी वह कर नहीं पाए" / "known what was right and still failed to do it"). The published SEO copies (`knowledge_work_for_you_blog_seo.txt` / `_blog_seo_en.txt`, see `seo_fix.md`) now open with a short direct answer that asks "हम जानते हुए भी सही क्यों नहीं कर पाते?" / "Why do we end up knowing what is right but not doing it?", so the focus keywords "जानते हुए भी सही क्यों नहीं कर पाते" / "knowing what is right but not doing it" appear in the body within the first 100 words. The focus keywords are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
 
-1. जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर (recommended, 55 characters)
+1. जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर (recommended, in seo.json, 55 characters)
 2. सही जानकर भी गलत क्यों करते हैं? दुर्योधन और हमारा मन
 3. राग-द्वेष से ऊपर कैसे उठें? गीता 3.33-3.34 का संदेश
 
-Meta description: सही जानते हुए भी कर नहीं पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।
+Meta description (recommended, in seo.json): जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।
 
-Slug: `/hi/jaante-hue-bhi-sahi-kyon-nahi-kar-paate`
+Slug (recommended, in seo.json): `/hi/jaante-hue-bhi-sahi-kyon-nahi-kar-paate`
+
+(The SEO fix rewrote the meta description so it starts with the focus keyword "जानते हुए भी सही क्यों नहीं कर पाते"; it began "सही जानते हुए भी कर नहीं पाते?".)
 
 **English**
 
-1. Knowing What Is Right but Not Doing It: Gita 3.33-34 (recommended, 52 characters)
+1. Knowing What Is Right but Not Doing It: Gita 3.33-34 (recommended, in seo.json, 52 characters)
 2. Why Knowledge Alone Doesn't Change You: Bhagavad Gita 3.33
 3. Raga and Dvesha: Rising Above Likes and Dislikes (Gita 3.34)
 
-Meta description (148 characters): Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.
+Meta description (recommended, in seo.json, 151 characters): Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.
 
-Slug: `/en/knowing-right-but-not-doing-it`
+Slug (recommended, in seo.json): `/en/knowing-what-is-right-but-not-doing-it` (contains the English focus keyword, as SureRank requires)
+
+(The SEO fix replaced the earlier slug `knowing-right-but-not-doing-it`, which lacked "what is", and rewrote the meta description, which began "Know what is right but cannot do it?", so both contain the focus keyword.)
 
 The H1 in the blog text stays as written; the recommended titles are for the `<title>` tag only.
 
@@ -120,7 +126,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@id": "{{PLACEHOLDER_WORDPRESS_URL_HI}}#article",
       "headline": "सब कुछ जानते हुए भी हम सही क्यों नहीं कर पाते",
       "alternativeHeadline": "जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर",
-      "description": "सही जानते हुए भी कर नहीं पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
+      "description": "जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
       "inLanguage": "hi",
       "keywords": "जानते हुए भी सही क्यों नहीं कर पाते, गीता 3.33 का अर्थ, राग द्वेष क्या है, श्रेय और प्रेय, महाभारत का आध्यात्मिक अर्थ",
       "about": [
@@ -193,7 +199,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "VideoObject",
       "@id": "https://www.youtube.com/watch?v=Jjev58uqjlk#video",
       "name": "Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You",
-      "description": "सही जानते हुए भी कर नहीं पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
+      "description": "जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jjev58uqjlk/maxresdefault.jpg",
       "uploadDate": "2025-01-25",
       "duration": "PT7M21S",
@@ -247,7 +253,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@id": "{{PLACEHOLDER_WORDPRESS_URL_EN}}#article",
       "headline": "Why Can't We Do What Is Right, Even When We Know It?",
       "alternativeHeadline": "Knowing What Is Right but Not Doing It: Gita 3.33-34",
-      "description": "Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
+      "description": "Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
       "inLanguage": "en",
       "keywords": "knowing what is right but not doing it, Bhagavad Gita 3.33 meaning, raga and dvesha meaning, Mahabharata symbolism mind and intellect, shreyas and preyas",
       "about": [
@@ -320,7 +326,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "VideoObject",
       "@id": "https://www.youtube.com/watch?v=Jjev58uqjlk#video",
       "name": "Top Expert Acharya Upendra Ji Shares the Secret to Making Knowledge Work for You",
-      "description": "Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
+      "description": "Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Jjev58uqjlk/maxresdefault.jpg",
       "uploadDate": "2025-01-25",
       "duration": "PT7M21S",
@@ -363,7 +369,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/jaante-hue-bhi-sahi-kyon-nahi-kar-paate`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-what-is-right-but-not-doing-it`.
 
 ## 9. Images
 
@@ -474,7 +480,7 @@ The exact values written to `output/knowledge_work_for_you/blog/seo.json`.
         "श्रेय और प्रेय",
         "महाभारत का आध्यात्मिक अर्थ"
       ],
-      "meta_description": "सही जानते हुए भी कर नहीं पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
+      "meta_description": "जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।",
       "tags": [
         "भगवद्गीता",
         "महाभारत",
@@ -484,7 +490,7 @@ The exact values written to `output/knowledge_work_for_you/blog/seo.json`.
       ]
     },
     "en": {
-      "slug": "knowing-right-but-not-doing-it",
+      "slug": "knowing-what-is-right-but-not-doing-it",
       "focus_keyword": "knowing what is right but not doing it",
       "secondary_keywords": [
         "Bhagavad Gita 3.33 meaning",
@@ -492,7 +498,7 @@ The exact values written to `output/knowledge_work_for_you/blog/seo.json`.
         "Mahabharata symbolism mind and intellect",
         "shreyas and preyas"
       ],
-      "meta_description": "Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
+      "meta_description": "Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes.",
       "tags": [
         "Bhagavad Gita",
         "Mahabharata",
@@ -504,3 +510,73 @@ The exact values written to `output/knowledge_work_for_you/blog/seo.json`.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
