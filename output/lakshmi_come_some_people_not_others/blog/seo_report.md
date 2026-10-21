@@ -19,12 +19,14 @@ A short talk on who receives wealth. Acharya Ji reads Lakshmi not as an idol but
 | लक्ष्मी और लक्ष्य | Hindi | Informational | Low |
 | lakshmi kiske paas aati hai | Hinglish | Informational | Medium |
 | ghar mein lakshmi kyon nahi tikti | Hinglish | Emotional / informational | Medium |
-| why Lakshmi comes to some people (focus) | English | Informational | High |
+| why does Lakshmi come to some people (focus) | English | Informational | High |
 | why Lakshmi does not stay | English | Emotional / informational | High |
 | why is Lakshmi called chanchala | English | Informational | Medium |
 | meaning of Lakshmi's red sari | English | Informational | Medium |
 | Lakshmi and Alakshmi | English | Informational | Medium |
 | how to attract Lakshmi | English | Practical | Low (remedy intent; the blog gives values, not a ritual; see section 10) |
+
+Keyword note (after the SEO fix): the original blog bodies used neither focus phrase, so the `_seo` texts add a short direct answer at the end of the first section, opening with the searched question: "तो लक्ष्मी किसके पास आती है?" (Hindi) and "So why does Lakshmi come to some people and not others?" (English, the video title's wording), both within the first 100 words. The English focus keyword is now the searched wording "why does Lakshmi come to some people" (it was "why Lakshmi comes to some people", which no reader text used). The H2s "लक्ष्मी क्यों नहीं ठहरतीं?" / "Why Doesn't Lakshmi Stay?" now echo the thumbnail query "घर में लक्ष्मी क्यों नहीं ठहरतीं?" without the remedy framing (section 10, flag 5).
 
 ## 3. Titles and meta
 
@@ -38,13 +40,13 @@ Meta description (156 characters): लक्ष्मी किसके पा�
 Slug: `/hi/lakshmi-kiske-paas-aati-hai`
 
 **English**
-1. Why Lakshmi Comes to Some People: Goal, Love, Sacrifice (55 characters) **(recommended)**
+1. Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice (59 characters) **(recommended)**
 2. Why Doesn't Lakshmi Stay? The Meaning of Her Red Sari (53)
 3. Why Does Lakshmi Come to Some People and Not Others? (52, the H1)
 
 Meta description (155 characters): Why does Lakshmi come to some people and not others? Acharya Upendra Ji explains Lakshmi as lakshya, a goal, and her red sari as love, drive and sacrifice.
 
-Slug: `/en/why-lakshmi-comes-to-some-people`
+Slug: `/en/why-does-lakshmi-come-to-some-people`
 
 Option 2 matches the thumbnail's query; use it only if the page keeps the "why" framing and makes no promise of remedies.
 
@@ -118,7 +120,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{HI_URL}}#article",
+      "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/#article",
       "headline": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है",
       "alternativeHeadline": "लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग",
       "description": "लक्ष्मी किसके पास आती है और किसके पास टिकती है? आचार्य उपेंद्र जी बताते हैं कि लक्ष्मी लक्ष्य हैं, और उनकी लाल साड़ी प्रेम, कर्मशीलता और त्याग की प्रतीक है।",
@@ -140,10 +142,10 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "dateModified": "2026-10-09",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{HI_URL}}" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
-      "workTranslation": { "@id": "{{EN_URL}}#article" }
+      "workTranslation": { "@id": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/#article" }
     },
     {
       "@type": "Person",
@@ -193,7 +195,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है", "item": "{{HI_URL}}" }
+        { "@type": "ListItem", "position": 3, "name": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है", "item": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/" }
       ]
     }
   ]
@@ -210,12 +212,12 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{EN_URL}}#article",
+      "@id": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/#article",
       "headline": "Why Does Lakshmi Come to Some People and Not Others?",
-      "alternativeHeadline": "Why Lakshmi Comes to Some People: Goal, Love, Sacrifice",
+      "alternativeHeadline": "Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice",
       "description": "Why does Lakshmi come to some people and not others? Acharya Upendra Ji explains Lakshmi as lakshya, a goal, and her red sari as love, drive and sacrifice.",
       "inLanguage": "en",
-      "keywords": ["why Lakshmi comes to some people", "why Lakshmi does not stay", "why is Lakshmi called chanchala", "meaning of Lakshmi's red sari", "Lakshmi and Alakshmi"],
+      "keywords": ["why does Lakshmi come to some people", "why Lakshmi does not stay", "why is Lakshmi called chanchala", "meaning of Lakshmi's red sari", "Lakshmi and Alakshmi"],
       "about": [
         { "@type": "Thing", "name": "Lakshmi" },
         { "@type": "Thing", "name": "Vishnu" },
@@ -232,10 +234,10 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "dateModified": "2026-10-09",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{EN_URL}}" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
-      "translationOfWork": { "@id": "{{HI_URL}}#article" }
+      "translationOfWork": { "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/#article" }
     },
     {
       "@type": "Person",
@@ -285,7 +287,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "Why Does Lakshmi Come to Some People and Not Others?", "item": "{{EN_URL}}" }
+        { "@type": "ListItem", "position": 3, "name": "Why Does Lakshmi Come to Some People and Not Others?", "item": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/" }
       ]
     }
   ]
@@ -329,7 +331,7 @@ The exact seo.json written for the page generator and WordPress.
 {
   "title": {
     "hi": "लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग",
-    "en": "Why Lakshmi Comes to Some People: Goal, Love, Sacrifice"
+    "en": "Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice"
   },
   "alt": {
     "hero.jpg": {
@@ -415,8 +417,8 @@ The exact seo.json written for the page generator and WordPress.
       ]
     },
     "en": {
-      "slug": "why-lakshmi-comes-to-some-people",
-      "focus_keyword": "why Lakshmi comes to some people",
+      "slug": "why-does-lakshmi-come-to-some-people",
+      "focus_keyword": "why does Lakshmi come to some people",
       "secondary_keywords": [
         "why Lakshmi does not stay",
         "why is Lakshmi called chanchala",
@@ -435,3 +437,73 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
