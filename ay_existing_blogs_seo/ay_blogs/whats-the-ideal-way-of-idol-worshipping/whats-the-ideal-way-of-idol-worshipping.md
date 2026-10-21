@@ -1,0 +1,29 @@
+# What’s the ‘ideal’ way of idol worshipping?
+
+![what is the ideal way of idol worshipping](What-is-the-ideal-way-of-idol-worshipping.jpg)
+
+*By Brahmarshi Acharya Upendra Ji · 2026-04-25T17:58:28+00:00 · Source: https://blogs.antaryogfoundation.in/whats-the-ideal-way-of-idol-worshipping/*
+
+In the previous articles, you learnt about the origin of idol worship and why everyone needs to worship and express devotion to a physical form of God; like a photo, a symbol, an idol, etc. But, has your daily worship or puja liberated you from all your problems and made you happier?
+
+All your life, you worshipped God to get free from your problems. Many of you religiously follow numerous puja remedies given by astrologers or pandits. You could be offering oil at the Shani temple, milk on Shivling, etc. as solutions to your problems. But is this the real purpose of puja? People use various ideas to please God for solving their problems. Rather, the God you worship should become your ‘ideal’.
+
+For example, Lord Hanuman should inspire you to attain the qualities of strength and unparalleled devotion. Lord Ganesh should remind you to become wise and imbibe leadership qualities. Mythological stories of the Gods should inspire you to be like them.
+
+The word puja consists of two syllables ‘Pa’ and ‘Ja’. ‘Pa’ refers to ‘paap nashanam’ i.e. to destroy your sins, ‘Ja’ refers to ‘janma vichhedanam’ i.e. to break the vicious cycle of birth and death. The puja that you perform every day is supposed to destroy your sins and liberate you from the cycle of birth and death. But, this is only possible when you start imbibing the divine qualities of the God you worship.
+
+The Bhagavad Gita, 9.26, explains the ideal way to perform puja — ‘when a devotee makes an offering of a leaf, a flower, a fruit, or even water to God with utmost sincere love and devotion, God himself comes to partake the offerings.’ The word bhakti is emphasised twice in this verse, which indicates that becoming a devotee (bhakt) is the first condition for idol worship.
+
+A bhakt is the one who is not vibhakt (separate) from God. There is no hidden motive or condition behind his puja or offerings. If you offer anything to God with such selfless devotion, he will lovingly accept your offering. It is your devotion that pleases God. It should be so pure and extreme that if you see a mosquito sitting on your idol, you should feel like applying a mosquito repellent cream or protecting it with a mosquito net.
+
+But, is just devotion enough? The Bhagavad Gita, 7.17, clearly mentions that amongst all kinds of devotees, the highest is the one with wisdom (gyan). Without wisdom, your puja will be a mere mechanical ritual, it won’t make you an ideal devotee. Every step performed during the puja is supposed to remind you to go one step closer to divinity every day. For example, the fruits that you offer to God symbolise the results of your actions (karma phal). Do you offer rotten fruits to God? You offer only fresh and sweet fruits, which symbolises that your karma should be sweet and pleasing to God. The coconut that you offer represents your ego (ahankar). Breaking it should remind you to break and conquer your own ego. You cannot realise God, without conquering your ego.
+
+The purpose of puja is to invoke the divine qualities within you. Your intention behind puja and devotion becomes your real nature. For example, how you treat your guests is a direct reflection of how you perform your daily puja. If you take your puja casually enough to clean your idols with a worn-out cloth, subconsciously you would not be receiving your guests well and they could feel like a burden to you.
+
+Today, idol worship has simply become a formality or a five-minute morning ritual before you rush to the office. People promise God great wealth, coconuts, expensive offerings, etc, in exchange for him fulfilling their wishes. Is this real devotion or merely a business deal? Will your wealth really please the all-pervading, almighty God?
+
+When Lord Krishna says, he himself comes in a form to partake the offerings, he does come in some physical form. It is none other than the Lord who comes to consume your prasad in the form of your child, your husband, your neighbour or anybody else. You could be doing your daily puja with great devotion. But if you are treating your wife poorly or are being arrogant with your watchman, your devotion is just limited to the idol. You were supposed to see the same Lord in your wife, watchman or anyone else.
+
+Idol worship was supposed to remind you to see the same Lord you see in the idol, manifested in everyone and everything around you. It is for this reason that you find mirrors installed at the exit of the temples to remind you to see the same Lord in everyone after you leave the temple.
+
+Idol worship was never meant to be done mechanically. It has deep significance and is supposed to remind you of the divine qualities which you need to possess to progress spiritually and attain liberation. In the next article, let us understand the deep science behind idol worship. Stay tuned.

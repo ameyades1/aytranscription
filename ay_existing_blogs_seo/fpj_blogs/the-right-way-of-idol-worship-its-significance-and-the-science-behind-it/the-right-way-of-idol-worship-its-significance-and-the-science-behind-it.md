@@ -1,0 +1,37 @@
+# The right way of idol worship, its significance and the science behind it
+
+## The puja you perform every day at home or temple was designed by our Sages to impact your body, mind and soul
+
+![The right way of idol worship, its significance and the science behind it](idol_worship_1.jpg)
+
+*By Acharya Upendra Ji · 2022-12-04T07:00:00+05:30 · Source: https://www.freepressjournal.in/spirituality/the-right-way-of-idol-worship-its-significance-and-the-science-behind-it*
+
+In this series of articles on idol worship, you learnt about the deep science behind idol worship, thoughtfully designed by our sages, who were great scientists. You understood how an idol on its own doesn’t have any power. It needs to be energised by a God realised Jeevit Guru. The puja you perform every day at home or temple was designed by our Sages to impact your body, mind and soul. Our Sages discovered the immense benefits of puja thousands of years ago, some of which are being rediscovered by modern scientists today. Science lags behind spirituality and there are many benefits of spiritual practices that are yet to be discovered by science.
+
+Let's understand how some of the puja practices that you perform daily benefit your overall health.
+
+When you perform puja with pure devotion as mentioned in the scriptures, you feel satisfied and happy. This releases a hormone called dopamine — the happy hormone. Dopamine increases your enthusiasm. Children, these days, get their daily dose of dopamine by just playing a video game. On the other hand, introducing them to spiritual practices and engaging them in meaningful activities will help raise their goals in life.
+
+In puja there is a common practice of applying pure sandalwood (Chandan) on the forehead which makes you feel calm due to its cooling effect. It also helps in reducing fever and relieves headaches caused by stress. Sandalwood paste also reduces skin inflammation and helps in improving skin health.
+
+> **Read Also:** [Why multiple forms of God were designed and their deep significance as per our scriptures](https://www.freepressjournal.in/spirituality/why-multiple-forms-of-god-were-designed-and-their-deep-significance-as-per-our-scriptures)
+
+The diya that you light every day, emits electromagnetic waves which stimulate nerves in the brain that help in increasing concentration power, memory and focus. When you steadily gaze at the centre of the flame (tratak) without distraction, it stimulates the optic nerve located at the back of the eyes, which helps in improving eyesight.
+
+The colourful flowers offered to the idol have a pleasing fragrance which acts like aromatherapy. When you inhale the aromatic molecules, they enter through your olfactory nerves, reach the brain directly and impact the amygdala, a region in our brain primarily involved in processing emotions. It responds to the fragrance of flowers by releasing happy hormones like serotonin. The colours of flowers have fine vibrations which help reduce the psychosomatic causes of diseases, before they develop into physical symptoms.
+
+Deep breathing between two OM chants, utilises maximum lung capacity allowing you to inhale plenty of air to increase oxygen levels in your body. This results in keeping respiratory diseases away. Scientists have proven that OM chanting also strengthens your heart which can be observed using an electrocardiogram (ECG). The chanting helps in enhancing parasympathetic nervous system activity which plays an important role in regulating the body's unconscious actions. This promotes deep relaxation and calmness, which is also reflected in the electroencephalogram (EEG).
+
+The yadnya is performed with many traditional organic ingredients like cow dung, wood, camphor, havan samagri, grains, ghee, etc. which have high medicinal values. The holy smoke spread out in the room after the ritual, when inhaled, helps in curing health issues like typhoid, epilepsy, hypertension, mental agitation, etc. Regularly practising yadnya has strong effects against contagious diseases caused by pathogenic microbes as it disinfects the air. It kills bacteria and insects, thereby eliminating the need for repellents at home. Regular havan increases oxygen levels in your home and also helps in increasing the shelf life of perishable liquids like milk, curd, etc.
+
+> **Read Also:** [The untold science behind idol worship](https://www.freepressjournal.in/spirituality/the-untold-science-behind-idol-worship)
+
+Ghantanaad or ringing of the bell is the exciting part of puja for many people. When you ring the bell at a medium speed and for some time, it creates sonic vibrations which instantly bring harmony between the left and right hemispheres of the brain. This relieves stress, and anxiety, and improves concentration. The sound repels negative energies from the surroundings. Today, bells are used in sound therapy across the world due to their healing effect.
+
+As a part of the ritual act of pradakshina (circumambulation), when you circle bare feet around the idol inside the temple or around the trees with deep roots such as a Banyan or Peepal, the soil absorbs your negative energy and strengthens the Mooladhar (Root) chakra.
+
+These were the scientific benefits of performing puja regularly. But imagine the tremendous benefits you can get when you worship the Lord with pure devotion and the right knowledge. The benefits are multifold. Therefore, one should rise above just scientific logic and become a devotee. Now that you have understood the right way of idol worship, its significance and the science behind idol worship, it is time that you put it all into action. Be inspired to follow the right way of worship and spread this precious knowledge to your friends and family. Go to a realised Jeevit Guru and expand your understanding about higher spiritual practices which will lead you to ultimate freedom and happiness in life. This is your calling to rise beyond the ordinary.
+
+**(Antar Yog Foundation, https://learn.antaryogfoundation.in)**
+
+> **Read Also:** [What's the ‘ideal’ way of idol worshipping?](https://www.freepressjournal.in/spirituality/whats-the-ideal-way-of-idol-worshipping)

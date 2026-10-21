@@ -1,0 +1,31 @@
+# The untold purpose of your diet that you should know
+
+## As you learnt in the last article of this series, food is more than just nutrition or nourishment for the body
+
+![The untold purpose of your diet that you should know](Antar_yog_July_23.jpg)
+
+*By Acharya Upendra Ji · 2023-07-23T07:00:00+05:30 · Source: https://www.freepressjournal.in/weekend/the-untold-purpose-of-your-diet-that-you-should-know*
+
+As you learnt in the last article of this series, food is more than just nutrition or nourishment for the body. The intention with which the food was prepared or the mood while consuming the food, starts affecting your emotions and eventually impacts your physical well-being. You also learnt about the type of food you prefer as per your guṇ (qualities). In this article, let us understand the importance of choosing a diet suitable for you and the true purpose of your diet.
+
+Today, some dieticians advise eating everything you want in one meal but only twice a day without eating anything in between. Some advise to keep eating throughout the day in intervals, while others advise  following a no-carb diet, keto diet, etc. Because of the internet and social media, such diet trends go viral quickly and most of you get easily attracted to them. Your great-grandmother and her generation never followed any particular trend or consulted a dietician. They were connected with nature, consumed freshly cooked, minimally processed food containing leafy vegetables, fruits, ghee, etc. and were more happy, content and lived a long healthy life. But today, it is observed that most of you adopt any popular diet and have simply become blind followers without understanding your body and its specific needs.
+
+With growing social media influence, it is commonly seen that most people constantly indulge in trying different recipes only to satisfy their taste buds as per their likes and dislikes, which affects both Mūlādhāra (root) chakra and Svādhiṣṭhāna (sacral) chakra. This leads to emotional instability, poor decision-making ability, self-doubt, an increase in sexual urges and lack of focus in life.
+
+> **Read Also:** [Here's why you shouldn't take your diet lightly](https://www.freepressjournal.in/spirituality/heres-why-you-shouldnt-take-your-diet-lightly)
+
+Most of you also follow any diet fearfully, forcefully which you may not like just because it is popular, to reduce weight, etc. Such a diet is the same as eating medicines, which results in psychological issues later. It is also observed that common diets are prescribed even for people with different health issues like diabetes or blood pressure. It is crucial that your diet should be suitable for you and make you happy. Hence, ‘one diet cannot fit all’.
+
+As mentioned in Ashtanga Hridaya Sutrasthan, chapter. 1, 5.5 – 6.5, vāyu: pittaṃ kaphaśceti trayo doṣā: samāsata: || vikṛtā’vikṛtā dehaṃ ghnanti te varttayanti ca|| — ‘the human body has Tridosh —  Vāta, Pitta and Kapha. A perfect balance of three dosh leads to good health and any imbalance in these dosh results in disease.’ Tridosh is the combination of five elements of nature — ether, air, water, earth and fire. Vāta is ether and air, which oversees the movement of the body. Pitta is fire and water, which governs digestion. Kapha is water and earth which governs body structure.
+
+Āyurveda suggests that the dosh should determine the type of food you should consume for optimal health. Wrong food combinations and the wrong diet can  harm your body. For example, if you pour crude oil into the kitchen sink, it will block the pipe and contaminate your drainage system. Whereas, if you pour water into it, it will easily pass through the pipe. Likewise, if you eat food which is difficult to digest like meat, deep-fried food, highly processed food, artificial sweeteners, etc. it will get deposited in your stomach and intestines, which will lead to many health issues like acidity, cholesterol, heartburn, etc. Hence, eating the right food is important for a healthy long life.
+
+> **Read Also:** [Her right education is our bright future](https://www.freepressjournal.in/spirituality/her-right-education-is-our-bright-future)
+
+As per our scriptures, diet is not limited to what you eat. Anything that you consume with the five senses is also considered as your food. This means what you watch becomes the food for the eyes, what you hear becomes the food for the ears, what you eat becomes food for the tongue, what you smell becomes food for the nose and what you touch becomes food for your skin. When you watch harmful, hurtful or inappropriate content you are actually feeding yourself unhealthy food, which results in negativity, anger, depression, and eventually leads to incorrect thoughts, speech and actions. Hence, you must be very careful what you feed your senses.
+
+Saint Tulsidas in his Rāmacaritamānasa mentions — ‘बड़े भाग मानुष तन पावा’  i.e. ‘it is a great fortune to be born as a human.’ Only after passing through 84 lakh yoni (species), do you get a human birth. Your body is a divine equipment. Its purpose is not just to fulfil your selfish desires and enjoy worldly pleasures. You were supposed to live with larger-than-life goals and work for a higher cause. Our great Sages like Rishi Bharadwaj, Acharya Charaka, Atreya Punarvasu and many others who discovered and contributed to Āyurveda also gave high importance to following the right diet for higher progress in life.
+
+Consuming a sāttvik diet will purify and calm your mind to take the right knowledge from spiritually realised Jeevīt Guru, which will liberate you from worldly problems and help you in your journey towards ultimate liberation (mokṣa). Hence, it is imperative for you to understand how your diet can accelerate or degrade your overall progress by taking the right knowledge from a Jeevīt Guru. Now I’m sure you must have understood the importance of food for your all round success. In the next article, you will learn the rare connection between karma and food. Stay tuned!
+
+> **Read Also:** [Do you know that the real purpose of Jagran is to awaken you to your true self?](https://www.freepressjournal.in/spirituality/do-you-know-that-the-real-purpose-of-jagran-is-to-awaken-you-to-your-true-self)

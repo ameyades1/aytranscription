@@ -1,0 +1,29 @@
+# Guru Gyan: Awaken the giant within you... life lessons from Bhagavad Gita
+
+## 
+
+![Guru Gyan: Awaken the giant within you... life lessons from Bhagavad Gita](W_end_GL_anchor_freepik_april_10.jpg)
+
+*By Acharya Upendra Ji · 2022-04-24T07:00:00+05:30 · Source: https://www.freepressjournal.in/spirituality/guru-gyan-awaken-the-giant-within-you-life-lessons-from-bhagavad-gita*
+
+Bharat is always referred to as the ‘land of Avatars’. Time and again great Avatars have taken birth to uplift the mankind and free it from evil. Even in times ahead, it is popularly believed that in Kaliyug, Kalki, will be born to save humanity and dharma. But, do you think Shri Krishna in Bhagavad Gita popular verses 4.7 and 4.8 “Yada Yada hi dharmasya….and Paritranay sadhunam…” has asked us to wait and do nothing until an ‘Avatar’ incarnates to destroy evil? If not, then what are we failing to understand?
+
+We need to learn the less popular Bhagavad Gita verse 4.9 Janma karma ch me divyameva... in which Lord Krishna states that those who understand the divine nature of their Gurus’ or Avatars’ birth and activities, and who join them to accomplish their divine vision are free from the cycle of rebirths and attain liberation.
+
+> **Read Also:** [Guru Gyan: What is the Antar Yog way of life? Here's all you need to know](https://www.freepressjournal.in/spirituality/guru-gyan-what-is-the-antar-yog-way-of-life-heres-all-you-need-to-know)
+
+Our limiting beliefs make us think of God as a separate entity residing in Vaikuntha or Kailash. Our entire life we see God outside us, we wait for him to help us in our work and fail to recognise our true potential! Our narrow world view ties us down with our endless desires, thereby creating more lust and greed. Are you only born to live a self-centred life? Or the purpose of your existence is much higher?
+
+Humans are manifestations of God and the supreme divine dwells inside the hearts of all living creatures. When you know this, act upon and realise it, you are not different from an ‘Avatar’. So, go beyond your limiting beliefs, understand your infinite potential and awaken the giant inside you by identifying yourself as one with God,
+
+the almighty whom you believe to have supernatural powers and who can set right anything and everything.  Today, do you observe adharma, injustice taking place all around you? Are you sitting quietly and helplessly thinking some ‘Avatar’ will come and save you? The time has come to realise your true potential, the purpose of your divine birth and restore the lost glory of our Bharat as a healthy, wealthy and spiritual leader of the world.
+
+> **Read Also:** [Guru Gyan: Holi, the festival of colours and new beginnings](https://www.freepressjournal.in/spirituality/guru-gyan-holi-the-festival-of-colours-and-new-beginnings)
+
+Today, we all are like Arjun in Kurukshetra - weak, confused, self-centred, ignorant and helpless in spite of having every potential to defeat the entire army of wicked men like Duryodhan. Shri Krishna enlightened Arjun about his duties and abilities and he became the most timeless and powerful warrior of all times. Similarly, if you surrender yourself to a realised spiritual master, he makes you realise your own ‘virat roop’ which is the giant, the superpower within you. Like Arjun, turn yourself into a devoted student, have full faith in your spiritual master and realise the purpose of your birth. Remember, when you bow down to one person, the world bows down to you.
+
+Wake up! Roll up your sleeves to serve your motherland. Free yourselves from helpless, narrow thinking and join collectively towards restoring the dharma and protecting the good. Let us awaken the giant within every one of us and take a vow to do every action for the welfare of the world and liberation of the self!
+
+(The writer is a spiritual leader and the founder of Antar Yog Foundation. To know more about the foundation, visit https://learn.antaryogfoundation.in)
+
+> **Read Also:** [Guru Gyan: Living soil is the solution](https://www.freepressjournal.in/spirituality/guru-gyan-living-soil-is-the-solution)

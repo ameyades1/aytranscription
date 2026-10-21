@@ -1,0 +1,39 @@
+# Do you know the true purpose of prayer? Understanding the art and science of prayer
+
+## Prayer is not a medium for you to beg God with your list of demands, or to question God’s love for you
+
+![Do you know the true purpose of prayer? Understanding the art and science of prayer](anchor_dec_18.jpg)
+
+*By Acharya Upendra Ji · 2022-12-18T07:00:00+05:30 · Source: https://www.freepressjournal.in/spirituality/do-you-know-the-true-purpose-of-prayer-understanding-the-art-and-science-of-prayer*
+
+Prayer is a ray of hope for people in times of hardship. Regardless of which religion you belong to, prayer is an integral part of your life. When situations seem to go beyond your control, most of you start praying to God. Most of you pray to God to fulfil your desires of a high-paying job or a car or a bungalow or to get a good-looking partner, etc. Even those who don’t believe in God pray during their worst times.
+
+But, did you know the true purpose of prayer? Or about the extraordinary power your prayer has? Praying is an art and deep science is involved behind it. Let us see how prayer works.
+
+Your prayer is deeply connected to your subconscious mind. The subconscious mind is the hidden part of your mind that affects your behaviour without you realising it. For example, you might feel an immediate connection when you meet someone for the first time, this is because of a response from your subconscious mind. It plays a role in attracting things into your life.
+
+> **Read Also:** [The right way of idol worship, its significance and the science behind it](https://www.freepressjournal.in/spirituality/the-right-way-of-idol-worship-its-significance-and-the-science-behind-it)
+
+Your subconscious mind understands visuals not words. If I tell you to think of grapes, do you visualise the letters or the fruit? The real secret is to visualise your prayer in the present continuous tense. This means you should visualise that you already have received what you want. For example, if you are struggling with a major health disease, don’t get disheartened but instead, with immense faith, visualise yourself in good health when you pray. You should not stop at visualisation but constantly live with this state of mind. Nothing becomes your reality until you accept it.
+
+Most people get so carried away while praying that they emotionally desire negative events for themselves while wishing good for others. For instance, a mother may emotionally pray to God to take her eyes in order to bless her blind child with eyesight. But, such prayers do not make any sense and never fructify. In fact, ignorantly, the mother can manifest it in her own next birth and may be born without eyesight.
+
+> **Read Also:** [The untold science behind idol worship](https://www.freepressjournal.in/spirituality/the-untold-science-behind-idol-worship)
+
+The Gods whom you pray to, themselves faced several challenges in life. Shri Ram had to renounce his kingship and live in exile for 14 years. Devi Sita was kidnapped and taken to another country, Lanka, by Ravan. Shri Krishna also had to assist in the epic battle of Mahabharat to re-establish Dharma. The Bhagavad Gita 8.15 states, ‘dukhalayam ashasvatam’, — the world is temporary and full of miseries. When even Gods had to face harsh challenges, how do you expect to live a life free of problems?
+
+Hence, pray for the courage and power Shri Ram showed to fight with Ravan to bring back Devi Sita. Pray for wisdom which Shri Krishna used to win the battle against the cunning Kauravas. Shri Krishna says in Bhagavad Gita 10.4-5, that ‘I have divine qualities such as truthfulness, intellect, forgiveness, knowledge, clarity of thought, control over the senses and mind, courage, non-violence, calmness, contentment, charity, etc.’ You should pray to attain these divine qualities of God to win over your challenges. For example, instead of asking for a good-looking partner, ask God to give you power and wisdom to attract the right companion and maintain the relationship.
+
+> **Read Also:** [What's the ‘ideal’ way of idol worshipping?](https://www.freepressjournal.in/spirituality/whats-the-ideal-way-of-idol-worshipping)
+
+A prayer is not mere words, the thought behind it matters. Thoughts are a form of energy. That is why prayers should be done with deep focus. Praying is sending constant thoughts to the universe. With your deep desires, things start getting aligned to manifest them into reality. Our Sages advised us to constantly think about God or to mentally chant a mantra. The constant repetition of a thought (Mananāt) which protects (trāyatē) from all miseries is called a mantra. If you constantly think negative thoughts, they will become your mantra and your reality will become a reflection of your negative thinking. For example — you may be praying for a wealthy lifestyle but you are constantly thinking about how poor you are. Your reality will remain that of a poor living. You become what you think and so does your life because you are Brahma, the creator. The source of attracting things lies within you. This technique of prayers in modern science can be understood using Einstein’s theory of E=mc<sup>2</sup> i.e. matter is nothing but a manifestation of energy. Our Sages discovered the science of prayer thousands of years ago.
+
+> **Read Also:** [Do multiple forms of gods and goddesses exist in other religions apart from Hindu? Read on to find...](https://www.freepressjournal.in/spirituality/do-multiple-forms-of-god-and-goddess-exist-in-other-religions-read-on-to-find-out-more)
+
+Prayer is not a medium for you to beg God with your list of demands, or to question God’s love for you. Sincerely seek his qualities, and they will be instilled in you. Remember, you can attract both good and bad depending on the way you pray.
+
+God is here to bless you, but you waste the opportunity by praying the wrong way. That is why one should take knowledge from a spiritually realised Jeevit Guru. Such ancient techniques are not found in books. Only a Jeevit Guru will explain this science to you and teach you the correct way to lead a happy and glorious life. I have revealed precious secrets of prayer to you. It’s your turn to make a wise choice now!
+
+***(Antar Yog Foundation https://learn.antaryogfoundation.in)***
+
+> **Read Also:** [Do Hindus really have 33 koti devatas? Here's the truth behind the belief](https://www.freepressjournal.in/spirituality/do-hindus-really-have-33-koti-devatas-heres-the-truth-behind-the-belief)
