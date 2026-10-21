@@ -1,7 +1,7 @@
 {
   "title": {
     "hi": "सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं",
-    "en": "Balance of Sattva, Rajas and Tamas: Three Cords That Bind"
+    "en": "How to Balance the Three Gunas: Three Cords That Bind"
   },
   "alt": {
     "hero.jpg": {
@@ -76,7 +76,7 @@
         "गुण का अर्थ डोरी",
         "सत्वगुण भी बंधन क्यों"
       ],
-      "meta_description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें।",
+      "meta_description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें।",
       "tags": [
         "त्रिगुण",
         "सत्त्व गुण",
@@ -87,14 +87,15 @@
       ]
     },
     "en": {
-      "slug": "sattva-rajas-tamas-balance",
-      "focus_keyword": "balance of sattva rajas and tamas",
+      "slug": "balance-the-three-gunas",
+      "focus_keyword": "balance the three gunas",
       "secondary_keywords": [
+        "balance of sattva rajas and tamas",
         "what are sattva rajas and tamas",
         "meaning of guna",
         "does sattva also bind"
       ],
-      "meta_description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day.",
+      "meta_description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily.",
       "tags": [
         "Three Gunas",
         "Sattva",

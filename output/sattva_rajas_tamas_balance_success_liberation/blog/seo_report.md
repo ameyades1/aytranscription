@@ -18,7 +18,8 @@ A short, clear talk on the three gunas. Acharya Ji starts from the word itself: 
 | तीन गुण कौन से हैं | Hindi | Informational | Medium |
 | sattva rajas tamas kya hai | Hinglish | Informational | High |
 | teen gun ka santulan | Hinglish | Practical | Low |
-| balance of sattva rajas and tamas | English | Practical / informational | High (primary) |
+| balance the three gunas | English | Practical | High (primary, after the SEO fix) |
+| balance of sattva rajas and tamas | English | Practical / informational | High (secondary) |
 | what are sattva rajas and tamas | English | Informational | High |
 | meaning of guna | English | Informational | Medium |
 | does sattva also bind | English | Informational | Medium |
@@ -28,6 +29,8 @@ A short, clear talk on the three gunas. Acharya Ji starts from the word itself: 
 
 The Hindi keywords use "सत्व", the spelling the blog uses and the one most Hindi searchers type; see flag 3 in section 10.
 
+Keyword mismatch (fixed by `/seo_blog_fix`): the original blog texts used neither primary keyword word for word. The Hindi body only had "सत्व, रज और तम" (with commas, which the exact Hindi match does not accept) and never "संतुलन"; the `_seo` text now uses "सत्व रज तम का संतुलन" once in a short direct-answer paragraph in the first 100 words (word 80), and the Hindi meta description now uses the same wording. In English, SureRank's matching cannot find "balance of sattva rajas and tamas" across the commas of "sattva, rajas and tamas", and the body never spoke of balance; the `_seo` text now says "To balance the three gunas…" in the first 100 words (word 81), so the English focus keyword is now the searched wording "balance the three gunas" (from "how to balance the three gunas in daily life"), and "balance of sattva rajas and tamas" is kept as a secondary keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -35,18 +38,19 @@ The Hindi keywords use "सत्व", the spelling the blog uses and the one mo
 2. सत्व, रज और तम क्या हैं? गुण का असली अर्थ है डोरी (47)
 3. सत्वगुण भी बंधन है: तीनों गुणों का सही संतुलन (44)
 
-Meta description (141): संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें।
+Meta description (137) **(recommended)**: संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें।
 
-Slug: `/hi/sattva-rajas-tamas-santulan/`
+Slug **(recommended)**: `/hi/sattva-rajas-tamas-santulan/`
 
 **English**
-1. Balance of Sattva, Rajas and Tamas: Three Cords That Bind (57 characters) **(recommended)**
-2. What Are Sattva, Rajas and Tamas? Guna Means a Cord (51)
-3. Even Sattva Binds: The Three Gunas and Liberation (49)
+1. How to Balance the Three Gunas: Three Cords That Bind (53 characters) **(recommended)**
+2. Balance of Sattva, Rajas and Tamas: Three Cords That Bind (57; the original choice, before the SEO fix)
+3. What Are Sattva, Rajas and Tamas? Guna Means a Cord (51)
+4. Even Sattva Binds: The Three Gunas and Liberation (49)
 
-Meta description (152): Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day.
+Meta description (155) **(recommended)**: Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily.
 
-Slug: `/en/sattva-rajas-tamas-balance/`
+Slug **(recommended)**: `/en/balance-the-three-gunas/` (was `/en/sattva-rajas-tamas-balance/` before the SEO fix)
 
 The H1 in the blog stays as it is; the title tag carries the keyword.
 
@@ -109,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sattva-rajas-tamas-santulan/`, `/en/sattva-rajas-tamas-balance/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sattva-rajas-tamas-santulan/`, `/en/balance-the-three-gunas/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -127,7 +131,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "सत्व, रज और तम: तीन डोरियाँ जो बाँधती भी हैं और चलाती भी हैं",
       "alternativeHeadline": "सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं",
-      "description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें।",
+      "description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें।",
       "inLanguage": "hi",
       "keywords": [
         "सत्व रज तम का संतुलन",
@@ -300,10 +304,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Sattva, Rajas and Tamas: Three Cords That Bind Us and Also Move Us",
-      "alternativeHeadline": "Balance of Sattva, Rajas and Tamas: Three Cords That Bind",
-      "description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day.",
+      "alternativeHeadline": "How to Balance the Three Gunas: Three Cords That Bind",
+      "description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily.",
       "inLanguage": "en",
       "keywords": [
+        "balance the three gunas",
         "balance of sattva rajas and tamas",
         "what are sattva rajas and tamas",
         "meaning of guna",
@@ -505,7 +510,7 @@ The exact values written to `output/sattva_rajas_tamas_balance_success_liberatio
 {
   "title": {
     "hi": "सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं",
-    "en": "Balance of Sattva, Rajas and Tamas: Three Cords That Bind"
+    "en": "How to Balance the Three Gunas: Three Cords That Bind"
   },
   "alt": {
     "hero.jpg": {
@@ -580,7 +585,7 @@ The exact values written to `output/sattva_rajas_tamas_balance_success_liberatio
         "गुण का अर्थ डोरी",
         "सत्वगुण भी बंधन क्यों"
       ],
-      "meta_description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें।",
+      "meta_description": "संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें।",
       "tags": [
         "त्रिगुण",
         "सत्त्व गुण",
@@ -591,14 +596,15 @@ The exact values written to `output/sattva_rajas_tamas_balance_success_liberatio
       ]
     },
     "en": {
-      "slug": "sattva-rajas-tamas-balance",
-      "focus_keyword": "balance of sattva rajas and tamas",
+      "slug": "balance-the-three-gunas",
+      "focus_keyword": "balance the three gunas",
       "secondary_keywords": [
+        "balance of sattva rajas and tamas",
         "what are sattva rajas and tamas",
         "meaning of guna",
         "does sattva also bind"
       ],
-      "meta_description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day.",
+      "meta_description": "Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily.",
       "tags": [
         "Three Gunas",
         "Sattva",
@@ -611,3 +617,73 @@ The exact values written to `output/sattva_rajas_tamas_balance_success_liberatio
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (`_seo` texts: Hindi word 80, English word 81)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (none in the titles, metas, snippets or the fix; the review's minor corrections on Kali's colour, the Maha- forms and सत्त्व are flagged in section 10 for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (flags 6 and 7)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
