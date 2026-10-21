@@ -22,6 +22,8 @@ A short talk (video uploaded 2024-01-28, 2:44) in which Acharya Ji says Bharat c
 | Nadi prediction about India | English | Informational | Low |
 | Acharya Upendra Ji future of Bharat | English | Navigational | Low |
 
+Keyword note: the focus keywords "भारत का भविष्य" / "future of Bharat" are the searched wording. The original bodies did not use them in the first 100 words (the English body had only "Bharat has a bright future"); the SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`) now use them in a short direct-answer opening and in one question H2 ("भारत का भविष्य कैसा है?" / "What Is the Future of Bharat?"). No other mismatch between searched and body wording.
+
 Deliberately not targeted: "2029 election prediction", "2029 चुनाव भविष्यवाणी", "2024 2025 2026 disaster prediction". They would draw political and fear-driven traffic that the post cannot honestly satisfy (flags 1 and 2).
 
 ## 3. Titles and meta
@@ -31,18 +33,18 @@ Deliberately not targeted: "2029 election prediction", "2029 चुनाव भ
 2. भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी
 3. भारत को बदलने में आपकी भूमिका क्या है?
 
-Meta description: भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी बताते हैं: भविष्य उज्ज्वल है, पर कठिनाइयों से होकर; देश बदलने में सबकी भूमिका है, आधार है आध्यात्मिक शक्ति।
+Meta description (recommended, in seo.json): भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी बताते हैं: भविष्य उज्ज्वल है, पर कठिनाइयों से होकर; देश बदलने में सबकी भूमिका है, आधार है आध्यात्मिक शक्ति।
 
-Slug: `/hi/bharat-ka-bhavishya`
+Slug (recommended, in seo.json): `/hi/bharat-ka-bhavishya`
 
 **English**
 1. The Future of Bharat: Why Spiritual Strength Must Grow (recommended, 54 characters)
 2. Who Holds the Future of Bharat? Acharya Upendra Ji
 3. Changing Bharat Is Everyone's Role, Not the Guru's Alone
 
-Meta description (148 characters): What is the future of Bharat? Acharya Upendra Ji says it is bright but comes through hardship, and a new Bharat rests on growing spiritual strength.
+Meta description (recommended, in seo.json, 148 characters): What is the future of Bharat? Acharya Upendra Ji says it is bright but comes through hardship, and a new Bharat rests on growing spiritual strength.
 
-Slug: `/en/future-of-bharat`
+Slug (recommended, in seo.json): `/en/future-of-bharat`
 
 ## 4. Outline changes
 
@@ -428,3 +430,73 @@ The exact values written to `output/future_country_bharat_know/blog/seo.json` fo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (met in the `_seo` texts: direct-answer opening)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
