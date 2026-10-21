@@ -25,25 +25,27 @@ Acharya Ji describes three kinds of disciples by what they ask the Guru for: the
 
 Not targeted on purpose: "pitru dosh upay", "Shri Vidya" and "Nachiketa three boons" (flag 1).
 
+Searched wording and body: the original blog texts say only "शिष्य तीन प्रकार के होते हैं" / "three kinds of disciples", never the searched "शिष्य के तीन प्रकार" / "three types of disciples". The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use the searched wording once, in a short direct answer after the intro (within the first 100 words), so it is the focus keyword in both languages. No mismatch is left.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं? (recommended, 48 characters)
+1. शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं? (recommended, in seo.json, 48 characters)
 2. आप कैसे शिष्य हैं? तामसिक, राजसिक या सात्त्विक
 3. शिष्य के तीन प्रकार और वह एक प्रश्न जो कर्म सुलझाता है
 
-Meta description (150 characters): तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और "मैं कहां गलत था?" पूछने से कर्म कैसे सुलझता है।
+Meta description (recommended, in seo.json, 150 characters): तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और "मैं कहां गलत था?" पूछने से कर्म कैसे सुलझता है।
 
-Slug: `/hi/shishya-ke-teen-prakar`
+Slug (recommended, in seo.json): `/hi/shishya-ke-teen-prakar`
 
 **English**
-1. Three Types of Disciples: What Do You Ask the Guru For? (recommended, 55 characters)
+1. Three Types of Disciples: What Do You Ask the Guru For? (recommended, in seo.json, 55 characters)
 2. Tamasic, Rajasic or Sattvic: What Kind of Disciple Are You?
 3. Three Types of Disciples and the Question That Ends Karma
 
-Meta description (151 characters): Tamasic, rajasic or sattvic? Acharya Ji explains three types of disciples, why outer remedies fade, and how asking where you went wrong resolves karma.
+Meta description (recommended, in seo.json, 151 characters): Tamasic, rajasic or sattvic? Acharya Ji explains three types of disciples, why outer remedies fade, and how asking where you went wrong resolves karma.
 
-Slug: `/en/three-types-of-disciples`
+Slug (recommended, in seo.json): `/en/three-types-of-disciples`
 
 ## 4. Outline changes
 
@@ -424,3 +426,73 @@ The values written to `output/know_kind_student_shishya/blog/seo.json`:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (शिष्य के तीन प्रकार / three types of disciples, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no mismatch left: the searched wording is the focus keyword and is now in the `_seo` texts; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro, both languages)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Nachiketa is a tag only here so far, but three blogs discuss him)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Nachiketa boons passage presents pitru dosha and Shri Vidya as the Katha Upanishad's boons, flag 1; the Hindi meaning of Gita 2.47 is off, flag 2. These need the Sanskrit review's corrections in the original blog, beyond an SEO edit)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
