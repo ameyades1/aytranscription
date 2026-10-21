@@ -26,6 +26,8 @@ A short teaching (about two minutes of video) on why **community (समाज)*
 | daivi sampatti kya hai | Hinglish | Informational | Medium |
 | acharya upendra ji power of collectivity | English | Navigational | Low |
 
+Keyword note: the focus keywords "समाज की शक्ति" / "power of community" are the searched wording. The original blog texts use them only in the H1, which does not count as body text, and neither old meta description contained them. The SEO-fixed texts (`_blog_seo.txt`, `_blog_seo_en.txt`) now use each one once, in a short direct answer within the first 100 words, and both meta descriptions now contain them. "दैवी संपत्ति क्या है" / "what is daivi sampatti" stays secondary (see section 7, cannibalization).
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -33,18 +35,18 @@ A short teaching (about two minutes of video) on why **community (समाज)*
 2. समाज की शक्ति और दैवी संपत्ति: धन बाद में क्यों आता है
 3. दैवी संपत्ति क्या है? समाज, वाणी और समय का रहस्य
 
-Meta description: जीवन की सब संपदाओं में समाज पहले क्यों आता है? आचार्य उपेंद्र जी बताते हैं कि वाणी समाज को जोड़ती है और दैवी संपत्ति विवादों को बातचीत में सुलझाकर समय बचाती है।
+Meta description **(recommended)**: समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है।
 
-Slug: `/hi/samaj-ki-shakti-daivi-sampatti`
+Slug **(recommended)**: `/hi/samaj-ki-shakti-daivi-sampatti`
 
 **English**
 1. The Power of Community: Why Divine Wealth Comes First **(recommended)**
 2. Power of Community: Daivi Sampatti, Speech and Time
 3. What Is Daivi Sampatti? Community Before Money
 
-Meta description (152 characters): Why does community come before money? Acharya Upendra Ji explains how speech connects people and how divine wealth settles disputes and saves your time.
+Meta description (154 characters) **(recommended)**: What is the power of community? Acharya Upendra Ji explains why community comes before money, how speech connects people and how divine wealth saves time.
 
-Slug: `/en/power-of-community-divine-wealth`
+Slug **(recommended)**: `/en/power-of-community-divine-wealth`
 
 ## 4. Outline changes
 
@@ -108,7 +110,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{HI_URL}}#article",
       "headline": "समाज की शक्ति और दैवी संपत्ति",
       "alternativeHeadline": "समाज की शक्ति: दैवी संपत्ति से खुलते हैं सारे रास्ते",
-      "description": "जीवन की सब संपदाओं में समाज पहले क्यों आता है? आचार्य उपेंद्र जी बताते हैं कि वाणी समाज को जोड़ती है और दैवी संपत्ति विवादों को बातचीत में सुलझाकर समय बचाती है।",
+      "description": "समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है।",
       "inLanguage": "hi",
       "keywords": ["समाज की शक्ति", "दैवी संपत्ति क्या है", "व्यापार में सफलता के लिए दैवी गुण", "अच्छी वाणी का महत्व"],
       "about": [
@@ -198,7 +200,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{EN_URL}}#article",
       "headline": "The Power of Community and Divine Wealth",
       "alternativeHeadline": "The Power of Community: Why Divine Wealth Comes First",
-      "description": "Why does community come before money? Acharya Upendra Ji explains how speech connects people and how divine wealth settles disputes and saves your time.",
+      "description": "What is the power of community? Acharya Upendra Ji explains why community comes before money, how speech connects people and how divine wealth saves time.",
       "inLanguage": "en",
       "keywords": ["power of community", "what is daivi sampatti", "divine qualities for success in business", "importance of good communication"],
       "about": [
@@ -276,7 +278,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/samaj-ki-shakti-daivi-sampatti/`, `/en/power-of-community-divine-wealth/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema.
 
@@ -375,7 +377,7 @@ The values written to `output/power_of_collectivity/blog/seo.json`:
         "व्यापार में सफलता के लिए दैवी गुण",
         "अच्छी वाणी का महत्व"
       ],
-      "meta_description": "जीवन की सब संपदाओं में समाज पहले क्यों आता है? आचार्य उपेंद्र जी बताते हैं कि वाणी समाज को जोड़ती है और दैवी संपत्ति विवादों को बातचीत में सुलझाकर समय बचाती है।",
+      "meta_description": "समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है।",
       "tags": [
         "दैवी संपत्ति",
         "पुरुषार्थ",
@@ -390,7 +392,7 @@ The values written to `output/power_of_collectivity/blog/seo.json`:
         "divine qualities for success in business",
         "importance of good communication"
       ],
-      "meta_description": "Why does community come before money? Acharya Upendra Ji explains how speech connects people and how divine wealth settles disputes and saves your time.",
+      "meta_description": "What is the power of community? Acharya Upendra Ji explains why community comes before money, how speech connects people and how divine wealth saves time.",
       "tags": [
         "Daivi Sampatti",
         "Purusharthas",
@@ -400,3 +402,73 @@ The values written to `output/power_of_collectivity/blog/seo.json`:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (SEO-fixed texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred; in the SEO-fixed texts' direct answer)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "Daivi Sampatti" / "दैवी संपत्ति" is a tag in no other post yet (attain_divine_qualities_empower_spiritual, the natural second post, does not use it); tags are outside the SEO fix, left for the editor
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
