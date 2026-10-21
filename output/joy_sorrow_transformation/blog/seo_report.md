@@ -24,6 +24,8 @@ A 5-minute discourse (YouTube, "How Your Joy Can Turn Into Sorrow – And Your S
 
 No focus keyword overlaps with another talk's. "happiness comes from within" is close to the theme of `do_this_one_thing_achieve_successful_life` ("how to find joy in your work"), but that post is about work; this one stays on the question of chronic unhappiness (see section 7).
 
+Neither focus keyword appeared in the original blog bodies (the Hindi body had only "सुख-दुःख की असली जड़", the English body never asked why some people are always unhappy). The SEO fix (`seo_fix.md`) adds a short direct answer after each intro, so "सुख-दुःख का असली कारण" and "why some people are always unhappy" now appear in the first 100 words of the `_seo` texts; the English meta description now uses the keyword word for word.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -31,18 +33,18 @@ No focus keyword overlaps with another talk's. "happiness comes from within" is 
 2. हमेशा दुखी क्यों रहते हैं कुछ लोग? एक पिता का प्रयोग
 3. गोबर में घोड़ा: सुख और दुःख मन के भीतर हैं
 
-Meta description (154 characters): सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है।
+Meta description (154 characters, recommended): सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है।
 
-Slug: `/hi/sukh-dukh-ka-asli-karan`
+Slug (recommended): `/hi/sukh-dukh-ka-asli-karan`
 
 **English**
 1. Why Some People Are Always Unhappy: Dharana Shakti (recommended, 50 characters)
 2. A Horse in the Dung: Why Joy and Sorrow Begin Within
 3. Two Sons, One Experiment: The Real Root of Unhappiness
 
-Meta description (150 characters): Why are some people always unhappy? Through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.
+Meta description (150 characters, recommended): Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.
 
-Slug: `/en/why-some-people-are-always-unhappy`
+Slug (recommended): `/en/why-some-people-are-always-unhappy`
 
 ## 4. Outline changes
 
@@ -212,7 +214,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "A Horse in the Dung, Tears Among the Toys: The Secret of Dharana Shakti",
       "alternativeHeadline": "Why Some People Are Always Unhappy: Dharana Shakti",
-      "description": "Why are some people always unhappy? Through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.",
+      "description": "Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.",
       "inLanguage": "en",
       "keywords": [
         "why some people are always unhappy",
@@ -422,7 +424,7 @@ The exact values written to `output/joy_sorrow_transformation/blog/seo.json` for
         "positive thinking story",
         "samskaras meaning"
       ],
-      "meta_description": "Why are some people always unhappy? Through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.",
+      "meta_description": "Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti.",
       "tags": [
         "Dharana Shakti",
         "Samskaras",
@@ -432,3 +434,73 @@ The exact values written to `output/joy_sorrow_transformation/blog/seo.json` for
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (सुख-दुःख का असली कारण / why some people are always unhappy, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no mismatch left: the searched wording is the focus keyword and is now in the `_seo` texts; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro, both languages)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the blog quotes no scripture; Sanskrit review issue 1, a non-scriptural misattribution, is left for the editor, see flag 1)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
