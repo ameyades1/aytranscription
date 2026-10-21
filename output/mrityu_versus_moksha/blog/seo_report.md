@@ -28,27 +28,29 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | Pitru Paksha meaning | English | Informational, seasonal | Medium (competitive) |
 | mrityu versus moksha Acharya Upendra Ji | English | Navigational | Low |
 
+Keyword note: the original blog texts did not use either primary keyword in the body (the Hindi intro asks "हमारे पितरों को सच में मुक्ति कौन दे सकता है?", the English one "who can truly set our ancestors free?"). The SEO-fixed texts (`mrityu_versus_moksha_blog_seo.txt`, `mrityu_versus_moksha_blog_seo_en.txt`) now open the direct-answer paragraph with "क्या श्राद्ध से पितरों को मुक्ति मिलती है?" / "Can shraddha liberate ancestors?", within the first 100 words, so the searched wording and the focus keyword are the same in both languages. The H2s "पितरों को मुक्ति कौन दे सकता है?" / "Who Can Liberate Our Ancestors?" carry "पितरों की मुक्ति" / "who can liberate ancestors" wording.
+
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष (recommended)
+1. क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष (recommended; in seo.json)
 2. मृत्यु मुक्ति नहीं है: पितरों को मुक्ति कौन दे सकता है?
 3. पितृ पक्ष का सच्चा अर्थ: मृत्यु और मोक्ष में अंतर
 
-**Hindi meta description**
+**Hindi meta description (recommended; in seo.json)**
 क्या मृत्यु ही मुक्ति है, और क्या श्राद्ध से पितरों को मुक्ति मिलती है? आचार्य उपेंद्र जी बताते हैं कि जीते जी मुक्त व्यक्ति ही पितरों को मुक्ति दे सकता है।
 
 **English title options**
-1. Does Shraddha Free Your Ancestors? Death vs Moksha (recommended)
+1. Can Shraddha Liberate Ancestors? Death vs Moksha (recommended; in seo.json)
 2. Death Is Not Liberation: Who Can Free Your Ancestors?
 3. Pitru Paksha Meaning: Why Death Is Not Moksha
 
-**English meta description (152 characters)**
-Is death the same as moksha, and can shraddha free your ancestors? Acharya Upendra Ji explains why only one liberated while living can grant liberation.
+**English meta description (146 characters, recommended; in seo.json)**
+Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation.
 
-**Slugs**
+**Slugs (recommended; in seo.json)**
 - Hindi: /hi/shraddha-se-pitron-ki-mukti
 - English: /en/can-shraddha-liberate-ancestors
 
@@ -290,8 +292,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Death Is Not Liberation: The True Meaning of Pitru Paksha",
-      "alternativeHeadline": "Does Shraddha Free Your Ancestors? Death vs Moksha",
-      "description": "Is death the same as moksha, and can shraddha free your ancestors? Acharya Upendra Ji explains why only one liberated while living can grant liberation.",
+      "alternativeHeadline": "Can Shraddha Liberate Ancestors? Death vs Moksha",
+      "description": "Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation.",
       "inLanguage": "en",
       "keywords": [
         "can shraddha liberate ancestors",
@@ -474,7 +476,7 @@ The values written to `output/mrityu_versus_moksha/blog/seo.json` (the page gene
 {
   "title": {
     "hi": "क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष",
-    "en": "Does Shraddha Free Your Ancestors? Death vs Moksha"
+    "en": "Can Shraddha Liberate Ancestors? Death vs Moksha"
   },
   "alt": {
     "hero.jpg": {
@@ -568,7 +570,7 @@ The values written to `output/mrityu_versus_moksha/blog/seo.json` (the page gene
         "who can liberate ancestors",
         "Pitru Paksha meaning"
       ],
-      "meta_description": "Is death the same as moksha, and can shraddha free your ancestors? Acharya Upendra Ji explains why only one liberated while living can grant liberation.",
+      "meta_description": "Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation.",
       "tags": [
         "Pitru Paksha",
         "Shraddha",
@@ -580,3 +582,73 @@ The values written to `output/mrityu_versus_moksha/blog/seo.json` (the page gene
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: Sanskrit review issues 1 and 2 (Major: the Vishnu Purana 3.15 reading and the empty blockquote with an unconfirmed verse number) and the Garuda Purana attribution (issue 3) are still in the blog body; they are content corrections for the editor, not SEO fixes (section 10, flags 1–3)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
