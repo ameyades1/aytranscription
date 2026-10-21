@@ -23,6 +23,8 @@ A short, focused teaching on Patanjali's definition of yoga, योगश्च�
 | stop your mind from controlling you | English | Navigational (video title) | Low |
 | Acharya Upendra Ji Yoga Sutra | English | Navigational | Low |
 
+Keyword note: the original blog texts did not contain either focus keyword word for word (the Hindi has only "चित्तवृत्तिनिरोध" and "चित्त की वृत्तियों का निरोध", the English only "chitta-vritti-nirodha" in the last section). The SEO fix (`_blog_seo.txt` / `_blog_seo_en.txt`) adds a short direct answer to each opening that uses "चित्त वृत्ति निरोध का अर्थ" / "chitta vritti nirodha meaning" within the first 100 words, so both focus keywords stay as they are.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,18 @@ A short, focused teaching on Patanjali's definition of yoga, योगश्च�
 2. योगश्चित्तवृत्तिनिरोधः: वृत्ति, प्रवृत्ति और स्थिर मन
 3. मन हर नई चीज़ पर क्यों भटकता है? पतंजलि का योग सूत्र
 
-Meta description: चित्त वृत्ति निरोध क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।
+Meta description (recommended, in seo.json): चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।
 
-Slug: `/hi/chitta-vritti-nirodh-ka-arth`
+Slug (recommended, in seo.json): `/hi/chitta-vritti-nirodh-ka-arth`
 
 **English**
 1. Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering (recommended, 59 characters)
 2. Yoga Sutra 1.2 Explained: Vritti, Pravritti and Steadiness
 3. Why Your Mind Chases Every New Thing: Patanjali's Answer
 
-Meta description (151 characters): What is chitta vritti nirodha? Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.
+Meta description (recommended, in seo.json, 151 characters): Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.
 
-Slug: `/en/chitta-vritti-nirodha-meaning`
+Slug (recommended, in seo.json): `/en/chitta-vritti-nirodha-meaning`
 
 The video title promises "the secret to true focus"; the blog gives the definition and the first step (steadiness), not a focus technique, so the titles above do not promise a method.
 
@@ -124,7 +126,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "हर नई चीज़ पर भटकता मन: वृत्ति, प्रवृत्ति और स्थिरता का योग",
       "alternativeHeadline": "चित्त वृत्ति निरोध का अर्थ: मन बार-बार क्यों बदलता है",
-      "description": "चित्त वृत्ति निरोध क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",
+      "description": "चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",
       "inLanguage": "hi",
       "keywords": ["चित्त वृत्ति निरोध का अर्थ", "योगश्चित्तवृत्तिनिरोधः का अर्थ", "वृत्ति और प्रवृत्ति में अंतर", "मन बार-बार क्यों भटकता है", "पतंजलि योगसूत्र"],
       "about": [
@@ -214,7 +216,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "A Mind That Chases Every New Thing: Vritti, Pravritti and the Yoga of Steadiness",
       "alternativeHeadline": "Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering",
-      "description": "What is chitta vritti nirodha? Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.",
+      "description": "Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.",
       "inLanguage": "en",
       "keywords": ["chitta vritti nirodha meaning", "Yoga Sutra 1.2 meaning", "vritti and pravritti", "why does my mind keep wandering", "Patanjali Yoga Sutras"],
       "about": [
@@ -399,16 +401,86 @@ The exact values written to `output/stop_mind_controlling_unlock_true_focus/blog
       "slug": "chitta-vritti-nirodh-ka-arth",
       "focus_keyword": "चित्त वृत्ति निरोध का अर्थ",
       "secondary_keywords": ["योगश्चित्तवृत्तिनिरोधः का अर्थ", "वृत्ति और प्रवृत्ति में अंतर", "मन बार-बार क्यों भटकता है"],
-      "meta_description": "चित्त वृत्ति निरोध क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",
+      "meta_description": "चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",
       "tags": ["मन पर नियंत्रण", "पतंजलि योगसूत्र", "एकाग्रता", "आदतें"]
     },
     "en": {
       "slug": "chitta-vritti-nirodha-meaning",
       "focus_keyword": "chitta vritti nirodha meaning",
       "secondary_keywords": ["Yoga Sutra 1.2 meaning", "vritti and pravritti", "why does my mind keep wandering"],
-      "meta_description": "What is chitta vritti nirodha? Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.",
+      "meta_description": "Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga.",
       "tags": ["Mastering the Mind", "Patanjali Yoga Sutras", "Focus", "Habits"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "एकाग्रता" / "Focus" and "आदतें" / "Habits" are used by this post only so far
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
