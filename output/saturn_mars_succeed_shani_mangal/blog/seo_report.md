@@ -25,6 +25,8 @@ A short talk built on one question: why does a car have brakes? Acharya Ji's ans
 | speed and control for success | English | Informational | Low |
 | Acharya Upendra Ji Saturn Mars | English | Navigational | Low |
 
+Keyword note: the original body says "मंगल और शनि का संबंध" / "the link between Mars and Saturn", not the focus keywords as written, so the focus keywords failed SureRank's body check. The SEO fix (`_seo` texts) adds a short direct-answer paragraph after the intro that uses "शनि और मंगल का संबंध" (Hindi word 67) and "Saturn and Mars relationship" (English word 73), so both focus keywords are now in the body and the first 100 words; both meta descriptions now contain them too.
+
 Avoid: "Shani Mangal yuti effects", "शनि मंगल दोष उपाय". The talk says nothing about conjunctions, doshas or remedies; targeting them would be fear-selling and would not deliver.
 
 ## 3. Titles and meta
@@ -34,18 +36,18 @@ Hindi
 2. सफलता के लिए शनि और मंगल दोनों क्यों ज़रूरी हैं?
 3. गणपति विघ्नकर्ता भी, विघ्नहर्ता भी: शनि-मंगल का रहस्य
 
-Meta description: सफलता के लिए शनि और मंगल दोनों क्यों ज़रूरी हैं? आचार्य उपेंद्र जी बताते हैं गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। (155 characters)
+Meta description: शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। (149 characters) **recommended**
 
-Slug: /hi/shani-aur-mangal-ka-sambandh
+Slug: /hi/shani-aur-mangal-ka-sambandh **recommended**
 
 English
 1. Saturn and Mars Relationship: Why Brakes Help You Succeed (57 characters) **recommended**
 2. Why You Need Both Saturn and Mars to Succeed
 3. Why Obstacles Help You Succeed: Lessons from Saturn and Mars
 
-Meta description: Why do you need both Saturn and Mars to succeed? Acharya Upendra Ji explains speed and control, the real purpose of brakes, and Ganesha as Vighnakarta. (151 characters)
+Meta description: What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes. (148 characters) **recommended**
 
-Slug: /en/saturn-and-mars-relationship
+Slug: /en/saturn-and-mars-relationship **recommended**
 
 ## 4. Outline changes
 
@@ -110,7 +112,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{HI_URL}}#article",
       "headline": "ब्रेक का असली रहस्य: शनि और मंगल से सीखें जीवन में सफलता",
       "alternativeHeadline": "शनि और मंगल का संबंध: ब्रेक से सीखें सफलता का रहस्य",
-      "description": "सफलता के लिए शनि और मंगल दोनों क्यों ज़रूरी हैं? आचार्य उपेंद्र जी बताते हैं गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ।",
+      "description": "शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ।",
       "inLanguage": "hi",
       "keywords": ["शनि और मंगल का संबंध", "मंगल मकर राशि में उच्च", "गणपति विघ्नकर्ता और विघ्नहर्ता", "जीवन में बाधाओं का महत्व", "सफलता के लिए गति और नियंत्रण"],
       "about": [
@@ -202,7 +204,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
       "@id": "{{EN_URL}}#article",
       "headline": "The Real Secret of Brakes: What Saturn and Mars Teach Us About Success",
       "alternativeHeadline": "Saturn and Mars Relationship: Why Brakes Help You Succeed",
-      "description": "Why do you need both Saturn and Mars to succeed? Acharya Upendra Ji explains speed and control, the real purpose of brakes, and Ganesha as Vighnakarta.",
+      "description": "What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes.",
       "inLanguage": "en",
       "keywords": ["Saturn and Mars relationship", "Mars exalted in Capricorn meaning", "Ganesha Vighnakarta and Vighnaharta", "why obstacles help you succeed", "speed and control for success"],
       "about": [
@@ -282,7 +284,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/shani-aur-mangal-ka-sambandh/`, `/en/saturn-and-mars-relationship/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -361,16 +363,86 @@ The exact seo.json written for the page generator and WordPress:
       "slug": "shani-aur-mangal-ka-sambandh",
       "focus_keyword": "शनि और मंगल का संबंध",
       "secondary_keywords": ["मंगल मकर राशि में उच्च", "गणपति विघ्नकर्ता और विघ्नहर्ता", "जीवन में बाधाओं का महत्व", "सफलता के लिए गति और नियंत्रण"],
-      "meta_description": "सफलता के लिए शनि और मंगल दोनों क्यों ज़रूरी हैं? आचार्य उपेंद्र जी बताते हैं गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ।",
+      "meta_description": "शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ।",
       "tags": ["नवग्रह", "गणेश", "अहंकार"]
     },
     "en": {
       "slug": "saturn-and-mars-relationship",
       "focus_keyword": "Saturn and Mars relationship",
       "secondary_keywords": ["Mars exalted in Capricorn meaning", "Ganesha Vighnakarta and Vighnaharta", "why obstacles help you succeed", "speed and control for success"],
-      "meta_description": "Why do you need both Saturn and Mars to succeed? Acharya Upendra Ji explains speed and control, the real purpose of brakes, and Ganesha as Vighnakarta.",
+      "meta_description": "What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes.",
       "tags": ["Navagraha", "Ganesh", "Ego"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, after the SEO fix)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (`_seo` texts: Hindi word 67, English word 73)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the body's uncited "गणपति के चरित्र में… कहा गया है" is flagged in section 10; no citation added)
+- [x] Health promises, fear-selling and attacks on other traditions flagged (flags 5 and 6)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
