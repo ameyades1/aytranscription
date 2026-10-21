@@ -24,6 +24,8 @@ A short Guru Purnima talk with three teachings: why the Guru's festival falls on
 | Vyasa Purnima | English | Informational / seasonal | Medium |
 | what is a jnani bhakta | English | Informational | Low (already the focus of `know_your_lord_before_worship`; link there instead) |
 
+Keyword note: the original blog texts never use the focus keywords "गुरु पूर्णिमा का आध्यात्मिक अर्थ" / "spiritual meaning of Guru Purnima". The SEO fix (`seo_fix.md`) adds a short direct-answer paragraph after the opening of each `_seo` text that uses them in the first 100 words, and turns two H2s into the searched questions "गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है?" / "Why Is Guru Purnima on the Full Moon?" and "वेदव्यास का असली नाम क्या था?" / "What Was Vedavyasa's Real Name?". The focus keywords and slugs are unchanged; the meta descriptions were rewritten to contain them.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -31,18 +33,18 @@ A short Guru Purnima talk with three teachings: why the Guru's festival falls on
 2. गुरु पूर्णिमा पूर्णिमा को ही क्यों? व्यास का असली अर्थ
 3. गुरु पूर्णिमा का रहस्य | आचार्य उपेंद्र जी
 
-Meta description: गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है? आचार्य उपेंद्र जी बताते हैं सूर्य-चंद्र का प्रतीक, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है।
+Meta description (**recommended**): गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी।
 
-Slug: `/hi/guru-purnima-ka-adhyatmik-arth/`
+Slug (**recommended**): `/hi/guru-purnima-ka-adhyatmik-arth/`
 
 **English**
 1. Spiritual Meaning of Guru Purnima and Who Vyasa Really Was (58 chars) — **recommended**
 2. Why Is Guru Purnima on the Full Moon? The Meaning of Vyasa
 3. The Secret of Guru Purnima | Acharya Upendra Ji
 
-Meta description (152 chars): Why does Guru Purnima fall on the full moon? Acharya Upendra Ji explains the sun-moon symbolism, why Vyasa is a title, and why knowledge needs devotion.
+Meta description (153 chars, **recommended**): Spiritual meaning of Guru Purnima: why it falls on the full moon, why Vyasa is a title, and why knowledge needs devotion, as Acharya Upendra Ji explains.
 
-Slug: `/en/spiritual-meaning-of-guru-purnima/`
+Slug (**recommended**): `/en/spiritual-meaning-of-guru-purnima/`
 
 ## 4. Outline changes
 
@@ -121,7 +123,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "गुरु पूर्णिमा का रहस्य और व्यास का असली अर्थ",
       "alternativeHeadline": "गुरु पूर्णिमा का आध्यात्मिक अर्थ और व्यास का असली अर्थ",
-      "description": "गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है? आचार्य उपेंद्र जी बताते हैं सूर्य-चंद्र का प्रतीक, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है।",
+      "description": "गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी।",
       "inLanguage": "hi",
       "keywords": [
         "गुरु पूर्णिमा का आध्यात्मिक अर्थ",
@@ -220,7 +222,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Secret of Guru Purnima and the Real Meaning of Vyasa",
       "alternativeHeadline": "Spiritual Meaning of Guru Purnima and Who Vyasa Really Was",
-      "description": "Why does Guru Purnima fall on the full moon? Acharya Upendra Ji explains the sun-moon symbolism, why Vyasa is a title, and why knowledge needs devotion.",
+      "description": "Spiritual meaning of Guru Purnima: why it falls on the full moon, why Vyasa is a title, and why knowledge needs devotion, as Acharya Upendra Ji explains.",
       "inLanguage": "en",
       "keywords": [
         "spiritual meaning of Guru Purnima",
@@ -423,7 +425,7 @@ The exact values written to `output/real_meaning_guru/blog/seo.json` for the pag
         "व्यास का अर्थ",
         "व्यास पूर्णिमा"
       ],
-      "meta_description": "गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है? आचार्य उपेंद्र जी बताते हैं सूर्य-चंद्र का प्रतीक, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है।",
+      "meta_description": "गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी।",
       "tags": [
         "गुरु पूर्णिमा",
         "वेदव्यास",
@@ -441,7 +443,7 @@ The exact values written to `output/real_meaning_guru/blog/seo.json` for the pag
         "meaning of Vyasa",
         "Vyasa Purnima"
       ],
-      "meta_description": "Why does Guru Purnima fall on the full moon? Acharya Upendra Ji explains the sun-moon symbolism, why Vyasa is a title, and why knowledge needs devotion.",
+      "meta_description": "Spiritual meaning of Guru Purnima: why it falls on the full moon, why Vyasa is a title, and why knowledge needs devotion, as Acharya Upendra Ji explains.",
       "tags": [
         "Guru Purnima",
         "Vedavyasa",
@@ -453,3 +455,73 @@ The exact values written to `output/real_meaning_guru/blog/seo.json` for the pag
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
