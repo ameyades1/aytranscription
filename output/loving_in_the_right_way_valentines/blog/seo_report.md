@@ -21,6 +21,8 @@ A short Valentine's Day talk with one plain teaching: once love has come, it mus
 | how Krishna expressed love for Radha | English | Informational | Low (claim needs careful framing, see flag 2) |
 | valentine's day spiritual meaning / वैलेंटाइन डे पर प्रेम | Both | Seasonal | Medium in Jan–Feb, Low otherwise |
 
+Keyword note: the searched wordings "प्रेम कैसे जताएं" and "show love through actions" did not appear in the original blog bodies (the Hindi has "श्रीकृष्ण ने कैसे प्रेम जताया" and "प्रेम को कृति में दिखाना"; the English has "love has to show itself in kriti (action)"). The SEO fix adds a short direct answer after the opening of each `_seo` text that uses them word for word, within the first 100 words, so both stay the focus keywords; the meta descriptions now contain them too.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -28,18 +30,18 @@ A short Valentine's Day talk with one plain teaching: once love has come, it mus
 2. क्या "आई लव यू" कहना काफ़ी है? प्रेम कृति में दिखाएं
 3. प्रेम केवल शब्दों में नहीं, कर्म में दिखे | आचार्य उपेंद्र जी
 
-Meta description (147 chars): क्या "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि प्रेम केवल शब्दों से नहीं, कृति से जताया जाता है, जीवनसाथी के साथ भी।
+Meta description (141 chars) — **recommended** (in seo.json, updated by the SEO fix so it contains the focus keyword): प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी।
 
-Slug: `/hi/prem-kaise-jatayen/`
+Slug: `/hi/prem-kaise-jatayen/` — **recommended**
 
 **English**
 1. Show Love Through Actions, Not Just Words | Acharya Ji (54 chars) — **recommended**
 2. Is Saying "I Love You" Enough? Love That Shows in Action
 3. Love Must Show in Action: A Valentine's Day Teaching
 
-Meta description (149 chars): Is saying "I love you" enough? Acharya Upendra Ji explains why love must show in action, from Krishna's gifts to Radha to going along with your wife.
+Meta description (153 chars) — **recommended** (in seo.json, updated by the SEO fix so it contains the focus keyword): Is saying "I love you" enough? Acharya Upendra Ji explains why you must show love through actions, from Krishna's gifts to Radha to going with your wife.
 
-Slug: `/en/show-love-through-actions/`
+Slug: `/en/show-love-through-actions/` — **recommended**
 
 ## 4. Outline changes
 
@@ -112,8 +114,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "प्रेम जो कृति में दिखे",
-      "alternativeHeadline": "प्रेम कैसे जताएं: प्रेम जो कृति में दिखे",
-      "description": "क्या \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि प्रेम केवल शब्दों से नहीं, कृति से जताया जाता है, जीवनसाथी के साथ भी।",
+      "alternativeHeadline": "प्रेम कैसे जताएं: प्रेम जो कृति में दिखे | आचार्य जी",
+      "description": "प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी।",
       "inLanguage": "hi",
       "keywords": [
         "प्रेम कैसे जताएं",
@@ -210,8 +212,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Love That Shows in Action",
-      "alternativeHeadline": "Show Love Through Actions, Not Just Words",
-      "description": "Is saying \"I love you\" enough? Acharya Upendra Ji explains why love must show in action, from Krishna's gifts to Radha to going along with your wife.",
+      "alternativeHeadline": "Show Love Through Actions, Not Just Words | Acharya Ji",
+      "description": "Is saying \"I love you\" enough? Acharya Upendra Ji explains why you must show love through actions, from Krishna's gifts to Radha to going with your wife.",
       "inLanguage": "en",
       "keywords": [
         "show love through actions",
@@ -397,16 +399,86 @@ The exact values written to `output/loving_in_the_right_way_valentines/blog/seo.
       "slug": "prem-kaise-jatayen",
       "focus_keyword": "प्रेम कैसे जताएं",
       "secondary_keywords": ["सच्चा प्रेम क्या है", "प्रेम कर्म में दिखता है", "पत्नी से प्रेम कैसे जताएं", "pyar kaise jataye"],
-      "meta_description": "क्या \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि प्रेम केवल शब्दों से नहीं, कृति से जताया जाता है, जीवनसाथी के साथ भी।",
+      "meta_description": "प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी।",
       "tags": ["वैलेंटाइन डे", "राधा कृष्ण", "सरस्वती", "विवाह"]
     },
     "en": {
       "slug": "show-love-through-actions",
       "focus_keyword": "show love through actions",
       "secondary_keywords": ["is saying I love you enough", "love in action not words", "how Krishna expressed love for Radha"],
-      "meta_description": "Is saying \"I love you\" enough? Acharya Upendra Ji explains why love must show in action, from Krishna's gifts to Radha to going along with your wife.",
+      "meta_description": "Is saying \"I love you\" enough? Acharya Upendra Ji explains why you must show love through actions, from Krishna's gifts to Radha to going with your wife.",
       "tags": ["Valentine's Day", "Radha Krishna", "Saraswati", "Marriage"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts, which are published)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description (after the SEO fix)
+- [x] In the body text (after the SEO fix: in the direct-answer paragraph of both `_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (after the SEO fix)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
