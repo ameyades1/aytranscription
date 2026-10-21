@@ -20,6 +20,8 @@ A short talk (2 min 13 s video) by Acharya Upendra Ji on ghee as more than food:
 | Vishuddhi chakra and speech | English | Informational | Low |
 | desi ghee in Hinduism | English | Informational | Medium |
 
+Keyword note: the focus keywords "घी का आध्यात्मिक महत्व" and "spiritual significance of ghee" are the searched wording; there is no wording mismatch. The original blog texts did not use them; the `_seo` texts (`ghee_more_than_food_blog_seo.txt`, `ghee_more_than_food_blog_seo_en.txt`, what gets published) now use each once, in a short direct answer at the end of the opening section, within the first 100 words.
+
 ## 3. Titles and meta
 
 Hindi
@@ -221,7 +223,7 @@ English
 }
 ```
 
-WordPress SEO plugin mapping: the plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and WebPage itself from the title, meta description, featured image, author and publish/modified dates. Enter by hand: focus keyword, SEO title and meta description (from seo.json), the Organization logo and social profiles (once, in plugin settings), the author profile for Acharya Ji, `alternativeHeadline`, `about`, the VideoObject (via the plugin's video schema or a custom schema block) and the translation links (`translationOfWork` / `workTranslation`, plus hreflang via the multilingual plugin). Replace every `{{PLACEHOLDER}}` with the live URLs.
+WordPress SEO plugin mapping: the plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and WebPage itself from the title, meta description, featured image, author and publish/modified dates. Enter by hand: focus keyword, SEO title and meta description (from seo.json), the Organization logo and social profiles (once, in plugin settings), the author profile for Acharya Ji, `alternativeHeadline`, `about`, the VideoObject (via the plugin's video schema or a custom schema block) and the translation links (`translationOfWork` / `workTranslation`, plus hreflang via the multilingual plugin). Replace every `{{PLACEHOLDER}}` with the live URLs. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs: `/hi/ghee-ka-adhyatmik-mahatva/`, `/en/spiritual-significance-of-ghee/`).
 
 ## 9. Images
 
@@ -350,3 +352,73 @@ The exact values written to `output/ghee_more_than_food/blog/seo.json`.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, which are what gets published; the original texts did not use it, see section 2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (no other searched wording; the focus keywords are the searched wording)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (`_seo` texts)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer at the end of the opening section of the `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2) (two H2s per language are already natural questions)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Khadgamala line is presented as the Vishuddhi chakra's goddess, flag 1; fixing it changes the scripture passage and its introduction, which the SEO fix may not do; left to the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
