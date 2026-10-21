@@ -25,6 +25,8 @@ A short discourse (3:35, Ganesh Series episode 19) in which Acharya Upendra Ji a
 
 Note: "how to see God in everyone" / "सब में भगवान कैसे देखें" and "equal vision" are left to `see_lord_everyone_but_treat_merit`, whose whole post is about that question (see section 7).
 
+Keyword match: the original blog bodies use only the H1 wording "शत्रु में भी भगवान को कैसे देखें" / "How to See God Even in Your Enemy", which does not match the focus keywords exactly. The SEO fix (`see_god_even_enemy_blog_seo.txt`, `_blog_seo_en.txt`, see `seo_fix.md`) adds a direct-answer paragraph that uses "शत्रु में भगवान कैसे देखें" and "how to see God in your enemy" in the first 100 words, so both focus keywords are now in the published body text.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -32,18 +34,18 @@ Note: "how to see God in everyone" / "सब में भगवान कैस
 2. शत्रु में भी भगवान: साक्षी भाव और सर्वत्र भगवत् बुद्धि (54)
 3. वाल्या का वाल्मीकि: शत्रु में भगवान देखने की कला (47)
 
-Meta description (151): क्या शत्रु में भी भगवान दिख सकता है? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।
+Meta description (142) — **recommended**: शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।
 
-Slug: `/hi/shatru-mein-bhagwan-kaise-dekhen`
+Slug — **recommended**: `/hi/shatru-mein-bhagwan-kaise-dekhen`
 
 **English**
 1. How to See God in Your Enemy: Hate the Sin, Not the Sinner (58 characters) — **recommended**
 2. Seeing God in Your Enemy: Sakshi Bhava and Fighting Without Hate (64, too long for a title tag; usable as an OG title)
 3. Valya Can Become Valmiki: Seeing God Even in Your Enemy (55)
 
-Meta description (153): Can you see God even in your enemy? Acharya Upendra Ji explains sakshi bhava, how to fight without hatred, and why the bandit Valya could become Valmiki.
+Meta description (149) — **recommended**: Learn how to see God in your enemy: Acharya Upendra Ji explains sakshi bhava, fighting without hatred, and why the bandit Valya could become Valmiki.
 
-Slug: `/en/see-god-in-your-enemy`
+Slug — **recommended**: `/en/how-to-see-god-in-your-enemy` (was `/en/see-god-in-your-enemy`; the focus keyword must be in the English slug)
 
 The H1s in the blog text stay unchanged; the titles above are for the `<title>` tag only.
 
@@ -93,7 +95,7 @@ The FAQ stays in this report (and FAQPage schema, if used later); it is not adde
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-09-09, duration 215 s (PT3M35S), title "Can You See God Even in Your Enemy? | Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing.
+For later use in WordPress; not added to the page. URL slugs: `/hi/shatru-mein-bhagwan-kaise-dekhen`, `/en/how-to-see-god-in-your-enemy`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-09-09, duration 215 s (PT3M35S), title "Can You See God Even in Your Enemy? | Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing.
 
 **Hindi**
 
@@ -106,7 +108,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{HI_POST_URL}}#article",
       "headline": "शत्रु में भगवान को कैसे देखें",
       "alternativeHeadline": "शत्रु में भगवान कैसे देखें: पाप से घृणा, पापी से नहीं",
-      "description": "क्या शत्रु में भी भगवान दिख सकता है? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।",
+      "description": "शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।",
       "inLanguage": "hi",
       "keywords": "शत्रु में भगवान कैसे देखें, पाप से घृणा करो पापी से नहीं, साक्षी भाव क्या है, सर्वत्र भगवत् बुद्धि, वाल्या से वाल्मीकि",
       "about": [
@@ -228,7 +230,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_POST_URL}}#article",
       "headline": "How to See God Even in Your Enemy",
       "alternativeHeadline": "How to See God in Your Enemy: Hate the Sin, Not the Sinner",
-      "description": "Can you see God even in your enemy? Acharya Upendra Ji explains sakshi bhava, how to fight without hatred, and why the bandit Valya could become Valmiki.",
+      "description": "Learn how to see God in your enemy: Acharya Upendra Ji explains sakshi bhava, fighting without hatred, and why the bandit Valya could become Valmiki.",
       "inLanguage": "en",
       "keywords": "how to see God in your enemy, hate the sin not the sinner, what is sakshi bhava, how Valya became Valmiki, fight without hatred",
       "about": [
@@ -446,7 +448,7 @@ The exact values written to `output/see_god_even_enemy/blog/seo.json` for the pa
         "सर्वत्र भगवत् बुद्धि",
         "वाल्या से वाल्मीकि"
       ],
-      "meta_description": "क्या शत्रु में भी भगवान दिख सकता है? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।",
+      "meta_description": "शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।",
       "tags": [
         "गणेश सीरीज़",
         "साक्षी भाव",
@@ -456,7 +458,7 @@ The exact values written to `output/see_god_even_enemy/blog/seo.json` for the pa
       ]
     },
     "en": {
-      "slug": "see-god-in-your-enemy",
+      "slug": "how-to-see-god-in-your-enemy",
       "focus_keyword": "how to see God in your enemy",
       "secondary_keywords": [
         "hate the sin not the sinner",
@@ -464,7 +466,7 @@ The exact values written to `output/see_god_even_enemy/blog/seo.json` for the pa
         "how Valya became Valmiki",
         "fight without hatred"
       ],
-      "meta_description": "Can you see God even in your enemy? Acharya Upendra Ji explains sakshi bhava, how to fight without hatred, and why the bandit Valya could become Valmiki.",
+      "meta_description": "Learn how to see God in your enemy: Acharya Upendra Ji explains sakshi bhava, fighting without hatred, and why the bandit Valya could become Valmiki.",
       "tags": [
         "Ganesh Series",
         "Sakshi Bhava",
@@ -476,3 +478,73 @@ The exact values written to `output/see_god_even_enemy/blog/seo.json` for the pa
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (in the `_seo` texts, via the direct-answer paragraph)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims — the Valya-to-Valmiki story is stated as plain fact and the half Shanti Mantra is not marked as a part (flags 1, 2); the wording fixes change the blog text beyond SEO and are left to the editor
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
