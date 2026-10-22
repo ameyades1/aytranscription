@@ -16,8 +16,8 @@ The talk answers one question that many families ask around Pitru Paksha: if som
 | जीते जी माता-पिता की सेवा | Hindi | Emotional / life | Medium |
 | मातृदेवो भव पितृदेवो भव का अर्थ | Hindi | Informational | Medium |
 | बाद में श्राद्ध करने से लाभ | Hindi | Emotional / practical | Medium |
-| pitru rin meaning (focus) | English | Informational | High |
-| what is pitru rin | English | Informational | High |
+| what is pitru rin (focus) | English | Informational | High |
+| pitru rin meaning | English | Informational | High |
 | how to repay pitru rin | English | Practical | High |
 | serving parents while they are alive | English | Emotional / life | Medium |
 | matru devo bhava meaning | English | Informational | Medium |
@@ -26,27 +26,29 @@ The talk answers one question that many families ask around Pitru Paksha: if som
 | mata pita ki seva ka mahatva | Hinglish | Emotional | Low |
 | Acharya Upendra Ji pitru rin | English / Hinglish | Navigational | Low |
 
+Keyword note: neither focus keyword was in the original blog bodies ("पितृ ऋण का अर्थ" appears nowhere; the English body never says "pitru rin meaning", and "पितृ ऋण" / "pitru rin" first appears only in the sixth section). The SEO copies (`true_meaning_pitru_rin_blog_seo.txt`, `true_meaning_pitru_rin_blog_seo_en.txt`) add a direct-answer paragraph after the intro that opens with "पितृ ऋण का अर्थ क्या है?" / "What is pitru rin?", so both focus keywords are now in the first 100 words. "pitru rin meaning" cannot be worked into natural English word order, so the English focus keyword is now "what is pitru rin" (equally searched) and "pitru rin meaning" moved to the secondary keywords.
+
 Seasonal: refresh both posts by mid-August each year, 4–6 weeks before Pitru Paksha (Bhadrapada Purnima to Sarvapitri Amavasya).
 
 ## 3. Titles and meta
 
 **Hindi**
-1. पितृ ऋण का सच्चा अर्थ: श्राद्ध से पहले माता-पिता की सेवा (56) **(recommended)**
+1. पितृ ऋण का अर्थ: श्राद्ध से पहले माता-पिता की सेवा (50) **(recommended)**
 2. पितृ ऋण क्या है? जीते जी माता-पिता को आनंद दें
 3. पितृ ऋण कैसे चुकाएं: मातृदेवो भव, पितृदेवो भव
 
-Meta description: पितृ ऋण का सच्चा अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।
+Meta description (recommended): पितृ ऋण का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।
 
-Slug: `/hi/pitru-rin-ka-sachcha-arth`
+Slug (recommended): `/hi/pitru-rin-ka-sachcha-arth`
 
 **English**
-1. Pitru Rin Meaning: Serve Your Parents While They Are Alive (58) **(recommended)**
-2. What Is Pitru Rin? Repaying the Debt to Your Parents
+1. What Is Pitru Rin? Serve Your Parents While They Are Alive (58) **(recommended)**
+2. Pitru Rin Meaning: Serve Your Parents While They Are Alive
 3. How to Repay Pitru Rin: Be Your Parents' Joy, Not Just Support
 
-Meta description (149 characters): What does pitru rin truly mean? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they live.
+Meta description (recommended, 141 characters): What is pitru rin? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they are alive.
 
-Slug: `/en/pitru-rin-meaning`
+Slug (recommended): `/en/what-is-pitru-rin`
 
 ## 4. Outline changes
 
@@ -103,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-rin-ka-sachcha-arth/`, `/en/pitru-rin-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-rin-ka-sachcha-arth/`, `/en/what-is-pitru-rin/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -120,8 +122,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "पितृ ऋण का सच्चा अर्थ: श्राद्ध से पहले सेवा",
-      "alternativeHeadline": "पितृ ऋण का सच्चा अर्थ: श्राद्ध से पहले माता-पिता की सेवा",
-      "description": "पितृ ऋण का सच्चा अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।",
+      "alternativeHeadline": "पितृ ऋण का अर्थ: श्राद्ध से पहले माता-पिता की सेवा",
+      "description": "पितृ ऋण का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।",
       "inLanguage": "hi",
       "keywords": ["पितृ ऋण का अर्थ", "पितृ ऋण कैसे चुकाएं", "जीते जी माता-पिता की सेवा", "मातृदेवो भव पितृदेवो भव का अर्थ", "बाद में श्राद्ध करने से लाभ"],
       "about": [
@@ -210,10 +212,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The True Meaning of Pitru Rin: Service Before Shraddha",
-      "alternativeHeadline": "Pitru Rin Meaning: Serve Your Parents While They Are Alive",
-      "description": "What does pitru rin truly mean? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they live.",
+      "alternativeHeadline": "What Is Pitru Rin? Serve Your Parents While They Are Alive",
+      "description": "What is pitru rin? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they are alive.",
       "inLanguage": "en",
-      "keywords": ["pitru rin meaning", "how to repay pitru rin", "serving parents while they are alive", "matru devo bhava meaning", "shraddha after neglecting parents"],
+      "keywords": ["what is pitru rin", "pitru rin meaning", "how to repay pitru rin", "serving parents while they are alive", "shraddha after neglecting parents"],
       "about": [
         { "@type": "Thing", "name": "Pitru Rin" },
         { "@type": "Thing", "name": "Shraddha" },
@@ -334,8 +336,8 @@ The values written to output/true_meaning_pitru_rin/blog/seo.json for the page g
 ```json
 {
   "title": {
-    "hi": "पितृ ऋण का सच्चा अर्थ: श्राद्ध से पहले माता-पिता की सेवा",
-    "en": "Pitru Rin Meaning: Serve Your Parents While They Are Alive"
+    "hi": "पितृ ऋण का अर्थ: श्राद्ध से पहले माता-पिता की सेवा",
+    "en": "What Is Pitru Rin? Serve Your Parents While They Are Alive"
   },
   "alt": {
     "hero.jpg": {
@@ -406,7 +408,7 @@ The values written to output/true_meaning_pitru_rin/blog/seo.json for the page g
         "मातृदेवो भव पितृदेवो भव का अर्थ",
         "बाद में श्राद्ध करने से लाभ"
       ],
-      "meta_description": "पितृ ऋण का सच्चा अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।",
+      "meta_description": "पितृ ऋण का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।",
       "tags": [
         "पितृ ऋण",
         "श्राद्ध",
@@ -416,15 +418,15 @@ The values written to output/true_meaning_pitru_rin/blog/seo.json for the page g
       ]
     },
     "en": {
-      "slug": "pitru-rin-meaning",
-      "focus_keyword": "pitru rin meaning",
+      "slug": "what-is-pitru-rin",
+      "focus_keyword": "what is pitru rin",
       "secondary_keywords": [
+        "pitru rin meaning",
         "how to repay pitru rin",
         "serving parents while they are alive",
-        "matru devo bhava meaning",
         "shraddha after neglecting parents"
       ],
-      "meta_description": "What does pitru rin truly mean? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they live.",
+      "meta_description": "What is pitru rin? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they are alive.",
       "tags": [
         "Pitru Rin",
         "Shraddha",
@@ -436,3 +438,75 @@ The values written to output/true_meaning_pitru_rin/blog/seo.json for the page g
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked for the SEO copies (`true_meaning_pitru_rin_blog_seo.txt`, `true_meaning_pitru_rin_blog_seo_en.txt`), which are what gets published.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [ ] No broad labels that only restate a category (the tags "Ancestors" / "पितर" and "Shraddha" / "श्राद्ध" restate the category "Ancestors & Shraddha" / "पितृ और श्राद्ध"; a tag choice, not something the blog text can fix)
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims ("शास्त्र कहता है" / "the scriptures say" for the shraddha exemption, "pitar yoni" and "forever free", Sanskrit review issues 1, 2 and 8, flags 1, 2 and 5; content corrections for the editor, left untouched in the SEO copies)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
