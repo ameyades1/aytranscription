@@ -11,15 +11,15 @@ The talk answers "When will the Kalki avatar come?" by going back to the definit
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| कल्कि अवतार (focus) | Hindi | Informational | High |
-| कल्कि अवतार कब आएगा | Hindi | Informational | High |
+| कल्कि अवतार कब आएगा (focus) | Hindi | Informational | High |
+| कल्कि अवतार | Hindi | Informational | High |
 | kalki avatar kab aayega | Hinglish | Informational | High |
 | अवतार की परिभाषा | Hindi | Informational | Medium |
 | चार प्रकार की मुक्ति | Hindi | Informational | Medium |
 | यदा यदा हि धर्मस्य अर्थ | Hindi | Informational (verse) | Medium |
 | सालोक्य सामीप्य सारूप्य सायुज्य | Hindi | Informational | Low |
-| Kalki avatar (focus) | English | Informational | High |
-| when will Kalki avatar come | English | Informational | High |
+| when will Kalki avatar come (focus) | English | Informational | High |
+| Kalki avatar | English | Informational | High |
 | what is an avatar in the Bhagavad Gita | English | Informational | Medium |
 | yada yada hi dharmasya meaning | English | Informational (verse) | Medium |
 | four types of mukti | English | Informational | Medium |
@@ -27,30 +27,29 @@ The talk answers "When will the Kalki avatar come?" by going back to the definit
 | Hanuman dvaita vishishtadvaita advaita | English | Informational | Low |
 
 Notes:
-- Focus keywords are taken from the body wording. Hindi "कल्कि अवतार" appears in the first paragraph and twice more; English "Kalki avatar" appears in the first paragraph ("the **Kalki** avatar") and in "that same Kalki avatar".
-- Mismatch: the searched question "कल्कि अवतार कब आएगा" / "when will Kalki avatar come" is only in the H1, not in the body, so it cannot be the focus keyword (SureRank does not count the H1). It is in `secondary_keywords`. If the editor wants it as the focus keyword later, the question would need to appear once in a body sentence (for example in the second paragraph).
+- Focus keywords: the searched question "कल्कि अवतार कब आएगा" / "when will Kalki avatar come". In the original texts it was only in the H1 (SureRank does not count the H1), so the earlier focus keywords were "कल्कि अवतार" / "Kalki avatar". The SEO fix (`seo_fix.md`) added a short direct-answer paragraph after the first paragraph of the `_seo` texts that opens with the question ("कल्कि अवतार कब आएगा?" / "When will the Kalki avatar come?"), so it is now in the first 100 words of the body and is the focus keyword. "कल्कि अवतार" / "Kalki avatar" moved to `secondary_keywords`.
 - "four types of mukti": the English body says "the four kinds of **mukti**", which SureRank would not match as written; it is a secondary keyword only.
 - No date or prophecy keywords ("kalki avatar 2025", "kalki born where") are targeted: the talk does not answer them, and targeting them would be clickbait.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर (45 characters, recommended)
+1. कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर (45 characters, recommended, in seo.json)
 2. कल्कि अवतार कब आएगा? भीतर का कल्कि जागे तब
 3. कल्कि अवतार और अवतार की सच्ची परिभाषा: भगवद्गीता
 
-Meta description (140 characters): कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।
+Meta description (140 characters, recommended, in seo.json): कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।
 
-Slug: `/hi/kalki-avatar-kab-aayega`
+Slug (recommended, in seo.json): `/hi/kalki-avatar-kab-aayega`
 
 **English**
-1. When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says (54 characters, recommended)
+1. When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says (54 characters, recommended, in seo.json)
 2. Kalki Avatar: Why the Gita Never Asks You to Wait
 3. Kalki Avatar Within: The Gita's True Definition of Avatar
 
-Meta description (146 characters): When will the Kalki avatar come? Acharya Upendra Ji explains Gita 4.7 to 4.9: why waiting is not the answer, and how the Kalki within you awakens.
+Meta description (146 characters, recommended, in seo.json): When will the Kalki avatar come? Acharya Upendra Ji explains Gita 4.7 to 4.9: why waiting is not the answer, and how the Kalki within you awakens.
 
-Slug: `/en/when-will-kalki-avatar-come`
+Slug (recommended, in seo.json): `/en/when-will-kalki-avatar-come`
 
 ## 4. Outline changes
 
@@ -121,12 +120,12 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{HI_POST_URL}}#article",
+      "@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/#article",
       "headline": "कल्कि अवतार कब आएगा",
       "alternativeHeadline": "कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर",
       "description": "कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।",
       "inLanguage": "hi",
-      "keywords": ["कल्कि अवतार", "कल्कि अवतार कब आएगा", "अवतार की परिभाषा", "चार प्रकार की मुक्ति", "kalki avatar kab aayega"],
+      "keywords": ["कल्कि अवतार कब आएगा", "कल्कि अवतार", "अवतार की परिभाषा", "चार प्रकार की मुक्ति", "kalki avatar kab aayega"],
       "about": [
         {"@type": "Thing", "name": "कल्कि अवतार"},
         {"@type": "Thing", "name": "श्रीमद्भगवद्गीता अध्याय ४"},
@@ -137,9 +136,9 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{HI_POST_URL}}"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/"},
       "video": {"@id": "https://www.youtube.com/watch?v=v7qix63fi6o#video"},
-      "workTranslation": {"@id": "{{EN_POST_URL}}#article"}
+      "workTranslation": {"@id": "{{SITE_URL}}/en/when-will-kalki-avatar-come/#article"}
     },
     {
       "@type": "Person",
@@ -174,7 +173,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{HI_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "धर्म और शास्त्र", "item": "{{HI_CATEGORY_DHARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "कल्कि अवतार कब आएगा", "item": "{{HI_POST_URL}}"}
+        {"@type": "ListItem", "position": 4, "name": "कल्कि अवतार कब आएगा", "item": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/"}
       ]
     }
   ]
@@ -188,12 +187,12 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{EN_POST_URL}}#article",
+      "@id": "{{SITE_URL}}/en/when-will-kalki-avatar-come/#article",
       "headline": "When Will the Kalki Avatar Come?",
       "alternativeHeadline": "When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says",
       "description": "When will the Kalki avatar come? Acharya Upendra Ji explains Gita 4.7 to 4.9: why waiting is not the answer, and how the Kalki within you awakens.",
       "inLanguage": "en",
-      "keywords": ["Kalki avatar", "when will Kalki avatar come", "what is an avatar in the Bhagavad Gita", "four types of mukti", "yada yada hi dharmasya meaning"],
+      "keywords": ["when will Kalki avatar come", "Kalki avatar", "what is an avatar in the Bhagavad Gita", "four types of mukti", "yada yada hi dharmasya meaning"],
       "about": [
         {"@type": "Thing", "name": "Kalki avatar"},
         {"@type": "Thing", "name": "Bhagavad Gita chapter 4"},
@@ -204,9 +203,9 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{EN_POST_URL}}"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/en/when-will-kalki-avatar-come/"},
       "video": {"@id": "https://www.youtube.com/watch?v=v7qix63fi6o#video"},
-      "translationOfWork": {"@id": "{{HI_POST_URL}}#article"}
+      "translationOfWork": {"@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/#article"}
     },
     {
       "@type": "Person",
@@ -241,7 +240,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{EN_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "Dharma & Scriptures", "item": "{{EN_CATEGORY_DHARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "When Will the Kalki Avatar Come?", "item": "{{EN_POST_URL}}"}
+        {"@type": "ListItem", "position": 4, "name": "When Will the Kalki Avatar Come?", "item": "{{SITE_URL}}/en/when-will-kalki-avatar-come/"}
       ]
     }
   ]
@@ -355,9 +354,9 @@ The exact values written to `output/when_kalki_avatar_come/blog/seo.json` for th
     "category": "dharma",
     "hi": {
       "slug": "kalki-avatar-kab-aayega",
-      "focus_keyword": "कल्कि अवतार",
+      "focus_keyword": "कल्कि अवतार कब आएगा",
       "secondary_keywords": [
-        "कल्कि अवतार कब आएगा",
+        "कल्कि अवतार",
         "अवतार की परिभाषा",
         "चार प्रकार की मुक्ति",
         "kalki avatar kab aayega"
@@ -373,9 +372,9 @@ The exact values written to `output/when_kalki_avatar_come/blog/seo.json` for th
     },
     "en": {
       "slug": "when-will-kalki-avatar-come",
-      "focus_keyword": "Kalki avatar",
+      "focus_keyword": "when will Kalki avatar come",
       "secondary_keywords": [
-        "when will Kalki avatar come",
+        "Kalki avatar",
         "what is an avatar in the Bhagavad Gita",
         "four types of mukti",
         "yada yada hi dharmasya meaning"
@@ -409,7 +408,7 @@ The exact values written to `output/when_kalki_avatar_come/blog/seo.json` for th
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [x] Within the first 100 words (preferred)
+- [x] Within the first 100 words (preferred; in the `_seo` texts, through the direct-answer paragraph)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
