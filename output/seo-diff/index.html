@@ -243,10 +243,46 @@ img { max-width: 100%; display: block; }
 .diff .cell.changed.l { background: #fdf3f1; }
 .diff .cell.changed.r { background: #f1f8f1; }
 .diff .cell.gap { background: repeating-linear-gradient(135deg, var(--panel) 0 6px, #f3ebdd 6px 12px); }
-.diff del { background: #f6c9c2; color: #7a1d10; text-decoration: line-through; text-decoration-color: rgba(122,29,16,.5);
+.diff del, .legend del { background: #f6c9c2; color: #7a1d10; text-decoration: line-through; text-decoration-color: rgba(122,29,16,.5);
             border-radius: 3px; }
-.diff ins { background: #c6e8c4; color: #164d14; text-decoration: none; border-radius: 3px; }
+.diff ins, .legend ins { background: #c6e8c4; color: #164d14; text-decoration: none; border-radius: 3px; }
 .diff.only .same { display: none; }
+.panel { margin: 1.2rem 0 0; border: 1px solid var(--rule); border-radius: .8rem; background: var(--paper); }
+.panel > summary { cursor: pointer; padding: .8rem 1rem; font-family: var(--serif); font-weight: 600; font-size: 1.05rem;
+                   color: var(--ink-strong); }
+.panel > .in { padding: 0 1rem 1rem; overflow-x: auto; }
+.panel .missing { color: var(--muted); font-size: .9rem; }
+.kv { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.kv th, .kv td { text-align: left; vertical-align: top; padding: .55rem .7rem; border-top: 1px solid var(--rule); line-height: 1.6; }
+.kv th { width: 11rem; color: var(--muted); font-weight: 600; white-space: nowrap; }
+.kv a { color: var(--accent); }
+.kv .len { margin-left: .5rem; font-size: .78rem; color: var(--muted); white-space: nowrap; }
+.kv .len.over { color: #9a5b00; font-weight: 600; }
+.kv .sub { display: block; color: var(--muted); font-size: .85rem; }
+.pill { display: inline-block; margin: 0 .3rem .3rem 0; padding: .1rem .6rem; border-radius: 999px; background: var(--panel);
+        border: 1px solid var(--rule); font-size: .85rem; }
+.md table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: .4rem 0 .8rem; }
+.md th, .md td { text-align: left; vertical-align: top; padding: .5rem .6rem; border: 1px solid var(--rule); line-height: 1.6; }
+.md th { background: var(--panel); color: var(--ink-strong); }
+.md code { font-size: .85em; background: var(--panel); padding: 0 .25rem; border-radius: 3px; }
+.md p, .md ul { margin: .5rem 0; line-height: 1.65; font-size: .92rem; }
+.changes tbody tr { cursor: pointer; }
+.changes tbody tr:hover td { background: #fbf6ec; }
+.md details { border-top: 1px solid var(--rule); padding: .5rem 0; }
+.md details summary { cursor: pointer; font-weight: 600; color: var(--ink-strong); }
+.legend { text-align: center; font-size: .82rem; color: var(--muted); margin: -.4rem 0 .9rem; }
+.legend span { margin: 0 .5rem; }
+.why { display: block; margin-top: .5rem; padding: .4rem .6rem; border-left: 3px solid var(--gold); background: var(--panel);
+       font-size: .82rem; line-height: 1.55; color: var(--muted); white-space: normal; }
+.why b { color: var(--ink-strong); }
+mark.kw { background: none; color: inherit; text-decoration: underline; text-decoration-color: var(--gold);
+          text-decoration-thickness: 3px; text-underline-offset: 3px; }
+.diff .cell.flash { animation: flash 1.6s ease-out; }
+@keyframes flash { from { box-shadow: inset 0 0 0 3px var(--gold); } to { box-shadow: inset 0 0 0 3px transparent; } }
+@media (max-width: 760px) {
+  .kv th, .kv td { display: block; width: auto; border-top: 0; padding: .2rem .2rem; }
+  .kv tr { display: block; border-top: 1px solid var(--rule); padding: .4rem 0; }
+}
 .note { text-align: center; color: var(--muted); padding: 3rem 1rem; }
 @media (max-width: 760px) {
   .diff { grid-template-columns: 1fr; }
@@ -269,7 +305,7 @@ img { max-width: 100%; display: block; }
   <div class="label">The Wisdom Library</div>
   <h1>Original vs SEO-Optimized</h1>
   <div class="orn">❖</div>
-  <p class="sub">Compare the original text of each of 146 blogs with its SEO-optimized version. Removed words are marked in red, added words in green.</p>
+  <p class="sub">Compare the original text of each of 146 blogs with its SEO-optimized version. Removed words are marked in red, added words in green, with the SEO details and the reason for each change.</p>
 </div></section>
 
 <section class="picker"><div class="wrap">
@@ -279,7 +315,10 @@ img { max-width: 100%; display: block; }
 </div></section>
 
 <main class="wrap">
+  <details class="panel" id="p-details" open><summary>SEO details</summary><div class="in" id="details"></div></details>
+  <details class="panel" id="p-fix" open><summary>What the SEO fix changed</summary><div class="in" id="fix"></div></details>
   <p class="stats"></p>
+  <p class="legend"><span><del>removed</del></span><span><ins>added</ins></span><span><mark class="kw">focus keyword</mark></span></p>
   <div class="diff" id="out"></div>
 </main>
 
@@ -299,30 +338,129 @@ img { max-width: 100%; display: block; }
   <div class="legal"><span>© 2026 Antar Yog Foundation</span>
     <nav><a href="https://antaryogfoundation.in/privacy">Privacy Policy</a><a href="https://antaryogfoundation.in/terms">Terms</a></nav></div>
 </div></footer>
+<script type="application/json" id="data">{"titles": {"hardcore_non_vegetarian_awakening": {"en": "A Challenge for Meat Eaters: Eat Yourself First", "hi": "मांसाहार क्यों नहीं करना चाहिए? खुद को खाकर दिखाओ"}, "non_veg_food_remains_body_truths": {"en": "Are Humans Meant to Eat Meat? What Your Gut Reveals", "hi": "क्या मनुष्य का शरीर मांसाहार के लिए बना है?"}, "being_presence_guru_changes_way_think": {"en": "Being in the Presence of a Guru: How It Changes You", "hi": "गुरु सान्निध्य का अनुभव: सोचने का ढंग कैसे बदला"}, "hidden_power_of_positivity": {"en": "Bhadram Karnebhih Meaning: The Hidden Power of Positivity", "hi": "भद्रं कर्णेभिः मंत्र का अर्थ: शुभ सुनो, शुभ देखो"}, "life_boomerang_before_react": {"en": "Bhagavad Gita 4.11 Meaning: Does God Take Revenge?", "hi": "ये यथा मां प्रपद्यन्ते का अर्थ: क्या भगवान बदला लेते हैं?"}, "why_blind_love_is_dangerous": {"en": "Blind Compassion: Why Blind Love Is Dangerous", "hi": "पुत्र मोह और अंधा प्रेम क्यों खतरनाक है"}, "mrityu_versus_moksha": {"en": "Can Shraddha Liberate Ancestors? Death vs Moksha", "hi": "क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष"}, "women_have_right_perform_shraddha_pind": {"en": "Can Women Perform Shraddha? What the Scriptures Say", "hi": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं"}, "chanting_om_final_breath_liberation": {"en": "Chanting Om at the Time of Death: Is It Enough for Moksha?", "hi": "अंतिम समय में ॐ का जाप: क्या इससे मोक्ष मिलता है?"}, "stop_mind_controlling_unlock_true_focus": {"en": "Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering", "hi": "चित्त वृत्ति निरोध का अर्थ: मन बार-बार क्यों बदलता है"}, "punya_vs_paap": {"en": "Difference Between Sin and Virtue: The Three Gunas", "hi": "पाप और पुण्य में अंतर क्या है? सत्त्व, रज और तम"}, "difference_ved_vedant": {"en": "Difference Between Veda and Vedanta: Knowing, Not a Book", "hi": "वेद और वेदांत में अंतर: वेद किताब नहीं, जानने की यात्रा"}, "attain_divine_qualities_empower_spiritual": {"en": "Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16)", "hi": "दैवी संपत्ति: लक्ष्मी पूजन का असली अर्थ (गीता १६)"}, "unlock_divine_energy_durga_saptashati_mantra": {"en": "Durga Saptashati Beej Mantra: Sadhana in a Capsule", "hi": "दुर्गा सप्तशती बीज मंत्र: कैप्सूल जैसी साधना"}, "gita_escape_cycle_of_rebirth": {"en": "Escape the Cycle of Rebirth: Gita 7.29 on the Old Mind", "hi": "जरा-मरण से मुक्ति: गीता 7.29 और बूढ़े मन का बंधन"}, "evolution_of_dharma_sanatan_dharma": {"en": "Evolution of Sanatan Dharma: From Praise to Self-Knowledge", "hi": "सनातन धर्म का विकास: स्तुति से आत्मज्ञान तक की यात्रा"}, "take_so_long_fulfil_desires": {"en": "Fear of Sin and the Knot in the Heart: Beyond Ritual", "hi": "पाप का डर और हृदय ग्रंथि: पूजा-पाठ से आगे का रास्ता"}, "radha_krishna_divine_secret": {"en": "Gopika Vallabha Meaning: Radha and Krishna Swap Roles", "hi": "गोपिका वल्लभ का अर्थ: जब राधा-कृष्ण ने भूमिकाएं बदलीं"}, "physical_mental_strength_spiritual_path": {"en": "Health on the Spiritual Path: From Illness to Liberation", "hi": "साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक"}, "diet_hindering_success_link_prosperity": {"en": "Honest Earnings and Sattvic Food: What Your Plate Carries", "hi": "ईमानदार कमाई और सात्विक भोजन: थाली में धन का असर"}, "sattva_rajas_tamas_balance_success_liberation": {"en": "How to Balance the Three Gunas: Three Cords That Bind", "hi": "सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं"}, "burn_your_karma_before_it_burns_you": {"en": "How to Burn Past Karma: Obstacles on the Spiritual Path", "hi": "संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय"}, "reveals_4_life_changing_components": {"en": "How to Change Your Destiny: 4 Principles from Acharya Ji", "hi": "भाग्य कैसे बदलें? योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा"}, "every_ganesh_idol_look_different": {"en": "How to Choose a Ganesh Idol: Whose Form Should It Follow?", "hi": "गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप"}, "control_your_mind_before_it_controls_you": {"en": "How to Control Your Mind: Sattvic Dhriti in the Gita", "hi": "मन को वश में कैसे करें? गीता की सात्त्विक धृति"}, "secrets_mastering_your_mind_technique": {"en": "How to Develop a Steady Mind: The Atharva Way to Lead", "hi": "स्थिर मन कैसे पाएं? अथर्व मन और जीवन का नेतृत्व"}, "why_society_remains_divided_interview": {"en": "How to End Casteism: Hanuman's Answer to Shri Rama", "hi": "जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर"}, "do_this_one_thing_achieve_successful_life": {"en": "How to Find Joy in Your Work: Act from Happiness", "hi": "काम में आनंद कैसे पाएं: खुश होकर करें कर्म"}, "only_way_know_god": {"en": "How to Know God: The Murti Is the Map, the Guru the Driver", "hi": "भगवान को कैसे जानें? मूर्ति मानचित्र है, गुरु चालक"}, "overcome_struggles_of_life": {"en": "How to Overcome Struggles in Life: What the Gita Teaches", "hi": "जीवन के संघर्षों को कैसे पार करें? गीता 2.14 का उत्तर"}, "see_god_even_enemy": {"en": "How to See God in Your Enemy: Hate the Sin, Not the Sinner", "hi": "शत्रु में भगवान कैसे देखें: पाप से घृणा, पापी से नहीं"}, "gau_seva_antar_yog_purity_prosperity": {"en": "Importance of Gau Seva: From Gratitude to Prosperity", "hi": "गौ सेवा का महत्व: कृतज्ञता से समृद्धि तक"}, "every_moment_enlightened_master_new_birth": {"en": "Importance of Guru Seva: Every Moment a New Birth", "hi": "गुरु सेवा का महत्व: सान्निध्य में हर क्षण नया जन्म"}, "hidden_meaning_spiritual_symbols": {"en": "Importance of Symbols in Religion: Meaning vs Blind Faith", "hi": "धर्म में प्रतीकों का महत्व: प्रतीक, अंधश्रद्धा और गुरु"}, "gyan_sarovar_mount_abu_women_address": {"en": "Is a Woman Equal to a Man? Acharya Ji's Answer at Mount Abu", "hi": "क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य जी"}, "artificial_intelligence_getting_smarter_but_humans": {"en": "Is AI Making Us Dumber? Artificial Intelligence and Viveka", "hi": "क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक"}, "too_bad_to_be_too_good_valentines": {"en": "Is Being Too Good a Bad Thing? Love Without Discernment", "hi": "ज़रूरत से ज़्यादा अच्छा होना भी गलत क्यों है | आचार्य जी"}, "know_your_god_transformative_path": {"en": "Knowing God vs Believing in God: The Ganesha Gita's Yoga", "hi": "भगवान को जानना या मानना? गणेश गीता का यथार्थ योग"}, "knowledge_work_for_you": {"en": "Knowing What Is Right but Not Doing It: Gita 3.33-34", "hi": "जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर"}, "competent_guru_activate_chakras_kundalini": {"en": "Kundalini Awakening Through a Guru: 7 Chakras of Life", "hi": "गुरु से कुंडलिनी जागरण: सात चक्र, सात तरह का जीवन"}, "legends_keep_working": {"en": "Lokasangraha Meaning: Why Legends Keep Working (Gita 3)", "hi": "लोकसंग्रह का अर्थ: श्रेष्ठ पुरुष कर्म क्यों करते हैं"}, "guru_and_disciple_highest_form_love": {"en": "Love Between Guru and Disciple: Love's Highest Form", "hi": "गुरु शिष्य का प्रेम: प्रेम का सर्वोच्च स्वरूप"}, "truly_desire_or_infatuation": {"en": "Love vs Lust: The True Meaning of Kama | Acharya Ji", "hi": "काम का असली अर्थ: प्रेम या केवल आकर्षण? | आचार्य जी"}, "awaken_divine_shakti_kali_lakshmi_saraswati": {"en": "Mahakali Mahalakshmi Mahasaraswati: The Three Gunas", "hi": "महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ"}, "mahalay_shraddha_matters_truth_about_pitru": {"en": "Mahalaya Shraddha Meaning: Shraddha, Pind Daan and Tarpan", "hi": "महालय श्राद्ध क्या है? श्राद्ध, पिंडदान, तर्पण का सच्चा अर्थ"}, "two_causes_create_your_life": {"en": "Material and Efficient Cause: Who Really Makes the Pot?", "hi": "उपादान और निमित्त कारण: घड़ा कौन बनाता है?"}, "spiritual_science_om_aum": {"en": "Meaning of AUM: Why Om, and What A, U and M Stand For", "hi": "ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया"}, "ganpati_visarjan_tradition": {"en": "Meaning of Ganpati Visarjan: What the Returned Clay Teaches", "hi": "गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है"}, "chant_thousand_names_god": {"en": "Meaning of Sahasranama: Why Chant 1000 Names of God?", "hi": "सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों?"}, "true_power_of_scriptures_decoded": {"en": "Meaning of Shastra: Dharma, Artha, Kama and Moksha", "hi": "शास्त्र का अर्थ: धर्म, अर्थ, काम, मोक्ष के नियम"}, "three_types_obstacle_removers_harta": {"en": "Meaning of Vighnaharta: Three Kinds of Obstacle Removers", "hi": "विघ्नहर्ता का अर्थ: तीन प्रकार के हर्ता, आप कौन से हैं?"}, "mind_or_body_more_powerful": {"en": "Mind or Body, Which Is More Powerful? Why Kali Comes First", "hi": "मन या शरीर, कौन अधिक शक्तिशाली? पहले शरीर क्यों"}, "biggest_spiritual_misconception_about_death": {"en": "Moksha After Death? Why Liberation Comes While Alive", "hi": "मरने के बाद मोक्ष? जीते-जी मुक्ति की सच्ची समझ"}, "one_realisation_free_from_all_suffering": {"en": "Nothing Lasts Forever: One Realisation That Frees You", "hi": "अस्थिर संसार में स्थिर क्या है? दुःख से मुक्ति का एक बोध"}, "love_burden_for_child_parenting": {"en": "Parental Pressure on Children: Signs of Rajasic Parenting", "hi": "बच्चों पर अपेक्षाओं का बोझ: राजसिक परवरिश के संकेत"}, "married_or_not_insights": {"en": "Pativrata Meaning: Living with Radiance, Not Submission", "hi": "पतिव्रता का अर्थ: दबना नहीं, तेज से जीना | आचार्य उपेंद्र जी"}, "pind_daan": {"en": "Pind Daan Meaning: Why the Crow Eats the Pind, or Refuses", "hi": "पिंडदान का अर्थ: कौवा पिंड क्यों खाता है, क्यों नहीं?"}, "spiritual_power_women_kali_yug": {"en": "Power of Speech for Women Leaders: The Mahakali Within", "hi": "महिला नेतृत्व और वाणी की शक्ति: स्त्री में सोई महाकाली"}, "water_is_your_first_medicine": {"en": "Pranamaya Kosha: How Water Becomes Prana", "hi": "प्राणमय कोश: जल कैसे बनता है प्राण"}, "real_role_maha_kali": {"en": "Real Role of Mahakali: Why Every Beginning Starts With Her", "hi": "महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ"}, "rigid_mind_vs_flexible_mind_destiny": {"en": "Rigid Mind vs Flexible Mind: Who Holds Your Destiny?", "hi": "अड़ियल स्वभाव कैसे बदलें? लचीली बुद्धि का रहस्य"}, "hidden_truth_rudra_rudraksha": {"en": "Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps", "hi": "रुद्राक्ष का अर्थ: रुद्र कौन है और गुरु क्यों रोते हैं"}, "women_continue_sadhana_during_their_monthly": {"en": "Sadhana During Menstruation: Why It Need Not Stop", "hi": "मासिक धर्म में साधना क्यों न छूटे: भ्रांति और सत्य"}, "surrendering_to_guru": {"en": "Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru", "hi": "सर्वधर्मान्परित्यज्य का अर्थ: गीता 18.66 और गुरु की शरण"}, "saturn_mars_succeed_shani_mangal": {"en": "Saturn and Mars Relationship: Why Brakes Help You Succeed", "hi": "शनि और मंगल का संबंध: ब्रेक से सीखें सफलता का रहस्य"}, "guru_bridging_science_spirituality": {"en": "Science and Spirituality: The Guru Who Answers Reason", "hi": "विज्ञान और अध्यात्म: बुद्धि के प्रश्न, आत्मा से उत्तर"}, "without_guru_scriptures_can_mislead": {"en": "Scriptures Without a Guru: Why Literal Reading Misleads", "hi": "गुरु के बिना शास्त्र क्यों भटका सकते हैं"}, "secrets_of_becoming_billionaire_marathi": {"en": "Secret of Becoming a Billionaire: India's Shri Vidya", "hi": "अरबपति बनने का रहस्य: श्रीविद्या और श्रीयंत्र साधना"}, "future_lies_in_hands_message_to_women": {"en": "Seven Qualities of Women in Bhagavad Gita: Message to Women", "hi": "गीता में नारी के सात गुण: महिलाओं के लिए आचार्य जी का संदेश"}, "loving_in_the_right_way_valentines": {"en": "Show Love Through Actions, Not Just Words | Acharya Ji", "hi": "प्रेम कैसे जताएं: प्रेम जो कृति में दिखे | आचार्य जी"}, "missing_step_blocking_spiritual_success": {"en": "Shravana Manana Nididhyasana: The Missing Step in Sadhana", "hi": "श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी"}, "shreya_vs_preya_vedantic_wisdom": {"en": "Shreya vs Preya: The Katha Upanishad on Right Choices", "hi": "श्रेय और प्रेय क्या है? कठोपनिषद् का सही चुनाव"}, "become_billionaire_shree_vidya_secrets": {"en": "Shri Vidya and Wealth: From Bhoga to Moksha", "hi": "श्री विद्या और धन: भोग से मोक्ष तक का रहस्य"}, "what_changed_within_you_this_year": {"en": "Significance of Chaturmas: Why Festivals Come in Monsoon", "hi": "चातुर्मास का महत्व: त्योहार इन्हीं महीनों में क्यों आते हैं"}, "sacred_guru_jupiter_chanting": {"en": "Significance of Jupiter: Devguru Brihaspati's Grace", "hi": "गुरु ग्रह का महत्व: देवगुरु बृहस्पति की कृपा का रहस्य"}, "shukra_graha_chanting_wealth_relationships": {"en": "Significance of Venus in Vedic Astrology: Love and Wealth", "hi": "शुक्र ग्रह का प्रभाव: प्रेम, विवाह, धन और आभा का कारक"}, "goddess_lakshmi_lord_vishnu_stories": {"en": "Significance of Vishnu and Lakshmi: Why Sustaining Matters", "hi": "विष्णु और लक्ष्मी का महत्व: पालन ही जीवन है"}, "spiritual_age_matters_physical_age": {"en": "Spiritual Age vs Physical Age: How Old Are You Really?", "hi": "आध्यात्मिक आयु: आपकी असली उम्र कितनी है?"}, "every_human_inherently_spiritual": {"en": "Spiritual and Worldly Life: Are They Really Separate?", "hi": "आध्यात्मिक और सांसारिक जीवन: क्या सच में दो संसार हैं?"}, "animal_sacrifice": {"en": "Spiritual Meaning of Animal Sacrifice: The Beast Within", "hi": "पशुबलि का अर्थ क्या है? भीतर के पशु की आहुति"}, "real_meaning_guru": {"en": "Spiritual Meaning of Guru Purnima and Who Vyasa Really Was", "hi": "गुरु पूर्णिमा का आध्यात्मिक अर्थ और व्यास का असली अर्थ"}, "spiritual_meaning_secularism_independence_day_special": {"en": "Spiritual Meaning of Secularism: Show the Fruits of Faith", "hi": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ: धर्म की फलश्रुति दिखाओ"}, "ganesh_chaturthi_pitru_paksha_navratri_diwali": {"en": "Spiritual Order of Hindu Festivals: Ganapati to Diwali", "hi": "गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम"}, "satyug_rules_kaliyug_different_path": {"en": "Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava", "hi": "कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति"}, "marriage_giving_not_taking_relationships": {"en": "Spiritual Purpose of Marriage: Giving, Not Taking", "hi": "विवाह का उद्देश्य: लेना नहीं, देना | आचार्य उपेंद्र जी"}, "eat_to_heal_not_to_harm_spiritual": {"en": "Spiritual Reason for Vegetarianism: Eat to Heal, Not Harm", "hi": "शाकाहार का आध्यात्मिक कारण: उपचार के लिए खाएँ"}, "ghee_more_than_food": {"en": "Spiritual Significance of Ghee: Inner Fire and Speech", "hi": "घी का आध्यात्मिक महत्व: भीतर का यज्ञ और वाणी"}, "struggling_laziness_lack_drive_spiritual": {"en": "Spiritual Solution for Laziness: How to Break Out of Tamas", "hi": "आलस्य कैसे दूर करें? तमोगुण से निकलने का आध्यात्मिक उपाय"}, "not_wait_until_retirement_transform_life": {"en": "Spirituality After Retirement? Why You Should Not Wait", "hi": "अध्यात्म कब शुरू करें? रिटायरमेंट तक इंतज़ार क्यों"}, "struggling_despite_trying_best": {"en": "Struggling Despite Trying Your Best? Act with Understanding", "hi": "पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य"}, "art_living_life": {"en": "The Art of Leaving: Who Can Teach You to Prepare for Death?", "hi": "संसार छोड़ने की कला: मृत्यु की तैयारी किससे सीखें"}, "company_you_keep_shapes_destiny": {"en": "The Company You Keep and Spiritual Growth: Staying Sattvic", "hi": "संगति का प्रभाव: आपकी संगति ही आपका भविष्य गढ़ती है"}, "future_country_bharat_know": {"en": "The Future of Bharat: Why Spiritual Strength Must Grow", "hi": "भारत का भविष्य: आध्यात्मिक शक्ति से बदलेगा देश"}, "power_of_healing_antar_yog_science": {"en": "The Power of Belief in Healing: Placebo, Nocebo and Faith", "hi": "विश्वास से उपचार: प्लेसिबो, नोसिबो और श्रद्धा का विज्ञान"}, "power_of_collectivity": {"en": "The Power of Community: Why Divine Wealth Comes First", "hi": "समाज की शक्ति: दैवी संपत्ति से खुलते हैं सारे रास्ते"}, "three_gunas_karma": {"en": "Three Gunas and Human Behaviour: Who Really Acts?", "hi": "त्रिगुण और कर्म: कर्म आप करते हैं या प्रकृति करवाती है?"}, "know_kind_student_shishya": {"en": "Three Types of Disciples: What Do You Ask the Guru For?", "hi": "शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं?"}, "power_of_deities_in_your_life": {"en": "Trimurti and Their Consorts: Three Powers in Your Life", "hi": "त्रिदेव और त्रिदेवियाँ: ब्रह्मा, विष्णु, महेश आपके जीवन में"}, "dharma_teaches_us": {"en": "True Essence of Dharma: Word of Saints vs Word of God", "hi": "धर्म का असली सार: संत-वाणी और परमात्मा-वाणी का भेद"}, "truly_independent": {"en": "True Meaning of Democracy: Are We Really Free?", "hi": "लोकतंत्र का असली अर्थ: क्या हम सच में आज़ाद हैं?"}, "true_meaning_of_love_valentines": {"en": "True Meaning of Love: Love vs Attachment | Acharya Ji", "hi": "सच्चा प्रेम क्या है? प्रेम और मोह का अंतर | आचार्य जी"}, "twin_flames_soulmates_karmic_bonds": {"en": "Twin Flame vs Soulmate vs Karmic Bond: 3 Kinds of Bonds", "hi": "ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार"}, "love_respect_friendship_connection": {"en": "Types of Love: Affection, Friendship, Respect and the Guru", "hi": "प्रेम के प्रकार: स्नेह, मित्रता, आदर और गुरु प्रेम"}, "ultimate_source_learn_about_every_religion": {"en": "Unity of All Religions: A Seeker's Story of One Source", "hi": "सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव"}, "unlock_full_potential_in_life": {"en": "Varna and Ashrama System: Why Wait Until 60 to Turn Inward?", "hi": "वर्ण और आश्रम व्यवस्था: अध्यात्म साठ तक क्यों टालें?"}, "vastu_positive_energy_in_your_space": {"en": "Vastu Remedies Without Demolition: Raise Your Home's Energy", "hi": "वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें"}, "was_ram_rajya_like_federal_or": {"en": "Was Ram Rajya Federal or Unitary? Acharya Ji Explains", "hi": "राम राज्य कैसा था? संघीय या एकात्मक शासन"}, "decides_destiny": {"en": "What Decides Your Destiny? Karma vs Samskaras", "hi": "भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार"}, "see_lord_everyone_but_treat_merit": {"en": "What Does Seeing God in Everyone Mean? Equal Vision vs Merit", "hi": "सबमें भगवान देखने का अर्थ: व्यवहार योग्यता से (गीता 5.18)"}, "awaken_inner_shiv_shakti_maha_shivratri": {"en": "What Does the Shivling Represent? | Maha Shivratri", "hi": "शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है?"}, "what_is_a_guru": {"en": "What Is a Guru? The Guru Gita and India as Vishwaguru", "hi": "गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य"}, "destiny_awaits_obstacle_in_way": {"en": "What Is Blocking Your Destiny? Patanjali's Farmer Analogy", "hi": "भाग्य में रुकावट क्यों? पतंजलि का किसान और नहर"}, "truth_about_brahmacharya_exposed_video": {"en": "What Is Brahmacharya? The Truth No One Tells | Acharya Ji", "hi": "ब्रह्मचर्य का असली अर्थ: विवाह, काम और संयम | आचार्य जी"}, "big_pitru_dosh_understanding_pitru_rin": {"en": "What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes", "hi": "पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण"}, "true_meaning_pitru_rin": {"en": "What Is Pitru Rin? Serve Your Parents While They Are Alive", "hi": "पितृ ऋण का अर्थ: श्राद्ध से पहले माता-पिता की सेवा"}, "true_wealth_money_health_respect_or": {"en": "What Is True Wealth? Money, Health, Respect and More", "hi": "सच्चा धन क्या है: पैसा, सम्मान, समय और स्वास्थ्य"}, "ideal_king_sanatan_rashtra_interview": {"en": "What Makes a Good Leader? Stop, Then Show the Way", "hi": "अच्छे नेता की पहचान: जो मना करे, वही राह भी दिखाए"}, "true_disciple_change_your_life": {"en": "What Makes a True Disciple? Turning Knowledge into Action", "hi": "सच्चा शिष्य कौन है? जब ज्ञान कर्म बन जाए"}, "stop_asking_god_fix_your_life": {"en": "What to Ask God in Prayer: Strength, Not a Problem-Free Life", "hi": "भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति"}, "when_disciple_become_truly_powerful": {"en": "When Does a Disciple Become Truly Powerful? Guru, Shaktipat", "hi": "शिष्य शक्तिवान कब बनता है? गुरु, शक्तिपात और साधना"}, "when_love_turns_into_control": {"en": "When Love Turns Into Control: A Mother's Bill of Zeros", "hi": "प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है"}, "when_kalki_avatar_come": {"en": "When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says", "hi": "कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर"}, "secret_ultimate_happiness": {"en": "Which Knowledge Leads to Liberation? The Secret of Bliss", "hi": "कौन सा ज्ञान मुक्ति देता है? परम आनंद का रहस्य"}, "worldly_maya_makes_forget_true_self": {"en": "Who Am I? How Maya Makes Us Forget Our True Self", "hi": "मैं कौन हूँ? संसार की माया हमें खुद को कैसे भुलाती है"}, "anyone_grant_liberation_living_or_dead": {"en": "Who Can Grant Moksha? Death vs Freedom While Alive", "hi": "मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति"}, "know_your_lord_before_worship": {"en": "Who Is a Jnani Bhakta? Know Your Lord Before You Worship", "hi": "ज्ञानी भक्त कौन है? पूजा से पहले अपने भगवान को जानें"}, "unveiling_truth_karma_ultimate_goal_or": {"en": "Who Is a Karma Yogi? When to Let Go of the Pole of Action", "hi": "कर्मयोगी कौन है? कर्म का बाँस कब छोड़ें"}, "who_real_doer_karma_ego_bhagavad": {"en": "Who Is the Real Doer? Bhagavad Gita 3.27 on Karma and Ego", "hi": "असली कर्ता कौन है? गीता के अनुसार कर्म और अहंकार"}, "truth_about_lord_ganesh": {"en": "Who Is the Real Ganesha? The Meaning of His Birth Story", "hi": "असली गणेश कौन है? गणेश जन्म कथा का अर्थ"}, "understand_spiritual_science_behind_different_offerings": {"en": "Why Different Offerings to Different Gods? The Science", "hi": "देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा"}, "stop_tolerating_toxic_love": {"en": "Why Do People Stay in Toxic Relationships? The Tamasic Trap", "hi": "तामसिक रिश्ता क्या है? अत्याचार सहना गुण नहीं"}, "ganesh_have_elephant_head_mouse": {"en": "Why Does Ganesha Have an Elephant Head and Ride a Mouse?", "hi": "गणेश जी का सिर हाथी का क्यों है, वाहन चूहा क्यों?"}, "lakshmi_come_some_people_not_others": {"en": "Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice", "hi": "लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग"}, "durva_red_flowers_lord_ganesh_worship": {"en": "Why Durva Is Offered to Ganesha, and Why Red Flowers", "hi": "गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों?"}, "eat_shapes_how_you_think": {"en": "Why Eat Locally Grown Food? Karma, Soil and Your Plate", "hi": "स्थानीय भोजन का महत्व: जहाँ जन्म, वहीं का अन्न"}, "hidden_meaning_behind_10_days_ganesh": {"en": "Why Ganesh Chaturthi Is Celebrated for 10 Days", "hi": "गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों?"}, "divine_power_every_woman_holds": {"en": "Why Is Woman Called Shakti? A Mother's Thousandfold Power", "hi": "स्त्री को शक्ति क्यों कहा जाता है? माँ की हज़ार गुना शक्ति"}, "why_satsang_does_not_change_your_life": {"en": "Why Satsang Does Not Change Your Life: Be a Good Listener", "hi": "सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें"}, "trapped_illusory_happiness": {"en": "Why Sense Pleasures Fade: The Trap of Physical Bliss", "hi": "इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल"}, "33_crore_gods_truth_about_hinduism": {"en": "Why So Many Gods? 33 Crore Gods or One God in Hinduism", "hi": "33 कोटि देवता या एक भगवान? हिंदू धर्म का सच"}, "joy_sorrow_transformation": {"en": "Why Some People Are Always Unhappy: Dharana Shakti", "hi": "सुख-दुःख का असली कारण: धारणा शक्ति की एक कथा"}, "need_murtis_symbols_understand_god": {"en": "Why Worship a Murti If God Is Formless?", "hi": "मूर्ति पूजा क्यों करते हैं, जब ईश्वर निराकार है?"}, "manifesting_goals_correctly": {"en": "Wish vs Willpower: Are You Manifesting Goals Correctly?", "hi": "इच्छा और इच्छाशक्ति में अंतर: हर चाह का फल आता है"}, "worship_ganesh_every_year_but_understand": {"en": "Worship Lord Ganesha Every Year? Do You Understand Him?", "hi": "हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा?"}, "gita_warning_worship_without_understanding": {"en": "Worship Without Understanding: The Gita's Warning", "hi": "बिना अर्थ जाने पूजा: गीता की चेतावनी और मूर्ति का मर्म"}, "know_your_first_duty_in_life": {"en": "Your First Duty in Life: The Promise Made in the Womb", "hi": "जीवन का प्रथम कर्तव्य क्या है? गर्भ में किया गया वचन"}}, "topics": {"guru": {"en": "Guru & Disciple", "hi": "गुरु और शिष्य"}, "mind": {"en": "Mind & Self", "hi": "मन और आत्मबोध"}, "karma": {"en": "Karma & Destiny", "hi": "कर्म और भाग्य"}, "dharma": {"en": "Dharma & Scriptures", "hi": "धर्म और शास्त्र"}, "deities": {"en": "Deities & Worship", "hi": "देवी-देवता और उपासना"}, "sadhana": {"en": "Sadhana, Mantra & Jyotish", "hi": "साधना, मंत्र और ज्योतिष"}, "festivals": {"en": "Festivals & Observances", "hi": "पर्व और व्रत"}, "pitru": {"en": "Ancestors & Shraddha", "hi": "पितृ और श्राद्ध"}, "moksha": {"en": "Death & Liberation", "hi": "मृत्यु और मोक्ष"}, "love": {"en": "Love & Relationships", "hi": "प्रेम और संबंध"}, "women": {"en": "Women & Spirituality", "hi": "नारी और अध्यात्म"}, "food": {"en": "Food & Health", "hi": "आहार और स्वास्थ्य"}, "success": {"en": "Success & Prosperity", "hi": "सफलता और समृद्धि"}, "nation": {"en": "Bharat & Society", "hi": "भारत और समाज"}}}</script>
 <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script>
 (function () {
+  var DATA = JSON.parse(document.getElementById('data').textContent);
   var blogSel = document.getElementById('blog'), langSel = document.getElementById('lang');
   var onlySel = document.getElementById('only'), out = document.getElementById('out'), stats = document.querySelector('.stats');
+  var details = document.getElementById('details'), fix = document.getElementById('fix');
   var cache = {}, run = 0;
 
-  function load(url) {
+  function load(url, optional) {
     if (!cache[url]) cache[url] = fetch(url).then(function (r) {
       if (!r.ok) throw new Error(url + ': ' + r.status);
       return r.text();
     });
-    return cache[url];
+    return optional ? cache[url].catch(function () { return null; }) : cache[url];
   }
   function paras(text) {
     return text.replace(/\r/g, '').trim().split(/\n\s*\n/).map(function (p) { return p.trim(); });
   }
   function html(s) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
   function words(s) { return s.split(/(\s+)/).filter(Boolean); }
   function count(tokens) { return tokens.filter(function (t) { return /\S/.test(t); }).length; }
+  // plain comparable text: no markdown marks, quotes or extra spaces
+  function norm(s) { return String(s).replace(/[*_`#>"“”‘’']/g, '').replace(/\s+/g, ' ').trim().toLowerCase(); }
+  function title(name, lang) { return (DATA.titles[name] || {})[lang] || name; }
+  function talkLink(name, lang) {
+    return '<a href="../' + name + '/blog/index.html#' + lang + '">' + html(title(name, lang)) + '</a>';
+  }
 
-  // Word diff of one changed paragraph pair: [left html, right html, words removed, words added]
+  // ---- seo_fix.md: sections, and the change rows of each language ----
+  function parseFix(md) {
+    var parts = md.replace(/\r/g, '').split(/^## /m), fixd = {intro: parts[0], hi: null, en: null, rest: []};
+    parts.slice(1).forEach(function (p) {
+      var nl = p.indexOf('\n'), head = nl < 0 ? p : p.slice(0, nl), body = nl < 0 ? '' : p.slice(nl + 1);
+      var lang = /^hindi/i.test(head) ? 'hi' : /^english/i.test(head) ? 'en' : null;
+      if (lang && !fixd[lang]) fixd[lang] = {head: head, body: body, rows: rows(body)};
+      else fixd.rest.push({head: head, body: body});
+    });
+    return fixd;
+  }
+  function cells(line) {
+    return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(function (c) { return c.trim(); });
+  }
+  function rows(body) {
+    var lines = body.split('\n').filter(function (l) { return /^\s*\|/.test(l); }), head = null, list = [];
+    lines.forEach(function (l) {
+      var c = cells(l);
+      if (!head) { head = c.map(function (h) { return h.toLowerCase(); }); return; }
+      if (c.every(function (x) { return /^:?-+:?$/.test(x); })) return;
+      var row = {};
+      head.forEach(function (h, i) { row[h] = c[i] || ''; });
+      list.push(row);
+    });
+    return list;
+  }
+  function md(s) { return marked.parse(s); }
+
+  function renderFix(text, lang) {
+    if (text === null) { fix.innerHTML = '<p class="missing">No seo_fix.md for this blog.</p>'; return null; }
+    var f = parseFix(text), mine = f[lang];
+    if (!mine && !f.rest.length) {
+      fix.innerHTML = '<p class="missing">seo_fix.md is not in the expected form; shown as written.</p><div class="md">' + md(text) + '</div>';
+      return null;
+    }
+    var h = '<div class="md">';
+    if (mine) {
+      h += '<h3>' + html(mine.head) + '</h3>';
+      if (mine.rows.length) {
+        h += '<table class="changes"><thead><tr><th>Where</th><th>Before</th><th>After</th><th>Why</th></tr></thead><tbody>' +
+          mine.rows.map(function (r, i) {
+            return '<tr data-fix="' + i + '"><td>' + marked.parseInline(r.where || '') + '</td><td>' + marked.parseInline(r.before || '') +
+              '</td><td>' + marked.parseInline(r.after || '') + '</td><td>' + marked.parseInline(r.why || '') + '</td></tr>';
+          }).join('') + '</tbody></table>';
+        var extra = mine.body.split('\n').filter(function (l) { return !/^\s*\|/.test(l); }).join('\n').trim();
+        if (extra) h += md(extra);
+      } else h += md(mine.body);
+    } else h += '<p class="missing">No ' + (lang === 'hi' ? 'Hindi' : 'English') + ' changes section in seo_fix.md.</p>';
+    h += f.rest.map(function (s) { return '<details><summary>' + html(s.head) + '</summary>' + md(s.body) + '</details>'; }).join('');
+    fix.innerHTML = h + '</div>';
+    return mine ? mine.rows : null;
+  }
+
+  // ---- seo.json: details table for the language ----
+  function pills(list) { return (list || []).map(function (t) { return '<span class="pill">' + html(t) + '</span>'; }).join(''); }
+  function len(s, max) {
+    var n = Array.from(s || '').length;
+    return '<span class="len' + (n > max ? ' over' : '') + '">' + n + '/' + max + '</span>';
+  }
+  function renderDetails(text, lang) {
+    if (text === null) { details.innerHTML = '<p class="missing">No seo.json for this blog.</p>'; return ''; }
+    var seo = JSON.parse(text), wp = (seo.wordpress || {})[lang] || {}, rowsH = [];
+    var add = function (k, v) { if (v) rowsH.push('<tr><th>' + k + '</th><td>' + v + '</td></tr>'); };
+    var t = (seo.title || {})[lang] || '';
+    add('Title tag', html(t) + len(t, 60));
+    add('Slug', wp.slug ? '<code>' + html(wp.slug) + '</code>' : '');
+    add('Focus keyword', html(wp.focus_keyword || ''));
+    add('Secondary keywords', pills(wp.secondary_keywords));
+    add('Meta description', html(wp.meta_description || '') + len(wp.meta_description, 160));
+    var cat = (seo.wordpress || {}).category;
+    add('Category', cat ? html(((DATA.topics[cat] || {})[lang]) || cat) : '');
+    add('Tags', pills(wp.tags));
+    add('Internal links', (seo.links || []).map(function (l) {
+      return '“' + html(l[lang] || '') + '” → ' + talkLink(l.talk, lang);
+    }).join('<br>'));
+    var also = seo.also_read || {};
+    add('Also read', also.talk ? talkLink(also.talk, lang) +
+      (also.after && also.after[lang] ? '<span class="sub">after “' + html(also.after[lang]) + '”</span>' : '') : '');
+    add('Related', (seo.related || []).map(function (n) { return talkLink(n, lang); }).join(' · '));
+    var imgs = Object.keys(Object.assign({}, seo.alt || {}, seo.caption || {}));
+    add('Images', imgs.map(function (f) {
+      var alt = ((seo.alt || {})[f] || {})[lang], cap = ((seo.caption || {})[f] || {})[lang];
+      return '<code>' + html(f) + '</code>' + (alt ? '<span class="sub">alt: ' + html(alt) + '</span>' : '') +
+        (cap ? '<span class="sub">caption: ' + html(cap) + '</span>' : '');
+    }).join('<br>'));
+    details.innerHTML = '<table class="kv"><tbody>' + rowsH.join('') + '</tbody></table>';
+    return wp.focus_keyword || '';
+  }
+
+  // ---- the diff ----
   function wordDiff(a, b) {
     var l = '', r = '', del = 0, add = 0;
     Diff.diffArrays(words(a), words(b)).forEach(function (part) {
@@ -333,14 +471,28 @@ img { max-width: 100%; display: block; }
     });
     return [l, r, del, add];
   }
+  // index of the change row whose After text is in this paragraph, else -1
+  function matchFix(text, fixRows) {
+    if (!fixRows || !text) return -1;
+    var p = norm(text);
+    for (var i = 0; i < fixRows.length; i++) {
+      var a = norm(fixRows[i].after || '');
+      if (a && p.indexOf(a) >= 0) return i;
+    }
+    for (i = 0; i < fixRows.length; i++) {  // a long After may have been shortened in the table
+      a = norm(fixRows[i].after || '');
+      if (a.length > 24 && p.indexOf(a.slice(0, 24)) >= 0) return i;
+    }
+    return -1;
+  }
 
-  function render(a, b) {
+  function render(a, b, fixRows, keyword) {
     var rows = [], changed = 0, del = 0, add = 0;
     var parts = Diff.diffArrays(paras(a), paras(b));
     for (var i = 0; i < parts.length; i++) {
       var p = parts[i];
       if (!p.added && !p.removed) {
-        p.value.forEach(function (v) { rows.push(['same', html(v), html(v)]); });
+        p.value.forEach(function (v) { rows.push(['same', html(v), html(v), null]); });
         continue;
       }
       // a removed run followed by an added run: pair them up paragraph by paragraph
@@ -351,22 +503,60 @@ img { max-width: 100%; display: block; }
         changed++;
         if (k < rem.length && k < ins.length) {
           var w = wordDiff(rem[k], ins[k]);
-          rows.push(['changed', w[0], w[1]]); del += w[2]; add += w[3];
+          rows.push(['changed', w[0], w[1], ins[k]]); del += w[2]; add += w[3];
         } else if (k < rem.length) {
-          rows.push(['changed', '<del>' + html(rem[k]) + '</del>', null]); del += count(words(rem[k]));
+          rows.push(['changed', '<del>' + html(rem[k]) + '</del>', null, null]); del += count(words(rem[k]));
         } else {
-          rows.push(['changed', null, '<ins>' + html(ins[k]) + '</ins>']); add += count(words(ins[k]));
+          rows.push(['changed', null, '<ins>' + html(ins[k]) + '</ins>', ins[k]]); add += count(words(ins[k]));
         }
       }
     }
-    var cell = function (cls, side, v) {
-      return '<div class="cell ' + side + ' ' + cls + (v === null ? ' gap' : '') + '">' + (v === null ? '' : v) + '</div>';
+    var cell = function (cls, side, v, extra) {
+      return '<div class="cell ' + side + ' ' + cls + (v === null ? ' gap' : '') + '"' + (extra || '') + '>' + (v === null ? '' : v) + '</div>';
     };
     out.innerHTML = '<div class="head l">Original</div><div class="head r">SEO-optimized</div>' +
-      rows.map(function (r) { return cell(r[0], 'l', r[1]) + cell(r[0], 'r', r[2]); }).join('');
+      rows.map(function (r) {
+        var right = r[2], m = r[0] === 'changed' ? matchFix(r[3], fixRows) : -1, extra = '';
+        if (m >= 0) {
+          var f = fixRows[m];
+          right += '<span class="why"><b>' + html(f.where || 'Change') + ':</b> ' + marked.parseInline(f.why || '') + '</span>';
+          extra = ' data-fix="' + m + '"';
+        }
+        return cell(r[0], 'l', r[1], extra) + cell(r[0], 'r', right, extra);
+      }).join('');
+    if (keyword) highlight(keyword);
     stats.innerHTML = changed
       ? '<b>' + changed + '</b> paragraph' + (changed === 1 ? '' : 's') + ' changed · <b>+' + add + '</b> words · <b>−' + del + '</b> words'
       : 'No differences.';
+  }
+
+  // underline the focus keyword in the text of both columns (not in the reason notes)
+  function highlight(keyword) {
+    var re = new RegExp(keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+    var walker = document.createTreeWalker(out, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        return n.parentNode.closest('.cell') && !n.parentNode.closest('.why, .head') ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      var t = n.nodeValue, last = 0, m, frag = null;
+      re.lastIndex = 0;
+      while ((m = re.exec(t))) {
+        frag = frag || document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(t.slice(last, m.index)));
+        var mk = document.createElement('mark');
+        mk.className = 'kw';
+        mk.textContent = m[0];
+        frag.appendChild(mk);
+        last = m.index + m[0].length;
+      }
+      if (frag) {
+        frag.appendChild(document.createTextNode(t.slice(last)));
+        n.parentNode.replaceChild(frag, n);
+      }
+    });
   }
 
   function show() {
@@ -374,14 +564,37 @@ img { max-width: 100%; display: block; }
     history.replaceState(null, '', '#' + name + '/' + lang);
     stats.textContent = 'Loading…';
     Promise.all([load('../' + name + '/' + name + '_blog' + sfx + '.txt'),
-                 load('../' + name + '/' + name + '_blog_seo' + sfx + '.txt')]).then(function (t) {
-      if (me === run) render(t[0], t[1]);
+                 load('../' + name + '/' + name + '_blog_seo' + sfx + '.txt'),
+                 load('../' + name + '/blog/seo.json', true),
+                 load('../' + name + '/blog/seo_fix.md', true)]).then(function (t) {
+      if (me !== run) return;
+      var keyword = renderDetails(t[2], lang), fixRows = renderFix(t[3], lang);
+      render(t[0], t[1], fixRows, keyword);
     }).catch(function (e) {
       if (me !== run) return;
       out.innerHTML = '';
       stats.textContent = 'Could not load the texts (' + e.message + '). This page must be opened over HTTP.';
     });
   }
+
+  // a change row in the seo_fix table jumps to its paragraph in the diff
+  fix.addEventListener('click', function (e) {
+    var tr = e.target.closest('tr[data-fix]');
+    if (!tr || e.target.closest('a')) return;
+    var cells = out.querySelectorAll('.cell[data-fix="' + tr.dataset.fix + '"]');
+    if (!cells.length) return;
+    if (onlySel.checked === false && cells[0].classList.contains('same')) return;
+    cells[0].scrollIntoView({behavior: 'smooth', block: 'center'});
+    cells.forEach(function (c) { c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); });
+  });
+
+  // remember which panels are collapsed
+  document.querySelectorAll('details.panel').forEach(function (d) {
+    try { if (localStorage.getItem('seo-diff-' + d.id) === 'closed') d.open = false; } catch (e) {}
+    d.addEventListener('toggle', function () {
+      try { localStorage.setItem('seo-diff-' + d.id, d.open ? 'open' : 'closed'); } catch (e) {}
+    });
+  });
 
   var hash = decodeURIComponent(location.hash.slice(1)).split('/');
   if (hash[0] && blogSel.querySelector('option[value="' + hash[0] + '"]')) blogSel.value = hash[0];
