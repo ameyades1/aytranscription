@@ -27,6 +27,8 @@ A short talk with two halves. The first half explains what a **mantra** is ("म
 | durga saptashati beej mantra sadhana | Hinglish | Practical | Medium |
 | Acharya Upendra Ji Durga Saptashati | English | Navigational | Low |
 
+Keyword note: the focus keywords "दुर्गा सप्तशती बीज मंत्र" / "Durga Saptashati beej mantra" are the searched wording (and the video title's), but the original blog bodies never used them: they only say "दुर्गा सप्तशती" and "बीज मंत्र" apart, and English spells "bija". The `_seo` texts now use them once, in a short direct answer at the start of the first section (within the first 100 words), so both stay the focus keywords. The heading "बीज मंत्र क्या है? बिंदु में छिपी शक्ति" / "What Is a Bija Mantra? The Power Hidden in a Dot" now carries the secondary keyword "बीज मंत्र क्या है" / "what is a bija mantra".
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -34,20 +36,20 @@ A short talk with two halves. The first half explains what a **mantra** is ("म
 2. बीज मंत्र क्या है: छह घंटे की साधना दस मिनट में (47)
 3. आप रोज़ कौन सा मंत्र जप रहे हैं? बीज मंत्र का रहस्य (51)
 
-Meta description (157 characters): "बीज मंत्र क्या है और उसे कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बनता है, और दुर्गा सप्तशती की बीज साधना क्या है।"
+Meta description (151 characters, recommended): "दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है।"
 
-Slug: `/hi/durga-saptashati-beej-mantra`
+Slug (recommended): `/hi/durga-saptashati-beej-mantra`
 
 **English**
 1. Durga Saptashati Beej Mantra: Sadhana in a Capsule (50) **recommended**
 2. What Is a Bija Mantra? Six Hours of Sadhana in Minutes (54)
 3. Which Mantra Are You Repeating Every Day? (41)
 
-Meta description (155 characters): "What is a bija mantra, and why does Acharya Upendra Ji call it a capsule? On the Durga Saptashati, the mantra you repeat daily and a short tantric sadhana."
+Meta description (146 characters, recommended): "What is the Durga Saptashati beej mantra sadhana? Acharya Upendra Ji explains why a bija mantra is a capsule, and the mantra you repeat every day."
 
-Slug: `/en/durga-saptashati-beej-mantra-sadhana`
+Slug (recommended): `/en/durga-saptashati-beej-mantra-sadhana`
 
-The H1 ("बीज मंत्र से छह घंटे की साधना दस मिनट में" / "Six Hours of Sadhana in Ten Minutes Through Bija Mantras") stays as it is. The recommended title tags use the capsule image rather than the "ten minutes" promise (flag 9). "Beej" is used in the English title because the video title and most Indian English searches spell it so; the body keeps "bija".
+The H1 ("बीज मंत्र से छह घंटे की साधना दस मिनट में" / "Six Hours of Sadhana in Ten Minutes Through Bija Mantras") stays as it is. The recommended title tags use the capsule image rather than the "ten minutes" promise (flag 9). "Beej" is used in the English title because the video title and most Indian English searches spell it so; the body keeps "bija", except once in the `_seo` text's direct answer, which names the "Durga Saptashati beej mantra sadhana" as it is searched.
 
 ## 4. Outline changes
 
@@ -130,7 +132,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "बीज मंत्र से छह घंटे की साधना दस मिनट में",
       "alternativeHeadline": "दुर्गा सप्तशती बीज मंत्र: कैप्सूल जैसी साधना",
-      "description": "बीज मंत्र क्या है और उसे कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बनता है, और दुर्गा सप्तशती की बीज साधना क्या है।",
+      "description": "दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है।",
       "inLanguage": "hi",
       "keywords": [
         "दुर्गा सप्तशती बीज मंत्र",
@@ -277,7 +279,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Six Hours of Sadhana in Ten Minutes Through Bija Mantras",
       "alternativeHeadline": "Durga Saptashati Beej Mantra: Sadhana in a Capsule",
-      "description": "What is a bija mantra, and why does Acharya Upendra Ji call it a capsule? On the Durga Saptashati, the mantra you repeat daily and a short tantric sadhana.",
+      "description": "What is the Durga Saptashati beej mantra sadhana? Acharya Upendra Ji explains why a bija mantra is a capsule, and the mantra you repeat every day.",
       "inLanguage": "en",
       "keywords": [
         "Durga Saptashati beej mantra",
@@ -538,7 +540,7 @@ The exact values written to output/unlock_divine_energy_durga_saptashati_mantra/
         "दुर्गा सप्तशती पाठ का समय",
         "तंत्रोक्त दुर्गा सप्तशती"
       ],
-      "meta_description": "बीज मंत्र क्या है और उसे कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बनता है, और दुर्गा सप्तशती की बीज साधना क्या है।",
+      "meta_description": "दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है।",
       "tags": [
         "दुर्गा सप्तशती",
         "मंत्र",
@@ -556,7 +558,7 @@ The exact values written to output/unlock_divine_energy_durga_saptashati_mantra/
         "how long does Durga Saptashati path take",
         "tantrokta Durga Saptashati"
       ],
-      "meta_description": "What is a bija mantra, and why does Acharya Upendra Ji call it a capsule? On the Durga Saptashati, the mantra you repeat daily and a short tantric sadhana.",
+      "meta_description": "What is the Durga Saptashati beej mantra sadhana? Acharya Upendra Ji explains why a bija mantra is a capsule, and the mantra you repeat every day.",
       "tags": [
         "Durga Saptashati",
         "Mantra",
@@ -568,3 +570,73 @@ The exact values written to output/unlock_divine_energy_durga_saptashati_mantra/
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (दुर्गा सप्तशती बीज मंत्र / Durga Saptashati beej mantra, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the searched wording is now in the `_seo` texts and stays the focus keyword; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer at the start of the first section)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Sanskrit review's Critical issue 1, Arjuna and the Saptashati, and Major issue 2, Shri Rama, are still in the body; they are editorial corrections to the original blog, not SEO edits; flags 1 and 2)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
