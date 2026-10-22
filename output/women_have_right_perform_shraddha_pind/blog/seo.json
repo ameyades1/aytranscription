@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं",
-    "en": "Women Can Perform Shraddha: What the Scriptures Say"
+    "hi": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं",
+    "en": "Can Women Perform Shraddha? What the Scriptures Say"
   },
   "alt": {
     "hero.jpg": {
@@ -64,14 +64,14 @@
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "striyon-ko-shraddha-ka-adhikar",
-      "focus_keyword": "स्त्रियों को श्राद्ध का अधिकार",
+      "slug": "kya-striyan-shraddha-kar-sakti-hain",
+      "focus_keyword": "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
       "secondary_keywords": [
-        "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
+        "स्त्रियों को श्राद्ध का अधिकार",
         "क्या महिलाएं पिंडदान कर सकती हैं",
         "बेटी श्राद्ध कर सकती है"
       ],
-      "meta_description": "क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं।",
+      "meta_description": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं।",
       "tags": [
         "श्राद्ध",
         "पिंडदान",
@@ -81,14 +81,14 @@
       ]
     },
     "en": {
-      "slug": "women-can-perform-shraddha",
-      "focus_keyword": "women can perform shraddha",
+      "slug": "can-women-perform-shraddha",
+      "focus_keyword": "can women perform shraddha",
       "secondary_keywords": [
-        "can women perform shraddha",
+        "women can perform shraddha",
         "can women do pind daan",
         "can daughters perform shraddha"
       ],
-      "meta_description": "Can women do shraddha and pind daan? Acharya Upendra Ji explains why women can perform shraddha, why it is not required of all, and what the ancestors ask.",
+      "meta_description": "Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask.",
       "tags": [
         "Shraddha",
         "Pind Daan",

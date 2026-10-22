@@ -13,46 +13,48 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| स्त्रियों को श्राद्ध का अधिकार | Hindi | Informational | High (primary HI) |
-| क्या स्त्रियाँ श्राद्ध कर सकती हैं | Hindi | Informational / practical | High |
+| स्त्रियों को श्राद्ध का अधिकार | Hindi | Informational | High |
+| क्या स्त्रियाँ श्राद्ध कर सकती हैं | Hindi | Informational / practical | High (primary HI, the searched wording) |
 | क्या महिलाएं पिंडदान कर सकती हैं | Hindi | Practical | High |
 | बेटी श्राद्ध कर सकती है | Hindi | Practical / emotional | Medium |
 | पुत्र न हो तो श्राद्ध कौन करे | Hindi | Practical | Medium (answer carefully, flag 1) |
 | माता सीता का पिंडदान | Hindi | Informational | Low (flag 3) |
 | kya mahila shraddh kar sakti hai | Hinglish | Practical | Medium |
 | ladki pind daan kar sakti hai | Hinglish | Practical | Medium |
-| women can perform shraddha | English | Informational | High (primary EN) |
-| can women perform shraddha | English | Informational / practical | High (the searched wording) |
+| women can perform shraddha | English | Informational | High |
+| can women perform shraddha | English | Informational / practical | High (primary EN, the searched wording) |
 | can women do pind daan | English | Practical | High |
 | can daughters perform shraddha | English | Practical / emotional | Medium |
 | who can perform shraddha if there is no son | English | Practical | Medium (flag 1) |
 | Acharya Upendra Ji women shraddha | English | Navigational | Low |
 
-**Wording note.** The searched question is "can women perform shraddha" / "क्या स्त्रियाँ (महिलाएं) श्राद्ध कर सकती हैं". In the body (below the H1), the English says "women can certainly perform shraddha", which SureRank matches for "women can perform shraddha" (one word between), not for the question order "can women perform…". The Hindi body says "स्त्रियाँ बिल्कुल श्राद्ध कर सकती हैं" and never "स्त्रियाँ श्राद्ध कर सकती हैं" as written, and it uses "महिलाएँ" only once and never with श्राद्ध or पिंडदान. So the focus keywords are the body's wording (English "women can perform shraddha", in the first 100 words; Hindi "स्त्रियों को श्राद्ध का अधिकार", which appears only in the Key Takeaways, not in the first 100 words), and the searched wordings are secondary keywords. "pind daan" / "पिंडदान" appears in the body only once in Hindi (inside the verse translation) and not at all in English below the H1, so it cannot be a focus keyword without a blog edit. If the editor wants these queries, a light edit could add "स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं" / "women can perform shraddha and pind daan" to the first section.
+**Wording note.** The searched question is "can women perform shraddha" / "क्या स्त्रियाँ (महिलाएं) श्राद्ध कर सकती हैं". The original body did not use it: the English said only "women can certainly perform shraddha" (SureRank does not match the question order), and the Hindi said "स्त्रियाँ बिल्कुल श्राद्ध कर सकती हैं", with "स्त्रियों को श्राद्ध का अधिकार" only in the Key Takeaways. The SEO fix (`seo_fix.md`) added the searched question to the intro of the `_seo` texts and to the first H2, so the focus keywords are now the searched wordings ("क्या स्त्रियाँ श्राद्ध कर सकती हैं", "can women perform shraddha"), both in the first 100 words; the old focus keywords ("स्त्रियों को श्राद्ध का अधिकार", now also in the Hindi first 100 words, and "women can perform shraddha") are secondary. "pind daan" / "पिंडदान" is still not in the body below the H1 (Hindi only inside the verse translation), so it stays secondary; adding it would need the Sita section to be corrected first (flag 3).
 
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं (recommended, 53)
-2. स्त्रियों को श्राद्ध का अधिकार: माता सीता का उदाहरण (51; only after flag 3 is resolved)
-3. क्या स्त्रियाँ पिंडदान कर सकती हैं? शास्त्र और अनुभव (52; does not contain the focus keyword)
+1. क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं (recommended, 57)
+2. स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं (53; the old recommendation, before the SEO fix)
+3. स्त्रियों को श्राद्ध का अधिकार: माता सीता का उदाहरण (51; only after flag 3 is resolved)
+4. क्या स्त्रियाँ पिंडदान कर सकती हैं? शास्त्र और अनुभव (52; does not contain the focus keyword)
 
-**Hindi meta description (150 characters)**
-क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं।
+**Hindi meta description (160 characters)**
+क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं।
 
 **English title options**
-1. Women Can Perform Shraddha: What the Scriptures Say (recommended, 51)
-2. Can Women Do Pind Daan? Why Women Can Perform Shraddha (54)
-3. Women Can Perform Shraddha and Pind Daan: Sita's Example (56; only after flag 3 is resolved)
+1. Can Women Perform Shraddha? What the Scriptures Say (recommended, 51)
+2. Women Can Perform Shraddha: What the Scriptures Say (51; the old recommendation, before the SEO fix)
+3. Can Women Do Pind Daan? Why Women Can Perform Shraddha (54)
+4. Women Can Perform Shraddha and Pind Daan: Sita's Example (56; only after flag 3 is resolved)
 
-**English meta description (155 characters)**
-Can women do shraddha and pind daan? Acharya Upendra Ji explains why women can perform shraddha, why it is not required of all, and what the ancestors ask.
+**English meta description (153 characters)**
+Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask.
 
 **Slugs**
-- Hindi: /hi/striyon-ko-shraddha-ka-adhikar
-- English: /en/women-can-perform-shraddha
+- Hindi: /hi/kya-striyan-shraddha-kar-sakti-hain
+- English: /en/can-women-perform-shraddha
 
 ## 4. Outline changes
 
@@ -119,7 +121,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/striyon-ko-shraddha-ka-adhikar/`, `/en/women-can-perform-shraddha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-striyan-shraddha-kar-sakti-hain/`, `/en/can-women-perform-shraddha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -136,10 +138,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं",
-      "alternativeHeadline": "स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं",
-      "description": "क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं।",
+      "alternativeHeadline": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं",
+      "description": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं।",
       "inLanguage": "hi",
-      "keywords": ["स्त्रियों को श्राद्ध का अधिकार", "क्या स्त्रियाँ श्राद्ध कर सकती हैं", "क्या महिलाएं पिंडदान कर सकती हैं", "बेटी श्राद्ध कर सकती है"],
+      "keywords": ["क्या स्त्रियाँ श्राद्ध कर सकती हैं", "स्त्रियों को श्राद्ध का अधिकार", "क्या महिलाएं पिंडदान कर सकती हैं", "बेटी श्राद्ध कर सकती है"],
       "about": [
         { "@type": "Thing", "name": "श्राद्ध" },
         { "@type": "Thing", "name": "पिंडदान" },
@@ -227,10 +229,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Can Women Perform Shraddha and Pind Daan?",
-      "alternativeHeadline": "Women Can Perform Shraddha: What the Scriptures Say",
-      "description": "Can women do shraddha and pind daan? Acharya Upendra Ji explains why women can perform shraddha, why it is not required of all, and what the ancestors ask.",
+      "alternativeHeadline": "Can Women Perform Shraddha? What the Scriptures Say",
+      "description": "Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask.",
       "inLanguage": "en",
-      "keywords": ["women can perform shraddha", "can women perform shraddha", "can women do pind daan", "can daughters perform shraddha"],
+      "keywords": ["can women perform shraddha", "women can perform shraddha", "can women do pind daan", "can daughters perform shraddha"],
       "about": [
         { "@type": "Thing", "name": "Shraddha" },
         { "@type": "Thing", "name": "Pind Daan" },
@@ -354,8 +356,8 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
 ```json
 {
   "title": {
-    "hi": "स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं",
-    "en": "Women Can Perform Shraddha: What the Scriptures Say"
+    "hi": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं",
+    "en": "Can Women Perform Shraddha? What the Scriptures Say"
   },
   "alt": {
     "hero.jpg": {
@@ -418,14 +420,14 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "striyon-ko-shraddha-ka-adhikar",
-      "focus_keyword": "स्त्रियों को श्राद्ध का अधिकार",
+      "slug": "kya-striyan-shraddha-kar-sakti-hain",
+      "focus_keyword": "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
       "secondary_keywords": [
-        "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
+        "स्त्रियों को श्राद्ध का अधिकार",
         "क्या महिलाएं पिंडदान कर सकती हैं",
         "बेटी श्राद्ध कर सकती है"
       ],
-      "meta_description": "क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं।",
+      "meta_description": "क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं।",
       "tags": [
         "श्राद्ध",
         "पिंडदान",
@@ -435,14 +437,14 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
       ]
     },
     "en": {
-      "slug": "women-can-perform-shraddha",
-      "focus_keyword": "women can perform shraddha",
+      "slug": "can-women-perform-shraddha",
+      "focus_keyword": "can women perform shraddha",
       "secondary_keywords": [
-        "can women perform shraddha",
+        "women can perform shraddha",
         "can women do pind daan",
         "can daughters perform shraddha"
       ],
-      "meta_description": "Can women do shraddha and pind daan? Acharya Upendra Ji explains why women can perform shraddha, why it is not required of all, and what the ancestors ask.",
+      "meta_description": "Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask.",
       "tags": [
         "Shraddha",
         "Pind Daan",
@@ -462,7 +464,7 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts, after the SEO fix)
 - [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 
@@ -471,7 +473,7 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred) — English yes; Hindi focus keyword appears only in the Key Takeaways, not in the first 100 words
+- [x] Within the first 100 words (preferred)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
