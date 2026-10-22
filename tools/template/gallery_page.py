@@ -256,7 +256,7 @@ def main():
     css = open(os.path.join(HERE, 'blog.css'), encoding='utf-8').read() + GALLERY_CSS
     # link to the SEO-optimized English gallery (seo_gallery_page.py), once it exists
     seo_link = ('<p class="seo-link"><a href="seo/index.html">'
-                + both({'hi': 'SEO-अनुकूलित ब्लॉग देखें (English) →', 'en': 'See the SEO-optimized blogs (English) →'})
+                + both({'hi': 'Astra थीम ब्लॉग देखें (English) →', 'en': 'See the Astra theme blogs (English) →'})
                 + '</a></p>') if os.path.exists(os.path.join(a.output, 'seo', 'index.html')) else ''
     # link to the original vs SEO-optimized comparison (seo_diff_page.py), once it exists
     seo_link += ('<p class="seo-link"><a href="seo-diff/index.html">'
