@@ -23,8 +23,8 @@ A short talk (video 4:53) in which Acharya Upendra Ji explains that every liquid
 | moon water and mind astrology | English | Informational | Low |
 
 Notes:
-- Focus keywords come from body wording: "Pranamaya Kosha" appears 3 times in the English body (paragraph and takeaway) and "प्राणमय कोश" 3 times in the Hindi body. Neither appears in the first 100 words; the first mention is in the section "अन्नमय कोश से ऊपर है प्राणमय कोश" / "The Pranamaya Kosha Stands Above the Annamaya Kosha".
-- Mismatch: the searched/video wording "water is your first medicine" / "जल आपकी पहली औषधि" appears only in the H1, which SureRank does not count as body. It is kept in secondary keywords. Adding it to the body is not recommended (health-claim risk, section 10).
+- Focus keywords come from body wording: "Pranamaya Kosha" appears 3 times in the English body (paragraph and takeaway) and "प्राणमय कोश" 3 times in the Hindi body. After the SEO fix (`_seo` texts), both appear in the first 100 words, in a short direct-answer paragraph added to the introduction, and in the question heading "प्राणमय कोश क्या है और अन्नमय कोश से ऊपर क्यों?" / "What Is the Pranamaya Kosha, and Why Is It Above the Annamaya Kosha?".
+- Mismatch: the searched/video wording "water is your first medicine" / "जल आपकी पहली औषधि" appears only in the H1, which SureRank does not count as body. It is kept in secondary keywords. Adding it to the body is not recommended (health-claim risk, section 10), so the SEO fix deliberately left it out; the focus keyword stays "प्राणमय कोश" / "Pranamaya Kosha".
 - "water and prana" / "जल और प्राण" are not worded that way in the body (the body says "प्राण के लिए जल आवश्यक है" / "Prana depends on it"); kept as secondary.
 - Hindi and English were chosen separately: Hindi searchers use "प्राणमय कोश" in yoga-study contexts and Hinglish "pranamaya kosh kya hai"; English searchers use "Pranamaya Kosha" with "meaning"/"what is". Both happen to centre on the same term because it is the talk's distinctive concept.
 - No other talk uses either focus keyword.
@@ -250,7 +250,7 @@ English:
 }
 ```
 
-Sources: dates from `git log` of the Hindi blog (oldest 2026-10-04 = published, newest 2026-10-09 = modified); video upload date (2025-04-07), duration (293 s) and title from yt-dlp. All `{{...}}` values are unknown until the posts exist in WordPress.
+Sources: dates from `git log` of the Hindi blog (oldest 2026-10-04 = published, newest 2026-10-09 = modified); video upload date (2025-04-07), duration (293 s) and title from yt-dlp. All `{{...}}` values are unknown until the posts exist in WordPress. `{{WORDPRESS_URL_HI}}` and `{{WORDPRESS_URL_EN}}` end in the slugs `/hi/pranamaya-kosh-jal-aur-pran/` and `/en/pranamaya-kosha-water-and-prana/`.
 
 WordPress (SureRank) mapping: SureRank generates BlogPosting/Article, Organization, Person (author) and BreadcrumbList itself from the post, the site settings and the category, using the title, meta description, featured image and dates WordPress already has. Enter by hand: the focus keyword, SEO title and meta description (from seo.json `wordpress`), the Organization logo and social profiles in the site settings if not already set, and the author name "Brahmarshi Acharya Upendra Ji". The VideoObject and the translationOfWork/workTranslation link are not generated automatically: add them as custom schema (or rely on the translation plugin's hreflang for the language pair), using the blocks above with the placeholders filled in.
 
@@ -401,7 +401,7 @@ The values written to `output/water_is_your_first_medicine/blog/seo.json`:
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred) (focus keyword first appears in the kosha section, not in the first 100 words of either language)
+- [x] Within the first 100 words (preferred)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
