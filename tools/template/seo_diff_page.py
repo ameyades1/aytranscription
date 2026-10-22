@@ -59,6 +59,10 @@ DIFF_CSS = """
             border-radius: 3px; }
 .diff ins, .legend ins { background: #c6e8c4; color: #164d14; text-decoration: none; border-radius: 3px; }
 .diff.only .same { display: none; }
+.blog-link { margin: 1.2rem 0 0; text-align: center; }
+.blog-link a { display: inline-block; font-size: .92rem; font-weight: 600; color: var(--accent); text-decoration: none;
+               padding: .45rem 1rem; border: 1px solid var(--rule); border-radius: 999px; background: #fff; }
+.blog-link a:hover { background: var(--panel); }
 .panel { margin: 1.2rem 0 0; border: 1px solid var(--rule); border-radius: .8rem; background: var(--paper); }
 .panel > summary { cursor: pointer; padding: .8rem 1rem; font-family: var(--serif); font-weight: 600; font-size: 1.05rem;
                    color: var(--ink-strong); }
@@ -325,6 +329,7 @@ DIFF_JS = """
   function show() {
     var name = blogSel.value, lang = langSel.value, sfx = lang === 'en' ? '_en' : '', me = ++run;
     history.replaceState(null, '', '#' + name + '/' + lang);
+    document.getElementById('blog-link').href = '../' + name + '/blog/index.html#' + lang;
     stats.textContent = 'Loading…';
     Promise.all([load('../' + name + '/' + name + '_blog' + sfx + '.txt'),
                  load('../' + name + '/' + name + '_blog_seo' + sfx + '.txt'),
@@ -434,6 +439,7 @@ def main():
 </div></section>
 
 <main class="wrap">
+  <p class="blog-link"><a id="blog-link" href="#" target="_blank" rel="noopener">Open the blog page ↗</a></p>
   <details class="panel" id="p-details" open><summary>SEO details</summary><div class="in" id="details"></div></details>
   <details class="panel" id="p-fix" open><summary>What the SEO fix changed</summary><div class="in" id="fix"></div></details>
   <p class="stats"></p>
