@@ -35,22 +35,24 @@ This is a seeker's testimony, not a discourse by Acharya Ji. Geeta Dangi describ
 ## 3. Titles and meta
 
 **Hindi**
-1. सब धर्मों का मूल स्रोत एक: एक साधिका का अनुभव (recommended, 45 characters)
+1. सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव (recommended, set by the SEO fix, 46 characters)
+   - Earlier recommendation: सब धर्मों का मूल स्रोत एक: एक साधिका का अनुभव
 2. सब धर्म एक समान: मन का छिपा भेदभाव कैसे मिटा
 3. गीता, बाइबल और सब धर्मों का एक तत्त्व
 
-Meta description (154 characters): सब धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।
+Meta description (recommended, set by the SEO fix, 155 characters): सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।
 
-Slug: /hi/sab-dharmon-ka-mool-srot
+Slug (recommended, set by the SEO fix): /hi/sabhi-dharmon-ka-mool-srot
 
 **English**
-1. Essence of All Religions: A Seeker's Story of One Source (recommended, 56 characters)
+1. Unity of All Religions: A Seeker's Story of One Source (recommended, set by the SEO fix, 54 characters)
+   - Earlier recommendation: Essence of All Religions: A Seeker's Story of One Source
 2. Are All Religions the Same? One Seeker's Inner Change
 3. The Gita, the Bible and the One Essence of All Faiths
 
-Meta description (149 characters): The essence of all religions is one: how seeker Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree.
+Meta description (recommended, set by the SEO fix, 148 characters): Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree.
 
-Slug: /en/essence-of-all-religions
+Slug (recommended, set by the SEO fix): /en/unity-of-all-religions
 
 The titles say "a seeker's story" so the reader knows this is a testimony; the H1 in the blog text stays as it is.
 
@@ -115,7 +117,7 @@ The speaker in the video is the seeker Geeta Dangi; the blog is published by the
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sab-dharmon-ka-mool-srot/`, `/en/essence-of-all-religions/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sabhi-dharmon-ka-mool-srot/`, `/en/unity-of-all-religions/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -132,12 +134,12 @@ The speaker in the video is the seeker Geeta Dangi; the blog is published by the
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "सब धर्मों का मूल स्रोत एक है",
-      "alternativeHeadline": "सब धर्मों का मूल स्रोत एक: एक साधिका का अनुभव",
-      "description": "सब धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।",
+      "alternativeHeadline": "सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव",
+      "description": "सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।",
       "inLanguage": "hi",
       "keywords": [
-        "सब धर्मों का मूल स्रोत",
         "सभी धर्मों का मूल स्रोत",
+        "सब धर्मों का मूल स्रोत",
         "सब धर्म एक समान हैं",
         "गीता और बाइबल में समानता",
         "सनातन धर्म सबसे प्राचीन धर्म"
@@ -280,12 +282,12 @@ The speaker in the video is the seeker Geeta Dangi; the blog is published by the
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "All Religions Spring from One Source",
-      "alternativeHeadline": "Essence of All Religions: A Seeker's Story of One Source",
-      "description": "The essence of all religions is one: how seeker Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree.",
+      "alternativeHeadline": "Unity of All Religions: A Seeker's Story of One Source",
+      "description": "Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree.",
       "inLanguage": "en",
       "keywords": [
-        "essence of all religions",
         "unity of all religions",
+        "essence of all religions",
         "are all religions the same",
         "Bhagavad Gita and Bible similarities",
         "Sanatana Dharma oldest religion"

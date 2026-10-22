@@ -42,4 +42,13 @@ Still unmet: none. `python3 tools/check_seo.py ultimate_source_learn_about_every
 | wordpress.en.secondary_keywords | unity of all religions, are all religions the same, Bhagavad Gita and Bible similarities, Sanatana Dharma oldest religion | essence of all religions, are all religions the same, Bhagavad Gita and Bible similarities, Sanatana Dharma oldest religion |
 | wordpress.en.meta_description | The essence of all religions is one: how seeker Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree. | Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree. (148 characters) |
 
-`links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report's sections 2, 11 and 12 were updated to match. Sections 3 and 8 still give the old titles and slugs.
+`links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report was updated to match: section 2 (keyword note), section 3 (the title, meta description and slug above are now the recommended ones), section 8 (schema alternativeHeadline, description, keywords and suggested URL slugs), section 11 (same JSON as seo.json) and section 12 (checklist marks).
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | sabhi-dharmon-ka-mool-srot | unity-of-all-religions |
+| focus keyword | सभी धर्मों का मूल स्रोत | unity of all religions |
+| title | सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव | Unity of All Religions: A Seeker's Story of One Source |
+| meta description | सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया। | Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree. |
