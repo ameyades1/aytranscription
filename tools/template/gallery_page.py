@@ -258,6 +258,11 @@ def main():
     seo_link = ('<p class="seo-link"><a href="seo/index.html">'
                 + both({'hi': 'SEO-अनुकूलित ब्लॉग देखें (English) →', 'en': 'See the SEO-optimized blogs (English) →'})
                 + '</a></p>') if os.path.exists(os.path.join(a.output, 'seo', 'index.html')) else ''
+    # link to the original vs SEO-optimized comparison (seo_diff_page.py), once it exists
+    seo_link += ('<p class="seo-link"><a href="seo-diff/index.html">'
+                 + both({'hi': 'मूल और SEO-अनुकूलित पाठ की तुलना करें →',
+                         'en': 'Compare original vs SEO-optimized text →'})
+                 + '</a></p>') if os.path.exists(os.path.join(a.output, 'seo-diff', 'index.html')) else ''
 
     page = f'''<!doctype html>
 <html lang="hi" data-titlehi="{UI['hi']['title']} | Antar Yog Foundation" data-titleen="{UI['en']['title']} | Antar Yog Foundation">
