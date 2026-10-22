@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है",
-    "en": "Love Without Accounting: Why a Mother's Bill Comes to Zero"
+    "hi": "प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है",
+    "en": "When Love Turns Into Control: A Mother's Bill of Zeros"
   },
   "alt": {
     "hero.jpg": {
@@ -69,15 +69,15 @@
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "bina-hisab-ka-prem",
-      "focus_keyword": "बिना हिसाब का प्रेम",
+      "slug": "prem-mein-apeksha",
+      "focus_keyword": "प्रेम में अपेक्षा",
       "secondary_keywords": [
-        "प्रेम में अपेक्षा",
+        "बिना हिसाब का प्रेम",
         "निःस्वार्थ प्रेम",
         "माँ का प्रेम",
         "मातृभाव"
       ],
-      "meta_description": "प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति।",
+      "meta_description": "प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।",
       "tags": [
         "गणेश सीरीज़",
         "निःस्वार्थ प्रेम",
@@ -87,15 +87,15 @@
       ]
     },
     "en": {
-      "slug": "love-without-accounting",
-      "focus_keyword": "love without accounting",
+      "slug": "when-love-turns-into-control",
+      "focus_keyword": "when love turns into control",
       "secondary_keywords": [
-        "when love turns into control",
+        "love without accounting",
         "love without expectation",
         "mother's love",
         "selfless love"
       ],
-      "meta_description": "When does love turn into control? Acharya Upendra Ji uses a mother's bill of zeros to explain love without accounting, the highest spiritual state.",
+      "meta_description": "When love turns into control, expectation has crept in. Acharya Upendra Ji uses a mother's bill of zeros to show what love without accounting is.",
       "tags": [
         "Ganesh Series",
         "Selfless Love",

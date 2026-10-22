@@ -13,48 +13,48 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| बिना हिसाब का प्रेम | Hindi | Emotional / informational | Medium (primary HI; the body's own phrase, in the first 100 words, little competition) |
-| प्रेम में अपेक्षा | Hindi | Emotional / life problem | High (the real search; not in the body word for word) |
+| बिना हिसाब का प्रेम | Hindi | Emotional / informational | Medium (secondary HI; the body's own phrase, in the first 100 words, little competition) |
+| प्रेम में अपेक्षा | Hindi | Emotional / life problem | High (primary HI; the real search; in the first 100 words of the `_seo` text) |
 | निःस्वार्थ प्रेम | Hindi | Informational | High (competitive; body has only "निःस्वार्थ स्थिति") |
 | माँ का प्रेम | Hindi | Informational / emotional | Medium (very broad; not in the body word for word) |
 | मातृभाव | Hindi | Informational | Low (the talk's own term) |
 | pyar control kab ban jata hai | Hinglish | Emotional | Low |
 | maa ka pyar nishwarth kyon | Hinglish | Informational | Low |
-| love without accounting | English | Emotional / informational | Medium (primary EN; the body's own phrase, in the first 100 words) |
-| when love turns into control | English | Emotional / navigational | High (the video title; not in the body word for word) |
+| love without accounting | English | Emotional / informational | Medium (secondary EN; the body's own phrase, in the first 100 words) |
+| when love turns into control | English | Emotional / navigational | High (primary EN; the video title; in the first 100 words of the `_seo` text) |
 | love without expectation | English | Emotional | High (competitive; not in the body word for word) |
 | mother's love | English | Informational | Medium (very broad; in the body once) |
 | selfless love | English | Informational | Medium (not in the body word for word) |
 | matribhava meaning | English | Informational | Low |
 | Acharya Upendra Ji mother's love | English | Navigational | Low |
 
-**Keyword mismatch (for the editor).** The phrases people actually search, "when love turns into control" / "प्रेम में अपेक्षा", "love without expectation", "selfless love" / "निःस्वार्थ प्रेम", do not appear word for word in the body. The body says "love slowly begins to turn into control" / "प्रेम धीरे-धीरे नियंत्रण ... में बदलने लगता है" and "love without accounting" / "बिना हिसाब का प्रेम". The focus keywords therefore use the body's own phrase (which SureRank can find), and the searched wordings are kept as secondary keywords. "mother's love" was considered for English, but its apostrophe can never match a slug, so SureRank's slug check would always fail. If the editor wants the searched wording as the focus keyword later, one natural sentence in the opening (for example "This is what happens when love turns into control.") would be enough; this is not done here.
+**Keyword mismatch (settled by the SEO fix).** The phrases people actually search, "when love turns into control" / "प्रेम में अपेक्षा", "love without expectation", "selfless love" / "निःस्वार्थ प्रेम", did not appear word for word in the original body, which says "love slowly begins to turn into control" / "प्रेम धीरे-धीरे नियंत्रण ... में बदलने लगता है" and "love without accounting" / "बिना हिसाब का प्रेम". The SEO-fixed texts (`when_love_turns_into_control_blog_seo.txt` / `_blog_seo_en.txt`, which are published) now use "प्रेम में अपेक्षा" / "when love turns into control" once in the second paragraph (within the first 100 words), and the section "जब अपेक्षा आती है" / "When Expectation Creeps In" is now headed "प्रेम नियंत्रण कब बन जाता है?" / "When Does Love Turn Into Control?". The focus keywords are therefore the searched wordings; "बिना हिसाब का प्रेम" / "love without accounting" move to the secondary keywords. "mother's love" was not used for English, because its apostrophe can never match a slug, so SureRank's slug check would always fail. "love without expectation" and "selfless love" / "निःस्वार्थ प्रेम" stay secondary and are still not in the body word for word.
 
-Hindi and English were chosen separately; both end up on the body's own phrase because it is the only search-like phrase both texts share in their first 100 words.
+Hindi and English were chosen separately: Hindi searchers phrase the problem as "प्रेम में अपेक्षा", English searchers use the video's own wording "when love turns into control".
 
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
 
 **Hindi title options (60 characters or fewer)**
-1. बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है (recommended, 57)
+1. प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है (recommended, 55)
 2. प्रेम कब नियंत्रण बन जाता है? माँ का शून्य बिल
-3. बिना हिसाब का प्रेम: मातृभाव से जगन्माता तक
+3. बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है
 
-**Hindi meta description (155 characters)**
-प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति।
+**Hindi meta description (157 characters)**
+प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।
 
-**Hindi slug:** `/hi/bina-hisab-ka-prem`
+**Hindi slug:** `/hi/prem-mein-apeksha`
 
 **English title options (60 characters or fewer)**
-1. Love Without Accounting: Why a Mother's Bill Comes to Zero (recommended, 58)
-2. When Love Turns Into Control: A Mother's Bill of Zeros
+1. When Love Turns Into Control: A Mother's Bill of Zeros (recommended, 54)
+2. Love Without Accounting: Why a Mother's Bill Comes to Zero
 3. Love Without Accounting: From a Mother to Jaganmata
 
-**English meta description (147 characters)**
-When does love turn into control? Acharya Upendra Ji uses a mother's bill of zeros to explain love without accounting, the highest spiritual state.
+**English meta description (145 characters)**
+When love turns into control, expectation has crept in. Acharya Upendra Ji uses a mother's bill of zeros to show what love without accounting is.
 
-**English slug:** `/en/love-without-accounting`
+**English slug:** `/en/when-love-turns-into-control`
 
 ## 4. Outline changes
 
@@ -116,7 +116,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bina-hisab-ka-prem/`, `/en/love-without-accounting/`).
+- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in seo.json (`/hi/prem-mein-apeksha/`, `/en/when-love-turns-into-control/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -131,12 +131,12 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{HI_URL}}#article",
+      "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/#article",
       "headline": "माँ का बिल हमेशा शून्य क्यों होता है",
-      "alternativeHeadline": "बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है",
-      "description": "प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति।",
+      "alternativeHeadline": "प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है",
+      "description": "प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।",
       "inLanguage": "hi",
-      "keywords": ["बिना हिसाब का प्रेम", "प्रेम में अपेक्षा", "निःस्वार्थ प्रेम", "माँ का प्रेम", "मातृभाव"],
+      "keywords": ["प्रेम में अपेक्षा", "बिना हिसाब का प्रेम", "निःस्वार्थ प्रेम", "माँ का प्रेम", "मातृभाव"],
       "about": [
         { "@type": "Thing", "name": "निःस्वार्थ प्रेम" },
         { "@type": "Thing", "name": "मातृभाव" },
@@ -151,10 +151,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "dateModified": "2026-10-08",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{HI_URL}}" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
-      "workTranslation": { "@id": "{{EN_URL}}#article" }
+      "workTranslation": { "@id": "{{SITE_URL}}/en/when-love-turns-into-control/#article" }
     },
     {
       "@type": "Person",
@@ -204,7 +204,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "माँ का बिल हमेशा शून्य क्यों होता है", "item": "{{HI_URL}}" }
+        { "@type": "ListItem", "position": 3, "name": "माँ का बिल हमेशा शून्य क्यों होता है", "item": "{{SITE_URL}}/hi/prem-mein-apeksha/" }
       ]
     }
   ]
@@ -221,12 +221,12 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{EN_URL}}#article",
+      "@id": "{{SITE_URL}}/en/when-love-turns-into-control/#article",
       "headline": "Why a Mother's Bill Always Comes to Zero",
-      "alternativeHeadline": "Love Without Accounting: Why a Mother's Bill Comes to Zero",
-      "description": "When does love turn into control? Acharya Upendra Ji uses a mother's bill of zeros to explain love without accounting, the highest spiritual state.",
+      "alternativeHeadline": "When Love Turns Into Control: A Mother's Bill of Zeros",
+      "description": "When love turns into control, expectation has crept in. Acharya Upendra Ji uses a mother's bill of zeros to show what love without accounting is.",
       "inLanguage": "en",
-      "keywords": ["love without accounting", "when love turns into control", "love without expectation", "mother's love", "selfless love"],
+      "keywords": ["when love turns into control", "love without accounting", "love without expectation", "mother's love", "selfless love"],
       "about": [
         { "@type": "Thing", "name": "Selfless love" },
         { "@type": "Thing", "name": "Matribhava" },
@@ -241,10 +241,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "dateModified": "2026-10-08",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{EN_URL}}" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/en/when-love-turns-into-control/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
-      "translationOfWork": { "@id": "{{HI_URL}}#article" }
+      "translationOfWork": { "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/#article" }
     },
     {
       "@type": "Person",
@@ -294,7 +294,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "Blog", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "Why a Mother's Bill Always Comes to Zero", "item": "{{EN_URL}}" }
+        { "@type": "ListItem", "position": 3, "name": "Why a Mother's Bill Always Comes to Zero", "item": "{{SITE_URL}}/en/when-love-turns-into-control/" }
       ]
     }
   ]
@@ -337,8 +337,8 @@ The values written to `output/when_love_turns_into_control/blog/seo.json` (the p
 ```json
 {
   "title": {
-    "hi": "बिना हिसाब का प्रेम: माँ का बिल हमेशा शून्य क्यों होता है",
-    "en": "Love Without Accounting: Why a Mother's Bill Comes to Zero"
+    "hi": "प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है",
+    "en": "When Love Turns Into Control: A Mother's Bill of Zeros"
   },
   "alt": {
     "hero.jpg": {
@@ -406,15 +406,15 @@ The values written to `output/when_love_turns_into_control/blog/seo.json` (the p
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "bina-hisab-ka-prem",
-      "focus_keyword": "बिना हिसाब का प्रेम",
+      "slug": "prem-mein-apeksha",
+      "focus_keyword": "प्रेम में अपेक्षा",
       "secondary_keywords": [
-        "प्रेम में अपेक्षा",
+        "बिना हिसाब का प्रेम",
         "निःस्वार्थ प्रेम",
         "माँ का प्रेम",
         "मातृभाव"
       ],
-      "meta_description": "प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति।",
+      "meta_description": "प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।",
       "tags": [
         "गणेश सीरीज़",
         "निःस्वार्थ प्रेम",
@@ -424,15 +424,15 @@ The values written to `output/when_love_turns_into_control/blog/seo.json` (the p
       ]
     },
     "en": {
-      "slug": "love-without-accounting",
-      "focus_keyword": "love without accounting",
+      "slug": "when-love-turns-into-control",
+      "focus_keyword": "when love turns into control",
       "secondary_keywords": [
-        "when love turns into control",
+        "love without accounting",
         "love without expectation",
         "mother's love",
         "selfless love"
       ],
-      "meta_description": "When does love turn into control? Acharya Upendra Ji uses a mother's bill of zeros to explain love without accounting, the highest spiritual state.",
+      "meta_description": "When love turns into control, expectation has crept in. Acharya Upendra Ji uses a mother's bill of zeros to show what love without accounting is.",
       "tags": [
         "Ganesh Series",
         "Selfless Love",
@@ -508,7 +508,7 @@ The values written to `output/when_love_turns_into_control/blog/seo.json` (the p
 
 ### Content trust
 - [x] Titles, metas and snippets faithful to the talk
-- [ ] No unsupported scriptural claims (the blog body says "the scriptures say" a mother who expects is no longer a good mother, with no source; flag 1, left for the editor because the blog text is not edited here)
+- [x] No unsupported scriptural claims (the `_seo` texts attribute "the day a mother starts expecting, she is no longer a good mother" to Acharya Ji, as the Sanskrit review corrects; flag 1)
 - [x] Health promises, fear-selling and attacks on other traditions flagged
 
 ### Not covered
