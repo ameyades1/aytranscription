@@ -23,6 +23,8 @@ A Valentine's Day talk that asks what love really is, and answers that most of w
 | hridaya meaning | English | Informational | Low (speaker's own reading, see flag 2) |
 | valentine's day spiritual meaning / वैलेंटाइन डे पर प्रेम | Both | Seasonal | Medium in Jan–Feb, Low otherwise |
 
+Keyword note (SEO fix): the original blog texts used neither focus keyword in the body ("सच्चा प्रेम क्या है" / "true meaning of love"; the intro only asks "प्रेम है क्या?" / "what love is?"). The `_seo` texts (`true_meaning_of_love_valentines_blog_seo.txt`, `_blog_seo_en.txt`) add a direct-answer paragraph after the intro that opens with "सच्चा प्रेम क्या है?" / "What is the true meaning of love?", so both focus keywords are now in the body and in the first 100 words. The H2 "एकतरफ़ा प्रेम, प्रेम ही नहीं" / "One-Sided Love Is Not Love" is now the question "क्या एकतरफ़ा प्रेम, प्रेम है?" / "Is One-Sided Love Really Love?". The meta descriptions now open with the focus keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,18 @@ A Valentine's Day talk that asks what love really is, and answers that most of w
 2. प्रेम क्या है और क्या नहीं: मोह, नियंत्रण या ईश्वर?
 3. प्रेम ही ईश्वर है: एकतरफ़ा प्रेम, प्रेम क्यों नहीं
 
-Meta description (143 chars): जिसे हम प्रेम कहते हैं, क्या वह सचमुच प्रेम है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।
+Meta description (116 chars) — **recommended**: सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।
 
-Slug: `/hi/sachcha-prem-kya-hai/`
+Slug — **recommended**: `/hi/sachcha-prem-kya-hai/`
 
 **English**
 1. True Meaning of Love: Love vs Attachment | Acharya Ji (53 chars) — **recommended**
 2. What Love Is, and What It Is Not: Love, Moh or Control?
 3. Love Is God: Why One-Sided Love Is Not Love
 
-Meta description (153 chars): Is what we call love really love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.
+Meta description (153 chars) — **recommended**: What is the true meaning of love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.
 
-Slug: `/en/true-meaning-of-love/`
+Slug — **recommended**: `/en/true-meaning-of-love/`
 
 ## 4. Outline changes
 
@@ -50,7 +52,7 @@ The H1 and the teaching stay as they are. Suggested heading tweaks for the edito
 - H2 "जिसे हम प्रेम कहते हैं, वह असल में क्या है?" / "What Do We Really Mean When We Say "Love"?" is already the core query; it could become "प्रेम और मोह में क्या अंतर है?" / "What Is the Difference Between Love and Attachment?" to match the secondary keyword, without changing the content.
 - H2 "एकतरफ़ा प्रेम, प्रेम ही नहीं" / "One-Sided Love Is Not Love" could be phrased as a question: "क्या एकतरफ़ा प्रेम, प्रेम है?" / "Is One-Sided Love Really Love?".
 - H2 "शादी करने से ईश्वर नहीं मिलता" / "Marriage Does Not Bring You to God": keep; it is a distinctive claim and is backed by Gita 7.19 in the text.
-- Consider adding the direct-answer paragraph (section 5) right after the intro, if the editor agrees.
+- Consider adding the direct-answer paragraph (section 5) right after the intro, if the editor agrees. (Done in the `_seo` texts.)
 - The H1 does not contain the focus keyword; the title tag carries it. The intro asks "क्या हम सचमुच जानते हैं कि प्रेम है क्या?" / "do we really know what love is?" within the first 100 words, which is close enough; no keyword stuffing is needed.
 
 ## 5. Direct answer paragraph
@@ -119,8 +121,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "प्रेम क्या है और क्या नहीं",
-      "alternativeHeadline": "सच्चा प्रेम क्या है? प्रेम और मोह का अंतर",
-      "description": "जिसे हम प्रेम कहते हैं, क्या वह सचमुच प्रेम है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।",
+      "alternativeHeadline": "सच्चा प्रेम क्या है? प्रेम और मोह का अंतर | आचार्य जी",
+      "description": "सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।",
       "inLanguage": "hi",
       "keywords": [
         "सच्चा प्रेम क्या है",
@@ -218,8 +220,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "What Love Is, and What It Is Not",
-      "alternativeHeadline": "True Meaning of Love: Love vs Attachment",
-      "description": "Is what we call love really love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.",
+      "alternativeHeadline": "True Meaning of Love: Love vs Attachment | Acharya Ji",
+      "description": "What is the true meaning of love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.",
       "inLanguage": "en",
       "keywords": [
         "true meaning of love",
@@ -424,7 +426,7 @@ The exact values written to `output/true_meaning_of_love_valentines/blog/seo.jso
         "प्रेम ही ईश्वर है",
         "sachcha pyar kya hai"
       ],
-      "meta_description": "जिसे हम प्रेम कहते हैं, क्या वह सचमुच प्रेम है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।",
+      "meta_description": "सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।",
       "tags": [
         "वैलेंटाइन डे",
         "मोह",
@@ -442,7 +444,7 @@ The exact values written to `output/true_meaning_of_love_valentines/blog/seo.jso
         "love is God",
         "what is love in Hinduism"
       ],
-      "meta_description": "Is what we call love really love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.",
+      "meta_description": "What is the true meaning of love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love.",
       "tags": [
         "Valentine's Day",
         "Attachment",
@@ -454,3 +456,73 @@ The exact values written to `output/true_meaning_of_love_valentines/blog/seo.jso
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts use both focus keywords in the body)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description (after the SEO fix: both meta descriptions now open with the focus keyword)
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (after the SEO fix: direct-answer paragraph in both `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("Pativrata" / "पतिव्रता" is used by only 2 posts so far; a tag choice, outside the text fix)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the body cites a Devi Purana / Swami Vivekananda claim that could not be traced, and quotes Gita 18.61 as a half verse without saying so; Sanskrit review issues 1 and 5, flags 1 and 5. Editorial corrections, outside the SEO fix; no SEO field repeats them)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
