@@ -23,6 +23,8 @@ A two-minute Valentine's Day talk about love without discernment. Acharya Ji tel
 | लक्ष्मी का शाप / Lakshmi curse asura | Both | Informational | Low (unsourced claim, see flag 2; do not target) |
 | valentine's day spiritual meaning / वैलेंटाइन डे पर प्रेम | Both | Seasonal | Medium in Jan–Feb, Low otherwise |
 
+Keyword note: the original blog bodies used neither focus keyword below the H1 (Hindi only in the H1; English "Can being too good also be a mistake?" is not "is being too good a bad thing"). The SEO fix (`_seo` texts) adds a short direct-answer paragraph after the intro in each language that opens with the searched question ("क्या ज़रूरत से ज़्यादा अच्छा होना गलत है?" / "Is being too good a bad thing?"), so both focus keywords now appear in the first 100 words; the English slug and meta description now carry the English focus keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,18 @@ A two-minute Valentine's Day talk about love without discernment. Acharya Ji tel
 2. बहुत अच्छा होना भी बुरा है: बिना विवेक का प्रेम
 3. क्या ज़्यादा भला होना गलत है? हृदय और विवेक का पाठ
 
-Meta description: क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।
+Meta description — **recommended**: क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।
 
-Slug: `/hi/zarurat-se-zyada-achha-hona/`
+Slug — **recommended**: `/hi/zarurat-se-zyada-achha-hona/`
 
 **English**
 1. Is Being Too Good a Bad Thing? Love Without Discernment (55 chars) — **recommended**
 2. Too Bad to Be Too Good: Why the Heart Needs Viveka
 3. Giving Your Heart to the Wrong Person | Acharya Ji
 
-Meta description (153 chars): Can being too good be a mistake? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.
+Meta description (151 chars) — **recommended**: Is being too good a bad thing? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.
 
-Slug: `/en/too-bad-to-be-too-good/`
+Slug — **recommended**: `/en/is-being-too-good-a-bad-thing/`
 
 ## 4. Outline changes
 
@@ -100,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/zarurat-se-zyada-achha-hona/`, `/en/too-bad-to-be-too-good/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/zarurat-se-zyada-achha-hona/`, `/en/is-being-too-good-a-bad-thing/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -117,7 +119,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है",
-      "alternativeHeadline": "ज़रूरत से ज़्यादा अच्छा होना भी गलत क्यों है",
+      "alternativeHeadline": "ज़रूरत से ज़्यादा अच्छा होना भी गलत क्यों है | आचार्य जी",
       "description": "क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।",
       "inLanguage": "hi",
       "keywords": [
@@ -217,7 +219,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Can Being Too Good Also Be a Mistake?",
       "alternativeHeadline": "Is Being Too Good a Bad Thing? Love Without Discernment",
-      "description": "Can being too good be a mistake? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.",
+      "description": "Is being too good a bad thing? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.",
       "inLanguage": "en",
       "keywords": [
         "is being too good a bad thing",
@@ -416,12 +418,82 @@ The exact values written to `output/too_bad_to_be_too_good_valentines/blog/seo.j
       "tags": ["वैलेंटाइन डे", "रजोगुण", "विवेक", "लक्ष्मी", "अंधश्रद्धा"]
     },
     "en": {
-      "slug": "too-bad-to-be-too-good",
+      "slug": "is-being-too-good-a-bad-thing",
       "focus_keyword": "is being too good a bad thing",
       "secondary_keywords": ["too bad to be too good meaning", "love without discernment", "giving your heart to the wrong person"],
-      "meta_description": "Can being too good be a mistake? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.",
+      "meta_description": "Is being too good a bad thing? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn.",
       "tags": ["Valentine's Day", "Rajas", "Viveka", "Lakshmi", "Blind Faith"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts use both focus keywords in the body)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (after the SEO fix: direct-answer paragraph in both `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the blog body states Lakshmi's curse as fact and calls Radha's husband an asura; Sanskrit review issues 1–2, flags 1–2. These are editorial corrections, outside the SEO fix; no SEO field repeats them)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
