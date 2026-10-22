@@ -36,22 +36,23 @@ Keyword notes:
 ## 3. Titles and meta
 
 **Hindi**
-1. कौन है वास्तविक गणेश? गणेश जन्म कथा का अर्थ (recommended, 43 characters)
-2. वास्तविक गणेश: पार्वती के मैल से जन्म का अर्थ
-3. वास्तविक गणेश कौन? जन्म कथा में छिपी विवेक बुद्धि
+1. असली गणेश कौन है? गणेश जन्म कथा का अर्थ (recommended, now in seo.json, 40 characters)
+2. कौन है वास्तविक गणेश? गणेश जन्म कथा का अर्थ (earlier recommendation)
+3. वास्तविक गणेश: पार्वती के मैल से जन्म का अर्थ
+4. वास्तविक गणेश कौन? जन्म कथा में छिपी विवेक बुद्धि
 
-Meta description (145 characters): कौन है वास्तविक गणेश? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।
+Meta description (recommended, now in seo.json, 141 characters): असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।
 
-Slug: `/hi/kaun-hai-vastavik-ganesh`
+Slug (recommended, now in seo.json): `/hi/asli-ganesh-kaun-hai` (earlier: `/hi/kaun-hai-vastavik-ganesh`)
 
 **English**
-1. Who Is the Real Ganesha? The Meaning of His Birth Story (recommended, 55 characters)
+1. Who Is the Real Ganesha? The Meaning of His Birth Story (recommended, now in seo.json, 55 characters)
 2. Who Is the Real Ganesha? Omkara, Discernment and Parvati
 3. Who Is the Real Ganesha? The Birth Story Decoded
 
-Meta description (152 characters): Who is the real Ganesha? Acharya Upendra Ji decodes the birth story: Parvati's bath, Shiva's return and the elephant head as discernment born within us.
+Meta description (recommended, now in seo.json, 152 characters): Who is the real Ganesha? Acharya Upendra Ji decodes the birth story: Parvati's bath, Shiva's return and the elephant head as discernment born within us.
 
-Slug: `/en/who-is-the-real-ganesha`
+Slug (recommended, now in seo.json): `/en/who-is-the-real-ganesha`
 
 The H1s ("कौन है वास्तविक गणेश" / "Who Is the Real Lord Ganesha?") stay unchanged; the title tags open with the focus keyword. The video title's "That No One Told You" is not reused: it borders on clickbait and the blog itself does not make that claim.
 
@@ -104,7 +105,7 @@ Related reading: hidden_meaning_behind_10_days_ganesh (Ganesh Chaturthi as the b
 
 Pillar: Gods and Devtas (category `deities`). Other Ganesh posts to link from later: durva_red_flowers_lord_ganesh_worship, worship_ganesh_every_year_but_understand (no seo.json yet), every_ganesh_idol_look_different.
 
-**Cannibalization:** ganesh_have_elephant_head_mouse targets "why Ganesha has an elephant head" / "गणेश जी का सिर हाथी का क्यों है". This post explains the elephant head too, but its narrower and better-matched query is the birth story's meaning, so it targets "who is the real Ganesha" / "वास्तविक गणेश" (with the birth story's meaning as secondary keywords) and uses the elephant head only as a secondary topic. hidden_meaning_behind_10_days_ganesh also speaks of Ganesha as discernment; it keeps the Ganesh Chaturthi query, and "Viveka" is a shared tag.
+**Cannibalization:** ganesh_have_elephant_head_mouse targets "why Ganesha has an elephant head" / "गणेश जी का सिर हाथी का क्यों है". This post explains the elephant head too, but its narrower and better-matched query is the birth story's meaning, so it targets "who is the real Ganesha" / "असली गणेश" (with the birth story's meaning as secondary keywords) and uses the elephant head only as a secondary topic. hidden_meaning_behind_10_days_ganesh also speaks of Ganesha as discernment; it keeps the Ganesh Chaturthi query, and "Viveka" is a shared tag.
 
 ## 8. Schema
 
@@ -116,7 +117,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaun-hai-vastavik-ganesh/`, `/en/who-is-the-real-ganesha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/asli-ganesh-kaun-hai/`, `/en/who-is-the-real-ganesha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -132,10 +133,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "कौन है वास्तविक गणेश",
-      "alternativeHeadline": "कौन है वास्तविक गणेश? गणेश जन्म कथा का अर्थ",
-      "description": "कौन है वास्तविक गणेश? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।",
+      "alternativeHeadline": "असली गणेश कौन है? गणेश जन्म कथा का अर्थ",
+      "description": "असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।",
       "inLanguage": "hi",
-      "keywords": ["वास्तविक गणेश", "असली गणेश कौन है", "गणेश जन्म कथा का रहस्य", "पार्वती के मैल से गणेश का जन्म", "गणेश और विवेक बुद्धि"],
+      "keywords": ["असली गणेश", "वास्तविक गणेश", "गणेश जन्म कथा का रहस्य", "पार्वती के मैल से गणेश का जन्म", "गणेश और विवेक बुद्धि"],
       "about": [
         { "@type": "Thing", "name": "गणेश" },
         { "@type": "Thing", "name": "विवेक" },

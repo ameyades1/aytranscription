@@ -29,7 +29,7 @@ Now met (added to section 12):
 
 All earlier checklist items remain met. Unmet: none. `python3 tools/check_seo.py truth_about_lord_ganesh` passes.
 
-Note: report section 3 still lists the earlier Hindi title, meta and slug (`/hi/kaun-hai-vastavik-ganesh`) and section 8's Hindi schema still uses the earlier keywords and description; this fix only updates sections 2, 11 and 12. The values in seo.json are the current ones.
+The report is in step with seo.json: section 2's keyword notes, section 3 (the Hindi title, meta description and slug now in seo.json marked as recommended; English unchanged and marked), section 7's cannibalization note ("असली गणेश"), section 8's Hindi schema (alternativeHeadline, description, keywords, suggested slug), section 11 and section 12.
 
 ## seo.json changes
 
@@ -43,3 +43,12 @@ Note: report section 3 still lists the earlier Hindi title, meta and slug (`/hi/
 | wordpress.en.slug | who-is-the-real-ganesha | who-is-the-real-ganesha (unchanged; already built from the unchanged focus keyword) |
 | wordpress.en (all fields) | unchanged | unchanged |
 | links, also_read | unchanged | unchanged |
+
+## Final seo.json values
+
+| Field | Hindi | English |
+|---|---|---|
+| slug | asli-ganesh-kaun-hai | who-is-the-real-ganesha |
+| focus_keyword | असली गणेश | who is the real Ganesha |
+| title | असली गणेश कौन है? गणेश जन्म कथा का अर्थ | Who Is the Real Ganesha? The Meaning of His Birth Story |
+| meta_description | असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं। | Who is the real Ganesha? Acharya Upendra Ji decodes the birth story: Parvati's bath, Shiva's return and the elephant head as discernment born within us. |
