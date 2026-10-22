@@ -27,9 +27,9 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | karta kaun hai / main karta hu ahankar | Hinglish | Informational | Low |
 
 **Keyword notes (body wording vs search wording):**
-- **Hindi:** focus keyword "असली कर्ता कौन है", the bold question in the opening paragraph (within the first 100 words). People usually type the verse number with Latin digits ("गीता 3.27"), while the body writes "३.२७" in Devanagari digits. SureRank will not match these, so "गीता 3.27" is only a secondary keyword. If wanted, the editor could add "3.27" once in Latin digits.
-- "कर्तापन का अहंकार" is a natural search phrase, but the body has only "कर्तापन के अहंकार" (takeaways). Kept as a secondary keyword.
-- **English:** focus keyword "who is the real doer", the bold question in the opening paragraph. "Bhagavad Gita 3.27" appears in the body as the verse reference and is a secondary keyword. "ego of doership" is in the takeaways. The transliterated verse search ("prakriteh kriyamanani") is spelled with IAST diacritics in the body (prakṛteḥ kriyamāṇāni); SureRank ignores accents, so it should still match.
+- **Hindi:** focus keyword "असली कर्ता कौन है", the bold question in the opening paragraph (within the first 100 words). People usually type the verse number with Latin digits ("गीता 3.27"), while the original body writes "३.२७" in Devanagari digits. The SEO copy (`_blog_seo.txt`) adds a direct answer paragraph right after the opening that uses "भगवद्गीता 3.27" once in Latin digits, so the searched "गीता 3.27" now appears in the first 100 words; it stays a secondary keyword. The verse reference itself keeps "३.२७".
+- "कर्तापन का अहंकार" is a natural search phrase; the original body has only "कर्तापन के अहंकार" (takeaways). The SEO copy's direct answer now uses "कर्तापन का अहंकार" once. Kept as a secondary keyword.
+- **English:** focus keyword "who is the real doer", the bold question in the opening paragraph. "Bhagavad Gita 3.27" appears in the body as the verse reference and is a secondary keyword. "ego of doership" is in the takeaways. The SEO copy (`_blog_seo_en.txt`) adds a direct answer paragraph after the opening that uses both "Bhagavad Gita 3.27" and "ego of doership" within the first 100 words. The transliterated verse search ("prakriteh kriyamanani") is spelled with IAST diacritics in the body (prakṛteḥ kriyamāṇāni); SureRank ignores accents, so it should still match.
 
 ## 3. Titles and meta
 
@@ -53,7 +53,7 @@ Who is the real doer of your actions? Acharya Upendra Ji explains Bhagavad Gita 
 - Hindi: /hi/asli-karta-kaun-hai-gita-3-27
 - English: /en/who-is-the-real-doer-gita-3-27
 
-The H1s ("कर्ता कौन है जब सब प्रकृति कर रही है" / "Who Is the Doer When Nature Does Everything?") stay as they are. The `<title>` tag is set separately.
+These recommended titles, meta descriptions and slugs are the ones in seo.json, used unchanged with the SEO copies of the texts. The H1s ("कर्ता कौन है जब सब प्रकृति कर रही है" / "Who Is the Doer When Nature Does Everything?") stay as they are. The `<title>` tag is set separately.
 
 ## 4. Outline changes
 
@@ -119,7 +119,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{HI_POST_URL}}#article",
+      "@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/#article",
       "headline": "कर्ता कौन है जब सब प्रकृति कर रही है",
       "alternativeHeadline": "असली कर्ता कौन है? गीता के अनुसार कर्म और अहंकार",
       "description": "असली कर्ता कौन है? आचार्य उपेंद्र जी भगवद्गीता ३.२७ से समझाते हैं कि सारे कर्म प्रकृति के गुणों से होते हैं, और 'मैं ही करता हूं' मानना अहंकार है।",
@@ -135,9 +135,9 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{HI_POST_URL}}"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/"},
       "video": {"@id": "https://www.youtube.com/watch?v=jkk__RZ8f2Y#video"},
-      "workTranslation": {"@id": "{{EN_POST_URL}}#article"}
+      "workTranslation": {"@id": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/#article"}
     },
     {
       "@type": "Person",
@@ -172,7 +172,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{HI_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "कर्म और भाग्य", "item": "{{HI_CATEGORY_KARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "कर्ता कौन है जब सब प्रकृति कर रही है", "item": "{{HI_POST_URL}}"}
+        {"@type": "ListItem", "position": 4, "name": "कर्ता कौन है जब सब प्रकृति कर रही है", "item": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/"}
       ]
     }
   ]
@@ -186,7 +186,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{EN_POST_URL}}#article",
+      "@id": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/#article",
       "headline": "Who Is the Doer When Nature Does Everything?",
       "alternativeHeadline": "Who Is the Real Doer? Bhagavad Gita 3.27 on Karma and Ego",
       "description": "Who is the real doer of your actions? Acharya Upendra Ji explains Bhagavad Gita 3.27: nature's qualities do every action, and 'I alone do it' is ego.",
@@ -202,9 +202,9 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{EN_POST_URL}}"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/"},
       "video": {"@id": "https://www.youtube.com/watch?v=jkk__RZ8f2Y#video"},
-      "translationOfWork": {"@id": "{{HI_POST_URL}}#article"}
+      "translationOfWork": {"@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/#article"}
     },
     {
       "@type": "Person",
@@ -239,7 +239,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": "{{EN_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "Karma & Destiny", "item": "{{EN_CATEGORY_KARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "Who Is the Doer When Nature Does Everything?", "item": "{{EN_POST_URL}}"}
+        {"@type": "ListItem", "position": 4, "name": "Who Is the Doer When Nature Does Everything?", "item": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/"}
       ]
     }
   ]
