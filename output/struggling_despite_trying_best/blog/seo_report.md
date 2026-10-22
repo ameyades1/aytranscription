@@ -24,6 +24,8 @@ Topic: why effort alone keeps leading to struggle. Acharya Ji says knowledge has
 | Bhagavad Gita 9.22 meaning | English | Informational | Medium |
 | Acharya Upendra Ji Karma Yog Series | English | Navigational | Low |
 
+Keyword note: the original blog texts used neither focus keyword in the body (only the Hindi H1 has "पूरी कोशिश के बाद भी संघर्ष क्यों", and the English never says "struggling despite trying your best", the video's own title). The SEO fix (`_blog_seo.txt` / `_blog_seo_en.txt`) adds a short direct answer after the opening that uses "पूरी कोशिश के बाद भी संघर्ष क्यों" / "struggling despite trying your best" within the first 100 words, so both focus keywords and slugs stay as they are. The English answer also asks "why are you still struggling", close to the searched "why am I still struggling".
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य", unchanged)
@@ -102,7 +104,7 @@ Cannibalization: `overcome_struggles_of_life` holds "जीवन के सं�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-09 (git history of the Hindi blog). Video: YouTube ID lzy0iom4NM0, uploaded 2024-08-06, 521 s, title from yt-dlp.
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-09 (git history of the Hindi blog). Video: YouTube ID lzy0iom4NM0, uploaded 2024-08-06, 521 s, title from yt-dlp. URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/poori-koshish-ke-baad-bhi-sangharsh-kyon/` and `/en/struggling-despite-trying-your-best/`.
 
 **Hindi**
 
@@ -361,3 +363,73 @@ The values written to `output/struggling_despite_trying_best/blog/seo.json`:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("कर्म योग सीरीज़" / "Karma Yog Series" is used by this post only so far)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (mostly met: the SEO fix applies the review's flags 1, 2, 3 and 5 as attributions to Acharya Ji; flags 4 and 6 touch a verse reference and verse transliteration, which the SEO fix may not change, and "अनेक श्लोकों में यह परखा जा चुका है" / "Shloka after shloka" still cites no verse)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
