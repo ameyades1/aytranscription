@@ -1,6 +1,6 @@
 {
   "title": {
-    "hi": "अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता",
+    "hi": "सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें",
     "en": "Why Satsang Does Not Change Your Life: Be a Good Listener"
   },
   "alt": {
@@ -69,15 +69,15 @@
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "satsang-aur-achha-shrota",
-      "focus_keyword": "अच्छा श्रोता",
+      "slug": "satsang-se-jeevan-kyon-nahi-badalta",
+      "focus_keyword": "सत्संग से जीवन क्यों नहीं बदलता",
       "secondary_keywords": [
+        "अच्छा श्रोता",
         "सत्संग का अर्थ",
         "सत्संग का पहला विघ्न",
-        "सत्संग से जीवन क्यों नहीं बदलता",
         "satsang ka labh kyon nahi milta"
       ],
-      "meta_description": "सत्संग सुनकर भी जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
+      "meta_description": "सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
       "tags": [
         "सत्संग",
         "अहंकार",
@@ -86,14 +86,14 @@
     },
     "en": {
       "slug": "why-satsang-does-not-change-your-life",
-      "focus_keyword": "satsang",
+      "focus_keyword": "why satsang does not change your life",
       "secondary_keywords": [
         "how to be a good listener in satsang",
         "first obstacle in satsang",
         "why spiritual discourses do not change me",
         "what is satsang"
       ],
-      "meta_description": "Why does satsang leave you unchanged? Acharya Upendra Ji explains how a good listener applies every word to themselves, not to the faults of others.",
+      "meta_description": "Here is why satsang does not change your life: Acharya Upendra Ji explains how a good listener applies every word to themselves, not to others' faults.",
       "tags": [
         "Satsang",
         "Ego",

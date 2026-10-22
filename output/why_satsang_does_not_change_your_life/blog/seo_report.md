@@ -8,14 +8,14 @@ A short discourse (3:21) on why years of satsang can leave a seeker unchanged. A
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| अच्छा श्रोता | Hindi | Informational / self-reflection | High (primary) |
-| सत्संग से जीवन क्यों नहीं बदलता | Hindi | Emotional / life problem | High |
+| सत्संग से जीवन क्यों नहीं बदलता | Hindi | Emotional / life problem | High (primary) |
+| अच्छा श्रोता | Hindi | Informational / self-reflection | High |
 | सत्संग का अर्थ | Hindi | Informational | Medium |
 | सत्संग का पहला विघ्न | Hindi | Informational | Low |
 | satsang ka labh kyon nahi milta | Hinglish | Emotional / life problem | Medium |
 | satsang kaise sune | Hinglish | Practical | Low |
-| satsang | English | Informational | High (primary) |
-| why satsang does not change your life | English | Emotional / navigational (video title) | High |
+| why satsang does not change your life | English | Emotional / navigational (video title) | High (primary) |
+| satsang | English | Informational | High |
 | how to be a good listener in satsang | English | Practical | Medium |
 | first obstacle in satsang | English | Informational | Low |
 | why spiritual discourses do not change me | English | Emotional / life problem | Medium |
@@ -23,29 +23,29 @@ A short discourse (3:21) on why years of satsang can leave a seeker unchanged. A
 | Acharya Upendra Ji satsang | English | Navigational | Low |
 
 Notes:
-- Hindi focus "अच्छा श्रोता" appears in the body three times, first in the H2 "अच्छा श्रोता कौन है?" within the first 100 words. The searched wording "सत्संग से जीवन क्यों नहीं बदलता" is not in the body (the H1 says "सत्संग आपका जीवन क्यों नहीं बदलता", and the H1 does not count), so it is a secondary keyword. Mismatch flagged: if wanted, the intro could use that phrase once.
-- English focus "satsang" appears in the first sentence ("satsangs" in the question; "satsang" in "Satsang (the company of truth)" and five more times). "good listener" was considered, but that query is dominated by communication-skills content with a different intent. "why satsang does not change your life" is in the H1 only, not the body, so it stays in the title and slug, not as the focus keyword.
+- Hindi focus "सत्संग से जीवन क्यों नहीं बदलता": the searched wording. The original body did not use it (the H1 says "सत्संग आपका जीवन क्यों नहीं बदलता"); the SEO fix (`_blog_seo.txt`) uses it once in the direct-answer paragraph after the intro, within the first 100 words. "अच्छा श्रोता" (in the body three times) is now a secondary keyword.
+- English focus "why satsang does not change your life": the searched wording (also the video title). The original body had it in the H1 only; the SEO fix (`_blog_seo_en.txt`) uses it once in the direct-answer paragraph after the intro, within the first 100 words. The head term "satsang" is contained in it and appears throughout the body. "good listener" was considered, but that query is dominated by communication-skills content with a different intent.
 - "first obstacle in satsang" / "सत्संग का पहला विघ्न" are exact body phrases (Key Takeaways), low volume but precise.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता (recommended, 49 characters)
-2. सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें
+1. सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें (recommended, in seo.json, 50 characters)
+2. अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता
 3. सत्संग का पहला विघ्न: अच्छा श्रोता कैसे बनें
 
-Meta description (141 characters): सत्संग सुनकर भी जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।
+Meta description (recommended, in seo.json, 135 characters): सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।
 
-Slug: `/hi/satsang-aur-achha-shrota`
+Slug (recommended, in seo.json): `/hi/satsang-se-jeevan-kyon-nahi-badalta`
 
 **English**
-1. Why Satsang Does Not Change Your Life: Be a Good Listener (recommended, 57 characters)
+1. Why Satsang Does Not Change Your Life: Be a Good Listener (recommended, in seo.json, 57 characters)
 2. Satsang Is Meant for You, Not Your Neighbour
 3. The First Obstacle in Satsang: Listening for Others
 
-Meta description (148 characters): Why does satsang leave you unchanged? Acharya Upendra Ji explains how a good listener applies every word to themselves, not to the faults of others.
+Meta description (recommended, in seo.json, 151 characters): Here is why satsang does not change your life: Acharya Upendra Ji explains how a good listener applies every word to themselves, not to others' faults.
 
-Slug: `/en/why-satsang-does-not-change-your-life`
+Slug (recommended, in seo.json): `/en/why-satsang-does-not-change-your-life`
 
 ## 4. Outline changes
 
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/satsang-aur-achha-shrota/`, `/en/why-satsang-does-not-change-your-life/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/satsang-se-jeevan-kyon-nahi-badalta/`, `/en/why-satsang-does-not-change-your-life/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -119,14 +119,14 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "सत्संग आपका जीवन क्यों नहीं बदलता",
-      "alternativeHeadline": "अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता",
-      "description": "सत्संग सुनकर भी जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
+      "alternativeHeadline": "सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें",
+      "description": "सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
       "inLanguage": "hi",
       "keywords": [
+        "सत्संग से जीवन क्यों नहीं बदलता",
         "अच्छा श्रोता",
         "सत्संग का अर्थ",
         "सत्संग का पहला विघ्न",
-        "सत्संग से जीवन क्यों नहीं बदलता",
         "satsang ka labh kyon nahi milta"
       ],
       "about": [
@@ -264,10 +264,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why Satsang Does Not Change Your Life",
       "alternativeHeadline": "Why Satsang Does Not Change Your Life: Be a Good Listener",
-      "description": "Why does satsang leave you unchanged? Acharya Upendra Ji explains how a good listener applies every word to themselves, not to the faults of others.",
+      "description": "Here is why satsang does not change your life: Acharya Upendra Ji explains how a good listener applies every word to themselves, not to others' faults.",
       "inLanguage": "en",
       "keywords": [
-        "satsang",
+        "why satsang does not change your life",
         "how to be a good listener in satsang",
         "first obstacle in satsang",
         "why spiritual discourses do not change me",
@@ -426,7 +426,7 @@ The exact values written to `output/why_satsang_does_not_change_your_life/blog/s
 ```json
 {
   "title": {
-    "hi": "अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता",
+    "hi": "सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें",
     "en": "Why Satsang Does Not Change Your Life: Be a Good Listener"
   },
   "alt": {
@@ -495,15 +495,15 @@ The exact values written to `output/why_satsang_does_not_change_your_life/blog/s
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "satsang-aur-achha-shrota",
-      "focus_keyword": "अच्छा श्रोता",
+      "slug": "satsang-se-jeevan-kyon-nahi-badalta",
+      "focus_keyword": "सत्संग से जीवन क्यों नहीं बदलता",
       "secondary_keywords": [
+        "अच्छा श्रोता",
         "सत्संग का अर्थ",
         "सत्संग का पहला विघ्न",
-        "सत्संग से जीवन क्यों नहीं बदलता",
         "satsang ka labh kyon nahi milta"
       ],
-      "meta_description": "सत्संग सुनकर भी जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
+      "meta_description": "सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।",
       "tags": [
         "सत्संग",
         "अहंकार",
@@ -512,14 +512,14 @@ The exact values written to `output/why_satsang_does_not_change_your_life/blog/s
     },
     "en": {
       "slug": "why-satsang-does-not-change-your-life",
-      "focus_keyword": "satsang",
+      "focus_keyword": "why satsang does not change your life",
       "secondary_keywords": [
         "how to be a good listener in satsang",
         "first obstacle in satsang",
         "why spiritual discourses do not change me",
         "what is satsang"
       ],
-      "meta_description": "Why does satsang leave you unchanged? Acharya Upendra Ji explains how a good listener applies every word to themselves, not to the faults of others.",
+      "meta_description": "Here is why satsang does not change your life: Acharya Upendra Ji explains how a good listener applies every word to themselves, not to others' faults.",
       "tags": [
         "Satsang",
         "Ego",
