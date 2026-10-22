@@ -26,6 +26,8 @@ A short talk on what wealth really is. Acharya Ji reverses the common belief tha
 | true wealth in Hinduism | English | Informational | Low |
 | what is true wealth according to Bhagavad Gita | English | Informational | Low (the blog cites Gita 3.42 for the hierarchy of senses, mind, intellect and Self, not as a definition of wealth; see section 10) |
 
+Keyword note: the searched wording and the body wording match, so the focus keywords stay "सच्चा धन क्या है" and "what is true wealth". In the original blog texts they appear only in the H1, which SureRank does not count. The SEO copies (`true_wealth_money_health_respect_or_blog_seo.txt`, `true_wealth_money_health_respect_or_blog_seo_en.txt`), which are what gets published, open with a direct-answer paragraph that uses each focus keyword word for word in the first 100 words.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -99,6 +101,8 @@ FAQ 4 deliberately avoids "whenever he wished" (see section 10, flag 2).
 ## 8. Schema
 
 For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-08 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2026-10-01, 103 seconds.
+
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-dhan-kya-hai/`, `/en/what-is-true-wealth/`).
 
 ### Hindi
 
@@ -547,3 +551,75 @@ The exact seo.json written for the page generator and WordPress.
   }
 }
 ```
+
+## 12. SEO checklist
+
+Marked for the SEO copies (`true_wealth_money_health_respect_or_blog_seo.txt`, `true_wealth_money_health_respect_or_blog_seo_en.txt`), which are what gets published.
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the body still says Adi Shankaracharya brought a shower of gold "whenever he wished" (section 10, flag 2), and the Hindi meaning of Gita 3.42 drops its first clause (flag 1). These are content corrections for the editor, not SEO fixes.
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
