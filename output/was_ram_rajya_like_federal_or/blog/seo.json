@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "राम राज्य संघीय था या एकात्मक? शासन का सूत्र",
-    "en": "Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains"
+    "hi": "राम राज्य कैसा था? संघीय या एकात्मक शासन",
+    "en": "Was Ram Rajya Federal or Unitary? Acharya Ji Explains"
   },
   "alt": {
     "hero.jpg": {
@@ -69,15 +69,15 @@
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "ram-rajya-sanghiya-ya-ekatmak",
-      "focus_keyword": "राम राज्य",
+      "slug": "ram-rajya-kaisa-tha",
+      "focus_keyword": "राम राज्य कैसा था",
       "secondary_keywords": [
-        "राम राज्य कैसा था",
+        "राम राज्य",
         "राम राज्य का सूत्र",
         "संघीय शासन",
         "एकात्मक व्यवस्था"
       ],
-      "meta_description": "राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
+      "meta_description": "राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
       "tags": [
         "श्री राम",
         "सुशासन",
@@ -87,13 +87,13 @@
       ]
     },
     "en": {
-      "slug": "ram-rajya-federal-or-unitary",
-      "focus_keyword": "Ram Rajya",
+      "slug": "was-ram-rajya-federal-or-unitary",
+      "focus_keyword": "was Ram Rajya federal or unitary",
       "secondary_keywords": [
-        "was Ram Rajya federal or unitary",
+        "Ram Rajya",
+        "how to bring Ram Rajya",
         "federal government",
-        "unitary system",
-        "how to bring Ram Rajya"
+        "unitary system"
       ],
       "meta_description": "Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.",
       "tags": [

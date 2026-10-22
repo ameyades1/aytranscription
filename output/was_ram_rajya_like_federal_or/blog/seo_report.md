@@ -8,24 +8,24 @@ A short Independence Day discourse (video uploaded 2026-08-15, 6:32, "राम 
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| राम राज्य | Hindi | Informational | High (focus) |
-| राम राज्य कैसा था | Hindi | Informational | High |
+| राम राज्य | Hindi | Informational | High |
+| राम राज्य कैसा था | Hindi | Informational | High (focus) |
 | राम राज्य का सूत्र | Hindi | Informational | Medium |
 | संघीय शासन | Hindi | Informational | Medium |
 | एकात्मक व्यवस्था | Hindi | Informational | Medium |
 | संघीय और एकात्मक शासन में अंतर | Hindi | Informational | Low |
 | ram rajya kaisa tha | Hinglish | Informational | Medium |
 | ram rajya kaise aayega | Hinglish | Informational | Medium |
-| Ram Rajya | English | Informational | High (focus) |
-| was Ram Rajya federal or unitary | English | Informational | Medium |
+| Ram Rajya | English | Informational | High |
+| was Ram Rajya federal or unitary | English | Informational | Medium (focus) |
 | how to bring Ram Rajya | English | Informational | Medium |
 | federal government | English | Informational | Low (generic; supporting only) |
 | unitary system | English | Informational | Low (generic; supporting only) |
 | Acharya Upendra Ji Ram Rajya | English | Navigational | Low |
 
-Focus keywords: "राम राज्य" occurs 7 times in the Hindi body and "Ram Rajya" 7 times in the English body, both in the first paragraph. No other talk targets either.
+Focus keywords: "राम राज्य कैसा था" (Hindi) and "was Ram Rajya federal or unitary" (English). No other talk targets either.
 
-Keyword mismatch: the video title and the most natural Hindi query are "राम राज्य कैसा था"; the body never uses that exact wording, so it is a secondary keyword only. Likewise "was Ram Rajya federal or unitary" appears only in the English H1 (which SureRank does not count), not in the body. If the editor wants these as focus keywords later, a body sentence such as "तो राम राज्य कैसा था: संघीय या एकात्मक?" / "So was Ram Rajya federal or unitary?" would be needed.
+Keyword mismatch (resolved by the SEO fix): the video title and the most natural Hindi query are "राम राज्य कैसा था", and the English question "was Ram Rajya federal or unitary" appeared only in the H1 (which SureRank does not count); the original bodies used neither. The `_seo` texts (`was_ram_rajya_like_federal_or_blog_seo.txt`, `_blog_seo_en.txt`) now open with a short direct answer that begins "तो राम राज्य कैसा था?" / "So was Ram Rajya federal or unitary?", and one H2 per language asks "राम राज्य कैसा था?" / "What Was Ram Rajya Like?". The searched wording is therefore the focus keyword; "राम राज्य" / "Ram Rajya" (7 times in each body, both in the first paragraph) moves to the secondary keywords. See `seo_fix.md`.
 
 Deliberately not targeted: "Hindu Rashtra", "one nation one election", party names, and "federalism in India" as an academic or civics query. These would draw political traffic or promise constitutional analysis the post does not give (flag 4).
 
@@ -33,23 +33,25 @@ Deliberately not targeted: "Hindu Rashtra", "one nation one election", party nam
 
 **Hindi**
 
-1. राम राज्य संघीय था या एकात्मक? शासन का सूत्र (recommended, 44 characters)
-2. राम राज्य कैसे आएगा? शरणागति और स्थानीय सेवा
-3. राम राज्य कैसा था: एक हाथ, एक आवाज़
+1. राम राज्य कैसा था? संघीय या एकात्मक शासन (recommended, 40 characters; in seo.json)
+2. राम राज्य संघीय था या एकात्मक? शासन का सूत्र
+3. राम राज्य कैसे आएगा? शरणागति और स्थानीय सेवा
+4. राम राज्य कैसा था: एक हाथ, एक आवाज़
 
-Meta description (158 characters): राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।
+Meta description (recommended, 160 characters; in seo.json): राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।
 
-Slug: `/hi/ram-rajya-sanghiya-ya-ekatmak`
+Slug (recommended; in seo.json): `/hi/ram-rajya-kaisa-tha`
 
 **English**
 
-1. Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains (recommended, 55 characters)
-2. Was Ram Rajya Federal or Unitary? The Formula for Ram Rajya
-3. Why Ram Rajya Needs One Voice at the Centre
+1. Was Ram Rajya Federal or Unitary? Acharya Ji Explains (recommended, 53 characters; in seo.json)
+2. Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains
+3. Was Ram Rajya Federal or Unitary? The Formula for Ram Rajya
+4. Why Ram Rajya Needs One Voice at the Centre
 
-Meta description (154 characters): Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.
+Meta description (recommended, 154 characters; in seo.json): Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.
 
-Slug: `/en/ram-rajya-federal-or-unitary`
+Slug (recommended; in seo.json): `/en/was-ram-rajya-federal-or-unitary`
 
 ## 4. Outline changes
 
@@ -111,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 
 **Placeholders to fill once the WordPress posts exist**
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ram-rajya-sanghiya-ya-ekatmak/`, `/en/ram-rajya-federal-or-unitary/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ram-rajya-kaisa-tha/`, `/en/was-ram-rajya-federal-or-unitary/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -128,10 +130,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "राम राज्य संघीय था या एकात्मक",
-      "alternativeHeadline": "राम राज्य संघीय था या एकात्मक? शासन का सूत्र",
-      "description": "राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
+      "alternativeHeadline": "राम राज्य कैसा था? संघीय या एकात्मक शासन",
+      "description": "राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
       "inLanguage": "hi",
-      "keywords": ["राम राज्य", "राम राज्य कैसा था", "राम राज्य का सूत्र", "संघीय शासन", "एकात्मक व्यवस्था"],
+      "keywords": ["राम राज्य कैसा था", "राम राज्य", "राम राज्य का सूत्र", "संघीय शासन", "एकात्मक व्यवस्था"],
       "about": [
         { "@type": "Thing", "name": "राम राज्य" },
         { "@type": "Thing", "name": "सुशासन" },
@@ -217,10 +219,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "Was Ram Rajya Federal or Unitary?",
-      "alternativeHeadline": "Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains",
+      "alternativeHeadline": "Was Ram Rajya Federal or Unitary? Acharya Ji Explains",
       "description": "Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.",
       "inLanguage": "en",
-      "keywords": ["Ram Rajya", "was Ram Rajya federal or unitary", "federal government", "unitary system", "how to bring Ram Rajya"],
+      "keywords": ["was Ram Rajya federal or unitary", "Ram Rajya", "how to bring Ram Rajya", "federal government", "unitary system"],
       "about": [
         { "@type": "Thing", "name": "Ram Rajya" },
         { "@type": "Thing", "name": "Good governance" },
@@ -330,8 +332,8 @@ The exact values written to `output/was_ram_rajya_like_federal_or/blog/seo.json`
 ```json
 {
   "title": {
-    "hi": "राम राज्य संघीय था या एकात्मक? शासन का सूत्र",
-    "en": "Ram Rajya: Federal or Unitary Rule? Acharya Ji Explains"
+    "hi": "राम राज्य कैसा था? संघीय या एकात्मक शासन",
+    "en": "Was Ram Rajya Federal or Unitary? Acharya Ji Explains"
   },
   "alt": {
     "hero.jpg": {
@@ -399,15 +401,15 @@ The exact values written to `output/was_ram_rajya_like_federal_or/blog/seo.json`
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "ram-rajya-sanghiya-ya-ekatmak",
-      "focus_keyword": "राम राज्य",
+      "slug": "ram-rajya-kaisa-tha",
+      "focus_keyword": "राम राज्य कैसा था",
       "secondary_keywords": [
-        "राम राज्य कैसा था",
+        "राम राज्य",
         "राम राज्य का सूत्र",
         "संघीय शासन",
         "एकात्मक व्यवस्था"
       ],
-      "meta_description": "राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
+      "meta_description": "राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।",
       "tags": [
         "श्री राम",
         "सुशासन",
@@ -417,13 +419,13 @@ The exact values written to `output/was_ram_rajya_like_federal_or/blog/seo.json`
       ]
     },
     "en": {
-      "slug": "ram-rajya-federal-or-unitary",
-      "focus_keyword": "Ram Rajya",
+      "slug": "was-ram-rajya-federal-or-unitary",
+      "focus_keyword": "was Ram Rajya federal or unitary",
       "secondary_keywords": [
-        "was Ram Rajya federal or unitary",
+        "Ram Rajya",
+        "how to bring Ram Rajya",
         "federal government",
-        "unitary system",
-        "how to bring Ram Rajya"
+        "unitary system"
       ],
       "meta_description": "Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key.",
       "tags": [
