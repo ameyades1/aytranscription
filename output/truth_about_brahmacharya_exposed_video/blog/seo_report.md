@@ -23,6 +23,8 @@ A nine-minute discourse (9:02) in which Acharya Upendra Ji challenges two common
 | Shankaracharya Mandana Mishra debate | English | Informational | Low |
 | brahmacharya benefits / semen retention | English | Health claim | Low (do not target; the talk makes no health claims) |
 
+Keyword note: the original blog texts used neither focus keyword word for word (the Hindi body never says "ब्रह्मचर्य का असली अर्थ"; the English says "what brahmacharya ... really means", not "what is brahmacharya"). The SEO fix (`_seo` texts, see `seo_fix.md`) adds a short direct-answer paragraph after the introduction that uses each focus keyword in the first 100 words, and rephrases one heading as the question "ब्रह्मचर्य की पहचान कैसे करें?" / "How Do You Recognise True Brahmacharya?". No other searched wording differs from the body.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -30,18 +32,18 @@ A nine-minute discourse (9:02) in which Acharya Upendra Ji challenges two common
 2. ब्रह्मचर्य क्या है? क्या गृहस्थ भी ब्रह्मचारी है
 3. ब्रह्मचर्य का सच: भगवा नहीं, फल से पहचान
 
-Meta description (146 characters): क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।
+Meta description (146 characters, recommended): क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।
 
-Slug: `/hi/brahmacharya-ka-asli-arth`
+Slug (recommended): `/hi/brahmacharya-ka-asli-arth`
 
 **English**
 1. What Is Brahmacharya? The Truth No One Tells | Acharya Ji (recommended, 57 characters)
 2. Can a Married Person Practise Brahmacharya?
 3. True Meaning of Brahmacharya: Not Saffron, but Its Fruits
 
-Meta description (150 characters): Is marriage a spiritual step down? Acharya Upendra Ji explains what brahmacharya truly means, why kama is a purushartha, and how true restraint shows.
+Meta description (146 characters, recommended): What is brahmacharya? Acharya Upendra Ji explains why marriage is no spiritual step down, why kama is a purushartha, and how true restraint shows.
 
-Slug: `/en/what-is-brahmacharya`
+Slug (recommended): `/en/what-is-brahmacharya`
 
 ## 4. Outline changes
 
@@ -125,7 +127,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "ब्रह्मचर्य का सच जो कोई नहीं बताता",
-      "alternativeHeadline": "ब्रह्मचर्य का असली अर्थ: विवाह, काम और संयम",
+      "alternativeHeadline": "ब्रह्मचर्य का असली अर्थ: विवाह, काम और संयम | आचार्य जी",
       "description": "क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।",
       "inLanguage": "hi",
       "keywords": [
@@ -277,8 +279,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "The Truth About Brahmacharya That No One Tells You",
-      "alternativeHeadline": "What Is Brahmacharya? The Truth No One Tells",
-      "description": "Is marriage a spiritual step down? Acharya Upendra Ji explains what brahmacharya truly means, why kama is a purushartha, and how true restraint shows.",
+      "alternativeHeadline": "What Is Brahmacharya? The Truth No One Tells | Acharya Ji",
+      "description": "What is brahmacharya? Acharya Upendra Ji explains why marriage is no spiritual step down, why kama is a purushartha, and how true restraint shows.",
       "inLanguage": "en",
       "keywords": [
         "what is brahmacharya",
@@ -509,9 +511,79 @@ The exact values written to `output/truth_about_brahmacharya_exposed_video/blog/
       "slug": "what-is-brahmacharya",
       "focus_keyword": "what is brahmacharya",
       "secondary_keywords": ["true meaning of brahmacharya", "can a married person practice brahmacharya", "brahmacharya in marriage", "signs of brahmacharya"],
-      "meta_description": "Is marriage a spiritual step down? Acharya Upendra Ji explains what brahmacharya truly means, why kama is a purushartha, and how true restraint shows.",
+      "meta_description": "What is brahmacharya? Acharya Upendra Ji explains why marriage is no spiritual step down, why kama is a purushartha, and how true restraint shows.",
       "tags": ["Brahmacharya", "Purusharthas", "Marriage", "Bhagavad Gita", "Adi Shankaracharya"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the blog still carries the Sanskrit review's open issues, for example the gopis passage, "every avatar was married" and "Krishna names four purusharthas"; see section 10. These are content corrections for the editor, not SEO edits)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
