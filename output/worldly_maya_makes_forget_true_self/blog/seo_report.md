@@ -28,7 +28,7 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | why does a newborn baby cry spiritual meaning | English | Informational | Low (flag 3) |
 
 Notes:
-- Both focus keywords come from the body's own wording: "मैं कौन हूँ" appears four times in the Hindi body, "who am I" three times in the English body (blockquote gloss and takeaways). Neither appears in the first 100 words: the opening says "आप कौन हैं" / "who you are". If wanted, the editor can add the exact phrase to the second paragraph ("...क्या आप सचमुच जानते हैं कि आप कौन हैं..." → "...मैं कौन हूँ...") without changing the teaching.
+- Both focus keywords come from the body's own wording: "मैं कौन हूँ" appears four times in the Hindi body, "who am I" three times in the English body (blockquote gloss and takeaways). The original opening says only "आप कौन हैं" / "who you are"; the SEO fix (`_blog_seo.txt` / `_blog_seo_en.txt`, see seo_fix.md) adds a short direct-answer paragraph that opens with "मैं कौन हूँ" / "Who am I", so both focus keywords are now in the first 100 words, and puts them in the ko'ham subheading.
 - Searchers type "koham soham" or "ko ham so ham" without the avagraha; the body uses कोऽहम् / ko'ham. These variants are kept as secondary keywords only; the Hindi focus keyword is plain Hindi so it matches exactly.
 - No other talk uses "who am I" or "मैं कौन हूँ" as its focus keyword. Nearest neighbours: `know_your_first_duty_in_life` ("first duty in life") and `every_human_inherently_spiritual` ("spiritual and worldly life"); see section 7.
 
@@ -533,7 +533,7 @@ The values written to `output/worldly_maya_makes_forget_true_self/blog/seo.json`
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): focus keyword not in the first 100 words in either language (the opening says "आप कौन हैं" / "who you are")
+- [x] Within the first 100 words (preferred): added through the direct-answer paragraph in the `_seo` texts
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
