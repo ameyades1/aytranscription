@@ -23,7 +23,7 @@ A short talk (4:07 video) given at the release of Brahmarshi Acharya Upendra Ji'
 | Acharya Upendra Ji Guru Gita | English | Navigational | Low |
 
 Notes:
-- Both focus keywords are taken from the body's own wording: "गुरु क्या है?" is the first line of the Hindi body (and recurs in "विश्वगुरु बनने से पहले" and the takeaways); "What is a Guru?" is the first line of the English body. Both are inside the first 100 words.
+- Both focus keywords are taken from the body's own wording: "गुरु क्या है?" is the first line of the Hindi body (and recurs in "विश्वगुरु बनने से पहले" and the takeaways); "What is a Guru?" is the first line of the English body. Both are inside the first 100 words. In the `_seo` texts the first H2 also asks the question ("गुरु क्या है: व्यक्ति या सत्य का द्वार?" / "What Is a Guru: a Person or the Doorway to Truth?"), so the focus keyword is now in a heading too.
 - Hindi and English were chosen separately: Hindi searchers type the question form "गुरु क्या है" / "guru kya hai"; English searchers use "what is a guru" and, for the scripture, "Guru Gita" with "Skanda Purana" or "meaning/commentary".
 - "Guru Gita" would be a stronger English focus keyword for intent match, but the body says "Guru Gita" only as a scripture name, not as the answer to a reader's question, and the title is about the Guru; it is kept as the first secondary keyword. No wording mismatch between searched query and body was found.
 - "Shri Guru Gita" (the book's title on the thumbnail) is not used in the body; searchers who type it will still match "Guru Gita".
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs in section 3).
+- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in section 3 (`/hi/guru-kya-hai/`, `/en/what-is-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -121,7 +121,7 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{HI_URL}}#article",
+      "@id": "{{SITE_URL}}/hi/guru-kya-hai/#article",
       "headline": "गुरु क्या है और विश्वगुरु बनने से पहले यह समझना क्यों ज़रूरी है",
       "alternativeHeadline": "गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य",
       "description": "गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है।",
@@ -170,7 +170,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{HI_URL}}"
+        "@id": "{{SITE_URL}}/hi/guru-kya-hai/"
       },
       "isBasedOn": {
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
@@ -179,7 +179,7 @@ For later use in WordPress; this is not added to the generated page. One block p
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
       },
       "workTranslation": {
-        "@id": "{{EN_URL}}#article"
+        "@id": "{{SITE_URL}}/en/what-is-a-guru/#article"
       }
     },
     {
@@ -255,7 +255,7 @@ For later use in WordPress; this is not added to the generated page. One block p
           "@type": "ListItem",
           "position": 3,
           "name": "गुरु क्या है और विश्वगुरु बनने से पहले यह समझना क्यों ज़रूरी है",
-          "item": "{{HI_URL}}"
+          "item": "{{SITE_URL}}/hi/guru-kya-hai/"
         }
       ]
     }
@@ -273,7 +273,7 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{EN_URL}}#article",
+      "@id": "{{SITE_URL}}/en/what-is-a-guru/#article",
       "headline": "What Is a Guru, and Why We Must Understand It Before Becoming a Vishwaguru",
       "alternativeHeadline": "What Is a Guru? The Guru Gita and India as Vishwaguru",
       "description": "What is a Guru: a person, or the doorway to truth? Acharya Ji's Guru Gita commentary explains the Guru, grace and refuge before India is Vishwaguru.",
@@ -322,7 +322,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{EN_URL}}"
+        "@id": "{{SITE_URL}}/en/what-is-a-guru/"
       },
       "isBasedOn": {
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
@@ -331,7 +331,7 @@ For later use in WordPress; this is not added to the generated page. One block p
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
       },
       "translationOfWork": {
-        "@id": "{{HI_URL}}#article"
+        "@id": "{{SITE_URL}}/hi/guru-kya-hai/#article"
       }
     },
     {
@@ -407,7 +407,7 @@ For later use in WordPress; this is not added to the generated page. One block p
           "@type": "ListItem",
           "position": 3,
           "name": "What Is a Guru, and Why We Must Understand It Before Becoming a Vishwaguru",
-          "item": "{{EN_URL}}"
+          "item": "{{SITE_URL}}/en/what-is-a-guru/"
         }
       ]
     }
