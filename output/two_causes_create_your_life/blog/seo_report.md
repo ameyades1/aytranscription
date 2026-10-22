@@ -14,12 +14,15 @@ This short discourse (video "Who Really Creates Your Life? The Two Causes You Mu
 | असली कर्ता कौन है | Hindi | Emotional / informational | Medium |
 | मैंने किया का अहंकार | Hindi | Emotional | Low |
 | upadan aur nimitt karan | Hinglish | Informational | Medium |
-| material and efficient cause in Vedanta | English | Informational | High (primary) |
+| material and efficient cause | English | Informational | High (primary) |
+| material and efficient cause in Vedanta | English | Informational | High |
 | upadana karana and nimitta karana | English | Informational | Medium |
 | who is the real doer | English | Emotional / informational | Medium |
 | ego and doership | English | Emotional | Low |
 | Brahma Sutras potter and pot | English | Informational | Low |
 | Acharya Upendra Ji two causes | English | Navigational | Low |
+
+Keyword note (after the SEO fix): the original bodies never used the searched wording. The Hindi body said "उपादान कारण और निमित्त कारण", not "उपादान और निमित्त कारण", and the English body never said "material and efficient cause". The `_seo` texts now use "उपादान और निमित्त कारण" and "material and efficient cause" once each in a short direct-answer paragraph within the first 100 words. The English focus keyword is now "material and efficient cause" (it matches the title and slug word for word); "material and efficient cause in Vedanta" moved to the secondary keywords, replacing "Brahma Sutras potter and pot".
 
 ## 3. Titles and meta
 
@@ -28,18 +31,18 @@ This short discourse (video "Who Really Creates Your Life? The Two Causes You Mu
 2. उपादान कारण और निमित्त कारण क्या है? सरल उदाहरण से
 3. असली कर्ता कौन है? उपादान और निमित्त का रहस्य
 
-Meta description: उपादान और निमित्त कारण क्या हैं? कुम्हार और घड़े के उदाहरण से आचार्य उपेंद्र जी समझाते हैं कि "मैंने बनाया" कहने वाला अहंकार असली कर्ता क्यों नहीं है।
+Meta description **(recommended)**: उपादान और निमित्त कारण क्या हैं? कुम्हार और घड़े के उदाहरण से आचार्य उपेंद्र जी समझाते हैं कि "मैंने बनाया" कहने वाला अहंकार असली कर्ता क्यों नहीं है।
 
-Slug: `/hi/upadan-aur-nimitt-karan`
+Slug **(recommended)**: `/hi/upadan-aur-nimitt-karan`
 
 **English**
 1. Material and Efficient Cause: Who Really Makes the Pot? (55 characters) **(recommended)**
 2. Material and Efficient Cause in Vedanta, Explained Simply
 3. Who Is the Real Doer? The Two Causes in Vedanta
 
-Meta description (152 characters): What are the material and efficient causes in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the "I made it" ego is not the true doer.
+Meta description (150 characters) **(recommended)**: What is the material and efficient cause in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the "I made it" ego is not the true doer.
 
-Slug: `/en/material-and-efficient-cause-vedanta`
+Slug **(recommended)**: `/en/material-and-efficient-cause-vedanta`
 
 ## 4. Outline changes
 
@@ -171,9 +174,9 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{WP_URL_EN}}#article",
       "headline": "Who Makes the Pot? The Secret of the Material and Efficient Causes",
       "alternativeHeadline": "Material and Efficient Cause: Who Really Makes the Pot?",
-      "description": "What are the material and efficient causes in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the \"I made it\" ego is not the true doer.",
+      "description": "What is the material and efficient cause in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the \"I made it\" ego is not the true doer.",
       "inLanguage": "en",
-      "keywords": ["material and efficient cause in Vedanta", "upadana karana and nimitta karana", "who is the real doer", "ego and doership", "Brahma Sutras potter and pot"],
+      "keywords": ["material and efficient cause", "material and efficient cause in Vedanta", "upadana karana and nimitta karana", "who is the real doer", "ego and doership"],
       "about": [
         {"@type": "Thing", "name": "Material cause (upadana karana)"},
         {"@type": "Thing", "name": "Efficient cause (nimitta karana)"},
@@ -228,7 +231,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 }
 ```
 
-**Mapping to the WordPress SEO plugin (Yoast / Rank Math):** the plugin generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and the WebPage entity itself, filling headline, datePublished, dateModified, image, mainEntityOfPage and inLanguage automatically. Enter by hand: the SEO title (alternativeHeadline), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`), and the hreflang pair (via WPML/Polylang). The plugin does not add `translationOfWork`/`workTranslation`, `about`, the custom `keywords` list or the VideoObject (unless a video add-on is used); add these as a custom schema block. Replace every `{{PLACEHOLDER}}` (WordPress URLs, media URL, Acharya Ji's profile URL, the video description) before publishing.
+**Mapping to the WordPress SEO plugin (Yoast / Rank Math):** the plugin generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and the WebPage entity itself, filling headline, datePublished, dateModified, image, mainEntityOfPage and inLanguage automatically. Enter by hand: the SEO title (alternativeHeadline), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`), and the hreflang pair (via WPML/Polylang). The plugin does not add `translationOfWork`/`workTranslation`, `about`, the custom `keywords` list or the VideoObject (unless a video add-on is used); add these as a custom schema block. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/upadan-aur-nimitt-karan/`, `/en/material-and-efficient-cause-vedanta/`). Replace every `{{PLACEHOLDER}}` (WordPress URLs, media URL, Acharya Ji's profile URL, the video description) before publishing.
 
 ## 9. Images
 
@@ -337,14 +340,14 @@ The values written to `output/two_causes_create_your_life/blog/seo.json`, exactl
     },
     "en": {
       "slug": "material-and-efficient-cause-vedanta",
-      "focus_keyword": "material and efficient cause in Vedanta",
+      "focus_keyword": "material and efficient cause",
       "secondary_keywords": [
+        "material and efficient cause in Vedanta",
         "upadana karana and nimitta karana",
         "who is the real doer",
-        "ego and doership",
-        "Brahma Sutras potter and pot"
+        "ego and doership"
       ],
-      "meta_description": "What are the material and efficient causes in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the \"I made it\" ego is not the true doer.",
+      "meta_description": "What is the material and efficient cause in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the \"I made it\" ego is not the true doer.",
       "tags": [
         "Advaita Vedanta",
         "Ego",
@@ -355,3 +358,73 @@ The values written to `output/two_causes_create_your_life/blog/seo.json`, exactl
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Brahma Sutras is used only here so far, but it is a core text other talks will share)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the body still places tools on the upadana side under "वेदांत कहता है" and states Ganapati as the true doer without "according to Acharya Ji" (Sanskrit review issues 1–2, flags 1–2); left to the editor, as the SEO fix does not change teachings
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
