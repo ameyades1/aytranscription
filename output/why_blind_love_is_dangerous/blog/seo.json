@@ -64,18 +64,40 @@
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "putra-moh-andha-prem",
-      "focus_keyword": "पुत्र मोह",
-      "secondary_keywords": ["अंधा प्रेम", "अंधी करुणा", "लक्ष्मी तत्व", "putra moh kya hai"],
-      "meta_description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है।",
-      "tags": ["मोह", "लक्ष्मी", "रजोगुण", "विवेक", "परवरिश"]
+      "slug": "andha-prem-kyon-khatarnak-hai",
+      "focus_keyword": "अंधा प्रेम",
+      "secondary_keywords": [
+        "पुत्र मोह",
+        "अंधी करुणा",
+        "लक्ष्मी तत्व",
+        "putra moh kya hai"
+      ],
+      "meta_description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है।",
+      "tags": [
+        "मोह",
+        "लक्ष्मी",
+        "रजोगुण",
+        "विवेक",
+        "परवरिश"
+      ]
     },
     "en": {
-      "slug": "blind-compassion-why-blind-love-is-dangerous",
-      "focus_keyword": "blind compassion",
-      "secondary_keywords": ["why blind love is dangerous", "putra moha meaning", "foolish compassion", "Lakshmi without Narayana"],
-      "meta_description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind compassion without discernment leads to ruin.",
-      "tags": ["Attachment", "Lakshmi", "Rajas", "Viveka", "Parenting"]
+      "slug": "why-blind-love-is-dangerous",
+      "focus_keyword": "blind love",
+      "secondary_keywords": [
+        "blind compassion",
+        "why blind love is dangerous",
+        "putra moha meaning",
+        "Lakshmi without Narayana"
+      ],
+      "meta_description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind love without discernment leads to ruin.",
+      "tags": [
+        "Attachment",
+        "Lakshmi",
+        "Rajas",
+        "Viveka",
+        "Parenting"
+      ]
     }
   }
 }

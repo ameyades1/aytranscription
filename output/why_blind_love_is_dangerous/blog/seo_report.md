@@ -10,39 +10,40 @@ A three-minute talk on love without discernment. Acharya Ji takes the **Lakshmi 
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| पुत्र मोह (focus) | Hindi | Informational / emotional | High |
+| पुत्र मोह | Hindi | Informational / emotional | High |
 | पुत्र मोह क्या है / putra moh kya hai | Hindi / Hinglish | Informational | High |
-| अंधा प्रेम / andha prem | Hindi / Hinglish | Emotional | Medium (not in the body, see note) |
+| अंधा प्रेम / andha prem (focus) | Hindi / Hinglish | Emotional | High |
 | अंधी करुणा | Hindi | Informational | Low |
 | लक्ष्मी तत्व | Hindi | Informational | Low |
-| blind compassion (focus) | English | Informational / emotional | Medium |
-| why blind love is dangerous | English | Emotional / navigational (the video's title) | High (not in the body, see note) |
+| blind love (focus) | English | Emotional | High |
+| blind compassion | English | Informational / emotional | Medium |
+| why blind love is dangerous | English | Emotional / navigational (the video's title) | High |
 | putra moha meaning | English | Informational | Medium |
 | foolish compassion | English | Informational | Low |
 | Lakshmi without Narayana | English | Informational | Low |
 | love without discernment | English | Informational | Low here (secondary of `too_bad_to_be_too_good_valentines`; do not target) |
 
-Note on wording: the most searched phrasing, "blind love" / "अंधा प्रेम", appears only in the H1, which SureRank does not count, so it cannot be the focus keyword without editing the body. The focus keywords use the body's wording: "पुत्र मोह" (4 times in the Hindi body) and "blind compassion" (once, in Key Takeaways). "why blind love is dangerous" and "अंधा प्रेम" are kept as secondary keywords. If the editor adds one natural sentence with "blind love" / "अंधा प्रेम" to the intro, these could become the focus keywords. Neither focus keyword is within the first 100 words.
+Note on wording: the most searched phrasing, "blind love" / "अंधा प्रेम", appeared only in the H1 of the original blog, which SureRank does not count. The SEO fix (`seo_fix.md`) added a short direct-answer paragraph after the intro ("Why is blind love dangerous? ..." / "अंधा प्रेम क्यों खतरनाक है? ...") and a question H2 ("How Does Blind Love Show Up in Our Lives?" / "हमारे जीवन में अंधा प्रेम कैसे दिखता है?") to the `_seo` texts, so "अंधा प्रेम" and "blind love" are now the focus keywords, both within the first 100 words. The former focus keywords "पुत्र मोह" and "blind compassion" are kept as secondary keywords (both also appear in the new paragraph). The exact question "why blind love is dangerous" stays a secondary keyword: the body asks it as "Why is blind love dangerous?".
 
 ## 3. Titles and meta
 
 **Hindi**
-1. पुत्र मोह और अंधा प्रेम क्यों खतरनाक है (39 chars) — **recommended**
+1. पुत्र मोह और अंधा प्रेम क्यों खतरनाक है (39 chars) — **recommended** (in seo.json)
 2. अंधा प्रेम क्यों खतरनाक है? साम्ब और पुत्र मोह की सीख (53 chars)
 3. नारायण के बिना लक्ष्मी: प्रेम में विवेक क्यों ज़रूरी (52 chars)
 
-Meta description (152 chars): क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है।
+Meta description (148 chars, recommended, in seo.json): क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है।
 
-Slug: `/hi/putra-moh-andha-prem/`
+Slug (recommended, in seo.json): `/hi/andha-prem-kyon-khatarnak-hai/`
 
 **English**
-1. Blind Compassion: Why Blind Love Is Dangerous (45 chars) — **recommended**
+1. Blind Compassion: Why Blind Love Is Dangerous (45 chars) — **recommended** (in seo.json)
 2. Why Blind Love Is Dangerous: Putra Moha and Discernment (55 chars)
 3. Lakshmi Without Narayana: Why Love Needs Discernment (52 chars)
 
-Meta description (153 chars): Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind compassion without discernment leads to ruin.
+Meta description (147 chars, recommended, in seo.json): Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind love without discernment leads to ruin.
 
-Slug: `/en/blind-compassion-why-blind-love-is-dangerous/`
+Slug (recommended, in seo.json): `/en/why-blind-love-is-dangerous/`
 
 ## 4. Outline changes
 
@@ -108,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/putra-moh-andha-prem/`, `/en/blind-compassion-why-blind-love-is-dangerous/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/andha-prem-kyon-khatarnak-hai/`, `/en/why-blind-love-is-dangerous/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -126,11 +127,11 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "अंधा प्रेम क्यों खतरनाक है",
       "alternativeHeadline": "पुत्र मोह और अंधा प्रेम क्यों खतरनाक है",
-      "description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है।",
+      "description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है।",
       "inLanguage": "hi",
       "keywords": [
-        "पुत्र मोह",
         "अंधा प्रेम",
+        "पुत्र मोह",
         "अंधी करुणा",
         "लक्ष्मी तत्व"
       ],
@@ -224,13 +225,13 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why Blind Love Is Dangerous",
       "alternativeHeadline": "Blind Compassion: Why Blind Love Is Dangerous",
-      "description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind compassion without discernment leads to ruin.",
+      "description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind love without discernment leads to ruin.",
       "inLanguage": "en",
       "keywords": [
+        "blind love",
         "blind compassion",
         "why blind love is dangerous",
         "putra moha meaning",
-        "foolish compassion",
         "Lakshmi without Narayana"
       ],
       "about": [
@@ -412,18 +413,40 @@ The exact values written to `output/why_blind_love_is_dangerous/blog/seo.json` f
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "putra-moh-andha-prem",
-      "focus_keyword": "पुत्र मोह",
-      "secondary_keywords": ["अंधा प्रेम", "अंधी करुणा", "लक्ष्मी तत्व", "putra moh kya hai"],
-      "meta_description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है।",
-      "tags": ["मोह", "लक्ष्मी", "रजोगुण", "विवेक", "परवरिश"]
+      "slug": "andha-prem-kyon-khatarnak-hai",
+      "focus_keyword": "अंधा प्रेम",
+      "secondary_keywords": [
+        "पुत्र मोह",
+        "अंधी करुणा",
+        "लक्ष्मी तत्व",
+        "putra moh kya hai"
+      ],
+      "meta_description": "क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है।",
+      "tags": [
+        "मोह",
+        "लक्ष्मी",
+        "रजोगुण",
+        "विवेक",
+        "परवरिश"
+      ]
     },
     "en": {
-      "slug": "blind-compassion-why-blind-love-is-dangerous",
-      "focus_keyword": "blind compassion",
-      "secondary_keywords": ["why blind love is dangerous", "putra moha meaning", "foolish compassion", "Lakshmi without Narayana"],
-      "meta_description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind compassion without discernment leads to ruin.",
-      "tags": ["Attachment", "Lakshmi", "Rajas", "Viveka", "Parenting"]
+      "slug": "why-blind-love-is-dangerous",
+      "focus_keyword": "blind love",
+      "secondary_keywords": [
+        "blind compassion",
+        "why blind love is dangerous",
+        "putra moha meaning",
+        "Lakshmi without Narayana"
+      ],
+      "meta_description": "Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind love without discernment leads to ruin.",
+      "tags": [
+        "Attachment",
+        "Lakshmi",
+        "Rajas",
+        "Viveka",
+        "Parenting"
+      ]
     }
   }
 }
@@ -445,7 +468,7 @@ The exact values written to `output/why_blind_love_is_dangerous/blog/seo.json` f
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred) (neither "पुत्र मोह" nor "blind compassion" is in the first 100 words (Hindi first use is in the Samba section; English only in Key Takeaways))
+- [x] Within the first 100 words (preferred)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
