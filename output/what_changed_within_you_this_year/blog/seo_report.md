@@ -28,6 +28,12 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 | why is the Guru above God | English | Informational | Low (sensitive, flag 2) |
 | Acharya Upendra Ji Chaturmas | English | Navigational | Low |
 
+Notes:
+- Focus keywords: "चातुर्मास का महत्व" / "significance of Chaturmas" (the video thumbnail's own words). The original blog texts use only "चातुर्मास" / "Chaturmas", never the searched wording, and the term first appears in the first H2, outside the first 100 words. The SEO fix (`_seo` texts) adds a short direct-answer paragraph to the introduction that opens with "संक्षेप में चातुर्मास का महत्व" / "In short, the significance of Chaturmas", so the searched wording is now in the body and in the first 100 words, and the third section's heading is now the question "अधिकतर त्योहार चातुर्मास में ही क्यों आते हैं?" / "Why Do Most Festivals Fall in Chaturmas?".
+- "chaturmas me shadi kyu nahi hoti" is not answered by the talk (flag 7) and is not targeted.
+- Hindi and English were chosen separately; Hinglish "chaturmas kya hai" is a variant of the same intent.
+- No other talk uses either focus keyword; `ganesh_chaturthi_pitru_paksha_navratri_diwali` targets "spiritual order of Hindu festivals", a different query.
+
 ## 3. Titles and meta
 
 The H1s stay as they are. Only the `<title>` tag changes.
@@ -37,18 +43,18 @@ The H1s stay as they are. Only the `<title>` tag changes.
 2. चातुर्मास में ही त्योहार क्यों? और इस वर्ष आपके भीतर क्या बदला
 3. त्योहारों का आध्यात्मिक अर्थ: इस वर्ष आपके भीतर क्या बदला?
 
-**Hindi meta description**
-अधिकतर त्योहार चातुर्मास में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का वर्षा में ठहराव और त्योहारों का प्रश्न: भीतर क्या बदला?
+**Hindi meta description** (recommended; in seo.json)
+चातुर्मास का महत्व: अधिकतर त्योहार इन्हीं चार महीनों में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का ठहराव और त्योहारों का प्रश्न।
 
 **English title options**
 1. Significance of Chaturmas: Why Festivals Come in Monsoon (recommended)
 2. Why Most Hindu Festivals Fall in Chaturmas, and What Follows
 3. What Changed Within You This Year? The Meaning of Chaturmas
 
-**English meta description (155 characters)**
-Why do most Hindu festivals fall in Chaturmas, and why do weddings follow? Acharya Upendra Ji explains the sages' monsoon stay and what each festival asks.
+**English meta description (154 characters)** (recommended; in seo.json)
+Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask.
 
-**Slugs**
+**Slugs** (recommended; in seo.json)
 - Hindi: /hi/chaturmas-ka-mahatva
 - English: /en/significance-of-chaturmas
 
@@ -136,7 +142,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "इस वर्ष आपके भीतर क्या बदला",
       "alternativeHeadline": "चातुर्मास का महत्व: त्योहार इन्हीं महीनों में क्यों आते हैं",
-      "description": "अधिकतर त्योहार चातुर्मास में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का वर्षा में ठहराव और त्योहारों का प्रश्न: भीतर क्या बदला?",
+      "description": "चातुर्मास का महत्व: अधिकतर त्योहार इन्हीं चार महीनों में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का ठहराव और त्योहारों का प्रश्न।",
       "inLanguage": "hi",
       "keywords": ["चातुर्मास का महत्व", "चातुर्मास में त्योहार क्यों", "त्योहारों का आध्यात्मिक अर्थ", "चातुर्मास के बाद विवाह क्यों"],
       "about": [
@@ -226,7 +232,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "What Changed Within You This Year?",
       "alternativeHeadline": "Significance of Chaturmas: Why Festivals Come in Monsoon",
-      "description": "Why do most Hindu festivals fall in Chaturmas, and why do weddings follow? Acharya Upendra Ji explains the sages' monsoon stay and what each festival asks.",
+      "description": "Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask.",
       "inLanguage": "en",
       "keywords": ["significance of Chaturmas", "why festivals fall in Chaturmas", "spiritual meaning of Hindu festivals", "why weddings after Chaturmas"],
       "about": [
@@ -424,7 +430,7 @@ The values written to `output/what_changed_within_you_this_year/blog/seo.json` (
         "चातुर्मास के बाद विवाह क्यों",
         "आपके भीतर क्या बदला"
       ],
-      "meta_description": "अधिकतर त्योहार चातुर्मास में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का वर्षा में ठहराव और त्योहारों का प्रश्न: भीतर क्या बदला?",
+      "meta_description": "चातुर्मास का महत्व: अधिकतर त्योहार इन्हीं चार महीनों में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का ठहराव और त्योहारों का प्रश्न।",
       "tags": [
         "चातुर्मास",
         "गुरु-शिष्य",
@@ -442,7 +448,7 @@ The values written to `output/what_changed_within_you_this_year/blog/seo.json` (
         "why weddings after Chaturmas",
         "what changed within you this year"
       ],
-      "meta_description": "Why do most Hindu festivals fall in Chaturmas, and why do weddings follow? Acharya Upendra Ji explains the sages' monsoon stay and what each festival asks.",
+      "meta_description": "Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask.",
       "tags": [
         "Chaturmas",
         "Guru and Disciple",
@@ -454,3 +460,76 @@ The values written to `output/what_changed_within_you_this_year/blog/seo.json` (
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("Chaturmas" / "चातुर्मास" is used by only 2 posts so far; it fits future Chaturmas-season posts)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged (flag 2: "every religion places the Guru above God" is not yet reworded in the body; it is a teaching sentence the SEO fix must not change)
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
+
+Notes:
+- Focus keyword placement is checked against the `_seo` texts: "चातुर्मास का महत्व" / "significance of Chaturmas" now appear in the body and in the first 100 words (direct-answer paragraph), and in the rewritten meta descriptions. `tools/check_seo.py` passes.
