@@ -22,25 +22,27 @@ A short discourse (the video is 3:54; about 550 words per language) in which Ach
 | how to say no with confidence | English | Practical | Low |
 | stop tolerating toxic love | English | Navigational (video title) | Low |
 
+Keyword note: the original blog texts did not contain either focus keyword word for word (the Hindi has only the heading "तामसिक रिश्ता क्या होता है?", and the English never uses "toxic"). The SEO fix (`_blog_seo.txt` / `_blog_seo_en.txt`) adds a short direct answer after each opening that uses "तामसिक रिश्ता क्या है" / "why do people stay in toxic relationships" within the first 100 words, so both focus keywords stay as they are. The English slug now carries the full keyword: `why-do-people-stay-in-toxic-relationships`.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. तामसिक रिश्ता क्या है? अत्याचार सहना गुण नहीं (45 characters) **recommended**
+1. तामसिक रिश्ता क्या है? अत्याचार सहना गुण नहीं (recommended, 45 characters)
 2. टॉक्सिक रिश्ते में लोग क्यों रहते हैं? | आचार्य उपेंद्र जी
 3. सहना गुण नहीं जब वह अत्याचार हो: तामसिक रिश्ते से बाहर निकलें
 
-Meta description (hi): तामसिक रिश्ता क्या है? आचार्य उपेंद्र जी बताते हैं कि अत्याचार सहना सहिष्णुता नहीं, भय और आत्म-मूल्य की कमी है, और आत्मविश्वास से ना कहना क्यों ज़रूरी है।
+Meta description (recommended, in seo.json): तामसिक रिश्ता क्या है? आचार्य उपेंद्र जी बताते हैं कि अत्याचार सहना सहिष्णुता नहीं, भय और आत्म-मूल्य की कमी है, और आत्मविश्वास से ना कहना क्यों ज़रूरी है।
 
-Slug (hi): `/hi/tamasik-rishta-kya-hai/`
+Slug (recommended, in seo.json): `/hi/tamasik-rishta-kya-hai`
 
 **English**
-1. Why Do People Stay in Toxic Relationships? The Tamasic Trap (59 characters) **recommended**
+1. Why Do People Stay in Toxic Relationships? The Tamasic Trap (recommended, 59 characters)
 2. Putting Up with Abuse Is Not a Virtue | Acharya Upendra Ji
 3. Stop Tolerating Toxic Love: Boundaries and a Confident No
 
-Meta description (en, 155 characters): Why do people stay in toxic relationships? Acharya Upendra Ji explains tamasic clinging, why enduring abuse is not a virtue, and how to say a confident no.
+Meta description (recommended, in seo.json, 155 characters): Why do people stay in toxic relationships? Acharya Upendra Ji explains tamasic clinging, why enduring abuse is not a virtue, and how to say a confident no.
 
-Slug (en): `/en/why-people-stay-in-toxic-relationships/`
+Slug (recommended, in seo.json): `/en/why-do-people-stay-in-toxic-relationships`
 
 The H1s ("सहना गुण नहीं जब वह अत्याचार हो" / "Putting Up with Abuse Is Not a Virtue") stay as they are; the title tags lead with the query.
 
@@ -104,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tamasik-rishta-kya-hai/`, `/en/why-people-stay-in-toxic-relationships/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tamasik-rishta-kya-hai/`, `/en/why-do-people-stay-in-toxic-relationships/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -428,7 +430,7 @@ The exact values written to `output/stop_tolerating_toxic_love/blog/seo.json` fo
       ]
     },
     "en": {
-      "slug": "why-people-stay-in-toxic-relationships",
+      "slug": "why-do-people-stay-in-toxic-relationships",
       "focus_keyword": "why do people stay in toxic relationships",
       "secondary_keywords": [
         "tamasic relationship",
@@ -448,3 +450,73 @@ The exact values written to `output/stop_tolerating_toxic_love/blog/seo.json` fo
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("टॉक्सिक रिश्ते" / "Toxic Relationships" is used by this post only so far)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
