@@ -24,6 +24,8 @@ Topic: why laziness does not go away, and how to get out of it. A seeker asks wh
 | gunatita meaning | English | Informational | Low |
 | Acharya Upendra Ji laziness | English | Navigational | Low |
 
+Keyword note: the original blog texts used neither focus keyword in the body. The Hindi says "आलस्य कम नहीं हो रहा" and "आलस्य क्यों नहीं जाता" (H1 only), never "आलस्य कैसे दूर करें"; the English never says "spiritual solution for laziness", the video's own title wording. The SEO fix (`_blog_seo.txt` / `_blog_seo_en.txt`) adds a short direct answer under the first H2 that uses "आलस्य कैसे दूर करें" / "spiritual solution for laziness" within the first 100 words, and rephrases that H2 as "आलस्य क्यों नहीं जाता?" / "Why Won't Laziness Go Away?". Both focus keywords and slugs stay as they are. The English meta description now has the focus keyword word for word ("spiritual solution for laziness"); before it said "the spiritual solution", which SureRank does not count.
+
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "आलस्य क्यों नहीं जाता और उससे बाहर कैसे निकलें", unchanged)
@@ -42,7 +44,7 @@ Slug: `/hi/aalasya-kaise-door-karen`
 2. Why Laziness Won't Leave: From Tamas to Rajas to Sattva (55 chars)
 3. Overcome Laziness with a Sense of Duty and a Guru's Help (56 chars)
 
-Meta description (153 chars): Struggling with laziness? Acharya Ji explains the spiritual solution: a sense of duty lifts you from tamas to rajas, and a Guru can make the direct leap.
+Meta description (154 chars): Seeking a spiritual solution for laziness? Acharya Ji explains how a sense of duty lifts you from tamas to rajas, and how a Guru can make the direct leap.
 
 Slug: `/en/spiritual-solution-for-laziness`
 
@@ -99,7 +101,7 @@ Cannibalization: `knowledge_work_for_you` holds "जानते हुए भ�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID ekKEpnvRlDo, uploaded 2025-08-05, 271 s, title from yt-dlp (the leading emoji is dropped from `name`).
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID ekKEpnvRlDo, uploaded 2025-08-05, 271 s, title from yt-dlp (the leading emoji is dropped from `name`). URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/aalasya-kaise-door-karen/` and `/en/spiritual-solution-for-laziness/`.
 
 **Hindi**
 
@@ -181,7 +183,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Why Laziness Won't Leave, and How to Break Free",
       "alternativeHeadline": "Spiritual Solution for Laziness: How to Break Out of Tamas",
-      "description": "Struggling with laziness? Acharya Ji explains the spiritual solution: a sense of duty lifts you from tamas to rajas, and a Guru can make the direct leap.",
+      "description": "Seeking a spiritual solution for laziness? Acharya Ji explains how a sense of duty lifts you from tamas to rajas, and how a Guru can make the direct leap.",
       "inLanguage": "en",
       "keywords": ["spiritual solution for laziness", "how to get out of tamas", "tamoguna and laziness", "lack of motivation spiritual cause", "gunatita meaning"],
       "about": [
@@ -349,9 +351,79 @@ The values written to `output/struggling_laziness_lack_drive_spiritual/blog/seo.
       "slug": "spiritual-solution-for-laziness",
       "focus_keyword": "spiritual solution for laziness",
       "secondary_keywords": ["how to get out of tamas", "tamoguna and laziness", "lack of motivation spiritual cause", "gunatita meaning"],
-      "meta_description": "Struggling with laziness? Acharya Ji explains the spiritual solution: a sense of duty lifts you from tamas to rajas, and a Guru can make the direct leap.",
+      "meta_description": "Seeking a spiritual solution for laziness? Acharya Ji explains how a sense of duty lifts you from tamas to rajas, and how a Guru can make the direct leap.",
       "tags": ["Tamas", "Three Gunas", "Duty", "Sadguru", "Samskaras", "Shreyas and Preyas"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
