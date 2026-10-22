@@ -22,25 +22,27 @@ A very short discourse (the video is 3:12; about 500 words per language) in whic
 | divine couple yugal | English | Informational | Low |
 | twin flames soulmates and karmic bonds | English | Navigational (video title) | Low |
 
+Keyword note: the searched wording "ट्विन फ्लेम और सोलमेट में अंतर" / "twin flame vs soulmate" was not in either original body (the Hindi says "आत्मीय साथी", and neither text puts the two terms side by side), and the Hindi title tag lacked the Hindi focus keyword. The SEO fix (`seo_fix.md`) adds both phrases word for word to the `_seo` texts, in a short direct answer within the first 100 words, and the Hindi title now leads with the focus keyword. The focus keywords stay as above.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. ट्विन फ्लेम, सोलमेट और कर्म-बंधन: रिश्तों के तीन प्रकार (55 characters) **recommended**
+1. ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार (53 characters) **recommended** (set by the SEO fix: the earlier recommendation, "ट्विन फ्लेम, सोलमेट और कर्म-बंधन: रिश्तों के तीन प्रकार", did not contain the focus keyword word for word)
 2. हर बार वही इंसान क्यों मिलता है? | आचार्य उपेंद्र जी
 3. ट्विन फ्लेम और सोलमेट में अंतर: एक आत्मा, अनेक चेहरे
 
-Meta description (hi): ट्विन फ्लेम और सोलमेट में अंतर क्या है? आचार्य उपेंद्र जी संबंधों के तीन प्रकार बताते हैं, और यह कि अपनी स्थिति बदले बिना हर बार वही इंसान क्यों मिलता है।
+Meta description (hi, **recommended**): ट्विन फ्लेम और सोलमेट में अंतर क्या है? आचार्य उपेंद्र जी संबंधों के तीन प्रकार बताते हैं, और यह कि अपनी स्थिति बदले बिना हर बार वही इंसान क्यों मिलता है।
 
-Slug (hi): `/hi/twin-flame-soulmate-karm-bandhan/`
+Slug (hi): `/hi/twin-flame-soulmate-karm-bandhan/` **recommended**
 
 **English**
 1. Twin Flame vs Soulmate vs Karmic Bond: 3 Kinds of Bonds (55 characters) **recommended**
 2. Why Do You Keep Meeting the Same Person? | Acharya Upendra Ji
 3. Twin Flames, Soulmates and Karmic Bonds: One Soul, Many Faces
 
-Meta description (en, 153 characters): Twin flame vs soulmate vs karmic bond: Acharya Upendra Ji explains three kinds of relationships, and why the same story repeats until your state changes.
+Meta description (en, 153 characters, **recommended**): Twin flame vs soulmate vs karmic bond: Acharya Upendra Ji explains three kinds of relationships, and why the same story repeats until your state changes.
 
-Slug (en): `/en/twin-flame-vs-soulmate-vs-karmic-bond/`
+Slug (en): `/en/twin-flame-vs-soulmate-vs-karmic-bond/` **recommended**
 
 The H1s ("हर बार वही इंसान क्यों मिलता है" / "Why Do You Keep Meeting the Same Person?") stay as they are; they already carry the emotional query, and the title tags lead with the comparison query.
 
@@ -122,7 +124,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "हर बार वही इंसान क्यों मिलता है",
-      "alternativeHeadline": "ट्विन फ्लेम, सोलमेट और कर्म-बंधन: रिश्तों के तीन प्रकार",
+      "alternativeHeadline": "ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार",
       "description": "ट्विन फ्लेम और सोलमेट में अंतर क्या है? आचार्य उपेंद्र जी संबंधों के तीन प्रकार बताते हैं, और यह कि अपनी स्थिति बदले बिना हर बार वही इंसान क्यों मिलता है।",
       "inLanguage": "hi",
       "keywords": [
@@ -348,7 +350,7 @@ The exact values written to `output/twin_flames_soulmates_karmic_bonds/blog/seo.
 ```json
 {
   "title": {
-    "hi": "ट्विन फ्लेम, सोलमेट और कर्म-बंधन: रिश्तों के तीन प्रकार",
+    "hi": "ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार",
     "en": "Twin Flame vs Soulmate vs Karmic Bond: 3 Kinds of Bonds"
   },
   "alt": {
@@ -455,3 +457,73 @@ The exact values written to `output/twin_flames_soulmates_karmic_bonds/blog/seo.
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title (Hindi title rewritten by the SEO fix to contain the focus keyword)
+- [x] In the meta description
+- [x] In the body text (in the `_seo` texts, after the SEO fix)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the `_seo` texts, after the SEO fix)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (in the `_seo` texts the curse story, "युगल विवाह" / "yugal vivah" and one soul in several bodies are attributed to Acharya Ji, per review issues 1–4)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
