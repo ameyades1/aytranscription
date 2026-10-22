@@ -27,6 +27,8 @@ A short talk on how the three gunas produce action. Everything (places, people, 
 
 Gita 3.27 meaning / "who is the doer" / "मैं कर्ता हूँ अहंकार" are left as secondary support only; their primary home is `who_real_doer_karma_ego_bhagavad`.
 
+Keyword note (after the SEO fix): the original blog texts did not contain either focus keyword. The SEO copies (`three_gunas_karma_blog_seo.txt`, `three_gunas_karma_blog_seo_en.txt`) now use "त्रिगुण और कर्म" and "three gunas and human behaviour" in a short direct-answer paragraph within the first 100 words, and the second H2 is now the question "कर्म कौन करवाता है?" / "How Do the Gunas Influence Our Actions?" (secondary keywords). The focus keywords are unchanged; the English slug now includes "and" so SureRank matches it.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -34,18 +36,18 @@ Gita 3.27 meaning / "who is the doer" / "मैं कर्ता हूँ अ
 2. कर्म कौन करवाता है? सत्व, रज, तम और आपका व्यवहार
 3. स्थान, व्यक्ति और गुण: कैसे बनता है हर कर्म
 
-Meta description (154 characters): क्या कर्म सच में आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से समझाते हैं कि भीतर और बाहर के गुणों का मेल ही कर्म बनाता है।
+Meta description (recommended, 157 characters, in seo.json): त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है।
 
-Slug: `/hi/trigun-aur-karma`
+Slug (recommended, in seo.json): `/hi/trigun-aur-karma`
 
 **English**
 1. Three Gunas and Human Behaviour: Who Really Acts? (recommended, 49 characters)
 2. How the Three Gunas Shape Your Actions: Gita 3.27
 3. Do You Act, or Does Nature Act Through You?
 
-Meta description (153 characters): Do you act, or does nature act through you? Acharya Upendra Ji shows how the gunas within you meet the gunas of a place to shape what you do (Gita 3.27).
+Meta description (recommended, 153 characters, in seo.json): Three gunas and human behaviour: Acharya Upendra Ji explains Gita 3.27 and shows how the gunas within you meet the gunas of a place to shape what you do.
 
-Slug: `/en/three-gunas-human-behaviour`
+Slug (recommended, in seo.json): `/en/three-gunas-and-human-behaviour` (was `three-gunas-human-behaviour`, which SureRank did not match because "and" was missing)
 
 The H1s in the blog are not changed; the title tags carry the keyword.
 
@@ -108,7 +110,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/trigun-aur-karma/`, `/en/three-gunas-human-behaviour/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/trigun-aur-karma/`, `/en/three-gunas-and-human-behaviour/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -126,7 +128,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "कर्म आप करते हैं या प्रकृति करवाती है",
       "alternativeHeadline": "त्रिगुण और कर्म: कर्म आप करते हैं या प्रकृति करवाती है?",
-      "description": "क्या कर्म सच में आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से समझाते हैं कि भीतर और बाहर के गुणों का मेल ही कर्म बनाता है।",
+      "description": "त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है।",
       "inLanguage": "hi",
       "keywords": [
         "त्रिगुण और कर्म",
@@ -292,7 +294,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Are You the One Acting, or Is Nature Acting Through You?",
       "alternativeHeadline": "Three Gunas and Human Behaviour: Who Really Acts?",
-      "description": "Do you act, or does nature act through you? Acharya Upendra Ji shows how the gunas within you meet the gunas of a place to shape what you do (Gita 3.27).",
+      "description": "Three gunas and human behaviour: Acharya Upendra Ji explains Gita 3.27 and shows how the gunas within you meet the gunas of a place to shape what you do.",
       "inLanguage": "en",
       "keywords": [
         "three gunas and human behaviour",
@@ -560,7 +562,7 @@ The values written to `output/three_gunas_karma/blog/seo.json`, exactly as in th
         "सत्व रज तम और व्यवहार",
         "स्थान का गुण और कर्म"
       ],
-      "meta_description": "क्या कर्म सच में आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से समझाते हैं कि भीतर और बाहर के गुणों का मेल ही कर्म बनाता है।",
+      "meta_description": "त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है।",
       "tags": [
         "त्रिगुण",
         "भगवद्गीता",
@@ -571,14 +573,14 @@ The values written to `output/three_gunas_karma/blog/seo.json`, exactly as in th
       ]
     },
     "en": {
-      "slug": "three-gunas-human-behaviour",
+      "slug": "three-gunas-and-human-behaviour",
       "focus_keyword": "three gunas and human behaviour",
       "secondary_keywords": [
         "how gunas influence our actions",
         "does nature make us act",
         "rajasic and tamasic places"
       ],
-      "meta_description": "Do you act, or does nature act through you? Acharya Upendra Ji shows how the gunas within you meet the gunas of a place to shape what you do (Gita 3.27).",
+      "meta_description": "Three gunas and human behaviour: Acharya Upendra Ji explains Gita 3.27 and shows how the gunas within you meet the gunas of a place to shape what you do.",
       "tags": [
         "Three Gunas",
         "Bhagavad Gita",
@@ -591,3 +593,73 @@ The values written to `output/three_gunas_karma/blog/seo.json`, exactly as in th
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts ("कर्तापन" / "Doership" is used by only 2 posts so far; tags are outside the SEO fix's scope)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Sanskrit review's minor flags are not yet applied to the blog: the Key Takeaways put Gita 3.27 after Acharya Ji's "inner guna meets outer guna" wording, and state the pitar teaching without attributing it to Acharya Ji; these are content corrections, not SEO edits)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
