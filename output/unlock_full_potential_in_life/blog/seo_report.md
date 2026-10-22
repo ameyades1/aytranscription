@@ -24,6 +24,8 @@ The talk takes up the common plan of keeping spirituality for retirement and ans
 | vanprastha ashram kya hai | Hinglish | Informational | Low |
 | Unlock Your Full Potential Acharya Upendra Ji | English | Navigational | Low |
 
+Keyword note: the original blog bodies never used the focus keywords word for word (the Hindi intro says "वर्ण और आश्रम की प्राचीन व्यवस्था", the English "the ancient system of **varna** ... and **ashrama**"). The `_seo` texts now use "वर्ण और आश्रम व्यवस्था" / "varna and ashrama system" once in the direct answer that follows the intro, within the first 100 words, so the focus keywords stay. The secondary questions "चार आश्रम कौन से हैं" / "four ashramas of life" and "क्या वर्ण बदल सकता है" / "can varna change" are now H2 headings in the `_seo` texts.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -49,7 +51,7 @@ Slug: `/en/varna-and-ashrama-system`
 Headings only; the teaching stays as it is.
 
 - H1 is fine in both languages ("अध्यात्म के लिए साठ की प्रतीक्षा क्यों" / "Why Wait Until Sixty for Spirituality?"); the title tag carries the primary keyword.
-- First 100 words: the Hindi intro ends with "वर्ण और आश्रम की प्राचीन व्यवस्था", and the English with "varna ... and ashrama", so the keyword is already present. No change needed.
+- First 100 words: the original intros say "वर्ण और आश्रम की प्राचीन व्यवस्था" / "varna ... and ashrama", not the exact keyword; the `_seo` texts carry it in the direct answer right after the intro.
 - H2 "गुणों से वर्ण, आयु से आश्रम" / "Varna by Nature, Ashrama by Age": keep; it is the definitional section for the primary keyword.
 - H2 "सबकी निवृत्ति आती है" / "Everyone Steps Back Eventually": optionally "चार आश्रम कौन से हैं?" / "What Are the Four Ashramas?", since it holds the 25/50/75/100 list that answers that query.
 - H2 "वानप्रस्थ का असली अर्थ" / "What Vanaprastha Really Means": keep; matches "meaning of vanaprastha". Note that `images.txt` lists the English heading as "The Real Meaning of Vanaprastha"; the generator falls back on the Hindi heading position, but the editor may want to align the two.
@@ -449,3 +451,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (वर्ण और आश्रम व्यवस्था / varna and ashrama system, in the `_seo` texts' direct answer)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer after the intro)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the Sanskrit review's Major issues 1, Prahlada "on his own", and 2, the Hindi Gita 4.13 meaning without "मया", are still in the body; they are editorial corrections to the original blog, not SEO edits; flags 1 and 2)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
