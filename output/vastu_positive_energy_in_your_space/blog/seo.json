@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
-    "en": "How to Fix Your Vastu Without Breaking Down Walls"
+    "hi": "वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
+    "en": "Vastu Remedies Without Demolition: Raise Your Home's Energy"
   },
   "alt": {
     "hero.jpg": {
@@ -69,15 +69,15 @@
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "vastu-sudhar-bina-tod-phod",
-      "focus_keyword": "वास्तु सुधार",
+      "slug": "vastu-dosh-ke-upay-bina-tod-phod",
+      "focus_keyword": "वास्तु दोष के उपाय",
       "secondary_keywords": [
+        "वास्तु सुधार",
         "बिना तोड़-फोड़ वास्तु उपाय",
         "फ्लैट के लिए वास्तु",
-        "वास्तु यंत्र",
-        "वास्तु दोष के उपाय"
+        "वास्तु यंत्र"
       ],
-      "meta_description": "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
+      "meta_description": "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
       "tags": [
         "वास्तु",
         "श्री यंत्र",
@@ -87,15 +87,15 @@
       ]
     },
     "en": {
-      "slug": "fix-your-vastu-without-demolition",
-      "focus_keyword": "fix your Vastu",
+      "slug": "vastu-remedies-without-demolition",
+      "focus_keyword": "Vastu remedies without demolition",
       "secondary_keywords": [
-        "Vastu without demolition",
+        "fix your Vastu",
         "Vastu for flats",
         "Vastu yantras",
         "Vastu Transformation"
       ],
-      "meta_description": "Can you fix your Vastu without breaking walls? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
+      "meta_description": "Are there Vastu remedies without demolition? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
       "tags": [
         "Vastu",
         "Shri Yantra",

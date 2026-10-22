@@ -12,14 +12,14 @@ A conversation between Nishant Bhava of Ghar Real Estate (Australia) and Acharya
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| वास्तु सुधार (primary) | Hindi | Practical | High |
+| वास्तु दोष के उपाय (primary) | Hindi | Practical | High |
 | बिना तोड़-फोड़ वास्तु उपाय | Hindi | Practical | High |
 | फ्लैट के लिए वास्तु | Hindi | Practical | Medium |
 | वास्तु यंत्र | Hindi | Practical | Medium |
-| वास्तु दोष के उपाय | Hindi | Practical | High |
+| वास्तु सुधार | Hindi | Practical | High |
 | घर की ऊर्जा कैसे बढ़ाएं | Hindi | Practical / emotional | Medium |
-| fix your Vastu (primary) | English | Practical | High |
-| Vastu without demolition | English | Practical | High |
+| Vastu remedies without demolition (primary) | English | Practical | High |
+| fix your Vastu | English | Practical | High |
 | Vastu for flats | English | Practical | Medium |
 | Vastu yantras | English | Practical | Medium |
 | Vastu Transformation | English | Navigational | Low |
@@ -28,27 +28,29 @@ A conversation between Nishant Bhava of Ghar Real Estate (Australia) and Acharya
 | vastu dosh kaise door kare | Hinglish | Practical | Medium |
 | Acharya Upendra Ji Vastu | English | Navigational | Low |
 
-Keyword–body mismatch: the most searched wordings are "वास्तु दोष के उपाय" / "vastu remedies without demolition" and the video's "positive energy in your space". The Hindi body never says "वास्तु दोष" as a phrase (it says "आपके वास्तु में दोष है"), and the English body never says "positive energy" or "without demolition". The focus keywords are therefore taken from the body's own wording: **वास्तु सुधार** (heading "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी?" and "तब वास्तु सुधार आवश्यक है") and **fix your Vastu** (heading "Do You Have to Break Down Walls to Fix Your Vastu?"). The searched wordings are in the secondary keywords. Neither focus keyword occurs in the first 100 words (first use after about 140 and 160 words); an editor could add it to the intro later if wanted.
+Keyword–body mismatch: the most searched wordings are "वास्तु दोष के उपाय" / "vastu remedies without demolition" and the video's "positive energy in your space". The original Hindi body never says "वास्तु दोष" as a phrase (it says "आपके वास्तु में दोष है"), and the original English body never says "positive energy" or "without demolition"; the report first chose the body's own wording, **वास्तु सुधार** and **fix your Vastu**, which first appeared only after about 140 and 160 words. The SEO fix (`seo_fix.md`) added a short direct-answer paragraph after the intro of the `_seo` texts, built only from what the blog says, which opens with "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं?" / "Are there Vastu remedies without demolition?" (about word 77 / 89). The focus keywords are now **वास्तु दोष के उपाय** and **Vastu remedies without demolition**; वास्तु सुधार and fix your Vastu are secondary keywords (both still in the body and in a heading). "Positive energy" is still not in the body and is not targeted.
 
 ## 3. Titles and meta
 
 **Hindi**
-1. वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें (50 characters) **recommended**
-2. बिना तोड़-फोड़ वास्तु सुधार: घर की ऊर्जा कैसे बदलें (51)
-3. घर की ऊर्जा और वास्तु सुधार: अंतरयोग का मार्ग (45)
+1. वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें (56 characters) **recommended**
+2. वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें (50; the report's first choice, before the SEO fix)
+3. बिना तोड़-फोड़ वास्तु सुधार: घर की ऊर्जा कैसे बदलें (51)
+4. घर की ऊर्जा और वास्तु सुधार: अंतरयोग का मार्ग (45)
 
-Meta description (143 characters): "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।"
+Meta description (146 characters, recommended): "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।"
 
-Slug: `/hi/vastu-sudhar-bina-tod-phod`
+Slug (recommended): `/hi/vastu-dosh-ke-upay-bina-tod-phod` (before the SEO fix: `/hi/vastu-sudhar-bina-tod-phod`)
 
 **English**
-1. How to Fix Your Vastu Without Breaking Down Walls (49) **recommended**
-2. Fix Your Vastu by Raising Your Home's Energy (44)
-3. Fix Your Vastu in a Ready-Built Flat with Yantras (49)
+1. Vastu Remedies Without Demolition: Raise Your Home's Energy (59) **recommended**
+2. How to Fix Your Vastu Without Breaking Down Walls (49; the report's first choice, before the SEO fix)
+3. Fix Your Vastu by Raising Your Home's Energy (44)
+4. Fix Your Vastu in a Ready-Built Flat with Yantras (49)
 
-Meta description (153 characters): "Can you fix your Vastu without breaking walls? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat."
+Meta description (151 characters, recommended): "Are there Vastu remedies without demolition? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat."
 
-Slug: `/en/fix-your-vastu-without-demolition`
+Slug (recommended): `/en/vastu-remedies-without-demolition` (before the SEO fix: `/en/fix-your-vastu-without-demolition`)
 
 The H1 ("वास्तु और आपके घर की ऊर्जा" / "Vastu and the Energy of Your Home") stays as it is.
 
@@ -113,10 +115,10 @@ For later use in WordPress; not added to the page. Dates come from git (first co
       "@type": "BlogPosting",
       "@id": "{{HI_POST_URL}}#article",
       "headline": "वास्तु और आपके घर की ऊर्जा",
-      "alternativeHeadline": "वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
-      "description": "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
+      "alternativeHeadline": "वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
+      "description": "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
       "inLanguage": "hi",
-      "keywords": ["वास्तु सुधार", "बिना तोड़-फोड़ वास्तु उपाय", "फ्लैट के लिए वास्तु", "वास्तु यंत्र", "वास्तु दोष के उपाय"],
+      "keywords": ["वास्तु दोष के उपाय", "वास्तु सुधार", "बिना तोड़-फोड़ वास्तु उपाय", "फ्लैट के लिए वास्तु", "वास्तु यंत्र"],
       "about": [
         {"@type": "Thing", "name": "वास्तु शास्त्र"},
         {"@type": "Thing", "name": "यंत्र"},
@@ -183,10 +185,10 @@ For later use in WordPress; not added to the page. Dates come from git (first co
       "@type": "BlogPosting",
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Vastu and the Energy of Your Home",
-      "alternativeHeadline": "How to Fix Your Vastu Without Breaking Down Walls",
-      "description": "Can you fix your Vastu without breaking walls? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
+      "alternativeHeadline": "Vastu Remedies Without Demolition: Raise Your Home's Energy",
+      "description": "Are there Vastu remedies without demolition? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
       "inLanguage": "en",
-      "keywords": ["fix your Vastu", "Vastu without demolition", "Vastu for flats", "Vastu yantras", "Vastu Transformation"],
+      "keywords": ["Vastu remedies without demolition", "fix your Vastu", "Vastu for flats", "Vastu yantras", "Vastu Transformation"],
       "about": [
         {"@type": "Thing", "name": "Vastu Shastra"},
         {"@type": "Thing", "name": "Yantra"},
@@ -244,7 +246,7 @@ For later use in WordPress; not added to the page. Dates come from git (first co
 
 The video is in Hindi, so `inLanguage` of the VideoObject is `hi` in both blocks. Its title as returned by yt-dlp ends in "..."; it is copied as given.
 
-**WordPress SEO plugin mapping (SureRank):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the VideoObject (unless the plugin detects the embed) and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin. Replace every `{{PLACEHOLDER}}` once the URLs are known; no FAQPage block is included, because the FAQ is not on the page.
+**WordPress SEO plugin mapping (SureRank):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the VideoObject (unless the plugin detects the embed) and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin. Replace every `{{PLACEHOLDER}}` once the URLs are known (the post URLs end in the slugs `vastu-dosh-ke-upay-bina-tod-phod` and `vastu-remedies-without-demolition`); no FAQPage block is included, because the FAQ is not on the page.
 
 ## 9. Images
 
@@ -275,8 +277,8 @@ The values written to output/vastu_positive_energy_in_your_space/blog/seo.json f
 ```json
 {
   "title": {
-    "hi": "वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
-    "en": "How to Fix Your Vastu Without Breaking Down Walls"
+    "hi": "वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें",
+    "en": "Vastu Remedies Without Demolition: Raise Your Home's Energy"
   },
   "alt": {
     "hero.jpg": {
@@ -344,15 +346,15 @@ The values written to output/vastu_positive_energy_in_your_space/blog/seo.json f
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "vastu-sudhar-bina-tod-phod",
-      "focus_keyword": "वास्तु सुधार",
+      "slug": "vastu-dosh-ke-upay-bina-tod-phod",
+      "focus_keyword": "वास्तु दोष के उपाय",
       "secondary_keywords": [
+        "वास्तु सुधार",
         "बिना तोड़-फोड़ वास्तु उपाय",
         "फ्लैट के लिए वास्तु",
-        "वास्तु यंत्र",
-        "वास्तु दोष के उपाय"
+        "वास्तु यंत्र"
       ],
-      "meta_description": "क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
+      "meta_description": "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।",
       "tags": [
         "वास्तु",
         "श्री यंत्र",
@@ -362,15 +364,15 @@ The values written to output/vastu_positive_energy_in_your_space/blog/seo.json f
       ]
     },
     "en": {
-      "slug": "fix-your-vastu-without-demolition",
-      "focus_keyword": "fix your Vastu",
+      "slug": "vastu-remedies-without-demolition",
+      "focus_keyword": "Vastu remedies without demolition",
       "secondary_keywords": [
-        "Vastu without demolition",
+        "fix your Vastu",
         "Vastu for flats",
         "Vastu yantras",
         "Vastu Transformation"
       ],
-      "meta_description": "Can you fix your Vastu without breaking walls? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
+      "meta_description": "Are there Vastu remedies without demolition? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat.",
       "tags": [
         "Vastu",
         "Shri Yantra",
@@ -399,7 +401,7 @@ The values written to output/vastu_positive_energy_in_your_space/blog/seo.json f
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): focus keyword first appears after about 140 (Hindi) and 160 (English) words
+- [x] Within the first 100 words (preferred): in the `_seo` texts' direct-answer paragraph (about word 77 Hindi, 89 English)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
