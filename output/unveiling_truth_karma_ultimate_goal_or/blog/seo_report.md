@@ -24,28 +24,28 @@ Through the image of a pole vault, Acharya Ji teaches that Karma Yoga is the pol
 
 Notes:
 - Both primary keywords come from the body's own subheading ("कर्मयोगी कौन है?" / "Who Is a Karma Yogi?"); "karma yogi" appears 4 times in the English body.
-- Wording mismatch: the body says "बाँस है कर्मयोग, शिखर है ज्ञानयोग" / "The Pole Is Karma Yoga, the Summit Is Jnana Yoga", never "कर्मयोग और ज्ञानयोग" or "karma yoga vs jnana yoga", so those searched forms are kept as secondary keywords only. If wanted, the editor could add a natural phrase such as "कर्मयोग और ज्ञानयोग का संबंध" in that section.
+- Wording mismatch (fixed in the `_seo` texts): the original body said only "बाँस है कर्मयोग, शिखर है ज्ञानयोग" / "The Pole Is Karma Yoga, the Summit Is Jnana Yoga". The `_seo` texts now add a short direct answer in the first 100 words that opens with the focus keyword ("तो कर्मयोगी कौन है?" / "So who is a Karma Yogi?") and names "कर्मयोग और ज्ञानयोग" / "Karma Yoga and Jnana Yoga" (the natural English form of "karma yoga vs jnana yoga"), and the pole/summit heading is now the question "क्या कर्मयोग अंतिम लक्ष्य है?" / "Is Karma Yoga the Ultimate Goal?". The focus keywords stay "कर्मयोगी कौन है" / "who is a karma yogi"; the searched forms stay secondary keywords.
 - The video and thumbnail spell it "Karma Yog"; the blog uses "Karma Yoga". SureRank ignores the difference only for the primary keyword we chose, so no conflict.
 
 ## 3. Titles and meta
 
 **Hindi** (H1 in the blog: "कर्म की लाठी कब छोड़नी है")
-1. कर्मयोगी कौन है? कर्म का बाँस कब छोड़ें (recommended, 39 characters)
+1. कर्मयोगी कौन है? कर्म का बाँस कब छोड़ें (recommended, in seo.json, 39 characters)
 2. क्या कर्मयोग अंतिम लक्ष्य है? कर्मयोगी कौन है
 3. कर्मयोगी कौन है? कर्मयोग से ज्ञानयोग तक की छलाँग
 
-Meta description (150 characters): कर्मयोगी कौन है? बाँस-कूद के उदाहरण से आचार्य उपेंद्र जी बताते हैं कि कर्मयोग ज्ञानयोग तक ले जाता है, और अपने कर्म की एक सीमा तय करना क्यों ज़रूरी है।
+Meta description (recommended, in seo.json, 150 characters): कर्मयोगी कौन है? बाँस-कूद के उदाहरण से आचार्य उपेंद्र जी बताते हैं कि कर्मयोग ज्ञानयोग तक ले जाता है, और अपने कर्म की एक सीमा तय करना क्यों ज़रूरी है।
 
-Slug: `/hi/karmayogi-kaun-hai`
+Slug (recommended, in seo.json): `/hi/karmayogi-kaun-hai`
 
 **English** (H1 in the blog: "When Should You Let Go of the Pole of Action?")
-1. Who Is a Karma Yogi? When to Let Go of the Pole of Action (recommended, 57 characters)
+1. Who Is a Karma Yogi? When to Let Go of the Pole of Action (recommended, in seo.json, 57 characters)
 2. Who Is a Karma Yogi? Karma Yoga Is the Pole, Not the Summit
 3. Who Is a Karma Yogi, and Is Karma Yoga the Final Goal?
 
-Meta description (150 characters): Who is a Karma Yogi? Through a pole vault image, Acharya Upendra Ji explains why action leads to Jnana Yoga and why you must set a limit to your work.
+Meta description (recommended, in seo.json, 150 characters): Who is a Karma Yogi? Through a pole vault image, Acharya Upendra Ji explains why action leads to Jnana Yoga and why you must set a limit to your work.
 
-Slug: `/en/who-is-a-karma-yogi`
+Slug (recommended, in seo.json): `/en/who-is-a-karma-yogi`
 
 ## 4. Outline changes
 
@@ -425,3 +425,73 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the `_seo` texts, through the added direct answer)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts (Jnana Yoga / ज्ञानयोग is in 2 posts so far, but is a core concept more posts will share)
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
