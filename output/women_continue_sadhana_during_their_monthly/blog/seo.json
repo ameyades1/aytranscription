@@ -70,15 +70,15 @@
     "category": "women",
     "hi": {
       "slug": "masik-dharm-mein-sadhana",
-      "focus_keyword": "मासिक धर्म",
-      "secondary_keywords": ["मासिक धर्म में साधना", "पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
+      "focus_keyword": "मासिक धर्म में साधना",
+      "secondary_keywords": ["पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
       "meta_description": "क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।",
       "tags": ["नारी शक्ति", "अंधश्रद्धा", "वैराग्य", "श्री विद्या", "शनि देव"]
     },
     "en": {
       "slug": "sadhana-during-menstruation",
-      "focus_keyword": "menstruation",
-      "secondary_keywords": ["sadhana during menstruation", "can women do sadhana during periods", "can women chant mantras during periods", "shmashan vairagya meaning"],
+      "focus_keyword": "sadhana during menstruation",
+      "secondary_keywords": ["can women do sadhana during periods", "can women chant mantras during periods", "shmashan vairagya meaning"],
       "meta_description": "Should women stop sadhana during menstruation? Acharya Upendra Ji explains where the rule came from and why your personal practice can continue every day.",
       "tags": ["Women's Empowerment", "Blind Faith", "Vairagya", "Shri Vidya", "Shani Dev"]
     }

@@ -10,23 +10,23 @@ A short talk (video 4:18) answering a question many women ask: should sadhana st
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| मासिक धर्म (focus) | Hindi | Informational / practical | High |
-| मासिक धर्म में साधना | Hindi | Practical | High |
+| मासिक धर्म में साधना (focus) | Hindi | Practical | High |
+| मासिक धर्म | Hindi | Informational / practical | Medium |
 | पीरियड्स में पूजा कर सकते हैं या नहीं | Hindi / Hinglish | Practical | High |
 | स्त्रियों के लिए धार्मिक निषेध | Hindi | Informational | Medium |
 | श्मशान वैराग्य | Hindi | Informational | Low |
 | masik dharm me puja kar sakte hai | Hinglish | Practical | High |
 | periods me sadhana kar sakte hai | Hinglish | Practical | Medium |
-| menstruation (focus) | English | Informational / practical | High |
-| sadhana during menstruation | English | Practical | High |
+| sadhana during menstruation (focus) | English | Practical | High |
+| menstruation | English | Informational / practical | Medium |
 | can women do sadhana during periods | English | Practical / emotional | High |
 | can women chant mantras during periods | English | Practical | Medium |
 | shmashan vairagya meaning | English | Informational | Low |
 | can women go to Shani temple | English | Practical | Low |
 
 Notes:
-- **Wording mismatch (Hindi).** The searched phrase is "मासिक धर्म में साधना / पूजा". The body never uses it: "मासिक धर्म" appears in the H1 (which SureRank does not count) and once in the body, in the last takeaway ("मासिक धर्म से जुड़ा निषेध"). So the focus keyword is the bare "मासिक धर्म", and "मासिक धर्म में साधना" is kept as a secondary keyword. If the blog is edited later, adding "मासिक धर्म में साधना" to the opening section would let it become the focus keyword.
-- **Wording mismatch (English).** People search "periods" or "sadhana during menstruation"; the body says "menstruation" only once (last takeaway) and "monthly cycle" only in the H1. The focus keyword is therefore "menstruation"; "sadhana during menstruation" and the "periods" queries are secondary. Neither focus keyword is in the first 100 words, because the body only names the subject at the end.
+- **Wording mismatch (Hindi), fixed in the `_seo` text.** The searched phrase is "मासिक धर्म में साधना / पूजा". The original body never used it ("मासिक धर्म" appeared only in the H1 and the last takeaway), so the focus keyword was the bare "मासिक धर्म". The SEO fix (`seo_fix.md`) added "मासिक धर्म में साधना" to the opening paragraph and to the H2 "क्या मासिक धर्म में साधना करनी चाहिए?", so it is now the focus keyword; the bare "मासिक धर्म" was dropped as too broad.
+- **Wording mismatch (English), fixed in the `_seo` text.** People search "periods" or "sadhana during menstruation"; the original body said "menstruation" only once (last takeaway), so the focus keyword was "menstruation". The SEO fix added "sadhana during menstruation" to the opening paragraph and to the H2 "Can Women Do Sadhana During Menstruation?", so it is now the focus keyword, in the first 100 words; the bare "menstruation" was dropped as too broad. The "periods" queries stay secondary.
 - Hindi and English were researched separately: Hindi and Hinglish searchers mostly say "पूजा" and "पीरियड्स"; English searchers ask about "sadhana", "chanting mantras" and "periods".
 - No focus keyword overlap with other posts (checked against all seo.json files). Nearby posts: `satyug_rules_kaliyug_different_path` (कलियुग में साधना का मार्ग) and `physical_mental_strength_spiritual_path` (साधना में स्वास्थ्य का महत्व) target different questions.
 
@@ -132,7 +132,6 @@ For later use in WordPress; this is not added to the generated page. One block p
       "description": "क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।",
       "inLanguage": "hi",
       "keywords": [
-        "मासिक धर्म",
         "मासिक धर्म में साधना",
         "पीरियड्स में पूजा कर सकते हैं या नहीं",
         "स्त्रियों के लिए धार्मिक निषेध",
@@ -287,7 +286,6 @@ For later use in WordPress; this is not added to the generated page. One block p
       "description": "Should women stop sadhana during menstruation? Acharya Upendra Ji explains where the rule came from and why your personal practice can continue every day.",
       "inLanguage": "en",
       "keywords": [
-        "menstruation",
         "sadhana during menstruation",
         "can women do sadhana during periods",
         "can women chant mantras during periods",
@@ -546,15 +544,15 @@ The values written to `output/women_continue_sadhana_during_their_monthly/blog/s
     "category": "women",
     "hi": {
       "slug": "masik-dharm-mein-sadhana",
-      "focus_keyword": "मासिक धर्म",
-      "secondary_keywords": ["मासिक धर्म में साधना", "पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
+      "focus_keyword": "मासिक धर्म में साधना",
+      "secondary_keywords": ["पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
       "meta_description": "क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।",
       "tags": ["नारी शक्ति", "अंधश्रद्धा", "वैराग्य", "श्री विद्या", "शनि देव"]
     },
     "en": {
       "slug": "sadhana-during-menstruation",
-      "focus_keyword": "menstruation",
-      "secondary_keywords": ["sadhana during menstruation", "can women do sadhana during periods", "can women chant mantras during periods", "shmashan vairagya meaning"],
+      "focus_keyword": "sadhana during menstruation",
+      "secondary_keywords": ["can women do sadhana during periods", "can women chant mantras during periods", "shmashan vairagya meaning"],
       "meta_description": "Should women stop sadhana during menstruation? Acharya Upendra Ji explains where the rule came from and why your personal practice can continue every day.",
       "tags": ["Women's Empowerment", "Blind Faith", "Vairagya", "Shri Vidya", "Shani Dev"]
     }
@@ -578,7 +576,7 @@ The values written to `output/women_continue_sadhana_during_their_monthly/blog/s
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): the body names the subject only in the last takeaway, in both languages
+- [x] Within the first 100 words (preferred): added to the opening paragraph by the SEO fix, in both languages
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
