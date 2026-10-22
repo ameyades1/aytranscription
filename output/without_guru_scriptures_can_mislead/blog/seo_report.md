@@ -14,8 +14,8 @@ The talk is a parable: a boy who thinks he can skip the Guru buys the scriptures
 | why you need a living Guru | English | Informational | Medium |
 | tamasic and sattvic doer | English | Informational | Low |
 | can I read the Bhagavad Gita without a Guru | English | Informational | Medium |
-| शास्त्र समझने के लिए गुरु (focus) | Hindi | Informational | High |
-| गुरु के बिना शास्त्र | Hindi | Informational | High |
+| गुरु के बिना शास्त्र (focus) | Hindi | Informational | High |
+| शास्त्र समझने के लिए गुरु | Hindi | Informational | High |
 | गुरु क्यों ज़रूरी है | Hindi | Informational | High |
 | जीवित गुरु | Hindi | Informational | Medium |
 | सात्त्विक कर्ता | Hindi | Informational | Low |
@@ -24,30 +24,30 @@ The talk is a parable: a boy who thinks he can skip the Guru buys the scriptures
 | Without a Guru, Scriptures Can Mislead You (video title) | English | Navigational | Low |
 
 Notes:
-- English focus keyword "scriptures without a Guru" matches the body ("you cannot understand the scriptures without a Guru", one occurrence). It is not in the first 100 words.
-- Hindi focus keyword "शास्त्र समझने के लिए गुरु" matches the body ("शास्त्र समझने के लिए गुरु चाहिए ही चाहिए"), also not in the first 100 words.
-- Wording mismatch: Hindi searchers type "गुरु के बिना शास्त्र" or "गुरु क्यों ज़रूरी है"; the Hindi body uses neither (the first is only in the H1, which SureRank does not count). Both are in `secondary_keywords`. If the blog is edited later, a sentence with "गुरु के बिना शास्त्र" in the opening section would allow that stronger query as the focus keyword.
+- English focus keyword "scriptures without a Guru" matches the body. The SEO-fixed text (`without_guru_scriptures_can_mislead_blog_seo_en.txt`) uses it in the first 100 words (the direct answer under the first H2), in the H2 "Why Can't You Understand Scriptures Without a Guru?" and in the "first duty" section.
+- Hindi focus keyword "गुरु के बिना शास्त्र": Hindi searchers type this wording, which the original body did not use (only the H1). The SEO-fixed text (`without_guru_scriptures_can_mislead_blog_seo.txt`) now uses it in the first 100 words (the direct answer) and in the H2 "गुरु के बिना शास्त्र क्यों समझ में नहीं आते?", so it is the focus keyword. The former focus "शास्त्र समझने के लिए गुरु" is still in the body (twice) and is now a secondary keyword.
+- "गुरु क्यों ज़रूरी है" is still not used word for word in the body; it stays a secondary keyword.
 - Hindi and English were chosen separately; the Hindi focus is not a translation of the English one.
 
 ## 3. Titles and meta
 
 Hindi:
-1. शास्त्र समझने के लिए गुरु क्यों ज़रूरी है (recommended, 41 characters)
-2. गुरु के बिना शास्त्र क्यों भटका सकते हैं
+1. गुरु के बिना शास्त्र क्यों भटका सकते हैं (recommended, 40 characters)
+2. शास्त्र समझने के लिए गुरु क्यों ज़रूरी है
 3. शास्त्र के संकेत: टूटी चीज़, वमन और मृतक का वस्त्र
 
-Meta description (157 characters): शास्त्र समझने के लिए गुरु क्यों ज़रूरी है? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।
+Meta description (recommended, 156 characters): गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।
 
-Slug: /hi/shastra-samajhne-ke-liye-guru
+Slug (recommended): /hi/guru-ke-bina-shastra
 
 English:
 1. Scriptures Without a Guru: Why Literal Reading Misleads (recommended, 55 characters)
 2. Can You Read Scriptures Without a Guru?
 3. Is a Guru Necessary? A Parable of Literal Reading
 
-Meta description (145 characters): Can you read scriptures without a Guru? Acharya Upendra Ji's parable of a boy who took them literally shows why a living Guru is your first duty.
+Meta description (recommended, 145 characters): Can you read scriptures without a Guru? Acharya Upendra Ji's parable of a boy who took them literally shows why a living Guru is your first duty.
 
-Slug: /en/scriptures-without-a-guru
+Slug (recommended): /en/scriptures-without-a-guru
 
 ## 4. Outline changes
 
@@ -105,10 +105,10 @@ Hindi:
       "@type": "BlogPosting",
       "@id": "{{HI_POST_URL}}#article",
       "headline": "गुरु के बिना शास्त्र भटका सकते हैं",
-      "alternativeHeadline": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है",
-      "description": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",
+      "alternativeHeadline": "गुरु के बिना शास्त्र क्यों भटका सकते हैं",
+      "description": "गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",
       "inLanguage": "hi",
-      "keywords": ["शास्त्र समझने के लिए गुरु", "गुरु के बिना शास्त्र", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
+      "keywords": ["गुरु के बिना शास्त्र", "शास्त्र समझने के लिए गुरु", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
       "about": [
         {"@type": "Thing", "name": "गुरु"},
         {"@type": "Thing", "name": "शास्त्र"},
@@ -235,6 +235,8 @@ English:
 
 WordPress mapping (SureRank): SureRank fills the BlogPosting basics itself (headline, description from the meta description, datePublished/dateModified, image from the featured image, mainEntityOfPage, publisher from its site settings), plus the BreadcrumbList and Organization from its site settings. Enter by hand: the focus keyword, slug and meta description from seo.json; the Person with Acharya Ji's details as the author; the VideoObject (upload date 2025-03-21, duration PT7M40S, title above) as a custom schema; and the translationOfWork/workTranslation link once both URLs exist. All `{{...}}` values are unknown until the posts are published.
 
+URL slugs ({{HI_POST_URL}} / {{EN_POST_URL}}): /hi/guru-ke-bina-shastra and /en/scriptures-without-a-guru, as in seo.json.
+
 ## 9. Images
 
 | File | Hindi alt | English alt | Caption (hi / en) |
@@ -261,7 +263,7 @@ The exact values written to `output/without_guru_scriptures_can_mislead/blog/seo
 ```json
 {
   "title": {
-    "hi": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है",
+    "hi": "गुरु के बिना शास्त्र क्यों भटका सकते हैं",
     "en": "Scriptures Without a Guru: Why Literal Reading Misleads"
   },
   "alt": {
@@ -330,10 +332,10 @@ The exact values written to `output/without_guru_scriptures_can_mislead/blog/seo
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "shastra-samajhne-ke-liye-guru",
-      "focus_keyword": "शास्त्र समझने के लिए गुरु",
-      "secondary_keywords": ["गुरु के बिना शास्त्र", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
-      "meta_description": "शास्त्र समझने के लिए गुरु क्यों ज़रूरी है? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",
+      "slug": "guru-ke-bina-shastra",
+      "focus_keyword": "गुरु के बिना शास्त्र",
+      "secondary_keywords": ["शास्त्र समझने के लिए गुरु", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
+      "meta_description": "गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",
       "tags": ["अंधश्रद्धा", "सत्त्व गुण", "तमोगुण", "उपनिषद", "कर्तव्य"]
     },
     "en": {
@@ -354,7 +356,7 @@ The exact values written to `output/without_guru_scriptures_can_mislead/blog/seo
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts' wording)
 - [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 
@@ -363,7 +365,7 @@ The exact values written to `output/without_guru_scriptures_can_mislead/blog/seo
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): neither focus keyword appears in the first 100 words (first use is in the "first duty" section)
+- [x] Within the first 100 words (preferred): in the SEO-fixed texts (`_seo`), both focus keywords are in the direct answer under the first H2
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
