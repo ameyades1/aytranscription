@@ -22,6 +22,8 @@ A short discourse (3:31) in which Acharya Upendra Ji explains what **kama** real
 | sakama bhakti meaning | English | Informational | Low |
 | Kalki kama avatar | English | Informational | Low (unsourced claim, do not target) |
 
+Keyword note: the original blog texts used neither focus keyword ("काम का असली अर्थ" / "love vs lust"; the body said "काम की सच्ची परिभाषा" and "What Kama Really Means"). The `_seo` texts (`truly_desire_or_infatuation_blog_seo.txt`, `truly_desire_or_infatuation_blog_seo_en.txt`), which are what gets published, now use each one in the direct-answer paragraph in the first 100 words, and in a question heading ("काम का असली अर्थ क्या है?" / "What Is the True Meaning of Kama?", "Love or Lust? The Great Confusion of Kali Yuga"). The focus keywords are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -29,18 +31,18 @@ A short discourse (3:31) in which Acharya Upendra Ji explains what **kama** real
 2. प्रेम और वासना में अंतर: काम का सच्चा अर्थ
 3. सच्चा काम या केवल आकर्षण? स्पर्श के पीछे का हेतु
 
-Meta description (146 characters): जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।
+Meta description (recommended, 146 characters): जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।
 
-Slug: `/hi/kaam-ka-asli-arth`
+Slug (recommended): `/hi/kaam-ka-asli-arth`
 
 **English**
 1. Love vs Lust: The True Meaning of Kama | Acharya Ji (recommended, 51 characters)
 2. Is It Love or Infatuation? What Kama Really Means
 3. True Kama or Mere Attraction? The Intention Behind a Touch
 
-Meta description (151 characters): Is it love or attraction? Acharya Upendra Ji explains the true meaning of kama, the two levels of desire, and why the intention behind a touch matters.
+Meta description (recommended, 153 characters): Love vs lust: what is the difference? Acharya Upendra Ji explains the true meaning of kama, its two levels, and why the intention behind a touch matters.
 
-Slug: `/en/love-vs-lust`
+Slug (recommended): `/en/love-vs-lust`
 
 ## 4. Outline changes
 
@@ -49,6 +51,7 @@ The H1 and teaching stay as they are. Suggested heading changes (editor's choice
 - H2 "कलयुग की सबसे बड़ी उलझन" / "The Great Confusion of Kali Yuga" → "प्रेम या वासना: कलियुग की सबसे बड़ी उलझन" / "Love or Lust: The Great Confusion of Kali Yuga" (puts the English primary keyword in a heading). If changed, update `also_read.after` in seo.json.
 - H2 "कल्कि: काम अवतार भी, प्रेम अवतार भी": keep, but apply the review's attribution to Acharya Ji in the body (section 10, flag 1).
 - Place the direct-answer paragraph (section 5) after the introduction, before the first H2.
+- Done in the `_seo` texts: the direct-answer paragraph, "काम का असली अर्थ क्या है?" / "What Is the True Meaning of Kama?", and "प्रेम या वासना? कलयुग की सबसे बड़ी उलझन" / "Love or Lust? The Great Confusion of Kali Yuga" (also_read updated). The Hindi spelling fixes are left to the editor.
 - Hindi: use "कलियुग" in headings (review issue 5); this changes the also_read heading, so update seo.json at the same time.
 
 ## 5. Direct answer paragraph
@@ -89,7 +92,7 @@ In-text links (placed by the page generator, written to seo.json):
 | true_power_of_scriptures_decoded | कामशास्त्र | Kamashastra | Explains Kama Shastra among the shastras and the purusharthas |
 | when_kalki_avatar_come | कल्कि | Kalki | Acharya Ji's full talk on Kalki |
 
-Also read: why_blind_love_is_dangerous, after the section "कलयुग की सबसे बड़ी उलझन" / "The Great Confusion of Kali Yuga" (love without discernment).
+Also read: why_blind_love_is_dangerous, after the section "प्रेम या वासना? कलयुग की सबसे बड़ी उलझन" / "Love or Lust? The Great Confusion of Kali Yuga" (heading as in the `_seo` texts) (love without discernment).
 
 Related reading: true_meaning_of_love_valentines, love_respect_friendship_connection, why_blind_love_is_dangerous.
 
@@ -124,7 +127,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "सच्चा काम या केवल आकर्षण",
-      "alternativeHeadline": "काम का असली अर्थ: प्रेम या केवल आकर्षण?",
+      "alternativeHeadline": "काम का असली अर्थ: प्रेम या केवल आकर्षण? | आचार्य जी",
       "description": "जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।",
       "inLanguage": "hi",
       "keywords": [
@@ -222,8 +225,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "True Kama or Mere Attraction?",
-      "alternativeHeadline": "Love vs Lust: The True Meaning of Kama",
-      "description": "Is it love or attraction? Acharya Upendra Ji explains the true meaning of kama, the two levels of desire, and why the intention behind a touch matters.",
+      "alternativeHeadline": "Love vs Lust: The True Meaning of Kama | Acharya Ji",
+      "description": "Love vs lust: what is the difference? Acharya Upendra Ji explains the true meaning of kama, its two levels, and why the intention behind a touch matters.",
       "inLanguage": "en",
       "keywords": [
         "love vs lust",
@@ -381,7 +384,7 @@ The exact values written to `output/truly_desire_or_infatuation/blog/seo.json`.
   ],
   "also_read": {
     "talk": "why_blind_love_is_dangerous",
-    "after": {"hi": "कलयुग की सबसे बड़ी उलझन", "en": "The Great Confusion of Kali Yuga"}
+    "after": {"hi": "प्रेम या वासना? कलयुग की सबसे बड़ी उलझन", "en": "Love or Lust? The Great Confusion of Kali Yuga"}
   },
   "related": ["true_meaning_of_love_valentines", "love_respect_friendship_connection", "why_blind_love_is_dangerous"],
   "wordpress": {
@@ -397,9 +400,79 @@ The exact values written to `output/truly_desire_or_infatuation/blog/seo.json`.
       "slug": "love-vs-lust",
       "focus_keyword": "love vs lust",
       "secondary_keywords": ["true meaning of kama", "is it love or infatuation", "kama purushartha meaning"],
-      "meta_description": "Is it love or attraction? Acharya Upendra Ji explains the true meaning of kama, the two levels of desire, and why the intention behind a touch matters.",
+      "meta_description": "Love vs lust: what is the difference? Acharya Upendra Ji explains the true meaning of kama, its two levels, and why the intention behind a touch matters.",
       "tags": ["Purusharthas", "Vasana", "Kali Yuga", "Kalki Avatar", "Bhakti"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description: English meta rewritten to start with "Love vs lust"
+- [x] In the body text: in the `_seo` texts (the original texts did not use either focus keyword)
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred): in the `_seo` texts' direct-answer paragraph
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "Vasana" / "वासना" is used by 2 posts and "Kalki Avatar" / "कल्कि अवतार" by 1–2 so far
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the body presents the Kalki "kama avatar / prema avatar" passage and "प्रेम आया तो काम आएगा ही" as scripture without a source (section 10, flags 1–2); a content correction for the editor, not an SEO fix
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
