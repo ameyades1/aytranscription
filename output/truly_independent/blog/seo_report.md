@@ -25,6 +25,8 @@ A short Independence Day talk (video uploaded 2026-08-15, 3:46, titled "क्�
 
 Deliberately not targeted: "Chanakya on democracy", "Chanakya quotes on Kaliyug" and similar. These queries would draw readers looking for a verifiable source, and the blog cannot give one (flag 1). Party, election-result and "freebies" queries are left out too: the talk mentions schemes only to make the point that the money is the people's own, and political traffic would not be served honestly. "are we really free" is Medium in English because much of that search is about free will; the title pairs it with democracy to show which kind of freedom the post means.
 
+Keyword note (SEO fix): neither focus keyword appeared in the original blog body ("लोकतंत्र" / "democracy" first comes up in the third section). The `_seo` texts (`truly_independent_blog_seo.txt`, `truly_independent_blog_seo_en.txt`), which are what gets published, now use "लोकतंत्र का असली अर्थ" and "true meaning of democracy" in a direct-answer paragraph within the first 100 words and in the third `##` heading, so the focus keywords stay as they are. There is no mismatch between the searched wording and the body.
+
 Seasonal: refresh the post 4 to 6 weeks before 15 August (early July) and before 26 January (mid December), the day the Constitution came into force, which suits the "read your Constitution" message.
 
 ## 3. Titles and meta
@@ -55,6 +57,7 @@ The headings already follow readers' questions. Suggested changes, none of which
 - "एक लंबा नाम, एक गहरा अर्थ" / "A Long Name with a Deep Meaning" could become a question: "संविधान भारत को क्या कहता है?" / "How Does Our Constitution Describe India?" This is optional.
 - "चाणक्य की चेतावनी" / "Chanakya's Warning": keep the heading, but apply the Sanskrit review's framing (flag 1) so the saying is clearly given as the speaker's attribution.
 - The H1 "क्या हम सच में आज़ाद हैं" has no question mark, while the English H1 does. Consider adding one for consistency (an editorial choice; the title tag already has it).
+- Done in the `_seo` texts (SEO fix): the direct answer paragraph is added after the two opening paragraphs; the first heading is now "हमारा संविधान भारत को क्या कहता है?" / "How Does Our Constitution Describe India?", and the third is "लोकतंत्र का असली अर्थ: By the People या Buy the People?" / "The True Meaning of Democracy: By the People or Buy the People?". The Chanakya framing and the H1 question mark are left to the editor.
 - Keep the closing question about reading the Constitution. It is the post's call to action and fits the 26 January refresh.
 
 ## 5. Direct answer paragraph
@@ -540,3 +543,73 @@ The exact values written to `output/truly_independent/blog/seo.json` for the pag
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "Democracy" / "लोकतंत्र" is used by 1 post and "Independence Day" / "स्वतंत्रता दिवस" by 2
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the Chanakya sayings on democracy are unsourced and given as known sayings (Sanskrit review item 1, flag 1); a content correction for the editor
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
