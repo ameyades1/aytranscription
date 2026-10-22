@@ -1,7 +1,7 @@
 {
   "title": {
     "hi": "इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल",
-    "en": "Why Sense Pleasures Don't Last: The Trap of Physical Bliss"
+    "en": "Why Sense Pleasures Fade: The Trap of Physical Bliss"
   },
   "alt": {
     "hero.jpg": {
@@ -76,9 +76,9 @@
       "tags": ["त्रिगुण", "तमोगुण", "श्रेय और प्रेय", "इंद्रिय सुख"]
     },
     "en": {
-      "slug": "why-sense-pleasures-dont-last",
-      "focus_keyword": "why sense pleasures don't last",
-      "secondary_keywords": ["physical bliss meaning", "illusory happiness", "cycle of craving and dependency", "five tanmatras"],
+      "slug": "why-sense-pleasures-fade",
+      "focus_keyword": "why sense pleasures fade",
+      "secondary_keywords": ["why sense pleasures don't last", "physical bliss meaning", "illusory happiness", "cycle of craving and dependency"],
       "meta_description": "Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.",
       "tags": ["Three Gunas", "Tamas", "Shreyas and Preyas", "Sense Pleasures"]
     }

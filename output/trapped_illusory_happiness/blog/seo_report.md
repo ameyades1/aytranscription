@@ -15,7 +15,8 @@ Topic: physical (sensory) bliss, the first and lowest rung of the ladder of blis
 | पंच तन्मात्रा | Hindi | Informational | Low |
 | sukh kshanik kyon hota hai | Hinglish | Informational | Medium |
 | indriya sukh kya hai | Hinglish | Informational | Low |
-| why sense pleasures don't last (primary) | English | Informational / emotional | High |
+| why sense pleasures fade (primary) | English | Informational / emotional | High |
+| why sense pleasures don't last | English | Informational / emotional | High |
 | physical bliss meaning | English | Informational | Medium |
 | illusory happiness | English | Navigational (video title) / emotional | Medium |
 | cycle of craving and dependency | English | Life problem | Medium |
@@ -24,25 +25,28 @@ Topic: physical (sensory) bliss, the first and lowest rung of the ladder of blis
 
 No search volumes are given; priority is judgement of intent and competition. "Tamasic pleasure" was deliberately not chosen as a keyword (see flag 1).
 
+Keyword note (after the SEO fix, `_seo` texts): the original blogs used neither primary keyword in the body. The `_seo` texts add a direct-answer paragraph after the opening, which uses "इंद्रिय सुख क्षणिक क्यों है" (Hindi) and "Why do sense pleasures fade" (English) within the first 100 words. The English focus keyword moved from "why sense pleasures don't last" to "why sense pleasures fade": the apostrophe in "don't" can never match a slug ("dont"), so SureRank's slug check would always fail. "why sense pleasures don't last" stays a secondary keyword and is echoed in the H2 "Why Don't Sense Pleasures Last?"; "five tanmatras" (Low, flag 2) was dropped from the secondary keywords. "शारीरिक आनंद क्या है" / "What Is Physical Bliss?" now opens an H2 in each language.
+
 ## 3. Titles and meta
 
 **Hindi**
-1. इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल (recommended, 48 chars)
+1. इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल (recommended, in seo.json, 48 chars)
 2. क्षणिक सुख का जाल: विषय गया तो आनंद गया
 3. शारीरिक आनंद क्या है और यह क्यों नहीं टिकता
 
-Meta description (148 chars): इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है।
+Meta description (recommended, in seo.json, 148 chars): इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है।
 
-Slug: /hi/indriya-sukh-kshanik-kyon
+Slug (recommended, in seo.json): /hi/indriya-sukh-kshanik-kyon
 
 **English**
-1. Why Sense Pleasures Don't Last: The Trap of Physical Bliss (recommended, 58 chars)
-2. Trapped in Illusory Happiness? When the Object Goes, Joy Goes
-3. Physical Bliss Explained: The Cycle of Craving and Dependency
+1. Why Sense Pleasures Fade: The Trap of Physical Bliss (recommended, in seo.json, 52 chars; after the SEO fix)
+2. Why Sense Pleasures Don't Last: The Trap of Physical Bliss (58 chars; earlier choice)
+3. Trapped in Illusory Happiness? When the Object Goes, Joy Goes
+4. Physical Bliss Explained: The Cycle of Craving and Dependency
 
-Meta description (152 chars): Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.
+Meta description (recommended, in seo.json, 152 chars): Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.
 
-Slug: /en/why-sense-pleasures-dont-last
+Slug (recommended, in seo.json): /en/why-sense-pleasures-fade
 
 ## 4. Outline changes
 
@@ -88,7 +92,7 @@ Cannibalization: joy_sorrow_transformation targets "सुख-दुःख क�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID T_do140cMxM, uploaded 2025-03-28, 353 s, title from yt-dlp.
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID T_do140cMxM, uploaded 2025-03-28, 353 s, title from yt-dlp. URL slugs: /hi/indriya-sukh-kshanik-kyon and /en/why-sense-pleasures-fade (`{{HI_POST_URL}}` / `{{EN_POST_URL}}`).
 
 **Hindi**
 
@@ -169,10 +173,10 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "@type": "BlogPosting",
       "@id": "{{EN_POST_URL}}#article",
       "headline": "The Trap of Fleeting Happiness and the Truth About Physical Bliss",
-      "alternativeHeadline": "Why Sense Pleasures Don't Last: The Trap of Physical Bliss",
+      "alternativeHeadline": "Why Sense Pleasures Fade: The Trap of Physical Bliss",
       "description": "Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.",
       "inLanguage": "en",
-      "keywords": ["why sense pleasures don't last", "physical bliss meaning", "illusory happiness", "cycle of craving and dependency", "five tanmatras"],
+      "keywords": ["why sense pleasures fade", "why sense pleasures don't last", "physical bliss meaning", "illusory happiness", "cycle of craving and dependency"],
       "about": [
         {"@type": "Thing", "name": "Sense pleasures"},
         {"@type": "Thing", "name": "Tanmatras"},
@@ -259,7 +263,7 @@ The exact values written to output/trapped_illusory_happiness/blog/seo.json.
 {
   "title": {
     "hi": "इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल",
-    "en": "Why Sense Pleasures Don't Last: The Trap of Physical Bliss"
+    "en": "Why Sense Pleasures Fade: The Trap of Physical Bliss"
   },
   "alt": {
     "hero.jpg": {
@@ -334,12 +338,82 @@ The exact values written to output/trapped_illusory_happiness/blog/seo.json.
       "tags": ["त्रिगुण", "तमोगुण", "श्रेय और प्रेय", "इंद्रिय सुख"]
     },
     "en": {
-      "slug": "why-sense-pleasures-dont-last",
-      "focus_keyword": "why sense pleasures don't last",
-      "secondary_keywords": ["physical bliss meaning", "illusory happiness", "cycle of craving and dependency", "five tanmatras"],
+      "slug": "why-sense-pleasures-fade",
+      "focus_keyword": "why sense pleasures fade",
+      "secondary_keywords": ["why sense pleasures don't last", "physical bliss meaning", "illusory happiness", "cycle of craving and dependency"],
       "meta_description": "Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life.",
       "tags": ["Three Gunas", "Tamas", "Shreyas and Preyas", "Sense Pleasures"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts use both focus keywords in the body)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (after the SEO fix: direct-answer paragraph in both `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (the body presents Acharya Ji's tamasic/rajasic/sattvic ladder, with sense pleasure as tamasic, as what "the scriptures" say, while Gita 18.38 classes sense-contact pleasure as rajasic; Sanskrit review issue 1, flag 1. An editorial correction outside the SEO fix; no SEO field repeats it)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
