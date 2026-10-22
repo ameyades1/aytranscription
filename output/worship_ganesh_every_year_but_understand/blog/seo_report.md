@@ -8,7 +8,8 @@ This talk (Ganesh Series, Ep 2) starts from what nearly every Hindu home does fo
 
 | keyword | language | intent | priority |
 |---|---|---|---|
-| गणपति उपासना (primary) | Hindi | Informational / reflective | High |
+| गणपति पूजा (primary) | Hindi | Informational / reflective | High |
+| गणपति उपासना | Hindi | Informational / reflective | High |
 | गणपति पूजा का अर्थ | Hindi | Informational | High |
 | गणेश जी किसके देवता हैं | Hindi | Informational (question) | Medium |
 | श्रद्धा और ज्ञान | Hindi | Reflective | Medium |
@@ -22,28 +23,29 @@ This talk (Ganesh Series, Ep 2) starts from what nearly every Hindu home does fo
 | Acharya Upendra Ji Ganesh Series | English | Navigational | Low |
 
 Keyword notes:
-- "गणपति उपासना" appears once in the Hindi body (Key Takeaways: "सबसे अधिक गणपति उपासना होने पर भी"), not in the first 100 words. The more searched wording "गणपति पूजा" is only in the H1, which SureRank does not count, so it is a secondary keyword. If the editor wants, "गणपति पूजा" or "गणपति उपासना" could be added to the opening section.
-- "worship Lord Ganesha" appears three times in the English body, the first in the "Why, Then, Do We Need a Shibir?" section (after the first 100 words). "Ganesh puja" never appears in the English body (it says "the daily puja" and "Lord Ganesha"), so "Ganesh puja meaning" stays secondary; mismatch noted for a later edit.
+- Hindi (after the SEO fix): the more searched wording "गणपति पूजा" was only in the H1, which SureRank does not count. The `_seo` text now uses it in the opening direct-answer paragraph (first 100 words) and in the first `##` heading ("हर घर में गणपति पूजा कैसे होती है?"), so it is the focus keyword. "गणपति उपासना" also appears in the opening paragraph and stays a secondary keyword.
+- English (after the SEO fix): "worship Lord Ganesha" stays the focus keyword and now appears in the first 100 words (opening direct-answer paragraph). The searched wording "Ganesh puja" was missing from the body; the `_seo` text now uses it in the opening paragraph and the first `##` heading ("How Is Ganesh Puja Done at Home?"). "Ganesh puja meaning" stays secondary, as the post asks about the meaning rather than giving a puja explanation.
 
 ## 3. Titles and meta
 
 **Hindi** (the H1 "हर वर्ष गणपति पूजा, पर क्या हमने उन्हें समझा" stays)
-1. गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा? (recommended, 49 characters)
-2. गणपति उपासना: श्रद्धा के साथ ज्ञान क्यों ज़रूरी है (50 characters)
-3. हर वर्ष गणपति उपासना, फिर भी इतने विघ्न क्यों? (46 characters)
+1. हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा? (recommended, 47 characters; after the SEO fix)
+2. गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा? (49 characters; the earlier choice)
+3. गणपति उपासना: श्रद्धा के साथ ज्ञान क्यों ज़रूरी है (50 characters)
+4. हर वर्ष गणपति उपासना, फिर भी इतने विघ्न क्यों? (46 characters)
 
-Meta description: हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। (149 characters)
+Meta description (recommended, after the SEO fix): हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। (147 characters)
 
-Slug: `/hi/ganpati-upasana-samajh-ke-saath`
+Slug (recommended, after the SEO fix): `/hi/ganpati-puja-samajh-ke-saath` (earlier: `/hi/ganpati-upasana-samajh-ke-saath`)
 
 **English** (the H1 "We Worship Lord Ganesha Every Year, but Have We Understood Him?" stays)
 1. Worship Lord Ganesha Every Year? Do You Understand Him? (recommended, 55 characters; mirrors the video title)
 2. Why Worship Lord Ganesha With Understanding (43 characters)
 3. So Much Ganesh Puja, Yet So Many Obstacles? (43 characters; no focus keyword, for a later CTR test only)
 
-Meta description: You worship Lord Ganesha every year, so why so many obstacles? Acharya Upendra Ji explains why faith needs knowledge and how to become a jnani bhakta. (150 characters)
+Meta description (recommended): You worship Lord Ganesha every year, so why so many obstacles? Acharya Upendra Ji explains why faith needs knowledge and how to become a jnani bhakta. (150 characters)
 
-Slug: `/en/worship-lord-ganesha-with-understanding`
+Slug (recommended): `/en/worship-lord-ganesha-with-understanding`
 
 ## 4. Outline changes
 
@@ -94,6 +96,8 @@ The headings are already question-led and short, which suits mobile. Suggestions
 
 For later use in WordPress only; not added to the page. Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog). Video: uploaded 2026-08-23 per yt-dlp (`20260823`), 278 seconds, title "You Worship Ganesh Every Year. But Do You Understand Him? | Acharya Upendra Ji".
 
+URL slugs (from seo.json, for `{{PLACEHOLDER_WORDPRESS_URL_HI}}` and `{{PLACEHOLDER_WORDPRESS_URL_EN}}`): Hindi `ganpati-puja-samajh-ke-saath`, English `worship-lord-ganesha-with-understanding`.
+
 **Hindi**
 
 ```json
@@ -104,10 +108,10 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "BlogPosting",
       "@id": "{{PLACEHOLDER_WORDPRESS_URL_HI}}#article",
       "headline": "हर वर्ष गणपति पूजा, पर क्या हमने उन्हें समझा",
-      "alternativeHeadline": "गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा?",
-      "description": "हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
+      "alternativeHeadline": "हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा?",
+      "description": "हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
       "inLanguage": "hi",
-      "keywords": "गणपति उपासना, गणपति पूजा का अर्थ, श्रद्धा और ज्ञान, गणेश जी किसके देवता हैं, गणेश सीरीज़",
+      "keywords": "गणपति पूजा, गणपति उपासना, गणपति पूजा का अर्थ, श्रद्धा और ज्ञान, गणेश जी किसके देवता हैं, गणेश सीरीज़",
       "about": [
         {
           "@type": "Thing",
@@ -170,7 +174,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
       "@type": "VideoObject",
       "@id": "https://www.youtube.com/watch?v=F_TD03rB_YE#video",
       "name": "You Worship Ganesh Every Year. But Do You Understand Him? | Acharya Upendra Ji",
-      "description": "हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
+      "description": "हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
       "thumbnailUrl": "https://i.ytimg.com/vi/F_TD03rB_YE/maxresdefault.jpg",
       "uploadDate": "2026-08-23",
       "duration": "PT4M38S",
@@ -363,7 +367,7 @@ The exact contents of `output/worship_ganesh_every_year_but_understand/blog/seo.
 ```json
 {
   "title": {
-    "hi": "गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा?",
+    "hi": "हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा?",
     "en": "Worship Lord Ganesha Every Year? Do You Understand Him?"
   },
   "alt": {
@@ -432,14 +436,15 @@ The exact contents of `output/worship_ganesh_every_year_but_understand/blog/seo.
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "ganpati-upasana-samajh-ke-saath",
-      "focus_keyword": "गणपति उपासना",
+      "slug": "ganpati-puja-samajh-ke-saath",
+      "focus_keyword": "गणपति पूजा",
       "secondary_keywords": [
+        "गणपति उपासना",
         "गणपति पूजा का अर्थ",
         "श्रद्धा और ज्ञान",
         "गणेश जी किसके देवता हैं"
       ],
-      "meta_description": "हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
+      "meta_description": "हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें।",
       "tags": [
         "गणेश सीरीज़",
         "अंधश्रद्धा",
@@ -483,7 +488,7 @@ The exact contents of `output/worship_ganesh_every_year_but_understand/blog/seo.
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): not met; "गणपति उपासना" first appears in the Key Takeaways and "worship Lord Ganesha" in the second section
+- [x] Within the first 100 words (preferred): met in the `_seo` texts ("गणपति पूजा" and "worship Lord Ganesha" are in the opening direct-answer paragraph)
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
