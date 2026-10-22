@@ -25,7 +25,7 @@ The talk starts from the Ganapati Atharvashirsha line "त्वमेव के
 | selfless service vs service for show | English | Reflective | Low |
 | Acharya Upendra Ji harta | English | Navigational | Low |
 
-Notes: "Vighnaharta" is the term with real search demand; "harta" alone is rarely searched. Spellings vary (Vighnaharta, Vighnharta, Vignaharta, विघ्नहर्ता); use "Vighnaharta" in titles. The gunas angle goes in secondaries, because three_gunas_karma and sattva_rajas_tamas_balance_success_liberation already hold the broad gunas queries.
+Notes: "Vighnaharta" is the term with real search demand; "harta" alone is rarely searched. Spellings vary (Vighnaharta, Vighnharta, Vignaharta, विघ्नहर्ता); use "Vighnaharta" in titles. Neither focus keyword ("विघ्नहर्ता का अर्थ", "meaning of Vighnaharta") was in the original body, which only says "गणपति हैं विघ्नहर्ता" / "Ganapati is called Vighnaharta"; the SEO copies (`_blog_seo.txt`, `_blog_seo_en.txt`) now use both in an early direct-answer paragraph and in a question H2 ("गणपति विघ्नहर्ता क्यों हैं?" / "Why Is Ganapati Called Vighnaharta?"). The gunas angle goes in secondaries, because three_gunas_karma and sattva_rajas_tamas_balance_success_liberation already hold the broad gunas queries.
 
 ## 3. Titles and meta
 
@@ -34,18 +34,18 @@ Notes: "Vighnaharta" is the term with real search demand; "harta" alone is rarel
 2. तीन प्रकार के हर्ता: आप क्या हरण कर रहे हैं, किसके लिए?
 3. सात्विक, राजसिक, तामसिक हर्ता: विघ्नहर्ता से सीख
 
-Meta description (155 characters): विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक।
+Meta description (155 characters, recommended): विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक।
 
-Slug: `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta`
+Slug (recommended): `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta`
 
 **English**
 1. Meaning of Vighnaharta: Three Kinds of Obstacle Removers (recommended, 56 characters)
 2. Three Kinds of Harta: What Are You Taking Away, and Why?
 3. Sattvic, Rajasic or Tamasic: Which Obstacle Remover Are You?
 
-Meta description (153 characters): What does Vighnaharta mean? Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.
+Meta description (153 characters, recommended): The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.
 
-Slug: `/en/vighnaharta-meaning-three-kinds-of-harta`
+Slug (recommended): `/en/meaning-of-vighnaharta-three-kinds-of-harta`
 
 The H1s ("तीन प्रकार के हर्ता: आप क्या हरण कर रहे हैं, और किसके लिए?" / "Three Kinds of Harta: What Are You Taking Away, and for Whom?") stay unchanged; the title tags put the searched term "Vighnaharta" first.
 
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta/`, `/en/vighnaharta-meaning-three-kinds-of-harta/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta/`, `/en/meaning-of-vighnaharta-three-kinds-of-harta/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -214,7 +214,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Three Kinds of Harta: What Are You Taking Away, and for Whom?",
       "alternativeHeadline": "Meaning of Vighnaharta: Three Kinds of Obstacle Removers",
-      "description": "What does Vighnaharta mean? Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.",
+      "description": "The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.",
       "inLanguage": "en",
       "keywords": ["meaning of Vighnaharta", "tvameva kevalam hartasi meaning", "sattvic rajasic tamasic service", "how to become an obstacle remover"],
       "about": [
@@ -392,12 +392,82 @@ The values written to `output/three_types_obstacle_removers_harta/blog/seo.json`
       "tags": ["गणपति अथर्वशीर्ष", "गणेश", "त्रिगुण", "सेवा", "अहिंसा", "महाभारत"]
     },
     "en": {
-      "slug": "vighnaharta-meaning-three-kinds-of-harta",
+      "slug": "meaning-of-vighnaharta-three-kinds-of-harta",
       "focus_keyword": "meaning of Vighnaharta",
       "secondary_keywords": ["tvameva kevalam hartasi meaning", "sattvic rajasic tamasic service", "how to become an obstacle remover"],
-      "meta_description": "What does Vighnaharta mean? Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.",
+      "meta_description": "The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive.",
       "tags": ["Ganapati Atharvashirsha", "Ganesh", "Three Gunas", "Seva", "Ahimsa", "Mahabharata"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the published `_seo` texts)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: the Sanskrit review's issues 1, 2 and 4 (Dushasana "stripped" Draupadi, the meaning of the name Dushasana, the verse form and "Vedic hymn" reference) are not applied yet; they are content corrections for the blog, not SEO edits (section 10)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
