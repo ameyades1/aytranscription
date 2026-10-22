@@ -26,6 +26,8 @@ The talk answers a basic question: what is a shastra? Acharya Ji defines it as a
 | shastra ka arth | Hinglish | Informational | Medium |
 | Acharya Upendra Ji shastra | English | Navigational | Low |
 
+Keyword note: the original blog texts never use the focus keywords in the body's opening (Hindi has "शास्त्र का अर्थ" only in the key takeaways; English has "meaning of shastra" only in the H1, which SureRank does not count). The SEO copies (`true_power_of_scriptures_decoded_blog_seo.txt`, `_blog_seo_en.txt`) now use "शास्त्र का अर्थ" / "meaning of shastra" in the first paragraph, add a direct answer that opens with what a shastra is ("शास्त्र क्या है" / "what is a shastra" intent), and phrase the second H2 as "शास्त्र कौन लिखता है?" / "Who Writes a Shastra?" (secondary keyword "शास्त्र कौन लिखता है"). The meta descriptions now contain the focus keyword word for word. Focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -33,18 +35,18 @@ The talk answers a basic question: what is a shastra? Acharya Ji defines it as a
 2. शास्त्र क्या है? नियमों की किताब या जीवन का नक्शा (49)
 3. शास्त्र किसे कहते हैं: अधिकारी का अनुभव (39)
 
-Meta description: "शास्त्र का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।"
+Meta description (152 characters, **recommended**): "शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।"
 
-Slug: `/hi/shastra-ka-arth`
+Slug (**recommended**): `/hi/shastra-ka-arth`
 
 **English**
 1. Meaning of Shastra: Dharma, Artha, Kama and Moksha (50) **recommended**
 2. What Is a Shastra? Rulebook or Map for Life (43)
 3. Who Writes a Shastra, and Why It Matters (40)
 
-Meta description (150 characters): "What does shastra mean? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra and dana to Artha and Kama."
+Meta description (149 characters, **recommended**): "What is the meaning of shastra? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra to Artha and Kama."
 
-Slug: `/en/meaning-of-shastra`
+Slug (**recommended**): `/en/meaning-of-shastra`
 
 ## 4. Outline changes
 
@@ -122,7 +124,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "शास्त्र का असली अर्थ: नियमों की किताब या जीवन का नक्शा",
       "alternativeHeadline": "शास्त्र का अर्थ: धर्म, अर्थ, काम, मोक्ष के नियम",
-      "description": "शास्त्र का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",
+      "description": "शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",
       "inLanguage": "hi",
       "keywords": [
         "शास्त्र का अर्थ",
@@ -281,7 +283,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "The Real Meaning of Shastra: A Rulebook or a Map for Life",
       "alternativeHeadline": "Meaning of Shastra: Dharma, Artha, Kama and Moksha",
-      "description": "What does shastra mean? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra and dana to Artha and Kama.",
+      "description": "What is the meaning of shastra? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra to Artha and Kama.",
       "inLanguage": "en",
       "keywords": [
         "meaning of shastra",
@@ -539,16 +541,86 @@ The exact contents of `output/true_power_of_scriptures_decoded/blog/seo.json`, a
       "slug": "shastra-ka-arth",
       "focus_keyword": "शास्त्र का अर्थ",
       "secondary_keywords": ["शास्त्र क्या है", "धर्मशास्त्र अर्थशास्त्र कामशास्त्र", "सात्त्विक दान क्या है", "धर्मस्य मूलम् अर्थः का अर्थ"],
-      "meta_description": "शास्त्र का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",
+      "meta_description": "शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",
       "tags": ["शास्त्र", "पुरुषार्थ", "भगवद्गीता", "दान", "चाणक्य", "ब्रह्मचर्य"]
     },
     "en": {
       "slug": "meaning-of-shastra",
       "focus_keyword": "meaning of shastra",
       "secondary_keywords": ["what is a shastra", "dharma artha kama moksha shastra", "sattvic dana Bhagavad Gita 17.20", "purpose of Kama Shastra"],
-      "meta_description": "What does shastra mean? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra and dana to Artha and Kama.",
+      "meta_description": "What is the meaning of shastra? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra to Artha and Kama.",
       "tags": ["Shastra", "Purusharthas", "Bhagavad Gita", "Dana", "Chanakya", "Brahmacharya"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [ ] Each tag can be shared by at least 3 posts: "Shastra" / "शास्त्र" and "Dana" / "दान" are used by no other post yet; a tag choice, not something the blog text can fix
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims: Gita 17.20 quoted as a half verse, Vatsyayana's "lifelong" celibacy and moksha aim, and the seven-fold artha list (Sanskrit review issues 1, 2 and 5, flags 1–3) are content corrections for the editor, not yet applied
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
