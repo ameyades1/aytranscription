@@ -8,24 +8,24 @@ A very short interview clip (video uploaded 2025-05-20, 1:48, "Acharya Upendra J
 
 | Keyword | Language | Intent | Priority |
 |---|---|---|---|
-| जातिवाद | Hindi | Informational | High (focus) |
-| जातिवाद कैसे खत्म हो | Hindi | Informational / social | High |
+| जातिवाद कैसे खत्म हो | Hindi | Informational / social | High (focus) |
+| जातिवाद | Hindi | Informational | High |
 | समाज बंटा क्यों है | Hindi | Informational | Medium |
 | देहबुद्ध्या तु दासोऽहं | Hindi (Sanskrit) | Informational (verse meaning) | High |
 | हनुमान जी और श्री राम का संबंध | Hindi | Informational | Medium |
 | द्वैत विशिष्टाद्वैत अद्वैत | Hindi | Informational | Low |
 | jativad kaise khatam ho | Hinglish | Informational | Medium |
 | dehabuddhya tu dasoham | Hinglish | Informational (verse meaning) | Medium |
-| casteism | English | Informational | High (focus) |
-| how to end casteism | English | Informational / social | Medium |
+| how to end casteism | English | Informational / social | High (focus) |
+| casteism | English | Informational | High |
 | why society remains divided | English | Informational / navigational (video title) | Medium |
 | dehabuddhya tu daso'ham meaning | English | Informational (verse meaning) | Medium |
 | Hanuman and Rama relationship | English | Informational | Medium |
 | Acharya Upendra Ji Sanatan Rashtra Mahotsav interview | English | Navigational | Low |
 
-Focus keywords: "जातिवाद" occurs twice in the Hindi body (second paragraph and first takeaway) and "casteism" twice in the English body (second paragraph and first takeaway), both within the first 100 words. No other talk targets either. The Hindi and English keywords were chosen separately: Hindi searchers mostly ask "जातिवाद कैसे खत्म हो" and look up the verse in Devanagari; English searchers use "casteism" and the romanized verse.
+Focus keywords: "जातिवाद कैसे खत्म हो" and "how to end casteism", the searched wordings. The SEO-fixed texts (`_seo`) use each once in the new direct-answer paragraph, within the first 100 words. The broader "जातिवाद" / "casteism" are now secondary keywords; they still occur in the body several times. No other talk targets any of these. The Hindi and English keywords were chosen separately: Hindi searchers mostly ask "जातिवाद कैसे खत्म हो" and look up the verse in Devanagari; English searchers use "casteism" and the romanized verse.
 
-Keyword mismatch: the searched wordings "जातिवाद कैसे खत्म हो" / "how to end casteism" are not in the body (it says "यह जातिवाद खत्म होगा" / "casteism will come to an end"), so they are secondary keywords only. The verse appears only in the blockquote, which SureRank may not count as body text, so it is a secondary keyword too. If the editor wants a narrower focus keyword later, a body sentence such as "तो जातिवाद कैसे खत्म हो?" / "So how can casteism end?" would allow it.
+Keyword mismatch (resolved in the `_seo` texts): the original blog texts do not use the searched wordings "जातिवाद कैसे खत्म हो" / "how to end casteism" (they say "यह जातिवाद खत्म होगा" / "casteism will come to an end"). The `_seo` texts add them once in the opening, so they are now the focus keywords. The verse appears only in the blockquote, which SureRank may not count as body text, so it stays a secondary keyword.
 
 Deliberately not targeted: "Manusmriti", "caste reservation", "Dalit", party or caste names. These would draw political traffic and promise an analysis the post does not give (flag 6).
 
@@ -33,23 +33,23 @@ Deliberately not targeted: "Manusmriti", "caste reservation", "Dalit", party or 
 
 **Hindi**
 
-1. जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर (recommended, 53 characters)
+1. जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर (recommended, 56 characters)
 2. जातिवाद और समाज: हनुमान जी के उत्तर के तीन स्तर
 3. देहबुद्ध्या तु दासोऽहं: हनुमान जी का उत्तर और जातिवाद
 
-Meta description (157 characters): जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।
+Meta description (recommended, 153 characters): जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।
 
-Slug: `/hi/jativad-kaise-mite-hanuman-ji-ka-uttar`
+Slug (recommended): `/hi/jativad-kaise-khatam-ho-hanuman-ji-ka-uttar`
 
 **English**
 
-1. How Casteism Can End: Hanuman's Answer to Shri Rama (recommended, 51 characters)
+1. How to End Casteism: Hanuman's Answer to Shri Rama (recommended, 50 characters)
 2. Casteism and Hanuman's Three-Level Answer to Shri Rama
 3. Why Society Remains Divided: Hanuman's Answer on Casteism
 
-Meta description (153 characters): Why does casteism last? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.
+Meta description (recommended, 150 characters): How to end casteism? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.
 
-Slug: `/en/hanuman-answer-to-end-casteism`
+Slug (recommended): `/en/how-to-end-casteism-hanuman-answer`
 
 ## 4. Outline changes
 
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 
 **Placeholders to fill once the WordPress posts exist**
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/jativad-kaise-mite-hanuman-ji-ka-uttar/`, `/en/hanuman-answer-to-end-casteism/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/jativad-kaise-khatam-ho-hanuman-ji-ka-uttar/`, `/en/how-to-end-casteism-hanuman-answer/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -131,10 +131,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "हनुमान जी का एक उत्तर जो जातिवाद मिटा सकता है",
-      "alternativeHeadline": "जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर",
-      "description": "जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
+      "alternativeHeadline": "जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर",
+      "description": "जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
       "inLanguage": "hi",
-      "keywords": ["जातिवाद", "जातिवाद कैसे खत्म हो", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
+      "keywords": ["जातिवाद कैसे खत्म हो", "जातिवाद", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
       "about": [
         { "@type": "Thing", "name": "जातिवाद" },
         { "@type": "Person", "name": "हनुमान" },
@@ -220,10 +220,10 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "One Answer from Hanuman That Could End Casteism",
-      "alternativeHeadline": "How Casteism Can End: Hanuman's Answer to Shri Rama",
-      "description": "Why does casteism last? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
+      "alternativeHeadline": "How to End Casteism: Hanuman's Answer to Shri Rama",
+      "description": "How to end casteism? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
       "inLanguage": "en",
-      "keywords": ["casteism", "how to end casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
+      "keywords": ["how to end casteism", "casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
       "about": [
         { "@type": "Thing", "name": "Casteism" },
         { "@type": "Person", "name": "Hanuman" },
@@ -336,8 +336,8 @@ The exact values written to `output/why_society_remains_divided_interview/blog/s
 ```json
 {
   "title": {
-    "hi": "जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर",
-    "en": "How Casteism Can End: Hanuman's Answer to Shri Rama"
+    "hi": "जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर",
+    "en": "How to End Casteism: Hanuman's Answer to Shri Rama"
   },
   "alt": {
     "hero.jpg": {
@@ -378,17 +378,17 @@ The exact values written to `output/why_society_remains_divided_interview/blog/s
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "jativad-kaise-mite-hanuman-ji-ka-uttar",
-      "focus_keyword": "जातिवाद",
-      "secondary_keywords": ["जातिवाद कैसे खत्म हो", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
-      "meta_description": "जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
+      "slug": "jativad-kaise-khatam-ho-hanuman-ji-ka-uttar",
+      "focus_keyword": "जातिवाद कैसे खत्म हो",
+      "secondary_keywords": ["जातिवाद", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
+      "meta_description": "जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
       "tags": ["हनुमान", "श्री राम", "वर्ण व्यवस्था", "अद्वैत वेदांत", "समदर्शिता"]
     },
     "en": {
-      "slug": "hanuman-answer-to-end-casteism",
-      "focus_keyword": "casteism",
-      "secondary_keywords": ["how to end casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
-      "meta_description": "Why does casteism last? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
+      "slug": "how-to-end-casteism-hanuman-answer",
+      "focus_keyword": "how to end casteism",
+      "secondary_keywords": ["casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
+      "meta_description": "How to end casteism? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
       "tags": ["Hanuman", "Shri Rama", "Varna", "Advaita Vedanta", "Equal Vision"]
     }
   }
@@ -402,7 +402,7 @@ The exact values written to `output/why_society_remains_divided_interview/blog/s
 - [x] The focus keyword isn't used by another post (no cannibalization)
 - [x] 2–4 secondary keywords per language
 - [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
-- [x] Focus keyword taken from wording the article already uses
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts)
 - [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
 - [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
 

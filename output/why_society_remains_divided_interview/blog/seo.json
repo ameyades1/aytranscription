@@ -1,7 +1,7 @@
 {
   "title": {
-    "hi": "जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर",
-    "en": "How Casteism Can End: Hanuman's Answer to Shri Rama"
+    "hi": "जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर",
+    "en": "How to End Casteism: Hanuman's Answer to Shri Rama"
   },
   "alt": {
     "hero.jpg": {
@@ -42,17 +42,17 @@
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "jativad-kaise-mite-hanuman-ji-ka-uttar",
-      "focus_keyword": "जातिवाद",
-      "secondary_keywords": ["जातिवाद कैसे खत्म हो", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
-      "meta_description": "जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
+      "slug": "jativad-kaise-khatam-ho-hanuman-ji-ka-uttar",
+      "focus_keyword": "जातिवाद कैसे खत्म हो",
+      "secondary_keywords": ["जातिवाद", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
+      "meta_description": "जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",
       "tags": ["हनुमान", "श्री राम", "वर्ण व्यवस्था", "अद्वैत वेदांत", "समदर्शिता"]
     },
     "en": {
-      "slug": "hanuman-answer-to-end-casteism",
-      "focus_keyword": "casteism",
-      "secondary_keywords": ["how to end casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
-      "meta_description": "Why does casteism last? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
+      "slug": "how-to-end-casteism-hanuman-answer",
+      "focus_keyword": "how to end casteism",
+      "secondary_keywords": ["casteism", "why society remains divided", "dehabuddhya tu daso'ham meaning", "Hanuman and Rama relationship"],
+      "meta_description": "How to end casteism? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal.",
       "tags": ["Hanuman", "Shri Rama", "Varna", "Advaita Vedanta", "Equal Vision"]
     }
   }
