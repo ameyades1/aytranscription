@@ -16,15 +16,15 @@ A short talk (4:39 video, Ganesh Series episode 17, "When Does a Disciple Become
 | shishya shaktivan kab banta hai | Hinglish | Informational | Medium |
 | guru shishya sambandh | Hinglish | Informational | Medium |
 | shaktipat kya hai | Hinglish | Informational | Medium |
-| disciple become powerful (focus) | English | Informational / life problem | High |
-| when does a disciple become truly powerful | English | Informational / navigational (video title) | Medium |
+| when does a disciple become truly powerful (focus) | English | Informational / navigational (video title) / life problem | High |
+| disciple become powerful | English | Informational / life problem | Medium |
 | Guru disciple relationship | English | Informational | High |
 | what is shaktipat | English | Informational | Medium |
 | what is viveka buddhi | English | Informational | Low |
 
 Notes:
-- Both focus keywords come from the body's own wording. Hindi: "गुरु चाहते हैं कि शिष्य शक्तिवान बने" (Key takeaways). English: "the Guru wants the disciple to become powerful" (Key takeaways); SureRank allows one word between the keyword's words, so "disciple to become powerful" matches "disciple become powerful". Neither appears in the first 100 words: the opening paragraphs speak of "the bond between Guru and disciple", and the "powerful" idea first appears in "Why don't we become powerful ourselves?" midway through.
-- Wording mismatch: people search the video's title, "when does a disciple become truly powerful", and "Guru disciple relationship" / "गुरु शिष्य संबंध". The body says "the bond between Guru and disciple" and "गुरु और शिष्य के रिश्ते", never "relationship" / "संबंध", and never "truly powerful". These are kept as secondary keywords. If the editor wants, a sentence in the introduction such as "When does a disciple become truly powerful?" / "शिष्य सच में शक्तिवान कब बनता है?" would put the focus keyword in the first 100 words.
+- Focus keywords (after `/seo_blog_fix`, which added a short direct answer to the introduction of the `_seo` texts). Hindi: "शिष्य शक्तिवान", now in the first 100 words ("तो शिष्य शक्तिवान कब बनता है? ... गुरु भी यही चाहते हैं कि शिष्य शक्तिवान बने"), and in the Key takeaways. English: the searched wording "when does a disciple become truly powerful" (the video's title) is now in the body's first 100 words ("So when does a disciple become truly powerful?"), so it is the focus keyword; the old focus "disciple become powerful" ("the Guru wants the disciple to become powerful") is a secondary keyword.
+- Wording mismatch, resolved in the `_seo` texts: the original body said only "the bond between Guru and disciple" / "गुरु और शिष्य के रिश्ते" and never "truly powerful". The `_seo` introduction now says "the Guru-disciple relationship" / "गुरु-शिष्य संबंध" once. "Guru disciple relationship" / "गुरु शिष्य संबंध" stay secondary keywords (broader cluster queries, see section 7).
 - Hindi and English were chosen separately: Hindi searchers use "शक्तिवान"/"शक्तिशाली" with "शिष्य", and "शक्तिपात क्या है"; English searchers use "Guru disciple relationship" and "what is shaktipat".
 
 ## 3. Titles and meta
@@ -34,18 +34,19 @@ Notes:
 2. गुरु मिल गए, तो क्या काम हो गया? शिष्य शक्तिवान कैसे बने
 3. शिष्य शक्तिवान बने: गुरु मार्गदर्शक हैं, बैसाखी नहीं
 
-Meta description (156 characters): शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है।
+Meta description (156 characters) **(recommended)**: शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है।
 
-Slug: /hi/shishya-shaktivan-kab-banta-hai
+Slug: /hi/shishya-shaktivan-kab-banta-hai **(recommended)**
 
 **English**
-1. When Does a Disciple Become Powerful? Guru and Shaktipat (56 characters) **(recommended)**
-2. Disciple Become Powerful: The Guru Is a Guide, Not a Crutch
-3. I Have a Guru, So Is My Work Done? When a Disciple Becomes Powerful (too long for a title tag; usable as an Open Graph title)
+1. When Does a Disciple Become Truly Powerful? Guru, Shaktipat (59 characters) **(recommended)**
+2. When Does a Disciple Become Powerful? Guru and Shaktipat (56 characters; the original recommendation)
+3. Disciple Become Powerful: The Guru Is a Guide, Not a Crutch
+4. I Have a Guru, So Is My Work Done? When a Disciple Becomes Powerful (too long for a title tag; usable as an Open Graph title)
 
-Meta description (153 characters): When does a disciple become powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty, why power lies within you, and what viveka means.
+Meta description (143 characters) **(recommended)**: When does a disciple become truly powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty and why the power lies within you.
 
-Slug: /en/when-does-a-disciple-become-powerful
+Slug: /en/when-does-a-disciple-become-truly-powerful **(recommended)**
 
 ## 4. Outline changes
 
@@ -102,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs in section 3).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shishya-shaktivan-kab-banta-hai/`, `/en/when-does-a-disciple-become-truly-powerful/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -283,12 +284,12 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{EN_URL}}#article",
       "headline": "I Have a Guru, So Is My Work Done?",
-      "alternativeHeadline": "When Does a Disciple Become Powerful? Guru and Shaktipat",
-      "description": "When does a disciple become powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty, why power lies within you, and what viveka means.",
+      "alternativeHeadline": "When Does a Disciple Become Truly Powerful? Guru, Shaktipat",
+      "description": "When does a disciple become truly powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty and why the power lies within you.",
       "inLanguage": "en",
       "keywords": [
-        "disciple become powerful",
         "when does a disciple become truly powerful",
+        "disciple become powerful",
         "Guru disciple relationship",
         "what is shaktipat",
         "what is viveka buddhi"
@@ -478,7 +479,7 @@ The exact values written to `output/when_disciple_become_truly_powerful/blog/seo
 {
   "title": {
     "hi": "शिष्य शक्तिवान कब बनता है? गुरु, शक्तिपात और साधना",
-    "en": "When Does a Disciple Become Powerful? Guru and Shaktipat"
+    "en": "When Does a Disciple Become Truly Powerful? Guru, Shaktipat"
   },
   "alt": {
     "hero.jpg": {
@@ -526,10 +527,10 @@ The exact values written to `output/when_disciple_become_truly_powerful/blog/seo
       "tags": ["गणेश सीरीज़", "गुरु-शिष्य", "शक्तिपात", "विवेक", "गणेश गीता"]
     },
     "en": {
-      "slug": "when-does-a-disciple-become-powerful",
-      "focus_keyword": "disciple become powerful",
-      "secondary_keywords": ["when does a disciple become truly powerful", "Guru disciple relationship", "what is shaktipat", "what is viveka buddhi"],
-      "meta_description": "When does a disciple become powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty, why power lies within you, and what viveka means.",
+      "slug": "when-does-a-disciple-become-truly-powerful",
+      "focus_keyword": "when does a disciple become truly powerful",
+      "secondary_keywords": ["disciple become powerful", "Guru disciple relationship", "what is shaktipat", "what is viveka buddhi"],
+      "meta_description": "When does a disciple become truly powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty and why the power lies within you.",
       "tags": ["Ganesh Series", "Guru and Disciple", "Shaktipat", "Viveka", "Ganesha Gita"]
     }
   }
@@ -552,7 +553,7 @@ The exact values written to `output/when_disciple_become_truly_powerful/blog/seo
 - [x] In the meta description
 - [x] In the body text
 - [x] In the URL slug (English keywords)
-- [ ] Within the first 100 words (preferred): neither focus keyword is in the first 100 words; both first appear in the Key takeaways
+- [x] Within the first 100 words (preferred): met in the `_seo` texts, through the direct answer added to the introduction
 
 ### SEO title
 - [x] Present in both languages, ≤ 60 characters
