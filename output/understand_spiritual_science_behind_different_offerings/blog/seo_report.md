@@ -24,27 +24,29 @@ The talk (Ganesh Series, episode 3) asks why each deity receives a different off
 | why betel nut and betel leaf in puja | English | Informational | Low |
 | Acharya Upendra Ji Ganesh Series | English/Hindi | Navigational | Low |
 
+Keyword note: the primary keywords are the searched wording, which the original blog bodies never used (they only list the pairings and say "प्रतीकात्मक विज्ञान" / "symbolic science"). The `_seo` texts now use "देवताओं को अलग-अलग अर्पण क्यों" / "why different offerings to different gods" once in a short direct answer in the first 100 words and once in the H2 of the energy section, so both stay the focus keywords.
+
 Avoided: "shiv ji ko belpatra kyon chadhate hain", "tulsi chadhane ke fayde" and similar single-deity or "benefits" queries; the talk does not answer them (see section 10).
 
 ## 3. Titles and meta
 
 **Hindi**
-1. देवताओं को अलग अर्पण क्यों? तुलसी, बिल्व, दूर्वा का विज्ञान (59 characters, recommended)
+1. देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा (57 characters, recommended)
 2. तुलसी, बिल्व पत्र और दूर्वा: अर्पण के पीछे छिपा विज्ञान
 3. पूजा में अर्पण का विज्ञान: हर देवता की अलग पसंद क्यों?
 
-Meta description: विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा क्यों? आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान, ऊर्जा और अभिषेक का अर्थ।
+Meta description (recommended): देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा।
 
-Slug: `/hi/devtaon-ko-alag-arpan-kyon`
+Slug (recommended): `/hi/devtaon-ko-alag-arpan-kyon`
 
 **English**
 1. Why Different Offerings to Different Gods? The Science (54 characters, recommended)
 2. Tulsi, Bilva and Durva: The Science Behind Our Offerings
 3. Why Do Gods Get Different Offerings in Hindu Puja?
 
-Meta description (152 characters): Why tulsi for Vishnu, bilva for Shiva, durva for Ganesha? Acharya Upendra Ji explains the symbolic science of energy behind each offering and abhisheka.
+Meta description (153 characters, recommended): Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy.
 
-Slug: `/en/why-different-offerings-to-different-gods`
+Slug (recommended): `/en/why-different-offerings-to-different-gods`
 
 ## 4. Outline changes
 
@@ -125,8 +127,8 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@type": "BlogPosting",
       "@id": "{{HI_URL}}#article",
       "headline": "तुलसी, बिल्व पत्र और दूर्वा: अर्पण के पीछे छिपा विज्ञान",
-      "alternativeHeadline": "देवताओं को अलग अर्पण क्यों? तुलसी, बिल्व, दूर्वा का विज्ञान",
-      "description": "विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा क्यों? आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान, ऊर्जा और अभिषेक का अर्थ।",
+      "alternativeHeadline": "देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा",
+      "description": "देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा।",
       "inLanguage": "hi",
       "keywords": ["देवताओं को अलग-अलग अर्पण क्यों", "तुलसी बिल्व पत्र दूर्वा का महत्व", "पूजा में अर्पण का विज्ञान", "अभिषेक का अर्थ", "पूजा विधि का अर्थ"],
       "about": [
@@ -218,7 +220,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Tulsi, Bilva Leaves and Durva Grass: The Science Behind Our Offerings",
       "alternativeHeadline": "Why Different Offerings to Different Gods? The Science",
-      "description": "Why tulsi for Vishnu, bilva for Shiva, durva for Ganesha? Acharya Upendra Ji explains the symbolic science of energy behind each offering and abhisheka.",
+      "description": "Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy.",
       "inLanguage": "en",
       "keywords": ["why different offerings to different gods", "significance of tulsi, bilva and durva", "science behind Hindu puja offerings", "meaning of abhisheka", "meaning of puja rituals"],
       "about": [
@@ -348,7 +350,7 @@ The exact seo.json written for the page generator and WordPress:
 ```json
 {
   "title": {
-    "hi": "देवताओं को अलग अर्पण क्यों? तुलसी, बिल्व, दूर्वा का विज्ञान",
+    "hi": "देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा",
     "en": "Why Different Offerings to Different Gods? The Science"
   },
   "alt": {
@@ -396,16 +398,86 @@ The exact seo.json written for the page generator and WordPress:
       "slug": "devtaon-ko-alag-arpan-kyon",
       "focus_keyword": "देवताओं को अलग-अलग अर्पण क्यों",
       "secondary_keywords": ["तुलसी बिल्व पत्र दूर्वा का महत्व", "पूजा में अर्पण का विज्ञान", "अभिषेक का अर्थ", "पूजा विधि का अर्थ"],
-      "meta_description": "विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा क्यों? आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान, ऊर्जा और अभिषेक का अर्थ।",
+      "meta_description": "देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा।",
       "tags": ["गणेश सीरीज़", "प्रतीकवाद", "कर्मकांड", "मूर्ति पूजा", "अंधश्रद्धा"]
     },
     "en": {
       "slug": "why-different-offerings-to-different-gods",
       "focus_keyword": "why different offerings to different gods",
       "secondary_keywords": ["significance of tulsi, bilva and durva", "science behind Hindu puja offerings", "meaning of abhisheka", "meaning of puja rituals"],
-      "meta_description": "Why tulsi for Vishnu, bilva for Shiva, durva for Ganesha? Acharya Upendra Ji explains the symbolic science of energy behind each offering and abhisheka.",
+      "meta_description": "Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy.",
       "tags": ["Ganesh Series", "Symbolism", "Rituals", "Idol worship", "Blind Faith"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article uses (देवताओं को अलग-अलग अर्पण क्यों / why different offerings to different gods, in the `_seo` texts' direct answer and one H2)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged (the searched wording is now in the `_seo` texts and stays the focus keyword; section 2)
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred) (in the direct answer at the end of the first section)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims (the Sanskrit review lists only Minor issues, flags 1–3 and 6, left for the editor)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
