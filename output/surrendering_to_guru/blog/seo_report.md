@@ -27,6 +27,8 @@ The talk explains Bhagavad Gita 18.66 ("सर्वधर्मान्पर�
 
 No search volumes or difficulty numbers are given; priorities are judgement of intent and competition.
 
+Keyword note: the original blog texts quote the verse ("सर्वधर्मान्परित्यज्य" / "sarvadharmān parityajya") but never use the searched wording "सर्वधर्मान्परित्यज्य का अर्थ" / "sarva dharman parityajya meaning" in the body, and the meta descriptions split it with quotes or commas, so SureRank did not find the focus keyword in either. `/seo_blog_fix` fixed this in the `_seo` texts (`surrendering_to_guru_blog_seo.txt`, `surrendering_to_guru_blog_seo_en.txt`, the texts published): a short direct-answer paragraph after the introduction now uses the exact focus keyword within the first 100 words, and the meta descriptions now contain it word for word. The focus keywords and slugs are unchanged.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -34,18 +36,18 @@ No search volumes or difficulty numbers are given; priorities are judgement of i
 2. गीता 18.66: सब धर्म छोड़कर गुरु की शरण क्यों? (45)
 3. सब धर्म छोड़ने का अर्थ क्या है? गीता 18.66 की व्याख्या (52)
 
-Meta description (157 characters): गीता 18.66 'सर्वधर्मान्परित्यज्य' का अर्थ क्या है? आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।
+Meta description (158 characters) **(recommended)**: सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।
 
-Slug: `/hi/sarva-dharman-parityajya-ka-arth`
+Slug **(recommended)**: `/hi/sarva-dharman-parityajya-ka-arth`
 
 **English**
 1. Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru (57 characters) **(recommended)**
 2. Bhagavad Gita 18.66 Meaning: Why Surrender to a Living Guru (59)
 3. What Does "Abandon All Dharma" Mean? Gita 18.66 Explained (57)
 
-Meta description (152 characters): What does Gita 18.66, sarva dharman parityajya, really mean? Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing beats miracles.
+Meta description (155 characters) **(recommended)**: Sarva dharman parityajya meaning (Gita 18.66): Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing properly beats chasing miracles.
 
-Slug: `/en/sarva-dharman-parityajya-meaning`
+Slug **(recommended)**: `/en/sarva-dharman-parityajya-meaning`
 
 The H1s in the blog texts stay as they are ("सब धर्म छोड़कर गुरु की शरण में क्यों जाएँ" / "Why Set Aside Every Dharma and Take Refuge in the Guru"); the title tag carries the keyword.
 
@@ -109,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs in section 3).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (slugs `sarva-dharman-parityajya-ka-arth` and `sarva-dharman-parityajya-meaning`, section 3).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -127,7 +129,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{HI_URL}}#article",
       "headline": "सब धर्म छोड़कर गुरु की शरण में क्यों जाएँ",
       "alternativeHeadline": "सर्वधर्मान्परित्यज्य का अर्थ: गीता 18.66 और गुरु की शरण",
-      "description": "गीता 18.66 'सर्वधर्मान्परित्यज्य' का अर्थ क्या है? आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",
+      "description": "सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",
       "inLanguage": "hi",
       "keywords": ["सर्वधर्मान्परित्यज्य का अर्थ", "गीता 18.66 का अर्थ", "गुरु की शरण", "शरणागति क्या है", "जीवित गुरु का महत्व"],
       "about": [
@@ -217,7 +219,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "@id": "{{EN_URL}}#article",
       "headline": "Why Set Aside Every Dharma and Take Refuge in the Guru",
       "alternativeHeadline": "Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru",
-      "description": "What does Gita 18.66, sarva dharman parityajya, really mean? Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing beats miracles.",
+      "description": "Sarva dharman parityajya meaning (Gita 18.66): Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing properly beats chasing miracles.",
       "inLanguage": "en",
       "keywords": ["sarva dharman parityajya meaning", "Bhagavad Gita 18.66 meaning", "surrender to the Guru", "what is sharanagati", "importance of a living Guru"],
       "about": [
@@ -379,16 +381,86 @@ The exact values written to `output/surrendering_to_guru/blog/seo.json` for the 
       "slug": "sarva-dharman-parityajya-ka-arth",
       "focus_keyword": "सर्वधर्मान्परित्यज्य का अर्थ",
       "secondary_keywords": ["गीता 18.66 का अर्थ", "गुरु की शरण", "शरणागति क्या है", "जीवित गुरु का महत्व"],
-      "meta_description": "गीता 18.66 'सर्वधर्मान्परित्यज्य' का अर्थ क्या है? आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",
+      "meta_description": "सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",
       "tags": ["भगवद्गीता", "शरणागति", "सद्गुरु", "कर्तव्य", "अहंकार"]
     },
     "en": {
       "slug": "sarva-dharman-parityajya-meaning",
       "focus_keyword": "sarva dharman parityajya meaning",
       "secondary_keywords": ["Bhagavad Gita 18.66 meaning", "surrender to the Guru", "what is sharanagati", "importance of a living Guru"],
-      "meta_description": "What does Gita 18.66, sarva dharman parityajya, really mean? Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing beats miracles.",
+      "meta_description": "Sarva dharman parityajya meaning (Gita 18.66): Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing properly beats chasing miracles.",
       "tags": ["Bhagavad Gita", "Sharanagati", "Sadguru", "Duty", "Ego"]
     }
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text
+- [x] In the URL slug (English keywords)
+- [x] Within the first 100 words (preferred)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [x] No unsupported scriptural claims
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
