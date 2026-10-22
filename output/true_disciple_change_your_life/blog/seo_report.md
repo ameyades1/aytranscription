@@ -22,6 +22,8 @@ In this short session from the Ganapati Atharvashirsha teaching, Acharya Ji asks
 | anuchana meaning | English | Informational | Low |
 | Acharya Upendra Ji true disciple | English | Navigational | Low |
 
+Keyword note (after the SEO fix): neither focus keyword was in the original body ("what makes a true disciple" appeared only split across the heading "What Makes a True Guru and a True Disciple?"). The `_seo` texts now open with a direct-answer paragraph that starts with "सच्चा शिष्य कौन है?" / "What makes a true disciple?", within the first 100 words, so both focus keywords are kept. The English slug changed to `what-makes-a-true-disciple` so it contains the focus keyword.
+
 ## 3. Titles and meta
 
 **Hindi**
@@ -29,18 +31,18 @@ In this short session from the Ganapati Atharvashirsha teaching, Acharya Ji asks
 2. सच्चा शिष्य: कान से संस्कार तक गुरु के शब्दों की यात्रा
 3. सुना, समझा, पर बदला क्या? सच्चे शिष्य की पहचान
 
-Meta description (147 characters): सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए।
+Meta description (147 characters, recommended): सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए।
 
-Slug: `/hi/sachcha-shishya-kaun-hai`
+Slug (recommended): `/hi/sachcha-shishya-kaun-hai`
 
 **English**
 1. What Makes a True Disciple? Turning Knowledge into Action (recommended, 57 characters)
 2. A True Disciple: How the Guru's Words Reach Your Conduct
 3. What Did You Learn Today? The Mark of a True Disciple
 
-Meta description (150 characters): What makes a true disciple? Acharya Upendra Ji explains how the Guru's words travel from ear to conduct, and why real knowledge always ends in action.
+Meta description (150 characters, recommended): What makes a true disciple? Acharya Upendra Ji explains how the Guru's words travel from ear to conduct, and why real knowledge always ends in action.
 
-Slug: `/en/true-disciple-knowledge-into-action`
+Slug (recommended): `/en/what-makes-a-true-disciple` (was `/en/true-disciple-knowledge-into-action`, which did not contain the focus keyword)
 
 ## 4. Outline changes
 
@@ -96,7 +98,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-shishya-kaun-hai/`, `/en/true-disciple-knowledge-into-action/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-shishya-kaun-hai/`, `/en/what-makes-a-true-disciple/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -364,7 +366,7 @@ The values written to `output/true_disciple_change_your_life/blog/seo.json`:
       "tags": ["गुरु-शिष्य", "गणपति अथर्वशीर्ष", "संस्कार", "श्री विद्या"]
     },
     "en": {
-      "slug": "true-disciple-knowledge-into-action",
+      "slug": "what-makes-a-true-disciple",
       "focus_keyword": "what makes a true disciple",
       "secondary_keywords": ["how to turn knowledge into action", "applying spiritual teachings in daily life", "ek tari ovi anubhavavi meaning", "anuchana meaning"],
       "meta_description": "What makes a true disciple? Acharya Upendra Ji explains how the Guru's words travel from ear to conduct, and why real knowledge always ends in action.",
@@ -373,3 +375,73 @@ The values written to `output/true_disciple_change_your_life/blog/seo.json`:
   }
 }
 ```
+
+## 12. SEO checklist
+
+### Keywords
+- [x] Hindi and English each have a focus keyword
+- [x] The focus keyword isn't used by another post (no cannibalization)
+- [x] 2–4 secondary keywords per language
+- [x] Hindi and English keywords researched separately, not translated; Hinglish variants considered
+- [x] Focus keyword taken from wording the article already uses (the `_seo` texts use both focus keywords in the body)
+- [x] If people search a different wording, it is in the secondary keywords and the mismatch is flagged
+- [x] Priority given as High / Medium / Low, based on intent and competition; no invented numbers
+
+### Focus keyword placement (SureRank)
+- [x] In the SEO title
+- [x] In the meta description
+- [x] In the body text (after the SEO fix: direct-answer paragraph in both `_seo` texts)
+- [x] In the URL slug (English keywords) (after the SEO fix: `what-makes-a-true-disciple`)
+- [x] Within the first 100 words (preferred) (after the SEO fix: direct-answer paragraph in both `_seo` texts)
+
+### SEO title
+- [x] Present in both languages, ≤ 60 characters
+- [x] Keyword near the start
+- [x] Faithful to the talk, no clickbait
+
+### Meta description
+- [x] Present in both languages, ≤ 160 characters
+- [x] English is 140–155 characters
+- [x] Gives a clear reason to click
+
+### URL slug
+- [x] Lowercase Latin, hyphenated, unique across posts
+- [x] Short enough that the full URL stays ≤ 90 characters
+
+### Headings
+- [x] At least one subheading (H2)
+
+### Images
+- [x] Every image has alt text in both languages
+- [x] Alt text is descriptive, in the post's language, based on looking at the image
+- [x] Captions add meaning (not a repeat of the alt text or title)
+
+### Internal linking
+- [x] Links point only to real posts, never to the same post
+- [x] Anchor text is a natural phrase from the body (not a heading or verse)
+- [x] 3–5 in-text links per language
+- [x] One "Also read" link, placed after the section it extends best
+- [x] 3 related posts at the end, the ones that suit this reader best
+
+### Category and tags
+- [x] One category, from the approved 14
+- [x] 3–6 tags per language
+- [x] No tag repeats a category name
+- [x] Existing tags reused; no near-duplicates
+- [x] Each tag can be shared by at least 3 posts
+- [x] No broad labels that only restate a category
+- [x] Series tags named exactly as the series
+- [x] `festivals` only when the post is about the festival itself; Pitru topics in `pitru`
+
+### Structured data (in this report, not on the page)
+- [x] One JSON-LD block per language: BlogPosting, Person, Organization, VideoObject (if there is a video), BreadcrumbList
+- [x] Hindi and English versions linked as translations
+
+### Content trust
+- [x] Titles, metas and snippets faithful to the talk
+- [ ] No unsupported scriptural claims (both texts credit "एक तरी ओवी अनुभवावी" to Sant Dnyaneshwar, while it closes Sant Namdev's abhang on the Jnaneshwari; Sanskrit review issue 1, flag 1. A source-line correction for the editor, outside the SEO fix; no SEO field names the author)
+- [x] Health promises, fear-selling and attacks on other traditions flagged
+
+### Not covered
+- Live broken links (internal links only work once the linked post is published)
+- Canonical and Open Graph tags (SureRank adds these itself)
