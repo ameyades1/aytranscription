@@ -1,13 +1,13 @@
-MARKDOWN BLOG IMPORTER — VERSION 2.1.0
+MARKDOWN BLOG IMPORTER — VERSION 3.0.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
-- Accepts one .md/.markdown file (maximum 2 MB), or one .zip (maximum 50 MB) holding the .md and its images.
+- Accepts one .md/.markdown file (maximum 2 MB), or one .zip (maximum 50 MB) holding the .md and its images. A zip may hold two .md files, one per language, to import an English and a Hindi post together and link them as translations (see LANGUAGES).
 - Converts Markdown into standard WordPress blocks (see BLOCKS below), so the post looks right in any theme and opens in the block editor as ordinary, editable blocks. The plugin adds no CSS of its own.
 - Creates the WordPress post as PENDING REVIEW (never publishes automatically). An editor reviews it and publishes it.
 - Supports title, slug, excerpt, categories, tags, SEO title, meta description, canonical URL and robots directive in front matter.
 - Creates missing categories and tags.
-- Prevents duplicate slugs by default; optional update is limited to existing pending or draft posts.
+- Prevents duplicate slugs by default; optional update is limited to existing pending or draft posts, and keeps the post's author.
 - Imports images uploaded with the Markdown file: the hero becomes the post's featured image (shown by the theme, usually at the top of the post) and each inline image is placed where the Markdown puts it, with its alt text and caption.
 - Optionally assigns a featured image using an existing WordPress media attachment ID instead.
 
@@ -33,6 +33,46 @@ Check it with:
 which should print bool(false). Without WP-CLI, run the same PHP once from a code-snippets plugin. A SureRank update may add a switch for this or reset it, so check again after updating.
 
 A related setting, SureRank > Advanced > Image SEO > "Optimize Image SEO without AI" (auto_set_image_alt), fills in missing alt text from the image's file name, such as "Hero 2 300x169". Turn it off too if you want only the alt text you wrote.
+
+LANGUAGES (new in 3.0.0)
+- Each .md can name its language and its talk in the front matter:
+    lang: hi                        # a language set up in Polylang (en, hi, ...)
+    translation_key: two_causes     # the same in every language version of one post
+    category_key: karma             # links the post's category with its translations
+- Two .md files in one zip (for example en.md and hi.md, sharing the images in assets/) are imported
+  together and linked as translations. Each language must appear once, with its own slug.
+- One language at a time also works, in either order: the post is linked to the posts already here
+  with the same translation_key, even if those are published (linking does not change them).
+- "Translation of" on the import page links an upload of one language to a post you pick instead,
+  for older posts without a translation_key. Posts can also be linked later in the post editor's
+  Languages panel (Polylang).
+- Before anything is saved, every file is checked (front matter, slugs, images, languages). If one
+  fails, nothing is created. An upload that would give a language a second, different post is
+  refused instead of silently re-linking.
+- With Polylang, each post gets its language, and its categories and tags are found or created in that
+  language ("Karma & Destiny" for English, "कर्म और भाग्य" for Hindi). Categories with the same
+  category_key are linked as translations. Without a lang: field, a post gets Polylang's default language.
+- Site-relative links to other posts ([text](/slug/)) and Also read links are pointed at the post in the
+  importing post's language: its translation when it has one (so a Hindi post links to /hi/<slug>/),
+  else the post itself. A slug not on the site yet keeps its slug under the language's URL, and the
+  result message lists it; import that post and re-import this one to update the link.
+- Without Polylang, posts are still imported and their language (smd_lang) and translation_key
+  (smd_translation_key) are saved, so the language switch and hreflang links work for posts; menus,
+  language URLs and per-language categories need Polylang.
+- The plugin never changes menus, the theme or Polylang's settings. A language with no menu assigned
+  shows no menu: in Appearance > Menus > Manage Locations, give its locations a menu once.
+
+LANGUAGE SWITCH
+- A post with a published translation shows a switch with its languages (for example English | हिन्दी),
+  the current one highlighted. The setting is at the bottom of Tools > Markdown Blog Importer:
+  below the byline (in Astra; other themes put it at the top of the post), top of the post, or off.
+- Also available as the [smd_lang_switch] shortcode.
+
+WP-CLI
+  wp smd import <file.zip|file.md> [--update] [--translation-of=<post ID>] --user=<admin>
+- Imports exactly as the upload page does (Pending Review; --update for an existing pending or draft
+  post). Prints the result, then one line per saved post: "<ID> <lang> <slug>". Run it as a user who
+  can upload files.
 
 INSTALLATION
 1. In WordPress admin, go to Plugins > Add New Plugin > Upload Plugin.
@@ -96,6 +136,7 @@ SUPPORTED FRONT MATTER
 - featured_image: file name of the hero image (uploaded in the Images field) or an http(s) URL; it becomes the featured image
 - featured_image_alt, featured_image_caption: alt text and caption for the hero
 - focus_keyword (the SEO plugin's focus keyword)
+- lang, translation_key, category_key (see LANGUAGES)
 - featured_image_id (an existing WordPress media attachment ID; used only when featured_image is empty)
 
 IMAGES
@@ -150,7 +191,10 @@ HINDI AND OTHER LANGUAGES
 LINE BREAKS
 - End a line with two spaces or a backslash to keep a line break inside a paragraph or blockquote (useful for verses).
 
-LIMITATIONS IN VERSION 2.1.0
+LIMITATIONS IN VERSION 3.0.0
 - Does not write any SEO plugin's schema settings.
+- Languages and translations are linked through Polylang only (WPML is not supported).
+- If saving the second language's post fails after the first was saved (a rare server error, not a
+  problem the checks find), the first is kept; the message says so, and a re-import with update fixes it.
 - Fenced code blocks, tables, images inside a paragraph (an image must be on its own line), nested lists and raw HTML are not supported; such lines come through as plain text.
 - Always back up the site and test on staging before installing on a production website.

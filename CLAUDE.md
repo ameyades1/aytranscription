@@ -35,7 +35,11 @@ Skills live in `.claude/skills/<name>/SKILL.md`; the writing rules they follow a
 ## Environment
 
 - The local WordPress test site is in `~/wordpress`, outside this repo; no WordPress or Docker
-  files go in the repo.
+  files go in the repo. It is bilingual with Polylang, and talks are imported through the importer
+  plugin (`wp smd import`), the same code as the live site; `import_post.py` there is retired.
+- Before any `wp ... delete` on the local site, check that every ID in the command is a non-empty
+  number and is the intended post: an empty ID once made a command match, and delete, every
+  attachment.
 - Python environments: `tools/whisperx-env/` (transcription), `tools/image-env/` (images).
 - Pushing to `main` with changes under `output/` deploys GitHub Pages.
 - Batch logs go to `tools/batch_logs/`.

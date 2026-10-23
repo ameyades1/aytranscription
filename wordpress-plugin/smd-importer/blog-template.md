@@ -1,6 +1,9 @@
 ---
 title: "Example Blog Title"
 slug: "example-blog-title"
+lang: "en"
+translation_key: "example_blog"
+category_key: "hinduism"
 excerpt: "A short summary of the article for archive pages."
 categories:
   - Hinduism

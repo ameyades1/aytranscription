@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """Build one talk's upload zip for the WordPress Markdown importer plugin (wordpress-plugin/).
 
-Usage: python3 tools/make_post_zip.py <talk> [output dir] [--lang en|hi]
+Usage: python3 tools/make_post_zip.py <talk> [output dir] [--lang both|en|hi]
 
-Builds the English post by default; --lang hi builds the Hindi one from the Hindi text and seo.json's
+Builds both posts by default, en.md and hi.md in one zip, which the importer (3.0.0+) imports and links as
+translations; --lang en or --lang hi builds one. The Hindi post comes from the Hindi text and seo.json's
 Hindi fields (slug, title, keywords, tags, alt text, captions, link phrases, category name), with
-links and "Also read" pointing to the linked talks' Hindi posts.
+links and "Also read" pointing to the linked talks' Hindi posts. Both carry lang, translation_key (the
+talk's folder name) and category_key (seo.json's category), so posts uploaded separately still pair up.
 
 Reads (never writes) output/<talk>/: <talk>_blog_seo_en.txt (the SEO-fixed text from /seo_blog_fix)
 or else <talk>_blog_en.txt (for Hindi, _blog_seo.txt or else _blog.txt), blog/seo.json, blog/images.txt, blog/index.html (for the video) and
-blog/assets/. Writes <slug>.zip, holding <slug>.md and assets/hero.jpg and assets/inline.jpg, to the
+blog/assets/. Writes <English slug>.zip, holding en.md and hi.md (or <slug>.md for one language) and the images in assets/, to the
 output dir (default: your Windows Downloads folder, else the current directory). The .md has:
   - front matter: title (the H1), slug, excerpt and meta description, category (English name from
     gallery_topics.txt), tags, SEO title, focus keyword, and the hero with its alt text and caption
@@ -180,7 +182,8 @@ def build(talk, lang='en'):
         url, vtitle = vid
         body += ['', f'## {LABELS[lang]["video"]}', '', f'[{md_text(vtitle)}]({url})' if vtitle else url]
 
-    front = ['---', f'title: {q(title)}', f'slug: {q(slug)}', f'excerpt: {q(w["meta_description"])}',
+    front = ['---', f'title: {q(title)}', f'slug: {q(slug)}', f'lang: {lang}', f'translation_key: {talk}',
+             f'category_key: {w.get("category") or seo["wordpress"]["category"]}', f'excerpt: {q(w["meta_description"])}',
              'categories:', f'  - {category_name(w.get("category") or seo["wordpress"]["category"], lang)}', 'tags:']
     front += [f'  - {t}' for t in w.get('tags', [])]
     front += [f'seo_title: {q(seo.get("title", {}).get(lang, title))}',
@@ -209,14 +212,19 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('talk')
     ap.add_argument('out', nargs='?', help='output dir (default: your Windows Downloads folder)')
-    ap.add_argument('--lang', choices=['en', 'hi'], default='en', help='the post\'s language (default: en)')
+    ap.add_argument('--lang', choices=['both', 'en', 'hi'], default='both', help='the post\'s language (default: both)')
     args = ap.parse_args()
     talk = args.talk.rstrip('/').split('/')[-1]
     out = args.out or downloads()
-    slug, text, files = build(talk, args.lang)
+    langs = ['en', 'hi'] if args.lang == 'both' else [args.lang]
+    posts = {lang: build(talk, lang) for lang in langs}
+    slug = posts[langs[0]][0]
     path = os.path.join(out, f'{slug}.zip')
     with zipfile.ZipFile(path, 'w', zipfile.ZIP_DEFLATED) as z:
-        z.writestr(f'{slug}.md', text)
+        files = {}
+        for lang, (lslug, text, lfiles) in posts.items():
+            z.writestr(f'{lang}.md' if len(langs) > 1 else f'{lslug}.md', text)
+            files.update(lfiles)  # the same image files for every language
         for arc, src in files.items():
             z.write(src, arc)
     print(path)

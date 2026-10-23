@@ -155,20 +155,24 @@ Site links, contact details and the founder description are in `SITE` and `TEXT`
 
 ### 10. WordPress: `./publish_wordpress.sh [talk ...]`
 
-Uses the local WordPress in `~/wordpress` (outside this repo):
+Uses the local WordPress in `~/wordpress` (outside this repo), set up bilingual with Polylang
+(`~/wordpress/setup_polylang.sh`: English at `/<slug>/`, Hindi at `/hi/<slug>/`):
 
-1. Imports each talk that passes the checks with `~/wordpress/import_post.py` (from the SEO-fixed
-   texts).
-2. Re-imports posts that link to a talk whose slug changed.
+1. For each talk that passes the checks, builds its zip with `make_post_zip.py` and imports it with
+   the importer plugin's `wp smd import --update` (about 20 seconds per talk, both languages),
+   then publishes the two posts, linked as translations.
+2. Re-imports talks whose posts link to an imported talk but not to its current URLs.
 3. Exports the site with Simply Static to `output/wp/` and rebuilds the SEO gallery and main gallery.
    `STATIC=0` skips this.
 
 Nothing is committed and nothing goes to the live site.
 
-For the live site, `tools/make_post_zip.py <talk> [dir] [--lang en|hi]` builds an upload zip
-(`<slug>.md` + images) for the **smd-importer** plugin in `wordpress-plugin/smd-importer/`
-(SEO-plugin neutral: SureRank, Yoast, Rank Math, AIOSEO). Build the plugin zip with
-`wordpress-plugin/build_zip.sh`. `wordpress-plugin/fpj-seo-sync/` syncs SEO data onto existing
+For the live site, `tools/make_post_zip.py <talk> [dir] [--lang both|en|hi]` builds an upload zip
+for the **smd-importer** plugin in `wordpress-plugin/smd-importer/` (3.0.0): by default `en.md` and
+`hi.md` with the shared images, which one upload imports as two posts linked as translations
+(Polylang). The plugin is SEO-plugin neutral (SureRank, Yoast, Rank Math, AIOSEO), draws the
+हिन्दी / English switch in each translated post, and has a `wp smd import` command. See its
+`README.txt`. Build the plugin zip with `wordpress-plugin/build_zip.sh`. `wordpress-plugin/fpj-seo-sync/` syncs SEO data onto existing
 posts, using `ay_existing_blogs_seo/fpj_to_ay.json`.
 
 ### 11. Publish
