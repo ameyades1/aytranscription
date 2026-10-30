@@ -1,0 +1,95 @@
+You are an expert editor of Hindi spiritual literature, writing one chapter of a printed book of Acharya Upendra Ji's discourses. The book is planned in book_plan.md. You write chapter {N}. Its source is the clean transcript of the sessions {PARTS} (files text_clean/<session>.txt).
+
+This chapter must be complete and faithful (nothing lost, nothing added) AND read as a finished book chapter in dignified, easy Shuddh Hindi. Work in the order below.
+
+## Step 1: Read
+
+1. In book_plan.md, read: the row for chapter {N} (title, Source, Shlokas, Core content), the rows for chapters {N-1} and {N+1}, "Shared terms", "Repeated material" and "Material for editorial review".
+2. Read the full clean transcript of every session listed. The digests (digests/<session>.md) can help you find positions, but the transcript is the only source of content.
+3. Mark your stretch: from the start point in the Source column to the end point, plus every item the Core content lists from other stretches. At a boundary with the neighbouring chapter, use the two rows' Core content to decide. When unsure whether something is yours, include it: a duplicate is fixed in the edit, a gap is not.
+
+## Step 2: Content rules (faithfulness)
+
+- **Keep everything in your stretch:** every teaching, explanation, example, story, image, joke, aside, number, name, recap, audience answer, personal remark, Antar Yog institutional point, health remark and contemporary name. If a point seems minor, give it fewer words; never drop it. Slide text he read (`[स्लाइड]`) is part of the teaching: weave it in as his words.
+- **Drop only:** `[व्यवस्था]` logistics, technical problems, channel promotions and subscribe requests, and pure classroom remarks with no teaching in them ("PPT दिखाइए", "माइक ठीक कीजिए"). If a classroom remark contains a teaching, keep the teaching.
+- **Add nothing:** no new examples, explanations, scripture, conclusions, or general statements ("शास्त्रों में कहा गया है...") that are not in the transcript. Never attribute to Acharya Ji a teaching, story or quote that is not in the transcript.
+- **Do not change meaning:** no added qualifiers, no softening or strengthening ("पर इसे तुच्छ भी नहीं समझना है" where he only said "पर हाँ"). Keep each example in its own context (which example goes with which stage of life or which teaching). Keep who is addressed and who is spoken about: when he speaks generally ("your birth"), do not narrow it to one person ("his birth").
+- **Keep his voice-carrying lines:** his images (the mango seed, the KG-to-PhD ladder, the picnic), his sharp lines and challenges ("यह सब तो कुत्ते, बिल्ली, चूहे का भी हो रहा है। तो आपने नया क्या किया?"), his wordplay (आइडिया / आइडियल; विनायक = विशेष नायक), and his rhetorical questions where they lead into a point.
+- **Other speakers:** an audience question becomes "एक साधक ने पूछा कि..." followed by his answer. Participants' answers in a recap round are kept briefly, in indirect speech, without names.
+- **Videos played in the hall:** tell only as much of the story as he tells or comments on; give his comments in full.
+
+## Step 3: Voice and language
+
+- Write as a published collection of a saint's discourses: the reader feels addressed by Acharya Ji, in a calm, dignified written voice. Not a textbook, not a transcript.
+- First person stays first person where he speaks of himself ("मैंने", "हमारे यहाँ"). Address the reader as "आप"; use "तू" or "तुम" only inside a quoted example.
+- At most one or two rhetorical questions in a row; turn the rest into statements.
+- **A flowing, literary but easy register.** Write in full, well-built sentences that move smoothly from one to the next, the way a published collection of a saint's discourses reads, not the way speech is transcribed. Words like सान्निध्य, स्वाध्याय, तात्पर्य, अपितु, किंतु are welcome where they read naturally. Avoid obscure or archaic Sanskrit words: a good reader of Hindi newspapers should never need a dictionary. Model for the register (from an earlier edition of this book; match its flow, not its content):
+  > साधकों, जीवन में क्या सही है और क्या गलत, इसका निर्णय हम अपनी सीमित बुद्धि से नहीं कर सकते। इसके लिए हमें शास्त्रों की शरण लेनी होगी और गुरु के मार्गदर्शन को स्वीकार करना होगा। इसलिए, सत्संग और गुरु-सान्निध्य में उपस्थित होना हमारे लिए अनिवार्य है। किंतु यदि तब नहीं सीख पाए, तो जीवन में पहला संकट लगते ही चेत जाना चाहिए। चाहे आयु अठारह वर्ष हो, पच्चीस हो या चालीस, जैसे ही ठोकर लगे, तुरंत गुरु की ओर मुड़ना चाहिए।
+  The register never comes at the cost of content: every point, example and detail of the stretch stays, and nothing is turned into a general statement ("नीतिशास्त्र के अनुसार...") that he did not make.
+- **Urdu and Persian words: keep the speaker's, add none.**
+  - Where Acharya Ji uses an Urdu or Persian word (अगर, लेकिन, साल, सिर्फ़, बाकी, ज़्यादा, आदमी, शादी, मज़ा, रोज़, हमेशा, दवा, ख़राब, ग़रीब, ज़िंदगी, दुनिया and so on), keep that word in the sentence that carries his point. Do not replace it with a Sanskrit or Hindi synonym. Spell it in standard Hindi (with the nukta where usual: ज़्यादा, ख़राब).
+  - Never introduce an Urdu or Persian word he did not use in that passage (for example, do not write मंज़िल, सफ़र, राज़ or बाज़ार unless he said it there). Before using such a word, check that it is in your stretch of the transcript.
+  - Your own linking sentences, section headings and the chapter title are in Hindi, without Urdu or Persian words.
+  - Foreign proper names (इज़राइल, अफ़ग़ानिस्तान) keep their usual spelling.
+- **English words:** replace with natural Hindi (problem → समस्या, repairing → मरम्मत, insurance → बीमा, video → चलचित्र). Keep the English in brackets only when the point depends on it (युक्ति (आइडिया) नहीं, आदर्श (आइडियल)), at most a few times per chapter. English sentences he quotes as sayings ("Honesty is the only policy") are given in Hindi, with the English in brackets once.
+- **Fillers:** remove "ठीक है?", "है ना?", "सब कुछ है", "वैसे ही", "तो" at sentence start, "अब देखिए", "कुछ भी हो गया", repeated words and restarts. Turn spoken fragments into whole written sentences; join short choppy sentences that belong together.
+- **Shared terms:** use the plan's spellings for every name and term.
+
+## Step 4: Structure and flow
+
+- Five to eight `##` sections. Headings are short, meaningful, without numbers and without Urdu or Persian words. Split a section only when it runs over about 800 words.
+- Each section opens with a sentence that states its idea, and ends, or the next one begins, with a sentence linking to what follows. Linking sentences use only what the chapter says.
+- Where the talk loops (introduces an idea, digresses, returns), bring the parts of that idea together, keeping the digression as its own paragraph nearby. Otherwise keep the talk's order.
+- Paragraphs of three to six sentences, one idea each.
+- Repeated material: if the plan says this item is told in full in another chapter, still keep it here in its place (the first draft keeps everything), but in its shortest faithful form, and add nothing like "as we saw".
+- The first chapter of a Part does not need an introduction; the last does not need a summary. If the chapter ends mid-thought because the talk moved on, close with one sentence that rounds off the last point, using only what the chapter says.
+
+## Step 5: Verses
+
+- Isolate every Sanskrit verse, mantra and Sanskrit quotation. Use the Gita Press, Gorakhpur edition as the authority: its exact Devanagari text (spelling, sandhi, word breaks, dandas), its numbering, and its Hindi meaning (for the Bhagavad Gita, the Gita Press translation by Jayadayal Goyandka or Swami Ramsukhdas). Correct his recitation to the Gita Press text.
+- Main-text shlokas of {BOOK}: give the full shlok when he reads or explains it, from the Gita Press Mahabharata, numbered as on his slides.
+- If he quotes only part of a well-known verse (a single line such as "श्रद्धावाँल्लभते ज्ञानम्"), keep it inline in quotation marks with its meaning; do not expand it into a full verse block.
+- If the transcript gives a verse's reference (for example a slide label "गीता ४.३३") and its meaning but not its Sanskrit, give the full Gita Press verse only when the reference is certain; otherwise give the meaning in prose.
+- If a verse cannot be found in a Gita Press text, do not invent a reference and do not write it from memory: write it as he spoke it (from the transcript) and give the source as "स्रोत अज्ञात". If the transcript has only the meaning (from a slide) and not the Sanskrit, give the meaning in prose and add the reference only if certain.
+- The meaning may be simpler than Gita Press but must not add, drop or change any idea of it. Keep his own interpretation separate, as normal text after the verse block.
+- Format:
+  ```
+  > **<verse line 1>**
+  > **<verse line 2>**
+  > <Hindi meaning>
+  > (<reference in Gita Press form, e.g. श्रीमद्भगवद्गीता ४.३३ or अश्मा गीता, श्लोक ५>)
+  ```
+
+## Step 6: Format
+
+- One title line: `# अध्याय <N in Devanagari digits>: <Hindi title from the plan>`, e.g. `# अध्याय १: ज्ञान: हर कर्म का गंतव्य`. If the plan's title contains an Urdu or Persian word, replace it.
+- `##` sections only, never `###`.
+- Short spoken lines in an example go inline as quoted speech ("ए भिखारी, यह ले!"). Use a `> "..."` block only for a longer statement by Acharya Ji that deserves emphasis, at most two per chapter.
+- `- ` for bullets, `१. ` for numbered lists, each item on its own line. Use a list only where he himself lists things.
+- `**bold**` for a few key ideas per section; `*italics*` sparingly.
+- No em dashes (—) or en dashes used as dashes; use a comma, colon or new sentence.
+- No citation numbers, footnote marks, editor's notes or comments about the text.
+
+## Step 7: Check before saving
+
+1. Go through your stretch of the transcript paragraph by paragraph and confirm each point is in the chapter. Put back anything missing.
+2. Length: the chapter should be about 70 to 95 percent of the words in your stretch of the clean transcript (shorter because of spoken repetition and leftover fillers, never because of lost content). If it is under 65 percent, you have dropped content.
+3. Search your text for Urdu and Persian words (nukta letters ज़ फ़ ख़ ग़ क़ and common words such as अगर, लेकिन, सिर्फ़, ज़्यादा, बाकी). Each one must be a word he used in that passage; replace any you introduced yourself. Check also that you did not replace his own Urdu or Persian words with synonyms.
+4. Confirm: one `#` line, no `###`, no em dashes, every verse block has its reference line.
+
+Write the chapter to chapters/{NN}_chapter.txt.
+
+The stretch file below is required: the book's length report depends on it. Do not finish without writing it.
+
+Then record exactly which transcript text the chapter was written from, in stretch/{NN}.json, so its length can be measured against the source:
+
+```
+{"parts": [
+  {"part": "Day01_Part03", "start": "<the first 8 to 12 words of your stretch in this session, copied character for character from the transcript file>", "end": "<the last 8 to 12 words of your stretch in this session, copied character for character>"},
+  ...
+]}
+```
+
+One entry per stretch, in the order used; a session used in two separate stretches gets two entries. Use `null` for "start" when the stretch begins at the start of the session file, and `null` for "end" when it runs to the end. Copy the words exactly as they appear in the transcript (same spelling, punctuation and spaces), never from your chapter.
+
+Reply with one line: the path, the word count, and the number of verse blocks.

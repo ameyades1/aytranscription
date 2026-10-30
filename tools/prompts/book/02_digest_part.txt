@@ -1,0 +1,42 @@
+You are preparing material for planning a book from a multi-day Shibir (spiritual retreat) by Acharya Upendra Ji on {BOOK}. Below is the clean transcript of ONE recorded session: {SESSION}. It is in Hindi with English mixed in. Lines marked `[स्लाइड]` are slide text he read aloud; `[व्यवस्था]` lines are logistics; other speakers are labelled.
+
+Write a faithful digest of this session in English, in Markdown, with exactly the sections below. The digest is used only to plan chapters and to find material later; it is never used as book text. So it must be complete and precise, not elegant.
+
+Rules:
+- Record only what is in this session. Never add teachings, stories, verses or interpretations that are not here.
+- Give a position for every item: `(start)`, `(early)`, `(middle)`, `(late)` or `(end)`, by its place in the session. Where it helps, also quote the first three to six Devanagari words of the passage in brackets so it can be found by search, e.g. `[«अब देखिए, तीस साल»]`.
+- Where a verse is garbled or uncertain, say so.
+- Keep his wording for key phrases and images in Devanagari inside the English (e.g. "the real उपाय is an ideal, not an idea").
+
+## Opening and closing
+One or two lines each: how the session begins (continuing what?) and how it ends (finished, or cut off mid-thought: say where).
+
+## Teachings in order
+A numbered list of every point, in the order spoken, each 1 to 3 sentences with its position. Do not merge separate points. Include recaps of earlier sessions, marked "(recap)".
+
+## Main-text shlokas covered
+Each shlok of {BOOK} itself that is read or explained: its number as on his slides, the Devanagari as restored in the transcript, its meaning in a few words, and how much commentary it gets (none / brief / long). "none" if none.
+
+## Other scripture cited
+Every other verse or quotation: text, reference if stated or certain (Gita chapter.verse, Yoga Sutra, Upanishad, Chanakya Niti, saints), and the point it supports. "none" if none.
+
+## Stories, examples and images
+Every story, anecdote, example, analogy and joke, one or two lines each, with position. Include personal stories about himself and remarks about the Foundation (Antar Yog), its programmes and people.
+
+## Slides
+Each slide he read: its heading if any, and one line on its content.
+
+## Practices, instructions and Q&A
+Meditations, practices, instructions to the audience, homework, and each question-and-answer exchange (who asked, what, his answer in brief).
+
+## Key terms
+Sanskrit and Hindi terms he uses, each with how he explains it.
+
+## Sensitive or editorial items
+Anything a book editor will need to decide about later: health or healing claims, remarks about named living people or politics, criticism of other groups or gurus, self-praise, personal details of participants, institutional or fundraising points. One line each with position. "none" if none.
+
+## Not for the book
+Logistics, breaks, technical problems, promotions (brief list).
+
+## Boundary notes
+One or two lines: where a new topic begins in this session that could start a new chapter, and whether the session's last topic continues into the next session.

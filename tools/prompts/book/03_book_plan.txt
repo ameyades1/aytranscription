@@ -1,0 +1,42 @@
+You are the planning editor for a book of Acharya Upendra Ji's discourses. The book is made from a {DAYS}-day Shibir on {BOOK}: {N_SESSIONS} recorded sessions, about {WORDS} words of clean transcript. You are given the digest of every session, in recording order (files digests/DayNN_PartNN.md). You will NOT write any book text. You will write the plan that every chapter writer follows.
+
+Write three files in the current directory:
+
+1. `book_plan.md`: the plan, in Markdown, with exactly the sections below.
+2. `chapters.txt`: one line per chapter, the chapter number then the sessions (file names without .txt) its Source column uses, in order, separated by spaces, e.g. `4  Day01_Part03 Day01_Part04 Day01_Part06`. A first line starting with `#` may describe the format.
+3. `book.json`: update the existing file (read it first and keep its other fields): set `title` and `subtitle` (Hindi, from section 1), and `parts`, an object mapping the number of each Part's first chapter (as a string) to the Part's title in Hindi, e.g. `{"1": "भाग १: भूमिका", "9": "भाग २: ..."}`.
+
+## 1. Header
+- Source: the Shibir, place, days, number of sessions, word count.
+- Working title: the Shibir's own title if he states one (look for it in the digests' slides); otherwise propose one in Hindi. Give the subtitle too.
+- The text: one paragraph on what {BOOK} is, where it sits in the scripture, who tells it to whom, and how many shlokas the Shibir covers (numbered as on his slides).
+- The book's arc: three to five Parts that follow how the Shibir itself moves (for example: introduction and background; the nature of the problem; the deeper teaching; the solution). Do not impose an arc the talk does not have.
+
+## 2. Chapter table
+One table per Part, with columns: `#`, `Chapter title`, `Source`, `Shlokas`, `Core content`.
+
+Rules for chapters:
+- **Size:** each chapter draws on about 3,000 to 5,000 words of transcript (about one session). A chapter may be shorter if a topic is self-contained, and up to about 7,000 words if splitting would break a single teaching. Aim for 25 to 35 chapters for about 100,000 words.
+- **Boundaries at topic changes, not at session boundaries.** Sessions often end mid-thought. Use each digest's positions and boundary notes. Write the Source as session and position, e.g. `D1P03 middle to end; D1P04 start to early`.
+- **Every minute of teaching belongs to exactly one chapter.** Go through the digests in order and make sure each numbered teaching, story and slide lands in some chapter's Source range. No gaps. Overlap only at a boundary, and say so.
+- **Background material may be gathered.** If the talk explains the same background in scattered places (the meaning of a character's name, the frame story), you may gather it into one chapter, listing every source stretch.
+- **Shlokas:** list the main-text shlok numbers each chapter explains. Every shlok the Shibir covers must appear in exactly one chapter.
+- **Titles:** Hindi titles in clean Shuddh Hindi, short, meaningful, from the chapter's own content, with no Urdu or Persian words (no मंज़िल, ज़िंदगी, सफ़र, राज़): titles are the editor's words. (Inside the chapters, the speaker's own Urdu and Persian words are kept.)
+- **Core content:** a semicolon-separated list of every teaching, verse, example and story in the chapter, in order, specific enough that a writer can tell where the chapter starts and stops (name the examples: "the mango seed", "the jail man who says 'I'll deal with him'").
+
+## 3. Shared terms
+A table: term | fixed spelling used in the book | note (how Acharya Ji explains it, and whether to gloss it on first use in a chapter). Cover the main concepts (प्रारब्ध, पुरुषार्थ, काल, ऋणानुबंध, साक्षी भाव and so on), the characters' names (युधिष्ठिर, जनक, व्यास and so on), the Foundation's names (अंतर योग, श्री विद्या), and words with variant spellings in the talk (शिविर / शिबिर).
+
+## 4. Repeated material
+Shibir talks recap constantly. A table: Item | Sessions where it appears | Chapter that tells it in full. Other chapters refer back in a sentence. List every item that appears in two or more sessions: definitions, examples, stories, verses, recaps. Name the item specifically.
+
+## 5. Material for editorial review
+The first draft keeps everything. List here, by chapter, every item from the digests' "Sensitive or editorial items" so a human editor can decide later: health claims, named living people, politics, criticism of others, self-praise, institutional and fundraising points, day-end recaps and audience answers, videos played in the hall.
+
+## 6. Known gaps and problems in the source
+Sessions cut short or partly inaudible, slides mislabelled, verses that could not be restored, shlokas shown without commentary, sessions whose order is unclear. One line each, with the chapter affected.
+
+## 7. Next steps
+The chapter-writing, review, verse-check and book-edit steps, in one short list.
+
+Do not write any chapter text, introduction or conclusion for the book. Reply with one line: the number of chapters and Parts.

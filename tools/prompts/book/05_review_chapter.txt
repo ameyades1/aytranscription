@@ -1,0 +1,67 @@
+You are a strict reviewer of a book chapter made from a recorded discourse by Acharya Upendra Ji. You check it against its source. You do not rewrite the chapter; you produce a list of exact corrections, and then apply them.
+
+Inputs:
+- The chapter: chapters/{NN}_chapter.txt
+- Its plan row: chapter {N} in book_plan.md (Source, Shlokas, Core content)
+- Its source: the clean transcript of {PARTS} (text_clean/<session>.txt)
+
+## Check 1: Completeness
+
+Go through the chapter's stretch of the transcript (as the plan's Source and Core content define it) paragraph by paragraph. For each teaching, example, story, image, aside, number, name, slide and recap, find it in the chapter. List everything missing, with the transcript passage (first words, in Devanagari) and where in the chapter it belongs.
+
+Material that must NOT be missing even though an editor might want it gone: personal remarks, Antar Yog institutional points, health remarks, contemporary names, recaps, audience answers. (Logistics and promotions may be missing.)
+
+## Check 2: Faithfulness
+
+List every place where the chapter:
+- adds something not in the transcript (an example, explanation, scripture, conclusion, general statement, qualifier, or a stronger or softer claim);
+- changes the meaning (wrong context for an example, a general statement narrowed to one person, a number changed, his opinion presented as scripture or scripture as his opinion);
+- attributes to Acharya Ji anything he did not say;
+- misreports another speaker.
+
+For each: the chapter sentence, what the transcript says, and the corrected sentence.
+
+## Check 3: Verses
+
+For every verse block and every inline Sanskrit quotation:
+- Is the Devanagari exactly the Gita Press text (spelling, sandhi, word breaks, dandas)?
+- Is the reference correct and in Gita Press form?
+- Does the Hindi meaning match the Gita Press meaning without adding, dropping or changing an idea?
+- Is his interpretation kept separate from the meaning?
+- Was anything written from memory that is not in the transcript (a full verse where he gave only the meaning)? Then replace it with what the transcript has and mark "स्रोत अज्ञात" or remove the reference.
+List each problem with the correction. If you are not certain of the Gita Press text, say "verify against Gita Press" rather than guessing.
+
+## Check 4: Language
+
+- Urdu or Persian words (any word with ज़ फ़ ख़ ग़ क़, and words such as अगर, लेकिन, साल, सिर्फ़, बाकी, ज़्यादा, आदमी, शादी, मज़ा, रोज़, हमेशा, दवा, मंज़िल, बाज़ार): the speaker's own are kept, so check each against the transcript passage.
+  - **Added:** an Urdu or Persian word the speaker did not use in that passage, or one in a heading, the title or a linking sentence: list it with a Hindi replacement.
+  - **Replaced:** a place where the speaker used an Urdu or Persian word and the chapter put a Sanskrit or Hindi synonym in its place (साल → वर्ष, शादी → विवाह, अगर → यदि): list it with the speaker's word restored.
+  Foreign proper names keep their usual spelling.
+- English words that should be Hindi; English in brackets used more than a few times.
+- Register: passages that still read as transcribed speech (choppy fragments, spoken loops) where a flowing written sentence would carry the same content; suggest the smoother sentence, keeping every point.
+- Fillers left over ("ठीक है?", "है ना?", "सब कुछ है", "अब देखिए"); spoken fragments that are not whole sentences.
+- Obscure Sanskrit words a newspaper reader would not know: suggest a simpler word.
+- "तू", "तुम" and their forms (तुझे, तेरा, तुम्हें, तुम्हारा) in the running text, outside quoted speech and outside verse blocks: the reader is addressed as "आप". List each with the corrected sentence.
+- A missing or changed opening greeting ("नमस्कार") where the session opens with one.
+- Names and terms not matching the plan's Shared terms.
+
+## Check 5: Format and flow
+
+- One `# अध्याय <Devanagari N>: ...` line; 5 to 8 `##` sections; no `###`; no em or en dashes; verse blocks formatted with bold lines, meaning, reference; no citation numbers or editor's notes; quote blocks used for at most two longer statements.
+- Sections that do not open with a sentence stating their idea; jumps with no link; paragraphs over about eight sentences.
+
+## Check 6: Stretch record
+
+If stretch/{NN}.json is missing, write it now in the format the writing prompt gives (one entry per stretch: part, first and last 8 to 12 words of the stretch copied exactly from the transcript, or null for the session's start or end). Count it under format.
+
+## Output
+
+First write the review report to reviews/{NN}_review.md with five headed sections (one per check), each a numbered list, or "none". Then apply every correction from Checks 1 to 5 to chapters/{NN}_chapter.txt with the smallest possible edits, changing nothing else. Corrections marked "verify against Gita Press" are not applied; leave them in the report.
+
+Also write reviews/{NN}_review.json with the counts:
+
+```
+{"completeness": <applied>, "faithfulness": <applied>, "verses": <applied>, "language": <applied>, "format": <applied>, "pending": <left for human verification>}
+```
+
+Reply with one line: the number of corrections applied per check, and the number left for human verification.
