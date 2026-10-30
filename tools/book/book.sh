@@ -25,7 +25,8 @@
 #   MAX_TRIES    other failures allowed per item (default: 2)
 #   CLEAN        "copy" to skip prompt 01 for human-typed transcripts (default: run the prompt)
 #
-# Every step appends its settings, the repo commit and the prompt and script hashes to run.json.
+# Every step appends its settings, tool versions, the repo commit and hashes of the prompts, scripts
+# and inputs to run.json.
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 BOOK_NAME="$1"; STEP="$2"; shift 2 2>/dev/null
@@ -85,20 +86,41 @@ run_claude() {
     echo "$name: done"
 }
 
-# Append what produced this step to run.json: time, model, effort, the repo commit (and whether
-# the pipeline files had uncommitted changes) and a hash of every prompt and script, so a book
-# records exactly which versions made it.
+# Append what produced this step to run.json: the model and every setting, the claude, python,
+# chrome and font versions, the repo commit (and whether the pipeline files had uncommitted
+# changes), and hashes of every prompt, script and input, so a book records how it was made.
 record_run() {
-    python3 - "$ROOT" "$STEP" "$MODEL" "$EFFORT" "$*" <<'EOF2'
-import hashlib, json, subprocess, sys, time
+    STEP="$STEP" MODEL="$MODEL" EFFORT="$EFFORT" JOBS="$JOBS" LIMIT_WAIT="$LIMIT_WAIT" \
+    MAX_TRIES="$MAX_TRIES" CLEAN="$CLEAN" TOOLS="$TOOLS" python3 - "$ROOT" "$*" <<'EOF2'
+import hashlib, json, os, platform, subprocess, sys, time
 from pathlib import Path
-root, step, model, effort, args = sys.argv[1:]
-git = lambda *a: subprocess.run(["git", "-C", root, *a], capture_output=True, text=True).stdout.strip()
-files = sorted((Path(root) / "tools/prompts/book").glob("*.txt")) + sorted((Path(root) / "tools/book").glob("*.[ps][yh]"))
-entry = {"step": step, "args": args, "time": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
-         "model": model, "effort": effort, "commit": git("rev-parse", "HEAD"),
-         "pipeline_uncommitted": bool(git("status", "--porcelain", "tools/book", "tools/prompts/book", ".claude/skills/book")),
-         "files": {str(f.relative_to(root)): hashlib.sha256(f.read_bytes()).hexdigest()[:16] for f in files}}
+root, args = sys.argv[1:]
+def out(*cmd):
+    try: return subprocess.run(cmd, capture_output=True, text=True).stdout.strip()
+    except OSError: return ""
+git = lambda *a: out("git", "-C", root, *a)
+sha = lambda data: hashlib.sha256(data).hexdigest()[:16]
+def tree(folder):  # one hash over a folder's files (names and contents), or "" if missing
+    files = sorted(f for f in Path(folder).rglob("*") if f.is_file() and not f.name.endswith(":Zone.Identifier"))
+    return sha(b"".join(str(f.relative_to(folder)).encode() + f.read_bytes() for f in files)) if files else ""
+font = out("fc-match", "-f", "%{file}", "Noto Serif Devanagari")
+pipeline = sorted((Path(root) / "tools/prompts/book").glob("*")) + sorted((Path(root) / "tools/book").glob("*.[ps][yh]")) \
+    + [Path(root) / ".claude/skills/book/SKILL.md"]
+entry = {
+    "step": os.environ["STEP"], "args": args, "time": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+    "settings": {"model": os.environ["MODEL"], "effort": os.environ["EFFORT"], "jobs": os.environ["JOBS"],
+                 "limit_wait": os.environ["LIMIT_WAIT"], "max_tries": os.environ["MAX_TRIES"],
+                 "clean": os.environ["CLEAN"], "allowed_tools": os.environ["TOOLS"],
+                 "permission_mode": "acceptEdits"},
+    "versions": {"claude_cli": out("claude", "--version"), "python": platform.python_version(),
+                 "chrome": out("google-chrome", "--version"), "os": platform.platform(),
+                 "font": {"file": font, "sha": sha(Path(font).read_bytes()) if font and Path(font).is_file() else ""}},
+    "repo": {"commit": git("rev-parse", "HEAD"),
+             "pipeline_uncommitted": bool(git("status", "--porcelain", "tools/book", "tools/prompts/book", ".claude/skills/book"))},
+    "pipeline_files": {str(f.relative_to(root)): sha(f.read_bytes()) for f in pipeline if f.is_file()},
+    "inputs": {"book.json": sha(Path("book.json").read_bytes()), "transcript": tree("transcript"),
+               "raw": tree("raw"), "text_clean": tree("text_clean")},
+}
 path = Path("run.json")
 runs = json.loads(path.read_text()) if path.exists() else []
 runs.append(entry)

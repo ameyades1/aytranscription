@@ -60,8 +60,11 @@ for `pdf`) and the Noto Serif Devanagari font (`fc-list | grep "Noto Serif Devan
 
 ## Repeatability
 
-Every step appends a record to `books/<book>/run.json`: step, time, model, effort, the repo commit,
-whether the pipeline files had uncommitted changes, and a hash of every prompt and script. Commit
+Every step appends a record to `books/<book>/run.json`: step, arguments and time; every setting
+(model, effort, jobs, limit wait, tries, clean mode, allowed tools, permission mode); the claude CLI,
+python, chrome, OS and font versions; the repo commit and whether the pipeline files had uncommitted
+changes; a hash of every prompt, script and this skill; and hashes of the inputs (`book.json`,
+`transcript/`, `raw/`, `text_clean/`). Commit `run.json` and `book.json` with the book. Commit
 the prompts, scripts and this skill before a run so the commit identifies them. The same settings
 give the same files, structure and checks; the wording, title and chapter boundaries come from the
 model and differ between runs. To keep a book exactly, keep its generated files: steps skip

@@ -1,0 +1,460 @@
+[
+ {
+  "step": "text",
+  "args": "",
+  "time": "2026-10-29T13:06+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "clean",
+  "args": "",
+  "time": "2026-10-29T17:17+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "digest",
+  "args": "",
+  "time": "2026-10-29T21:56+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "plan",
+  "args": "",
+  "time": "2026-10-29T22:05+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "write",
+  "args": "",
+  "time": "2026-10-30T13:20+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "verses",
+  "args": "",
+  "time": "2026-10-30T13:35+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "edit",
+  "args": "",
+  "time": "2026-10-30T13:49+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-10-30T13:49+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "dd551a979a16b15ef638aa3354706eae3d1d9a44",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  },
+  "note": "Recorded afterwards (2026-10-31): the first build ran before book.sh wrote run.json. Settings were the defaults (no environment overrides); prompts and scripts match the hashes here except book.sh, which then lacked run.json and used cp -n. Versions are those on this machine on 2026-10-31. Time is when the step's outputs were written."
+ },
+ {
+  "step": "report",
+  "args": "",
+  "time": "2026-10-31T00:11:20+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.312 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "b8987b0ca2a91796a5e4469350243bc0bb6c3b25",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "ea068b0843de40d9",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "6f11de6dda21aaa8",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "19138c2c5bfa92c1"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ }
+]
