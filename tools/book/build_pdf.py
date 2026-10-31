@@ -4,8 +4,9 @@ and write an EPUB.
 
 Usage: python3 build_pdf.py books/<book>
 Reads books/<book>/book.json (title, subtitle, author, parts) and chapters/NN_chapter.txt, plus
-front_matter.txt and back_matter.txt when they exist. Writes books/<book>/book/<book>.html, .pdf and
-.epub. The EPUB is plain Unicode text, for e-readers and read-aloud apps; Chrome's PDF does not map
+front_matter.txt and back_matter.txt when they exist, and intro/intro_pages.html (designed opening
+pages: title page, imprint, photos, profiles; its images sit next to it) in place of the plain cover.
+Writes books/<book>/book/<book>.html, .pdf and .epub. The EPUB is plain Unicode text, for e-readers and read-aloud apps; Chrome's PDF does not map
 Devanagari vowel signs back to text, so text copied or read aloud from the PDF is garbled.
 Chapters follow the repo text format: one # title, ## sections, > quote and verse blocks,
 - and numbered lists, **bold** and *italics*.
@@ -123,6 +124,41 @@ def matter(path, anchor):
     return [chapter_html(s, "%s%d" % (anchor, i)) for i, s in enumerate(sections)]
 
 
+def scope_css(css):
+    """Prefix every rule of a stylesheet with .intro, so the intro pages keep their own styles
+    inside the book. Its @page rules become the named page "intro", so they keep their margins."""
+    css, out, i = re.sub(r"/\*.*?\*/", "", css, flags=re.S), [], 0
+    while True:
+        j = css.find("{", i)
+        if j < 0:
+            return "\n".join(out)
+        depth, k = 0, j
+        while True:
+            depth += {"{": 1, "}": -1}.get(css[k], 0)
+            if depth == 0:
+                break
+            k += 1
+        sel, block, i = css[i:j].strip(), css[j:k + 1], k + 1
+        if sel.startswith("@page"):
+            out.append("@page intro" + sel[5:].replace(" :", ":") + " " + block)
+        elif not sel.startswith("@"):
+            out.append(",".join(".intro" if s.strip() == "body" else ".intro " + s.strip()
+                                for s in sel.split(",")) + " " + block)
+
+
+def load_intro(book):
+    """The designed opening pages in intro/intro_pages.html (title page, imprint, photos,
+    profiles), if the book has them: (scoped CSS, body HTML, {image file name: Path})."""
+    page = book / "intro" / "intro_pages.html"
+    if not page.exists():
+        return None
+    text = page.read_text(encoding="utf-8")
+    css = re.search(r"<style>(.*?)</style>", text, re.S).group(1)
+    body = re.sub(r"<!--.*?-->", "", re.search(r"<body>(.*?)</body>", text, re.S).group(1), flags=re.S)
+    images = {name: page.parent / name for name in re.findall(r'src="([^":/]+)"', body)}
+    return scope_css(css), body, images
+
+
 EPUB_CSS = """body { font-family: 'Noto Serif Devanagari', serif; line-height: 1.7; }
 h1 { text-align: center; font-size: 1.5em; }
 h1.part { margin-top: 30%; }
@@ -140,13 +176,22 @@ def xhtml(title, body):
             % (html.escape(title), body))
 
 
-def write_epub(path, book_name, cfg, title, docs):
-    """Write an EPUB 3: a cover page, the contents, then one file per entry of docs
-    [(title, html)], in order."""
+def write_epub(path, book_name, cfg, title, docs, intro=None):
+    """Write an EPUB 3: the intro pages (or a plain cover page), the contents, then one file per
+    entry of docs [(title, html)], in order."""
     author = cfg.get("author", "")
-    cover = ('<div class="cover"><h1>%s</h1><p>%s</p><p>%s</p></div>'
-             % (html.escape(title), html.escape(cfg.get("subtitle", "")), html.escape(author)))
-    files, nav = [("cover", xhtml(title, cover))], []
+    css, images = EPUB_CSS, {}
+    if intro:
+        intro_css, intro_body, images = intro
+        css += intro_css
+        intro_body = re.sub(r"<br\s*>", "<br/>", intro_body)
+        intro_body = re.sub(r"<img([^>]*?)\s*/?>", r"<img\1/>", intro_body)
+        files = [("intro", xhtml(title, '<div class="intro">%s</div>' % intro_body))]
+    else:
+        cover = ('<div class="cover"><h1>%s</h1><p>%s</p><p>%s</p></div>'
+                 % (html.escape(title), html.escape(cfg.get("subtitle", "")), html.escape(author)))
+        files = [("cover", xhtml(title, cover))]
+    nav = []
     for i, (t, body) in enumerate(docs, 1):
         name = "s%03d" % i
         files.append((name, xhtml(t or title, body)))
@@ -155,6 +200,9 @@ def write_epub(path, book_name, cfg, title, docs):
                                   '<ol>%s</ol></nav>' % "".join(nav))))
     manifest = "".join('<item id="%s" href="%s.xhtml" media-type="application/xhtml+xml"%s/>'
                        % (n, n, ' properties="nav"' if n == "nav" else "") for n, _ in files)
+    manifest += "".join('<item id="img%d" href="%s" media-type="image/%s"/>'
+                        % (i, name, "png" if name.endswith(".png") else "jpeg")
+                        for i, name in enumerate(images))
     opf = """<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="hi">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -172,10 +220,12 @@ def write_epub(path, book_name, cfg, title, docs):
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("mimetype", "application/epub+zip", compress_type=zipfile.ZIP_STORED)
         z.writestr("META-INF/container.xml", container)
-        z.writestr("OEBPS/style.css", EPUB_CSS)
+        z.writestr("OEBPS/style.css", css)
         z.writestr("OEBPS/content.opf", opf)
         for name, data in files:
             z.writestr("OEBPS/%s.xhtml" % name, data)
+        for name, src in images.items():
+            z.write(src, "OEBPS/" + name)
 
 
 def build(book):
@@ -205,14 +255,20 @@ def build(book):
     body += ['<section class="chapter">%s</section>' % h for _, h in back]
     docs += back
     title = cfg.get("title") or book.name
+    intro = load_intro(book)
+    if intro:
+        css = CSS % cfg + intro[0] + "\n.intro { page: intro; page-break-after: always; }\n"
+        opening = '<div class="intro">%s</div>' % re.sub(r'src="([^":/]+)"', r'src="../intro/\1"', intro[1])
+    else:
+        css = CSS % cfg
+        opening = '<div class="cover"><h1>%s</h1><div class="sub">%s</div><div class="author">%s</div></div>' % (
+            html.escape(title), html.escape(cfg.get("subtitle", "")), html.escape(cfg.get("author", "")))
     doc = """<!doctype html><html lang="hi"><head><meta charset="utf-8">
 <title>%s</title><style>%s</style></head><body>
-<div class="cover"><h1>%s</h1><div class="sub">%s</div><div class="author">%s</div></div>
+%s
 <div class="toc"><h2>विषय-सूची</h2>%s</div>
 %s
-</body></html>""" % (html.escape(title), CSS % cfg, html.escape(title),
-                     html.escape(cfg.get("subtitle", "")), html.escape(cfg.get("author", "")),
-                     "\n".join(toc), "\n".join(body))
+</body></html>""" % (html.escape(title), css, opening, "\n".join(toc), "\n".join(body))
     out = book / "book"
     out.mkdir(exist_ok=True)
     page, pdf = out / (book.name + ".html"), out / (book.name + ".pdf")
@@ -221,7 +277,7 @@ def build(book):
                     "--print-to-pdf=%s" % pdf, page.as_uri()],
                    check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     epub = out / (book.name + ".epub")
-    write_epub(epub, book.name, cfg, title, docs)
+    write_epub(epub, book.name, cfg, title, docs, intro)
     print("%d chapters -> %s, %s" % (len(files), pdf, epub))
 
 
