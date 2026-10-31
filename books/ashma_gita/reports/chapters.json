@@ -1,0 +1,1792 @@
+{
+ "chapters": [
+  {
+   "chapter": 1,
+   "status": "reviewed",
+   "title": "अध्याय १: ज्ञान ही मुक्ति का द्वार",
+   "words": 2139,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 5,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day01_Part01 0-1975"
+   ],
+   "source_words": 1975,
+   "source_exact": true,
+   "pct": 108.3,
+   "urdu_speaker": 34,
+   "urdu_kept": 27,
+   "urdu_added": [
+    "बिजनेस",
+    "रास्ता"
+   ],
+   "draft_words": 2127,
+   "diff_lines": 26,
+   "words_changed_pct": 1.7,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 3,
+    "verses": 0,
+    "language": 16,
+    "format": 0,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 2,
+   "status": "reviewed",
+   "title": "अध्याय २: दुःख के प्रकार और साक्षी भाव",
+   "words": 3449,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day01_Part01 1975-2658",
+    "Day01_Part02 0-2898"
+   ],
+   "source_words": 3581,
+   "source_exact": true,
+   "pct": 96.3,
+   "urdu_speaker": 52,
+   "urdu_kept": 24,
+   "urdu_added": [
+    "आसान",
+    "ट्रॉफी",
+    "फ्लैट"
+   ],
+   "draft_words": 3446,
+   "diff_lines": 46,
+   "words_changed_pct": 1.5,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 3,
+    "verses": 0,
+    "language": 23,
+    "format": 3,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 3,
+   "status": "reviewed",
+   "title": "अध्याय ३: धर्मक्षेत्र और कुरुक्षेत्र",
+   "words": 1267,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day01_Part02 2910-2955",
+    "Day01_Part03 0-1280"
+   ],
+   "source_words": 1325,
+   "source_exact": true,
+   "pct": 95.6,
+   "urdu_speaker": 20,
+   "urdu_kept": 15,
+   "urdu_added": [
+    "इज"
+   ],
+   "draft_words": 1260,
+   "diff_lines": 8,
+   "words_changed_pct": 0.9,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 2,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 4,
+   "status": "reviewed",
+   "title": "अध्याय ४: युधिष्ठिर का शोक और आत्मग्लानि",
+   "words": 1981,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 10,
+   "source": [
+    "Day01_Part03 1280-2028",
+    "Day01_Part04 0-495",
+    "Day01_Part06 0-1166"
+   ],
+   "source_words": 2409,
+   "source_exact": false,
+   "pct": 82.2,
+   "urdu_speaker": 15,
+   "urdu_kept": 5,
+   "urdu_added": [],
+   "draft_words": 1998,
+   "diff_lines": 25,
+   "words_changed_pct": 3.2,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 1,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 5,
+   "status": "reviewed",
+   "title": "अध्याय ५: कथा के पात्र और उनके अर्थ",
+   "words": 2982,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 8,
+   "source": [
+    "Day01_Part03 2028-2586",
+    "Day01_Part04 513-1435",
+    "Day01_Part06 377-508",
+    "Day01_Part07 195-1703"
+   ],
+   "source_words": 3119,
+   "source_exact": true,
+   "pct": 95.6,
+   "urdu_speaker": 35,
+   "urdu_kept": 27,
+   "urdu_added": [],
+   "draft_words": 2997,
+   "diff_lines": 28,
+   "words_changed_pct": 1.2,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 3,
+    "verses": 0,
+    "language": 13,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 6,
+   "status": "reviewed",
+   "title": "अध्याय ६: जीवन का धर्मयुद्ध",
+   "words": 3474,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 8,
+   "dashes": 0,
+   "tu_tum": 15,
+   "source": [
+    "Day01_Part04 1435-2651",
+    "Day01_Part05 0-2316"
+   ],
+   "source_words": 3532,
+   "source_exact": true,
+   "pct": 98.4,
+   "urdu_speaker": 44,
+   "urdu_kept": 23,
+   "urdu_added": [
+    "आसान",
+    "कर्ज",
+    "रास्ता"
+   ],
+   "draft_words": 3493,
+   "diff_lines": 32,
+   "words_changed_pct": 0.8,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 3,
+    "verses": 0,
+    "language": 10,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 7,
+   "status": "reviewed",
+   "title": "अध्याय ७: प्रारब्ध से संधि या पुरुषार्थ से युद्ध",
+   "words": 2152,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 6,
+   "source": [
+    "Day01_Part05 2316-3019",
+    "Day01_Part06 0-227",
+    "Day01_Part06 1168-2453"
+   ],
+   "source_words": 2215,
+   "source_exact": true,
+   "pct": 97.2,
+   "urdu_speaker": 34,
+   "urdu_kept": 24,
+   "urdu_added": [
+    "अंग्रेजी",
+    "इज"
+   ],
+   "draft_words": 2160,
+   "diff_lines": 24,
+   "words_changed_pct": 1.6,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 4,
+    "verses": 2,
+    "language": 6,
+    "format": 0,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 8,
+   "status": "reviewed",
+   "title": "अध्याय ८: ऋणानुबंध और धर्म की रक्षा हेतु शक्ति",
+   "words": 1317,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day01_Part06 2455-2793",
+    "Day01_Part07 0-193",
+    "Day01_Part07 1720-2671"
+   ],
+   "source_words": 1482,
+   "source_exact": true,
+   "pct": 88.9,
+   "urdu_speaker": 13,
+   "urdu_kept": 8,
+   "urdu_added": [
+    "दवा",
+    "हजार"
+   ],
+   "draft_words": 1320,
+   "diff_lines": 14,
+   "words_changed_pct": 1.1,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 5,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 9,
+   "status": "reviewed",
+   "title": "अध्याय ९: अश्मा गीता की सीख और संकल्प का समय",
+   "words": 3596,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 5,
+   "source": [
+    "Day01_Part07 2673-2934",
+    "Day01_Part08 0-2754",
+    "Day01_Part09 0-705"
+   ],
+   "source_words": 3720,
+   "source_exact": true,
+   "pct": 96.7,
+   "urdu_speaker": 56,
+   "urdu_kept": 33,
+   "urdu_added": [
+    "फ्राइडे",
+    "यानी"
+   ],
+   "draft_words": 3651,
+   "diff_lines": 35,
+   "words_changed_pct": 1.9,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 6,
+    "verses": 1,
+    "language": 5,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 10,
+   "status": "reviewed",
+   "title": "अध्याय १०: सच्चा गुरु, सच्चा प्रश्न",
+   "words": 2614,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 6,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day01_Part09 723-2675",
+    "Day01_Part10 0-756"
+   ],
+   "source_words": 2708,
+   "source_exact": true,
+   "pct": 96.5,
+   "urdu_speaker": 34,
+   "urdu_kept": 17,
+   "urdu_added": [],
+   "draft_words": 2656,
+   "diff_lines": 35,
+   "words_changed_pct": 2.1,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 3,
+    "verses": 1,
+    "language": 8,
+    "format": 0,
+    "pending": 4
+   }
+  },
+  {
+   "chapter": 11,
+   "status": "reviewed",
+   "title": "अध्याय ११: जन्म के साथ सुख-दुःख",
+   "words": 2246,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 3,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day01_Part10 756-2809",
+    "Day01_Part11 0-483"
+   ],
+   "source_words": 2536,
+   "source_exact": true,
+   "pct": 88.6,
+   "urdu_speaker": 30,
+   "urdu_kept": 17,
+   "urdu_added": [
+    "मजा"
+   ],
+   "draft_words": 2226,
+   "diff_lines": 28,
+   "words_changed_pct": 1.5,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 3,
+    "verses": 2,
+    "language": 1,
+    "format": 3,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 12,
+   "status": "reviewed",
+   "title": "अध्याय १२: पवन और बादल",
+   "words": 4697,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 2,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day01_Part11 474-2747",
+    "Day02_Part01 0-2549"
+   ],
+   "source_words": 4822,
+   "source_exact": true,
+   "pct": 97.4,
+   "urdu_speaker": 63,
+   "urdu_kept": 39,
+   "urdu_added": [
+    "इजराइल",
+    "डॉल्फिन",
+    "फीता",
+    "शुरू",
+    "सेल्फी"
+   ],
+   "draft_words": 4813,
+   "diff_lines": 61,
+   "words_changed_pct": 3.2,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 2,
+    "verses": 0,
+    "language": 3,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 13,
+   "status": "reviewed",
+   "title": "अध्याय १३: सफलता का अहंकार",
+   "words": 1521,
+   "title_ok": true,
+   "sections": 6,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day02_Part01 2497-2928",
+    "Day02_Part02 0-1089"
+   ],
+   "source_words": 1520,
+   "source_exact": true,
+   "pct": 100.1,
+   "urdu_speaker": 18,
+   "urdu_kept": 13,
+   "urdu_added": [],
+   "draft_words": 1512,
+   "diff_lines": 16,
+   "words_changed_pct": 1.0,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 5,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 14,
+   "status": "reviewed",
+   "title": "अध्याय १४: भोग से पतन और राजदंड",
+   "words": 2782,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day02_Part02 1089-3099",
+    "Day02_Part03 0-919"
+   ],
+   "source_words": 2929,
+   "source_exact": true,
+   "pct": 95.0,
+   "urdu_speaker": 55,
+   "urdu_kept": 37,
+   "urdu_added": [
+    "जरा-सा",
+    "जरा-सी",
+    "जेल",
+    "मजे",
+    "हमेशा"
+   ],
+   "draft_words": 2800,
+   "diff_lines": 20,
+   "words_changed_pct": 1.0,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 2,
+    "verses": 0,
+    "language": 7,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 15,
+   "status": "reviewed",
+   "title": "अध्याय १५: युवावस्था का कुमार्ग और बुद्धि की औषधि",
+   "words": 2923,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 4,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day02_Part03 919-2950",
+    "Day02_Part04 4-973"
+   ],
+   "source_words": 3000,
+   "source_exact": true,
+   "pct": 97.4,
+   "urdu_speaker": 58,
+   "urdu_kept": 37,
+   "urdu_added": [],
+   "draft_words": 2953,
+   "diff_lines": 34,
+   "words_changed_pct": 1.8,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 5,
+    "verses": 1,
+    "language": 6,
+    "format": 4,
+    "pending": 2
+   }
+  },
+  {
+   "chapter": 16,
+   "status": "reviewed",
+   "title": "अध्याय १६: मानसिक दुःख के दो कारण",
+   "words": 2839,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day02_Part04 990-3213",
+    "Day02_Part05 0-908"
+   ],
+   "source_words": 3131,
+   "source_exact": true,
+   "pct": 90.7,
+   "urdu_speaker": 38,
+   "urdu_kept": 20,
+   "urdu_added": [
+    "चीजें",
+    "फिल्में"
+   ],
+   "draft_words": 2814,
+   "diff_lines": 28,
+   "words_changed_pct": 1.2,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 1,
+    "verses": 1,
+    "language": 0,
+    "format": 1,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 17,
+   "status": "reviewed",
+   "title": "अध्याय १७: जरा और मृत्यु रूपी भेड़िये",
+   "words": 4224,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 5,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day02_Part05 908-3360",
+    "Day02_Part06 0-2089"
+   ],
+   "source_words": 4541,
+   "source_exact": true,
+   "pct": 93.0,
+   "urdu_speaker": 63,
+   "urdu_kept": 39,
+   "urdu_added": [
+    "अंग्रेजों",
+    "तलाक",
+    "फिल्म",
+    "फिल्मों"
+   ],
+   "draft_words": 4217,
+   "diff_lines": 54,
+   "words_changed_pct": 2.1,
+   "review": {
+    "completeness": 3,
+    "faithfulness": 2,
+    "verses": 1,
+    "language": 30,
+    "format": 2,
+    "pending": 2
+   }
+  },
+  {
+   "chapter": 18,
+   "status": "reviewed",
+   "title": "अध्याय १८: जो आए उसे सहना",
+   "words": 2880,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 2,
+   "source": [
+    "Day02_Part06 2089-3112",
+    "Day02_Part07 0-1593",
+    "Day03_Part01 0-602",
+    "Day03_Part05 2923-3677"
+   ],
+   "source_words": 3972,
+   "source_exact": true,
+   "pct": 72.5,
+   "urdu_speaker": 56,
+   "urdu_kept": 20,
+   "urdu_added": [
+    "फिल्मफेयर"
+   ],
+   "draft_words": 2982,
+   "diff_lines": 28,
+   "words_changed_pct": 3.1,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 5,
+    "verses": 0,
+    "language": 11,
+    "format": 2,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 19,
+   "status": "reviewed",
+   "title": "अध्याय १९: चित्रकेतु की कथा और दिन का सार",
+   "words": 1564,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day02_Part07 1481-1823",
+    "Day02_Part08 0-463",
+    "Day02_Part09 0-596"
+   ],
+   "source_words": 1401,
+   "source_exact": true,
+   "pct": 111.6,
+   "urdu_speaker": 20,
+   "urdu_kept": 13,
+   "urdu_added": [
+    "फाइटिंग"
+   ],
+   "draft_words": 1571,
+   "diff_lines": 26,
+   "words_changed_pct": 3.4,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 6,
+    "verses": 0,
+    "language": 4,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 20,
+   "status": "reviewed",
+   "title": "अध्याय २०: आनंद का घर और यह परदेस",
+   "words": 2263,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part01 611-2855"
+   ],
+   "source_words": 2244,
+   "source_exact": true,
+   "pct": 100.8,
+   "urdu_speaker": 36,
+   "urdu_kept": 27,
+   "urdu_added": [
+    "यानी",
+    "वीजा"
+   ],
+   "draft_words": 2263,
+   "diff_lines": 6,
+   "words_changed_pct": 0.1,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 1,
+    "format": 0,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 21,
+   "status": "reviewed",
+   "title": "अध्याय २१: प्रारब्ध का विधान",
+   "words": 4156,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 2,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part01 2858-2928",
+    "Day03_Part02 0-3068",
+    "Day03_Part03 0-1106"
+   ],
+   "source_words": 4244,
+   "source_exact": true,
+   "pct": 97.9,
+   "urdu_speaker": 47,
+   "urdu_kept": 39,
+   "urdu_added": [
+    "गुस्से",
+    "शुरू"
+   ],
+   "draft_words": 4146,
+   "diff_lines": 24,
+   "words_changed_pct": 0.6,
+   "review": {
+    "completeness": 1,
+    "faithfulness": 0,
+    "verses": 0,
+    "language": 14,
+    "format": 0,
+    "pending": 2
+   }
+  },
+  {
+   "chapter": 22,
+   "status": "reviewed",
+   "title": "अध्याय २२: नियति और समय का उलटफेर",
+   "words": 2001,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part03 1111-3080",
+    "Day03_Part04 0-76"
+   ],
+   "source_words": 2045,
+   "source_exact": true,
+   "pct": 97.8,
+   "urdu_speaker": 21,
+   "urdu_kept": 17,
+   "urdu_added": [
+    "अंग्रेजी",
+    "परफ्यूम"
+   ],
+   "draft_words": 2003,
+   "diff_lines": 29,
+   "words_changed_pct": 1.5,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 3,
+    "verses": 1,
+    "language": 5,
+    "format": 2,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 23,
+   "status": "reviewed",
+   "title": "अध्याय २३: होनहार",
+   "words": 2517,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 3,
+   "dashes": 0,
+   "tu_tum": 2,
+   "source": [
+    "Day03_Part04 76-2544"
+   ],
+   "source_words": 2468,
+   "source_exact": true,
+   "pct": 102.0,
+   "urdu_speaker": 21,
+   "urdu_kept": 19,
+   "urdu_added": [
+    "**हजारों",
+    "शुरू"
+   ],
+   "draft_words": 2517,
+   "diff_lines": 14,
+   "words_changed_pct": 0.8,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 7,
+    "format": 0,
+    "pending": 2
+   }
+  },
+  {
+   "chapter": 24,
+   "status": "reviewed",
+   "title": "अध्याय २४: भाग्य बदलने के चार सूत्र",
+   "words": 1485,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part04 2544-3109",
+    "Day03_Part05 0-1035"
+   ],
+   "source_words": 1600,
+   "source_exact": true,
+   "pct": 92.8,
+   "urdu_speaker": 26,
+   "urdu_kept": 18,
+   "urdu_added": [
+    "डिजाइनर",
+    "विजनरी",
+    "विजुअलाइजेशन"
+   ],
+   "draft_words": 1494,
+   "diff_lines": 8,
+   "words_changed_pct": 0.6,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 3,
+    "format": 0,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 25,
+   "status": "reviewed",
+   "title": "अध्याय २५: मृत्यु का सेतु और प्रबल पुरुषार्थ",
+   "words": 3616,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 5,
+   "source": [
+    "Day03_Part05 1040-2923",
+    "Day03_Part06 0-2045"
+   ],
+   "source_words": 3928,
+   "source_exact": true,
+   "pct": 92.1,
+   "urdu_speaker": 57,
+   "urdu_kept": 44,
+   "urdu_added": [
+    "बिल्कुल"
+   ],
+   "draft_words": 3631,
+   "diff_lines": 46,
+   "words_changed_pct": 1.1,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 0,
+    "verses": 0,
+    "language": 25,
+    "format": 2,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 26,
+   "status": "reviewed",
+   "title": "अध्याय २६: आज को श्रेष्ठ बनाओ",
+   "words": 2602,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 3,
+   "dashes": 0,
+   "tu_tum": 2,
+   "source": [
+    "Day03_Part06 2038-2839",
+    "Day03_Part07 4-1634"
+   ],
+   "source_words": 2431,
+   "source_exact": true,
+   "pct": 107.0,
+   "urdu_speaker": 40,
+   "urdu_kept": 35,
+   "urdu_added": [
+    "फॉर",
+    "रिजल्ट्स"
+   ],
+   "draft_words": 2654,
+   "diff_lines": 25,
+   "words_changed_pct": 2.6,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 2,
+    "verses": 3,
+    "language": 5,
+    "format": 1,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 27,
+   "status": "reviewed",
+   "title": "अध्याय २७: असंतोष से अपराध, ज्ञान होते हुए भी पाप",
+   "words": 1736,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 3,
+   "dashes": 0,
+   "tu_tum": 2,
+   "source": [
+    "Day03_Part07 1646-3098",
+    "Day03_Part08 0-450"
+   ],
+   "source_words": 1902,
+   "source_exact": true,
+   "pct": 91.3,
+   "urdu_speaker": 16,
+   "urdu_kept": 13,
+   "urdu_added": [
+    "रास्ता"
+   ],
+   "draft_words": 1756,
+   "diff_lines": 14,
+   "words_changed_pct": 1.1,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 2,
+    "verses": 0,
+    "language": 7,
+    "format": 0,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 28,
+   "status": "reviewed",
+   "title": "अध्याय २८: काल, अदृष्ट और औषध की सीमा",
+   "words": 3645,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 1,
+   "source": [
+    "Day03_Part08 450-3188",
+    "Day03_Part09 0-1393"
+   ],
+   "source_words": 4131,
+   "source_exact": true,
+   "pct": 88.2,
+   "urdu_speaker": 61,
+   "urdu_kept": 37,
+   "urdu_added": [],
+   "draft_words": 3674,
+   "diff_lines": 42,
+   "words_changed_pct": 1.6,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 0,
+    "language": 14,
+    "format": 1,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 29,
+   "status": "reviewed",
+   "title": "अध्याय २९: नदी के दो लट्ठे",
+   "words": 2597,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part09 1393-2907",
+    "Day03_Part10 0-1200"
+   ],
+   "source_words": 2714,
+   "source_exact": true,
+   "pct": 95.7,
+   "urdu_speaker": 42,
+   "urdu_kept": 31,
+   "urdu_added": [
+    "इज",
+    "डिजाइन",
+    "फॉर",
+    "वॉज"
+   ],
+   "draft_words": 2614,
+   "diff_lines": 42,
+   "words_changed_pct": 2.7,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 4,
+    "verses": 0,
+    "language": 12,
+    "format": 2,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 30,
+   "status": "reviewed",
+   "title": "अध्याय ३०: काल की समदृष्टि और पथिकों का साथ",
+   "words": 4016,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 2,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part10 1205-3147",
+    "Day03_Part11 0-2529"
+   ],
+   "source_words": 4471,
+   "source_exact": true,
+   "pct": 89.8,
+   "urdu_speaker": 62,
+   "urdu_kept": 37,
+   "urdu_added": [
+    "जरा-सा"
+   ],
+   "draft_words": 4001,
+   "diff_lines": 42,
+   "words_changed_pct": 1.3,
+   "review": {
+    "completeness": 3,
+    "faithfulness": 1,
+    "verses": 1,
+    "language": 22,
+    "format": 2,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 31,
+   "status": "reviewed",
+   "title": "अध्याय ३१: संसार चक्र और शास्त्र पर श्रद्धा",
+   "words": 2838,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 3,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part11 2529-2996",
+    "Day03_Part12 0-2939"
+   ],
+   "source_words": 3406,
+   "source_exact": true,
+   "pct": 83.3,
+   "urdu_speaker": 32,
+   "urdu_kept": 26,
+   "urdu_added": [
+    "अंग्रेजी",
+    "एकतरफा",
+    "चीजों",
+    "फैशन",
+    "यानी",
+    "लेजर"
+   ],
+   "draft_words": 2818,
+   "diff_lines": 32,
+   "words_changed_pct": 1.1,
+   "review": {
+    "completeness": 2,
+    "faithfulness": 3,
+    "verses": 0,
+    "language": 5,
+    "format": 4,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 32,
+   "status": "reviewed",
+   "title": "अध्याय ३२: रोना नहीं, श्राद्ध और यज्ञ",
+   "words": 2774,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 0,
+   "dashes": 0,
+   "tu_tum": 4,
+   "source": [
+    "Day03_Part13 0-3044",
+    "Day03_Part14 0-26"
+   ],
+   "source_words": 3070,
+   "source_exact": true,
+   "pct": 90.4,
+   "urdu_speaker": 50,
+   "urdu_kept": 32,
+   "urdu_added": [
+    "ऑफ",
+    "फिल्मी",
+    "फेसबुक",
+    "रास्ता"
+   ],
+   "draft_words": 2801,
+   "diff_lines": 34,
+   "words_changed_pct": 1.9,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 5,
+    "verses": 0,
+    "language": 10,
+    "format": 4,
+    "pending": 0
+   }
+  },
+  {
+   "chapter": 33,
+   "status": "reviewed",
+   "title": "अध्याय ३३: बीता समय लौटता नहीं",
+   "words": 2179,
+   "title_ok": true,
+   "sections": 7,
+   "h3": 0,
+   "verse_blocks": 8,
+   "dashes": 0,
+   "tu_tum": 0,
+   "source": [
+    "Day03_Part14 29-2053"
+   ],
+   "source_words": 2024,
+   "source_exact": true,
+   "pct": 107.7,
+   "urdu_speaker": 18,
+   "urdu_kept": 12,
+   "urdu_added": [],
+   "draft_words": 2193,
+   "diff_lines": 28,
+   "words_changed_pct": 1.1,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 5,
+    "verses": 0,
+    "language": 1,
+    "format": 0,
+    "pending": 2
+   }
+  },
+  {
+   "chapter": 34,
+   "status": "reviewed",
+   "title": "अध्याय ३४: गृहस्थ, तीन ऋण और दोषदृष्टि का त्याग",
+   "words": 2732,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 2,
+   "dashes": 0,
+   "tu_tum": 5,
+   "source": [
+    "Day03_Part14 2075-2176",
+    "Day03_Part15 0-2769"
+   ],
+   "source_words": 2870,
+   "source_exact": true,
+   "pct": 95.2,
+   "urdu_speaker": 36,
+   "urdu_kept": 27,
+   "urdu_added": [
+    "खत्म",
+    "चीजें",
+    "मजा",
+    "यानी",
+    "साफ",
+    "हजार"
+   ],
+   "draft_words": 2743,
+   "diff_lines": 30,
+   "words_changed_pct": 1.2,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 1,
+    "verses": 1,
+    "language": 12,
+    "format": 3,
+    "pending": 1
+   }
+  },
+  {
+   "chapter": 35,
+   "status": "reviewed",
+   "title": "अध्याय ३५: शोक छोड़कर उठो",
+   "words": 1789,
+   "title_ok": true,
+   "sections": 8,
+   "h3": 0,
+   "verse_blocks": 1,
+   "dashes": 0,
+   "tu_tum": 2,
+   "source": [
+    "Day03_Part16 0-1732"
+   ],
+   "source_words": 1732,
+   "source_exact": true,
+   "pct": 103.3,
+   "urdu_speaker": 16,
+   "urdu_kept": 12,
+   "urdu_added": [],
+   "draft_words": 1785,
+   "diff_lines": 6,
+   "words_changed_pct": 0.4,
+   "review": {
+    "completeness": 0,
+    "faithfulness": 0,
+    "verses": 0,
+    "language": 2,
+    "format": 0,
+    "pending": 1
+   }
+  }
+ ],
+ "coverage": [
+  {
+   "part": "Day01_Part01",
+   "words": 2940,
+   "uncovered": 282,
+   "overlap": 0,
+   "chapters": [
+    1,
+    2
+   ],
+   "gaps": [
+    {
+     "from": 2658,
+     "to": 2940,
+     "text": "[स्लाइड] वे परमात्मतत्त्व को भलीभाँति जानने वाले ज्ञानी महात्मा तुझे उस तत्त्वज्ञान का उपदेश करेंगे।"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part02",
+   "words": 3167,
+   "uncovered": 224,
+   "overlap": 0,
+   "chapters": [
+    2,
+    3
+   ],
+   "gaps": [
+    {
+     "from": 2955,
+     "to": 3167,
+     "text": "--- टिप्पणियाँ: - शुरुआत: \"We compare, we try to keep it multiplied .....\" के बाद"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part03",
+   "words": 2810,
+   "uncovered": 224,
+   "overlap": 0,
+   "chapters": [
+    3,
+    4,
+    5
+   ],
+   "gaps": [
+    {
+     "from": 2586,
+     "to": 2810,
+     "text": "--- टिप्पणियाँ: - श्रीमद्भगवद्गीता १.१ के केवल अंश (\"किमकुर्वत सञ्जय\", \"मामकाः पाण्डवाश्चैव\", \"धर्मक्षेत्रे कुरुक्षेत्रे\") सुनाए"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part04",
+   "words": 2982,
+   "uncovered": 349,
+   "overlap": 0,
+   "chapters": [
+    4,
+    5,
+    6
+   ],
+   "gaps": [
+    {
+     "from": 2651,
+     "to": 2982,
+     "text": "--- टिप्पणियाँ: - शुरुआत में \"स्टार्ट टाइम १४:४७\" लिखा था, जिसे हटाया गया है। लगता"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part05",
+   "words": 3255,
+   "uncovered": 236,
+   "overlap": 0,
+   "chapters": [
+    6,
+    7
+   ],
+   "gaps": [
+    {
+     "from": 3019,
+     "to": 3255,
+     "text": "--- टिप्पणियाँ: - श्रीमद्भगवद्गीता २.३२ से २.३७ के श्लोक और उनके हिन्दी अर्थ स्लाइड पर"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part06",
+   "words": 2793,
+   "uncovered": 4,
+   "overlap": 358,
+   "chapters": [
+    4,
+    5,
+    7,
+    8
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day01_Part07",
+   "words": 2934,
+   "uncovered": 21,
+   "overlap": 0,
+   "chapters": [
+    5,
+    8,
+    9
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day01_Part08",
+   "words": 3053,
+   "uncovered": 299,
+   "overlap": 0,
+   "chapters": [
+    9
+   ],
+   "gaps": [
+    {
+     "from": 2754,
+     "to": 3053,
+     "text": "--- टिप्पणियाँ: - इनपुट की शुरुआत में transcriber का metadata (Video Name, Sadhak Name, Status,"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part09",
+   "words": 2944,
+   "uncovered": 287,
+   "overlap": 0,
+   "chapters": [
+    9,
+    10
+   ],
+   "gaps": [
+    {
+     "from": 2675,
+     "to": 2944,
+     "text": "ठीक है, तो वहाँ जाना, अश्मा गीता... --- टिप्पणियाँ: - अश्मा गीता श्लोक १ (महाभारत,"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part10",
+   "words": 3010,
+   "uncovered": 201,
+   "overlap": 0,
+   "chapters": [
+    10,
+    11
+   ],
+   "gaps": [
+    {
+     "from": 2809,
+     "to": 3010,
+     "text": "--- टिप्पणियाँ: - अश्मा गीता श्लोक ३, ४, ५: स्लाइड पर केवल हिन्दी अर्थ दिखता"
+    }
+   ]
+  },
+  {
+   "part": "Day01_Part11",
+   "words": 2998,
+   "uncovered": 251,
+   "overlap": 9,
+   "chapters": [
+    11,
+    12
+   ],
+   "gaps": [
+    {
+     "from": 2747,
+     "to": 2998,
+     "text": "[व्यवस्था] ठीक है, चलो, आज के लिए इतना ही रखते हैं। कल के session में"
+    }
+   ]
+  },
+  {
+   "part": "Day02_Part01",
+   "words": 3144,
+   "uncovered": 216,
+   "overlap": 52,
+   "chapters": [
+    12,
+    13
+   ],
+   "gaps": [
+    {
+     "from": 2928,
+     "to": 3144,
+     "text": "--- टिप्पणियाँ: - यह प्रति पूरी तरह कच्चा ASR नहीं लगती; किसी ने पहले से"
+    }
+   ]
+  },
+  {
+   "part": "Day02_Part02",
+   "words": 3099,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    13,
+    14
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day02_Part03",
+   "words": 3258,
+   "uncovered": 308,
+   "overlap": 0,
+   "chapters": [
+    14,
+    15
+   ],
+   "gaps": [
+    {
+     "from": 2950,
+     "to": 3258,
+     "text": "--- टिप्पणियाँ: - इनपुट की शुरुआत में ये पंक्तियाँ थीं: \"Ashma Gita Day 02 Part"
+    }
+   ]
+  },
+  {
+   "part": "Day02_Part04",
+   "words": 3213,
+   "uncovered": 21,
+   "overlap": 0,
+   "chapters": [
+    15,
+    16
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day02_Part05",
+   "words": 3360,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    16,
+    17
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day02_Part06",
+   "words": 3112,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    17,
+    18
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day02_Part07",
+   "words": 2088,
+   "uncovered": 265,
+   "overlap": 112,
+   "chapters": [
+    18,
+    19
+   ],
+   "gaps": [
+    {
+     "from": 1823,
+     "to": 2088,
+     "text": "--- टिप्पणियाँ: - इस भाग में कोई श्लोक बोला नहीं गया। स्लाइडें कच्चे पाठ में"
+    }
+   ]
+  },
+  {
+   "part": "Day02_Part08",
+   "words": 663,
+   "uncovered": 200,
+   "overlap": 0,
+   "chapters": [
+    19
+   ],
+   "gaps": [
+    {
+     "from": 463,
+     "to": 663,
+     "text": "[व्यवस्था] Play करना। [वीडियो चलाया गया: उपनिषद गंगा] --- टिप्पणियाँ: - इनपुट में वीडियो के"
+    }
+   ]
+  },
+  {
+   "part": "Day02_Part09",
+   "words": 849,
+   "uncovered": 253,
+   "overlap": 0,
+   "chapters": [
+    19
+   ],
+   "gaps": [
+    {
+     "from": 596,
+     "to": 849,
+     "text": "[व्यवस्था] तो आज के लिए इतना ही रखते हैं। कल पूर्ण, full, जलद गति से"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part01",
+   "words": 3150,
+   "uncovered": 234,
+   "overlap": 0,
+   "chapters": [
+    18,
+    20,
+    21
+   ],
+   "gaps": [
+    {
+     "from": 2928,
+     "to": 3150,
+     "text": "--- टिप्पणियाँ: - इनपुट की शुरुआत की पंक्तियाँ (Video Name, Name: Meenal Thakur, Start time"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part02",
+   "words": 3366,
+   "uncovered": 298,
+   "overlap": 0,
+   "chapters": [
+    21
+   ],
+   "gaps": [
+    {
+     "from": 3068,
+     "to": 3366,
+     "text": "--- टिप्पणियाँ: - यह पाठ हाथ से लिखी गई transcript से बना है, जिसमें पहले"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part03",
+   "words": 3263,
+   "uncovered": 188,
+   "overlap": 0,
+   "chapters": [
+    21,
+    22
+   ],
+   "gaps": [
+    {
+     "from": 3080,
+     "to": 3263,
+     "text": "--- टिप्पणियाँ: - यह भाग अधूरे वाक्य से शुरू होता है (\"देहावसान...\" वाली अर्थ स्लाइड)।"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part04",
+   "words": 3109,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    22,
+    23,
+    24
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part05",
+   "words": 3677,
+   "uncovered": 5,
+   "overlap": 0,
+   "chapters": [
+    18,
+    24,
+    25
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part06",
+   "words": 3083,
+   "uncovered": 244,
+   "overlap": 7,
+   "chapters": [
+    25,
+    26
+   ],
+   "gaps": [
+    {
+     "from": 2839,
+     "to": 3083,
+     "text": "--- टिप्पणियाँ: - यह कच्चा पाठ मशीन से नहीं, किसी व्यक्ति (Bhakti P. Karve) ने"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part07",
+   "words": 3098,
+   "uncovered": 16,
+   "overlap": 0,
+   "chapters": [
+    26,
+    27
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part08",
+   "words": 3188,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    27,
+    28
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part09",
+   "words": 3098,
+   "uncovered": 191,
+   "overlap": 0,
+   "chapters": [
+    28,
+    29
+   ],
+   "gaps": [
+    {
+     "from": 2907,
+     "to": 3098,
+     "text": "--- टिप्पणियाँ: - कच्चे पाठ के शीर्ष पर Start Time 13.04pm और End Time 16.33pm"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part10",
+   "words": 3147,
+   "uncovered": 5,
+   "overlap": 0,
+   "chapters": [
+    29,
+    30
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part11",
+   "words": 2996,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    30,
+    31
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part12",
+   "words": 2939,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    31
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part13",
+   "words": 3044,
+   "uncovered": 0,
+   "overlap": 0,
+   "chapters": [
+    32
+   ],
+   "gaps": []
+  },
+  {
+   "part": "Day03_Part14",
+   "words": 2434,
+   "uncovered": 283,
+   "overlap": 0,
+   "chapters": [
+    32,
+    33,
+    34
+   ],
+   "gaps": [
+    {
+     "from": 2176,
+     "to": 2434,
+     "text": "--- टिप्पणियाँ: - यह कच्चा पाठ कैप्शन जैसा नहीं, आंशिक रूप से टाइप किया हुआ"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part15",
+   "words": 2989,
+   "uncovered": 220,
+   "overlap": 0,
+   "chapters": [
+    34
+   ],
+   "gaps": [
+    {
+     "from": 2769,
+     "to": 2989,
+     "text": "--- टिप्पणियाँ: - रिकॉर्डिंग वाक्य के बीच से शुरू होती है (\"या आप हो...\"), और"
+    }
+   ]
+  },
+  {
+   "part": "Day03_Part16",
+   "words": 1965,
+   "uncovered": 233,
+   "overlap": 0,
+   "chapters": [
+    35
+   ],
+   "gaps": [
+    {
+     "from": 1732,
+     "to": 1965,
+     "text": "--- टिप्पणियाँ: - कच्चे transcript के शीर्षक में \"Day 2 Part 16\" लिखा है, पर"
+    }
+   ]
+  }
+ ]
+}

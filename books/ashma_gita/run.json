@@ -456,5 +456,555 @@
    "raw": "1a8d8b72c6802006",
    "text_clean": "8300017e9314d411"
   }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-10-31T20:57:15+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "779196df6bde9c63b703f9db09e36360c2f5769e",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "8f3205394ce81907",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-10-31T21:19:03+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "779196df6bde9c63b703f9db09e36360c2f5769e",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "8f3205394ce81907",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-10-31T21:26:43+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "779196df6bde9c63b703f9db09e36360c2f5769e",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "8a4d0c5ea7fc6a2f",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "8f3205394ce81907",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-10-31T22:39:41+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "779196df6bde9c63b703f9db09e36360c2f5769e",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "8f3205394ce81907",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T00:45:01+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "91113101c1538da6447260320451056cbd0eec5d",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "c0a7ac39c935ee46",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T00:45:39+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "91113101c1538da6447260320451056cbd0eec5d",
+   "pipeline_uncommitted": true
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T00:53:01+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "48b19b204f5a09ec0f8c36d4d5102792c9a53b1c",
+   "pipeline_uncommitted": false
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T00:53:21+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "48b19b204f5a09ec0f8c36d4d5102792c9a53b1c",
+   "pipeline_uncommitted": false
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T00:56:12+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "48b19b204f5a09ec0f8c36d4d5102792c9a53b1c",
+   "pipeline_uncommitted": false
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T01:00:03+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "48b19b204f5a09ec0f8c36d4d5102792c9a53b1c",
+   "pipeline_uncommitted": false
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
+ },
+ {
+  "step": "pdf",
+  "args": "",
+  "time": "2026-11-01T01:04:07+0530",
+  "settings": {
+   "model": "claude-opus-5-5",
+   "effort": "low",
+   "jobs": "5",
+   "limit_wait": "1800",
+   "max_tries": "2",
+   "clean": "",
+   "allowed_tools": "Read Write Edit Bash(wc:*) Bash(grep:*) Bash(ls:*)",
+   "permission_mode": "acceptEdits"
+  },
+  "versions": {
+   "claude_cli": "2.1.314 (Claude Code)",
+   "python": "3.12.3",
+   "chrome": "Google Chrome 155.0.8059.84",
+   "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+   "font": {
+    "file": "/home/ameya/.local/share/fonts/NotoSerifDevanagari.ttf",
+    "sha": "1191e07bfeb062d8"
+   }
+  },
+  "repo": {
+   "commit": "48b19b204f5a09ec0f8c36d4d5102792c9a53b1c",
+   "pipeline_uncommitted": false
+  },
+  "pipeline_files": {
+   "tools/prompts/book/01_clean_transcript.txt": "ba5fde8ccedcbe98",
+   "tools/prompts/book/02_digest_part.txt": "6ff0ec92ffc9d5b7",
+   "tools/prompts/book/03_book_plan.txt": "bb07fd5b2e30d3e9",
+   "tools/prompts/book/04_write_chapter.txt": "caed0f07841b6a64",
+   "tools/prompts/book/05_review_chapter.txt": "cb37e1950ac5434a",
+   "tools/prompts/book/06_verify_verses.txt": "0664275e74750f05",
+   "tools/prompts/book/07_edit_book.txt": "f4bce1850bf78aef",
+   "tools/prompts/book/README.md": "8c0cb8f519335f28",
+   "tools/book/book.sh": "632950180f62c657",
+   "tools/book/book_report.py": "be15c50c4f7eae20",
+   "tools/book/build_pdf.py": "ad44a668e78c0243",
+   "tools/book/docx_to_text.py": "9aada42138e223f6",
+   ".claude/skills/book/SKILL.md": "aeb691278fd14c8c"
+  },
+  "inputs": {
+   "book.json": "5abda4a197fa2343",
+   "transcript": "4dafee03988935fe",
+   "raw": "1a8d8b72c6802006",
+   "text_clean": "8300017e9314d411"
+  }
  }
 ]

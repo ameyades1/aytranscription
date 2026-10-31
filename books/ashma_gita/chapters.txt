@@ -1,0 +1,36 @@
+# chapter  sessions used by its Source column, in order (file names without .txt)
+1  Day01_Part01
+2  Day01_Part01 Day01_Part02
+3  Day01_Part02 Day01_Part03
+4  Day01_Part03 Day01_Part04 Day01_Part06
+5  Day01_Part03 Day01_Part04 Day01_Part06 Day01_Part07
+6  Day01_Part04 Day01_Part05
+7  Day01_Part05 Day01_Part06
+8  Day01_Part06 Day01_Part07
+9  Day01_Part07 Day01_Part08 Day01_Part09
+10  Day01_Part09 Day01_Part10
+11  Day01_Part10 Day01_Part11
+12  Day01_Part11 Day02_Part01
+13  Day02_Part01 Day02_Part02
+14  Day02_Part02 Day02_Part03
+15  Day02_Part03 Day02_Part04
+16  Day02_Part04 Day02_Part05
+17  Day02_Part05 Day02_Part06
+18  Day02_Part06 Day02_Part07 Day03_Part01 Day03_Part05
+19  Day02_Part07 Day02_Part08 Day02_Part09
+20  Day03_Part01
+21  Day03_Part01 Day03_Part02 Day03_Part03
+22  Day03_Part03 Day03_Part04
+23  Day03_Part04
+24  Day03_Part04 Day03_Part05
+25  Day03_Part05 Day03_Part06
+26  Day03_Part06 Day03_Part07
+27  Day03_Part07 Day03_Part08
+28  Day03_Part08 Day03_Part09
+29  Day03_Part09 Day03_Part10
+30  Day03_Part10 Day03_Part11
+31  Day03_Part11 Day03_Part12
+32  Day03_Part13 Day03_Part14
+33  Day03_Part14
+34  Day03_Part14 Day03_Part15
+35  Day03_Part16
