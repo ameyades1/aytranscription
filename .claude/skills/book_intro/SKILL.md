@@ -37,14 +37,21 @@ into the PDF and the EPUB. Do not edit `build_pdf.py` or the `/book` skill for t
 ## Texts
 
 - The captions, profiles and Foundation page are the Foundation's own standard texts. Transcribe
-  them from the model book word for word; correct only obvious typing slips (सद्गुरू → सद्गुरु) and
-  remove em dashes. Change nothing else, and add nothing.
+  them from the model book word for word. Change nothing else, and add nothing, apart from these
+  approved corrections of the booklet's slips: सद्गुरू → सद्गुरु, स्त्रोत → स्रोत, निभाति → निभाती,
+  तरंगे → तरंगें; the nukta in हज़ारों, ज़िम्मेदारी, मज़बूत; "कहा है वहीं आचार्य उपेंद्र जी का भी उपदेश" →
+  वही; "रुचि दिखाई हैं" → है; the dash after "नीता ताई" → a comma; "बन गया है··· बन रहा है" (an edit
+  left half done) → "बन रहा है". Keep "कहा हैं कि" and "उपाधियां" as printed. No em dashes.
 - The one adaptation: the last sentence of Acharya Ji's profile names the model book's Gita ("गुरु
   गीता भी इन्हीं गीताओं में से एक है"); put this book's Gita there.
 - Where a photo cuts off a line end, complete the word from context and list it in your report, so
   someone can check it against the printed booklet.
 - Do not check or soften the claims in these texts; they are the Foundation's. Do not invent a
   समर्पण, आभार or any other text.
+- **Check the transcription** before reporting: cut each photo into a top and a bottom half at full
+  resolution, read them again and compare word by word with the HTML, punctuation included. Write
+  every difference from the booklet (the adaptations, the corrections above, anything else) to
+  `intro/text_differences.md` as a table, booklet next to intro, for the Foundation's approval.
 
 ## Images
 
@@ -56,9 +63,18 @@ into the PDF and the EPUB. Do not edit `build_pdf.py` or the `/book` skill for t
   founder section (`images/Home/02-founder/..._Acharya+Ji-s+Photo.jpg`, about 3000 px, print quality).
   Keep a copy scaled to about 1600 px wide. Download into a new folder in the scratchpad and copy into
   `intro/` only the images used.
-- The site has no portraits of Neeta Tai or Roopa Tai (only activity photos) and no four-yogas image.
-  Use a dashed placeholder box with a label (`[ गुरुमाँ नीता ताई का चित्र ]`) for any image you do not
-  have, and ask the user for the originals. Do not crop people out of crowd photos.
+- **Rupa Tai:** https://vasturupantaran.antaryogfoundation.in/ has her portrait
+  (`logo/..._Rupa+tai.png`, "Rupa Tai CEO | Lead Interior Designer"); it is only 331 × 397 px, so
+  report that it is too small for print.
+- **Neeta Tai** and the **four-yogas image** are on no website (antaryogfoundation.in has only
+  activity photos of her). Ask the user for photos of them from the printed booklet:
+  - a photographed portrait: crop away the paper border, scale to about 1000 px wide;
+  - the four-yogas line drawing: crop it, convert to grey, divide by a heavy blur (radius about 35)
+    to even out the lighting, then stretch the levels (ratio 0.55 → black, 0.95 → white, gamma about
+    1.8) and apply a 3 px median filter. That turns the paper white and drops the print showing through
+    from the reverse page, while keeping the thin outlines.
+- Until an image is there, use a dashed placeholder box with a label (`[ गुरुमाँ नीता ताई का चित्र ]`).
+  Do not crop people out of crowd photos. Ask the Foundation for the original files before print.
 
 ## Layout
 
@@ -68,7 +84,9 @@ into the PDF and the EPUB. Do not edit `build_pdf.py` or the `/book` skill for t
 - Give every page `padding-top: 3mm`: Devanagari vowel signs rise above the first line, and without
   it Chrome draws them at the foot of the previous page.
 - Keep each closing ornament with the paragraph before it (`break-before: avoid`); keep the title
-  page's bordered box short enough for the page (about 168 mm high).
+  page's bordered box short enough for the page (about 168 mm high), with a single thin border.
+- Size photos with `img.photo-... { display: block; object-fit: cover; }` on the `img` only, so the
+  placeholder boxes keep their centred labels.
 - Print the preview with headless Chrome, as `build_pdf.py` does, then render every page to an image
   and look at it: no blank page, no ornament alone on a page, nothing spilling into the next page, the
   border whole.
@@ -81,6 +99,6 @@ replaces them: say so and offer to remove them (keep a backup of `front_matter.t
 
 ## Report
 
-The pages made, what each image is and where it came from, the placeholders still waiting for
-images, the completed line ends to check, and the open items: edition date, price, and the
-Foundation's approval of the texts.
+The pages made, what each image is and where it came from (and which are too low-resolution for
+print), the placeholders still waiting for images, the completed line ends to check, the differences
+file, and the open items: edition date, price, and the Foundation's approval of the texts.
