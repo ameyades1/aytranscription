@@ -14,9 +14,11 @@ Expect all of these, and fix each:
    - When the recogniser wrote an English word in Devanagari (फॉचर, इंश्योरेंस, रिपेरिंग), write it in Latin script if he clearly said it in English (future, insurance, repairing). Common English words that are now normal in spoken Hindi (डॉक्टर, स्कूल, बस) may stay in Devanagari.
    - When the recogniser wrote a Hindi word in Latin script, write it in Devanagari.
    - Marathi or other-language phrases he uses stay as spoken, in Devanagari.
-3. **Garbled Sanskrit.** Recognisers break Sanskrit badly (शर्णम्भ्रज for शरणं व्रज, श्रद्धावान लभते for श्रद्धावाँल्लभते). Restore every verse, mantra and Sanskrit phrase to its correct Devanagari form:
-   - Bhagavad Gita, Upanishads, Yoga Sutra, Ramayana, Bhaja Govindam, Chanakya Niti, Durga Saptashati and other well-known texts: use the Gita Press, Gorakhpur text.
-   - The main text of the Shibir ({BOOK}): restore it to the Gita Press Mahabharata text where you can identify the shlok.
+3. **Garbled Sanskrit.** Recognisers break Sanskrit badly (शर्णम्भ्रज for शरणं व्रज, श्रद्धावान लभते for श्रद्धावाँल्लभते). Repair every verse, mantra and Sanskrit phrase to correct Devanagari, but never change its wording from memory:
+   - Fix only the form: broken or run-together syllables, a missing visarga, halant, anusvara or matra, a typing slip that makes a non-word (पाप्माछरेत → पापमाचरेत्, कुल जाता → कुले जाता where the metre and grammar need it).
+   - Keep every real word as given. Do not swap a word for another word you remember, even a synonym or a particle (वा, वै, नोदित, चोदित, संगम, संगत are all real words; keep whichever the input has). Your memory of these texts is not reliable enough to correct a word; a wrong "correction" looks right and goes unnoticed.
+   - If a human-typed transcript or a slide gives the verse, its wording is the source: keep it, apart from form slips as above.
+   - If you think a word itself is wrong, keep it and note it under `टिप्पणियाँ` with what you think it should be. The verse check in the book stage settles it against the Gita Press text.
    - If you can identify a verse only partly, write what is clearly audible and mark the doubtful part `[?]`.
    - If he recites only part of a verse, write only the part he recited. Do not complete it here; that happens in the book stage.
    - Mark each verse with its reference in square brackets after it when you are sure: `[श्रीमद्भगवद्गीता ४.३३]`, `[अश्मा गीता, श्लोक ५]`. Leave it out if you are not sure.

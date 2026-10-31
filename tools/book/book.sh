@@ -15,7 +15,7 @@
 #   verses    all chapters: prompt 06 -> verses_report.md
 #   edit      whole book: prompt 07 -> front_matter.txt, back_matter.txt, edit_log.md
 #   report    reports/book_report.md (content, length, changes, review, checks)
-#   pdf       book/<book>.pdf
+#   pdf       book/<book>.html, .pdf and .epub
 #
 # Settings (environment variables):
 #   MODEL        claude model (default: claude-opus-5-5)

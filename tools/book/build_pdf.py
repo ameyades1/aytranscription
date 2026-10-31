@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Assemble a book's chapters (and front and back matter, if written) into one HTML file and print it to PDF.
+"""Assemble a book's chapters (and front and back matter, if written) into one HTML file, print it to PDF
+and write an EPUB.
 
 Usage: python3 build_pdf.py books/<book>
 Reads books/<book>/book.json (title, subtitle, author, parts) and chapters/NN_chapter.txt, plus
-front_matter.txt and back_matter.txt when they exist. Writes books/<book>/book/<book>.html and .pdf.
+front_matter.txt and back_matter.txt when they exist. Writes books/<book>/book/<book>.html, .pdf and
+.epub. The EPUB is plain Unicode text, for e-readers and read-aloud apps; Chrome's PDF does not map
+Devanagari vowel signs back to text, so text copied or read aloud from the PDF is garbled.
 Chapters follow the repo text format: one # title, ## sections, > quote and verse blocks,
 - and numbered lists, **bold** and *italics*.
 """
@@ -12,6 +15,9 @@ import json
 import re
 import subprocess
 import sys
+import uuid
+import zipfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 FONT = "'Noto Serif Devanagari', 'Noto Sans Devanagari', serif"
@@ -103,8 +109,9 @@ def chapter_html(lines, anchor):
 
 
 def matter(path, anchor):
+    """Split a front or back matter file at its # titles; returns [(title, html)]."""
     if not path.exists():
-        return ""
+        return []
     sections, current = [], []
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.startswith("# ") and current:
@@ -113,8 +120,62 @@ def matter(path, anchor):
         current.append(line)
     if current:
         sections.append(current)
-    return "\n".join('<section class="chapter">%s</section>' % chapter_html(s, "%s%d" % (anchor, i))[1]
-                     for i, s in enumerate(sections))
+    return [chapter_html(s, "%s%d" % (anchor, i)) for i, s in enumerate(sections)]
+
+
+EPUB_CSS = """body { font-family: 'Noto Serif Devanagari', serif; line-height: 1.7; }
+h1 { text-align: center; font-size: 1.5em; }
+h1.part { margin-top: 30%; }
+h2 { font-size: 1.2em; }
+blockquote { margin: 1em 1.5em; padding-left: 0.8em; border-left: 2px solid #999; }
+.cover { text-align: center; margin-top: 25%; }
+"""
+
+
+def xhtml(title, body):
+    return ('<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html>\n'
+            '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" '
+            'xml:lang="hi" lang="hi"><head><meta charset="utf-8"/><title>%s</title>'
+            '<link rel="stylesheet" href="style.css"/></head><body>%s</body></html>'
+            % (html.escape(title), body))
+
+
+def write_epub(path, book_name, cfg, title, docs):
+    """Write an EPUB 3: a cover page, the contents, then one file per entry of docs
+    [(title, html)], in order."""
+    author = cfg.get("author", "")
+    cover = ('<div class="cover"><h1>%s</h1><p>%s</p><p>%s</p></div>'
+             % (html.escape(title), html.escape(cfg.get("subtitle", "")), html.escape(author)))
+    files, nav = [("cover", xhtml(title, cover))], []
+    for i, (t, body) in enumerate(docs, 1):
+        name = "s%03d" % i
+        files.append((name, xhtml(t or title, body)))
+        nav.append('<li><a href="%s.xhtml">%s</a></li>' % (name, inline(t or title)))
+    files.insert(1, ("nav", xhtml("विषय-सूची", '<nav epub:type="toc" id="toc"><h1>विषय-सूची</h1>'
+                                  '<ol>%s</ol></nav>' % "".join(nav))))
+    manifest = "".join('<item id="%s" href="%s.xhtml" media-type="application/xhtml+xml"%s/>'
+                       % (n, n, ' properties="nav"' if n == "nav" else "") for n, _ in files)
+    opf = """<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="hi">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:identifier id="uid">urn:uuid:%s</dc:identifier><dc:title>%s</dc:title><dc:creator>%s</dc:creator>
+<dc:language>hi</dc:language><meta property="dcterms:modified">%s</meta></metadata>
+<manifest><item id="css" href="style.css" media-type="text/css"/>%s</manifest>
+<spine>%s</spine></package>""" % (
+        uuid.uuid5(uuid.NAMESPACE_URL, "antaryog/book/" + book_name), html.escape(title),
+        html.escape(author), datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), manifest,
+        "".join('<itemref idref="%s"/>' % n for n, _ in files))
+    container = ('<?xml version="1.0"?><container version="1.0" '
+                 'xmlns="urn:oasis:names:tc:opendocument:xmlns:container"><rootfiles>'
+                 '<rootfile full-path="OEBPS/content.opf" media-type="application/oebps-package+xml"/>'
+                 '</rootfiles></container>')
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr("mimetype", "application/epub+zip", compress_type=zipfile.ZIP_STORED)
+        z.writestr("META-INF/container.xml", container)
+        z.writestr("OEBPS/style.css", EPUB_CSS)
+        z.writestr("OEBPS/content.opf", opf)
+        for name, data in files:
+            z.writestr("OEBPS/%s.xhtml" % name, data)
 
 
 def build(book):
@@ -125,17 +186,24 @@ def build(book):
     files = sorted((book / "chapters").glob("[0-9][0-9]_chapter.txt"))
     if not files:
         sys.exit("no chapters in %s" % (book / "chapters"))
-    toc, body = [], [matter(book / "front_matter.txt", "front")]
+    front = matter(book / "front_matter.txt", "front")
+    toc = []
+    body = ['<section class="chapter">%s</section>' % h for _, h in front]
+    docs = list(front)
     for f in files:
         n = int(f.name[:2])
         if n in parts:
             toc.append('<div class="part">%s</div>' % html.escape(parts[n]))
             body.append('<div class="partpage">%s</div>' % html.escape(parts[n]))
+            docs.append((parts[n], '<h1 class="part">%s</h1>' % html.escape(parts[n])))
         anchor = "ch%02d" % n
         title, text = chapter_html(f.read_text(encoding="utf-8").splitlines(), anchor)
         toc.append('<div class="ch"><a href="#%s">%s</a></div>' % (anchor, inline(title)))
         body.append('<section class="chapter">%s</section>' % text)
-    body.append(matter(book / "back_matter.txt", "back"))
+        docs.append((title, text))
+    back = matter(book / "back_matter.txt", "back")
+    body += ['<section class="chapter">%s</section>' % h for _, h in back]
+    docs += back
     title = cfg.get("title") or book.name
     doc = """<!doctype html><html lang="hi"><head><meta charset="utf-8">
 <title>%s</title><style>%s</style></head><body>
@@ -152,7 +220,9 @@ def build(book):
     subprocess.run(["google-chrome", "--headless", "--disable-gpu", "--no-pdf-header-footer",
                     "--print-to-pdf=%s" % pdf, page.as_uri()],
                    check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    print("%d chapters -> %s" % (len(files), pdf))
+    epub = out / (book.name + ".epub")
+    write_epub(epub, book.name, cfg, title, docs)
+    print("%d chapters -> %s, %s" % (len(files), pdf, epub))
 
 
 if __name__ == "__main__":

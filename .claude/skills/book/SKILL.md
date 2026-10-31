@@ -1,6 +1,6 @@
 ---
 name: book
-description: Make a Hindi book from a multi-day Shibir (many recorded sessions) in books/<book>/, using the prompts in tools/prompts/book/ and the runner tools/book/book.sh. Steps - convert or clean the transcripts, digest each session, plan the chapters, write and review each chapter, check verses, edit the whole book, build a PDF - each resumable, with a report of content, length against the source, review changes and corrections in reports/book_report.md.
+description: Make a Hindi book from a multi-day Shibir (many recorded sessions) in books/<book>/, using the prompts in tools/prompts/book/ and the runner tools/book/book.sh. Steps - convert or clean the transcripts, digest each session, plan the chapters, write and review each chapter, check verses, edit the whole book, build a PDF and an EPUB - each resumable, with a report of content, length against the source, review changes and corrections in reports/book_report.md.
 argument-hint: <book> [step] [chapter numbers...]
 ---
 
@@ -50,7 +50,7 @@ failures. Logs: `tools/batch_logs/book/<book>/`.
 | `verses` | `06_verify_verses.txt` | `verses_report.md`, `.json`; certain fixes applied | Keep the "needs human check" list for the end-of-book summary and go on. |
 | `edit` | `07_edit_book.txt` | edited chapters (originals kept in `chapters_before_edit/`), `front_matter.txt`, `back_matter.txt`, `edit_log.md` | The editorial items (personal remarks, institutional points, health remarks) are left for the user; list them in the end-of-book summary and go on. |
 | `report` | none | `reports/book_report.md`, `reports/chapters.json`, `reports/changes/NN_review.diff` | Run any time. |
-| `pdf` | none | `book/<book>.html`, `book/<book>.pdf` | Uses `book.json` for the cover and Part pages; includes front and back matter if present. |
+| `pdf` | none | `book/<book>.html`, `book/<book>.pdf`, `book/<book>.epub` | Uses `book.json` for the cover and Part pages; includes front and back matter if present. The EPUB is for e-readers and read-aloud apps: text copied or read aloud from the PDF has broken Hindi vowel signs. |
 
 Settings: `MODEL` (default `claude-opus-5-5`), `EFFORT` (default `low`), `JOBS` (parallel runs,
 default 5), `LIMIT_WAIT`, `MAX_TRIES`, `CLEAN`.
@@ -93,6 +93,7 @@ finished outputs, so a re-run never overwrites them, and only the files you dele
 | `edit_log.md` | `edit` | every change by chapter, enough to undo it; "Left for the human editor" |
 | `reports/` | `write`, `report` | `book_report.md`, `chapters.json`, `changes/NN_review.diff` |
 | `book/<book>.html`, `.pdf` | `pdf` | A5 book: cover, contents, front matter, Part pages, chapters, back matter, page numbers |
+| `book/<book>.epub` | `pdf` | EPUB 3 with the same content: cover, contents, front matter, Part pages, chapters, back matter |
 
 ## The report
 
@@ -119,7 +120,7 @@ per session, with each gap of 30 or more words quoted so it can be checked for d
 
 Run all the steps through to the PDF without stopping for the user's review; the user reviews
 the whole finished book. Stop only for failures you cannot fix. At the end, give one summary with
-the PDF path, the flagged chapters, coverage gaps, the verses needing a human check, and the
+the PDF and EPUB paths, the flagged chapters, coverage gaps, the verses needing a human check, and the
 editorial items.
 
 
