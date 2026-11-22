@@ -25,6 +25,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      # Keep this copy out of search engines: the posts are published on WordPress, and the same
+      # text on two sites would split their ranking. Only the deployed copy changes, not the repo.
+      - name: Add noindex to every page
+        run: |
+          find output -name '*.html' -print0 | xargs -0 perl -0pi -e \
+            's/<meta name="robots"[^>]*>//gi; s/(<head\b[^>]*>)/$1\n<meta name="robots" content="noindex, nofollow">/i'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: output
