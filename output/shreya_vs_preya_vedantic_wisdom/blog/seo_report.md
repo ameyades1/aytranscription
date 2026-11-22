@@ -76,7 +76,7 @@ For the page or for later use; answers come only from the blog and its cited ver
 2. **श्रेष्ठ कर्म का फल क्या है? / What is the fruit of noble action?**
    गीता (१४.१६) के अनुसार अच्छे कर्म का फल सात्त्विक और निर्मल है: सुख, ज्ञान और वैराग्य। / According to the Bhagavad Gita (14.16), the fruit of good action is sattvic and pure: happiness, knowledge and detachment.
 3. **श्रेष्ठ कर्म की इच्छा कब जागती है? / When does the desire for noble action awaken?**
-   आचार्य जी के अनुसार, जब जीवन का उद्देश्य ही नर से नारायण बनना हो। यह उद्देश्य न हो, तो मन अपने आप प्रेय की ओर जाता है। / In Acharya Ji's teaching, when the purpose of life is to rise from nara to Narayana. Without that purpose, the mind drifts toward preya on its own.
+   आचार्य जी के अनुसार, जब जीवन का उद्देश्य ही नर से नारायण बनना हो। यह उद्देश्य न हो, तो मन अपने आप प्रेय की ओर जाता है। / In Acharya Ji's teaching, when the purpose of life is to rise from nara to Narayana. Without that purpose, the mind drifts towards preya on its own.
 4. **क्या व्यापार भी श्रेष्ठ कर्म हो सकता है? / Can business be noble action?**
    हां, जब वह ज्ञान युक्त हो: निरंतर सीखना, सबसे श्रेष्ठ उत्पाद, और बदला लेने के बजाय अनुभव से सीखना। / Yes, when knowledge guides it: constant learning, the best possible product, and learning from bitter experiences instead of taking revenge.
 5. **श्रेय का मार्ग कर्मयोग तक कैसे ले जाता है? / How does the path of shreya lead to Karma Yoga?**
@@ -90,13 +90,13 @@ In-text links (seo.json `links`, the same five in both languages):
 
 | Target talk | Hindi anchor | English anchor | Why |
 |---|---|---|---|
-| knowledge_work_for_you | मन प्रेय की ओर ही प्रवृत्त होता है | the mind drifts toward preya on its own | Why we follow our nature even when we know what is right (Gita 3.33) |
+| knowledge_work_for_you | मन प्रेय की ओर ही प्रवृत्त होता है | the mind drifts towards preya on its own | Why we follow our nature even when we know what is right (Gita 3.33) |
 | know_your_first_duty_in_life | मुझे नर से नारायण जाना है | I must rise from nara to Narayana | The life purpose that the talk says awakens noble action |
 | become_billionaire_shree_vidya_secrets | ज्ञान युक्त व्यापार बना | a business guided by knowledge | Shri Vidya and wealth, the same business example in depth |
 | sattva_rajas_tamas_balance_success_liberation | ज्ञान, सुख और वैराग्य साथ हों | knowledge, happiness and detachment travel together | Not getting stuck in sattva or rajas; balance of the gunas |
 | legends_keep_working | लोगों को भी देना है | I must give to others as well | Lokasangraha: why the wise keep working for others |
 
-Also read: `who_real_doer_karma_ego_bhagavad` (Who is the doer when nature does everything), after the H2 "सब कुछ मेरा नहीं है": कर्मयोग की ओर / "Not Everything Is Mine": Toward Karma Yoga, where the reader is ready for Karma Yoga and freedom from ego.
+Also read: `who_real_doer_karma_ego_bhagavad` (Who is the doer when nature does everything), after the H2 "सब कुछ मेरा नहीं है": कर्मयोग की ओर / "Not Everything Is Mine": Towards Karma Yoga, where the reader is ready for Karma Yoga and freedom from ego.
 
 Related reading: `three_gunas_karma`, `difference_ved_vedant`, `punya_vs_paap`.
 
@@ -323,7 +323,7 @@ Flags 1 to 7 come from the Sanskrit review (`tools/review/shreya_vs_preya_vedant
 
 1. **Katha Upanishad 1.2.2 cut off at "मनुष्यमेतस्" / "manuṣyametas" (review: Major).** The quote stops inside the sandhi "मनुष्यमेतस्तौ". Recommendation: quote the first half in full ("श्रेयश्च प्रेयश्च मनुष्यमेतस्तौ सम्परीत्य विविनक्ति धीरः।") or mark it as the opening with "मनुष्यमेतः ...". This verse is the page's main keyword source, so fix it before publishing; a search snippet showing a broken verse hurts trust. The second half (श्रेयो हि धीरोऽभि प्रेयसो वृणीते प्रेयो मन्दो योगक्षेमाद्वृणीते) supports the blog's point and the direct answer; the editor may add it. The tag "विवेक" / "Viveka" rests on this mantra's "विविनक्ति" (tells them apart).
 2. **"क्योंकि गणपति सत्त्व के अंतर्गत आते हैं" / "because Lord Ganesha belongs to the realm of sattva" (review: Minor).** The Ganapati Atharvashirsha calls Ganapati beyond the three gunas. Recommendation: attribute to Acharya Ji ("आचार्य जी के अनुसार ..."). Not used in any title, snippet, FAQ or tag.
-3. **"तो राजस से पतन की ओर ही जाना है" / "Then rajas is bound to lead you downward" (review: Minor).** Gita 14.18 places rajas in the middle and tamas below. Recommendation: "रजस और तमस से" / "rajas and tamas", or attribute to Acharya Ji. The direct answer and FAQ 3 avoid this claim and say only that the mind drifts toward preya.
+3. **"तो राजस से पतन की ओर ही जाना है" / "Then rajas is bound to lead you downward" (review: Minor).** Gita 14.18 places rajas in the middle and tamas below. Recommendation: "रजस और तमस से" / "rajas and tamas", or attribute to Acharya Ji. The direct answer and FAQ 3 avoid this claim and say only that the mind drifts towards preya.
 4. **Gita 14.16 quoted as a half verse without marking (review: Minor).** Recommendation: add "(पूर्वार्ध)" / "(first half)". FAQ 2 cites it only for the sattvic fruit, which the first half supports.
 5. **IAST "ṁ" (review: Minor).** Recommendation: "sāttvikaṃ nirmalaṃ".
 6. **"सात्विक" vs "सात्त्विक" (review: Minor).** The Hindi direct answer uses "सात्त्विक" (Gita Press spelling). Recommendation: correct the blog text throughout.
@@ -369,7 +369,7 @@ The exact values written to `output/shreya_vs_preya_vedantic_wisdom/blog/seo.jso
     {
       "talk": "knowledge_work_for_you",
       "hi": "मन प्रेय की ओर ही प्रवृत्त होता है",
-      "en": "the mind drifts toward preya on its own"
+      "en": "the mind drifts towards preya on its own"
     },
     {
       "talk": "know_your_first_duty_in_life",
@@ -396,7 +396,7 @@ The exact values written to `output/shreya_vs_preya_vedantic_wisdom/blog/seo.jso
     "talk": "who_real_doer_karma_ego_bhagavad",
     "after": {
       "hi": "\"सब कुछ मेरा नहीं है\": कर्मयोग की ओर",
-      "en": "\"Not Everything Is Mine\": Toward Karma Yoga"
+      "en": "\"Not Everything Is Mine\": Towards Karma Yoga"
     }
   },
   "related": [

@@ -2,7 +2,7 @@ unveiling_truth_karma_ultimate_goal_or: SEO report
 
 ## 1. Summary
 
-Through the image of a pole vault, Acharya Ji teaches that Karma Yoga is the pole that lifts a seeker toward Jnana Yoga (ज्ञाननिष्ठा), and that the pole must be released at the top: neither escaping action early nor working until death is the answer. A Karma Yogi sets a clear end point for their work, plans for old age (income, health, love), and, if a Guru, prepares a successor. The main intent is informational ("who is a karma yogi", "is karma yoga the ultimate goal", "karma yoga vs jnana yoga"), with an emotional/life-planning layer (fear of old age, when to step back from work). The opportunity: most pages on "karma yogi" give a dictionary definition or a list of Gita verses; this talk answers the less-served question of where Karma Yoga leads and when to let it go, with a memorable image and practical advice. The video title ("Karma Yog: Ultimate Goal or Just the Beginning?") supports a question-style secondary target.
+Through the image of a pole vault, Acharya Ji teaches that Karma Yoga is the pole that lifts a seeker towards Jnana Yoga (ज्ञाननिष्ठा), and that the pole must be released at the top: neither escaping action early nor working until death is the answer. A Karma Yogi sets a clear end point for their work, plans for old age (income, health, love), and, if a Guru, prepares a successor. The main intent is informational ("who is a karma yogi", "is karma yoga the ultimate goal", "karma yoga vs jnana yoga"), with an emotional/life-planning layer (fear of old age, when to step back from work). The opportunity: most pages on "karma yogi" give a dictionary definition or a list of Gita verses; this talk answers the less-served question of where Karma Yoga leads and when to let it go, with a memorable image and practical advice. The video title ("Karma Yog: Ultimate Goal or Just the Beginning?") supports a question-style secondary target.
 
 ## 2. Keywords
 
@@ -59,7 +59,7 @@ No change to the teaching. Suggestions for the editor:
 
 **Hindi (≈55 शब्द):** आचार्य उपेंद्र जी के अनुसार कर्मयोगी वह है जो निष्काम भाव से पूरी लगन से कर्म करता है, पर अपने मन में एक निश्चित अंतिम बिंदु रखता है। जैसे बाँस-कूद का खिलाड़ी बाँस के सहारे ऊपर उठकर उसे छोड़ देता है, वैसे ही कर्मयोग ज्ञानयोग तक ले जाता है, और फिर स्वयं निवृत्त होना होता है।
 
-**English (≈58 words):** According to Acharya Upendra Ji, a Karma Yogi is someone who acts fully and without desire for the fruits, yet holds a clear end point for their work in mind. Like a pole vaulter who rises on the pole and then lets it go, Karma Yoga carries you toward Jnana Yoga, and then you must step back of your own accord.
+**English (≈58 words):** According to Acharya Upendra Ji, a Karma Yogi is someone who acts fully and without desire for the fruits, yet holds a clear end point for their work in mind. Like a pole vaulter who rises on the pole and then lets it go, Karma Yoga carries you towards Jnana Yoga, and then you must step back of your own accord.
 
 ## 6. FAQ
 

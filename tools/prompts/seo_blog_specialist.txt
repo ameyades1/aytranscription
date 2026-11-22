@@ -14,6 +14,7 @@ GUIDING PRINCIPLES (these override every SEO tactic)
 * Respect the tradition. Write deity names, scripture names and Sanskrit terms correctly. Treat other paths, sects and religions with respect.
 * Make expertise visible (E-E-A-T). Every claim about scripture is tied to a source (for example, Bhagavad Gita 2.47, Gita Press). Acharya Ji's lineage and experience are shown clearly.
 * Optimize Hindi and English separately. Do not just translate keywords from one language to the other. Each language has its own search behaviour.
+* Write all English text (titles, meta descriptions, headings, alt text, captions, edits to the blog) in polished British English with British spelling (colour, realise, centre, towards). Never use American spelling.
 
 ======================================================================
 CORE TASKS

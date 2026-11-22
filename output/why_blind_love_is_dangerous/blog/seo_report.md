@@ -325,7 +325,7 @@ File names are kept as they are. There is no image_plan.txt; `images.txt` places
 
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
-| hero.jpg | सुनहरी धूप में ऊँची चट्टान के किनारे की ओर बढ़ते छोटे बच्चे का हाथ थामे लाल दुपट्टा ओढ़े एक माँ | In golden light, a mother in a red dupatta holds the hand of a small boy as he steps toward the edge of a steep cliff | हाथ थामना, पर आंखें खुली रखकर / Holding on, with eyes open |
+| hero.jpg | सुनहरी धूप में ऊँची चट्टान के किनारे की ओर बढ़ते छोटे बच्चे का हाथ थामे लाल दुपट्टा ओढ़े एक माँ | In golden light, a mother in a red dupatta holds the hand of a small boy as he steps towards the edge of a steep cliff | हाथ थामना, पर आंखें खुली रखकर / Holding on, with eyes open |
 | inline.jpg (section "काली, सरस्वती और लक्ष्मी") | मंदिर में साथ बैठी तीन देवियाँ: त्रिशूल लिए काली, वीणा बजाती सरस्वती और कमल लिए लक्ष्मी | Three goddesses seated together in a temple: Kali with a trident, Saraswati playing the veena and Lakshmi holding a lotus | तीनों शक्तियाँ, गुरु भक्ति से पूर्ण / Three powers, made whole by devotion |
 | H2TJ9HG0F9I.jpg (video thumbnail) | आचार्य उपेंद्र जी के प्रवचन "Why Blind Love is Dangerous" का थंबनेल, आचार्य जी और आँखों पर पट्टी बाँधे प्रेमी जोड़े के चित्र के साथ | Thumbnail of Acharya Upendra Ji's talk "Why Blind Love is Dangerous", showing Acharya Ji beside a blindfolded couple and hearts | none |
 
@@ -355,7 +355,7 @@ The exact values written to `output/why_blind_love_is_dangerous/blog/seo.json` f
   "alt": {
     "hero.jpg": {
       "hi": "सुनहरी धूप में ऊँची चट्टान के किनारे की ओर बढ़ते छोटे बच्चे का हाथ थामे लाल दुपट्टा ओढ़े एक माँ",
-      "en": "In golden light, a mother in a red dupatta holds the hand of a small boy as he steps toward the edge of a steep cliff"
+      "en": "In golden light, a mother in a red dupatta holds the hand of a small boy as he steps towards the edge of a steep cliff"
     },
     "inline.jpg": {
       "hi": "मंदिर में साथ बैठी तीन देवियाँ: त्रिशूल लिए काली, वीणा बजाती सरस्वती और कमल लिए लक्ष्मी",

@@ -55,7 +55,7 @@ Headings only; the teaching stays as it is.
 - H2 "क्या कुछ भी हमेशा रहता है?" / "Does Anything Last Forever?": keep; it is already a natural question that matches the primary query.
 - H2 "अस्थिरता में स्थिर क्या है?" / "What Stays Steady When Everything Shifts?": keep; it is the snippet target. Place the direct answer (section 5) after the intro, or at the top of this section.
 - H2 "वानप्रस्थ: जंगल नहीं, जीने का ढंग" / "Vanaprastha: A Way of Living, Not a Trip to the Forest": optionally "वानप्रस्थ आश्रम का अर्थ: जंगल नहीं, जीने का ढंग" / "Vanaprastha Meaning: A Way of Living, Not a Trip to the Forest", to match the definition query.
-- H2 "एक महत्त्वपूर्ण सत्य" / "A Truth That Matters Deeply": vague for search. Optionally "पचास के बाद वानप्रस्थ क्यों ज़रूरी है?" / "Why Turn Toward Vanaprastha After Fifty?". See flag 9 on tone.
+- H2 "एक महत्त्वपूर्ण सत्य" / "A Truth That Matters Deeply": vague for search. Optionally "पचास के बाद वानप्रस्थ क्यों ज़रूरी है?" / "Why Turn Towards Vanaprastha After Fifty?". See flag 9 on tone.
 - H2 "मेरा मोक्ष क्यों नहीं होता?" / "Why Am I Not Liberated?": keep; it is a natural question.
 
 ## 5. Direct answer paragraph

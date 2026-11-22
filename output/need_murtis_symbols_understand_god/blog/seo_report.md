@@ -196,7 +196,7 @@ For later use in WordPress; not added to the page. Unknown values are `{{PLACEHO
       "image": {
         "@type": "ImageObject",
         "url": "{{EN_HERO_IMAGE_URL}}",
-        "caption": "Through form, toward the formless"
+        "caption": "Through form, towards the formless"
       },
       "datePublished": "2026-10-04",
       "dateModified": "2026-10-05",
@@ -253,7 +253,7 @@ WordPress SEO plugin (SureRank) mapping: SureRank fills BlogPosting/Article basi
 
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
-| hero.jpg | मंदिर के आले में फूलों की माला पहने हाथ जोड़े बैठी पत्थर की मूर्ति, सामने सुनहरी धूप में बादलों से भरा खुला आकाश | A garlanded stone murti seated with joined palms in a temple niche, facing a wide cloud-filled sky in golden light | साकार के सहारे निराकार की ओर / Through form, toward the formless |
+| hero.jpg | मंदिर के आले में फूलों की माला पहने हाथ जोड़े बैठी पत्थर की मूर्ति, सामने सुनहरी धूप में बादलों से भरा खुला आकाश | A garlanded stone murti seated with joined palms in a temple niche, facing a wide cloud-filled sky in golden light | साकार के सहारे निराकार की ओर / Through form, towards the formless |
 | inline.jpg | पत्थर के कारखाने में एक दाढ़ी वाले शिल्पी छेनी-हथौड़ी से देवी की अलंकृत पत्थर की मूर्ति गढ़ते हुए | A bearded sculptor shaping an ornate stone murti of a goddess with chisel and mallet in a stone workshop | ऋषियों के दर्शन का नक्शा / A map of the rishis' vision |
 | UWDUuysKBzw.jpg (video thumbnail) | वीडियो: हर धर्म प्रतीकों का उपयोग क्यों करता है, गणेश सीरीज़ भाग 6, आचार्य उपेंद्र जी का प्रवचन | Video: Why does every religion use symbols, Ganesh Series episode 6, a discourse by Acharya Upendra Ji | none |
 
@@ -295,7 +295,7 @@ The exact values written to `output/need_murtis_symbols_understand_god/blog/seo.
   "caption": {
     "hero.jpg": {
       "hi": "साकार के सहारे निराकार की ओर",
-      "en": "Through form, toward the formless"
+      "en": "Through form, towards the formless"
     },
     "inline.jpg": {
       "hi": "ऋषियों के दर्शन का नक्शा",

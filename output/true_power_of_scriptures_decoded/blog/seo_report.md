@@ -74,7 +74,7 @@ The H1 and the order of sections stay. Suggested heading changes only (no change
 4. **धर्मस्य मूलम् अर्थः का क्या अर्थ है? / What does "dharmasya mūlam arthaḥ" mean?**
    चाणक्य सूत्र कहते हैं कि सुख का मूल धर्म है और धर्म का मूल अर्थ। आचार्य जी के अनुसार धन कमाना भी शास्त्र का विषय है, पर धर्म करने के लिए। / The Chanakya Sutras say the root of happiness is dharma and the root of dharma is wealth. Acharya Ji teaches that earning wealth is a proper subject of shastra, but as a means to live by dharma.
 5. **कामशास्त्र किसलिए लिखा गया? / Why was the Kama Shastra written?**
-   आचार्य जी के अनुसार काम वृत्ति बढ़ाने के लिए नहीं, बल्कि मोक्ष की ओर जाने, योग्य संतान की उत्पत्ति और साधना को निर्विघ्न रखने के लिए। / According to Acharya Ji, not to inflame desire, but as a path toward liberation, for worthy children, and so that desire does not obstruct sadhana.
+   आचार्य जी के अनुसार काम वृत्ति बढ़ाने के लिए नहीं, बल्कि मोक्ष की ओर जाने, योग्य संतान की उत्पत्ति और साधना को निर्विघ्न रखने के लिए। / According to Acharya Ji, not to inflame desire, but as a path towards liberation, for worthy children, and so that desire does not obstruct sadhana.
 
 ## 7. Internal links
 

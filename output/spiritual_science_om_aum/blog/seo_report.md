@@ -223,7 +223,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "image": {
         "@type": "ImageObject",
         "url": "{{HERO_IMAGE_URL}}",
-        "caption": "A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake toward a row of temples in golden light"
+        "caption": "A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake towards a row of temples in golden light"
       },
       "datePublished": "2026-10-04",
       "dateModified": "2026-10-05",
@@ -302,7 +302,7 @@ There is no image_plan.txt for this talk. The alt text below is based on the ima
 
 | File | Hindi alt | English alt |
 |---|---|---|
-| hero.jpg (a man in a cream shawl seen from behind, seated on a stone ghat beside a lit brass diya; concentric ripples spread across a still lake toward a row of domed temples under a low golden sun) | सुनहरी रोशनी में सरोवर किनारे पत्थर के घाट पर शॉल ओढ़े बैठा एक साधक, पास में जलता दीया, जल में फैलती गोल तरंगें और सामने मंदिरों की कतार | A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake toward a row of temples in golden light |
+| hero.jpg (a man in a cream shawl seen from behind, seated on a stone ghat beside a lit brass diya; concentric ripples spread across a still lake towards a row of domed temples under a low golden sun) | सुनहरी रोशनी में सरोवर किनारे पत्थर के घाट पर शॉल ओढ़े बैठा एक साधक, पास में जलता दीया, जल में फैलती गोल तरंगें और सामने मंदिरों की कतार | A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake towards a row of temples in golden light |
 | inline.jpg (a bronze bell hanging on a chain in a carved stone temple archway, a gopuram in hazy light behind) | नक्काशीदार पत्थर के मंदिर-द्वार में लटकी पीतल की घंटी, पीछे धुंधली रोशनी में मंदिर का गोपुरम | A bronze bell hanging in a carved stone temple archway, with a temple gopuram in soft light behind it |
 | UETeOQlt8wQ.jpg (video thumbnail: Acharya Ji in a white kurta on the left, text "The Spiritual Science Behind the ॐ Sound", an orange Om glowing in blue water ripples) | वीडियो: The Spiritual Science Behind the ॐ Sound, सफ़ेद कुर्ते में आचार्य उपेंद्र जी और नीली तरंगों के बीच चमकता नारंगी ॐ | Video: The Spiritual Science Behind the Om Sound, Acharya Upendra Ji in a white kurta beside a glowing orange Om amid blue ripples |
 
@@ -338,7 +338,7 @@ The exact seo.json written for the page generator and WordPress.
   "alt": {
     "hero.jpg": {
       "hi": "सुनहरी रोशनी में सरोवर किनारे पत्थर के घाट पर शॉल ओढ़े बैठा एक साधक, पास में जलता दीया, जल में फैलती गोल तरंगें और सामने मंदिरों की कतार",
-      "en": "A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake toward a row of temples in golden light"
+      "en": "A seeker wrapped in a shawl sits on a stone ghat beside a lit diya, watching circular ripples spread across a lake towards a row of temples in golden light"
     },
     "inline.jpg": {
       "hi": "नक्काशीदार पत्थर के मंदिर-द्वार में लटकी पीतल की घंटी, पीछे धुंधली रोशनी में मंदिर का गोपुरम",

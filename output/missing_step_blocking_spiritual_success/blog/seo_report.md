@@ -228,7 +228,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "image": {
         "@type": "ImageObject",
         "url": "{{HERO_IMAGE_URL}}",
-        "caption": "Old stone steps rising between high walls, with a gap in one of the lower steps, toward a temple dome in golden light at the top"
+        "caption": "Old stone steps rising between high walls, with a gap in one of the lower steps, towards a temple dome in golden light at the top"
       },
       "datePublished": "2026-10-04",
       "dateModified": "2026-10-09",
@@ -307,7 +307,7 @@ No image_plan.txt exists for this talk; `images.txt` places inline.jpg under "�
 
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
-| hero.jpg | दो ऊँची पत्थर की दीवारों के बीच ऊपर चढ़ती पुरानी सीढ़ियाँ, नीचे की एक सीढ़ी के बीच खाली जगह, और ऊपर सुनहरे प्रकाश में मंदिर का गुंबद | Old stone steps rising between high walls, with a gap in one of the lower steps, toward a temple dome in golden light at the top | एक सीढ़ी छूटी, तो शिखर दूर / Skip one step, and the summit stays out of reach |
+| hero.jpg | दो ऊँची पत्थर की दीवारों के बीच ऊपर चढ़ती पुरानी सीढ़ियाँ, नीचे की एक सीढ़ी के बीच खाली जगह, और ऊपर सुनहरे प्रकाश में मंदिर का गुंबद | Old stone steps rising between high walls, with a gap in one of the lower steps, towards a temple dome in golden light at the top | एक सीढ़ी छूटी, तो शिखर दूर / Skip one step, and the summit stays out of reach |
 | inline.jpg | सफ़ेद वस्त्र में एक साधक शांत कक्ष में चटाई पर आँखें बंद कर ध्यान में बैठा है, पास में जलता दीपक और खिड़की से आती धूप | A seeker in white sits in meditation with eyes closed on a mat in a quiet room, beside a lit oil lamp and sunlight from a window | जो जाना और माना, उसे जीना / Living what you have understood and accepted |
 | _HeobSgNv_w.jpg | वीडियो: This Missing Step Is Stopping Your Spiritual Success, ब्रह्मर्षि आचार्य उपेंद्र जी, पानी पर पत्थर की सीढ़ियाँ जो एक मंदिर द्वार तक जाती हैं | Video: This Missing Step Is Stopping Your Spiritual Success, Brahmarshi Acharya Upendra Ji beside stepping stones leading to a temple gateway | (no caption; video thumbnail) |
 
@@ -338,7 +338,7 @@ The exact values written to `output/missing_step_blocking_spiritual_success/blog
   "alt": {
     "hero.jpg": {
       "hi": "दो ऊँची पत्थर की दीवारों के बीच ऊपर चढ़ती पुरानी सीढ़ियाँ, नीचे की एक सीढ़ी के बीच खाली जगह, और ऊपर सुनहरे प्रकाश में मंदिर का गुंबद",
-      "en": "Old stone steps rising between high walls, with a gap in one of the lower steps, toward a temple dome in golden light at the top"
+      "en": "Old stone steps rising between high walls, with a gap in one of the lower steps, towards a temple dome in golden light at the top"
     },
     "inline.jpg": {
       "hi": "सफ़ेद वस्त्र में एक साधक शांत कक्ष में चटाई पर आँखें बंद कर ध्यान में बैठा है, पास में जलता दीपक और खिड़की से आती धूप",

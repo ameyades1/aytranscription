@@ -305,12 +305,12 @@ There is no image_plan.txt for this talk. The alt text below is based on the ima
 | File | Hindi alt | English alt |
 |---|---|---|
 | hero.jpg (sculptor's workshop: rows of brightly painted Ganpati idols in different colours and sizes, an unpainted grey clay idol among them, artisans working behind) | मूर्तिकार की कार्यशाला में मेज़ों पर सजी अलग-अलग रंग और आकार की गणपति मूर्तियां, बीच में बिना रंग की मिट्टी की मूर्ति और पीछे काम करते कारीगर | Ganesh idols of many colours and sizes on workbenches in a sculptor's workshop, an unpainted clay idol among them and artisans at work behind |
-| inline.jpg (stone temple staircase with diyas and marigold petals, rising toward a bright sky) | दीयों और गेंदे की पंखुड़ियों से सजी प्राचीन मंदिर की पत्थर की सीढ़ियां, जो ऊपर उजले आकाश की ओर जाती हैं | Ancient stone temple steps lined with diyas and marigold petals, rising toward a bright open sky |
+| inline.jpg (stone temple staircase with diyas and marigold petals, rising towards a bright sky) | दीयों और गेंदे की पंखुड़ियों से सजी प्राचीन मंदिर की पत्थर की सीढ़ियां, जो ऊपर उजले आकाश की ओर जाती हैं | Ancient stone temple steps lined with diyas and marigold petals, rising towards a bright open sky |
 | WgP-OmokJAw.jpg (video thumbnail, "Ganesh Series Ep 7, Secret Behind Ganesh") | वीडियो: हर गणपति की मूर्ति अलग क्यों दिखती है, गणेश सीरीज़ भाग 7, ब्रह्मर्षि आचार्य उपेंद्र जी | Video: Why Does Every Ganesh Idol Look Different?, Ganesh Series Ep 7, Acharya Upendra Ji |
 
 Captions:
 - hero.jpg: "रूप अनेक, पसंद किसकी?" / "So many forms, but whose choice?"
-- inline.jpg: "साकार से निराकार की ओर" / "From form toward the formless"
+- inline.jpg: "साकार से निराकार की ओर" / "From form towards the formless"
 
 - images.txt gives the inline image's English section as "A Ladder to the Formless", but the English blog's heading is "The Ladder to the Formless". The image tools may not find the heading; this report does not change images.txt.
 - The hero suits the post well and is a good featured image for WordPress. Make sure the file is compressed (under ~200 KB).
@@ -341,7 +341,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
     },
     "inline.jpg": {
       "hi": "दीयों और गेंदे की पंखुड़ियों से सजी प्राचीन मंदिर की पत्थर की सीढ़ियां, जो ऊपर उजले आकाश की ओर जाती हैं",
-      "en": "Ancient stone temple steps lined with diyas and marigold petals, rising toward a bright open sky"
+      "en": "Ancient stone temple steps lined with diyas and marigold petals, rising towards a bright open sky"
     },
     "WgP-OmokJAw.jpg": {
       "hi": "वीडियो: हर गणपति की मूर्ति अलग क्यों दिखती है, गणेश सीरीज़ भाग 7, ब्रह्मर्षि आचार्य उपेंद्र जी",
@@ -355,7 +355,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
     },
     "inline.jpg": {
       "hi": "साकार से निराकार की ओर",
-      "en": "From form toward the formless"
+      "en": "From form towards the formless"
     }
   },
   "links": [

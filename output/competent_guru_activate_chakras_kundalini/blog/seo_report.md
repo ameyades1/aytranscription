@@ -306,7 +306,7 @@ Image file names are unchanged. There is no image_plan.txt; images.txt describes
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
 | hero.jpg | गाँव के कच्चे घर और बरगद के पेड़ के सामने आँखें बंद कर ध्यान में बैठी साड़ी पहने स्त्री, रीढ़ के साथ मूलाधार से सहस्रार तक सात रंगों के प्रकाशित चक्र | A woman in a sari meditating with closed eyes before a village mud house and a banyan tree, seven glowing coloured chakras along her spine from root to crown | मूलाधार से सहस्रार तक / From root to crown |
-| inline.jpg | बरगद की जड़ों के पास पहाड़ी पर ऊपर चढ़ती पत्थर की सीढ़ियाँ, मेहराब और कई स्तरों से होकर शिखर पर फैलते प्रकाश तक | Stone steps climbing a hillside beside banyan roots, rising through an arch and several levels toward light at the summit | हर सीढ़ी, जीने का एक ढंग / Each step, a way of living |
+| inline.jpg | बरगद की जड़ों के पास पहाड़ी पर ऊपर चढ़ती पत्थर की सीढ़ियाँ, मेहराब और कई स्तरों से होकर शिखर पर फैलते प्रकाश तक | Stone steps climbing a hillside beside banyan roots, rising through an arch and several levels towards light at the summit | हर सीढ़ी, जीने का एक ढंग / Each step, a way of living |
 | qOlSD2XtlQ4.jpg | वीडियो: केवल समर्थ गुरु ही आपके चक्र जागृत कर सकता है, आचार्य उपेंद्र जी | Video: Only a Competent Guru Can Activate Your Chakras, Acharya Upendra Ji | none |
 
 images.txt gives the inline image's English section heading as "Seven Chakras, Seven Kinds of Life", but the English blog's heading is "Seven Chakras, Seven Ways of Living". Check that the inline image is placed in the English text as intended (not changed here; images.txt is outside this task's scope). The hero and inline images carry a small generator watermark (a four-point star, bottom right); consider cropping or regenerating before publishing in WordPress.
@@ -340,7 +340,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
     },
     "inline.jpg": {
       "hi": "बरगद की जड़ों के पास पहाड़ी पर ऊपर चढ़ती पत्थर की सीढ़ियाँ, मेहराब और कई स्तरों से होकर शिखर पर फैलते प्रकाश तक",
-      "en": "Stone steps climbing a hillside beside banyan roots, rising through an arch and several levels toward light at the summit"
+      "en": "Stone steps climbing a hillside beside banyan roots, rising through an arch and several levels towards light at the summit"
     },
     "qOlSD2XtlQ4.jpg": {
       "hi": "वीडियो: केवल समर्थ गुरु ही आपके चक्र जागृत कर सकता है, आचार्य उपेंद्र जी",

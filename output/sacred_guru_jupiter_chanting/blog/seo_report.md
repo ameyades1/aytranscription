@@ -295,7 +295,7 @@ WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/A
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
 | hero.jpg | रात के तारों भरे आकाश में चमकता बृहस्पति ग्रह, जिसे दीपों के बीच मंदिर की छत पर बैठे श्वेत केशों वाले साधु निहार रहे हैं; नीचे नदी किनारे जगमगाता नगर | A white-haired sage in saffron robes sits beside oil lamps on a temple terrace, gazing at a glowing Jupiter in the starry night sky above a lit riverside town | देवगुरु की कृपा, जीवन की दिशा / The Guru's grace sets life's course |
-| inline.jpg | पुरानी हवेली के आँगन में छुपा-छुपी: एक माँ हाथ से इशारा करती है, एक बच्चा उस ओर दौड़ता है और एक बच्ची पत्थर के खंभे के पीछे छिपी है | Hide-and-seek in an old courtyard: a mother points the way as a boy runs toward the spot and a girl hides behind a stone pillar | माँ का इशारा, गुरु का काम / A mother's hint, the Guru's work |
+| inline.jpg | पुरानी हवेली के आँगन में छुपा-छुपी: एक माँ हाथ से इशारा करती है, एक बच्चा उस ओर दौड़ता है और एक बच्ची पत्थर के खंभे के पीछे छिपी है | Hide-and-seek in an old courtyard: a mother points the way as a boy runs towards the spot and a girl hides behind a stone pillar | माँ का इशारा, गुरु का काम / A mother's hint, the Guru's work |
 | 4pc2zrIOdXE.jpg | वीडियो: गुरु ग्रह मंत्र जप, बृहस्पति ग्रह के सामने आचार्य उपेंद्र जी; 56 दिनों में 76,000 जप | Video: Guru Graha mantra chanting, Acharya Upendra Ji before the planet Jupiter; 76,000 chants over 56 days | none |
 
 No image_plan.txt exists for this talk; alt text was written from the images themselves and images.txt (inline.jpg sits under "छुपा-छुपी और माँ का इशारा"). File names are unchanged.
@@ -329,7 +329,7 @@ The exact seo.json written for the page generator and WordPress:
     },
     "inline.jpg": {
       "hi": "पुरानी हवेली के आँगन में छुपा-छुपी: एक माँ हाथ से इशारा करती है, एक बच्चा उस ओर दौड़ता है और एक बच्ची पत्थर के खंभे के पीछे छिपी है",
-      "en": "Hide-and-seek in an old courtyard: a mother points the way as a boy runs toward the spot and a girl hides behind a stone pillar"
+      "en": "Hide-and-seek in an old courtyard: a mother points the way as a boy runs towards the spot and a girl hides behind a stone pillar"
     },
     "4pc2zrIOdXE.jpg": {
       "hi": "वीडियो: गुरु ग्रह मंत्र जप, बृहस्पति ग्रह के सामने आचार्य उपेंद्र जी; 56 दिनों में 76,000 जप",

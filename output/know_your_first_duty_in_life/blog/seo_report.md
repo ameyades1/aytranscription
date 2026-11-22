@@ -2,7 +2,7 @@ know_your_first_duty_in_life: SEO report
 
 ## 1. Summary
 
-A short discourse (3 min 30 s) in which Acharya Upendra Ji says the first duty of every life is to kindle the fire of knowledge and find a realized Guru. He ties this to the resolve the soul makes in the womb (Garuda Purana): find the Guru, atone for past karma, do tangible good work, and reach moksha (explained as मोह का क्षय). The soul remembers this resolve for twelve days after birth and then forgets it under Vaishnavi maya. The main intent is informational and reflective ("जीवन का प्रथम कर्तव्य क्या है", "what is my first duty in life", "purpose of human life"), with a long-tail cluster around the womb account ("गर्भ में जीव क्या सोचता है", "garbh me jeev ka sankalp"). Generic "purpose of life" queries are crowded with motivational content. This talk can rank on the narrower "first duty" and womb-promise queries, where an answer grounded in the scriptures, with Acharya Ji's teaching stated clearly as his teaching, stands out. Category: `dharma` (Dharma & Scriptures, as assigned in gallery_topics.txt).
+A short discourse (3 min 30 s) in which Acharya Upendra Ji says the first duty of every life is to kindle the fire of knowledge and find a realised Guru. He ties this to the resolve the soul makes in the womb (Garuda Purana): find the Guru, atone for past karma, do tangible good work, and reach moksha (explained as मोह का क्षय). The soul remembers this resolve for twelve days after birth and then forgets it under Vaishnavi maya. The main intent is informational and reflective ("जीवन का प्रथम कर्तव्य क्या है", "what is my first duty in life", "purpose of human life"), with a long-tail cluster around the womb account ("गर्भ में जीव क्या सोचता है", "garbh me jeev ka sankalp"). Generic "purpose of life" queries are crowded with motivational content. This talk can rank on the narrower "first duty" and womb-promise queries, where an answer grounded in the scriptures, with Acharya Ji's teaching stated clearly as his teaching, stands out. Category: `dharma` (Dharma & Scriptures, as assigned in gallery_topics.txt).
 
 ## 2. Keywords
 
@@ -18,7 +18,7 @@ A short discourse (3 min 30 s) in which Acharya Upendra Ji says the first duty o
 | बच्चा जन्म के बाद क्यों रोता है आध्यात्मिक कारण | Hindi | Informational / curiosity | Low (flag 3: frame as Acharya Ji's teaching) |
 | first duty in life (primary) | English | Informational / reflective | High |
 | promise made in the womb Garuda Purana | English | Informational | Medium |
-| why we need a realized Guru | English | Informational | Medium |
+| why we need a realised Guru | English | Informational | Medium |
 | moksha meaning end of attachment | English | Informational | Medium |
 | nara to Narayana | English | Informational | Low |
 | what is the purpose of human life Hinduism | English | Informational | Low (crowded; secondary angle only) |
@@ -42,7 +42,7 @@ Slug: `/hi/jeevan-ka-pratham-kartavya`
 2. First Duty in Life: Guru, Atonement, Good Work, Moksha
 3. Do You Remember Your First Duty? Acharya Upendra Ji
 
-Meta description (151 characters): What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realized Guru, atone, do good, seek moksha.
+Meta description (151 characters): What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realised Guru, atone, do good, seek moksha.
 
 Slug: `/en/first-duty-in-life`
 
@@ -60,7 +60,7 @@ The H1 and teaching stay as they are. Suggested heading changes (for the editor;
 
 **Hindi (53 words):** आचार्य उपेंद्र जी के अनुसार जीवन का प्रथम कर्तव्य है अपने भीतर ज्ञान की अग्नि जलाना और ऐसे साक्षात्कारी गुरु को पाना जो नर से नारायण तक ले जाए। यही वचन जीव गर्भ में स्वयं से करता है: गुरु की खोज, पुराने कर्मों का प्रायश्चित, पुण्य और साकार कार्य, और ध्यान द्वारा मोक्ष।
 
-**English (59 words):** According to Acharya Upendra Ji, your first duty in life is to kindle the fire of knowledge within and find a realized Guru who can lead you from nara to Narayana. It is the promise each soul makes to itself in the womb: find the Guru, atone for past karma, do tangible good work, and reach moksha through meditation.
+**English (59 words):** According to Acharya Upendra Ji, your first duty in life is to kindle the fire of knowledge within and find a realised Guru who can lead you from nara to Narayana. It is the promise each soul makes to itself in the womb: find the Guru, atone for past karma, do tangible good work, and reach moksha through meditation.
 
 ## 6. FAQ
 
@@ -72,7 +72,7 @@ The H1 and teaching stay as they are. Suggested heading changes (for the editor;
 5. **आचार्य जी मोक्ष का क्या अर्थ बताते हैं?** मोह का क्षय: ध्यान के द्वारा सारे मोह निकालकर विलीन हो जाना।
 
 **English**
-1. **What is our first duty in life?** According to Acharya Ji, it is to kindle the fire of knowledge within and find a realized Guru, someone who has known the truth directly.
+1. **What is our first duty in life?** According to Acharya Ji, it is to kindle the fire of knowledge within and find a realised Guru, someone who has known the truth directly.
 2. **What resolve does the soul make in the womb?** According to the Garuda Purana, the soul in the womb remembers its sins. It resolves that once born it will find a Guru, attain the Vishnu tattva and set right its past mistakes.
 3. **Why do we forget this resolve?** Acharya Ji teaches that the memory lasts twelve days after birth, after which Vaishnavi maya veils it.
 4. **What are the four steps to becoming a true doer?** Finding the Guru, atoning for past karma, doing merit and tangible work, and reaching moksha through meditation.
@@ -179,9 +179,9 @@ For later use in WordPress only; not added to the page. Dates come from git (blo
       "@id": "{{EN_POST_URL}}#article",
       "headline": "Do You Remember Your First Duty?",
       "alternativeHeadline": "Your First Duty in Life: The Promise Made in the Womb",
-      "description": "What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realized Guru, atone, do good, seek moksha.",
+      "description": "What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realised Guru, atone, do good, seek moksha.",
       "inLanguage": "en",
-      "keywords": ["first duty in life", "promise made in the womb Garuda Purana", "why we need a realized Guru", "moksha meaning end of attachment", "nara to Narayana"],
+      "keywords": ["first duty in life", "promise made in the womb Garuda Purana", "why we need a realised Guru", "moksha meaning end of attachment", "nara to Narayana"],
       "about": [
         {"@type": "Thing", "name": "Duty"},
         {"@type": "Thing", "name": "Guru"},
@@ -258,7 +258,7 @@ No image_plan.txt exists for this talk; descriptions are based on the images the
 2. **Naamkaran "only after the twelfth day" (review issue 2, Major).** Manusmriti 2.30 gives the tenth or twelfth day. Recommendation: apply the review wording and present the link to the twelve-day memory as Acharya Ji's reading. Do not use naamkaran as a keyword.
 3. **Twelve-day memory presented as scripture (review issue 3, Major).** No Gita Press source for the twelve days was found; the Puranic accounts have the jiva forget at birth. Recommendation: state it as Acharya Ji's teaching in the body. The FAQ and direct answers here already attribute it to him. Avoid a title or snippet such as "babies remember past lives for 12 days", even though it would draw clicks.
 4. **Vaitarani remembered in the womb (review issue 4, Minor).** Not confirmed in the Garuda Purana womb chapter. Recommendation: check, or use the review's softer wording; it is kept out of titles, meta and FAQ.
-5. **Inconsistent term for the realized Guru (review issue 5, Minor).** "साक्षात्कार किया हुआ गुरु" vs "साक्षात्कारी गुरु", and English glosses inside the Hindi text. Recommendation: use one form (the review suggests "आत्मसाक्षात्कारी गुरु"). The secondary keyword "साक्षात्कारी गुरु की आवश्यकता" follows the form in Key Takeaways.
+5. **Inconsistent term for the realised Guru (review issue 5, Minor).** "साक्षात्कार किया हुआ गुरु" vs "साक्षात्कारी गुरु", and English glosses inside the Hindi text. Recommendation: use one form (the review suggests "आत्मसाक्षात्कारी गुरु"). The secondary keyword "साक्षात्कारी गुरु की आवश्यकता" follows the form in Key Takeaways.
 6. **Crying newborn interpretation.** "The baby cries because it fears forgetting" is Acharya Ji's spiritual reading, not a medical claim. Recommendation: don't target parenting or baby-health queries ("why do newborns cry") with this post; present it only as his teaching.
 7. **Moksha as मोह का क्षय.** It is a nirukti, not the grammatical derivation (from मुच्). The FAQ attributes it to Acharya Ji; keep that attribution in any snippet.
 
@@ -360,11 +360,11 @@ The exact values written to `output/know_your_first_duty_in_life/blog/seo.json`:
       "focus_keyword": "first duty in life",
       "secondary_keywords": [
         "promise made in the womb Garuda Purana",
-        "why we need a realized Guru",
+        "why we need a realised Guru",
         "moksha meaning end of attachment",
         "nara to Narayana"
       ],
-      "meta_description": "What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realized Guru, atone, do good, seek moksha.",
+      "meta_description": "What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realised Guru, atone, do good, seek moksha.",
       "tags": [
         "Duty",
         "Sadguru",

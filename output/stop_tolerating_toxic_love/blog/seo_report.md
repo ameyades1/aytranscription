@@ -321,11 +321,11 @@ Image file names are unchanged. There is no image_plan.txt; images.txt describes
 
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
-| hero.jpg | धूप में पुराने पत्थर के दरवाज़े पर खड़ी, हल्के बादामी सूट और दुपट्टे में एक युवती, एक हाथ से चौखट थामे, बाहर उजाले की ओर गंभीर नज़र से देखती | A young woman in a pale beige kurta and dupatta stands in an old stone doorway, one hand on the frame, looking out with a serious gaze toward the sunlight | दहलीज़ पार करने का साहस / The courage to cross the threshold |
+| hero.jpg | धूप में पुराने पत्थर के दरवाज़े पर खड़ी, हल्के बादामी सूट और दुपट्टे में एक युवती, एक हाथ से चौखट थामे, बाहर उजाले की ओर गंभीर नज़र से देखती | A young woman in a pale beige kurta and dupatta stands in an old stone doorway, one hand on the frame, looking out with a serious gaze towards the sunlight | दहलीज़ पार करने का साहस / The courage to cross the threshold |
 | inline.jpg | धूप में सफ़ेद लकड़ी की बाड़, एक ओर गेंदे के नारंगी फूल और दूसरी ओर लाल-गुलाबी फूलों की क्यारी, पीछे खपरैल वाला घर | A white wooden picket fence in sunlight with orange marigolds on one side and red and pink flowers on the other, a tiled-roof house behind | सीमा भी, खिलना भी / A boundary, and room to bloom |
 | IZr0L44iccY.jpg | वीडियो: Stop Tolerating Toxic Love, आचार्य उपेंद्र जी का प्रवचन | Video: Stop Tolerating Toxic Love, a discourse by Acharya Upendra Ji | none |
 
-The hero image shows a woman at a dark doorway looking toward the light, echoing "आप इससे कभी भी बाहर आ सकते हैं" / "you can step out of it at any time"; the caption speaks of courage rather than of leaving a particular person. The inline image's fence keeps the flowers on both sides growing, matching the healthy boundary section. The video thumbnail shows Acharya Ji with the title "STOP Tolerating Toxic Love!"; the alt text uses the video's own title.
+The hero image shows a woman at a dark doorway looking towards the light, echoing "आप इससे कभी भी बाहर आ सकते हैं" / "you can step out of it at any time"; the caption speaks of courage rather than of leaving a particular person. The inline image's fence keeps the flowers on both sides growing, matching the healthy boundary section. The video thumbnail shows Acharya Ji with the title "STOP Tolerating Toxic Love!"; the alt text uses the video's own title.
 
 ## 10. Authenticity flags
 
@@ -349,7 +349,7 @@ The exact values written to `output/stop_tolerating_toxic_love/blog/seo.json` fo
   "alt": {
     "hero.jpg": {
       "hi": "धूप में पुराने पत्थर के दरवाज़े पर खड़ी, हल्के बादामी सूट और दुपट्टे में एक युवती, एक हाथ से चौखट थामे, बाहर उजाले की ओर गंभीर नज़र से देखती",
-      "en": "A young woman in a pale beige kurta and dupatta stands in an old stone doorway, one hand on the frame, looking out with a serious gaze toward the sunlight"
+      "en": "A young woman in a pale beige kurta and dupatta stands in an old stone doorway, one hand on the frame, looking out with a serious gaze towards the sunlight"
     },
     "inline.jpg": {
       "hi": "धूप में सफ़ेद लकड़ी की बाड़, एक ओर गेंदे के नारंगी फूल और दूसरी ओर लाल-गुलाबी फूलों की क्यारी, पीछे खपरैल वाला घर",

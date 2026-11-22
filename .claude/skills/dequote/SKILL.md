@@ -25,6 +25,7 @@ A **speaker quote** is a `>` block whose lines are `> "..."` and whose first lin
 - Merge it smoothly with the sentence before or after it, so no line like "Acharya Ji says:"
   is left introducing a quote that is gone. Avoid repeating what the next paragraph says.
 - Keep the Hindi and English files parallel: the same quotes rewritten the same way.
+- Write the rewritten English sentences in polished British English with British spelling (colour, realise, centre, towards).
 - No em dashes (—).
 
 ## What to keep exactly as it is

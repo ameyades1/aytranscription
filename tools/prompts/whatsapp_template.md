@@ -18,3 +18,5 @@ https://youtu.be/<id>
 ```
 
 Save as `output/<name>/<name>_whatsapp_en.txt`.
+
+Write the message in polished British English with British spelling (colour, realise, centre, towards).

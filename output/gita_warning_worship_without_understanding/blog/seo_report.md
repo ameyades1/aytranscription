@@ -56,7 +56,7 @@ The H2 structure is already question-led and mobile-friendly. Suggestions only; 
 
 **Hindi:** बिना अर्थ जाने पूजा अधूरी है। आचार्य उपेंद्र जी के अनुसार अंतिम लक्ष्य निराकार है, और हर मूर्ति उसी की ओर संकेत करता एक कोड है। मूर्ति पूजा गलत नहीं, वह पहली सीढ़ी है। पर जो केवल प्रतीक पर रुक जाए, वह किसी अनजान की फोटो से शादी करने जैसा है: आकर्षण होता है, मिलन नहीं।
 
-**English:** Worship without understanding stays incomplete. According to Acharya Upendra Ji, the final goal is the formless, and every murti is a code pointing toward it. Image worship is not wrong; it is the first step. But stopping at the symbol is like marrying a stranger's photograph: it can stir attraction, never union.
+**English:** Worship without understanding stays incomplete. According to Acharya Upendra Ji, the final goal is the formless, and every murti is a code pointing towards it. Image worship is not wrong; it is the first step. But stopping at the symbol is like marrying a stranger's photograph: it can stir attraction, never union.
 
 ## 6. FAQ
 
@@ -68,7 +68,7 @@ The H2 structure is already question-led and mobile-friendly. Suggestions only; 
 
 **English**
 1. **Is idol worship wrong?** No. The discourse says plainly that worship of God with form was never forbidden. Ramakrishna Paramahamsa, Tukaram and Namdev worshipped God with form, but knowing the meaning. Image worship is the first step.
-2. **Why were sacred images made?** The formless cannot be seen. Those who experienced it gave the closest description they could a shape, as murtis. Each murti is a finger pointing toward the formless.
+2. **Why were sacred images made?** The formless cannot be seen. Those who experienced it gave the closest description they could a shape, as murtis. Each murti is a finger pointing towards the formless.
 3. **What happens when we worship without understanding?** According to Acharya Ji, citing the Gita, worship that clings only to the symbol brings nothing beyond another birth. He calls this adhogati, spiritual downfall.
 4. **Who can reveal the meaning of the murti?** The discourse says a living Guru, because the saints who knew it have entered samadhi.
 
@@ -78,8 +78,8 @@ The H2 structure is already question-led and mobile-friendly. Suggestions only; 
 
 | target post | Hindi anchor | English anchor | placement |
 |---|---|---|---|
-| need_murtis_symbols_understand_god | निराकार की ओर इशारा करती एक उंगली | a finger pointing toward the formless | "अंतिम लक्ष्य: निराकार" / "The Final Goal" |
-| hidden_meaning_spiritual_symbols | सब में निराकार तक पहुँचने के संकेत छिपे हैं | every detail hides a clue that leads toward the formless | "हर मूर्ति एक कोड है" / "Every Image Carries a Code" |
+| need_murtis_symbols_understand_god | निराकार की ओर इशारा करती एक उंगली | a finger pointing towards the formless | "अंतिम लक्ष्य: निराकार" / "The Final Goal" |
+| hidden_meaning_spiritual_symbols | सब में निराकार तक पहुँचने के संकेत छिपे हैं | every detail hides a clue that leads towards the formless | "हर मूर्ति एक कोड है" / "Every Image Carries a Code" |
 | truly_desire_or_infatuation | बस एक आकर्षण | a passing attraction | "आकर्षण बनाम प्रेम" / "Attraction or Love?" |
 | 33_crore_gods_truth_about_hinduism | हिंदू धर्म में भी एक ही भगवान है | In Hinduism, too, there is only one God | "एक ही भगवान" / "One God" (it answers the closing question) |
 | without_guru_scriptures_can_mislead | यह अर्थ कोई जीवित गुरु ही बता सकता है | Only a living Guru can reveal this meaning | Key Takeaways |
@@ -394,12 +394,12 @@ The exact contents of `output/gita_warning_worship_without_understanding/blog/se
     {
       "talk": "need_murtis_symbols_understand_god",
       "hi": "निराकार की ओर इशारा करती एक उंगली",
-      "en": "a finger pointing toward the formless"
+      "en": "a finger pointing towards the formless"
     },
     {
       "talk": "hidden_meaning_spiritual_symbols",
       "hi": "सब में निराकार तक पहुँचने के संकेत छिपे हैं",
-      "en": "every detail hides a clue that leads toward the formless"
+      "en": "every detail hides a clue that leads towards the formless"
     },
     {
       "talk": "truly_desire_or_infatuation",

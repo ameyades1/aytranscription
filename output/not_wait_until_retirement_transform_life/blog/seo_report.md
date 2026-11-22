@@ -314,7 +314,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 | File | Hindi alt | English alt | Caption (hi / en) |
 |---|---|---|---|
 | hero.jpg | सूर्योदय के समय खुली बालकनी के पास चटाई पर आँखें मूँदकर ध्यान करती एक युवती, बाहर गमलों के पौधे और शहर की ऊँची इमारतें | A young woman meditating cross-legged with eyes closed on a mat by an open balcony at sunrise, potted plants and city towers beyond | भीतर की यात्रा आज से, साठ के बाद नहीं / Turn inward today, not after sixty |
-| inline.jpg | पार्क की बेंच पर अकेले बैठे सफ़ेद बालों वाले एक बुज़ुर्ग, दूर झील की ओर देखते हुए | A white-haired elderly man sitting alone on a park bench, gazing toward a distant lake | भूमिका छूटी, तो भीतर क्या बचा? / When the role ends, what remains? |
+| inline.jpg | पार्क की बेंच पर अकेले बैठे सफ़ेद बालों वाले एक बुज़ुर्ग, दूर झील की ओर देखते हुए | A white-haired elderly man sitting alone on a park bench, gazing towards a distant lake | भूमिका छूटी, तो भीतर क्या बचा? / When the role ends, what remains? |
 | WAHlUMxRjLM.jpg | वीडियो: जीवन बदलने के लिए रिटायरमेंट का इंतज़ार मत कीजिए, ब्रह्मर्षि आचार्य उपेंद्र जी | Video: Do Not Wait Until Retirement to Transform Your Life, Acharya Upendra Ji | none |
 
 File names are kept as they are. There is no image_plan.txt for this talk; the inline image sits under "सेवानिवृत्ति के बाद का खालीपन" / "The Emptiness After Retirement" (images.txt), and its caption echoes the reflection question in that section. The hero contrasts a young person meditating now with the talk's "after sixty" plan.
@@ -348,7 +348,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
     },
     "inline.jpg": {
       "hi": "पार्क की बेंच पर अकेले बैठे सफ़ेद बालों वाले एक बुज़ुर्ग, दूर झील की ओर देखते हुए",
-      "en": "A white-haired elderly man sitting alone on a park bench, gazing toward a distant lake"
+      "en": "A white-haired elderly man sitting alone on a park bench, gazing towards a distant lake"
     },
     "WAHlUMxRjLM.jpg": {
       "hi": "वीडियो: जीवन बदलने के लिए रिटायरमेंट का इंतज़ार मत कीजिए, ब्रह्मर्षि आचार्य उपेंद्र जी",
