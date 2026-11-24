@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FPJ SEO Sync
  * Description: Copies Free Press Journal SEO data and "Read Also" boxes onto the matching AY blog posts, from the fpj_to_ay.json file built by build_fpj_to_ay.py. Previews every change, saves the old values first, and can restore them.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) exit;
 
 class FPJ_SEO_Sync {
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
     const OPTION_DATA = 'fpjss_data';           // the uploaded records, keyed by AY slug
     const META_BACKUP = '_fpjss_backup';        // the post's values before the first apply
     const META_APPLIED = '_fpjss_applied';      // when and with which settings it was applied
@@ -228,7 +228,7 @@ class FPJ_SEO_Sync {
         $content = $post->post_content;
         $notes = [];
         if (in_array('also_read', $parts, true) && !empty($r['also_read'])) {
-            [$content, $placed, $missed] = $this->insert_boxes($content, $r['also_read']);
+            [$content, $placed, $missed] = $this->insert_boxes($content, $r['also_read'], $r['ay_link'] ?? '');
             $done[] = "$placed Read Also boxes";
             if ($missed) $notes[] = count($missed) . ' box(es) not placed: ' . implode('; ', $missed);
         }
@@ -247,7 +247,7 @@ class FPJ_SEO_Sync {
      * Inserts each box after the paragraph whose text ends with the box's ay_paragraph_end (or, at 0, before the
      * first paragraph). Returns [content, number placed, list of boxes not placed].
      */
-    private function insert_boxes($content, $boxes) {
+    private function insert_boxes($content, $boxes, $live_link = '') {
         preg_match_all('#(?:<!-- wp:paragraph[^>]*-->\s*)?<p[\s>].*?</p>(?:\s*<!-- /wp:paragraph -->)?#s', $content, $m, PREG_OFFSET_CAPTURE);
         $paras = [];
         foreach ($m[0] as [$html, $offset]) {
@@ -268,20 +268,39 @@ class FPJ_SEO_Sync {
             $from = $at;
         }
         usort($inserts, function($a, $b) { return $b[0] <=> $a[0]; }); // from the end, so offsets stay valid
-        foreach ($inserts as [$offset, $box]) $content = substr($content, 0, $offset) . "\n\n" . $this->box_html($box) . "\n\n" . substr($content, $offset);
+        foreach ($inserts as [$offset, $box]) $content = substr($content, 0, $offset) . "\n\n" . $this->box_html($box, $live_link) . "\n\n" . substr($content, $offset);
         return [$content, count($inserts), $missed];
     }
 
-    /** A "Read Also" box, linking to the target post on this site when it exists, else to its AY address. */
-    private function box_html($box) {
-        $target = $this->find_post($box['target_slug'] ?? '');
-        $url = $target ? get_permalink($target) : ($box['target_link'] ?? '');
-        $title = $target ? get_the_title($target) : ($box['target_title'] ?? '');
-        $img = $target ? get_the_post_thumbnail_url($target, 'thumbnail') : ($box['target_featured_image'] ?? '');
-        $html = '<div class="fpjss-also-read"><span class="fpjss-label">' . esc_html($box['label'] ?? 'Read Also') . '</span>'
-            . '<a href="' . esc_url($url) . '">' . ($img ? '<img src="' . esc_url($img) . '" alt="" loading="lazy" width="96" height="64">' : '')
+    /**
+     * A "Read Also" box. Links, title and image come from the record (the live AY addresses), so a box made on a
+     * staging site never points at staging. Only when the record lacks them does it fall back to the post on this
+     * site, with this site's address swapped for the live one. Styles are inline, so the box looks right even
+     * where this plugin is not active.
+     */
+    private function box_html($box, $live_link = '') {
+        $target = (empty($box['target_link']) || empty($box['target_title']) || empty($box['target_featured_image']))
+            ? $this->find_post($box['target_slug'] ?? '') : null;
+        $url = $box['target_link'] ?? '';
+        if ($url === '' && $target) $url = $this->to_live(get_permalink($target), $live_link);
+        $title = ($box['target_title'] ?? '') !== '' ? $box['target_title'] : ($target ? get_the_title($target) : '');
+        $img = $box['target_featured_image'] ?? '';
+        if ($img === '' && $target) $img = $this->to_live((string) get_the_post_thumbnail_url($target, 'thumbnail'), $live_link);
+        $html = '<div class="fpjss-also-read" style="border-left:4px solid #c0392b;background:#faf6f2;padding:12px 16px;margin:1.5em 0">'
+            . '<span class="fpjss-label" style="display:block;font-size:.8em;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#c0392b;margin-bottom:6px">' . esc_html($box['label'] ?? 'Read Also') . '</span>'
+            . '<a href="' . esc_url($url) . '" style="display:flex;gap:12px;align-items:center;text-decoration:none;font-weight:600">'
+            . ($img ? '<img src="' . esc_url($img) . '" alt="" loading="lazy" width="96" height="64" style="width:96px;height:64px;object-fit:cover;border-radius:4px;flex:none">' : '')
             . '<span class="fpjss-title">' . esc_html($title) . '</span></a></div>';
         return "<!-- wp:html -->\n$html\n<!-- /wp:html -->";
+    }
+
+    /** Swaps this site's address in $url for the live site's (taken from the record's ay_link). */
+    private function to_live($url, $live_link) {
+        $p = wp_parse_url($live_link);
+        if (!$url || empty($p['scheme']) || empty($p['host'])) return $url;
+        $here = untrailingslashit(home_url());
+        $live = $p['scheme'] . '://' . $p['host'] . (isset($p['port']) ? ':' . $p['port'] : '');
+        return strpos($url, $here) === 0 ? $live . substr($url, strlen($here)) : $url;
     }
 
     public function box_style() {

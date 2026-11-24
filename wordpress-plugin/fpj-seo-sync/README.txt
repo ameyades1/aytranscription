@@ -16,8 +16,10 @@ Use:     Tools > FPJ SEO Sync.
    - the FPJ H2 subheading, added at the top of the post
    - the featured image alt text (changes the image's alt everywhere it is used)
    - keywords as post tags (off by default)
-   - the "Read Also" boxes, each placed after the paragraph it follows on FPJ and linked to the
-     target post on this site (or to its AY address if that post is not here)
+   - the "Read Also" boxes, each placed after the paragraph it follows on FPJ. Each box links to
+     the target's live AY address and image from fpj_to_ay.json, never to this site's address, so
+     boxes made on a staging site work once pushed to live. Styles are inline, so the boxes look
+     right even where this plugin is not active.
 3. Tick posts in the preview and apply.
 
 Safety:
