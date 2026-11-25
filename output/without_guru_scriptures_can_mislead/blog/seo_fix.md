@@ -46,7 +46,7 @@ Not changed:
 | Field | Before | After |
 |---|---|---|
 | title.hi | शास्त्र समझने के लिए गुरु क्यों ज़रूरी है | गुरु के बिना शास्त्र क्यों भटका सकते हैं (40 characters) |
-| wordpress.hi.slug | shastra-samajhne-ke-liye-guru | guru-ke-bina-shastra |
+| wordpress.hi.slug | shastra-samajhne-ke-liye-guru | scriptures-without-a-guru-hi |
 | wordpress.hi.focus_keyword | शास्त्र समझने के लिए गुरु | गुरु के बिना शास्त्र |
 | wordpress.hi.secondary_keywords | गुरु के बिना शास्त्र, जीवित गुरु, गुरु क्यों ज़रूरी है, सात्त्विक कर्ता | शास्त्र समझने के लिए गुरु, जीवित गुरु, गुरु क्यों ज़रूरी है, सात्त्विक कर्ता |
 | wordpress.hi.meta_description | शास्त्र समझने के लिए गुरु क्यों ज़रूरी है? अक्षरशः … | गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः … (156 characters; the rest is unchanged) |
@@ -57,7 +57,7 @@ Not changed:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-ke-bina-shastra | scriptures-without-a-guru |
+| slug | scriptures-without-a-guru-hi | scriptures-without-a-guru |
 | focus keyword | गुरु के बिना शास्त्र | scriptures without a Guru |
 | title | गुरु के बिना शास्त्र क्यों भटका सकते हैं | Scriptures Without a Guru: Why Literal Reading Misleads |
 | meta description | गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व। | Can you read scriptures without a Guru? Acharya Upendra Ji's parable of a boy who took them literally shows why a living Guru is your first duty. |

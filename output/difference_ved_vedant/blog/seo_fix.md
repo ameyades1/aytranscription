@@ -37,13 +37,13 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 |---|---|---|
 | wordpress.hi.meta_description | वेद और वेदांत में क्या अंतर है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है। | वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है। |
 
-Nothing else changed: focus keywords, secondary keywords, titles, slugs (old and new are both `ved-aur-vedant-mein-antar` / `difference-between-veda-and-vedanta`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the Hindi meta, and the metas and slugs in seo.json marked as recommended), 4 (a note on what was applied), 8 (the Hindi description) and 12 (the checklist, newly added). Section 8's headline is the unchanged H1; its alternativeHeadline, keywords and suggested slugs already match seo.json.
+Nothing else changed: focus keywords, secondary keywords, titles, slugs (old and new are both `difference-between-veda-and-vedanta-hi` / `difference-between-veda-and-vedanta`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the Hindi meta, and the metas and slugs in seo.json marked as recommended), 4 (a note on what was applied), 8 (the Hindi description) and 12 (the checklist, newly added). Section 8's headline is the unchanged H1; its alternativeHeadline, keywords and suggested slugs already match seo.json.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ved-aur-vedant-mein-antar | difference-between-veda-and-vedanta |
+| slug | difference-between-veda-and-vedanta-hi | difference-between-veda-and-vedanta |
 | focus_keyword | वेद और वेदांत में अंतर | difference between Veda and Vedanta |
 | title | वेद और वेदांत में अंतर: वेद किताब नहीं, जानने की यात्रा | Difference Between Veda and Vedanta: Knowing, Not a Book |
 | meta_description | वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है। | What is the difference between Veda and Vedanta? Acharya Upendra Ji explains why the Veda is a process of knowing, and why Vedanta is where knowing ends. |

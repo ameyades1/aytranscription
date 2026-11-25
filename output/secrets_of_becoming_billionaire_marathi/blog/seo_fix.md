@@ -39,7 +39,7 @@ Still unmet (1): the Sanskrit review corrections (flags 1, 4, 5, 6) — they cha
 |---|---|---|
 | wordpress.hi.meta_description | मेहनत बराबर, फिर भी फल इतना अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र धन के बारे में क्या सिखाते हैं। | अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं। |
 | wordpress.en.meta_description | Why do some grow rich from the same hard work others barely live on? Acharya Upendra Ji points to Shri Vidya, the Shri Yantra and Chanakya on wealth. | What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya. |
-| wordpress.hi.slug | arabpati-banne-ka-rahasya | arabpati-banne-ka-rahasya (unchanged) |
+| wordpress.hi.slug | secret-of-becoming-a-billionaire-hi | secret-of-becoming-a-billionaire-hi (unchanged) |
 | wordpress.en.slug | secret-of-becoming-a-billionaire | secret-of-becoming-a-billionaire (unchanged) |
 | focus_keyword, secondary_keywords, title (both) | unchanged | unchanged |
 | links, also_read | unchanged | unchanged |
@@ -48,7 +48,7 @@ Still unmet (1): the Sanskrit review corrections (flags 1, 4, 5, 6) — they cha
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | arabpati-banne-ka-rahasya | secret-of-becoming-a-billionaire |
+| slug | secret-of-becoming-a-billionaire-hi | secret-of-becoming-a-billionaire |
 | focus_keyword | अरबपति बनने का रहस्य | secret of becoming a billionaire |
 | title | अरबपति बनने का रहस्य: श्रीविद्या और श्रीयंत्र साधना | Secret of Becoming a Billionaire: India's Shri Vidya |
 | meta_description | अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं। | What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya. |

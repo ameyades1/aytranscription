@@ -58,7 +58,7 @@ Nothing else in either language changed: no teaching, example, order of ideas, H
 | Field | Before | After |
 |---|---|---|
 | title.hi | ट्विन फ्लेम, सोलमेट और कर्म-बंधन: रिश्तों के तीन प्रकार | ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार (53 characters) |
-| wordpress.hi.slug | twin-flame-soulmate-karm-bandhan | twin-flame-soulmate-karm-bandhan (unchanged) |
+| wordpress.hi.slug | twin-flame-vs-soulmate-vs-karmic-bond-hi | twin-flame-vs-soulmate-vs-karmic-bond-hi (unchanged) |
 | wordpress.en.slug | twin-flame-vs-soulmate-vs-karmic-bond | twin-flame-vs-soulmate-vs-karmic-bond (unchanged; 37 characters, contains the focus keyword) |
 | wordpress.hi.focus_keyword | ट्विन फ्लेम और सोलमेट में अंतर | unchanged (already the searched wording, now in the body) |
 | wordpress.en.focus_keyword | twin flame vs soulmate | unchanged (already the searched wording, now in the body) |
@@ -69,7 +69,7 @@ Nothing else changed: `title.en`, both meta descriptions (they already contain t
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | twin-flame-soulmate-karm-bandhan | twin-flame-vs-soulmate-vs-karmic-bond |
+| slug | twin-flame-vs-soulmate-vs-karmic-bond-hi | twin-flame-vs-soulmate-vs-karmic-bond |
 | focus_keyword | ट्विन फ्लेम और सोलमेट में अंतर | twin flame vs soulmate |
 | title | ट्विन फ्लेम और सोलमेट में अंतर: रिश्तों के तीन प्रकार | Twin Flame vs Soulmate vs Karmic Bond: 3 Kinds of Bonds |
 | meta_description | ट्विन फ्लेम और सोलमेट में अंतर क्या है? आचार्य उपेंद्र जी संबंधों के तीन प्रकार बताते हैं, और यह कि अपनी स्थिति बदले बिना हर बार वही इंसान क्यों मिलता है। | Twin flame vs soulmate vs karmic bond: Acharya Upendra Ji explains three kinds of relationships, and why the same story repeats until your state changes. |

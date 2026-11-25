@@ -41,7 +41,7 @@ Notes:
 
 Meta description (152): मैं कौन हूँ, कहाँ से आया, कहाँ जाऊँगा? आचार्य उपेंद्र जी बताते हैं कि कोऽहम् का प्रश्न क्या है और संसार की माया हमें अपना असली स्वरूप कैसे भुला देती है।
 
-Slug: `/hi/main-kaun-hoon-sansar-ki-maya`
+Slug: `/hi/who-am-i-maya-forget-true-self-hi`
 
 **English**
 1. Who Am I? How Maya Makes Us Forget Our True Self (48) **(recommended)**
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/main-kaun-hoon-sansar-ki-maya/`, `/en/who-am-i-maya-forget-true-self/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/who-am-i-maya-forget-true-self-hi/`, `/en/who-am-i-maya-forget-true-self/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -500,7 +500,7 @@ The values written to `output/worldly_maya_makes_forget_true_self/blog/seo.json`
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "main-kaun-hoon-sansar-ki-maya",
+      "slug": "who-am-i-maya-forget-true-self-hi",
       "focus_keyword": "मैं कौन हूँ",
       "secondary_keywords": ["कोऽहम् सोऽहम्", "संसार की माया", "आत्मा का अध्ययन", "main kaun hoon"],
       "meta_description": "मैं कौन हूँ, कहाँ से आया, कहाँ जाऊँगा? आचार्य उपेंद्र जी बताते हैं कि कोऽहम् का प्रश्न क्या है और संसार की माया हमें अपना असली स्वरूप कैसे भुला देती है।",

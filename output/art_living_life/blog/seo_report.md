@@ -33,7 +33,7 @@ Keyword note: the searched wording matches the body in both languages (संस
 
 Meta description: केवल मृत्यु निश्चित है, पर उसकी तारीख कोई नहीं जानता। आचार्य उपेंद्र जी बताते हैं संसार छोड़ने की कला क्या है और इसे कौन सिखा सकता है।
 
-Slug: `/hi/sansar-chhodne-ki-kala`
+Slug: `/hi/art-of-leaving-hi`
 
 **English**
 1. The Art of Leaving: Who Can Teach You to Prepare for Death? **(recommended)**
@@ -97,7 +97,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sansar-chhodne-ki-kala/`, `/en/art-of-leaving/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/art-of-leaving-hi/`, `/en/art-of-leaving/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -394,7 +394,7 @@ The exact values written to `output/art_living_life/blog/seo.json` for the page 
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "sansar-chhodne-ki-kala",
+      "slug": "art-of-leaving-hi",
       "focus_keyword": "संसार छोड़ने की कला",
       "secondary_keywords": [
         "मृत्यु की तैयारी कैसे करें",

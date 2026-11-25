@@ -54,7 +54,7 @@ None. The focus keywords now appear in both bodies as they are, so `focus_keywor
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | poori-koshish-ke-baad-bhi-sangharsh-kyon | poori-koshish-ke-baad-bhi-sangharsh-kyon (unchanged) |
+| wordpress.hi.slug | struggling-despite-trying-your-best-hi | struggling-despite-trying-your-best-hi (unchanged) |
 | wordpress.en.slug | struggling-despite-trying-your-best | struggling-despite-trying-your-best (unchanged) |
 
 Report: section 11 holds the same JSON. Section 2 has a new keyword note. Section 3 already marked the recommended titles, meta descriptions and slugs exactly as in seo.json. Section 8 now names the URL slugs for the post-URL placeholders; its headlines, descriptions and keywords already matched. Section 12 was added.
@@ -63,7 +63,7 @@ Report: section 11 holds the same JSON. Section 2 has a new keyword note. Sectio
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | poori-koshish-ke-baad-bhi-sangharsh-kyon | struggling-despite-trying-your-best |
+| slug | struggling-despite-trying-your-best-hi | struggling-despite-trying-your-best |
 | focus keyword | पूरी कोशिश के बाद भी संघर्ष क्यों | struggling despite trying your best |
 | title | पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य | Struggling Despite Trying Your Best? Act with Understanding |
 | meta description | पूरी कोशिश के बाद भी संघर्ष क्यों? आचार्य जी बताते हैं: ज्ञान आना ही है, या समझ से या कटु अनुभव से। कर्म से पहले चिंतन करें और हर अनुभव से सीखें। | Struggling despite trying your best? Acharya Ji explains that life teaches either way: through understanding before you act, or through bitter experience. |

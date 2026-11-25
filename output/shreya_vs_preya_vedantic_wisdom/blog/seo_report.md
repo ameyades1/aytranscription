@@ -38,7 +38,7 @@ Overlap check: no other talk targets shreya/preya. `knowledge_work_for_you` targ
 
 Meta description (recommended): जो प्रिय लगे वह करें या जो सही है? आचार्य उपेंद्र जी कठोपनिषद् के श्रेय और प्रेय से बताते हैं कि श्रेष्ठ कर्म की इच्छा कब जागती है और कर्मयोग तक ले जाती है।
 
-Slug: `/hi/shreya-aur-preya-kya-hai/` (recommended; title, meta description and slug as in seo.json)
+Slug: `/hi/shreya-vs-preya-hi/` (recommended; title, meta description and slug as in seo.json)
 
 **English**
 1. Shreya vs Preya: The Katha Upanishad on Right Choices (recommended, 53 characters)
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shreya-aur-preya-kya-hai/`, `/en/shreya-vs-preya/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shreya-vs-preya-hi/`, `/en/shreya-vs-preya/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -407,7 +407,7 @@ The exact values written to `output/shreya_vs_preya_vedantic_wisdom/blog/seo.jso
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "shreya-aur-preya-kya-hai",
+      "slug": "shreya-vs-preya-hi",
       "focus_keyword": "श्रेय और प्रेय",
       "secondary_keywords": [
         "श्रेय और प्रेय में अंतर",

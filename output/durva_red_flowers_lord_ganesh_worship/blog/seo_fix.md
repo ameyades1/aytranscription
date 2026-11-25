@@ -32,7 +32,7 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 | title.en | Why Durva and Red Flowers Are Offered to Lord Ganesha | Why Durva Is Offered to Ganesha, and Why Red Flowers (52) |
 | wordpress.hi.meta_description | गणेश पूजा में लाल फूल और दूर्वा क्यों चढ़ाते हैं? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता। | गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता। (160) |
 | wordpress.en.meta_description | Why are red flowers and durva offered to Ganesha? Acharya Upendra Ji explains the meaning: rajas shakti, offering the triads, and the grass that bows. | Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows. (148) |
-| wordpress.hi.slug | ganesh-ji-ko-durva-kyon-chadhate-hain | ganesh-ji-ko-durva-kyon-chadhate-hain (unchanged; already fits the keyword) |
+| wordpress.hi.slug | why-durva-is-offered-to-ganesha-hi | why-durva-is-offered-to-ganesha-hi (unchanged; already fits the keyword) |
 | wordpress.en.slug | why-durva-red-flowers-for-ganesha | why-durva-is-offered-to-ganesha (31 characters, contains the keyword, unique) |
 
 Focus keywords, secondary keywords, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2, 3 and 8 were updated to match, and section 12 was added.
@@ -41,7 +41,7 @@ Focus keywords, secondary keywords, `links`, `also_read`, `alt`, `caption`, `rel
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ganesh-ji-ko-durva-kyon-chadhate-hain | why-durva-is-offered-to-ganesha |
+| slug | why-durva-is-offered-to-ganesha-hi | why-durva-is-offered-to-ganesha |
 | focus_keyword | गणेश जी को दूर्वा क्यों चढ़ाते हैं | why durva is offered to Ganesha |
 | title | गणेश जी को दूर्वा क्यों चढ़ाते हैं, और लाल फूल क्यों? | Why Durva Is Offered to Ganesha, and Why Red Flowers |
 | meta_description | गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता। | Why durva is offered to Ganesha, and why red flowers: Acharya Upendra Ji explains rajas shakti, offering the sets of three, and the grass that bows. |

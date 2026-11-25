@@ -34,13 +34,13 @@ Left for the editor (not SEO fixes): Sanskrit review issues 1 and 2 (attribute t
 
 ## seo.json changes
 
-None. Both focus keywords now appear in the fixed texts as they are, so the focus keywords, secondary keywords, titles, meta descriptions and slugs (Hindi `kya-sharir-mansahar-ke-liye-bana-hai`, English `are-humans-meant-to-eat-meat`, old and new) stay the same, as do `links`, `also_read`, `related`, alt text, captions, category and tags.
+None. Both focus keywords now appear in the fixed texts as they are, so the focus keywords, secondary keywords, titles, meta descriptions and slugs (Hindi `are-humans-meant-to-eat-meat-hi`, English `are-humans-meant-to-eat-meat`, old and new) stay the same, as do `links`, `also_read`, `related`, alt text, captions, category and tags.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kya-sharir-mansahar-ke-liye-bana-hai | are-humans-meant-to-eat-meat |
+| slug | are-humans-meant-to-eat-meat-hi | are-humans-meant-to-eat-meat |
 | focus keyword | क्या मनुष्य का शरीर मांसाहार के लिए बना है | are humans meant to eat meat |
 | title | क्या मनुष्य का शरीर मांसाहार के लिए बना है? | Are Humans Meant to Eat Meat? What Your Gut Reveals |
 | meta description | क्या मनुष्य का शरीर मांसाहार के लिए बना है? आचार्य उपेंद्र जी लंबी, लहरदार मानव आँत की तुलना मांसाहारी प्राणियों की छोटी, चिकनी आँत से करते हैं। | Are humans meant to eat meat? Acharya Upendra Ji compares the long, ridged human gut with the short, smooth gut of a carnivore and what each is built for. |

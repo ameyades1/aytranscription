@@ -36,7 +36,7 @@ Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither 
 
 Meta description (recommended, as in seo.json): अच्छे नेता की पहचान क्या है? आचार्य उपेंद्र जी एक साधारण उदाहरण से समझाते हैं कि अच्छा राजा केवल मना नहीं करता, बेहतर विकल्प भी देता है।
 
-Slug (recommended, as in seo.json): `/hi/achhe-neta-ki-pehchan`
+Slug (recommended, as in seo.json): `/hi/what-makes-a-good-leader-hi`
 
 **English**
 
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 
 **Placeholders to fill once the WordPress posts exist**
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/achhe-neta-ki-pehchan/`, `/en/what-makes-a-good-leader/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-makes-a-good-leader-hi/`, `/en/what-makes-a-good-leader/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -389,7 +389,7 @@ The exact values written to `output/ideal_king_sanatan_rashtra_interview/blog/se
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "achhe-neta-ki-pehchan",
+      "slug": "what-makes-a-good-leader-hi",
       "focus_keyword": "अच्छे नेता की पहचान",
       "secondary_keywords": [
         "अच्छे राजा के गुण",

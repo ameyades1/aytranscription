@@ -35,7 +35,7 @@ None. The focus keywords ("प्राणमय कोश" / "Pranamaya Kosha")
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | pranamaya-kosh-jal-aur-pran | unchanged |
+| wordpress.hi.slug | pranamaya-kosha-water-and-prana-hi | unchanged |
 | wordpress.en.slug | pranamaya-kosha-water-and-prana | unchanged |
 | focus_keyword, title, meta_description (hi, en) | (as below) | unchanged |
 | links, also_read | (unchanged) | unchanged (no edit touched a link phrase or the Also read heading) |
@@ -44,7 +44,7 @@ None. The focus keywords ("प्राणमय कोश" / "Pranamaya Kosha")
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | pranamaya-kosh-jal-aur-pran | pranamaya-kosha-water-and-prana |
+| slug | pranamaya-kosha-water-and-prana-hi | pranamaya-kosha-water-and-prana |
 | focus keyword | प्राणमय कोश | Pranamaya Kosha |
 | title | प्राणमय कोश: जल कैसे बनता है प्राण | Pranamaya Kosha: How Water Becomes Prana |
 | meta description | प्राणमय कोश अन्नमय कोश से ऊपर है। आचार्य उपेंद्र जी बताते हैं कि जो हम पीते हैं वह प्राण कैसे बनता है, थके व्यक्ति को पहले जल क्यों, और जल मन को कैसे गढ़ता है। | Pranamaya Kosha and water: Acharya Upendra Ji explains why every drink becomes prana, why the sick get fluid first, and how what you drink shapes the mind. |

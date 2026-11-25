@@ -33,7 +33,7 @@ Keyword note: the searched wording "ट्विन फ्लेम और स�
 
 Meta description (hi, **recommended**): ट्विन फ्लेम और सोलमेट में अंतर क्या है? आचार्य उपेंद्र जी संबंधों के तीन प्रकार बताते हैं, और यह कि अपनी स्थिति बदले बिना हर बार वही इंसान क्यों मिलता है।
 
-Slug (hi): `/hi/twin-flame-soulmate-karm-bandhan/` **recommended**
+Slug (hi): `/hi/twin-flame-vs-soulmate-vs-karmic-bond-hi/` **recommended**
 
 **English**
 1. Twin Flame vs Soulmate vs Karmic Bond: 3 Kinds of Bonds (55 characters) **recommended**
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/twin-flame-soulmate-karm-bandhan/`, `/en/twin-flame-vs-soulmate-vs-karmic-bond/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/twin-flame-vs-soulmate-vs-karmic-bond-hi/`, `/en/twin-flame-vs-soulmate-vs-karmic-bond/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -419,7 +419,7 @@ The exact values written to `output/twin_flames_soulmates_karmic_bonds/blog/seo.
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "twin-flame-soulmate-karm-bandhan",
+      "slug": "twin-flame-vs-soulmate-vs-karmic-bond-hi",
       "focus_keyword": "ट्विन फ्लेम और सोलमेट में अंतर",
       "secondary_keywords": [
         "कर्म-बंधन वाले रिश्ते",

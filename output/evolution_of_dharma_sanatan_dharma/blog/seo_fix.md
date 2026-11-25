@@ -39,7 +39,7 @@ Still unmet (1):
 |---|---|---|
 | wordpress.en.meta_description | How did Sanatan Dharma evolve? Acharya Upendra Ji traces the Vedas from praise to ritual, forest reflection and the Upanishads' knowledge of the Self. | The evolution of Sanatan Dharma, as Acharya Upendra Ji tells it: the Vedas grew from praise to ritual, forest reflection and Upanishadic Self-knowledge. |
 | wordpress.en.slug | evolution-of-sanatan-dharma | evolution-of-sanatan-dharma (unchanged) |
-| wordpress.hi.slug | sanatan-dharma-ka-vikas | sanatan-dharma-ka-vikas (unchanged) |
+| wordpress.hi.slug | evolution-of-sanatan-dharma-hi | evolution-of-sanatan-dharma-hi (unchanged) |
 
 Focus keywords, secondary keywords, titles, the Hindi meta description, links and also_read are unchanged. The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the checklist) was added.
 
@@ -47,7 +47,7 @@ Focus keywords, secondary keywords, titles, the Hindi meta description, links an
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sanatan-dharma-ka-vikas | evolution-of-sanatan-dharma |
+| slug | evolution-of-sanatan-dharma-hi | evolution-of-sanatan-dharma |
 | focus_keyword | सनातन धर्म का विकास | evolution of Sanatan Dharma |
 | title | सनातन धर्म का विकास: स्तुति से आत्मज्ञान तक की यात्रा | Evolution of Sanatan Dharma: From Praise to Self-Knowledge |
 | meta_description | सनातन धर्म का विकास कैसे हुआ? आचार्य उपेंद्र जी बताते हैं वेदों की यात्रा: मंत्र संहिता की स्तुति से ब्राह्मण के कर्मकांड, आरण्यक और उपनिषद के आत्मज्ञान तक। | The evolution of Sanatan Dharma, as Acharya Upendra Ji tells it: the Vedas grew from praise to ritual, forest reflection and Upanishadic Self-knowledge. |

@@ -39,13 +39,13 @@ Still unmet (1):
 | title.en | Does Shraddha Free Your Ancestors? Death vs Moksha | Can Shraddha Liberate Ancestors? Death vs Moksha |
 | wordpress.en.meta_description | Is death the same as moksha, and can shraddha free your ancestors? Acharya Upendra Ji explains why only one liberated while living can grant liberation. | Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation. |
 
-Slugs are unchanged (Hindi `shraddha-se-pitron-ki-mukti`, English `can-shraddha-liberate-ancestors`), as are both focus keywords, the secondary keywords, the Hindi title and meta description, `links`, `also_read`, `related`, alt text, captions, category and tags.
+Slugs are unchanged (Hindi `can-shraddha-liberate-ancestors-hi`, English `can-shraddha-liberate-ancestors`), as are both focus keywords, the secondary keywords, the Hindi title and meta description, `links`, `also_read`, `related`, alt text, captions, category and tags.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shraddha-se-pitron-ki-mukti | can-shraddha-liberate-ancestors |
+| slug | can-shraddha-liberate-ancestors-hi | can-shraddha-liberate-ancestors |
 | focus keyword | क्या श्राद्ध से पितरों को मुक्ति मिलती है | can shraddha liberate ancestors |
 | title | क्या श्राद्ध से पितरों को मुक्ति मिलती है? मृत्यु बनाम मोक्ष | Can Shraddha Liberate Ancestors? Death vs Moksha |
 | meta description | क्या मृत्यु ही मुक्ति है, और क्या श्राद्ध से पितरों को मुक्ति मिलती है? आचार्य उपेंद्र जी बताते हैं कि जीते जी मुक्त व्यक्ति ही पितरों को मुक्ति दे सकता है। | Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation. |

@@ -37,7 +37,7 @@ Keyword note: people search the three steps as one term without punctuation ("�
 
 Meta description (recommended, 149 characters): प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।
 
-Slug (recommended): /hi/shravan-manan-nididhyasan
+Slug (recommended): /hi/shravana-manana-nididhyasana-hi
 
 **English**
 1. Shravana Manana Nididhyasana: The Missing Step in Sadhana (recommended, 57 characters)
@@ -104,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shravan-manan-nididhyasan/`, `/en/shravana-manana-nididhyasana/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shravana-manana-nididhyasana-hi/`, `/en/shravana-manana-nididhyasana/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -401,7 +401,7 @@ The exact values written to `output/missing_step_blocking_spiritual_success/blog
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "shravan-manan-nididhyasan",
+      "slug": "shravana-manana-nididhyasana-hi",
       "focus_keyword": "श्रवण मनन निदिध्यासन",
       "secondary_keywords": ["निदिध्यासन क्या है", "साधना का फल क्यों नहीं मिलता", "आध्यात्मिक अनुभव सच्चा है या कल्पना"],
       "meta_description": "प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं।",

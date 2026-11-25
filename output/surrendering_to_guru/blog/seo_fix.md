@@ -46,7 +46,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 |---|---|---|
 | wordpress.hi.meta_description | गीता 18.66 'सर्वधर्मान्परित्यज्य' का अर्थ क्या है? आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो। | सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो। (158) |
 | wordpress.en.meta_description | What does Gita 18.66, sarva dharman parityajya, really mean? Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing beats miracles. | Sarva dharman parityajya meaning (Gita 18.66): Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing properly beats chasing miracles. (155) |
-| wordpress.hi.slug | sarva-dharman-parityajya-ka-arth | sarva-dharman-parityajya-ka-arth (unchanged) |
+| wordpress.hi.slug | sarva-dharman-parityajya-meaning-hi | sarva-dharman-parityajya-meaning-hi (unchanged) |
 | wordpress.en.slug | sarva-dharman-parityajya-meaning | sarva-dharman-parityajya-meaning (unchanged) |
 
 Unchanged:
@@ -57,7 +57,7 @@ Unchanged:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sarva-dharman-parityajya-ka-arth | sarva-dharman-parityajya-meaning |
+| slug | sarva-dharman-parityajya-meaning-hi | sarva-dharman-parityajya-meaning |
 | focus keyword | सर्वधर्मान्परित्यज्य का अर्थ | sarva dharman parityajya meaning |
 | title | सर्वधर्मान्परित्यज्य का अर्थ: गीता 18.66 और गुरु की शरण | Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru |
 | meta description | सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो। | Sarva dharman parityajya meaning (Gita 18.66): Acharya Ji explains dharma as duty, refuge in a living Guru, and why bowing properly beats chasing miracles. |

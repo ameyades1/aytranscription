@@ -35,7 +35,7 @@ Keyword note: "भाग्य कैसे बनता है" was the searche
 
 Meta description (recommended, in seo.json, 155 characters): भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से।
 
-Slug (recommended, in seo.json): `/hi/bhagya-kaise-banta-hai`
+Slug (recommended, in seo.json): `/hi/what-decides-your-destiny-hi`
 
 **English**
 1. What Decides Your Destiny? Karma vs Samskaras (recommended, in seo.json, 45 characters)
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bhagya-kaise-banta-hai/`, `/en/what-decides-your-destiny/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-decides-your-destiny-hi/`, `/en/what-decides-your-destiny/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -406,7 +406,7 @@ The exact contents of `output/decides_destiny/blog/seo.json`, used by the page g
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "bhagya-kaise-banta-hai",
+      "slug": "what-decides-your-destiny-hi",
       "focus_keyword": "भाग्य कैसे बनता है",
       "secondary_keywords": [
         "संस्कार का अर्थ",

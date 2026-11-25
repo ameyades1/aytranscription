@@ -46,7 +46,7 @@ No teaching, example or order of ideas changed, and no H1 was touched. The blog 
 | wordpress.en.secondary_keywords | why Ganesh Chaturthi is celebrated for 10 days; why Ganesh festival starts on Chaturthi; Turiya fourth state of consciousness; Ganesha as viveka | Ganesh Chaturthi spiritual meaning; why Ganesh festival starts on Chaturthi; Turiya fourth state of consciousness; Ganesha as viveka |
 | wordpress.en.slug | ganesh-chaturthi-spiritual-meaning | why-ganesh-chaturthi-is-celebrated-for-10-days |
 | wordpress.en.meta_description | Why does Ganesh Chaturthi begin on the fourth day and last 10 days? Acharya Upendra Ji explains its spiritual meaning: Turiya and the birth of discernment. | Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturdashi: Acharya Upendra Ji explains Turiya and the birth of discernment. |
-| wordpress.hi.slug | ganesh-chaturthi-ka-adhyatmik-arth | ganesh-chaturthi-ka-adhyatmik-arth (unchanged) |
+| wordpress.hi.slug | why-ganesh-chaturthi-is-celebrated-for-10-days-hi | why-ganesh-chaturthi-is-celebrated-for-10-days-hi (unchanged) |
 
 The Hindi focus keyword and title are unchanged. `links`, `also_read`, alt text, captions, category and tags are unchanged. The new English focus keyword and slug are used by no other talk. The report's section 11 now matches seo.json. Section 3 marks these titles, metas and slugs as recommended. Section 8's alternativeHeadline, descriptions, keywords and suggested English slug are updated. Section 2 has a keyword note and updated priorities, and section 12 is the new checklist.
 
@@ -54,7 +54,7 @@ The Hindi focus keyword and title are unchanged. `links`, `also_read`, alt text,
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ganesh-chaturthi-ka-adhyatmik-arth | why-ganesh-chaturthi-is-celebrated-for-10-days |
+| slug | why-ganesh-chaturthi-is-celebrated-for-10-days-hi | why-ganesh-chaturthi-is-celebrated-for-10-days |
 | focus_keyword | गणेश चतुर्थी का आध्यात्मिक अर्थ | why Ganesh Chaturthi is celebrated for 10 days |
 | title | गणेश चतुर्थी का आध्यात्मिक अर्थ: 10 दिन क्यों? | Why Ganesh Chaturthi Is Celebrated for 10 Days |
 | meta_description | गणेश चतुर्थी का आध्यात्मिक अर्थ: उत्सव चतुर्थी से क्यों शुरू होता है और दस दिन क्यों चलता है? आचार्य उपेंद्र जी बताते हैं, तुरीय में जागा विवेक ही गणेश है। | Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturdashi: Acharya Upendra Ji explains Turiya and the birth of discernment. |

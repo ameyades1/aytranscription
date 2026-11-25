@@ -44,7 +44,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 **Hindi meta description (157 characters)**
 प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।
 
-**Hindi slug:** `/hi/prem-mein-apeksha`
+**Hindi slug:** `/hi/when-love-turns-into-control-hi`
 
 **English title options (60 characters or fewer)**
 1. When Love Turns Into Control: A Mother's Bill of Zeros (recommended, 54)
@@ -116,7 +116,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in seo.json (`/hi/prem-mein-apeksha/`, `/en/when-love-turns-into-control/`).
+- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in seo.json (`/hi/when-love-turns-into-control-hi/`, `/en/when-love-turns-into-control/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -131,7 +131,7 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/#article",
+      "@id": "{{SITE_URL}}/hi/when-love-turns-into-control-hi/#article",
       "headline": "माँ का बिल हमेशा शून्य क्यों होता है",
       "alternativeHeadline": "प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है",
       "description": "प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति।",
@@ -151,7 +151,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "dateModified": "2026-10-08",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/when-love-turns-into-control-hi/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
       "workTranslation": { "@id": "{{SITE_URL}}/en/when-love-turns-into-control/#article" }
@@ -204,7 +204,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "माँ का बिल हमेशा शून्य क्यों होता है", "item": "{{SITE_URL}}/hi/prem-mein-apeksha/" }
+        { "@type": "ListItem", "position": 3, "name": "माँ का बिल हमेशा शून्य क्यों होता है", "item": "{{SITE_URL}}/hi/when-love-turns-into-control-hi/" }
       ]
     }
   ]
@@ -244,7 +244,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/en/when-love-turns-into-control/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=9pLcWhHUChs#video" },
-      "translationOfWork": { "@id": "{{SITE_URL}}/hi/prem-mein-apeksha/#article" }
+      "translationOfWork": { "@id": "{{SITE_URL}}/hi/when-love-turns-into-control-hi/#article" }
     },
     {
       "@type": "Person",
@@ -406,7 +406,7 @@ The values written to `output/when_love_turns_into_control/blog/seo.json` (the p
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "prem-mein-apeksha",
+      "slug": "when-love-turns-into-control-hi",
       "focus_keyword": "प्रेम में अपेक्षा",
       "secondary_keywords": [
         "बिना हिसाब का प्रेम",

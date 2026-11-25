@@ -34,7 +34,7 @@ Keyword note (SEO fix): the searched wording and the body wording are the same (
 
 Meta description (recommended, in seo.json, 155 characters; it replaces "क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य उपेंद्र जी बताते हैं कि पाप का अनावश्यक डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं।", which split the focus keyword with "अनावश्यक"): क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य जी बताते हैं कि बचपन से बैठाया पाप का डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं।
 
-Slug (recommended, in seo.json): `/hi/paap-ka-dar-hriday-granthi`
+Slug (recommended, in seo.json): `/hi/fear-of-sin-knot-in-the-heart-hi`
 
 **English**
 1. Fear of Sin and the Knot in the Heart: Beyond Ritual (recommended, 52 characters)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (slugs as in seo.json: `/hi/paap-ka-dar-hriday-granthi/`, `/en/fear-of-sin-knot-in-the-heart/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (slugs as in seo.json: `/hi/fear-of-sin-knot-in-the-heart-hi/`, `/en/fear-of-sin-knot-in-the-heart/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -393,7 +393,7 @@ The exact values written to `output/take_so_long_fulfil_desires/blog/seo.json`.
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "paap-ka-dar-hriday-granthi",
+      "slug": "fear-of-sin-knot-in-the-heart-hi",
       "focus_keyword": "पाप का डर",
       "secondary_keywords": [
         "हृदय ग्रंथि क्या है",

@@ -38,13 +38,13 @@ Still unmet: none.
 | wordpress.en.secondary_keywords | moksha after death, jivanmukta meaning, liberation while alive, spiritual meaning of death | liberation after death, jivanmukta meaning, liberation while alive, spiritual meaning of death |
 | wordpress.en.meta_description | Does liberation after death come by itself? Acharya Upendra Ji explains why moksha is a state reached while alive, and what death and moksha truly mean. | Does moksha after death come by itself? Acharya Upendra Ji explains why liberation is a state reached while alive, and what death and moksha truly mean. |
 
-Hindi seo.json values are unchanged (slug `marne-ke-baad-moksha`). `links` and `also_read` are unchanged. The report's sections 2, 3, 7 (keyword split note), 8 and 11 were updated to match.
+Hindi seo.json values are unchanged (slug `moksha-after-death-hi`). `links` and `also_read` are unchanged. The report's sections 2, 3, 7 (keyword split note), 8 and 11 were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | marne-ke-baad-moksha | moksha-after-death |
+| slug | moksha-after-death-hi | moksha-after-death |
 | focus_keyword | मरने के बाद मोक्ष | moksha after death |
 | title | मरने के बाद मोक्ष? जीते-जी मुक्ति की सच्ची समझ | Moksha After Death? Why Liberation Comes While Alive |
 | meta_description | क्या मरने के बाद मोक्ष मिलता है? आचार्य उपेंद्र जी समझाते हैं कि मुक्ति जीते-जी की अवस्था है, और आध्यात्मिक भाषा में मृत्यु व मोक्ष का अर्थ क्या है। | Does moksha after death come by itself? Acharya Upendra Ji explains why liberation is a state reached while alive, and what death and moksha truly mean. |

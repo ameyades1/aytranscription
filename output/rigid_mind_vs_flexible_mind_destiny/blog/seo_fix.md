@@ -33,13 +33,13 @@ No teaching, example, H1 or order of ideas changed; the blog quotes no verses. T
 |---|---|---|
 | wordpress.hi.meta_description | क्या आप भी कहते हैं, "मैं तो ऐसा ही हूँ"? आचार्य उपेंद्र जी बताते हैं कि अड़ियल स्वभाव से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है। | अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि "मैं तो ऐसा ही हूँ" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है। |
 
-Nothing else changed. Both focus keywords ("अड़ियल स्वभाव कैसे बदलें" / "rigid mind vs flexible mind") were already the searched wording and now appear in the `_seo` bodies. The slugs are unchanged (old and new: `adiyal-swabhav-kaise-badlen` / `rigid-mind-vs-flexible-mind`). Titles, the English meta description, `links`, `also_read`, `alt`, `caption`, `related`, category, secondary keywords and tags are unchanged. In the report: section 2 has a keyword note, section 3 and section 8 (Hindi description) show the new Hindi meta description, section 11 matches seo.json, and section 12 was added.
+Nothing else changed. Both focus keywords ("अड़ियल स्वभाव कैसे बदलें" / "rigid mind vs flexible mind") were already the searched wording and now appear in the `_seo` bodies. The slugs are unchanged (old and new: `rigid-mind-vs-flexible-mind-hi` / `rigid-mind-vs-flexible-mind`). Titles, the English meta description, `links`, `also_read`, `alt`, `caption`, `related`, category, secondary keywords and tags are unchanged. In the report: section 2 has a keyword note, section 3 and section 8 (Hindi description) show the new Hindi meta description, section 11 matches seo.json, and section 12 was added.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | adiyal-swabhav-kaise-badlen | rigid-mind-vs-flexible-mind |
+| slug | rigid-mind-vs-flexible-mind-hi | rigid-mind-vs-flexible-mind |
 | focus_keyword | अड़ियल स्वभाव कैसे बदलें | rigid mind vs flexible mind |
 | title | अड़ियल स्वभाव कैसे बदलें? लचीली बुद्धि का रहस्य | Rigid Mind vs Flexible Mind: Who Holds Your Destiny? |
 | meta_description | अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि "मैं तो ऐसा ही हूँ" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है। | Rigid mind vs flexible mind: Acharya Upendra Ji explains why "I'm just like this" invites obstacles, and why rising higher needs a flexible intellect. |

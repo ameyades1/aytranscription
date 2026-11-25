@@ -30,7 +30,7 @@ No teaching, example, verse, translation, reference, H1, link phrase or "Also re
 |---|---|---|
 | title.hi | महाकाली, महालक्ष्मी और महासरस्वती: तीन गुणों का अर्थ | महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ (48) |
 | title.en | Mahakali, Mahalakshmi and Mahasaraswati: The Three Gunas | Mahakali Mahalakshmi Mahasaraswati: The Three Gunas (51) |
-| wordpress.hi.slug | mahakali-mahalakshmi-mahasaraswati-arth | mahakali-mahalakshmi-mahasaraswati-arth (unchanged) |
+| wordpress.hi.slug | mahakali-mahalakshmi-mahasaraswati-three-gunas-hi | mahakali-mahalakshmi-mahasaraswati-three-gunas-hi (unchanged) |
 | wordpress.hi.focus_keyword | महालक्ष्मी और महासरस्वती | महाकाली महालक्ष्मी महासरस्वती |
 | wordpress.hi.meta_description | महाकाली, महालक्ष्मी और महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है। | महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है। (144) |
 | wordpress.en.slug | mahakali-mahalakshmi-and-mahasaraswati-three-gunas | mahakali-mahalakshmi-mahasaraswati-three-gunas |
@@ -43,7 +43,7 @@ The secondary keywords are unchanged. The old focus keywords were only the body'
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | mahakali-mahalakshmi-mahasaraswati-arth | mahakali-mahalakshmi-mahasaraswati-three-gunas |
+| slug | mahakali-mahalakshmi-mahasaraswati-three-gunas-hi | mahakali-mahalakshmi-mahasaraswati-three-gunas |
 | focus_keyword | महाकाली महालक्ष्मी महासरस्वती | Mahakali Mahalakshmi Mahasaraswati |
 | title | महाकाली महालक्ष्मी महासरस्वती: तीन गुणों का अर्थ | Mahakali Mahalakshmi Mahasaraswati: The Three Gunas |
 | meta_description | महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है। | Who are Mahakali Mahalakshmi Mahasaraswati? Acharya Upendra Ji explains them as tamas, rajas and sattva, and why one goddess alone is incomplete. |

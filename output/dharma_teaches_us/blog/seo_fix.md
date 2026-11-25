@@ -30,13 +30,13 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 
 ## seo.json changes
 
-None. The focus keywords, secondary keywords, titles and meta descriptions (all already contain the focus keyword), slugs (old and new are both `dharma-ka-asli-saar` / `true-essence-of-dharma`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the title, meta and slug in seo.json marked as recommended), 4 (a note on what was applied) and 12 (the checklist, newly added). Section 8 needed no change: its headline is the unchanged H1, and its description, keywords and suggested slugs match seo.json.
+None. The focus keywords, secondary keywords, titles and meta descriptions (all already contain the focus keyword), slugs (old and new are both `true-essence-of-dharma-hi` / `true-essence-of-dharma`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the title, meta and slug in seo.json marked as recommended), 4 (a note on what was applied) and 12 (the checklist, newly added). Section 8 needed no change: its headline is the unchanged H1, and its description, keywords and suggested slugs match seo.json.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | dharma-ka-asli-saar | true-essence-of-dharma |
+| slug | true-essence-of-dharma-hi | true-essence-of-dharma |
 | focus_keyword | धर्म का असली सार | true essence of dharma |
 | title | धर्म का असली सार: संत-वाणी और परमात्मा-वाणी का भेद | True Essence of Dharma: Word of Saints vs Word of God |
 | meta_description | धर्म का असली सार क्या है? आचार्य उपेंद्र जी बताते हैं कि परमात्मा की वाणी सार्वभौमिक है, संत-वाणी देश-काल से बंधी, और हर धर्म के तीन भाग हैं पर तत्त्व एक है। | What is the true essence of dharma? Acharya Upendra Ji explains how God's universal word differs from a saint's word, and the three parts of each religion. |

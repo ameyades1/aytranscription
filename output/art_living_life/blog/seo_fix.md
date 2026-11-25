@@ -35,7 +35,7 @@ None. Both focus keywords were already the searched wording and are now in the f
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | sansar-chhodne-ki-kala | sansar-chhodne-ki-kala (unchanged) |
+| wordpress.hi.slug | art-of-leaving-hi | art-of-leaving-hi (unchanged) |
 | wordpress.en.slug | art-of-leaving | art-of-leaving (unchanged) |
 | wordpress.hi.focus_keyword | संसार छोड़ने की कला | संसार छोड़ने की कला (unchanged) |
 | wordpress.en.focus_keyword | art of leaving | art of leaving (unchanged) |
@@ -46,7 +46,7 @@ The report's section 11 therefore stays the same as seo.json; sections 3 and 8 a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sansar-chhodne-ki-kala | art-of-leaving |
+| slug | art-of-leaving-hi | art-of-leaving |
 | focus_keyword | संसार छोड़ने की कला | art of leaving |
 | title | संसार छोड़ने की कला: मृत्यु की तैयारी किससे सीखें | The Art of Leaving: Who Can Teach You to Prepare for Death? |
 | meta_description | केवल मृत्यु निश्चित है, पर उसकी तारीख कोई नहीं जानता। आचार्य उपेंद्र जी बताते हैं संसार छोड़ने की कला क्या है और इसे कौन सिखा सकता है। | Death is life's only certainty, and no one knows the day. Acharya Upendra Ji explains the Art of Leaving, and why only a liberated Sadguru can teach it. |

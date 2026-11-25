@@ -34,7 +34,7 @@ None. The focus keywords were already the searched wording and now appear in the
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | dharm-mein-prateekon-ka-mahatva | dharm-mein-prateekon-ka-mahatva (unchanged) |
+| wordpress.hi.slug | importance-of-symbols-in-religion-hi | importance-of-symbols-in-religion-hi (unchanged) |
 | wordpress.en.slug | importance-of-symbols-in-religion | importance-of-symbols-in-religion (unchanged) |
 
 The report's section 11 still matches seo.json, and section 8 needed no change. Section 3 now marks the meta descriptions and slugs in seo.json as recommended (the titles were already marked). Section 2 has a keyword note, and section 12 is the new checklist.
@@ -43,7 +43,7 @@ The report's section 11 still matches seo.json, and section 8 needed no change. 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | dharm-mein-prateekon-ka-mahatva | importance-of-symbols-in-religion |
+| slug | importance-of-symbols-in-religion-hi | importance-of-symbols-in-religion |
 | focus_keyword | धर्म में प्रतीकों का महत्व | importance of symbols in religion |
 | title | धर्म में प्रतीकों का महत्व: प्रतीक, अंधश्रद्धा और गुरु | Importance of Symbols in Religion: Meaning vs Blind Faith |
 | meta_description | शास्त्र प्रतीकों में क्यों बोलते हैं? आचार्य उपेंद्र जी बताते हैं धर्म में प्रतीकों का महत्व, अंधश्रद्धा कैसे जन्मती है और प्रतीक की कुंजी गुरु के पास क्यों है। | Why do scriptures speak in symbols? Acharya Upendra Ji explains the importance of symbols in religion, how blind faith begins, and why you need a Guru. |

@@ -33,7 +33,7 @@ Keyword note: the original blog texts did not use the focus keywords word for wo
 
 Meta description (155 chars): जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा। — **recommended**
 
-Slug: `/hi/jeevan-ke-sangharsh-kaise-paar-karen` — **recommended**
+Slug: `/hi/how-to-overcome-struggles-in-life-gita-hi` — **recommended**
 
 **English** (H1: "Whatever Comes Must Also Go: Overcoming Life's Struggles with the Gita", unchanged)
 1. How to Overcome Struggles in Life: What the Gita Teaches (56 chars) — **recommended**
@@ -96,7 +96,7 @@ Cannibalization: `one_realisation_free_from_all_suffering` holds "अस्थ�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/jeevan-ke-sangharsh-kaise-paar-karen/`, `/en/how-to-overcome-struggles-in-life-gita/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID m2IU0GRbYW8, uploaded 2025-01-22, 335 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/how-to-overcome-struggles-in-life-gita-hi/`, `/en/how-to-overcome-struggles-in-life-gita/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID m2IU0GRbYW8, uploaded 2025-01-22, 335 s, title from yt-dlp.
 
 **Hindi**
 
@@ -335,7 +335,7 @@ The values written to `output/overcome_struggles_of_life/blog/seo.json`:
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "jeevan-ke-sangharsh-kaise-paar-karen",
+      "slug": "how-to-overcome-struggles-in-life-gita-hi",
       "focus_keyword": "जीवन के संघर्षों को कैसे पार करें",
       "secondary_keywords": ["गीता 2.14 का अर्थ", "मात्रास्पर्शास्तु कौन्तेय श्लोक", "तितिक्षा का अर्थ", "क्या कठिन समय स्थायी है"],
       "meta_description": "जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा।",

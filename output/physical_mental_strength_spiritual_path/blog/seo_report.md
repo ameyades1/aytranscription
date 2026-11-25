@@ -34,7 +34,7 @@ Keyword note: the original blog texts did not use the focus keywords word for wo
 
 Meta description (159 chars, **recommended**, in seo.json): साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है।
 
-Slug (**recommended**, in seo.json): `/hi/sadhana-mein-swasthya-ka-mahatva`
+Slug (**recommended**, in seo.json): `/hi/health-on-the-spiritual-path-hi`
 
 **English** (H1: "From Illness to Liberation: The Four Steps of the Spiritual Journey", unchanged)
 1. Health on the Spiritual Path: From Illness to Liberation (56 chars) — **recommended**, in seo.json
@@ -97,7 +97,7 @@ Cannibalization: `mind_or_body_more_powerful` holds "मन या शरीर 
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/sadhana-mein-swasthya-ka-mahatva/`, `/en/health-on-the-spiritual-path/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID ryX-m980D3M, uploaded 2025-08-01, 596 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/health-on-the-spiritual-path-hi/`, `/en/health-on-the-spiritual-path/`). Dates: published 2026-10-03, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID ryX-m980D3M, uploaded 2025-08-01, 596 s, title from yt-dlp.
 
 **Hindi**
 
@@ -335,7 +335,7 @@ The values written to `output/physical_mental_strength_spiritual_path/blog/seo.j
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "sadhana-mein-swasthya-ka-mahatva",
+      "slug": "health-on-the-spiritual-path-hi",
       "focus_keyword": "साधना में स्वास्थ्य का महत्व",
       "secondary_keywords": [
         "सिद्धियां क्या हैं",

@@ -50,7 +50,7 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 Who is the real doer of your actions? Acharya Upendra Ji explains Bhagavad Gita 3.27: nature's qualities do every action, and 'I alone do it' is ego.
 
 **Slugs**
-- Hindi: /hi/asli-karta-kaun-hai-gita-3-27
+- Hindi: /hi/who-is-the-real-doer-gita-3-27-hi
 - English: /en/who-is-the-real-doer-gita-3-27
 
 These recommended titles, meta descriptions and slugs are the ones in seo.json, used unchanged with the SEO copies of the texts. The H1s ("कर्ता कौन है जब सब प्रकृति कर रही है" / "Who Is the Doer When Nature Does Everything?") stay as they are. The `<title>` tag is set separately.
@@ -119,7 +119,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/#article",
+      "@id": "{{SITE_URL}}/hi/who-is-the-real-doer-gita-3-27-hi/#article",
       "headline": "कर्ता कौन है जब सब प्रकृति कर रही है",
       "alternativeHeadline": "असली कर्ता कौन है? गीता के अनुसार कर्म और अहंकार",
       "description": "असली कर्ता कौन है? आचार्य उपेंद्र जी भगवद्गीता ३.२७ से समझाते हैं कि सारे कर्म प्रकृति के गुणों से होते हैं, और 'मैं ही करता हूं' मानना अहंकार है।",
@@ -135,7 +135,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/who-is-the-real-doer-gita-3-27-hi/"},
       "video": {"@id": "https://www.youtube.com/watch?v=jkk__RZ8f2Y#video"},
       "workTranslation": {"@id": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/#article"}
     },
@@ -172,7 +172,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{HI_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "कर्म और भाग्य", "item": "{{HI_CATEGORY_KARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "कर्ता कौन है जब सब प्रकृति कर रही है", "item": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/"}
+        {"@type": "ListItem", "position": 4, "name": "कर्ता कौन है जब सब प्रकृति कर रही है", "item": "{{SITE_URL}}/hi/who-is-the-real-doer-gita-3-27-hi/"}
       ]
     }
   ]
@@ -204,7 +204,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
       "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/"},
       "video": {"@id": "https://www.youtube.com/watch?v=jkk__RZ8f2Y#video"},
-      "translationOfWork": {"@id": "{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/#article"}
+      "translationOfWork": {"@id": "{{SITE_URL}}/hi/who-is-the-real-doer-gita-3-27-hi/#article"}
     },
     {
       "@type": "Person",
@@ -353,7 +353,7 @@ The exact values written to output/who_real_doer_karma_ego_bhagavad/blog/seo.jso
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "asli-karta-kaun-hai-gita-3-27",
+      "slug": "who-is-the-real-doer-gita-3-27-hi",
       "focus_keyword": "असली कर्ता कौन है",
       "secondary_keywords": [
         "मैं कर्ता हूं",

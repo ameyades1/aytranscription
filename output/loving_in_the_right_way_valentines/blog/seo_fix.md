@@ -36,13 +36,13 @@ Still unmet: none. The report had no section 12; it was added with every item ma
 | wordpress.hi.meta_description | क्या "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि प्रेम केवल शब्दों से नहीं, कृति से जताया जाता है, जीवनसाथी के साथ भी। | प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी। |
 | wordpress.en.meta_description | Is saying "I love you" enough? Acharya Upendra Ji explains why love must show in action, from Krishna's gifts to Radha to going along with your wife. | Is saying "I love you" enough? Acharya Upendra Ji explains why you must show love through actions, from Krishna's gifts to Radha to going with your wife. |
 
-Slugs are unchanged (hi: `prem-kaise-jatayen` → `prem-kaise-jatayen`; en: `show-love-through-actions` → `show-love-through-actions`), as are the focus keywords, titles, secondary keywords, `links` and `also_read`.
+Slugs are unchanged (hi: `show-love-through-actions-hi` → `show-love-through-actions-hi`; en: `show-love-through-actions` → `show-love-through-actions`), as are the focus keywords, titles, secondary keywords, `links` and `also_read`.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | prem-kaise-jatayen | show-love-through-actions |
+| slug | show-love-through-actions-hi | show-love-through-actions |
 | focus_keyword | प्रेम कैसे जताएं | show love through actions |
 | title | प्रेम कैसे जताएं: प्रेम जो कृति में दिखे \| आचार्य जी | Show Love Through Actions, Not Just Words \| Acharya Ji |
 | meta_description | प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी। | Is saying "I love you" enough? Acharya Upendra Ji explains why you must show love through actions, from Krishna's gifts to Radha to going with your wife. |

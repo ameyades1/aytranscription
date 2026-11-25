@@ -41,7 +41,7 @@ Keyword note: the original blog texts never use the focus keywords word for word
 
 Meta description (150 characters, **recommended**): "दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा।"
 
-Slug (**recommended**): `/hi/mahakali-ki-bhumika`
+Slug (**recommended**): `/hi/role-of-mahakali-hi`
 
 **English**
 1. Real Role of Mahakali: Why Every Beginning Starts With Her (58) **recommended**
@@ -119,7 +119,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahakali-ki-bhumika/`, `/en/role-of-mahakali/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/role-of-mahakali-hi/`, `/en/role-of-mahakali/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -541,7 +541,7 @@ The exact values written to `output/real_role_maha_kali/blog/seo.json` for the p
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "mahakali-ki-bhumika",
+      "slug": "role-of-mahakali-hi",
       "focus_keyword": "महाकाली की भूमिका",
       "secondary_keywords": [
         "दुर्गा सप्तशती का पहला खंड महाकाली",

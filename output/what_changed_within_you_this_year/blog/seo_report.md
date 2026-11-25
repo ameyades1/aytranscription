@@ -55,7 +55,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask.
 
 **Slugs** (recommended; in seo.json)
-- Hindi: /hi/chaturmas-ka-mahatva
+- Hindi: /hi/significance-of-chaturmas-hi
 - English: /en/significance-of-chaturmas
 
 ## 4. Outline changes
@@ -124,7 +124,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/chaturmas-ka-mahatva/`, `/en/significance-of-chaturmas/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/significance-of-chaturmas-hi/`, `/en/significance-of-chaturmas/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -422,7 +422,7 @@ The values written to `output/what_changed_within_you_this_year/blog/seo.json` (
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "chaturmas-ka-mahatva",
+      "slug": "significance-of-chaturmas-hi",
       "focus_keyword": "चातुर्मास का महत्व",
       "secondary_keywords": [
         "चातुर्मास में त्योहार क्यों",

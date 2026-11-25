@@ -36,7 +36,7 @@ No teaching, example, order of ideas, H1 or formatting changed (the blog quotes 
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.slug | honest-earnings-sattvic-food | honest-earnings-and-sattvic-food |
-| wordpress.hi.slug | imandar-kamai-aur-satvik-bhojan | imandar-kamai-aur-satvik-bhojan (unchanged) |
+| wordpress.hi.slug | honest-earnings-and-sattvic-food-hi | honest-earnings-and-sattvic-food-hi (unchanged) |
 
 Nothing else changed: focus keywords, secondary keywords, titles and meta descriptions (all already contain the focus keyword), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report was updated to match: section 2 (keyword note), 3 (the meta descriptions and slugs in seo.json marked as recommended; the English slug updated), 4 (a note on what was applied), 8 (the suggested English URL slug), 11 (the new seo.json) and 12 (the checklist, newly added).
 
@@ -44,7 +44,7 @@ Nothing else changed: focus keywords, secondary keywords, titles and meta descri
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | imandar-kamai-aur-satvik-bhojan | honest-earnings-and-sattvic-food |
+| slug | honest-earnings-and-sattvic-food-hi | honest-earnings-and-sattvic-food |
 | focus_keyword | ईमानदार कमाई और सात्विक भोजन | honest earnings and sattvic food |
 | title | ईमानदार कमाई और सात्विक भोजन: थाली में धन का असर | Honest Earnings and Sattvic Food: What Your Plate Carries |
 | meta_description | क्या सात्विक भोजन ही काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि ईमानदार कमाई और सात्विक भोजन मिलकर फल देते हैं, और भक्ति ने मीराबाई को विष से कैसे बचाया। | Is sattvic food enough? Acharya Upendra Ji explains why honest earnings and sattvic food work together, and how devotion protected Meerabai from poison. |

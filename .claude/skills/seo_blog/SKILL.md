@@ -73,7 +73,8 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below). With
      - `hi` and `en`, each with:
        - `slug`: section 3's slug without the `/hi/` or `/en/` prefix: short, lowercase,
          Latin letters, words joined by hyphens, at most 55 characters (SureRank warns when the
-         page URL is over 90 characters).
+         page URL is over 90 characters). The Hindi slug is always the English slug with `-hi`
+         (English `/law-of-karma/`, Hindi `/hi/law-of-karma-hi/`).
        - `focus_keyword`: the primary keyword for that language (section 2). It must pass
          SureRank's keyword checks (see "SureRank checks" below).
        - `secondary_keywords`: 2 to 4 more keywords for that language (section 2).

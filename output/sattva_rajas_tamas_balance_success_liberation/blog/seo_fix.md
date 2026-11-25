@@ -34,7 +34,7 @@ No teaching, example, order of ideas or H1 was changed (the talk quotes no verse
 | wordpress.en.slug | sattva-rajas-tamas-balance | balance-the-three-gunas (23 characters, unique) |
 | wordpress.en.meta_description | Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance all three each day. | Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily. (155) |
 | wordpress.hi.meta_description | संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व, रज और तम का संतुलन कैसे साधें। | संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें। (137) |
-| wordpress.hi.slug | sattva-rajas-tamas-santulan | sattva-rajas-tamas-santulan (unchanged) |
+| wordpress.hi.slug | balance-the-three-gunas-hi | balance-the-three-gunas-hi (unchanged) |
 | wordpress.hi.focus_keyword | सत्व रज तम का संतुलन | unchanged (now in the `_seo` body) |
 | title.hi | सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं | unchanged (already contains the focus keyword) |
 
@@ -44,7 +44,7 @@ No other talk uses either focus keyword or the new slug. `links`, `also_read`, a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sattva-rajas-tamas-santulan | balance-the-three-gunas |
+| slug | balance-the-three-gunas-hi | balance-the-three-gunas |
 | focus_keyword | सत्व रज तम का संतुलन | balance the three gunas |
 | title | सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं | How to Balance the Three Gunas: Three Cords That Bind |
 | meta_description | संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें। | Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily. |

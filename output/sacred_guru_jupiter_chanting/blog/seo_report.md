@@ -39,7 +39,7 @@ Keyword note: the original blog texts used neither focus keyword. The Hindi body
 
 Meta description **(recommended)**: गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।
 
-Slug **(recommended)**: `/hi/guru-grah-ka-mahatva`
+Slug **(recommended)**: `/hi/significance-of-jupiter-guru-grace-hi`
 
 **English**
 1. Significance of Jupiter: Devguru Brihaspati's Grace **(recommended)**
@@ -286,7 +286,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/guru-grah-ka-mahatva/`, `/en/significance-of-jupiter-guru-grace/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/significance-of-jupiter-guru-grace-hi/`, `/en/significance-of-jupiter-guru-grace/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -364,7 +364,7 @@ The exact seo.json written for the page generator and WordPress:
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "guru-grah-ka-mahatva",
+      "slug": "significance-of-jupiter-guru-grace-hi",
       "focus_keyword": "गुरु ग्रह का महत्व",
       "secondary_keywords": ["कमज़ोर गुरु ग्रह के लक्षण", "देवगुरु बृहस्पति", "गुरु बीज मंत्र साधना", "शिवे रुष्टे गुरुस्त्राता का अर्थ"],
       "meta_description": "गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना।",

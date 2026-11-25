@@ -33,7 +33,7 @@ Keyword note: the original blog texts used neither focus keyword ("काम क
 
 Meta description (recommended, 146 characters): जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।
 
-Slug (recommended): `/hi/kaam-ka-asli-arth`
+Slug (recommended): `/hi/love-vs-lust-hi`
 
 **English**
 1. Love vs Lust: The True Meaning of Kama | Acharya Ji (recommended, 51 characters)
@@ -110,7 +110,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaam-ka-asli-arth/`, `/en/love-vs-lust/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/love-vs-lust-hi/`, `/en/love-vs-lust/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -390,7 +390,7 @@ The exact values written to `output/truly_desire_or_infatuation/blog/seo.json`.
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "kaam-ka-asli-arth",
+      "slug": "love-vs-lust-hi",
       "focus_keyword": "काम का असली अर्थ",
       "secondary_keywords": ["प्रेम और वासना में अंतर", "प्रेम या आकर्षण", "काम पुरुषार्थ क्या है"],
       "meta_description": "जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु।",

@@ -38,13 +38,13 @@ No teaching, example, verse, translation, H1 or order of ideas changed; the numb
 | also_read.after.hi | गीता के पाँच हेतु: भाग्य के पाँच स्तंभ | गीता के अनुसार कर्म की सिद्धि के पाँच हेतु कौन-से हैं? |
 | also_read.after.en | The Gita's Five Causes: The Pillars of Destiny | What Are the Gita's Five Causes of Action? |
 
-Focus keywords, secondary keywords, titles, meta descriptions (all already contain the focus keyword), slugs (old and new `bhagya-kaise-banta-hai` / `what-decides-your-destiny`, unchanged), `links`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended title, meta and slug marked as in seo.json), 4 (note on what was applied) and 12 (checklist, newly added) were updated. Section 8 needed no change: its headline is the unchanged H1 and its description, keywords and suggested slugs match seo.json.
+Focus keywords, secondary keywords, titles, meta descriptions (all already contain the focus keyword), slugs (old and new `what-decides-your-destiny-hi` / `what-decides-your-destiny`, unchanged), `links`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended title, meta and slug marked as in seo.json), 4 (note on what was applied) and 12 (checklist, newly added) were updated. Section 8 needed no change: its headline is the unchanged H1 and its description, keywords and suggested slugs match seo.json.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagya-kaise-banta-hai | what-decides-your-destiny |
+| slug | what-decides-your-destiny-hi | what-decides-your-destiny |
 | focus_keyword | भाग्य कैसे बनता है | what decides your destiny |
 | title | भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार | What Decides Your Destiny? Karma vs Samskaras |
 | meta_description | भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से। | What decides your destiny: past karma or the samskaras it leaves? Acharya Upendra Ji explains the Gita's five causes of action and the meaning of daiva. |

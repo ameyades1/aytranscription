@@ -41,13 +41,13 @@ Still unmet: none.
 | wordpress.en.slug | why-vishnu-and-lakshmi-matter | significance-of-vishnu-and-lakshmi |
 | wordpress.en.meta_description | Creation takes a moment, sustaining takes a lifetime. Acharya Upendra Ji explains why body, business and family need Vishnu and Lakshmi most of all. | Significance of Vishnu and Lakshmi: creation takes a moment, sustaining a lifetime. Acharya Upendra Ji explains why body, business and family need them. |
 
-Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `vishnu-lakshmi-ka-mahatva`, the Hindi title, secondary keywords, tags, `links` and `also_read`.
+Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `significance-of-vishnu-and-lakshmi-hi`, the Hindi title, secondary keywords, tags, `links` and `also_read`.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | vishnu-lakshmi-ka-mahatva | significance-of-vishnu-and-lakshmi |
+| slug | significance-of-vishnu-and-lakshmi-hi | significance-of-vishnu-and-lakshmi |
 | focus keyword | विष्णु और लक्ष्मी का महत्व | significance of Vishnu and Lakshmi |
 | title | विष्णु और लक्ष्मी का महत्व: पालन ही जीवन है | Significance of Vishnu and Lakshmi: Why Sustaining Matters |
 | meta description | विष्णु और लक्ष्मी का महत्व: उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में पालन सबसे अधिक क्यों चाहिए। | Significance of Vishnu and Lakshmi: creation takes a moment, sustaining a lifetime. Acharya Upendra Ji explains why body, business and family need them. |

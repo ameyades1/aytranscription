@@ -34,7 +34,7 @@ Keyword note (SEO fix): the original blog texts used neither focus keyword in th
 
 Meta description (116 chars) — **recommended**: सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं।
 
-Slug — **recommended**: `/hi/sachcha-prem-kya-hai/`
+Slug — **recommended**: `/hi/true-meaning-of-love-hi/`
 
 **English**
 1. True Meaning of Love: Love vs Attachment | Acharya Ji (53 chars) — **recommended**
@@ -104,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-prem-kya-hai/`, `/en/true-meaning-of-love/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/true-meaning-of-love-hi/`, `/en/true-meaning-of-love/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -418,7 +418,7 @@ The exact values written to `output/true_meaning_of_love_valentines/blog/seo.jso
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "sachcha-prem-kya-hai",
+      "slug": "true-meaning-of-love-hi",
       "focus_keyword": "सच्चा प्रेम क्या है",
       "secondary_keywords": [
         "प्रेम और मोह में अंतर",

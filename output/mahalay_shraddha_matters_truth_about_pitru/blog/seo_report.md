@@ -55,7 +55,7 @@ The title uses "Pind Daan", the common search spelling (also in the video title)
 Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply.
 
 **Slugs (recommended, as in seo.json)**
-- Hindi: /hi/mahalaya-shraddha-kya-hai
+- Hindi: /hi/mahalaya-shraddha-meaning-hi
 - English: /en/mahalaya-shraddha-meaning
 
 ## 4. Outline changes
@@ -122,7 +122,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahalaya-shraddha-kya-hai/`, `/en/mahalaya-shraddha-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahalaya-shraddha-meaning-hi/`, `/en/mahalaya-shraddha-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -424,7 +424,7 @@ The values written to `output/mahalay_shraddha_matters_truth_about_pitru/blog/se
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "mahalaya-shraddha-kya-hai",
+      "slug": "mahalaya-shraddha-meaning-hi",
       "focus_keyword": "महालय श्राद्ध क्या है",
       "secondary_keywords": [
         "श्राद्ध का अर्थ",

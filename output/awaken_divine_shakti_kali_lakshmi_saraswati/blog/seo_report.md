@@ -41,7 +41,7 @@ A long, wide-ranging Navratri talk. Its spine: the forms of the gods are symbols
 
 Meta description (144 characters) **recommended**: "महाकाली महालक्ष्मी महासरस्वती कौन हैं? आचार्य उपेंद्र जी इन्हें तमस, रजस और सत्त्व के रूप समझाते हैं, और बताते हैं कि अकेली देवी अधूरी क्यों है।"
 
-Slug **recommended**: `/hi/mahakali-mahalakshmi-mahasaraswati-arth`
+Slug **recommended**: `/hi/mahakali-mahalakshmi-mahasaraswati-three-gunas-hi`
 
 **English**
 1. Mahakali Mahalakshmi Mahasaraswati: The Three Gunas (51) **recommended**
@@ -115,7 +115,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahakali-mahalakshmi-mahasaraswati-arth/`, `/en/mahakali-mahalakshmi-mahasaraswati-three-gunas/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahakali-mahalakshmi-mahasaraswati-three-gunas-hi/`, `/en/mahakali-mahalakshmi-mahasaraswati-three-gunas/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -552,7 +552,7 @@ The exact values written to output/awaken_divine_shakti_kali_lakshmi_saraswati/b
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "mahakali-mahalakshmi-mahasaraswati-arth",
+      "slug": "mahakali-mahalakshmi-mahasaraswati-three-gunas-hi",
       "focus_keyword": "महाकाली महालक्ष्मी महासरस्वती",
       "secondary_keywords": [
         "महाकाली महालक्ष्मी महासरस्वती का अर्थ",

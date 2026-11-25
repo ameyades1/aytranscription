@@ -45,7 +45,7 @@ Report updated to match: section 2 (keyword table and note), section 3 (recommen
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | upadan-aur-nimitt-karan | material-and-efficient-cause-vedanta |
+| slug | material-and-efficient-cause-vedanta-hi | material-and-efficient-cause-vedanta |
 | focus_keyword | उपादान और निमित्त कारण | material and efficient cause |
 | title | उपादान और निमित्त कारण: घड़ा कौन बनाता है? | Material and Efficient Cause: Who Really Makes the Pot? |
 | meta_description | उपादान और निमित्त कारण क्या हैं? कुम्हार और घड़े के उदाहरण से आचार्य उपेंद्र जी समझाते हैं कि "मैंने बनाया" कहने वाला अहंकार असली कर्ता क्यों नहीं है। | What is the material and efficient cause in Vedanta? With a potter and his pot, Acharya Upendra Ji shows why the "I made it" ego is not the true doer. |

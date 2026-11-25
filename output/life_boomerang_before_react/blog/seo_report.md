@@ -35,7 +35,7 @@ Notes: The `_seo` texts (SEO fix) now carry the Hindi focus keyword "ये य�
 
 Meta description (recommended, in seo.json): क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है।
 
-Slug (recommended, in seo.json): `/hi/ye-yatha-mam-prapadyante-arth`
+Slug (recommended, in seo.json): `/hi/does-god-take-revenge-gita-4-11-hi`
 
 **English**
 1. Bhagavad Gita 4.11 Meaning: Does God Take Revenge? (recommended, 50 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ye-yatha-mam-prapadyante-arth/`, `/en/does-god-take-revenge-gita-4-11/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/does-god-take-revenge-gita-4-11-hi/`, `/en/does-god-take-revenge-gita-4-11/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -512,7 +512,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "ye-yatha-mam-prapadyante-arth",
+      "slug": "does-god-take-revenge-gita-4-11-hi",
       "focus_keyword": "ये यथा मां प्रपद्यन्ते का अर्थ",
       "secondary_keywords": [
         "क्या भगवान बदला लेते हैं",

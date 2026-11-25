@@ -29,13 +29,13 @@ The report had no section 12; one was added (from the standard checklist) with t
 
 ## seo.json changes
 
-None. The focus keywords already match the searched wording and now appear in the `_seo` bodies within the first 100 words; titles, meta descriptions and slugs already contain them. Slugs stay `adhyatmik-aur-sansarik-jeevan` (Hindi) and `spiritual-and-worldly-life` (English). `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged; the report's section 11 holds the same JSON. Sections 2 and 3 were updated and section 12 was added.
+None. The focus keywords already match the searched wording and now appear in the `_seo` bodies within the first 100 words; titles, meta descriptions and slugs already contain them. Slugs stay `spiritual-and-worldly-life-hi` (Hindi) and `spiritual-and-worldly-life` (English). `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged; the report's section 11 holds the same JSON. Sections 2 and 3 were updated and section 12 was added.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | adhyatmik-aur-sansarik-jeevan | spiritual-and-worldly-life |
+| slug | spiritual-and-worldly-life-hi | spiritual-and-worldly-life |
 | focus_keyword | आध्यात्मिक और सांसारिक जीवन | spiritual and worldly life |
 | title | आध्यात्मिक और सांसारिक जीवन: क्या सच में दो संसार हैं? | Spiritual and Worldly Life: Are They Really Separate? |
 | meta_description | क्या आध्यात्मिक और सांसारिक जीवन अलग हैं? आचार्य उपेंद्र जी बताते हैं कि संसार एक ही है, विवाह और व्यापार भी पूजा हैं, और हर मनुष्य अनजाने में आध्यात्मिक है। | Are spiritual and worldly life really separate? Acharya Upendra Ji shows how marriage, business and duty become worship, and why every human is spiritual. |

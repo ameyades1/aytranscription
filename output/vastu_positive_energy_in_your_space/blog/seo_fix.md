@@ -48,7 +48,7 @@ Not changed:
 |---|---|---|
 | title.hi | वास्तु सुधार: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें | वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें (56 characters) |
 | title.en | How to Fix Your Vastu Without Breaking Down Walls | Vastu Remedies Without Demolition: Raise Your Home's Energy (59 characters) |
-| wordpress.hi.slug | vastu-sudhar-bina-tod-phod | vastu-dosh-ke-upay-bina-tod-phod |
+| wordpress.hi.slug | vastu-sudhar-bina-tod-phod | vastu-remedies-without-demolition-hi |
 | wordpress.hi.focus_keyword | वास्तु सुधार | वास्तु दोष के उपाय |
 | wordpress.hi.secondary_keywords | बिना तोड़-फोड़ वास्तु उपाय, फ्लैट के लिए वास्तु, वास्तु यंत्र, वास्तु दोष के उपाय | वास्तु सुधार, बिना तोड़-फोड़ वास्तु उपाय, फ्लैट के लिए वास्तु, वास्तु यंत्र |
 | wordpress.hi.meta_description | क्या वास्तु सुधार के लिए दीवारें तोड़नी पड़ेंगी? आचार्य जी बताते हैं… | क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं… (146 characters; the rest is unchanged) |
@@ -64,7 +64,7 @@ No other talk uses either focus keyword or either new slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | vastu-dosh-ke-upay-bina-tod-phod | vastu-remedies-without-demolition |
+| slug | vastu-remedies-without-demolition-hi | vastu-remedies-without-demolition |
 | focus keyword | वास्तु दोष के उपाय | Vastu remedies without demolition |
 | title | वास्तु दोष के उपाय: बिना तोड़-फोड़ घर की ऊर्जा ऊँची करें | Vastu Remedies Without Demolition: Raise Your Home's Energy |
 | meta description | क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है। | Are there Vastu remedies without demolition? Acharya Ji explains how yantras, yajna and higher vibrations change a home's energy, even in a built flat. |

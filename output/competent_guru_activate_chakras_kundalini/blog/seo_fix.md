@@ -42,13 +42,13 @@ No teaching, example, H1 or order of ideas changed; the blog quotes no verses. T
 | wordpress.en.meta_description | One chakra can take lifetimes. Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey. | Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey. (155) |
 | wordpress.en.slug | kundalini-awakening-through-guru | kundalini-awakening-through-a-guru |
 
-The focus keywords (both kept: the body now uses them), secondary keywords, both titles, the Hindi slug (`guru-se-kundalini-jagran`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended meta descriptions and slugs), 8 (descriptions and suggested English slug) and 12 (checklist, newly added) were updated to match.
+The focus keywords (both kept: the body now uses them), secondary keywords, both titles, the Hindi slug (`kundalini-awakening-through-a-guru-hi`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended meta descriptions and slugs), 8 (descriptions and suggested English slug) and 12 (checklist, newly added) were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-se-kundalini-jagran | kundalini-awakening-through-a-guru |
+| slug | kundalini-awakening-through-a-guru-hi | kundalini-awakening-through-a-guru |
 | focus_keyword | गुरु से कुंडलिनी जागरण | Kundalini awakening through a Guru |
 | title | गुरु से कुंडलिनी जागरण: सात चक्र, सात तरह का जीवन | Kundalini Awakening Through a Guru: 7 Chakras of Life |
 | meta_description | गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है। | Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey. |

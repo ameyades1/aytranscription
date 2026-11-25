@@ -38,7 +38,7 @@ Keyword note (after the SEO fix): the original blog texts did not contain either
 
 Meta description (recommended, 157 characters, in seo.json): त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है।
 
-Slug (recommended, in seo.json): `/hi/trigun-aur-karma`
+Slug (recommended, in seo.json): `/hi/three-gunas-and-human-behaviour-hi`
 
 **English**
 1. Three Gunas and Human Behaviour: Who Really Acts? (recommended, 49 characters)
@@ -110,7 +110,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/trigun-aur-karma/`, `/en/three-gunas-and-human-behaviour/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/three-gunas-and-human-behaviour-hi/`, `/en/three-gunas-and-human-behaviour/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -555,7 +555,7 @@ The values written to `output/three_gunas_karma/blog/seo.json`, exactly as in th
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "trigun-aur-karma",
+      "slug": "three-gunas-and-human-behaviour-hi",
       "focus_keyword": "त्रिगुण और कर्म",
       "secondary_keywords": [
         "कर्म कौन करवाता है",

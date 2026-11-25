@@ -32,7 +32,7 @@ Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither 
 
 Meta description (recommended, as in seo.json): शास्त्र प्रतीकों में क्यों बोलते हैं? आचार्य उपेंद्र जी बताते हैं धर्म में प्रतीकों का महत्व, अंधश्रद्धा कैसे जन्मती है और प्रतीक की कुंजी गुरु के पास क्यों है।
 
-Slug (recommended, as in seo.json): `/hi/dharm-mein-prateekon-ka-mahatva`
+Slug (recommended, as in seo.json): `/hi/importance-of-symbols-in-religion-hi`
 
 **English**
 1. Importance of Symbols in Religion: Meaning vs Blind Faith (57 characters) **recommended**
@@ -103,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/dharm-mein-prateekon-ka-mahatva/`, `/en/importance-of-symbols-in-religion/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/importance-of-symbols-in-religion-hi/`, `/en/importance-of-symbols-in-religion/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -497,7 +497,7 @@ The exact values written to `output/hidden_meaning_spiritual_symbols/blog/seo.js
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "dharm-mein-prateekon-ka-mahatva",
+      "slug": "importance-of-symbols-in-religion-hi",
       "focus_keyword": "धर्म में प्रतीकों का महत्व",
       "secondary_keywords": [
         "शास्त्र प्रतीकों में क्यों बोलते हैं",

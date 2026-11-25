@@ -35,7 +35,7 @@ Keyword note: the original blog texts used neither focus keyword in the body ("�
 
 Meta description (recommended, in seo.json): मन को वश में कैसे करें? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही सच्चा नियंत्रण है।
 
-Slug (recommended, in seo.json): `/hi/man-ko-vash-mein-kaise-karein`
+Slug (recommended, in seo.json): `/hi/how-to-control-your-mind-bhagavad-gita-hi`
 
 **English**
 1. How to Control Your Mind: Sattvic Dhriti in the Gita (recommended, 52 characters)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/man-ko-vash-mein-kaise-karein/`, `/en/how-to-control-your-mind-bhagavad-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-control-your-mind-bhagavad-gita-hi/`, `/en/how-to-control-your-mind-bhagavad-gita/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -397,7 +397,7 @@ The exact values written to `output/control_your_mind_before_it_controls_you/blo
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "man-ko-vash-mein-kaise-karein",
+      "slug": "how-to-control-your-mind-bhagavad-gita-hi",
       "focus_keyword": "मन को वश में कैसे करें",
       "secondary_keywords": [
         "सात्त्विक धृति क्या है",

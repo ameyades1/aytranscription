@@ -36,7 +36,7 @@ Notes:
 
 Meta description (recommended, in seo.json, 135 characters): सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे।
 
-Slug (recommended, in seo.json): `/hi/satsang-se-jeevan-kyon-nahi-badalta`
+Slug (recommended, in seo.json): `/hi/why-satsang-does-not-change-your-life-hi`
 
 **English**
 1. Why Satsang Does Not Change Your Life: Be a Good Listener (recommended, in seo.json, 57 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/satsang-se-jeevan-kyon-nahi-badalta/`, `/en/why-satsang-does-not-change-your-life/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-satsang-does-not-change-your-life-hi/`, `/en/why-satsang-does-not-change-your-life/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -495,7 +495,7 @@ The exact values written to `output/why_satsang_does_not_change_your_life/blog/s
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "satsang-se-jeevan-kyon-nahi-badalta",
+      "slug": "why-satsang-does-not-change-your-life-hi",
       "focus_keyword": "सत्संग से जीवन क्यों नहीं बदलता",
       "secondary_keywords": [
         "अच्छा श्रोता",

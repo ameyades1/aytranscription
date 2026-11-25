@@ -40,7 +40,7 @@ Deliberately not targeted: "Hindu Rashtra", "one nation one election", party nam
 
 Meta description (recommended, 160 characters; in seo.json): राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है।
 
-Slug (recommended; in seo.json): `/hi/ram-rajya-kaisa-tha`
+Slug (recommended; in seo.json): `/hi/was-ram-rajya-federal-or-unitary-hi`
 
 **English**
 
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 
 **Placeholders to fill once the WordPress posts exist**
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ram-rajya-kaisa-tha/`, `/en/was-ram-rajya-federal-or-unitary/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/was-ram-rajya-federal-or-unitary-hi/`, `/en/was-ram-rajya-federal-or-unitary/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -401,7 +401,7 @@ The exact values written to `output/was_ram_rajya_like_federal_or/blog/seo.json`
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "ram-rajya-kaisa-tha",
+      "slug": "was-ram-rajya-federal-or-unitary-hi",
       "focus_keyword": "राम राज्य कैसा था",
       "secondary_keywords": [
         "राम राज्य",

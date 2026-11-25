@@ -35,7 +35,7 @@ Neither focus keyword appeared in the original blog bodies (the Hindi body had o
 
 Meta description (154 characters, recommended): सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है।
 
-Slug (recommended): `/hi/sukh-dukh-ka-asli-karan`
+Slug (recommended): `/hi/why-some-people-are-always-unhappy-hi`
 
 **English**
 1. Why Some People Are Always Unhappy: Dharana Shakti (recommended, 50 characters)
@@ -98,7 +98,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sukh-dukh-ka-asli-karan/`, `/en/why-some-people-are-always-unhappy/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-some-people-are-always-unhappy-hi/`, `/en/why-some-people-are-always-unhappy/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -400,7 +400,7 @@ The exact values written to `output/joy_sorrow_transformation/blog/seo.json` for
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "sukh-dukh-ka-asli-karan",
+      "slug": "why-some-people-are-always-unhappy-hi",
       "focus_keyword": "सुख-दुःख का असली कारण",
       "secondary_keywords": [
         "हमेशा दुखी रहने का कारण",

@@ -47,7 +47,7 @@ Hindi seo.json values are unchanged (the title and meta description already cont
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | prem-ke-prakar | types-of-love |
+| slug | types-of-love-hi | types-of-love |
 | focus_keyword | प्रेम के प्रकार | types of love |
 | title | प्रेम के प्रकार: स्नेह, मित्रता, आदर और गुरु प्रेम | Types of Love: Affection, Friendship, Respect and the Guru |
 | meta_description | क्या प्रेम केवल शादी में होता है? आचार्य उपेंद्र जी बताते हैं प्रेम के प्रकार: छोटों से स्नेह, बराबर वालों से मित्रता, बड़ों का आदर, और गुरु से प्रेम सीखना। | Is love only for marriage? Acharya Upendra Ji explains the types of love: affection, friendship and respect, and why we first learn love from the Guru. |

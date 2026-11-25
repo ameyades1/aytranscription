@@ -44,7 +44,7 @@ The talk takes up a line from the Vedic procedure of the Savitra Kathaka Agnicha
 
 Meta description (**recommended**, as in seo.json): "वेदों में पशुबलि का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है।"
 
-Slug (**recommended**): `/hi/pashu-bali-ka-arth`
+Slug (**recommended**): `/hi/spiritual-meaning-of-animal-sacrifice-hi`
 
 **English**
 1. Spiritual Meaning of Animal Sacrifice: The Beast Within (55) **recommended**
@@ -112,7 +112,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pashu-bali-ka-arth/`, `/en/spiritual-meaning-of-animal-sacrifice/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-meaning-of-animal-sacrifice-hi/`, `/en/spiritual-meaning-of-animal-sacrifice/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -412,7 +412,7 @@ The values written to `output/animal_sacrifice/blog/seo.json` for the page gener
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "pashu-bali-ka-arth",
+      "slug": "spiritual-meaning-of-animal-sacrifice-hi",
       "focus_keyword": "पशुबलि का अर्थ",
       "secondary_keywords": [
         "पशुबलि",

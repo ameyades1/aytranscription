@@ -38,7 +38,7 @@ Keyword note: the focus keywords "आध्यात्मिक और सा�
 
 Meta description (157 characters; recommended; in seo.json): "क्या आध्यात्मिक और सांसारिक जीवन अलग हैं? आचार्य उपेंद्र जी बताते हैं कि संसार एक ही है, विवाह और व्यापार भी पूजा हैं, और हर मनुष्य अनजाने में आध्यात्मिक है।"
 
-Slug (recommended; in seo.json): `/hi/adhyatmik-aur-sansarik-jeevan`
+Slug (recommended; in seo.json): `/hi/spiritual-and-worldly-life-hi`
 
 **English**
 1. Spiritual and Worldly Life: Are They Really Separate? (53) **recommended; in seo.json**
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/adhyatmik-aur-sansarik-jeevan/`, `/en/spiritual-and-worldly-life/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-and-worldly-life-hi/`, `/en/spiritual-and-worldly-life/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -535,7 +535,7 @@ The exact contents of `output/every_human_inherently_spiritual/blog/seo.json`, u
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "adhyatmik-aur-sansarik-jeevan",
+      "slug": "spiritual-and-worldly-life-hi",
       "focus_keyword": "आध्यात्मिक और सांसारिक जीवन",
       "secondary_keywords": [
         "हर मनुष्य आध्यात्मिक है",

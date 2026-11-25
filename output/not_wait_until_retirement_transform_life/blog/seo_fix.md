@@ -42,13 +42,13 @@ Left for the editor (not SEO fixes): the Sanskrit review's content corrections (
 |---|---|---|
 | wordpress.en.meta_description | Should spiritual life wait until retirement? Through Bhaja Govindam verse 7, Acharya Upendra Ji explains why Karma Yoga must begin in childhood, not at 60. | Planning spirituality after retirement? Through Bhaja Govindam verse 7, Acharya Upendra Ji explains why Karma Yoga must begin in childhood, not at 60. (150 characters) |
 
-Nothing else changed. The focus keywords stay the same (the `_seo` texts now use them), so the slugs stay the same: Hindi `adhyatma-kab-shuru-karen` (old and new), English `spirituality-after-retirement` (old and new). Titles, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags are unchanged.
+Nothing else changed. The focus keywords stay the same (the `_seo` texts now use them), so the slugs stay the same: Hindi `spirituality-after-retirement-hi` (old and new), English `spirituality-after-retirement` (old and new). Titles, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags are unchanged.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | adhyatma-kab-shuru-karen | spirituality-after-retirement |
+| slug | spirituality-after-retirement-hi | spirituality-after-retirement |
 | focus keyword | अध्यात्म कब शुरू करें | spirituality after retirement |
 | title | अध्यात्म कब शुरू करें? रिटायरमेंट तक इंतज़ार क्यों | Spirituality After Retirement? Why You Should Not Wait |
 | meta description | अध्यात्म कब शुरू करें? भज गोविन्दम् के सातवें श्लोक से आचार्य उपेंद्र जी बताते हैं कि भगवत्-चिंतन और कर्मयोग साठ के बाद नहीं, बचपन से क्यों शुरू हो। | Planning spirituality after retirement? Through Bhaja Govindam verse 7, Acharya Upendra Ji explains why Karma Yoga must begin in childhood, not at 60. |

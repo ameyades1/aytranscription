@@ -49,7 +49,7 @@ Still unmet (2):
 |---|---|---|
 | wordpress.hi.meta_description | शास्त्र का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है। | शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है। (152 characters) |
 | wordpress.en.meta_description | What does shastra mean? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra and dana to Artha and Kama. | What is the meaning of shastra? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra to Artha and Kama. (149 characters) |
-| wordpress.hi.slug | shastra-ka-arth | unchanged |
+| wordpress.hi.slug | meaning-of-shastra-hi | unchanged |
 | wordpress.en.slug | meaning-of-shastra | unchanged |
 | focus_keyword (hi, en) | शास्त्र का अर्थ / meaning of shastra | unchanged (the `_seo` texts now use them in the opening) |
 | title (hi, en) | (unchanged) | unchanged (already contain the focus keyword) |
@@ -59,7 +59,7 @@ Still unmet (2):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shastra-ka-arth | meaning-of-shastra |
+| slug | meaning-of-shastra-hi | meaning-of-shastra |
 | focus_keyword | शास्त्र का अर्थ | meaning of shastra |
 | title | शास्त्र का अर्थ: धर्म, अर्थ, काम, मोक्ष के नियम | Meaning of Shastra: Dharma, Artha, Kama and Moksha |
 | meta_description | शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है। | What is the meaning of shastra? Acharya Upendra Ji explains it as the do's and don'ts set by a true authority, from Dharma Shastra to Artha and Kama. |

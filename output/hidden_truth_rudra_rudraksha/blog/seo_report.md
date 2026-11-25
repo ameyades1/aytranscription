@@ -34,7 +34,7 @@ Keyword note (updated by `/seo_blog_fix`): the original blog texts used neither 
 
 Meta description (recommended, as in seo.json, 156 characters): रुद्राक्ष का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि रुद्र क्रोध नहीं, वह है जिसकी कमी रुलाती है, और रुद्राक्ष धारण करना गुरु का निरंतर स्मरण क्यों है।
 
-Slug (recommended, as in seo.json): `/hi/rudraksha-ka-arth`
+Slug (recommended, as in seo.json): `/hi/rudraksha-meaning-hi`
 
 **English**
 1. Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps (54 characters) **recommended**
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/rudraksha-ka-arth/`, `/en/rudraksha-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/rudraksha-meaning-hi/`, `/en/rudraksha-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -506,7 +506,7 @@ The exact values written to `output/hidden_truth_rudra_rudraksha/blog/seo.json` 
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "rudraksha-ka-arth",
+      "slug": "rudraksha-meaning-hi",
       "focus_keyword": "रुद्राक्ष का अर्थ",
       "secondary_keywords": [
         "रुद्र का अर्थ",

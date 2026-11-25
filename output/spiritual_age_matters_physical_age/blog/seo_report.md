@@ -38,7 +38,7 @@ Wording check (SEO fix): the focus keywords "आध्यात्मिक आ�
 
 Meta description (156 characters): आपकी आध्यात्मिक आयु कितनी है? आचार्य उपेंद्र जी बताते हैं कि मंदिर जाने, कथा सुनने और प्रार्थना के ढंग से यह कैसे दिखती है, और क्यों वे कहते हैं: गति बढ़ाओ।
 
-Slug: `/hi/aadhyatmik-aayu`
+Slug: `/hi/spiritual-age-vs-physical-age-hi`
 
 **English**
 1. Spiritual Age vs Physical Age: How Old Are You Really? (54 characters) **recommended**
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/aadhyatmik-aayu/`, `/en/spiritual-age-vs-physical-age/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-age-vs-physical-age-hi/`, `/en/spiritual-age-vs-physical-age/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -420,7 +420,7 @@ The values written to `output/spiritual_age_matters_physical_age/blog/seo.json` 
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "aadhyatmik-aayu",
+      "slug": "spiritual-age-vs-physical-age-hi",
       "focus_keyword": "आध्यात्मिक आयु",
       "secondary_keywords": [
         "आध्यात्मिक उम्र कैसे पहचानें",

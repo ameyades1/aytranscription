@@ -39,7 +39,7 @@ Cannibalization check: no existing focus keyword covers earnings and food. `eat_
 
 Meta description (151 characters, **recommended, in seo.json**): क्या सात्विक भोजन ही काफ़ी है? आचार्य उपेंद्र जी बताते हैं कि ईमानदार कमाई और सात्विक भोजन मिलकर फल देते हैं, और भक्ति ने मीराबाई को विष से कैसे बचाया।
 
-Slug: `/hi/imandar-kamai-aur-satvik-bhojan` **(recommended, in seo.json)**
+Slug: `/hi/honest-earnings-and-sattvic-food-hi` **(recommended, in seo.json)**
 
 **English**
 1. Honest Earnings and Sattvic Food: What Your Plate Carries (57 characters) **(recommended)**
@@ -123,7 +123,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/imandar-kamai-aur-satvik-bhojan/`, `/en/honest-earnings-and-sattvic-food/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/honest-earnings-and-sattvic-food-hi/`, `/en/honest-earnings-and-sattvic-food/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -416,7 +416,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "imandar-kamai-aur-satvik-bhojan",
+      "slug": "honest-earnings-and-sattvic-food-hi",
       "focus_keyword": "ईमानदार कमाई और सात्विक भोजन",
       "secondary_keywords": [
         "बेईमानी की कमाई का असर",

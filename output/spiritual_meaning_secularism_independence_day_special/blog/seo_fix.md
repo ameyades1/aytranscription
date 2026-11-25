@@ -31,7 +31,7 @@ Left for the editor (content, not SEO, so outside this fix): the Sanskrit review
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.slug | spiritual-meaning-of-secularism | unchanged |
-| wordpress.hi.slug | dharmanirpekshata-ka-adhyatmik-arth | unchanged |
+| wordpress.hi.slug | spiritual-meaning-of-secularism-hi | unchanged |
 | focus_keyword (hi / en) | धर्मनिरपेक्षता का आध्यात्मिक अर्थ / spiritual meaning of secularism | unchanged |
 | title, meta descriptions, secondary_keywords, links, also_read | | unchanged |
 
@@ -47,7 +47,7 @@ Report updated:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | dharmanirpekshata-ka-adhyatmik-arth | spiritual-meaning-of-secularism |
+| slug | spiritual-meaning-of-secularism-hi | spiritual-meaning-of-secularism |
 | focus keyword | धर्मनिरपेक्षता का आध्यात्मिक अर्थ | spiritual meaning of secularism |
 | title | धर्मनिरपेक्षता का आध्यात्मिक अर्थ: धर्म की फलश्रुति दिखाओ | Spiritual Meaning of Secularism: Show the Fruits of Faith |
 | meta description | धर्मनिरपेक्षता का आध्यात्मिक अर्थ क्या है? आचार्य उपेंद्र जी: सत्य एक है, द्वेष नहीं दृढ़ता, विवेक के साथ अतिथि सत्कार, और पांच यमों की फलश्रुति। | What is the spiritual meaning of secularism? Acharya Upendra Ji on why Truth is one, welcoming guests with discernment, and living the five yamas. |

@@ -30,7 +30,7 @@ No teaching, example, order of ideas, verse (Gita 10.41) or H1 was changed, and 
 |---|---|---|
 | title.hi | महाकाली की असली भूमिका: हर आरंभ उन्हीं से क्यों | महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ (44; section 3's option 2) |
 | wordpress.en.meta_description | Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains her real role: guarding knowledge and wealth before anything begins. | Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else. (154) |
-| wordpress.hi.slug | mahakali-ki-bhumika | mahakali-ki-bhumika (unchanged) |
+| wordpress.hi.slug | role-of-mahakali-hi | role-of-mahakali-hi (unchanged) |
 | wordpress.en.slug | role-of-mahakali | role-of-mahakali (unchanged) |
 | wordpress.hi.focus_keyword | महाकाली की भूमिका | unchanged |
 | wordpress.en.focus_keyword | role of Mahakali | unchanged |
@@ -41,7 +41,7 @@ The focus keywords were already the searched wording (section 2 had no mismatch)
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | mahakali-ki-bhumika | role-of-mahakali |
+| slug | role-of-mahakali-hi | role-of-mahakali |
 | focus_keyword | महाकाली की भूमिका | role of Mahakali |
 | title | महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ | Real Role of Mahakali: Why Every Beginning Starts With Her |
 | meta_description | दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा। | Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else. |

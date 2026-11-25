@@ -38,7 +38,7 @@ Keyword note: the focus keywords "दुर्गा सप्तशती ब�
 
 Meta description (151 characters, recommended): "दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है।"
 
-Slug (recommended): `/hi/durga-saptashati-beej-mantra`
+Slug (recommended): `/hi/durga-saptashati-beej-mantra-sadhana-hi`
 
 **English**
 1. Durga Saptashati Beej Mantra: Sadhana in a Capsule (50) **recommended**
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/durga-saptashati-beej-mantra/`, `/en/durga-saptashati-beej-mantra-sadhana/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/durga-saptashati-beej-mantra-sadhana-hi/`, `/en/durga-saptashati-beej-mantra-sadhana/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -532,7 +532,7 @@ The exact values written to output/unlock_divine_energy_durga_saptashati_mantra/
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "durga-saptashati-beej-mantra",
+      "slug": "durga-saptashati-beej-mantra-sadhana-hi",
       "focus_keyword": "दुर्गा सप्तशती बीज मंत्र",
       "secondary_keywords": [
         "बीज मंत्र क्या है",

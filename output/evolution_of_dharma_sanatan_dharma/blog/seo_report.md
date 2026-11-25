@@ -41,7 +41,7 @@ Not targeted on purpose: "दक्षिणा की शुरुआत", "ori
 
 Meta description (**recommended**): सनातन धर्म का विकास कैसे हुआ? आचार्य उपेंद्र जी बताते हैं वेदों की यात्रा: मंत्र संहिता की स्तुति से ब्राह्मण के कर्मकांड, आरण्यक और उपनिषद के आत्मज्ञान तक।
 
-Slug (**recommended**): `/hi/sanatan-dharma-ka-vikas`
+Slug (**recommended**): `/hi/evolution-of-sanatan-dharma-hi`
 
 **English**
 1. Evolution of Sanatan Dharma: From Praise to Self-Knowledge (58 characters) — **recommended**
@@ -122,7 +122,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sanatan-dharma-ka-vikas/`, `/en/evolution-of-sanatan-dharma/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/evolution-of-sanatan-dharma-hi/`, `/en/evolution-of-sanatan-dharma/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -551,7 +551,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "sanatan-dharma-ka-vikas",
+      "slug": "evolution-of-sanatan-dharma-hi",
       "focus_keyword": "सनातन धर्म का विकास",
       "secondary_keywords": [
         "वेद के चार भाग",

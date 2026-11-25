@@ -36,7 +36,7 @@ Keyword notes:
 
 Meta description (recommended, after the SEO fix): हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। (147 characters)
 
-Slug (recommended, after the SEO fix): `/hi/ganpati-puja-samajh-ke-saath` (earlier: `/hi/ganpati-upasana-samajh-ke-saath`)
+Slug (recommended, after the SEO fix): `/hi/worship-lord-ganesha-with-understanding-hi` (earlier: `/hi/ganpati-upasana-samajh-ke-saath`)
 
 **English** (the H1 "We Worship Lord Ganesha Every Year, but Have We Understood Him?" stays)
 1. Worship Lord Ganesha Every Year? Do You Understand Him? (recommended, 55 characters; mirrors the video title)
@@ -96,7 +96,7 @@ The headings are already question-led and short, which suits mobile. Suggestions
 
 For later use in WordPress only; not added to the page. Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog). Video: uploaded 2026-08-23 per yt-dlp (`20260823`), 278 seconds, title "You Worship Ganesh Every Year. But Do You Understand Him? | Acharya Upendra Ji".
 
-URL slugs (from seo.json, for `{{PLACEHOLDER_WORDPRESS_URL_HI}}` and `{{PLACEHOLDER_WORDPRESS_URL_EN}}`): Hindi `ganpati-puja-samajh-ke-saath`, English `worship-lord-ganesha-with-understanding`.
+URL slugs (from seo.json, for `{{PLACEHOLDER_WORDPRESS_URL_HI}}` and `{{PLACEHOLDER_WORDPRESS_URL_EN}}`): Hindi `worship-lord-ganesha-with-understanding-hi`, English `worship-lord-ganesha-with-understanding`.
 
 **Hindi**
 
@@ -436,7 +436,7 @@ The exact contents of `output/worship_ganesh_every_year_but_understand/blog/seo.
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "ganpati-puja-samajh-ke-saath",
+      "slug": "worship-lord-ganesha-with-understanding-hi",
       "focus_keyword": "गणपति पूजा",
       "secondary_keywords": [
         "गणपति उपासना",

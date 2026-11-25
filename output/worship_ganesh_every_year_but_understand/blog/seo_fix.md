@@ -35,7 +35,7 @@ Not fixed (outside an SEO fix; editorial, from the Sanskrit review and section 1
 | field | before | after |
 |---|---|---|
 | title.hi | गणपति उपासना हर वर्ष, पर क्या हमने गणपति को समझा? | हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा? |
-| wordpress.hi.slug | ganpati-upasana-samajh-ke-saath | ganpati-puja-samajh-ke-saath |
+| wordpress.hi.slug | ganpati-upasana-samajh-ke-saath | worship-lord-ganesha-with-understanding-hi |
 | wordpress.hi.focus_keyword | गणपति उपासना | गणपति पूजा |
 | wordpress.hi.secondary_keywords | गणपति पूजा का अर्थ, श्रद्धा और ज्ञान, गणेश जी किसके देवता हैं | गणपति उपासना, गणपति पूजा का अर्थ, श्रद्धा और ज्ञान, गणेश जी किसके देवता हैं |
 | wordpress.hi.meta_description | हर वर्ष गणपति उपासना करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। | हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। |
@@ -46,7 +46,7 @@ English: no seo.json change. The focus keyword "worship Lord Ganesha" is already
 
 | field | Hindi | English |
 |---|---|---|
-| slug | ganpati-puja-samajh-ke-saath | worship-lord-ganesha-with-understanding |
+| slug | worship-lord-ganesha-with-understanding-hi | worship-lord-ganesha-with-understanding |
 | focus keyword | गणपति पूजा | worship Lord Ganesha |
 | title | हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा? | Worship Lord Ganesha Every Year? Do You Understand Him? |
 | meta description | हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। | You worship Lord Ganesha every year, so why so many obstacles? Acharya Upendra Ji explains why faith needs knowledge and how to become a jnani bhakta. |

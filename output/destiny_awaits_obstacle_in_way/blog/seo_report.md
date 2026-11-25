@@ -34,7 +34,7 @@ Keyword note: the original blog texts did not contain either focus keyword word 
 
 Meta description (recommended, in seo.json, 152 characters): भाग्य में रुकावट क्यों आती है? आचार्य उपेंद्र जी योगसूत्र ४.३ के किसान दृष्टांत से समझाते हैं: माया का कचरा हटाइए, भाग्य का प्रवाह अपने आप बहने लगता है।
 
-Slug (recommended, in seo.json): `/hi/bhagya-mein-rukawat`
+Slug (recommended, in seo.json): `/hi/what-is-blocking-your-destiny-hi`
 
 **English**
 1. What Is Blocking Your Destiny? Patanjali's Farmer Analogy (recommended, in seo.json, 57 characters)
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bhagya-mein-rukawat/`, `/en/what-is-blocking-your-destiny/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-is-blocking-your-destiny-hi/`, `/en/what-is-blocking-your-destiny/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -400,7 +400,7 @@ The exact contents of `output/destiny_awaits_obstacle_in_way/blog/seo.json`, use
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "bhagya-mein-rukawat",
+      "slug": "what-is-blocking-your-destiny-hi",
       "focus_keyword": "भाग्य में रुकावट",
       "secondary_keywords": [
         "योगसूत्र ४.३ का अर्थ",

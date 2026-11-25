@@ -40,7 +40,7 @@ The report had no section 12 yet; it was added with these marks.
 | wordpress.en.meta_description | Why does sadhana not change you? Acharya Upendra Ji explains shravana, manana and nididhyasana, and three tests to know if an experience is real. | Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real. |
 | wordpress.hi.focus_keyword | श्रवण मनन निदिध्यासन | श्रवण मनन निदिध्यासन (unchanged; it is the searched wording) |
 | wordpress.en.focus_keyword | shravana manana nididhyasana | shravana manana nididhyasana (unchanged; it is the searched wording) |
-| wordpress.hi.slug | shravan-manan-nididhyasan | shravan-manan-nididhyasan (unchanged) |
+| wordpress.hi.slug | shravana-manana-nididhyasana-hi | shravana-manana-nididhyasana-hi (unchanged) |
 | wordpress.en.slug | shravana-manana-nididhyasana | shravana-manana-nididhyasana (unchanged; already built from the focus keyword, 28 characters) |
 
 Secondary keywords, `links` and `also_read` are unchanged: no edit touched a link phrase or the "Also read" heading. The report's sections 2, 3, 8, 11 and 12 were updated to match.
@@ -49,7 +49,7 @@ Secondary keywords, `links` and `also_read` are unchanged: no edit touched a lin
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shravan-manan-nididhyasan | shravana-manana-nididhyasana |
+| slug | shravana-manana-nididhyasana-hi | shravana-manana-nididhyasana |
 | focus_keyword | श्रवण मनन निदिध्यासन | shravana manana nididhyasana |
 | title | श्रवण मनन निदिध्यासन: साधना की छूटी हुई सीढ़ी | Shravana Manana Nididhyasana: The Missing Step in Sadhana |
 | meta_description | प्रवचन सुने, ग्रंथ पढ़े, फिर भी भीतर कुछ क्यों नहीं बदलता? आचार्य उपेंद्र जी श्रवण मनन निदिध्यासन का क्रम और सच्ची अनुभूति की तीन कसौटियाँ बताते हैं। | Why does sadhana not change you? Acharya Upendra Ji explains the shravana manana nididhyasana sequence and three tests to know if an experience is real. |

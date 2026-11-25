@@ -38,7 +38,7 @@ Keyword note: neither focus keyword appeared word for word in the original blog 
 
 Meta description (159 characters) **recommended**: "स्त्री को शक्ति क्यों कहा जाता है? आचार्य उपेंद्र जी बताते हैं कि यह शक्ति शरीर के बल से परे है, और माँ की हज़ार गुना शक्ति के साथ बड़ा उत्तरदायित्व भी आता है।"
 
-Slug **recommended**: `/hi/stri-ko-shakti-kyon-kaha-jata-hai`
+Slug **recommended**: `/hi/why-is-woman-called-shakti-hi`
 
 **English**
 1. Why Is Woman Called Shakti? A Mother's Thousandfold Power (57) **recommended**
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/stri-ko-shakti-kyon-kaha-jata-hai/`, `/en/why-is-woman-called-shakti/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-is-woman-called-shakti-hi/`, `/en/why-is-woman-called-shakti/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -537,7 +537,7 @@ The values written to `output/divine_power_every_woman_holds/blog/seo.json` for 
   "wordpress": {
     "category": "women",
     "hi": {
-      "slug": "stri-ko-shakti-kyon-kaha-jata-hai",
+      "slug": "why-is-woman-called-shakti-hi",
       "focus_keyword": "स्त्री को शक्ति क्यों कहा जाता है",
       "secondary_keywords": [
         "नारी शक्ति का आध्यात्मिक अर्थ",

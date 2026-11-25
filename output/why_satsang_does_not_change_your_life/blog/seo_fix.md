@@ -39,7 +39,7 @@ Still unmet: none.
 | Field | Before | After |
 |---|---|---|
 | title.hi | अच्छा श्रोता कौन है? सत्संग जीवन क्यों नहीं बदलता | सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें |
-| wordpress.hi.slug | satsang-aur-achha-shrota | satsang-se-jeevan-kyon-nahi-badalta |
+| wordpress.hi.slug | satsang-aur-achha-shrota | why-satsang-does-not-change-your-life-hi |
 | wordpress.hi.focus_keyword | अच्छा श्रोता | सत्संग से जीवन क्यों नहीं बदलता |
 | wordpress.hi.secondary_keywords | सत्संग का अर्थ, सत्संग का पहला विघ्न, सत्संग से जीवन क्यों नहीं बदलता, satsang ka labh kyon nahi milta | अच्छा श्रोता, सत्संग का अर्थ, सत्संग का पहला विघ्न, satsang ka labh kyon nahi milta |
 | wordpress.hi.meta_description | सत्संग सुनकर भी जीवन क्यों नहीं बदलता? … | सत्संग से जीवन क्यों नहीं बदलता? … (rest unchanged) |
@@ -54,7 +54,7 @@ Still unmet: none.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | satsang-se-jeevan-kyon-nahi-badalta | why-satsang-does-not-change-your-life |
+| slug | why-satsang-does-not-change-your-life-hi | why-satsang-does-not-change-your-life |
 | focus_keyword | सत्संग से जीवन क्यों नहीं बदलता | why satsang does not change your life |
 | title | सत्संग से जीवन क्यों नहीं बदलता? अच्छा श्रोता बनें | Why Satsang Does Not Change Your Life: Be a Good Listener |
 | meta_description | सत्संग से जीवन क्यों नहीं बदलता? आचार्य उपेंद्र जी बताते हैं कि अच्छा श्रोता कौन है: जो हर बात स्वयं पर लागू करे, दूसरों के दोष न खोजे। | Here is why satsang does not change your life: Acharya Upendra Ji explains how a good listener applies every word to themselves, not to others' faults. |

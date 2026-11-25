@@ -40,7 +40,7 @@ Still unmet (1):
 |---|---|---|
 | wordpress.hi.meta_description | ज्ञान पाप से नहीं रोकता, फिर भी ज्ञानी को मोक्ष क्यों? आचार्य उपेंद्र जी समझाते हैं वासना, अहंकार और सद्गुरु का रहस्य, और कौन सा ज्ञान सच में मुक्त करता है। | ज्ञान पाप से नहीं रोकता, फिर भी ज्ञानी को मोक्ष क्यों? आचार्य उपेंद्र जी समझाते हैं वासना, अहंकार और सद्गुरु का रहस्य, और कौन सा ज्ञान मुक्ति देता है। |
 | wordpress.en.meta_description | Why doesn't knowledge stop sin, yet the wise attain moksha? Acharya Upendra Ji explains vasana, ego and the Sadguru, and which knowledge truly frees you. | Knowledge doesn't stop sin, yet the wise attain moksha. Acharya Upendra Ji explains vasana, ego and the Sadguru, and which knowledge leads to liberation. |
-| wordpress.hi.slug | kaun-sa-gyan-mukti-deta-hai | kaun-sa-gyan-mukti-deta-hai (unchanged) |
+| wordpress.hi.slug | which-knowledge-leads-to-liberation-hi | which-knowledge-leads-to-liberation-hi (unchanged) |
 | wordpress.en.slug | which-knowledge-leads-to-liberation | which-knowledge-leads-to-liberation (unchanged) |
 
 Both focus keywords stay as they were ("कौन सा ज्ञान मुक्ति देता है" / "which knowledge leads to liberation"): the searched wording is the focus keyword and the `_seo` texts now use it. They are unique across all talks. Titles, `secondary_keywords`, `links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report was updated in these places:
@@ -54,7 +54,7 @@ Both focus keywords stay as they were ("कौन सा ज्ञान मु�
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kaun-sa-gyan-mukti-deta-hai | which-knowledge-leads-to-liberation |
+| slug | which-knowledge-leads-to-liberation-hi | which-knowledge-leads-to-liberation |
 | focus_keyword | कौन सा ज्ञान मुक्ति देता है | which knowledge leads to liberation |
 | title | कौन सा ज्ञान मुक्ति देता है? परम आनंद का रहस्य | Which Knowledge Leads to Liberation? The Secret of Bliss |
 | meta_description | ज्ञान पाप से नहीं रोकता, फिर भी ज्ञानी को मोक्ष क्यों? आचार्य उपेंद्र जी समझाते हैं वासना, अहंकार और सद्गुरु का रहस्य, और कौन सा ज्ञान मुक्ति देता है। | Knowledge doesn't stop sin, yet the wise attain moksha. Acharya Upendra Ji explains vasana, ego and the Sadguru, and which knowledge leads to liberation. |

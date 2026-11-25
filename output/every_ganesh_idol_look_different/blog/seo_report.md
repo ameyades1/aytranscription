@@ -35,7 +35,7 @@ Seasonal: refresh the post and push it on social channels in July–August each 
 
 Meta description (recommended; in seo.json): गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है।
 
-Slug: /hi/ganpati-ki-murti-kaisi-honi-chahiye/
+Slug: /hi/how-to-choose-a-ganesh-idol-hi/
 
 **English**
 1. How to Choose a Ganesh Idol: Whose Form Should It Follow? (recommended; in seo.json)
@@ -105,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-ki-murti-kaisi-honi-chahiye/`, `/en/how-to-choose-a-ganesh-idol/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-choose-a-ganesh-idol-hi/`, `/en/how-to-choose-a-ganesh-idol/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -395,7 +395,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "ganpati-ki-murti-kaisi-honi-chahiye",
+      "slug": "how-to-choose-a-ganesh-idol-hi",
       "focus_keyword": "गणपति की मूर्ति कैसी होनी चाहिए",
       "secondary_keywords": [
         "गणेश मूर्ति कैसे चुनें",

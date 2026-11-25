@@ -33,7 +33,7 @@ Still unmet: none. `python3 tools/check_seo.py ultimate_source_learn_about_every
 |---|---|---|
 | title.hi | सब धर्मों का मूल स्रोत एक: एक साधिका का अनुभव | सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव |
 | title.en | Essence of All Religions: A Seeker's Story of One Source | Unity of All Religions: A Seeker's Story of One Source |
-| wordpress.hi.slug | sab-dharmon-ka-mool-srot | sabhi-dharmon-ka-mool-srot |
+| wordpress.hi.slug | sab-dharmon-ka-mool-srot | unity-of-all-religions-hi |
 | wordpress.hi.focus_keyword | सब धर्मों का मूल स्रोत | सभी धर्मों का मूल स्रोत |
 | wordpress.hi.secondary_keywords | सभी धर्मों का मूल स्रोत, सब धर्म एक समान हैं, गीता और बाइबल में समानता, सनातन धर्म सबसे प्राचीन धर्म | सब धर्मों का मूल स्रोत, सब धर्म एक समान हैं, गीता और बाइबल में समानता, सनातन धर्म सबसे प्राचीन धर्म |
 | wordpress.hi.meta_description | सब धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं… | सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं… (rest unchanged, 155 characters) |
@@ -48,7 +48,7 @@ Still unmet: none. `python3 tools/check_seo.py ultimate_source_learn_about_every
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sabhi-dharmon-ka-mool-srot | unity-of-all-religions |
+| slug | unity-of-all-religions-hi | unity-of-all-religions |
 | focus keyword | सभी धर्मों का मूल स्रोत | unity of all religions |
 | title | सभी धर्मों का मूल स्रोत एक: एक साधिका का अनुभव | Unity of All Religions: A Seeker's Story of One Source |
 | meta description | सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया। | Unity of all religions, in one seeker's story: Geeta Dangi's hidden bias turned to respect when Acharya Ji showed that the Gita and the Bible agree. |

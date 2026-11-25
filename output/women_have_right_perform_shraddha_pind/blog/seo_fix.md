@@ -36,7 +36,7 @@ Not done on purpose: "pind daan" / "पिंडदान" is still not in the b
 |---|---|---|
 | title.hi | स्त्रियों को श्राद्ध का अधिकार: शास्त्र क्या कहते हैं | क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं |
 | title.en | Women Can Perform Shraddha: What the Scriptures Say | Can Women Perform Shraddha? What the Scriptures Say |
-| wordpress.hi.slug | striyon-ko-shraddha-ka-adhikar | kya-striyan-shraddha-kar-sakti-hain |
+| wordpress.hi.slug | striyon-ko-shraddha-ka-adhikar | can-women-perform-shraddha-hi |
 | wordpress.hi.focus_keyword | स्त्रियों को श्राद्ध का अधिकार | क्या स्त्रियाँ श्राद्ध कर सकती हैं |
 | wordpress.hi.secondary_keywords | क्या स्त्रियाँ श्राद्ध कर सकती हैं, क्या महिलाएं पिंडदान कर सकती हैं, बेटी श्राद्ध कर सकती है | स्त्रियों को श्राद्ध का अधिकार, क्या महिलाएं पिंडदान कर सकती हैं, बेटी श्राद्ध कर सकती है |
 | wordpress.hi.meta_description | क्या स्त्रियाँ श्राद्ध और पिंडदान कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है और यह सब पर अनिवार्य क्यों नहीं। | क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं। |
@@ -52,7 +52,7 @@ The titles and meta descriptions were rewritten because they did not contain the
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kya-striyan-shraddha-kar-sakti-hain | can-women-perform-shraddha |
+| slug | can-women-perform-shraddha-hi | can-women-perform-shraddha |
 | focus keyword | क्या स्त्रियाँ श्राद्ध कर सकती हैं | can women perform shraddha |
 | title | क्या स्त्रियाँ श्राद्ध कर सकती हैं? शास्त्र क्या कहते हैं | Can Women Perform Shraddha? What the Scriptures Say |
 | meta description | क्या स्त्रियाँ श्राद्ध कर सकती हैं? आचार्य उपेंद्र जी बताते हैं कि स्त्रियों को श्राद्ध का अधिकार क्यों है, यह सब पर अनिवार्य क्यों नहीं और पितर क्या चाहते हैं। | Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask. |

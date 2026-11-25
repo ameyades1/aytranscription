@@ -31,7 +31,7 @@ No teaching, example, verse, translation, H1 or order of ideas changed, and Mark
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | varna-aur-ashram-vyavastha | varna-aur-ashram-vyavastha (unchanged) |
+| wordpress.hi.slug | varna-and-ashrama-system-hi | varna-and-ashrama-system-hi (unchanged) |
 | wordpress.en.slug | varna-and-ashrama-system | varna-and-ashrama-system (unchanged; 24 characters, contains the keyword) |
 
 No seo.json field changed: the focus keywords are the searched wording and the `_seo` texts now use them, and the titles and meta descriptions already contain them. `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 3 and 8 already match it.
@@ -40,7 +40,7 @@ No seo.json field changed: the focus keywords are the searched wording and the `
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | varna-aur-ashram-vyavastha | varna-and-ashrama-system |
+| slug | varna-and-ashrama-system-hi | varna-and-ashrama-system |
 | focus_keyword | वर्ण और आश्रम व्यवस्था | varna and ashrama system |
 | title | वर्ण और आश्रम व्यवस्था: अध्यात्म साठ तक क्यों टालें? | Varna and Ashrama System: Why Wait Until 60 to Turn Inward? |
 | meta_description | वर्ण और आश्रम व्यवस्था का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि वर्ण गुण और कर्म से बदलता है, और अध्यात्म को साठ के बाद तक टालना क्यों ठीक नहीं। | What does the varna and ashrama system teach? Acharya Upendra Ji shows how varna shifts with guna and action, and why spirituality should not wait for 60. |

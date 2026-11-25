@@ -36,7 +36,7 @@ Keyword note: the original blog texts never used either focus keyword word for w
 
 Meta description (148 characters) **(recommended)**: क्या आप केवल वेतन और बदले के लिए काम करते हैं? आचार्य उपेंद्र जी बताते हैं कि काम में आनंद कैसे पाएं: खुश होकर कर्म करें, यही कर्मयोग की पात्रता है।
 
-Slug: `/hi/kaam-mein-anand-kaise-paayen` **(recommended)**
+Slug: `/hi/how-to-find-joy-in-your-work-hi` **(recommended)**
 
 **English**
 1. How to Find Joy in Your Work: Act from Happiness (48 characters) **(recommended)**
@@ -106,7 +106,7 @@ Cannibalization: none with current focus keywords. Watch "work without expectati
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-05 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2025-02-07, 195 seconds. URL slugs: `{{HI_URL}}` ends in `/hi/kaam-mein-anand-kaise-paayen`, `{{EN_URL}}` in `/en/how-to-find-joy-in-your-work`.
+For later use in WordPress; not added to the page. Dates: published 2026-10-03, modified 2026-10-05 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2025-02-07, 195 seconds. URL slugs: `{{HI_URL}}` ends in `/hi/how-to-find-joy-in-your-work-hi`, `{{EN_URL}}` in `/en/how-to-find-joy-in-your-work`.
 
 ### Hindi
 
@@ -385,7 +385,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "kaam-mein-anand-kaise-paayen",
+      "slug": "how-to-find-joy-in-your-work-hi",
       "focus_keyword": "काम में आनंद कैसे पाएं",
       "secondary_keywords": [
         "बिना अपेक्षा के कर्म",

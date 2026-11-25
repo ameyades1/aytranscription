@@ -35,7 +35,7 @@ Deliberately not targeted: "2029 election prediction", "2029 चुनाव भ
 
 Meta description (recommended, in seo.json): भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी बताते हैं: भविष्य उज्ज्वल है, पर कठिनाइयों से होकर; देश बदलने में सबकी भूमिका है, आधार है आध्यात्मिक शक्ति।
 
-Slug (recommended, in seo.json): `/hi/bharat-ka-bhavishya`
+Slug (recommended, in seo.json): `/hi/future-of-bharat-hi`
 
 **English**
 1. The Future of Bharat: Why Spiritual Strength Must Grow (recommended, 54 characters)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bharat-ka-bhavishya/`, `/en/future-of-bharat/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/future-of-bharat-hi/`, `/en/future-of-bharat/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -394,7 +394,7 @@ The exact values written to `output/future_country_bharat_know/blog/seo.json` fo
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "bharat-ka-bhavishya",
+      "slug": "future-of-bharat-hi",
       "focus_keyword": "भारत का भविष्य",
       "secondary_keywords": [
         "भारत कैसे बदलेगा",

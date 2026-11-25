@@ -37,7 +37,7 @@ Keyword note: the searched wording and the body wording match, so the focus keyw
 
 Meta description (151 characters): सच्चा धन क्या है? आचार्य उपेंद्र जी बताते हैं कि धन केवल मेहनत से नहीं, बुद्धि से आता है, संत धन से अनासक्त क्यों रहते हैं, और धन के छह रूप कौन से हैं।
 
-Slug: `/hi/sachcha-dhan-kya-hai`
+Slug: `/hi/what-is-true-wealth-hi`
 
 **English**
 1. What Is True Wealth? Money, Health, Respect and More (52 characters) **(recommended)**
@@ -102,7 +102,7 @@ FAQ 4 deliberately avoids "whenever he wished" (see section 10, flag 2).
 
 For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-08 (git log of the Hindi blog). Video facts from yt-dlp: uploaded 2026-10-01, 103 seconds.
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-dhan-kya-hai/`, `/en/what-is-true-wealth/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-is-true-wealth-hi/`, `/en/what-is-true-wealth/`).
 
 ### Hindi
 
@@ -517,7 +517,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "sachcha-dhan-kya-hai",
+      "slug": "what-is-true-wealth-hi",
       "focus_keyword": "सच्चा धन क्या है",
       "secondary_keywords": [
         "धन के छह रूप",

@@ -33,7 +33,7 @@ No teaching, example, H1, gloss or order of ideas changed, and the Markdown is k
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | jeevan-ka-pratham-kartavya | jeevan-ka-pratham-kartavya (unchanged; already built from the focus keyword) |
+| wordpress.hi.slug | first-duty-in-life-hi | first-duty-in-life-hi (unchanged; already built from the focus keyword) |
 | wordpress.en.slug | first-duty-in-life | first-duty-in-life (unchanged; 18 characters, the focus keyword) |
 
 No other field changed: the focus keywords (now in the fixed bodies), secondary keywords, `title` and meta descriptions (both already contain the focus keywords), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. Section 2 has a new keyword note, section 3 already marks the seo.json values as recommended, section 4 notes the applied edits, section 8 already matched and now also names the seo.json slugs for its URL placeholders, and section 12 was added.
@@ -42,7 +42,7 @@ No other field changed: the focus keywords (now in the fixed bodies), secondary 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | jeevan-ka-pratham-kartavya | first-duty-in-life |
+| slug | first-duty-in-life-hi | first-duty-in-life |
 | focus_keyword | जीवन का प्रथम कर्तव्य | first duty in life |
 | title | जीवन का प्रथम कर्तव्य क्या है? गर्भ में किया गया वचन | Your First Duty in Life: The Promise Made in the Womb |
 | meta_description | जीवन का प्रथम कर्तव्य क्या है? आचार्य उपेंद्र जी वह वचन याद दिलाते हैं जो हर जीव गर्भ में स्वयं से करता है: गुरु की खोज, प्रायश्चित, पुण्य कार्य और मोक्ष। | What is your first duty in life? Acharya Upendra Ji recalls the promise each soul makes in the womb: find a realised Guru, atone, do good, seek moksha. |

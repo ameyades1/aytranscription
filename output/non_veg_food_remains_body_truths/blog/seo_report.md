@@ -35,7 +35,7 @@ Keyword note: the primary keywords are the searched questions themselves. The or
 
 Meta description (144 characters): "क्या मनुष्य का शरीर मांसाहार के लिए बना है? आचार्य उपेंद्र जी लंबी, लहरदार मानव आँत की तुलना मांसाहारी प्राणियों की छोटी, चिकनी आँत से करते हैं।"
 
-Slug: `/hi/kya-sharir-mansahar-ke-liye-bana-hai`
+Slug: `/hi/are-humans-meant-to-eat-meat-hi`
 
 **English**
 1. Are Humans Meant to Eat Meat? What Your Gut Reveals (51) **recommended**
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-sharir-mansahar-ke-liye-bana-hai/`, `/en/are-humans-meant-to-eat-meat/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/are-humans-meant-to-eat-meat-hi/`, `/en/are-humans-meant-to-eat-meat/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -394,7 +394,7 @@ The exact contents of output/non_veg_food_remains_body_truths/blog/seo.json, as 
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "kya-sharir-mansahar-ke-liye-bana-hai",
+      "slug": "are-humans-meant-to-eat-meat-hi",
       "focus_keyword": "क्या मनुष्य का शरीर मांसाहार के लिए बना है",
       "secondary_keywords": [
         "मनुष्य और मांसाहारी प्राणियों का पाचन तंत्र",

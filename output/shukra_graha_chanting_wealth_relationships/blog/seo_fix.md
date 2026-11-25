@@ -28,7 +28,7 @@ Still unmet (1): "No unsupported scriptural claims". The body's "शास्त
 |---|---|---|
 | wordpress.en.slug | significance-of-venus-shukra | significance-of-venus-in-vedic-astrology |
 | wordpress.en.meta_description | How does Venus, called Shukra, shape love, marriage, wealth and art? Acharya Upendra Ji explains the signs of a weak Venus and the Shukra beej mantra jap. | The significance of Venus in Vedic astrology: how Shukra shapes love, marriage, wealth and art. Acharya Upendra Ji explains the signs of a weak Venus. |
-| wordpress.hi.slug | shukra-grah-ka-prabhav | unchanged |
+| wordpress.hi.slug | significance-of-venus-in-vedic-astrology-hi | unchanged |
 | focus_keyword (hi / en) | शुक्र ग्रह का प्रभाव / significance of Venus in Vedic astrology | unchanged |
 | title, Hindi meta description, links, also_read, secondary_keywords | | unchanged |
 
@@ -38,7 +38,7 @@ Report updated: section 2 (keyword wording note), section 3 (English meta descri
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shukra-grah-ka-prabhav | significance-of-venus-in-vedic-astrology |
+| slug | significance-of-venus-in-vedic-astrology-hi | significance-of-venus-in-vedic-astrology |
 | focus keyword | शुक्र ग्रह का प्रभाव | significance of Venus in Vedic astrology |
 | title | शुक्र ग्रह का प्रभाव: प्रेम, विवाह, धन और आभा का कारक | Significance of Venus in Vedic Astrology: Love and Wealth |
 | meta description | शुक्र ग्रह का प्रभाव प्रेम, विवाह, धन और कला पर कैसे पड़ता है? आचार्य उपेंद्र जी बताते हैं प्रबल और दोषग्रस्त शुक्र के लक्षण और शुक्र बीज मंत्र जप साधना। | The significance of Venus in Vedic astrology: how Shukra shapes love, marriage, wealth and art. Acharya Upendra Ji explains the signs of a weak Venus. |

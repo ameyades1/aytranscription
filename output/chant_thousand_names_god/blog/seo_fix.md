@@ -44,7 +44,7 @@ Notes, not fixed here (outside this command's scope):
 | title.hi | सहस्रनाम का असली अर्थ: भगवान के हज़ार नाम क्यों? | सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों? |
 | wordpress.hi.meta_description | एक ही भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं कि सहस्रनाम का उद्देश्य रटना नहीं, गीता के 'वासुदेवः सर्वम्' की तरह हर रूप में परमात्मा को देखना है। | सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है। (159 characters) |
 | wordpress.en.meta_description | Why chant a thousand names of one God? Acharya Upendra Ji explains that a sahasranama is not rote repetition but a way to see God in every form. | What is the meaning of sahasranama? Acharya Upendra Ji explains why we chant a thousand names of one God: not rote repetition, but to see God in all forms. (155 characters) |
-| wordpress.hi.slug | sahasranam-ka-arth | sahasranam-ka-arth (unchanged) |
+| wordpress.hi.slug | meaning-of-sahasranama-hi | meaning-of-sahasranama-hi (unchanged) |
 | wordpress.en.slug | meaning-of-sahasranama | meaning-of-sahasranama (unchanged) |
 | focus_keyword (hi / en) | सहस्रनाम का अर्थ / meaning of sahasranama | unchanged (both now appear word for word in the `_seo` bodies) |
 
@@ -54,7 +54,7 @@ Unchanged: title.en, secondary keywords, alt text, captions, links, also_read, r
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sahasranam-ka-arth | meaning-of-sahasranama |
+| slug | meaning-of-sahasranama-hi | meaning-of-sahasranama |
 | focus_keyword | सहस्रनाम का अर्थ | meaning of sahasranama |
 | title | सहस्रनाम का अर्थ: भगवान के हज़ार नाम क्यों? | Meaning of Sahasranama: Why Chant 1000 Names of God? |
 | meta_description | सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है। | What is the meaning of sahasranama? Acharya Upendra Ji explains why we chant a thousand names of one God: not rote repetition, but to see God in all forms. |

@@ -30,7 +30,7 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | sadhana-mein-swasthya-ka-mahatva | unchanged |
+| wordpress.hi.slug | health-on-the-spiritual-path-hi | unchanged |
 | wordpress.en.slug | health-on-the-spiritual-path | unchanged |
 | focus keywords, secondary keywords, titles, meta descriptions, links, also_read | | unchanged (titles and metas already contain the focus keywords) |
 
@@ -38,7 +38,7 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sadhana-mein-swasthya-ka-mahatva | health-on-the-spiritual-path |
+| slug | health-on-the-spiritual-path-hi | health-on-the-spiritual-path |
 | focus_keyword | साधना में स्वास्थ्य का महत्व | health on the spiritual path |
 | title | साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक | Health on the Spiritual Path: From Illness to Liberation |
 | meta_description | साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है। | Why health matters on the spiritual path: Acharya Ji maps four steps, from illness to health, enjoyment, siddhi and liberation, and why siddhis must wait. |

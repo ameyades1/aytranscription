@@ -50,7 +50,7 @@ Still unmet: none. Report section 12 was added by this fix, since the report had
 | wordpress.en.meta_description | What does Ganpati Visarjan really mean? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay. | What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay. (149 characters) |
 | wordpress.en.secondary_keywords | unchanged (the old keyword is the same query in a different word order, so it is not added) | unchanged |
 | wordpress.hi.meta_description | गणपति विसर्जन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है। | गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है। (146 characters) |
-| wordpress.hi.slug | ganpati-visarjan-ka-arth | ganpati-visarjan-ka-arth (unchanged; built from the unchanged focus keyword) |
+| wordpress.hi.slug | meaning-of-ganpati-visarjan-hi | meaning-of-ganpati-visarjan-hi (unchanged; built from the unchanged focus keyword) |
 | wordpress.hi.focus_keyword, title.hi | unchanged | unchanged |
 | links, also_read, alt, caption, related, tags, category | unchanged | unchanged |
 
@@ -66,7 +66,7 @@ The report was updated to match:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ganpati-visarjan-ka-arth | meaning-of-ganpati-visarjan |
+| slug | meaning-of-ganpati-visarjan-hi | meaning-of-ganpati-visarjan |
 | focus_keyword | गणपति विसर्जन का अर्थ | meaning of Ganpati Visarjan |
 | title | गणपति विसर्जन का अर्थ: मुट्ठी भर मिट्टी क्या सिखाती है | Meaning of Ganpati Visarjan: What the Returned Clay Teaches |
 | meta_description | गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है। | What is the meaning of Ganpati Visarjan? Acharya Upendra Ji explains why name and form dissolve, and why everyone gets back the same handful of clay. |

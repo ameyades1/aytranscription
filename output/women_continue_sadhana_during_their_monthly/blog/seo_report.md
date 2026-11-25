@@ -39,7 +39,7 @@ Notes:
 
 Meta description (142): क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।
 
-Slug: `/hi/masik-dharm-mein-sadhana/`
+Slug: `/hi/sadhana-during-menstruation-hi/`
 
 **English**
 1. Sadhana During Menstruation: Why It Need Not Stop (49) **(recommended)**
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/masik-dharm-mein-sadhana/`, `/en/sadhana-during-menstruation/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sadhana-during-menstruation-hi/`, `/en/sadhana-during-menstruation/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -543,7 +543,7 @@ The values written to `output/women_continue_sadhana_during_their_monthly/blog/s
   "wordpress": {
     "category": "women",
     "hi": {
-      "slug": "masik-dharm-mein-sadhana",
+      "slug": "sadhana-during-menstruation-hi",
       "focus_keyword": "मासिक धर्म में साधना",
       "secondary_keywords": ["पीरियड्स में पूजा कर सकते हैं या नहीं", "स्त्रियों के लिए धार्मिक निषेध", "श्मशान वैराग्य"],
       "meta_description": "क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें।",

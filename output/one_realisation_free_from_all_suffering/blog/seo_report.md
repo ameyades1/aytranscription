@@ -35,7 +35,7 @@ Keyword note: in the original texts neither focus keyword appeared word for word
 
 Meta description (Hindi): संसार को तुम छोड़ोगे या संसार तुम्हें छोड़ देगा। आचार्य उपेंद्र जी बताते हैं कि अस्थिर संसार में स्थिर क्या है, और पचास के बाद वानप्रस्थ का अर्थ क्या है।
 
-Slug: `/hi/asthir-sansar-mein-sthir-kya-hai`
+Slug: `/hi/nothing-lasts-forever-hi`
 
 **English**
 1. Nothing Lasts Forever: One Realisation That Frees You **(recommended)** (53 characters; echoes the video title and thumbnail)
@@ -118,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/asthir-sansar-mein-sthir-kya-hai/`, `/en/nothing-lasts-forever/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/nothing-lasts-forever-hi/`, `/en/nothing-lasts-forever/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -407,7 +407,7 @@ The exact values written to `output/one_realisation_free_from_all_suffering/blog
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "asthir-sansar-mein-sthir-kya-hai",
+      "slug": "nothing-lasts-forever-hi",
       "focus_keyword": "अस्थिर संसार में स्थिर क्या है",
       "secondary_keywords": [
         "वानप्रस्थ आश्रम का अर्थ",

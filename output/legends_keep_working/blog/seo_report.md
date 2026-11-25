@@ -36,7 +36,7 @@ Keyword note: the focus keywords "लोकसंग्रह का अर्�
 
 Meta description (Hindi, **recommended**): लोकसंग्रह का अर्थ क्या है? गीता ३.२१ से ३.२६ पर आचार्य उपेंद्र जी बताते हैं कि जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है, ताकि समाज को आदर्श मिले।
 
-Slug: `/hi/lokasangraha-ka-arth` **(recommended)**
+Slug: `/hi/lokasangraha-meaning-gita-hi` **(recommended)**
 
 **English**
 1. Lokasangraha Meaning: Why Legends Keep Working (Gita 3) **(recommended)** (55 characters; echoes the video title)
@@ -117,7 +117,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/lokasangraha-ka-arth/`, `/en/lokasangraha-meaning-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/lokasangraha-meaning-gita-hi/`, `/en/lokasangraha-meaning-gita/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "lokasangraha-ka-arth",
+      "slug": "lokasangraha-meaning-gita-hi",
       "focus_keyword": "लोकसंग्रह का अर्थ",
       "secondary_keywords": [
         "यद्यदाचरति श्रेष्ठः का अर्थ",

@@ -35,14 +35,14 @@ None. The focus keywords were already the searched wording and are now in the bo
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | ichha-aur-ichhashakti-mein-antar | ichha-aur-ichhashakti-mein-antar (unchanged) |
+| wordpress.hi.slug | wish-vs-willpower-hi | wish-vs-willpower-hi (unchanged) |
 | wordpress.en.slug | wish-vs-willpower | wish-vs-willpower (unchanged) |
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ichha-aur-ichhashakti-mein-antar | wish-vs-willpower |
+| slug | wish-vs-willpower-hi | wish-vs-willpower |
 | focus_keyword | इच्छा और इच्छाशक्ति में अंतर | wish vs willpower |
 | title | इच्छा और इच्छाशक्ति में अंतर: हर चाह का फल आता है | Wish vs Willpower: Are You Manifesting Goals Correctly? |
 | meta_description | क्या हल्की इच्छा भी कर्म है? आचार्य उपेंद्र जी बताते हैं इच्छा और इच्छाशक्ति में अंतर: क्षणिक चाह का फल कैसे आता है, प्रबल इच्छाशक्ति से मार्ग कैसे खुलता है। | Is a passing wish also karma? Acharya Upendra Ji explains wish vs willpower: why idle wishes bear unwanted fruit, and how strong will opens the path ahead. |

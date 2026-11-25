@@ -40,7 +40,7 @@ Unchanged: both focus keywords (the body now uses them), secondary keywords, tit
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | stri-ko-shakti-kyon-kaha-jata-hai | why-is-woman-called-shakti |
+| slug | why-is-woman-called-shakti-hi | why-is-woman-called-shakti |
 | focus_keyword | स्त्री को शक्ति क्यों कहा जाता है | why is woman called Shakti |
 | title | स्त्री को शक्ति क्यों कहा जाता है? माँ की हज़ार गुना शक्ति | Why Is Woman Called Shakti? A Mother's Thousandfold Power |
 | meta_description | स्त्री को शक्ति क्यों कहा जाता है? आचार्य उपेंद्र जी बताते हैं कि यह शक्ति शरीर के बल से परे है, और माँ की हज़ार गुना शक्ति के साथ बड़ा उत्तरदायित्व भी आता है। | Why is woman called Shakti in our tradition? Acharya Upendra Ji explains a strength beyond the body, and why a mother's power brings great responsibility. |

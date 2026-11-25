@@ -39,7 +39,7 @@ The report is in step with seo.json: section 2's keyword notes, section 3 (the H
 | wordpress.hi.focus_keyword | वास्तविक गणेश | असली गणेश |
 | wordpress.hi.secondary_keywords | असली गणेश कौन है, गणेश जन्म कथा का रहस्य, पार्वती के मैल से गणेश का जन्म, गणेश और विवेक बुद्धि | वास्तविक गणेश, गणेश जन्म कथा का रहस्य, पार्वती के मैल से गणेश का जन्म, गणेश और विवेक बुद्धि |
 | wordpress.hi.meta_description | कौन है वास्तविक गणेश? आचार्य उपेंद्र जी बताते हैं कि … (145 characters) | असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि … (141 characters; rest unchanged) |
-| wordpress.hi.slug | kaun-hai-vastavik-ganesh | asli-ganesh-kaun-hai |
+| wordpress.hi.slug | kaun-hai-vastavik-ganesh | who-is-the-real-ganesha-hi |
 | wordpress.en.slug | who-is-the-real-ganesha | who-is-the-real-ganesha (unchanged; already built from the unchanged focus keyword) |
 | wordpress.en (all fields) | unchanged | unchanged |
 | links, also_read | unchanged | unchanged |
@@ -48,7 +48,7 @@ The report is in step with seo.json: section 2's keyword notes, section 3 (the H
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | asli-ganesh-kaun-hai | who-is-the-real-ganesha |
+| slug | who-is-the-real-ganesha-hi | who-is-the-real-ganesha |
 | focus_keyword | असली गणेश | who is the real Ganesha |
 | title | असली गणेश कौन है? गणेश जन्म कथा का अर्थ | Who Is the Real Ganesha? The Meaning of His Birth Story |
 | meta_description | असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं। | Who is the real Ganesha? Acharya Upendra Ji decodes the birth story: Parvati's bath, Shiva's return and the elephant head as discernment born within us. |

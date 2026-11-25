@@ -33,7 +33,7 @@ Keyword note: the focus keywords "विवाह का उद्देश्�
 
 Meta description (hi, 158 characters): विवाह का उद्देश्य क्या है? आचार्य उपेंद्र जी बताते हैं कि विवाह सुखी होने का सौदा नहीं, देने का संबंध है, और कठिन जीवनसाथी से हमारा व्यवहार हमारा नया कर्म है। **recommended**
 
-Slug (hi): `/hi/vivah-ka-uddeshya/` **recommended**
+Slug (hi): `/hi/spiritual-purpose-of-marriage-hi/` **recommended**
 
 **English**
 1. Spiritual Purpose of Marriage: Giving, Not Taking (49 characters) **recommended**
@@ -103,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vivah-ka-uddeshya/`, `/en/spiritual-purpose-of-marriage/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-purpose-of-marriage-hi/`, `/en/spiritual-purpose-of-marriage/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -410,7 +410,7 @@ The exact values written to `output/marriage_giving_not_taking_relationships/blo
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "vivah-ka-uddeshya",
+      "slug": "spiritual-purpose-of-marriage-hi",
       "focus_keyword": "विवाह का उद्देश्य",
       "secondary_keywords": [
         "शादी लेने का नहीं देने का संबंध",

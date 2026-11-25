@@ -37,7 +37,7 @@ Avoided: "shiv ji ko belpatra kyon chadhate hain", "tulsi chadhane ke fayde" and
 
 Meta description (recommended): देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा।
 
-Slug (recommended): `/hi/devtaon-ko-alag-arpan-kyon`
+Slug (recommended): `/hi/why-different-offerings-to-different-gods-hi`
 
 **English**
 1. Why Different Offerings to Different Gods? The Science (54 characters, recommended)
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/devtaon-ko-alag-arpan-kyon/`, `/en/why-different-offerings-to-different-gods/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-different-offerings-to-different-gods-hi/`, `/en/why-different-offerings-to-different-gods/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -395,7 +395,7 @@ The exact seo.json written for the page generator and WordPress:
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "devtaon-ko-alag-arpan-kyon",
+      "slug": "why-different-offerings-to-different-gods-hi",
       "focus_keyword": "देवताओं को अलग-अलग अर्पण क्यों",
       "secondary_keywords": ["तुलसी बिल्व पत्र दूर्वा का महत्व", "पूजा में अर्पण का विज्ञान", "अभिषेक का अर्थ", "पूजा विधि का अर्थ"],
       "meta_description": "देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा।",

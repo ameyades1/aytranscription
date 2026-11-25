@@ -48,7 +48,7 @@ Still unmet (2):
 | Field | Before | After |
 |---|---|---|
 | wordpress.hi.focus_keyword, wordpress.en.focus_keyword | लोकतंत्र का असली अर्थ / true meaning of democracy | unchanged (the `_seo` texts now use them) |
-| wordpress.hi.slug, wordpress.en.slug | loktantra-ka-asli-arth / true-meaning-of-democracy | unchanged |
+| wordpress.hi.slug, wordpress.en.slug | true-meaning-of-democracy-hi / true-meaning-of-democracy | unchanged |
 | title, meta_description (both languages) | (as below) | unchanged (already contain the focus keyword) |
 | links, also_read | (unchanged) | unchanged (no edit touched a link phrase or the Also read heading) |
 
@@ -56,7 +56,7 @@ Still unmet (2):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | loktantra-ka-asli-arth | true-meaning-of-democracy |
+| slug | true-meaning-of-democracy-hi | true-meaning-of-democracy |
 | focus_keyword | लोकतंत्र का असली अर्थ | true meaning of democracy |
 | title | लोकतंत्र का असली अर्थ: क्या हम सच में आज़ाद हैं? | True Meaning of Democracy: Are We Really Free? |
 | meta_description | लोकतंत्र का असली अर्थ क्या है? आचार्य उपेंद्र जी: भारत ने स्वयं को संप्रभु क्यों कहा, by the people कैसे buy the people बना, और नागरिक की असली ताकत। | What is the true meaning of democracy? Acharya Upendra Ji on why India calls itself sovereign, how by the people became buy the people, and your power. |

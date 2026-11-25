@@ -31,7 +31,7 @@ Hindi
 
 Meta description: घी का आध्यात्मिक महत्व क्या है? आचार्य उपेंद्र जी बताते हैं कि पेट में एक सहज यज्ञ चलता है, घी उसका तेज है, और जो हम खाते हैं वही हमारी वाणी बनता है।
 
-Slug: /hi/ghee-ka-adhyatmik-mahatva
+Slug: /hi/spiritual-significance-of-ghee-hi
 
 English
 1. Spiritual Significance of Ghee: Inner Fire and Speech (recommended)
@@ -223,7 +223,7 @@ English
 }
 ```
 
-WordPress SEO plugin mapping: the plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and WebPage itself from the title, meta description, featured image, author and publish/modified dates. Enter by hand: focus keyword, SEO title and meta description (from seo.json), the Organization logo and social profiles (once, in plugin settings), the author profile for Acharya Ji, `alternativeHeadline`, `about`, the VideoObject (via the plugin's video schema or a custom schema block) and the translation links (`translationOfWork` / `workTranslation`, plus hreflang via the multilingual plugin). Replace every `{{PLACEHOLDER}}` with the live URLs. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs: `/hi/ghee-ka-adhyatmik-mahatva/`, `/en/spiritual-significance-of-ghee/`).
+WordPress SEO plugin mapping: the plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and WebPage itself from the title, meta description, featured image, author and publish/modified dates. Enter by hand: focus keyword, SEO title and meta description (from seo.json), the Organization logo and social profiles (once, in plugin settings), the author profile for Acharya Ji, `alternativeHeadline`, `about`, the VideoObject (via the plugin's video schema or a custom schema block) and the translation links (`translationOfWork` / `workTranslation`, plus hreflang via the multilingual plugin). Replace every `{{PLACEHOLDER}}` with the live URLs. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs: `/hi/spiritual-significance-of-ghee-hi/`, `/en/spiritual-significance-of-ghee/`).
 
 ## 9. Images
 
@@ -316,7 +316,7 @@ The exact values written to `output/ghee_more_than_food/blog/seo.json`.
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "ghee-ka-adhyatmik-mahatva",
+      "slug": "spiritual-significance-of-ghee-hi",
       "focus_keyword": "घी का आध्यात्मिक महत्व",
       "secondary_keywords": [
         "भोजन एक यज्ञ",

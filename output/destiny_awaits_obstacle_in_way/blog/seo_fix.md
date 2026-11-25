@@ -36,13 +36,13 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 | also_read.after.hi | तीन बुद्धियां, कचरे के साथ तीन व्यवहार | सात्त्विक, राजसिक और तामसिक बुद्धि रुकावट के साथ क्या करती है? |
 | also_read.after.en | Three Kinds of Mind, Three Ways of Handling the Debris | How Do Sattvic, Rajasic and Tamasic Minds Handle Obstacles? |
 
-The following are unchanged: focus keywords, secondary keywords, titles and meta descriptions (all already contain the focus keyword), slugs (old and new are both `bhagya-mein-rukawat` / `what-is-blocking-your-destiny`), `links`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the recommended title, meta and slug marked as the ones in seo.json), 4 (a note on what was applied) and 12 (the checklist, newly added). Section 8 needed no change: its headline is the unchanged H1, and its description, keywords and suggested slugs match seo.json.
+The following are unchanged: focus keywords, secondary keywords, titles and meta descriptions (all already contain the focus keyword), slugs (old and new are both `what-is-blocking-your-destiny-hi` / `what-is-blocking-your-destiny`), `links`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. These report sections were updated: 2 (keyword note), 3 (the recommended title, meta and slug marked as the ones in seo.json), 4 (a note on what was applied) and 12 (the checklist, newly added). Section 8 needed no change: its headline is the unchanged H1, and its description, keywords and suggested slugs match seo.json.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagya-mein-rukawat | what-is-blocking-your-destiny |
+| slug | what-is-blocking-your-destiny-hi | what-is-blocking-your-destiny |
 | focus_keyword | भाग्य में रुकावट | what is blocking your destiny |
 | title | भाग्य में रुकावट क्यों? पतंजलि का किसान और नहर | What Is Blocking Your Destiny? Patanjali's Farmer Analogy |
 | meta_description | भाग्य में रुकावट क्यों आती है? आचार्य उपेंद्र जी योगसूत्र ४.३ के किसान दृष्टांत से समझाते हैं: माया का कचरा हटाइए, भाग्य का प्रवाह अपने आप बहने लगता है। | What is blocking your destiny? Acharya Upendra Ji explains Yoga Sutra 4.3: like a farmer opening a channel, remove the debris of maya and the flow returns. |

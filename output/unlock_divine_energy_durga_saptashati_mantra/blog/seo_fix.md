@@ -31,7 +31,7 @@ No teaching, example, verse, translation, H1 or order of ideas changed, and Mark
 |---|---|---|
 | wordpress.hi.meta_description | बीज मंत्र क्या है और उसे कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बनता है, और दुर्गा सप्तशती की बीज साधना क्या है। | दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है। (151) |
 | wordpress.en.meta_description | What is a bija mantra, and why does Acharya Upendra Ji call it a capsule? On the Durga Saptashati, the mantra you repeat daily and a short tantric sadhana. | What is the Durga Saptashati beej mantra sadhana? Acharya Upendra Ji explains why a bija mantra is a capsule, and the mantra you repeat every day. (146) |
-| wordpress.hi.slug | durga-saptashati-beej-mantra | durga-saptashati-beej-mantra (unchanged) |
+| wordpress.hi.slug | durga-saptashati-beej-mantra-sadhana-hi | durga-saptashati-beej-mantra-sadhana-hi (unchanged) |
 | wordpress.en.slug | durga-saptashati-beej-mantra-sadhana | durga-saptashati-beej-mantra-sadhana (unchanged; 36 characters, contains the keyword) |
 
 Focus keywords, secondary keywords, titles (both already contain the keyword), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2, 3 and 8 were updated to match, and section 12 was added.
@@ -40,7 +40,7 @@ Focus keywords, secondary keywords, titles (both already contain the keyword), `
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | durga-saptashati-beej-mantra | durga-saptashati-beej-mantra-sadhana |
+| slug | durga-saptashati-beej-mantra-sadhana-hi | durga-saptashati-beej-mantra-sadhana |
 | focus_keyword | दुर्गा सप्तशती बीज मंत्र | Durga Saptashati beej mantra |
 | title | दुर्गा सप्तशती बीज मंत्र: कैप्सूल जैसी साधना | Durga Saptashati Beej Mantra: Sadhana in a Capsule |
 | meta_description | दुर्गा सप्तशती बीज मंत्र साधना क्या है, और बीज मंत्र को कैप्सूल क्यों कहा गया? आचार्य उपेंद्र जी बताते हैं कि रोज़ दोहराया विचार मंत्र कैसे बन जाता है। | What is the Durga Saptashati beej mantra sadhana? Acharya Upendra Ji explains why a bija mantra is a capsule, and the mantra you repeat every day. |

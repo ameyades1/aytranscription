@@ -34,13 +34,13 @@ The report had no section 12; one was added (from the standard checklist) with t
 | wordpress.hi.meta_description | गुरु सेवा क्यों देते हैं? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना। | गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना। |
 | wordpress.en.meta_description | Why does the Guru give seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth. | What is the importance of Guru seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth. (155 characters) |
 
-Slugs unchanged: `guru-seva-ka-mahatva` (Hindi) and `importance-of-guru-seva` (English). Focus keywords, secondary keywords, titles, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (meta descriptions and slugs marked as recommended) and 8 (schema descriptions, and the suggested URL slugs in the placeholder note) were updated, and section 12 was added.
+Slugs unchanged: `importance-of-guru-seva-hi` (Hindi) and `importance-of-guru-seva` (English). Focus keywords, secondary keywords, titles, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (meta descriptions and slugs marked as recommended) and 8 (schema descriptions, and the suggested URL slugs in the placeholder note) were updated, and section 12 was added.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-seva-ka-mahatva | importance-of-guru-seva |
+| slug | importance-of-guru-seva-hi | importance-of-guru-seva |
 | focus_keyword | गुरु सेवा का महत्व | importance of Guru seva |
 | title | गुरु सेवा का महत्व: सान्निध्य में हर क्षण नया जन्म | Importance of Guru Seva: Every Moment a New Birth |
 | meta_description | गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना। | What is the importance of Guru seva? A sadhika shares how cooking for fellow seekers and following the Guru's paduka made life in his presence a new birth. |

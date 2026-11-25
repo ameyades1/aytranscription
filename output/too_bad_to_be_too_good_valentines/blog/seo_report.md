@@ -34,7 +34,7 @@ Keyword note: the original blog bodies used neither focus keyword below the H1 (
 
 Meta description — **recommended**: क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।
 
-Slug — **recommended**: `/hi/zarurat-se-zyada-achha-hona/`
+Slug — **recommended**: `/hi/is-being-too-good-a-bad-thing-hi/`
 
 **English**
 1. Is Being Too Good a Bad Thing? Love Without Discernment (55 chars) — **recommended**
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/zarurat-se-zyada-achha-hona/`, `/en/is-being-too-good-a-bad-thing/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/is-being-too-good-a-bad-thing-hi/`, `/en/is-being-too-good-a-bad-thing/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -411,7 +411,7 @@ The exact values written to `output/too_bad_to_be_too_good_valentines/blog/seo.j
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "zarurat-se-zyada-achha-hona",
+      "slug": "is-being-too-good-a-bad-thing-hi",
       "focus_keyword": "ज़रूरत से ज़्यादा अच्छा होना",
       "secondary_keywords": ["बिना विवेक का प्रेम", "अंधभक्ति क्या है", "गलत व्यक्ति से प्रेम", "zyada achha hona bhi bura hai"],
       "meta_description": "क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है।",

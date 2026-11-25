@@ -41,7 +41,7 @@ Still unmet (1):
 |---|---|---|
 | wordpress.hi.focus_keyword | पुत्र मोह | अंधा प्रेम |
 | wordpress.hi.secondary_keywords | अंधा प्रेम, अंधी करुणा, लक्ष्मी तत्व, putra moh kya hai | पुत्र मोह, अंधी करुणा, लक्ष्मी तत्व, putra moh kya hai |
-| wordpress.hi.slug | putra-moh-andha-prem | andha-prem-kyon-khatarnak-hai |
+| wordpress.hi.slug | putra-moh-andha-prem | why-blind-love-is-dangerous-hi |
 | wordpress.hi.meta_description | …बताते हैं कि पुत्र मोह और विवेकहीन प्रेम कैसे दुख और विनाश लाता है। | …बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है। |
 | wordpress.en.focus_keyword | blind compassion | blind love |
 | wordpress.en.secondary_keywords | why blind love is dangerous, putra moha meaning, foolish compassion, Lakshmi without Narayana | blind compassion, why blind love is dangerous, putra moha meaning, Lakshmi without Narayana |
@@ -54,7 +54,7 @@ Still unmet (1):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | andha-prem-kyon-khatarnak-hai | why-blind-love-is-dangerous |
+| slug | why-blind-love-is-dangerous-hi | why-blind-love-is-dangerous |
 | focus_keyword | अंधा प्रेम | blind love |
 | title | पुत्र मोह और अंधा प्रेम क्यों खतरनाक है | Blind Compassion: Why Blind Love Is Dangerous |
 | meta_description | क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है। | Is a good heart enough? Through Samba's story and the symbol of Lakshmi, Acharya Upendra Ji shows why blind love without discernment leads to ruin. |

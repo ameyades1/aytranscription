@@ -40,7 +40,7 @@ Keyword note: the original blog did not use the exact primary wording in its bod
 
 Meta description (recommended, in seo.json): जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें।
 
-Slug (recommended, in seo.json): `/hi/jaante-hue-bhi-sahi-kyon-nahi-kar-paate`
+Slug (recommended, in seo.json): `/hi/knowing-what-is-right-but-not-doing-it-hi`
 
 (The SEO fix rewrote the meta description so it starts with the focus keyword "जानते हुए भी सही क्यों नहीं कर पाते"; it began "सही जानते हुए भी कर नहीं पाते?".)
 
@@ -369,7 +369,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/jaante-hue-bhi-sahi-kyon-nahi-kar-paate`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-what-is-right-but-not-doing-it`.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/knowing-what-is-right-but-not-doing-it-hi`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-what-is-right-but-not-doing-it`.
 
 ## 9. Images
 
@@ -472,7 +472,7 @@ The exact values written to `output/knowledge_work_for_you/blog/seo.json`.
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "jaante-hue-bhi-sahi-kyon-nahi-kar-paate",
+      "slug": "knowing-what-is-right-but-not-doing-it-hi",
       "focus_keyword": "जानते हुए भी सही क्यों नहीं कर पाते",
       "secondary_keywords": [
         "गीता 3.33 का अर्थ",

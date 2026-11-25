@@ -48,7 +48,7 @@ Not changed:
 |---|---|---|
 | also_read.after.hi | मिट्टी, पृथ्वी तत्व और प्रारब्ध | जन्मभूमि का अन्न ही क्यों खाएँ? |
 | also_read.after.en | The Soil, the Earth Element and Destiny | Why Eat the Food of Your Birthplace? |
-| wordpress.hi.slug | sthaniya-bhojan-ka-mahatva | unchanged |
+| wordpress.hi.slug | why-eat-locally-grown-food-hi | unchanged |
 | wordpress.en.slug | why-eat-locally-grown-food | unchanged |
 | focus_keyword, secondary_keywords, title, meta_description | (both languages) | unchanged (they already contain the focus keyword, which the `_seo` texts now use) |
 | links | (unchanged) | (unchanged; no edit touched a link phrase) |
@@ -59,7 +59,7 @@ No other talk uses either focus keyword or slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sthaniya-bhojan-ka-mahatva | why-eat-locally-grown-food |
+| slug | why-eat-locally-grown-food-hi | why-eat-locally-grown-food |
 | focus keyword | स्थानीय भोजन का महत्व | why eat locally grown food |
 | title | स्थानीय भोजन का महत्व: जहाँ जन्म, वहीं का अन्न | Why Eat Locally Grown Food? Karma, Soil and Your Plate |
 | meta description | जहाँ जन्म, वहीं का अन्न। आचार्य उपेंद्र जी बताते हैं स्थानीय भोजन का महत्व, जन्मभूमि की मिट्टी का कर्म और प्रारब्ध से संबंध, और विदेशी भोजन कब ठीक है। | Why eat locally grown food? Acharya Upendra Ji links the soil of your birthplace to karma and prarabdha, and explains why foreign food should stay a treat. |

@@ -36,7 +36,7 @@ Keyword note: there is no searched-wording mismatch; both focus keywords are the
 
 Meta description (recommended, in seo.json): शाकाहार का आध्यात्मिक कारण क्या है? आचार्य उपेंद्र जी बताते हैं कि मोक्ष का साधक किसी को क्यों नहीं मारता, हिंसा क्या है और शाकंभरी का संकेत।
 
-Slug (recommended, in seo.json): `/hi/shakahar-ka-adhyatmik-karan/`
+Slug (recommended, in seo.json): `/hi/spiritual-reason-for-vegetarianism-hi/`
 
 **English**
 1. Spiritual Reason for Vegetarianism: Eat to Heal, Not Harm (recommended, 57 characters)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shakahar-ka-adhyatmik-karan/`, `/en/spiritual-reason-for-vegetarianism/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-reason-for-vegetarianism-hi/`, `/en/spiritual-reason-for-vegetarianism/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -520,7 +520,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "shakahar-ka-adhyatmik-karan",
+      "slug": "spiritual-reason-for-vegetarianism-hi",
       "focus_keyword": "शाकाहार का आध्यात्मिक कारण",
       "secondary_keywords": [
         "शाकाहार क्यों करें",

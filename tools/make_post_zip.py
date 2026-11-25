@@ -55,10 +55,10 @@ def slugify(text):
 
 
 def post_slug(talk, lang='en'):
-    """The slug the talk's post gets: seo.json's, else the English H1's (as ~/wordpress/import_post.py);
-    a Hindi post without one gets the English H1's with -hi, since a Devanagari H1 gives no Latin slug."""
-    slug = seo_of(talk).get('wordpress', {}).get(lang, {}).get('slug')
-    return slug or slugify(h1(talk)) + ('-hi' if lang == 'hi' else '')
+    """The slug the talk's post gets: the English one from seo.json, else from the English H1. A Hindi post
+    always gets the English slug with -hi (/hi/<english-slug>-hi/), since WordPress needs a unique slug per post."""
+    slug = seo_of(talk).get('wordpress', {}).get('en', {}).get('slug') or slugify(h1(talk))
+    return slug + ('-hi' if lang == 'hi' else '')
 
 
 def h2s(talk, lang, original=False):

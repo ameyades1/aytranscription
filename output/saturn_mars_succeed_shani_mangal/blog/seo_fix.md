@@ -30,7 +30,7 @@ No teaching, example, order of ideas or H1 was changed, and the number and order
 |---|---|---|
 | wordpress.hi.meta_description | सफलता के लिए शनि और मंगल दोनों क्यों ज़रूरी हैं? आचार्य उपेंद्र जी बताते हैं गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। | शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। (149) |
 | wordpress.en.meta_description | Why do you need both Saturn and Mars to succeed? Acharya Upendra Ji explains speed and control, the real purpose of brakes, and Ganesha as Vighnakarta. | What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes. (148) |
-| wordpress.hi.slug | shani-aur-mangal-ka-sambandh | shani-aur-mangal-ka-sambandh (unchanged) |
+| wordpress.hi.slug | saturn-and-mars-relationship-hi | saturn-and-mars-relationship-hi (unchanged) |
 | wordpress.en.slug | saturn-and-mars-relationship | saturn-and-mars-relationship (unchanged; already built from the focus keyword, 28 characters) |
 | wordpress.hi.focus_keyword | शनि और मंगल का संबंध | unchanged |
 | wordpress.en.focus_keyword | Saturn and Mars relationship | unchanged |
@@ -41,7 +41,7 @@ Both focus keywords were already the searched wording and are now in the `_seo` 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shani-aur-mangal-ka-sambandh | saturn-and-mars-relationship |
+| slug | saturn-and-mars-relationship-hi | saturn-and-mars-relationship |
 | focus_keyword | शनि और मंगल का संबंध | Saturn and Mars relationship |
 | title | शनि और मंगल का संबंध: ब्रेक से सीखें सफलता का रहस्य | Saturn and Mars Relationship: Why Brakes Help You Succeed |
 | meta_description | शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। | What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes. |

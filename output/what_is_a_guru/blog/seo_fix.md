@@ -31,7 +31,7 @@ Not changed:
 
 - Section 2: the keyword note now says the focus keyword is also in the first H2 of the `_seo` texts.
 - Section 3: the recommended titles, meta descriptions and slugs already match seo.json.
-- Section 8: the `{{HI_URL}}` / `{{EN_URL}}` placeholders are now post URLs built from the slugs (`{{SITE_URL}}/hi/guru-kya-hai/`, `{{SITE_URL}}/en/what-is-a-guru/`); headline, description and keywords already matched.
+- Section 8: the `{{HI_URL}}` / `{{EN_URL}}` placeholders are now post URLs built from the slugs (`{{SITE_URL}}/hi/what-is-a-guru-hi/`, `{{SITE_URL}}/en/what-is-a-guru/`); headline, description and keywords already matched.
 - Sections 11 and 12: already match seo.json and the `_seo` texts; nothing changed.
 
 ## seo.json changes
@@ -40,7 +40,7 @@ Not changed:
 |---|---|---|
 | wordpress.hi.focus_keyword | गुरु क्या है | unchanged (no searched-wording mismatch) |
 | wordpress.en.focus_keyword | what is a Guru | unchanged |
-| wordpress.hi.slug | guru-kya-hai | unchanged |
+| wordpress.hi.slug | what-is-a-guru-hi | unchanged |
 | wordpress.en.slug | what-is-a-guru | unchanged |
 | title, meta_description | (both languages) | unchanged (they still contain the focus keyword) |
 | links, also_read | (unchanged) | unchanged (no edit touched a phrase or heading) |
@@ -49,7 +49,7 @@ Not changed:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-kya-hai | what-is-a-guru |
+| slug | what-is-a-guru-hi | what-is-a-guru |
 | focus_keyword | गुरु क्या है | what is a Guru |
 | title | गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य | What Is a Guru? The Guru Gita and India as Vishwaguru |
 | meta_description | गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है। | What is a Guru: a person, or the doorway to truth? Acharya Ji's Guru Gita commentary explains the Guru, grace and refuge before India is Vishwaguru. |

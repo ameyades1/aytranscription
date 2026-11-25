@@ -31,7 +31,7 @@ Left for the editor (content, not SEO, so outside this fix): the Sanskrit review
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.slug | spiritual-age-vs-physical-age | unchanged |
-| wordpress.hi.slug | aadhyatmik-aayu | unchanged |
+| wordpress.hi.slug | spiritual-age-vs-physical-age-hi | unchanged |
 | focus_keyword (hi / en) | आध्यात्मिक आयु / spiritual age | unchanged |
 | title, meta descriptions, secondary_keywords, links, also_read | | unchanged |
 
@@ -43,7 +43,7 @@ Report updated: section 2 (wording check note), section 12 (checklist added). Se
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | aadhyatmik-aayu | spiritual-age-vs-physical-age |
+| slug | spiritual-age-vs-physical-age-hi | spiritual-age-vs-physical-age |
 | focus keyword | आध्यात्मिक आयु | spiritual age |
 | title | आध्यात्मिक आयु: आपकी असली उम्र कितनी है? | Spiritual Age vs Physical Age: How Old Are You Really? |
 | meta description | आपकी आध्यात्मिक आयु कितनी है? आचार्य उपेंद्र जी बताते हैं कि मंदिर जाने, कथा सुनने और प्रार्थना के ढंग से यह कैसे दिखती है, और क्यों वे कहते हैं: गति बढ़ाओ। | What is your spiritual age? Acharya Upendra Ji shows how the way you visit temples, hear katha and pray reveals it, and why he says: move faster. |

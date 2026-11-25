@@ -57,7 +57,7 @@ No other talk uses the new slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | zarurat-se-zyada-achha-hona | is-being-too-good-a-bad-thing |
+| slug | is-being-too-good-a-bad-thing-hi | is-being-too-good-a-bad-thing |
 | focus_keyword | ज़रूरत से ज़्यादा अच्छा होना | is being too good a bad thing |
 | title | ज़रूरत से ज़्यादा अच्छा होना भी गलत क्यों है | आचार्य जी | Is Being Too Good a Bad Thing? Love Without Discernment |
 | meta_description | क्या ज़रूरत से ज़्यादा अच्छा होना भी गलत है? लक्ष्मी की कथा से आचार्य उपेंद्र जी बताते हैं कि बिना विवेक का प्रेम क्यों चोट देता है। | Is being too good a bad thing? Through the story of Lakshmi, Acharya Upendra Ji shows why love without discernment hurts and what the heart must learn. |

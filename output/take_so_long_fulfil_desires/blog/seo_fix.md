@@ -45,7 +45,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 | Field | Before | After |
 |---|---|---|
 | wordpress.hi.meta_description | क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य उपेंद्र जी बताते हैं कि पाप का अनावश्यक डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं। | क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य जी बताते हैं कि बचपन से बैठाया पाप का डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं। (155) |
-| wordpress.hi.slug | paap-ka-dar-hriday-granthi | paap-ka-dar-hriday-granthi (unchanged) |
+| wordpress.hi.slug | fear-of-sin-knot-in-the-heart-hi | fear-of-sin-knot-in-the-heart-hi (unchanged) |
 | wordpress.en.slug | fear-of-sin-knot-in-the-heart | fear-of-sin-knot-in-the-heart (unchanged) |
 
 Unchanged:
@@ -56,7 +56,7 @@ Unchanged:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | paap-ka-dar-hriday-granthi | fear-of-sin-knot-in-the-heart |
+| slug | fear-of-sin-knot-in-the-heart-hi | fear-of-sin-knot-in-the-heart |
 | focus keyword | पाप का डर | fear of sin |
 | title | पाप का डर और हृदय ग्रंथि: पूजा-पाठ से आगे का रास्ता | Fear of Sin and the Knot in the Heart: Beyond Ritual |
 | meta description | क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य जी बताते हैं कि बचपन से बैठाया पाप का डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं। | Does a voice keep saying "you did wrong"? Acharya Upendra Ji explains how needless fear of sin ties the heart knot, and why ritual worship is only a start. |

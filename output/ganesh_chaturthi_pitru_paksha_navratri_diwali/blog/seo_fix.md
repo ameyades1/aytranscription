@@ -34,7 +34,7 @@ No teaching, example, order of ideas, H1 or Markdown changed; the blog quotes no
 | wordpress.en.slug | hidden-order-of-hindu-festivals | spiritual-order-of-hindu-festivals |
 | wordpress.en.meta_description | Why does Ganapati come first, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji sees each festival as a step from Nara to Narayana, not a holiday. | Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana. |
 | wordpress.hi.meta_description | पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली, यही क्रम क्यों? आचार्य उपेंद्र जी बताते हैं कि हर त्योहार छुट्टी नहीं, नर से नारायण की यात्रा का एक पड़ाव है। | पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है। |
-| wordpress.hi.slug | tyoharon-ka-adhyatmik-kram | tyoharon-ka-adhyatmik-kram (unchanged) |
+| wordpress.hi.slug | spiritual-order-of-hindu-festivals-hi | spiritual-order-of-hindu-festivals-hi (unchanged) |
 | wordpress.hi.focus_keyword | त्योहारों का आध्यात्मिक क्रम | त्योहारों का आध्यात्मिक क्रम (unchanged) |
 | wordpress.en.focus_keyword | spiritual order of Hindu festivals | spiritual order of Hindu festivals (unchanged) |
 
@@ -44,7 +44,7 @@ The focus keywords stay: the searched wording "गणेश चतुर्थ�
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | tyoharon-ka-adhyatmik-kram | spiritual-order-of-hindu-festivals |
+| slug | spiritual-order-of-hindu-festivals-hi | spiritual-order-of-hindu-festivals |
 | focus_keyword | त्योहारों का आध्यात्मिक क्रम | spiritual order of Hindu festivals |
 | title | गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम | Spiritual Order of Hindu Festivals: Ganapati to Diwali |
 | meta_description | पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है। | Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana. |

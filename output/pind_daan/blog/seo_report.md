@@ -50,7 +50,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal.
 
 **Slugs (recommended)**
-- Hindi: /hi/pind-daan-ka-arth
+- Hindi: /hi/pind-daan-meaning-hi
 - English: /en/pind-daan-meaning
 
 ## 4. Outline changes
@@ -116,7 +116,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pind-daan-ka-arth/`, `/en/pind-daan-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pind-daan-meaning-hi/`, `/en/pind-daan-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -409,7 +409,7 @@ The values written to `output/pind_daan/blog/seo.json` (the page generator uses 
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "pind-daan-ka-arth",
+      "slug": "pind-daan-meaning-hi",
       "focus_keyword": "पिंडदान का अर्थ",
       "secondary_keywords": [
         "श्राद्ध में कौवे को भोजन क्यों",

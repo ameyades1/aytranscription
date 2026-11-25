@@ -35,7 +35,7 @@ Keyword note: the original blog texts never use the focus keywords "गुरु
 
 Meta description (**recommended**): गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी।
 
-Slug (**recommended**): `/hi/guru-purnima-ka-adhyatmik-arth/`
+Slug (**recommended**): `/hi/spiritual-meaning-of-guru-purnima-hi/`
 
 **English**
 1. Spiritual Meaning of Guru Purnima and Who Vyasa Really Was (58 chars) — **recommended**
@@ -105,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-purnima-ka-adhyatmik-arth/`, `/en/spiritual-meaning-of-guru-purnima/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-meaning-of-guru-purnima-hi/`, `/en/spiritual-meaning-of-guru-purnima/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -417,7 +417,7 @@ The exact values written to `output/real_meaning_guru/blog/seo.json` for the pag
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-purnima-ka-adhyatmik-arth",
+      "slug": "spiritual-meaning-of-guru-purnima-hi",
       "focus_keyword": "गुरु पूर्णिमा का आध्यात्मिक अर्थ",
       "secondary_keywords": [
         "गुरु पूर्णिमा पूर्णिमा को क्यों होती है",

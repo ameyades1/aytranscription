@@ -40,7 +40,7 @@ Keyword note (after the SEO fix): neither focus keyword appeared word for word i
 
 Meta description (recommended, in seo.json): कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।
 
-Slug (recommended, in seo.json): `/hi/kaliyug-mein-sadhana-ka-marg`
+Slug (recommended, in seo.json): `/hi/spiritual-path-in-kaliyuga-hi`
 
 **English**
 1. Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava (recommended, 54 characters; in seo.json after the SEO fix)
@@ -112,7 +112,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaliyug-mein-sadhana-ka-marg/`, `/en/spiritual-path-in-kaliyuga/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-path-in-kaliyuga-hi/`, `/en/spiritual-path-in-kaliyuga/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The exact contents of `output/satyug_rules_kaliyug_different_path/blog/seo.json`
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "kaliyug-mein-sadhana-ka-marg",
+      "slug": "spiritual-path-in-kaliyuga-hi",
       "focus_keyword": "कलियुग में साधना का मार्ग",
       "secondary_keywords": ["सत्ययुग और कलियुग में अंतर", "दक्षिण मार्ग और वाम मार्ग", "पंचमकार का अर्थ", "भैरव शक्ति"],
       "meta_description": "कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति।",

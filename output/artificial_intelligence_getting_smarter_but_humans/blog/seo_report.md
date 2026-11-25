@@ -39,7 +39,7 @@ Notes:
 
 Meta description (149 characters, recommended): क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है।
 
-Slug (recommended): `/hi/kya-ai-hamein-moorkh-bana-raha-hai`
+Slug (recommended): `/hi/is-ai-making-us-dumber-hi`
 
 **English**
 1. Is AI Making Us Dumber? Artificial Intelligence and Viveka **(recommended, set by the SEO fix)**
@@ -104,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-ai-hamein-moorkh-bana-raha-hai/`, `/en/is-ai-making-us-dumber/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/is-ai-making-us-dumber-hi/`, `/en/is-ai-making-us-dumber/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -407,7 +407,7 @@ The exact values written to `output/artificial_intelligence_getting_smarter_but_
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "kya-ai-hamein-moorkh-bana-raha-hai",
+      "slug": "is-ai-making-us-dumber-hi",
       "focus_keyword": "क्या AI हमें मूर्ख बना रहा है",
       "secondary_keywords": [
         "कृत्रिम बुद्धि",

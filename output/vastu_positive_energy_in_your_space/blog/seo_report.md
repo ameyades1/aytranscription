@@ -40,7 +40,7 @@ Keyword–body mismatch: the most searched wordings are "वास्तु द�
 
 Meta description (146 characters, recommended): "क्या वास्तु दोष के उपाय बिना तोड़-फोड़ हो सकते हैं? आचार्य जी बताते हैं कि यंत्र, महायज्ञ और ऊँचे स्पंदन से बने-बनाए घर की ऊर्जा भी कैसे बदलती है।"
 
-Slug (recommended): `/hi/vastu-dosh-ke-upay-bina-tod-phod` (before the SEO fix: `/hi/vastu-sudhar-bina-tod-phod`)
+Slug (recommended): `/hi/vastu-remedies-without-demolition-hi` (before the SEO fix: `/hi/vastu-sudhar-bina-tod-phod`)
 
 **English**
 1. Vastu Remedies Without Demolition: Raise Your Home's Energy (59) **recommended**
@@ -246,7 +246,7 @@ For later use in WordPress; not added to the page. Dates come from git (first co
 
 The video is in Hindi, so `inLanguage` of the VideoObject is `hi` in both blocks. Its title as returned by yt-dlp ends in "..."; it is copied as given.
 
-**WordPress SEO plugin mapping (SureRank):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the VideoObject (unless the plugin detects the embed) and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin. Replace every `{{PLACEHOLDER}}` once the URLs are known (the post URLs end in the slugs `vastu-dosh-ke-upay-bina-tod-phod` and `vastu-remedies-without-demolition`); no FAQPage block is included, because the FAQ is not on the page.
+**WordPress SEO plugin mapping (SureRank):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the VideoObject (unless the plugin detects the embed) and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin. Replace every `{{PLACEHOLDER}}` once the URLs are known (the post URLs end in the slugs `vastu-remedies-without-demolition-hi` and `vastu-remedies-without-demolition`); no FAQPage block is included, because the FAQ is not on the page.
 
 ## 9. Images
 
@@ -346,7 +346,7 @@ The values written to output/vastu_positive_energy_in_your_space/blog/seo.json f
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "vastu-dosh-ke-upay-bina-tod-phod",
+      "slug": "vastu-remedies-without-demolition-hi",
       "focus_keyword": "वास्तु दोष के उपाय",
       "secondary_keywords": [
         "वास्तु सुधार",

@@ -34,7 +34,7 @@ Keyword note: the original blog texts do not use the focus keyword word for word
 
 Meta description (156 characters) **recommended**: पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है।
 
-Slug **recommended**: `/hi/tyoharon-ka-adhyatmik-kram`
+Slug **recommended**: `/hi/spiritual-order-of-hindu-festivals-hi`
 
 **English**
 1. Spiritual Order of Hindu Festivals: Ganapati to Diwali (**recommended**, 54 characters)
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tyoharon-ka-adhyatmik-kram/`, `/en/spiritual-order-of-hindu-festivals/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-order-of-hindu-festivals-hi/`, `/en/spiritual-order-of-hindu-festivals/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -421,7 +421,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "tyoharon-ka-adhyatmik-kram",
+      "slug": "spiritual-order-of-hindu-festivals-hi",
       "focus_keyword": "त्योहारों का आध्यात्मिक क्रम",
       "secondary_keywords": [
         "गणेश चतुर्थी से दिवाली तक",

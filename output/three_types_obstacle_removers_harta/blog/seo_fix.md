@@ -38,7 +38,7 @@ Still unmet:
 | wordpress.en.slug | vighnaharta-meaning-three-kinds-of-harta | meaning-of-vighnaharta-three-kinds-of-harta |
 | wordpress.en.meta_description | What does Vighnaharta mean? Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive. | The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive. |
 
-Unchanged: the Hindi slug (`vighnaharta-ka-arth-teen-prakar-ke-harta`), both focus keywords, secondary keywords, titles, the Hindi meta description, links, also_read, related, category and tags.
+Unchanged: the Hindi slug (`meaning-of-vighnaharta-three-kinds-of-harta-hi`), both focus keywords, secondary keywords, titles, the Hindi meta description, links, also_read, related, category and tags.
 
 The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the SEO checklist, missing before) was added.
 
@@ -46,7 +46,7 @@ The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | vighnaharta-ka-arth-teen-prakar-ke-harta | meaning-of-vighnaharta-three-kinds-of-harta |
+| slug | meaning-of-vighnaharta-three-kinds-of-harta-hi | meaning-of-vighnaharta-three-kinds-of-harta |
 | focus_keyword | विघ्नहर्ता का अर्थ | meaning of Vighnaharta |
 | title | विघ्नहर्ता का अर्थ: तीन प्रकार के हर्ता, आप कौन से हैं? | Meaning of Vighnaharta: Three Kinds of Obstacle Removers |
 | meta_description | विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक। | The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive. |

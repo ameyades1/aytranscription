@@ -37,14 +37,14 @@ Not changed:
 
 - Section 2: the keyword notes now say that the `_seo` texts use "गीता 3.27", "कर्तापन का अहंकार", "Bhagavad Gita 3.27" and "ego of doership" in the direct answer paragraph.
 - Section 3: notes that the recommended titles, meta descriptions and slugs are the ones in seo.json (they already matched, unchanged).
-- Section 8: the `{{HI_POST_URL}}` / `{{EN_POST_URL}}` placeholders are now post URLs built from the slugs (`{{SITE_URL}}/hi/asli-karta-kaun-hai-gita-3-27/`, `{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/`); headline, alternativeHeadline, description and keywords already matched seo.json.
+- Section 8: the `{{HI_POST_URL}}` / `{{EN_POST_URL}}` placeholders are now post URLs built from the slugs (`{{SITE_URL}}/hi/who-is-the-real-doer-gita-3-27-hi/`, `{{SITE_URL}}/en/who-is-the-real-doer-gita-3-27/`); headline, alternativeHeadline, description and keywords already matched seo.json.
 - Sections 11 and 12: no change needed; seo.json is unchanged and every checklist item was and is met.
 
 ## seo.json changes
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | asli-karta-kaun-hai-gita-3-27 | asli-karta-kaun-hai-gita-3-27 (unchanged) |
+| wordpress.hi.slug | who-is-the-real-doer-gita-3-27-hi | who-is-the-real-doer-gita-3-27-hi (unchanged) |
 | wordpress.en.slug | who-is-the-real-doer-gita-3-27 | who-is-the-real-doer-gita-3-27 (unchanged) |
 | focus_keyword, secondary_keywords, title, meta_description | (as before) | unchanged: the focus keywords were already the searched wording and in the first 100 words, and title and meta still contain them |
 | links, also_read | (as before) | unchanged (no edit touched a phrase or heading) |
@@ -53,7 +53,7 @@ Not changed:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | asli-karta-kaun-hai-gita-3-27 | who-is-the-real-doer-gita-3-27 |
+| slug | who-is-the-real-doer-gita-3-27-hi | who-is-the-real-doer-gita-3-27 |
 | focus_keyword | असली कर्ता कौन है | who is the real doer |
 | title | असली कर्ता कौन है? गीता के अनुसार कर्म और अहंकार | Who Is the Real Doer? Bhagavad Gita 3.27 on Karma and Ego |
 | meta_description | असली कर्ता कौन है? आचार्य उपेंद्र जी भगवद्गीता ३.२७ से समझाते हैं कि सारे कर्म प्रकृति के गुणों से होते हैं, और 'मैं ही करता हूं' मानना अहंकार है। | Who is the real doer of your actions? Acharya Upendra Ji explains Bhagavad Gita 3.27: nature's qualities do every action, and 'I alone do it' is ego. |

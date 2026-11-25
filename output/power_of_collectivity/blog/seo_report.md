@@ -37,7 +37,7 @@ Keyword note: the focus keywords "समाज की शक्ति" / "power 
 
 Meta description **(recommended)**: समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है।
 
-Slug **(recommended)**: `/hi/samaj-ki-shakti-daivi-sampatti`
+Slug **(recommended)**: `/hi/power-of-community-divine-wealth-hi`
 
 **English**
 1. The Power of Community: Why Divine Wealth Comes First **(recommended)**
@@ -278,7 +278,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/samaj-ki-shakti-daivi-sampatti/`, `/en/power-of-community-divine-wealth/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/power-of-community-divine-wealth-hi/`, `/en/power-of-community-divine-wealth/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema.
 
@@ -370,7 +370,7 @@ The values written to `output/power_of_collectivity/blog/seo.json`:
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "samaj-ki-shakti-daivi-sampatti",
+      "slug": "power-of-community-divine-wealth-hi",
       "focus_keyword": "समाज की शक्ति",
       "secondary_keywords": [
         "दैवी संपत्ति क्या है",

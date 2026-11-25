@@ -53,7 +53,7 @@ Still unmet (2):
 | also_read.after.hi | कलयुग की सबसे बड़ी उलझन | प्रेम या वासना? कलयुग की सबसे बड़ी उलझन |
 | also_read.after.en | The Great Confusion of Kali Yuga | Love or Lust? The Great Confusion of Kali Yuga |
 | wordpress.hi.focus_keyword, wordpress.en.focus_keyword | काम का असली अर्थ / love vs lust | unchanged (the `_seo` texts now use them) |
-| wordpress.hi.slug, wordpress.en.slug | kaam-ka-asli-arth / love-vs-lust | unchanged |
+| wordpress.hi.slug, wordpress.en.slug | love-vs-lust-hi / love-vs-lust | unchanged |
 | title.hi, title.en, wordpress.hi.meta_description | (as below) | unchanged (already contain the focus keyword) |
 | links | (unchanged) | unchanged (no edit touched a link phrase) |
 
@@ -61,7 +61,7 @@ Still unmet (2):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kaam-ka-asli-arth | love-vs-lust |
+| slug | love-vs-lust-hi | love-vs-lust |
 | focus_keyword | काम का असली अर्थ | love vs lust |
 | title | काम का असली अर्थ: प्रेम या केवल आकर्षण? | आचार्य जी | Love vs Lust: The True Meaning of Kama | Acharya Ji |
 | meta_description | जिसे हम प्रेम कहते हैं, क्या वह प्रेम है या केवल आकर्षण? आचार्य उपेंद्र जी बताते हैं काम का असली अर्थ, कामना के दो स्तर और स्पर्श के पीछे का हेतु। | Love vs lust: what is the difference? Acharya Upendra Ji explains the true meaning of kama, its two levels, and why the intention behind a touch matters. |

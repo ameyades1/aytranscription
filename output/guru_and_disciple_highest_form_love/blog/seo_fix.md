@@ -36,13 +36,13 @@ Still unmet: none.
 |---|---|---|
 | wordpress.en.slug | guru-disciple-love | love-between-guru-and-disciple |
 
-Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `guru-shishya-ka-prem`, both titles and meta descriptions (they already contain the focus keywords), secondary keywords, tags, `links` and `also_read`.
+Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `love-between-guru-and-disciple-hi`, both titles and meta descriptions (they already contain the focus keywords), secondary keywords, tags, `links` and `also_read`.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | guru-shishya-ka-prem | love-between-guru-and-disciple |
+| slug | love-between-guru-and-disciple-hi | love-between-guru-and-disciple |
 | focus keyword | गुरु शिष्य का प्रेम | love between Guru and disciple |
 | title | गुरु शिष्य का प्रेम: प्रेम का सर्वोच्च स्वरूप | Love Between Guru and Disciple: Love's Highest Form |
 | meta description | जिसे हम प्रेम कहते हैं, क्या वह सच में प्रेम है? आचार्य उपेंद्र जी बताते हैं कि गुरु शिष्य का प्रेम मोह और आसक्ति से कैसे अलग है और असली शिष्य की पहचान क्या है। | Is what we call love really love? Acharya Upendra Ji explains love between Guru and disciple, how it differs from moha, and the mark of a true disciple. |

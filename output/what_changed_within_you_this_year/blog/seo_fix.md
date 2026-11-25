@@ -38,7 +38,7 @@ Deliberately not done:
 |---|---|---|
 | wordpress.hi.meta_description | अधिकतर त्योहार चातुर्मास में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का वर्षा में ठहराव और त्योहारों का प्रश्न: भीतर क्या बदला? | चातुर्मास का महत्व: अधिकतर त्योहार इन्हीं चार महीनों में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का ठहराव और त्योहारों का प्रश्न। |
 | wordpress.en.meta_description | Why do most Hindu festivals fall in Chaturmas, and why do weddings follow? Acharya Upendra Ji explains the sages' monsoon stay and what each festival asks. | Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask. |
-| wordpress.hi.slug | chaturmas-ka-mahatva | unchanged |
+| wordpress.hi.slug | significance-of-chaturmas-hi | unchanged |
 | wordpress.en.slug | significance-of-chaturmas | unchanged |
 | focus_keyword, secondary_keywords, title (hi, en) | (as below) | unchanged: the searched wording was already the focus keyword and is now in the text |
 | links, also_read | (unchanged) | unchanged (no edit touched a link phrase or the Also read heading) |
@@ -47,7 +47,7 @@ Deliberately not done:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | chaturmas-ka-mahatva | significance-of-chaturmas |
+| slug | significance-of-chaturmas-hi | significance-of-chaturmas |
 | focus keyword | चातुर्मास का महत्व | significance of Chaturmas |
 | title | चातुर्मास का महत्व: त्योहार इन्हीं महीनों में क्यों आते हैं | Significance of Chaturmas: Why Festivals Come in Monsoon |
 | meta description | चातुर्मास का महत्व: अधिकतर त्योहार इन्हीं चार महीनों में क्यों आते हैं और फिर विवाह क्यों? आचार्य उपेंद्र जी बताते हैं ऋषियों का ठहराव और त्योहारों का प्रश्न। | Significance of Chaturmas: why most festivals fall in the monsoon and weddings follow. Acharya Upendra Ji explains the sages' stay and what festivals ask. |

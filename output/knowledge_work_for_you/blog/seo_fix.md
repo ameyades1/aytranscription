@@ -39,13 +39,13 @@ Not changed (outside this fix): the Sanskrit review's accuracy issues are left t
 | wordpress.en.meta_description | Know what is right but cannot do it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes. | Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes. |
 | wordpress.en.slug | knowing-right-but-not-doing-it | knowing-what-is-right-but-not-doing-it |
 
-The Hindi slug `jaante-hue-bhi-sahi-kyon-nahi-kar-paate` already follows the focus keyword, so it is unchanged. The focus keywords, secondary keywords, titles, `links` and `also_read` are unchanged. The meta descriptions are 155 (Hindi) and 151 (English) characters. The report's section 11 holds the same JSON, and its sections 2 (keyword note), 3 (recommended titles, meta descriptions and slugs marked as in seo.json), 8 (schema descriptions; URL placeholders mapped to the slugs) and 12 (added) are updated. `python3 tools/check_seo.py knowledge_work_for_you`: passed.
+The Hindi slug `knowing-what-is-right-but-not-doing-it-hi` already follows the focus keyword, so it is unchanged. The focus keywords, secondary keywords, titles, `links` and `also_read` are unchanged. The meta descriptions are 155 (Hindi) and 151 (English) characters. The report's section 11 holds the same JSON, and its sections 2 (keyword note), 3 (recommended titles, meta descriptions and slugs marked as in seo.json), 8 (schema descriptions; URL placeholders mapped to the slugs) and 12 (added) are updated. `python3 tools/check_seo.py knowledge_work_for_you`: passed.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | jaante-hue-bhi-sahi-kyon-nahi-kar-paate | knowing-what-is-right-but-not-doing-it |
+| slug | knowing-what-is-right-but-not-doing-it-hi | knowing-what-is-right-but-not-doing-it |
 | focus keyword | जानते हुए भी सही क्यों नहीं कर पाते | knowing what is right but not doing it |
 | title | जानते हुए भी सही क्यों नहीं कर पाते? गीता 3.33 का उत्तर | Knowing What Is Right but Not Doing It: Gita 3.33-34 |
 | meta description | जानते हुए भी सही क्यों नहीं कर पाते? आचार्य उपेंद्र जी गीता ३.३३-३४ से बताते हैं कि केवल ज्ञान क्यों काफ़ी नहीं, और राग-द्वेष से ऊपर उठकर श्रेय कैसे चुनें। | Knowing what is right but not doing it? Acharya Upendra Ji explains Gita 3.33-3.34: why knowledge alone fails and how to rise above likes and dislikes. |

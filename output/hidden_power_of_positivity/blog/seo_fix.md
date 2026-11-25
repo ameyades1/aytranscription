@@ -35,7 +35,7 @@ No teaching, example or order of ideas changed. The H1, verses, their translatio
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | What does Bhadram Karnebhih really mean? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything. | What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything. |
-| wordpress.hi.slug | bhadram-karnebhih-mantra-ka-arth | bhadram-karnebhih-mantra-ka-arth (unchanged) |
+| wordpress.hi.slug | bhadram-karnebhih-meaning-hi | bhadram-karnebhih-meaning-hi (unchanged) |
 | wordpress.en.slug | bhadram-karnebhih-meaning | bhadram-karnebhih-meaning (unchanged) |
 
 The English meta description changed because "really mean" did not match the focus keyword "Bhadram Karnebhih meaning" (146 characters now). The focus keywords already were the searched wording and are now in the body, so the focus keywords, secondary keywords, slugs, titles, the Hindi meta description, `links` and `also_read` stay as they were. The report's section 11 and section 8 (the English schema description) carry the new meta description. Section 3 marks the meta descriptions and slugs in seo.json as recommended (the titles were already marked), section 2 has a keyword note, and section 12 is the new checklist.
@@ -44,7 +44,7 @@ The English meta description changed because "really mean" did not match the foc
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhadram-karnebhih-mantra-ka-arth | bhadram-karnebhih-meaning |
+| slug | bhadram-karnebhih-meaning-hi | bhadram-karnebhih-meaning |
 | focus_keyword | भद्रं कर्णेभिः मंत्र का अर्थ | Bhadram Karnebhih meaning |
 | title | भद्रं कर्णेभिः मंत्र का अर्थ: शुभ सुनो, शुभ देखो | Bhadram Karnebhih Meaning: The Hidden Power of Positivity |
 | meta_description | भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना। | What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything. |

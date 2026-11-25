@@ -35,13 +35,13 @@ Left for the editor (not SEO fixes): the Sanskrit review's content corrections (
 
 ## seo.json changes
 
-None. Both texts now use the existing focus keywords, which were already in the titles, meta descriptions and the English slug, so the slugs stay the same: Hindi `asthir-sansar-mein-sthir-kya-hai` (old and new), English `nothing-lasts-forever` (old and new). Titles, meta descriptions, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags are unchanged.
+None. Both texts now use the existing focus keywords, which were already in the titles, meta descriptions and the English slug, so the slugs stay the same: Hindi `nothing-lasts-forever-hi` (old and new), English `nothing-lasts-forever` (old and new). Titles, meta descriptions, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags are unchanged.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | asthir-sansar-mein-sthir-kya-hai | nothing-lasts-forever |
+| slug | nothing-lasts-forever-hi | nothing-lasts-forever |
 | focus keyword | अस्थिर संसार में स्थिर क्या है | nothing lasts forever |
 | title | अस्थिर संसार में स्थिर क्या है? दुःख से मुक्ति का एक बोध | Nothing Lasts Forever: One Realisation That Frees You |
 | meta description | संसार को तुम छोड़ोगे या संसार तुम्हें छोड़ देगा। आचार्य उपेंद्र जी बताते हैं कि अस्थिर संसार में स्थिर क्या है, और पचास के बाद वानप्रस्थ का अर्थ क्या है। | Body, wealth and relationships all change. Acharya Upendra Ji explains what stays steady when nothing lasts forever, and why vanaprastha begins at home. |

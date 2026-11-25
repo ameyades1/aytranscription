@@ -34,7 +34,7 @@ Keyword note: neither focus keyword was in the original blog bodies, which say o
 
 Meta description (159 characters): अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि "मैं तो ऐसा ही हूँ" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है।
 
-Slug: `/hi/adiyal-swabhav-kaise-badlen`
+Slug: `/hi/rigid-mind-vs-flexible-mind-hi`
 
 **English**
 1. Rigid Mind vs Flexible Mind: Who Holds Your Destiny? (recommended, 52 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/adiyal-swabhav-kaise-badlen/`, `/en/rigid-mind-vs-flexible-mind/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/rigid-mind-vs-flexible-mind-hi/`, `/en/rigid-mind-vs-flexible-mind/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -509,7 +509,7 @@ The exact values written to `output/rigid_mind_vs_flexible_mind_destiny/blog/seo
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "adiyal-swabhav-kaise-badlen",
+      "slug": "rigid-mind-vs-flexible-mind-hi",
       "focus_keyword": "अड़ियल स्वभाव कैसे बदलें",
       "secondary_keywords": [
         "लचीली बुद्धि",

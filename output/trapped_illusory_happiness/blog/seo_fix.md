@@ -60,7 +60,7 @@ No other talk uses the new slug or focus keyword.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | indriya-sukh-kshanik-kyon | why-sense-pleasures-fade |
+| slug | why-sense-pleasures-fade-hi | why-sense-pleasures-fade |
 | focus_keyword | इंद्रिय सुख क्षणिक क्यों है | why sense pleasures fade |
 | title | इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल | Why Sense Pleasures Fade: The Trap of Physical Bliss |
 | meta_description | इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है। | Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life. |

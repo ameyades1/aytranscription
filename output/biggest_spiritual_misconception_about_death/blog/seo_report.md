@@ -41,7 +41,7 @@ Keyword note: people (and the video thumbnail) say "moksha after death". The ori
 
 Meta description (148 characters): क्या मरने के बाद मोक्ष मिलता है? आचार्य उपेंद्र जी समझाते हैं कि मुक्ति जीते-जी की अवस्था है, और आध्यात्मिक भाषा में मृत्यु व मोक्ष का अर्थ क्या है।
 
-Slug: `/hi/marne-ke-baad-moksha`
+Slug: `/hi/moksha-after-death-hi`
 
 **English** (H1 in the blog: "Liberation Does Not Come After Death"; not changed)
 1. Moksha After Death? Why Liberation Comes While Alive (52 characters) **recommended** (after the SEO fix; was "Liberation After Death? Why Moksha Comes While Alive")
@@ -123,7 +123,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/marne-ke-baad-moksha/`, `/en/moksha-after-death/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/moksha-after-death-hi/`, `/en/moksha-after-death/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -417,7 +417,7 @@ The exact values written to blog/seo.json for the page generator and WordPress.
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "marne-ke-baad-moksha",
+      "slug": "moksha-after-death-hi",
       "focus_keyword": "मरने के बाद मोक्ष",
       "secondary_keywords": [
         "जीवन्मुक्त का अर्थ",

@@ -52,7 +52,7 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 Why so many gods in Hinduism? Acharya Upendra Ji explains that God is one, the formless Omkara, and the 33 crore gods are the powers and roles of that One.
 
 **Slugs (recommended, in seo.json)**
-- Hindi: /hi/33-koti-devta-ya-ek-bhagwan
+- Hindi: /hi/33-crore-gods-one-god-hi
 - English: /en/33-crore-gods-one-god
 
 The H1s ("तैंतीस कोटि देवता या एक भगवान" / "Thirty-Three Crore Gods, or One God?") stay as they are. The `<title>` tag is set separately.
@@ -122,7 +122,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/33-koti-devta-ya-ek-bhagwan/#article",
+      "@id": "{{SITE_URL}}/hi/33-crore-gods-one-god-hi/#article",
       "headline": "तैंतीस कोटि देवता या एक भगवान",
       "alternativeHeadline": "33 कोटि देवता या एक भगवान? हिंदू धर्म का सच",
       "description": "हिंदू धर्म में 33 कोटि देवता क्यों हैं? ब्रह्मर्षि आचार्य उपेंद्र जी बताते हैं कि भगवान एक ही है, ओंकार, और सभी देवता उसी एक की शक्तियाँ और भूमिकाएँ हैं।",
@@ -138,7 +138,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-13",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/33-koti-devta-ya-ek-bhagwan/"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/33-crore-gods-one-god-hi/"},
       "video": {"@id": "https://www.youtube.com/watch?v=kZDtLhoBlRo#video"},
       "workTranslation": {"@id": "{{SITE_URL}}/en/33-crore-gods-one-god/#article"}
     },
@@ -175,7 +175,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{HI_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "देवी-देवता और उपासना", "item": "{{HI_CATEGORY_DEITIES_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "तैंतीस कोटि देवता या एक भगवान", "item": "{{SITE_URL}}/hi/33-koti-devta-ya-ek-bhagwan/"}
+        {"@type": "ListItem", "position": 4, "name": "तैंतीस कोटि देवता या एक भगवान", "item": "{{SITE_URL}}/hi/33-crore-gods-one-god-hi/"}
       ]
     }
   ]
@@ -207,7 +207,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
       "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/en/33-crore-gods-one-god/"},
       "video": {"@id": "https://www.youtube.com/watch?v=kZDtLhoBlRo#video"},
-      "translationOfWork": {"@id": "{{SITE_URL}}/hi/33-koti-devta-ya-ek-bhagwan/#article"}
+      "translationOfWork": {"@id": "{{SITE_URL}}/hi/33-crore-gods-one-god-hi/#article"}
     },
     {
       "@type": "Person",
@@ -354,7 +354,7 @@ The exact values written to output/33_crore_gods_truth_about_hinduism/blog/seo.j
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "33-koti-devta-ya-ek-bhagwan",
+      "slug": "33-crore-gods-one-god-hi",
       "focus_keyword": "33 कोटि देवता",
       "secondary_keywords": [
         "तैंतीस कोटि देवता",

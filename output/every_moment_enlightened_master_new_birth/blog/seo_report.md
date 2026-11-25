@@ -33,7 +33,7 @@ Keyword note: the original blog texts never use the exact wording "गुरु 
 
 Meta description (recommended, in seo.json): गुरु सेवा का महत्व क्या है? एक साधिका बताती हैं कि शिविर में सबके लिए भोजन बनाने, 'मैं-मेरा' छोड़ने और गुरु पादुका के मार्ग पर चलने से जीवन नया जन्म कैसे बना।
 
-Slug (recommended, in seo.json): /hi/guru-seva-ka-mahatva
+Slug (recommended, in seo.json): /hi/importance-of-guru-seva-hi
 
 **English**
 1. Importance of Guru Seva: Every Moment a New Birth (recommended, 49 characters)
@@ -235,7 +235,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist (`{{WP_URL_HI}}`, `{{WP_URL_EN}}`: suggested slugs `/hi/guru-seva-ka-mahatva/` and `/en/importance-of-guru-seva/`). See flag 4 before choosing the author.
+**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist (`{{WP_URL_HI}}`, `{{WP_URL_EN}}`: suggested slugs `/hi/importance-of-guru-seva-hi/` and `/en/importance-of-guru-seva/`). See flag 4 before choosing the author.
 
 ## 9. Images
 
@@ -334,7 +334,7 @@ The exact values written to output/every_moment_enlightened_master_new_birth/blo
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-seva-ka-mahatva",
+      "slug": "importance-of-guru-seva-hi",
       "focus_keyword": "गुरु सेवा का महत्व",
       "secondary_keywords": [
         "गुरु पादुका पूजन का अर्थ",

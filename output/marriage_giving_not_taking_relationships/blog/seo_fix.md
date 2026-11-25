@@ -37,7 +37,7 @@ Still unmet: none. (The report had no section 12 before; it has been added, mark
 | wordpress.hi.meta_description | क्या विवाह सुखी होने का सौदा है? आचार्य उपेंद्र जी बताते हैं कि विवाह लेने का नहीं, देने का संबंध है, और कठिन जीवनसाथी के साथ हमारा व्यवहार हमारा नया कर्म है। | विवाह का उद्देश्य क्या है? आचार्य उपेंद्र जी बताते हैं कि विवाह सुखी होने का सौदा नहीं, देने का संबंध है, और कठिन जीवनसाथी से हमारा व्यवहार हमारा नया कर्म है। |
 | wordpress.en.meta_description | Is marriage a deal for happiness? Acharya Upendra Ji explains why marriage is about giving, not taking, and why a difficult partner is your prarabdha. | What is the spiritual purpose of marriage? Acharya Upendra Ji explains why it is about giving, not taking, and why a difficult partner is your prarabdha. |
 | wordpress.en.slug | marriage-giving-not-taking | spiritual-purpose-of-marriage |
-| wordpress.hi.slug | vivah-ka-uddeshya | vivah-ka-uddeshya (unchanged) |
+| wordpress.hi.slug | spiritual-purpose-of-marriage-hi | spiritual-purpose-of-marriage-hi (unchanged) |
 
 Focus keywords, secondary keywords, titles, `links` and `also_read` are unchanged.
 
@@ -45,7 +45,7 @@ Focus keywords, secondary keywords, titles, `links` and `also_read` are unchange
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | vivah-ka-uddeshya | spiritual-purpose-of-marriage |
+| slug | spiritual-purpose-of-marriage-hi | spiritual-purpose-of-marriage |
 | focus_keyword | विवाह का उद्देश्य | spiritual purpose of marriage |
 | title | विवाह का उद्देश्य: लेना नहीं, देना \| आचार्य उपेंद्र जी | Spiritual Purpose of Marriage: Giving, Not Taking |
 | meta_description | विवाह का उद्देश्य क्या है? आचार्य उपेंद्र जी बताते हैं कि विवाह सुखी होने का सौदा नहीं, देने का संबंध है, और कठिन जीवनसाथी से हमारा व्यवहार हमारा नया कर्म है। | What is the spiritual purpose of marriage? Acharya Upendra Ji explains why it is about giving, not taking, and why a difficult partner is your prarabdha. |

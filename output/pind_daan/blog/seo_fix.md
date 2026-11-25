@@ -44,7 +44,7 @@ No teaching, example, H1 or order of ideas changed, and the Markdown is kept. Th
 |---|---|---|
 | wordpress.hi.meta_description | पिंडदान का वास्तविक अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक। | पिंडदान का अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक। (150) |
 | wordpress.en.meta_description | What does pind daan really mean, and why does a crow sometimes refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal. | What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal. (155) |
-| wordpress.hi.slug | pind-daan-ka-arth | pind-daan-ka-arth (unchanged; already fits the keyword) |
+| wordpress.hi.slug | pind-daan-meaning-hi | pind-daan-meaning-hi (unchanged; already fits the keyword) |
 | wordpress.en.slug | pind-daan-meaning | pind-daan-meaning (unchanged; 17 characters, contains the keyword) |
 
 These fields are unchanged: `focus_keyword` and `secondary_keywords` (the focus keywords were already the searched wording), `title` (both already contain the keyword), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. Sections 2 (keyword note), 3 (metas and slugs marked recommended) and 8 (schema descriptions) were updated to match, and section 12 was added.
@@ -53,7 +53,7 @@ These fields are unchanged: `focus_keyword` and `secondary_keywords` (the focus 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | pind-daan-ka-arth | pind-daan-meaning |
+| slug | pind-daan-meaning-hi | pind-daan-meaning |
 | focus_keyword | पिंडदान का अर्थ | pind daan meaning |
 | title | पिंडदान का अर्थ: कौवा पिंड क्यों खाता है, क्यों नहीं? | Pind Daan Meaning: Why the Crow Eats the Pind, or Refuses |
 | meta_description | पिंडदान का अर्थ क्या है और कौवा कभी पिंड क्यों नहीं खाता? आचार्य उपेंद्र जी बताते हैं: पिंड आपका अपना शरीर, मन और बुद्धि है, और कौवा पितरों का संकेतक। | What is the real pind daan meaning, and why does a crow at times refuse the pind? Acharya Upendra Ji explains the white rice pind and the crow as a signal. |

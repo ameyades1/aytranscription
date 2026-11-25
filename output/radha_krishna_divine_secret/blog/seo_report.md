@@ -32,7 +32,7 @@ Keyword note: the focus keywords are the searched wording. The original blog tex
 
 Meta description (recommended, as in seo.json): गोपिका वल्लभ का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है।
 
-Slug (recommended, as in seo.json): `/hi/gopika-vallabh-ka-arth/`
+Slug (recommended, as in seo.json): `/hi/gopika-vallabha-meaning-hi/`
 
 **English**
 1. Gopika Vallabha Meaning: Radha and Krishna Swap Roles (53 chars) — **recommended**
@@ -97,7 +97,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/gopika-vallabh-ka-arth/`, `/en/gopika-vallabha-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/gopika-vallabha-meaning-hi/`, `/en/gopika-vallabha-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -403,7 +403,7 @@ The exact values written to `output/radha_krishna_divine_secret/blog/seo.json` f
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "gopika-vallabh-ka-arth",
+      "slug": "gopika-vallabha-meaning-hi",
       "focus_keyword": "गोपिका वल्लभ का अर्थ",
       "secondary_keywords": ["राधा कृष्ण का रहस्य", "राधा कृष्ण ने भूमिकाएं क्यों बदलीं", "पति पत्नी एक दूसरे को कैसे समझें", "radha krishna ka rahasya"],
       "meta_description": "गोपिका वल्लभ का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है।",

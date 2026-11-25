@@ -36,13 +36,13 @@ Still unmet (1):
 |---|---|---|
 | wordpress.en.meta_description | Is marriage a spiritual step down? Acharya Upendra Ji explains what brahmacharya truly means, why kama is a purushartha, and how true restraint shows. | What is brahmacharya? Acharya Upendra Ji explains why marriage is no spiritual step down, why kama is a purushartha, and how true restraint shows. |
 
-Slugs unchanged (Hindi `brahmacharya-ka-asli-arth`, English `what-is-brahmacharya`); focus keywords, titles, the Hindi meta description, `links` and `also_read` unchanged.
+Slugs unchanged (Hindi `what-is-brahmacharya-hi`, English `what-is-brahmacharya`); focus keywords, titles, the Hindi meta description, `links` and `also_read` unchanged.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | brahmacharya-ka-asli-arth | what-is-brahmacharya |
+| slug | what-is-brahmacharya-hi | what-is-brahmacharya |
 | focus keyword | ब्रह्मचर्य का असली अर्थ | what is brahmacharya |
 | title | ब्रह्मचर्य का असली अर्थ: विवाह, काम और संयम \| आचार्य जी | What Is Brahmacharya? The Truth No One Tells \| Acharya Ji |
 | meta description | क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान। | What is brahmacharya? Acharya Upendra Ji explains why marriage is no spiritual step down, why kama is a purushartha, and how true restraint shows. |

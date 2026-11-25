@@ -37,7 +37,7 @@ No focus keyword overlaps with another talk's. "preya and shreya" is the core to
 
 Meta description (recommended, as in seo.json, 154 characters): भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना।
 
-Slug (recommended, as in seo.json): `/hi/bhadram-karnebhih-mantra-ka-arth`
+Slug (recommended, as in seo.json): `/hi/bhadram-karnebhih-meaning-hi`
 
 **English**
 1. Bhadram Karnebhih Meaning: The Hidden Power of Positivity (recommended, 57 characters)
@@ -103,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bhadram-karnebhih-mantra-ka-arth/`, `/en/bhadram-karnebhih-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bhadram-karnebhih-meaning-hi/`, `/en/bhadram-karnebhih-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -407,7 +407,7 @@ The exact values written to `output/hidden_power_of_positivity/blog/seo.json` fo
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "bhadram-karnebhih-mantra-ka-arth",
+      "slug": "bhadram-karnebhih-meaning-hi",
       "focus_keyword": "भद्रं कर्णेभिः मंत्र का अर्थ",
       "secondary_keywords": [
         "भद्र सुनो भद्र देखो",

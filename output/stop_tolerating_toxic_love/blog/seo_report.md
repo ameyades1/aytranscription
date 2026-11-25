@@ -33,7 +33,7 @@ Keyword note: the original blog texts did not contain either focus keyword word 
 
 Meta description (recommended, in seo.json): तामसिक रिश्ता क्या है? आचार्य उपेंद्र जी बताते हैं कि अत्याचार सहना सहिष्णुता नहीं, भय और आत्म-मूल्य की कमी है, और आत्मविश्वास से ना कहना क्यों ज़रूरी है।
 
-Slug (recommended, in seo.json): `/hi/tamasik-rishta-kya-hai`
+Slug (recommended, in seo.json): `/hi/why-do-people-stay-in-toxic-relationships-hi`
 
 **English**
 1. Why Do People Stay in Toxic Relationships? The Tamasic Trap (recommended, 59 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tamasik-rishta-kya-hai/`, `/en/why-do-people-stay-in-toxic-relationships/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-do-people-stay-in-toxic-relationships-hi/`, `/en/why-do-people-stay-in-toxic-relationships/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -412,7 +412,7 @@ The exact values written to `output/stop_tolerating_toxic_love/blog/seo.json` fo
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "tamasik-rishta-kya-hai",
+      "slug": "why-do-people-stay-in-toxic-relationships-hi",
       "focus_keyword": "तामसिक रिश्ता क्या है",
       "secondary_keywords": [
         "टॉक्सिक रिश्ते में लोग क्यों रहते हैं",

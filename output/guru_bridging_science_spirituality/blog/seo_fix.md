@@ -33,13 +33,13 @@ Still unmet: none.
 
 ## seo.json changes
 
-None. Both focus keywords stay (the `_seo` texts now use them); the slugs `vigyan-aur-adhyatm` (Hindi) and `guru-science-and-spirituality` (English) already contain them; the titles and meta descriptions already contain them; secondary keywords, tags, `links` and `also_read` are unchanged. Report: section 2 keyword note added, section 3 recommended title, meta and slug marked, section 12 added; sections 8 and 11 already match seo.json.
+None. Both focus keywords stay (the `_seo` texts now use them); the slugs `guru-science-and-spirituality-hi` (Hindi) and `guru-science-and-spirituality` (English) already contain them; the titles and meta descriptions already contain them; secondary keywords, tags, `links` and `also_read` are unchanged. Report: section 2 keyword note added, section 3 recommended title, meta and slug marked, section 12 added; sections 8 and 11 already match seo.json.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | vigyan-aur-adhyatm | guru-science-and-spirituality |
+| slug | guru-science-and-spirituality-hi | guru-science-and-spirituality |
 | focus keyword | विज्ञान और अध्यात्म | science and spirituality |
 | title | विज्ञान और अध्यात्म: बुद्धि के प्रश्न, आत्मा से उत्तर | Science and Spirituality: The Guru Who Answers Reason |
 | meta description | क्या प्रश्न पूछना अश्रद्धा है? आचार्य उपेंद्र जी गीता ३.४२ से बताते हैं कि विज्ञान और अध्यात्म को जोड़ने के लिए गुरु को बुद्धि की भाषा में उत्तर देना होगा। | Is questioning your faith wrong? Acharya Upendra Ji uses Gita 3.42 to show why science and spirituality meet in a Guru who can answer the intellect. |

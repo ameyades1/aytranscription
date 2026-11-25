@@ -38,7 +38,7 @@ Hindi
 
 Meta description (159 characters): प्राणमय कोश अन्नमय कोश से ऊपर है। आचार्य उपेंद्र जी बताते हैं कि जो हम पीते हैं वह प्राण कैसे बनता है, थके व्यक्ति को पहले जल क्यों, और जल मन को कैसे गढ़ता है।
 
-Slug: /hi/pranamaya-kosh-jal-aur-pran
+Slug: /hi/pranamaya-kosha-water-and-prana-hi
 
 English
 1. Pranamaya Kosha: How Water Becomes Prana (40 characters) **(recommended)**
@@ -250,7 +250,7 @@ English:
 }
 ```
 
-Sources: dates from `git log` of the Hindi blog (oldest 2026-10-04 = published, newest 2026-10-09 = modified); video upload date (2025-04-07), duration (293 s) and title from yt-dlp. All `{{...}}` values are unknown until the posts exist in WordPress. `{{WORDPRESS_URL_HI}}` and `{{WORDPRESS_URL_EN}}` end in the slugs `/hi/pranamaya-kosh-jal-aur-pran/` and `/en/pranamaya-kosha-water-and-prana/`.
+Sources: dates from `git log` of the Hindi blog (oldest 2026-10-04 = published, newest 2026-10-09 = modified); video upload date (2025-04-07), duration (293 s) and title from yt-dlp. All `{{...}}` values are unknown until the posts exist in WordPress. `{{WORDPRESS_URL_HI}}` and `{{WORDPRESS_URL_EN}}` end in the slugs `/hi/pranamaya-kosha-water-and-prana-hi/` and `/en/pranamaya-kosha-water-and-prana/`.
 
 WordPress (SureRank) mapping: SureRank generates BlogPosting/Article, Organization, Person (author) and BreadcrumbList itself from the post, the site settings and the category, using the title, meta description, featured image and dates WordPress already has. Enter by hand: the focus keyword, SEO title and meta description (from seo.json `wordpress`), the Organization logo and social profiles in the site settings if not already set, and the author name "Brahmarshi Acharya Upendra Ji". The VideoObject and the translationOfWork/workTranslation link are not generated automatically: add them as custom schema (or rely on the translation plugin's hreflang for the language pair), using the blocks above with the placeholders filled in.
 
@@ -346,7 +346,7 @@ The values written to `output/water_is_your_first_medicine/blog/seo.json`:
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "pranamaya-kosh-jal-aur-pran",
+      "slug": "pranamaya-kosha-water-and-prana-hi",
       "focus_keyword": "प्राणमय कोश",
       "secondary_keywords": [
         "जल आपकी पहली औषधि",

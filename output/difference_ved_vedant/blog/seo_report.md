@@ -38,7 +38,7 @@ Keyword note: the original blog texts did not use the focus keywords in the body
 
 Meta description (151 characters) **recommended**: "वेद और वेदांत में अंतर क्या है? आचार्य उपेंद्र जी बताते हैं कि वेद कोई किताब नहीं, जानने की प्रक्रिया है, और वेदांत वह भाग है जहां जानना पूर्ण होता है।"
 
-Slug: `/hi/ved-aur-vedant-mein-antar` **recommended**
+Slug: `/hi/difference-between-veda-and-vedanta-hi` **recommended**
 
 **English**
 1. Difference Between Veda and Vedanta: Knowing, Not a Book (56) **recommended**
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ved-aur-vedant-mein-antar/`, `/en/difference-between-veda-and-vedanta/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/difference-between-veda-and-vedanta-hi/`, `/en/difference-between-veda-and-vedanta/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -540,7 +540,7 @@ The exact contents of `output/difference_ved_vedant/blog/seo.json`, used by the 
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "ved-aur-vedant-mein-antar",
+      "slug": "difference-between-veda-and-vedanta-hi",
       "focus_keyword": "वेद और वेदांत में अंतर",
       "secondary_keywords": [
         "वेद का अर्थ क्या है",

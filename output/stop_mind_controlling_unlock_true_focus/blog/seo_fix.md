@@ -50,7 +50,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 |---|---|---|
 | wordpress.hi.meta_description | चित्त वृत्ति निरोध क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है। | चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है। (160) |
 | wordpress.en.meta_description | What is chitta vritti nirodha? Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga. | Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga. (151) |
-| wordpress.hi.slug | chitta-vritti-nirodh-ka-arth | chitta-vritti-nirodh-ka-arth (unchanged) |
+| wordpress.hi.slug | chitta-vritti-nirodha-meaning-hi | chitta-vritti-nirodha-meaning-hi (unchanged) |
 | wordpress.en.slug | chitta-vritti-nirodha-meaning | chitta-vritti-nirodha-meaning (unchanged) |
 
 Unchanged:
@@ -61,7 +61,7 @@ Unchanged:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | chitta-vritti-nirodh-ka-arth | chitta-vritti-nirodha-meaning |
+| slug | chitta-vritti-nirodha-meaning-hi | chitta-vritti-nirodha-meaning |
 | focus keyword | चित्त वृत्ति निरोध का अर्थ | chitta vritti nirodha meaning |
 | title | चित्त वृत्ति निरोध का अर्थ: मन बार-बार क्यों बदलता है | Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering |
 | meta description | चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है। | Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga. |

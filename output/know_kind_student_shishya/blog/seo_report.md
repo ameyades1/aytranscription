@@ -36,7 +36,7 @@ Searched wording and body: the original blog texts say only "शिष्य त
 
 Meta description (recommended, in seo.json, 150 characters): तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और "मैं कहां गलत था?" पूछने से कर्म कैसे सुलझता है।
 
-Slug (recommended, in seo.json): `/hi/shishya-ke-teen-prakar`
+Slug (recommended, in seo.json): `/hi/three-types-of-disciples-hi`
 
 **English**
 1. Three Types of Disciples: What Do You Ask the Guru For? (recommended, in seo.json, 55 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shishya-ke-teen-prakar/`, `/en/three-types-of-disciples/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/three-types-of-disciples-hi/`, `/en/three-types-of-disciples/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -388,7 +388,7 @@ The values written to `output/know_kind_student_shishya/blog/seo.json`:
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "shishya-ke-teen-prakar",
+      "slug": "three-types-of-disciples-hi",
       "focus_keyword": "शिष्य के तीन प्रकार",
       "secondary_keywords": [
         "तामसिक राजसिक सात्त्विक शिष्य",

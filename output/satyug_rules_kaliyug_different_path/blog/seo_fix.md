@@ -32,7 +32,7 @@ The fix changed no teaching, example, order of ideas, verse or H1. The headings 
 |---|---|---|
 | title.hi | सत्ययुग के नियम, कलियुग का मार्ग: आगम, तंत्र और भैरव शक्ति | कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति (51) |
 | title.en | Satyug Rules, Kaliyug Path: Agama, Tantra and Bhairava | Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava (54) |
-| wordpress.hi.slug | satyug-ke-niyam-kaliyug-ka-marg | kaliyug-mein-sadhana-ka-marg |
+| wordpress.hi.slug | satyug-ke-niyam-kaliyug-ka-marg | spiritual-path-in-kaliyuga-hi |
 | wordpress.en.slug | satyug-rules-kaliyug-path | spiritual-path-in-kaliyuga (26 characters) |
 | wordpress.hi.focus_keyword | कलियुग में साधना का मार्ग | unchanged |
 | wordpress.en.focus_keyword | spiritual path in Kaliyug | spiritual path in Kaliyuga |
@@ -50,7 +50,7 @@ The English focus keyword targets the same query, now in the body's spelling. "K
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kaliyug-mein-sadhana-ka-marg | spiritual-path-in-kaliyuga |
+| slug | spiritual-path-in-kaliyuga-hi | spiritual-path-in-kaliyuga |
 | focus_keyword | कलियुग में साधना का मार्ग | spiritual path in Kaliyuga |
 | title | कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति | Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava |
 | meta_description | कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति। | What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti. |

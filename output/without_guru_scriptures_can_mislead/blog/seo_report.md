@@ -38,7 +38,7 @@ Hindi:
 
 Meta description (recommended, 156 characters): गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।
 
-Slug (recommended): /hi/guru-ke-bina-shastra
+Slug (recommended): /hi/scriptures-without-a-guru-hi
 
 English:
 1. Scriptures Without a Guru: Why Literal Reading Misleads (recommended, 55 characters)
@@ -235,7 +235,7 @@ English:
 
 WordPress mapping (SureRank): SureRank fills the BlogPosting basics itself (headline, description from the meta description, datePublished/dateModified, image from the featured image, mainEntityOfPage, publisher from its site settings), plus the BreadcrumbList and Organization from its site settings. Enter by hand: the focus keyword, slug and meta description from seo.json; the Person with Acharya Ji's details as the author; the VideoObject (upload date 2025-03-21, duration PT7M40S, title above) as a custom schema; and the translationOfWork/workTranslation link once both URLs exist. All `{{...}}` values are unknown until the posts are published.
 
-URL slugs ({{HI_POST_URL}} / {{EN_POST_URL}}): /hi/guru-ke-bina-shastra and /en/scriptures-without-a-guru, as in seo.json.
+URL slugs ({{HI_POST_URL}} / {{EN_POST_URL}}): /hi/scriptures-without-a-guru-hi and /en/scriptures-without-a-guru, as in seo.json.
 
 ## 9. Images
 
@@ -332,7 +332,7 @@ The exact values written to `output/without_guru_scriptures_can_mislead/blog/seo
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-ke-bina-shastra",
+      "slug": "scriptures-without-a-guru-hi",
       "focus_keyword": "गुरु के बिना शास्त्र",
       "secondary_keywords": ["शास्त्र समझने के लिए गुरु", "जीवित गुरु", "गुरु क्यों ज़रूरी है", "सात्त्विक कर्ता"],
       "meta_description": "गुरु के बिना शास्त्र क्यों भटका सकते हैं? अक्षरशः पढ़े ग्रंथ से एक लड़के ने गाँव उल्टा कर दिया। आचार्य जी बताते हैं शास्त्र के संकेत और जीवित गुरु का महत्व।",

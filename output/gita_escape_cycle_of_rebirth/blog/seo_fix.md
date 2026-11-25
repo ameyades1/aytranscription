@@ -38,13 +38,13 @@ Still unmet: none.
 | wordpress.en.slug | escape-cycle-of-rebirth | escape-the-cycle-of-rebirth |
 | wordpress.en.meta_description | Why are we born again? Through Gita 7.29 and the Buddha's story, Acharya Upendra Ji explains how an old mind, not an old body, keeps us in rebirth. | Why can't we escape the cycle of rebirth? Through Gita 7.29 and the Buddha's story, Acharya Upendra Ji explains how an old mind, not an old body, binds us. |
 
-Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `jara-maran-se-mukti`, both titles, the Hindi meta description, secondary keywords, `links` and `also_read`.
+Unchanged: both focus keywords (the `_seo` texts now use them), the Hindi slug `escape-the-cycle-of-rebirth-hi`, both titles, the Hindi meta description, secondary keywords, `links` and `also_read`.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | jara-maran-se-mukti | escape-the-cycle-of-rebirth |
+| slug | escape-the-cycle-of-rebirth-hi | escape-the-cycle-of-rebirth |
 | focus keyword | जरा-मरण से मुक्ति | escape the cycle of rebirth |
 | title | जरा-मरण से मुक्ति: गीता 7.29 और बूढ़े मन का बंधन | Escape the Cycle of Rebirth: Gita 7.29 on the Old Mind |
 | meta description | जरा-मरण से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं। गीता 7.29 और बुद्ध की कथा से आचार्य उपेंद्र जी समझाते हैं कि बूढ़ा मन बार-बार जन्म का कारण क्यों बनता है। | Why can't we escape the cycle of rebirth? Through Gita 7.29 and the Buddha's story, Acharya Upendra Ji explains how an old mind, not an old body, binds us. |

@@ -51,7 +51,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 Can shraddha liberate ancestors, and is death the same as moksha? Acharya Upendra Ji explains why only one free while living can grant liberation.
 
 **Slugs (recommended; in seo.json)**
-- Hindi: /hi/shraddha-se-pitron-ki-mukti
+- Hindi: /hi/can-shraddha-liberate-ancestors-hi
 - English: /en/can-shraddha-liberate-ancestors
 
 ## 4. Outline changes
@@ -125,7 +125,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shraddha-se-pitron-ki-mukti/`, `/en/can-shraddha-liberate-ancestors/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/can-shraddha-liberate-ancestors-hi/`, `/en/can-shraddha-liberate-ancestors/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -544,7 +544,7 @@ The values written to `output/mrityu_versus_moksha/blog/seo.json` (the page gene
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "shraddha-se-pitron-ki-mukti",
+      "slug": "can-shraddha-liberate-ancestors-hi",
       "focus_keyword": "क्या श्राद्ध से पितरों को मुक्ति मिलती है",
       "secondary_keywords": [
         "मृत्यु और मोक्ष में अंतर",

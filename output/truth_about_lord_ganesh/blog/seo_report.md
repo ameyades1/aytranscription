@@ -43,7 +43,7 @@ Keyword notes:
 
 Meta description (recommended, now in seo.json, 141 characters): असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।
 
-Slug (recommended, now in seo.json): `/hi/asli-ganesh-kaun-hai` (earlier: `/hi/kaun-hai-vastavik-ganesh`)
+Slug (recommended, now in seo.json): `/hi/who-is-the-real-ganesha-hi` (earlier: `/hi/kaun-hai-vastavik-ganesh`)
 
 **English**
 1. Who Is the Real Ganesha? The Meaning of His Birth Story (recommended, now in seo.json, 55 characters)
@@ -117,7 +117,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/asli-ganesh-kaun-hai/`, `/en/who-is-the-real-ganesha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/who-is-the-real-ganesha-hi/`, `/en/who-is-the-real-ganesha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -402,7 +402,7 @@ The values written to `output/truth_about_lord_ganesh/blog/seo.json` (the page g
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "asli-ganesh-kaun-hai",
+      "slug": "who-is-the-real-ganesha-hi",
       "focus_keyword": "असली गणेश",
       "secondary_keywords": ["वास्तविक गणेश", "गणेश जन्म कथा का रहस्य", "पार्वती के मैल से गणेश का जन्म", "गणेश और विवेक बुद्धि"],
       "meta_description": "असली गणेश कौन है? आचार्य उपेंद्र जी बताते हैं कि पार्वती का मैल, शिवजी का लौटना और हाथी का सिर हमारे भीतर विवेक बुद्धि के जन्म के प्रतीक हैं।",

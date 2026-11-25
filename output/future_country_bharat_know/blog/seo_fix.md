@@ -33,7 +33,7 @@ None. Both focus keywords already appear in the titles, meta descriptions and (E
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | bharat-ka-bhavishya | bharat-ka-bhavishya (unchanged) |
+| wordpress.hi.slug | future-of-bharat-hi | future-of-bharat-hi (unchanged) |
 | wordpress.en.slug | future-of-bharat | future-of-bharat (unchanged) |
 | wordpress.hi.focus_keyword | भारत का भविष्य | भारत का भविष्य (unchanged) |
 | wordpress.en.focus_keyword | future of Bharat | future of Bharat (unchanged) |
@@ -44,7 +44,7 @@ The report's section 11 is unchanged and matches seo.json; section 2 got a keywo
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bharat-ka-bhavishya | future-of-bharat |
+| slug | future-of-bharat-hi | future-of-bharat |
 | focus_keyword | भारत का भविष्य | future of Bharat |
 | title | भारत का भविष्य: आध्यात्मिक शक्ति से बदलेगा देश | The Future of Bharat: Why Spiritual Strength Must Grow |
 | meta_description | भारत का भविष्य किसके हाथ में है? आचार्य उपेंद्र जी बताते हैं: भविष्य उज्ज्वल है, पर कठिनाइयों से होकर; देश बदलने में सबकी भूमिका है, आधार है आध्यात्मिक शक्ति। | What is the future of Bharat? Acharya Upendra Ji says it is bright but comes through hardship, and a new Bharat rests on growing spiritual strength. |

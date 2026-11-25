@@ -34,7 +34,7 @@ Keyword note: the original blog texts did not contain either focus keyword word 
 
 Meta description (recommended, in seo.json): चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।
 
-Slug (recommended, in seo.json): `/hi/chitta-vritti-nirodh-ka-arth`
+Slug (recommended, in seo.json): `/hi/chitta-vritti-nirodha-meaning-hi`
 
 **English**
 1. Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering (recommended, 59 characters)
@@ -108,7 +108,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/chitta-vritti-nirodh-ka-arth/`, `/en/chitta-vritti-nirodha-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/chitta-vritti-nirodha-meaning-hi/`, `/en/chitta-vritti-nirodha-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -398,7 +398,7 @@ The exact values written to `output/stop_mind_controlling_unlock_true_focus/blog
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "chitta-vritti-nirodh-ka-arth",
+      "slug": "chitta-vritti-nirodha-meaning-hi",
       "focus_keyword": "चित्त वृत्ति निरोध का अर्थ",
       "secondary_keywords": ["योगश्चित्तवृत्तिनिरोधः का अर्थ", "वृत्ति और प्रवृत्ति में अंतर", "मन बार-बार क्यों भटकता है"],
       "meta_description": "चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है।",

@@ -44,7 +44,7 @@ The old English focus keyword is not added to `secondary_keywords`: it is a near
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | lakshmi-kiske-paas-aati-hai | why-does-lakshmi-come-to-some-people |
+| slug | why-does-lakshmi-come-to-some-people-hi | why-does-lakshmi-come-to-some-people |
 | focus_keyword | लक्ष्मी किसके पास आती है | why does Lakshmi come to some people |
 | title | लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग | Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice |
 | meta_description | लक्ष्मी किसके पास आती है और किसके पास टिकती है? आचार्य उपेंद्र जी बताते हैं कि लक्ष्मी लक्ष्य हैं, और उनकी लाल साड़ी प्रेम, कर्मशीलता और त्याग की प्रतीक है। | Why does Lakshmi come to some people and not others? Acharya Upendra Ji explains Lakshmi as lakshya, a goal, and her red sari as love, drive and sacrifice. |

@@ -36,7 +36,7 @@ Notes: "Vighnaharta" is the term with real search demand; "harta" alone is rarel
 
 Meta description (155 characters, recommended): विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक।
 
-Slug (recommended): `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta`
+Slug (recommended): `/hi/meaning-of-vighnaharta-three-kinds-of-harta-hi`
 
 **English**
 1. Meaning of Vighnaharta: Three Kinds of Obstacle Removers (recommended, 56 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vighnaharta-ka-arth-teen-prakar-ke-harta/`, `/en/meaning-of-vighnaharta-three-kinds-of-harta/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/meaning-of-vighnaharta-three-kinds-of-harta-hi/`, `/en/meaning-of-vighnaharta-three-kinds-of-harta/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -385,7 +385,7 @@ The values written to `output/three_types_obstacle_removers_harta/blog/seo.json`
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "vighnaharta-ka-arth-teen-prakar-ke-harta",
+      "slug": "meaning-of-vighnaharta-three-kinds-of-harta-hi",
       "focus_keyword": "विघ्नहर्ता का अर्थ",
       "secondary_keywords": ["त्वमेव केवलं हर्तासि का अर्थ", "सात्विक राजसिक तामसिक सेवा", "निःस्वार्थ सेवा क्या है"],
       "meta_description": "विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक।",

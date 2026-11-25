@@ -48,7 +48,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | Struggling with laziness? Acharya Ji explains the spiritual solution: a sense of duty lifts you from tamas to rajas, and a Guru can make the direct leap. | Seeking a spiritual solution for laziness? Acharya Ji explains how a sense of duty lifts you from tamas to rajas, and how a Guru can make the direct leap. (154 chars) |
-| wordpress.hi.slug | aalasya-kaise-door-karen | aalasya-kaise-door-karen (unchanged) |
+| wordpress.hi.slug | spiritual-solution-for-laziness-hi | spiritual-solution-for-laziness-hi (unchanged) |
 | wordpress.en.slug | spiritual-solution-for-laziness | spiritual-solution-for-laziness (unchanged) |
 
 Everything else (`focus_keyword`, `secondary_keywords`, `title`, the Hindi meta description, `links`, `also_read`, `alt`, `caption`, `related`, category and tags) is unchanged.
@@ -59,7 +59,7 @@ Report: section 11 holds the same JSON. Section 2 has a new keyword note. Sectio
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | aalasya-kaise-door-karen | spiritual-solution-for-laziness |
+| slug | spiritual-solution-for-laziness-hi | spiritual-solution-for-laziness |
 | focus keyword | आलस्य कैसे दूर करें | spiritual solution for laziness |
 | title | आलस्य कैसे दूर करें? तमोगुण से निकलने का आध्यात्मिक उपाय | Spiritual Solution for Laziness: How to Break Out of Tamas |
 | meta description | आलस्य कैसे दूर करें? आचार्य जी बताते हैं: आलस्य तमोगुण है। कर्तव्य-बोध तमस से रजस में लाता है, श्रेष्ठ को प्रिय बनाना सत्त्व में, और गुरु संस्कार बदलते हैं। | Seeking a spiritual solution for laziness? Acharya Ji explains how a sense of duty lifts you from tamas to rajas, and how a Guru can make the direct leap. |

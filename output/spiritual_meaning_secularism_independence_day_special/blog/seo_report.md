@@ -38,7 +38,7 @@ Seasonal: refresh the post 4 to 6 weeks before 15 August (early July) and before
 
 Meta description: धर्मनिरपेक्षता का आध्यात्मिक अर्थ क्या है? आचार्य उपेंद्र जी: सत्य एक है, द्वेष नहीं दृढ़ता, विवेक के साथ अतिथि सत्कार, और पांच यमों की फलश्रुति।
 
-Slug: `/hi/dharmanirpekshata-ka-adhyatmik-arth`
+Slug: `/hi/spiritual-meaning-of-secularism-hi`
 
 **English**
 1. Spiritual Meaning of Secularism: Show the Fruits of Faith (recommended, 57 characters)
@@ -115,7 +115,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/dharmanirpekshata-ka-adhyatmik-arth/`, `/en/spiritual-meaning-of-secularism/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spiritual-meaning-of-secularism-hi/`, `/en/spiritual-meaning-of-secularism/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -517,7 +517,7 @@ The exact values written to `output/spiritual_meaning_secularism_independence_da
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "dharmanirpekshata-ka-adhyatmik-arth",
+      "slug": "spiritual-meaning-of-secularism-hi",
       "focus_keyword": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ",
       "secondary_keywords": ["एकं सद्विप्रा बहुधा वदन्ति का अर्थ", "अतिथि देवो भव का अर्थ", "योग के पांच यम", "सेक्युलर का अर्थ"],
       "meta_description": "धर्मनिरपेक्षता का आध्यात्मिक अर्थ क्या है? आचार्य उपेंद्र जी: सत्य एक है, द्वेष नहीं दृढ़ता, विवेक के साथ अतिथि सत्कार, और पांच यमों की फलश्रुति।",

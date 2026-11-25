@@ -35,7 +35,7 @@ Still unmet (1):
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | How do you develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru. | How to develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru. |
-| wordpress.hi.slug | sthir-man-kaise-paayen | sthir-man-kaise-paayen (unchanged) |
+| wordpress.hi.slug | how-to-develop-a-steady-mind-hi | how-to-develop-a-steady-mind-hi (unchanged) |
 | wordpress.en.slug | how-to-develop-a-steady-mind | how-to-develop-a-steady-mind (unchanged) |
 
 Both focus keywords stay as they were ("स्थिर मन कैसे पाएं" / "how to develop a steady mind"): they are already the searched wording, the `_seo` texts now use them, and they are unique across all talks. Titles, the Hindi meta description, `secondary_keywords`, `links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report was updated in these places:
@@ -50,7 +50,7 @@ Both focus keywords stay as they were ("स्थिर मन कैसे प�
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sthir-man-kaise-paayen | how-to-develop-a-steady-mind |
+| slug | how-to-develop-a-steady-mind-hi | how-to-develop-a-steady-mind |
 | focus_keyword | स्थिर मन कैसे पाएं | how to develop a steady mind |
 | title | स्थिर मन कैसे पाएं? अथर्व मन और जीवन का नेतृत्व | How to Develop a Steady Mind: The Atharva Way to Lead |
 | meta_description | स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य। | How to develop a steady mind? Acharya Upendra Ji explains the atharva mind, ruling your inner gana of body, breath and mind, and surrender to the Guru. |

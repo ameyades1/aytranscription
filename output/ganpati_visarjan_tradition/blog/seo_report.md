@@ -39,7 +39,7 @@ Keyword mismatch (fixed by `/seo_blog_fix`): the original blog texts never use "
 
 Meta description (146 characters): गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।
 
-Slug: `/hi/ganpati-visarjan-ka-arth`
+Slug: `/hi/meaning-of-ganpati-visarjan-hi`
 
 **English**
 1. Meaning of Ganpati Visarjan: What the Returned Clay Teaches (recommended, 59 characters)
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganpati-visarjan-ka-arth/`, `/en/meaning-of-ganpati-visarjan/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/meaning-of-ganpati-visarjan-hi/`, `/en/meaning-of-ganpati-visarjan/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -395,7 +395,7 @@ The values written to `output/ganpati_visarjan_tradition/blog/seo.json` (the pag
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "ganpati-visarjan-ka-arth",
+      "slug": "meaning-of-ganpati-visarjan-hi",
       "focus_keyword": "गणपति विसर्जन का अर्थ",
       "secondary_keywords": ["गणेश विसर्जन क्यों करते हैं", "विसर्जन के बाद मिट्टी का क्या करें", "गणपति विसर्जन का आध्यात्मिक महत्व"],
       "meta_description": "गणपति विसर्जन का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि नाम-रूप का विलय क्यों होता है और लौटी मुट्ठी भर मिट्टी अद्वैत का पाठ कैसे पढ़ाती है।",

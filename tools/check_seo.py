@@ -217,6 +217,8 @@ def check(talk, seo, topic_keys, assign, slugs, keywords, category_names):
         err.append(f'wordpress: category {cat} differs from gallery_topics.txt ({assign[talk]})')
     elif talk not in assign:
         warn.append(f'talk not in gallery_topics.txt; add: {talk} {cat}')
+    if wp.get('hi', {}).get('slug') != wp.get('en', {}).get('slug', '') + '-hi':
+        err.append(f'wordpress hi: slug must be the English slug with -hi ({wp.get("en", {}).get("slug", "")}-hi)')
     for lang in LANGS:
         w = wp.get(lang, {})
         slug = w.get('slug', '')

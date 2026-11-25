@@ -40,7 +40,7 @@ Still unmet: none. Report section 12 (added by this fix, since the report had no
 | wordpress.en.slug | why-ganesha-has-elephant-head | why-does-ganesha-have-an-elephant-head |
 | wordpress.en.secondary_keywords | unchanged (the old keyword is a near-duplicate of the new one, so it is not added) | unchanged |
 | wordpress.en.meta_description | unchanged (already contains "Why does Ganesha have an elephant head") | unchanged |
-| wordpress.hi.slug | ganesh-ji-ka-sir-hathi-ka-kyon | ganesh-ji-ka-sir-hathi-ka-kyon (unchanged; built from the unchanged focus keyword) |
+| wordpress.hi.slug | why-does-ganesha-have-an-elephant-head-hi | why-does-ganesha-have-an-elephant-head-hi (unchanged; built from the unchanged focus keyword) |
 | wordpress.hi (all fields), title.hi | unchanged | unchanged |
 | links, also_read, alt, caption, related | unchanged | unchanged |
 
@@ -50,7 +50,7 @@ Report updated to match: section 2 (keyword table and mismatch note), section 3 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ganesh-ji-ka-sir-hathi-ka-kyon | why-does-ganesha-have-an-elephant-head |
+| slug | why-does-ganesha-have-an-elephant-head-hi | why-does-ganesha-have-an-elephant-head |
 | focus_keyword | गणेश जी का सिर हाथी का क्यों है | why does Ganesha have an elephant head |
 | title | गणेश जी का सिर हाथी का क्यों है, वाहन चूहा क्यों? | Why Does Ganesha Have an Elephant Head and Ride a Mouse? |
 | meta_description | गणेश जी का सिर हाथी का क्यों है, वे चूहे पर कैसे बैठते हैं? आचार्य उपेंद्र जी बताते हैं कि यह रूप प्रतीक है, जो ऋषियों ने अनंत परम तत्त्व तक ले जाने को दिया। | Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols. |

@@ -37,7 +37,7 @@ Left to the editor (not SEO fixes): the Sanskrit review's corrections in report 
 |---|---|---|
 | wordpress.hi.meta_description | कृष्ण को गोपिका वल्लभ क्यों कहते हैं? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है। | गोपिका वल्लभ का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है। |
 | wordpress.en.meta_description | Why is Krishna called Gopika Vallabha? Acharya Upendra Ji tells how Radha and Krishna swapped roles, and why living your beloved's life completes love. | What is the Gopika Vallabha meaning? Acharya Upendra Ji tells how Radha and Krishna swapped roles, and why living your beloved's life completes love. |
-| wordpress.hi.slug | gopika-vallabh-ka-arth | gopika-vallabh-ka-arth (unchanged) |
+| wordpress.hi.slug | gopika-vallabha-meaning-hi | gopika-vallabha-meaning-hi (unchanged) |
 | wordpress.en.slug | gopika-vallabha-meaning | gopika-vallabha-meaning (unchanged) |
 
 Focus keywords, secondary keywords, titles, links and also_read are unchanged (the focus keywords already were the searched wording; the body now uses them). Report updated: section 2 (keyword note), 3 (recommended meta and slugs), 8 (schema descriptions), 11 (seo.json) and a new section 12 (checklist).
@@ -46,7 +46,7 @@ Focus keywords, secondary keywords, titles, links and also_read are unchanged (t
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | gopika-vallabh-ka-arth | gopika-vallabha-meaning |
+| slug | gopika-vallabha-meaning-hi | gopika-vallabha-meaning |
 | focus keyword | गोपिका वल्लभ का अर्थ | Gopika Vallabha meaning |
 | title | गोपिका वल्लभ का अर्थ: जब राधा-कृष्ण ने भूमिकाएं बदलीं | Gopika Vallabha Meaning: Radha and Krishna Swap Roles |
 | meta description | गोपिका वल्लभ का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है। | What is the Gopika Vallabha meaning? Acharya Upendra Ji tells how Radha and Krishna swapped roles, and why living your beloved's life completes love. |

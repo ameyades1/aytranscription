@@ -38,7 +38,7 @@ Overlap: `chanting_om_final_breath_liberation` targets "chanting Om at the time 
 
 Meta description (recommended, 149 characters): ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है।
 
-Slug (recommended): `/hi/om-mein-a-u-m-ka-arth`
+Slug (recommended): `/hi/meaning-of-aum-why-om-hi`
 
 **English**
 1. Meaning of AUM: Why Om, and What A, U and M Stand For **(recommended, 53 characters; set by the SEO fix)**
@@ -103,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/om-mein-a-u-m-ka-arth/`, `/en/meaning-of-aum-why-om/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/meaning-of-aum-why-om-hi/`, `/en/meaning-of-aum-why-om/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -401,7 +401,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "om-mein-a-u-m-ka-arth",
+      "slug": "meaning-of-aum-why-om-hi",
       "focus_keyword": "ॐ में अ उ म का अर्थ",
       "secondary_keywords": [
         "ॐ ही क्यों",

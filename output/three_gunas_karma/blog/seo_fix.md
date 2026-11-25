@@ -40,7 +40,7 @@ Still unmet:
 | wordpress.en.meta_description | Do you act, or does nature act through you? Acharya Upendra Ji shows how the gunas within you meet the gunas of a place to shape what you do (Gita 3.27). | Three gunas and human behaviour: Acharya Upendra Ji explains Gita 3.27 and shows how the gunas within you meet the gunas of a place to shape what you do. |
 | wordpress.hi.meta_description | क्या कर्म सच में आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से समझाते हैं कि भीतर और बाहर के गुणों का मेल ही कर्म बनाता है। | त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है। |
 
-Unchanged: the Hindi slug (`trigun-aur-karma`), both focus keywords, secondary keywords, titles, links, also_read, related, category and tags.
+Unchanged: the Hindi slug (`three-gunas-and-human-behaviour-hi`), both focus keywords, secondary keywords, titles, links, also_read, related, category and tags.
 
 The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the SEO checklist, missing before) was added.
 
@@ -48,7 +48,7 @@ The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | trigun-aur-karma | three-gunas-and-human-behaviour |
+| slug | three-gunas-and-human-behaviour-hi | three-gunas-and-human-behaviour |
 | focus_keyword | त्रिगुण और कर्म | three gunas and human behaviour |
 | title | त्रिगुण और कर्म: कर्म आप करते हैं या प्रकृति करवाती है? | Three Gunas and Human Behaviour: Who Really Acts? |
 | meta_description | त्रिगुण और कर्म: क्या कर्म आप करते हैं? आचार्य उपेंद्र जी गीता ३.२७ और गोवा तट व मदिरालय के उदाहरणों से बताते हैं कि भीतर-बाहर के गुणों का मेल कर्म बनाता है। | Three gunas and human behaviour: Acharya Upendra Ji explains Gita 3.27 and shows how the gunas within you meet the gunas of a place to shape what you do. |

@@ -35,13 +35,13 @@ Still unmet:
 |---|---|---|
 | (none) | | |
 
-No seo.json change was needed: the focus keywords already were the searched wording and now appear in the `_seo` texts; the title, meta description, slugs (`ghee-ka-adhyatmik-mahatva`, `spiritual-significance-of-ghee`), links and also_read stay as they were.
+No seo.json change was needed: the focus keywords already were the searched wording and now appear in the `_seo` texts; the title, meta description, slugs (`spiritual-significance-of-ghee-hi`, `spiritual-significance-of-ghee`), links and also_read stay as they were.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | ghee-ka-adhyatmik-mahatva | spiritual-significance-of-ghee |
+| slug | spiritual-significance-of-ghee-hi | spiritual-significance-of-ghee |
 | focus keyword | घी का आध्यात्मिक महत्व | spiritual significance of ghee |
 | title | घी का आध्यात्मिक महत्व: भीतर का यज्ञ और वाणी | Spiritual Significance of Ghee: Inner Fire and Speech |
 | meta description | घी का आध्यात्मिक महत्व क्या है? आचार्य उपेंद्र जी बताते हैं कि पेट में एक सहज यज्ञ चलता है, घी उसका तेज है, और जो हम खाते हैं वही हमारी वाणी बनता है। | What is the spiritual significance of ghee? Acharya Upendra Ji explains the inner yajna of digestion and how what we eat becomes the way we speak. |

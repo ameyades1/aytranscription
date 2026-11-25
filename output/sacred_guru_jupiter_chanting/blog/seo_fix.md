@@ -32,7 +32,7 @@ No teaching, example, order of ideas, verse (Guru Gita line, Kabir's doha, Gita 
 | wordpress.en.secondary_keywords | weak Jupiter effects, who is Devguru Brihaspati, Guru beej mantra sadhana, shive ruste gurus trata meaning | significance of Jupiter in Vedic astrology, weak Jupiter effects, who is Devguru Brihaspati, Guru beej mantra sadhana |
 | wordpress.en.meta_description | What does Jupiter, Devguru Brihaspati, govern in your life? Acharya Upendra Ji explains Guru grace, the signs of a weak Jupiter and the Guru beej mantra. | What is the significance of Jupiter, Devguru Brihaspati, in your life? Acharya Upendra Ji explains Guru grace, signs of a weak Jupiter and Guru sadhana. (152) |
 | wordpress.hi.meta_description | देवगुरु बृहस्पति, यानी गुरु ग्रह, जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा का रहस्य, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना। | गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना। (153) |
-| wordpress.hi.slug | guru-grah-ka-mahatva | guru-grah-ka-mahatva (unchanged) |
+| wordpress.hi.slug | significance-of-jupiter-guru-grace-hi | significance-of-jupiter-guru-grace-hi (unchanged) |
 | wordpress.en.slug | significance-of-jupiter-guru-grace | significance-of-jupiter-guru-grace (unchanged; already built from the new focus keyword, 34 characters) |
 | wordpress.hi.focus_keyword | गुरु ग्रह का महत्व | unchanged |
 
@@ -42,7 +42,7 @@ The old English focus keyword moved to the secondary keywords; "shive ruste guru
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-grah-ka-mahatva | significance-of-jupiter-guru-grace |
+| slug | significance-of-jupiter-guru-grace-hi | significance-of-jupiter-guru-grace |
 | focus_keyword | गुरु ग्रह का महत्व | significance of Jupiter |
 | title | गुरु ग्रह का महत्व: देवगुरु बृहस्पति की कृपा का रहस्य | Significance of Jupiter: Devguru Brihaspati's Grace |
 | meta_description | गुरु ग्रह का महत्व क्या है? देवगुरु बृहस्पति जीवन में क्या देते हैं? आचार्य उपेंद्र जी बताते हैं गुरु कृपा, कमज़ोर गुरु के लक्षण और गुरु बीज मंत्र साधना। | What is the significance of Jupiter, Devguru Brihaspati, in your life? Acharya Upendra Ji explains Guru grace, signs of a weak Jupiter and Guru sadhana. |

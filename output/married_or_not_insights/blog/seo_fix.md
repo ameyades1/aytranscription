@@ -33,7 +33,7 @@ Still unmet: none. The report had no section 12 yet; it was added with every ite
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | Does being a pativrata mean silently enduring everything? Acharya Upendra Ji explains why a devoted wife lives with tej, speaks up and refuses abuse. | What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse. |
-| wordpress.hi.slug | pativrata-ka-arth | pativrata-ka-arth (unchanged) |
+| wordpress.hi.slug | pativrata-meaning-hi | pativrata-meaning-hi (unchanged) |
 | wordpress.en.slug | pativrata-meaning | pativrata-meaning (unchanged) |
 
 Focus keywords, titles, secondary keywords, the Hindi meta description, `links` and `also_read` are unchanged: the searched wording is already the focus keyword in both languages, and no edit touched a link phrase or the "Also read" heading. The report's sections 2, 3, 8, 11 and 12 were updated to match.
@@ -42,7 +42,7 @@ Focus keywords, titles, secondary keywords, the Hindi meta description, `links` 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | pativrata-ka-arth | pativrata-meaning |
+| slug | pativrata-meaning-hi | pativrata-meaning |
 | focus_keyword | पतिव्रता का अर्थ | pativrata meaning |
 | title | पतिव्रता का अर्थ: दबना नहीं, तेज से जीना \| आचार्य उपेंद्र जी | Pativrata Meaning: Living with Radiance, Not Submission |
 | meta_description | क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती। | What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse. |

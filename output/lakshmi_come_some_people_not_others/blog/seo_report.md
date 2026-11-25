@@ -37,7 +37,7 @@ Keyword note (after the SEO fix): the original blog bodies used neither focus ph
 
 Meta description (156 characters): लक्ष्मी किसके पास आती है और किसके पास टिकती है? आचार्य उपेंद्र जी बताते हैं कि लक्ष्मी लक्ष्य हैं, और उनकी लाल साड़ी प्रेम, कर्मशीलता और त्याग की प्रतीक है।
 
-Slug: `/hi/lakshmi-kiske-paas-aati-hai`
+Slug: `/hi/why-does-lakshmi-come-to-some-people-hi`
 
 **English**
 1. Why Does Lakshmi Come to Some People? Goal, Love, Sacrifice (59 characters) **(recommended)**
@@ -120,7 +120,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/#article",
+      "@id": "{{SITE_URL}}/hi/why-does-lakshmi-come-to-some-people-hi/#article",
       "headline": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है",
       "alternativeHeadline": "लक्ष्मी किसके पास आती है: लक्ष्य, प्रेम और त्याग",
       "description": "लक्ष्मी किसके पास आती है और किसके पास टिकती है? आचार्य उपेंद्र जी बताते हैं कि लक्ष्मी लक्ष्य हैं, और उनकी लाल साड़ी प्रेम, कर्मशीलता और त्याग की प्रतीक है।",
@@ -142,7 +142,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "dateModified": "2026-10-09",
       "author": { "@id": "https://antaryogfoundation.in/#acharya-upendra-ji" },
       "publisher": { "@id": "https://antaryogfoundation.in/#org" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/hi/why-does-lakshmi-come-to-some-people-hi/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
       "workTranslation": { "@id": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/#article" }
@@ -195,7 +195,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in" },
         { "@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{BLOG_URL}}" },
-        { "@type": "ListItem", "position": 3, "name": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है", "item": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/" }
+        { "@type": "ListItem", "position": 3, "name": "लक्ष्मी कुछ लोगों के पास ही क्यों आती है", "item": "{{SITE_URL}}/hi/why-does-lakshmi-come-to-some-people-hi/" }
       ]
     }
   ]
@@ -237,7 +237,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
       "mainEntityOfPage": { "@type": "WebPage", "@id": "{{SITE_URL}}/en/why-does-lakshmi-come-to-some-people/" },
       "isBasedOn": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
       "video": { "@id": "https://www.youtube.com/watch?v=x1eZQdFF8X4#video" },
-      "translationOfWork": { "@id": "{{SITE_URL}}/hi/lakshmi-kiske-paas-aati-hai/#article" }
+      "translationOfWork": { "@id": "{{SITE_URL}}/hi/why-does-lakshmi-come-to-some-people-hi/#article" }
     },
     {
       "@type": "Person",
@@ -399,7 +399,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "lakshmi-kiske-paas-aati-hai",
+      "slug": "why-does-lakshmi-come-to-some-people-hi",
       "focus_keyword": "लक्ष्मी किसके पास आती है",
       "secondary_keywords": [
         "घर में लक्ष्मी क्यों नहीं ठहरती",

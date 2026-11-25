@@ -55,7 +55,7 @@ No other talk uses the new slug or the focus keywords.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sachcha-shishya-kaun-hai | what-makes-a-true-disciple |
+| slug | what-makes-a-true-disciple-hi | what-makes-a-true-disciple |
 | focus_keyword | सच्चा शिष्य कौन है | what makes a true disciple |
 | title | सच्चा शिष्य कौन है? जब ज्ञान कर्म बन जाए | What Makes a True Disciple? Turning Knowledge into Action |
 | meta_description | सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए। | What makes a true disciple? Acharya Upendra Ji explains how the Guru's words travel from ear to conduct, and why real knowledge always ends in action. |

@@ -39,13 +39,13 @@ Still unmet: none.
 | wordpress.en.secondary_keywords | how to burn past karma, sanchit karma vs prarabdha, obstacles on the spiritual path, four levels of speech para pashyanti | sanchit karma, sanchit karma vs prarabdha, obstacles on the spiritual path, four levels of speech para pashyanti |
 | wordpress.en.meta_description | How do you burn sanchit karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each. | How to burn past karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each one. |
 
-The Hindi title and slug (`sanchit-karma-kaise-jalayen`) are unchanged; the title already contains the new focus keyword. `links` and `also_read` are unchanged. The report's sections 2, 3, 8 and 11 were updated to match.
+The Hindi title and slug (`how-to-burn-past-karma-hi`) are unchanged; the title already contains the new focus keyword. `links` and `also_read` are unchanged. The report's sections 2, 3, 8 and 11 were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sanchit-karma-kaise-jalayen | how-to-burn-past-karma |
+| slug | how-to-burn-past-karma-hi | how-to-burn-past-karma |
 | focus_keyword | संचित कर्म कैसे जलाएं | how to burn past karma |
 | title | संचित कर्म कैसे जलाएं? साधना के विघ्न और उनके उपाय | How to Burn Past Karma: Obstacles on the Spiritual Path |
 | meta_description | संचित कर्म कैसे जलाएं, प्रारब्ध बनने से पहले? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय। | How to burn past karma before it ripens? Acharya Upendra Ji names the obstacles on the spiritual path, from dasha to doubt, and the remedy for each one. |

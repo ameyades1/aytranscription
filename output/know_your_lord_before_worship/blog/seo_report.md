@@ -32,7 +32,7 @@ Keyword note: the original blog did not use the searched question wording ("ज�
 
 Meta description (recommended, in seo.json): ज्ञानी भक्त कौन है? आचार्य उपेंद्र जी बताते हैं कि पूजा से पहले भगवान को जानना क्यों ज़रूरी है, और गीता ७.१७ ज्ञानी भक्त को अत्यंत प्रिय क्यों कहती है। (151 characters)
 
-Slug (recommended, in seo.json): `/hi/gyani-bhakt-kaun-hai`
+Slug (recommended, in seo.json): `/hi/who-is-a-jnani-bhakta-hi`
 
 (The SEO fix replaced the earlier slug `gyani-bhakt-puja-se-pehle-bhagwan-ko-jano`, so the slug follows the focus keyword "ज्ञानी भक्त कौन है".)
 
@@ -337,7 +337,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/gyani-bhakt-kaun-hai`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/who-is-a-jnani-bhakta`.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates BlogPosting/Article, Person (from the WordPress author profile), Organization (from the site settings), BreadcrumbList and the WebPage itself; set the author profile to Acharya Ji and the organization name, logo and social profiles once in the plugin settings. Enter by hand per post: the SEO title (`seo.json` → `title`), meta description, slug and focus keyword (`wordpress`), and the category and tags. Not filled automatically: `alternativeHeadline`, `about`, `video`/VideoObject (add through the plugin's video schema or a custom schema block, unless a video SEO add-on is used), and `translationOfWork`/`workTranslation` (Polylang or WPML adds hreflang tags, but not these properties). Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/who-is-a-jnani-bhakta-hi`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/who-is-a-jnani-bhakta`.
 
 ## 9. Images
 
@@ -436,7 +436,7 @@ The exact values written to `output/know_your_lord_before_worship/blog/seo.json`
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "gyani-bhakt-kaun-hai",
+      "slug": "who-is-a-jnani-bhakta-hi",
       "focus_keyword": "ज्ञानी भक्त कौन है",
       "secondary_keywords": [
         "ज्ञानी भक्त",

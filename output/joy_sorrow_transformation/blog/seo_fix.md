@@ -31,7 +31,7 @@ No teaching, example, H1 or order of ideas changed, and the Markdown is kept. Th
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | Why are some people always unhappy? Through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti. | Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti. (150) |
-| wordpress.hi.slug | sukh-dukh-ka-asli-karan | sukh-dukh-ka-asli-karan (unchanged; already fits the focus keyword) |
+| wordpress.hi.slug | why-some-people-are-always-unhappy-hi | why-some-people-are-always-unhappy-hi (unchanged; already fits the focus keyword) |
 | wordpress.en.slug | why-some-people-are-always-unhappy | why-some-people-are-always-unhappy (unchanged; 34 characters, the focus keyword) |
 
 The focus keywords, secondary keywords, `title` (both already contain the focus keywords), Hindi meta description, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. Sections 2, 3 and 8 (the English description) were updated to match, and section 12 was added.
@@ -40,7 +40,7 @@ The focus keywords, secondary keywords, `title` (both already contain the focus 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sukh-dukh-ka-asli-karan | why-some-people-are-always-unhappy |
+| slug | why-some-people-are-always-unhappy-hi | why-some-people-are-always-unhappy |
 | focus_keyword | सुख-दुःख का असली कारण | why some people are always unhappy |
 | title | सुख-दुःख का असली कारण: धारणा शक्ति की एक कथा | Why Some People Are Always Unhappy: Dharana Shakti |
 | meta_description | सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है। | Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti. |

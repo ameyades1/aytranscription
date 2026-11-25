@@ -38,7 +38,7 @@ No teaching, example, order of ideas, H1 or Markdown changed, and no claim was a
 | wordpress.hi.focus_keyword | राम राज्य | राम राज्य कैसा था |
 | wordpress.hi.secondary_keywords | राम राज्य कैसा था, राम राज्य का सूत्र, संघीय शासन, एकात्मक व्यवस्था | राम राज्य, राम राज्य का सूत्र, संघीय शासन, एकात्मक व्यवस्था |
 | wordpress.hi.meta_description | राम राज्य संघीय था या एकात्मक? आचार्य जी संस्था और पिज़्ज़ा कंपनी के उदाहरणों से समझाते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है। | राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है। (160) |
-| wordpress.hi.slug | ram-rajya-sanghiya-ya-ekatmak | ram-rajya-kaisa-tha |
+| wordpress.hi.slug | ram-rajya-sanghiya-ya-ekatmak | was-ram-rajya-federal-or-unitary-hi |
 | wordpress.en.focus_keyword | Ram Rajya | was Ram Rajya federal or unitary |
 | wordpress.en.secondary_keywords | was Ram Rajya federal or unitary, federal government, unitary system, how to bring Ram Rajya | Ram Rajya, how to bring Ram Rajya, federal government, unitary system |
 | wordpress.en.meta_description | Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key. | unchanged (154; already contains the new keyword) |
@@ -50,7 +50,7 @@ No teaching, example, order of ideas, H1 or Markdown changed, and no claim was a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ram-rajya-kaisa-tha | was-ram-rajya-federal-or-unitary |
+| slug | was-ram-rajya-federal-or-unitary-hi | was-ram-rajya-federal-or-unitary |
 | focus_keyword | राम राज्य कैसा था | was Ram Rajya federal or unitary |
 | title | राम राज्य कैसा था? संघीय या एकात्मक शासन | Was Ram Rajya Federal or Unitary? Acharya Ji Explains |
 | meta_description | राम राज्य कैसा था, संघीय या एकात्मक? आचार्य जी संस्था व पिज़्ज़ा कंपनी के उदाहरण से बताते हैं कि केंद्र के प्रति शरणागति और अपनी भाषा में सेवा ही इसका सूत्र है। | Was Ram Rajya federal or unitary? Acharya Ji shows, with a pizza-company example, why one voice at the centre and local service in each state are the key. |

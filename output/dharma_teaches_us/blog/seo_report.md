@@ -38,7 +38,7 @@ Keyword note: the original blog texts used the focus keywords only in the H1 ("�
 
 Meta description (recommended, in seo.json, 157 characters): धर्म का असली सार क्या है? आचार्य उपेंद्र जी बताते हैं कि परमात्मा की वाणी सार्वभौमिक है, संत-वाणी देश-काल से बंधी, और हर धर्म के तीन भाग हैं पर तत्त्व एक है।
 
-Slug (recommended, in seo.json): `/hi/dharma-ka-asli-saar`
+Slug (recommended, in seo.json): `/hi/true-essence-of-dharma-hi`
 
 **English**
 1. True Essence of Dharma: Word of Saints vs Word of God (recommended, in seo.json, 53 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/dharma-ka-asli-saar/`, `/en/true-essence-of-dharma/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/true-essence-of-dharma-hi/`, `/en/true-essence-of-dharma/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -523,7 +523,7 @@ The exact contents of `output/dharma_teaches_us/blog/seo.json`, used by the page
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "dharma-ka-asli-saar",
+      "slug": "true-essence-of-dharma-hi",
       "focus_keyword": "धर्म का असली सार",
       "secondary_keywords": [
         "धर्म हमें क्या सिखाता है",

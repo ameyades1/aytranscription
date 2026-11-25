@@ -34,7 +34,7 @@ Note on wording: the most searched phrasing, "blind love" / "अंधा प्
 
 Meta description (148 chars, recommended, in seo.json): क्या केवल अच्छा हृदय काफी है? साम्ब की कथा और लक्ष्मी के प्रतीक से आचार्य उपेंद्र जी बताते हैं कि पुत्र मोह और अंधा प्रेम कैसे दुख और विनाश लाता है।
 
-Slug (recommended, in seo.json): `/hi/andha-prem-kyon-khatarnak-hai/`
+Slug (recommended, in seo.json): `/hi/why-blind-love-is-dangerous-hi/`
 
 **English**
 1. Blind Compassion: Why Blind Love Is Dangerous (45 chars) — **recommended** (in seo.json)
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/andha-prem-kyon-khatarnak-hai/`, `/en/why-blind-love-is-dangerous/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-blind-love-is-dangerous-hi/`, `/en/why-blind-love-is-dangerous/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -413,7 +413,7 @@ The exact values written to `output/why_blind_love_is_dangerous/blog/seo.json` f
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "andha-prem-kyon-khatarnak-hai",
+      "slug": "why-blind-love-is-dangerous-hi",
       "focus_keyword": "अंधा प्रेम",
       "secondary_keywords": [
         "पुत्र मोह",

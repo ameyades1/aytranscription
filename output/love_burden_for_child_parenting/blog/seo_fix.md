@@ -36,7 +36,7 @@ No teaching, example, H1, order of ideas or Markdown formatting was changed (the
 | wordpress.en.meta_description | Is your love becoming a burden for your child? Acharya Upendra Ji explains rajasic parenting: high expectations, comparison and unfulfilled dreams. | Is your love a burden for your child? Acharya Upendra Ji explains rajasic parenting: parental pressure on children, comparison and unfulfilled dreams. (150) |
 | wordpress.hi.focus_keyword | बच्चों पर अपेक्षाओं का बोझ | unchanged (now in the body) |
 | wordpress.en.focus_keyword | parental pressure on children | unchanged (now in the body) |
-| wordpress.hi.slug | bachchon-par-apekshaon-ka-bojh | unchanged |
+| wordpress.hi.slug | parental-pressure-on-children-hi | unchanged |
 | wordpress.en.slug | parental-pressure-on-children | unchanged (29 characters, unique) |
 
 `title` (both already contain their focus keywords), `secondary_keywords`, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON. Section 2 has a new keyword note, section 3 has the new metas marked as recommended, section 8 has the new descriptions, and section 12 was added.
@@ -45,7 +45,7 @@ No teaching, example, H1, order of ideas or Markdown formatting was changed (the
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bachchon-par-apekshaon-ka-bojh | parental-pressure-on-children |
+| slug | parental-pressure-on-children-hi | parental-pressure-on-children |
 | focus_keyword | बच्चों पर अपेक्षाओं का बोझ | parental pressure on children |
 | title | बच्चों पर अपेक्षाओं का बोझ: राजसिक परवरिश के संकेत | Parental Pressure on Children: Signs of Rajasic Parenting |
 | meta_description | क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी राजसिक परवरिश के संकेत बताते हैं: बच्चों पर अपेक्षाओं का बोझ, तुलना, अधूरे सपने और दिखावा। | Is your love a burden for your child? Acharya Upendra Ji explains rajasic parenting: parental pressure on children, comparison and unfulfilled dreams. |

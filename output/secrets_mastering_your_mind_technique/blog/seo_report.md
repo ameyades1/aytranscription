@@ -34,7 +34,7 @@ Keyword note: the original blog texts never use the searched wording "स्थ�
 
 Meta description (recommended, 142 characters): स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य।
 
-Slug (recommended): `/hi/sthir-man-kaise-paayen`
+Slug (recommended): `/hi/how-to-develop-a-steady-mind-hi`
 
 **English**
 1. How to Develop a Steady Mind: The Atharva Way to Lead (recommended, 53 characters)
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sthir-man-kaise-paayen/`, `/en/how-to-develop-a-steady-mind/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-develop-a-steady-mind-hi/`, `/en/how-to-develop-a-steady-mind/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -406,7 +406,7 @@ The exact values written to `output/secrets_mastering_your_mind_technique/blog/s
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "sthir-man-kaise-paayen",
+      "slug": "how-to-develop-a-steady-mind-hi",
       "focus_keyword": "स्थिर मन कैसे पाएं",
       "secondary_keywords": ["अथर्व का अर्थ", "अपने जीवन का नेता कैसे बनें", "असली नास्तिक कौन है", "महत्संग दुर्लभ अगम्य अमोघ"],
       "meta_description": "स्थिर मन कैसे पाएं? आचार्य उपेंद्र जी बताते हैं अथर्व मन का अर्थ, शरीर, श्वास और मन के भीतरी गण का नेतृत्व, और गुरु के प्रति शरणागति का रहस्य।",

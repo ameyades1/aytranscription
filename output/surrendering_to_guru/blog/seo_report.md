@@ -38,7 +38,7 @@ Keyword note: the original blog texts quote the verse ("सर्वधर्म
 
 Meta description (158 characters) **(recommended)**: सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।
 
-Slug **(recommended)**: `/hi/sarva-dharman-parityajya-ka-arth`
+Slug **(recommended)**: `/hi/sarva-dharman-parityajya-meaning-hi`
 
 **English**
 1. Sarva Dharman Parityajya Meaning: Gita 18.66 and the Guru (57 characters) **(recommended)**
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (slugs `sarva-dharman-parityajya-ka-arth` and `sarva-dharman-parityajya-meaning`, section 3).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (slugs `sarva-dharman-parityajya-meaning-hi` and `sarva-dharman-parityajya-meaning`, section 3).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -378,7 +378,7 @@ The exact values written to `output/surrendering_to_guru/blog/seo.json` for the 
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "sarva-dharman-parityajya-ka-arth",
+      "slug": "sarva-dharman-parityajya-meaning-hi",
       "focus_keyword": "सर्वधर्मान्परित्यज्य का अर्थ",
       "secondary_keywords": ["गीता 18.66 का अर्थ", "गुरु की शरण", "शरणागति क्या है", "जीवित गुरु का महत्व"],
       "meta_description": "सर्वधर्मान्परित्यज्य का अर्थ क्या है? गीता 18.66 पर आचार्य जी समझाते हैं कि धर्म यानी कर्तव्य कर्म, शरण जीवित गुरु की, और चमत्कार को नहीं, ठीक से नमस्कार करो।",

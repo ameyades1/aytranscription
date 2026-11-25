@@ -34,7 +34,7 @@ Keyword notes:
 
 Meta description (160 characters, recommended; in seo.json): ईश्वर निराकार है तो मूर्ति पूजा क्यों करते हैं? आचार्य जी बताते हैं कि सीमित मनुष्य को साकार क्यों चाहिए, योग के दो रास्ते और मूर्ति ऋषियों के दर्शन से कैसे आई।
 
-Slug (recommended; in seo.json): /hi/murti-puja-kyon-karte-hain
+Slug (recommended; in seo.json): /hi/why-worship-a-murti-formless-god-hi
 
 **English** (H1 in the blog: "Why Worship a Murti If God Has No Form?", unchanged)
 1. Why Worship a Murti If God Is Formless? (39 characters) — **recommended; in seo.json**
@@ -99,7 +99,7 @@ Cannibalization: no other post uses "मूर्ति पूजा" or "worshi
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Unknown values are `{{PLACEHOLDER}}`. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs in seo.json: `/hi/murti-puja-kyon-karte-hain/`, `/en/why-worship-a-murti-formless-god/`). Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog); video uploaded 2026-08-27, 381 seconds (yt-dlp).
+For later use in WordPress; not added to the page. Unknown values are `{{PLACEHOLDER}}`. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (slugs in seo.json: `/hi/why-worship-a-murti-formless-god-hi/`, `/en/why-worship-a-murti-formless-god/`). Dates: published 2026-10-04 and modified 2026-10-05 (git history of the Hindi blog); video uploaded 2026-08-27, 381 seconds (yt-dlp).
 
 **Hindi**
 
@@ -344,7 +344,7 @@ The exact values written to `output/need_murtis_symbols_understand_god/blog/seo.
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "murti-puja-kyon-karte-hain",
+      "slug": "why-worship-a-murti-formless-god-hi",
       "focus_keyword": "मूर्ति पूजा क्यों करते हैं",
       "secondary_keywords": [
         "मूर्ति पूजा",

@@ -53,7 +53,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes.
 
 **Slugs**
-- Hindi: `/hi/pitru-dosh-kya-hai`
+- Hindi: `/hi/what-is-pitru-dosh-hi`
 - English: `/en/what-is-pitru-dosh`
 
 ## 4. Outline changes
@@ -122,7 +122,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-dosh-kya-hai/`, `/en/what-is-pitru-dosh/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-is-pitru-dosh-hi/`, `/en/what-is-pitru-dosh/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -419,7 +419,7 @@ The values written to output/big_pitru_dosh_understanding_pitru_rin/blog/seo.jso
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "pitru-dosh-kya-hai",
+      "slug": "what-is-pitru-dosh-hi",
       "focus_keyword": "पितृ दोष क्या है",
       "secondary_keywords": [
         "पितृ दोष",

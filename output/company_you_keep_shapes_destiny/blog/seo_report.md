@@ -41,7 +41,7 @@ Keyword note: neither primary keyword appeared in the original body (the Hindi n
 
 Meta description (155 characters): साधना से मिली शांति क्यों फीकी पड़ती है? आचार्य उपेंद्र जी बताते हैं कि संगति का प्रभाव विचार, आचरण और सतोगुण पर कैसे पड़ता है और पुराने रिश्ते कैसे निभाएँ।
 
-Slug: /hi/sangati-ka-prabhav
+Slug: /hi/company-you-keep-and-spiritual-growth-hi
 
 **English**
 1. The Company You Keep and Spiritual Growth: Staying Sattvic (recommended, 58 characters)
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sangati-ka-prabhav/`, `/en/company-you-keep-and-spiritual-growth/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/company-you-keep-and-spiritual-growth-hi/`, `/en/company-you-keep-and-spiritual-growth/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -401,7 +401,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "sangati-ka-prabhav",
+      "slug": "company-you-keep-and-spiritual-growth-hi",
       "focus_keyword": "संगति का प्रभाव",
       "secondary_keywords": [
         "सात्विक कैसे रहें",

@@ -37,7 +37,7 @@ Still unmet: none. The report had no section 12 yet; it was added with every ite
 | wordpress.hi.secondary_keywords | कलम या तलवार कौन बड़ा; अन्नमयं हि सोम्य मनः का अर्थ; स्वस्थ शरीर में स्वस्थ मन | मन या शरीर कौन अधिक शक्तिशाली; कलम या तलवार कौन बड़ा; अन्नमयं हि सोम्य मनः का अर्थ; स्वस्थ शरीर में स्वस्थ मन |
 | wordpress.en.focus_keyword | mind or body which is more powerful | mind or body |
 | wordpress.en.secondary_keywords | is the pen mightier than the sword; annamayam hi somya manah meaning; Mahakali goddess of self-defence | mind or body which is more powerful; is the pen mightier than the sword; annamayam hi somya manah meaning; Mahakali goddess of self-defence |
-| wordpress.hi.slug | man-ya-sharir-kaun-shaktishali | man-ya-sharir-kaun-shaktishali (unchanged) |
+| wordpress.hi.slug | mind-or-body-which-is-more-powerful-hi | mind-or-body-which-is-more-powerful-hi (unchanged) |
 | wordpress.en.slug | mind-or-body-which-is-more-powerful | mind-or-body-which-is-more-powerful (unchanged; already contains the focus keyword, 35 characters) |
 
 Titles, meta descriptions, `links` and `also_read` are unchanged: they already contain the new focus keywords, and no edit touched a link phrase or the "Also read" heading. The report's sections 2, 3, 8, 11 and 12 were updated to match.
@@ -46,7 +46,7 @@ Titles, meta descriptions, `links` and `also_read` are unchanged: they already c
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | man-ya-sharir-kaun-shaktishali | mind-or-body-which-is-more-powerful |
+| slug | mind-or-body-which-is-more-powerful-hi | mind-or-body-which-is-more-powerful |
 | focus_keyword | मन या शरीर | mind or body |
 | title | मन या शरीर, कौन अधिक शक्तिशाली? पहले शरीर क्यों | Mind or Body, Which Is More Powerful? Why Kali Comes First |
 | meta_description | मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है। | Mind or body, which is more powerful? Acharya Upendra Ji explains why the Upanishads put a strong body before intellect, and why Kali worship comes first. |

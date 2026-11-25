@@ -52,7 +52,7 @@ Still unmet (2):
 | wordpress.en.focus_keyword | pitru rin meaning | what is pitru rin |
 | wordpress.en.secondary_keywords | how to repay pitru rin, serving parents while they are alive, matru devo bhava meaning, shraddha after neglecting parents | pitru rin meaning, how to repay pitru rin, serving parents while they are alive, shraddha after neglecting parents |
 | wordpress.en.slug | pitru-rin-meaning | what-is-pitru-rin |
-| wordpress.hi.slug | pitru-rin-ka-sachcha-arth | unchanged |
+| wordpress.hi.slug | what-is-pitru-rin-hi | unchanged |
 | wordpress.hi.focus_keyword | पितृ ऋण का अर्थ | unchanged (the `_seo` text now uses it) |
 | links, also_read | (unchanged) | unchanged (no edit touched a phrase or heading) |
 
@@ -60,7 +60,7 @@ Still unmet (2):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | pitru-rin-ka-sachcha-arth | what-is-pitru-rin |
+| slug | what-is-pitru-rin-hi | what-is-pitru-rin |
 | focus_keyword | पितृ ऋण का अर्थ | what is pitru rin |
 | title | पितृ ऋण का अर्थ: श्राद्ध से पहले माता-पिता की सेवा | What Is Pitru Rin? Serve Your Parents While They Are Alive |
 | meta_description | पितृ ऋण का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो। | What is pitru rin? Acharya Upendra Ji explains why we repay the debt to our parents by serving them and giving them joy while they are alive. |

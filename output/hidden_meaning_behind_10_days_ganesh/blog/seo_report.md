@@ -55,7 +55,7 @@ Why Ganesh Chaturthi is celebrated for 10 days, from Chaturthi to Anant Chaturda
 (The first draft, "Why does Ganesh Chaturthi begin on the fourth day and last 10 days? ...", did not contain the focus keyword.)
 
 **Slugs (recommended; in seo.json)**
-- Hindi: /hi/ganesh-chaturthi-ka-adhyatmik-arth
+- Hindi: /hi/why-ganesh-chaturthi-is-celebrated-for-10-days-hi
 - English: /en/why-ganesh-chaturthi-is-celebrated-for-10-days
 
 ## 4. Outline changes
@@ -129,7 +129,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-chaturthi-ka-adhyatmik-arth/`, `/en/why-ganesh-chaturthi-is-celebrated-for-10-days/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-ganesh-chaturthi-is-celebrated-for-10-days-hi/`, `/en/why-ganesh-chaturthi-is-celebrated-for-10-days/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -427,7 +427,7 @@ The values written to `output/hidden_meaning_behind_10_days_ganesh/blog/seo.json
   "wordpress": {
     "category": "festivals",
     "hi": {
-      "slug": "ganesh-chaturthi-ka-adhyatmik-arth",
+      "slug": "why-ganesh-chaturthi-is-celebrated-for-10-days-hi",
       "focus_keyword": "गणेश चतुर्थी का आध्यात्मिक अर्थ",
       "secondary_keywords": [
         "गणेश उत्सव 10 दिन क्यों",

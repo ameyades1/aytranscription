@@ -37,7 +37,7 @@ Notes: the durva query is the bigger, steadier one in both languages, so it is t
 
 Meta description (recommended, 160 characters): गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।
 
-Slug (recommended): `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain`
+Slug (recommended): `/hi/why-durva-is-offered-to-ganesha-hi`
 
 **English**
 1. Why Durva Is Offered to Ganesha, and Why Red Flowers (recommended, 52 characters; contains the focus keyword exactly)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ko-durva-kyon-chadhate-hain/`, `/en/why-durva-is-offered-to-ganesha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-durva-is-offered-to-ganesha-hi/`, `/en/why-durva-is-offered-to-ganesha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -386,7 +386,7 @@ The values written to `output/durva_red_flowers_lord_ganesh_worship/blog/seo.jso
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "ganesh-ji-ko-durva-kyon-chadhate-hain",
+      "slug": "why-durva-is-offered-to-ganesha-hi",
       "focus_keyword": "गणेश जी को दूर्वा क्यों चढ़ाते हैं",
       "secondary_keywords": ["गणपति को लाल फूल क्यों प्रिय हैं", "दूर्वा का आध्यात्मिक अर्थ", "रक्तं लम्बोदरं मंत्र का अर्थ"],
       "meta_description": "गणेश जी को दूर्वा क्यों चढ़ाते हैं और लाल फूल क्यों? आचार्य उपेंद्र जी बताते हैं प्रतीकात्मक अर्थ: रजस शक्ति, तीन-तीन का अर्पण और झुकने वाली दूर्वा की विनम्रता।",

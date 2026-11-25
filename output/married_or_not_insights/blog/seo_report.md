@@ -33,7 +33,7 @@ Keyword note: the original blog texts did not use either focus keyword word for 
 
 Meta description (hi, **recommended**): क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती।
 
-Slug (hi): `/hi/pativrata-ka-arth/` **recommended**
+Slug (hi): `/hi/pativrata-meaning-hi/` **recommended**
 
 **English**
 1. Pativrata Meaning: Living with Radiance, Not Submission (55 characters) **recommended**
@@ -105,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pativrata-ka-arth/`, `/en/pativrata-meaning/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pativrata-meaning-hi/`, `/en/pativrata-meaning/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -413,7 +413,7 @@ The exact values written to `output/married_or_not_insights/blog/seo.json` for t
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "pativrata-ka-arth",
+      "slug": "pativrata-meaning-hi",
       "focus_keyword": "पतिव्रता का अर्थ",
       "secondary_keywords": [
         "पतिव्रता धर्म क्या है",

@@ -48,7 +48,7 @@ Not changed:
 | wordpress.hi.focus_keyword | तैंतीस कोटि देवता | 33 कोटि देवता |
 | wordpress.hi.secondary_keywords | 33 कोटि देवता, 33 करोड़ देवी देवता, हिंदू धर्म में कितने भगवान हैं, भगवान एक है या अनेक | तैंतीस कोटि देवता, 33 करोड़ देवी देवता, हिंदू धर्म में कितने भगवान हैं, भगवान एक है या अनेक |
 | wordpress.hi.meta_description | हिंदू धर्म में तैंतीस कोटि देवता क्यों हैं? … | हिंदू धर्म में 33 कोटि देवता क्यों हैं? … (153 characters; the rest is unchanged) |
-| wordpress.hi.slug | 33-koti-devta-ya-ek-bhagwan | unchanged (already built from "33 कोटि देवता") |
+| wordpress.hi.slug | 33-crore-gods-one-god-hi | unchanged (already built from "33 कोटि देवता") |
 | wordpress.en.focus_keyword | why so many gods | 33 crore gods |
 | wordpress.en.secondary_keywords | thirty-three crore gods, 33 crore gods, why does Hinduism have so many gods, one God in Hinduism | why so many gods, thirty-three crore gods, why does Hinduism have so many gods, one God in Hinduism |
 | wordpress.en.slug | why-so-many-gods-hinduism-one-god | 33-crore-gods-one-god |
@@ -62,7 +62,7 @@ No other talk uses either focus keyword or the new slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | 33-koti-devta-ya-ek-bhagwan | 33-crore-gods-one-god |
+| slug | 33-crore-gods-one-god-hi | 33-crore-gods-one-god |
 | focus keyword | 33 कोटि देवता | 33 crore gods |
 | title | 33 कोटि देवता या एक भगवान? हिंदू धर्म का सच | Why So Many Gods? 33 Crore Gods or One God in Hinduism |
 | meta description | हिंदू धर्म में 33 कोटि देवता क्यों हैं? ब्रह्मर्षि आचार्य उपेंद्र जी बताते हैं कि भगवान एक ही है, ओंकार, और सभी देवता उसी एक की शक्तियाँ और भूमिकाएँ हैं। | Why so many gods in Hinduism? Acharya Upendra Ji explains that God is one, the formless Omkara, and the 33 crore gods are the powers and roles of that One. |

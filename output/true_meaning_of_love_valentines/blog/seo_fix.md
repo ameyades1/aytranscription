@@ -49,7 +49,7 @@ Still unmet (2):
 | wordpress.hi.meta_description | जिसे हम प्रेम कहते हैं, क्या वह सचमुच प्रेम है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं। | सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं। (116 characters) |
 | wordpress.en.meta_description | Is what we call love really love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love. | What is the true meaning of love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love. (153 characters) |
 | wordpress.hi.focus_keyword, wordpress.en.focus_keyword | सच्चा प्रेम क्या है / true meaning of love | unchanged (the `_seo` texts now use them) |
-| wordpress.hi.slug, wordpress.en.slug | sachcha-prem-kya-hai / true-meaning-of-love | unchanged |
+| wordpress.hi.slug, wordpress.en.slug | true-meaning-of-love-hi / true-meaning-of-love | unchanged |
 | title.hi, title.en | (as below) | unchanged (already contain the focus keyword) |
 | links, also_read | (unchanged) | unchanged (no edit touched a phrase or heading) |
 
@@ -57,7 +57,7 @@ Still unmet (2):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sachcha-prem-kya-hai | true-meaning-of-love |
+| slug | true-meaning-of-love-hi | true-meaning-of-love |
 | focus_keyword | सच्चा प्रेम क्या है | true meaning of love |
 | title | सच्चा प्रेम क्या है? प्रेम और मोह का अंतर | आचार्य जी | True Meaning of Love: Love vs Attachment | Acharya Ji |
 | meta_description | सच्चा प्रेम क्या है? आचार्य उपेंद्र जी बताते हैं कि प्रेम ही ईश्वर है और मोह, नियंत्रण व वासना प्रेम क्यों नहीं हैं। | What is the true meaning of love? Acharya Upendra Ji explains why love is God, why one-sided love is not love, and how attachment and lust pass for love. |

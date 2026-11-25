@@ -36,7 +36,7 @@ Keyword note (after /seo_blog_fix): the original Hindi body said only "सहस
 
 Meta description (159 characters, recommended): सहस्रनाम का अर्थ क्या है? एक भगवान के हज़ार नाम क्यों? आचार्य उपेंद्र जी बताते हैं: उद्देश्य रटना नहीं, 'वासुदेवः सर्वम्' यानी हर रूप में परमात्मा को देखना है।
 
-Slug: `/hi/sahasranam-ka-arth`
+Slug: `/hi/meaning-of-sahasranama-hi`
 
 **English**
 1. Meaning of Sahasranama: Why Chant 1000 Names of God? (recommended, 52 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sahasranam-ka-arth/`, `/en/meaning-of-sahasranama/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/meaning-of-sahasranama-hi/`, `/en/meaning-of-sahasranama/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -398,7 +398,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "sahasranam-ka-arth",
+      "slug": "meaning-of-sahasranama-hi",
       "focus_keyword": "सहस्रनाम का अर्थ",
       "secondary_keywords": [
         "भगवान के हज़ार नाम क्यों",

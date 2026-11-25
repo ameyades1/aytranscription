@@ -36,7 +36,7 @@ Note: the existing Hindi spelling in search is mostly "सत्व रज त�
 
 Meta description (recommended, 146 characters): "पाप और पुण्य में अंतर क्या है? आचार्य उपेंद्र जी समझाते हैं: रजस तमोगुण से जुड़े तो पाप, सत्त्व से जुड़े तो पुण्य। ध्यान, दान और शिवाजी के उदाहरण।"
 
-Slug (recommended): `/hi/paap-aur-punya-mein-antar`
+Slug (recommended): `/hi/difference-between-sin-and-virtue-hi`
 
 **English** (H1 stays: "Why the Same Action Can Be a Virtue or a Sin")
 1. Difference Between Sin and Virtue: The Three Gunas (recommended, 50 characters)
@@ -112,7 +112,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/paap-aur-punya-mein-antar/`, `/en/difference-between-sin-and-virtue/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/difference-between-sin-and-virtue-hi/`, `/en/difference-between-sin-and-virtue/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The exact contents of `output/punya_vs_paap/blog/seo.json`, used by the page gen
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "paap-aur-punya-mein-antar",
+      "slug": "difference-between-sin-and-virtue-hi",
       "focus_keyword": "पाप और पुण्य में अंतर",
       "secondary_keywords": [
         "पाप और पुण्य क्या है",

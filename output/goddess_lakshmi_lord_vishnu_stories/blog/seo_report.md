@@ -34,7 +34,7 @@ Keyword note: neither focus keyword appeared word for word in the original body 
 
 Meta description (154 characters) **recommended**: "विष्णु और लक्ष्मी का महत्व: उत्पत्ति एक क्षण की, पालन पूरे जीवन का। आचार्य उपेंद्र जी बताते हैं कि शरीर, व्यापार और परिवार में पालन सबसे अधिक क्यों चाहिए।"
 
-Slug **recommended**: `/hi/vishnu-lakshmi-ka-mahatva`
+Slug **recommended**: `/hi/significance-of-vishnu-and-lakshmi-hi`
 
 **English**
 1. Significance of Vishnu and Lakshmi: Why Sustaining Matters (58) **recommended**
@@ -100,7 +100,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vishnu-lakshmi-ka-mahatva/`, `/en/significance-of-vishnu-and-lakshmi/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/significance-of-vishnu-and-lakshmi-hi/`, `/en/significance-of-vishnu-and-lakshmi/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -509,7 +509,7 @@ The exact values written to `output/goddess_lakshmi_lord_vishnu_stories/blog/seo
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "vishnu-lakshmi-ka-mahatva",
+      "slug": "significance-of-vishnu-and-lakshmi-hi",
       "focus_keyword": "विष्णु और लक्ष्मी का महत्व",
       "secondary_keywords": [
         "विष्णु पालनकर्ता क्यों हैं",

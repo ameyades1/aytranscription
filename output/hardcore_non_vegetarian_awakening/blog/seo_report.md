@@ -34,7 +34,7 @@ Keyword note: the original blog texts used neither focus keyword ("मांस�
 
 Meta description (152 characters): "मांसाहार क्यों नहीं करना चाहिए? आचार्य उपेंद्र जी हर कट्टर मांसाहारी को एक खुली चुनौती देते हैं: जो पीड़ा आप खुद नहीं सह सकते, वह किसी जीव को क्यों दें?"
 
-Slug: `/hi/mansahar-kyon-nahi-karna-chahiye`
+Slug: `/hi/challenge-for-meat-eaters-hi`
 
 **English**
 1. A Challenge for Meat Eaters: Eat Yourself First (47) **recommended**
@@ -101,7 +101,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mansahar-kyon-nahi-karna-chahiye/`, `/en/challenge-for-meat-eaters/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/challenge-for-meat-eaters-hi/`, `/en/challenge-for-meat-eaters/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -393,7 +393,7 @@ The exact contents of output/hardcore_non_vegetarian_awakening/blog/seo.json, as
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "mansahar-kyon-nahi-karna-chahiye",
+      "slug": "challenge-for-meat-eaters-hi",
       "focus_keyword": "मांसाहार क्यों नहीं करना चाहिए",
       "secondary_keywords": [
         "मांसाहारी को खुली चुनौती",

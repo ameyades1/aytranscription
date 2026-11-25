@@ -53,7 +53,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 Can women perform shraddha and pind daan? Acharya Upendra Ji explains what the scriptures say, why it is not required of all, and what the ancestors ask.
 
 **Slugs**
-- Hindi: /hi/kya-striyan-shraddha-kar-sakti-hain
+- Hindi: /hi/can-women-perform-shraddha-hi
 - English: /en/can-women-perform-shraddha
 
 ## 4. Outline changes
@@ -121,7 +121,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-striyan-shraddha-kar-sakti-hain/`, `/en/can-women-perform-shraddha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/can-women-perform-shraddha-hi/`, `/en/can-women-perform-shraddha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -420,7 +420,7 @@ The exact contents of `output/women_have_right_perform_shraddha_pind/blog/seo.js
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "kya-striyan-shraddha-kar-sakti-hain",
+      "slug": "can-women-perform-shraddha-hi",
       "focus_keyword": "क्या स्त्रियाँ श्राद्ध कर सकती हैं",
       "secondary_keywords": [
         "स्त्रियों को श्राद्ध का अधिकार",

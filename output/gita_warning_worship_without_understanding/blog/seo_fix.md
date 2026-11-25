@@ -41,7 +41,7 @@ None. Both focus keywords stay (the `_seo` texts now use them), and the slugs, t
 
 | field | Hindi | English |
 |---|---|---|
-| slug | bina-arth-jane-puja-gita-chetavani | worship-without-understanding-gita |
+| slug | worship-without-understanding-gita-hi | worship-without-understanding-gita |
 | focus keyword | बिना अर्थ जाने पूजा | worship without understanding |
 | title | बिना अर्थ जाने पूजा: गीता की चेतावनी और मूर्ति का मर्म | Worship Without Understanding: The Gita's Warning |
 | meta description | क्या बिना अर्थ जाने पूजा पर्याप्त है? आचार्य उपेंद्र जी बताते हैं कि हर मूर्ति निराकार का संकेत है, और संत भी साकार की पूजा अर्थ जानकर ही करते थे। | Is worship without understanding enough? Acharya Upendra Ji explains why every murti is a code for the formless, and why the saints knew its meaning. |

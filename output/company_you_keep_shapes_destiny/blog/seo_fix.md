@@ -46,13 +46,13 @@ No teaching, example, H1 or order of ideas changed; the blog quotes no verses. T
 | wordpress.en.meta_description | Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep shapes your thoughts and sattva, and how to meet old ties. | Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep and spiritual growth are linked, and how to meet old ties. (149) |
 | wordpress.en.slug | company-you-keep-spiritual-growth | company-you-keep-and-spiritual-growth |
 
-The focus keywords (both kept: the body now uses them), secondary keywords, the Hindi title, meta description and slug (`sangati-ka-prabhav`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended English title, meta and slug), 8 (English alternativeHeadline, description and suggested slug) and 12 (checklist, newly added) were updated to match.
+The focus keywords (both kept: the body now uses them), secondary keywords, the Hindi title, meta description and slug (`company-you-keep-and-spiritual-growth-hi`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note), 3 (recommended English title, meta and slug), 8 (English alternativeHeadline, description and suggested slug) and 12 (checklist, newly added) were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sangati-ka-prabhav | company-you-keep-and-spiritual-growth |
+| slug | company-you-keep-and-spiritual-growth-hi | company-you-keep-and-spiritual-growth |
 | focus_keyword | संगति का प्रभाव | company you keep and spiritual growth |
 | title | संगति का प्रभाव: आपकी संगति ही आपका भविष्य गढ़ती है | The Company You Keep and Spiritual Growth: Staying Sattvic |
 | meta_description | साधना से मिली शांति क्यों फीकी पड़ती है? आचार्य उपेंद्र जी बताते हैं कि संगति का प्रभाव विचार, आचरण और सतोगुण पर कैसे पड़ता है और पुराने रिश्ते कैसे निभाएँ। | Why does the peace from sadhana fade? Acharya Upendra Ji explains how the company you keep and spiritual growth are linked, and how to meet old ties. |

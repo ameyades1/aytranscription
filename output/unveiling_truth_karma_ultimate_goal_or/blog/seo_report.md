@@ -36,7 +36,7 @@ Notes:
 
 Meta description (recommended, in seo.json, 150 characters): कर्मयोगी कौन है? बाँस-कूद के उदाहरण से आचार्य उपेंद्र जी बताते हैं कि कर्मयोग ज्ञानयोग तक ले जाता है, और अपने कर्म की एक सीमा तय करना क्यों ज़रूरी है।
 
-Slug (recommended, in seo.json): `/hi/karmayogi-kaun-hai`
+Slug (recommended, in seo.json): `/hi/who-is-a-karma-yogi-hi`
 
 **English** (H1 in the blog: "When Should You Let Go of the Pole of Action?")
 1. Who Is a Karma Yogi? When to Let Go of the Pole of Action (recommended, in seo.json, 57 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/karmayogi-kaun-hai/`, `/en/who-is-a-karma-yogi/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/who-is-a-karma-yogi-hi/`, `/en/who-is-a-karma-yogi/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -389,7 +389,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "karmayogi-kaun-hai",
+      "slug": "who-is-a-karma-yogi-hi",
       "focus_keyword": "कर्मयोगी कौन है",
       "secondary_keywords": [
         "कर्मयोग और ज्ञानयोग",

@@ -51,7 +51,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.slug | why-people-stay-in-toxic-relationships | why-do-people-stay-in-toxic-relationships (41 characters) |
-| wordpress.hi.slug | tamasik-rishta-kya-hai | tamasik-rishta-kya-hai (unchanged) |
+| wordpress.hi.slug | why-do-people-stay-in-toxic-relationships-hi | why-do-people-stay-in-toxic-relationships-hi (unchanged) |
 
 Unchanged:
 - in seo.json: the titles, focus keywords, secondary keywords, meta descriptions, `links`, `also_read`, `alt`, `caption`, `related`, category and tags;
@@ -61,7 +61,7 @@ Unchanged:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | tamasik-rishta-kya-hai | why-do-people-stay-in-toxic-relationships |
+| slug | why-do-people-stay-in-toxic-relationships-hi | why-do-people-stay-in-toxic-relationships |
 | focus keyword | तामसिक रिश्ता क्या है | why do people stay in toxic relationships |
 | title | तामसिक रिश्ता क्या है? अत्याचार सहना गुण नहीं | Why Do People Stay in Toxic Relationships? The Tamasic Trap |
 | meta description | तामसिक रिश्ता क्या है? आचार्य उपेंद्र जी बताते हैं कि अत्याचार सहना सहिष्णुता नहीं, भय और आत्म-मूल्य की कमी है, और आत्मविश्वास से ना कहना क्यों ज़रूरी है। | Why do people stay in toxic relationships? Acharya Upendra Ji explains tamasic clinging, why enduring abuse is not a virtue, and how to say a confident no. |

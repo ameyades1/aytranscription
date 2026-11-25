@@ -35,7 +35,7 @@ A short talk (the video runs 5 min 46 s) that moves the Trimurti and their conso
 
 Meta description (157 characters) **(recommended)**: ब्रह्मा-सरस्वती, विष्णु-लक्ष्मी, महेश-काली केवल कथा नहीं। आचार्य उपेंद्र जी बताते हैं कि त्रिदेव और त्रिदेवियाँ जीवन में रचना, पालन और त्याग की शक्तियाँ हैं।
 
-Slug **(recommended)**: `/hi/tridev-aur-tridevi`
+Slug **(recommended)**: `/hi/trimurti-three-powers-in-your-life-hi`
 
 **English**
 1. Trimurti and Their Consorts: Three Powers in Your Life (54) **(recommended)**
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/tridev-aur-tridevi/`, `/en/trimurti-three-powers-in-your-life/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/trimurti-three-powers-in-your-life-hi/`, `/en/trimurti-three-powers-in-your-life/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -543,7 +543,7 @@ The exact file written to `output/power_of_deities_in_your_life/blog/seo.json` f
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "tridev-aur-tridevi",
+      "slug": "trimurti-three-powers-in-your-life-hi",
       "focus_keyword": "त्रिदेव और त्रिदेवियाँ",
       "secondary_keywords": [
         "ब्रह्मा विष्णु महेश का अर्थ",

@@ -36,7 +36,7 @@ Keyword note: the original blog texts used neither focus keyword in the body (on
 
 Meta description (145 chars): पूरी कोशिश के बाद भी संघर्ष क्यों? आचार्य जी बताते हैं: ज्ञान आना ही है, या समझ से या कटु अनुभव से। कर्म से पहले चिंतन करें और हर अनुभव से सीखें।
 
-Slug: `/hi/poori-koshish-ke-baad-bhi-sangharsh-kyon`
+Slug: `/hi/struggling-despite-trying-your-best-hi`
 
 **English** (H1: "Why Do We Struggle Despite Our Best Efforts? The Secret of Acting with Understanding", unchanged)
 
@@ -104,7 +104,7 @@ Cannibalization: `overcome_struggles_of_life` holds "जीवन के सं�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-09 (git history of the Hindi blog). Video: YouTube ID lzy0iom4NM0, uploaded 2024-08-06, 521 s, title from yt-dlp. URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/poori-koshish-ke-baad-bhi-sangharsh-kyon/` and `/en/struggling-despite-trying-your-best/`.
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-09 (git history of the Hindi blog). Video: YouTube ID lzy0iom4NM0, uploaded 2024-08-06, 521 s, title from yt-dlp. URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/struggling-despite-trying-your-best-hi/` and `/en/struggling-despite-trying-your-best/`.
 
 **Hindi**
 
@@ -347,7 +347,7 @@ The values written to `output/struggling_despite_trying_best/blog/seo.json`:
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "poori-koshish-ke-baad-bhi-sangharsh-kyon",
+      "slug": "struggling-despite-trying-your-best-hi",
       "focus_keyword": "पूरी कोशिश के बाद भी संघर्ष क्यों",
       "secondary_keywords": ["ज्ञानयुक्त कर्म", "बुरे समय में क्या करें", "साढ़ेसाती का आध्यात्मिक अर्थ", "योगक्षेमं वहाम्यहम् का अर्थ"],
       "meta_description": "पूरी कोशिश के बाद भी संघर्ष क्यों? आचार्य जी बताते हैं: ज्ञान आना ही है, या समझ से या कटु अनुभव से। कर्म से पहले चिंतन करें और हर अनुभव से सीखें।",

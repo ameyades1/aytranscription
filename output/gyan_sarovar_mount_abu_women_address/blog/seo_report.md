@@ -36,7 +36,7 @@ Keyword note: there is no mismatch between the searched wording and the body; bo
 
 Meta description: क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य उपेंद्र जी ने 500 महिलाओं से कहा: नारी हजार गुना शक्तिशाली है। जानें अर्धनारीश्वर और अंतर्ज्ञान का संदेश।
 
-Slug: `/hi/kya-stri-purush-ke-barabar-hai/`
+Slug: `/hi/is-a-woman-equal-to-a-man-hi/`
 
 **English**
 1. Is a Woman Equal to a Man? Acharya Ji's Answer at Mount Abu **(recommended)**
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The VideoObject `inLanguage` is `hi` in both blocks: the address itself is in Hindi.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kya-stri-purush-ke-barabar-hai/`, `/en/is-a-woman-equal-to-a-man/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/is-a-woman-equal-to-a-man-hi/`, `/en/is-a-woman-equal-to-a-man/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -528,7 +528,7 @@ The exact values written to `output/gyan_sarovar_mount_abu_women_address/blog/se
   "wordpress": {
     "category": "women",
     "hi": {
-      "slug": "kya-stri-purush-ke-barabar-hai",
+      "slug": "is-a-woman-equal-to-a-man-hi",
       "focus_keyword": "क्या स्त्री पुरुष के बराबर है",
       "secondary_keywords": [
         "अध्यात्म द्वारा महिला सशक्तिकरण",

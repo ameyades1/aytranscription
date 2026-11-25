@@ -34,7 +34,7 @@ No teaching, example, puja formula, H1 or order of ideas changed, and Markdown i
 | title.hi | देवताओं को अलग अर्पण क्यों? तुलसी, बिल्व, दूर्वा का विज्ञान | देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा (57) |
 | wordpress.hi.meta_description | विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा क्यों? आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान, ऊर्जा और अभिषेक का अर्थ। | देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा। (158) |
 | wordpress.en.meta_description | Why tulsi for Vishnu, bilva for Shiva, durva for Ganesha? Acharya Upendra Ji explains the symbolic science of energy behind each offering and abhisheka. | Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy. (153) |
-| wordpress.hi.slug | devtaon-ko-alag-arpan-kyon | devtaon-ko-alag-arpan-kyon (unchanged) |
+| wordpress.hi.slug | why-different-offerings-to-different-gods-hi | why-different-offerings-to-different-gods-hi (unchanged) |
 | wordpress.en.slug | why-different-offerings-to-different-gods | why-different-offerings-to-different-gods (unchanged; 41 characters, contains the keyword) |
 
 Focus keywords, secondary keywords, `title.en` (already contains the keyword), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2, 3 and 8 were updated to match, and section 12 was added.
@@ -43,7 +43,7 @@ Focus keywords, secondary keywords, `title.en` (already contains the keyword), `
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | devtaon-ko-alag-arpan-kyon | why-different-offerings-to-different-gods |
+| slug | why-different-offerings-to-different-gods-hi | why-different-offerings-to-different-gods |
 | focus_keyword | देवताओं को अलग-अलग अर्पण क्यों | why different offerings to different gods |
 | title | देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा | Why Different Offerings to Different Gods? The Science |
 | meta_description | देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा। | Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy. |

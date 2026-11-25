@@ -50,7 +50,7 @@ No other talk uses the new English focus keyword or slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shishya-shaktivan-kab-banta-hai | when-does-a-disciple-become-truly-powerful |
+| slug | when-does-a-disciple-become-truly-powerful-hi | when-does-a-disciple-become-truly-powerful |
 | focus keyword | शिष्य शक्तिवान | when does a disciple become truly powerful |
 | title | शिष्य शक्तिवान कब बनता है? गुरु, शक्तिपात और साधना | When Does a Disciple Become Truly Powerful? Guru, Shaktipat |
 | meta description | शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है। | When does a disciple become truly powerful? Acharya Upendra Ji explains why shaktipat is not the Guru's duty and why the power lies within you. |

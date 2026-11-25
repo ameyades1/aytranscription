@@ -39,7 +39,7 @@ Keyword note: neither focus keyword appeared word for word in the original body 
 
 Meta description **recommended**: जरा-मरण से मुक्ति का अर्थ झुर्रियाँ मिटाना नहीं। गीता 7.29 और बुद्ध की कथा से आचार्य उपेंद्र जी समझाते हैं कि बूढ़ा मन बार-बार जन्म का कारण क्यों बनता है।
 
-Slug **recommended**: `/hi/jara-maran-se-mukti`
+Slug **recommended**: `/hi/escape-the-cycle-of-rebirth-hi`
 
 **English** (H1 in the blog: "The Real Bondage Is an Old Mind, Not an Old Body"; not changed)
 1. Escape the Cycle of Rebirth: Gita 7.29 on the Old Mind (54 characters) **recommended**
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/jara-maran-se-mukti/`, `/en/escape-the-cycle-of-rebirth/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/escape-the-cycle-of-rebirth-hi/`, `/en/escape-the-cycle-of-rebirth/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -412,7 +412,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "jara-maran-se-mukti",
+      "slug": "escape-the-cycle-of-rebirth-hi",
       "focus_keyword": "जरा-मरण से मुक्ति",
       "secondary_keywords": [
         "गीता 7.29 का अर्थ",

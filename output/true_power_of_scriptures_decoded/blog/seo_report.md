@@ -37,7 +37,7 @@ Keyword note: the original blog texts never use the focus keywords in the body's
 
 Meta description (152 characters, **recommended**): "शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।"
 
-Slug (**recommended**): `/hi/shastra-ka-arth`
+Slug (**recommended**): `/hi/meaning-of-shastra-hi`
 
 **English**
 1. Meaning of Shastra: Dharma, Artha, Kama and Moksha (50) **recommended**
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shastra-ka-arth/`, `/en/meaning-of-shastra/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/meaning-of-shastra-hi/`, `/en/meaning-of-shastra/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -538,7 +538,7 @@ The exact contents of `output/true_power_of_scriptures_decoded/blog/seo.json`, a
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "shastra-ka-arth",
+      "slug": "meaning-of-shastra-hi",
       "focus_keyword": "शास्त्र का अर्थ",
       "secondary_keywords": ["शास्त्र क्या है", "धर्मशास्त्र अर्थशास्त्र कामशास्त्र", "सात्त्विक दान क्या है", "धर्मस्य मूलम् अर्थः का अर्थ"],
       "meta_description": "शास्त्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि शास्त्र अनुभवी अधिकारी का बताया कर्तव्य-अकर्तव्य है, और धर्म, अर्थ, काम, मोक्ष, सबका शास्त्र है।",

@@ -33,7 +33,7 @@ Keyword note: the original blog texts did not use the focus keywords word for wo
 
 Meta description — **recommended**: भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए।
 
-Slug — **recommended**: `/hi/bhagwan-ko-kaise-jane`
+Slug — **recommended**: `/hi/how-to-know-god-murti-map-guru-hi`
 
 **English** (H1: "Loving a Picture, or Meeting God?", unchanged)
 1. How to Know God: The Murti Is the Map, the Guru the Driver (58 chars) — **recommended**
@@ -95,7 +95,7 @@ Cannibalization: this is the fifth post on "know your God before you worship". T
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/bhagwan-ko-kaise-jane/`, `/en/how-to-know-god-murti-map-guru/`). Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID KH9tkZuYu-g, uploaded 2023-12-22, 671 s, title from yt-dlp.
+For later use in WordPress; not added to the page. `{{HI_POST_URL}}` and `{{EN_POST_URL}}` are the two post addresses (URL slugs: `/hi/how-to-know-god-murti-map-guru-hi/`, `/en/how-to-know-god-murti-map-guru/`). Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: YouTube ID KH9tkZuYu-g, uploaded 2023-12-22, 671 s, title from yt-dlp.
 
 **Hindi**
 
@@ -329,7 +329,7 @@ The values written to `output/only_way_know_god/blog/seo.json`:
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "bhagwan-ko-kaise-jane",
+      "slug": "how-to-know-god-murti-map-guru-hi",
       "focus_keyword": "भगवान को कैसे जानें",
       "secondary_keywords": ["मूर्ति पूजा और गुरु", "जीवित गुरु क्यों आवश्यक है", "रूपकल्पना का अर्थ"],
       "meta_description": "भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए।",

@@ -36,7 +36,7 @@ Keyword note: the focus keywords are the searched wording. In the original texts
 
 Meta description (recommended, 150 characters): एक ही दवा किसी को ठीक करती है, किसी पर असर नहीं करती। आचार्य उपेंद्र जी बताते हैं विश्वास से उपचार का विज्ञान: प्लेसिबो, नोसिबो और उपचार के तीन स्तंभ।
 
-Slug (recommended): `/hi/vishwas-se-upchar/`
+Slug (recommended): `/hi/power-of-belief-in-healing-hi/`
 
 **English**
 1. The Power of Belief in Healing: Placebo, Nocebo and Faith (recommended, 57 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vishwas-se-upchar/`, `/en/power-of-belief-in-healing/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/power-of-belief-in-healing-hi/`, `/en/power-of-belief-in-healing/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -390,7 +390,7 @@ The exact values written to `output/power_of_healing_antar_yog_science/blog/seo.
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "vishwas-se-upchar",
+      "slug": "power-of-belief-in-healing-hi",
       "focus_keyword": "विश्वास से उपचार",
       "secondary_keywords": [
         "प्लेसिबो प्रभाव क्या है",

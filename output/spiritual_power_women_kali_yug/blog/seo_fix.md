@@ -34,13 +34,13 @@ No teaching, example, verse, translation, reference or H1 was changed, and the n
 | wordpress.hi.meta_description | नेतृत्व के लिए स्त्री को वाक् अर्थात् वाणी की शक्ति क्यों चाहिए? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और भीतर सोई महाकाली को जगाने का अर्थ समझाते हैं। | महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं। (148) |
 | wordpress.en.meta_description | Why must a woman who leads master vak, the power of speech? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within. | Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within. (149) |
 
-The focus keywords were already the searched wording, so they are unchanged; the Hindi slug (`mahila-netritva-vani-ki-shakti`) is unchanged. Titles, secondary keywords, `links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report's sections 2, 3, 8, 11 and 12 were updated to match.
+The focus keywords were already the searched wording, so they are unchanged; the Hindi slug (`power-of-speech-for-women-leaders-hi`) is unchanged. Titles, secondary keywords, `links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report's sections 2, 3, 8, 11 and 12 were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | mahila-netritva-vani-ki-shakti | power-of-speech-for-women-leaders |
+| slug | power-of-speech-for-women-leaders-hi | power-of-speech-for-women-leaders |
 | focus_keyword | महिला नेतृत्व और वाणी की शक्ति | power of speech for women leaders |
 | title | महिला नेतृत्व और वाणी की शक्ति: स्त्री में सोई महाकाली | Power of Speech for Women Leaders: The Mahakali Within |
 | meta_description | महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं। | Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within. |

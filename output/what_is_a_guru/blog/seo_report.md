@@ -37,7 +37,7 @@ Notes:
 
 Meta description (150 characters): गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है।
 
-Slug: `/hi/guru-kya-hai`
+Slug: `/hi/what-is-a-guru-hi`
 
 **English**
 1. What Is a Guru? The Guru Gita and India as Vishwaguru (53 characters) **(recommended)**
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in section 3 (`/hi/guru-kya-hai/`, `/en/what-is-a-guru/`).
+- `{{SITE_URL}}`: the WordPress site address; the post URLs are built from the slugs in section 3 (`/hi/what-is-a-guru-hi/`, `/en/what-is-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -121,7 +121,7 @@ For later use in WordPress; this is not added to the generated page. One block p
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/guru-kya-hai/#article",
+      "@id": "{{SITE_URL}}/hi/what-is-a-guru-hi/#article",
       "headline": "गुरु क्या है और विश्वगुरु बनने से पहले यह समझना क्यों ज़रूरी है",
       "alternativeHeadline": "गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य",
       "description": "गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है।",
@@ -170,7 +170,7 @@ For later use in WordPress; this is not added to the generated page. One block p
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{SITE_URL}}/hi/guru-kya-hai/"
+        "@id": "{{SITE_URL}}/hi/what-is-a-guru-hi/"
       },
       "isBasedOn": {
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
@@ -255,7 +255,7 @@ For later use in WordPress; this is not added to the generated page. One block p
           "@type": "ListItem",
           "position": 3,
           "name": "गुरु क्या है और विश्वगुरु बनने से पहले यह समझना क्यों ज़रूरी है",
-          "item": "{{SITE_URL}}/hi/guru-kya-hai/"
+          "item": "{{SITE_URL}}/hi/what-is-a-guru-hi/"
         }
       ]
     }
@@ -331,7 +331,7 @@ For later use in WordPress; this is not added to the generated page. One block p
         "@id": "https://www.youtube.com/watch?v=nG93Sidv3N8#video"
       },
       "translationOfWork": {
-        "@id": "{{SITE_URL}}/hi/guru-kya-hai/#article"
+        "@id": "{{SITE_URL}}/hi/what-is-a-guru-hi/#article"
       }
     },
     {
@@ -494,7 +494,7 @@ The values written to `output/what_is_a_guru/blog/seo.json` for the page generat
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-kya-hai",
+      "slug": "what-is-a-guru-hi",
       "focus_keyword": "गुरु क्या है",
       "secondary_keywords": ["गुरु गीता", "स्कंद पुराण गुरु गीता", "गुरु तत्व", "भारत विश्वगुरु"],
       "meta_description": "गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है।",

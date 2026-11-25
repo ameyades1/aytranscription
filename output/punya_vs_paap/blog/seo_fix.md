@@ -36,7 +36,7 @@ Still unmet (1):
 |---|---|---|
 | wordpress.hi.meta_description | एक ही कर्म कभी पाप तो कभी पुण्य क्यों? आचार्य उपेंद्र जी समझाते हैं: रजस तमोगुण से जुड़े तो पाप, सत्त्व से जुड़े तो पुण्य। ध्यान, दान और शिवाजी के उदाहरण। | पाप और पुण्य में अंतर क्या है? आचार्य उपेंद्र जी समझाते हैं: रजस तमोगुण से जुड़े तो पाप, सत्त्व से जुड़े तो पुण्य। ध्यान, दान और शिवाजी के उदाहरण। |
 | wordpress.en.meta_description | What makes the same action a sin or a virtue? Acharya Upendra Ji explains how rajas joined with tamas becomes sin, and rajas guided by sattva, virtue. | What is the difference between sin and virtue? Acharya Upendra Ji explains how rajas joined with tamas becomes sin, and rajas guided by sattva, virtue. |
-| wordpress.hi.slug | paap-aur-punya-mein-antar | paap-aur-punya-mein-antar (unchanged) |
+| wordpress.hi.slug | difference-between-sin-and-virtue-hi | difference-between-sin-and-virtue-hi (unchanged) |
 | wordpress.en.slug | difference-between-sin-and-virtue | difference-between-sin-and-virtue (unchanged) |
 
 Focus keywords, secondary keywords, titles, links and also_read are unchanged (the focus keywords already were the searched wording; the body now uses them). Report updated: section 2 (keyword note), 3 (recommended meta and slugs), 8 (schema descriptions), 11 (seo.json) and a new section 12 (checklist).
@@ -45,7 +45,7 @@ Focus keywords, secondary keywords, titles, links and also_read are unchanged (t
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | paap-aur-punya-mein-antar | difference-between-sin-and-virtue |
+| slug | difference-between-sin-and-virtue-hi | difference-between-sin-and-virtue |
 | focus keyword | पाप और पुण्य में अंतर | difference between sin and virtue |
 | title | पाप और पुण्य में अंतर क्या है? सत्त्व, रज और तम | Difference Between Sin and Virtue: The Three Gunas |
 | meta description | पाप और पुण्य में अंतर क्या है? आचार्य उपेंद्र जी समझाते हैं: रजस तमोगुण से जुड़े तो पाप, सत्त्व से जुड़े तो पुण्य। ध्यान, दान और शिवाजी के उदाहरण। | What is the difference between sin and virtue? Acharya Upendra Ji explains how rajas joined with tamas becomes sin, and rajas guided by sattva, virtue. |

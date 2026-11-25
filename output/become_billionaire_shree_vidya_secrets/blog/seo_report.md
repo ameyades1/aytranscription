@@ -40,7 +40,7 @@ The focus keywords are **श्री विद्या और धन** and **S
 
 Meta description (150 characters, **recommended**): "श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है।"
 
-Slug (**recommended**): `/hi/shri-vidya-aur-dhan`
+Slug (**recommended**): `/hi/shri-vidya-and-wealth-hi`
 
 **English**
 1. Shri Vidya and Wealth: From Bhoga to Moksha (43) **recommended**
@@ -243,7 +243,7 @@ For later use in WordPress; not added to the page. Dates come from git (first co
 
 The video is in Hindi, so `inLanguage` of the VideoObject is `hi` in both blocks.
 
-**WordPress SEO plugin mapping (Yoast / Rank Math):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the `video` / VideoObject (or let the plugin's video module detect the embed), and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin (Polylang / WPML). Replace every `{{PLACEHOLDER}}` once the URLs are known; no FAQPage block is included, because the FAQ is not on the page. URL slugs: Hindi `shri-vidya-aur-dhan`, English `shri-vidya-and-wealth`.
+**WordPress SEO plugin mapping (Yoast / Rank Math):** the plugin fills BlogPosting `headline`, `datePublished`, `dateModified`, `mainEntityOfPage`, `image` (featured image), `publisher` (from the site's Organization settings) and BreadcrumbList by itself. Enter by hand: the SEO title (`alternativeHeadline`), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`); set the author's display name and profile URL to Acharya Upendra Ji. Add `about`, `keywords`, the `video` / VideoObject (or let the plugin's video module detect the embed), and the `translationOfWork` / `workTranslation` pair through a custom schema block; hreflang pairs come from the translation plugin (Polylang / WPML). Replace every `{{PLACEHOLDER}}` once the URLs are known; no FAQPage block is included, because the FAQ is not on the page. URL slugs: Hindi `shri-vidya-and-wealth-hi`, English `shri-vidya-and-wealth`.
 
 ## 9. Images
 
@@ -339,7 +339,7 @@ The values written to output/become_billionaire_shree_vidya_secrets/blog/seo.jso
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "shri-vidya-aur-dhan",
+      "slug": "shri-vidya-and-wealth-hi",
       "focus_keyword": "श्री विद्या और धन",
       "secondary_keywords": [
         "श्री विद्या",

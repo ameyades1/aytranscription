@@ -35,7 +35,7 @@ Mismatch: the original blog texts never use the focus keywords word for word in 
 
 Meta description (151) — **recommended**: अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं।
 
-Slug — **recommended**: `/hi/arabpati-banne-ka-rahasya`
+Slug — **recommended**: `/hi/secret-of-becoming-a-billionaire-hi`
 
 **English**
 1. Secret of Becoming a Billionaire: India's Shri Vidya (52 characters) — **recommended**
@@ -252,7 +252,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 - Filled by the plugin itself: Organization (from site settings: name, logo, social profiles), BreadcrumbList, BlogPosting headline (post title), datePublished/dateModified (post dates), mainEntityOfPage, image (featured image) and author (the WordPress user; set it to an "Acharya Upendra Ji" author profile).
 - Enter by hand per post: SEO title (`title`), meta description, slug, focus keyword and secondary keywords, category and tags (from `seo.json` → `wordpress`); alternativeHeadline, `about`, translationOfWork/workTranslation (or let WPML/Polylang hreflang handle the language pair) and the Person details via the plugin's schema editor or a custom JSON-LD block.
 - VideoObject: Rank Math/Yoast Video SEO can detect the YouTube embed; otherwise paste the VideoObject node by hand. Upload date and duration must come from the values above.
-- Replace every `{{PLACEHOLDER}}` with the live URLs once the posts are published (slugs: `/hi/arabpati-banne-ka-rahasya/`, `/en/secret-of-becoming-a-billionaire/`).
+- Replace every `{{PLACEHOLDER}}` with the live URLs once the posts are published (slugs: `/hi/secret-of-becoming-a-billionaire-hi/`, `/en/secret-of-becoming-a-billionaire/`).
 
 ## 9. Images
 
@@ -347,7 +347,7 @@ The exact values written to `output/secrets_of_becoming_billionaire_marathi/blog
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "arabpati-banne-ka-rahasya",
+      "slug": "secret-of-becoming-a-billionaire-hi",
       "focus_keyword": "अरबपति बनने का रहस्य",
       "secondary_keywords": [
         "श्रीयंत्र कुंकुम अभिषेक",

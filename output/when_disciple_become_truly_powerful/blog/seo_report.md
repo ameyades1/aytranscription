@@ -36,7 +36,7 @@ Notes:
 
 Meta description (156 characters) **(recommended)**: शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है।
 
-Slug: /hi/shishya-shaktivan-kab-banta-hai **(recommended)**
+Slug: /hi/when-does-a-disciple-become-truly-powerful-hi **(recommended)**
 
 **English**
 1. When Does a Disciple Become Truly Powerful? Guru, Shaktipat (59 characters) **(recommended)**
@@ -103,7 +103,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/shishya-shaktivan-kab-banta-hai/`, `/en/when-does-a-disciple-become-truly-powerful/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/when-does-a-disciple-become-truly-powerful-hi/`, `/en/when-does-a-disciple-become-truly-powerful/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -520,7 +520,7 @@ The exact values written to `output/when_disciple_become_truly_powerful/blog/seo
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "shishya-shaktivan-kab-banta-hai",
+      "slug": "when-does-a-disciple-become-truly-powerful-hi",
       "focus_keyword": "शिष्य शक्तिवान",
       "secondary_keywords": ["गुरु शिष्य संबंध", "शक्तिपात क्या है", "विवेक बुद्धि", "गणेश गीता"],
       "meta_description": "शिष्य शक्तिवान कब बनता है? आचार्य उपेंद्र जी माता-पिता और संतान के उदाहरण से बताते हैं कि शक्तिपात गुरु की बाध्यता नहीं, शक्ति आपके भीतर है, मार्ग साधना है।",

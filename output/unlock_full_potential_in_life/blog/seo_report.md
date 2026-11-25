@@ -35,7 +35,7 @@ Keyword note: the original blog bodies never used the focus keywords word for wo
 
 Meta description (Hindi, 151 characters): वर्ण और आश्रम व्यवस्था का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि वर्ण गुण और कर्म से बदलता है, और अध्यात्म को साठ के बाद तक टालना क्यों ठीक नहीं।
 
-Slug: `/hi/varna-aur-ashram-vyavastha`
+Slug: `/hi/varna-and-ashrama-system-hi`
 
 **English**
 1. Varna and Ashrama System: Why Wait Until 60 to Turn Inward? **(recommended)** (59 characters)
@@ -119,7 +119,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/varna-aur-ashram-vyavastha/`, `/en/varna-and-ashrama-system/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/varna-and-ashrama-system-hi/`, `/en/varna-and-ashrama-system/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -413,7 +413,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "varna-aur-ashram-vyavastha",
+      "slug": "varna-and-ashrama-system-hi",
       "focus_keyword": "वर्ण और आश्रम व्यवस्था",
       "secondary_keywords": [
         "चार आश्रम कौन से हैं",

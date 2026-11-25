@@ -36,7 +36,7 @@ Still unmet (1):
 |---|---|---|
 | title.hi | कौन मोक्ष दिला सकता है? मृत्यु और जीते-जी मुक्ति | मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति |
 | title.en | Who Can Grant Liberation? Death vs Freedom While Alive | Who Can Grant Moksha? Death vs Freedom While Alive |
-| wordpress.hi.slug | kaun-moksha-dila-sakta-hai | moksha-kaun-dila-sakta-hai |
+| wordpress.hi.slug | kaun-moksha-dila-sakta-hai | who-can-grant-moksha-hi |
 | wordpress.hi.focus_keyword | मोक्ष दिला सकता है | मोक्ष कौन दिला सकता है |
 | wordpress.hi.secondary_keywords | मोक्ष कौन दिला सकता है, मृत्यु और मोक्ष में अंतर, जीवन्मुक्ति क्या है, पितरों की मुक्ति | मृत्यु और मोक्ष में अंतर, जीवन्मुक्ति क्या है, पितरों की मुक्ति (the old focus keyword is contained in the new one) |
 | wordpress.hi.meta_description | क्या कोई जीवित या मृत व्यक्ति को मोक्ष दिला सकता है? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है। | मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है। |
@@ -51,7 +51,7 @@ Still unmet (1):
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | moksha-kaun-dila-sakta-hai | who-can-grant-moksha |
+| slug | who-can-grant-moksha-hi | who-can-grant-moksha |
 | focus keyword | मोक्ष कौन दिला सकता है | who can grant moksha |
 | title | मोक्ष कौन दिला सकता है? मृत्यु और जीते-जी मुक्ति | Who Can Grant Moksha? Death vs Freedom While Alive |
 | meta description | मोक्ष कौन दिला सकता है, जीवित को या मृत को? आचार्य उपेंद्र जी बताते हैं मृत्यु और मोक्ष का अंतर, और क्यों केवल स्वयं मुक्त गुरु ही मुक्ति दिला सकता है। | Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others. |

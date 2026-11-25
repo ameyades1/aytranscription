@@ -36,7 +36,7 @@ Keyword note: the original blog texts used neither focus keyword in the body. Th
 
 Meta description: आलस्य कैसे दूर करें? आचार्य जी बताते हैं: आलस्य तमोगुण है। कर्तव्य-बोध तमस से रजस में लाता है, श्रेष्ठ को प्रिय बनाना सत्त्व में, और गुरु संस्कार बदलते हैं।
 
-Slug: `/hi/aalasya-kaise-door-karen`
+Slug: `/hi/spiritual-solution-for-laziness-hi`
 
 **English** (H1: "Why Laziness Won't Leave, and How to Break Free", unchanged)
 
@@ -101,7 +101,7 @@ Cannibalization: `knowledge_work_for_you` holds "जानते हुए भ�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID ekKEpnvRlDo, uploaded 2025-08-05, 271 s, title from yt-dlp (the leading emoji is dropped from `name`). URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/aalasya-kaise-door-karen/` and `/en/spiritual-solution-for-laziness/`.
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID ekKEpnvRlDo, uploaded 2025-08-05, 271 s, title from yt-dlp (the leading emoji is dropped from `name`). URL slugs for `{{HI_POST_URL}}` and `{{EN_POST_URL}}`: `/hi/spiritual-solution-for-laziness-hi/` and `/en/spiritual-solution-for-laziness/`.
 
 **Hindi**
 
@@ -341,7 +341,7 @@ The values written to `output/struggling_laziness_lack_drive_spiritual/blog/seo.
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "aalasya-kaise-door-karen",
+      "slug": "spiritual-solution-for-laziness-hi",
       "focus_keyword": "आलस्य कैसे दूर करें",
       "secondary_keywords": ["तमोगुण से कैसे निकलें", "कर्तव्य-बोध", "आलस्य और तमोगुण", "गुणातीत का अर्थ"],
       "meta_description": "आलस्य कैसे दूर करें? आचार्य जी बताते हैं: आलस्य तमोगुण है। कर्तव्य-बोध तमस से रजस में लाता है, श्रेष्ठ को प्रिय बनाना सत्त्व में, और गुरु संस्कार बदलते हैं।",

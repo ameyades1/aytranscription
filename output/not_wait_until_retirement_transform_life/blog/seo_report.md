@@ -36,7 +36,7 @@ Keyword note: neither original blog text used its primary keyword in the body. H
 
 Meta description (Hindi, **recommended**): अध्यात्म कब शुरू करें? भज गोविन्दम् के सातवें श्लोक से आचार्य उपेंद्र जी बताते हैं कि भगवत्-चिंतन और कर्मयोग साठ के बाद नहीं, बचपन से क्यों शुरू हो।
 
-Slug: `/hi/adhyatma-kab-shuru-karen` **(recommended)**
+Slug: `/hi/spirituality-after-retirement-hi` **(recommended)**
 
 **English**
 1. Spirituality After Retirement? Why You Should Not Wait **(recommended)** (54 characters; echoes the video title)
@@ -118,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/adhyatma-kab-shuru-karen/`, `/en/spirituality-after-retirement/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/spirituality-after-retirement-hi/`, `/en/spirituality-after-retirement/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -407,7 +407,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "adhyatma-kab-shuru-karen",
+      "slug": "spirituality-after-retirement-hi",
       "focus_keyword": "अध्यात्म कब शुरू करें",
       "secondary_keywords": [
         "भज गोविन्दम् श्लोक 7 का अर्थ",

@@ -45,7 +45,7 @@ None. The `_seo` texts now use both focus keywords in the body, and the titles a
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | sachcha-dhan-kya-hai | unchanged |
+| wordpress.hi.slug | what-is-true-wealth-hi | unchanged |
 | wordpress.en.slug | what-is-true-wealth | unchanged |
 | focus_keyword (hi, en) | सच्चा धन क्या है, what is true wealth | unchanged |
 | title, meta_description, links, also_read | (unchanged) | unchanged (no edit touched a phrase or heading) |
@@ -54,7 +54,7 @@ None. The `_seo` texts now use both focus keywords in the body, and the titles a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sachcha-dhan-kya-hai | what-is-true-wealth |
+| slug | what-is-true-wealth-hi | what-is-true-wealth |
 | focus_keyword | सच्चा धन क्या है | what is true wealth |
 | title | सच्चा धन क्या है: पैसा, सम्मान, समय और स्वास्थ्य | What Is True Wealth? Money, Health, Respect and More |
 | meta_description | सच्चा धन क्या है? आचार्य उपेंद्र जी बताते हैं कि धन केवल मेहनत से नहीं, बुद्धि से आता है, संत धन से अनासक्त क्यों रहते हैं, और धन के छह रूप कौन से हैं। | What is true wealth? Acharya Upendra Ji explains why money follows intellect, why saints stay unattached, and the six forms of wealth beyond money. |

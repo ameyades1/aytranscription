@@ -50,7 +50,7 @@ A grep finds all five `links` phrases and the `also_read` heading in both texts,
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | Should you ask God to remove your problems? Acharya Upendra Ji explains what to ask for in prayer, why the effort is yours, and why remedies are catalysts. | What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts. (155) |
-| wordpress.hi.slug | bhagwan-se-kya-mange | bhagwan-se-kya-mange (unchanged) |
+| wordpress.hi.slug | what-to-ask-god-in-prayer-hi | what-to-ask-god-in-prayer-hi (unchanged) |
 | wordpress.en.slug | what-to-ask-god-in-prayer | what-to-ask-god-in-prayer (unchanged) |
 
 Unchanged:
@@ -61,7 +61,7 @@ Unchanged:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagwan-se-kya-mange | what-to-ask-god-in-prayer |
+| slug | what-to-ask-god-in-prayer-hi | what-to-ask-god-in-prayer |
 | focus keyword | भगवान से क्या माँगें | what to ask God in prayer |
 | title | भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति | What to Ask God in Prayer: Strength, Not a Problem-Free Life |
 | meta description | भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं। | What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts. |

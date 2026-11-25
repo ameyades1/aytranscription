@@ -36,14 +36,14 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 |---|---|---|
 | wordpress.en.meta_description | How do you overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last. | How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last. (147 chars) |
 | wordpress.en.slug | overcome-struggles-in-life-gita | how-to-overcome-struggles-in-life-gita |
-| wordpress.hi.slug | jeevan-ke-sangharsh-kaise-paar-karen | unchanged |
+| wordpress.hi.slug | how-to-overcome-struggles-in-life-gita-hi | unchanged |
 | focus keywords, secondary keywords, titles, Hindi meta, links, also_read | | unchanged |
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | jeevan-ke-sangharsh-kaise-paar-karen | how-to-overcome-struggles-in-life-gita |
+| slug | how-to-overcome-struggles-in-life-gita-hi | how-to-overcome-struggles-in-life-gita |
 | focus_keyword | जीवन के संघर्षों को कैसे पार करें | how to overcome struggles in life |
 | title | जीवन के संघर्षों को कैसे पार करें? गीता 2.14 का उत्तर | How to Overcome Struggles in Life: What the Gita Teaches |
 | meta_description | जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा। | How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last. |

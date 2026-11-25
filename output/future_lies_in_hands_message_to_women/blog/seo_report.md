@@ -43,7 +43,7 @@ Avoid as targets: "thyroid cause in women", "knee pain reason" (medical claims, 
 
 Meta description (147 characters) **recommended**: "गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र।"
 
-Slug **recommended**: `/hi/gita-mein-nari-ke-saat-gun`
+Slug **recommended**: `/hi/seven-qualities-of-women-in-bhagavad-gita-hi`
 
 **English**
 1. Seven Qualities of Women in Bhagavad Gita: Message to Women (59) **recommended**
@@ -118,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The VideoObject `inLanguage` is `hi` in both blocks: the discourse itself is in Hindi.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/gita-mein-nari-ke-saat-gun/`, `/en/seven-qualities-of-women-in-bhagavad-gita/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/seven-qualities-of-women-in-bhagavad-gita-hi/`, `/en/seven-qualities-of-women-in-bhagavad-gita/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -558,7 +558,7 @@ The values written to `output/future_lies_in_hands_message_to_women/blog/seo.jso
   "wordpress": {
     "category": "women",
     "hi": {
-      "slug": "gita-mein-nari-ke-saat-gun",
+      "slug": "seven-qualities-of-women-in-bhagavad-gita-hi",
       "focus_keyword": "गीता में नारी के सात गुण",
       "secondary_keywords": [
         "पतिव्रता का सही अर्थ",

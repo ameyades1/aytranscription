@@ -38,7 +38,7 @@ Hindi
 
 Meta description: शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। (149 characters) **recommended**
 
-Slug: /hi/shani-aur-mangal-ka-sambandh **recommended**
+Slug: /hi/saturn-and-mars-relationship-hi **recommended**
 
 English
 1. Saturn and Mars Relationship: Why Brakes Help You Succeed (57 characters) **recommended**
@@ -284,7 +284,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-03, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/shani-aur-mangal-ka-sambandh/`, `/en/saturn-and-mars-relationship/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/saturn-and-mars-relationship-hi/`, `/en/saturn-and-mars-relationship/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -360,7 +360,7 @@ The exact seo.json written for the page generator and WordPress:
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "shani-aur-mangal-ka-sambandh",
+      "slug": "saturn-and-mars-relationship-hi",
       "focus_keyword": "शनि और मंगल का संबंध",
       "secondary_keywords": ["मंगल मकर राशि में उच्च", "गणपति विघ्नकर्ता और विघ्नहर्ता", "जीवन में बाधाओं का महत्व", "सफलता के लिए गति और नियंत्रण"],
       "meta_description": "शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ।",

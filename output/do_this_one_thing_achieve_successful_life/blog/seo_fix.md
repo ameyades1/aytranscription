@@ -36,13 +36,13 @@ Still unmet:
 |---|---|---|
 | wordpress.en.slug | find-joy-in-your-work | how-to-find-joy-in-your-work |
 
-No other field changed: both focus keywords, titles and meta descriptions already contained the keyword; the Hindi slug stays `kaam-mein-anand-kaise-paayen`; `links` and `also_read` unchanged.
+No other field changed: both focus keywords, titles and meta descriptions already contained the keyword; the Hindi slug stays `how-to-find-joy-in-your-work-hi`; `links` and `also_read` unchanged.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kaam-mein-anand-kaise-paayen | how-to-find-joy-in-your-work |
+| slug | how-to-find-joy-in-your-work-hi | how-to-find-joy-in-your-work |
 | focus_keyword | काम में आनंद कैसे पाएं | how to find joy in your work |
 | title | काम में आनंद कैसे पाएं: खुश होकर करें कर्म | How to Find Joy in Your Work: Act from Happiness |
 | meta_description | क्या आप केवल वेतन और बदले के लिए काम करते हैं? आचार्य उपेंद्र जी बताते हैं कि काम में आनंद कैसे पाएं: खुश होकर कर्म करें, यही कर्मयोग की पात्रता है। | Working only for salary and reward? Acharya Upendra Ji explains how to find joy in your work by acting from happiness, which readies you for Karma Yoga. |

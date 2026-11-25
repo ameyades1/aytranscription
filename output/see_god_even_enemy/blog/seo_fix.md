@@ -40,7 +40,7 @@ Still unmet (1): no unsupported scriptural claims — the Valya-to-Valmiki story
 | wordpress.hi.meta_description | क्या शत्रु में भी भगवान दिख सकता है? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है। | शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है। |
 | wordpress.en.meta_description | Can you see God even in your enemy? Acharya Upendra Ji explains sakshi bhava, how to fight without hatred, and why the bandit Valya could become Valmiki. | Learn how to see God in your enemy: Acharya Upendra Ji explains sakshi bhava, fighting without hatred, and why the bandit Valya could become Valmiki. |
 | wordpress.en.slug | see-god-in-your-enemy | how-to-see-god-in-your-enemy |
-| wordpress.hi.slug | shatru-mein-bhagwan-kaise-dekhen | shatru-mein-bhagwan-kaise-dekhen (unchanged) |
+| wordpress.hi.slug | how-to-see-god-in-your-enemy-hi | how-to-see-god-in-your-enemy-hi (unchanged) |
 | focus_keyword, secondary_keywords, title (both) | unchanged | unchanged |
 | links, also_read | unchanged | unchanged |
 
@@ -48,7 +48,7 @@ Still unmet (1): no unsupported scriptural claims — the Valya-to-Valmiki story
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shatru-mein-bhagwan-kaise-dekhen | how-to-see-god-in-your-enemy |
+| slug | how-to-see-god-in-your-enemy-hi | how-to-see-god-in-your-enemy |
 | focus_keyword | शत्रु में भगवान कैसे देखें | how to see God in your enemy |
 | title | शत्रु में भगवान कैसे देखें: पाप से घृणा, पापी से नहीं | How to See God in Your Enemy: Hate the Sin, Not the Sinner |
 | meta_description | शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है। | Learn how to see God in your enemy: Acharya Upendra Ji explains sakshi bhava, fighting without hatred, and why the bandit Valya could become Valmiki. |

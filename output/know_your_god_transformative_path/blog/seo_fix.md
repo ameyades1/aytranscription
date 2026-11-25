@@ -32,7 +32,7 @@ No teaching, example, verse, translation, reference, H1, gloss or order of ideas
 | Field | Before | After |
 |---|---|---|
 | title.en | Know God, Don't Just Believe: The Ganesha Gita's Yoga | Knowing God vs Believing in God: The Ganesha Gita's Yoga |
-| wordpress.hi.slug | bhagwan-ko-jano-sirf-mano-nahi | bhagwan-ko-janna-ya-manna |
+| wordpress.hi.slug | bhagwan-ko-jano-sirf-mano-nahi | knowing-god-vs-believing-in-god-hi |
 | wordpress.hi.meta_description | क्या आप उस भगवान को जानते हैं जिसकी रोज़ पूजा करते हैं? आचार्य उपेंद्र जी बताते हैं कि भक्ति जानने से शुरू होती है, और गणेश गीता का अभेद योग क्या है। | भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है। (158 characters) |
 | wordpress.en.slug | know-god-dont-just-believe | knowing-god-vs-believing-in-god |
 | wordpress.en.meta_description | Do you really know the God you worship? Acharya Upendra Ji explains why bhakti begins with knowing, and the Ganesha Gita's yoga of seeing no difference. | Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference. (152 characters) |
@@ -43,7 +43,7 @@ Both slugs are unique across all talks. No other field changed: the focus keywor
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagwan-ko-janna-ya-manna | knowing-god-vs-believing-in-god |
+| slug | knowing-god-vs-believing-in-god-hi | knowing-god-vs-believing-in-god |
 | focus_keyword | भगवान को जानना या मानना | knowing God vs believing in God |
 | title | भगवान को जानना या मानना? गणेश गीता का यथार्थ योग | Knowing God vs Believing in God: The Ganesha Gita's Yoga |
 | meta_description | भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है। | Knowing God vs believing in God: Acharya Upendra Ji explains why the scriptures ask us to know God, and the Ganesha Gita's yoga of seeing no difference. |

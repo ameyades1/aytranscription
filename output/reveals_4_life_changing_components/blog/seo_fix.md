@@ -28,13 +28,13 @@ No teaching, example, verse, translation, reference, H1, heading or order of ide
 
 ## seo.json changes
 
-None. Both focus keywords ("भाग्य कैसे बदलें" / "how to change your destiny") were already the searched wording and now appear in the `_seo` bodies. The titles and meta descriptions already contain them. The slugs (`bhagya-kaise-badle` / `how-to-change-your-destiny`, old and new) are unchanged and unique. `links`, `also_read`, `alt`, `caption`, `related`, category and tags are also unchanged. The report's section 11 block already matches seo.json. In the report, section 2 has a new keyword note and section 12 was added. Sections 3 and 8 already show these values.
+None. Both focus keywords ("भाग्य कैसे बदलें" / "how to change your destiny") were already the searched wording and now appear in the `_seo` bodies. The titles and meta descriptions already contain them. The slugs (`how-to-change-your-destiny-hi` / `how-to-change-your-destiny`, old and new) are unchanged and unique. `links`, `also_read`, `alt`, `caption`, `related`, category and tags are also unchanged. The report's section 11 block already matches seo.json. In the report, section 2 has a new keyword note and section 12 was added. Sections 3 and 8 already show these values.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagya-kaise-badle | how-to-change-your-destiny |
+| slug | how-to-change-your-destiny-hi | how-to-change-your-destiny |
 | focus_keyword | भाग्य कैसे बदलें | how to change your destiny |
 | title | भाग्य कैसे बदलें? योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा | How to Change Your Destiny: 4 Principles from Acharya Ji |
 | meta_description | भाग्य कैसे बदलें? आचार्य उपेंद्र जी चार सूत्र बताते हैं: योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा, और योगसूत्र २.१६ से आने वाले दुःख को आज ही रोकना। | How to change your destiny? Acharya Upendra Ji gives four principles: a clear plan, prarabdha, self-belief and the Guru's grace, with Yoga Sutra 2.16. |

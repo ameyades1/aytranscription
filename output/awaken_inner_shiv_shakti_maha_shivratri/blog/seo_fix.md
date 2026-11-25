@@ -30,7 +30,7 @@ No teaching, example, verse, translation, reference or H1 was changed. All four 
 |---|---|---|
 | title.hi | शिवलिंग किसका प्रतीक है? महाशिवरात्रि का आध्यात्मिक अर्थ | शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है? (42) |
 | title.en | What Does the Shivling Stand For? \| Maha Shivratri | What Does the Shivling Represent? \| Maha Shivratri (50) |
-| wordpress.hi.slug | shivling-kiska-prateek-hai | shivling-ka-rahasya |
+| wordpress.hi.slug | shivling-kiska-prateek-hai | what-does-the-shivling-represent-hi |
 | wordpress.hi.focus_keyword | शिवलिंग किसका प्रतीक है | शिवलिंग का रहस्य |
 | wordpress.hi.secondary_keywords | शिवलिंग का रहस्य, बिल्व पत्र के तीन पत्ते का अर्थ, शिव शब्द का अर्थ, महाशिवरात्रि का आध्यात्मिक अर्थ | शिवलिंग किसका प्रतीक है, बिल्व पत्र के तीन पत्ते का अर्थ, शिव शब्द का अर्थ, महाशिवरात्रि का आध्यात्मिक अर्थ |
 | wordpress.hi.meta_description | शिवलिंग किसका प्रतीक है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें। | शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें। (154) |
@@ -45,7 +45,7 @@ The old focus keywords are still in the body and are searched queries in their o
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shivling-ka-rahasya | what-does-the-shivling-represent |
+| slug | what-does-the-shivling-represent-hi | what-does-the-shivling-represent |
 | focus_keyword | शिवलिंग का रहस्य | what does the Shivling represent |
 | title | शिवलिंग का रहस्य: शिवलिंग किसका प्रतीक है? | What Does the Shivling Represent? \| Maha Shivratri |
 | meta_description | शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें। | What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri. |

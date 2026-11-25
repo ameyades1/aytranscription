@@ -39,7 +39,7 @@ Seasonal: refresh both posts by mid-August each year, 4–6 weeks before Pitru P
 
 Meta description (recommended): पितृ ऋण का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि जीते जी माता-पिता को समय और आनंद देना ही पितृ ऋण चुकाना है, और श्राद्ध दिखावे या डर से क्यों न हो।
 
-Slug (recommended): `/hi/pitru-rin-ka-sachcha-arth`
+Slug (recommended): `/hi/what-is-pitru-rin-hi`
 
 **English**
 1. What Is Pitru Rin? Serve Your Parents While They Are Alive (58) **(recommended)**
@@ -105,7 +105,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/pitru-rin-ka-sachcha-arth/`, `/en/what-is-pitru-rin/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-is-pitru-rin-hi/`, `/en/what-is-pitru-rin/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -400,7 +400,7 @@ The values written to output/true_meaning_pitru_rin/blog/seo.json for the page g
   "wordpress": {
     "category": "pitru",
     "hi": {
-      "slug": "pitru-rin-ka-sachcha-arth",
+      "slug": "what-is-pitru-rin-hi",
       "focus_keyword": "पितृ ऋण का अर्थ",
       "secondary_keywords": [
         "पितृ ऋण कैसे चुकाएं",

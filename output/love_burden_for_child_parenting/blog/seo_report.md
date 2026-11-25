@@ -42,7 +42,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 **Hindi meta description (148 characters; recommended, in seo.json)**
 क्या आपका प्रेम बच्चे पर बोझ बन रहा है? आचार्य उपेंद्र जी राजसिक परवरिश के संकेत बताते हैं: बच्चों पर अपेक्षाओं का बोझ, तुलना, अधूरे सपने और दिखावा।
 
-**Hindi slug (recommended, in seo.json):** `/hi/bachchon-par-apekshaon-ka-bojh`
+**Hindi slug (recommended, in seo.json):** `/hi/parental-pressure-on-children-hi`
 
 **English title options (60 characters or fewer)**
 1. Parental Pressure on Children: Signs of Rajasic Parenting (recommended, 57)
@@ -116,7 +116,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bachchon-par-apekshaon-ka-bojh/`, `/en/parental-pressure-on-children/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/parental-pressure-on-children-hi/`, `/en/parental-pressure-on-children/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The values written to `output/love_burden_for_child_parenting/blog/seo.json` (th
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "bachchon-par-apekshaon-ka-bojh",
+      "slug": "parental-pressure-on-children-hi",
       "focus_keyword": "बच्चों पर अपेक्षाओं का बोझ",
       "secondary_keywords": [
         "बच्चों पर पढ़ाई का दबाव",

@@ -35,7 +35,7 @@ Keyword note: the original blog texts did not use either focus keyword word for 
 
 Meta description (Hindi): क्या हल्की इच्छा भी कर्म है? आचार्य उपेंद्र जी बताते हैं इच्छा और इच्छाशक्ति में अंतर: क्षणिक चाह का फल कैसे आता है, प्रबल इच्छाशक्ति से मार्ग कैसे खुलता है।
 
-Slug: `/hi/ichha-aur-ichhashakti-mein-antar`
+Slug: `/hi/wish-vs-willpower-hi`
 
 **English**
 1. Wish vs Willpower: Are You Manifesting Goals Correctly? **(recommended)** (55 characters; echoes the video title)
@@ -118,7 +118,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ichha-aur-ichhashakti-mein-antar/`, `/en/wish-vs-willpower/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/wish-vs-willpower-hi/`, `/en/wish-vs-willpower/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -518,7 +518,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "ichha-aur-ichhashakti-mein-antar",
+      "slug": "wish-vs-willpower-hi",
       "focus_keyword": "इच्छा और इच्छाशक्ति में अंतर",
       "secondary_keywords": [
         "क्या इच्छा भी कर्म है",

@@ -37,7 +37,7 @@ Keyword note: people search the video's question, "mind or body, which is more p
 
 Meta description (recommended, 156 characters): मन या शरीर, कौन अधिक शक्तिशाली? आचार्य उपेंद्र जी उपनिषद और महाकाली उपासना से बताते हैं कि पहले शरीर बलवान हो, फिर बुद्धि, और रचना की रक्षा क्यों ज़रूरी है।
 
-Slug (recommended): `/hi/man-ya-sharir-kaun-shaktishali/` (`man-ya-sharir-kaun-shaktishali`)
+Slug (recommended): `/hi/mind-or-body-which-is-more-powerful-hi/` (`mind-or-body-which-is-more-powerful-hi`)
 
 **English**
 1. Mind or Body, Which Is More Powerful? Why Kali Comes First (recommended, 58 characters)
@@ -101,7 +101,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/man-ya-sharir-kaun-shaktishali/`, `/en/mind-or-body-which-is-more-powerful/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mind-or-body-which-is-more-powerful-hi/`, `/en/mind-or-body-which-is-more-powerful/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -389,7 +389,7 @@ The exact values written to `output/mind_or_body_more_powerful/blog/seo.json` fo
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "man-ya-sharir-kaun-shaktishali",
+      "slug": "mind-or-body-which-is-more-powerful-hi",
       "focus_keyword": "मन या शरीर",
       "secondary_keywords": [
         "मन या शरीर कौन अधिक शक्तिशाली",

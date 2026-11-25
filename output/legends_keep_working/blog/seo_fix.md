@@ -36,13 +36,13 @@ Still unmet: none. Section 12 (the SEO checklist, missing from the report until 
 |---|---|---|
 | wordpress.en.meta_description | What is lokasangraha? Through Gita 3.21 to 3.26, Acharya Upendra Ji explains why those who need nothing still act: to set the example the world follows. | Lokasangraha meaning: through Gita 3.21 to 3.26, Acharya Upendra Ji explains why those who need nothing still act, to set the example the world follows. (152 characters) |
 
-Unchanged: both focus keywords (already the searched wording, now in the body), both slugs (`lokasangraha-ka-arth`, `lokasangraha-meaning-gita`: old and new are the same), both titles, the Hindi meta description, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags. Report updated: section 2 (keyword note), section 3 (meta descriptions and slugs marked recommended; English meta replaced), section 8 (English BlogPosting description), section 11 (seo.json block), and section 12 (checklist added and marked).
+Unchanged: both focus keywords (already the searched wording, now in the body), both slugs (`lokasangraha-meaning-gita-hi`, `lokasangraha-meaning-gita`: old and new are the same), both titles, the Hindi meta description, secondary keywords, `links`, `also_read`, `related`, alt text, captions, category and tags. Report updated: section 2 (keyword note), section 3 (meta descriptions and slugs marked recommended; English meta replaced), section 8 (English BlogPosting description), section 11 (seo.json block), and section 12 (checklist added and marked).
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | lokasangraha-ka-arth | lokasangraha-meaning-gita |
+| slug | lokasangraha-meaning-gita-hi | lokasangraha-meaning-gita |
 | focus_keyword | लोकसंग्रह का अर्थ | lokasangraha meaning |
 | title | लोकसंग्रह का अर्थ: श्रेष्ठ पुरुष कर्म क्यों करते हैं | Lokasangraha Meaning: Why Legends Keep Working (Gita 3) |
 | meta_description | लोकसंग्रह का अर्थ क्या है? गीता ३.२१ से ३.२६ पर आचार्य उपेंद्र जी बताते हैं कि जिसे कुछ नहीं चाहिए, वह भी कर्म क्यों करता है, ताकि समाज को आदर्श मिले। | Lokasangraha meaning: through Gita 3.21 to 3.26, Acharya Upendra Ji explains why those who need nothing still act, to set the example the world follows. |

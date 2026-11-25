@@ -46,7 +46,7 @@ Not changed:
 |---|---|---|
 | title.hi | जातिवाद कैसे मिटे? हनुमान जी का तीन स्तरों वाला उत्तर | जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर (56 characters) |
 | title.en | How Casteism Can End: Hanuman's Answer to Shri Rama | How to End Casteism: Hanuman's Answer to Shri Rama (50 characters) |
-| wordpress.hi.slug | jativad-kaise-mite-hanuman-ji-ka-uttar | jativad-kaise-khatam-ho-hanuman-ji-ka-uttar |
+| wordpress.hi.slug | jativad-kaise-mite-hanuman-ji-ka-uttar | how-to-end-casteism-hanuman-answer-hi |
 | wordpress.hi.focus_keyword | जातिवाद | जातिवाद कैसे खत्म हो |
 | wordpress.hi.secondary_keywords | जातिवाद कैसे खत्म हो, समाज बंटा क्यों है, देहबुद्ध्या तु दासोऽहं, हनुमान जी और श्री राम का संबंध | जातिवाद, समाज बंटा क्यों है, देहबुद्ध्या तु दासोऽहं, हनुमान जी और श्री राम का संबंध |
 | wordpress.hi.meta_description | जातिवाद क्यों नहीं मिटता? श्री राम के प्रश्न पर … | जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर … (153 characters; the rest is unchanged) |
@@ -62,7 +62,7 @@ No other talk uses either focus keyword or either new slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | jativad-kaise-khatam-ho-hanuman-ji-ka-uttar | how-to-end-casteism-hanuman-answer |
+| slug | how-to-end-casteism-hanuman-answer-hi | how-to-end-casteism-hanuman-answer |
 | focus keyword | जातिवाद कैसे खत्म हो | how to end casteism |
 | title | जातिवाद कैसे खत्म हो? हनुमान जी का तीन स्तरों वाला उत्तर | How to End Casteism: Hanuman's Answer to Shri Rama |
 | meta description | जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है। | How to end casteism? Hanuman's answer to Shri Rama, a servant in the body, a part in the mind, one in the Atman, shows how a divided society can heal. |

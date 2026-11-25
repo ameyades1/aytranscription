@@ -32,7 +32,7 @@ Keyword note: the original blog texts did not contain either focus keyword word 
 
 Meta description: महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं।
 
-Slug: `/hi/mahila-netritva-vani-ki-shakti`
+Slug: `/hi/power-of-speech-for-women-leaders-hi`
 
 **English**
 1. Power of Speech for Women Leaders: The Mahakali Within (recommended, 54 characters)
@@ -99,7 +99,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The VideoObject `inLanguage` is `hi` in both blocks: the discourse itself is in Hindi.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/mahila-netritva-vani-ki-shakti/`, `/en/power-of-speech-for-women-leaders/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/power-of-speech-for-women-leaders-hi/`, `/en/power-of-speech-for-women-leaders/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -517,7 +517,7 @@ The exact values written to `output/spiritual_power_women_kali_yug/blog/seo.json
   "wordpress": {
     "category": "women",
     "hi": {
-      "slug": "mahila-netritva-vani-ki-shakti",
+      "slug": "power-of-speech-for-women-leaders-hi",
       "focus_keyword": "महिला नेतृत्व और वाणी की शक्ति",
       "secondary_keywords": [
         "स्त्री में महाकाली कैसे जागृत करें",

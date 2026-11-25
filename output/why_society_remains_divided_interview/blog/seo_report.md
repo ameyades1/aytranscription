@@ -39,7 +39,7 @@ Deliberately not targeted: "Manusmriti", "caste reservation", "Dalit", party or 
 
 Meta description (recommended, 153 characters): जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।
 
-Slug (recommended): `/hi/jativad-kaise-khatam-ho-hanuman-ji-ka-uttar`
+Slug (recommended): `/hi/how-to-end-casteism-hanuman-answer-hi`
 
 **English**
 
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 
 **Placeholders to fill once the WordPress posts exist**
 
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/jativad-kaise-khatam-ho-hanuman-ji-ka-uttar/`, `/en/how-to-end-casteism-hanuman-answer/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-end-casteism-hanuman-answer-hi/`, `/en/how-to-end-casteism-hanuman-answer/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -378,7 +378,7 @@ The exact values written to `output/why_society_remains_divided_interview/blog/s
   "wordpress": {
     "category": "nation",
     "hi": {
-      "slug": "jativad-kaise-khatam-ho-hanuman-ji-ka-uttar",
+      "slug": "how-to-end-casteism-hanuman-answer-hi",
       "focus_keyword": "जातिवाद कैसे खत्म हो",
       "secondary_keywords": ["जातिवाद", "समाज बंटा क्यों है", "देहबुद्ध्या तु दासोऽहं", "हनुमान जी और श्री राम का संबंध"],
       "meta_description": "जातिवाद कैसे खत्म हो? श्री राम के प्रश्न पर हनुमान जी का उत्तर: शरीर से दास, मन से अंश, आत्मा से एक। आचार्य जी बताते हैं कि यही समझ समाज को जोड़ सकती है।",

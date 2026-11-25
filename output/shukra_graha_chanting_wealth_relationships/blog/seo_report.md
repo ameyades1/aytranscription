@@ -37,7 +37,7 @@ Keyword wording: the original blog texts did not use either focus keyword (Hindi
 
 Meta description: शुक्र ग्रह का प्रभाव प्रेम, विवाह, धन और कला पर कैसे पड़ता है? आचार्य उपेंद्र जी बताते हैं प्रबल और दोषग्रस्त शुक्र के लक्षण और शुक्र बीज मंत्र जप साधना।
 
-Slug: `/hi/shukra-grah-ka-prabhav` (recommended; title, meta description and slug as in seo.json)
+Slug: `/hi/significance-of-venus-in-vedic-astrology-hi` (recommended; title, meta description and slug as in seo.json)
 
 **English**
 1. Significance of Venus in Vedic Astrology: Love and Wealth **(recommended)**
@@ -285,7 +285,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing; suggested post slugs: `/hi/shukra-grah-ka-prabhav/`, `/en/significance-of-venus-in-vedic-astrology/`) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}`, `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing; suggested post slugs: `/hi/significance-of-venus-in-vedic-astrology-hi/`, `/en/significance-of-venus-in-vedic-astrology/`) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -361,7 +361,7 @@ The exact seo.json written for the page generator and WordPress:
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "shukra-grah-ka-prabhav",
+      "slug": "significance-of-venus-in-vedic-astrology-hi",
       "focus_keyword": "शुक्र ग्रह का प्रभाव",
       "secondary_keywords": ["कमज़ोर शुक्र के लक्षण", "शुक्र बीज मंत्र जप", "शुक्र ग्रह जप साधना", "शुक्र और लक्ष्मी"],
       "meta_description": "शुक्र ग्रह का प्रभाव प्रेम, विवाह, धन और कला पर कैसे पड़ता है? आचार्य उपेंद्र जी बताते हैं प्रबल और दोषग्रस्त शुक्र के लक्षण और शुक्र बीज मंत्र जप साधना।",

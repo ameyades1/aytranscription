@@ -35,7 +35,7 @@ Keyword note: the searched wording is the focus keyword in both languages (ज�
 
 Meta description: जीवन का प्रथम कर्तव्य क्या है? आचार्य उपेंद्र जी वह वचन याद दिलाते हैं जो हर जीव गर्भ में स्वयं से करता है: गुरु की खोज, प्रायश्चित, पुण्य कार्य और मोक्ष।
 
-Slug: `/hi/jeevan-ka-pratham-kartavya`
+Slug: `/hi/first-duty-in-life-hi`
 
 **English**
 1. Your First Duty in Life: The Promise Made in the Womb (53 characters) **(recommended)**
@@ -240,7 +240,7 @@ For later use in WordPress only; not added to the page. Dates come from git (blo
 
 **WordPress SEO plugin mapping (Yoast / Rank Math):** The plugin fills BlogPosting (headline, datePublished, dateModified, image, mainEntityOfPage), Organization, the WebPage and the BreadcrumbList by itself from the post, site settings and category. Enter by hand: the focus keyword, the SEO title (alternativeHeadline), the meta description and the slug (from seo.json `wordpress`); the author Person details (Acharya Ji's name and profile URL) in the user profile or the plugin's schema settings; and the VideoObject (upload date, duration, thumbnail), unless a video SEO add-on reads it from the embed. Add translationOfWork / workTranslation, keywords and about through a custom schema block, and set the hreflang pairs (hi-IN, en, x-default) through the multilingual plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist.
 
-`{{HI_POST_URL}}`, `{{EN_POST_URL}}`: the two post addresses (slugs in seo.json: `/hi/jeevan-ka-pratham-kartavya/`, `/en/first-duty-in-life/`).
+`{{HI_POST_URL}}`, `{{EN_POST_URL}}`: the two post addresses (slugs in seo.json: `/hi/first-duty-in-life-hi/`, `/en/first-duty-in-life/`).
 
 ## 9. Images
 
@@ -338,7 +338,7 @@ The exact values written to `output/know_your_first_duty_in_life/blog/seo.json`:
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "jeevan-ka-pratham-kartavya",
+      "slug": "first-duty-in-life-hi",
       "focus_keyword": "जीवन का प्रथम कर्तव्य",
       "secondary_keywords": [
         "गर्भ में जीव का संकल्प",

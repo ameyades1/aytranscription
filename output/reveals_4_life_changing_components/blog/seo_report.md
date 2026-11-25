@@ -34,7 +34,7 @@ Keyword note: people search "भाग्य कैसे बदलें" / "ho
 
 Meta description (149 characters): भाग्य कैसे बदलें? आचार्य उपेंद्र जी चार सूत्र बताते हैं: योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा, और योगसूत्र २.१६ से आने वाले दुःख को आज ही रोकना।
 
-Slug: `/hi/bhagya-kaise-badle`
+Slug: `/hi/how-to-change-your-destiny-hi`
 
 **English**
 1. How to Change Your Destiny: 4 Principles from Acharya Ji (recommended, 56 characters)
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/bhagya-kaise-badle/`, `/en/how-to-change-your-destiny/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-change-your-destiny-hi/`, `/en/how-to-change-your-destiny/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The exact contents of `output/reveals_4_life_changing_components/blog/seo.json`,
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "bhagya-kaise-badle",
+      "slug": "how-to-change-your-destiny-hi",
       "focus_keyword": "भाग्य कैसे बदलें",
       "secondary_keywords": ["भाग्य बदलने के उपाय", "प्रारब्ध और पुरुषार्थ", "हेयं दुःखमनागतम् का अर्थ"],
       "meta_description": "भाग्य कैसे बदलें? आचार्य उपेंद्र जी चार सूत्र बताते हैं: योजना, प्रारब्ध, आत्मविश्वास और गुरु कृपा, और योगसूत्र २.१६ से आने वाले दुःख को आज ही रोकना।",

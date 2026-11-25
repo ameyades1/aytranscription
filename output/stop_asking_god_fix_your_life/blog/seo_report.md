@@ -39,7 +39,7 @@ Keyword note: the searched wordings "भगवान से क्या मा�
 
 Meta description (recommended): भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं।
 
-Slug (recommended): `/hi/bhagwan-se-kya-mange`
+Slug (recommended): `/hi/what-to-ask-god-in-prayer-hi`
 
 **English**
 1. What to Ask God in Prayer: Strength, Not a Problem-Free Life **(recommended, 60 characters)**
@@ -285,7 +285,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 </script>
 ```
 
-Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/bhagwan-se-kya-mange/`, `/en/what-to-ask-god-in-prayer/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
+Placeholders: `{{HI_URL}}`, `{{EN_URL}}` (suggested slugs: `/hi/what-to-ask-god-in-prayer-hi/`, `/en/what-to-ask-god-in-prayer/`), `{{BLOG_URL}}`, `{{HERO_IMAGE_URL}}`, `{{LOGO_URL}}` (WordPress URLs, unknown until publishing) and `{{VIDEO_LANGUAGE}}` (the spoken language of the video, not confirmed from a source).
 
 WordPress SEO plugin mapping (Yoast / Rank Math): the plugin fills BlogPosting/Article (headline, dates, author, publisher, image, mainEntityOfPage), Organization, Person (from the user profile) and BreadcrumbList itself. Enter by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags, hreflang pairs (via the translation plugin), and the VideoObject (add as custom schema, or let the plugin's video module detect the embed). Keep only one Organization and one Person entity per page so the plugin's graph and the custom block do not duplicate them; `workTranslation` / `translationOfWork` and `isBasedOn` must be added as custom schema. An FAQPage block is not given: Google no longer shows FAQ rich results for sites like this one, and the FAQ above is for on-page use if the editor adds it.
 
@@ -363,7 +363,7 @@ The exact seo.json written for the page generator and WordPress:
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "bhagwan-se-kya-mange",
+      "slug": "what-to-ask-god-in-prayer-hi",
       "focus_keyword": "भगवान से क्या माँगें",
       "secondary_keywords": ["प्रार्थना में क्या माँगें", "ज्योतिष अंधविश्वास है या नहीं", "अंगूठी और उपाय अंधश्रद्धा", "विघ्न अचानक नहीं आते"],
       "meta_description": "भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं।",

@@ -39,7 +39,7 @@ Competition: "Maha Shivratri significance" is crowded with news and festival sit
 
 Meta description: शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें।
 
-Slug: /hi/shivling-ka-rahasya
+Slug: /hi/what-does-the-shivling-represent-hi
 
 **English**
 1. What Does the Shivling Represent? | Maha Shivratri (recommended)
@@ -244,7 +244,7 @@ For later use in WordPress; never added to the page. Dates: published 2026-10-03
 }
 ```
 
-**WordPress SEO plugin mapping (Yoast or Rank Math):** the plugin fills BlogPosting/Article, WebPage, Organization, Person (from the post author), BreadcrumbList, headline, datePublished/dateModified, image and inLanguage itself. Enter by hand: the SEO title, meta description, slug and focus keyword (from seo.json `wordpress`), the Organization logo and social profiles once in the plugin's site settings, and the author profile for Acharya Ji. Add by hand (custom schema block or the plugin's schema builder): VideoObject (if the plugin's video module does not detect the embed), `alternativeHeadline`, `about`, `keywords`, and the `translationOfWork` / `workTranslation` pair, which also needs the hreflang pair from the translation plugin (WPML or Polylang). Replace every `{{PLACEHOLDER}}` with the live URLs. URL slugs: Hindi `shivling-ka-rahasya`, English `what-does-the-shivling-represent`.
+**WordPress SEO plugin mapping (Yoast or Rank Math):** the plugin fills BlogPosting/Article, WebPage, Organization, Person (from the post author), BreadcrumbList, headline, datePublished/dateModified, image and inLanguage itself. Enter by hand: the SEO title, meta description, slug and focus keyword (from seo.json `wordpress`), the Organization logo and social profiles once in the plugin's site settings, and the author profile for Acharya Ji. Add by hand (custom schema block or the plugin's schema builder): VideoObject (if the plugin's video module does not detect the embed), `alternativeHeadline`, `about`, `keywords`, and the `translationOfWork` / `workTranslation` pair, which also needs the hreflang pair from the translation plugin (WPML or Polylang). Replace every `{{PLACEHOLDER}}` with the live URLs. URL slugs: Hindi `what-does-the-shivling-represent-hi`, English `what-does-the-shivling-represent`.
 
 ## 9. Images
 
@@ -345,7 +345,7 @@ The exact values written to output/awaken_inner_shiv_shakti_maha_shivratri/blog/
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "shivling-ka-rahasya",
+      "slug": "what-does-the-shivling-represent-hi",
       "focus_keyword": "शिवलिंग का रहस्य",
       "secondary_keywords": [
         "शिवलिंग किसका प्रतीक है",

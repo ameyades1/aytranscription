@@ -47,7 +47,7 @@ Still unmet (1):
 | also_read.after.hi | हिंसा की सच्ची परिभाषा | हिंसा किसे कहते हैं? |
 | also_read.after.en | What Violence Really Means | What Counts as Violence? |
 | wordpress.hi.secondary_keywords | शाकाहार क्यों करें, हिंसा की सच्ची परिभाषा, मोक्ष और शाकाहार, शाकंभरी देवी | शाकाहार क्यों करें, हिंसा किसे कहते हैं, मोक्ष और शाकाहार, शाकंभरी देवी |
-| wordpress.hi.slug | shakahar-ka-adhyatmik-karan | unchanged |
+| wordpress.hi.slug | spiritual-reason-for-vegetarianism-hi | unchanged |
 | wordpress.en.slug | spiritual-reason-for-vegetarianism | unchanged |
 | focus_keyword, title, meta_description | (both languages) | unchanged (they already contain the focus keyword, which the `_seo` texts now use) |
 | links | (unchanged) | (unchanged; no edit touched a link phrase) |
@@ -58,7 +58,7 @@ No other talk uses either focus keyword or slug.
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shakahar-ka-adhyatmik-karan | spiritual-reason-for-vegetarianism |
+| slug | spiritual-reason-for-vegetarianism-hi | spiritual-reason-for-vegetarianism |
 | focus keyword | शाकाहार का आध्यात्मिक कारण | spiritual reason for vegetarianism |
 | title | शाकाहार का आध्यात्मिक कारण: उपचार के लिए खाएँ | Spiritual Reason for Vegetarianism: Eat to Heal, Not Harm |
 | meta description | शाकाहार का आध्यात्मिक कारण क्या है? आचार्य उपेंद्र जी बताते हैं कि मोक्ष का साधक किसी को क्यों नहीं मारता, हिंसा क्या है और शाकंभरी का संकेत। | Why go vegetarian? Acharya Upendra Ji gives the spiritual reason for vegetarianism: seeing God in all beings, what counts as violence, and what grows back. |

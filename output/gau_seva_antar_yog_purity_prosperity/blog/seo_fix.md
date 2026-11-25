@@ -38,13 +38,13 @@ Still unmet:
 |---|---|---|
 | (none) | | |
 
-No seo.json change was needed: the focus keywords already were the searched wording and now appear in the `_seo` texts; the title, meta description, slugs (`gau-seva-ka-mahatva`, `importance-of-gau-seva`), links and also_read stay as they were.
+No seo.json change was needed: the focus keywords already were the searched wording and now appear in the `_seo` texts; the title, meta description, slugs (`importance-of-gau-seva-hi`, `importance-of-gau-seva`), links and also_read stay as they were.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | gau-seva-ka-mahatva | importance-of-gau-seva |
+| slug | importance-of-gau-seva-hi | importance-of-gau-seva |
 | focus keyword | गौ सेवा का महत्व | importance of gau seva |
 | title | गौ सेवा का महत्व: कृतज्ञता से समृद्धि तक | Importance of Gau Seva: From Gratitude to Prosperity |
 | meta description | गाय को माता क्यों कहते हैं? आचार्य उपेंद्र जी से जानें गौ सेवा का महत्व: यांत्रिक नहीं, भाव से की गई सेवा, जो कृतज्ञता को समृद्धि और मन की शांति में बदल दे। | Why is the cow called Gau Mata? Acharya Upendra Ji explains the importance of gau seva: serving with feeling, not by rote, turns gratitude into prosperity. |

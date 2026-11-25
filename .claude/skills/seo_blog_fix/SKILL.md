@@ -58,7 +58,7 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
      It must stay unique across all talks.
    - `slug` (English): built from the English focus keyword, short (at most 55 characters),
      lowercase and hyphenated, unique across all talks (for example `33-crore-gods-one-god`).
-     The Hindi slug follows the same idea in Latin letters.
+     The Hindi slug is always the English slug with `-hi`; change it whenever the English one changes.
    - `title` and `meta_description`: rewrite only if they no longer contain the focus keyword,
      keeping the limits (60; 140–155 English, at most 160 Hindi).
    - `links` and `also_read`: unchanged unless an edit touched a phrase or heading; then copy

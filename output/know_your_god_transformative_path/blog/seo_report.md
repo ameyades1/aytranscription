@@ -33,7 +33,7 @@ Keyword note: the original blog texts never use the primary keywords word for wo
 
 Meta description (recommended, in seo.json): भगवान को जानना या मानना? आचार्य उपेंद्र जी बताते हैं कि शास्त्र भगवान को जानने की बात कहते हैं, भक्ति प्रेम से शुरू होती है, और गणेश गीता का अभेद योग क्या है।
 
-Slug (recommended, in seo.json): `/hi/bhagwan-ko-janna-ya-manna`
+Slug (recommended, in seo.json): `/hi/knowing-god-vs-believing-in-god-hi`
 
 (The SEO fix replaced the earlier meta description, which lacked the focus keyword, and the slug `bhagwan-ko-jano-sirf-mano-nahi`, so the slug follows the focus keyword.)
 
@@ -341,7 +341,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates the BlogPosting/Article, BreadcrumbList, Organization and Person nodes from the post itself: headline, dates, author, featured image, canonical URL and breadcrumbs. Enter by hand: the SEO title (section 3), meta description, focus keyword and slug in the post's SEO box; the Organization logo and social profiles once in the plugin's site settings; the author's name and page in the user profile. The plugin does not fill `alternativeHeadline`, `about`, `keywords`, the VideoObject (unless its video module is enabled) or the `workTranslation` / `translationOfWork` pair; add those through a custom schema block, and set hreflang (hi-IN, en, x-default) through the translation plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/bhagwan-ko-janna-ya-manna`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-god-vs-believing-in-god`.
+**WordPress SEO plugin mapping.** The plugin (Yoast or Rank Math) generates the BlogPosting/Article, BreadcrumbList, Organization and Person nodes from the post itself: headline, dates, author, featured image, canonical URL and breadcrumbs. Enter by hand: the SEO title (section 3), meta description, focus keyword and slug in the post's SEO box; the Organization logo and social profiles once in the plugin's site settings; the author's name and page in the user profile. The plugin does not fill `alternativeHeadline`, `about`, `keywords`, the VideoObject (unless its video module is enabled) or the `workTranslation` / `translationOfWork` pair; add those through a custom schema block, and set hreflang (hi-IN, en, x-default) through the translation plugin. Replace every `{{PLACEHOLDER}}` once the WordPress URLs are known. The URL placeholders end in the seo.json slugs: `{{PLACEHOLDER_WORDPRESS_URL_HI}}` = `/hi/knowing-god-vs-believing-in-god-hi`, `{{PLACEHOLDER_WORDPRESS_URL_EN}}` = `/en/knowing-god-vs-believing-in-god`.
 
 ## 9. Images
 
@@ -442,7 +442,7 @@ The exact values written to `output/know_your_god_transformative_path/blog/seo.j
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "bhagwan-ko-janna-ya-manna",
+      "slug": "knowing-god-vs-believing-in-god-hi",
       "focus_keyword": "भगवान को जानना या मानना",
       "secondary_keywords": [
         "गणेश गीता का यथार्थ योग",

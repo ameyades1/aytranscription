@@ -33,7 +33,7 @@ No teaching, example or H1 was changed (the blog has no scripture verses), and t
 | wordpress.en.secondary_keywords | being in the presence of a Guru, what happens in the Guru's presence, Guru's presence, spiritual retreat experience | Guru Sannidhya, what happens in the Guru's presence, Guru's presence, spiritual retreat experience |
 | wordpress.en.meta_description | What happens in the Guru's presence? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased their fear and brought back play. | What does being in the presence of a Guru do? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased fear and brought back play. (155) |
 | wordpress.en.slug | guru-sannidhya-experience | being-in-the-presence-of-a-guru |
-| wordpress.hi.slug | guru-sannidhya-ka-anubhav | guru-sannidhya-ka-anubhav (unchanged) |
+| wordpress.hi.slug | being-in-the-presence-of-a-guru-hi | being-in-the-presence-of-a-guru-hi (unchanged) |
 | wordpress.hi.focus_keyword | गुरु सान्निध्य | गुरु सान्निध्य (unchanged) |
 
 The old English focus keyword "Guru Sannidhya" is still in the first sentence and is a navigational query for the Shibir, so it moved into `secondary_keywords` in place of the new focus keyword (still 4). The new focus keyword and slug are not used by any other talk. The English title and meta description had to change because they did not contain the new focus keyword. The Hindi seo.json values are unchanged. `links`, `also_read`, alt text, captions, related posts, category and tags are unchanged. The report was updated in sections 2, 3, 8 (alternativeHeadline, description, keywords and the suggested slugs; the headline is the H1 and is unchanged) and 11; section 12 already had every item met.
@@ -42,7 +42,7 @@ The old English focus keyword "Guru Sannidhya" is still in the first sentence an
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-sannidhya-ka-anubhav | being-in-the-presence-of-a-guru |
+| slug | being-in-the-presence-of-a-guru-hi | being-in-the-presence-of-a-guru |
 | focus_keyword | गुरु सान्निध्य | being in the presence of a Guru |
 | title | गुरु सान्निध्य का अनुभव: सोचने का ढंग कैसे बदला | Being in the Presence of a Guru: How It Changes You |
 | meta_description | गुरु सान्निध्य में क्या बदलता है? शिविर के एक साधक बताते हैं कि गुरुदेव के निकट बिताए कुछ दिनों ने उनका चिंतन कैसे बदला, डर कैसे छूटा और खोया बचपन कैसे लौटा। | What does being in the presence of a Guru do? A seeker at the Guru Sannidhya Shibir shares how it changed their thinking, eased fear and brought back play. |

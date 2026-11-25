@@ -33,7 +33,7 @@ Keyword wording: the focus keywords are taken from wording the published (`_seo`
 
 Meta description (**recommended**): गुरु सान्निध्य में क्या बदलता है? शिविर के एक साधक बताते हैं कि गुरुदेव के निकट बिताए कुछ दिनों ने उनका चिंतन कैसे बदला, डर कैसे छूटा और खोया बचपन कैसे लौटा।
 
-Slug: `/hi/guru-sannidhya-ka-anubhav/` (**recommended**)
+Slug: `/hi/being-in-the-presence-of-a-guru-hi/` (**recommended**)
 
 **English**
 1. Being in the Presence of a Guru: How It Changes You (51 characters, **recommended**; contains the focus keyword, now in the body after the SEO fix)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - The speaker is a seeker, not Acharya Ji. So `author` is the Antar Yog Foundation, and Acharya Ji (Gurudev in the text) is listed under `mentions`, not as the author (flag 4).
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-sannidhya-ka-anubhav/`, `/en/being-in-the-presence-of-a-guru/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/being-in-the-presence-of-a-guru-hi/`, `/en/being-in-the-presence-of-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -392,7 +392,7 @@ The exact values written to `output/being_presence_guru_changes_way_think/blog/s
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-sannidhya-ka-anubhav",
+      "slug": "being-in-the-presence-of-a-guru-hi",
       "focus_keyword": "गुरु सान्निध्य",
       "secondary_keywords": [
         "गुरु सान्निध्य का अनुभव",

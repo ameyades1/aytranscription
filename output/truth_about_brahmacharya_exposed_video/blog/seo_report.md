@@ -34,7 +34,7 @@ Keyword note: the original blog texts used neither focus keyword word for word (
 
 Meta description (146 characters, recommended): क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।
 
-Slug (recommended): `/hi/brahmacharya-ka-asli-arth`
+Slug (recommended): `/hi/what-is-brahmacharya-hi`
 
 **English**
 1. What Is Brahmacharya? The Truth No One Tells | Acharya Ji (recommended, 57 characters)
@@ -110,7 +110,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/brahmacharya-ka-asli-arth/`, `/en/what-is-brahmacharya/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-is-brahmacharya-hi/`, `/en/what-is-brahmacharya/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -501,7 +501,7 @@ The exact values written to `output/truth_about_brahmacharya_exposed_video/blog/
   "wordpress": {
     "category": "sadhana",
     "hi": {
-      "slug": "brahmacharya-ka-asli-arth",
+      "slug": "what-is-brahmacharya-hi",
       "focus_keyword": "ब्रह्मचर्य का असली अर्थ",
       "secondary_keywords": ["ब्रह्मचर्य क्या है", "क्या गृहस्थ ब्रह्मचारी हो सकता है", "शास्त्रोक्त काम", "ब्रह्मचर्य की पहचान"],
       "meta_description": "क्या विवाह आध्यात्मिक रूप से नीचे होना है? आचार्य उपेंद्र जी शास्त्रों से बताते हैं ब्रह्मचर्य का असली अर्थ, काम पुरुषार्थ और सच्चे संयम की पहचान।",

@@ -34,7 +34,7 @@ None. Both focus keywords were already the searched wording, and the `_seo` text
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | mansahar-kyon-nahi-karna-chahiye | mansahar-kyon-nahi-karna-chahiye (unchanged) |
+| wordpress.hi.slug | challenge-for-meat-eaters-hi | challenge-for-meat-eaters-hi (unchanged) |
 | wordpress.en.slug | challenge-for-meat-eaters | challenge-for-meat-eaters (unchanged) |
 
 The report's section 11 therefore still matches seo.json. Section 3 already marks these titles and metas as recommended, and section 8 already uses them, so neither needed a change. Sections 2 (keyword note) and 12 (new checklist) were updated.
@@ -43,7 +43,7 @@ The report's section 11 therefore still matches seo.json. Section 3 already mark
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | mansahar-kyon-nahi-karna-chahiye | challenge-for-meat-eaters |
+| slug | challenge-for-meat-eaters-hi | challenge-for-meat-eaters |
 | focus_keyword | मांसाहार क्यों नहीं करना चाहिए | challenge for meat eaters |
 | title | मांसाहार क्यों नहीं करना चाहिए? खुद को खाकर दिखाओ | A Challenge for Meat Eaters: Eat Yourself First |
 | meta_description | मांसाहार क्यों नहीं करना चाहिए? आचार्य उपेंद्र जी हर कट्टर मांसाहारी को एक खुली चुनौती देते हैं: जो पीड़ा आप खुद नहीं सह सकते, वह किसी जीव को क्यों दें? | A challenge for meat eaters from Acharya Upendra Ji: if you could not bear to eat a small piece of yourself, is it right to make another being bear it? |

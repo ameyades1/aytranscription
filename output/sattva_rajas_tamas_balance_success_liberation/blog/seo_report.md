@@ -40,7 +40,7 @@ Keyword mismatch (fixed by `/seo_blog_fix`): the original blog texts used neithe
 
 Meta description (137) **(recommended)**: संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें।
 
-Slug **(recommended)**: `/hi/sattva-rajas-tamas-santulan/`
+Slug **(recommended)**: `/hi/balance-the-three-gunas-hi/`
 
 **English**
 1. How to Balance the Three Gunas: Three Cords That Bind (53 characters) **(recommended)**
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sattva-rajas-tamas-santulan/`, `/en/balance-the-three-gunas/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/balance-the-three-gunas-hi/`, `/en/balance-the-three-gunas/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -578,7 +578,7 @@ The exact values written to `output/sattva_rajas_tamas_balance_success_liberatio
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "sattva-rajas-tamas-santulan",
+      "slug": "balance-the-three-gunas-hi",
       "focus_keyword": "सत्व रज तम का संतुलन",
       "secondary_keywords": [
         "सत्व रज तम क्या है",

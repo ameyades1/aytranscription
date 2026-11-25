@@ -42,7 +42,7 @@ Still unmet: none. (Section 12 was missing from the report; it has been added an
 |---|---|---|
 | wordpress.hi.focus_keyword | कर्मयोगी कौन है | unchanged (the primary keyword; the searched "कर्मयोग और ज्ञानयोग" stays secondary) |
 | wordpress.en.focus_keyword | who is a karma yogi | unchanged (the primary keyword; "karma yoga vs jnana yoga" is not used word for word and stays secondary) |
-| wordpress.hi.slug | karmayogi-kaun-hai | unchanged |
+| wordpress.hi.slug | who-is-a-karma-yogi-hi | unchanged |
 | wordpress.en.slug | who-is-a-karma-yogi | unchanged |
 | title, meta_description | (both languages) | unchanged (they already contain the focus keyword) |
 | secondary_keywords, tags, links, also_read | | unchanged (no edit touched a link phrase or the Also read heading) |
@@ -51,7 +51,7 @@ Still unmet: none. (Section 12 was missing from the report; it has been added an
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | karmayogi-kaun-hai | who-is-a-karma-yogi |
+| slug | who-is-a-karma-yogi-hi | who-is-a-karma-yogi |
 | focus keyword | कर्मयोगी कौन है | who is a karma yogi |
 | title | कर्मयोगी कौन है? कर्म का बाँस कब छोड़ें | Who Is a Karma Yogi? When to Let Go of the Pole of Action |
 | meta description | कर्मयोगी कौन है? बाँस-कूद के उदाहरण से आचार्य उपेंद्र जी बताते हैं कि कर्मयोग ज्ञानयोग तक ले जाता है, और अपने कर्म की एक सीमा तय करना क्यों ज़रूरी है। | Who is a Karma Yogi? Through a pole vault image, Acharya Upendra Ji explains why action leads to Jnana Yoga and why you must set a limit to your work. |

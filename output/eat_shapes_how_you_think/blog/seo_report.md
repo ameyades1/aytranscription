@@ -35,7 +35,7 @@ Keyword note: the searched wording matches the body's own wording in both langua
 
 Meta description (150 characters): जहाँ जन्म, वहीं का अन्न। आचार्य उपेंद्र जी बताते हैं स्थानीय भोजन का महत्व, जन्मभूमि की मिट्टी का कर्म और प्रारब्ध से संबंध, और विदेशी भोजन कब ठीक है।
 
-Slug: `/hi/sthaniya-bhojan-ka-mahatva/`
+Slug: `/hi/why-eat-locally-grown-food-hi/`
 
 **English**
 1. Why Eat Locally Grown Food? Karma, Soil and Your Plate (recommended, 54 characters)
@@ -102,7 +102,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sthaniya-bhojan-ka-mahatva/`, `/en/why-eat-locally-grown-food/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-eat-locally-grown-food-hi/`, `/en/why-eat-locally-grown-food/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -388,7 +388,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "food",
     "hi": {
-      "slug": "sthaniya-bhojan-ka-mahatva",
+      "slug": "why-eat-locally-grown-food-hi",
       "focus_keyword": "स्थानीय भोजन का महत्व",
       "secondary_keywords": [
         "जहाँ जन्म वहीं का अन्न",

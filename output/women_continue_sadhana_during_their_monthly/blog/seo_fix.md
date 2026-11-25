@@ -35,7 +35,7 @@ Still unmet: none. (The Sanskrit review's three minor fixes are verse and wordin
 | wordpress.hi.secondary_keywords | मासिक धर्म में साधना, पीरियड्स में पूजा कर सकते हैं या नहीं, स्त्रियों के लिए धार्मिक निषेध, श्मशान वैराग्य | पीरियड्स में पूजा कर सकते हैं या नहीं, स्त्रियों के लिए धार्मिक निषेध, श्मशान वैराग्य |
 | wordpress.en.focus_keyword | menstruation | sadhana during menstruation |
 | wordpress.en.secondary_keywords | sadhana during menstruation, can women do sadhana during periods, can women chant mantras during periods, shmashan vairagya meaning | can women do sadhana during periods, can women chant mantras during periods, shmashan vairagya meaning |
-| wordpress.hi.slug | masik-dharm-mein-sadhana | masik-dharm-mein-sadhana (unchanged; already matches the new keyword) |
+| wordpress.hi.slug | sadhana-during-menstruation-hi | sadhana-during-menstruation-hi (unchanged; already matches the new keyword) |
 | wordpress.en.slug | sadhana-during-menstruation | sadhana-during-menstruation (unchanged; already matches the new keyword) |
 | title, meta_description | (unchanged) | (unchanged; both already contain the new focus keyword) |
 | links, also_read | (unchanged) | (unchanged; no edit touched a phrase or heading) |
@@ -46,7 +46,7 @@ The old bare keywords "मासिक धर्म" and "menstruation" were dro
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | masik-dharm-mein-sadhana | sadhana-during-menstruation |
+| slug | sadhana-during-menstruation-hi | sadhana-during-menstruation |
 | focus keyword | मासिक धर्म में साधना | sadhana during menstruation |
 | title | मासिक धर्म में साधना क्यों न छूटे: भ्रांति और सत्य | Sadhana During Menstruation: Why It Need Not Stop |
 | meta description | क्या मासिक धर्म में साधना छोड़नी चाहिए? आचार्य उपेंद्र जी बताते हैं कि यह नियम कहां से आया, और अपनी व्यक्तिगत साधना तीसों दिन क्यों जारी रखें। | Should women stop sadhana during menstruation? Acharya Upendra Ji explains where the rule came from and why your personal practice can continue every day. |

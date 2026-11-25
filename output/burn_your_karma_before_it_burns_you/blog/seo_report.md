@@ -36,7 +36,7 @@ Keyword wording: the searched phrasings "संचित कर्म कैस�
 
 Meta description (recommended, 140 characters): संचित कर्म कैसे जलाएं, प्रारब्ध बनने से पहले? आचार्य उपेंद्र जी साधना के विघ्न बताते हैं, दशा से अहंकार, संशय और आलस्य तक, और हर एक का उपाय।
 
-Slug (recommended): `/hi/sanchit-karma-kaise-jalayen`
+Slug (recommended): `/hi/how-to-burn-past-karma-hi`
 
 **English**
 1. How to Burn Past Karma: Obstacles on the Spiritual Path (recommended, 55 characters; contains the focus keyword "how to burn past karma")
@@ -114,7 +114,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sanchit-karma-kaise-jalayen/`, `/en/how-to-burn-past-karma/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/how-to-burn-past-karma-hi/`, `/en/how-to-burn-past-karma/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -405,7 +405,7 @@ The exact values written to `blog/seo.json` for the page generator and WordPress
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "sanchit-karma-kaise-jalayen",
+      "slug": "how-to-burn-past-karma-hi",
       "focus_keyword": "संचित कर्म कैसे जलाएं",
       "secondary_keywords": [
         "संचित कर्म",

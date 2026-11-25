@@ -29,7 +29,7 @@ No teaching, example, verse, translation, reference, H1, link phrase or "Also re
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | daivi-sampatti-laxmi-pujan | laxmi-pujan-ka-asli-arth |
+| wordpress.hi.slug | daivi-sampatti-laxmi-pujan | true-meaning-of-lakshmi-puja-hi |
 | wordpress.hi.focus_keyword | दैवी संपत्ति | लक्ष्मी पूजन का असली अर्थ |
 | wordpress.hi.secondary_keywords | लक्ष्मी पूजन का असली अर्थ, दैवी संपत्ति के गुण, दैवी और आसुरी संपदा, गीता अध्याय १६ दैवी संपदा | दैवी संपत्ति, दैवी संपत्ति के गुण, दैवी और आसुरी संपदा, गीता अध्याय १६ दैवी संपदा |
 | wordpress.hi.meta_description | असली लक्ष्मी पूजन क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं। | लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं। (160) |
@@ -44,7 +44,7 @@ The titles already contain the new focus keywords and are unchanged. `links`, `a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | laxmi-pujan-ka-asli-arth | true-meaning-of-lakshmi-puja |
+| slug | true-meaning-of-lakshmi-puja-hi | true-meaning-of-lakshmi-puja |
 | focus_keyword | लक्ष्मी पूजन का असली अर्थ | true meaning of Lakshmi Puja |
 | title | दैवी संपत्ति: लक्ष्मी पूजन का असली अर्थ (गीता १६) | Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16) |
 | meta_description | लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं। | What is the true meaning of Lakshmi Puja? Acharya Upendra Ji shows that the divine wealth of Gita 16.1-3, from fearlessness to tejas, is the real Lakshmi. |

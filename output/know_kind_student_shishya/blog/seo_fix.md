@@ -32,7 +32,7 @@ No teaching, example, H1, verse, verse translation or order of ideas changed, an
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | shishya-ke-teen-prakar | shishya-ke-teen-prakar (unchanged; already built from the focus keyword) |
+| wordpress.hi.slug | three-types-of-disciples-hi | three-types-of-disciples-hi (unchanged; already built from the focus keyword) |
 | wordpress.en.slug | three-types-of-disciples | three-types-of-disciples (unchanged; 24 characters, the focus keyword) |
 
 No other field changed: the focus keywords (now in the fixed bodies), secondary keywords, `title` and meta descriptions (both already contain the focus keywords), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. Section 2 has a new keyword note, section 3 marks the seo.json values as recommended, section 8 already matched, and section 12 was added.
@@ -41,7 +41,7 @@ No other field changed: the focus keywords (now in the fixed bodies), secondary 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shishya-ke-teen-prakar | three-types-of-disciples |
+| slug | three-types-of-disciples-hi | three-types-of-disciples |
 | focus_keyword | शिष्य के तीन प्रकार | three types of disciples |
 | title | शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं? | Three Types of Disciples: What Do You Ask the Guru For? |
 | meta_description | तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और "मैं कहां गलत था?" पूछने से कर्म कैसे सुलझता है। | Tamasic, rajasic or sattvic? Acharya Ji explains three types of disciples, why outer remedies fade, and how asking where you went wrong resolves karma. |

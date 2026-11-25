@@ -37,13 +37,13 @@ No teaching, example, verse, translation, H1, heading or order of ideas changed.
 | wordpress.en.slug | control-your-mind-bhagavad-gita | how-to-control-your-mind-bhagavad-gita |
 | wordpress.en.meta_description | Spiritual life need not mean giving up entertainment. Acharya Upendra Ji on sattvic dhriti, Gita 18.33: pull your mind out as easily as it settles in. | How to control your mind without giving up entertainment: Acharya Upendra Ji on sattvic dhriti, Gita 18.33. Pull it out as easily as it settles in. (147) |
 
-The Hindi focus keyword (kept: the body now uses it), Hindi secondary keywords, both titles (both already contain the focus keyword), the Hindi slug (`man-ko-vash-mein-kaise-karein`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note and the new keyword row), 3 (recommended meta descriptions and slugs), 8 (descriptions, English keywords and suggested English slug) and 12 (checklist, newly added) were updated to match.
+The Hindi focus keyword (kept: the body now uses it), Hindi secondary keywords, both titles (both already contain the focus keyword), the Hindi slug (`how-to-control-your-mind-bhagavad-gita-hi`), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2 (keyword note and the new keyword row), 3 (recommended meta descriptions and slugs), 8 (descriptions, English keywords and suggested English slug) and 12 (checklist, newly added) were updated to match.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | man-ko-vash-mein-kaise-karein | how-to-control-your-mind-bhagavad-gita |
+| slug | how-to-control-your-mind-bhagavad-gita-hi | how-to-control-your-mind-bhagavad-gita |
 | focus_keyword | मन को वश में कैसे करें | how to control your mind |
 | title | मन को वश में कैसे करें? गीता की सात्त्विक धृति | How to Control Your Mind: Sattvic Dhriti in the Gita |
 | meta_description | मन को वश में कैसे करें? आचार्य उपेंद्र जी गीता १८.३३ की सात्त्विक धृति से बताते हैं: जितनी आसानी से मन लगे, उतनी आसानी से हटे, यही सच्चा नियंत्रण है। | How to control your mind without giving up entertainment: Acharya Upendra Ji on sattvic dhriti, Gita 18.33. Pull it out as easily as it settles in. |

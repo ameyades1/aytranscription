@@ -40,7 +40,7 @@ The talk recasts Lakshmi Puja: the true Lakshmi is the **daivi sampatti** (divin
 
 Meta description (160 characters, **recommended**, in seo.json after the SEO fix): "लक्ष्मी पूजन का असली अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि गीता १६.१-३ की दैवी संपत्ति, अभय से तेज तक, ही सच्ची लक्ष्मी है, और उसमें पैसे का उल्लेख नहीं।"
 
-Slug (**recommended**, in seo.json after the SEO fix): `/hi/laxmi-pujan-ka-asli-arth` (first proposed: `/hi/daivi-sampatti-laxmi-pujan`)
+Slug (**recommended**, in seo.json after the SEO fix): `/hi/true-meaning-of-lakshmi-puja-hi` (first proposed: `/hi/daivi-sampatti-laxmi-pujan`)
 
 **English**
 1. Divine Wealth: The True Meaning of Lakshmi Puja (Gita 16) (57) **recommended** (in seo.json)
@@ -109,7 +109,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/laxmi-pujan-ka-asli-arth/`, `/en/true-meaning-of-lakshmi-puja/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/true-meaning-of-lakshmi-puja-hi/`, `/en/true-meaning-of-lakshmi-puja/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -524,7 +524,7 @@ The exact values written to `output/attain_divine_qualities_empower_spiritual/bl
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "laxmi-pujan-ka-asli-arth",
+      "slug": "true-meaning-of-lakshmi-puja-hi",
       "focus_keyword": "लक्ष्मी पूजन का असली अर्थ",
       "secondary_keywords": [
         "दैवी संपत्ति",

@@ -54,7 +54,7 @@ The H1s stay as they are. Only the `<title>` tag changes.
 Who can grant moksha to the living or the dead? Acharya Upendra Ji explains how death differs from moksha, and why only the free can free others.
 
 **Slugs**
-- Hindi: /hi/moksha-kaun-dila-sakta-hai
+- Hindi: /hi/who-can-grant-moksha-hi
 - English: /en/who-can-grant-moksha
 
 ## 4. Outline changes
@@ -126,7 +126,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/moksha-kaun-dila-sakta-hai/`, `/en/who-can-grant-moksha/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/who-can-grant-moksha-hi/`, `/en/who-can-grant-moksha/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -427,7 +427,7 @@ The exact values written to blog/seo.json for the page generator and WordPress.
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "moksha-kaun-dila-sakta-hai",
+      "slug": "who-can-grant-moksha-hi",
       "focus_keyword": "मोक्ष कौन दिला सकता है",
       "secondary_keywords": [
         "मृत्यु और मोक्ष में अंतर",

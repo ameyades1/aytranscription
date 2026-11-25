@@ -32,7 +32,7 @@ Still unmet: none.
 | Field | Before | After |
 |---|---|---|
 | focus_keyword (hi / en) | मैं कौन हूँ / who am I | (unchanged) |
-| slug (hi / en) | main-kaun-hoon-sansar-ki-maya / who-am-i-maya-forget-true-self | (unchanged) |
+| slug (hi / en) | who-am-i-maya-forget-true-self-hi / who-am-i-maya-forget-true-self | (unchanged) |
 | title, meta_description | (unchanged; both still contain the focus keyword) | (unchanged) |
 | links, also_read | (unchanged) | (unchanged; no edit touched a phrase or heading) |
 
@@ -42,7 +42,7 @@ The focus keywords already matched the body wording, so no keyword or slug chang
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | main-kaun-hoon-sansar-ki-maya | who-am-i-maya-forget-true-self |
+| slug | who-am-i-maya-forget-true-self-hi | who-am-i-maya-forget-true-self |
 | focus keyword | मैं कौन हूँ | who am I |
 | title | मैं कौन हूँ? संसार की माया हमें खुद को कैसे भुलाती है | Who Am I? How Maya Makes Us Forget Our True Self |
 | meta description | मैं कौन हूँ, कहाँ से आया, कहाँ जाऊँगा? आचार्य उपेंद्र जी बताते हैं कि कोऽहम् का प्रश्न क्या है और संसार की माया हमें अपना असली स्वरूप कैसे भुला देती है। | Who am I, where did I come from, where will I go? Acharya Upendra Ji on ko'ham and so'ham, and how the maya of the world makes us forget our true self. |

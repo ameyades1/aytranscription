@@ -36,7 +36,7 @@ Keyword note (after the SEO fix, `_seo` texts): the original blogs used neither 
 
 Meta description (recommended, in seo.json, 148 chars): इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है।
 
-Slug (recommended, in seo.json): /hi/indriya-sukh-kshanik-kyon
+Slug (recommended, in seo.json): /hi/why-sense-pleasures-fade-hi
 
 **English**
 1. Why Sense Pleasures Fade: The Trap of Physical Bliss (recommended, in seo.json, 52 chars; after the SEO fix)
@@ -92,7 +92,7 @@ Cannibalization: joy_sorrow_transformation targets "सुख-दुःख क�
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID T_do140cMxM, uploaded 2025-03-28, 353 s, title from yt-dlp. URL slugs: /hi/indriya-sukh-kshanik-kyon and /en/why-sense-pleasures-fade (`{{HI_POST_URL}}` / `{{EN_POST_URL}}`).
+For later use in WordPress; not added to the page. Dates: published 2026-10-04, modified 2026-10-05 (git history of the Hindi blog). Video: YouTube ID T_do140cMxM, uploaded 2025-03-28, 353 s, title from yt-dlp. URL slugs: /hi/why-sense-pleasures-fade-hi and /en/why-sense-pleasures-fade (`{{HI_POST_URL}}` / `{{EN_POST_URL}}`).
 
 **Hindi**
 
@@ -331,7 +331,7 @@ The exact values written to output/trapped_illusory_happiness/blog/seo.json.
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "indriya-sukh-kshanik-kyon",
+      "slug": "why-sense-pleasures-fade-hi",
       "focus_keyword": "इंद्रिय सुख क्षणिक क्यों है",
       "secondary_keywords": ["शारीरिक आनंद क्या है", "क्षणिक सुख का जाल", "लालसा और निर्भरता", "पंच तन्मात्रा"],
       "meta_description": "इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है।",

@@ -37,7 +37,7 @@ Notes: the elephant-head query is the larger one in both languages and matches t
 
 Meta description (157 characters): गणेश जी का सिर हाथी का क्यों है, वे चूहे पर कैसे बैठते हैं? आचार्य उपेंद्र जी बताते हैं कि यह रूप प्रतीक है, जो ऋषियों ने अनंत परम तत्त्व तक ले जाने को दिया।
 
-Slug: `/hi/ganesh-ji-ka-sir-hathi-ka-kyon`
+Slug: `/hi/why-does-ganesha-have-an-elephant-head-hi`
 
 **English**
 1. Why Does Ganesha Have an Elephant Head and Ride a Mouse? (recommended, 56 characters)
@@ -106,7 +106,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/ganesh-ji-ka-sir-hathi-ka-kyon/`, `/en/why-does-ganesha-have-an-elephant-head/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/why-does-ganesha-have-an-elephant-head-hi/`, `/en/why-does-ganesha-have-an-elephant-head/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - If WordPress shows a different publish date, use that date instead of git's.
@@ -389,7 +389,7 @@ The values written to `output/ganesh_have_elephant_head_mouse/blog/seo.json` (th
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "ganesh-ji-ka-sir-hathi-ka-kyon",
+      "slug": "why-does-ganesha-have-an-elephant-head-hi",
       "focus_keyword": "गणेश जी का सिर हाथी का क्यों है",
       "secondary_keywords": ["गणेश जी चूहे पर कैसे बैठते हैं", "गणपति के रूप का प्रतीकात्मक अर्थ", "एकदन्तं चतुर्हस्तं मंत्र का अर्थ"],
       "meta_description": "गणेश जी का सिर हाथी का क्यों है, वे चूहे पर कैसे बैठते हैं? आचार्य उपेंद्र जी बताते हैं कि यह रूप प्रतीक है, जो ऋषियों ने अनंत परम तत्त्व तक ले जाने को दिया।",

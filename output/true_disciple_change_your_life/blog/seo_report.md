@@ -33,7 +33,7 @@ Keyword note (after the SEO fix): neither focus keyword was in the original body
 
 Meta description (147 characters, recommended): सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए।
 
-Slug (recommended): `/hi/sachcha-shishya-kaun-hai`
+Slug (recommended): `/hi/what-makes-a-true-disciple-hi`
 
 **English**
 1. What Makes a True Disciple? Turning Knowledge into Action (recommended, 57 characters)
@@ -98,7 +98,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sachcha-shishya-kaun-hai/`, `/en/what-makes-a-true-disciple/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/what-makes-a-true-disciple-hi/`, `/en/what-makes-a-true-disciple/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -359,7 +359,7 @@ The values written to `output/true_disciple_change_your_life/blog/seo.json`:
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "sachcha-shishya-kaun-hai",
+      "slug": "what-makes-a-true-disciple-hi",
       "focus_keyword": "सच्चा शिष्य कौन है",
       "secondary_keywords": ["ज्ञान को कर्म में कैसे बदलें", "गुरु के शब्द जीवन में कैसे उतारें", "एक तरी ओवी अनुभवावी का अर्थ", "अनूचान का अर्थ"],
       "meta_description": "सच्चा शिष्य कौन है? आचार्य उपेंद्र जी बताते हैं कि गुरु के शब्द कान से कृति और संस्कार तक कैसे पहुंचें, और क्यों वही ज्ञान सच्चा है जो कर्म बन जाए।",

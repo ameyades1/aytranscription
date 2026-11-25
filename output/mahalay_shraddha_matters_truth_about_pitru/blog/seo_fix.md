@@ -39,13 +39,13 @@ The report had no section 12; it was added, marked against the `_seo` texts. Rep
 |---|---|---|
 | wordpress.en.meta_description | What is Mahalaya Shraddha, and why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply. | Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply. (145 characters) |
 
-Slugs are unchanged (hi: `mahalaya-shraddha-kya-hai` → `mahalaya-shraddha-kya-hai`; en: `mahalaya-shraddha-meaning` → `mahalaya-shraddha-meaning`). So are the focus keywords, the titles, the Hindi meta description, the secondary keywords, the tags, `links` and `also_read`.
+Slugs are unchanged (hi: `mahalaya-shraddha-meaning-hi` → `mahalaya-shraddha-meaning-hi`; en: `mahalaya-shraddha-meaning` → `mahalaya-shraddha-meaning`). So are the focus keywords, the titles, the Hindi meta description, the secondary keywords, the tags, `links` and `also_read`.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | mahalaya-shraddha-kya-hai | mahalaya-shraddha-meaning |
+| slug | mahalaya-shraddha-meaning-hi | mahalaya-shraddha-meaning |
 | focus_keyword | महालय श्राद्ध क्या है | Mahalaya Shraddha meaning |
 | title | महालय श्राद्ध क्या है? श्राद्ध, पिंडदान, तर्पण का सच्चा अर्थ | Mahalaya Shraddha Meaning: Shraddha, Pind Daan and Tarpan |
 | meta_description | महालय श्राद्ध क्या है और पितृ पक्ष में सभी पूर्वजों का श्राद्ध एक साथ क्यों? आचार्य उपेंद्र जी सरल भाषा में बताते हैं श्राद्ध, पिंडदान और तर्पण का अर्थ। | Mahalaya Shraddha meaning: why honour all ancestors together in Pitru Paksha? Acharya Upendra Ji explains shraddha, pinda daan and tarpan simply. |

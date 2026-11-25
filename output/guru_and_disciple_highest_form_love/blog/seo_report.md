@@ -35,7 +35,7 @@ Keyword note: neither focus keyword appeared word for word in the original blog 
 
 Meta description (recommended): जिसे हम प्रेम कहते हैं, क्या वह सच में प्रेम है? आचार्य उपेंद्र जी बताते हैं कि गुरु शिष्य का प्रेम मोह और आसक्ति से कैसे अलग है और असली शिष्य की पहचान क्या है।
 
-Slug (recommended): `/hi/guru-shishya-ka-prem/`
+Slug (recommended): `/hi/love-between-guru-and-disciple-hi/`
 
 **English**
 1. Love Between Guru and Disciple: Love's Highest Form (recommended, 51 characters)
@@ -104,7 +104,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-shishya-ka-prem/`, `/en/love-between-guru-and-disciple/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/love-between-guru-and-disciple-hi/`, `/en/love-between-guru-and-disciple/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -497,7 +497,7 @@ The exact values written to `output/guru_and_disciple_highest_form_love/blog/seo
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-shishya-ka-prem",
+      "slug": "love-between-guru-and-disciple-hi",
       "focus_keyword": "गुरु शिष्य का प्रेम",
       "secondary_keywords": [
         "सच्चा प्रेम क्या है",

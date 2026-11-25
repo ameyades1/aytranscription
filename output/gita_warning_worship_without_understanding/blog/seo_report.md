@@ -33,7 +33,7 @@ Keyword note: neither focus keyword appeared word for word in the original body 
 
 Meta description (recommended, in seo.json): क्या बिना अर्थ जाने पूजा पर्याप्त है? आचार्य उपेंद्र जी बताते हैं कि हर मूर्ति निराकार का संकेत है, और संत भी साकार की पूजा अर्थ जानकर ही करते थे।
 
-Slug (recommended, in seo.json): `/hi/bina-arth-jane-puja-gita-chetavani`
+Slug (recommended, in seo.json): `/hi/worship-without-understanding-gita-hi`
 
 **English** (the H1 "Marrying a Photograph, or Meeting God" stays)
 1. Worship Without Understanding: The Gita's Warning (recommended, 49 characters)
@@ -334,7 +334,7 @@ For later use in WordPress only; not added to the page. Dates: published 2026-10
 Notes:
 - The Hindi BlogPosting uses `workTranslation` to point to the English post; the English one uses `translationOfWork` to point back.
 - WordPress SEO plugin (Yoast / Rank Math): the plugin fills BlogPosting/Article, `datePublished`/`dateModified`, `mainEntityOfPage`, BreadcrumbList, Organization and the author Person from the site settings, along with the canonical and Open Graph tags. Enter these by hand: focus keyword, SEO title, meta description and slug (from seo.json `wordpress`), category and tags. The `video` VideoObject, `about`, `keywords`, `alternativeHeadline` and the translation links need a custom schema block (Rank Math Schema Builder or a code snippet). hreflang pairs (hi-IN, en, x-default) come from the multilingual plugin (WPML / Polylang), not from this schema.
-- Placeholders still to fill: both post URLs (slugs: `/hi/bina-arth-jane-puja-gita-chetavani/`, `/en/worship-without-understanding-gita/`), the site and blog URLs, the category URLs, the author page, the logo and the uploaded image URLs.
+- Placeholders still to fill: both post URLs (slugs: `/hi/worship-without-understanding-gita-hi/`, `/en/worship-without-understanding-gita/`), the site and blog URLs, the category URLs, the author page, the logo and the uploaded image URLs.
 
 ## 9. Images
 
@@ -432,7 +432,7 @@ The exact contents of `output/gita_warning_worship_without_understanding/blog/se
   "wordpress": {
     "category": "deities",
     "hi": {
-      "slug": "bina-arth-jane-puja-gita-chetavani",
+      "slug": "worship-without-understanding-gita-hi",
       "focus_keyword": "बिना अर्थ जाने पूजा",
       "secondary_keywords": [
         "मूर्ति पूजा का अर्थ",

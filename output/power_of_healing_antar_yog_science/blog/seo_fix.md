@@ -27,13 +27,13 @@ No teaching, example, H1, link phrase or "Also read" heading was changed (the bl
 
 ## seo.json changes
 
-None. The focus keywords were already the searched wording and are now in the body, so `title`, `meta_description`, `slug`, `focus_keyword`, `secondary_keywords`, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged (slug stays `vishwas-se-upchar` / `power-of-belief-in-healing`). The report's section 11 still holds the same JSON. Section 2 has a new keyword note, section 3 marks the meta descriptions and slugs as recommended, section 8 needed no change, and section 12 (the checklist) was added. `python3 tools/check_seo.py power_of_healing_antar_yog_science` passes, and `tools/rebuild_blogs.sh` printed no notes.
+None. The focus keywords were already the searched wording and are now in the body, so `title`, `meta_description`, `slug`, `focus_keyword`, `secondary_keywords`, `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged (slug stays `power-of-belief-in-healing-hi` / `power-of-belief-in-healing`). The report's section 11 still holds the same JSON. Section 2 has a new keyword note, section 3 marks the meta descriptions and slugs as recommended, section 8 needed no change, and section 12 (the checklist) was added. `python3 tools/check_seo.py power_of_healing_antar_yog_science` passes, and `tools/rebuild_blogs.sh` printed no notes.
 
 ## Final seo.json values
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | vishwas-se-upchar | power-of-belief-in-healing |
+| slug | power-of-belief-in-healing-hi | power-of-belief-in-healing |
 | focus_keyword | विश्वास से उपचार | power of belief in healing |
 | title | विश्वास से उपचार: प्लेसिबो, नोसिबो और श्रद्धा का विज्ञान | The Power of Belief in Healing: Placebo, Nocebo and Faith |
 | meta_description | एक ही दवा किसी को ठीक करती है, किसी पर असर नहीं करती। आचार्य उपेंद्र जी बताते हैं विश्वास से उपचार का विज्ञान: प्लेसिबो, नोसिबो और उपचार के तीन स्तंभ। | Why does the same medicine heal one person and not another? Acharya Upendra Ji explains the power of belief in healing, the placebo and the nocebo effect. |

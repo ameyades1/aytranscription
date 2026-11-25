@@ -36,7 +36,7 @@ Keyword match: the original blog bodies use only the H1 wording "शत्रु
 
 Meta description (142) — **recommended**: शत्रु में भगवान कैसे देखें? आचार्य उपेंद्र जी बताते हैं साक्षी भाव, बिना वैर भाव के लड़ना, और क्यों डाकू वाल्या भी महर्षि वाल्मीकि बन सकता है।
 
-Slug — **recommended**: `/hi/shatru-mein-bhagwan-kaise-dekhen`
+Slug — **recommended**: `/hi/how-to-see-god-in-your-enemy-hi`
 
 **English**
 1. How to See God in Your Enemy: Hate the Sin, Not the Sinner (58 characters) — **recommended**
@@ -95,7 +95,7 @@ The FAQ stays in this report (and FAQPage schema, if used later); it is not adde
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. URL slugs: `/hi/shatru-mein-bhagwan-kaise-dekhen`, `/en/how-to-see-god-in-your-enemy`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-09-09, duration 215 s (PT3M35S), title "Can You See God Even in Your Enemy? | Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing.
+For later use in WordPress; not added to the page. URL slugs: `/hi/how-to-see-god-in-your-enemy-hi`, `/en/how-to-see-god-in-your-enemy`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-09-09, duration 215 s (PT3M35S), title "Can You See God Even in Your Enemy? | Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing.
 
 **Hindi**
 
@@ -440,7 +440,7 @@ The exact values written to `output/see_god_even_enemy/blog/seo.json` for the pa
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "shatru-mein-bhagwan-kaise-dekhen",
+      "slug": "how-to-see-god-in-your-enemy-hi",
       "focus_keyword": "शत्रु में भगवान कैसे देखें",
       "secondary_keywords": [
         "पाप से घृणा करो पापी से नहीं",

@@ -36,7 +36,7 @@ Keyword match: the Hindi focus keyword "सबमें भगवान दे�
 
 Meta description (recommended, in seo.json): क्या सबमें भगवान देखने का अर्थ सबसे एक जैसा व्यवहार है? आचार्य उपेंद्र जी समझाते हैं गीता ५.१८ का समदर्शन, योग्यता से व्यवहार और दुर्गा देवी का लंबा युद्ध।
 
-Slug (recommended, in seo.json): `/hi/sabmein-bhagwan-vyavhar-yogyata-se`
+Slug (recommended, in seo.json): `/hi/what-does-seeing-god-in-everyone-mean-hi`
 
 **English**
 1. What Does Seeing God in Everyone Mean? Equal Vision vs Merit (recommended, 60 characters; in seo.json)
@@ -93,7 +93,7 @@ FAQ 4 must stay attributed to Acharya Ji (see flag 1). FAQ 5 keeps the blog's wo
 
 ## 8. Schema
 
-For later use in WordPress; not added to the page. URL slugs: `/hi/sabmein-bhagwan-vyavhar-yogyata-se`, `/en/what-does-seeing-god-in-everyone-mean`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-06-08, duration 203 s (PT3M23S), title "See Lord in Everyone but Treat on Merit | Rare Insights by Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing. No FAQPage block is included; add one only if the FAQ in section 6 is published on the page.
+For later use in WordPress; not added to the page. URL slugs: `/hi/what-does-seeing-god-in-everyone-mean-hi`, `/en/what-does-seeing-god-in-everyone-mean`. Dates: published 2026-10-04, modified 2026-10-08 (git history of the Hindi blog). Video: upload 2026-06-08, duration 203 s (PT3M23S), title "See Lord in Everyone but Treat on Merit | Rare Insights by Acharya Upendra Ji" from yt-dlp. The video's spoken language is assumed to be Hindi (`inLanguage` "hi"); confirm before publishing. No FAQPage block is included; add one only if the FAQ in section 6 is published on the page.
 
 **Hindi**
 
@@ -461,7 +461,7 @@ The exact values written to `output/see_lord_everyone_but_treat_merit/blog/seo.j
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "sabmein-bhagwan-vyavhar-yogyata-se",
+      "slug": "what-does-seeing-god-in-everyone-mean-hi",
       "focus_keyword": "सबमें भगवान देखने का अर्थ",
       "secondary_keywords": [
         "समदर्शन का अर्थ",

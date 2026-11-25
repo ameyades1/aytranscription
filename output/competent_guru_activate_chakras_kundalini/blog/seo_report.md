@@ -35,7 +35,7 @@ Keyword note: the original blog texts never used the focus keywords ("कुं�
 
 Meta description (151 characters, **recommended**): गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है।
 
-Slug (**recommended**): `/hi/guru-se-kundalini-jagran`
+Slug (**recommended**): `/hi/kundalini-awakening-through-a-guru-hi`
 
 **English**
 1. Kundalini Awakening Through a Guru: 7 Chakras of Life (53 characters, **recommended**)
@@ -108,7 +108,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator. The talk is Acharya Ji's own discourse, so he is the author.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-se-kundalini-jagran/`, `/en/kundalini-awakening-through-a-guru/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kundalini-awakening-through-a-guru-hi/`, `/en/kundalini-awakening-through-a-guru/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -399,7 +399,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "guru-se-kundalini-jagran",
+      "slug": "kundalini-awakening-through-a-guru-hi",
       "focus_keyword": "गुरु से कुंडलिनी जागरण",
       "secondary_keywords": [
         "सात चक्र और जीवन",

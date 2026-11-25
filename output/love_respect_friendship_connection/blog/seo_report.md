@@ -37,7 +37,7 @@ Keyword note (after the SEO fix): the English focus keyword was "love respect an
 
 Meta description: क्या प्रेम केवल शादी में होता है? आचार्य उपेंद्र जी बताते हैं प्रेम के प्रकार: छोटों से स्नेह, बराबर वालों से मित्रता, बड़ों का आदर, और गुरु से प्रेम सीखना।
 
-Slug: `/hi/prem-ke-prakar`
+Slug: `/hi/types-of-love-hi`
 
 **English**
 1. Types of Love: Affection, Friendship, Respect and the Guru (58 characters) **recommended**
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/prem-ke-prakar/`, `/en/types-of-love/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/types-of-love-hi/`, `/en/types-of-love/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -413,7 +413,7 @@ The exact values written to `output/love_respect_friendship_connection/blog/seo.
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "prem-ke-prakar",
+      "slug": "types-of-love-hi",
       "focus_keyword": "प्रेम के प्रकार",
       "secondary_keywords": [
         "स्नेह प्रेम और आदर में अंतर",

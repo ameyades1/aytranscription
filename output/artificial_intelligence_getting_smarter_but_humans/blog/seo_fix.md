@@ -33,7 +33,7 @@ No teaching, example, order of ideas, H1, verse, verse translation or reference,
 |---|---|---|
 | title.hi | कृत्रिम बुद्धि बढ़ रही है, हमारी विवेक बुद्धि कहाँ है? | क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक |
 | title.en | Artificial Intelligence Is Getting Smarter. Are We? | Is AI Making Us Dumber? Artificial Intelligence and Viveka |
-| wordpress.hi.slug | kritrim-buddhi-aur-vivek-buddhi | kya-ai-hamein-moorkh-bana-raha-hai |
+| wordpress.hi.slug | kritrim-buddhi-aur-vivek-buddhi | is-ai-making-us-dumber-hi |
 | wordpress.en.slug | artificial-intelligence-and-viveka | is-ai-making-us-dumber |
 | wordpress.hi.focus_keyword | कृत्रिम बुद्धि | क्या AI हमें मूर्ख बना रहा है |
 | wordpress.en.focus_keyword | artificial intelligence | is AI making us dumber |
@@ -48,7 +48,7 @@ The titles and meta descriptions were rewritten because they no longer contained
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kya-ai-hamein-moorkh-bana-raha-hai | is-ai-making-us-dumber |
+| slug | is-ai-making-us-dumber-hi | is-ai-making-us-dumber |
 | focus_keyword | क्या AI हमें मूर्ख बना रहा है | is AI making us dumber |
 | title | क्या AI हमें मूर्ख बना रहा है? कृत्रिम बुद्धि और विवेक | Is AI Making Us Dumber? Artificial Intelligence and Viveka |
 | meta_description | क्या AI हमें मूर्ख बना रहा है? आचार्य उपेंद्र जी बताते हैं कि कृत्रिम बुद्धि के युग में विवेक बुद्धि, अर्थात भीतर के गणपति, को जगाना क्यों ज़रूरी है। | Is AI making us dumber? Acharya Upendra Ji explains how we handed our thinking to machines, and why viveka, the inner Ganapati, must guide AI's use. |

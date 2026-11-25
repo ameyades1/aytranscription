@@ -34,7 +34,7 @@ Keyword note: the original blog texts never use the focus keywords "विज्
 
 Meta description (recommended): क्या प्रश्न पूछना अश्रद्धा है? आचार्य उपेंद्र जी गीता ३.४२ से बताते हैं कि विज्ञान और अध्यात्म को जोड़ने के लिए गुरु को बुद्धि की भाषा में उत्तर देना होगा। (155 characters)
 
-Slug (recommended): `/hi/vigyan-aur-adhyatm/`
+Slug (recommended): `/hi/guru-science-and-spirituality-hi/`
 
 **English**
 1. Science and Spirituality: The Guru Who Answers Reason (recommended, 53 characters)
@@ -107,7 +107,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/vigyan-aur-adhyatm/`, `/en/guru-science-and-spirituality/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/guru-science-and-spirituality-hi/`, `/en/guru-science-and-spirituality/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -505,7 +505,7 @@ The exact values written to `output/guru_bridging_science_spirituality/blog/seo.
   "wordpress": {
     "category": "guru",
     "hi": {
-      "slug": "vigyan-aur-adhyatm",
+      "slug": "guru-science-and-spirituality-hi",
       "focus_keyword": "विज्ञान और अध्यात्म",
       "secondary_keywords": [
         "क्या प्रश्न पूछना अश्रद्धा है",

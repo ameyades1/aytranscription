@@ -34,13 +34,13 @@ Still unmet: none.
 |---|---|---|
 | wordpress.en.slug | is-woman-equal-to-man | is-a-woman-equal-to-a-man |
 
-Nothing else changed. Both focus keywords stay, because the `_seo` texts use them, and the Hindi slug `kya-stri-purush-ke-barabar-hai` stays. The titles and meta descriptions already contain the keywords. Secondary keywords, tags, `links` and `also_read` are unchanged. In the report, I added the keyword note to section 2, put the new English slug in sections 3, 8 and 11, and added section 12.
+Nothing else changed. Both focus keywords stay, because the `_seo` texts use them, and the Hindi slug `is-a-woman-equal-to-a-man-hi` stays. The titles and meta descriptions already contain the keywords. Secondary keywords, tags, `links` and `also_read` are unchanged. In the report, I added the keyword note to section 2, put the new English slug in sections 3, 8 and 11, and added section 12.
 
 ## Final seo.json values
 
 | field | Hindi | English |
 |---|---|---|
-| slug | kya-stri-purush-ke-barabar-hai | is-a-woman-equal-to-a-man |
+| slug | is-a-woman-equal-to-a-man-hi | is-a-woman-equal-to-a-man |
 | focus keyword | क्या स्त्री पुरुष के बराबर है | is a woman equal to a man |
 | title | क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य जी | Is a Woman Equal to a Man? Acharya Ji's Answer at Mount Abu |
 | meta description | क्या स्त्री पुरुष के बराबर है? माउंट आबू में आचार्य उपेंद्र जी ने 500 महिलाओं से कहा: नारी हजार गुना शक्तिशाली है। जानें अर्धनारीश्वर और अंतर्ज्ञान का संदेश। | Is a woman equal to a man? At Mount Abu, Acharya Upendra Ji told 500 women she is a thousand times stronger, and why India needs Ardhanarishvara balance. |

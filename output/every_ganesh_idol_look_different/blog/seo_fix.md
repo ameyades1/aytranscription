@@ -32,7 +32,7 @@ The report had no section 12; one was added (from the standard checklist) with t
 | Field | Before | After |
 |---|---|---|
 | title.hi | गणपति की मूर्ति कैसी हो? हर मूर्ति अलग क्यों दिखती है | गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप (49 characters; report section 3, option 2) |
-| wordpress.hi.slug | ganpati-ki-murti-kaisi-ho | ganpati-ki-murti-kaisi-honi-chahiye |
+| wordpress.hi.slug | ganpati-ki-murti-kaisi-ho | how-to-choose-a-ganesh-idol-hi |
 | wordpress.en.slug | how-to-choose-ganesh-idol | how-to-choose-a-ganesh-idol (27 characters, contains the focus keyword) |
 
 Focus keywords, secondary keywords, `title.en`, both meta descriptions (they already contain the keywords), `links`, `also_read`, `alt`, `caption`, `related`, category and tags are unchanged. The report's section 11 holds the same JSON; sections 2, 3 and 8 were updated to match and section 12 was added.
@@ -41,7 +41,7 @@ Focus keywords, secondary keywords, `title.en`, both meta descriptions (they alr
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ganpati-ki-murti-kaisi-honi-chahiye | how-to-choose-a-ganesh-idol |
+| slug | how-to-choose-a-ganesh-idol-hi | how-to-choose-a-ganesh-idol |
 | focus_keyword | गणपति की मूर्ति कैसी होनी चाहिए | how to choose a Ganesh idol |
 | title | गणपति की मूर्ति कैसी होनी चाहिए? ऋषियों का स्वरूप | How to Choose a Ganesh Idol: Whose Form Should It Follow? |
 | meta_description | गणपति की मूर्ति कैसी होनी चाहिए? आचार्य उपेंद्र जी बताते हैं कि उसका रूप फैशन से नहीं, ऋषियों के वर्णन से आए, क्योंकि गणेशोत्सव नर से नारायण की यात्रा है। | How to choose a Ganesh idol? Acharya Upendra Ji explains why its form should follow the sages' description, not trends, and why the idol is a first step. |

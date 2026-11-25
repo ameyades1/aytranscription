@@ -41,7 +41,7 @@ Priorities are judgement only. No search volume or difficulty tools were used.
 
 Meta description (150 characters) **recommended**: क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है।
 
-Slug **recommended**: `/hi/antim-samay-om-jaap`
+Slug **recommended**: `/hi/chanting-om-at-the-time-of-death-hi`
 
 **English** (H1 in the blog: "Om with Your Last Breath: Can You Find Liberation at the Moment of Death?"; not changed)
 1. Chanting Om at the Time of Death: Is It Enough for Moksha? (58 characters) **recommended**
@@ -111,7 +111,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/antim-samay-om-jaap/`, `/en/chanting-om-at-the-time-of-death/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/chanting-om-at-the-time-of-death-hi/`, `/en/chanting-om-at-the-time-of-death/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -412,7 +412,7 @@ The exact seo.json written for the page generator and WordPress.
   "wordpress": {
     "category": "moksha",
     "hi": {
-      "slug": "antim-samay-om-jaap",
+      "slug": "chanting-om-at-the-time-of-death-hi",
       "focus_keyword": "अंतिम समय में ॐ का जाप",
       "secondary_keywords": [
         "मृत्यु के समय क्या करना चाहिए",

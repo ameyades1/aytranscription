@@ -35,7 +35,7 @@ Seasonal: gau seva searches rise around Gopashtami (Kartik Shukla Ashtami, aroun
 
 Meta description (156 characters): गाय को माता क्यों कहते हैं? आचार्य उपेंद्र जी से जानें गौ सेवा का महत्व: यांत्रिक नहीं, भाव से की गई सेवा, जो कृतज्ञता को समृद्धि और मन की शांति में बदल दे।
 
-Slug: /hi/gau-seva-ka-mahatva
+Slug: /hi/importance-of-gau-seva-hi
 
 **English**
 1. Importance of Gau Seva: From Gratitude to Prosperity (recommended, 52 characters)
@@ -234,7 +234,7 @@ For later use in WordPress; never added to the page. Dates come from git (publis
 }
 ```
 
-**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/gau-seva-ka-mahatva/`, `/en/importance-of-gau-seva/`). The video title mentions liberation, which the blog does not cover (flag 10); the VideoObject keeps the real title, but do not reuse that word in the post's title or description.
+**WordPress SEO plugin mapping.** The plugin (Yoast / Rank Math) generates BlogPosting/Article, Organization, BreadcrumbList and WebPage itself from the post's title, excerpt, featured image, category, publish/modified dates and site settings; set the Organization name and logo once in the plugin's site settings. Enter by hand per post: the SEO title (section 3), meta description, slug, focus keyword and secondary keywords, category and tags (all in seo.json `wordpress`), and the featured image's alt text. Not filled automatically: VideoObject (add via the plugin's video schema or a custom schema block, with the YouTube description), the Person link to Acharya Ji's page, `alternativeHeadline`, and the `translationOfWork`/`workTranslation` pair (the hreflang pairing itself comes from the translation plugin, e.g. WPML/Polylang). Replace every `{{PLACEHOLDER}}` once the WordPress URLs exist. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/importance-of-gau-seva-hi/`, `/en/importance-of-gau-seva/`). The video title mentions liberation, which the blog does not cover (flag 10); the VideoObject keeps the real title, but do not reuse that word in the post's title or description.
 
 ## 9. Images
 
@@ -337,7 +337,7 @@ The exact content of output/gau_seva_antar_yog_purity_prosperity/blog/seo.json:
   "wordpress": {
     "category": "success",
     "hi": {
-      "slug": "gau-seva-ka-mahatva",
+      "slug": "importance-of-gau-seva-hi",
       "focus_keyword": "गौ सेवा का महत्व",
       "secondary_keywords": ["गौ सेवा के लाभ", "गाय को माता क्यों कहते हैं", "गौशाला में सेवा", "गौ सेवा से पुण्य"],
       "meta_description": "गाय को माता क्यों कहते हैं? आचार्य उपेंद्र जी से जानें गौ सेवा का महत्व: यांत्रिक नहीं, भाव से की गई सेवा, जो कृतज्ञता को समृद्धि और मन की शांति में बदल दे।",

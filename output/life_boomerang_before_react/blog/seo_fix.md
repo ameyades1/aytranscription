@@ -45,7 +45,7 @@ No teaching, example, verse, translation, reference, H1 or order of ideas was ch
 |---|---|---|
 | wordpress.hi.meta_description | क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी 'ये यथा मां प्रपद्यन्ते' का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है। | क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है। (152) |
 | wordpress.hi.focus_keyword | ये यथा मां प्रपद्यन्ते का अर्थ | ये यथा मां प्रपद्यन्ते का अर्थ (unchanged; now in the body) |
-| wordpress.hi.slug | ye-yatha-mam-prapadyante-arth | ye-yatha-mam-prapadyante-arth (unchanged) |
+| wordpress.hi.slug | does-god-take-revenge-gita-4-11-hi | does-god-take-revenge-gita-4-11-hi (unchanged) |
 | wordpress.en.focus_keyword | Bhagavad Gita 4.11 meaning | does God take revenge |
 | wordpress.en.secondary_keywords | does God take revenge, life is a boomerang, pause before you react, ye yatha mam prapadyante meaning | Bhagavad Gita 4.11 meaning, life is a boomerang, pause before you react, ye yatha mam prapadyante meaning |
 | wordpress.en.slug | bhagavad-gita-4-11-meaning | does-god-take-revenge-gita-4-11 (31 characters, unique) |
@@ -57,7 +57,7 @@ No teaching, example, verse, translation, reference, H1 or order of ideas was ch
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | ye-yatha-mam-prapadyante-arth | does-god-take-revenge-gita-4-11 |
+| slug | does-god-take-revenge-gita-4-11-hi | does-god-take-revenge-gita-4-11 |
 | focus_keyword | ये यथा मां प्रपद्यन्ते का अर्थ | does God take revenge |
 | title | ये यथा मां प्रपद्यन्ते का अर्थ: क्या भगवान बदला लेते हैं? | Bhagavad Gita 4.11 Meaning: Does God Take Revenge? |
 | meta_description | क्या भगवान बदला लेते हैं? आचार्य उपेंद्र जी ये यथा मां प्रपद्यन्ते का अर्थ बताते हैं: भगवान हमारी भाषा में उत्तर देते हैं, पर भाव सदा उद्धार का होता है। | Does God take revenge? Acharya Upendra Ji explains Bhagavad Gita 4.11: God answers us in the language we understand, yet always for our uplift. |

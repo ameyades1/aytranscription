@@ -34,7 +34,7 @@ No teaching, example, verse, translation, reference or H1 was changed, and the n
 | wordpress.hi.focus_keyword | श्री विद्या | श्री विद्या और धन |
 | wordpress.hi.secondary_keywords | श्री विद्या और धन, श्री विद्या भोग और मोक्ष, क्या धन कमाना पाप है, धर्म का मूल अर्थ है | श्री विद्या, श्री विद्या भोग और मोक्ष, क्या धन कमाना पाप है, धर्म का मूल अर्थ है |
 | wordpress.hi.meta_description | क्या धन की इच्छा पाप है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है। | श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है। (150) |
-| wordpress.hi.slug | shri-vidya-aur-dhan | shri-vidya-aur-dhan (unchanged) |
+| wordpress.hi.slug | shri-vidya-and-wealth-hi | shri-vidya-and-wealth-hi (unchanged) |
 | wordpress.en.focus_keyword | Shri Vidya | Shri Vidya and wealth |
 | wordpress.en.secondary_keywords | Shree Vidya, Shri Vidya and wealth, Shri Vidya bhoga and moksha, dharmasya mulam arthah meaning | Shri Vidya, Shree Vidya, Shri Vidya bhoga and moksha, dharmasya mulam arthah meaning |
 | wordpress.en.meta_description | Is wanting wealth unspiritual? Acharya Upendra Ji explains how Shri Vidya teaches earning, planning and giving wealth, granting both bhoga and moksha. | What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha. (154) |
@@ -46,7 +46,7 @@ The old focus keywords "श्री विद्या" / "Shri Vidya" are stil
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shri-vidya-aur-dhan | shri-vidya-and-wealth |
+| slug | shri-vidya-and-wealth-hi | shri-vidya-and-wealth |
 | focus_keyword | श्री विद्या और धन | Shri Vidya and wealth |
 | title | श्री विद्या और धन: भोग से मोक्ष तक का रहस्य | Shri Vidya and Wealth: From Bhoga to Moksha |
 | meta_description | श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है। | What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha. |

@@ -33,7 +33,7 @@ Keyword note (after the SEO fix): the original bodies never used the searched wo
 
 Meta description **(recommended)**: उपादान और निमित्त कारण क्या हैं? कुम्हार और घड़े के उदाहरण से आचार्य उपेंद्र जी समझाते हैं कि "मैंने बनाया" कहने वाला अहंकार असली कर्ता क्यों नहीं है।
 
-Slug **(recommended)**: `/hi/upadan-aur-nimitt-karan`
+Slug **(recommended)**: `/hi/material-and-efficient-cause-vedanta-hi`
 
 **English**
 1. Material and Efficient Cause: Who Really Makes the Pot? (55 characters) **(recommended)**
@@ -231,7 +231,7 @@ For later use in WordPress; not added to the page. Dates: published 2026-10-04, 
 }
 ```
 
-**Mapping to the WordPress SEO plugin (Yoast / Rank Math):** the plugin generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and the WebPage entity itself, filling headline, datePublished, dateModified, image, mainEntityOfPage and inLanguage automatically. Enter by hand: the SEO title (alternativeHeadline), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`), and the hreflang pair (via WPML/Polylang). The plugin does not add `translationOfWork`/`workTranslation`, `about`, the custom `keywords` list or the VideoObject (unless a video add-on is used); add these as a custom schema block. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/upadan-aur-nimitt-karan/`, `/en/material-and-efficient-cause-vedanta/`). Replace every `{{PLACEHOLDER}}` (WordPress URLs, media URL, Acharya Ji's profile URL, the video description) before publishing.
+**Mapping to the WordPress SEO plugin (Yoast / Rank Math):** the plugin generates BlogPosting/Article, Organization, Person (from the post author), BreadcrumbList and the WebPage entity itself, filling headline, datePublished, dateModified, image, mainEntityOfPage and inLanguage automatically. Enter by hand: the SEO title (alternativeHeadline), meta description, focus keyword, slug, category and tags (from seo.json `wordpress`), and the hreflang pair (via WPML/Polylang). The plugin does not add `translationOfWork`/`workTranslation`, `about`, the custom `keywords` list or the VideoObject (unless a video add-on is used); add these as a custom schema block. `{{WP_URL_HI}}` and `{{WP_URL_EN}}` are the two post addresses (slugs: `/hi/material-and-efficient-cause-vedanta-hi/`, `/en/material-and-efficient-cause-vedanta/`). Replace every `{{PLACEHOLDER}}` (WordPress URLs, media URL, Acharya Ji's profile URL, the video description) before publishing.
 
 ## 9. Images
 
@@ -322,7 +322,7 @@ The values written to `output/two_causes_create_your_life/blog/seo.json`, exactl
   "wordpress": {
     "category": "karma",
     "hi": {
-      "slug": "upadan-aur-nimitt-karan",
+      "slug": "material-and-efficient-cause-vedanta-hi",
       "focus_keyword": "उपादान और निमित्त कारण",
       "secondary_keywords": [
         "उपादान कारण क्या है",

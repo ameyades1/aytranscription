@@ -32,7 +32,7 @@ No teaching, example or order of ideas changed. The H1, verses, their translatio
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | What does rudraksha really mean? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru. | What is the true rudraksha meaning? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru. |
-| wordpress.hi.slug | rudraksha-ka-arth | rudraksha-ka-arth (unchanged) |
+| wordpress.hi.slug | rudraksha-meaning-hi | rudraksha-meaning-hi (unchanged) |
 | wordpress.en.slug | rudraksha-meaning | rudraksha-meaning (unchanged) |
 
 The English meta description changed because "rudraksha really mean" did not match the focus keyword "rudraksha meaning" (153 characters now). The focus keywords already were the searched wording and are now in the body, so the focus keywords, secondary keywords, slugs, titles, the Hindi meta description, `links` and `also_read` stay as they were. The report's section 11 and section 8 (the English schema description) carry the new meta description. Section 3 marks the meta descriptions and slugs in seo.json as recommended (the titles were already marked), section 2 has a keyword note, and section 12 is the new checklist.
@@ -41,7 +41,7 @@ The English meta description changed because "rudraksha really mean" did not mat
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | rudraksha-ka-arth | rudraksha-meaning |
+| slug | rudraksha-meaning-hi | rudraksha-meaning |
 | focus_keyword | रुद्राक्ष का अर्थ | rudraksha meaning |
 | title | रुद्राक्ष का अर्थ: रुद्र कौन है और गुरु क्यों रोते हैं | Rudraksha Meaning: Who Is Rudra and Why the Guru Weeps |
 | meta_description | रुद्राक्ष का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि रुद्र क्रोध नहीं, वह है जिसकी कमी रुलाती है, और रुद्राक्ष धारण करना गुरु का निरंतर स्मरण क्यों है। | What is the true rudraksha meaning? Acharya Upendra Ji explains Rudra as what we weep for when it is gone, and wearing rudraksha as remembering the Guru. |

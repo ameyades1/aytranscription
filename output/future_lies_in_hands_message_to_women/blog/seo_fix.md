@@ -34,7 +34,7 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 | wordpress.hi.meta_description | गीता १०.३४ में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र। | गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र। |
 | wordpress.en.meta_description | Bhagavad Gita 10.34 names seven divine qualities in women. Acharya Upendra Ji explains them: be supremely gentle at home and supremely fierce to injustice. | What are the seven qualities of women in the Bhagavad Gita? Acharya Upendra Ji explains them: be supremely gentle at home, supremely fierce to injustice. |
 | wordpress.en.slug | seven-qualities-of-women-bhagavad-gita | seven-qualities-of-women-in-bhagavad-gita |
-| wordpress.hi.slug | gita-mein-nari-ke-saat-gun | gita-mein-nari-ke-saat-gun (unchanged) |
+| wordpress.hi.slug | seven-qualities-of-women-in-bhagavad-gita-hi | seven-qualities-of-women-in-bhagavad-gita-hi (unchanged) |
 | wordpress.hi.focus_keyword | गीता में नारी के सात गुण | गीता में नारी के सात गुण (unchanged) |
 | wordpress.en.focus_keyword | seven qualities of women in Bhagavad Gita | seven qualities of women in Bhagavad Gita (unchanged) |
 
@@ -44,7 +44,7 @@ Titles, secondary keywords, tags, `links` and `also_read` are unchanged. The old
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | gita-mein-nari-ke-saat-gun | seven-qualities-of-women-in-bhagavad-gita |
+| slug | seven-qualities-of-women-in-bhagavad-gita-hi | seven-qualities-of-women-in-bhagavad-gita |
 | focus_keyword | गीता में नारी के सात गुण | seven qualities of women in Bhagavad Gita |
 | title | गीता में नारी के सात गुण: महिलाओं के लिए आचार्य जी का संदेश | Seven Qualities of Women in Bhagavad Gita: Message to Women |
 | meta_description | गीता में नारी के सात गुण कौन से हैं? आचार्य उपेंद्र जी श्री, वाक्, स्मृति, मेधा, धृति, क्षमा समझाते हैं: घर में अति सौम्य, अन्याय के आगे अति रौद्र। | What are the seven qualities of women in the Bhagavad Gita? Acharya Upendra Ji explains them: be supremely gentle at home, supremely fierce to injustice. |

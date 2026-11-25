@@ -40,7 +40,7 @@ Notes:
 
 Meta description (140 characters, recommended, in seo.json): कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।
 
-Slug (recommended, in seo.json): `/hi/kalki-avatar-kab-aayega`
+Slug (recommended, in seo.json): `/hi/when-will-kalki-avatar-come-hi`
 
 **English**
 1. When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says (54 characters, recommended, in seo.json)
@@ -120,7 +120,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
   "@graph": [
     {
       "@type": "BlogPosting",
-      "@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/#article",
+      "@id": "{{SITE_URL}}/hi/when-will-kalki-avatar-come-hi/#article",
       "headline": "कल्कि अवतार कब आएगा",
       "alternativeHeadline": "कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर",
       "description": "कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है।",
@@ -136,7 +136,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "dateModified": "2026-10-08",
       "author": {"@id": "{{SITE_URL}}#acharya-ji"},
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
-      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/hi/when-will-kalki-avatar-come-hi/"},
       "video": {"@id": "https://www.youtube.com/watch?v=v7qix63fi6o#video"},
       "workTranslation": {"@id": "{{SITE_URL}}/en/when-will-kalki-avatar-come/#article"}
     },
@@ -173,7 +173,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
         {"@type": "ListItem", "position": 1, "name": "होम", "item": "https://antaryogfoundation.in/"},
         {"@type": "ListItem", "position": 2, "name": "ब्लॉग", "item": "{{HI_BLOG_URL}}"},
         {"@type": "ListItem", "position": 3, "name": "धर्म और शास्त्र", "item": "{{HI_CATEGORY_DHARMA_URL}}"},
-        {"@type": "ListItem", "position": 4, "name": "कल्कि अवतार कब आएगा", "item": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/"}
+        {"@type": "ListItem", "position": 4, "name": "कल्कि अवतार कब आएगा", "item": "{{SITE_URL}}/hi/when-will-kalki-avatar-come-hi/"}
       ]
     }
   ]
@@ -205,7 +205,7 @@ For later use in WordPress. Not added to the page. Facts come from git (publishe
       "publisher": {"@id": "https://antaryogfoundation.in/#organization"},
       "mainEntityOfPage": {"@type": "WebPage", "@id": "{{SITE_URL}}/en/when-will-kalki-avatar-come/"},
       "video": {"@id": "https://www.youtube.com/watch?v=v7qix63fi6o#video"},
-      "translationOfWork": {"@id": "{{SITE_URL}}/hi/kalki-avatar-kab-aayega/#article"}
+      "translationOfWork": {"@id": "{{SITE_URL}}/hi/when-will-kalki-avatar-come-hi/#article"}
     },
     {
       "@type": "Person",
@@ -353,7 +353,7 @@ The exact values written to `output/when_kalki_avatar_come/blog/seo.json` for th
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "kalki-avatar-kab-aayega",
+      "slug": "when-will-kalki-avatar-come-hi",
       "focus_keyword": "कल्कि अवतार कब आएगा",
       "secondary_keywords": [
         "कल्कि अवतार",

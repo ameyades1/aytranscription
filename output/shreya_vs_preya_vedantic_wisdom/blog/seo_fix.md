@@ -30,7 +30,7 @@ Not changed (outside this fix, from the Sanskrit review): the cut-off Katha Upan
 |---|---|---|
 | wordpress.hi.meta_description | जो प्रिय लगे वह करें या जो सही है? आचार्य उपेंद्र जी कठोपनिषद् के श्रेय-प्रेय से बताते हैं कि श्रेष्ठ कर्म की इच्छा कब जागती है और कर्मयोग तक कैसे ले जाती है। | जो प्रिय लगे वह करें या जो सही है? आचार्य उपेंद्र जी कठोपनिषद् के श्रेय और प्रेय से बताते हैं कि श्रेष्ठ कर्म की इच्छा कब जागती है और कर्मयोग तक ले जाती है। |
 | wordpress.en.meta_description | Do what you like or what is right? Acharya Upendra Ji explains shreya and preya from the Katha Upanishad, and how noble action leads to Karma Yoga. | Shreya vs preya: do what you like or what is right? Acharya Upendra Ji explains this Katha Upanishad teaching, and how noble action leads to Karma Yoga. |
-| wordpress.hi.slug | shreya-aur-preya-kya-hai | unchanged |
+| wordpress.hi.slug | shreya-vs-preya-hi | unchanged |
 | wordpress.en.slug | shreya-vs-preya | unchanged |
 | focus_keyword (hi / en) | श्रेय और प्रेय / shreya vs preya | unchanged |
 | title, links, also_read, secondary_keywords | | unchanged |
@@ -41,7 +41,7 @@ Report updated: section 2 (keyword wording note), section 3 (recommended meta an
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | shreya-aur-preya-kya-hai | shreya-vs-preya |
+| slug | shreya-vs-preya-hi | shreya-vs-preya |
 | focus keyword | श्रेय और प्रेय | shreya vs preya |
 | title | श्रेय और प्रेय क्या है? कठोपनिषद् का सही चुनाव | Shreya vs Preya: The Katha Upanishad on Right Choices |
 | meta description | जो प्रिय लगे वह करें या जो सही है? आचार्य उपेंद्र जी कठोपनिषद् के श्रेय और प्रेय से बताते हैं कि श्रेष्ठ कर्म की इच्छा कब जागती है और कर्मयोग तक ले जाती है। | Shreya vs preya: do what you like or what is right? Acharya Upendra Ji explains this Katha Upanishad teaching, and how noble action leads to Karma Yoga. |

@@ -35,7 +35,7 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 | Field | Before | After |
 |---|---|---|
 | wordpress.en.meta_description | How do you truly know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way. | How to know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way. (142 chars) |
-| wordpress.hi.slug | bhagwan-ko-kaise-jane | unchanged |
+| wordpress.hi.slug | how-to-know-god-murti-map-guru-hi | unchanged |
 | wordpress.en.slug | how-to-know-god-murti-map-guru | unchanged (already contains the focus keyword) |
 | focus keywords, titles, Hindi meta, links, also_read | | unchanged |
 
@@ -43,7 +43,7 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | bhagwan-ko-kaise-jane | how-to-know-god-murti-map-guru |
+| slug | how-to-know-god-murti-map-guru-hi | how-to-know-god-murti-map-guru |
 | focus_keyword | भगवान को कैसे जानें | how to know God |
 | title | भगवान को कैसे जानें? मूर्ति मानचित्र है, गुरु चालक | How to Know God: The Murti Is the Map, the Guru the Driver |
 | meta_description | भगवान को कैसे जानें? आचार्य जी समझाते हैं कि केवल रूप से प्रेम आकर्षण है, मूर्ति एक मानचित्र है, और मूल तक पहुंचने के लिए जीवित गुरु रूपी चालक क्यों चाहिए। | How to know God? Acharya Ji explains why loving only the form is infatuation, why the murti is a map and why a living Guru must drive the way. |

@@ -39,7 +39,7 @@ Still unmet (1): no unsupported scriptural claims — the Durga dialogue reads a
 | title.en | See God in Everyone, Treat on Merit: Gita 5.18 Explained | What Does Seeing God in Everyone Mean? Equal Vision vs Merit |
 | wordpress.en.meta_description | Does seeing God in everyone mean treating all alike? Acharya Upendra Ji explains Gita 5.18, why we must treat each on merit, and why Durga fought so long. | What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long. |
 | wordpress.en.slug | see-god-in-everyone-treat-on-merit | what-does-seeing-god-in-everyone-mean |
-| wordpress.hi.slug | sabmein-bhagwan-vyavhar-yogyata-se | sabmein-bhagwan-vyavhar-yogyata-se (unchanged) |
+| wordpress.hi.slug | what-does-seeing-god-in-everyone-mean-hi | what-does-seeing-god-in-everyone-mean-hi (unchanged) |
 | focus_keyword, secondary_keywords (both); title.hi, wordpress.hi.meta_description | unchanged | unchanged |
 | links, also_read | unchanged | unchanged |
 
@@ -47,7 +47,7 @@ Still unmet (1): no unsupported scriptural claims — the Durga dialogue reads a
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | sabmein-bhagwan-vyavhar-yogyata-se | what-does-seeing-god-in-everyone-mean |
+| slug | what-does-seeing-god-in-everyone-mean-hi | what-does-seeing-god-in-everyone-mean |
 | focus_keyword | सबमें भगवान देखने का अर्थ | what does seeing God in everyone mean |
 | title | सबमें भगवान देखने का अर्थ: व्यवहार योग्यता से (गीता 5.18) | What Does Seeing God in Everyone Mean? Equal Vision vs Merit |
 | meta_description | क्या सबमें भगवान देखने का अर्थ सबसे एक जैसा व्यवहार है? आचार्य उपेंद्र जी समझाते हैं गीता ५.१८ का समदर्शन, योग्यता से व्यवहार और दुर्गा देवी का लंबा युद्ध। | What does seeing God in everyone mean? Acharya Upendra Ji explains Gita 5.18, why we must still treat each person on merit, and why Durga fought so long. |

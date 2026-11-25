@@ -38,7 +38,7 @@ Seasonal: refresh the post 4 to 6 weeks before 15 August (early July) and before
 
 Meta description: लोकतंत्र का असली अर्थ क्या है? आचार्य उपेंद्र जी: भारत ने स्वयं को संप्रभु क्यों कहा, by the people कैसे buy the people बना, और नागरिक की असली ताकत।
 
-Slug: `/hi/loktantra-ka-asli-arth`
+Slug: `/hi/true-meaning-of-democracy-hi`
 
 **English**
 1. True Meaning of Democracy: Are We Really Free? (recommended, 46 characters)
@@ -113,7 +113,7 @@ For later use in WordPress; this is not added to the generated page. There is on
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/loktantra-ka-asli-arth/`, `/en/true-meaning-of-democracy/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/true-meaning-of-democracy-hi/`, `/en/true-meaning-of-democracy/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -527,7 +527,7 @@ The exact values written to `output/truly_independent/blog/seo.json` for the pag
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "loktantra-ka-asli-arth",
+      "slug": "true-meaning-of-democracy-hi",
       "focus_keyword": "लोकतंत्र का असली अर्थ",
       "secondary_keywords": ["क्या हम सच में आज़ाद हैं", "संप्रभु का अर्थ", "by the people buy the people", "संविधान क्यों पढ़ें"],
       "meta_description": "लोकतंत्र का असली अर्थ क्या है? आचार्य उपेंद्र जी: भारत ने स्वयं को संप्रभु क्यों कहा, by the people कैसे buy the people बना, और नागरिक की असली ताकत।",

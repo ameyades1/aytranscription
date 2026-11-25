@@ -35,7 +35,7 @@ No teaching, example, H1, heading or order of ideas changed. The blog quotes no 
 |---|---|---|
 | title.hi | ॐ ही क्यों? अ, उ, म में छिपा पूरा ब्रह्मांड | ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया (40) |
 | title.en | Why Om? What the Three Sounds A, U and M Mean | Meaning of AUM: Why Om, and What A, U and M Stand For (53) |
-| wordpress.hi.slug | om-hi-kyon-a-u-m | om-mein-a-u-m-ka-arth |
+| wordpress.hi.slug | om-hi-kyon-a-u-m | meaning-of-aum-why-om-hi |
 | wordpress.hi.focus_keyword | ॐ ही क्यों | ॐ में अ उ म का अर्थ |
 | wordpress.hi.secondary_keywords | ॐ में अ उ म का अर्थ, ॐ का अर्थ क्या है, ओंकार का रहस्य, ॐ और ब्रह्म | ॐ ही क्यों, ॐ का अर्थ क्या है, ओंकार का रहस्य, ॐ और ब्रह्म |
 | wordpress.hi.meta_description | ॐ ही क्यों, कोई और ध्वनि क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और क्यों संसार का हर शब्द ॐ में समाया है। | ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है। (149) |
@@ -52,7 +52,7 @@ The report's section 3 now marks these titles, meta descriptions and slugs as th
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | om-mein-a-u-m-ka-arth | meaning-of-aum-why-om |
+| slug | meaning-of-aum-why-om-hi | meaning-of-aum-why-om |
 | focus keyword | ॐ में अ उ म का अर्थ | meaning of AUM |
 | title | ॐ में अ उ म का अर्थ: ॐ ही क्यों चुना गया | Meaning of AUM: Why Om, and What A, U and M Stand For |
 | meta description | ॐ में अ उ म का अर्थ क्या है, और ॐ ही क्यों? आचार्य उपेंद्र जी समझाते हैं कि मुख की तीन अवस्थाएँ अ, उ, म देती हैं, और संसार का हर शब्द ॐ में समाया है। | What is the meaning of AUM, and why Om and not another sound? Acharya Upendra Ji shows how the open, half-open and closed mouth give A, U and M. |

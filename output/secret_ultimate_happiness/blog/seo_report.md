@@ -39,7 +39,7 @@ Keyword note: the Hindi focus keyword "कौन सा ज्ञान मु�
 
 Meta description (recommended, 150 characters): ज्ञान पाप से नहीं रोकता, फिर भी ज्ञानी को मोक्ष क्यों? आचार्य उपेंद्र जी समझाते हैं वासना, अहंकार और सद्गुरु का रहस्य, और कौन सा ज्ञान मुक्ति देता है।
 
-Slug: `/hi/kaun-sa-gyan-mukti-deta-hai`
+Slug: `/hi/which-knowledge-leads-to-liberation-hi`
 
 **English**
 1. Which Knowledge Leads to Liberation? The Secret of Bliss (recommended, 56 characters)
@@ -117,7 +117,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/kaun-sa-gyan-mukti-deta-hai/`, `/en/which-knowledge-leads-to-liberation/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/which-knowledge-leads-to-liberation-hi/`, `/en/which-knowledge-leads-to-liberation/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -419,7 +419,7 @@ The exact values written to `seo.json` for the page generator and WordPress.
   "wordpress": {
     "category": "mind",
     "hi": {
-      "slug": "kaun-sa-gyan-mukti-deta-hai",
+      "slug": "which-knowledge-leads-to-liberation-hi",
       "focus_keyword": "कौन सा ज्ञान मुक्ति देता है",
       "secondary_keywords": [
         "वासना क्या है",

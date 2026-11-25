@@ -32,7 +32,7 @@ Keyword note: the searched wordings "प्रेम कैसे जताए�
 
 Meta description (141 chars) — **recommended** (in seo.json, updated by the SEO fix so it contains the focus keyword): प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि "मैं तुमसे प्रेम करता हूँ" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी।
 
-Slug: `/hi/prem-kaise-jatayen/` — **recommended**
+Slug: `/hi/show-love-through-actions-hi/` — **recommended**
 
 **English**
 1. Show Love Through Actions, Not Just Words | Acharya Ji (54 chars) — **recommended**
@@ -97,7 +97,7 @@ For later use in WordPress; this is not added to the generated page. One block p
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/prem-kaise-jatayen/`, `/en/show-love-through-actions/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/show-love-through-actions-hi/`, `/en/show-love-through-actions/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -396,7 +396,7 @@ The exact values written to `output/loving_in_the_right_way_valentines/blog/seo.
   "wordpress": {
     "category": "love",
     "hi": {
-      "slug": "prem-kaise-jatayen",
+      "slug": "show-love-through-actions-hi",
       "focus_keyword": "प्रेम कैसे जताएं",
       "secondary_keywords": ["सच्चा प्रेम क्या है", "प्रेम कर्म में दिखता है", "पत्नी से प्रेम कैसे जताएं", "pyar kaise jataye"],
       "meta_description": "प्रेम कैसे जताएं? आचार्य उपेंद्र जी बताते हैं कि \"मैं तुमसे प्रेम करता हूँ\" कहना काफ़ी नहीं; प्रेम कृति से जताया जाता है, जीवनसाथी के साथ भी।",

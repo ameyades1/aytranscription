@@ -35,7 +35,7 @@ Not changed:
 
 - Section 2: the keyword table and note now give "कल्कि अवतार कब आएगा" / "when will Kalki avatar come" as the focus keywords, with the earlier focus keywords as secondary.
 - Section 3: the titles, meta descriptions and slugs in seo.json (unchanged) are marked as the recommended ones.
-- Section 8: keywords reordered (focus keyword first); the post URL placeholders now use the slugs (`{{SITE_URL}}/hi/kalki-avatar-kab-aayega/`, `{{SITE_URL}}/en/when-will-kalki-avatar-come/`). Headline, alternativeHeadline and description already matched.
+- Section 8: keywords reordered (focus keyword first); the post URL placeholders now use the slugs (`{{SITE_URL}}/hi/when-will-kalki-avatar-come-hi/`, `{{SITE_URL}}/en/when-will-kalki-avatar-come/`). Headline, alternativeHeadline and description already matched.
 - Section 11: same JSON as seo.json.
 - Section 12: the first-100-words mark notes that the `_seo` texts meet it through the direct-answer paragraph.
 
@@ -47,7 +47,7 @@ Not changed:
 | wordpress.hi.secondary_keywords | कल्कि अवतार कब आएगा, अवतार की परिभाषा, चार प्रकार की मुक्ति, kalki avatar kab aayega | कल्कि अवतार, अवतार की परिभाषा, चार प्रकार की मुक्ति, kalki avatar kab aayega |
 | wordpress.en.focus_keyword | Kalki avatar | when will Kalki avatar come |
 | wordpress.en.secondary_keywords | when will Kalki avatar come, what is an avatar in the Bhagavad Gita, four types of mukti, yada yada hi dharmasya meaning | Kalki avatar, what is an avatar in the Bhagavad Gita, four types of mukti, yada yada hi dharmasya meaning |
-| wordpress.hi.slug | kalki-avatar-kab-aayega | unchanged (already built from the new focus keyword) |
+| wordpress.hi.slug | when-will-kalki-avatar-come-hi | unchanged (already built from the new focus keyword) |
 | wordpress.en.slug | when-will-kalki-avatar-come | unchanged (already built from the new focus keyword) |
 | title, meta_description | (both languages) | unchanged (they already contain the new focus keyword) |
 | links, also_read | (unchanged) | unchanged (no edit touched a phrase or heading) |
@@ -56,7 +56,7 @@ Not changed:
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | kalki-avatar-kab-aayega | when-will-kalki-avatar-come |
+| slug | when-will-kalki-avatar-come-hi | when-will-kalki-avatar-come |
 | focus_keyword | कल्कि अवतार कब आएगा | when will Kalki avatar come |
 | title | कल्कि अवतार कब आएगा? गीता ४.७ से ४.९ का उत्तर | When Will Kalki Avatar Come? What Gita 4.7 to 4.9 Says |
 | meta_description | कल्कि अवतार कब आएगा? ब्रह्मर्षि आचार्य उपेंद्र जी गीता ४.७ से ४.९ से समझाते हैं कि प्रतीक्षा क्यों व्यर्थ है और भीतर का कल्कि कैसे जागता है। | When will the Kalki avatar come? Acharya Upendra Ji explains Gita 4.7 to 4.9: why waiting is not the answer, and how the Kalki within you awakens. |

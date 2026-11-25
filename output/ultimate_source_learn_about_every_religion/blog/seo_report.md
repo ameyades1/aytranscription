@@ -42,7 +42,7 @@ This is a seeker's testimony, not a discourse by Acharya Ji. Geeta Dangi describ
 
 Meta description (recommended, set by the SEO fix, 155 characters): सभी धर्मों का मूल स्रोत क्या है? साधिका गीता डांगी बताती हैं कि गीता और बाइबल का तत्त्व-साम्य समझकर उनके मन का छिपा भेदभाव सब धर्मों के सम्मान में बदल गया।
 
-Slug (recommended, set by the SEO fix): /hi/sabhi-dharmon-ka-mool-srot
+Slug (recommended, set by the SEO fix): /hi/unity-of-all-religions-hi
 
 **English**
 1. Unity of All Religions: A Seeker's Story of One Source (recommended, set by the SEO fix, 54 characters)
@@ -117,7 +117,7 @@ The speaker in the video is the seeker Geeta Dangi; the blog is published by the
 - Author, organization and links: the site details already used by the page generator.
 
 **Placeholders to fill once the WordPress posts exist**
-- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/sabhi-dharmon-ka-mool-srot/`, `/en/unity-of-all-religions/`).
+- `{{HI_URL}}`, `{{EN_URL}}`: the two post addresses (suggested slugs: `/hi/unity-of-all-religions-hi/`, `/en/unity-of-all-religions/`).
 - `{{HERO_IMAGE_URL}}`: the featured image's address in the WordPress media library.
 - `{{LOGO_URL}}`: the Foundation logo's address in the media library.
 - `{{BLOG_URL}}`: the WordPress blog index address.
@@ -532,7 +532,7 @@ The values written to `output/ultimate_source_learn_about_every_religion/blog/se
   "wordpress": {
     "category": "dharma",
     "hi": {
-      "slug": "sabhi-dharmon-ka-mool-srot",
+      "slug": "unity-of-all-religions-hi",
       "focus_keyword": "सभी धर्मों का मूल स्रोत",
       "secondary_keywords": [
         "सब धर्मों का मूल स्रोत",

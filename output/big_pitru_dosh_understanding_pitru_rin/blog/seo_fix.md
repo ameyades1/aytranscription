@@ -30,7 +30,7 @@ No teaching, example, H1 or order of ideas was changed (the blog quotes no verse
 |---|---|---|
 | title.hi | पितृ दोष कितना गहरा है? सात पीढ़ी, सात जन्म और पितृ ऋण | पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण (48) |
 | title.en | Pitru Dosh: Ancestral Karma Across Seven Lifetimes | What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes (58) |
-| wordpress.hi.slug | pitru-dosh-saat-peedhi-saat-janm | pitru-dosh-kya-hai |
+| wordpress.hi.slug | pitru-dosh-saat-peedhi-saat-janm | what-is-pitru-dosh-hi |
 | wordpress.hi.focus_keyword | पितृ दोष | पितृ दोष क्या है |
 | wordpress.hi.secondary_keywords | पितृ दोष क्या है, पितृ दोष और पितृ ऋण में अंतर, हर साल श्राद्ध क्यों करें, सात पीढ़ी के पितर | पितृ दोष, पितृ दोष और पितृ ऋण में अंतर, हर साल श्राद्ध क्यों करें, सात पीढ़ी के पितर |
 | wordpress.hi.meta_description | (unchanged; already contains "पितृ दोष क्या है") | (unchanged) |
@@ -45,7 +45,7 @@ The old focus keywords "पितृ दोष" / "pitru dosh" are broad, high-p
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | pitru-dosh-kya-hai | what-is-pitru-dosh |
+| slug | what-is-pitru-dosh-hi | what-is-pitru-dosh |
 | focus_keyword | पितृ दोष क्या है | what is pitru dosh |
 | title | पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण | What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes |
 | meta_description | पितृ दोष क्या है और एक बार का श्राद्ध काफ़ी क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं पितृ ऋण, पितृ लाभ और सात पीढ़ियों व सात जन्मों के पितरों का कर्म। | What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes. |

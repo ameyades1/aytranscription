@@ -32,7 +32,7 @@ No teaching, example, order of ideas or H1 was changed (the blog quotes no verse
 |---|---|---|
 | wordpress.hi.meta_description | गुरु पूर्णिमा पूर्णिमा को ही क्यों होती है? आचार्य उपेंद्र जी बताते हैं सूर्य-चंद्र का प्रतीक, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है। | गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी। (156) |
 | wordpress.en.meta_description | Why does Guru Purnima fall on the full moon? Acharya Upendra Ji explains the sun-moon symbolism, why Vyasa is a title, and why knowledge needs devotion. | Spiritual meaning of Guru Purnima: why it falls on the full moon, why Vyasa is a title, and why knowledge needs devotion, as Acharya Upendra Ji explains. (153) |
-| wordpress.hi.slug | guru-purnima-ka-adhyatmik-arth | guru-purnima-ka-adhyatmik-arth (unchanged) |
+| wordpress.hi.slug | spiritual-meaning-of-guru-purnima-hi | spiritual-meaning-of-guru-purnima-hi (unchanged) |
 | wordpress.en.slug | spiritual-meaning-of-guru-purnima | spiritual-meaning-of-guru-purnima (unchanged) |
 | wordpress.hi.focus_keyword | गुरु पूर्णिमा का आध्यात्मिक अर्थ | unchanged |
 | wordpress.en.focus_keyword | spiritual meaning of Guru Purnima | unchanged |
@@ -43,7 +43,7 @@ The focus keywords were already the searched wording (section 2 had no mismatch)
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | guru-purnima-ka-adhyatmik-arth | spiritual-meaning-of-guru-purnima |
+| slug | spiritual-meaning-of-guru-purnima-hi | spiritual-meaning-of-guru-purnima |
 | focus_keyword | गुरु पूर्णिमा का आध्यात्मिक अर्थ | spiritual meaning of Guru Purnima |
 | title | गुरु पूर्णिमा का आध्यात्मिक अर्थ और व्यास का असली अर्थ | Spiritual Meaning of Guru Purnima and Who Vyasa Really Was |
 | meta_description | गुरु पूर्णिमा का आध्यात्मिक अर्थ: यह पूर्णिमा को ही क्यों होती है, व्यास एक पद क्यों है, और ज्ञान के साथ भक्ति क्यों आवश्यक है, बताते हैं आचार्य उपेंद्र जी। | Spiritual meaning of Guru Purnima: why it falls on the full moon, why Vyasa is a title, and why knowledge needs devotion, as Acharya Upendra Ji explains. |

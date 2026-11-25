@@ -37,7 +37,7 @@ No teaching, example, H1 or order of ideas changed, and the Markdown is kept. Th
 |---|---|---|
 | wordpress.hi.meta_description | जीवन की सब संपदाओं में समाज पहले क्यों आता है? आचार्य उपेंद्र जी बताते हैं कि वाणी समाज को जोड़ती है और दैवी संपत्ति विवादों को बातचीत में सुलझाकर समय बचाती है। | समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है। (156) |
 | wordpress.en.meta_description | Why does community come before money? Acharya Upendra Ji explains how speech connects people and how divine wealth settles disputes and saves your time. | What is the power of community? Acharya Upendra Ji explains why community comes before money, how speech connects people and how divine wealth saves time. (154) |
-| wordpress.hi.slug | samaj-ki-shakti-daivi-sampatti | samaj-ki-shakti-daivi-sampatti (unchanged; already fits the keyword) |
+| wordpress.hi.slug | power-of-community-divine-wealth-hi | power-of-community-divine-wealth-hi (unchanged; already fits the keyword) |
 | wordpress.en.slug | power-of-community-divine-wealth | power-of-community-divine-wealth (unchanged; 32 characters, contains the keyword) |
 
 These fields are unchanged: `focus_keyword` and `secondary_keywords` (the focus keywords were already the searched wording), `title` (both already contain the keyword), `links`, `also_read`, `alt`, `caption`, `related`, category and tags. The report's section 11 holds the same JSON. Section 2 (keyword note), section 3 (metas and slugs marked recommended) and section 8 (schema descriptions, and the suggested slugs added to its placeholder note) were updated to match, and section 12 was added.
@@ -46,7 +46,7 @@ These fields are unchanged: `focus_keyword` and `secondary_keywords` (the focus 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | samaj-ki-shakti-daivi-sampatti | power-of-community-divine-wealth |
+| slug | power-of-community-divine-wealth-hi | power-of-community-divine-wealth |
 | focus_keyword | समाज की शक्ति | power of community |
 | title | समाज की शक्ति: दैवी संपत्ति से खुलते हैं सारे रास्ते | The Power of Community: Why Divine Wealth Comes First |
 | meta_description | समाज की शक्ति क्या है? आचार्य उपेंद्र जी बताते हैं कि जीवन की संपदाओं में समाज पहले क्यों आता है, वाणी उसे कैसे जोड़ती है और दैवी संपत्ति कैसे समय बचाती है। | What is the power of community? Acharya Upendra Ji explains why community comes before money, how speech connects people and how divine wealth saves time. |

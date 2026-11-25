@@ -39,7 +39,7 @@ Not changed:
 
 - Section 2: the keyword table and mismatch note now give the searched wordings as the focus keywords, used in the `_seo` texts.
 - Section 3: the recommended titles, meta descriptions and slugs are now the ones in seo.json.
-- Section 8: alternativeHeadline, description and keywords updated in both blocks; the `{{HI_URL}}` / `{{EN_URL}}` placeholders are now post URLs built from the new slugs (`{{SITE_URL}}/hi/prem-mein-apeksha/`, `{{SITE_URL}}/en/when-love-turns-into-control/`).
+- Section 8: alternativeHeadline, description and keywords updated in both blocks; the `{{HI_URL}}` / `{{EN_URL}}` placeholders are now post URLs built from the new slugs (`{{SITE_URL}}/hi/when-love-turns-into-control-hi/`, `{{SITE_URL}}/en/when-love-turns-into-control/`).
 - Section 11: replaced with the new seo.json.
 - Section 12: "No unsupported scriptural claims" is now marked met.
 
@@ -51,7 +51,7 @@ Not changed:
 | title.en | Love Without Accounting: Why a Mother's Bill Comes to Zero | When Love Turns Into Control: A Mother's Bill of Zeros |
 | wordpress.hi.focus_keyword | बिना हिसाब का प्रेम | प्रेम में अपेक्षा |
 | wordpress.hi.secondary_keywords | प्रेम में अपेक्षा, निःस्वार्थ प्रेम, माँ का प्रेम, मातृभाव | बिना हिसाब का प्रेम, निःस्वार्थ प्रेम, माँ का प्रेम, मातृभाव |
-| wordpress.hi.slug | bina-hisab-ka-prem | prem-mein-apeksha |
+| wordpress.hi.slug | bina-hisab-ka-prem | when-love-turns-into-control-hi |
 | wordpress.hi.meta_description | प्रेम कब नियंत्रण बन जाता है? आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम, मातृभाव और अपेक्षा-रहित देने की सर्वोच्च स्थिति। | प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति। |
 | wordpress.en.focus_keyword | love without accounting | when love turns into control |
 | wordpress.en.secondary_keywords | when love turns into control, love without expectation, mother's love, selfless love | love without accounting, love without expectation, mother's love, selfless love |
@@ -65,7 +65,7 @@ Both new focus keywords and slugs are unique across all talks. `love_burden_for_
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | prem-mein-apeksha | when-love-turns-into-control |
+| slug | when-love-turns-into-control-hi | when-love-turns-into-control |
 | focus_keyword | प्रेम में अपेक्षा | when love turns into control |
 | title | प्रेम में अपेक्षा: माँ का बिल हमेशा शून्य क्यों होता है | When Love Turns Into Control: A Mother's Bill of Zeros |
 | meta_description | प्रेम में अपेक्षा आते ही वह नियंत्रण बनने लगता है। आचार्य उपेंद्र जी माँ के शून्य बिल की कथा से समझाते हैं बिना हिसाब का प्रेम और मातृभाव की सर्वोच्च स्थिति। | When love turns into control, expectation has crept in. Acharya Upendra Ji uses a mother's bill of zeros to show what love without accounting is. |

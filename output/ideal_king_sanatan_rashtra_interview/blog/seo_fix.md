@@ -29,7 +29,7 @@ No teaching, example or order of ideas changed. The H1 is untouched (the blog ha
 
 | Field | Before | After |
 |---|---|---|
-| wordpress.hi.slug | achhe-neta-ki-pehchan | achhe-neta-ki-pehchan (unchanged) |
+| wordpress.hi.slug | what-makes-a-good-leader-hi | what-makes-a-good-leader-hi (unchanged) |
 | wordpress.en.slug | what-makes-a-good-leader | what-makes-a-good-leader (unchanged) |
 
 No seo.json field changed. The focus keywords were already the searched wording and are now in the body, and the titles and meta descriptions already contain them, so focus keywords, secondary keywords, slugs, titles, meta descriptions, `links` and `also_read` stay as they were. Section 11 of the report still matches seo.json. Section 3 now marks the meta descriptions and slugs in seo.json as recommended (the titles were already marked), section 2 has a keyword note, and section 12 is the new checklist.
@@ -38,7 +38,7 @@ No seo.json field changed. The focus keywords were already the searched wording 
 
 | Field | Hindi | English |
 |---|---|---|
-| slug | achhe-neta-ki-pehchan | what-makes-a-good-leader |
+| slug | what-makes-a-good-leader-hi | what-makes-a-good-leader |
 | focus_keyword | अच्छे नेता की पहचान | what makes a good leader |
 | title | अच्छे नेता की पहचान: जो मना करे, वही राह भी दिखाए | What Makes a Good Leader? Stop, Then Show the Way |
 | meta_description | अच्छे नेता की पहचान क्या है? आचार्य उपेंद्र जी एक साधारण उदाहरण से समझाते हैं कि अच्छा राजा केवल मना नहीं करता, बेहतर विकल्प भी देता है। | What makes a good leader? Acharya Upendra Ji explains, with a simple parking example, that a good king never only forbids: he also offers an alternative. |
