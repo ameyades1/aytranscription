@@ -17,6 +17,9 @@ import re
 MIN_MATCH = 0.8  # how closely an AY paragraph must match the FPJ text a box follows
 
 
+MAX_DESCRIPTION = 160
+
+
 def load(path):
     return json.load(open(path, encoding='utf-8'))
 
@@ -59,6 +62,7 @@ def main():
     ay = {a['link']: a for a in load('ay_blogs/ay_articles.json')}
     to_ay = {p['fpj_link']: p['ay_link'] for p in pairs}
 
+    overrides = load('description_overrides.json')  # slug -> hand-shortened description (max 160)
     records, warnings = [], []
     for p in pairs:
         f, a = fpj[p['fpj_link']], ay[p['ay_link']]
@@ -75,6 +79,16 @@ def main():
             'subheading': next((h['text'] for h in fs['headings'] if h['tag'] == 'h2'), None),
             'featured_image_alt': fs['images'][0]['alt'] if fs['images'] else None,
         }
+
+        if slug in overrides:  # FPJ's description is over 160 characters: use the shortened one everywhere
+            seo['fpj_meta_description'] = seo['meta_description']
+            for k in ('meta_description', 'og_description', 'twitter_description'):
+                seo[k] = overrides[slug]
+        too_long = [k for k in ('meta_description', 'og_description', 'twitter_description')
+                    if len(seo[k] or '') > MAX_DESCRIPTION]
+        if too_long:
+            raise SystemExit(f'{slug}: {", ".join(too_long)} over {MAX_DESCRIPTION} characters; '
+                             'add a shorter one to description_overrides.json')
 
         paras = ay_paragraphs(slug)
         boxes, skipped, start = [], [], 0

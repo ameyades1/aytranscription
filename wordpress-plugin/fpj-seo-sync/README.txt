@@ -11,7 +11,8 @@ Use:     Tools > FPJ SEO Sync.
 
 1. Upload fpj_to_ay.json. Posts are matched by slug (any status except trash).
 2. Choose the canonical URL (the AY post, the FPJ article, or unchanged) and which parts to copy:
-   - SEO title and meta description (FPJ's, word for word)
+   - SEO title and meta description (FPJ's, word for word, except descriptions over 160
+     characters, which use the shortened versions)
    - Facebook and Twitter title and description (Yoast SEO only)
    - the FPJ H2 subheading, added at the top of the post
    - the featured image alt text (changes the image's alt everywhere it is used)
@@ -20,6 +21,12 @@ Use:     Tools > FPJ SEO Sync.
      the target's live AY address and image from fpj_to_ay.json, never to this site's address, so
      boxes made on a staging site work once pushed to live. Styles are inline, so the boxes look
      right even where this plugin is not active.
+     Each box image's alt text is the linked post's title, as on FPJ.
+   A "Shortened meta descriptions" table above the preview lists the descriptions that
+   were shortened (FPJ's over 160 characters, replaced in fpj_to_ay.json from
+   description_overrides.json), next to FPJ's original. The preview shows every description's
+   length, in red over 160. On apply, any description still over 160 is cut at a word and the
+   report says so.
 3. Tick posts in the preview and apply.
 
 Safety:

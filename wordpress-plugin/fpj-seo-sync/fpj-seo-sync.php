@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FPJ SEO Sync
  * Description: Copies Free Press Journal SEO data and "Read Also" boxes onto the matching AY blog posts, from the fpj_to_ay.json file built by build_fpj_to_ay.py. Previews every change, saves the old values first, and can restore them.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,8 @@
 if (!defined('ABSPATH')) exit;
 
 class FPJ_SEO_Sync {
-    const VERSION = '1.1.0';
+    const VERSION = '1.2.0';
+    const MAX_DESCRIPTION = 160;               // longer meta descriptions are cut by Google
     const OPTION_DATA = 'fpjss_data';           // the uploaded records, keyed by AY slug
     const META_BACKUP = '_fpjss_backup';        // the post's values before the first apply
     const META_APPLIED = '_fpjss_applied';      // when and with which settings it was applied
@@ -64,6 +65,7 @@ class FPJ_SEO_Sync {
     }
 
     private function render_preview($data) {
+        $this->render_shortened($data);
         ?>
         <h2>2. Choose what to apply</h2>
         <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
@@ -102,7 +104,8 @@ class FPJ_SEO_Sync {
                 <td><input type="checkbox" class="fpjss-pick" name="slugs[]" value="<?php echo esc_attr($slug); ?>" <?php disabled(!$post || $applied); ?>></td>
                 <td><?php if ($post): ?><a href="<?php echo esc_url(get_edit_post_link($post->ID)); ?>"><?php echo esc_html(get_the_title($post)); ?></a><br><small><?php echo esc_html($post->post_status); ?></small><?php else: ?><?php echo esc_html($r['ay_title']); ?><br><small style="color:#b32d2e">No post with slug <code><?php echo esc_html($slug); ?></code></small><?php endif; ?></td>
                 <td><small><?php echo esc_html($now['title'] ?: '(default)'); ?></small><br>→ <?php echo esc_html($r['seo']['seo_title'] ?? ''); ?></td>
-                <td><small><?php echo esc_html($now['description'] ?: '(default)'); ?></small><br>→ <?php echo esc_html($r['seo']['meta_description'] ?? ''); ?></td>
+                <td><small><?php echo esc_html($now['description'] ?: '(default)'); ?></small><br>→ <?php echo esc_html($r['seo']['meta_description'] ?? ''); ?>
+                  <?php echo $this->length_badge($r['seo']['meta_description'] ?? ''); ?></td>
                 <td><?php echo (int) $boxes; ?><?php if ($skipped): ?><br><small><?php echo (int) $skipped; ?> left out (no AY copy)</small><?php endif; ?></td>
                 <td><?php if ($applied): ?>Applied <?php echo esc_html($applied['time'] ?? ''); ?>
                       <br><a href="<?php echo esc_url(wp_nonce_url(admin_url('admin-post.php?action=fpjss_restore&post=' . $post->ID), 'fpjss_restore_' . $post->ID)); ?>" onclick="return confirm('Restore this post to its values before FPJ SEO Sync?')">Restore</a>
@@ -114,6 +117,45 @@ class FPJ_SEO_Sync {
           <?php submit_button('Apply to the ticked posts'); ?>
         </form>
         <?php
+    }
+
+    /** Shows each description shortened from FPJ's (over 160 characters) next to FPJ's original. */
+    private function render_shortened($data) {
+        $rows = array_filter($data, function($r) { return !empty($r['seo']['fpj_meta_description']); });
+        if (!$rows) return;
+        ?>
+        <h2>Shortened meta descriptions</h2>
+        <p><?php echo count($rows); ?> FPJ descriptions are over <?php echo self::MAX_DESCRIPTION; ?> characters, so Google would cut them. These shortened versions are used instead, also for Facebook and Twitter.</p>
+        <table class="widefat striped">
+          <thead><tr><th style="width:22%">AY post</th><th>FPJ description</th><th>Used instead</th></tr></thead>
+          <tbody>
+          <?php foreach ($rows as $slug => $r): ?>
+            <tr>
+              <td><?php echo esc_html($r['ay_title'] ?? $slug); ?></td>
+              <td><?php echo esc_html($r['seo']['fpj_meta_description']); ?> <?php echo $this->length_badge($r['seo']['fpj_meta_description']); ?></td>
+              <td><?php echo esc_html($r['seo']['meta_description'] ?? ''); ?> <?php echo $this->length_badge($r['seo']['meta_description'] ?? ''); ?></td>
+            </tr>
+          <?php endforeach; ?>
+          </tbody>
+        </table>
+        <?php
+    }
+
+    /** "(155)" in grey, or in red when over the limit. */
+    private function length_badge($text) {
+        $n = mb_strlen($text);
+        $over = $n > self::MAX_DESCRIPTION;
+        return '<small style="color:' . ($over ? '#b32d2e;font-weight:600' : '#646970') . '">(' . $n . ($over ? ', over ' . self::MAX_DESCRIPTION : '') . ')</small>';
+    }
+
+    /** Cuts $text to at most 160 characters at a word boundary, adding "...". Returns [text, was it cut]. */
+    private function fit_description($text) {
+        $text = trim((string) $text);
+        if (mb_strlen($text) <= self::MAX_DESCRIPTION) return [$text, false];
+        $cut = mb_substr($text, 0, self::MAX_DESCRIPTION - 3);
+        $space = mb_strrpos($cut, ' ');
+        if ($space !== false) $cut = mb_substr($cut, 0, $space);
+        return [rtrim($cut, " ,;:.") . '...', true];
     }
 
     public function notice() {
@@ -206,6 +248,12 @@ class FPJ_SEO_Sync {
             'tags' => wp_get_post_tags($id, ['fields' => 'names']),
         ]);
 
+        $cut = false;
+        foreach (['meta_description', 'og_description', 'twitter_description'] as $k) {
+            if (!isset($seo[$k])) continue;
+            [$seo[$k], $was] = $this->fit_description($seo[$k]);
+            $cut = $cut || $was;
+        }
         $fields = [];
         if (in_array('seo', $parts, true)) { $fields['title'] = $seo['seo_title'] ?? ''; $fields['description'] = $seo['meta_description'] ?? ''; }
         if ($canonical !== 'keep') $fields['canonical'] = $r['canonical_options'][$canonical] ?? '';
@@ -227,6 +275,7 @@ class FPJ_SEO_Sync {
 
         $content = $post->post_content;
         $notes = [];
+        if ($cut && $fields) $notes[] = 'A description over ' . self::MAX_DESCRIPTION . ' characters was cut to fit.';
         if (in_array('also_read', $parts, true) && !empty($r['also_read'])) {
             [$content, $placed, $missed] = $this->insert_boxes($content, $r['also_read'], $r['ay_link'] ?? '');
             $done[] = "$placed Read Also boxes";
@@ -289,7 +338,7 @@ class FPJ_SEO_Sync {
         $html = '<div class="fpjss-also-read" style="border-left:4px solid #c0392b;background:#faf6f2;padding:12px 16px;margin:1.5em 0">'
             . '<span class="fpjss-label" style="display:block;font-size:.8em;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#c0392b;margin-bottom:6px">' . esc_html($box['label'] ?? 'Read Also') . '</span>'
             . '<a href="' . esc_url($url) . '" style="display:flex;gap:12px;align-items:center;text-decoration:none;font-weight:600">'
-            . ($img ? '<img src="' . esc_url($img) . '" alt="" loading="lazy" width="96" height="64" style="width:96px;height:64px;object-fit:cover;border-radius:4px;flex:none">' : '')
+            . ($img ? '<img src="' . esc_url($img) . '" alt="' . esc_attr($title) . '" loading="lazy" width="96" height="64" style="width:96px;height:64px;object-fit:cover;border-radius:4px;flex:none">' : '')
             . '<span class="fpjss-title">' . esc_html($title) . '</span></a></div>';
         return "<!-- wp:html -->\n$html\n<!-- /wp:html -->";
     }
