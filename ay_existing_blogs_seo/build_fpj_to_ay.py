@@ -18,6 +18,7 @@ MIN_MATCH = 0.8  # how closely an AY paragraph must match the FPJ text a box fol
 
 
 MAX_DESCRIPTION = 160
+YEAR = re.compile(r'\b(19|20)\d\d\b')  # titles must not date the post, e.g. FPJ's "Navratri 2023"
 
 
 def load(path):
@@ -63,6 +64,7 @@ def main():
     to_ay = {p['fpj_link']: p['ay_link'] for p in pairs}
 
     overrides = load('description_overrides.json')  # slug -> hand-shortened description (max 160)
+    seo_overrides = load('seo_overrides.json')  # slug -> {field: value}, e.g. titles without FPJ's year
     records, warnings = [], []
     for p in pairs:
         f, a = fpj[p['fpj_link']], ay[p['ay_link']]
@@ -84,6 +86,12 @@ def main():
             seo['fpj_meta_description'] = seo['meta_description']
             for k in ('meta_description', 'og_description', 'twitter_description'):
                 seo[k] = overrides[slug]
+        for k, v in seo_overrides.get(slug, {}).items():
+            seo['fpj_' + k] = seo[k]
+            seo[k] = v
+        dated = [k for k, v in seo.items() if not k.startswith('fpj_') and isinstance(v, str) and YEAR.search(v)]
+        if dated:
+            raise SystemExit(f'{slug}: a year in {", ".join(dated)}; add a version without it to seo_overrides.json')
         too_long = [k for k in ('meta_description', 'og_description', 'twitter_description')
                     if len(seo[k] or '') > MAX_DESCRIPTION]
         if too_long:

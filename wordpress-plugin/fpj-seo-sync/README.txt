@@ -13,6 +13,8 @@ Use:     Tools > FPJ SEO Sync.
 2. Choose the canonical URL (the AY post, the FPJ article, or unchanged) and which parts to copy:
    - SEO title and meta description (FPJ's, word for word, except descriptions over 160
      characters, which use the shortened versions)
+     Titles, image alt text and keywords never carry FPJ's year ("Navratri 2023"): the build
+     replaces them from seo_overrides.json and fails if a year is left.
    - Facebook and Twitter title and description (Yoast SEO only)
    - the FPJ H2 subheading, added at the top of the post
    - the featured image alt text (changes the image's alt everywhere it is used)
