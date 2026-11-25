@@ -33,6 +33,54 @@ Points to settle, none of them code:
 | 6 | **Links to posts not yet imported** | A link to a talk that is not on the site yet is kept as `/slug/`, and its Also read box gets no thumbnail. | **Import all 146 talks before publishing any**, so every link and thumbnail resolves; publishing then happens in waves. |
 | 7 | **Updates after publishing** | `--update` only changes Pending or Draft posts. | Finish all fixes on staging before publishing. |
 
+## Using the importer
+
+**What it does with one talk's zip** (built by `tools/make_post_zip.py`: `en.md`, `hi.md` and the
+images in `assets/`):
+
+1. Checks everything first (front matter, slugs, images, languages); if anything is wrong, nothing
+   is created and the message says why.
+2. Creates each language's post as **Pending Review**: title, slug, excerpt, category and tags
+   (created if missing), the text as ordinary blocks, the hero as featured image, the inline image,
+   Also read boxes, the YouTube video under "Watch the Discourse", and the SEO title, meta
+   description, focus keyword and robots in every active SEO plugin.
+3. Links the two languages through Polylang (if installed); Hindi links point to `/hi/<slug>-hi/`.
+4. Hides, on the public pages, links to posts not published yet (3.1.0).
+
+**One-time setup on each site (staging, later live):**
+
+1. Plugins > Add New > Upload Plugin: `markdown-blog-importer-3.1.0.zip`
+   (`wordpress-plugin/build_zip.sh`), and activate it.
+2. Polylang with English and Hindi, for Hindi posts (as `~/wordpress/setup_polylang.sh` did locally).
+3. One SEO plugin active (Yoast or SureRank).
+4. If SureRank stays: turn off its automatic image titles (one `wp eval` line in the plugin README).
+5. Language switch position: bottom of Tools > Markdown Blog Importer.
+
+**One talk per import (decided).** Each import takes one zip, that is one talk in both languages.
+
+| Way | Per run | Several talks |
+|---|---|---|
+| Upload page (Tools > Markdown Blog Importer) | 1 zip | Upload the zips one after another |
+| WP-CLI: `wp smd import <file.zip> --user=<admin>` | 1 zip | A shell loop runs them all unattended |
+
+Build all the zips, then import them with WP-CLI:
+
+```
+for t in $(ls output/*/blog/seo.json | cut -d/ -f2); do python3 tools/make_post_zip.py "$t" zips/; done
+for z in zips/*.zip; do wp smd import "$z" --user=<admin>; done
+```
+
+Each run prints `<ID> <lang> <slug>` for the posts it created; a zip that fails its checks is
+skipped and the loop goes on. WP-CLI needs command-line (SSH) access to the server and WP-CLI
+installed by the host; without it, use the upload page.
+
+**Good to know:**
+
+- `--update` (or the upload page's update box) replaces a post with the same slug only while it is
+  Pending or Draft; published posts are never overwritten.
+- Re-importing reuses the post's images instead of duplicating them.
+- `./publish_wordpress.sh` is for the local test site only: it publishes posts straight away.
+
 ## Steps
 
 1. **Back up live** (database and uploads).
