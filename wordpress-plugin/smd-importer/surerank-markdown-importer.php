@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata (written to SureRank, Yoast SEO, Rank Math or All in One SEO, whichever is active), one language or two at a time, linked as translations with Polylang. Creates posts as Pending Review; never publishes.
- * Version: 3.0.0
+ * Version: 3.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -12,7 +12,8 @@
 if (!defined('ABSPATH')) exit;
 
 class SMD_Markdown_Importer {
-    const VERSION = '3.0.0';
+    const VERSION = '3.1.0';
+    private $link_status = [];  // slug => is the link live, for this request
     const META_LANG = 'smd_lang';
     const META_TRANSLATION_KEY = 'smd_translation_key';
     const TERM_META_CATEGORY_KEY = 'smd_category_key';
@@ -40,6 +41,8 @@ class SMD_Markdown_Importer {
         add_shortcode('smd_lang_switch', [$this, 'lang_switch']);
         add_filter('astra_single_post_meta', [$this, 'switch_after_byline']);
         add_filter('the_content', [$this, 'switch_at_top']);
+        add_filter('the_content', [$this, 'hide_unpublished_links'], 20);
+        add_action('transition_post_status', function() { $this->link_status = []; });
         add_action('wp_head', [$this, 'head']);
     }
 
@@ -353,6 +356,67 @@ class SMD_Markdown_Importer {
     // ---- languages -------------------------------------------------------------------------------------------
 
     /** True when Polylang's functions are available. */
+    // ---- links to posts not published yet ----------------------------------------------------------------------
+
+    /**
+     * When a post is shown, a link to another post of this site that is not published yet (pending, draft,
+     * scheduled, or not on the site at all) is shown as plain text, and an Also read box pointing to one is left
+     * out. The saved post is not changed: once the target is published, the link and the box show again by
+     * themselves. Not applied in the admin, the block editor or post previews.
+     */
+    public function hide_unpublished_links($content) {
+        if (is_admin() || is_preview() || (defined('REST_REQUEST') && REST_REQUEST) || strpos($content, 'href=') === false) return $content;
+        $home = wp_parse_url(home_url(), PHP_URL_HOST);
+        $doc = new DOMDocument();
+        $prev = libxml_use_internal_errors(true);
+        $ok = $doc->loadHTML('<?xml encoding="utf-8"?><div id="smd-root">' . $content . '</div>', LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        libxml_clear_errors(); libxml_use_internal_errors($prev);
+        if (!$ok) return $content;
+        $changed = false;
+        $root = $doc->getElementById('smd-root');
+        foreach (iterator_to_array($doc->getElementsByTagName('a')) as $a) {
+            $up = $a;
+            while ($up && $up !== $root) $up = $up->parentNode;
+            if (!$up || $this->link_is_live($a->getAttribute('href'), $home)) continue; // already removed with its box, or live
+            $box = $a;
+            while ($box && !($box instanceof DOMElement && preg_match('/(^|\s)also-read(\s|$)/', $box->getAttribute('class')))) $box = $box->parentNode;
+            if ($box && $box->parentNode) { $box->parentNode->removeChild($box); $changed = true; continue; }
+            while ($a->firstChild) $a->parentNode->insertBefore($a->firstChild, $a);
+            $a->parentNode->removeChild($a);
+            $changed = true;
+        }
+        if (!$changed) return $content;
+        $out = '';
+        foreach ($root->childNodes as $node) $out .= $doc->saveHTML($node);
+        return $out;
+    }
+
+    /** False only for a link to a post of this site ("/slug/", "/<lang>/slug/", or this site's full URL) that is not published. */
+    private function link_is_live($href, $home) {
+        $parts = wp_parse_url($href);
+        if (!$parts || !empty($parts['scheme']) && !in_array($parts['scheme'], ['http', 'https'], true)) return true;
+        if (!empty($parts['host']) && strcasecmp($parts['host'], (string) $home) !== 0) return true;
+        if (empty($parts['path']) || $parts['path'][0] !== '/') return true;
+        $segments = array_values(array_filter(explode('/', $parts['path']), 'strlen'));
+        if ($this->polylang() && count($segments) === 2 && in_array($segments[0], pll_languages_list(['fields' => 'slug']), true)) array_shift($segments);
+        $home_path = trim((string) wp_parse_url(home_url(), PHP_URL_PATH), '/');
+        if ($home_path !== '' && $segments && implode('/', array_slice($segments, 0, substr_count($home_path, '/') + 1)) === $home_path) $segments = array_slice($segments, substr_count($home_path, '/') + 1);
+        if (count($segments) !== 1 || preg_match('/\.[a-z0-9]+$/i', $segments[0])) return true; // not a post address
+        $cache = &$this->link_status;
+        $slug = sanitize_title($segments[0]);
+        if (!isset($cache[$slug])) {
+            $posts = get_posts(['name' => $slug, 'post_type' => 'post', 'post_status' => 'any', 'lang' => '', 'numberposts' => 1, 'suppress_filters' => false]);
+            if ($posts) $cache[$slug] = $posts[0]->post_status === 'publish';
+            else $cache[$slug] = (bool) get_page_by_path($slug, OBJECT, ['page', 'attachment']) || (bool) get_category_by_slug($slug) || $this->not_a_post_route($slug);
+        }
+        return $cache[$slug];
+    }
+
+    /** Single-segment addresses that are not posts, so a link to one is never hidden. */
+    private function not_a_post_route($slug) {
+        return in_array($slug, ['blog', 'category', 'tag', 'author', 'search', 'feed', 'wp-admin', 'wp-login-php', 'sitemap', 'sitemap_index-xml'], true);
+    }
+
     private function polylang() {
         return function_exists('pll_set_post_language') && function_exists('pll_languages_list');
     }

@@ -1,4 +1,4 @@
-MARKDOWN BLOG IMPORTER — VERSION 3.0.0
+MARKDOWN BLOG IMPORTER — VERSION 3.1.0
 
 WHAT IT DOES
 - Adds Tools > Markdown Blog Importer in WordPress admin.
@@ -61,6 +61,16 @@ LANGUAGES (new in 3.0.0)
   language URLs and per-language categories need Polylang.
 - The plugin never changes menus, the theme or Polylang's settings. A language with no menu assigned
   shows no menu: in Appearance > Menus > Manage Locations, give its locations a menu once.
+
+LINKS TO POSTS NOT PUBLISHED YET (new in 3.1.0)
+- When a post is shown on the site, a link to another post of this site that is not published yet
+  (pending, draft, scheduled, or not on the site) is shown as plain text, and an Also read box that
+  points to one is left out. Readers and search engines never meet a link to a missing page.
+- The saved post is not changed. When the target post is published, its links and boxes show again
+  on every post at once, with no re-import or re-save.
+- Not applied in the admin, the block editor or post previews, so reviewers see every link.
+- Links to pages, categories, other sites and files are never touched. This lets posts that link to
+  each other be published a few at a time.
 
 LANGUAGE SWITCH
 - A post with a published translation shows a switch with its languages (for example English | हिन्दी),
