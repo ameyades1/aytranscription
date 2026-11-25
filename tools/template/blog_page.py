@@ -92,7 +92,7 @@ TEXT = {
         'about': 'आचार्य जी के बारे में',
         'about_url': 'https://antaryogfoundation.in/hi',
         'meta': 'प्रवचन पर आधारित · {m} मिनट में पढ़ें',
-        'alt': 'Read in English', 'watch': 'मूल प्रवचन देखें',
+        'alt': 'Read in English', 'watch': 'मूल प्रवचन देखें', 'watch_h': 'प्रवचन देखें',
         'toc': 'इस लेख में', 'author_h': 'वक्ता', 'video_h': 'मूल प्रवचन',
         'cta_h': 'आचार्य जी के और प्रवचन सुनें',
         'cta_p': 'जीवन परिवर्तन करने वाले ज्ञान-सत्र और शक्तिशाली साधनाओं का लाभ लें।',
@@ -107,7 +107,7 @@ TEXT = {
         'about': 'About Acharya Ji',
         'about_url': 'https://antaryogfoundation.in',
         'meta': 'Based on a discourse · {m} min read',
-        'alt': 'हिन्दी में पढ़ें', 'watch': 'Watch the discourse',
+        'alt': 'हिन्दी में पढ़ें', 'watch': 'Watch the discourse', 'watch_h': 'Watch the discourse',
         'toc': 'In this article', 'author_h': 'Speaker', 'video_h': 'Original discourse',
         'cta_h': 'Listen to more discourses by Acharya Ji',
         'cta_p': 'Join life-transforming knowledge sessions and powerful sadhanas.',
@@ -371,7 +371,7 @@ def build_lang(path, out_dir, video, other_lang, orig_heads=None):
                        f'{icon("youtube", "#6b3d22")}{T["watch"]}</a>')
         if video['thumb']:
             cap = esc(video['title']) + (f'<small>YouTube · {esc(video["duration"])}</small>' if video['duration'] else '')
-            video_html = (f'<section class="video"><a href="{url}" target="_blank" rel="noopener">'
+            video_html = (f'<h2 class="watch-title">{T["watch_h"]}</h2><section class="video"><a href="{url}" target="_blank" rel="noopener">'
                           f'<img src="assets/{video["thumb"]}" alt="{esc(alt_text(seo, video["thumb"], lang, video["title"] or T["video_h"]))}" loading="lazy">'
                           f'<div class="play"><span>{icon("play", "#6b3d22")}</span></div>'
                           f'<div class="caption">{cap}</div></a></section>')
