@@ -3,6 +3,8 @@
 # Take talks from discourse to checked, SEO-fixed blog pages, skipping every step that is already
 # done, so the script can be stopped and re-run at any time:
 #   1. blog    /blog <url>            output/<name>/<name>_blog.txt and _blog_en.txt (URL input only)
+#   1b. hindi  /hindi_register <name>  only when check_hindi_register.py flags words and there is no
+#              blog/hindi_register.md yet; edits the Hindi text before SEO is built on it
 #   2. SEO     /seo_blog <name>       blog/seo_report.md and blog/seo.json
 #   3. fix     /seo_blog_fix <name>   <name>_blog_seo.txt and _blog_seo_en.txt; seo.json updated to them
 #   4. check   tools/check_seo.py     stops the talk if it fails
@@ -108,6 +110,13 @@ publish() {
     if [ ! -f "$d/${name}_blog.txt" ] || [ ! -f "$d/${name}_blog_en.txt" ] || [ ! -f "$d/blog/index.html" ]; then
         log_error "$name: no blog texts or blog page in $d (run /blog first)"
         return 1
+    fi
+
+    # 1b. Hindi register: edit the flagged words, before SEO is built on the text
+    if [ ! -s "$d/blog/hindi_register.md" ] && [ "$(python3 tools/check_hindi_register.py --total "$name")" != "0" ]; then
+        register_done() { [ -s "output/$1/blog/hindi_register.md" ]; }
+        run_claude register "$name" "/hindi_register $name" medium register_done "$name" || return 1
+        ran_claude=1
     fi
 
     # 2. SEO and 3. fix: done when the fixed copies are current and pass the check

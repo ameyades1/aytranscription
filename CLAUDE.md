@@ -6,7 +6,7 @@ WordPress. Full pipeline: [WORKFLOW.md](WORKFLOW.md).
 
 ## Pipeline
 
-`/blog` → (`/dequote`, `/review_blog`) → `/seo_blog` → `/seo_blog_fix` → `tools/check_seo.py`
+`/blog` → `tools/check_hindi_register.py` (`/hindi_register` if it flags words) → (`/dequote`, `/review_blog`) → `/seo_blog` → `/seo_blog_fix` → `tools/check_seo.py`
 + `tools/verify_seo_fix.py` → `/imageplan` + images → `tools/rebuild_blogs.sh` →
 `./publish_wordpress.sh` → commit and push `output/`.
 

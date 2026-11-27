@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Count the Hindi register words and speaker-name variants in each talk's Hindi blog.
 
-Usage: check_hindi_register.py [--detail] [--file <path>] [<talk> ...]
+Usage: check_hindi_register.py [--detail | --total] [--file <path>] [<talk> ...]
        (default: every talk with a Hindi blog)
 
 Reads the word lists from tools/prompts/hindi_register.md (the same rules the blog and chapter
@@ -16,7 +16,9 @@ prompts follow) and counts, per blog:
 
 The text checked is <talk>_blog_seo.txt when /seo_blog_fix has written it (that is what gets
 published), else <talk>_blog.txt. Verse blocks (lines starting with ">") are skipped. It only
-reads; nothing is changed. --detail lists every word found, with its line numbers.
+reads; nothing is changed. --detail lists every word found, with its line numbers. --total
+prints only one number, R1 + R3 + Names over the talks given (for scripts: 0 means nothing to
+review).
 """
 import re
 import sys
@@ -74,8 +76,8 @@ def check(path, rules):
 
 
 def main(argv):
-    detail = '--detail' in argv
-    argv = [a for a in argv if a != '--detail']
+    detail, total = '--detail' in argv, '--total' in argv
+    argv = [a for a in argv if a not in ('--detail', '--total')]
     files = []
     if '--file' in argv:
         i = argv.index('--file')
@@ -106,6 +108,9 @@ def main(argv):
                     lines = ', '.join(map(str, sorted(set(where[w]))))
                     print(f'  {g:5} {w} ×{k} → {rules[g][w]}   (lines {lines})')
 
+    if total:
+        print(sum(sum(totals[g].values()) for g in ('R1', 'R3', 'Names')))
+        return
     if not detail:
         width = max([len(r[0]) for r in rows] + [4])
         print(f'{"Talk":{width}}  {"R1":>4} {"R2":>4} {"R3":>4} {"Names":>5} {"R1/1k":>6}')

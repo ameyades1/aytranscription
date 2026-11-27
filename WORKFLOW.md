@@ -9,6 +9,7 @@ into WordPress.
 | Step | Command | Writes (under `output/<name>/`) |
 |------|---------|--------------------------------|
 | 1. Transcript and blog | `/blog` | `_raw_transcript.txt`, `_clean.txt`, `_blog.txt`, `_blog_en.txt`, `blog/index.html` |
+| 1b. Hindi register (when the check flags words) | `/hindi_register` | edits the Hindi text (`_blog_seo.txt` if it exists, else `_blog.txt`), writes `blog/hindi_register.md` |
 | 2. Remove direct quotes (optional) | `/dequote` | edits `_blog.txt`, `_blog_en.txt` |
 | 3. Sanskrit / scripture review (optional) | `/review_blog` | `tools/review/<name>.md` |
 | 4. SEO report | `/seo_blog` | `blog/seo_report.md`, `blog/seo.json` |
@@ -209,6 +210,7 @@ waits and retries on usage limits, and logs to `tools/batch_logs/`.
 |--------|------|
 | `batch_blogs.sh` | `/blog` on every mp3 in `batch_blogs.txt` |
 | `batch_translate_en.sh` | Retranslates every `_blog_en.txt` from the Hindi blog |
+| `batch_hindi_register.sh` | `/hindi_register` on talks with flagged words and no `blog/hindi_register.md` |
 | `batch_dequote.sh` | `/dequote` on talks with quotes left |
 | `batch_review.sh` | `/review_blog` on talks without a review |
 | `batch_seo.sh` | `/seo_blog` on talks failing `check_seo.py` |
