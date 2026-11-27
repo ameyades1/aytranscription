@@ -339,7 +339,10 @@ def build_lang(path, out_dir, video, other_lang, orig_heads=None):
 
     title_line, body = convert(text.splitlines())
     body = re.sub(r'<header>.*?</header>', '', body, count=1, flags=re.S)
-    label, title = title_line.split(':', 1) if ':' in title_line else ('', title_line)
+    # A chapter label ("अध्याय: …" / "Chapter: …") is shown above the title; a blog title is shown
+    # whole, colon included, as in WordPress.
+    m = re.match(r'(अध्याय|Chapter)\s*:\s*(.*)', title_line)
+    label, title = m.groups() if m else ('', title_line)
     label, title = label.strip(), title.strip()
 
     seo = read_seo(out_dir)
