@@ -80,6 +80,7 @@ Refer to the speaker as "आचार्य जी" (two words, with a space). U
 itself uses them for a general Guru, never as another name for Acharya Ji.
 
 - आचार्यजी → आचार्य जी
+- उपेंद्रजी → उपेंद्र जी
 - आचार्य श्री → आचार्य जी
 - गुरुजी → आचार्य जी (if it means him)
 - गुरु जी → आचार्य जी (if it means him)
