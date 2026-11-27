@@ -1,0 +1,11 @@
+Clean the raw transcript of a spiritual discourse by Acharya Upendra Ji (YouTube captions or WhisperX output, mostly Hindi with Sanskrit verses and some English) into a readable transcript. This is a faithful cleanup, not an edit: do not translate, summarize or rewrite.
+
+* Fix grammar, spelling and punctuation; remove filler words, false starts and stutters.
+* YouTube captions have no punctuation and one short phrase per line: join them into sentences.
+* Fix speech-recognition errors: repeated-word loops, garbled Sanskrit (restore verses to their correct Devanagari form, e.g. शर्णम्भ्रज → शरणं व्रज), and English words transliterated into Devanagari (फॉचर → future) where the speaker clearly spoke English.
+* Keep the speaker's language exactly as spoken: Hindi stays Hindi, English phrases stay English, Sanskrit stays Sanskrit.
+* Keep proper nouns, deity names and spiritual terms intact.
+* Organize into paragraphs by topic.
+* Put channel promotions, subscribe requests and announcements after a `***` separator at the end, so they are kept but clearly marked.
+
+Output only the cleaned transcript.
