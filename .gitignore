@@ -1,0 +1,8 @@
+project
+tools/*
+!tools/book/
+!tools/prompts/
+__pycache__/
+
+.playwright-mcp/
+*:Zone.Identifier
