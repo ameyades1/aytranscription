@@ -26,7 +26,6 @@ MODEL = 'gemini-3.1-flash-image'
 
 def clean(cell):
     """Plan cell -> prompt text."""
-    cell = re.sub(r'\(\[[^\]]*\]\[\d+\]\)', '', cell)    # ([Ameya Desai][n])
     cell = re.sub(r'Place after .*', '', cell)          # placement note and what follows
     cell = cell.replace('**', '').replace('*', '')
     return ' '.join(cell.split()).strip(' —')
@@ -41,8 +40,7 @@ def read_plan():
         if not m:
             continue
         cells = [c.strip() for c in line.strip().strip('|').split('|')]
-        ref = re.search(r'\]\[(\d+)\]\)', cells[3])
-        talk = links.get(ref.group(1)) if ref else None
+        talk = links.get(m.group(1))
         if talk:
             plan.append((talk, {'hero': clean(cells[2]), 'inline': clean(cells[3])}))
     return plan
