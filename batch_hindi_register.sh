@@ -7,6 +7,7 @@
 # When Claude hits a usage limit, it waits and retries.
 #
 # Usage: ./batch_hindi_register.sh [talk_name ...]   (default: every talk, most words per 1000 first)
+#        PUSH=end ./batch_hindi_register.sh $(python3 tools/wave_order.py --wave 1)   (publishing order)
 #
 # Settings (environment variables):
 #   LIMIT            stop after this many talks (default: no limit)
@@ -15,7 +16,8 @@
 #   PERMISSION_MODE  claude permission mode (default: auto)
 #   LIMIT_WAIT       seconds to wait after a usage limit before retrying (default: 1800)
 #   MAX_FAILURES     other failures allowed per talk before skipping it (default: 2)
-#   PUSH             1 = commit the talk's changes and push after each talk (default: 1)
+#   PUSH             1 = commit the talk's changes and push after each talk; end = commit after each
+#                    talk and push once at the end (one Pages deploy); 0 = no commit (default: 1)
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
@@ -90,12 +92,12 @@ for name in "${talks[@]}"; do
         fi
     done
 
-    if [ "$PUSH" = "1" ]; then
+    if [ "$PUSH" = "1" ] || [ "$PUSH" = "end" ]; then
         # the talk's Hindi text and record, and every page the rebuild changed
         git add "output/$name/blog/hindi_register.md" &&
             git add -u output &&
             git commit -q -m "Hindi register: $name" &&
-            git push -q ||
+            { [ "$PUSH" = "end" ] || git push -q; } ||
             log_error "$name: git commit/push failed"
     fi
     done_count=$((done_count + 1))
@@ -103,6 +105,9 @@ for name in "${talks[@]}"; do
 done
 
 echo
+if [ "$PUSH" = "end" ] && [ "$done_count" -gt 0 ]; then
+    git push -q && log_info "Pushed $done_count commit(s)" || log_error "git push failed"
+fi
 log_info "Finished: $done_count talk(s) edited."
 if [ ${#skipped[@]} -gt 0 ]; then
     log_error "Skipped ${#skipped[@]}:"
