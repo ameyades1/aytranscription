@@ -22,6 +22,9 @@
 #   WP_DIR           the local WordPress folder with docker-compose.yml (default: ~/wordpress)
 #   WP_USER          the WordPress user the import runs as (default: admin)
 #   STATIC           set to 0 to skip step 3 (default: 1)
+#   LANGS            both, en or hi: the languages to import (default: both). A talk without a Hindi
+#                    slug is imported in English with both, and skipped with hi. Either language can
+#                    go first; the post added later is linked to the other through translation_key.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR" || exit 1
@@ -29,6 +32,8 @@ cd "$SCRIPT_DIR" || exit 1
 WP_DIR="${WP_DIR:-$HOME/wordpress}"
 STATIC="${STATIC:-1}"
 WP_USER="${WP_USER:-admin}"
+LANGS="${LANGS:-both}"
+case "$LANGS" in both|en|hi) ;; *) echo "LANGS must be both, en or hi, not \"$LANGS\"" >&2; exit 1 ;; esac
 ZIP_DIR=$(mktemp -d)
 chmod 755 "$ZIP_DIR"  # readable by the container's web server user
 trap 'rm -rf "$ZIP_DIR"' EXIT
@@ -76,13 +81,17 @@ published_ids() {
 
 # Imports one talk with the plugin and publishes its posts; the plugin's output goes to its log
 import_talk() {
-    local name="$1" log="$LOG_DIR/${1}_import.log" langs=both zip published ids
+    local name="$1" log="$LOG_DIR/${1}_import.log" langs="$LANGS" zip published ids
     mkdir -p "$ZIP_DIR/$name"
-    talk_slugs "$name" | grep -q '^hi ' || langs=en
+    if ! talk_slugs "$name" | grep -q '^hi '; then
+        if [ "$langs" = hi ]; then echo "$name: seo.json has no Hindi slug; nothing to import with LANGS=hi" > "$log"; return 1; fi
+        langs=en
+    fi
     zip=$(python3 tools/make_post_zip.py "$name" "$ZIP_DIR/$name" --lang "$langs" 2> "$log") || return 1
-    # the plugin updates only pending and draft posts: put this talk's published posts back to draft
+    # the plugin updates only pending and draft posts: put this talk's published posts in the imported
+    # languages back to draft (a post in the other language is left alone)
     # shellcheck disable=SC2046
-    published=$(published_ids $(talk_slugs "$name" | cut -d' ' -f2))
+    published=$(published_ids $(talk_slugs "$name" | { [ "$langs" = both ] && cat || grep "^$langs "; } | cut -d' ' -f2))
     # shellcheck disable=SC2086
     [ -n "$published" ] && wp post update $published --post_status=draft > /dev/null
     if ! wp_import "/zips/$name/$(basename "$zip")" --update >> "$log"; then
