@@ -6,7 +6,8 @@ Usage: check_hindi_register.py [--detail] [--file <path>] [<talk> ...]
 
 Reads the word lists from tools/prompts/hindi_register.md (the same rules the blog and chapter
 prompts follow) and counts, per blog:
-  R1     Rule 1 words that should always be replaced (ज़िंदगी, दुनिया, दिल, सिर्फ, खुद ...)
+  R1     Rule 1 words to review for replacement (ज़िंदगी, दुनिया, दिल, सिर्फ, खुद ...); the rules
+         list exceptions (idioms, Acharya Ji's own catchphrases, SEO title and link phrases)
   R2     Rule 2 everyday words, allowed where natural (तरह, शायद, हमेशा ...): for information
   R3     Rule 3 archaic words that should not be used (कदाचित्, अतः, तथापि ...)
   Names  speaker-name variants other than "आचार्य जी" (आचार्यजी, गुरुजी, गुरुदेव ...); गुरुजी /

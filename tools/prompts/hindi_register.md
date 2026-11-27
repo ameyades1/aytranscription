@@ -7,9 +7,18 @@ that form so the script can read them.
 Write tatsama-leaning standard Hindi: dignified and suited to spiritual teaching, but natural to
 read, never archaic. A chapter may sit a little higher in register than a blog.
 
-## Rule 1: always replace
+## Rule 1: replace, with three exceptions
 
-These words carry the subject of the teaching; use the replacement every time.
+These words carry the subject of the teaching; use the replacement, except:
+
+1. **Fixed idioms**, where the replacement reads oddly: दुनिया भर, खुद-ब-खुद, दिल से, and the like.
+2. **Acharya Ji's own challenge or catchphrase**, a phrase he uses as a direct appeal (for
+   example "खुद को खाकर दिखाओ"); keep it in his words, since a formal word inside a spoken
+   command sounds stilted.
+3. **Words in the title, the focus keyword, the meta description or an SEO link phrase**
+   (`blog/seo.json`): changing them breaks the SEO match (see Rule 4).
+
+When editing an existing blog, replace only where the result reads naturally; when in doubt, keep.
 
 - ज़िंदगी → जीवन
 - जिंदगी → जीवन
