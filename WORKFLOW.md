@@ -8,7 +8,7 @@ into WordPress.
 
 | Step | Command | Writes (under `output/<name>/`) |
 |------|---------|--------------------------------|
-| 1. Transcript, chapter, blog | `/chapter` | `_raw_transcript.txt`, `_clean.txt`, `_chapter.txt`, `_chapter_en.txt`, `_blog.txt`, `_blog_en.txt`, `blog/index.html` |
+| 1. Transcript and blog | `/blog` | `_raw_transcript.txt`, `_clean.txt`, `_blog.txt`, `_blog_en.txt`, `blog/index.html` |
 | 2. Remove direct quotes (optional) | `/dequote` | edits `_blog.txt`, `_blog_en.txt` |
 | 3. Sanskrit / scripture review (optional) | `/review_blog` | `tools/review/<name>.md` |
 | 4. SEO report | `/seo_blog` | `blog/seo_report.md`, `blog/seo.json` |
@@ -46,26 +46,36 @@ output/
 
 ## Step details
 
-### 1. `/chapter`
+### 1. `/blog`
 
 ```
-/chapter <audio.mp3 | youtube_url | raw_transcript.txt> [name]
+/blog <audio.mp3 | youtube_url | raw_transcript.txt> [name]
 ```
 
-Instructions are in `.claude/skills/chapter/SKILL.md`.
+Instructions are in `.claude/skills/blog/SKILL.md`. The transcript steps are shared with
+`/chapter`: `tools/prompts/get_transcript.md` and `tools/prompts/clean_transcript.txt`.
 
 - **Transcript:** tries YouTube's own captions first (`tools/fetch_yt_transcript.py`), otherwise
   transcribes locally with WhisperX (`tools/transcribe.sh`). Say "use WhisperX" to force it.
-- **Clean:** fixes transcription errors, keeps the speaker's language exactly, marks channel
-  promotions off after `***`.
-- **Chapter:** follows `tools/prompts/transcript_to_chapter.txt`; title line `# अध्याय: <Title>`.
-- **Blog:** follows `tools/prompts/transcript_to_blog.txt`, written from the transcript, not the
-  chapter. No direct quotes from Acharya Ji; scripture verses stay as verse blocks.
-- **English:** both translated with `tools/prompts/hindi_to_english.txt`.
+- **Clean:** follows `tools/prompts/clean_transcript.txt`: fixes transcription errors, keeps the
+  speaker's language exactly, marks channel promotions off after `***`.
+- **Blog:** follows `tools/prompts/transcript_to_blog.txt`. No direct quotes from Acharya Ji;
+  scripture verses stay as verse blocks.
+- **English:** translated with `tools/prompts/hindi_to_english.txt`.
 - **Page:** `tools/template/blog_page.py` builds `blog/index.html` from the two blog texts, with the
   YouTube video card when the input has a video ID.
 
 Nothing is attributed to the speaker that is not in the transcript.
+
+#### Optional: book chapter, `/chapter`
+
+```
+/chapter <talk name | audio.mp3 | youtube_url | raw_transcript.txt> [name]
+```
+
+Writes `_chapter.txt` and `_chapter_en.txt` only (`tools/prompts/transcript_to_chapter.txt`, full
+length, book style, title line `# अध्याय: <Title>`), reusing the talk's transcripts when `/blog`
+has made them. Instructions: `.claude/skills/chapter/SKILL.md`.
 
 #### YouTube transcript: `tools/fetch_yt_transcript.py`
 
@@ -185,7 +195,7 @@ Commit and push `output/`; `.github/workflows/pages.yml` deploys it to GitHub Pa
 ./publish_blog.sh [talk_name | youtube_url ...]   # default: every talk with a blog page
 ```
 
-Runs `/chapter` (URL input only), `/seo_blog`, `/seo_blog_fix` and `check_seo.py` per talk, then
+Runs `/blog` (URL input only), `/seo_blog`, `/seo_blog_fix` and `check_seo.py` per talk, then
 `rebuild_blogs.sh` once. Steps already done are skipped. Settings: `MODEL`, `EFFORT`,
 `PERMISSION_MODE`, `LIMIT_WAIT`, `MAX_FAILURES`, `PAUSE`.
 
@@ -196,7 +206,7 @@ waits and retries on usage limits, and logs to `tools/batch_logs/`.
 
 | Script | Runs |
 |--------|------|
-| `batch_chapters.sh` | `/chapter` on every mp3 in `batch_chapters.txt` |
+| `batch_blogs.sh` | `/blog` on every mp3 in `batch_blogs.txt` |
 | `batch_translate_en.sh` | Retranslates every `_blog_en.txt` from the Hindi blog |
 | `batch_dequote.sh` | `/dequote` on talks with quotes left |
 | `batch_review.sh` | `/review_blog` on talks without a review |
@@ -212,7 +222,7 @@ tools/render_chapter.sh output/<name>/<name>_chapter.txt
 ```
 
 Writes a styled `.html` and an A5 `.pdf` (headless Chrome, Noto Serif fonts from Google Fonts)
-next to the chapter. `/chapter` no longer does this. Look: `tools/template/chapter.css`;
+next to the chapter. Neither skill does this. Look: `tools/template/chapter.css`;
 converter: `tools/template/md_to_html.py`.
 
 ### Text format (chapters and blogs)
@@ -249,4 +259,4 @@ converter: `tools/template/md_to_html.py`.
 The original pipeline: WhisperX plus `tools/process_with_gemini.py` with
 `tools/prompts/legacy/clean_transcript.txt` and `legacy/generate_chapter.txt`. Writes flat files into
 `output/`, needs `GEMINI_API_KEY`, and can add material the speaker never said. Kept for
-reference; use `/chapter` instead.
+reference; use `/blog` instead.

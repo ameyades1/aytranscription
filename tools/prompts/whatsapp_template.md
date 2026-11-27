@@ -2,7 +2,7 @@
 
 Source: `output/<name>/<name>_blog_seo_en.txt` (else `_blog_en.txt`). No blog link; the only
 link is the talk's YouTube video, as `https://youtu.be/<id>` (the id is in the talk's
-`blog/index.html` and in `batch_chapters.txt`). Keep it short: 40 to 60 words, readable on one phone screen
+`blog/index.html` and in `batch_blogs.txt`). Keep it short: 40 to 60 words, readable on one phone screen
 without "Read more". WhatsApp formatting: `*bold*`, `_italic_`. Same content rules as the
 blogs: no direct quotes from Acharya Ji, no em dashes, "Shibir" for शिविर.
 

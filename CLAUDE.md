@@ -6,10 +6,11 @@ WordPress. Full pipeline: [WORKFLOW.md](WORKFLOW.md).
 
 ## Pipeline
 
-`/chapter` → (`/dequote`, `/review_blog`) → `/seo_blog` → `/seo_blog_fix` → `tools/check_seo.py`
+`/blog` → (`/dequote`, `/review_blog`) → `/seo_blog` → `/seo_blog_fix` → `tools/check_seo.py`
 + `tools/verify_seo_fix.py` → `/imageplan` + images → `tools/rebuild_blogs.sh` →
 `./publish_wordpress.sh` → commit and push `output/`.
 
+`/chapter` (optional) writes a book chapter from the same transcripts.
 Skills live in `.claude/skills/<name>/SKILL.md`; the writing rules they follow are in
 `tools/prompts/`. Each step has a resumable `batch_*.sh`; `./publish_blog.sh` chains the main ones.
 

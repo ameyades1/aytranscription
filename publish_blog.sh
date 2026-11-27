@@ -2,7 +2,7 @@
 
 # Take talks from discourse to checked, SEO-fixed blog pages, skipping every step that is already
 # done, so the script can be stopped and re-run at any time:
-#   1. blog    /chapter <url>         output/<name>/<name>_blog.txt and _blog_en.txt (URL input only)
+#   1. blog    /blog <url>            output/<name>/<name>_blog.txt and _blog_en.txt (URL input only)
 #   2. SEO     /seo_blog <name>       blog/seo_report.md and blog/seo.json
 #   3. fix     /seo_blog_fix <name>   <name>_blog_seo.txt and _blog_seo_en.txt; seo.json updated to them
 #   4. check   tools/check_seo.py     stops the talk if it fails
@@ -96,7 +96,7 @@ publish() {
     if [[ "$input" == http* ]]; then
         name=$(talk_for_video "$input")
         if [ -z "$name" ]; then
-            run_claude blog "$(date +%s)" "/chapter $input" low talk_for_video "$input" || return 1
+            run_claude blog "$(date +%s)" "/blog $input" low talk_for_video "$input" || return 1
             name=$(talk_for_video "$input")
             ran_claude=1
         fi
@@ -106,7 +106,7 @@ publish() {
     fi
     local d="output/$name"
     if [ ! -f "$d/${name}_blog.txt" ] || [ ! -f "$d/${name}_blog_en.txt" ] || [ ! -f "$d/blog/index.html" ]; then
-        log_error "$name: no blog texts or blog page in $d (run /chapter first)"
+        log_error "$name: no blog texts or blog page in $d (run /blog first)"
         return 1
     fi
 

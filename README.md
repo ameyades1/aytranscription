@@ -10,10 +10,10 @@ WordPress.
 
 ```
 Audio (local MP3 or YouTube URL)
-    ↓  YouTube's own transcript, or WhisperX locally     /chapter
+    ↓  YouTube's own transcript, or WhisperX locally     /blog
 Raw transcript → clean transcript
-    ↓  Claude writes the chapter and the blog text, then English versions
-Chapter + blog texts (Hindi and English)
+    ↓  Claude writes the blog text, then the English version
+Blog texts (Hindi and English)                           (/chapter: optional book chapter)
     ↓  /dequote, /review_blog                            optional quality passes
     ↓  /seo_blog       SEO report + seo.json
     ↓  /seo_blog_fix   SEO-fixed copies of the blog texts
@@ -40,7 +40,7 @@ talk. `./publish_blog.sh` chains blog → SEO → fix → check → rebuild in o
 
 | Path | Purpose |
 |------|---------|
-| `.claude/skills/` | Slash commands: `chapter`, `dequote`, `review_blog`, `seo_blog`, `seo_blog_fix`, `imageplan` |
+| `.claude/skills/` | Slash commands: `blog`, `chapter`, `dequote`, `review_blog`, `seo_blog`, `seo_blog_fix`, `imageplan` |
 | `tools/prompts/` | Writing prompts the skills follow (chapter, blog, translation, Sanskrit review, SEO) |
 | `tools/fetch_yt_transcript.py`, `tools/transcribe.sh` | YouTube transcript, or local WhisperX transcription |
 | `tools/template/blog_page.py` | One talk's bilingual blog page (`blog.css`, `assets/`) |

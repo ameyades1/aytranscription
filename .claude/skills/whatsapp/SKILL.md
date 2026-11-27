@@ -14,7 +14,7 @@ Talks: `$ARGUMENTS`. For each talk `<name>`:
 2. Read `output/<name>/<name>_blog_seo_en.txt`, or `output/<name>/<name>_blog_en.txt` if there
    is no SEO copy.
 3. Find the video id: the `https://www.youtube.com/watch?v=<id> <name>` line in
-   `batch_chapters.txt`, else the `watch?v=<id>` in `output/<name>/blog/index.html`. If neither
+   `batch_blogs.txt`, else the `watch?v=<id>` in `output/<name>/blog/index.html`. If neither
    has one, skip the talk and say so; never guess an id or use any other link.
 4. Write `output/<name>/<name>_whatsapp_en.txt` with only the message text.
 
