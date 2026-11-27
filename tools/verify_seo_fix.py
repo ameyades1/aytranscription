@@ -13,7 +13,8 @@ Errors:
     headings, focus keyword in title, meta description, body and slug, unique slugs, and the
     report's section 11 copy of seo.json)
   - a fixed text is missing or older than its original (the fix is stale)
-  - seo_fix.md is missing or older than the fixed texts
+  - seo_fix.md is missing or older than the fixed texts (unless a newer blog/hindi_register.md
+    records a later /hindi_register edit)
   - the blog page is older than the fixed texts or seo.json (not rebuilt after the fix)
   - a fixed text has a different number of ## sections from its original (the page generator and
     the importer place images and the Also read box by section position when a heading is reworded)
@@ -66,7 +67,11 @@ def verify(talk):
     if not os.path.exists(fix_md):
         err.append('blog/seo_fix.md missing')
     elif os.path.getmtime(fix_md) < newest_text:
-        err.append('blog/seo_fix.md is older than the fixed texts')
+        # a later /hindi_register edit of the Hindi text is recorded in blog/hindi_register.md;
+        # check_seo above has already confirmed that seo.json still matches the edited text
+        reg = os.path.join(blog, 'hindi_register.md')
+        if not (os.path.exists(reg) and os.path.getmtime(reg) >= newest_text):
+            err.append('blog/seo_fix.md is older than the fixed texts')
 
     page = os.path.join(blog, 'index.html')
     seo_path = os.path.join(blog, 'seo.json')

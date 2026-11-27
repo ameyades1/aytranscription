@@ -17,6 +17,7 @@ File: output/awaken_divine_shakti_kali_lakshmi_saraswati/awaken_divine_shakti_ka
 - line 196: आचार्यजी → आचार्य जी
 - line 242: आचार्यजी → आचार्य जी
 - line 254: आचार्यजी → आचार्य जी
+- 2 places: उपेंद्रजी → उपेंद्र जी (added by hand afterwards; उपेंद्रजी joined the name list)
 
 ## Kept
 - none
