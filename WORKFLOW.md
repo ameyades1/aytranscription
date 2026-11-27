@@ -14,6 +14,7 @@ into WordPress.
 | 4. SEO report | `/seo_blog` | `blog/seo_report.md`, `blog/seo.json` |
 | 5. SEO fix | `/seo_blog_fix` | `_blog_seo.txt`, `_blog_seo_en.txt`, `blog/seo_fix.md`, updates `seo.json` |
 | 6. Check | `tools/check_seo.py`, `tools/verify_seo_fix.py` | — |
+| Hindi register (optional) | `tools/check_hindi_register.py [--detail] [talk ...]` | — (counts words to replace and name variants; rules in `tools/prompts/hindi_register.md`) |
 | 7. Image prompts | `/imageplan` | `blog/image_plan.txt` |
 | 8. Images | `batch_images.sh` / `tools/*_image.py` | `blog/assets/hero.jpg`, `inline.jpg` |
 | 9. Rebuild pages | `tools/rebuild_blogs.sh` | `blog/index.html`, `output/index.html` |

@@ -31,7 +31,8 @@ Preserve the depth, authority, spiritual vocabulary and wisdom of a traditional 
 
 ## Language
 
-* Use clean, dignified Hindi (Shuddh Hindi), but avoid obscure or archaic Sanskritized words that make reading difficult.
+* Write tatsama-leaning standard Hindi, following `tools/prompts/hindi_register.md`: always replace the words of its Rule 1 (ज़िंदगी → जीवन, दुनिया → संसार, दिल → हृदय, सिर्फ → केवल, खुद → स्वयं and the rest); keep the everyday words of Rule 2 (तरह, शायद, हमेशा, आसान, रिश्ता, कीमत) where they read naturally, preferring the tatsama form in headings and takeaways; never use the archaic words of Rule 3 (कदाचित्, किंचित, अतः, तथापि, सुगम); and let headings and the focus keyword use the words people search for (Rule 4).
+* Refer to the speaker as "आचार्य जी" (with a space); the full name "आचार्य उपेंद्र जी" only once, where he is first introduced. Never call him गुरुजी, गुरुदेव or आचार्यजी; keep those words only for someone else, such as his own Guru.
 * Replace casual English words with their natural, commonly used Hindi equivalents (for example 'Noun/Verb' → 'संज्ञा/क्रिया', 'Infinite' → 'अनंत'). Keep an English word when it is the word people actually use (such as मोबाइल, वीडियो, कंप्यूटर) or when it is part of the speaker's own expression.
 * Remove all spoken redundancies, false starts, stutters, filler loops (such as "तो जैसे कि", "मतलब", "you know", "right?") and cross-talk.
 
