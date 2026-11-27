@@ -36,7 +36,7 @@ export PYTHONPATH="${VENV_SITE_PACKAGES}:${PYTHONPATH}"
 
 echo "Transcribing with WhisperX (this can take 5-20 minutes)..."
 python3 -m whisperx "$AUDIO" --model medium --device cpu --compute_type int8 \
-    --initial_prompt "This is a spiritual discourse with Sanskrit mantras, Hindi devotional content, and English explanations." \
+    --initial_prompt "$(cat "${TOOLS_DIR}/prompts/whisperx_prompt.txt")" \
     --output_format txt --output_dir "$WORK_DIR" 2>&1 | tail -5
 
 TRANSCRIPT="${WORK_DIR}/$(basename "${AUDIO%.*}").txt"

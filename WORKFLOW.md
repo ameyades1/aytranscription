@@ -247,6 +247,6 @@ converter: `tools/template/md_to_html.py`.
 ## Legacy: `master.sh` (Gemini API)
 
 The original pipeline: WhisperX plus `tools/process_with_gemini.py` with
-`tools/prompts/clean_transcript.txt` and `generate_chapter.txt`. Writes flat files into
+`tools/prompts/legacy/clean_transcript.txt` and `legacy/generate_chapter.txt`. Writes flat files into
 `output/`, needs `GEMINI_API_KEY`, and can add material the speaker never said. Kept for
 reference; use `/chapter` instead.

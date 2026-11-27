@@ -29,7 +29,7 @@ When the speaker shares a personal experience, preserve its humility and human f
 Attribution to the Speaker:
 Refer to the speaker as "Acharya Ji" (always this exact form; never "Acharya ji", "Acharyaji" or "Guruji"). Use "Acharya Upendra Ji" only where the Hindi uses the full name.
 Do not open paragraph after paragraph with "Acharya Ji says / explains". Use attribution only where the Hindi has it, vary the verb (says, explains, points out, reminds us, asks, puts it this way), and otherwise let the teaching speak directly.
-Quotes attributed to Acharya Ji must be faithful to the Hindi; do not invent or embellish them.
+Where the Hindi gives Acharya Ji's words in indirect speech (as blogs do), keep them in indirect speech; do not turn them into direct quotes. Where the Hindi quotes him directly (as chapters may), the quote must be faithful to the Hindi; do not invent or embellish it.
 
 Key Concepts (Consistent Names, Natural Wording):
 When a word names a concept of the teaching (in a definition, a contrast, a heading, a takeaway, or a quoted principle), use its fixed concept name below, so the reader can follow the idea across the text. Everywhere else, write the idea naturally, using the everyday alternatives, a verb, or a pronoun. Never repeat the concept name just because the Hindi repeats the word.
@@ -85,12 +85,12 @@ Use the Gita Press, Gorakhpur edition as the authority for every verse: the IAST
 Short Sanskrit phrases quoted in running text go in IAST with a brief English gloss in parentheses on first use, e.g. "duḥkhālayam aśāśvatam" (an abode of sorrow, impermanent).
 
 Structure:
-Keep the same Markdown layout as the Hindi: the same title, headings, subheadings, paragraphs, bold emphasis, lists, block quotes and pull quotes. Do not merge or split sections.
+Keep the same Markdown layout as the Hindi: the same `#` title, `##` headings (never `###`), paragraphs, bold emphasis, lists and block quotes, and pull quotes only where the Hindi has them. Do not merge or split sections.
 Translate headings so they read as natural English headings; question-style headings stay questions.
-Keep pull quotes short and quotable in English.
+If the Hindi has pull quotes, keep them short and quotable in English.
 If the Hindi contains reflective questions in italics, keep them as italic single-line paragraphs, phrased as a natural personal question to the reader.
 If the Hindi ends with a takeaways section, title it "## Key Takeaways" and keep it as short, parallel bullet points, one idea each, using the same terminology as the body.
 For a blog, keep paragraphs short (2 to 4 sentences) for comfortable reading on mobile.
 
-Remove all em dashes and AI markers. Output only the English text, with no preface or notes.
+Remove all em dashes (—) and machine-sounding writing: no stock openings ("In this article", "Let us explore"), no "In conclusion", no hollow praise of the topic, no habitual lists of three. Output only the English text, with no preface or notes.
 Here is the Hindi text:
