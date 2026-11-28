@@ -1,0 +1,26 @@
+{
+ "type": "compare",
+ "section": {"hi": "जब इच्छा प्रबल होती है", "en": "When the Wish Runs Deep"},
+ "title": {"hi": "इच्छा और प्रबल इच्छाशक्ति", "en": "Wish and strong willpower"},
+ "columns": [
+  {
+   "label": {"hi": "इच्छा", "en": "Wish"},
+   "note": {"hi": "मन में आई क्षणिक चाह", "en": "a passing want"},
+   "items": [
+    {"hi": "विचार गंभीर नहीं, केवल क्षणिक", "en": "never serious, only a passing thought"},
+    {"hi": "फिर भी कर्म है, फल आता है", "en": "still an action, and it bears fruit"},
+    {"hi": "अनुभव सिखाता है: \"यह नहीं चाहिए\"", "en": "experience teaches: \"I don't want this\""}
+   ]
+  },
+  {
+   "label": {"hi": "प्रबल इच्छाशक्ति", "en": "Strong willpower"},
+   "note": {"hi": "पूरे मन से प्रयास वाला संकल्प", "en": "a resolve you work for wholeheartedly"},
+   "items": [
+    {"hi": "इच्छा अच्छी है और प्रबल है", "en": "the wish is both good and strong"},
+    {"hi": "प्रोत्साहन देने वाले मिलते जाते हैं", "en": "people keep encouraging and lifting you"},
+    {"hi": "मार्ग स्वयं मिलता चला जाता है", "en": "the path keeps opening up on its own"}
+   ]
+  }
+ ],
+ "vs": true
+}
