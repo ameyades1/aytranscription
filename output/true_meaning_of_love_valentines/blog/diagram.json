@@ -1,0 +1,28 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "हृदय: लेना, देना और निभाना",
+  "en": "Hridaya: Taking, Giving and Staying the Course"
+ },
+ "title": {
+  "hi": "हृदय के तीन अक्षर: प्रेम की परिभाषा",
+  "en": "The Three Syllables of Hridaya: Love Defined"
+ },
+ "items": [
+  {
+   "label": {"hi": "ह (हरति)", "en": "Hri (harati)"},
+   "note": {"hi": "लेना", "en": "to take"},
+   "sub": {"hi": "मैं लोगों को देता हूँ, लोग भी मुझे देते हैं", "en": "I give to people, and people give to me"}
+  },
+  {
+   "label": {"hi": "द (ददाति, दान)", "en": "Da (dadati, dana)"},
+   "note": {"hi": "देना", "en": "to give"},
+   "sub": {"hi": "मैं अपना कुछ देता हूँ, वह भी अपना कुछ विशेष", "en": "I give something of mine, they give something special"}
+  },
+  {
+   "label": {"hi": "य (यम)", "en": "Ya (yam)"},
+   "note": {"hi": "निभाना", "en": "to sustain"},
+   "sub": {"hi": "मरते दम तक यह निभाता रहता हूँ", "en": "I honour this bond until my last breath"}
+  }
+ ]
+}
