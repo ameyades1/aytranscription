@@ -1,0 +1,15 @@
+{
+ "type": "triad",
+ "section": {"hi": "तीन पुर, और एक साक्षी", "en": "Three Cities and One Witness"},
+ "title": {"hi": "चेतना के तीन पुर", "en": "The Three Cities of Consciousness"},
+ "items": [
+  {"label": {"hi": "जागृत अवस्था", "en": "Waking (jagrat)"},
+   "note": {"hi": "शरीर के द्वारा संसार का अनुभव", "en": "experiencing the world through the body"}},
+  {"label": {"hi": "स्वप्न अवस्था", "en": "Dreaming (svapna)"},
+   "note": {"hi": "शरीर कुछ नहीं कर रहा, मन काम कर रहा", "en": "the body does nothing, the mind is at work"}},
+  {"label": {"hi": "सुषुप्ति अवस्था", "en": "Deep sleep (sushupti)"},
+   "note": {"hi": "पूर्ण अंधकार, एक भी विचार नहीं", "en": "complete darkness, not a single thought"}}
+ ],
+ "footer": {"hi": "ये तीनों अवस्थाएं मैं नहीं हूं, इन तीनों का मैं साक्षी हूं।",
+            "en": "I am not these three states. I am the witness of all three."}
+}
