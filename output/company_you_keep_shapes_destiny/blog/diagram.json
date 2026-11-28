@@ -1,0 +1,17 @@
+{
+  "type": "steps",
+  "section": {"hi": "गिरावट कहाँ से शुरू होती है?", "en": "Where Does the Fall Begin?"},
+  "title": {"hi": "सतोगुण की गिरावट कैसे शुरू होती है", "en": "How the fall of sattva begins"},
+  "items": [
+    {"label": {"hi": "गुरु की कृपा से उठना", "en": "Rising by Guru's grace"},
+     "note": {"hi": "जीवन में सुख आने लगता है", "en": "Happiness begins to enter your life"}},
+    {"label": {"hi": "सुख में बँधना", "en": "Bound up in comfort"},
+     "note": {"hi": "साथ में तमोगुण का मोह", "en": "Along with it, the pull of tamas"}},
+    {"label": {"hi": "पुराने रिश्तों की ओर", "en": "Back to old relationships"},
+     "note": {"hi": "अपनी उपलब्धियाँ दिखाने लगते हो", "en": "You start showing your achievements"}},
+    {"label": {"hi": "बुरा लगना", "en": "Resentment"},
+     "note": {"hi": "वे आपके बारे में बुरा बोलते हैं", "en": "They speak ill of you"}},
+    {"label": {"hi": "सतोगुण गिरता है", "en": "Sattva falls"},
+     "note": {"hi": "धीरे-धीरे", "en": "Slowly"}}
+  ]
+}
