@@ -1,0 +1,17 @@
+{
+  "type": "steps",
+  "section": {"hi": "बीच में बैठी छन्नी", "en": "The Filter in the Middle"},
+  "title": {"hi": "आदेश का क्रम: ओंकार से शरीर तक", "en": "The chain of command, Omkara to body"},
+  "items": [
+    {"label": {"hi": "ओंकार", "en": "Omkara"},
+     "note": {"hi": "परमात्मा, जिससे शक्ति आती है", "en": "God, from whom all power flows"}},
+    {"label": {"hi": "वासना", "en": "Vasana"},
+     "note": {"hi": "बीच की छन्नी, राग-द्वेष", "en": "the filter in between, raga-dvesha"}},
+    {"label": {"hi": "बुद्धि", "en": "Intellect"},
+     "note": {"hi": "मन की बॉस", "en": "boss of the mind"}},
+    {"label": {"hi": "मन", "en": "Mind"},
+     "note": {"hi": "शरीर का बॉस", "en": "boss of the body"}},
+    {"label": {"hi": "शरीर", "en": "Body"}}
+  ],
+  "footer": {"hi": "वासना ऊपर का आदेश लेती है पर नीचे ठीक से नहीं पहुँचाती।", "en": "Vasana takes orders from the top but never passes them down faithfully."}
+}
