@@ -1,0 +1,18 @@
+{
+  "type": "steps",
+  "section": {"hi": "क्या छुट्टियाँ सिर्फ़ घूमने के लिए हैं?", "en": "Are Holidays Only for Travel and Fun?"},
+  "title": {"hi": "गणपति से दिवाली तक त्योहारों का क्रम", "en": "The order of festivals, Ganapati to Diwali"},
+  "items": [
+    {"label": {"hi": "गणपति", "en": "Ganapati"},
+     "note": {"hi": "विवेक बुद्धि का जागरण", "en": "Discernment awakens"}},
+    {"label": {"hi": "पितृपक्ष", "en": "Pitru Paksha"},
+     "note": {"hi": "पितरों की मुक्ति", "en": "The ancestors are freed"}},
+    {"label": {"hi": "नवरात्रि", "en": "Navratri"},
+     "note": {"hi": "तीनों गुणों पर अधिकार", "en": "Mastery of the three gunas"}},
+    {"label": {"hi": "नरक चतुर्दशी", "en": "Naraka Chaturdashi"},
+     "note": {"hi": "अंतिम नकारात्मकता मिटती है", "en": "The last negativity is removed"}},
+    {"label": {"hi": "पाडवा", "en": "Padwa"},
+     "note": {"hi": "स्वर्णिम आभा बाँटने की योग्यता", "en": "Worthy of sharing the golden aura"}}
+  ],
+  "footer": {"hi": "हर त्योहार नर से नारायण की ओर एक विराम है।", "en": "Each festival is a pause from Nara towards Narayana, not a vacation."}
+}
