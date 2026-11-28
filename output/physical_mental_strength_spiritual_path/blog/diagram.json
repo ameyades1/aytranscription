@@ -1,0 +1,18 @@
+{
+  "type": "steps",
+  "section": {"hi": "साधना का क्रम: चार सीढ़ियां", "en": "Four Steps on the Path of Practice"},
+  "title": {"hi": "रोगी से मुक्ति तक: चार सीढ़ियां", "en": "From illness to liberation: four steps"},
+  "items": [
+    {"label": {"hi": "रोगी", "en": "Illness"},
+     "note": {"hi": "रोगी अवस्था में मोक्ष नहीं मिलता", "en": "Nobody attains moksha while lying sick"}},
+    {"label": {"hi": "निरोगी", "en": "Health"},
+     "note": {"hi": "शरीर और मन का स्वस्थ होना", "en": "The body and mind become healthy"}},
+    {"label": {"hi": "भोगी", "en": "Enjoyment"},
+     "note": {"hi": "जीवन के भोगों का सच्चा अनुभव", "en": "You truly experience what life offers"}},
+    {"label": {"hi": "सिद्धि", "en": "Siddhi"},
+     "note": {"hi": "शक्ति, सामर्थ्य और विशालता की ओर", "en": "Towards strength, capability and vastness"}},
+    {"label": {"hi": "मुक्ति", "en": "Liberation"},
+     "note": {"hi": "मोक्ष, जो सिद्धियों से भी ऊपर है", "en": "Moksha, beyond even spiritual powers"}}
+  ],
+  "footer": {"hi": "पहली सीढ़ी सबसे आवश्यक है।", "en": "The first step matters most."}
+}
