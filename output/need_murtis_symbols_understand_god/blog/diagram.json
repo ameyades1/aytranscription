@@ -1,0 +1,27 @@
+{
+ "type": "compare",
+ "section": {"hi": "दो ही रास्ते हैं", "en": "Only Two Ways Forward"},
+ "title": {"hi": "ईश्वर से जुड़ने के दो रास्ते", "en": "The Two Ways to Union With God"},
+ "vs": true,
+ "columns": [
+  {
+   "label": {"hi": "पहला रास्ता", "en": "The first way"},
+   "note": {"hi": "अनंत को सीमित रूप में लाना", "en": "bring the infinite into a finite form"},
+   "items": [
+    {"hi": "सीमित, सीमित से संवाद करता है", "en": "the limited speaks with a limited form"},
+    {"hi": "उसी के माध्यम से अनंत तक", "en": "through it, reach the infinite"},
+    {"hi": "यहीं से मूर्ति आती है", "en": "this is where the murti comes in"}
+   ]
+  },
+  {
+   "label": {"hi": "दूसरा रास्ता", "en": "The second way"},
+   "note": {"hi": "स्वयं अनंत बन जाना", "en": "become infinite yourself"},
+   "items": [
+    {"hi": "समाधि अवस्था, अद्वैत", "en": "the state of samadhi, Advaita"},
+    {"hi": "कैवल्य पद, जीवनमुक्त अवस्था", "en": "Kaivalya pada, the jivanmukta state"},
+    {"hi": "स्वयं को शरीर से परे, आत्म तत्व मानना", "en": "knowing yourself as the Atman, beyond the body"}
+   ]
+  }
+ ],
+ "footer": {"hi": "यदि आप उस अवस्था पर नहीं हैं, तो उसे साकार रूप में लाना ही होगा।", "en": "If you have not reached that state, you will need to bring the Divine into a form."}
+}
