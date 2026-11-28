@@ -1,0 +1,25 @@
+{
+ "type": "compare",
+ "section": {"hi": "दो गणेश: ओंकार और विवेक", "en": "Two Ganeshas: Omkara and Discernment"},
+ "title": {"hi": "दो गणेश: ओंकार और विवेक", "en": "Two Ganeshas: Omkara and Discernment"},
+ "columns": [
+  {
+   "label": {"hi": "ओंकार", "en": "Omkara"},
+   "note": {"hi": "असली, ब्रह्म वाला गणेश", "en": "the true Ganesha, the one who is Brahman"},
+   "items": [
+    {"hi": "जो सर्वत्र व्याप्त है", "en": "pervades everything"},
+    {"hi": "परम सत्य", "en": "the ultimate reality"},
+    {"hi": "वहाँ तक हमें स्वयं पहुँचना है", "en": "each of us has to reach it on our own"}
+   ]
+  },
+  {
+   "label": {"hi": "विवेक बुद्धि", "en": "Discernment"},
+   "note": {"hi": "मूलाधार से जुड़ा गणेश", "en": "the Ganesha linked to the Muladhara"},
+   "items": [
+    {"hi": "विनायक वाली बुद्धि", "en": "the wisdom of Vinayaka"},
+    {"hi": "गणों (इंद्रियों) का अधिपति बनने की बुद्धि", "en": "the intelligence that masters the senses"},
+    {"hi": "मूलाधार पर नियंत्रण तक जागती नहीं", "en": "stays asleep until the Muladhara is mastered"}
+   ]
+  }
+ ]
+}
