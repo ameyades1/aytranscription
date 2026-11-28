@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "पहला कदम: जब ऋषियों ने प्रकृति को धन्यवाद कहा",
+  "en": "The First Step: When the Rishis Thanked Nature"
+ },
+ "title": {
+  "hi": "वेद के चार भाग",
+  "en": "The Four Parts of the Veda"
+ },
+ "items": [
+  {
+   "label": {"hi": "मंत्र संहिता", "en": "Mantra Samhita"},
+   "note": {"hi": "परमेश्वर और प्रकृति की स्तुति", "en": "praise of God and nature"}
+  },
+  {
+   "label": {"hi": "ब्राह्मण", "en": "Brahmana"},
+   "note": {"hi": "कृति: यज्ञ, दान और पूजा", "en": "action: yajna, charity and worship"}
+  },
+  {
+   "label": {"hi": "आरण्यक", "en": "Aranyaka"},
+   "note": {"hi": "वन में चिंतन", "en": "reflection in the forest"}
+  },
+  {
+   "label": {"hi": "उपनिषद", "en": "Upanishad"},
+   "note": {"hi": "आत्मा का ज्ञान, अंतिम विद्या", "en": "knowledge of the Self, the final knowledge"}
+  }
+ ]
+}
