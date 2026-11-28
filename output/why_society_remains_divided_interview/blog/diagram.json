@@ -1,0 +1,32 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "तो समाज बंटा क्यों है?",
+  "en": "Why, Then, Does Society Remain Divided?"
+ },
+ "title": {
+  "hi": "हनुमान जी के उत्तर के तीन स्तर",
+  "en": "The Three Levels of Hanuman's Answer"
+ },
+ "items": [
+  {
+   "label": {"hi": "शरीर बोध", "en": "Body-awareness"},
+   "note": {"hi": "आप स्वामी, मैं दास", "en": "You are the master, I am the servant"},
+   "sub": {"hi": "सेवा में दास", "en": "In service, servants"}
+  },
+  {
+   "label": {"hi": "मन और बुद्धि", "en": "Mind and intellect"},
+   "note": {"hi": "आप संपूर्ण, मैं अंश", "en": "You are the whole, I am a part"},
+   "sub": {"hi": "आप समुद्र, मैं बूंद", "en": "You are the ocean, I am a drop"}
+  },
+  {
+   "label": {"hi": "आत्मा", "en": "The Atman"},
+   "note": {"hi": "आप और मैं एक", "en": "You and I are one"},
+   "sub": {"hi": "वही परमेश्वर", "en": "The same Supreme Lord"}
+  }
+ ],
+ "footer": {
+  "hi": "जब तक यह समझ हर वर्ण में नहीं जागती, तब तक प्रेम संभव नहीं।",
+  "en": "Until this understanding awakens in every varna, love cannot take root."
+ }
+}
