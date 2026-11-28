@@ -1,0 +1,21 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "सबकी निवृत्ति आती है",
+  "en": "Everyone Steps Back Eventually"
+ },
+ "title": {
+  "hi": "जीवन के चार आश्रम",
+  "en": "The Four Ashramas of Life"
+ },
+ "items": [
+  {"label": {"hi": "ब्रह्मचर्य", "en": "Brahmacharya"}, "note": {"hi": "शून्य से २५ वर्ष", "en": "Birth to 25"}},
+  {"label": {"hi": "गृहस्थ", "en": "Grihastha"}, "note": {"hi": "२५ से ५० वर्ष", "en": "25 to 50"}},
+  {"label": {"hi": "वानप्रस्थ", "en": "Vanaprastha"}, "note": {"hi": "५० से ७५ वर्ष", "en": "50 to 75"}},
+  {"label": {"hi": "संन्यास", "en": "Sannyasa"}, "note": {"hi": "७५ से १०० वर्ष", "en": "75 to 100"}}
+ ],
+ "footer": {
+  "hi": "ये चारों आश्रम सब वर्णों के लिए हैं।",
+  "en": "All four stages apply to every varna."
+ }
+}
