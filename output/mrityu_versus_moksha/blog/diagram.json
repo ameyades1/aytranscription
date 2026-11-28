@@ -1,0 +1,26 @@
+{
+ "type": "compare",
+ "section": {"hi": "मोक्ष: मोह का क्षय", "en": "Moksha: The Dissolving of Attachment"},
+ "title": {"hi": "मृत्यु और मोक्ष दो अलग चीज़ें", "en": "Death and Moksha Are Two Different Things"},
+ "columns": [
+  {
+   "label": {"hi": "मृत्यु", "en": "Death"},
+   "items": [
+    {"hi": "केवल शरीर चला गया", "en": "only the body has gone"},
+    {"hi": "\"जीना\" शेष रह गया", "en": "the \"living\" is left undone"},
+    {"hi": "अधूरी इच्छाएँ और कामनाएँ बाकी", "en": "unfulfilled wishes and longings remain"},
+    {"hi": "जीव फिर नया शरीर लेकर लौटता है", "en": "the soul returns in a new body"}
+   ]
+  },
+  {
+   "label": {"hi": "मोक्ष", "en": "Moksha"},
+   "note": {"hi": "मोह का क्षय", "en": "the dissolving of attachment"},
+   "items": [
+    {"hi": "जीते जी होता है", "en": "happens while you are still alive"},
+    {"hi": "शरीर रहता है", "en": "the body remains"},
+    {"hi": "\"जीना\" समाप्त हो जाता है", "en": "the \"living\" comes to an end"},
+    {"hi": "व्यक्ति जीवन मुक्त हो जाता है", "en": "the person becomes jivan mukta"}
+   ]
+  }
+ ]
+}

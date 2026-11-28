@@ -1,0 +1,21 @@
+{
+ "type": "triad",
+ "section": {"hi": "तीन देवियाँ, तीन गुण", "en": "Three Goddesses, Three Gunas"},
+ "title": {"hi": "तीन देवियाँ, तीन गुण", "en": "Three Goddesses, Three Gunas"},
+ "items": [
+  {"label": {"hi": "महासरस्वती", "en": "Mahasaraswati"},
+   "note": {"hi": "सत्त्व, श्वेत रंग", "en": "sattva, the colour white"},
+   "sub": {"hi": "ज्ञान, विवेक, शांति", "en": "knowledge, discernment, peace"},
+   "color": "white"},
+  {"label": {"hi": "महालक्ष्मी", "en": "Mahalakshmi"},
+   "note": {"hi": "रजस, लाल रंग", "en": "rajas, the colour red"},
+   "sub": {"hi": "क्रिया, भाग-दौड़", "en": "action, hustle"},
+   "color": "red"},
+  {"label": {"hi": "महाकाली", "en": "Mahakali"},
+   "note": {"hi": "तमस, काला रंग", "en": "tamas, the colour black"},
+   "sub": {"hi": "विश्राम, संहार, रक्षा", "en": "rest, destruction, protection"},
+   "color": "black"}
+ ],
+ "footer": {"hi": "किसी एक गुण से जीवन नहीं चलता; इसीलिए अकेली देवी अधूरी मानी जाती है।",
+            "en": "No single guna can run a life; a goddess on her own is incomplete."}
+}

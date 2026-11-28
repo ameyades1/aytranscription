@@ -1,0 +1,14 @@
+{
+ "type": "combine",
+ "section": {"hi": "उनचास गुना भार", "en": "A Burden Forty-Nine Times Over"},
+ "title": {"hi": "पितरों के कर्म का उनचास गुना भार", "en": "Ancestral Karma, Forty-Nine Times Over"},
+ "parts": [
+  {"label": {"hi": "सात पीढ़ियां", "en": "Seven generations"},
+   "note": {"hi": "क्षैतिज प्रवास: एक जन्म में पीढ़ियों का फैलाव", "en": "horizontal journey: generations within a single life"}},
+  {"label": {"hi": "सात जन्म", "en": "Seven lifetimes"},
+   "note": {"hi": "ऊर्ध्व प्रवास: जन्म-जन्मांतर की श्रृंखला", "en": "vertical journey: one life after another"}}
+ ],
+ "result": {"label": {"hi": "उनचास गुना भार", "en": "Forty-nine times over"},
+   "note": {"hi": "पितरों का नकारात्मक कर्म हर मनुष्य के सिर पर", "en": "the negative karma of ancestors every person carries"}},
+ "footer": {"hi": "इसीलिए एक बार का श्राद्ध पर्याप्त नहीं; पितरों को मुक्त करना आपका ही दायित्व है।", "en": "That is why a single shraddha is not enough; freeing your ancestors is your own responsibility."}
+}

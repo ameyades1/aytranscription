@@ -234,6 +234,9 @@ img { max-width: 100%; display: block; }
 .ay-diagram .ay-result { margin-top: 2.2rem; position: relative; background: var(--ay-accent); border-color: var(--ay-accent); color: #fff; }
 .ay-diagram .ay-result::before { content: "↓"; position: absolute; left: 50%; top: -1.95rem; transform: translateX(-50%); color: var(--ay-accent); font-size: 1.5rem; line-height: 1; }
 .ay-diagram .ay-result > p + p { color: #f3e6d6; }
+.ay-steps .wp-block-columns { gap: 1.6rem; }
+.ay-steps .wp-block-column { position: relative; }
+.ay-steps .wp-block-column:not(:last-child)::after { content: "→"; position: absolute; right: -.8rem; top: 50%; transform: translate(50%, -50%); color: var(--ay-accent); font-size: 1.4rem; font-weight: 700; }
 .ay-diagram .c-white { background: #fff; border-color: #c9bfb0; }
 .ay-diagram .c-red { background: #9e2a22; border-color: #9e2a22; color: #fff; }
 .ay-diagram .c-black { background: #231d1a; border-color: #231d1a; color: #fff; }
@@ -246,4 +249,6 @@ img { max-width: 100%; display: block; }
   .ay-diagram .ay-vs { text-align: center; }
   .ay-combine .wp-block-column:first-child::after { right: 50%; top: auto; bottom: -.4rem; transform: translate(50%, 100%); }
   .ay-combine .wp-block-columns { gap: 2rem; }
+  .ay-steps .wp-block-columns { gap: 2rem; }
+  .ay-steps .wp-block-column:not(:last-child)::after { content: "↓"; right: 50%; top: auto; bottom: -1rem; transform: translate(50%, 100%); }
 }

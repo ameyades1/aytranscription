@@ -13,12 +13,13 @@ Usage: python3 tools/diagram.py <talk> [hi|en]   prints the Markdown (to check a
 
 The spec; every text is {"hi": ..., "en": ...}, taken from the blog itself (never anything the
 talk does not say); "note", "sub", "footer" and "vs" are optional; there is no caption:
-  {"type": "combine" | "compare" | "triad",
+  {"type": "combine" | "compare" | "triad" | "steps",
    "section": {hi, en}   the ORIGINAL blog's ## heading the diagram goes after (as in images.txt),
    "title": {hi, en}, "footer": {hi, en}   (one closing line; only when it adds what the boxes do not say),
    combine: "parts": [{"label", "note"}, {"label", "note"}], "result": {"label", "note"}
    compare: "columns": [{"label", "note", "items": [...]}, {...}], "vs": true (an "or" between them)
-   triad:   "items": [{"label", "note", "sub", "color": "white|red|black"}, x3]}
+   triad:   "items": [{"label", "note", "sub", "color": "white|red|black"}, x3]
+   steps:   "items": [{"label", "note"}, ...]   (2 to 5, in order; drawn with arrows between)}
 
 Structure (Markdown fence = HTML element):
   ::: ay-diagram ay-<type>              <div class="wp-block-group ay-diagram ay-<type>">
@@ -71,6 +72,8 @@ def tree(spec, lang):
     elif k == 'triad':
         kids.append(('columns', '', [('column', f'ay-box c-{n["color"]}' if n.get('color') else 'ay-box', box(n))
                                       for n in spec['items']]))
+    elif k == 'steps':
+        kids.append(('columns', '', [('column', 'ay-box', box(n)) for n in spec['items']]))
     else:
         sys.exit(f'unknown diagram type {k}')
     if spec.get('footer'):

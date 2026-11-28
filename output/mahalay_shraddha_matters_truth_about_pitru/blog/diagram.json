@@ -1,0 +1,53 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "तो फिर महालय श्राद्ध क्यों?",
+  "en": "Why Mahalaya Shraddha, Then?"
+ },
+ "title": {
+  "hi": "ऋषियों की बनाई श्राद्ध व्यवस्था",
+  "en": "The Order of Shraddha the Sages Set Up"
+ },
+ "items": [
+  {
+   "label": {
+    "hi": "एकोद्दिष्ट श्राद्ध",
+    "en": "Ekoddishta shraddha"
+   },
+   "note": {
+    "hi": "देह छोड़ते ही, एक व्यक्ति के उद्देश्य से",
+    "en": "right after death, for that one person"
+   }
+  },
+  {
+   "label": {
+    "hi": "मासिक श्राद्ध",
+    "en": "Masik shraddha"
+   }
+  },
+  {
+   "label": {
+    "hi": "वार्षिक श्राद्ध",
+    "en": "Varshik shraddha"
+   },
+   "note": {
+    "hi": "तीन वर्ष तक उसी तिथि पर",
+    "en": "on the same date for three years"
+   }
+  },
+  {
+   "label": {
+    "hi": "महालय श्राद्ध",
+    "en": "Mahalaya Shraddha"
+   },
+   "note": {
+    "hi": "पितृ पक्ष में सारे पूर्वजों का एक साथ",
+    "en": "all the ancestors together in Pitru Paksha"
+   }
+  }
+ ],
+ "footer": {
+  "hi": "इससे किसी का कोई पूर्वज छूटता नहीं।",
+  "en": "Nobody's ancestor is left out."
+ }
+}

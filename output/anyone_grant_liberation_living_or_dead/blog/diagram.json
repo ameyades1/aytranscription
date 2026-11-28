@@ -1,0 +1,25 @@
+{
+ "type": "compare",
+ "section": {"hi": "मोक्ष क्या है?", "en": "What Is Liberation?"},
+ "title": {"hi": "मृत्यु और मोक्ष में अंतर", "en": "The Difference Between Death and Liberation"},
+ "columns": [
+  {
+   "label": {"hi": "मृत्यु", "en": "Death"},
+   "items": [
+    {"hi": "शरीर छूट जाता है", "en": "the body falls away"},
+    {"hi": "मन अब भी जीवित है", "en": "the mind lives on"},
+    {"hi": "वासनाएँ और संस्कार साथ जाते हैं", "en": "cravings and conditioning go with it"}
+   ]
+  },
+  {
+   "label": {"hi": "मोक्ष", "en": "Liberation"},
+   "note": {"hi": "जीवन्मुक्त", "en": "the jivanmukta"},
+   "items": [
+    {"hi": "शरीर रहता है", "en": "the body remains"},
+    {"hi": "जीना समाप्त हो जाता है", "en": "the living comes to an end"},
+    {"hi": "इच्छा, वासना, कोई समस्या शेष नहीं", "en": "no desire, no craving, no problem remains"}
+   ]
+  }
+ ],
+ "footer": {"hi": "इसलिए \"मरने के बाद मोक्ष\" की धारणा ही गलत है।", "en": "That is why the idea of \"liberation after death\" is mistaken."}
+}

@@ -7,7 +7,7 @@ WordPress. Full pipeline: [WORKFLOW.md](WORKFLOW.md).
 ## Pipeline
 
 `/blog` → `tools/check_hindi_register.py` (`/hindi_register` if it flags words) → (`/dequote`, `/review_blog`) → `/seo_blog` → `/seo_blog_fix` → `tools/check_seo.py`
-+ `tools/verify_seo_fix.py` → `/imageplan` + images → `tools/rebuild_blogs.sh` →
++ `tools/verify_seo_fix.py` → `/diagram` (most talks: none) + `/imageplan` + images → `tools/rebuild_blogs.sh` →
 `./publish_wordpress.sh` → commit and push `output/`.
 
 `/chapter` (optional) writes a book chapter from the same transcripts.
