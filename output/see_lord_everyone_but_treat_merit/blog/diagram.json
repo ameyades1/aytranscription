@@ -1,0 +1,24 @@
+{
+ "type": "compare",
+ "section": {"hi": "देखना और बर्ताव करना, दो अलग बातें", "en": "Seeing and Behaving Are Not the Same"},
+ "title": {"hi": "देखना और बर्ताव करना", "en": "Seeing and Behaving"},
+ "columns": [
+  {
+   "label": {"hi": "देखना", "en": "Seeing"},
+   "note": {"hi": "समदर्शन, समान दृष्टि", "en": "samadarshan, equal vision"},
+   "items": [
+    {"hi": "सबमें एक ही परमात्मा", "en": "the same Supreme Being in all"},
+    {"hi": "कुत्ते में भी भगवान, मंत्री में भी", "en": "God in a dog and in a minister"}
+   ]
+  },
+  {
+   "label": {"hi": "बर्ताव", "en": "Behaving"},
+   "note": {"hi": "treat on merit", "en": "treat on merit"},
+   "items": [
+    {"hi": "जिसकी जो योग्यता, उसके अनुसार", "en": "according to what each deserves"},
+    {"hi": "दोनों को एक ही थाली नहीं", "en": "not the same plate for both"}
+   ]
+  }
+ ],
+ "footer": {"hi": "भगवान एक समान दिखना चाहिए, बर्ताव योग्यता से होगा।", "en": "See God equally in all; behaviour always depends on merit."}
+}
