@@ -1,0 +1,22 @@
+{
+ "type": "compare",
+ "section": {"hi": "विज्ञान और धर्म: एक उल्टा दर्पण", "en": "Science and Religion: A Mirror Image"},
+ "title": {"hi": "विज्ञान और धर्म: एक उल्टा दर्पण", "en": "Science and Religion: A Mirror Image"},
+ "columns": [
+  {
+   "label": {"hi": "सामान्य विज्ञान", "en": "Ordinary Science"},
+   "items": [
+    {"hi": "पुस्तक में शास्त्र होता है", "en": "the textbook holds the knowledge"},
+    {"hi": "शिक्षक के पास प्रतीक होते हैं", "en": "the teacher uses symbols to explain it"}
+   ]
+  },
+  {
+   "label": {"hi": "हमारे धर्म", "en": "Our Religious Traditions"},
+   "items": [
+    {"hi": "ग्रंथ में सब कुछ प्रतीकात्मक है", "en": "everything in the scriptures is symbolic"},
+    {"hi": "गुरु के पास असली ज्ञान और अनुभूति", "en": "the Guru holds the real knowledge and direct experience"}
+   ]
+  }
+ ],
+ "footer": {"hi": "प्रतीक की कुंजी गुरु के अनुभव में है।", "en": "The key to the symbols lies in the Guru's experience."}
+}
