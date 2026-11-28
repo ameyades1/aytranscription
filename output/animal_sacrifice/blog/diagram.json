@@ -1,0 +1,26 @@
+{
+ "type": "compare",
+ "section": {"hi": "कौन सा यज्ञ? कौन सा कुंड?", "en": "Which Sacrifice, and Which Fire Pit?"},
+ "title": {"hi": "द्रव्ययज्ञ और ज्ञानयज्ञ (गीता ४.३३)", "en": "Dravya Yajna and Jnana Yajna (Gita 4.33)"},
+ "columns": [
+  {
+   "label": {"hi": "द्रव्ययज्ञ", "en": "Dravya yajna"},
+   "note": {"hi": "बाहर का यज्ञ", "en": "the outer sacrifice"},
+   "items": [
+    {"hi": "जीवन में जो कुछ आपने किया", "en": "everything you have done in your life"},
+    {"hi": "सीमा पर खड़े सैनिक का रणयज्ञ", "en": "a soldier's rana yajna at the border"},
+    {"hi": "बाहर जो कुछ अग्नि में डालते हो", "en": "everything you pour into the outer fire"}
+   ]
+  },
+  {
+   "label": {"hi": "ज्ञानयज्ञ", "en": "Jnana yajna"},
+   "note": {"hi": "द्रव्ययज्ञ से कहीं ऊँचा", "en": "far, far above dravya yajna"},
+   "items": [
+    {"hi": "अग्नि: गुरु और शिष्य की तीव्र अभिलाषा", "en": "fire: the burning desire of Guru and disciple"},
+    {"hi": "समिधा: अज्ञान, अंधकार और अहंकार", "en": "samidha: ignorance, darkness and ego"},
+    {"hi": "संपूर्ण कर्म ज्ञान में समाप्त होते हैं", "en": "all action finds its completion in knowledge"}
+   ]
+  }
+ ],
+ "footer": {"hi": "भीतर का पशु इसी ज्ञानयज्ञ की अग्नि में अर्पित होता है।", "en": "The animal within is offered in this fire of jnana yajna."}
+}
