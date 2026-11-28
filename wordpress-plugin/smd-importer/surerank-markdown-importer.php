@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Markdown Blog Importer
  * Description: Import Markdown blog posts with front matter, formatting, images, taxonomy and SEO metadata (written to SureRank, Yoast SEO, Rank Math or All in One SEO, whichever is active), one language or two at a time, linked as translations with Polylang. Creates posts as Pending Review; never publishes.
- * Version: 3.1.0
+ * Version: 3.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Site Admin
@@ -44,6 +44,7 @@ class SMD_Markdown_Importer {
         add_filter('the_content', [$this, 'hide_unpublished_links'], 20);
         add_action('transition_post_status', function() { $this->link_status = []; });
         add_action('wp_head', [$this, 'head']);
+        add_action('wp_head', [$this, 'diagram_css']);
     }
 
     public function menu() {
@@ -599,6 +600,50 @@ class SMD_Markdown_Importer {
         <?php
     }
 
+    /** Styles for the text diagrams (::: ay-diagram groups), on posts that have one. Same rules as tools/template/blog.css in the repo. */
+    public function diagram_css() {
+        if (!is_singular() || strpos((string) get_post_field('post_content', get_queried_object_id()), 'ay-diagram') === false) return;
+        ?>
+<style id="smd-diagram">
+.ay-diagram { --ay-ink: #2b2520; --ay-muted: #6f6253; --ay-accent: #7a4a1c; --ay-gold: #c0975a; --ay-rule: #e9dcc8; --ay-panel: #faf5ec;
+  margin: 2rem 0; padding: 1.4rem 1.2rem 1rem; box-sizing: border-box; border: 1px solid var(--ay-rule); border-radius: 14px; color: var(--ay-ink);
+  font-size: 1.05rem; line-height: 1.5; }
+.wp-block-group.ay-diagram.ay-diagram { padding: 1.4rem 1.2rem 1rem; margin: 2rem 0; }  /* beats themes' .entry-content > .wp-block-group */
+.ay-diagram strong { color: inherit; font-weight: 700; }
+.ay-diagram em { color: inherit; }
+.ay-diagram p { margin: 0; line-height: 1.5; }
+.ay-diagram > p:first-child { text-align: center; color: var(--ay-accent); font-size: 1.2rem; margin-bottom: 1.1rem; }
+.ay-diagram .wp-block-columns { display: flex; gap: .8rem; align-items: stretch; margin: 0; }
+.ay-diagram .wp-block-column { flex: 1 1 0; min-width: 0; margin: 0; }
+.ay-diagram .ay-box, .ay-diagram .ay-result { background: var(--ay-panel); border: 1.5px solid var(--ay-gold); border-radius: 10px; padding: .8rem .9rem; text-align: center; }
+.ay-diagram .ay-box > p:first-child, .ay-diagram .ay-result > p:first-child { font-size: 1.1rem; }
+.ay-diagram .ay-box > p + p, .ay-diagram .ay-result > p + p { color: var(--ay-muted); font-size: .95rem; margin-top: .25rem; }
+.ay-diagram .ay-box ul { text-align: left; margin: .6rem 0 0; padding: .6rem 0 0 1.2rem; border-top: 1px solid var(--ay-rule); font-size: .95rem; line-height: 1.5; }
+.ay-diagram .ay-alt { background: #fff; border-color: var(--ay-rule); }
+.ay-diagram .ay-vs { flex: 0 0 auto; align-self: center; color: var(--ay-accent); font-weight: 700; }
+.ay-combine .wp-block-columns { position: relative; }
+.ay-combine .wp-block-column:first-child { position: relative; }
+.ay-combine .wp-block-column:first-child::after { content: "+"; position: absolute; right: -.62rem; top: 50%; transform: translate(50%, -50%); color: var(--ay-accent); font-size: 1.5rem; font-weight: 700; }
+.ay-diagram .ay-result { margin-top: 2.2rem; position: relative; background: var(--ay-accent); border-color: var(--ay-accent); color: #fff; }
+.ay-diagram .ay-result::before { content: "↓"; position: absolute; left: 50%; top: -1.95rem; transform: translateX(-50%); color: var(--ay-accent); font-size: 1.5rem; line-height: 1; }
+.ay-diagram .ay-result > p + p { color: #f3e6d6; }
+.ay-diagram .c-white { background: #fff; border-color: #c9bfb0; }
+.ay-diagram .c-red { background: #9e2a22; border-color: #9e2a22; color: #fff; }
+.ay-diagram .c-black { background: #231d1a; border-color: #231d1a; color: #fff; }
+.ay-diagram .c-red > p + p, .ay-diagram .c-black > p + p { color: rgba(255, 255, 255, .85); }
+.ay-diagram .ay-box > p:nth-child(3) { margin-top: .5rem; padding-top: .45rem; border-top: 1px dashed currentColor; }
+.ay-diagram .ay-footer { margin-top: 1rem; padding: 0; text-align: center; font-size: 1rem; color: var(--ay-accent); font-style: italic; }
+.ay-diagram .ay-footer p:lang(hi), .ay-diagram:lang(hi) .ay-footer { font-style: normal; }
+@media (max-width: 640px) {
+  .ay-diagram .wp-block-columns { flex-direction: column; }
+  .ay-diagram .ay-vs { text-align: center; }
+  .ay-combine .wp-block-column:first-child::after { right: 50%; top: auto; bottom: -.4rem; transform: translate(50%, 100%); }
+  .ay-combine .wp-block-columns { gap: 2rem; }
+}
+</style>
+        <?php
+    }
+
     /** The supported SEO plugins that are active, by name. */
     private function active_seo_plugins() {
         $found = [];
@@ -869,9 +914,10 @@ class SMD_Markdown_Importer {
         };
         foreach ($lines as $line) {
             $trim = trim($line);
-            if (preg_match('/^:::\s*([A-Za-z0-9_-]*)$/', $trim, $m)) {
+            if (preg_match('/^:::\s*([A-Za-z0-9_ -]*)$/', $trim, $m)) {
                 $flush();
-                if ($m[1] === '' && count($stack) > 1) { $add_to = array_pop($stack); $stack[count($stack) - 1][] = $this->group(array_pop($groups), $add_to); }
+                $m[1] = trim($m[1]);
+                if ($m[1] === '' && count($stack) > 1) { $add_to = array_pop($stack); $stack[count($stack) - 1][] = $this->container(array_pop($groups), $add_to); }
                 else { $stack[] = []; $groups[] = $m[1]; }
                 continue;
             }
@@ -897,7 +943,7 @@ class SMD_Markdown_Importer {
             $paragraph[] = ltrim($line);
         }
         $flush();
-        while (count($stack) > 1) { $inner = array_pop($stack); $stack[count($stack) - 1][] = $this->group(array_pop($groups), $inner); }
+        while (count($stack) > 1) { $inner = array_pop($stack); $stack[count($stack) - 1][] = $this->container(array_pop($groups), $inner); }
         return implode("\n\n", $stack[0]);
     }
 
@@ -905,6 +951,21 @@ class SMD_Markdown_Importer {
     private function block($name, $attrs, $html) {
         $json = $attrs ? ' ' . serialize_block_attributes($attrs) : '';
         return "<!-- wp:$name$json -->\n$html\n<!-- /wp:$name -->";
+    }
+
+    /**
+     * The block for a ::: fence: "columns" a Columns block, "column <classes>" a Column, "ay-..." a plain
+     * Group with those classes (text diagrams, styled by diagram_css()), anything else a boxed group().
+     */
+    private function container($class, $blocks) {
+        $inner = implode("\n\n", $blocks);
+        if ($class === 'columns') return $this->block('columns', [], '<div class="wp-block-columns">' . $inner . '</div>');
+        if (preg_match('/^column(?:\s+(.+))?$/', $class, $m)) {
+            $c = $m[1] ?? '';
+            return $this->block('column', $c !== '' ? ['className' => $c] : [], '<div class="wp-block-column' . ($c !== '' ? ' ' . esc_attr($c) : '') . '">' . $inner . '</div>');
+        }
+        if (strpos($class, 'ay-') === 0) return $this->block('group', ['className' => $class, 'layout' => ['type' => 'constrained']], '<div class="wp-block-group ' . esc_attr($class) . '">' . $inner . '</div>');
+        return $this->group($class, $blocks);
     }
 
     /** A group with a 1px border, rounded corners and padding, all saved on the block, so it is boxed in any theme. */

@@ -1,0 +1,65 @@
+{
+ "type": "compare",
+ "section": {
+  "hi": "वास्तविक कर्ता",
+  "en": "The True Doer"
+ },
+ "title": {
+  "hi": "हर कर्म के दो कारण",
+  "en": "The Two Causes of Every Action"
+ },
+ "columns": [
+  {
+   "label": {
+    "hi": "उपादान कारण",
+    "en": "Material cause"
+   },
+   "note": {
+    "hi": "जिससे वस्तु बनती है",
+    "en": "what a thing is made of"
+   },
+   "items": [
+    {
+     "hi": "मिट्टी, पानी, चाक",
+     "en": "clay, water, the wheel"
+    },
+    {
+     "hi": "कुम्हार का शरीर",
+     "en": "the potter's body"
+    },
+    {
+     "hi": "मन, बुद्धि, इच्छा, योजना",
+     "en": "mind, intellect, desire, planning"
+    },
+    {
+     "hi": "मन की स्थिति (मूड)",
+     "en": "the state of mind (mood)"
+    }
+   ]
+  },
+  {
+   "label": {
+    "hi": "निमित्त कारण",
+    "en": "Efficient cause"
+   },
+   "note": {
+    "hi": "जो बनाता है",
+    "en": "the one who makes it"
+   },
+   "items": [
+    {
+     "hi": "पहले लगा: कुम्हार",
+     "en": "at first: the potter"
+    },
+    {
+     "hi": "अंत में: अहंकार से ऊपर का तत्व, गणपति",
+     "en": "in the end: the principle above the ego, Lord Ganesha"
+    }
+   ]
+  }
+ ],
+ "footer": {
+  "hi": "वेदांत एक-एक करके सब कुछ उपादान की ओर रखता जाता है; निमित्त की ओर बहुत कम बचता है।",
+  "en": "Vedanta moves one thing after another to the material side; very little is left on the other."
+ }
+}

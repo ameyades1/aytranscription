@@ -30,6 +30,8 @@ import re
 import sys
 import zipfile
 
+import diagram  # tools/diagram.py
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f'{REPO}/output'
 
@@ -136,6 +138,13 @@ def build(talk, lang='en'):
             cap = seo.get('caption', {}).get(f, {}).get(lang, '')
             files[f'assets/{f}'] = src
             after.setdefault(i, []).append(f'![{md_text(alt)}](assets/{f}' + (f' {q(cap)})' if cap else ')'))
+    spec = diagram.load(talk)  # the text diagram: ::: fences the importer turns into blocks
+    if spec:
+        i = section_index(talk, spec['section']['en'], spec['section']['hi'], original=True)
+        if i is None:
+            print('Note: no place for the diagram', file=sys.stderr)
+        else:
+            after.setdefault(i, []).append(diagram.markdown(spec, lang))
     also = seo.get('also_read')
     if also:
         i = section_index(talk, also['after'].get('en'), also['after'].get('hi'), original=False)

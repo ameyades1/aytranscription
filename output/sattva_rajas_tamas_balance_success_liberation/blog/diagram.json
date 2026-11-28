@@ -1,0 +1,62 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "तो क्या तीनों गुण छोड़ दें?",
+  "en": "Should You Give Up All Three Gunas, Then?"
+ },
+ "title": {
+  "hi": "तीनों गुणों की आवश्यकता",
+  "en": "Why Life Needs All Three Gunas"
+ },
+ "items": [
+  {
+   "label": {
+    "hi": "सत्व",
+    "en": "Sattva"
+   },
+   "note": {
+    "hi": "ज्ञान पाने के लिए",
+    "en": "to gain knowledge"
+   },
+   "sub": {
+    "hi": "महासरस्वती · श्वेत",
+    "en": "Mahasaraswati · white"
+   },
+   "color": "white"
+  },
+  {
+   "label": {
+    "hi": "रजस",
+    "en": "Rajas"
+   },
+   "note": {
+    "hi": "कर्म करने के लिए",
+    "en": "to act"
+   },
+   "sub": {
+    "hi": "लक्ष्मी · लाल",
+    "en": "Lakshmi · red"
+   },
+   "color": "red"
+  },
+  {
+   "label": {
+    "hi": "तमस",
+    "en": "Tamas"
+   },
+   "note": {
+    "hi": "विश्राम और संहार के लिए",
+    "en": "to rest, or to bring an end"
+   },
+   "sub": {
+    "hi": "काली · काला",
+    "en": "Kali · black"
+   },
+   "color": "black"
+  }
+ ],
+ "footer": {
+  "hi": "असली कला: किस स्थान पर, किस समय, कौन-सा गुण प्रधान हो।",
+  "en": "The real art: which guna should lead, in which place and at which time."
+ }
+}

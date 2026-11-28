@@ -1,0 +1,47 @@
+{
+ "type": "combine",
+ "section": {
+  "hi": "भीतर और बाहर का संयोग",
+  "en": "Where the Inner Meets the Outer"
+ },
+ "title": {
+  "hi": "कर्म कैसे होता है",
+  "en": "How Action Arises"
+ },
+ "parts": [
+  {
+   "label": {
+    "hi": "भीतर का गुण",
+    "en": "The guna within you"
+   },
+   "note": {
+    "hi": "इस क्षण आपमें प्रधान गुण",
+    "en": "the guna dominant in you at this moment"
+   }
+  },
+  {
+   "label": {
+    "hi": "बाहर का गुण",
+    "en": "The guna around you"
+   },
+   "note": {
+    "hi": "स्थान और वस्तुओं का गुण",
+    "en": "the quality of the place and the things in it"
+   }
+  }
+ ],
+ "result": {
+  "label": {
+   "hi": "कर्म",
+   "en": "Action"
+  },
+  "note": {
+   "hi": "पर अहंकार कहता है: \"मैं कर्ता हूँ\" (गीता ३.२७)",
+   "en": "yet ego says, \"I am the doer\" (Gita 3.27)"
+  }
+ },
+ "footer": {
+  "hi": "बाहर की प्रकृति आपके हाथ में नहीं; अपने गुण बदलना आपका कर्तव्य है।",
+  "en": "You cannot change the nature outside you; changing your own gunas is your duty."
+ }
+}

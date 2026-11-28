@@ -148,6 +148,15 @@ Image generators, all reading `tools/image_plan.md`:
   `tools/image-env/bin/python`.
 - `tools/openrouter_image.py`: OpenRouter.
 
+**Text diagrams (optional, pilot).** A talk whose teaching has a clear structure can get a small
+diagram from `output/<name>/blog/diagram.json` (types `combine`, `compare`, `triad`; every label
+taken from the blog, in Hindi and English; format in `tools/diagram.py`). It is text, not an image:
+`blog_page.py` puts it at the end of its section as HTML, and `make_post_zip.py` writes it as
+`:::` fences that the importer plugin (3.2.0+) turns into native blocks (Group, Columns, Column,
+Paragraph, List) with `ay-*` classes, so reviewers can edit it in the block editor. The look is the
+`.ay-diagram` rules in `tools/template/blog.css`, repeated in the plugin's `diagram_css()`; change both.
+`python3 tools/diagram.py <name> [hi|en]` prints the Markdown to check a spec.
+
 ### 9. Rebuild pages: `tools/rebuild_blogs.sh`
 
 ```bash
@@ -180,7 +189,7 @@ Uses the local WordPress in `~/wordpress` (outside this repo), set up bilingual 
 Nothing is committed and nothing goes to the live site.
 
 For the live site, `tools/make_post_zip.py <talk> [dir] [--lang both|en|hi]` builds an upload zip
-for the **smd-importer** plugin in `wordpress-plugin/smd-importer/` (3.0.0): by default `en.md` and
+for the **smd-importer** plugin in `wordpress-plugin/smd-importer/` (3.2.0): by default `en.md` and
 `hi.md` with the shared images, which one upload imports as two posts linked as translations
 (Polylang). The plugin is SEO-plugin neutral (SureRank, Yoast, Rank Math, AIOSEO), draws the
 हिन्दी / English switch in each translated post, and has a `wp smd import` command. See its

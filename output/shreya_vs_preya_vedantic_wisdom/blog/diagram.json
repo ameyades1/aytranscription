@@ -1,0 +1,70 @@
+{
+ "type": "compare",
+ "vs": true,
+ "section": {
+  "hi": "श्रेय और प्रेय: जो सही है बनाम जो अच्छा लगता है",
+  "en": "Shreya and Preya: What Is Right Versus What Feels Good"
+ },
+ "title": {
+  "hi": "मनुष्य के सामने दो मार्ग (कठोपनिषद १.२.२)",
+  "en": "Two Paths Before Every Person (Katha Upanishad 1.2.2)"
+ },
+ "columns": [
+  {
+   "label": {
+    "hi": "श्रेय",
+    "en": "Shreya"
+   },
+   "note": {
+    "hi": "जो श्रेष्ठ है",
+    "en": "the good"
+   },
+   "items": [
+    {
+     "hi": "शास्त्र जिसे आदर्श और कर्तव्य बताते हैं",
+     "en": "what the scriptures call the ideal and your duty"
+    },
+    {
+     "hi": "सात्विक व्यक्ति इसे चुनता है",
+     "en": "chosen by a sattvic person"
+    },
+    {
+     "hi": "फल: सुख, ज्ञान और वैराग्य",
+     "en": "fruit: happiness, knowledge and detachment"
+    },
+    {
+     "hi": "नर से नारायण की ओर",
+     "en": "from nara towards Narayana"
+    }
+   ]
+  },
+  {
+   "label": {
+    "hi": "प्रेय",
+    "en": "Preya"
+   },
+   "note": {
+    "hi": "जो प्रिय लगता है",
+    "en": "the pleasant"
+   },
+   "items": [
+    {
+     "hi": "जो मुझे केवल प्रिय लगता है",
+     "en": "whatever I merely like"
+    },
+    {
+     "hi": "रजस और तमस वाले इसके पीछे चलते हैं",
+     "en": "chased by people driven by rajas and tamas"
+    },
+    {
+     "hi": "इसके लिए किसी उद्देश्य की जरूरत नहीं",
+     "en": "needs no goal at all"
+    },
+    {
+     "hi": "पतन अपने आप होता है",
+     "en": "the fall takes care of itself"
+    }
+   ]
+  }
+ ]
+}

@@ -39,7 +39,9 @@ import sys
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))  # tools/, for diagram.py
 from md_to_html import FONTS, convert  # noqa: E402
+import diagram  # noqa: E402  (tools/diagram.py)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -227,6 +229,18 @@ def alt_text(seo, file, lang, default):
     return seo.get('alt', {}).get(file, {}).get(lang) or default
 
 
+def place_diagram(body, lang, out_dir, orig_heads=None):
+    """The talk's text diagram (blog/diagram.json, see tools/diagram.py) at the end of its section."""
+    spec = diagram.load(os.path.basename(os.path.dirname(os.path.abspath(out_dir))))
+    if not spec:
+        return body
+    pos = section_end(body, spec['section'], lang, orig_heads)
+    if pos is None:
+        print(f"Note: section '{spec['section'][lang]}' not found for the diagram ({lang}), left out", file=sys.stderr)
+        return body
+    return body[:pos] + diagram.html(spec, lang) + body[pos:]
+
+
 def place_images(body, lang, out_dir, orig_heads=None, seo=None):
     for img in read_images(out_dir):
         if not os.path.exists(os.path.join(out_dir, 'assets', img['file'])):
@@ -349,6 +363,7 @@ def build_lang(path, out_dir, video, other_lang, orig_heads=None):
     body = place_images(body, lang, out_dir, orig_heads, seo)
     page_title = seo.get('title', {}).get(lang) or f'{title} | Antar Yog Foundation'
     body = link_phrases(body, seo.get('links', []), lang, out_dir)
+    body = place_diagram(body, lang, out_dir, orig_heads)  # after the links, so none goes inside it
     if seo.get('also_read'):
         body = also_read_box(body, seo['also_read'], lang, out_dir, orig_heads, T)
     hero = hero_image(out_dir)

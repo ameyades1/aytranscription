@@ -20,6 +20,7 @@ Errors:
     the importer place images and the Also read box by section position when a heading is reworded)
   - an inline image's section heading (images.txt) is in neither original text, so the importer
     would leave the image out of the WordPress post
+  - the diagram's section (blog/diagram.json) is not a heading of the original texts, in each language
 Warnings (the report and seo_fix.md must agree with seo.json, which is what gets published):
   - the report's section 3 or section 8 (schema) does not show seo.json's slug, title or meta
     description, for each language
@@ -94,6 +95,14 @@ def verify(talk):
                 if en not in orig['en'] and hi not in orig['hi']:
                     err.append(f'images.txt: no original heading for {f} (English "{en}", Hindi "{hi}"); '
                                'WordPress would leave it out')
+
+    # text diagram: placed the same way, after its section of the original texts
+    spec = os.path.join(blog, 'diagram.json')
+    if os.path.exists(spec):
+        sec = json.load(open(spec, encoding='utf-8')).get('section', {})
+        for lang in ('hi', 'en'):
+            if sec.get(lang) not in orig.get(lang, []):
+                err.append(f'diagram.json: no original heading "{sec.get(lang)}" ({lang}); the diagram would be left out')
 
     seo = json.load(open(seo_path, encoding='utf-8'))
     report = open(os.path.join(blog, 'seo_report.md'), encoding='utf-8').read()
