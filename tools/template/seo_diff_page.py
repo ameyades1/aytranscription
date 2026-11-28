@@ -13,7 +13,9 @@ side by side, paragraphs aligned, with removed words marked on the left and adde
 right. Above the texts, an SEO details table shows the talk's blog/seo.json for the language, and a
 panel shows blog/seo_fix.md: the language's change table (Where, Before, After, Why) and the other
 sections. Each change's reason is also shown under its paragraph in the diff, and the focus
-keyword is underlined wherever it appears. Only the list of talks and topic names is written into
+keyword is underlined wherever it appears. For Hindi, when the talk has blog/hindi_register.md (from
+/hindi_register), a third panel shows it, and paragraphs with a register edit get a "Hindi register"
+note of their own, so register edits are not mistaken for SEO changes. Only the list of talks and topic names is written into
 the page; the texts, seo.json and seo_fix.md are fetched when picked, so the page must be served
 over HTTP.
 """
@@ -91,6 +93,7 @@ DIFF_CSS = """
 .why { display: block; margin-top: .5rem; padding: .4rem .6rem; border-left: 3px solid var(--gold); background: var(--panel);
        font-size: .82rem; line-height: 1.55; color: var(--muted); white-space: normal; }
 .why b { color: var(--ink-strong); }
+.why.reg { border-left-color: #6b8e5a; background: #f0f4ec; }
 mark.kw { background: none; color: inherit; text-decoration: underline; text-decoration-color: var(--gold);
           text-decoration-thickness: 3px; text-underline-offset: 3px; }
 .diff .cell.flash { animation: flash 1.6s ease-out; }
@@ -113,7 +116,7 @@ DIFF_JS = """
   var DATA = JSON.parse(document.getElementById('data').textContent);
   var blogSel = document.getElementById('blog'), langSel = document.getElementById('lang');
   var onlySel = document.getElementById('only'), out = document.getElementById('out'), stats = document.querySelector('.stats');
-  var details = document.getElementById('details'), fix = document.getElementById('fix');
+  var details = document.getElementById('details'), fix = document.getElementById('fix'), reg = document.getElementById('reg');
   var cache = {}, run = 0;
 
   function load(url, optional) {
@@ -238,6 +241,36 @@ DIFF_JS = """
     });
     return [l, r, del, add];
   }
+  // ---- blog/hindi_register.md: the Replaced lines as {old, new} ----
+  function parseReg(md) {
+    var list = [];
+    if (!md) return list;
+    var rep = (md.split(/^## Replaced/m)[1] || '').split(/^## /m)[0];
+    rep.split('\\n').forEach(function (l) {
+      var m = l.match(/^- [^:]*:\\s*(.+?)\\s*→\\s*(.+)$/);
+      if (m) list.push({ old: m[1].trim(), now: m[2].replace(/\\s*\\(.*\\)\\s*$/, '').trim(), line: l.slice(2) });
+    });
+    return list;
+  }
+  function renderReg(text, lang) {
+    var panel = document.getElementById('p-reg');
+    if (lang !== 'hi' || text === null) { panel.hidden = true; return []; }
+    panel.hidden = false;
+    reg.innerHTML = '<p class="missing">Edits made after the SEO fix by <code>/hindi_register</code> ' +
+      '(tatsama-leaning Hindi, one name for Acharya Ji). They are not SEO changes.</p><div class="md">' + md(text) + '</div>';
+    return parseReg(text);
+  }
+  // the register edits whose new wording is in this paragraph
+  // (and, when the original paragraph is known, whose old wording is in that one)
+  function matchReg(text, regRows, orig) {
+    if (!regRows || !regRows.length || !text) return [];
+    var p = norm(text), o = orig ? norm(orig) : null;
+    return regRows.filter(function (r) {
+      var n = norm(r.now), w = norm(r.old);
+      return n && p.indexOf(n) >= 0 && (o === null || o.indexOf(w) >= 0);
+    });
+  }
+
   // index of the change row whose After text is in this paragraph, else -1
   function matchFix(text, fixRows) {
     if (!fixRows || !text) return -1;
@@ -253,7 +286,7 @@ DIFF_JS = """
     return -1;
   }
 
-  function render(a, b, fixRows, keyword) {
+  function render(a, b, fixRows, keyword, regRows) {
     var rows = [], changed = 0, del = 0, add = 0;
     var parts = Diff.diffArrays(paras(a), paras(b));
     for (var i = 0; i < parts.length; i++) {
@@ -270,7 +303,7 @@ DIFF_JS = """
         changed++;
         if (k < rem.length && k < ins.length) {
           var w = wordDiff(rem[k], ins[k]);
-          rows.push(['changed', w[0], w[1], ins[k]]); del += w[2]; add += w[3];
+          rows.push(['changed', w[0], w[1], ins[k], rem[k]]); del += w[2]; add += w[3];
         } else if (k < rem.length) {
           rows.push(['changed', '<del>' + html(rem[k]) + '</del>', null, null]); del += count(words(rem[k]));
         } else {
@@ -289,6 +322,9 @@ DIFF_JS = """
           right += '<span class="why"><b>' + html(f.where || 'Change') + ':</b> ' + marked.parseInline(f.why || '') + '</span>';
           extra = ' data-fix="' + m + '"';
         }
+        var rr = r[0] === 'changed' ? matchReg(r[3], regRows, r[4]) : [];
+        if (rr.length) right += '<span class="why reg"><b>Hindi register:</b> ' +
+          rr.map(function (x) { return html(x.old) + ' → ' + html(x.now); }).join('; ') + '</span>';
         return cell(r[0], 'l', r[1], extra) + cell(r[0], 'r', right, extra);
       }).join('');
     if (keyword) highlight(keyword);
@@ -334,10 +370,11 @@ DIFF_JS = """
     Promise.all([load('../' + name + '/' + name + '_blog' + sfx + '.txt'),
                  load('../' + name + '/' + name + '_blog_seo' + sfx + '.txt'),
                  load('../' + name + '/blog/seo.json', true),
-                 load('../' + name + '/blog/seo_fix.md', true)]).then(function (t) {
+                 load('../' + name + '/blog/seo_fix.md', true),
+                 load('../' + name + '/blog/hindi_register.md', true)]).then(function (t) {
       if (me !== run) return;
       var keyword = renderDetails(t[2], lang), fixRows = renderFix(t[3], lang);
-      render(t[0], t[1], fixRows, keyword);
+      render(t[0], t[1], fixRows, keyword, renderReg(t[4], lang));
     }).catch(function (e) {
       if (me !== run) return;
       out.innerHTML = '';
@@ -442,6 +479,7 @@ def main():
   <p class="blog-link"><a id="blog-link" href="#" target="_blank" rel="noopener">Open the blog page ↗</a></p>
   <details class="panel" id="p-details" open><summary>SEO details</summary><div class="in" id="details"></div></details>
   <details class="panel" id="p-fix" open><summary>What the SEO fix changed</summary><div class="in" id="fix"></div></details>
+  <details class="panel" id="p-reg"><summary>Hindi register edits (after the SEO fix)</summary><div class="in" id="reg"></div></details>
   <p class="stats"></p>
   <p class="legend"><span><del>removed</del></span><span><ins>added</ins></span><span><mark class="kw">focus keyword</mark></span></p>
   <div class="diff" id="out"></div>
