@@ -1,0 +1,17 @@
+{
+ "type": "steps",
+ "section": {"hi": "चार युग, चार ज्ञान", "en": "Four Ages, Four Sources of Knowledge"},
+ "title": {"hi": "चार युग, चार ज्ञान (कुलार्णव तंत्र)", "en": "Four Ages, Four Sources of Knowledge (Kularnava Tantra)"},
+ "items": [
+  {"label": {"hi": "सत्ययुग: श्रुति", "en": "Satyuga: Shruti"},
+   "note": {"hi": "वेद और वेदांत, गुरु से सुना ज्ञान", "en": "the Vedas and Vedanta, heard from the Guru"}},
+  {"label": {"hi": "त्रेतायुग: स्मृति", "en": "Tretayuga: Smriti"},
+   "note": {"hi": "मनुस्मृति: समाज, परिवार और धर्म के नियम", "en": "Manusmriti: rules of society, family and dharma"}},
+  {"label": {"hi": "द्वापरयुग: पुराण", "en": "Dvaparayuga: Puranas"},
+   "note": {"hi": "भक्ति रस प्रधान", "en": "the flavour of devotion dominates"}},
+  {"label": {"hi": "कलियुग: आगम", "en": "Kaliyuga: Agamas"},
+   "note": {"hi": "अर्थात तंत्र", "en": "meaning tantra"}}
+ ],
+ "footer": {"hi": "बड़े लक्ष्यों और शीघ्र परिणाम के लिए इस युग में आगम का ज्ञान आवश्यक है।",
+            "en": "For large goals and quick results in this age, the knowledge of the Agamas is necessary."}
+}
