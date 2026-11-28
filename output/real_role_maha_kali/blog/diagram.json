@@ -1,0 +1,32 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "त्रिगुणात्मक दुर्गा: तीन गुण, तीन शक्तियाँ",
+  "en": "Durga of the Three Gunas: Three Qualities, Three Powers"
+ },
+ "title": {
+  "hi": "त्रिगुणात्मक दुर्गा की तीन शक्तियाँ",
+  "en": "The Three Powers of Durga"
+ },
+ "items": [
+  {
+   "label": {"hi": "सरस्वती", "en": "Saraswati"},
+   "note": {"hi": "सात्विक", "en": "Sattvic"},
+   "sub": {"hi": "ज्ञान", "en": "knowledge"}
+  },
+  {
+   "label": {"hi": "महालक्ष्मी", "en": "Mahalakshmi"},
+   "note": {"hi": "राजसिक", "en": "Rajasic"},
+   "sub": {"hi": "धन और ऐश्वर्य", "en": "wealth and splendour"}
+  },
+  {
+   "label": {"hi": "महाकाली", "en": "Mahakali"},
+   "note": {"hi": "तामसिक", "en": "Tamasic"},
+   "sub": {"hi": "बाकी दोनों की रक्षा", "en": "protects the other two"}
+  }
+ ],
+ "footer": {
+  "hi": "हर कार्य का आरंभ महाकाली से, अर्थात सुरक्षा से होता है।",
+  "en": "Every undertaking begins with Mahakali, that is, with protection."
+ }
+}
