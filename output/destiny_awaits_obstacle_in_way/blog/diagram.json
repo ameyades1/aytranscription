@@ -1,0 +1,27 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "तीन बुद्धियां, कचरे के साथ तीन व्यवहार",
+  "en": "Three Kinds of Mind, Three Ways of Handling the Debris"
+ },
+ "title": {
+  "hi": "कचरे के साथ तीन व्यवहार",
+  "en": "Three Ways of Handling the Debris"
+ },
+ "items": [
+  {
+   "label": {"hi": "सात्त्विक बुद्धि", "en": "Sattvic mind"},
+   "note": {"hi": "प्रार्थना: सारे विघ्न दूर हों", "en": "prays for every obstacle to be removed"}
+  },
+  {
+   "label": {"hi": "राजसिक मनुष्य", "en": "Rajasic person"},
+   "note": {"hi": "थोड़ा और पैसा, मान, सम्मान मांगता है", "en": "asks for more money, status, recognition"},
+   "sub": {"hi": "कचरा और बढ़ाता है", "en": "adds even more debris"}
+  },
+  {
+   "label": {"hi": "तामसिक मनुष्य", "en": "Tamasic person"},
+   "note": {"hi": "दूसरों की नहर में भी कचरा डालता है", "en": "dumps debris into others' channels too"},
+   "sub": {"hi": "धर्म को अधर्म समझता है", "en": "mistakes adharma for dharma"}
+  }
+ ]
+}
