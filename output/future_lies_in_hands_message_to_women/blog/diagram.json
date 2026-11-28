@@ -1,0 +1,15 @@
+{
+  "type": "steps",
+  "section": {"hi": "गुरु मां के स्वरूप में", "en": "The Guru in the Form of a Mother"},
+  "title": {"hi": "मां से विश्व गुरु तक की सीढ़ी", "en": "The ladder from mother to world Guru"},
+  "items": [
+    {"label": {"hi": "मां", "en": "Mother"},
+     "note": {"hi": "पहले मां को समझो", "en": "First understand your mother"}},
+    {"label": {"hi": "गुरु मां", "en": "Guru Maa"},
+     "note": {"hi": "तब गुरु मां समझ में आएगी", "en": "Then you will understand the Guru as mother"}},
+    {"label": {"hi": "भारत माता", "en": "Bharat Mata"},
+     "note": {"hi": "तब भारत माता समझ में आएगी", "en": "Then you will understand Mother India"}},
+    {"label": {"hi": "विश्व गुरु", "en": "World Guru"},
+     "note": {"hi": "जब भारत विश्व को मां की तरह समझे", "en": "When India understands the world as a mother would"}}
+  ]
+}
