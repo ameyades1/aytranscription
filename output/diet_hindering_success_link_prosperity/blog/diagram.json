@@ -1,0 +1,25 @@
+{
+ "type": "combine",
+ "section": {
+  "hi": "क्या भोजन केवल भोजन है?",
+  "en": "Is Food Just Food?"
+ },
+ "title": {
+  "hi": "भोजन का फल कैसे बनता है",
+  "en": "What Decides the Effect of Food"
+ },
+ "parts": [
+  {
+   "label": {"hi": "थाली का भोजन", "en": "The food on your plate"},
+   "note": {"hi": "सात्विक, राजसिक या तामसिक", "en": "sattvic, rajasic or tamasic"}
+  },
+  {
+   "label": {"hi": "उसे खरीदने वाला धन", "en": "The money that paid for it"},
+   "note": {"hi": "ईमानदार मेहनत का, या अन्याय और लूट का", "en": "honest hard work, or unjust and stolen"}
+  }
+ ],
+ "result": {
+  "label": {"hi": "भोजन का फल", "en": "The effect of the food"},
+  "note": {"hi": "दोनों मिलकर प्रभाव डालते हैं", "en": "the two work together to shape it"}
+ }
+}
