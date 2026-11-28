@@ -1,0 +1,26 @@
+{
+ "type": "compare",
+ "section": {"hi": "दो ही रास्ते हैं: ज्ञान से कर्म, या कर्म से ज्ञान", "en": "Only Two Paths: Learn First, or Learn the Hard Way"},
+ "title": {"hi": "ज्ञान तो आना ही है: दो ही रास्ते", "en": "You Will Learn Either Way: Two Paths"},
+ "columns": [
+  {
+   "label": {"hi": "ज्ञानयुक्त कर्म", "en": "Action guided by knowledge"},
+   "note": {"hi": "ज्ञान को स्वेच्छा से अपनाना", "en": "embracing the truth willingly"},
+   "items": [
+    {"hi": "पहले समझ, फिर कर्म", "en": "understand first, then act"},
+    {"hi": "बीस वर्ष में सत्संग से सीख", "en": "the lesson learnt from satsang at twenty"},
+    {"hi": "साथ में सुख और आनंद", "en": "happiness and bliss come with it"}
+   ]
+  },
+  {
+   "label": {"hi": "कर्म से ज्ञान", "en": "Learning the hard way"},
+   "note": {"hi": "ज्ञान का बलपूर्वक आना", "en": "life forces the truth on you"},
+   "items": [
+    {"hi": "कर्म करते-करते ज्ञान आना", "en": "discovering the truth through your mistakes"},
+    {"hi": "साठ में समस्या बनकर सीख", "en": "the lesson becomes a crisis at sixty"},
+    {"hi": "साथ में कटु अनुभव और दुख", "en": "bitter experience and suffering come with it"}
+   ]
+  }
+ ],
+ "vs": true
+}
