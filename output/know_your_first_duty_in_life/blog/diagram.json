@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "कर्ता बनने के चार कदम",
+  "en": "Four Steps to Becoming a True Doer"
+ },
+ "title": {
+  "hi": "प्रथम कर्तव्य के चार कदम",
+  "en": "The Four Steps of Your First Duty"
+ },
+ "items": [
+  {
+   "label": {"hi": "गुरु की खोज", "en": "Finding the Guru"},
+   "note": {"hi": "इस जन्म में योग्य गुरु को ढूँढना", "en": "seek out a worthy Guru in this life"}
+  },
+  {
+   "label": {"hi": "पुराने कर्मों को काटना", "en": "Cutting away old karma"},
+   "note": {"hi": "किए गए पापों का प्रायश्चित", "en": "prayaschitta for the sins committed"}
+  },
+  {
+   "label": {"hi": "पुण्य और साकार कार्य", "en": "Merit and tangible work"},
+   "note": {"hi": "नया, अच्छा काम जो संसार को दिखे", "en": "new, good work the world can see"}
+  },
+  {
+   "label": {"hi": "मोक्ष", "en": "Liberation"},
+   "note": {"hi": "ध्यान से मोह निकालकर विलीन होना", "en": "letting go of every attachment through meditation"}
+  }
+ ]
+}
