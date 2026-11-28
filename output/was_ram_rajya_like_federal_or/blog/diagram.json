@@ -1,0 +1,25 @@
+{
+ "type": "compare",
+ "section": {"hi": "इतिहास के महान राज्य कैसे चलते थे?", "en": "How Did History's Great Kingdoms Run?"},
+ "title": {"hi": "संघीय शासन और एकात्मक व्यवस्था", "en": "Federal System and Unitary System"},
+ "columns": [
+  {
+   "label": {"hi": "संघीय शासन", "en": "Federal system"},
+   "note": {"hi": "एक से अधिक सरकारें", "en": "more than one government"},
+   "items": [
+    {"hi": "एक केंद्र सरकार, दूसरी राज्य सरकार", "en": "a central government and a state government"},
+    {"hi": "केंद्र कोई और, राज्य कोई और", "en": "one party at the centre, another in a state"},
+    {"hi": "विचार परस्पर विरोधी हो सकते हैं", "en": "their views may clash"}
+   ]
+  },
+  {
+   "label": {"hi": "एकात्मक व्यवस्था", "en": "Unitary system"},
+   "note": {"hi": "सत्ता एक ही केंद्र में", "en": "power rests in a single centre"},
+   "items": [
+    {"hi": "एक ही हाथ, एक ही आवाज़", "en": "a single hand, a single voice"},
+    {"hi": "श्री राम, चंद्रगुप्त मौर्य, शिवाजी महाराज", "en": "Shri Rama, Chandragupta Maurya, Shivaji Maharaj"}
+   ]
+  }
+ ],
+ "footer": {"hi": "राम राज्य के लिए पूर्णतः एकात्मक व्यवस्था चाहिए।", "en": "To bring about Ram Rajya, we need a completely unitary system."}
+}
