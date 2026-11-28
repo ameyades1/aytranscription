@@ -1,0 +1,25 @@
+{
+ "type": "combine",
+ "section": {
+  "hi": "मूर्ति मानचित्र है, गुरु चालक है",
+  "en": "The Murti Is the Map, the Guru Is the Driver"
+ },
+ "title": {
+  "hi": "मानचित्र और चालक",
+  "en": "The Map and the Driver"
+ },
+ "parts": [
+  {
+   "label": {"hi": "मानचित्र: शास्त्र", "en": "The map: scriptures"},
+   "note": {"hi": "पुराण, ग्रंथ, उपनिषद; बताते हैं कहां मुड़ना है", "en": "Puranas, sacred texts, Upanishads; show where to turn"}
+  },
+  {
+   "label": {"hi": "चालक: जीवित गुरु", "en": "The driver: living Guru"},
+   "note": {"hi": "जानता है आज का रास्ता", "en": "knows today's road"}
+  }
+ ],
+ "result": {
+  "label": {"hi": "गंतव्य तक पहुंचना", "en": "Reaching the destination"},
+  "note": {"hi": "ये दोनों मिलकर पहुंचाते हैं", "en": "together they bring you there"}
+ }
+}
