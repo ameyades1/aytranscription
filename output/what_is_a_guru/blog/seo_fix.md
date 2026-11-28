@@ -53,3 +53,11 @@ Not changed:
 | focus_keyword | गुरु क्या है | what is a Guru |
 | title | गुरु क्या है? स्कंद पुराण की गुरु गीता का रहस्य | What Is a Guru? The Guru Gita and India as Vishwaguru |
 | meta_description | गुरु क्या है: एक व्यक्ति या परम सत्य का द्वार? स्कंद पुराण की गुरु गीता पर आचार्य उपेंद्र जी की टीका गुरु, कृपा और शरण का रहस्य सरल भाषा में खोलती है। | What is a Guru: a person, or the doorway to truth? Acharya Ji's Guru Gita commentary explains the Guru, grace and refuge before India is Vishwaguru. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | What Is a Guru, and Why We Must Understand It Before Becoming a Vishwaguru | What Is a Guru? The Question Before India Becomes Vishwaguru |

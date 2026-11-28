@@ -45,3 +45,11 @@ None. Both texts now use the existing focus keywords, which were already in the 
 | focus keyword | अस्थिर संसार में स्थिर क्या है | nothing lasts forever |
 | title | अस्थिर संसार में स्थिर क्या है? दुःख से मुक्ति का एक बोध | Nothing Lasts Forever: One Realisation That Frees You |
 | meta description | संसार को तुम छोड़ोगे या संसार तुम्हें छोड़ देगा। आचार्य उपेंद्र जी बताते हैं कि अस्थिर संसार में स्थिर क्या है, और पचास के बाद वानप्रस्थ का अर्थ क्या है। | Body, wealth and relationships all change. Acharya Upendra Ji explains what stays steady when nothing lasts forever, and why vanaprastha begins at home. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | One Realisation That Frees You from Suffering: Finding the Unchanging in a Changing World | Nothing Lasts Forever: The Realisation That Frees You |

@@ -44,3 +44,11 @@ The focus keywords were already the searched wording, so they are unchanged; the
 | focus_keyword | महिला नेतृत्व और वाणी की शक्ति | power of speech for women leaders |
 | title | महिला नेतृत्व और वाणी की शक्ति: स्त्री में सोई महाकाली | Power of Speech for Women Leaders: The Mahakali Within |
 | meta_description | महिला नेतृत्व और वाणी की शक्ति का क्या संबंध है? आचार्य जी गीता १०.३४, सरस्वती का सत्त्वगुण और वाक् से भीतर सोई महाकाली के जागने का अर्थ समझाते हैं। | Why is the power of speech for women leaders so vital? Acharya Ji explains Gita 10.34, Saraswati's sattva and how speech awakens the Mahakali within. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Power of Speech and the Mahakali Asleep Within Every Woman | The Power of Speech and the Mahakali Within Every Woman |

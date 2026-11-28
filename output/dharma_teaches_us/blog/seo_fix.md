@@ -40,3 +40,11 @@ None. The focus keywords, secondary keywords, titles and meta descriptions (all 
 | focus_keyword | धर्म का असली सार | true essence of dharma |
 | title | धर्म का असली सार: संत-वाणी और परमात्मा-वाणी का भेद | True Essence of Dharma: Word of Saints vs Word of God |
 | meta_description | धर्म का असली सार क्या है? आचार्य उपेंद्र जी बताते हैं कि परमात्मा की वाणी सार्वभौमिक है, संत-वाणी देश-काल से बंधी, और हर धर्म के तीन भाग हैं पर तत्त्व एक है। | What is the true essence of dharma? Acharya Upendra Ji explains how God's universal word differs from a saint's word, and the three parts of each religion. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The True Essence of Dharma: How the Word of Saints Differs from the Word of God | The True Essence of Dharma: Word of Saints vs Word of God |

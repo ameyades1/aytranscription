@@ -42,3 +42,11 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 | focus_keyword | साधना में स्वास्थ्य का महत्व | health on the spiritual path |
 | title | साधना में स्वास्थ्य का महत्व: रोगी से मुक्ति तक | Health on the Spiritual Path: From Illness to Liberation |
 | meta_description | साधना में स्वास्थ्य का महत्व: आचार्य जी चार सीढ़ियां बताते हैं, रोगी से निरोगी, भोगी, सिद्धि और मुक्ति, और क्यों मुक्ति से पहले सिद्धियों का उपयोग पतन लाता है। | Why health matters on the spiritual path: Acharya Ji maps four steps, from illness to health, enjoyment, siddhi and liberation, and why siddhis must wait. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | From Illness to Liberation: The Four Steps of the Spiritual Journey | From Illness to Liberation: Health on the Spiritual Path |

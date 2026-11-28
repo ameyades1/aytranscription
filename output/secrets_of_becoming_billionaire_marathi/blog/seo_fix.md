@@ -52,3 +52,11 @@ Still unmet (1): the Sanskrit review corrections (flags 1, 4, 5, 6) — they cha
 | focus_keyword | अरबपति बनने का रहस्य | secret of becoming a billionaire |
 | title | अरबपति बनने का रहस्य: श्रीविद्या और श्रीयंत्र साधना | Secret of Becoming a Billionaire: India's Shri Vidya |
 | meta_description | अरबपति बनने का रहस्य क्या है? मेहनत बराबर, फल अलग क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रीविद्या, श्रीयंत्र साधना और चाणक्य का सूत्र क्या सिखाते हैं। | What is the secret of becoming a billionaire? Acharya Upendra Ji explains why equal hard work brings unequal wealth and points to Shri Vidya and Chanakya. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | From Shri Vidya to Prosperity: The Forgotten Secret of Becoming a Billionaire | Shri Vidya: The Forgotten Secret of Becoming a Billionaire |

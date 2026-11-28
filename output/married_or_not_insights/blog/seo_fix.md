@@ -48,3 +48,11 @@ Focus keywords, titles, secondary keywords, the Hindi meta description, `links` 
 | meta_description | क्या पतिव्रता का अर्थ चुपचाप सब सहना है? आचार्य उपेंद्र जी बताते हैं कि पतिव्रता दबकर नहीं, तेज से जीती है, विनम्रता से ना कहती है और अन्याय कभी नहीं सहती। | What is the true pativrata meaning? Acharya Upendra Ji explains why a devoted wife lives with tej, not silent endurance: she speaks up and refuses abuse. |
 
 Hindi title exactly as in seo.json (the table above escapes its pipe): `पतिव्रता का अर्थ: दबना नहीं, तेज से जीना | आचार्य उपेंद्र जी`
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The True Meaning of Pativrata: Living with Radiance, Not in Submission | Pativrata Meaning: Living with Radiance, Not Submission |

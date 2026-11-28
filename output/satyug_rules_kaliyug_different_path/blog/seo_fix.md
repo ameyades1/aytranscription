@@ -54,3 +54,11 @@ The English focus keyword targets the same query, now in the body's spelling. "K
 | focus_keyword | कलियुग में साधना का मार्ग | spiritual path in Kaliyuga |
 | title | कलियुग में साधना का मार्ग: आगम, तंत्र और भैरव शक्ति | Spiritual Path in Kaliyuga: Agama, Tantra and Bhairava |
 | meta_description | कलियुग में साधना का मार्ग कौन सा है? आचार्य उपेंद्र जी से जानिए आगम और तंत्र का अर्थ, दक्षिण, वाम, सिद्धांत और कौल मार्ग, पंचमकार का सात्विक अर्थ और भैरव शक्ति। | What is the spiritual path in Kaliyuga? Acharya Upendra Ji on Agama and tantra, the four paths of sadhana, the sattvic Panchamakara and Bhairava Shakti. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Satyuga's Rules, Kaliyuga's Path: Bhairava Shakti and India as Vishwaguru | The Spiritual Path in Kaliyuga: Bhairava Shakti |

@@ -54,3 +54,11 @@ Report updated to match: section 2 (keyword table and mismatch note), section 3 
 | focus_keyword | गणेश जी का सिर हाथी का क्यों है | why does Ganesha have an elephant head |
 | title | गणेश जी का सिर हाथी का क्यों है, वाहन चूहा क्यों? | Why Does Ganesha Have an Elephant Head and Ride a Mouse? |
 | meta_description | गणेश जी का सिर हाथी का क्यों है, वे चूहे पर कैसे बैठते हैं? आचार्य उपेंद्र जी बताते हैं कि यह रूप प्रतीक है, जो ऋषियों ने अनंत परम तत्त्व तक ले जाने को दिया। | Why does Ganesha have an elephant head and ride a mouse? Acharya Upendra Ji explains why the sages gave the formless Infinite a form full of symbols. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | How Did Ganapati Get an Elephant's Head, and How Does He Ride a Mouse? | Why Does Ganesha Have an Elephant Head and Ride a Mouse? |

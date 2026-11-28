@@ -52,3 +52,11 @@ The focus keywords (both kept: the body now uses them), secondary keywords, both
 | focus_keyword | गुरु से कुंडलिनी जागरण | Kundalini awakening through a Guru |
 | title | गुरु से कुंडलिनी जागरण: सात चक्र, सात तरह का जीवन | Kundalini Awakening Through a Guru: 7 Chakras of Life |
 | meta_description | गुरु से कुंडलिनी जागरण कैसे होता है? आचार्य जी बताते हैं कि सात चक्र सात तरह के जीवन हैं, और समर्थ गुरु का शक्तिपात जन्मों की यात्रा कैसे तेज़ करता है। | Kundalini awakening through a Guru: Acharya Ji explains the seven chakras as seven ways of living, and how a competent Guru's shaktipat speeds the journey. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Competent Guru and Kundalini: Many Lifetimes of Progress in One Sadhana | Kundalini Awakening Through a Guru: Lifetimes in One Sadhana |

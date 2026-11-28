@@ -48,3 +48,11 @@ The focus keywords stay: the searched wording "गणेश चतुर्थ�
 | focus_keyword | त्योहारों का आध्यात्मिक क्रम | spiritual order of Hindu festivals |
 | title | गणेश चतुर्थी से दिवाली तक: त्योहारों का आध्यात्मिक क्रम | Spiritual Order of Hindu Festivals: Ganapati to Diwali |
 | meta_description | पहले गणपति, फिर पितृपक्ष, नवरात्रि और दिवाली क्यों? आचार्य उपेंद्र जी बताते हैं त्योहारों का आध्यात्मिक क्रम: हर त्योहार नर से नारायण की यात्रा का पड़ाव है। | Why Ganapati, then Pitru Paksha, Navratri and Diwali? Acharya Upendra Ji explains the spiritual order of Hindu festivals, a journey from Nara to Narayana. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Hidden Spiritual Sequence of Festivals from Ganapati to Diwali | The Spiritual Order of Hindu Festivals: Ganapati to Diwali |

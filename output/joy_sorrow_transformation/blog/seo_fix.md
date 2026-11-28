@@ -44,3 +44,11 @@ The focus keywords, secondary keywords, `title` (both already contain the focus 
 | focus_keyword | सुख-दुःख का असली कारण | why some people are always unhappy |
 | title | सुख-दुःख का असली कारण: धारणा शक्ति की एक कथा | Why Some People Are Always Unhappy: Dharana Shakti |
 | meta_description | सुख-दुःख का असली कारण क्या है? एक पिता, दो पुत्र और एक अनोखे प्रयोग की कथा से आचार्य उपेंद्र जी बताते हैं कि सुख-दुःख बाहर नहीं, मन की धारणा शक्ति में है। | Why some people are always unhappy: through the story of a father and two sons, Acharya Upendra Ji shows that joy and sorrow come from dharana shakti. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | A Horse in the Dung, Tears Among the Toys: The Secret of Dharana Shakti | Why Some People Are Always Unhappy: Dharana Shakti |

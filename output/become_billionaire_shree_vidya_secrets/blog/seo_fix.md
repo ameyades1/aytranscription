@@ -50,3 +50,11 @@ The old focus keywords "श्री विद्या" / "Shri Vidya" are stil
 | focus_keyword | श्री विद्या और धन | Shri Vidya and wealth |
 | title | श्री विद्या और धन: भोग से मोक्ष तक का रहस्य | Shri Vidya and Wealth: From Bhoga to Moksha |
 | meta_description | श्री विद्या और धन का क्या संबंध है? आचार्य उपेंद्र जी बताते हैं कि श्री विद्या धन कमाना, उसका नियोजन और दान सिखाकर भोग और मोक्ष, दोनों एक साथ देती है। | What is the link between Shri Vidya and wealth? Acharya Upendra Ji explains how it teaches earning, planning and giving wealth, for both bhoga and moksha. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Shri Vidya: The Ancient Secret of Wealth, Dharma and Liberation | Shri Vidya and Wealth: The Path from Bhoga to Moksha |

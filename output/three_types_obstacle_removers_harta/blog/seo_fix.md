@@ -50,3 +50,11 @@ The report's sections 2, 3, 8 and 11 were updated to match, and section 12 (the 
 | focus_keyword | विघ्नहर्ता का अर्थ | meaning of Vighnaharta |
 | title | विघ्नहर्ता का अर्थ: तीन प्रकार के हर्ता, आप कौन से हैं? | Meaning of Vighnaharta: Three Kinds of Obstacle Removers |
 | meta_description | विघ्नहर्ता का अर्थ क्या है? आचार्य उपेंद्र जी शिवाजी महाराज, दुःशासन और सफाई अभियान के उदाहरण से समझाते हैं तीन प्रकार के हर्ता: सात्विक, राजसिक और तामसिक। | The meaning of Vighnaharta: Acharya Upendra Ji explains three kinds of harta (sattvic, rajasic, tamasic) through Shivaji, Dushasana and a clean-up drive. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Three Kinds of Harta: What Are You Taking Away, and for Whom? | The Meaning of Vighnaharta: Three Kinds of Obstacle Removers |

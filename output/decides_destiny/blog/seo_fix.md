@@ -48,3 +48,11 @@ Focus keywords, secondary keywords, titles, meta descriptions (all already conta
 | focus_keyword | भाग्य कैसे बनता है | what decides your destiny |
 | title | भाग्य कैसे बनता है? गीता के पाँच हेतु और संस्कार | What Decides Your Destiny? Karma vs Samskaras |
 | meta_description | भाग्य कैसे बनता है, कर्म से या संस्कार से? आचार्य उपेंद्र जी गीता (१८.१३-१४) के पाँच हेतु और दैव का अर्थ समझाते हैं, क्रिकेट, डॉक्टर और दान के उदाहरणों से। | What decides your destiny: past karma or the samskaras it leaves? Acharya Upendra Ji explains the Gita's five causes of action and the meaning of daiva. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Who Writes Your Destiny? Not Your Actions, but Your Samskaras | What Decides Your Destiny? Not Actions, but Samskaras |

@@ -48,3 +48,11 @@ The English meta description changed because "really mean" did not match the foc
 | focus_keyword | भद्रं कर्णेभिः मंत्र का अर्थ | Bhadram Karnebhih meaning |
 | title | भद्रं कर्णेभिः मंत्र का अर्थ: शुभ सुनो, शुभ देखो | Bhadram Karnebhih Meaning: The Hidden Power of Positivity |
 | meta_description | भद्रं कर्णेभिः मंत्र का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि भद्र सुनना यानी कल्याणकारी सुनना, और भद्र देखना यानी हर वस्तु के पीछे का त्याग देखना। | What is the Bhadram Karnebhih meaning? Acharya Upendra Ji explains why auspicious is not pleasant, and how to see the sacrifice behind everything. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Hear What Is Auspicious, See What Is Auspicious: The Hidden Power of Positivity | Bhadram Karnebhih Meaning: The Hidden Power of Positivity |

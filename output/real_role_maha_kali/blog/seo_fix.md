@@ -45,3 +45,11 @@ The focus keywords were already the searched wording (section 2 had no mismatch)
 | focus_keyword | महाकाली की भूमिका | role of Mahakali |
 | title | महाकाली की भूमिका: सुरक्षा से ही हर शुभ आरंभ | Real Role of Mahakali: Why Every Beginning Starts With Her |
 | meta_description | दुर्गा सप्तशती का पहला खंड महाकाली का क्यों है? आचार्य उपेंद्र जी समझाते हैं महाकाली की भूमिका: ज्ञान और लक्ष्मी की रक्षा, और हर आरंभ से पहले सुरक्षा। | Why is the first part of the Durga Saptashati Mahakali's? Acharya Upendra Ji explains the role of Mahakali: guarding knowledge and wealth before all else. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Why Mahakali Comes First: The Power That Guards Every Auspicious Beginning | The Role of Mahakali: Why Every Beginning Starts with Her |

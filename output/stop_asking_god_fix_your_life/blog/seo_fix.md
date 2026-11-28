@@ -65,3 +65,11 @@ Unchanged:
 | focus keyword | भगवान से क्या माँगें | what to ask God in prayer |
 | title | भगवान से क्या माँगें? समस्या हटाना नहीं, हल करने की शक्ति | What to Ask God in Prayer: Strength, Not a Problem-Free Life |
 | meta description | भगवान से क्या माँगें? आचार्य उपेंद्र जी बताते हैं कि समस्या हटाने की नहीं, हल करने की शक्ति माँगो, और अंगूठी, रंग जैसे उपाय केवल उत्प्रेरक क्यों हैं। | What to ask God in prayer? Acharya Upendra Ji explains why to ask for the strength to solve problems, not remove them, and why remedies are only catalysts. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Don't Ask God to Remove Your Problems; Ask for the Strength to Solve Them | What to Ask God in Prayer: Strength, Not Fewer Problems |

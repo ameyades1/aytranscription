@@ -47,3 +47,11 @@ Focus keywords, secondary keywords, `title.en` (already contains the keyword), `
 | focus_keyword | देवताओं को अलग-अलग अर्पण क्यों | why different offerings to different gods |
 | title | देवताओं को अलग-अलग अर्पण क्यों? तुलसी, बिल्व पत्र, दूर्वा | Why Different Offerings to Different Gods? The Science |
 | meta_description | देवताओं को अलग-अलग अर्पण क्यों? विष्णु को तुलसी, शिव को बिल्व पत्र, गणेश को दूर्वा। आचार्य उपेंद्र जी बताते हैं अर्पण के पीछे का प्रतीकात्मक विज्ञान और ऊर्जा। | Why different offerings to different gods? Tulsi to Vishnu, bilva to Shiva, durva to Ganesha: Acharya Upendra Ji explains the symbolic science of energy. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Tulsi, Bilva Leaves and Durva Grass: The Science Behind Our Offerings | Tulsi, Bilva and Durva: The Science Behind Our Offerings |

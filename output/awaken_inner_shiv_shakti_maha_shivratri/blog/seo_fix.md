@@ -51,3 +51,11 @@ The old focus keywords are still in the body and are searched queries in their o
 | meta_description | शिवलिंग का रहस्य क्या है? आचार्य उपेंद्र जी लिंग शरीर, तीन दल वाले बिल्व पत्र और शिव शब्द का अर्थ समझाते हैं, ताकि इस महाशिवरात्रि भीतर के शिव को पहचानें। | What does the Shivling represent? Acharya Upendra Ji reads it as the subtle body and explains the three-leaved bilva and the name Shiva for Maha Shivratri. |
 
 The English title, unescaped: `What Does the Shivling Represent? | Maha Shivratri`
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | This Maha Shivratri, Discover the True Secret of the Shivling | Maha Shivratri: What Does the Shivling Represent? |

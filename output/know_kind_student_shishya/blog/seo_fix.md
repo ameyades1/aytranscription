@@ -45,3 +45,11 @@ No other field changed: the focus keywords (now in the fixed bodies), secondary 
 | focus_keyword | शिष्य के तीन प्रकार | three types of disciples |
 | title | शिष्य के तीन प्रकार: आप गुरु से क्या मांगते हैं? | Three Types of Disciples: What Do You Ask the Guru For? |
 | meta_description | तामसिक, राजसिक या सात्त्विक? आचार्य जी बताते हैं शिष्य के तीन प्रकार, बाहरी उपाय क्यों अस्थायी है, और "मैं कहां गलत था?" पूछने से कर्म कैसे सुलझता है। | Tamasic, rajasic or sattvic? Acharya Ji explains three types of disciples, why outer remedies fade, and how asking where you went wrong resolves karma. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | What Kind of Disciple Are You? Three Ways to Approach the Guru | What Kind of Disciple Are You? Three Types of Disciples |

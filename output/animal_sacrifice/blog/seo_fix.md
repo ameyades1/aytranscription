@@ -56,3 +56,11 @@ No teaching, example, verse, translation, reference, H1 or order of ideas change
 | focus_keyword | पशुबलि का अर्थ | spiritual meaning of animal sacrifice |
 | title | पशुबलि का अर्थ क्या है? भीतर के पशु की आहुति | Spiritual Meaning of Animal Sacrifice: The Beast Within |
 | meta_description | वेदों में पशुबलि का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं: पशु यानी पाश, भीतर के काम-क्रोध का बंधन, और गीता ४.३३ में ज्ञानयज्ञ क्यों श्रेष्ठ है। | What is the spiritual meaning of animal sacrifice? Acharya Upendra Ji reads pashu as pasha, the bonds within, offered in the jnana yajna of Gita 4.33. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | What Animal Sacrifice Truly Means: Offering Up the Beast Within | The Spiritual Meaning of Animal Sacrifice |

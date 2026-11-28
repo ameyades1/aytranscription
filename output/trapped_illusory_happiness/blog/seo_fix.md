@@ -64,3 +64,11 @@ No other talk uses the new slug or focus keyword.
 | focus_keyword | इंद्रिय सुख क्षणिक क्यों है | why sense pleasures fade |
 | title | इंद्रिय सुख क्षणिक क्यों है? शारीरिक आनंद का जाल | Why Sense Pleasures Fade: The Trap of Physical Bliss |
 | meta_description | इंद्रिय सुख क्षणिक क्यों है? आचार्य जी बताते हैं: शारीरिक आनंद बाहरी विषयों से बंधा है, विषय गया तो आनंद गया। यह लालसा और निर्भरता का चक्र बनाता है। | Why do sense pleasures fade so fast? Acharya Ji explains physical bliss: tied to outer objects, it breeds craving and dependency. Spot it in daily life. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Trap of Fleeting Happiness and the Truth About Physical Bliss | Why Sense Pleasures Fade: The Trap of Fleeting Happiness |

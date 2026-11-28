@@ -43,3 +43,11 @@ Nothing else changed. Both focus keywords ("अड़ियल स्वभा�
 | focus_keyword | अड़ियल स्वभाव कैसे बदलें | rigid mind vs flexible mind |
 | title | अड़ियल स्वभाव कैसे बदलें? लचीली बुद्धि का रहस्य | Rigid Mind vs Flexible Mind: Who Holds Your Destiny? |
 | meta_description | अड़ियल स्वभाव कैसे बदलें? आचार्य उपेंद्र जी बताते हैं कि "मैं तो ऐसा ही हूँ" की कठोरता से विघ्न क्यों आते हैं और ऊँचा उठने के लिए लचीली बुद्धि क्यों ज़रूरी है। | Rigid mind vs flexible mind: Acharya Upendra Ji explains why "I'm just like this" invites obstacles, and why rising higher needs a flexible intellect. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | A Stubborn Mind or a Flexible Intellect: Who Holds Your Destiny? | Rigid Mind vs Flexible Mind: Who Holds Your Destiny? |

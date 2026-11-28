@@ -50,3 +50,11 @@ English: no seo.json change. The focus keyword "worship Lord Ganesha" is already
 | focus keyword | गणपति पूजा | worship Lord Ganesha |
 | title | हर वर्ष गणपति पूजा, पर क्या हमने गणपति को समझा? | Worship Lord Ganesha Every Year? Do You Understand Him? |
 | meta description | हर वर्ष गणपति पूजा करते हैं, फिर भी इतने विघ्न क्यों? आचार्य उपेंद्र जी बताते हैं कि श्रद्धा के साथ ज्ञान क्यों ज़रूरी है और ज्ञानी भक्त कैसे बनें। | You worship Lord Ganesha every year, so why so many obstacles? Acharya Upendra Ji explains why faith needs knowledge and how to become a jnani bhakta. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | We Worship Lord Ganesha Every Year, but Have We Understood Him? | We Worship Lord Ganesha Every Year. Do We Understand Him? |

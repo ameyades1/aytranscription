@@ -57,3 +57,11 @@ The focus keywords, secondary keywords, Hindi slug (`chanting-om-at-the-time-of-
 | focus_keyword | अंतिम समय में ॐ का जाप | chanting Om at the time of death |
 | title | अंतिम समय में ॐ का जाप: क्या इससे मोक्ष मिलता है? | Chanting Om at the Time of Death: Is It Enough for Moksha? |
 | meta_description | क्या अंतिम समय में ॐ का जाप मोक्ष देता है? आचार्य उपेंद्र जी गीता के आठवें अध्याय से समझाते हैं कि अंतिम क्षण की तैयारी पूरे जीवन की साधना से होती है। | Is chanting Om at the time of death enough for moksha? Acharya Upendra Ji explains Bhagavad Gita 8 and why your last thought is shaped by a lifetime. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Om with Your Last Breath: Can You Find Liberation at the Moment of Death? | Chanting Om at the Time of Death: Is It Enough for Moksha? |

@@ -65,3 +65,11 @@ Unchanged:
 | focus keyword | चित्त वृत्ति निरोध का अर्थ | chitta vritti nirodha meaning |
 | title | चित्त वृत्ति निरोध का अर्थ: मन बार-बार क्यों बदलता है | Chitta Vritti Nirodha Meaning: Why the Mind Keeps Wandering |
 | meta description | चित्त वृत्ति निरोध का अर्थ क्या है? आचार्य उपेंद्र जी योगसूत्र १.२ से समझाते हैं कि वृत्ति कैसे प्रवृत्ति यानी आदत बनती है, और मन को स्थिर रखना ही योग क्यों है। | Chitta vritti nirodha meaning: Acharya Upendra Ji explains Yoga Sutra 1.2, how a wandering vritti hardens into a pravritti, and why steadiness is yoga. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | A Mind That Chases Every New Thing: Vritti, Pravritti and the Yoga of Steadiness | Chitta Vritti Nirodha: Why the Mind Chases Every New Thing |

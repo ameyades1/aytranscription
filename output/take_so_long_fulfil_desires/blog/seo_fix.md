@@ -60,3 +60,11 @@ Unchanged:
 | focus keyword | पाप का डर | fear of sin |
 | title | पाप का डर और हृदय ग्रंथि: पूजा-पाठ से आगे का रास्ता | Fear of Sin and the Knot in the Heart: Beyond Ritual |
 | meta description | क्या भीतर कोई आवाज़ कहती है 'तूने गलत किया'? आचार्य जी बताते हैं कि बचपन से बैठाया पाप का डर हृदय ग्रंथि कैसे बनाता है और पूजा-पाठ आरंभ क्यों है, अंत नहीं। | Does a voice keep saying "you did wrong"? Acharya Upendra Ji explains how needless fear of sin ties the heart knot, and why ritual worship is only a start. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Fear of Sin, the Knot in the Heart and the Path Beyond Ritual Worship | The Fear of Sin and the Knot in the Heart |

@@ -51,3 +51,11 @@ Report updated:
 | focus keyword | धर्मनिरपेक्षता का आध्यात्मिक अर्थ | spiritual meaning of secularism |
 | title | धर्मनिरपेक्षता का आध्यात्मिक अर्थ: धर्म की फलश्रुति दिखाओ | Spiritual Meaning of Secularism: Show the Fruits of Faith |
 | meta description | धर्मनिरपेक्षता का आध्यात्मिक अर्थ क्या है? आचार्य उपेंद्र जी: सत्य एक है, द्वेष नहीं दृढ़ता, विवेक के साथ अतिथि सत्कार, और पांच यमों की फलश्रुति। | What is the spiritual meaning of secularism? Acharya Upendra Ji on why Truth is one, welcoming guests with discernment, and living the five yamas. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Spiritual Meaning of Secularism: Show the Fruits of Your Faith | The Spiritual Meaning of Secularism |

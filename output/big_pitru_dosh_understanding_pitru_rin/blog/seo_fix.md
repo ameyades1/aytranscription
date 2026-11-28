@@ -49,3 +49,11 @@ The old focus keywords "पितृ दोष" / "pitru dosh" are broad, high-p
 | focus_keyword | पितृ दोष क्या है | what is pitru dosh |
 | title | पितृ दोष क्या है? सात पीढ़ी, सात जन्म और पितृ ऋण | What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes |
 | meta_description | पितृ दोष क्या है और एक बार का श्राद्ध काफ़ी क्यों नहीं? आचार्य उपेंद्र जी समझाते हैं पितृ ऋण, पितृ लाभ और सात पीढ़ियों व सात जन्मों के पितरों का कर्म। | What is pitru dosh, and why is one shraddha not enough? Acharya Upendra Ji explains pitru rin and the karma of seven generations across seven lifetimes. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | How Deep Pitru Dosh Runs When Your Ancestors Span Seven Lifetimes | What Is Pitru Dosh? Ancestral Karma Across Seven Lifetimes |

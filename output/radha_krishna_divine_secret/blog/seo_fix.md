@@ -50,3 +50,11 @@ Focus keywords, secondary keywords, titles, links and also_read are unchanged (t
 | focus keyword | गोपिका वल्लभ का अर्थ | Gopika Vallabha meaning |
 | title | गोपिका वल्लभ का अर्थ: जब राधा-कृष्ण ने भूमिकाएं बदलीं | Gopika Vallabha Meaning: Radha and Krishna Swap Roles |
 | meta description | गोपिका वल्लभ का अर्थ क्या है? आचार्य उपेंद्र जी बताते हैं कि राधा और कृष्ण ने भूमिकाएं बदलकर एक-दूसरे का जीवन जिया और क्यों इससे प्रेम पूर्ण होता है। | What is the Gopika Vallabha meaning? Acharya Upendra Ji tells how Radha and Krishna swapped roles, and why living your beloved's life completes love. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Secret of Gopika Vallabha: When Radha and Krishna Traded Places | Gopika Vallabha Meaning: Radha and Krishna Trade Places |

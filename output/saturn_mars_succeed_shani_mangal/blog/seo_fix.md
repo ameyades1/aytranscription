@@ -45,3 +45,11 @@ Both focus keywords were already the searched wording and are now in the `_seo` 
 | focus_keyword | शनि और मंगल का संबंध | Saturn and Mars relationship |
 | title | शनि और मंगल का संबंध: ब्रेक से सीखें सफलता का रहस्य | Saturn and Mars Relationship: Why Brakes Help You Succeed |
 | meta_description | शनि और मंगल का संबंध क्या है? आचार्य उपेंद्र जी बताते हैं सफलता के लिए गति और नियंत्रण का संतुलन, ब्रेक का असली उद्देश्य और विघ्नकर्ता गणपति का अर्थ। | What is the Saturn and Mars relationship, and why does success need both? Acharya Upendra Ji explains speed, control and the real purpose of brakes. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | The Real Secret of Brakes: What Saturn and Mars Teach Us About Success | Saturn and Mars Relationship: Why Brakes Help You Succeed |

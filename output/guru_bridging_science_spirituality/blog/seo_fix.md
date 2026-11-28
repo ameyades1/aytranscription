@@ -43,3 +43,11 @@ None. Both focus keywords stay (the `_seo` texts now use them); the slugs `guru-
 | focus keyword | विज्ञान और अध्यात्म | science and spirituality |
 | title | विज्ञान और अध्यात्म: बुद्धि के प्रश्न, आत्मा से उत्तर | Science and Spirituality: The Guru Who Answers Reason |
 | meta description | क्या प्रश्न पूछना अश्रद्धा है? आचार्य उपेंद्र जी गीता ३.४२ से बताते हैं कि विज्ञान और अध्यात्म को जोड़ने के लिए गुरु को बुद्धि की भाषा में उत्तर देना होगा। | Is questioning your faith wrong? Acharya Upendra Ji uses Gita 3.42 to show why science and spirituality meet in a Guru who can answer the intellect. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | When the Questions Come from Science, Let the Answers Come from the Self | Science and Spirituality: Answers That Come from the Self |

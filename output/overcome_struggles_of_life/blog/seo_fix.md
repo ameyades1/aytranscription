@@ -47,3 +47,11 @@ Still unmet: none. The report had no section 12 before this fix; it was added wi
 | focus_keyword | जीवन के संघर्षों को कैसे पार करें | how to overcome struggles in life |
 | title | जीवन के संघर्षों को कैसे पार करें? गीता 2.14 का उत्तर | How to Overcome Struggles in Life: What the Gita Teaches |
 | meta_description | जीवन के संघर्षों को कैसे पार करें? गीता 2.14 से आचार्य जी बताते हैं: कोई कठिन स्थिति स्थायी नहीं, सहनशीलता पहला कदम है, स्थिति बदलने के लिए कर्म करना होगा। | How to overcome struggles in life? Through Gita 2.14, Acharya Ji shows that no hardship is permanent and endurance is the first step, not the last. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Whatever Comes Must Also Go: Overcoming Life's Struggles with the Gita | How to Overcome Struggles in Life: What the Gita Teaches |

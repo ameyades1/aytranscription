@@ -48,3 +48,11 @@ No other talk uses either focus keyword or the new slug. `links`, `also_read`, a
 | focus_keyword | सत्व रज तम का संतुलन | balance the three gunas |
 | title | सत्व रज तम का संतुलन: तीन डोरियाँ जो बाँधती भी हैं | How to Balance the Three Gunas: Three Cords That Bind |
 | meta_description | संस्कृत में गुण का अर्थ है डोरी। आचार्य उपेंद्र जी समझाते हैं कि सत्वगुण भी क्यों बाँधता है, और जीवन में सत्व रज तम का संतुलन कैसे साधें। | Guna means cord: sattva, rajas and tamas are the cords of maya. Acharya Upendra Ji explains why even sattva binds and how to balance the three gunas daily. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Sattva, Rajas and Tamas: Three Cords That Bind Us and Also Move Us | How to Balance the Three Gunas: Sattva, Rajas and Tamas |

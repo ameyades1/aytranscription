@@ -67,3 +67,11 @@ Report: section 11 holds the same JSON. Section 2 has a new keyword note. Sectio
 | focus keyword | पूरी कोशिश के बाद भी संघर्ष क्यों | struggling despite trying your best |
 | title | पूरी कोशिश के बाद भी संघर्ष क्यों? ज्ञानयुक्त कर्म का रहस्य | Struggling Despite Trying Your Best? Act with Understanding |
 | meta description | पूरी कोशिश के बाद भी संघर्ष क्यों? आचार्य जी बताते हैं: ज्ञान आना ही है, या समझ से या कटु अनुभव से। कर्म से पहले चिंतन करें और हर अनुभव से सीखें। | Struggling despite trying your best? Acharya Ji explains that life teaches either way: through understanding before you act, or through bitter experience. |
+
+## Title update (28 November 2026)
+
+The English H1 was shortened to one idea of at most 60 characters with the focus keyword in natural form (title rules added to the prompts on this date). The Hindi H1, seo.json and the rest of the text are unchanged.
+
+| Where | Before | After |
+|---|---|---|
+| H1 (English) | Why Do We Struggle Despite Our Best Efforts? The Secret of Acting with Understanding | Struggling Despite Trying Your Best? Act with Understanding |
