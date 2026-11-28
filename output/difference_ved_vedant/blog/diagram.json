@@ -1,0 +1,13 @@
+{
+  "type": "steps",
+  "section": {"hi": "कर्मकांड से ज्ञान कांड तक", "en": "From Ritual to Knowledge"},
+  "title": {"hi": "वेद के तीन कांड", "en": "The three kandas of the Veda"},
+  "items": [
+    {"label": {"hi": "कर्मकांड", "en": "Karma kanda"},
+     "note": {"hi": "पूजा-पाठ, यज्ञ आदि", "en": "Worship, recitation, yajnas"}},
+    {"label": {"hi": "उपासना कांड", "en": "Upasana kanda"},
+     "note": {"hi": "उसके आगे का स्तर", "en": "The level beyond ritual"}},
+    {"label": {"hi": "ज्ञान कांड", "en": "Jnana kanda"},
+     "note": {"hi": "वेदांत, जहां जानना पूर्ण होता है", "en": "Vedanta, where knowing reaches completion"}}
+  ]
+}
