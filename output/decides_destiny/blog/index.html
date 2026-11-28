@@ -219,6 +219,42 @@ img { max-width: 100%; display: block; }
 .rel-card strong { display: block; font-size: 1rem; line-height: 1.45; color: var(--ink-strong); font-weight: 600; }
 .rel-card p { font-size: .85rem; line-height: 1.55; color: var(--muted); margin: .4rem 0 0; }
 @media print { .related, .also-read { display: none; } }
+/* Text diagrams (tools/diagram.py); the same rules are in the importer plugin for WordPress */
+.ay-diagram { --ay-ink: #2b2520; --ay-muted: #6f6253; --ay-accent: #7a4a1c; --ay-gold: #c0975a; --ay-rule: #e9dcc8; --ay-panel: #faf5ec;
+  margin: 2rem 0; padding: 1.4rem 1.2rem 1rem; box-sizing: border-box; border: 1px solid var(--ay-rule); border-radius: 14px; color: var(--ay-ink);
+  font-size: 1.05rem; line-height: 1.5; }
+.wp-block-group.ay-diagram.ay-diagram { padding: 1.4rem 1.2rem 1rem; margin: 2rem 0; }  /* beats themes' .entry-content > .wp-block-group */
+.ay-diagram strong { color: inherit; font-weight: 700; }
+.ay-diagram em { color: inherit; }
+.ay-diagram p { margin: 0; line-height: 1.5; }
+.ay-diagram > p:first-child { text-align: center; color: var(--ay-accent); font-size: 1.2rem; margin-bottom: 1.1rem; }
+.ay-diagram .wp-block-columns { display: flex; gap: .8rem; align-items: stretch; margin: 0; }
+.ay-diagram .wp-block-column { flex: 1 1 0; min-width: 0; margin: 0; }
+.ay-diagram .ay-box, .ay-diagram .ay-result { background: var(--ay-panel); border: 1.5px solid var(--ay-gold); border-radius: 10px; padding: .8rem .9rem; text-align: center; }
+.ay-diagram .ay-box > p:first-child, .ay-diagram .ay-result > p:first-child { font-size: 1.1rem; }
+.ay-diagram .ay-box > p + p, .ay-diagram .ay-result > p + p { color: var(--ay-muted); font-size: .95rem; margin-top: .25rem; }
+.ay-diagram .ay-box ul { text-align: left; margin: .6rem 0 0; padding: .6rem 0 0 1.2rem; border-top: 1px solid var(--ay-rule); font-size: .95rem; line-height: 1.5; }
+.ay-diagram .ay-alt { background: #fff; border-color: var(--ay-rule); }
+.ay-diagram .ay-vs { flex: 0 0 auto; align-self: center; color: var(--ay-accent); font-weight: 700; }
+.ay-combine .wp-block-columns { position: relative; }
+.ay-combine .wp-block-column:first-child { position: relative; }
+.ay-combine .wp-block-column:first-child::after { content: "+"; position: absolute; right: -.62rem; top: 50%; transform: translate(50%, -50%); color: var(--ay-accent); font-size: 1.5rem; font-weight: 700; }
+.ay-diagram .ay-result { margin-top: 2.2rem; position: relative; background: var(--ay-accent); border-color: var(--ay-accent); color: #fff; }
+.ay-diagram .ay-result::before { content: "↓"; position: absolute; left: 50%; top: -1.95rem; transform: translateX(-50%); color: var(--ay-accent); font-size: 1.5rem; line-height: 1; }
+.ay-diagram .ay-result > p + p { color: #f3e6d6; }
+.ay-diagram .c-white { background: #fff; border-color: #c9bfb0; }
+.ay-diagram .c-red { background: #9e2a22; border-color: #9e2a22; color: #fff; }
+.ay-diagram .c-black { background: #231d1a; border-color: #231d1a; color: #fff; }
+.ay-diagram .c-red > p + p, .ay-diagram .c-black > p + p { color: rgba(255, 255, 255, .85); }
+.ay-diagram .ay-box > p:nth-child(3) { margin-top: .5rem; padding-top: .45rem; border-top: 1px dashed currentColor; }
+.ay-diagram .ay-footer { margin-top: 1rem; padding: 0; text-align: center; font-size: 1rem; color: var(--ay-accent); font-style: italic; }
+.ay-diagram .ay-footer p:lang(hi), .ay-diagram:lang(hi) .ay-footer { font-style: normal; }
+@media (max-width: 640px) {
+  .ay-diagram .wp-block-columns { flex-direction: column; }
+  .ay-diagram .ay-vs { text-align: center; }
+  .ay-combine .wp-block-column:first-child::after { right: 50%; top: auto; bottom: -.4rem; transform: translate(50%, 100%); }
+  .ay-combine .wp-block-columns { gap: 2rem; }
+}
 </style>
 </head><body>
 
