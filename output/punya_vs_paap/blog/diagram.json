@@ -1,0 +1,32 @@
+{
+ "type": "compare",
+ "vs": true,
+ "section": {
+  "hi": "पाप और पुण्य की सीधी परिभाषा",
+  "en": "A Simple Definition of Sin and Virtue"
+ },
+ "title": {
+  "hi": "एक ही रजस, पाप या पुण्य",
+  "en": "The Same Rajas, Sin or Virtue"
+ },
+ "columns": [
+  {
+   "label": {"hi": "पाप", "en": "Sin"},
+   "note": {"hi": "रजस को तमोगुण का सहारा", "en": "rajas draws its support from tamas"},
+   "items": [
+    {"hi": "बल से किसी को मारना या लूटना", "en": "strength used to beat people or rob them"}
+   ]
+  },
+  {
+   "label": {"hi": "पुण्य", "en": "Virtue"},
+   "note": {"hi": "रजोगुण सत्व से समर्थित", "en": "rajas backed by sattva"},
+   "items": [
+    {"hi": "वही बल सरस्वती, यानी ज्ञान, से जुड़े", "en": "the same strength joined with Saraswati, knowledge"}
+   ]
+  }
+ ],
+ "footer": {
+  "hi": "अपने आप में रजोगुण तटस्थ है; अंतर भाव में है।",
+  "en": "Rajas in itself is neutral; the difference lies in the intention."
+ }
+}
