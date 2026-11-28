@@ -1,0 +1,16 @@
+{
+ "type": "triad",
+ "section": {"hi": "तीन जोड़ियाँ, तीन शक्तियाँ", "en": "Three Pairs, Three Powers"},
+ "title": {"hi": "जीवन की तीन शक्तियाँ", "en": "The Three Powers of Life"},
+ "items": [
+  {"label": {"hi": "ब्रह्मा और सरस्वती", "en": "Brahma and Saraswati"},
+   "note": {"hi": "सृष्टि", "en": "Creation"},
+   "sub": {"hi": "रजस शक्ति, ज्ञान के साथ", "en": "the power of rajas, with knowledge"}},
+  {"label": {"hi": "विष्णु और लक्ष्मी", "en": "Vishnu and Lakshmi"},
+   "note": {"hi": "पालन", "en": "Sustenance"},
+   "sub": {"hi": "सत्वगुण, लक्ष्मी के साथ", "en": "sattvaguna, with Lakshmi"}},
+  {"label": {"hi": "महाकाल और महाकाली", "en": "Mahakala and Mahakali"},
+   "note": {"hi": "संहार", "en": "Dissolution"},
+   "sub": {"hi": "तमस शक्ति", "en": "the power of tamas"}}
+ ]
+}
