@@ -1,0 +1,33 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "मुक्ति की चार सीढ़ियां",
+  "en": "The Four Steps to Liberation"
+ },
+ "title": {
+  "hi": "मुक्ति की चार सीढ़ियां",
+  "en": "The Four Steps to Liberation"
+ },
+ "items": [
+  {
+   "label": {"hi": "सालोक्य", "en": "Salokya"},
+   "note": {"hi": "आध्यात्मिक लोगों के बीच रहना", "en": "living among spiritual people"}
+  },
+  {
+   "label": {"hi": "सामीप्य", "en": "Samipya"},
+   "note": {"hi": "गुरु के समीप जाना", "en": "drawing close to the Guru"}
+  },
+  {
+   "label": {"hi": "सारूप्य", "en": "Sarupya"},
+   "note": {"hi": "गुण, वाणी और कर्म उनके जैसे", "en": "qualities, speech and actions resemble theirs"}
+  },
+  {
+   "label": {"hi": "सायुज्य", "en": "Sayujya"},
+   "note": {"hi": "आप वही बन जाते हो", "en": "you become them"}
+  }
+ ],
+ "footer": {
+  "hi": "जो यहां तक पहुंचता है, उसका मोक्ष निश्चित है।",
+  "en": "Whoever reaches this point is certain to be liberated."
+ }
+}
