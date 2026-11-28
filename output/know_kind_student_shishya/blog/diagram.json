@@ -1,0 +1,32 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "तीसरा शिष्य: \"मैं कहां गलत था?\"",
+  "en": "The Third Disciple: \"Where Did I Go Wrong?\""
+ },
+ "title": {
+  "hi": "शिष्य के तीन प्रकार",
+  "en": "The Three Types of Disciples"
+ },
+ "items": [
+  {
+   "label": {"hi": "तामसिक शिष्य", "en": "Tamasic disciple"},
+   "note": {"hi": "\"मेरे लिए कुछ तो कीजिए\"", "en": "\"Please do something for me\""},
+   "sub": {"hi": "तुरंत उपाय चाहता है", "en": "wants an instant remedy"}
+  },
+  {
+   "label": {"hi": "राजसिक शिष्य", "en": "Rajasic disciple"},
+   "note": {"hi": "\"कोई मंत्र जाप करूं?\"", "en": "\"Should I chant a mantra?\""},
+   "sub": {"hi": "समाधान नहीं, केवल मन की शांति", "en": "wants peace of mind, not a solution"}
+  },
+  {
+   "label": {"hi": "सात्विक शिष्य", "en": "Sattvic disciple"},
+   "note": {"hi": "\"मैं कहां गलत था?\"", "en": "\"Where did I go wrong?\""},
+   "sub": {"hi": "उपाय नहीं, ज्ञान मांगता है", "en": "asks for knowledge, not a remedy"}
+  }
+ ],
+ "footer": {
+  "hi": "सात्विक प्रश्न ज्ञान लाता है, जिससे कर्म स्थायी रूप से सुलझता है।",
+  "en": "The sattvic question brings the knowledge that resolves karma for good."
+ }
+}
