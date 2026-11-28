@@ -1,0 +1,28 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "तो समय जाता कहां है?",
+  "en": "Where Does All the Time Go?"
+ },
+ "title": {
+  "hi": "जीवन की तीन शक्तियाँ और उनका समय",
+  "en": "Three Powers in Life and Their Time"
+ },
+ "items": [
+  {
+   "label": {"hi": "ब्रह्मा और सरस्वती", "en": "Brahma and Saraswati"},
+   "note": {"hi": "सृजन और ज्ञान की शक्ति", "en": "the power of creation and knowledge"},
+   "sub": {"hi": "उत्पत्ति का क्षण बहुत छोटा", "en": "the moment of creation is very short"}
+  },
+  {
+   "label": {"hi": "विष्णु और लक्ष्मी", "en": "Vishnu and Lakshmi"},
+   "note": {"hi": "पालन और समृद्धि की शक्ति", "en": "the power of sustenance and prosperity"},
+   "sub": {"hi": "अधिक समय पालन पर जाता है", "en": "most of your time goes into sustaining"}
+  },
+  {
+   "label": {"hi": "काली महाकाली", "en": "Kali Mahakali"},
+   "note": {"hi": "अंत और परिवर्तन की शक्ति", "en": "the power of endings and transformation"},
+   "sub": {"hi": "अंत होने में भी समय नहीं लगता", "en": "endings don't take long either"}
+  }
+ ]
+}
