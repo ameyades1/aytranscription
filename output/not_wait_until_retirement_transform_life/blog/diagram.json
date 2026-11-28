@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "जीवन के तीन पड़ाव: 33, 66, 99",
+  "en": "Three Stages of Life: 33, 66 and 99"
+ },
+ "title": {
+  "hi": "जीवन के तीन पड़ाव",
+  "en": "Three Stages of Life"
+ },
+ "items": [
+  {
+   "label": {"hi": "शरीर-बोध (33 तक)", "en": "The body (up to 33)"},
+   "note": {"hi": "घूमना, खेलना, इच्छाओं की पूर्ति", "en": "travelling, playing, fulfilling desires"}
+  },
+  {
+   "label": {"hi": "मन और बुद्धि (33 से 66)", "en": "Mind and intellect (33 to 66)"},
+   "note": {"hi": "शोध, उत्साह, नई रुचि; 60-66 तक मन भी बूढ़ा", "en": "research, enthusiasm, new interest; by 60 or 66 the mind grows old"}
+  },
+  {
+   "label": {"hi": "आत्मा (99 तक)", "en": "The Atman (up to 99)"},
+   "note": {"hi": "साठ के बाद भी कुछ नहीं बदलता", "en": "nothing changes after sixty"}
+  }
+ ],
+ "footer": {
+  "hi": "जिसे आध्यात्मिक जीवन जीने की आदत है, वह सौ वर्ष तक जी सकता है।",
+  "en": "Those used to living a spiritual life can live a full hundred years."
+ }
+}
