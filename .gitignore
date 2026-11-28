@@ -6,3 +6,7 @@ __pycache__/
 
 .playwright-mcp/
 *:Zone.Identifier
+
+# Local only: voice-clone dub experiments and copyrighted reference scans
+output/dub_mwogeViWzC0/
+references/
