@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "मृत्यु के समय क्या करना है?",
+  "en": "What Should You Do as Death Approaches?"
+ },
+ "title": {
+  "hi": "मृत्यु के समय की विधि",
+  "en": "The Method for the Time of Death"
+ },
+ "items": [
+  {
+   "label": {"hi": "इंद्रियों के द्वार बंद करना", "en": "Close the senses' gates"},
+   "note": {"hi": "सारी इंद्रियों के काम रोक देना", "en": "bringing all the senses to rest"}
+  },
+  {
+   "label": {"hi": "मन हृदय में स्थिर", "en": "Mind steady in the heart"},
+   "note": {"hi": "निःस्वार्थ भाव, बिना शर्त का प्रेम", "en": "selflessness, unconditional love for God"}
+  },
+  {
+   "label": {"hi": "प्राण तीसरे नेत्र पर", "en": "Prana at the third eye"},
+   "note": {"hi": "गुरु का स्मरण करते हुए", "en": "remembering the Guru"}
+  },
+  {
+   "label": {"hi": "ॐ का उच्चारण", "en": "Uttering Om"},
+   "note": {"hi": "\"मेरा\" स्मरण करते हुए", "en": "while remembering \"Me\""}
+  }
+ ]
+}
