@@ -1,0 +1,3 @@
+TODO : 
+37 blogs from AY Site, correlate with Free Press Journal.  Add all SEO items with "Also Read" to AY site.
+Create WP plugin to match our template Hindi / switch English with a button. See "Code" in WP template

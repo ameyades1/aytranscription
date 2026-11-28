@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Hindi Register Review</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 18mm 18mm 20mm; }
+body { font-family: "Noto Serif", "Noto Serif Devanagari", serif; font-size: 10.5pt; line-height: 1.5; color: #222; }
+h1 { font-size: 18pt; margin: 0 0 2pt; color: #6b2d0f; }
+.sub { color: #666; margin: 0 0 14pt; }
+h2 { font-size: 13pt; color: #6b2d0f; border-bottom: 1px solid #d9c3a5; padding-bottom: 2pt; margin-top: 16pt; }
+h3 { font-size: 11pt; margin: 10pt 0 3pt; }
+table { border-collapse: collapse; margin: 6pt 0; width: 100%; page-break-inside: avoid; }
+th, td { border: 1px solid #d9c3a5; padding: 3pt 6pt; text-align: left; }
+th { background: #f6eee3; }
+td.n { text-align: right; }
+td.good { color: #2e6b2e; font-weight: 700; text-align: right; }
+ul, ol { margin: 4pt 0; padding-left: 18pt; }
+li { margin: 2pt 0; }
+.box { background: #f6eee3; padding: 6pt 10pt; border-left: 3px solid #b5651d; margin: 8pt 0; }
+</style></head><body>
+
+<h1>Hindi Register of the Antar Yog Blogs</h1>
+<p class="sub">Before and after the register pass on all 146 Hindi blogs · 28 November 2026</p>
+
+<div class="box"><b>Summary.</b> The blogs were already strongly Sanskrit-leaning (tatsama). The register pass
+replaced 89 of the 126 Urdu/Persian words the rules target and 137 of the 154 other names for the speaker,
+in 77 blogs, word by word in context. Sanskrit-derived words now outnumber their Urdu/Persian
+counterparts by about <b>46 to 1</b> (it was 18 to 1). What remains (37 words, 17 names) was kept on
+purpose, with a recorded reason for each. All SEO checks pass and no English text changed.</div>
+
+<h2>1. What was measured</h2>
+<p>All 146 Hindi blogs, in the text that is published (the SEO-fixed text where it exists), about
+136,000 words. Whole words only, with plural endings; scripture verse blocks are left out. "Before" is
+the text before any register edit; "after" is the text now. The word lists and rules are in
+<code>tools/prompts/hindi_register.md</code>; the counts come from <code>tools/check_hindi_register.py</code>.</p>
+
+<h2>2. Overall result</h2>
+<table>
+<tr><th>Measure</th><th>Before</th><th>After</th></tr>
+<tr><td>Rule 1 words (Urdu/Persian words to replace)</td><td class="n">126</td><td class="good">37</td></tr>
+<tr><td>Other names for the speaker (गुरुजी, गुरुदेव, आचार्यजी, उपेंद्रजी)</td><td class="n">154</td><td class="good">17</td></tr>
+<tr><td>Rule 2 words (everyday words, allowed)</td><td class="n">228</td><td class="n">228</td></tr>
+<tr><td>Rule 3 words (archaic, never use)</td><td class="n">0</td><td class="n">0</td></tr>
+<tr><td>Blogs with no Rule 1 word</td><td class="n">83 of 146</td><td class="good">121 of 146</td></tr>
+<tr><td>Blogs with more than 5 Rule 1 words per 1,000</td><td class="n">6</td><td class="good">2</td></tr>
+<tr><td>Highest Rule 1 words per 1,000 in one blog</td><td class="n">17.5</td><td class="n">13.2</td></tr>
+<tr><td>Sanskrit-derived to Urdu/Persian, in the pairs below</td><td class="n">18 to 1</td><td class="good">46 to 1</td></tr>
+</table>
+
+<h2>3. Word by word</h2>
+<h3>Sanskrit-derived words and their Urdu/Persian counterparts</h3>
+<table>
+<tr><th>Sanskrit-derived</th><th>Before</th><th>After</th><th>Urdu/Persian</th><th>Before</th><th>After</th></tr>
+<tr><td>केवल</td><td class="n">422</td><td class="n">435</td><td>सिर्फ / सिर्फ़</td><td class="n">15</td><td class="good">2</td></tr>
+<tr><td>जीवन</td><td class="n">396</td><td class="n">396</td><td>ज़िंदगी / जिंदगी</td><td class="n">0</td><td class="n">0</td></tr>
+<tr><td>स्वयं</td><td class="n">221</td><td class="n">230</td><td>खुद / ख़ुद</td><td class="n">20</td><td class="good">11</td></tr>
+<tr><td>संसार</td><td class="n">110</td><td class="n">119</td><td>दुनिया</td><td class="n">19</td><td class="good">9</td></tr>
+<tr><td>मनुष्य</td><td class="n">88</td><td class="n">89</td><td>इंसान</td><td class="n">2</td><td class="good">1</td></tr>
+<tr><td>हृदय</td><td class="n">72</td><td class="n">72</td><td>दिल</td><td class="n">9</td><td class="good">7</td></tr>
+<tr><td>अंतर</td><td class="n">61</td><td class="n">71</td><td>फर्क</td><td class="n">11</td><td class="good">1</td></tr>
+<tr><td><b>Total</b></td><td class="n"><b>1,370</b></td><td class="n"><b>1,412</b></td><td><b>Total</b></td><td class="n"><b>76</b></td><td class="good">31</td></tr>
+</table>
+
+<h3>The other Rule 1 words</h3>
+<table>
+<tr><th>Word → replacement</th><th>Before</th><th>After</th></tr>
+<tr><td>असर → प्रभाव</td><td class="n">13</td><td class="good">2</td></tr>
+<tr><td>सवाल → प्रश्न</td><td class="n">10</td><td class="good">0</td></tr>
+<tr><td>बदलाव → परिवर्तन</td><td class="n">8</td><td class="good">1</td></tr>
+<tr><td>कोशिश → प्रयास</td><td class="n">7</td><td class="good">2</td></tr>
+<tr><td>ताकत → शक्ति</td><td class="n">7</td><td class="good">0</td></tr>
+<tr><td>इलाज → उपचार</td><td class="n">5</td><td class="good">1</td></tr>
+</table>
+
+<h3>Names for the speaker</h3>
+<table>
+<tr><th>Form</th><th>Before</th><th>After</th><th>Note</th></tr>
+<tr><td>गुरुजी</td><td class="n">71</td><td class="good">12</td><td rowspan="2">Changed to आचार्य जी where it meant Acharya Ji; the rest refer to another Guru or are in someone's quoted words.</td></tr>
+<tr><td>गुरुदेव</td><td class="n">67</td><td class="good">5</td></tr>
+<tr><td>आचार्यजी</td><td class="n">14</td><td class="good">0</td><td>Always आचार्य जी.</td></tr>
+<tr><td>उपेंद्रजी</td><td class="n">2</td><td class="good">0</td><td>Always उपेंद्र जी (added to the rules during the pass).</td></tr>
+</table>
+
+<h2>4. What was kept, and why</h2>
+<p>Every word left is listed with its reason in the talk's <code>blog/hindi_register.md</code>; a check
+confirmed that all 53 remaining flagged places appear under "Kept" there.</p>
+<table>
+<tr><th>Reason</th><th>Places</th><th>Example</th></tr>
+<tr><td>Part of the SEO title, focus keyword, a heading in search wording or an SEO link phrase</td><td class="n">15</td><td>बदलाव in "विकल्प के बिना बदलाव नहीं" (an Also read heading)</td></tr>
+<tr><td>Another Guru, or someone's quoted words of address</td><td class="n">14</td><td>"गुरुजी को पैसे दे दिए, वे उपाय कर देंगे" (a remedy-selling Guru, not Acharya Ji)</td></tr>
+<tr><td>Fixed idiom</td><td class="n">13</td><td>"दुनिया भर का जंक फूड"</td></tr>
+<tr><td>The replacement would repeat a word in the same sentence</td><td class="n">6</td><td>"विष वाला असर", where प्रभाव follows</td></tr>
+<tr><td>Stilted inside a spoken remark</td><td class="n">2</td><td>"पैसा दे दिया, खुद जाकर ले आओ"</td></tr>
+</table>
+<p>Acharya Ji's own catchphrases (for example "खुद को खाकर दिखाओ") are counted under SEO text where they
+are also the title.</p>
+
+<h2>5. Analysis</h2>
+<ul>
+<li><b>The register is now consistent.</b> The Urdu/Persian words that carry the subject (असर, सवाल,
+ताकत, फर्क, सिर्फ) are almost gone, and the speaker is "आचार्य जी" throughout, apart from 17 places
+that are not about him.</li>
+<li><b>It did not become archaic.</b> Rule 3 words stay at 0, and the everyday words of Rule 2 (तरह,
+शायद, रिश्ता, हमेशा, कीमत; 228 in all) were deliberately left, so the text still reads naturally.</li>
+<li><b>The change was small.</b> About 226 words in 136,000 (0.17%), in 77 of 146 blogs. Nothing else
+in the texts changed, so meaning, SEO and images are intact.</li>
+<li><b>The biggest gain was the name.</b> 137 of the 226 changes were the speaker's name, which
+readers notice more than single words.</li>
+<li><b>Judgement mattered.</b> 50 places were kept on purpose. A blind search-and-replace would have
+broken SEO titles and idioms, and changed other people's words.</li>
+</ul>
+
+<h2>6. Checks</h2>
+<table>
+<tr><th>Check</th><th>Result</th></tr>
+<tr><td>SEO check (<code>check_seo.py</code>), all talks</td><td>146 of 146 pass</td></tr>
+<tr><td>Pre-WordPress check (<code>verify_seo_fix.py</code>), all talks</td><td>146 of 146 pass</td></tr>
+<tr><td>Every flagged word left is recorded as kept</td><td>53 of 53</td></tr>
+<tr><td>English texts changed</td><td>none</td></tr>
+<tr><td>Blog pages with the old split title (label)</td><td>0; the 35 titles with a colon show whole</td></tr>
+<tr><td>Live GitHub Pages</td><td>deployed; edits and full titles visible</td></tr>
+<tr><td>WordPress importer (local test site, 2 talks)</td><td>Re-import updates the same posts with no duplicates; edited Hindi text, full titles, languages linked, categories, images and hreflang correct; links to talks not yet imported hidden</td></tr>
+</table>
+
+<h2>7. From now on</h2>
+<ul>
+<li>New blogs and chapters are written to the rules (<code>transcript_to_blog.txt</code>,
+<code>transcript_to_chapter.txt</code>).</li>
+<li><code>publish_blog.sh</code> checks each new blog and runs <code>/hindi_register</code> only when
+words are flagged, before the SEO steps.</li>
+</ul>
+</body></html>
