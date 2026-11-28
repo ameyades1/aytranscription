@@ -1,0 +1,25 @@
+{
+ "type": "compare",
+ "section": {"hi": "संत-वाणी: समय और स्थान के अनुसार", "en": "The Saint's Word: Shaped by Time and Place"},
+ "title": {"hi": "परमात्मा-वाणी और संत-वाणी", "en": "The Word of God and the Word of a Saint"},
+ "columns": [
+  {
+   "label": {"hi": "परमात्मा की वाणी", "en": "God's Word"},
+   "note": {"hi": "परावाणी", "en": "Paravani"},
+   "items": [
+    {"hi": "सार्वभौमिक", "en": "universal"},
+    {"hi": "भारत, अमेरिका, चांद पर भी लागू", "en": "holds in India, America, even on the moon"},
+    {"hi": "सब पर एक समान लागू", "en": "applies to everyone alike"}
+   ]
+  },
+  {
+   "label": {"hi": "संत की वाणी", "en": "A Saint's Word"},
+   "items": [
+    {"hi": "कभी-कभी वही परम तत्व की वाणी", "en": "at times the very word of the Supreme"},
+    {"hi": "कभी देश और काल तक सीमित", "en": "at times bound to time and place"},
+    {"hi": "उतना हिस्सा अस्थायी", "en": "that part is temporary"}
+   ]
+  }
+ ],
+ "footer": {"hi": "गलत दोनों में से कोई नहीं, पर दोनों में अंतर है।", "en": "Neither is wrong, but they are not the same."}
+}
