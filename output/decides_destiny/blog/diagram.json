@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "दैव: जो बाकी चारों को भी तय करता है",
+  "en": "Daiva: The Hidden Hand Behind the Other Four"
+ },
+ "title": {
+  "hi": "भाग्य कैसे बनता है",
+  "en": "How Destiny Is Made"
+ },
+ "items": [
+  {
+   "label": {"hi": "शुभ-अशुभ कर्म", "en": "Good and bad actions"},
+   "note": {"hi": "पहले किए हुए कर्म", "en": "the actions you have done in the past"}
+  },
+  {
+   "label": {"hi": "संस्कार", "en": "Samskaras"},
+   "note": {"hi": "कर्म के बाद मन में डाले गए", "en": "planted in your mind after acting"}
+  },
+  {
+   "label": {"hi": "दैव (भाग्य)", "en": "Daiva (destiny)"},
+   "note": {"hi": "विचार, शरीर, सुविधाएँ और चेष्टा भी तय करता है", "en": "decides even your thoughts, body, resources and effort"}
+  }
+ ],
+ "footer": {
+  "hi": "भाग्य कर्म से नहीं बनता, कर्मों के संस्कारों से बनता है।",
+  "en": "Your actions do not make your destiny; the samskaras they leave behind do."
+ }
+}
