@@ -1,0 +1,33 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "जब आलस्य हटता ही नहीं",
+  "en": "When Laziness Refuses to Budge"
+ },
+ "title": {
+  "hi": "आलस्य से गुणातीत तक",
+  "en": "From Laziness to Beyond the Gunas"
+ },
+ "items": [
+  {
+   "label": {"hi": "तमोगुण", "en": "Tamoguna"},
+   "note": {"hi": "आलस्य, जड़ता और अज्ञान", "en": "laziness, inertia and ignorance"}
+  },
+  {
+   "label": {"hi": "रजोगुण", "en": "Rajoguna"},
+   "note": {"hi": "कर्तव्य-बोध से", "en": "through a sense of duty"}
+  },
+  {
+   "label": {"hi": "सत्त्वगुण", "en": "Sattvaguna"},
+   "note": {"hi": "श्रेष्ठ को ही प्रिय बनाकर", "en": "by learning to love what is best"}
+  },
+  {
+   "label": {"hi": "गुणातीत", "en": "Gunatita"},
+   "note": {"hi": "तीनों गुण आपके अधीन", "en": "all three qualities serve you"}
+  }
+ ],
+ "footer": {
+  "hi": "प्रत्यक्ष गुरु का हस्तक्षेप सीधी छलांग भी करा सकता है।",
+  "en": "A Guru who steps into your life can make a direct leap possible."
+ }
+}
