@@ -1,0 +1,30 @@
+{
+ "type": "compare",
+ "section": {
+  "hi": "नोसिबो: अविश्वास का धीमा ज़हर",
+  "en": "Nocebo: The Slow Poison of Doubt"
+ },
+ "title": {
+  "hi": "एक ही दवा, दो प्रभाव",
+  "en": "One Medicine, Two Effects"
+ },
+ "columns": [
+  {
+   "label": {"hi": "प्लेसिबो प्रभाव", "en": "Placebo effect"},
+   "note": {"hi": "विश्वास से ठीक होना", "en": "healing that begins with belief"},
+   "items": [
+    {"hi": "भाव: \"ठीक हो जाऊँगा\"", "en": "the feeling: \"I will get better\""},
+    {"hi": "विश्वास ही ठीक करता है", "en": "belief itself is what heals"}
+   ]
+  },
+  {
+   "label": {"hi": "नोसिबो प्रभाव", "en": "Nocebo effect"},
+   "note": {"hi": "अविश्वास से दवा बेअसर", "en": "doubt makes medicine useless"},
+   "items": [
+    {"hi": "मन में ठाना: \"यह नहीं हो सकता\"", "en": "the mind decides: \"This can't work\""},
+    {"hi": "प्रभाव घटते-घटते समाप्त", "en": "its effect fades until it disappears"}
+   ]
+  }
+ ],
+ "vs": true
+}
