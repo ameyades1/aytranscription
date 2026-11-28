@@ -1,0 +1,32 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "एक सरल उदाहरण: सफाई अभियान",
+  "en": "A Simple Example: A Clean-Up Drive"
+ },
+ "title": {
+  "hi": "सफाई अभियान में तीन प्रकार के हर्ता",
+  "en": "Three Kinds of Harta in a Clean-Up Drive"
+ },
+ "items": [
+  {
+   "label": {"hi": "सात्विक हर्ता", "en": "Sattvic harta"},
+   "note": {"hi": "निःस्वार्थ भाव से, स्वयं सफाई करता है", "en": "pure selflessness; picks up the broom themselves"},
+   "sub": {"hi": "मान-सम्मान मिले या न मिले", "en": "recognition makes no difference"}
+  },
+  {
+   "label": {"hi": "राजसिक हर्ता", "en": "Rajasic harta"},
+   "note": {"hi": "कचरा हटाया, पर फोटो और टीवी के लिए", "en": "removes the rubbish, but for photos and TV"},
+   "sub": {"hi": "अपनी छवि और लाभ के लिए", "en": "for image and personal gain"}
+  },
+  {
+   "label": {"hi": "तामसिक हर्ता", "en": "Tamasic harta"},
+   "note": {"hi": "काम ज़बरदस्ती थोपा गया", "en": "the work has been forced on them"},
+   "sub": {"hi": "आधा-अधूरा, लापरवाह ढंग से", "en": "careless and half-finished"}
+  }
+ ],
+ "footer": {
+  "hi": "हरण सब करते हैं; महत्त्व उद्देश्य का है।",
+  "en": "Everyone takes things away; what matters is the purpose."
+ }
+}
