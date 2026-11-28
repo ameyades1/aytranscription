@@ -1,0 +1,29 @@
+{
+ "type": "steps",
+ "section": {
+  "hi": "\"हम बुद्धिजीवी हैं\": चिकित्सकों का प्रश्न",
+  "en": "\"We Are Intellectuals\": The Doctors' Question"
+ },
+ "title": {
+  "hi": "साधना की तीन सीढ़ियाँ",
+  "en": "The Three Steps of Sadhana"
+ },
+ "items": [
+  {
+   "label": {"hi": "श्रवण", "en": "Shravana (listening)"},
+   "note": {"hi": "पूरा, जब गुरु की बात बिंदुवार दोहरा सकें", "en": "complete when you can repeat the Guru's teaching point by point"}
+  },
+  {
+   "label": {"hi": "मनन", "en": "Manana (reflection)"},
+   "note": {"hi": "पूरा, जब कोई संदेह शेष न रहे", "en": "complete when no doubt remains"}
+  },
+  {
+   "label": {"hi": "निदिध्यासन", "en": "Nididhyasana"},
+   "note": {"hi": "विश्वास को अनुभव में बदलता है; तपस्या और योग्यता चाहिए", "en": "turns belief into experience; demands tapasya and qualification"}
+  }
+ ],
+ "footer": {
+  "hi": "किसी एक सीढ़ी को अधूरा छोड़ें, तो साधना रुक जाती है।",
+  "en": "Leave any one step half done, and your sadhana is held back."
+ }
+}
