@@ -247,8 +247,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .ay-diagram .wp-block-columns { flex-direction: column; }
   .ay-diagram .ay-vs { text-align: center; }
-  .ay-combine .wp-block-column:first-child::after { right: 50%; top: auto; bottom: -.4rem; transform: translate(50%, 100%); }
+  .ay-combine .wp-block-column:first-child::after { right: 50%; top: auto; bottom: -1rem; transform: translate(50%, 50%); line-height: 1; }
   .ay-combine .wp-block-columns { gap: 2rem; }
   .ay-steps .wp-block-columns { gap: 2rem; }
-  .ay-steps .wp-block-column:not(:last-child)::after { content: "↓"; right: 50%; top: auto; bottom: -1rem; transform: translate(50%, 100%); }
+  .ay-steps .wp-block-column:not(:last-child)::after { content: "↓"; right: 50%; top: auto; bottom: -1rem; transform: translate(50%, 50%); line-height: 1; }
 }
