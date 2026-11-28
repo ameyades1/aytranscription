@@ -1,0 +1,25 @@
+{
+ "type": "compare",
+ "section": {"hi": "रूप और स्वरूप में क्या अंतर है?", "en": "How Does Form Differ from Essence?"},
+ "title": {"hi": "रूप और स्वरूप", "en": "Form and Essence"},
+ "columns": [
+  {
+   "label": {"hi": "रूप", "en": "Rupa (form)"},
+   "note": {"hi": "बाहरी आकार", "en": "the outer shape"},
+   "items": [
+    {"hi": "शक्कर: छोटे सफेद दाने", "en": "sugar: small white grains"},
+    {"hi": "मिश्री हो तो बड़े टुकड़े", "en": "as mishri, large crystals"},
+    {"hi": "छूने में चिकनी", "en": "smooth to the touch"}
+   ]
+  },
+  {
+   "label": {"hi": "स्वरूप", "en": "Swarupa (essence)"},
+   "note": {"hi": "भीतर का गुण, असली स्वभाव", "en": "the quality within, the true character"},
+   "items": [
+    {"hi": "शक्कर का स्वरूप मीठा ही है", "en": "sugar is sweet by nature"},
+    {"hi": "तीखी लगी तो वह शक्कर नहीं", "en": "if it tasted hot, it was not sugar"}
+   ]
+  }
+ ],
+ "footer": {"hi": "रूप के साथ स्वरूप भी मेल खाना चाहिए।", "en": "The essence has to match the form."}
+}
