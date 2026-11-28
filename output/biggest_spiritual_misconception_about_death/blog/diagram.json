@@ -1,0 +1,34 @@
+{
+ "type": "compare",
+ "section": {
+  "hi": "मोक्ष: शरीर रहा, जीना खत्म हुआ",
+  "en": "Liberation: The Body Stays, the Living Ends"
+ },
+ "title": {
+  "hi": "मृत्यु और मोक्ष",
+  "en": "Death and Liberation"
+ },
+ "columns": [
+  {
+   "label": {"hi": "मृत्यु", "en": "Death"},
+   "note": {"hi": "जीना रह गया, शरीर चला गया", "en": "the living remains, the body is gone"},
+   "items": [
+    {"hi": "शरीर नहीं रहा, पर जीव अब भी है", "en": "the body no longer exists, the being lives on"},
+    {"hi": "कामनाएँ और वासनाएँ बची हुई हैं", "en": "desires and vasanas still remain"}
+   ]
+  },
+  {
+   "label": {"hi": "मोक्ष", "en": "Liberation"},
+   "note": {"hi": "शरीर रह गया, जीना खत्म हो गया", "en": "the body remains, the living has ended"},
+   "items": [
+    {"hi": "संसार में अब कोई रुचि नहीं बची", "en": "no interest left in the world"},
+    {"hi": "साक्षी भाव से जीता है", "en": "lives in sakshi bhava (witness consciousness)"},
+    {"hi": "दूसरों के लिए या कर्तव्य कर्म के लिए", "en": "for others or for the duties that fall to them"}
+   ]
+  }
+ ],
+ "footer": {
+  "hi": "मोक्ष मृत्यु के बाद नहीं, जीते जी होता है।",
+  "en": "Liberation happens while you are alive, not after death."
+ }
+}
