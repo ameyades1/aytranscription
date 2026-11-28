@@ -1,0 +1,32 @@
+{
+ "type": "triad",
+ "section": {
+  "hi": "स्त्री में सबसे अधिक कौन है: सरस्वती",
+  "en": "Saraswati: The Strongest Presence in a Woman"
+ },
+ "title": {
+  "hi": "स्त्री के गुण और तीन देवियाँ",
+  "en": "A Woman's Qualities and the Three Goddesses"
+ },
+ "items": [
+  {
+   "label": {"hi": "सरस्वती", "en": "Saraswati"},
+   "note": {"hi": "स्मृति, मेधा, धृति, क्षमा", "en": "memory, intelligence, steadfastness, forgiveness"},
+   "sub": {"hi": "सत्त्वगुण, स्त्री की मूल शक्ति", "en": "sattva guna, the root strength of a woman"}
+  },
+  {
+   "label": {"hi": "लक्ष्मी", "en": "Lakshmi"},
+   "note": {"hi": "श्री (समृद्धि)", "en": "shri (prosperity)"},
+   "sub": {"hi": "क्षमा में सहायक", "en": "helps with forgiveness"}
+  },
+  {
+   "label": {"hi": "महाकाली", "en": "Mahakali"},
+   "note": {"hi": "कीर्ति (यश)", "en": "kirti (fame)"},
+   "sub": {"hi": "शौर्य-गाथा ही सुनी जाती है", "en": "tales of courage are the ones people tell"}
+  }
+ ],
+ "footer": {
+  "hi": "तीनों का वर्णन है, पर सबसे अधिक सरस्वती का।",
+  "en": "All three goddesses appear in the verse, but Saraswati appears most of all."
+ }
+}
