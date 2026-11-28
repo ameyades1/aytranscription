@@ -1,0 +1,15 @@
+{
+ "type": "triad",
+ "section": {"hi": "मुख की केवल तीन अवस्थाएँ", "en": "The Mouth Has Just Three Positions"},
+ "title": {"hi": "मुख की तीन अवस्थाएँ, ॐ के तीन स्वर", "en": "Three Positions of the Mouth, Three Sounds of Om"},
+ "items": [
+  {"label": {"hi": "पूरा खुला", "en": "Fully open"},
+   "note": {"hi": "\"अ\" का स्वर आता है", "en": "the vowel \"A\" emerges"}},
+  {"label": {"hi": "आधा खुला", "en": "Half open"},
+   "note": {"hi": "केवल \"उ\" बोला जा सकता है", "en": "you can say only \"U\""}},
+  {"label": {"hi": "पूरा बंद", "en": "Fully closed"},
+   "note": {"hi": "केवल \"म\" निकलता है", "en": "only \"M\" comes out"}}
+ ],
+ "footer": {"hi": "संसार के सारे शब्द इन्हीं तीन अवस्थाओं के भीतर आ जाते हैं।",
+            "en": "Every word in the world falls within these three positions."}
+}
