@@ -32,11 +32,16 @@ Arguments: `$ARGUMENTS`. The first word is the talk name (`<name>` below).
      when the section answers that question. Keep their number and order.
    - No direct answer early: if the opening does not answer the main question, add a short
      answer (40–60 words) built only from what the blog already says.
+   - H1 (the `#` title line): when the report's H1 item fails (no primary keyword or its natural
+     form, or the English title over 60 characters), rewrite the title in that language: one
+     idea, at most 60 characters in English, the keyword in natural form, faithful to the talk.
+     List it in seo_fix.md's change table like any other edit.
    - Any other unmet checklist item that the blog text itself can fix.
 4. Edit as little as possible:
    - Never change a teaching, an example, the order of ideas or Acharya Ji's meaning. Add no
      claim, scripture or fact that the blog does not already contain.
-   - Never touch scripture verses, their translations or references, or the H1.
+   - Never touch scripture verses, their translations or references. Change the H1 only as
+     step 3 allows.
    - Keep the Markdown format of the original (headings, bold, lists, blockquotes, italics).
    - Keep every phrase in seo.json's `links` and every `also_read` heading word for word, so
      the links still work with the new text.

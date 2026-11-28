@@ -46,7 +46,7 @@ CORE TASKS
 
 4. ON-PAGE OPTIMIZATION (for each blog, in both Hindi and English)
    * SEO title, meta description (140–155 characters, with a clear reason to read), and URL slug (short, lowercase, Latin script, hyphenated, for example /law-of-karma for English, and the same with -hi for Hindi: /hi/law-of-karma-hi)
-   * A single H1. Logical H2/H3 headings, some of them phrased as natural questions
+   * A single H1, containing the primary keyword or its natural form, at most 60 characters in English; propose a new H1 when it fails. Logical H2/H3 headings, some of them phrased as natural questions
    * The primary keyword must appear word for word in the title, the meta description, the body text and (for an English keyword) the URL slug. Choose it from wording the body already uses; prefer one that appears in the first 100 words. No keyword stuffing.
    * A short "direct answer" paragraph (40–60 words) placed early, written to win featured snippets and AI overviews
    * Correct handling of Sanskrit verses: Devanagari text, transliteration, meaning, and the reference (chapter.verse)

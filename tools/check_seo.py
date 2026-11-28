@@ -17,6 +17,7 @@ Checks:
     (as the page generator places them), and every also_read heading exists
   - related has 3 talks
   - the report's section 11 holds a JSON block equal to seo.json
+  - warnings: the English title (H1) over 60 characters, or the focus keyword not in the title
   - wordpress: category is the talk's key in gallery_topics.txt; slugs are lowercase-hyphenated and
     unique across all talks; focus keywords are unique across all talks; no tag repeats a category
     name; focus keyword, 2-4 secondary keywords, meta description
@@ -254,6 +255,11 @@ def check(talk, seo, topic_keys, assign, slugs, keywords, category_names):
             for place, text in places.items():
                 if not keyword_found(text, focus):
                     err.append(f'wordpress {lang}: focus keyword {focus!r} not in the {place} (SureRank)')
+        h1 = next((l[2:].strip() for l in open(blog_txt(talk, lang), encoding='utf-8') if l.startswith('# ')), '')
+        if lang == 'en' and len(h1) > 60:
+            warn.append(f'en: the title (H1) is {len(h1)} characters (at most 60)')
+        if focus and h1 and not keyword_found(h1, focus):
+            warn.append(f'{lang}: the focus keyword is not in the title (H1)')
         if not h2s(talk, lang):
             err.append(f'{lang}: the blog has no subheading (SureRank wants at least one)')
         tags = w.get('tags', [])

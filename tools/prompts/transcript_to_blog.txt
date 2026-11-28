@@ -9,7 +9,7 @@ You are an expert editor of spiritual literature and traditional discourses (Pra
 
 ## Structure
 
-* One engaging title that captures the essence of the talk and makes its main topic clear, as a single `#` line.
+* One engaging title that captures the essence of the talk, as a single `#` line. It states one idea in about 6 to 10 words and names the talk's main topic in words a reader would search for. An optional short hook may follow a colon; never two full sentences, or a title plus a subtitle.
 * An opening paragraph that states the central question or theme of the talk, so the reader knows at once what it is about.
 * The body divided into logical sections, each under a descriptive `##` heading. Use `##` headings only: no `###` or deeper headings.
 * Smooth transitions, so the reader feels they are moving through a spiritual journey rather than reading disconnected sections.

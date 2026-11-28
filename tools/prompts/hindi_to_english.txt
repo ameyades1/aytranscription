@@ -87,6 +87,7 @@ Short Sanskrit phrases quoted in running text go in IAST with a brief English gl
 Structure:
 Keep the same Markdown layout as the Hindi: the same `#` title, `##` headings (never `###`), paragraphs, bold emphasis, lists and block quotes, and pull quotes only where the Hindi has them. Do not merge or split sections.
 Translate headings so they read as natural English headings; question-style headings stay questions.
+Translate the title's idea, not every word: at most 60 characters. If a second part after a colon would make the English longer than that, shorten it or drop it rather than translate it in full.
 If the Hindi has pull quotes, keep them short and quotable in English.
 If the Hindi contains reflective questions in italics, keep them as italic single-line paragraphs, phrased as a natural personal question to the reader.
 If the Hindi ends with a takeaways section, title it "## Key Takeaways" and keep it as short, parallel bullet points, one idea each, using the same terminology as the body.
